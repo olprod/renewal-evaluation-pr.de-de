@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  An agent is working in the Microsoft Dynamics 365 Field Service mobile app.
+
+  You need to advise the agent on the mobile app capabilities that are available to them.
+
+  Which three actions are available to the agent? Each correct answer presents part of the solution.
+questionnaireUid: 71255629-35b4-445a-b2d7-249ccea3f27c
+questions:
+  - uid: ee470646-8b76-41ae-a010-87d63985c298-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: An agent is working in the Microsoft Dynamics 365 Field Service mobile app.
+        isCorrect: true
+      - id: 1
+        text: 'You need to advise the agent on the mobile app capabilities that are available to them. '
+        isCorrect: false
+      - id: 2
+        text: Which three actions are available to the agent?
+        isCorrect: false
+      - id: 3
+        text: Each correct answer presents part of the solution.
+        isCorrect: true
+      - id: 4
+        text: Manage time entry and time tracking.
+        isCorrect: true
+uid: ee470646-8b76-41ae-a010-87d63985c298
+title: ''

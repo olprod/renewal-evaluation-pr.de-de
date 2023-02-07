@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: true
+questions:
+  - c039e8b5-c4ba-47fa-af3b-dade3aa6519e
+recommendations:
+  - a74a990b-6ec4-4d64-85d5-159e9595f1d5
+assignedGroupIds: []
+uid: e021a1be-f447-4fd3-8f95-220e3a987c84
+name: SaaS Workload

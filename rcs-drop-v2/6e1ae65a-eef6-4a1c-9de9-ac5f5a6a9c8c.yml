@@ -1,0 +1,78 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Cloud services are used for well-established functions instead of building custom service implementations.
+    description: 'Developers should use services available from a cloud provider for well-established functions like databases, encryption, identity directory, and authentication instead of writing custom versions or third-party solutions that must be integrated into the cloud provider.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Detailed error messages and verbose information are hidden from the end user/client applications. Exceptions in code are handled gracefully and logged.
+    description: 'Providing unnecessary information to end users in case of application failure should be avoided. Revealing detailed error information (call stack, SQL queries, out of range errors...) can provide attackers with valuable information about the internals of the application. Error handlers should make the application fail gracefully and log the error.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: Platform specific information (e.g. web server version) is removed from server-client communication channels.
+    description: 'Information revealing the application platform, such as HTTP banners containing framework information ("X-Powered-By", "X-ASPNET-VERSION"), are commonly used by malicious actors when mapping attack vectors of the application. HTTP headers, error messages, website footers etc. should not contain information about the application platform. Azure CDN or Cloudflare can be used to separate the hosting platform from end users, Azure API Management offers transformation policies that allow to modify HTTP headers and remove sensitive information.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: CDN (content delivery network) is used to separate the hosting platform and end-users/clients.
+    description: Azure CDN can be used to separate the hosting platform from end users. Azure CDN contains a rule engine to remove platform-specific information and headers. The use of Azure CDN or 3rd party CDN will have different cost implications depending on what is chosen for the workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: 'Application configuration is stored using a dedicated configuration management system (Azure App Configuration, Azure Key Vault etc.)'
+    description: Application configuration information can be stored together with the application itself or preferably using a dedicated configuration management system like Azure App Configuration or Azure Key Vault. Keys and secrets shouldn't be included in application configuration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: F
+    text: 'Access to data storage is identity-based, whenever possible.'
+    description: 'Protecting data at rest is required to maintain confidentiality, integrity, and availability assurances across all workloads. Cloud service providers make multiple methods of access control available - shared keys, shared signatures, anonymous access, identity provider-based. Identity provider methods (such as AAD and RBAC) are the least liable to compromise and enable more fine-grained role-based access controls.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: G
+    text: Authentication tokens are cached securely and encrypted when sharing across web servers.
+    description: 'OAuth tokens are usually cached after they''ve been acquired. Application code should first try to get tokens silently from a cache before attempting to acquire a token from the identity provider, to optimise performance and maximize availability. Tokens should be stored securely and handled as any other credentials. When there''s a need to share tokens across application servers (instead of each server acquiring and caching their own) encryption should be used.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: H
+    text: There are controls in place for this workload to detect and protect from data exfiltration.
+    description: 'Data exfiltration occurs when an internal/external malicious actor performs and unauthorized data transfer. The solution should leverage a layered approach such as, hub/spoke for network communications with deep packet inspection to detect/protect from a data exfiltration attack. Azure Firewall, UDR (User-defined Routes), NSG (Network Security Groups), Key Protection, Data Encryption, PrivateLink, and Private Endpoints are layered defenses for a data exfiltration attack. Azure Sentinel and Azure Security Center can be used to detect data exfiltration attempts and alert incident responders.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Configuration parts of an application typically contain very sensitive data like connection strings and keys. Make sure these places are identified and handled securely.
+isRequired: false
+legacyId: config
+uid: 6e1ae65a-eef6-4a1c-9de9-ac5f5a6a9c8c
+name: Configuration parts of an application typically contain very sensitive data like connection strings and keys.

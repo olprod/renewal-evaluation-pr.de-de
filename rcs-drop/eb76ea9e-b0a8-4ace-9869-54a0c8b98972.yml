@@ -1,0 +1,37 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses dual-write to synchronize Dynamics 365 Finance and Microsoft Dataverse instances.
+
+  The integration has an issue causing performance degradation.
+
+  You need to detect which specific issue the dual-write integration has.
+
+  Which two tools should you? Each correct answer presents part of the solution.
+
+  **NOTE**: Each correct selection is worth one point.
+questionnaireUid: 8a658caa-6a52-4e80-b66b-59e2772df016
+questions:
+  - uid: eb76ea9e-b0a8-4ace-9869-54a0c8b98972-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: A company uses dual-write to synchronize Dynamics 365 Finance and Microsoft Dataverse instances.
+        isCorrect: false
+      - id: 1
+        text: The integration has an issue causing performance degradation.
+        isCorrect: false
+      - id: 2
+        text: You need to detect which specific issue the dual-write integration has.
+        isCorrect: true
+      - id: 3
+        text: Which two tools should you?
+        isCorrect: true
+      - id: 4
+        text: Each correct answer presents part of the solution.
+        isCorrect: false
+    manualId: MB-500.1.9
+uid: eb76ea9e-b0a8-4ace-9869-54a0c8b98972
+title: ''
+manualId: ''

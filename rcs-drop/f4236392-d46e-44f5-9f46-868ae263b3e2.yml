@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You control the recovery model at the database level.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: c41f0786-8a56-4098-9782-a9a53c637df2
+questions:
+  - uid: f4236392-d46e-44f5-9f46-868ae263b3e2-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You control the recovery model at the database level.
+        isCorrect: true
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: false
+uid: f4236392-d46e-44f5-9f46-868ae263b3e2
+title: 'Otherwise, select No.'

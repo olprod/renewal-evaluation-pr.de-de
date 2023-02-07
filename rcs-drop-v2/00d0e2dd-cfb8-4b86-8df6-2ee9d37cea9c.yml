@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 6dd460ec-d259-4d01-b1df-5c0c3a7840d4
+recommendations:
+  - cf03149f-b3d0-4f9d-b62b-bde802e7c1b3
+assignedGroupIds: []
+uid: 00d0e2dd-cfb8-4b86-8df6-2ee9d37cea9c
+name: 'Go-Live - Front Door: Reliability'

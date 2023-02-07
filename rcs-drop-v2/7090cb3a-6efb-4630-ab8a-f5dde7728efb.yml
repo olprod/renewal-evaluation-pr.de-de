@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: SQL Server(s) can be automatically deployed to a new region for non-production purposes without any manual operations to recover from disaster scenarios.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: The lifecycle of the SQL Server(s) is decoupled from its dependencies.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: The time it takes to deploy an entire production environment is tested and validated.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Made sure all alerts from primary & secondary servers are integrated into your ITSM for the operation team to take actions and follow up.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: operations-tradeoffs-data-sqlvm
+uid: 7090cb3a-6efb-4630-ab8a-f5dde7728efb
+name: What reliability allowances for operations have you made?

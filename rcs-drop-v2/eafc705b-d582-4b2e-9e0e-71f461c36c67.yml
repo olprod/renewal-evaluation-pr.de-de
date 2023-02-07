@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We don't track costs for Azure.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We track costs at the subscription level.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We track costs for some individual workloads.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: We use a cost management tool to track costs for all workloads.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: 'Workload owners use a cost management tool to track their resource costs, and they are responsible for optimizing their spending.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: eafc705b-d582-4b2e-9e0e-71f461c36c67
+name: How do you track costs for Azure resources?

@@ -1,0 +1,91 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    uid: 71da030a-5320-4af9-97de-ded45e10e0a5-q-0
+    name: Having processes in place to restore applications with no business impact and data loss.
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    uid: 71da030a-5320-4af9-97de-ded45e10e0a5-q-1
+    name: Speed of recovery from a disaster or business continuity event.
+stem: 'Deployment Acceleration is the practice of handling changes so that a system maintains its integrity over time. It implements the policies, procedures, techniques, and tools that manage system change.'
+isRequired: true
+uid: 71da030a-5320-4af9-97de-ded45e10e0a5
+name: Deployment Acceleration is the practice of handling changes so that a system maintains its integrity over time.

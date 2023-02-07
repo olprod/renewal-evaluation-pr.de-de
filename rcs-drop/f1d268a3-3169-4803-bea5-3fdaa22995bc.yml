@@ -1,0 +1,43 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You create a Power Automate cloud flow with connections to SQL Server, Power BI, and Salesforce. The cloud flow environment contains a data loss prevention (DLP) policy.  
+
+  The connectors that are included in the policy are: 
+
+  Business: Microsoft Word Online, Excel Online, Power BI, and SQL Server 
+
+  Non-business: Dropbox, Salesforce, and Adobe Sign 
+
+  Blocked: Twitter 
+
+  Scope: Multiple environments 
+
+  You save the flow and receive an error. 
+
+  What is the cause of the error? 
+questionnaireUid: 5ee3a29d-5783-4c64-b7ab-b1a64eca3245
+questions:
+  - uid: f1d268a3-3169-4803-bea5-3fdaa22995bc-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You create a Power Automate cloud flow with connections to SQL Server, Power BI, and Salesforce.'
+        isCorrect: true
+      - id: 1
+        text: The cloud flow environment contains a data loss prevention (DLP) policy.
+        isCorrect: false
+      - id: 2
+        text: 'The connectors that are included in the policy are:'
+        isCorrect: false
+      - id: 3
+        text: 'Business: Microsoft Word Online, Excel Online, Power BI, and SQL Server'
+        isCorrect: false
+      - id: 4
+        text: 'Non-business: Dropbox, Salesforce, and Adobe Sign'
+        isCorrect: false
+    manualId: 'Question 31-PL-500.7.2 '
+uid: f1d268a3-3169-4803-bea5-3fdaa22995bc
+title: ''
+manualId: ''

@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Specify security baselines for SaaS, PaaS, and IaaS services • Specify security requirements for IoT workloads • Specify security requirements for data workloads, including SQL, Azure SQL Database, Azure Synapse, and Azure Cosmos DB • Specify security requirements for web workloads, including Azure App Service • Specify security requirements for storage workloads, including Azure Storage • Specify security requirements for containers • Specify security requirements for container orchestration'
+isRequired: true
+uid: 420d44cd-5e8d-4b1c-8deb-2500b568c236
+name: 'For example: Specify security baselines for SaaS, PaaS, and IaaS services • Specify security requirements for IoT workloads • Specify security requirements for data workloads, including SQL, Azure SQL Database, Azure Synapse, and Azure Cosmos DB • Specify security requirements for web workloads, including Azure App Service • Specify security requirements for storage workloads, including Azure Storage • Specify security requirements for containers • Specify security requirements for container orchestration '

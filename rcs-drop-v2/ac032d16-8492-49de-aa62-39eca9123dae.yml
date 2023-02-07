@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: B
+    text: Ensure Azure Databricks cluster failure resiliency tasks are in place.
+    description: Store the Hive libraries in DBFS and access them locally from the DBFS location.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Read Azure Databricks Spark logs.
+    description: 'Spark application logs which enables administrators/developers to query the logs, debug issues and investigate job run failures. This is specifically helpful to also understand exceptions across your AI workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Separate Azure Databricks Workspaces.
+    description: Deploy workspaces in multiple subscription based on service limits including Databricks workspace limits and Azure Subscription limits
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Resilient application architectures should be designed to recover gracefully from failures in alignment with defined reliability targets.
+isRequired: false
+legacyId: '1'
+uid: ac032d16-8492-49de-aa62-39eca9123dae
+name: Resilient application architectures should be designed to recover gracefully from failures in alignment with defined reliability targets.

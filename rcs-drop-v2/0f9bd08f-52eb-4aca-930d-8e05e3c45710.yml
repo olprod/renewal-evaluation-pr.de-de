@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We reviewed key considerations related to tenant isolation and scale.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'We are familiar with approaches such as isolation within a shared resource, separate resource groups, and separate subscriptions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We are familiar with the concept of bin packing when sharing resources between tenants.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: We are aware of the deployment stamps pattern for balancing tenant scale and isolation.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: 'We avoid resource organization antipatterns, including not planning for scale, using separate Azure AD tenants, and overarchitecting when scalability is not required.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Azure provides many options for organizing your resources. In a multitenant solution, there are specific tradeoffs to consider, when you plan your resource organization strategy.'
+isRequired: true
+uid: 0f9bd08f-52eb-4aca-930d-8e05e3c45710
+name: Azure provides many options for organizing your resources.

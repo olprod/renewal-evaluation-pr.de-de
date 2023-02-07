@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Built a capacity model for the application.
+    description: 'Is there a capacity model for the application identifying relationships between the utilization of various components, to capture when and how to scale-out?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Planned for expected usage patterns.
+    description: Has sufficient capacity been provisioned to handle expected usage patterns?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Validated required capacity is available within Azure Stack Hub hardware and software limits.
+    description: 'Is the required capacity, both initial and future growth, within Azure service scale limits and quotas?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: 'Validated API and SDK against for the applications required run-times and languages, to ensure required functionality is present.'
+    description: Are all APIs/SDKs validated against target runtime/languages for required functionality?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: 'Aligned with Azure Stack Hub Roadmap, for awareness of upcoming preview services and features.'
+    description: Are any preview services/capabilities useful for planning future architecture designs or patterns?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 0ce35024-47b2-4d64-986e-831b5b181968
+name: How do you ensure the required capacity and services are available on targeted stamp(s)?

@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You create a rule to open a case in the executive queue when emails arrive for the company’s CEO. You activate the rule and verify that the rule works.
+
+  You then create a second rule to open a case in the same queue when emails arrive for the company’s vice president. You activate the rule and verify that the rule works.
+
+  When you evaluate both rules together, the first rule no longer works.
+
+  You need to identify the issue.
+
+  Why does the first rule no longer work?
+questionnaireUid: f2558d82-a512-4258-bc04-b02e8ac0ac0f
+questions:
+  - uid: fdd04c86-66cb-4dbe-9709-25a0cea7fc36-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You create a rule to open a case in the executive queue when emails arrive for the company’s CEO.
+        isCorrect: false
+      - id: 1
+        text: You activate the rule and verify that the rule works.
+        isCorrect: false
+      - id: 2
+        text: You then create a second rule to open a case in the same queue when emails arrive for the company’s vice president.
+        isCorrect: false
+      - id: 3
+        text: You activate the rule and verify that the rule works.
+        isCorrect: true
+uid: fdd04c86-66cb-4dbe-9709-25a0cea7fc36
+title: ''

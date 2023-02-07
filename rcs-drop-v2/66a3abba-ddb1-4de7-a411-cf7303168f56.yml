@@ -1,0 +1,46 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Our backend API Endpoints are not publicly accessible from the internet.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: We use developer accounts to provide access to a Developer Portal and enabled developers to request subscriptions.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: We have planned or implemented a Role Based Access Control strategy to ensure granular permissions are applied to our API Management Service.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.api
+stem: ''
+isRequired: false
+uid: 66a3abba-ddb1-4de7-a411-cf7303168f56
+name: How is API Management kept secure?

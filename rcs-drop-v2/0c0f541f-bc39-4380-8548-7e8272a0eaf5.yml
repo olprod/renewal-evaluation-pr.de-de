@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 68c60223-2d84-4646-b4c8-071fa7f61174
+recommendations:
+  - 0d534ba6-8365-4e36-8a73-1fafbd8088fa
+assignedGroupIds: []
+uid: 0c0f541f-bc39-4380-8548-7e8272a0eaf5
+name: 'Go-Live - PostgreSQL: Cost Optimization'

@@ -1,0 +1,63 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: iOS/iPadOS
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Android
+    description: 'supports Android Device Administrator, Android Enterprise, and Android Open Source Project (AOSP)'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Windows
+    description: supports Windows 10/11
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: ' macOS'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: Linux
+    description: 'support includes Custom Compliance and limited settings from the settings catalog for Allowed Distributions, Device Encryptions, and Password Policy.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '6'
+    text: No compliance policies are currently in use
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Intune Compliance Policies help protect organizational data by requiring users and devices to meet some requirements.
+isRequired: true
+uid: c005bbb7-e62d-44bb-8706-fdeff66af000
+name: Intune Compliance Policies help protect organizational data by requiring users and devices to meet some requirements.

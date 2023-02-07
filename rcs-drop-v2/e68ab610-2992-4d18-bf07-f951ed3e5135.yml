@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have well-defined performance goals.
+    description: Defining performance goals allows you to build architecture that aligns to your business needs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '2'
+    text: 'We have analyzed and determined the performance bottleneck of the workload, which is critical in a distributed system.'
+    description: Understanding your performance bottlenecks is critical for designing systems that will have variable throughput over time.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '3'
+    text: We have considered unique keys to add a layer of data integrity to an Azure Cosmos DB container.
+    description: 'With unique keys, you make sure that one or more values within a logical partition is unique. Unique key policy is created as when creating a Cosmos DB container. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '4'
+    text: 'We follow SDK performance tips, such as Singleton pattern for optimal efficiency.'
+    description: An understanding of the specific SDK you are using and how it can be optimized will improve end-user experience and reduce the cost per query.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '5'
+    text: We understand the usage profiles for our data.
+    description: 'Many concurrent users, line-item DML vs Batch DML. Read vs write intensive. Read and write workloads can have different costs and performance profiles. Understanding the way users interact with the service allows you to create an appropriate data model and use the appropriate number of collections accordingly.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '6'
+    text: We have considered the use of pre-fetching data in our applications and evaluated potential improvements vs. tradeoffs.
+    description: |
+      To improve end user experience when you know additional data is required to issue a query, preloading data in the background will provide a better user experience. Azure Cosmos DB supports explicit enumeration of query result-sets putting you as the developer in control of the amount data your client code needs to manage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: e68ab610-2992-4d18-bf07-f951ed3e5135
+name: How have you assessed and configured the workload considering performance?

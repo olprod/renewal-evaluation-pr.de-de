@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Enterprise Agreement
+    description: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/enterprise-enrollment-and-azure-ad-tenants#plan-for-enterprise-agreement-enrollment'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Microsoft Customer Agreement
+    description: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/enterprise-enrollment-and-azure-ad-tenants#plan-for-the-microsoft-customer-agreement-service'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Cloud Service Provider
+    description: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/enterprise-enrollment-and-azure-ad-tenants#plan-for-the-cloud-solution-provider-service'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: Pay-as-You-Go
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'The Azure service presents a range of active subscription offers, and customers can use these offers at the same time to gain flexible billing options. Example subscriptions include Enterprise Agreement (Enterprise Agreement) Support, Microsoft Customer Agreement, Cloud Service Provider. Please Help use to understand what billing arrangement you are in today.'
+isRequired: false
+uid: 0ebd48cd-9d0c-4a82-ba19-86c763dc156c
+name: 'The Azure service presents a range of active subscription offers, and customers can use these offers at the same time to gain flexible billing options.'

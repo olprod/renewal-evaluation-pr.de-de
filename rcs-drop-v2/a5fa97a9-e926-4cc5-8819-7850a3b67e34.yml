@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: An optimized caching layer is implemented for 'hot' data scenarios.
+    description: Throughput and response times can be improved by caching frequently used data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Cache expiration is configured based on backing data changes.
+    description: 'For more optimal data management, cache expiration can be synchronized with data changes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Azure Cache for Redis Premium or Enterprise SKU is used.
+    description: Different SKUs of Azure Redis have different capabilities and different price points.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: Caching layer is geo-replicated across all considered deployment regions and across availability zones.
+    description: Caching layer is part of the standard application deployment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: An in-memory caching layer can be applied to enhance a data platform by significantly increasing read throughput and improving end-to-end client response times for hot-tier data scenarios.
+isRequired: false
+uid: a5fa97a9-e926-4cc5-8819-7850a3b67e34
+name: An in-memory caching layer can be applied to enhance a data platform by significantly increasing read throughput and improving end-to-end client response times for hot-tier data scenarios.

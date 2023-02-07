@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'There is a Core Cloud Efficiency team in our organization that stays up to date with of all the tools and principles that determine the cost and carbon footprint of our Azure workload, sets policies and goals, and communicates its efforts and its objectives to the rest of the organization.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: 'Each member of the organization has already started thinking about green software and how to contribute to the sustainability picture, and the Core Cloud Efficiency Team has dedicated time to learn more and share the advancements in sustainable operations to the rest of the organization.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: Collaboration and knowledge-sharing through internal webinars or other type of sessions to share best practices and tested guidance are promoted and encouraged for getting everyone up to speed.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Incentives to improve the sustainability of the workload environment by promoting cloud-efficient and carbon-aware applications are defined as quick ways to enforce policies and create the right culture.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 4177e62e-c966-4eb7-a512-9da98693478c
+name: How do you foster awareness and a culture of cloud efficiency in your organization?

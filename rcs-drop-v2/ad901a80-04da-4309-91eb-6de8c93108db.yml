@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Alert rules are used for resource-centric alerting.
+    description: Alerts complement visual representation of application health with proactive notifications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Automated actions are consolidated within a minimal number of Action Groups aligned with service teams.
+    description: Action Groups provide a way to organize actions and align them with responsible teams.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Automated scale operations are used to respond to excessive resource utilization.
+    description: Automated scale operations can add and remove capacity within pre-defined and tested guardrails.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Operational readiness tests are conducted as part of CI/CD processes to validate key alert rules.
+    description: 'Alerts for critical components can be triggered, tested, and validated as part of a Continuous Validation (CV) pipeline.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: A runbook is defined for critical failure scenarios that can't be met with an automated response.
+    description: 'Runbooks should contain detailed step-by-step guidance, including code snippets tailored to the target audience, for example ITOps. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'While the visual representations of application health provide invaluable operational and business insights to support issue detection and diagnosis, it relies on the readiness and interpretations of operational teams, as well as the effectiveness of subsequent human-triggered responses. Therefore, to maximize reliability, it''s necessary to implement extensive alerting to detect proactively and respond to issues in near real-time.'
+isRequired: false
+uid: ad901a80-04da-4309-91eb-6de8c93108db
+name: 'While the visual representations of application health provide invaluable operational and business insights to support issue detection and diagnosis, it relies on the readiness and interpretations of operational teams, as well as the effectiveness of subsequent human-triggered responses.'

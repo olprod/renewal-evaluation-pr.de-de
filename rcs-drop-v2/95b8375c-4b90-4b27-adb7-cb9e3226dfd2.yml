@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Design a logging and auditing strategy to support security operations • Develop security operations to support a hybrid or multi-cloud environment • Design a strategy for SIEM and SOAR • Evaluate security workflows • Evaluate a security operations strategy for incident management lifecycle • Evaluate a security operations strategy for sharing technical threat intelligence'
+isRequired: true
+uid: 95b8375c-4b90-4b27-adb7-cb9e3226dfd2
+name: 'For example: Design a logging and auditing strategy to support security operations • Develop security operations to support a hybrid or multi-cloud environment • Design a strategy for SIEM and SOAR • Evaluate security workflows • Evaluate a security operations strategy for incident management lifecycle • Evaluate a security operations strategy for sharing technical threat intelligence '

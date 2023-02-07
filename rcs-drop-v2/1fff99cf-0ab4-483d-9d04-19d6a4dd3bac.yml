@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: F
+    text: Use Azure Databricks Cost-based Optimizer.
+    description: 'Spark SQL can use a cost-based optimizer (CBO) to improve query plans by collecting critical table and column statistics and keep them up to date. Decrease runtime, decreases cluster usage.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: Use Azure Databricks shared High Concurrency clusters with Table access controls or Azure Active Directory pass-through turned on (in case of ADLS).
+    description: 'By forcing users to share an auto-scaling cluster by configuring it with maximum node count, total cost can be controlled easily.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: H
+    text: 'Enable Azure Databricks support for batch AI workloads with single user ephemeral standard clusters. '
+    description: 'To minimize cost, instead of submitting batch jobs to a cluster already created from Azure Databricks UI, submit them using the Jobs APIs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: I
+    text: Review Azure Databricks Cluster policies.
+    description: Control cost by limiting per cluster maximum cost (by setting limits on attributes whose values contribute to hourly price).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: J
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Continue to monitor and optimize the workload by using the right resources and sizes.
+isRequired: false
+legacyId: '0'
+uid: 1fff99cf-0ab4-483d-9d04-19d6a4dd3bac
+name: Continue to monitor and optimize the workload by using the right resources and sizes.

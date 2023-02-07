@@ -1,0 +1,92 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Cloud costs are being modelled for this workload.
+    description: 'Modeling allows you to identify opportunities to reduce overall cost. Estimate and track costs, educate employees about the cloud and various pricing models and have appropriate governance regarding expenditure. Use cost management tools to plan and track costs, tag resources and track that back to costs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: B
+    text: The price model of the workload is clear.
+    description: As part of driving a good behavior it's important to understand what the price of a service consists of and also that the cost is transparent and fair to the user of the service.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: C
+    text: Critical system flows through the application have been defined for all key business scenarios.
+    description: 'Understanding critical system flows is vital to assessing overall operational effectiveness, and should be used to inform a health model for the application. It can also tell if areas of the application are over or under utilized and should be adjusted to better meet business needs and cost goals.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: D
+    text: There is a well-understood capacity model for the workload.
+    description: 'A capacity model should describe the relationships between the utilization of various components as a ratio, to capture when and how application components should scale-out. For instance, scaling the number of Application Gateway v2 instances may put excess pressure on downstream components unless also scaled to a degree. When modelling capacity for critical system components it is therefore recommended that an N+1 model be applied to ensure complete tolerance to transient faults, where N describes the capacity required to satisfy performance and availability requirements. This also prevents cost-related surprises when scaling out and realizing that multiple services need to be scaled at the same time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Internal and external dependencies are identified and cost implications understood.
+    description: 'Examples of typical dependencies include platform dependencies outside the remit of the application, such as Azure Active Directory, Express Route, or a central NVA (Network Virtual Appliance), as well as application dependencies such as APIs which may be in-house or externally owned by a third-party. It’s important to understand the cost for these services and how they are being charged, this makes it easier to understand an all up cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: F
+    text: Cost implications of each Azure service used by the application are understood.
+    description: 'It is important to understand what Azure services, such as App Services and Event Hubs, are used by the application platform to host both application code and data. In a discussion around cost, this can drive decisions towards the right replacements (e.g. moving from Virtual Machines to containers to increase efficiency, or migrating to .NET Core to use cheaper SKUs etc.).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: The right operational capabilities are used for Azure services.
+    description: 'Operational capabilities, such as auto-scale and auto-heal for App Services, can reduce management overheads, support operational effectiveness and reduce cost. Make sure you understand the operational features/capabilities available and how they can be used in the solution.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: H
+    text: Special discounts given to services or licenses are factored in when calculating new cost models for services being moved to the cloud.
+    description: When alternative cost options are considered it should be understood first if any special offers or deals are given for the existing SKUs to verify that the correct prices are being used to build a business case.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: I
+    text: Azure Hybrid Use Benefit is used to drive down cost in the cloud.
+    description: Understanding your current spending on licenses can help you drive down cost in the cloud. A-HUB allows you to reuse licenses that you purchased for on-premises in Azure and via this drive down the cost as the license is already paid.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: J
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Modeling cloud costs
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4IAEi'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Cost modeling is an exercise where you create logical groups of cloud resources that are mapped to the organization's hierarchy and then estimate costs for those groups. The goal of cost modeling is to estimate the overall cost of the organization in the cloud.
+isRequired: false
+legacyId: model
+uid: 7d96bb83-c14e-4309-abb6-670262b9ad51
+name: Cost modeling is an exercise where you create logical groups of cloud resources that are mapped to the organization's hierarchy and then estimate costs for those groups.

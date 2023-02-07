@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Secure Source Management
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '1'
+    text: Automated Testing
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: CI/CD
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: Security Scanning in CI/CD
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: ''
+isRequired: true
+uid: f83d5d6b-5ad0-4962-a0dc-8e49da01d826
+name: 'Which DevOps tool set are you using? Check all that apply. '

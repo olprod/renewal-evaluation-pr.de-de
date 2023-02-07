@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need to see some examples and guidelines so we align our offers accordinlgy
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We have completed this and all colleteral is latest covering our product / offering feature list
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Does the offer content has industry used terminology, unique proposition and partner unique selling point highlighted in terms of features, methodology, framework, screenshots, reference architecture which make good first impression on prospective buyer to engage with your sales team to learn more about the solution.'
+isRequired: true
+uid: a9c70567-4771-483a-81f4-dafe7df37319
+name: 'Does the offer content has industry used terminology, unique proposition and partner unique selling point highlighted in terms of features, methodology, framework, screenshots, reference architecture which make good first impression on prospective buyer to engage with your sales team to learn more about the solution. '

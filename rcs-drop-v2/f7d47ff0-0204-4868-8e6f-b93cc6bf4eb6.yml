@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: B
+    text: Use Azure Databricks best practices around capacity planning.
+    description: 'Upfront planning is necessary to manage Azure Databricks deployments across large teams. In particular, you need to understand: Networking requirements, number and the type of Azure networking resources required to launch clusters, overall Capacity Planning process.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Consider Azure Databricks workspace capacity limits.
+    description: 'Limits are expressed at the Workspace level and are due to internal Azure Databricks components. Key workspace limits are: maximum number of jobs that a workspace can create in an hour is 1000, not more than 150 jobs simultaneously running in a workspace, maximum of 150 notebooks or execution contexts attached to a cluster, maximum number secret scopes per workspace is 100.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Consider Azure Databricks subscription capacity limits.
+    description: 'Azure limits to consider since Azure Databricks deployments are built on top of the Azure infrastructure. Key Azure limits are: storage accounts per region per subscription: 250, maximum egress for general-purpose v2 and Blob storage accounts (all regions): 50 Gbps, VMs per subscription per region: 25,000, resource groups per subscription: 980'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Azure services and capacity can vary by region, so it is important to understand if targeted regions offer required capabilities.'
+isRequired: false
+legacyId: '2'
+uid: f7d47ff0-0204-4868-8e6f-b93cc6bf4eb6
+name: 'Azure services and capacity can vary by region, so it is important to understand if targeted regions offer required capabilities.'

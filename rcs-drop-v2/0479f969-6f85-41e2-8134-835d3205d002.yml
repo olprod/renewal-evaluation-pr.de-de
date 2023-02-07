@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Chose the right VM size for the maximum network bandwidth appropriate to the SQL VM.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: Chose the right VM size for the max IOPS per machine in both primary and secondary servers.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: Chose the right VM size for the maximum number of disks to satisfy the IOPS required using storage spaces configurations.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: D
+    text: Chose the right disk tier and size to achieve the target IOPS requirements in both primary and secondary servers.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: Made sure to have enough IP addresses in the subnet that will host the SQL AG to make room to add more replicas.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Pick the right VM series that will allow future scalability.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 0479f969-6f85-41e2-8134-835d3205d002
+name: What reliability allowances for scalability and performance have you made?

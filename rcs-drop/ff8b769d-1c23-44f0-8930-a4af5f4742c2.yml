@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing an application to ingest and process large volumes of events and data by using Azure Event Hubs. You plan to implement an event processor client instance to read from multiple partitions by using the Azure Event Hubs SDK.
+
+  You need to enable state persistence for the event processor client.
+
+  Which object should you use?
+questionnaireUid: 727d131b-92a9-458b-a189-2f82cb36e6dc
+questions:
+  - uid: ff8b769d-1c23-44f0-8930-a4af5f4742c2-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing an application to ingest and process large volumes of events and data by using Azure Event Hubs.
+        isCorrect: false
+      - id: 1
+        text: You plan to implement an event processor client instance to read from multiple partitions by using the Azure Event Hubs SDK.
+        isCorrect: false
+      - id: 2
+        text: You need to enable state persistence for the event processor client.
+        isCorrect: false
+      - id: 3
+        text: Which object should you use?
+        isCorrect: true
+uid: ff8b769d-1c23-44f0-8930-a4af5f4742c2
+title: ''

@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Defender for Endpoint is currently integrated with Conditional Access for compliant devices access grant control
+    description: Microsoft Defender for Endpoint allows you to attest to the health of Windows machines and determine whether they are undergoing a compromise. You can then feed that information into mitigating risk at runtime.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Defender for Endpoint IS NOT integrated with Conditional Access
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.1
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.88377a38-1877-45ac-bf31-f69850668789.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 3ab35ecd-f814-4b36-8d9c-28ec7265c800
+name: How your organization implement Microsoft Defender for Endpoint?

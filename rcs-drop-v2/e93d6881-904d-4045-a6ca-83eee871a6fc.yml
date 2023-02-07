@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization is using a spreadsheet driven approach to managing Data Integration with heavy manual data wrangling.
+    description: Your organization is using a spreadsheet driven approach to managing Data Integration with heavy manual data wrangling.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization have identified domain specific integration of datasets and planning to implement a batch processing pattern to ingest and prepare data for analysis.
+    description: Your organization have identified domain specific integration of datasets and planning to implement a batch processing pattern to ingest and prepare data for analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has selected and piloted a batch processing approach to perform data integration of domain specific datasets.
+    description: Your organization has selected and piloted a batch processing approach to perform data integration of domain specific datasets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization is using batch processing approach that is is able to scale out computations and handle large, demanding datasets.'
+    description: 'Your organization is using batch processing approach that is is able to scale out computations and handle large, demanding datasets.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has implemented batch processing technology that ingests domain specific datasets into Landing Zone/s  in a scalable, high-performance design that is monitored and tuned for improvement.'
+    description: 'Your organization has implemented batch processing technology that ingests domain specific datasets into Landing Zone/s  in a scalable, high-performance design that is monitored and tuned for improvement.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you ingest batch data into your Landing Zone/s?
+isRequired: false
+uid: e93d6881-904d-4045-a6ca-83eee871a6fc
+name: Do you ingest batch data into your Landing Zone/s?

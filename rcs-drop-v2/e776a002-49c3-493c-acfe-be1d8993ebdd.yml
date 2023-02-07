@@ -1,0 +1,510 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider building a Data Lakehouse Architecture with Azure Synapse
+    url: 'https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/building-the-lakehouse-implementing-a-data-lake-strategy-with/ba-p/3612291'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.ba88f766-22e7-4868-9882-7c64f4ce1aea.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: 'Set up your Apache Spark™ environment in minutes, autoscale, and collaborate on shared projects in an interactive workspace using Azure Databricks.'
+    url: 'https://azure.microsoft.com/en-au/products/databricks/'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.ba88f766-22e7-4868-9882-7c64f4ce1aea.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Consider using Azure Synapse Analytics is a limitless analytics service that brings together data integration, enterprise data warehousing, and big data analytics. '
+    url: 'https://azure.microsoft.com/en-au/products/synapse-analytics/#overview'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.8c4dead5-3f4d-43b0-91d1-b0f5ab38e9b2.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Consider using Spark SQL which is a Spark module for structured data processing providing a programming abstraction called DataFrames that can also act as a distributed SQL query engine. It enables unmodified Hadoop Hive queries to run up to 100x faster on existing deployments and data.
+    url: 'https://www.databricks.com/glossary/what-is-spark-sql#:~:text=Spark%20SQL%20is%20a%20Spark,on%20existing%20deployments%20and%20data.'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.8c4dead5-3f4d-43b0-91d1-b0f5ab38e9b2.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Consider using Azure Synapse SQL which is a big data analytic service that enables you to query and analyze your data using the T-SQL language. '
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/overview-features'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.33fd19c1-81df-4fc3-9d93-98bf401eb881.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: 'Consider using Databricks UI that provides an easy-to-use graphical interface to workspace folders and their contained objects, data objects, and computational resources.'
+    url: 'Consider using Databricks UI that provides an easy-to-use graphical interface to workspace folders and their contained objects, data objects, and computational resources.'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.33fd19c1-81df-4fc3-9d93-98bf401eb881.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Create, develop, and maintain Synapse notebooks in Azure Synapse Analytics'
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-development-using-notebooks'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.8d524a46-e598-408e-8ade-4f0b1849e8fa.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Learn how you can use third-party integrated development environments (IDEs) for software development with Databricks.
+    url: 'https://docs.databricks.com/dev-tools/ide-how-to.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.8d524a46-e598-408e-8ade-4f0b1849e8fa.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Learn how to use Visual Studio to query dedicated SQL pool using Azure Synapse Analytics. '
+    url: 'https://docs.databricks.com/dev-tools/ide-how-to.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.1a3746a9-d907-4933-a5dc-3afb74a7e546.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Consider using developer tools with Databricks.
+    url: 'https://docs.databricks.com/dev-tools/index.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.1a3746a9-d907-4933-a5dc-3afb74a7e546.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Get started quickly with Azure Synapse Studio for one-stop-shop, visual interface for all your data engineering and analytics development, from data exploration to data integration to large scale data analysis. '
+    url: 'https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/quickly-get-started-with-azure-synapse-studio/ba-p/1961116'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.981fcbd5-08d0-4e33-bdab-56e860ec1add.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: 'Consider using a medallion architecture is a data design pattern used to logically organize data in a lakehouse, with the goal of incrementally and progressively improving the structure and quality of data.'
+    url: 'https://www.databricks.com/glossary/medallion-architecture'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.981fcbd5-08d0-4e33-bdab-56e860ec1add.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: Consider building the Lakehouse with Azure Synapse.
+    url: 'https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/building-the-lakehouse-implementing-a-data-lake-strategy-with/ba-p/3612291'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.8adffe0d-5227-49bc-811c-376d3d01941c.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: 'Consider creating a Spark cluster and develop and deploy your first extract, transform, and load (ETL) pipelines for data orchestration.'
+    url: 'https://docs.databricks.com/getting-started/etl-quick-start.html'
+    condition:
+      allOf: []
+      anyOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.8adffe0d-5227-49bc-811c-376d3d01941c.1
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.86bb13ed-e695-4e38-a73a-d636c81b3873.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: Consider using pipelines in Synapse Studio.
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/get-started-pipelines'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.d714a81a-6c84-44b7-98ed-f7ccd2a9e0df.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Consider using Delta Engine maximum performance for traditional analytics workloads on Delta Lake.
+    url: 'https://www.databricks.com/blog/2020/06/24/introducing-delta-engine.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.d714a81a-6c84-44b7-98ed-f7ccd2a9e0df.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: Consider using Azure Synapse Serverless SQL pool that is a query service over the data in your data lake.
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/on-demand-workspace-overview'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.e5053ea4-6a0e-48d8-b505-044f1b632f25.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Consider using Spark Structured Streaming to express computation on streaming data in the same way you express a batch computation on static data.
+    url: 'https://docs.databricks.com/structured-streaming/index.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.e5053ea4-6a0e-48d8-b505-044f1b632f25.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: Consider using Azure Synapse Data Explorer for real-time analysis on large volumes of data streaming from applications.
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/data-explorer/data-explorer-overview'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.c61cc743-c4a8-4e3a-8c0b-89c845bb1575.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Consider building the Databricks Lakehouse Platform to unify data warehousing and AI use cases on a single platform.
+    url: 'https://www.databricks.com/product/data-lakehouse'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.7153580c-cd1d-43ed-882e-be6f5c14e1b6.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Consider using Databricks Machine Learning to train, track and share and manage models.'
+    url: 'https://docs.databricks.com/machine-learning/index.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.7153580c-cd1d-43ed-882e-be6f5c14e1b6.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Consider using Azure Synapse Analytics for various machine learning capabilities, alternatively, Azure ML for accelerating and managing the machine learning project lifecycle to train and deploy models, and manage MLOps.'
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/what-is-machine-learning'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.d905d5a7-ab4a-4fa7-a489-ebe0b80529c8.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Consider using Databricks AutoML to quickly generate baseline models and notebooks and accelerate workflows.
+    url: 'https://www.databricks.com/product/automl?itm_data=product-link-autoML'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.d905d5a7-ab4a-4fa7-a489-ebe0b80529c8.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: Azure Synapse native scoring using the PREDICT T-SQL function generates a predicted value or scores based on a stored model.
+    url: 'https://learn.microsoft.com/en-us/sql/t-sql/queries/predict-transact-sql?view=sql-server-ver16'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.48534c2c-57cc-48c5-81e3-d5ec94521ca5.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: 'Consider using Databricks optimized autoscaling featured to resize clusters intelligently, based on demand.'
+    url: 'https://www.databricks.com/blog/2018/05/02/introducing-databricks-optimized-auto-scaling.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.48534c2c-57cc-48c5-81e3-d5ec94521ca5.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn how to use Azure Synapse Analytics to scale out compute.
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/quickstart-scale-compute-tsql'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.40fb8e05-28a6-4a4b-95f7-ef4416740ee5.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: You can use change data capture (CDC) in Delta Live Tables to update tables based on changes in source data.
+    url: 'https://docs.databricks.com/workflows/delta-live-tables/delta-live-tables-cdc.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.40fb8e05-28a6-4a4b-95f7-ef4416740ee5.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: Leverage change data capture in Azure Data Factory and Azure Synapse Analytics.
+    url: 'https://learn.microsoft.com/en-us/azure/data-factory/concepts-change-data-capture'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.3336b2fa-2005-45be-a4fd-a834cf5e7006.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Consider tools and techniques for exploratory data analysis on Databricks.
+    url: 'https://docs.databricks.com/exploratory-data-analysis/index.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.3336b2fa-2005-45be-a4fd-a834cf5e7006.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Consider using Serverless SQL pool, a query service over the data in your data lake, that enables you to access your data through a familiar T-SQL syntax to query data in place without the need to copy or load data into a specialized store.'
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/on-demand-workspace-overview'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.3d097d2b-3e31-4571-b936-a0524c296885.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Consider using Azure Databricks that supports clusters accelerated with graphics processing units (GPUs).
+    url: 'https://learn.microsoft.com/en-us/azure/databricks/clusters/gpu'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.3d097d2b-3e31-4571-b936-a0524c296885.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: Use Synapse Studio to create serverless Apache Spark pools.
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-apache-spark-pool-studio'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.7196765b-685b-46b8-82c7-926a3c933a51.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Synapse
+    reportingSubCategory: ''
+  - title: Improve ad hoc quereing experience by optimizing performance with caching on Databricks.
+    url: 'https://docs.databricks.com/optimizations/disk-cache.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.7196765b-685b-46b8-82c7-926a3c933a51.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Enable business users access data in relational tables with columnar storage to significantly reduces the data storage costs, and improves query performance by using Dedicated Pool.'
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.d6155079-9549-4a48-a8ef-860c97e225ff.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: Consider using Delta Lake on Databricks that provides the foundation for storing data and tables in the Databricks Lakehouse Platform.
+    url: 'https://docs.databricks.com/delta/index.html?searchString=&from=0&sortby=_score&orderBy=desc&pageNo=1&aggregations=%5B%5D&uid=7dc8d13f-90bb-11e9-98a5-06d762ad9a62&resultsPerPage=10&exactPhrase=&withOneOrMore=&withoutTheWords=&pageSize=10&language=en&state=1&suCaseCreate=false#getting-started-with-delta-lake'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.d6155079-9549-4a48-a8ef-860c97e225ff.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: Consider using Azure Synapse to leverage Delta Lake for your data architecture and workloads.
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-what-is-delta-lake'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.659974ae-8bb0-4e0b-8ec4-09e702315ec2.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Azure Databricks
+    reportingSubCategory: ''
+  - title: 'Consider using Databrick''s Unity Catalog for unified governance for data, analytics and AI.'
+    url: 'https://www.databricks.com/product/unity-catalog'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.659974ae-8bb0-4e0b-8ec4-09e702315ec2.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Unity Catalog
+    reportingSubCategory: ''
+  - title: 'Consider using Microsoft Purview, a unified data governance solution to help manage and govern entire data landscape with automated data discovery, sensitive data classification, and end-to-end data lineage.'
+    url: 'https://azure.microsoft.com/en-us/products/purview/'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.58ccfc87-b875-4188-b406-ac615563de50.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Microsoft Purview
+    reportingSubCategory: ''
+  - title: 'Consider using time series feature tables, Databricks Feature Store supports time series and event-based use cases that require point-in-time correctness.'
+    url: 'https://docs.databricks.com/machine-learning/feature-store/time-series.html'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.58ccfc87-b875-4188-b406-ac615563de50.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Consider using time series analysis in Azure Data Explorer that provides support for creation, manipulation, and analysis of multiple time series.'
+    url: 'https://learn.microsoft.com/en-us/azure/data-explorer/time-series-analysis'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.e62e455f-c2be-437a-af4b-790eeb4ef2ed.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider using  Databricks Partner Connect to connect a cluster or Databricks SQL with Power BI Desktop.
+    url: 'https://learn.microsoft.com/en-us/azure/databricks/partners/bi/power-bi'
+    condition:
+      allOf:
+        - 167122f1-71f7-4e0a-b699-171c9de287ed.e62e455f-c2be-437a-af4b-790eeb4ef2ed.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Create a Power BI workspace, link your Azure Synapse workspace, and create a Power BI data set that utilizes data in your Azure Synapse workspace.'
+    url: 'https://learn.microsoft.com/en-us/azure/synapse-analytics/get-started-visualize-power-bi'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: e776a002-49c3-493c-acfe-be1d8993ebdd
+name: ''

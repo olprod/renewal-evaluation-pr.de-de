@@ -1,0 +1,46 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have implemented a custom page to use as a health check for Traffic Manager.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: We have evaluated different traffic-routing methods and select the most feasible one.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: C
+    text: We nest Traffic Manager profiles to combine the benefits of more than one traffic-routing method.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-networking.trafficmgr
+stem: ''
+isRequired: false
+uid: 427979fb-523c-49f2-9522-07ab1efc51da
+name: Have you made considerations around the availability and redundancy of Azure Traffic Manager?

@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Security governance bridges your business priorities with technical implementation like architecture, standards, and policy. '
+hideEmptyGuidance: false
+questions:
+  - ccafbd5e-f455-4e6a-be7f-a9b354508127
+  - 1ff0c548-05f5-45c6-8546-a81085a25c6a
+  - 5209fe02-7082-435b-82d8-a96626a88f24
+  - 17394532-1e7e-4e9b-83f0-6e89349c5457
+recommendations:
+  - 24706c84-dbc3-4667-b16b-1a1bdbf7a2eb
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: ec762e5e-92b1-4cbc-8601-692423fc34bc
+name: Security Governance

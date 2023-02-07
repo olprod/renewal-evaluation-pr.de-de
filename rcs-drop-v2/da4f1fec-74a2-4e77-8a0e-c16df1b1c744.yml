@@ -1,0 +1,238 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Learn how integrate your security team with your existing DevOps team
+    url: 'https://azure.microsoft.com/en-us/resources/6-tips-to-integrate-security-into-your-devops-practices/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.0
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Follow Microsoft (or other) SDL practices
+    url: 'https://www.microsoft.com/en-us/securityengineering/sdl/practices'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Adopt DevOps and Agile development and delivery practices
+    url: 'https://azure.microsoft.com/en-us/overview/devops-vs-agile/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Use CI/CD methodologies for rapid integration and validation of changes.
+    url: /azure/architecture/guide/devops/devops-start-here
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Declare your application components in code to ensure highly repeatable and testable deployments
+    url: /dotnet/architecture/cloud-native/infrastructure-as-code
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.5
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Maintain IaC/CaC files in source for change management and scanning for vulnerabilities
+    url: /azure/architecture/solution-ideas/articles/devsecops-infrastructure-as-code
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.6
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Secure your development environment against attack
+    url: /security/zero-trust/develop/secure-dev-environment-zero-trust
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Ensure all dev tooling comes from trusted publishers or marketplaces
+    url: 'https://marketplace.visualstudio.com'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Define policies that control releases of your application
+    url: /azure/devops/pipelines/release/approvals
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Set branch policies to protect and enforce policy on important branches
+    url: /azure/devops/repos/git/branch-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Apply security controls to self-hosted build agents
+    url: /azure/devops/pipelines/agents/agents
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Define and apply appropriate roles to protect the development and release process
+    url: /azure/devops/pipelines/policies/permissions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.5
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Configure auditing on changes and actions in the development and release pipelines
+    url: /azure/devops/organizations/audit/azure-devops-auditing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.6
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Generate an SBoM for all production releases so that vulnerabilities in production can be quickly identified
+    url: 'https://github.com/marketplace?type=actions&query=sbom+'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.840a292e-777d-4cee-add4-16311cb54bfc.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Use scorecards to automatically assess your repos for vulnerabilities compared to industry standard practice
+    url: 'https://github.com/ossf/scorecard'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.840a292e-777d-4cee-add4-16311cb54bfc.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Track all dependencies used in projects and alert or update when vulnerabilities are disclosed
+    url: 'https://github.com/features/security/software-supply-chain'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.840a292e-777d-4cee-add4-16311cb54bfc.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: 'Replace managed server/VM instances with PaaS, container or serverless where possible'
+    url: /azure/architecture/guide/design-principles/managed-services
+    condition:
+      allOf: []
+      anyOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.7
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.7
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Use an automated secret management solution for all application certificates and secrets
+    url: /azure/key-vault/general/developers-guide
+    condition:
+      allOf: []
+      anyOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.7
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.7
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+  - title: Use automated scanning for secrets in all of your source code repos
+    url: 'https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning'
+    condition:
+      allOf: []
+      anyOf:
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.49433291-5b4f-4c2b-b32a-241cc08a4047.7
+        - 50554db0-257a-44f7-8767-92cf33a46ea1.32ad52b7-2feb-42f0-b68b-e7be99249f8f.7
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Innovation Security
+    reportingSubCategory: ''
+uid: da4f1fec-74a2-4e77-8a0e-c16df1b1c744
+name: ''

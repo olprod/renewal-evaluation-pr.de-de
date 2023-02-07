@@ -1,0 +1,54 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use the Azure Key Vault solution in Log Analytics to review Azure Key Vault AuditEvent logs
+    url: /azure/key-vault/general/logging
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b7f8f6d0-74b4-4dc9-b58b-e687ade1e735.b23e1c76-8dab-4418-979b-e27c79e2fcf7.A
+      scoreOf: []
+    context: You can use the Azure Key Vault solution in Log Analytics to review Azure Key Vault AuditEvent logs.
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+  - title: 'Consider using Azure Key Vault to protect certificates, keys, and secrets'
+    url: /azure/key-vault/general/basic-concepts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b7f8f6d0-74b4-4dc9-b58b-e687ade1e735.b23e1c76-8dab-4418-979b-e27c79e2fcf7.B
+      scoreOf: []
+    context: Determine whether any highly critical assets are protected through some form of secret or certificate and where these certificates or secrets are stored.
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+  - title: Plan to lock down access to your Azure Key Vault
+    url: /azure/key-vault/general/secure-your-key-vault
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b7f8f6d0-74b4-4dc9-b58b-e687ade1e735.b23e1c76-8dab-4418-979b-e27c79e2fcf7.C
+      scoreOf: []
+    context: 'Access to a key vault is controlled through two separate interfaces: management plane and data plane.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+  - title: Ensure your Azure Key Vault client application has access to multiple endpoints for various authentication functions
+    url: /azure/key-vault/general/access-behind-firewall
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b7f8f6d0-74b4-4dc9-b58b-e687ade1e735.b23e1c76-8dab-4418-979b-e27c79e2fcf7.D
+      scoreOf: []
+    context: 'To access a key vault, your key vault client application has to access multiple endpoints for various functionalities including Azure AD, Azure Resource Manager and access to the Key Vault itself.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+uid: 29939481-6820-4535-8b56-4a470117e09c
+name: ''

@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You''re using Device Update for IoT Hub to manage updates to final devices '
+    description: Device Update for IoT Hub is a service that enables you to deploy over-the-air updates to your IoT devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: You've implemented CI/CD pipelines for IoT Edge to deploy new image containers to IoT Edge devices
+    description: You can adopt DevOps using the built-in Azure IoT Edge tasks in Azure Pipelines.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: You use automatic and layered deployment help you manage and configure modules on large numbers of IoT Edge devices.
+    description: Use automatic deployments and layered deployment to manage and configure modules on large numbers of IoT Edge devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: You've implemented a custom update mechanism after reviewing the device management pattern samples
+    description: It's possible to implement your own custom update mechanism using pattern samples.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: Distributing software updates to devices is a task that requires planning and a defined process.
+isRequired: false
+uid: 1aeac7af-aee3-482a-a20a-f4a62bcc91e9
+name: Distributing software updates to devices is a task that requires planning and a defined process. Q13.

@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes, you''ve implemented custom logic to handle out-of-order and missing data.'
+    description: Azure IoT Hub message routing maintains ordering of events. Your custom logic will need to handle for missing data.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: 'You use Azure Stream Analytics to get your data into order. For missing data or late arrival events, you''ve implemented controls and checks.'
+    description: Your Azure Stream Analytics job can process events based on either event time or arrival time.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'IoT telemetry messages can arrive late or out of order, for example, due to transient connectivity loss, or they can be lost completely, for example, due to a device crashing. The backend application must be able to handle these occurrences reliably. Don''t select any option if your solution isn''t impacted by out-of-order data.'
+isRequired: false
+uid: 25af89d3-3400-415f-8336-a15001129919
+name: 'IoT telemetry messages can arrive late or out of order, for example, due to transient connectivity loss, or they can be lost completely, for example, due to a device crashing. The backend application must be able to handle these occurrences reliably.'

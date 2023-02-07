@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not have formal policies for compliance standards.
+    description: Your organization does not have formal policies for compliance standards.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has identified the need and is planning to manage data and its compliance obligations.
+    description: Your organization has identified the need and is planning to manage data and its compliance obligations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization is enforcing compliance policies.
+    description: Your organization is enforcing compliance policies.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has established and repeatable processes to enable application of policies to ensure action is taken for meeting compliance.
+    description: Your organization has established and repeatable processes to enable application of policies to ensure action is taken for meeting compliance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has established and repeatable processes to enable application of policies to ensure action is taken for meeting compliance.
+    description: Your organization has established and repeatable processes to enable application of policies to ensure action is taken for meeting compliance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Is your data is handled in a way that it meets its compliance obligation? i.e., organizational policies, industry regulations, as well as local, state, federal, and international law?
+isRequired: true
+uid: 7a8092d4-6ea2-43cd-a353-ba8e726b0d4a
+name: 'Is your data is handled in a way that it meets its compliance obligation? i.e., organizational policies, industry regulations, as well as local, state, federal, and international law?'

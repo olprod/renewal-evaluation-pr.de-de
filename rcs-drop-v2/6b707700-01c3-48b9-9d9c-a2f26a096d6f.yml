@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We apply open source principles and practices for software development within our organization
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: ' We have transparent API/code repos for the entire company to access'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'Knowledge, learnings and successes are shared transparently across the organization'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: The organizational structure enables developers in the unit to work directly with their counterparts across levels and units without approval from managers or leaders
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: We organize regular events to foster shared dev culture
+    description: 'these regular events might include hackathons, coding dojos, or brown bags'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: Not applicable
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: select all that apply
+isRequired: true
+uid: 6b707700-01c3-48b9-9d9c-a2f26a096d6f
+name: select all that apply

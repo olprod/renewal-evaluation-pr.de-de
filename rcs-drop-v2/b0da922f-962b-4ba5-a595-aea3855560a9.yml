@@ -1,0 +1,93 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: A tool such as Azure Monitor or Grafana is used to visualize the application health model and encompassed logs and metrics
+    description: What technology in used to visualize the application health model and encompassed logs and metrics?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: 'Dashboards are tailored to a specific audience such as developers, security or networking teams'
+    description: Are dashboards tailored to a specific audience?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: A tool such as Azure Monitor or Splunk is used for alerting
+    description: Alerts from tools such as Splunk or Azure Monitor proactively notify or respond to operational states that deviate from norm. Alerts can also enable cost-awareness by watching budgets and limits and helping workload teams to scale appropriately.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Specific owners and processes are defined for each alert type
+    description: Are specific owners and processes defined for each alert type?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: Operational events are prioritized based on business impact
+    description: Are operational events prioritized based on business impact?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: Push notifications are used to inform responsible parties of alerts in real time
+    description: Are push notifications enabled to inform responsible parties of alerts in real time?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: Alerting is integrated with an IT Service Management (ITSM) system such as ServiceNow
+    description: Is alerting integrated with an IT Service Management (ITSM) system?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: J
+    text: Azure Service Health alerts been created to respond to Service-level events.
+    description: 'Azure Service Health Alerts should be configured to operationalize Service Health events. However, Service Health alerts should not be used to detect issues due to associated latencies; there is a 5 minute Service Level Objectives (SLOs) for automated issues, but many issues require manual interpretation to define an RCA (Root Cause Analysis). Instead, they should be used to provide extremely useful information to help interpret issues that have already been detected and surfaced via the health model, to inform how best to operationally respond.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: I
+    text: Azure Resource Health alerts been created to respond to Resource-level events.
+    description: 'Azure Resource Health Alerts should be configured for specific resource groups and resource types, and should be adjusted to maximize signal to noise ratios, i.e. only distribute a notification when a resource becomes unhealthy according to the application health model or due to an Azure platform-initiated event. It is therefore important to consider transient issues when setting an appropriate threshold for resource unavailability, such as configuring an alert for a virtual machine with a threshold of 1 minute for unavailability before an alert is triggered.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Notifications'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWKhpj'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Alerts can proactively notify or respond to operational states that deviate from norm. Alerts can also enable cost-awareness by watching budgets and limits and helping workload teams to scale appropriately.
+isRequired: false
+legacyId: notifications
+uid: b0da922f-962b-4ba5-a595-aea3855560a9
+name: Alerts can proactively notify or respond to operational states that deviate from norm.

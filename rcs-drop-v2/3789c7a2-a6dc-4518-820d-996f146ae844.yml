@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on this
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We are aware of it and its content and collateral is reviewed by our sales engagement team regularly
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 3789c7a2-a6dc-4518-820d-996f146ae844
+name: 'Are you aware of Dynamics 365 Portal for Partners providing Sales Decks, Go To Market Collateral, Skilling & Demo Content for Partners to use?'

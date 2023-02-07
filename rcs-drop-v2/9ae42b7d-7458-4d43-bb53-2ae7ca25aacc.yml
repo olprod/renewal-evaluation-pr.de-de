@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Set up Azure Machine Learning datastores/datasets to connect and access data from various storage services.
+    description: 'Azure Machine Learning datastores enable secure connectivity to multiple storage types, such as Azure Data Lake Storage, Azure Blob Storage, Azure SQL Database, and others.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: B
+    text: Use distributed training with Azure Machine Learning where possible
+    description: 'In distributed training, a model is split up and shared among multiple mini processors called worker nodes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '0'
+    text: 'Use datasets/datastores to improve manageability, performance, and scale when working with data.'
+    description: 'You can use datasets in your local or remote compute target without worrying about connection strings or data paths. Azure Machine Learning datasets provide a seamless integration with Azure Machine Learning training functionality like ScriptRunConfig, HyperDrive, and Azure Machine Learning pipelines.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+    - waf-config-golive.waf-scenario.ai
+stem: 'Azure Machine Learning is integrated with open-source packages and frameworks for data processing. By using these integrations and applying the best practice recommendations, you can improve your data processing speeds both locally and at scale.'
+isRequired: false
+legacyId: '2'
+uid: 9ae42b7d-7458-4d43-bb53-2ae7ca25aacc
+name: Azure Machine Learning is integrated with open-source packages and frameworks for data processing.

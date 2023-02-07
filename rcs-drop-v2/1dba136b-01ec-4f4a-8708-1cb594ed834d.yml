@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Make sure your data is stored in the Hot access tier of Azure Storage if you require the highest performance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: B
+    text: 'For workload that require low consistent latency and have a high number of transactions, investigate the Premium tier.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: 'Leverage caching or in-memory engine like Spark as much as possible, to avoid hitting the data lake file system for each query being made over your data.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: D
+    text: Implement retry logic for transient errors to avoid connection interruption when scaling or planned/unplanned failovers occur.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: 'Make sure your query engine is as close as possible to your storage accounts, to minimize latency incurred while transporting the data.'
+    description: 'Avoid cross-regions or cross-premises queries as much as possible. If it isn''t possible in your context, make sure your network architecture is right-sized for at-scale data movement and that you leverage Azure ExpressRoute for maximum performance and quality of service.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 1dba136b-01ec-4f4a-8708-1cb594ed834d
+name: How do you optimize ADLS workloads for performance?

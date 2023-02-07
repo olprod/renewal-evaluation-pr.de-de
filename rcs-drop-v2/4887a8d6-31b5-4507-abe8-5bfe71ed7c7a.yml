@@ -1,0 +1,128 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Business Applications Partner Sales Acceleration Program (PSAP) Collateral
+    url: 'https://partner.microsoft.com/en-US/training/assets/collection/business-applications-partner-sales-acceleration-program-psap#/'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.06f8f240-b364-462d-bcf9-75156525b953.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Microsoft Catalyst Introduction
+    url: 'https://dynamics.microsoft.com/en-us/microsoft-catalyst/'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.f8d1e37e-5938-4feb-9b62-bb1786fad983.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Microsoft Catalyst Partner Training
+    url: 'https://mooc.msregistration.com/Content/eventlistings.aspx?rsvp=partner'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.f8d1e37e-5938-4feb-9b62-bb1786fad983.0
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.f8d1e37e-5938-4feb-9b62-bb1786fad983.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Microsoft Catalyst Resources & Material
+    url: 'https://dynamicspartners.transform.microsoft.com/catalyst?tab=overview'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.f8d1e37e-5938-4feb-9b62-bb1786fad983.2
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.392b3ff8-f347-4685-a305-a08e55a38fd4.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Catalyst Community Calls
+    url: 'https://aka.ms/catalystcommunitycall'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.a3e3fefc-9604-451c-9277-dfe1a7be2b4b.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Upcoming Business Application Trainings & Past Recordings '
+    url: 'https://msuspartners.eventbuilder.com/EnableBizApps'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.8d3763e2-43b4-4c98-95c7-0487557fec47.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Dynamics 365 FastTrack Tech Talks (Upcoming & Past Recordings)
+    url: 'https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.8d3763e2-43b4-4c98-95c7-0487557fec47.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Free or discounted non-production environment licenses with Biz Apps and Power Platform products
+    url: 'https://experience.dynamics.com/requestlicense/'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.13b4b336-5afe-4f53-88b7-234e982f4379.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: ISV Solution Customer Implementation Readiness Scenario Based Best Practices
+    url: 'https://community.dynamics.com/365/b/ocp/posts/d365-finance-operations-isv-solution-development-part-4---customer-implementation-best-practices'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.8df6d557-235c-40d0-86af-2b528dce55b0.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Incentives & Nomination Process for Business Applications Partner Activities
+    url: 'https://dynamicspartners.transform.microsoft.com/offers'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.46a897e2-10e3-469c-8637-185d7acddf54.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 4887a8d6-31b5-4507-abe8-5bfe71ed7c7a
+name: ''

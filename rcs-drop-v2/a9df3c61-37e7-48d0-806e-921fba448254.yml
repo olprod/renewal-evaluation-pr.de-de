@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Increase agility
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Developer productivity
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Cost
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: Security
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: Increase speed of innovation
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+uid: a9df3c61-37e7-48d0-806e-921fba448254
+name: What is the primary objective of migrating your applications to the cloud?

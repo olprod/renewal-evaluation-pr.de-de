@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Planning Optimization.
+
+  A customer calls a service agent at the company and asks about product availability dates when placing an order.
+
+  Capable to promise (CTP) is initiated from the customer’s order.
+
+  What is the expected output?
+questionnaireUid: b702b0c1-1de7-4c16-9525-25a1001f8798
+questions:
+  - uid: f48503b3-4a0c-4913-b68d-b09694bef6cf-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company uses Planning Optimization.
+        isCorrect: true
+      - id: 1
+        text: A customer calls a service agent at the company and asks about product availability dates when placing an order.
+        isCorrect: false
+      - id: 2
+        text: Capable to promise (CTP) is initiated from the customer’s order.
+        isCorrect: false
+      - id: 3
+        text: What is the expected output?
+        isCorrect: false
+      - id: 4
+        text: An error occurs because CTP is not supported when Planning Optimization is enabled.
+        isCorrect: false
+uid: f48503b3-4a0c-4913-b68d-b09694bef6cf
+title: ''

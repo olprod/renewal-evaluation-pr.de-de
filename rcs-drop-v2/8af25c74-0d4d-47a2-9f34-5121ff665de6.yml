@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Client machines connecting to Azure SQL MI should be using the latest supported version of TLS.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: SQL MI by design is placed inside the Azure virtual network and the subnet that's dedicated to managed instances which provides a secure private IP address for the instance.
+    description: Do not expose SQL MI to Internet through public endpoint if it's not required.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Consider using private link to connect  SQL MI to specific azure resources outside of your virtual network
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: You have an intentional VNET and subnet strategy.
+    description: We recommend that you plan your VNET based on common roles.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: network-data-sqlmi
+uid: 8af25c74-0d4d-47a2-9f34-5121ff665de6
+name: How have you secured the network of your workload?

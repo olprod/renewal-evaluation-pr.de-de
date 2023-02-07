@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Perform disaster recovery and fault injection
+    description: Conduct disaster recover operations following our continuity of operations plan and utilizing load balancers and other services to verify infrastructure resiliency and design.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: 'Write IaC test scripts which are executed in the pipeline ensuring services are started, and the correct number of CPUs and memory is allocated'
+    description: Infrastructure is test to make sure services are operational and the required resources are granted to the service.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: Using monitoring services that poll services and reachability with the infrastructure after and during deployment
+    description: 'Services that use polling to verity HTTP services, network interfaces, and other resources are reachable and accessible'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: Run infrastructure as code tests
+    description: Scripts that verify and check the resources
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'A unified set of practices and tools are required to deliver applications and their supporting infrastructure rapidly, reliably, and at scale. '
+isRequired: true
+uid: 03e7dec7-3096-4415-a737-227cbd4754bd
+name: 'A unified set of practices and tools are required to deliver applications and their supporting infrastructure rapidly, reliably, and at scale.'

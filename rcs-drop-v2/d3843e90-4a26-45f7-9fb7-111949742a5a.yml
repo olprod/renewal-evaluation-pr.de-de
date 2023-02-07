@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Developer Velocity Assessment - Organizational Enablement questionnaire
+hideEmptyGuidance: false
+questions:
+  - ff91e0f5-2dd0-45a2-a28b-13e18890521d
+  - 85ca55d6-73f7-48d9-b137-06e2f041de30
+  - f0336074-9778-48bb-984f-25c79b06a5cb
+  - 051974ae-12ec-4638-ab73-f444029fc5cb
+recommendations:
+  - f4a079dd-e758-4657-b015-6be21662cab8
+assignedGroupIds: []
+uid: d3843e90-4a26-45f7-9fb7-111949742a5a
+name: DVA - Organizational Enablement - Team and Culture

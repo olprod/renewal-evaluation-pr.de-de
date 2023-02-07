@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 7df2e252-fe06-4a31-b164-1e71b049f912
+recommendations:
+  - 98594555-848a-4625-8473-9139b97adac6
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: 455205d5-7f0e-48fb-921b-24552ef3bad5
+name: Security Baseline current state

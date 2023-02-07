@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This section covers data maintenance task awareness, options available in D365 F&O workload and processes to be in place for proper upkeep.'
+hideEmptyGuidance: false
+questions:
+  - fed5a98a-37fb-4c70-8f6d-61e092529963
+  - 2781879d-18a6-4557-a16d-db1356a1692a
+  - a389db33-a8f8-4b07-8e70-7afb03558923
+  - 44145206-e478-4ddc-83ea-2ad5b75222d3
+  - cc7aa7ac-c2a5-44e8-99d5-e1a06c155d90
+recommendations:
+  - fb5e74f7-319b-4dd3-bf0c-8150f5a1a52a
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: 908dd5f5-1906-48b5-a236-0f6619628fc9
+name: Archival & Data Consistency

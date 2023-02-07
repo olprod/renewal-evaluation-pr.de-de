@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: ''
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 5f2e8cb1-b886-404b-883e-730e59d19cfa
+name: ''

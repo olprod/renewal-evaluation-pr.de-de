@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 9c65f130-87f1-46d1-ba52-3d3f913411a1
+recommendations:
+  - 3f15d402-4cd8-4492-b506-51c67c5b0bf9
+assignedGroupIds: []
+uid: 56159f61-7772-4398-bf85-f0099dd523a8
+name: 'Go-Live - API Management: Performance Efficiency'

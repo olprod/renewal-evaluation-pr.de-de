@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Currently we does not have any setup for this practice
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We have informal adhoc process for this in practice
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We have SOP and tooling in place for this, team is trained and using this operations'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 191d8012-b3e6-4a95-a706-513814fa23ff
+name: Do you have Idea Sharing / Innovation Backlog Portal / Application / SOP in place for team to share and ideate?

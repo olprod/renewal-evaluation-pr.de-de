@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You have an automated process to provision and de-provision your solution's ingestion infrastructure based on usage and capacity.
+    description: Ensure that your ingestion infrastructure is neither over or under provisioned. This helps to decrease downtime and  reduce the cost of your overall solution.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: 'You understand the effect on your solution''s ingestion infrastructure of changes in device health, such as misconfiguration in the number or size of messages that should be sent.'
+    description: Ensure that your devices are properly monitored to prevent malicious or non-malicious scaling of your ingestion infrastructure. This helps to decrease downtime and reduce the cost of your overall solution.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: You've validated that the required capacity for initial and future growth is within your Azure service scale limits and quotas.
+    description: 'To help prevent downtime, ensure that your Azure ingestion infrastructure can meet current and future scale requirements. Review Azure IoT Hub''s current quota and throttling limits for more detail.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: You've validated that the required capacity for initial and future growth is available within your targeted regions.
+    description: 'To help prevent downtime, ensure that your Azure ingestion infrastructure regions can meet the current and future scale requirements. Review your Azure service''s current regional support for more detail.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: You monitor and use capacity utilization and service limits for your ingestion services to forecast future growth.
+    description: Monitor your ingestion infrastructure to validate that it's neither over or under provisioned. This helps to decrease downtime and reduce the cost of your overall solution. You can use Azure Monitor for this monitoring.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Having a well-designed scaling plan greatly simplifies management and reduces the operational burden.
+isRequired: false
+uid: 1194c8b2-05ec-4fc8-ad6f-d357b2617b61
+name: Having a well-designed scaling plan greatly simplifies management and reduces the operational burden. Q9.

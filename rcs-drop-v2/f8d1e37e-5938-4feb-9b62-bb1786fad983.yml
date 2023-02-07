@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on this
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We need more information and how to get our sales team train on its methodology & resources '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We are aware of it and its content and collateral is reviewed by our sales engagement team regularly
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Microsoft Catalyst is a customer engagement journey that partners can use to help businesses conceive and realize business transformation. Using this journey, partners take customers through a series of curated phases: Inspire, Design, Empower, and Achieve. With Microsoft Catalyst, partners can accelerate opportunities, expand deal size, win more deals and more effectively co-sell with the Microsoft field.'
+isRequired: true
+uid: f8d1e37e-5938-4feb-9b62-bb1786fad983
+name: Microsoft Catalyst is a customer engagement journey that partners can use to help businesses conceive and realize business transformation.

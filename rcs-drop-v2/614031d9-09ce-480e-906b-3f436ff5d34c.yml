@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 0-20%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 21-40%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 41-60%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 61-80%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '4'
+    text: 81-100%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'examples of Agile ceremonies are: daily scrum, sprint review, sprint retrospective'
+isRequired: true
+uid: 614031d9-09ce-480e-906b-3f436ff5d34c
+name: 'examples of Agile ceremonies are: daily scrum, sprint review, sprint retrospective '

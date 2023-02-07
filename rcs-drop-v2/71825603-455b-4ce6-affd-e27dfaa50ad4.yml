@@ -1,0 +1,415 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Security design principles
+    url: 'https://www.microsoft.com/en-us/us-partner-blog/2021/04/23/azures-well-architected-framework-pillar-5-security/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.9dd1dca2-952d-40b1-b46b-71010679221a.A
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.9dd1dca2-952d-40b1-b46b-71010679221a.B
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.9dd1dca2-952d-40b1-b46b-71010679221a.F
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.9dd1dca2-952d-40b1-b46b-71010679221a.G
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.9dd1dca2-952d-40b1-b46b-71010679221a.H
+      scoreOf: []
+    context: 'Information Security, or InfoSec, is the most important aspect of any architecture and must be baked in, not bolted on. Security provides the confidentiality, integrity, and availability assurances (known as the CIA triad) against attacks to an application or workload.'
+    priority: 55
+    reportingCategory: Architecture Design
+    reportingSubCategory: Application Infrastructure Provisioning
+  - title: Continuous Delivery for Azure SQL DB using Azure DevOps Multi-stage Pipelines
+    url: 'https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.9dd1dca2-952d-40b1-b46b-71010679221a.C
+      scoreOf: []
+    context: 'Multi-stage pipelines in Azure DevOps offer a rich, declarative mechanism to implement and customize pipelines. Integrating multiple tools such as Azure CLI, SqlPackage etc. across different OS platforms (Linux and Windows).'
+    priority: 50
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Configure managed identities for Azure resources on a VM using the Azure portal
+    url: /azure/active-directory/managed-identities-azure-resources/qs-configure-portal-windows-vm
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.9dd1dca2-952d-40b1-b46b-71010679221a.D
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.04b71ad8-0901-444a-9cd7-ac46a42f4932.E
+      scoreOf: []
+    context: Managed identities for Azure resources is a feature of Azure Active Directory. Each of the Azure services that support managed identities for Azure resources are subject to their own timeline. Managed identities for Azure resources provides Azure services with an automatically managed identity in Azure Active Directory. You can use this identity to authenticate to any service that supports Azure AD authentication without having credentials in your code.
+    priority: 71
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: 'Role & Responsabilities '
+  - title: Minimize attack surface
+    url: /azure/azure-sql/database/security-best-practice#minimize-attack-surface
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.9dd1dca2-952d-40b1-b46b-71010679221a.E
+      scoreOf: []
+    context: Minimize the number of features that can be attacked by a malicious user. Implement network access controls for Azure SQL Database.
+    priority: 88
+    reportingCategory: Security Monitoring
+    reportingSubCategory: ' Confidentiality & Privacy'
+  - title: Defense in Depth
+    url: /learn/modules/azure-well-architected-security/2-defense-in-depth
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.9dd1dca2-952d-40b1-b46b-71010679221a.I
+      scoreOf: []
+    context: "Defense in depth\_is a strategy that employs a series of mechanisms to slow the advance of an attack that's aimed at acquiring unauthorized access to information."
+    priority: 80
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: SQL Vulnerability Assessment for SQL Server on Azure VMs
+    url: /azure/defender-for-cloud/defender-for-sql-on-machines-vulnerability-assessment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.8613c564-5ad8-42da-ab0d-82d11055d0ff.A
+      scoreOf: []
+    context: 'The vulnerability assessment service scans your databases every 12 hours. The vulnerability assessment dashboard provides an overview of your assessment results across all your databases, along with a summary of healthy and unhealthy databases, and an overall summary of failing checks according to risk distribution.'
+    priority: 100
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Event Log Analysis
+  - title: Azure Blueprints samples
+    url: /azure/governance/blueprints/samples/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.8613c564-5ad8-42da-ab0d-82d11055d0ff.B
+      scoreOf: []
+    context: Azure Blueprint provides sample blueprints that address customer scenarios where the compliance requirements are high and the architectural complexities are high.
+    priority: 56
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Adaptive application controls for defining safe applications should be enabled on your machines
+    url: /azure/virtual-machines/policy-reference
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.8613c564-5ad8-42da-ab0d-82d11055d0ff.C
+      scoreOf: []
+    context: 'Enable application controls to define the list of known-safe applications running on your machines, and alert you when other applications run. This helps harden your machines against malware. To simplify the process of configuring and maintaining your rules, Security Center uses machine learning to analyze the applications running on each machine and suggest the list of known-safe applications.'
+    priority: 55
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Automate management with the SQL Server IaaS Agent extension
+    url: /azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.8613c564-5ad8-42da-ab0d-82d11055d0ff.D
+      scoreOf: []
+    context: The SQL Server IaaS Agent extension (SqlIaasExtension) runs on SQL Server on Windows Azure Virtual Machines (VMs) to automate management and administration tasks.
+    priority: 75
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Playbook for addressing common security requirements with Azure SQL Database
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.8613c564-5ad8-42da-ab0d-82d11055d0ff.E
+      scoreOf: []
+    context: 'Authentication is the process of proving the user is who they claim to be. Azure SQL Database and SQL Managed Instance support two types of authentication: 1) SQL authentication and 2) Azure Active Directory authentication.'
+    priority: 92
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Roles & Responsabilities
+  - title: SQL Data Discovery and Classification
+    url: /sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.8613c564-5ad8-42da-ab0d-82d11055d0ff.F
+      scoreOf: []
+    context: "Data Discovery & Classification adds capabilities for\_discovering,\_classifying,\_labeling\_&\_reporting\_the sensitive data in your databases. This can be done via T-SQL or using\_SQL Server Management Studio (SSMS). Discovering and classifying your most sensitive data (business, financial, healthcare, etc.) can play a pivotal role in your organizational information protection stature."
+    priority: 90
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Data Classification
+  - title: Penetration Testing Rules of Engagement
+    url: 'https://www.microsoft.com/en-us/msrc/pentest-rules-of-engagement'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.8613c564-5ad8-42da-ab0d-82d11055d0ff.G
+      scoreOf: []
+    context: 'All penetration tests must follow the Microsoft Cloud Penetration Testing Rules of Engagement.  If any valid vulnerabilities are identified during penetration tests, the customer must report them to the MSRC immediately. The customer must also agree to not disclose this vulnerability information publicly or to any third party until hearing back from Microsoft that the vulnerability has been fixed. All vulnerabilities reported must follow Coordinated Vulnerability Disclosure.'
+    priority: 100
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Data Classification
+  - title: Rotate Always Encrypted keys using SQL Server Management Studio
+    url: /sql/relational-databases/security/encryption/rotate-always-encrypted-keys-using-ssms?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.8613c564-5ad8-42da-ab0d-82d11055d0ff.H
+      scoreOf: []
+    context: "Always Encrypted key management, including best practice recommendations and important security considerations, see\_Overview of key management for Always Encrypted."
+    priority: 80
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Microsoft Antimalware for Azure Cloud Services and Virtual Machines
+    url: /azure/security/fundamentals/antimalware
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.8613c564-5ad8-42da-ab0d-82d11055d0ff.I
+      scoreOf: []
+    context: 'Microsoft Antimalware for Azure is a free real-time protection that helps identify and remove viruses, spyware, and other malicious software. It generates alerts when known malicious or unwanted software is discovered.'
+    priority: 77
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: Azure encryption overview
+    url: /azure/security/fundamentals/encryption-overview#azure-disk-encryption
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.2c58c410-2ca0-4eb4-8168-c268c5c96f9a.A
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.2c58c410-2ca0-4eb4-8168-c268c5c96f9a.D
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.2c58c410-2ca0-4eb4-8168-c268c5c96f9a.E
+      scoreOf: []
+    context: 'Azure supports various encryption models, including server-side encryption that uses service-managed keys, customer-managed keys in Key Vault, or customer-managed keys on customer-controlled hardware. With client-side encryption, you can manage and store keys on-premises or in another secure location.'
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Encryption
+  - title: Azure Storage encryption for data at rest
+    url: /azure/storage/common/storage-service-encryption
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.2c58c410-2ca0-4eb4-8168-c268c5c96f9a.B
+      scoreOf: []
+    context: 'Azure Storage encryption is enabled for all storage accounts, including both Resource Manager and classic storage accounts. Azure Storage encryption cannot be disabled. Because your data is secured by default, you don''t need to modify your code or applications to take advantage of Azure Storage encryption.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: ' Encryption'
+  - title: Set up SQL Server TDE Extensible Key Management by using Azure Key Vault
+    url: /sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.2c58c410-2ca0-4eb4-8168-c268c5c96f9a.C
+      scoreOf: []
+    context: 'TDE encrypts the storage of an entire database by using a symmetric key called the database encryption key. The database encryption key can also be protected using a certificate, which is protected by the database master key of the master database.'
+    priority: 100
+    reportingCategory: Data
+    reportingSubCategory: Encryption
+  - title: Overview of key management for Always Encrypted - Managing Keys with Role Separation
+    url: /sql/relational-databases/security/encryption/overview-of-key-management-for-always-encrypted?view=sql-server-ver15#managing-keys-with-role-separation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.2c58c410-2ca0-4eb4-8168-c268c5c96f9a.F
+      scoreOf: []
+    context: "Always Encrypted keys and key management it is important to understand the distinction between the actual cryptographic keys, and the metadata objects that\_describe\_the keys. We use the terms\_column encryption key\_and\_column master key\_to refer to the actual cryptographic keys, and we use\_column encryption key metadata\_and\_column master key metadata\_to refer to the Always Encrypted key\_descriptions\_in the database."
+    priority: 90
+    reportingCategory: Data
+    reportingSubCategory: Encryption
+  - title: Password Policy
+    url: /sql/relational-databases/security/password-policy?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.04b71ad8-0901-444a-9cd7-ac46a42f4932.A
+      scoreOf: []
+    context: 'SQL Server can use Windows password policy mechanisms. The password policy applies to a login that uses SQL Server authentication, and to a contained database user with password. SQL Database enforces password complexity. The password expiration and policy enforcement sections do not apply to SQL Database.'
+    priority: 95
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: SQL Security
+  - title: Principals and Database Object Security
+    url: /sql/relational-databases/security/securing-sql-server?redirectedfrom=MSDN&view=sql-server-ver15#principals-and-database-object-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.04b71ad8-0901-444a-9cd7-ac46a42f4932.B
+      scoreOf: []
+    context: 'Principals are the individuals, groups, and processes granted access to SQL Server. ''Securables'' are the server, database, and objects the database contains. Each has a set of permissions that can be configured to help reduce the SQL Server surface area.'
+    priority: 70
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Security Monitoring
+  - title: 'Tutorial: Ownership Chains and Context Switching'
+    url: /sql/relational-databases/tutorial-ownership-chains-and-context-switching?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.04b71ad8-0901-444a-9cd7-ac46a42f4932.C
+      scoreOf: []
+    context: 'This tutorial introduces you to the integrated environment for managing your SQL Server infrastructure. SQL Server Management Studio presents a graphical interface for configuring, monitoring, and administering instances of SQL Server. It also allows you to deploy, monitor, and upgrade the data-tier components used by your applications, such as databases and data warehouses.'
+    priority: 74
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Server info
+  - title: Integrate on-premises AD with Azure
+    url: /azure/architecture/reference-architectures/identity/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.04b71ad8-0901-444a-9cd7-ac46a42f4932.D
+      scoreOf: []
+    context: 'Azure provides two solutions for implementing directory and identity services within Azure: Use Azure AD to create an Active Directory domain in the cloud and connect it to your on-premises Active Directory domain. Azure AD Connect integrates your on-premises directories with Azure AD.'
+    priority: 90
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Control-plane RBAC
+  - title: Azure database security checklist
+    url: /azure/security/fundamentals/database-security-checklist#checklist
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.04b71ad8-0901-444a-9cd7-ac46a42f4932.F
+      scoreOf: []
+    context: 'Azure Database is a robust database platform, with a full range of security features that meet many organizational and regulatory compliance requirements. You can easily protect data by controlling the physical access to your data, and using a variety of options for data security at the file-, column-, or row-level with Transparent Data Encryption, Cell-Level Encryption, or Row-Level Security. Always Encrypted also enables operations against encrypted data, simplifying the process of application updates.'
+    priority: 95
+    reportingCategory: Data
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Segmentation strategies
+    url: /azure/architecture/framework/security/design-segmentation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.c11c742b-796e-4fb9-8c0a-f63c6d1627ab.A
+      scoreOf: []
+    context: Segmentation refers to the isolation of resources from other parts of the organization. It's an effective way of detecting and containing adversary movements
+    priority: 78
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Efficiency
+  - title: Azure offerings for DDoS protection
+    url: /azure/security/fundamentals/ddos-best-practices#azure-offerings-for-ddos-protection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.c11c742b-796e-4fb9-8c0a-f63c6d1627ab.B
+      scoreOf: []
+    context: A DDoS protection plan defines a set of virtual networks that have DDoS protection standard enabled across subscriptions. You can configure one DDoS protection plan for your organization and link virtual networks from multiple subscriptions to the same plan.
+    priority: 83
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Data Classification
+  - title: Integrate Azure services with virtual networks for network isolation
+    url: /azure/virtual-network/vnet-integration-for-azure-services
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.c11c742b-796e-4fb9-8c0a-f63c6d1627ab.C
+      scoreOf: []
+    context: 'VNet integration provides Azure services the benefits of network isolation and can be accomplished by one or more of the following methods: 1) Deploying dedicated instances of the service into a virtual network. The services can then be privately accessed within the virtual network and from on-premises networks. 2) Using Private Endpoint that connects you privately and securely to a service powered by Azure Private Link. Private Endpoint uses a private IP address from your VNet, effectively bringing the service into your virtual network. 3) Accessing the service using public endpoints by extending a virtual network to the service  through service endpoints. Service endpoints allow service resources to be secured to the virtual network. 4) Using service tags to allow or deny traffic to your Azure resources to and from public IP endpoints.'
+    priority: 87
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Enable encrypted connections to the Database Engine
+    url: /sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.c11c742b-796e-4fb9-8c0a-f63c6d1627ab.E
+      scoreOf: []
+    context: SQL Server can use Transport Layer Security (TLS) to encrypt data that is transmitted across a network between an instance of SQL Server and a client application. The TLS encryption is performed within the protocol layer and is available to all supported SQL Server clients.
+    priority: 99
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Use a non-default port
+    url: /azure/azure-sql/virtual-machines/windows/security-considerations-best-practices#use-a-non-default-port
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.c11c742b-796e-4fb9-8c0a-f63c6d1627ab.F
+      scoreOf: []
+    context: "The selected options in the portal use inbound security rules on the VM's\_network security group\_(NSG) to allow or deny network traffic to your virtual machine. You can modify or create new inbound NSG rules to allow or deny traffic to the SQL Server port (default 1433). Avoid using the default port."
+    priority: 93
+    reportingCategory: Architecture Design
+    reportingSubCategory: Encryption
+  - title: Configure the Windows Firewall to Allow SQL Server Access
+    url: /sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.c11c742b-796e-4fb9-8c0a-f63c6d1627ab.G
+      scoreOf: []
+    context: 'Choosing a firewall strategy is more complex than just deciding if a given port should be open or closed. When designing a firewall strategy for your enterprise, make sure you consider all the rules and configuration options available to you.'
+    priority: 90
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: OS Configurations
+  - title: SQL Server Audit (Database Engine)
+    url: /sql/relational-databases/security/auditing/sql-server-audit-database-engine?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.A
+      scoreOf: []
+    context: "An\_audit\_is the combination of several elements into a single package for a specific group of server actions or database actions. The components of SQL Server audit combine to produce an output that is called an audit, just as a report definition combined with graphics and data elements produces a report."
+    priority: 80
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Auditing
+  - title: Privileged Administration
+    url: /security/compass/critical-impact-accounts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.B
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.C
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.D
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.E
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.F
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.G
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.H
+      scoreOf: []
+    context: 'Administration is the practice of monitoring, maintaining, and operating Information Technology (IT) systems to meet service levels that the business requires. Administration introduces some of the highest impact security risks because performing these tasks requires privileged access to a very broad set of these systems and applications.'
+    priority: 62
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: 'Role & Responsibilities '
+  - title: Securing privileged access
+    url: /security/compass/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.I
+      scoreOf: []
+    context: 'Privileged access includes IT administrators with control of large portions of the enterprise estate and other users with access to business critical assets. Attackers frequently exploit weaknesses in privileged access security during human operated ransomware attacks and targeted data theft. Privileged access accounts and workstations are so attractive to attackers, because these targets allow them to rapidly gain broad access to the business assets in the enterprise, often resulting in rapid and significant business impact.'
+    priority: 100
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Roles & Responsibilities
+  - title: Configure Windows Service Accounts and Permissions
+    url: /sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7429b9f7-fa10-45f8-940b-f721d0306ca9.6c361f71-c69b-4d57-818a-26a974b693f2.J
+      scoreOf: []
+    context: SQL Server represents a process or a set of processes to manage authentication of SQL Server operations with Windows.
+    priority: 81
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: SQL Security
+uid: 71825603-455b-4ce6-affd-e27dfaa50ad4
+name: ''

@@ -1,0 +1,35 @@
+### YamlMime:QuestionSet
+scenario: |+
+  A company uses an Azure Active Directory (Azure AD) tenant named contoso.com in a subscription named Sub1. A user named Admin1 is assigned the Global Administrator role to contoso.com.
+
+  The company creates an Azure AD tenant named fabrikam.com and grants Admin1 the Global Administrator role to the tenant. You transfer Sub1 to the new tenant.
+
+  Admin1 reports they are unable to access resources in Sub1.
+
+  You need to ensure Admin1 has access to the subscription.
+
+  What should you do?
+
+questionnaireUid: fe5b87e1-a575-402a-a8ba-c912fb62ac88
+questions:
+  - uid: fd0b69c1-925f-42d0-964f-fc10fadea186-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company uses an Azure Active Directory (Azure AD) tenant named contoso.com in a subscription named Sub1.
+        isCorrect: false
+      - id: 1
+        text: A user named Admin1 is assigned the Global Administrator role to contoso.com.
+        isCorrect: false
+      - id: 2
+        text: The company creates an Azure AD tenant named fabrikam.com and grants Admin1 the Global Administrator role to the tenant.
+        isCorrect: true
+      - id: 3
+        text: You transfer Sub1 to the new tenant.
+        isCorrect: false
+    manualId: AZ720.5.4
+uid: fd0b69c1-925f-42d0-964f-fc10fadea186
+title: ''
+manualId: ''

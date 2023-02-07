@@ -1,0 +1,102 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Design for independent scaling of logical components.
+    url: /azure/aks/concepts-sustainable-software-engineering#design-for-independent-scaling-of-logical-components
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - df722dda-9c35-4a32-a72f-a7ecb9d6577c.da42faf1-be66-48eb-9cd4-cb6991c6ee9d.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application design
+    reportingSubCategory: ''
+  - title: Design for event-driven scaling.
+    url: /azure/aks/concepts-sustainable-software-engineering#design-for-event-driven-scaling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - df722dda-9c35-4a32-a72f-a7ecb9d6577c.da42faf1-be66-48eb-9cd4-cb6991c6ee9d.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application design
+    reportingSubCategory: ''
+  - title: Aim for stateless design.
+    url: /azure/aks/concepts-sustainable-software-engineering#aim-for-stateless-design
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - df722dda-9c35-4a32-a72f-a7ecb9d6577c.da42faf1-be66-48eb-9cd4-cb6991c6ee9d.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application design
+    reportingSubCategory: ''
+  - title: Consider using circuit breaker patterns and Azure Monitor to monitor failures and set up alerts.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#consider-using-circuit-breaker-patterns
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - df722dda-9c35-4a32-a72f-a7ecb9d6577c.da42faf1-be66-48eb-9cd4-cb6991c6ee9d.3
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Application design
+    reportingSubCategory: ''
+  - title: Optimize your code for efficient resource usage.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#optimize-code-for-efficient-resource-usage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - df722dda-9c35-4a32-a72f-a7ecb9d6577c.da42faf1-be66-48eb-9cd4-cb6991c6ee9d.4
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Application design
+    reportingSubCategory: ''
+  - title: Optimize for asynchronous access patterns by queuing and buffering requests.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#optimize-for-async-access-patterns
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - df722dda-9c35-4a32-a72f-a7ecb9d6577c.da42faf1-be66-48eb-9cd4-cb6991c6ee9d.5
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Application design
+    reportingSubCategory: ''
+  - title: Determine whether to render on the server-side or client-side when building applications with a UI.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#evaluate-server-side-vs-client-side-rendering
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - df722dda-9c35-4a32-a72f-a7ecb9d6577c.da42faf1-be66-48eb-9cd4-cb6991c6ee9d.6
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Application design
+    reportingSubCategory: ''
+  - title: 'Determine your options for improving energy efficiency and reducing unnecessary network load, data processing, and compute resources.'
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#be-aware-of-ux-design-for-sustainability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - df722dda-9c35-4a32-a72f-a7ecb9d6577c.da42faf1-be66-48eb-9cd4-cb6991c6ee9d.7
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Application design
+    reportingSubCategory: ''
+uid: 4677fc1f-1449-4e28-8929-ba381331b17e
+name: ''

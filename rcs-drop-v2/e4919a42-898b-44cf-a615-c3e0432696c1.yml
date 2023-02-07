@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Leverage Azure Machine Learning capabilities to autoscale the training compute nodes based on our benchmarking.
+    description: Autoscaling clusters based on the requirements of your workload helps reduce your costs so you only use what you need.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: B
+    text: Leverage multinode scaling capabilities for model training.
+    description: You can use Azure Machine Learning compute clusters to distribute a training or batch inference processes across a cluster of CPU or GPU compute nodes in the cloud.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: C
+    text: Leverage production-grade model deployment and autoscaling inference using Azure Kubernetes Service cluster.
+    description: 'To keep up with application demands in Azure Kubernetes Service (AKS), you may need to adjust the number of nodes that run your workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: D
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+    - waf-config-golive.waf-scenario.ai
+stem: 'Autoscaling clusters based on the requirements of your workload helps reduce your costs so you only use what you need. Clusters are designed to scale dynamically based on your workload. Training and inference clusters can be scaled up to the maximum number of nodes you configure, or scale down based on what is running.'
+isRequired: false
+legacyId: '7'
+uid: e4919a42-898b-44cf-a615-c3e0432696c1
+name: Autoscaling clusters based on the requirements of your workload helps reduce your costs so you only use what you need.

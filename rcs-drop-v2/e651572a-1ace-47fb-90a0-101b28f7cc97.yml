@@ -1,0 +1,281 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'Network security has been the traditional lynchpin of enterprise security efforts. However, cloud computing has increased the requirement for network perimeters to be more porous and many attackers have mastered the art of attacks on identity system elements (which nearly always bypass network controls).'
+links:
+  - title: Establish network security containment strategy
+    url: /security/compass/network-security-containment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.0
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.11
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.12
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.13
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: 'Secure traffic between subnets, Azure components, and application landing zones'
+    url: /azure/architecture/framework/security/design-network-flow
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.14
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Secure connectivity to Azure PaaS services
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/connectivity-to-azure-paas-services
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.1
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Use network security groups
+    url: /azure/security/fundamentals/network-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Plan for traffic inspection
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-traffic-inspection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: 'Restrict access to backend (APIs, databases, etc.) to minimal set of public IP addresses'
+    url: /azure/architecture/framework/security/design-network-connectivity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.5
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Identify groups of resources that can be isolated from other parts of the enterprise to contain (and detect) adversary movement within your enterprise.
+    url: /security/compass/governance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.6
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Restrict and secure public endpoints
+    url: /azure/architecture/framework/security/design-network-endpoints
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.7
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.8
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Securing the pipeline and CI/CD workflow
+    url: /azure/cloud-adoption-framework/secure/best-practices/secure-devops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.9
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.7
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Configure endpoint connections on virtual networks for virtual machines (VMs) and services that require internet communication.
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/migrate-best-practices-networking
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.942ea004-5873-4ac9-8118-d59a5f01f83e.10
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: 'Establish clear ownership of security decisions to speed up cloud adoption and increase security. '
+    url: /azure/cloud-adoption-framework/secure/security-top-10#3-process-assign-accountability-for-cloud-security-decisions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.3
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Access control design recommendations
+    url: /azure/cloud-adoption-framework/ready/landing-zone/design-area/security#access-control-design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.0a7ec308-a1e9-4faa-9539-2207e9ca73d5.0
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.0a7ec308-a1e9-4faa-9539-2207e9ca73d5.1
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.0a7ec308-a1e9-4faa-9539-2207e9ca73d5.2
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.0a7ec308-a1e9-4faa-9539-2207e9ca73d5.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Azure active directory security planning recommendations
+    url: /azure/active-directory/roles/security-planning
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.bd4c03d5-c5f1-42e2-941d-5a778e3861c9.0
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.bd4c03d5-c5f1-42e2-941d-5a778e3861c9.1
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.bd4c03d5-c5f1-42e2-941d-5a778e3861c9.2
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.bd4c03d5-c5f1-42e2-941d-5a778e3861c9.3
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.bd4c03d5-c5f1-42e2-941d-5a778e3861c9.4
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.bd4c03d5-c5f1-42e2-941d-5a778e3861c9.5
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.cff9dd35-5329-40ef-8fd3-df8bcc5ec953.0
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.cff9dd35-5329-40ef-8fd3-df8bcc5ec953.1
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.cff9dd35-5329-40ef-8fd3-df8bcc5ec953.2
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.cff9dd35-5329-40ef-8fd3-df8bcc5ec953.3
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.cff9dd35-5329-40ef-8fd3-df8bcc5ec953.4
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.cff9dd35-5329-40ef-8fd3-df8bcc5ec953.5
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.cff9dd35-5329-40ef-8fd3-df8bcc5ec953.6
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.cff9dd35-5329-40ef-8fd3-df8bcc5ec953.7
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Just-in-time just-enough access granted on a task-by-task basis to limit exposure of overprivileged admin credentials
+    url: /azure/cloud-adoption-framework/govern/security-baseline/cloud-native-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Limit long-standing write access to production environments.
+    url: /azure/architecture/framework/security/deploy-governance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Plan for emergency access or break-glass accounts to prevent tenant wide account lockout.
+    url: /azure/active-directory/roles/security-emergency-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.2
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Dealing with groups rather than individual users simplifies maintenance of access policies/provides consistent access management across teams and reduces configuration errors
+    url: /azure/cloud-adoption-framework/ready/considerations/roles
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.5
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: You can set locks that prevent either deletions or modifications
+    url: /azure/azure-resource-manager/management/lock-resources?tabs=json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.6
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Grant roles the appropriate permissions that start with least privilege and add more based on your operational needs
+    url: /azure/cloud-adoption-framework/scenarios/defense/secure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.8
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Privileged access includes IT administrators with control of large portions of the enterprise estate and other users with access to business critical assets
+    url: /security/compass/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.9
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+  - title: Each admin account represents potential attack surface that an attacker can target
+    url: /azure/architecture/framework/security/design-admins
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6917650d-1012-4ca1-a547-2d2f45fe66b6.79a9118e-990f-401b-8380-4a153f867af7.10
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Access Control
+    reportingSubCategory: ''
+uid: e651572a-1ace-47fb-90a0-101b28f7cc97
+name: Access Control

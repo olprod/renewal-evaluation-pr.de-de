@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'To minimize latency, you allocate devices to their closest region.'
+    description: Use the closest region to reduce latency. You can deploy services into multiple regions if your devices are widely distributed.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: You use Device Provisioning Service to automatically allocate devices to regions.
+    description: DPS can automatically allocate devices to regions based on lowest latency.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 70
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'To reduce latency, devices should connect to the closest region. When devices are geographically distributed, the services of your IoT solution can be deployed into multiple regions.'
+isRequired: false
+uid: 7e48de48-2492-4c56-ad82-0b025b5cd4f4
+name: 'To reduce latency, devices should connect to the closest region. When devices are geographically distributed, the services of your IoT solution can be deployed into multiple regions.'

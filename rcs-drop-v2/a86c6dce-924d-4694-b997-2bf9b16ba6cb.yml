@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Virtual network peering is used to connect networks within a region and across different regions.
+    description: Virtual network peering can be used to establish connectivity between different virtual networks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Private Link / Private Endpoints are used to establish communication directly between services in the same region or across regions.
+    description: 'Private Link allows restricting access to a shared service to, for example, prevent data exfiltration.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'For chatty application workloads, a deployment stamp constrained to a single availability zone and multiple stamps across different zones is used.'
+    description: Some applications have specific requirements in regard to latency and also might want to limit the cost for cross-zone traffic.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: 'For latency-sensitive application scenarios, the availability zones with regional network gateways are used.'
+    description: 'When using zones for latency sensitive workloads, make sure that the whole traffic flow sticks together in a single zone to optimize network latency for ingress paths.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'While the application design strongly advocates independent regional deployment stamps, many application scenarios may still require network integration between application components deployed within different zones or Azure regions, even if only under degraded service circumstances.'
+isRequired: false
+uid: a86c6dce-924d-4694-b997-2bf9b16ba6cb
+name: 'While the application design strongly advocates independent regional deployment stamps, many application scenarios may still require network integration between application components deployed within different zones or Azure regions, even if only under degraded service circumstances.'

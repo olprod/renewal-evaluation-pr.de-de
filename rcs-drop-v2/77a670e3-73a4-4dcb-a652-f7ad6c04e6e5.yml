@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our end users are resistant to change. We will most likely have to heavily customize the Dynamics 365 applications to meet their needs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'Change may be difficult for our users, but we intend to adopt the standard Dynamics applications as much as possible.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We plan to adopt the Dynamics 365 applications with minimal customizations, but we do not have procedures to review and limit the customization requirements of our end users.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'We will plan for our subject matter experts to train on the Dynamics 365 applications, to completely understand the functionality and capabilities before beginning requirements gathering exercises. We will properly consider the potential risks before approving customizations or changing the data model, and we will execute adoption and change management strategies to make the transition easier for our users.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Microsoft's Dynamics 365 applications are enhanced at a rapid pace: adding new capabilities, features, and value for customers. Ensure you are able to take advantage of these enhancements by standardizing on the Dynamics data model and limiting customizations as much as possible.
+
+  Which of these statements best describes your plans to align your organization's processes with the Dynamics 365 applications that you implement?
+isRequired: true
+uid: 77a670e3-73a4-4dcb-a652-f7ad6c04e6e5
+name: 'Microsoft''s Dynamics 365 applications are enhanced at a rapid pace: adding new capabilities, features, and value for customers.'

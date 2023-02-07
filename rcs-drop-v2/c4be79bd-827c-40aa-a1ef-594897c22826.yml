@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You have a clear process and use appropriate debugging tools, such as Azure IoT Edge Simulator and VS Code extension, to test Azure IoT Edge modules to ensure they''re compatible with the IoT Edge runtime.'
+    description: 'Azure provides multiple debugging tools that you can use to locally and remotely debug, test, and deploy Azure IoT Edge modules.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '1'
+    text: 'You''ve identified test cases and defined a manual or, preferably, an automated testing strategy to thoroughly test IoT and Azure IoT Edge devices against a testing environment (such as a Dev IoT Hub application) for any hardware/software issues before deployment.'
+    description: Automate your testing plan to ensure the software and hardware running on IoT devices and Azure IoT Edge devices is reliable and ready for production deployment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '2'
+    text: 'You''ve established a process to properly repurpose, reprovision, and deprovision/disenroll IoT devices that were previously deployed in the field.'
+    description: 'The IoT device lifecycle includes defining the procedures to reprovision existing devices to other locations or purposes, and securely deprovisioning them when they''re no longer needed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Any IoT device or Azure IoT Edge device should go through the necessary hardware, firmware, and software testing before it''s deployed in the field and connected to an IoT solution running in a production environment.'
+isRequired: false
+uid: c4be79bd-827c-40aa-a1ef-594897c22826
+name: 'Any IoT device or Azure IoT Edge device should go through the necessary hardware, firmware, and software testing before it''s deployed in the field and connected to an IoT solution running in a production environment. Q1.'

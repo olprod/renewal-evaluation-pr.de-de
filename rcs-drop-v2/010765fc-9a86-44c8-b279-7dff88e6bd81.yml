@@ -1,0 +1,330 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Azure Cosmos DB SQL SDK connectivity modes.
+    url: /azure/cosmos-db/sql-sdk-connection-modes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.3207145d-84c4-4d0f-b723-9784df466fd6.0
+      scoreOf: []
+    context: 'How a client connects to Azure Cosmos DB has important performance implications, especially for reducing client-side request latency.'
+    priority: 75
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Consistency levels in Azure Cosmos DB.
+    url: /azure/cosmos-db/consistency-levels
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.3207145d-84c4-4d0f-b723-9784df466fd6.4
+      scoreOf: []
+    context: Choosing the appropriate default consistency level improves the scalability of your application. Weakening the consistency level can improve the RU cost for reads and reduce the latency for writes in the case of multi-region deployments at the cost of lower RPO and RTO values.
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Expire data in Azure Cosmos DB with Time to Live.
+    url: /azure/cosmos-db/time-to-live
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.3207145d-84c4-4d0f-b723-9784df466fd6.5
+      scoreOf: []
+    context: Appropriately managing the data retention for your workloads and reducing the amount of unnecessary data stored can improve the performance and cost efficiency of your application.
+    priority: 75
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: 'Azure Cosmos DB .NET SDK v3 for SQL API: Download and release notes.'
+    url: '/azure/cosmos-db/sql-api-sdk-dotnet-standard#release--retirement-dates '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.3207145d-84c4-4d0f-b723-9784df466fd6.3
+      scoreOf: []
+    context: Understanding your selection of SDK is important for feature and support capability. Remaining on the most recent SDK will ensure you have the best possible user experience. Latest versions and associated detail are well documented.
+    priority: 84
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Working with the change feed support in Azure Cosmos DB.
+    url: /azure/cosmos-db/change-feed
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.3207145d-84c4-4d0f-b723-9784df466fd6.2
+      scoreOf: []
+    context: Change feed will allow you to track database operations and to integrate these with downstream systems using near real-time DML.
+    priority: 78
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Performance tips for Azure Cosmos DB.
+    url: /azure/cosmos-db/sql/performance-tips-dotnet-sdk-v3-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.e68ab610-2992-4d18-bf07-f951ed3e5135.4
+      scoreOf: []
+    context: An understanding of the specific SDK you are using and how it can be optimized will improve end-user experience and reduce the cost per query.
+    priority: 83
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Performance tuning a distributed app - Azure Architecture Center.
+    url: /azure/architecture/performance/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.e68ab610-2992-4d18-bf07-f951ed3e5135.0
+      scoreOf: []
+    context: Defining performance goals allows you to build architecture that aligns to your business needs.
+    priority: 95
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Tune parallel queries for partitioned collections.
+    url: /azure/cosmos-db/sql/performance-tips#sdk-usage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.e68ab610-2992-4d18-bf07-f951ed3e5135.6
+      scoreOf: []
+    context: 'To improve end-user experience when you know there is going to be additional data required when they issue a query, preload data in the background to provide a better user experience.'
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Performance testing and anti-patterns - Azure Architecture Center.
+    url: /azure/architecture/antipatterns/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.e68ab610-2992-4d18-bf07-f951ed3e5135.2
+      scoreOf: []
+    context: Understanding your performance bottlenecks is critical for designing systems that will have variable throughput over time.
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Use unique keys in Cosmos DB.
+    url: /azure/cosmos-db/unique-keys
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.e68ab610-2992-4d18-bf07-f951ed3e5135.3
+      scoreOf: []
+    context: An idempotent operation can be applied multiple times to a dataset and only changes the data the first time it's applied.
+    priority: 60
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Performance tips for Cosmos DB.
+    url: /azure/cosmos-db/sql/performance-tips-dotnet-sdk-v3-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.e68ab610-2992-4d18-bf07-f951ed3e5135.5
+      scoreOf: []
+    context: Read and write workloads can have different costs and performance profiles. Understanding the way users interact with the service will allow you to create an appropriate data model and use the appropriate number of collections accordingly.
+    priority: 88
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Request Units as a throughput and performance currency in Cosmos DB.
+    url: /azure/cosmos-db/request-units
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.f7c4c015-224b-4fe9-b3d4-b6225cb688d3.0
+      scoreOf: []
+    context: Using the proper partition key can avoid hot partitions and protect you against high costs.
+    priority: 84
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Create Cosmos DB containers and databases in auto-scale mode.
+    url: /azure/cosmos-db/provision-throughput-autoscale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.f7c4c015-224b-4fe9-b3d4-b6225cb688d3.2
+      scoreOf: []
+    context: 'When you have a different access pattern for an existing dataset (e.g. you are NOT using the existing partition key), create a new collection that stores a subset of the master data, thereby allowing for the new PK to be utilized.'
+    priority: 83
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Provision throughput on Cosmos DB containers and databases.
+    url: /azure/cosmos-db/set-throughput
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.f7c4c015-224b-4fe9-b3d4-b6225cb688d3.4
+      scoreOf: []
+    context: 'Cost savings can be realized through the applicable data lifecycle management approach, such as archiving to blob storage.'
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Use the change feed estimator - Azure Cosmos DB.
+    url: /azure/cosmos-db/how-to-use-change-feed-estimator
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.f7c4c015-224b-4fe9-b3d4-b6225cb688d3.6
+      scoreOf: []
+    context: 'Utilizing certain SDK features, tools, and patterns allows you to control and optimize provisioned throughput when importing data into Cosmos DB.'
+    priority: 65
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Partitioning and horizontal scaling in Cosmos DB.
+    url: /azure/cosmos-db/partitioning-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.7cbd8622-2018-4a2c-ae8a-10bf0bc692b2.0
+      scoreOf: []
+    context: The choice of partition key will determine how data and workloads are distributed across partitions. Ensuring even distribution of data and throughput is critical to ensure optimal utilization of provisioned resources.
+    priority: 85
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Query containers in Cosmos DB.
+    url: /azure/cosmos-db/how-to-query-container
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.7cbd8622-2018-4a2c-ae8a-10bf0bc692b2.2
+      scoreOf: []
+    context: 'Ensure that you are using the most efficient method (point reads vs queries) for returning the required data, and limit queries to single partition queries where possible.'
+    priority: 85
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Cosmos DB performance tips for .NET SDK v3.
+    url: /azure/cosmos-db/performance-tips-dotnet-sdk-v3-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.7cbd8622-2018-4a2c-ae8a-10bf0bc692b2.6
+      scoreOf: []
+    context: 'Because Azure Cosmos DB is accessed via network calls, you can make client-side optimizations to achieve peak performance, for example, by using the .NET Task Parallel Library.'
+    priority: 75
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Modeling data in Azure Cosmos DB.
+    url: /azure/cosmos-db/modeling-data
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.7cbd8622-2018-4a2c-ae8a-10bf0bc692b2.1
+      scoreOf: []
+    context: 'When using the document model, understand data-modeling strategies and the appropriate use of embedding or referencing approaches in designing your data model.'
+    priority: 86
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Indexing policies in Cosmos DB.
+    url: /azure/cosmos-db/index-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.7cbd8622-2018-4a2c-ae8a-10bf0bc692b2.4
+      scoreOf: []
+    context: 'When using the SQL API, all properties will be indexed by default. Having unneeded indexes on all properties will unnecessarily increase the cost of write operations. '
+    priority: 85
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Types of indexes.
+    url: /azure/cosmos-db/index-overview#index-types
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.7cbd8622-2018-4a2c-ae8a-10bf0bc692b2.3
+      scoreOf: []
+    context: Choose the correct index policy to ensure that queries perform efficiently.
+    priority: 85
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Define a unique key.
+    url: /azure/cosmos-db/unique-keys#define-a-unique-key
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.7cbd8622-2018-4a2c-ae8a-10bf0bc692b2.7
+      scoreOf: []
+    context: 'Once you select a unique key, it can'' be altered on that container, so pay special attention to your selection. You can change your selection by migrating the data to a new container.  Unique key names are case sensitive.  It is not recommended to have a lot of sparse values.'
+    priority: 75
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Use data migration tool to migrate data to Cosmos DB.
+    url: /azure/cosmos-db/unique-keys#define-a-unique-key
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.7cbd8622-2018-4a2c-ae8a-10bf0bc692b2.5
+      scoreOf: []
+    context: Azure Data Factory and the Cosmos DB Spark connector provide options to limit the consumption of provisioned resources when loading data into containers. Use these options to avoid having these workloads overwhelm your operational workloads running in parallel.
+    priority: 68
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: How to monitor the server-side latency for operations in Cosmos DB.
+    url: /azure/cosmos-db/monitor-server-side-latency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.3f923d3f-44ee-4568-ac95-1f2681d4fef9.3
+      scoreOf: []
+    context: 'The server-side latency metric is used to view the server-side latency of an operation. Azure Cosmos DB provides an SLA of less than 10 ms for point read/write operations with direct connectivity. If a user reports latency in an operation, it is helpful to have this metric available to determine if the issue is client or server-side.'
+    priority: 85
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Monitor the throughput usage of an operation in Cosmos DB.
+    url: /azure/cosmos-db/monitor-request-unit-usage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.3f923d3f-44ee-4568-ac95-1f2681d4fef9.8
+      scoreOf: []
+    context: 'Monitoring request units not only provides information on current performance, but also allows you to predict operating costs for the service.  If you notice an unexpected change in RU consumption, this may indicate that there is anomalous activity within the application.'
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Monitor and debug with metrics in Cosmos DB.
+    url: /azure/cosmos-db/use-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.3f923d3f-44ee-4568-ac95-1f2681d4fef9.7
+      scoreOf: []
+    context: The normalized RU consumption metric is used to see how well saturated the partition key ranges are with respect to traffic. Use this metric to calculate RU usage across partition key range for a given container.
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Monitor Cosmos DB data by using Azure diagnostic settings.
+    url: /azure/cosmos-db/cosmosdb-monitor-resource-logs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808.3f923d3f-44ee-4568-ac95-1f2681d4fef9.NOA
+      scoreOf: []
+    context: 'Logging and analysis of logs is key to stability, cost management, and for deploying new workloads onto the platform. '
+    priority: 45
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+uid: 010765fc-9a86-44c8-b279-7dff88e6bd81
+name: ''

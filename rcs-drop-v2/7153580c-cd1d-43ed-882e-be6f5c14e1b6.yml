@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our team is looking for broad support in popular modelling frameworks that can integrate well with our services.
+    description: "Databricks has broad support for popular modelling frameworks.\_ You can train models manually or with AutoML\_and track experiments with MLflow tracking and has excellent integration with Azure ML.\_"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: Our team is looking for an easier to follow interface with drag-and-drop functionality for Data Science and AutoML capabilities.
+    description: "Synapse offers ML training through Spark pools, but the dev experience is weaker.\_ A better option for Synapse customers is to use Azure ML to connect to Synapse Spark Pools."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does your project require ML models to be trained over large datasets?
+isRequired: true
+uid: 7153580c-cd1d-43ed-882e-be6f5c14e1b6
+name: Does your project require ML models to be trained over large datasets?

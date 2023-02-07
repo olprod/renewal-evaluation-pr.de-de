@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your organization uses Microsoft Power BI Premium in a P2 tier. 
+
+  You need to plan a schedule for concurrent background refreshes. 
+
+  What formula should you use to calculate the maximum number of concurrent refreshes? 
+questionnaireUid: 1d2e0bbe-e86d-424e-80e1-6eb3c24dd6eb
+questions:
+  - uid: fdad265c-1847-4004-bf2e-f62f25d1df02-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'Your organization uses Microsoft Power BI Premium in a P2 tier. '
+        isCorrect: false
+      - id: 1
+        text: 'You need to plan a schedule for concurrent background refreshes. '
+        isCorrect: true
+      - id: 2
+        text: 'What formula should you use to calculate the maximum number of concurrent refreshes? '
+        isCorrect: false
+      - id: 3
+        text: 'Multiply the number of backend v-cores by 1.0. '
+        isCorrect: false
+    manualId: 'DP-500.3.1.2 '
+uid: fdad265c-1847-4004-bf2e-f62f25d1df02
+title: ''
+manualId: ''

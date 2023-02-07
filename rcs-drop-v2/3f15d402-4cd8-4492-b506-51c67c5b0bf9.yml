@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Evaluate the different Azure API Management Plans for your production deployment
+    url: 'https://azure.microsoft.com/en-gb/pricing/details/api-management/plans/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 56159f61-7772-4398-bf85-f0099dd523a8.9c65f130-87f1-46d1-ba52-3d3f913411a1.A
+      scoreOf: []
+    context: 'The Standard Plan is suitable for production scenarios with medium volumes of requests. It supports up to 4 scale-units with an estimated throughput of 2,500 requests/second per unit and 1GB of cache (per unit) and has no support for Virtual Network Integration of multi-region deployments. Review the differences between the plans to ensure you select the appropriate plan for the features required for your solution.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Evaluate the different plans available based on number of requests per second
+    url: 'https://azure.microsoft.com/en-gb/pricing/details/api-management/plans/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 56159f61-7772-4398-bf85-f0099dd523a8.9c65f130-87f1-46d1-ba52-3d3f913411a1.B
+      scoreOf: []
+    context: Ensure your peak requests per second are within the limits of the Standard plan and consider using the Azure API Management Premium Plan which supports significantly higher estimated maximum throughput and a higher maximum number of scale units.
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Familiarize yourself with the built-in response caching capabilities of API Management
+    url: '/azure/api-management/api-management-howto-cache '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 56159f61-7772-4398-bf85-f0099dd523a8.9c65f130-87f1-46d1-ba52-3d3f913411a1.C
+      scoreOf: []
+    context: 'API Management Developer, Basic, Standard, and Premium Plans support an internal cache implementation which makes it easy to implement and take advantage of response caching.'
+    priority: 30
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Configure Automatic Scaling for your API Management Service
+    url: /azure/api-management/api-management-howto-autoscale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 56159f61-7772-4398-bf85-f0099dd523a8.9c65f130-87f1-46d1-ba52-3d3f913411a1.D
+      scoreOf: []
+    context: 'Azure API Management can scale automatically based upon a set of rules. Configuring automatic scaling ensures that your APIs remain responsive under high load, subject to the maximum number of scale units supported by your plan.'
+    priority: 70
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+  - title: Implement monitoring alerts and action groups in your API Management Service
+    url: /azure/api-management/api-management-capacity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 56159f61-7772-4398-bf85-f0099dd523a8.9c65f130-87f1-46d1-ba52-3d3f913411a1.E
+      scoreOf: []
+    context: 'When the limits of the Basic plan scale unit is reached, it is possible to scale out to an additional unit to help handle the load. It is critical to have monitoring and alerting configured to enable you to proactively scale out the number of scale units. You may also want to consider upgrading to the Standard of Premium Plan to take advantage of automatic scale rules.'
+    priority: 70
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+uid: 3f15d402-4cd8-4492-b506-51c67c5b0bf9
+name: ''

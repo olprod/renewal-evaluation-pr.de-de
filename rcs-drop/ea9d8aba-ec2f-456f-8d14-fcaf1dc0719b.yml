@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |
+  Your company plans to implement Windows Autopilot.
+
+  Microsoft Endpoint Configuration Manager is required for Windows Autopilot.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: fc35a57d-19a2-4237-8bf1-f613b49158cf
+questions:
+  - uid: ea9d8aba-ec2f-456f-8d14-fcaf1dc0719b-q-0
+    title: Your company plans to implement Windows Autopilot.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Microsoft Endpoint Configuration Manager is required for Windows Autopilot.
+        isCorrect: false
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: true
+uid: ea9d8aba-ec2f-456f-8d14-fcaf1dc0719b
+title: 'Otherwise, select No.'

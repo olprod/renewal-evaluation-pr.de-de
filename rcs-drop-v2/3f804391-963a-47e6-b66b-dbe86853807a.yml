@@ -1,0 +1,39 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: A process is in place that actively monitors for dead-letter queue (DLQ) messages.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: We understand the differences between Azure Storage Queues and Azure Service Bus Queues.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.bus
+stem: ''
+isRequired: false
+uid: 3f804391-963a-47e6-b66b-dbe86853807a
+name: Have you configured Azure Service Bus for operational excellence?

@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We use Git as a configuration repository
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: We use data files like YAML to describe our configuration data
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: We use a Configuration Store like Azure App Configuration
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: We use shared text files and environment variables that are part of our source control
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: Configuration management is a systems engineering process for establishing consistency of a product’s attributes throughout its life.
+isRequired: true
+uid: ab1ec621-3ca2-44de-a20b-a0d95ed47d65
+name: 'Configuration management is a systems engineering process for establishing consistency of a product’s attributes throughout its life. '

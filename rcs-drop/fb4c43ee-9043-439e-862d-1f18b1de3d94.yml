@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Intune is a mobile application management (MAM) provider.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 81802fd0-5020-43ac-800b-a1d8ad722e5c
+questions:
+  - uid: fb4c43ee-9043-439e-862d-1f18b1de3d94-q-0
+    title: Intune is a mobile application management (MAM) provider.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Select Yes if the statement is true.
+        isCorrect: true
+      - id: 1
+        text: 'Otherwise, select No.'
+        isCorrect: false
+uid: fb4c43ee-9043-439e-862d-1f18b1de3d94
+title: Intune is a mobile application management (MAM) provider.

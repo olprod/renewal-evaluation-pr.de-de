@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: SAP workload logs are collected using monitoring tools like Solman or 3rd party.
+    description: Are application logs collected from different application environments?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: Azure Monitor for SAP implemented.
+    description: Azure Monitor for SAP Solutions is an Azure-native monitoring product for anyone running their SAP landscapes on Azure. The product works with both SAP on Azure Virtual Machines and SAP on Azure Large Instances.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: Azure automanage implemented for the Virtual Machines hosting SAP workload.
+    description: 'Automanage enrolls, configures, and monitors the entire lifecycle of dev/test and production VMs for services such as Azure Security Center, Update Management, change tracking, VM inventory, desired state configuration, guest configuration, automation accounts, and log analytics.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: AzSAP Health Check implemented and reviewed after every upgrade/enhancement of the SAP workload.
+    description: AzSAP Health Check is Microsoft Value-add offering to help SAP on Azure customers to review the deployment with recommended best practices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Monitoring your resources'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWKhpi'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: In order to successfully maintain a workload it's important to 'turn the lights on' and have clear visibility of important metrics both in real-time and historically.
+isRequired: false
+uid: a1d5d658-812b-454b-8335-51a793f92a41
+name: In order to successfully maintain a workload it's important to 'turn the lights on' and have clear visibility of important metrics both in real-time and historically.

@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics Advanced Threat Protection.
+    description: 'ATP detects anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases and it can trigger various alerts, such as ''Potential SQL injection'' and ''Access from unusual location''.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: B
+    text: 'Maintain an inventory of administrative accounts, change default passwords, and use dedicated administrative accounts.'
+    description: You can identify the administrator accounts for a database by opening the Azure portal and navigating to the properties tab of your server or managed instance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: Secure Azure Synapse Analytics to a virtual network via Private Link.
+    description: Azure Private Link enables you to access Azure PaaS services over a private endpoint in your virtual network. Traffic between your virtual network and the service travels the Microsoft backbone network.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: Create Azure Synapse Analytics Workspace with Data Exfiltration protection enabled.
+    description: 'With exfiltration protection, you can guard against malicious insiders accessing your Azure resources and exfiltrating sensitive data to locations outside of your organization''s scope.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: E
+    text: Secure credentials with linked services using the TokenLibrary.
+    description: 'The TokenLibrary simplifies the process of retrieving SAS tokens, AAD tokens, connection strings, and secrets stored in a linked service or from an Azure Key Vault.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: b1e9a223-1d66-4383-9eb5-3efcb5577d58
+name: What reliability allowances for security have you made?

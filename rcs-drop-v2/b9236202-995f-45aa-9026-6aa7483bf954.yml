@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Low [Rehost]'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: 'Medium [Refactor]'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '2'
+    text: 'High [Rearchitect]'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '3'
+    text: 'Very High [Rebuild]'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+uid: b9236202-995f-45aa-9026-6aa7483bf954
+name: 'If you were to assess, what is the level of changes you need to make to move your applications to the cloud?'

@@ -1,0 +1,21 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Windows Autopilot can join devices automatically to Azure AD or Active Directory Domain Services (AD DS).
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 08b9411d-a628-443a-9027-0676f554bee7
+questions:
+  - uid: f1d7adbb-080a-4cdf-9739-c6f26f757014-q-0
+    title: Windows Autopilot can join devices automatically to Azure AD or Active Directory Domain Services (AD DS).
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Select Yes if the statement is true.
+        isCorrect: true
+      - id: 1
+        text: 'Otherwise, select No.'
+        isCorrect: false
+uid: f1d7adbb-080a-4cdf-9739-c6f26f757014
+title: Windows Autopilot can join devices automatically to Azure Active Directory (Azure AD) or Active Directory Domain Services (AD DS).
+manualId: 1_md-101.1.1.3

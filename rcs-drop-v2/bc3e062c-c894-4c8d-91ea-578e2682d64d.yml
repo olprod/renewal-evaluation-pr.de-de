@@ -1,0 +1,107 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The workload is deployed across multiple regions.
+    description: 'Multiple regions should be used for failover purposes in a disaster state, as part of either re-deployment, warm-spare active-passive, or hot-spare active-active strategies. Additional cost needs to be taken into consideration - mostly from compute, data and networking perspective, but also services like Azure Site Recovery (ASR).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: B
+    text: 'Regions were chosen based on location, proximity to users, and resource type availability.'
+    description: 'Not only is it important to utilize regions close to your audience, but it is equally important to choose regions that offer the SKUs that will support your future growth. Not all regions share the same parity when it comes to product SKUs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: C
+    text: Paired regions are used appropriately.
+    description: 'Paired regions exist within the same geography and provide native replication features for recovery purposes, such as Geo-Redundant Storage (GRS) asynchronous replication. In the event of planned maintenance, updates to a region will be performed sequentially only.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: D
+    text: You have ensured that both (all) regions in use have the same performance and scale SKUs that are currently leveraged in the primary region.
+    description: 'When planning for scale and efficiency, it is important that regions are not only paired, but homogenous in their service offerings. Additionally, you should make sure that, if one region fails, the second region can scale appropriately to sufficiently handle the influx of additional user requests.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: E
+    text: Within a region the application architecture is designed to use Availability Zones.
+    description: 'Availability Zones can be used to optimize application availability within a region by providing data-center level fault tolerance. However, the application architecture must not share dependencies between zones to use them effectively. It is also important to note that Availability Zones may introduce performance and cost considerations for applications which are extremely ''chatty'' across zones given the implied physical separation between each zone and inter-zone bandwidth charges.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: F
+    text: The application is implemented with strategies for resiliency and self-healing.
+    description: Strategies for resiliency and self-healing include retrying transient failures and failing over to a secondary instance or even another region.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: G
+    text: Component proximity is considered for application performance reasons.
+    description: If all or part of the application is highly sensitive to latency it may mandate component co-locality which can limit the applicability of multi-region and multi-zone strategies.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: H
+    text: The application can operate with reduced functionality or degraded performance in the case of an outage.
+    description: 'Avoiding failure is impossible in the public cloud, and as a result applications require resilience to respond to outages and deliver reliability. The application should therefore be designed to operate even when impacted by regional, zonal, service or component failures across critical application scenarios and functionality.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: I
+    text: You choose appropriate datastores for the workload during the application design.
+    description: Your application will most likely require more than one type of datastore depending on business requirements. Choosing the right mix and correct implementation is extremely important for optimizing application performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: Your application is using a micro-service architecture.
+    description: 'As compared to a monolithic architecture--an application that is tightly coupled with synchronous communication and often a single datastore--microservices leverage concepts such as asynchronous communication, service discovery, various resiliency strategies, and each service has its own datastore.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: K
+    text: You understand where state will be stored for the workload.
+    description: 'Stateless services and processes can easily be hosted across multiple compute instances to meet scale demands, as well as helping to reduce complexity and ensure high cacheability.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: L
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Designing your workload to scale
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4Irlt'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: As traffic fluctuates into your application the amount of underlying resources that you need will vary over time.
+isRequired: false
+legacyId: design
+uid: bc3e062c-c894-4c8d-91ea-578e2682d64d
+name: As traffic fluctuates into your application the amount of underlying resources that you need will vary over time.

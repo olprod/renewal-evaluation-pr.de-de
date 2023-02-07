@@ -1,0 +1,59 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Virtual Networks (VNets) and Subnets are used to segment core/shared services, high-valued applications and non-production (dev/test/stage) environments'
+    description: |
+      Use Azure networking constructs to segment and contain traffic to meet business and isolation requirements
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Network Security Groups (NSGs) are used on Subnets to explicitly allow authorized traffic flows
+    description: |
+      Use NSGs for granular control over traffic between specific devices and roles 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Private (or Service) Endpoints are used to restrict access to Azure services to applications/servers on your Virtual Networks
+    description: |
+      Use Private (or Service) Endpoints to restrict resource access to the roles that need it, and block all other access
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: On-prem or cloud networks use private connections to your Azure resources
+    description: |
+      Use ExpressRoute or VPN for private connectivity between Azure, on-prem and other cloud provider networks
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: e18a6630-c98e-4e11-ac53-99a749b538e4
+name: How are you segmenting network traffic flowing to and between your cloud resources?

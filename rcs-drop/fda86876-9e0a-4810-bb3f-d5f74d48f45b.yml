@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company selects Dynamics 365 and awards a partner for the software services. The company operates as a cloud-only business and does not have staff to support hardware. You are the solution architect for the partner and must create a project in Lifecycle Services.
+
+  Which type of project should you create?
+questionnaireUid: 528b49bf-4c00-409a-82c7-cb00022e078c
+questions:
+  - uid: fda86876-9e0a-4810-bb3f-d5f74d48f45b-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company selects Dynamics 365 and awards a partner for the software services.
+        isCorrect: false
+      - id: 1
+        text: The company operates as a cloud-only business and does not have staff to support hardware.
+        isCorrect: false
+      - id: 2
+        text: You are the solution architect for the partner and must create a project in Lifecycle Services.
+        isCorrect: true
+      - id: 3
+        text: Which type of project should you create?
+        isCorrect: false
+uid: fda86876-9e0a-4810-bb3f-d5f74d48f45b
+title: ''

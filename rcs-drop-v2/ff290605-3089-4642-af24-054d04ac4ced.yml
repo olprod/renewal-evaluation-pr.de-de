@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Establish a process to actively monitor the Dead-Letter Queue (DLQ) messages
+    url: /azure/service-bus-messaging/service-bus-dead-letter-queues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7b638cfc-4fa0-4095-a3cd-bb2fdb70562b.3f804391-963a-47e6-b66b-dbe86853807a.A
+      scoreOf: []
+    context: 'The dead-letter queue holds messages that can''t be delivered to any receiver or that couldn''t be processed. It is important to monitori dead-letter messages to examine the cause of any issues, apply any required corrections and to resubmit messages.'
+    priority: 75
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+  - title: Analyze the differences between Azure Storage Queues and Azure Service Bus Queues
+    url: /azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7b638cfc-4fa0-4095-a3cd-bb2fdb70562b.3f804391-963a-47e6-b66b-dbe86853807a.B
+      scoreOf: []
+    context: 'Azure Service Bus Messaging Entities are more advanced, reliable and feature-rich than Azure Storage Queues. If your requirement is for simple queue messaging without requirements for reliable messaging or the more advanced features that Azure Service Bus offers then Azure Storage Queues may be a more suitable option.'
+    priority: 25
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+uid: ff290605-3089-4642-af24-054d04ac4ced
+name: ''

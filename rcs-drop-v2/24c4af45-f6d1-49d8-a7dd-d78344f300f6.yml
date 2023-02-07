@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Azure Analysis Services RPO (Recovery Point Objective) and RTO (Recovery Time Objective) targets have been defined for the application and/or key scenarios and validate that AAS can achieve them.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: B
+    text: Availability SLAs (Service Level Agreements) have been defined for the solution and considered while architecting the solution.
+    description: Keep in mind that the Developer tier doesn’t offer any SLA.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: C
+    text: Composite SLA (including Azure Analysis Services) have been defined for the service and considered while architecting the solution.
+    description: 'Composite SLAs involve multiple services supporting an application, each with differing levels of availability.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.reliability
+stem: ''
+isRequired: false
+uid: 24c4af45-f6d1-49d8-a7dd-d78344f300f6
+name: What reliability targets and metrics have you defined for your application?

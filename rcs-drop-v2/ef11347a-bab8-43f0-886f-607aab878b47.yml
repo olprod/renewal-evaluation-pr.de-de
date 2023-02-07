@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has developed metadata documentation and approach.
+    description: Your organization has developed metadata documentation and approach.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has established a metadata management process that is followed to perform impact analysis in potential data changes.
+    description: Your organization has established a metadata management process that is followed to perform impact analysis in potential data changes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has stablished metadata management strategy for the whole organization and utilizes metadata repository with classifications that can be access through centralized access interface.
+    description: Your organization has stablished metadata management strategy for the whole organization and utilizes metadata repository with classifications that can be access through centralized access interface.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has developed and deployed an integrated metadata management platform to support consistent data consumption practices.
+    description: Your organization has developed and deployed an integrated metadata management platform to support consistent data consumption practices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has a metadata strategy and follows continuous improvement for metadata capture, change, and refinement via a central and standardized process and tools.'
+    description: 'Your organization has a metadata strategy and follows continuous improvement for metadata capture, change, and refinement via a central and standardized process and tools.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Establish processes for specifying and extending clear and organized information about the structured and unstructured data assets to support data sharing and ensuring compliant use of data. Do you capture metadata standards and follow metadata management processes for your Technical, Business and Operational metadata? '
+isRequired: false
+uid: ef11347a-bab8-43f0-886f-607aab878b47
+name: Establish processes for specifying and extending clear and organized information about the structured and unstructured data assets to support data sharing and ensuring compliant use of data.

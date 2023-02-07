@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Built a capability model (storage, compute) for Azure SQL MI with its current and future utilization and considered while architecting the solution.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Scale up and scale down capabilities of Azure sql mi have been considered based upon business usage pattern.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Confirmed Azure SQL MI service and required hardware availability in required regions.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: 'When using preview features, has the availability of the feature been confirmed in DR region.'
+    description: Please note preview features do not come with SLAs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: capacity-data-sqlmi
+uid: 04f08ef0-eb49-41ab-9985-1f56fac6167e
+name: How have you ensured required capacity and services are available in targeted regions?

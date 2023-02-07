@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You create a Power BI report. 
+
+  You plan to display a chart based on the R code. 
+
+  You need to add the R code to the report. 
+
+  What should you use to add the R code for the chart? 
+questionnaireUid: 172a0a91-d0d4-498e-a314-57e173438986
+questions:
+  - uid: f9fe29b2-52a0-4654-a23d-e0afc50cfc97-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You create a Power BI report. '
+        isCorrect: false
+      - id: 1
+        text: 'You plan to display a chart based on the R code. '
+        isCorrect: true
+      - id: 2
+        text: 'You need to add the R code to the report. '
+        isCorrect: false
+      - id: 3
+        text: 'What should you use to add the R code for the chart? '
+        isCorrect: false
+    manualId: 'DP-500.12.4.1 '
+uid: f9fe29b2-52a0-4654-a23d-e0afc50cfc97
+title: ''
+manualId: ''

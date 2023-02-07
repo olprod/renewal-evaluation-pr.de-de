@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company plans to use Microsoft Dynamics 365 Customer Service Analytics dashboards.
+
+  How frequently will the dashboard update?
+questionnaireUid: 06d794d9-90b5-4213-8bbd-e8c434d1ae36
+questions:
+  - uid: f5a4a98a-1c2b-437e-8562-e811cce0f0a7-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company plans to use Microsoft Dynamics 365 Customer Service Analytics dashboards.
+        isCorrect: false
+      - id: 1
+        text: How frequently will the dashboard update?
+        isCorrect: false
+      - id: 2
+        text: every 30 minutes
+        isCorrect: false
+      - id: 3
+        text: every hour
+        isCorrect: true
+      - id: 4
+        text: every 12 hours
+        isCorrect: false
+uid: f5a4a98a-1c2b-437e-8562-e811cce0f0a7
+title: ''

@@ -1,0 +1,133 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    uid: 87db44e0-8442-4346-8349-fd1f830e5836-q-0
+    name: 'Preventing exploits by continuously monitoring and applying security recommendations across machines, networks, and Azure services.'
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    uid: 87db44e0-8442-4346-8349-fd1f830e5836-q-1
+    name: 'Preventing loss or leaks of data, including personally identifiable information (PII) or other forms of high priority data.'
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    uid: 87db44e0-8442-4346-8349-fd1f830e5836-q-2
+    name: Stopping unauthorized traffic or other forms of intrusion that could compromise the network or other IT assets.
+stem: 'Security Baseline is the process to ensure that technical requirements and security constraints are consistently applied to cloud environments, especially as those requirements mature. Microsoft gives you security controls and capabilities to help you protect your data and applications.'
+isRequired: true
+uid: 87db44e0-8442-4346-8349-fd1f830e5836
+name: 'Security Baseline is the process to ensure that technical requirements and security constraints are consistently applied to cloud environments, especially as those requirements mature.'

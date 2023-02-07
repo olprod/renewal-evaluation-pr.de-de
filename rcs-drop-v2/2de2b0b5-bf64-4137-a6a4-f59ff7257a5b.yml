@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Get email/sms alerts from the system
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Get alerts with your IT service management tools
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Get alerts from DevOps build systems
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Sometimes failures happen, It is important to make sure you have visibility into your pipeline.'
+isRequired: true
+uid: 2de2b0b5-bf64-4137-a6a4-f59ff7257a5b
+name: 'Sometimes failures happen, It is important to make sure you have visibility into your pipeline.'

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has an ad-hoc pattern for semi-structured data that enables basic data ingestion into Landing Zone/s.
+    description: Your organization has an ad-hoc pattern for semi-structured data that enables basic data ingestion into Landing Zone/s.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization has a need for more advanced data ingestion pattern to support semi-structured data  and enable data transformation as it moves through various zones. '
+    description: 'Your organization has a need for more advanced data ingestion pattern to support semi-structured data  and enable data transformation as it moves through various zones. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has designed a data ingestion pattern that supports  semi-structured data ingestion.
+    description: Your organization has designed a data ingestion pattern that supports  semi-structured data ingestion.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has implemented a scalable approach to semi-structured data ingestion pattern that is flexible and scalable including meta-data driven.
+    description: Your organization has implemented a scalable approach to semi-structured data ingestion pattern that is flexible and scalable including meta-data driven.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization is using flexible patterns that offers fast ingestion, storage and transformation semi-structured format to other data formats.'
+    description: 'Your organization is using flexible patterns that offers fast ingestion, storage and transformation semi-structured format to other data formats.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you have an ingestion pattern for pulling data from a wide variety of semi-structured data sources, both on-premises and in the cloud?'
+isRequired: true
+uid: 3999c727-6208-4ab7-afa8-ac2fe7e970db
+name: 'Do you have an ingestion pattern for pulling data from a wide variety of semi-structured data sources, both on-premises and in the cloud?'

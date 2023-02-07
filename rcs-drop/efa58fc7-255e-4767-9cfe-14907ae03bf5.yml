@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Microsoft Exchange Online tenant named contoso.com.
+
+  You plan to enable Organization Sharing between your company and A. Datum Corporation.
+
+  From contoso.com, you create an organization relationship with adatum.com.
+
+  You need to ensure that calendar information is shared between contoso.com and adatum.com.
+
+  What should you instruct A. Datum to do next?
+questionnaireUid: 6af98bd7-593c-4d8d-924d-e9b1ba935cdd
+questions:
+  - uid: efa58fc7-255e-4767-9cfe-14907ae03bf5-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a Microsoft Exchange Online tenant named contoso.com.
+        isCorrect: true
+      - id: 1
+        text: You plan to enable Organization Sharing between your company and A. Datum Corporation.
+        isCorrect: false
+      - id: 2
+        text: 'From contoso.com, you create an organization relationship with adatum.com.'
+        isCorrect: false
+      - id: 3
+        text: You need to ensure that calendar information is shared between contoso.com and adatum.com.
+        isCorrect: false
+uid: efa58fc7-255e-4767-9cfe-14907ae03bf5
+title: ''

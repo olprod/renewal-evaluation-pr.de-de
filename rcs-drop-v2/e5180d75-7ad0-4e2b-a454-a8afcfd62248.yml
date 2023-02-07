@@ -1,0 +1,71 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: A tool such as Azure Monitor or Grafana is used to visualize the application health model and encompassed logs and metrics
+    description: What technology in used to visualize the application health model and encompassed logs and metrics?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'Dashboards are tailored to a specific audience such as developers, security or networking teams'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: A tool such as Azure Monitor or Splunk is used for alerting
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Specific owners and processes are defined for each alert type
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: Operational events are prioritized based on business impact
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '5'
+    text: Alerting is integrated with an IT Service Management (ITSM) system such as ServiceNow
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '6'
+    text: Push notifications are used to inform responsible parties of alerts in real time
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Alerts can proactively notify or respond to operational states that deviate from the norm. Alerts can also enable cost-awareness by watching budgets and limits and helping workload teams to scale appropriately.
+isRequired: true
+uid: e5180d75-7ad0-4e2b-a454-a8afcfd62248
+name: Alerts can proactively notify or respond to operational states that deviate from the norm.

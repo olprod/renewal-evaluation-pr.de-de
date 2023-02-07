@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 53543a59-35f1-4a70-8cb9-38155e9fdc19
+  - bfcce584-8f4a-43dc-a5e7-01fc9e0c777d
+  - 2fe8b19a-a91d-4eda-8da6-600920c8680b
+  - 382e9430-6608-4ded-ad9e-6e145eb29559
+  - 53cd5f69-7cc9-4cf2-bf8a-112602c8161a
+  - 8910bfa1-7e75-49f2-aa15-a551bd0617fd
+  - 153af358-c651-4df8-84f7-271e84845626
+recommendations:
+  - 8887f5e1-cf54-4f54-a862-127ad53fd932
+assignedGroupIds: []
+uid: 0349efd9-0388-476c-94ab-d34065dd8c04
+name: Identity Zero Trust Objective IV. - Identities and access privileges are managed with identity governance

@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You have considered required compute, memory, storage, power,connectivity,bandwidth,network traffic parameters.'
+    description: You use a low power MCU that can meet the memory and processor constraints for your authentication mechanism (symmetric key or certificate).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: A protocol translation gateway supports leaf devices with limited performance.
+    description: A protocol translation gateway can support leaf devices with limited performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Leaf devices have limited bandwidth and message size is minimized.
+    description: Your leaf devices use limited bandwidth for connectivity to the gateway and minimize message size.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: Messages use a binary message protocol to limit the message size.
+    description: 'Messages use a binary message protocol to limit the message size. An IoT Hub message consists of system properties, application properties, and an opaque binary payload. The encoding of the payload can be any form: JSON, text or binary. Binary payloads reduce the message size.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: 'Dependent on the type can capabilities of a device, the required compute, memory, storage, power, and connectivity need to be taken into account. These factors affect security performance (encryption/decryption), capacity (for example if compute intensive protocol translation is required), throughout, and latency (if devices need gateways to connect to the cloud).'
+isRequired: false
+uid: 02a86cb5-1c04-4b2e-8862-e3ffcbdae593
+name: 'Dependent on the type can capabilities of a device, the required compute, memory, storage, power, and connectivity need to be taken into account. These factors affect security performance (encryption/decryption), capacity (for example if compute intensive protocol translation is required), throughout, and latency (if devices need gateways to connect to the cloud).'

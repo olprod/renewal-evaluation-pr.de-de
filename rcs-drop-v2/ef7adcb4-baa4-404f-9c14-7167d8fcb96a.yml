@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The application is instrumented with semantic logs and metrics.
+    description: Is the application instrumented with semantic logs and metrics using APM technologies such as Application Insights?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: Application logs are correlated across components.
+    description: Are application logs correlated across components to ensure end-to-end system flows and component dependencies are monitored?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: All components are monitored and correlated with application telemetry.
+    description: Are all components monitored and correlated with application level telemetry?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: 'Key metrics, thresholds, and indicators are defined and captured.'
+    description: 'Have key metrics, thresholds and indicators been defined and captured?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: 'A monitoring solution is used to collect OS, application and/or database logs. Business logic has been defined for alert severity using multiple response triggers (ITSM, email, SMS).'
+    description: 'Are the application components monitored, to collected events and metrics from the operating system and application services? Have you defined alert logic and rules to send notifications using one or more response triggers, such as an ITSM Webhook, email or SMS message?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: 'A health model has been defined based on performance, availability, and recovery targets and is represented through monitoring dashboard and alerts.'
+    description: 'Has a health model been defined to qualify what ''healthy'' and ''unhealthy'' states represent across all application components, in a measurable and observable format? and is this health model fully represented through monitoring dashboards and alerts?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: 'Cloud Operators monitor Azure Stack Hub Region health alerts, which are are used to generate notifications for any platform or resource provider events.'
+    description: Have you configured automated monitoring that will detect if an alert is raised in the Azure Stack Hub Health API (Admin ARM Endpoint) and generate an alert or ticket for any platform or resource provider health events?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: H
+    text: Monitor long-running workflows for failures.
+    description: Do you monitor any long running application workflows and operationalise failure scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: ef7adcb4-baa4-404f-9c14-7167d8fcb96a
+name: How do you monitor and measure application health?

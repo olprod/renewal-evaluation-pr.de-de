@@ -1,0 +1,44 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: '[Guide]How Microsoft 365 Defender can help your organization defend against modern threats'
+    url: 'https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-365-defender?rtc=1'
+    condition:
+      allOf: []
+      anyOf:
+        - 27e3734c-0729-4a6c-963b-d2b8f995a8c7.f5cb8dab-7301-41d7-ac89-4a1b3a5ee4e9.0
+        - 27e3734c-0729-4a6c-963b-d2b8f995a8c7.f5cb8dab-7301-41d7-ac89-4a1b3a5ee4e9.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Integrate your Microsoft Defender for Identity with your Defender for Cloud Apps to provide user entity behavioral analytics (UEBA) across your hybrid environment
+    url: /defender-cloud-apps/mdi-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 27e3734c-0729-4a6c-963b-d2b8f995a8c7.2ed5e3ab-0633-4871-9fef-399c9a9feb15.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Identify advanced threats with User and Entity Behavior Analytics (UEBA) in Microsoft Sentinel
+    url: /azure/sentinel/identify-threats-with-entity-behavior-analytics
+    condition:
+      allOf:
+        - 46b55d3b-73eb-4070-a446-7743069cff7c.88377a38-1877-45ac-bf31-f69850668789.3
+      anyOf: []
+      noneOf:
+        - 27e3734c-0729-4a6c-963b-d2b8f995a8c7.2ed5e3ab-0633-4871-9fef-399c9a9feb15.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 9e04fe84-1848-474f-8d31-a13c49a1d392
+name: ''

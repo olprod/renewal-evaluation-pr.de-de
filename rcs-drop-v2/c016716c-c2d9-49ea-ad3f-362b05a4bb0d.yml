@@ -1,0 +1,53 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We use Premium storage disks.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: We placed the TempDB on an ephemeral disk
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Read-only host caching is enabled for all data-file disks.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: We set host caching to none for log-file disks.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-data.sqlvm
+stem: ''
+isRequired: false
+uid: c016716c-c2d9-49ea-ad3f-362b05a4bb0d
+name: Did you consider the cost profile of your Azure SQL VMs?

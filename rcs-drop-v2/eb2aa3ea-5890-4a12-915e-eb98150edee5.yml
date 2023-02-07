@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Integrate pipelines and activities using Azure Synapse Studio.
+    description: You can integrate a wide variety of tasks in Azure Synapse Analytics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: Visualize data with Power BI.
+    description: 'Link your Azure Synapse workspace, and create a Power BI data set that utilizes data in your Azure Synapse workspace.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: Connect to Azure Data Explorer using Apache Spark for Azure Synapse Analytics.
+    description: Access an Azure Data Explorer database from Synapse Studio with Apache Spark for Azure Synapse Analytics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: Use the Azure Synapse Analytics connector for Azure Databricks to directly upload a dataframe as a table in a Synapse Spark pool.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: Use Azure Synapse Analytics Link for Azure Cosmos DB.
+    description: Azure Synapse Link for Azure Cosmos DB is a cloud-native hybrid transactional and analytical processing (HTAP) capability that enables you to run near real-time analytics over operational data in Azure Cosmos DB.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: Link an Azure Synapse Analytics workspace to an Azure Machine Learning workspace.
+    description: Linking these workspaces allows you to leverage Azure Machine Learning from various experiences in Synapse.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Connect an Azure Purview Account to an Azure Synapse Analytics workspace.
+    description: This allows you to discover Azure Purview assets and interact with them through Synapse capabilities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: eb2aa3ea-5890-4a12-915e-eb98150edee5
+name: How are you integrating your workloads?

@@ -1,0 +1,67 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Full analysis and documentation for all related frameworks and known vulnerability threats
+    description: |
+      Prevent supply chain attacks
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: "Timelines and processes are established to deploy mitigations (security fixes) for identified threats.\_"
+    description: |
+      Apply security patches in a structured timely manner
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Local administrative accounts are disabled on all servers and workstations
+    description: |
+      Disable standing local administrative Accounts 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: "All approved cloud services are identified and it is understood how to configure them securely.\_"
+    description: |
+      Continuously monitor and control access to cloud services
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: "Resource Tags are used to enrich Azure resources with operational metadata.\_"
+    description: |
+      Connect services and resources using tags
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 9dd8d8f4-f194-4b5a-95af-20bde44d5fdd
+name: What practices and mitigations have you implemented for tools/configuration in use in the environment?

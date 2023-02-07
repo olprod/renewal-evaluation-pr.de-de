@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Security in terms of network endpoints, data exfiltration prevention, enforcing network traffic flow for management and data plane operations, data encryption at-rest & at-transit, software deployment'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: 'Identity and access management in terms of authentication and access control, segregation of duties, multifactor authentication and conditional access'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: 'Governance in terms of Data export, import, privacy, usage and residency'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '3'
+    text: 'Operations in terms of monitoring, backup management, disaster recovery, SKU, capacity management, patch and update management, audit & configuration management'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: 'Azure service compliance in terms of service attestation, certification, external audits, availability and Service-level agreements (SLAs)'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: f7693ecd-6a4d-4681-9048-ee3da8d292ad
+name: Do you have a service enablement framework that takes into consideration the following

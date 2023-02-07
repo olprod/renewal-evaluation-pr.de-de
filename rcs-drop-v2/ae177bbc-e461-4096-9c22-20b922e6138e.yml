@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no workloads hosted in the clouds or have not created and utilized landing zones to host new workloads.
+    description: 'Not hosted in the cloud, and have not created and utilize landing zones to host workloads'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has some workloads hosted in the clouds or considered creating and utilizing landing zones to host new workloads.
+    description: Some workloads hosted in the clouds or considered creating and utilizing landing zones to host new workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization is prepared to host some workloads in the clouds and has considered creating or created and utilizing landing zones to host new workloads.
+    description: Some workloads are already hosted in the clouds and considered or created and utilizing landing zones to host new workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has created and confirmed Azure landing zone conceptual architecture and Azure landing zone accelerator to commence migration of workloads.
+    description: Azure landing zone conceptual architecture and Azure landing zone accelerator utilized.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization is fully utilizing Azure landing zones and implementation against the three core concepts of start, align and enhance.'
+    description: 'Fulling utilizing Implementation against the three core concepts of start, align and enhance your workloads in the cloud.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'With your workloads hosted in the cloud, have you created and utilize landing zones to host workloads?'
+isRequired: true
+uid: ae177bbc-e461-4096-9c22-20b922e6138e
+name: 'With your workloads hosted in the cloud, have you created and utilize landing zones to host workloads?'

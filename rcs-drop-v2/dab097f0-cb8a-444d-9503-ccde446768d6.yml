@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider using a multi-tenant Application Service Plan
+    url: 'https://azure.microsoft.com/en-gb/pricing/details/app-service/plans/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ae959c10-ff3a-411b-af81-8a7944101d9b.8f905fdb-68fd-46f4-9adf-b234b72106cc.A
+      scoreOf: []
+    context: An Application Service Environment may not be required for your application workload. Consider using a multi-tenant Application Service Plan.
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Use connection pools in ASE to avoid SNAT port exhaustion
+    url: /azure/app-service/troubleshoot-intermittent-outbound-connection-errors
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ae959c10-ff3a-411b-af81-8a7944101d9b.8f905fdb-68fd-46f4-9adf-b234b72106cc.B
+      scoreOf: []
+    context: Avoiding the SNAT port problem means avoiding the creation of new connections repetitively to the same host and port. Connection pools are one of the more obvious ways to solve that problem.
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+uid: dab097f0-cb8a-444d-9503-ccde446768d6
+name: ''

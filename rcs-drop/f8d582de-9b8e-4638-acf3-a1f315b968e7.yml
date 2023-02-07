@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company purchases a Microsoft 365 subscription.
+
+  You plan to bulk enroll several Windows 10 devices to Microsoft Intune by using a provisioning package.
+
+  Which tool should you use to create the provisioning package?
+questionnaireUid: 1bb391c7-4508-4fc7-af86-9487506b28da
+questions:
+  - uid: f8d582de-9b8e-4638-acf3-a1f315b968e7-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company purchases a Microsoft 365 subscription.
+        isCorrect: false
+      - id: 1
+        text: You plan to bulk enroll several Windows 10 devices to Microsoft Intune by using a provisioning package.
+        isCorrect: false
+      - id: 2
+        text: Which tool should you use to create the provisioning package?
+        isCorrect: true
+      - id: 3
+        text: Microsoft Endpoint Manager
+        isCorrect: false
+uid: f8d582de-9b8e-4638-acf3-a1f315b968e7
+title: ''

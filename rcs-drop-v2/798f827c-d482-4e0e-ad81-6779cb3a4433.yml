@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: B
+    text: Use Azure Databricks encryption of traffic between cluster worker nodes.
+    description: 'By default, data exchanged between cluster worker nodes is not encrypted. Create a cluster-scoped init script or global init script that configures your clusters to encrypt traffic between worker nodes, using AES 128-bit encryption over a TLS 1.2 connection at rest or in transit.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: C
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Protecting data at rest and in transit is required to maintain confidentiality, integrity, and availability assurances across all workloads.'
+isRequired: false
+legacyId: '2'
+uid: 798f827c-d482-4e0e-ad81-6779cb3a4433
+name: 'Protecting data at rest and in transit is required to maintain confidentiality, integrity, and availability assurances across all workloads.'

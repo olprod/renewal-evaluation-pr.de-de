@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Baseline performance capture from performance test environment.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Monitoring implemented to capture Avg response time of the application and IOPS/Throughput usage for Database data/log files.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: HCMT report executed on HANA DB.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: NiPing executed to capture latency between App & DB VM hosting SAP Workload.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: Latency between SAP Workload VM and end user captured and documented.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: c48d0112-8954-43c9-854e-e1259f992c64
+name: Have you identified the performance targets for your SAP On Azure workload?

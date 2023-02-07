@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 9112a9d4-b157-4d10-aad5-e8885d63d83d
+  - a029242c-297a-486f-8049-441ffab120c5
+  - 6ae28b5a-a105-48fd-95ae-1b7645997dd4
+  - df20fa83-b193-492a-b778-057760bab936
+  - 8c0dfcc5-6c4a-4a71-954a-8baeb07d69ec
+  - 800ffe78-07d9-460d-9c4d-32b3e39a1cfc
+recommendations:
+  - cc6d23b4-16ee-4720-bc5a-90638cb34c5c
+assignedGroupIds: []
+uid: 668e03b9-89a9-4052-85a3-ca87282ab3c5
+name: ADLS Gen2 - Operational Excellence

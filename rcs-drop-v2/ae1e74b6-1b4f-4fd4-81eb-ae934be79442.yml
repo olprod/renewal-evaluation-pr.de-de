@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: 'No'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf:
+    - 324b1a0f-641c-4b15-b555-4f738d0affb9.0d863e4e-c4b9-4f12-9353-96fcd92b5254.1
+    - 324b1a0f-641c-4b15-b555-4f738d0affb9.0d863e4e-c4b9-4f12-9353-96fcd92b5254.3
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: ae1e74b6-1b4f-4fd4-81eb-ae934be79442
+name: 'Have your organization enabled encryption for Company-owned mobile devices (Android, iOS)?'

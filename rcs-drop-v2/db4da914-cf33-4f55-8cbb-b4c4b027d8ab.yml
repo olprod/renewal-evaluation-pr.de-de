@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use direct methods for request-response cloud-to-device communication.
+    description: 'Use direct methods for a request-response interaction with a device, which can succeed or fail immediately (after a user-specified timeout). This approach is useful for scenarios where the immediate action to take is different depending on whether the device was able to respond.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: You use device twins for eventually consistent cloud-to-device communication.
+    description: 'Device twins are JSON documents that store device state information including metadata, configurations, and conditions. Azure IoT Hub maintains a device twin for each device that you connect to Azure IoT Hub.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Cloud-to-device communication is usually much lower in volume than device-to-cloud communication, but needs to take into account mapping to the right device (in case of a downstream device), handle time-outs and responses, and be able to function correctly in case of temporary disconnects.'
+isRequired: false
+uid: db4da914-cf33-4f55-8cbb-b4c4b027d8ab
+name: 'Cloud-to-device communication is usually much lower in volume than device-to-cloud communication, but needs to take into account mapping to the right device (in case of a downstream device), handle time-outs and responses, and be able to function correctly in case of temporary disconnects. Q8.'

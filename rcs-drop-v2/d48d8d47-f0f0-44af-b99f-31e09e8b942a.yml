@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Selected Azure as cloud provider but have not deployed anything yet.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: B
+    text: 'Deployed VMs/PaaS services, but not workload (or a list of IT assets that support specific business functions).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: Deployed a workload (or a list of IT assets that support specific business functions).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: Deployed multiple workloads (or a list of IT assets that support specific business functions).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: false
+legacyId: '1'
+uid: d48d8d47-f0f0-44af-b99f-31e09e8b942a
+name: How would you describe your cloud journey?

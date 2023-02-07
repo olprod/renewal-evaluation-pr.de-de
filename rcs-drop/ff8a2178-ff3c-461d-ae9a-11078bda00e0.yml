@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are using the automated machine learning interface in Azure Machine Learning studio to train a model based on a dataset.
+
+  You want the automated machine learning experiment to preprocess the data by removing columns with high cardinality and impute missing values.
+
+  What should you do?
+questionnaireUid: 6e1705fe-fcc0-496b-9634-2c7393d42200
+questions:
+  - uid: ff8a2178-ff3c-461d-ae9a-11078bda00e0-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are using the automated machine learning interface in Azure Machine Learning studio to train a model based on a dataset.
+        isCorrect: true
+      - id: 1
+        text: You want the automated machine learning experiment to preprocess the data by removing columns with high cardinality and impute missing values.
+        isCorrect: false
+      - id: 2
+        text: What should you do?
+        isCorrect: false
+      - id: 3
+        text: Enable the Featurization option
+        isCorrect: false
+uid: ff8a2178-ff3c-461d-ae9a-11078bda00e0
+title: ''

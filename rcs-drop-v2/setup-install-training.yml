@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Contributing to Microsoft Docs requires account setup and installation of authoring tools. Assess whether you are equipped to use required tools for authoring Docs content.
+hideEmptyGuidance: false
+questions:
+  - 34579dc4-770e-4a5b-beee-4a3dee0ec036
+  - 558ac0ae-d36e-4fa5-ae13-d91b193f5e08
+  - 6e0c2b06-e741-4eb9-9b7f-391fc4e68f05
+recommendations: []
+assignedGroupIds: []
+uid: setup-install-training
+name: GitHub setup and tools installation

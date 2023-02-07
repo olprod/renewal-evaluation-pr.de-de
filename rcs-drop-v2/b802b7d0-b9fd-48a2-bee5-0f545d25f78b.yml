@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Monitor tempdb usage for Synapse Analytics dedicated SQL Pool.
+    description: 'Tempdb is used to hold intermediate results during query execution. High utilization of the tempdb database can lead to slow query performance. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: B
+    text: Monitor memory usage for Synapse Analytics dedicated SQL Pool.
+    description: Memory can be the root cause for slow performance and out of memory issues.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: C
+    text: Monitor connections for Synapse Analytics dedicated SQL Pool.
+    description: All logins to your Synapse Analytics data warehouse are logged for monitoring.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Monitor Adaptive cache for Synapse Analytics dedicated SQL Pool.
+    description: Monitor and troubleshoot slow query performance by determining whether your workload is optimally leveraging the adaptive cache for dedicated SQL pools.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Review Memory and concurrency limits for dedicated SQL pool in Azure Synapse Analytics.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Monitor Azure Synapse Analytics resource utilization and query activity.
+    description: Use Azure Synapse Analytics Workload Management Portal Monitoring.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: G
+    text: Monitor resource utilization and query activity in Azure Synapse Analytics.
+    description: Azure Synapse Analytics provides a rich monitoring experience within the Azure portal to surface insights regarding your data warehouse workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: H
+    text: Monitor and investigate space utilization for dedicated SQL pool in Azure Synapse Analytics.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: Select the correct executor size for Azure Synapse Analytics Apache Spark pool.
+    description: Review factors that help decide to increase or reduce the executor size.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: b802b7d0-b9fd-48a2-bee5-0f545d25f78b
+name: How are you ensuring you have sufficient capacity?

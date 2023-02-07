@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Regularly destroy your environments, then rebuild them using automated tools'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: 'Use configuration tools to monitor drift in environments, for example change tracking in Azure VMs or Terraform state changes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: 'We define all the configurations of the servers, or any other resource as code, and check them into version control'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: We monitor all our systems as necessary with automated checking
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'Configuration Drift refers to the phenomenon where environment configurations ‘drift’ toward an inconsistent state. In the DevOps world, it is vital that development, test, and production environments are as close to identical as possible.'
+isRequired: true
+uid: bae114cf-b347-44f7-a799-36f24b3f2dbb
+name: Configuration Drift refers to the phenomenon where environment configurations ‘drift’ toward an inconsistent state.

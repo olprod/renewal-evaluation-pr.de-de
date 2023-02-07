@@ -1,0 +1,53 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We are deploying or have considered deploying VMs using proximity placement groups.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: We are using premium SSDs instead of standard HDD.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Accelerated networking is implemented.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: 'Where we use VM Scale Sets, we leverage auto-scaling to decrease or increase the number of VM instances running the application.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.vm
+stem: ''
+isRequired: false
+uid: e1b865f1-fc81-45bc-a3fd-a39225915859
+name: What are the measures taken to provide the required performance for Azure VMs?

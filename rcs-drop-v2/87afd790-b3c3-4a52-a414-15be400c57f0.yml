@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Implement a custom page to use as a health check for your Traffic Manager
+    url: /azure/traffic-manager/traffic-manager-troubleshooting-degraded#understanding-traffic-manager-probes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 65222d89-5c7a-44db-8f7f-dd5434fcb19d.427979fb-523c-49f2-9522-07ab1efc51da.A
+      scoreOf: []
+    context: 'A common practice is to implement a custom page within your application, for example, /health.aspx. Using this path for monitoring, you can perform application-specific checks, such as checking performance counters or verifying database availability. Based on these custom checks, the page returns an appropriate HTTP status code.'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Evaluate the three different traffic routing methods available
+    url: /azure/traffic-manager/traffic-manager-routing-methods
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 65222d89-5c7a-44db-8f7f-dd5434fcb19d.427979fb-523c-49f2-9522-07ab1efc51da.B
+      scoreOf: []
+    context: 'Azure Traffic Manager supports 6 traffic-routing methods to determine how to route network traffic to the various service endpoints. Traffic Manager applies the traffic-routing method to each DNS query it receives. The traffic-routing method determines which endpoint is returned in the DNS response. The customer should be aware of these, and the differences in routing between endpoints.'
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: Consider nested traffic manager profiles
+    url: /azure/traffic-manager/traffic-manager-nested-profiles
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 65222d89-5c7a-44db-8f7f-dd5434fcb19d.427979fb-523c-49f2-9522-07ab1efc51da.C
+      scoreOf: []
+    context: 'Each Traffic Manager profile specifies a single traffic-routing method. However, there are scenarios that require more sophisticated traffic routing than the routing provided by a single Traffic Manager profile. You can nest Traffic Manager profiles to combine the benefits of more than one traffic-routing method. Nested profiles allow you to override the default Traffic Manager behavior to support larger and more complex application deployments.'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+uid: 87afd790-b3c3-4a52-a414-15be400c57f0
+name: ''

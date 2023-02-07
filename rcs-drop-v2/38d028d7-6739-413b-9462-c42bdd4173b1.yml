@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has limited or no way to perform data acquisition to determine what data sources are needed for analysis.
+    description: Your organization has limited or no way to perform data acquisition to determine what data sources are needed for analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has a repetitive approach to data analysis enabling to ingest data into the data lake for exploratory data analysis.
+    description: Your organization has a repetitive approach to data analysis enabling to ingest data into the data lake for exploratory data analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has implemented foundations that overcomes the challenges of ETL operations and  focuses first on generating business insights and then turns to solving modelling and ETL tasks by leveraging data lakehouse for exploratory data analysis.
+    description: Your organization has implemented foundations that overcomes the challenges of ETL operations and  focuses first on generating business insights and then turns to solving modelling and ETL tasks by leveraging data lakehouse for exploratory data analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has implemented implement the pillars of the Azure Well-Architected Framework that includes the use of data lake and lakehouse approach to enable business people to shorten the time-to-value.
+    description: Your organization has implemented implement the pillars of the Azure Well-Architected Framework that includes the use of data lake and lakehouse approach to enable business people to shorten the time-to-value.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization fully endorses and measures the use of true self-service analytics by using the data lake and a query tool like Azure Synapse serverless to put data assets into the hands of business people who understand a modicum of SQL. '
+    description: 'Your organization fully endorses and measures the use of true self-service analytics by using the data lake and a query tool like Azure Synapse serverless to put data assets into the hands of business people who understand a modicum of SQL. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have an approach for ad-hoc analysis and analysing datasets with ability to summarize main data characteristics?
+isRequired: true
+uid: 38d028d7-6739-413b-9462-c42bdd4173b1
+name: Do you have an approach for ad-hoc analysis and analysing datasets with ability to summarize main data characteristics?

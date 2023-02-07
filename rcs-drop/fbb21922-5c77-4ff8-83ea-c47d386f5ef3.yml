@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You follow the secure methodology of the Microsoft Cloud Adoption Framework (CAF) to integrate security with your organization's business goals. 
+
+  Which CAF security discipline should you apply to align business priorities with technical aspects of security, including architectural principles, standards, and policies? 
+questionnaireUid: a8fa4b8e-3121-4716-82bc-ae8c03b35adf
+questions:
+  - uid: fbb21922-5c77-4ff8-83ea-c47d386f5ef3-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You follow the secure methodology of the Microsoft Cloud Adoption Framework (CAF) to integrate security with your organization''s business goals. '
+        isCorrect: false
+      - id: 1
+        text: 'Which CAF security discipline should you apply to align business priorities with technical aspects of security, including architectural principles, standards, and policies? '
+        isCorrect: false
+      - id: 2
+        text: 'Asset Protection '
+        isCorrect: true
+      - id: 3
+        text: 'Innovation Security '
+        isCorrect: false
+    manualId: SC-100.1.8
+uid: fbb21922-5c77-4ff8-83ea-c47d386f5ef3
+title: ''
+manualId: ''

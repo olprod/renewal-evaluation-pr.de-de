@@ -1,0 +1,210 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: "Store diagnostics logs and metrics in a\_Log Analytics workspace"
+    url: /azure/storage/blobs/monitor-blob-storage?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.9112a9d4-b157-4d10-aad5-e8885d63d83d.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Define\_Azure Alerts\_when the availability, egress, ingress, latency, or transactions cross a defined threshold"
+    url: /azure/azure-monitor/alerts/alerts-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.9112a9d4-b157-4d10-aad5-e8885d63d83d.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Storage Insights capability of Azure Monitor
+    url: /azure/storage/common/storage-insights-overview?toc=/azure/azure-monitor/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.9112a9d4-b157-4d10-aad5-e8885d63d83d.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider ADLS Gen2 resource limits
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.a029242c-297a-486f-8049-441ffab120c5.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Familiarize yourself with the Known issues page of the ADLS Gen2 documentation
+    url: /azure/storage/blobs/data-lake-storage-known-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.a029242c-297a-486f-8049-441ffab120c5.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Give access to compute engines or users to the data for read, write, and delete through one of the programming interfaces available: Powershell, Azure CLI, .NET, Java, Python, C++, REST APIs or Javascript'
+    url: /cli/azure/dls?view=azure-cli-latest
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.6ae28b5a-a105-48fd-95ae-1b7645997dd4.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review the list of Azure services that you can use together with ADLS Gen2
+    url: /azure/storage/blobs/data-lake-storage-supported-azure-services
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.6ae28b5a-a105-48fd-95ae-1b7645997dd4.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review the list of open-source platforms (and the supported versions) that integrate with ADLS Gen2
+    url: /azure/storage/blobs/data-lake-storage-supported-open-source-platforms
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.6ae28b5a-a105-48fd-95ae-1b7645997dd4.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Specific methodologies, like DevOps, are used to structure the development and operations process'
+    url: /azure/architecture/checklist/dev-ops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.df20fa83-b193-492a-b778-057760bab936.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Leveraging central Azure monitoring tools like Azure Monitor and Azure Security Centre recommendations
+    url: /azure/azure-monitor/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.df20fa83-b193-492a-b778-057760bab936.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Collaboration between data engineers, development teams, and the operations team to resolve production issues are clearly defined and well understood'
+    url: /azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/organize-roles-teams
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.df20fa83-b193-492a-b778-057760bab936.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Operational shortcomings and failures are analyzed, post-mortems are performed and used to improve and refine operational procedures'
+    url: /azure/architecture/framework/devops/principles
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.df20fa83-b193-492a-b778-057760bab936.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'There are tools or processes in place, such as Azure AD Privileged Identity Management, to grant access to critical folders on a just in-time basis'
+    url: /azure/active-directory/privileged-identity-management/pim-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.df20fa83-b193-492a-b778-057760bab936.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure Resource Tags are used to enrich your storage account resources with operational metadata
+    url: /azure/cloud-adoption-framework/decision-guides/resource-tagging/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.df20fa83-b193-492a-b778-057760bab936.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'There are tools and processes, like Azure Policy built-in for Azure Storage, in place to govern available services, enforce mandatory operational functionality, and ensure compliance'
+    url: /azure/storage/common/policy-reference?toc=/azure/storage/blobs/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.df20fa83-b193-492a-b778-057760bab936.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use of an automated solution for data cataloguing such as Azure Purview to scan, discover, and catalog the data'
+    url: /azure/purview/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.800ffe78-07d9-460d-9c4d-32b3e39a1cfc.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: The data cataloging solution should have clear and automated classification rules for the data
+    url: /azure/purview/supported-classifications
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 668e03b9-89a9-4052-85a3-ca87282ab3c5.800ffe78-07d9-460d-9c4d-32b3e39a1cfc.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: cc6d23b4-16ee-4720-bc5a-90638cb34c5c
+name: ''

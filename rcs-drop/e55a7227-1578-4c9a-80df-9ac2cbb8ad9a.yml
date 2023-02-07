@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |+
+  You manage an SAP HANA deployment on Azure virtual machines (VMs).  
+
+  You need to identify the method that would allow you to determine the network packet loss on a network interface, including the number of dropped packets. Your solution must minimize administrative effort 
+
+  What method should you identify? 
+
+questionnaireUid: bbc43a0f-174a-4e12-b494-cfd3bf89e0ab
+questions:
+  - uid: e55a7227-1578-4c9a-80df-9ac2cbb8ad9a-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You manage an SAP HANA deployment on Azure virtual machines (VMs).
+        isCorrect: false
+      - id: 1
+        text: 'You need to identify the method that would allow you to determine the network packet loss on a network interface, including the number of dropped packets.'
+        isCorrect: false
+      - id: 2
+        text: Your solution must minimize administrative effort
+        isCorrect: true
+      - id: 3
+        text: What method should you identify?
+        isCorrect: false
+    manualId: AZ-120.8.4
+uid: e55a7227-1578-4c9a-80df-9ac2cbb8ad9a
+title: ''
+manualId: ''

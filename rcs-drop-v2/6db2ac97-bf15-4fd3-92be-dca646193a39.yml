@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Choose between Store Commerce for web or for a device
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/mpos-or-cpos'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 6db2ac97-bf15-4fd3-92be-dca646193a39
+name: Implementation guidance

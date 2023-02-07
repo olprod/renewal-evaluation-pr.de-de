@@ -1,0 +1,114 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use cloud-native log collection methods where applicable.
+    url: /azure/architecture/framework/sustainability/sustainability-security#use-cloud-native-log-collection-methods-where-applicable
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c.304089f0-1434-421d-9f6f-eb3c7bec0af1.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Security
+    reportingSubCategory: ''
+  - title: Use cloud-native network security tools and controls.
+    url: /azure/aks/concepts-sustainable-software-engineering#use-cloud-native-network-security-tools-and-controls
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c.304089f0-1434-421d-9f6f-eb3c7bec0af1.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Security
+    reportingSubCategory: ''
+  - title: Archive log data to long-term storage.
+    url: /azure/architecture/framework/sustainability/sustainability-security#archive-log-data-to-long-term-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c.304089f0-1434-421d-9f6f-eb3c7bec0af1.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Security
+    reportingSubCategory: ''
+  - title: Minimize routing from endpoints to the destination.
+    url: /azure/architecture/framework/sustainability/sustainability-security#minimize-routing-from-endpoints-to-the-destination
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c.304089f0-1434-421d-9f6f-eb3c7bec0af1.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Security
+    reportingSubCategory: ''
+  - title: Use network security tools with auto-scaling capabilities.
+    url: /azure/architecture/framework/sustainability/sustainability-security#use-network-security-tools-with-auto-scaling-capabilities
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c.304089f0-1434-421d-9f6f-eb3c7bec0af1.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Security
+    reportingSubCategory: ''
+  - title: Evaluate whether to use TLS termination.
+    url: /azure/aks/concepts-sustainable-software-engineering#evaluate-whether-to-use-tls-termination
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c.304089f0-1434-421d-9f6f-eb3c7bec0af1.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Security
+    reportingSubCategory: ''
+  - title: Use DDoS protection to mitigate attacks.
+    url: /azure/architecture/framework/sustainability/sustainability-security#use-ddos-protection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c.304089f0-1434-421d-9f6f-eb3c7bec0af1.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Security
+    reportingSubCategory: ''
+  - title: Integrate Microsoft Defender for Endpoint with Defender for Cloud to detect attacks and respond to threats.
+    url: /azure/architecture/framework/sustainability/sustainability-security#integrate-microsoft-defender-for-endpoint
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c.a9b6dd1d-d3b8-4130-b0da-6ffe7e92c1b2.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Security
+    reportingSubCategory: ''
+  - title: Scan for vulnerabilities.
+    url: /azure/aks/concepts-sustainable-software-engineering#scan-for-vulnerabilities
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c.a9b6dd1d-d3b8-4130-b0da-6ffe7e92c1b2.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Security
+    reportingSubCategory: ''
+uid: d788c47a-e53c-4fed-ba16-e115a41e111f
+name: ''

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has little to no Community of Practice who share common interest in Data & Analytics.
+    description: There is little to no Community of Practice who share common interest in Data & Analytics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is evolving a Community of Practice who share common interest in Data & Analytics which is evolving and to be formally announced.
+    description: Community of Practice who share common interest in Data & Analytics is evolving and to be formally announced.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has a Community of Practice who share common interest in Data & Analytics which exists and acceptable to drive outcomes.
+    description: Community of Practice who share common interest in Data & Analytics is exists and acceptable to drive outcomes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has a Community of Practice who share common interest in Data & Analytics at advanced, supporting demand and driving business outcomes.'
+    description: 'Community of Practice who share common interest in Data & Analytics is advanced, supporting demand and driving business outcomes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has a Community of Practice who share common interest in Data & Analytics in fully optimized state to support the business and adopt best practices.
+    description: Community of Practice who share common interest in Data & Analytics is fully optimized to support the business and adopt best practices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does your organization have a Community of Practice who share common interest in Data & Analytics?
+isRequired: true
+uid: 8c9f559a-700d-488d-a4cf-6dd6c9545764
+name: Does your organization have a Community of Practice who share common interest in Data & Analytics?

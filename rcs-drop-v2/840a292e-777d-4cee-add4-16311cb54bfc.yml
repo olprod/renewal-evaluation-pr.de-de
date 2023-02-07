@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'A software bill of materials (SBoM) is maintained of all dependencies, frameworks and libraries used'
+    description: Generate an SBoM for all production releases so that vulnerabilities in production can be quickly identified
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: '1'
+    text: SBoMs are evaluated against industry standard practices
+    description: Use scorecards to automatically assess your repos for vulnerabilities compared to industry standard practice
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: '2'
+    text: Vulnerability data is ingested and used to automatically update or create security bugs when vulnerable dependencies are in use
+    description: Track all dependencies used in projects and alert or update when vulnerabilities are disclosed
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 32
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 840a292e-777d-4cee-add4-16311cb54bfc
+name: How do you manage risk from re-use of existing code? (software supply chain risk)

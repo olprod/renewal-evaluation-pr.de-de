@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: E
+    text: 'Azure Databricks uses full scale cloud security such as access controls, credential passthrough, secret management, customer-managed keys for notebooks, secure cluster connectivity and more. '
+    description: Please refer to individual sections within the documentation for security design considerations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Workloads and the data associated with them ultimately act as the primary store of business value on a cloud platform. While the platform components like identity and storage are critical elements of the security environment, applications play an outsize role in risks to the business.'
+isRequired: false
+legacyId: '0'
+uid: 2bbb3f0f-5e44-4679-8a04-00c9d6e7ab76
+name: Workloads and the data associated with them ultimately act as the primary store of business value on a cloud platform.

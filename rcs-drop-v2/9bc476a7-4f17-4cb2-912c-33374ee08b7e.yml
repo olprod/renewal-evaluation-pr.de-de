@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We are familiar with the importance of tracking our cost of goods sold (COGS).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: We understand the purpose of measurement and the granularity at which we need to measure costs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We considered how to allocate the cost of resources that are shared between multiple tenants.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'We are familiar with approaches such as using resource tags, instrumenting our application, Azure Savings Plan and using Azure Reservations to reduce costs.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: 'We avoid cost management antipatterns, including failing to track costs at all, unnecessary precision in cost tracking, and making assumptions or guessing.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Multitenant solutions often require special consideration when you measure and allocate costs, and when you optimize costs.'
+isRequired: true
+uid: 9bc476a7-4f17-4cb2-912c-33374ee08b7e
+name: 'Multitenant solutions often require special consideration when you measure and allocate costs, and when you optimize costs.'

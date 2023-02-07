@@ -1,0 +1,282 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use read-only replicas to offload read-only query workloads
+    url: /azure/azure-sql/database/read-scale-out
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.c40bf6c6-c25d-40b8-95cd-98db3f8032aa.B
+      scoreOf: []
+    context: 'The secondary replicas are provisioned with the same compute size as the primary replica. The read scale-out feature allows to offload read-only workloads using the compute capacity of one of the read-only replicas instead of running them on the read-write replica. This way, some read-only workloads can be isolated from the read-write workloads, and will not affect their performance.'
+    priority: 62
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Always On
+  - title: Compress data when appropriate
+    url: /sql/relational-databases/data-compression/data-compression?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.c40bf6c6-c25d-40b8-95cd-98db3f8032aa.C
+      scoreOf: []
+    context: 'SQL Server, Azure SQL Database, and Azure SQL Managed Instance support row and page compression for rowstore tables and indexes, and support columnstore and columnstore archival compression for columnstore tables and indexes.'
+    priority: 44
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Performance
+  - title: Refrain from using higher isolation levels by default unnecessarily and consider versioning versus locking
+    url: /sql/t-sql/statements/set-transaction-isolation-level-transact-sql?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.c40bf6c6-c25d-40b8-95cd-98db3f8032aa.D
+      scoreOf: []
+    context: Controls the locking and row versioning behavior of Transact-SQL statements issued by a connection to SQL Server.
+    priority: 45
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Performance
+  - title: Offload reporting workload to replicas to prevent resource contention or use proper isolation level and SKU to prevent concurrency issues and sustain the required load
+    url: /azure/azure-sql/database/read-scale-out
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.c40bf6c6-c25d-40b8-95cd-98db3f8032aa.F
+      scoreOf: []
+    context: 'The secondary replicas are provisioned with the same compute size as the primary replica. The read scale-out feature allows you to offload read-only workloads using the compute capacity of one of the read-only replicas, instead of running them on the read-write replica. This way, some read-only workloads can be isolated from the read-write workloads, and will not affect their performance.'
+    priority: 61
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Always On
+  - title: Use connection pooling
+    url: /dotnet/framework/data/adonet/sql-server-connection-pooling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.c40bf6c6-c25d-40b8-95cd-98db3f8032aa.G
+      scoreOf: []
+    context: 'In practice, most applications use only one or more configurations for connections. During application execution, many identical connections will be repeatedly opened and closed. To minimize the cost of opening connections, ADO.NET uses an optimization technique called connection pooling.'
+    priority: 49
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Operational Excellence
+  - title: 'Ensure an asynchronous mechanism, such as Service Bus/Event Hubs, is in place for background processing of data events and messages'
+    url: /azure/service-bus-messaging/service-bus-messaging-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.c40bf6c6-c25d-40b8-95cd-98db3f8032aa.H
+      scoreOf: []
+    context: Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace). Service Bus is used to decouple applications and services.
+    priority: 41
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Have policies to scale up and scale down when load decreases
+    url: /azure/azure-sql/database/serverless-tier-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.dc2301d1-3a5e-429c-937b-f3ac8cd81703.B
+      scoreOf: []
+    context: Serverless is a compute tier for single databases in Azure SQL Database that automatically scales compute based on workload demand and bills for the amount of compute used per second.
+    priority: 54
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Indexes and statistics are updated and optimized when it is needed
+    url: /sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.dc2301d1-3a5e-429c-937b-f3ac8cd81703.C
+      scoreOf: []
+    context: 'It covers concepts such as index fragmentation and page density, and their impact on query performance and resource consumption. It describes index maintenance methods, reorganizing an index and rebuilding an index, and suggests an index maintenance strategy that balances potential performance improvements against resource consumption required for maintenance.'
+    priority: 58
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Performance
+  - title: Use the Query Store to understand the performance bottlenecks
+    url: /sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.dc2301d1-3a5e-429c-937b-f3ac8cd81703.D
+      scoreOf: []
+    context: Monitor performance using Query Store.
+    priority: 56
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Performance
+  - title: Optimize SQL Database SKU choice to match the needs of my application
+    url: /azure/azure-sql/database/purchasing-models
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.4732cb01-24b1-4f9c-858f-f37e7af70ff5.B
+      scoreOf: []
+    context: 'Azure SQL Database allows to easily purchase a fully managed platform as a service (PaaS) database engine that fits your performance and cost needs. Depending on the deployment model you have chosen for Azure SQL Database, you can select the purchasing model that best suits you.'
+    priority: 49
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Use Dynamic Management Views (DMV) for in-depth monitoring of performance and resource utilization
+    url: /azure/azure-sql/database/monitor-tune-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.4732cb01-24b1-4f9c-858f-f37e7af70ff5.C
+      scoreOf: []
+    context: Monitoring and performance tuning in Azure SQL Database and Azure SQL Managed Instance.
+    priority: 51
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Performance
+  - title: Automatically schedule scaling to add resources based on usage trends
+    url: /azure/azure-sql/database/scale-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.4732cb01-24b1-4f9c-858f-f37e7af70ff5.D
+      scoreOf: []
+    context: Azure SQL Database and SQL Managed Instance enable you to dynamically add more resources to your database with minimal downtime.
+    priority: 50
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Use Azure Monitor and Alerts to make sure you are not bottlenecked on the capacity level
+    url: /azure/azure-monitor/insights/azure-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.4732cb01-24b1-4f9c-858f-f37e7af70ff5.E
+      scoreOf: []
+    context: Monitoring and performance tuning in Azure SQL Database and Azure SQL Managed Instance.
+    priority: 62
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Monitoring
+  - title: Use sharding for database storage when appropriate
+    url: /azure/azure-sql/database/scale-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.a962a1f4-91db-4cb6-a0db-c587e4ddc13c.A
+      scoreOf: []
+    context: Azure SQL Database and SQL Managed Instance enable you to dynamically add more resources to your database with minimal downtime.
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Optimize database queries and create/modify indexes to match query patterns
+    url: /azure/azure-sql/database/database-advisor-implement-performance-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.a962a1f4-91db-4cb6-a0db-c587e4ddc13c.D
+      scoreOf: []
+    context: Azure SQL Database has a number of database advisors that provide customized recommendations that enable you to maximize performance. These database advisors continuously assess and analyze the usage history and provide recommendations based on workload patterns that help improve performance.
+    priority: 60
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Performance
+  - title: 'For analytical workloads, ensure large data is partitioned using partitioned tables, partitioned indexes, or partitioned views are in place to efficiently manage large amounts of data.'
+    url: /sql/relational-databases/partitions/partitioned-tables-and-indexes?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.a962a1f4-91db-4cb6-a0db-c587e4ddc13c.F
+      scoreOf: []
+    context: 'SQL Server, Azure SQL Database, and Azure SQL Managed Instance support table and index partitioning. The data of partitioned tables and indexes is divided into units that may be spread across more than one filegroup in a database or stored in a single filegroup.'
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Consider column-store indexes to compress and efficiently query larger analytics tables and use non-clustered column-store indexes if you have combined transactional and reporting workload
+    url: /sql/relational-databases/indexes/columnstore-indexes-overview?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.a962a1f4-91db-4cb6-a0db-c587e4ddc13c.G
+      scoreOf: []
+    context: Columnstore indexes are the standards to store and query large data warehousing fact tables. This index uses column-based data storage and query processing to achieve gains up to 10 times the query performance in your data warehouse over traditional row-oriented storage. You can also achieve gains up to 10 times the data compression over the uncompressed data size.
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Performance
+  - title: 'Consider the Hyperscale service tier for fast vertical and horizontal compute scaling, high performance, instant backup, and fast database restore or multi-TB databases'
+    url: /azure/azure-sql/database/service-tier-hyperscale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.a962a1f4-91db-4cb6-a0db-c587e4ddc13c.H
+      scoreOf: []
+    context: Azure SQL Database is based on SQL Server Database Engine architecture adjusted for the cloud environment to ensure high availability in case of infrastructure failure
+    priority: 58
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Implement retry logic for transient errors to avoid connection interruption when scaling or planned/unplanned failovers occur
+    url: /azure/azure-sql/database/troubleshoot-common-connectivity-issues#retry-logic-for-transient-errors
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.0dcffc23-8b2a-4338-b4f7-18cdb421c309.A
+      scoreOf: []
+    context: 'We recommend that you wait for 5 seconds before your first retry. Retrying after a delay shorter than 5 seconds risks overwhelming the cloud service. For each subsequent retry, the delay should grow exponentially, up to a maximum of 60 seconds.'
+    priority: 75
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Use Intelligent Performance capabilities to provide performance tuning recommendations and automatic tuning options to improve performance
+    url: /azure/azure-sql/database/monitor-tune-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.0dcffc23-8b2a-4338-b4f7-18cdb421c309.B
+      scoreOf: []
+    context: Monitoring and performance tuning in Azure SQL Database and Azure SQL Managed Instance.
+    priority: 62
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Monitoring
+  - title: 'If you are using read-only replicas, then monitor data replication latency'
+    url: /azure/azure-sql/database/read-scale-out#monitoring-and-troubleshooting-read-only-replicas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.0dcffc23-8b2a-4338-b4f7-18cdb421c309.C
+      scoreOf: []
+    context: 'When connected to a read-only replica, Dynamic Management Views (DMVs) reflect the state of the replica, and can be queried for monitoring and troubleshooting purposes.'
+    priority: 72
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Always On
+  - title: Use scripting and automation to monitor and scale SQL Database resources if your workload benefits from it
+    url: /azure/azure-sql/database/scripts/monitor-and-scale-database-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.0dcffc23-8b2a-4338-b4f7-18cdb421c309.D
+      scoreOf: []
+    context: Use PowerShell to monitor and scale a single database in Azure SQL Database.
+    priority: 55
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Operational Excellence
+  - title: Have an overall monitoring strategy for scalability
+    url: /azure/azure-monitor/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 948d5fd2-8509-4134-9442-add156ecb0a1.0dcffc23-8b2a-4338-b4f7-18cdb421c309.E
+      scoreOf: []
+    context: 'Azure Monitor helps maximize the availability and performance of your applications and services. It delivers a comprehensive solution to collect, analyze, and act on telemetry from your cloud and on-premises environments.'
+    priority: 55
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Operational Excellence
+uid: 8c964d9e-2e89-43c4-9937-1e50e27e3007
+name: ''

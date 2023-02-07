@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You manage Microsoft 365 Defender in an Active Directory Domain Services (AD DS) environment.
+
+  You plan to run advanced hunting queries against Microsoft 365 Defender data.
+
+  You need to identify the schema table that contains the system events from the Active Directory Domain Services (AD DS) domain controllers.
+
+  Which schema table should you identify?
+questionnaireUid: ce168a12-9589-46e8-95fe-36798cb23a83
+questions:
+  - uid: ffb22fab-7626-4db1-b55c-5149d3dff6f5-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You manage Microsoft 365 Defender in an Active Directory Domain Services (AD DS) environment.
+        isCorrect: true
+      - id: 1
+        text: You plan to run advanced hunting queries against Microsoft 365 Defender data.
+        isCorrect: false
+      - id: 2
+        text: You need to identify the schema table that contains the system events from the Active Directory Domain Services (AD DS) domain controllers.
+        isCorrect: false
+      - id: 3
+        text: Which schema table should you identify?
+        isCorrect: false
+uid: ffb22fab-7626-4db1-b55c-5149d3dff6f5
+title: ''

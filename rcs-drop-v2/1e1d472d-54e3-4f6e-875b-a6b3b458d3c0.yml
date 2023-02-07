@@ -1,0 +1,42 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We are aware of approaches to identify tenants on each request or transaction, including domain names, HTTP request properties, token claims, API keys, and client certificates.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: We considered how we'll validate the tenant for each request or transaction.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We are aware that when a tenant is moved to a new deployment tenant-mapping process needs to be updated.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Whenever a request arrives into your application, you need to determine the tenant that the request is intended for. When you have tenant-specific infrastructure that may even be hosted in different geographic regions, you need to match the incoming request to a tenant. Then, you must forward the request to the physical infrastructure that hosts that tenant''s resources.'
+isRequired: true
+uid: 1e1d472d-54e3-4f6e-875b-a6b3b458d3c0
+name: 'Whenever a request arrives into your application, you need to determine the tenant that the request is intended for.'

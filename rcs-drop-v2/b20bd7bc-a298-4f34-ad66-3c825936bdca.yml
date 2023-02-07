@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have not read Microsoft's Dynamics 365 Implementation Guide and do not plan to select a partner based on their alignment to the best practice recommendations in it.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We plan to read the Dynamics 365 Implementation Guide when we have time but are not committed to using it in our partner selection criteria.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: We have read the Dynamics 365 Implementation Guide and will try to ensure the partner we select is familiar with it.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'Our project stakeholders have read the Dynamics 365 Implementation Guide, understand the best practice recommendations it contains and how they relate to the success of our project, and we will ensure that the partner we select has been through FastTrack Success by Design training and is in full alignment with delivering the project according to its principles.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Microsoft has designed the FastTrack program with its 'Success by Design' framework to provide implementation best practices that lead to successful projects. Which of these statements reflects your plans to select a partner based on their alignment with the Success by Design principles?
+isRequired: true
+uid: b20bd7bc-a298-4f34-ad66-3c825936bdca
+name: Microsoft has designed the FastTrack program with its 'Success by Design' framework to provide implementation best practices that lead to successful projects.

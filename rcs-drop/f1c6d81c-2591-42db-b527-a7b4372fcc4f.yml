@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are designing a high availability solution for SQL databases that will be migrated to Azure.
+
+  You are evaluating whether you need to implement geo-replication or failover groups.
+
+  Which requirement will cause you to choose failover groups for high availability?
+questionnaireUid: e69e06ed-e9f5-4e19-8189-ca601034ff66
+questions:
+  - uid: f1c6d81c-2591-42db-b527-a7b4372fcc4f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are designing a high availability solution for SQL databases that will be migrated to Azure.
+        isCorrect: true
+      - id: 1
+        text: You are evaluating whether you need to implement geo-replication or failover groups.
+        isCorrect: false
+      - id: 2
+        text: Which requirement will cause you to choose failover groups for high availability?
+        isCorrect: false
+    manualId: AZ305_3.3.2
+uid: f1c6d81c-2591-42db-b527-a7b4372fcc4f
+title: ''

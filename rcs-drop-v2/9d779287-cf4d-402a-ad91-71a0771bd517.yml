@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes, you''ve reviewed Azure IoT Hub HA/DR and rely on Microsoft initiated failover. Your devices recognize regional service disruptions and retry connections with exponential backoff.'
+    description: 'Depending on the uptime goals you define for your IoT solutions, you should determine which of the options supported by IoT Hub best suits your business objectives.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: 'Yes, you''ve reviewed Azure IoT Hub HA/DR and rely on manually initiated failover. Your devices recognize regional service disruptions and retry connections with exponential backoff.'
+    description: The RTO for manually initiated failover could be anywhere between 10 minutes to a couple of hours.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: You use primary and secondary IoT hubs and the devices are programmed to connect to secondary hub in the event that the primary hub isn't available. Devices fail back when the primary hub is restored.
+    description: Microsoft-initiated failover has a recovery time objective (RTO) of 2-26 hours.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: Understand the various fault scenarios that can occur with your IoT solution and architect it to withstand those failure conditions such that it satisfies the uptime goals that you have set. Make use of the features built into the services in your solution.
+isRequired: false
+uid: 9d779287-cf4d-402a-ad91-71a0771bd517
+name: Understand the various fault scenarios that can occur with your IoT solution and architect it to withstand those failure conditions such that it satisfies the uptime goals that you have set. Make use of the features built into the services in your solution.

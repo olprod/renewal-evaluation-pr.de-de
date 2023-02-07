@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Align security goals and outcomes to the business by ensuring business critical applications and data are targeted in your security design and classified using native tools, such as through SQL Data Classification or Azure Purview.'
+    description: 'Security resources should be focused first on people and assets (systems, data, accounts, etc.) with intrinsic business value and those with administrative privileges over business-critical assets.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: 'Consider security for the full lifecycle of system components including development (ex. data obfuscation, static masking when moving prod data to dev), test, production, archival, and when sharing data externally.'
+    description: 'Build a comprehensive strategy which considers investments in culture, processes, and security controls across all system components.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: 'Implement a consistent architecture with built in Database DevOps automation, change controls, and repeatable deployments.'
+    description: 'Consider implementing governance policies and a DevOps lifecycle of continuous integration, continuous delivery (CI/CD) for your databases.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: 'Use native security capabilities, such as TDE, Azure Key Vault and managed identities, which are maintained and supported by the service provider.'
+    description: This eliminates or reduces the effort required to integrate external security tooling and update those integrations over time.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: 'Reduce the surface area of attack by ensuring only essential services are installed, unused components are disabled, and only minimal required permissions are granted.'
+    description: The key to limiting the surface area of SQL Server includes running required services that have 'least privilege' by granting services and users only the appropriate rights.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: 'Ensure users are educated, informed, and incentivized to support the security assurance goals of the system.'
+    description: 'Ensuring everyone understands the attacker''s perspective, their goals, and the art of the possible will help capture the attention of everyone and raise the collective knowledge bar.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: 'Define clear lines of accountability, ownership of resources, and  ensure anomalies and threats can be addressed in a timely manner.'
+    description: Support teams should be able to respond to security alerts in a timely manner.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: Assume zero-trust when evaluating access requests.
+    description: 'All requesting users, devices, and applications should be considered untrusted until their integrity can be sufficiently validated.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: Practice a 'Defense in Depth' strategy that employs a series of mechanisms to slow the advance of an attack.
+    description: Each layer provides additional protection to prevent further exposure. You can visualize defense in depth as a set of concentric rings where each ring adds a layer of security around the data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 9dd1dca2-952d-40b1-b46b-71010679221a
+name: What design considerations did you make in your workload with regard to security?

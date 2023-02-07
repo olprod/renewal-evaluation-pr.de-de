@@ -1,0 +1,95 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: 0407340e-a456-4361-8da2-d62f4a4706fd-q-0
+    name: Scaffolding a Learn module
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: 0407340e-a456-4361-8da2-d62f4a4706fd-q-1
+    name: 'Review process for Learn content, including PR review and editorial'
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '3'
+    uid: 0407340e-a456-4361-8da2-d62f4a4706fd-q-2
+    name: Publishing process for Learn content?
+stem: ''
+isRequired: true
+legacyId: '1'
+uid: 0407340e-a456-4361-8da2-d62f4a4706fd
+name: How confident are you with the following Learn content publishing skills?

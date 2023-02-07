@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'A DevOps culture is where teams embrace new ways of working that involve greater collaboration and communication. It’s an alignment of people, processes, and tools toward a more unified customer focus. Multidisciplinary teams take accountability for the entire lifecycle of a product.'
+hideEmptyGuidance: false
+questions:
+  - 9c05ca33-c07a-4304-a62d-e27e3e98f3f4
+  - 7ce8ac73-8bac-47b1-95f7-2a503694eeb0
+  - 0a5bad90-e036-4445-bc92-4e6af860633a
+  - 2293c073-7907-4673-ad7d-550079d5ae14
+  - e86f408f-7147-4e52-83c3-24f5f7d759d9
+  - 454cbe4a-8d85-4863-886a-2f8349191c66
+  - 9c0fe2fc-4b23-4e30-bd64-d6272510f69c
+recommendations:
+  - 1bfc4e8d-a152-4fb8-96fb-8eb01cfda3d1
+assignedGroupIds: []
+uid: 87929634-2c74-4e96-b90b-2b504ace0a88
+name: Culture

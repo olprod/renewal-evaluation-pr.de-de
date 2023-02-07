@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Environmental requirements for Azure IoT Edge devices are defined.
+    description: 'Azure Certified Device Catalog gives details on device specifications, including operating temperatures and ingress protection. It also points to device manufacturer documentation for further information.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Operational profiles for Azure IoT Edge devices are defined.
+    description: Azure Certified Device Catalog gives details on device specifications. It also points to device manufacturer documentation for further information.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'Azure IoT Edge devices lifetime is assessed, and lifecycle strategy defined accordingly.'
+    description: 'It''s recommended to provision hardware redundancy per use case reliability requirements, and to monitor deployed devices to detect potential failures to act upon.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: Applicable regulations and standards for Azure IoT Edge devices are defined.
+    description: 'Azure Certified Device Catalog gives details on device specifications, including geo-availability and applicable industries. It also points to device manufacturer documentation for further information.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Edge devices should be designed and sourced to function reliably in the expected operation conditions and during expected lifetime. It implies that devices should perform according to related specifications, including hardware and software, and failure should be properly detected and managed (mitigation, repair, and replacement). Don''t select any option if you don''t have Azure IoT Edge devices.'
+isRequired: false
+uid: 97a7535d-0b98-42bb-b33e-325bb2adcb3f
+name: 'Edge devices should be designed and sourced to function reliably in the expected operation conditions and during expected lifetime. It implies that devices should perform according to related specifications, including hardware and software, and failure should be properly detected and managed (mitigation, repair, and replacement).'

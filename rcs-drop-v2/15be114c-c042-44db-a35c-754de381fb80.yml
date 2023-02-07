@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: No Azure AD Tenant.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: 'One Azure AD Tenant. No identity synchronisation from on-premises Active Directory Domain Services (ADDS), but ADDS are in use on-premises. Users have two accounts: one for on-premises, and one for Azure AD federated resources (like Microsoft 365).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Multiple Azure AD Tenants, with one Tenant for each environment (prod, test, dev).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: Multiple Azure AD Tenants due to acquisitions of or mergers between multiple organizations.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: One Azure AD Tenant with identity synchronization from on-premises Active Directory Domain Services via Azure AD Connect. Users have a single account across on-premises and Azure AD federated resoruces (such as Microsoft 365).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'An Azure AD tenant provides identity and access management, which is an important part of your security posture. An Azure AD tenant ensures that authenticated and authorized users only access the resources to which they have permissions. Please select the scenario that reflects your organization. '
+isRequired: false
+uid: 15be114c-c042-44db-a35c-754de381fb80
+name: 'An Azure AD tenant provides identity and access management, which is an important part of your security posture.'

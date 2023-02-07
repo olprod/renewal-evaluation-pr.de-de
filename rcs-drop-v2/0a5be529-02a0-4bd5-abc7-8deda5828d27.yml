@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 1b44f462-3940-4a20-ac74-17d5d107a661
+  - 2385046f-a991-4f10-8257-47018967cb52
+  - 6a8fc0b7-5847-433d-9eeb-b10ee6dfe33a
+  - a2bf4cae-e95a-48ea-bb83-0e6018f9d934
+  - 826b14d3-b63a-4dd0-8ae3-0db807887570
+recommendations:
+  - 3b2a78dd-96d6-4e42-89c2-4a5f5f904835
+assignedGroupIds: []
+uid: 0a5be529-02a0-4bd5-abc7-8deda5828d27
+name: Cosmos DB (SQL API) - Security

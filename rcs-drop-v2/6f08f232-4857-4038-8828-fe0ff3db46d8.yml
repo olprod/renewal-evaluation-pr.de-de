@@ -1,0 +1,234 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use machine learning pipelines to orchestrate the workflow
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/ai-machine-learning-mlops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.62d24fd5-0739-4f51-8e07-811274c06c88.H
+      scoreOf: []
+    context: 'Machine Learning DevOps (MLOps) is an organizational change that relies on a combination of people, process, and technology to deliver Machine Learning solutions in a robust, scalable, reliable, and automated way.'
+    priority: 50
+    reportingCategory: ML lifecycle and MLOps
+    reportingSubCategory: Organize workflow
+  - title: Use Code-based definitions of your training for script run configuration
+    url: /azure/machine-learning/how-to-set-up-training-targets#whats-a-run-configuration
+    condition:
+      noneOf:
+        - Operational-ai-aml.ebda5583-2384-428c-9220-3c8e860d4218.D
+    context: Submit your training experiment with a ScriptRunConfig object. A ScriptRunConfig is used to configure the information necessary for submitting a training run as part of an experiment.
+    priority: 25
+    reportingCategory: Manage cloud based applications
+    reportingSubCategory: Code-based definitions of training runs
+  - title: Use code-based definitions of your compute targets.
+    url: /python/api/azureml-core/azureml.core.runconfig?view=azure-ml-py
+    condition:
+      noneOf:
+        - Operational-ai-aml.ebda5583-2384-428c-9220-3c8e860d4218.E
+    context: 'RunConfiguration encapsulates information necessary to submit a training run on a specified compute target. The configuration includes a wide set of behavior definitions, such as whether to use an existing Python environment or to use a Conda environment that is built from a specification.'
+    priority: 25
+    reportingCategory: Manage cloud based applications
+    reportingSubCategory: Code-based definitions of compute targets
+  - title: 'Segregation of environments by using Dev, Test and Prod.'
+    url: /azure/machine-learning/concept-enterprise-security
+    condition:
+      noneOf:
+        - Operational-ai-aml.cb18d26c-be38-4212-8bbd-75b4642ccfba.H
+    context: 'With Azure Machine Learning and the Azure platform, you can: Restrict access to resources and operations by user account or groups, Restrict incoming and outgoing network communications, Encrypt data in transit and at rest, Scan for vulnerabilities, Apply and audit configuration policies.'
+    priority: 60
+    reportingCategory: Infrastructure Considerations
+    reportingSubCategory: Environment division and security
+  - title: Know the Azure subscription limits that may impact this workload
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      noneOf:
+        - Operational-ai-aml.cb18d26c-be38-4212-8bbd-75b4642ccfba.I
+    context: Understand services limits for Azure Machine Learning service for planning and designing
+    priority: 60
+    reportingCategory: Infrastructure Considerations
+    reportingSubCategory: Azure subscription limits/quotas
+  - title: Use Azure security baseline for Azure Machine Learning
+    url: /azure/machine-learning/security-baseline
+    condition:
+      noneOf:
+        - Operational-ai-aml.cb18d26c-be38-4212-8bbd-75b4642ccfba.J
+    context: This security baseline applies guidance from the Azure Security Benchmark version 2.0 to Microsoft Azure Machine Learning. The Azure Security Benchmark provides recommendations to secure your cloud solutions on Azure. The content is grouped by the security controls defined by the Azure Security Benchmark and the related guidance applicable to Azure Machine Learning
+    priority: 80
+    reportingCategory: Infrastructure Considerations
+    reportingSubCategory: 'Azure security baseline recommendations '
+  - title: Set up separate workspaces for each publish environment
+    url: /azure/cloud-adoption-framework/innovate/best-practices/set-up-ml-workspaces
+    condition:
+      noneOf:
+        - Operational-ai-aml.cb18d26c-be38-4212-8bbd-75b4642ccfba.K
+    context: Discuss best practices in setting up Machine Learning environments and role-based access control
+    priority: 60
+    reportingCategory: Infrastructure Considerations
+    reportingSubCategory: Workspace setup
+  - title: Use R and Python code to author the experiment
+    url: /python/api/overview/azure/ml/?view=azure-ml-py
+    condition:
+      noneOf:
+        - Operational-ai-aml.7a07188c-3f34-4135-8499-574327591f83.F
+    context: 'Data scientists and AI developers use the Azure Machine Learning SDK for Python to build and run Machine Learning workflows with the Azure Machine Learning service. You can interact with the service in any Python environment, including Jupyter Notebooks, Visual Studio Code, or your favorite Python IDE. Key areas of the SDK include: Explore, prepare, and manage the lifecycle of your datasets used in Machine Learning experiments, Manage cloud resources for monitoring, logging, and organizing your Machine Learning experiments, Train models either locally or by using cloud resources, including GPU-accelerated model training, Use automated Machine Learning, which accepts configuration parameters and training data. It automatically iterates through algorithms and hyperparameter settings to find the best model for running predictions, Deploy web services to convert your trained models into RESTful services that can be consumed in any application.'
+    priority: 40
+    reportingCategory: Develop and Deployment
+    reportingSubCategory: Support languages to author experiments
+  - title: 'Use Azure ML Notebook/ Jupyter Notebook to author the experiment.  '
+    url: /azure/machine-learning/concept-compute-instance
+    condition:
+      noneOf:
+        - Operational-ai-aml.7a07188c-3f34-4135-8499-574327591f83.G
+    context: 'An Azure Machine Learning compute instance is a managed cloud-based workstation for data scientists: Compute instances make it easy to get started with Azure Machine Learning development as well as provide management and enterprise readiness capabilities for IT administrators, Use a compute instance as your fully configured and managed development environment in the cloud for Machine Learning. They can also be used as a compute target for training and inferencing for development and testing purposes, For production grade model training, use an Azure Machine Learning compute cluster with multi-node scaling capabilities. For production grade model deployment, use Azure Kubernetes Service cluster, For compute instance Jupyter functionality to work, ensure that web socket communication is not disabled. Ensure your network allows websocket connections to *.instances.azureml.net and *.instances.azureml.ms.'
+    priority: 40
+    reportingCategory: Develop and Deployment
+    reportingSubCategory: Workspace integration
+  - title: Use low code/no code ML Designer to author the experiment
+    url: /azure/machine-learning/concept-designer
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.7a07188c-3f34-4135-8499-574327591f83.O
+      scoreOf: []
+    context: Azure Machine Learning designer is a drag-and-drop interface used to train and deploy models in Azure Machine Learning.
+    priority: 40
+    reportingCategory: Develop and Deployment
+    reportingSubCategory: Train and deploy without code
+  - title: 'Use of ONNX, Deep learning libraries, such as Tensorflow, PyTorch, Keras and others'
+    url: /azure/machine-learning/concept-deep-learning-vs-machine-learning
+    condition:
+      noneOf:
+        - Operational-ai-aml.7a07188c-3f34-4135-8499-574327591f83.I
+    context: 'Learn about deep learning solutions you can build on Azure Machine Learning, such as fraud detection, voice and facial recognition, sentiment analysis, and time series forecasting.'
+    priority: 20
+    reportingCategory: Develop and Deployment
+    reportingSubCategory: Open source libraries support
+  - title: Monitoring deployed model by collecting and evaluating model data
+    url: /azure/machine-learning/how-to-enable-app-insights
+    condition:
+      noneOf:
+        - Operational-ai-aml.bccf7ecf-2232-439e-b790-bbce4c9fed31.G
+    context: 'Use Azure Application Insights to collect the following data from an endpoint: Output data, Responses, Request rates, dependency rates, failure rates, and response times, Exceptions.'
+    priority: 80
+    reportingCategory: Cloud-based Monitoring
+    reportingSubCategory: Data gathering
+  - title: Enable logging in ML training runs
+    url: /azure/machine-learning/monitor-azure-machine-learning
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.bccf7ecf-2232-439e-b790-bbce4c9fed31.O
+      scoreOf: []
+    context: 'When you have critical applications and business processes relying on Azure resources, you want to monitor those resources for their availability, performance, and operation. Azure Monitor can be used to monitoring data generated by Azure Machine Learning and to analyze and alert on this data.'
+    priority: 60
+    reportingCategory: Cloud-based Monitoring
+    reportingSubCategory: Log real-time information
+  - title: Alert rules and event in your application
+    url: /azure/machine-learning/how-to-use-event-grid
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.bccf7ecf-2232-439e-b790-bbce4c9fed31.0
+      scoreOf: []
+    context: 'Set up event-driven applications, processes, or CI/CD workflows based on Azure Machine Learning events, such as failure notification emails or Machine Learning pipeline runs, when certain conditions are detected by Azure Event Grid.'
+    priority: 80
+    reportingCategory: Cloud-based Monitoring
+    reportingSubCategory: Setup triggers
+  - title: Use Datadrift to monitor model degradation then trigger retraining based on a certain threshold
+    url: /azure/machine-learning/how-to-monitor-datasets
+    condition:
+      noneOf:
+        - Operational-ai-aml.bccf7ecf-2232-439e-b790-bbce4c9fed31.I
+    context: 'With Azure Machine Learning dataset monitors (preview), you can: Analyze drift in your data to understand how it changes over time, Monitor model data for differences between training and serving datasets. Start by collecting model data from deployed models, Monitor new data for differences between any baseline and target dataset, Profile features in data to track how statistical properties change over time, Set up alerts on data drift for early warnings to potential issues, Create a new dataset version when you determine the data has drifted too much. An Azure Machine Learning dataset is used to create the monitor. The dataset must include a timestamp column. You can view data drift metrics with the Python SDK or in Azure Machine Learning studio. Other metrics and insights are available through the Azure Application Insights resource associated with the Azure Machine Learning workspace.'
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Datadrift
+  - title: Use CI/CD integration using MLOps.
+    url: 'https://github.com/microsoft/MLOps'
+    condition:
+      noneOf:
+        - Operational-ai-aml.be1baede-b5b8-4f01-85a9-f772bf233511.E
+    context: MLOps empowers data scientists and app developers to bring Machine Learning models to production. MLOps enables to track / version / audit / certify / re-use every asset in your Machine Learning lifecycle and provides orchestration services to streamline managing this lifecycle.
+    priority: 60
+    reportingCategory: ML lifecycle and MLOps
+    reportingSubCategory: CI/CD integration
+  - title: Use Github Actions with AML
+    url: /azure/machine-learning/how-to-github-actions-machine-learning?view=azure-devops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.62d24fd5-0739-4f51-8e07-811274c06c88.1
+      scoreOf: []
+    context: Use GitHub actions to train a model on Azure Machine Learning.
+    priority: 80
+    reportingCategory: ML lifecycle and MLOps
+    reportingSubCategory: Train and deploy ML model
+  - title: 'Use Team Data Science Process for the Data Science life-cycle. '
+    url: /azure/machine-learning/team-data-science-process/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.62d24fd5-0739-4f51-8e07-811274c06c88.3
+      scoreOf: []
+    context: 'The Team Data Science Process (TDSP) is an agile, iterative data science methodology to deliver predictive analytics solutions and intelligent applications efficiently. TDSP helps improve team collaboration and learning by suggesting how team roles work best together. TDSP includes best practices and structures from Microsoft and other industry leaders to help towards successful implementation of data science initiatives. The goal is to help companies fully realize the benefits of their analytics program.'
+    priority: 40
+    reportingCategory: ML lifecycle and MLOps
+    reportingSubCategory: Data science collaboration
+  - title: 'Use unit, regression and integration testing with CI/CD for MLOPs '
+    url: 'https://microsoft.github.io/code-with-engineering-playbook/machine-learning/ml-testing/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.be1baede-b5b8-4f01-85a9-f772bf233511.E
+      scoreOf: []
+    context: 'Provide samples of tests for the most common operations in MLOps/data Science projects. Testing the code used for MLOps or data Science projects follows the same principles of any other software project. Some scenarios might seem different or difficult to test. the best approach is to have a test design session, where the focus is on the input/outputs, exceptions and testing the behavior of data transformations. Designing the tests first makes it easier to test as it forces a more modular style, where each function has one purpose, and extracting common functionality functions and modules.'
+    priority: 60
+    reportingCategory: MLOps Testing
+    reportingSubCategory: Testing components
+  - title: 'Analyzing Azure ML platform metrics and logs from Azure Monitor '
+    url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings?tabs=CMD'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.bccf7ecf-2232-439e-b790-bbce4c9fed31.K
+      scoreOf: []
+    context: 'Platform metrics are automatically sent to Azure Monitor metrics by default and without configuration, Platform logs provide detailed diagnostic and auditing information for Azure resources and the Azure Platform They depend on, Resource logs are not collected until They are routed to a destination, the Activity Log exists on its own but can be routed to other locations.'
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Analyze metrics
+  - title: 'Segregation of environments by using Dev, Test and Prod.'
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/ai-machine-learning-resource-organization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.cb18d26c-be38-4212-8bbd-75b4642ccfba.H
+      scoreOf: []
+    context: 'When planning an Azure Machine Learning deployment for an enterprise environment, there are some common decision points that affect how you create the workspace: Team structure: The way your Data Science teams are organized and collaborate on projects for given use case and data segregation, or cost management requirements. Environments: The environments used as part of your development and release workflow to segregate development from production. Region: The location of your data and the audience needed to serve your Machine Learning solution.'
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Environment division
+  - title: How are you testing your MLOps infrastructure?
+    url: /azure/architecture/example-scenario/mlops/mlops-technical-paper
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational-ai-aml.be1baede-b5b8-4f01-85a9-f772bf233511.E
+      scoreOf: []
+    context: A case study of upscaling Machine Learning using MLOps.
+    priority: 20
+    reportingCategory: Operational Excellence
+    reportingSubCategory: MLOps Testing
+uid: 6f08f232-4857-4038-8828-fe0ff3db46d8
+name: ''

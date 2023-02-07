@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has not considered any cloud governance and do not follow guiding principles.
+    description: Your organization has no cloud governance and do not follow guiding principles.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has ad-hoc and repeatable cloud governance and intent to follow guiding principles.
+    description: Your organization has ad-hoc and repeatable cloud governance and intent to follow guiding principles.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization is using follows some guiding principles and looks at cloud governance is an iterative process that grow with maturity.
+    description: Your organization is using follows some guiding principles and looks at cloud governance is an iterative process that grow with maturity.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has established methodology, governance foundations and iterative approach improve end state.'
+    description: 'Your organization has established methodology, governance foundations and iterative approach improve end state.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has strong foundations, follows methodologies and measures governance using benchmark tools to iteratively improve end state.'
+    description: 'Your organization has strong foundations, follows methodologies and measures governance using benchmark tools to iteratively improve end state.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: What considerations and guiding principles have you considered and made for governance in the cloud?
+isRequired: true
+uid: 4300d2bc-0565-42b5-9c08-d47ecf463257
+name: What considerations and guiding principles have you considered and made for governance in the cloud?

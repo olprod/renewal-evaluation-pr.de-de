@@ -1,0 +1,10 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Once you have a design document ready for your module, you''re ready to start creating content, which starts by first creating the scaffolding for your Learn module. Ensure that you are aware of all the required skills to write effective Learn content that meets all the required content requirements.'
+hideEmptyGuidance: false
+questions:
+  - 0407340e-a456-4361-8da2-d62f4a4706fd
+recommendations: []
+assignedGroupIds: []
+uid: write-learn
+name: Publish Learn module

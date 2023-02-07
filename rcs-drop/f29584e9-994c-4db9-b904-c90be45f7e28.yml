@@ -1,0 +1,38 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a label policy that publishes sensitivity label to all users.
+
+  The policy includes the following labels:
+
+  - Top Secret
+
+  - Secret
+
+  - General
+
+  The default label is General.
+
+  You are concerned that users are not classifying the documents and are just accepting the defaults.
+
+  How should you change the policy configuration?
+questionnaireUid: a498b8a3-8c7c-48e4-86b2-ade97f7a73a0
+questions:
+  - uid: f29584e9-994c-4db9-b904-c90be45f7e28-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You have a label policy that publishes sensitivity label to all users. The policy includes the following labels:'
+        isCorrect: true
+      - id: 1
+        text: Top Secret Secret
+        isCorrect: false
+      - id: 2
+        text: General
+        isCorrect: false
+      - id: 3
+        text: The default label is General.
+        isCorrect: false
+uid: f29584e9-994c-4db9-b904-c90be45f7e28
+title: ''

@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Have well-defined performance goals.
+    description: Defining performance goals allows you to build architecture that aligns to your business needs and trade-off between performance and cost optimization. Carefully take the price / performance ratio into consideration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Have policies to scale up and scale down when my load decreases - Azure SQL Database Serverless might be a good fit for workloads with unpredictable and intermittent usage patterns.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Indexes and statistics are updated and optimized when it is needed.
+    description: Lack of proper index maintenance might cause additional IO for some workloads. Having outdated statistics might results in suboptimal query plans.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Use the Query Store to understand the performance bottlenecks.
+    description: 'Understanding your performance bottlenecks is critical for designing systems that will have variable throughput over time.The  Query Store feature provides you with insight on query plan choice and performance. It simplifies performance troubleshooting by helping you quickly find performance differences caused by query plan changes. Query Store automatically captures a history of queries, plans, and runtime statistics, and retains these for your review.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: performance-data-sqldb
+uid: 3163dad2-8718-452e-ae61-9bf83da96580
+name: How are you thinking about performance?

@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Security transformation is necessary to keep up with the pace of change in cloud platforms, the threat environment, and the evolution of security technologies. Integration of security with business processes is a core component of the methodology focusing on three categories of risk insights, security integration, and operational resiliency. '
+hideEmptyGuidance: false
+questions:
+  - 52724323-8ea3-438b-a6c6-c7942e6c5b04
+recommendations:
+  - deff8288-3e15-4ba1-9f02-9cbbf035f1cd
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: fbfef39b-5bef-4a7b-87a1-f97f0db47600
+name: Business Alignment - Test

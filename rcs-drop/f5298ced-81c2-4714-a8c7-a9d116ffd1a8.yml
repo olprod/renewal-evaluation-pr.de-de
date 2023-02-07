@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to develop a SharePoint Online Intranet extension with SPFx.
+
+  What scaffolding solution should you use?
+questionnaireUid: fb75c819-8974-451c-8b69-a85fb1e89370
+questions:
+  - uid: f5298ced-81c2-4714-a8c7-a9d116ffd1a8-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You need to develop a SharePoint Online Intranet extension with SPFx.
+        isCorrect: false
+      - id: 1
+        text: What scaffolding solution should you use?
+        isCorrect: true
+      - id: 2
+        text: Microsoft Teams Toolkit
+        isCorrect: false
+      - id: 3
+        text: Yeoman generator
+        isCorrect: false
+    manualId: MS-600.4.1
+uid: f5298ced-81c2-4714-a8c7-a9d116ffd1a8
+title: ''
+manualId: ''

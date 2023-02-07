@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 427979fb-523c-49f2-9522-07ab1efc51da
+recommendations:
+  - 87afd790-b3c3-4a52-a414-15be400c57f0
+assignedGroupIds: []
+uid: 65222d89-5c7a-44db-8f7f-dd5434fcb19d
+name: 'Go-Live - Traffic Manager: Reliability'

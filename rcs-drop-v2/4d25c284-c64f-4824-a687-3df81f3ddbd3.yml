@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: "Review the\_SLAs for virtual machines"
+    url: 'https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_9/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d11722c1-dfcd-424b-9dd5-371369b0b687.61fc432f-8e20-4576-a373-3bb5af7bd11a.A
+      scoreOf: []
+    context: 'Know Service Level Agreement for Microsoft Online Services. When defining test availability and recovery targets, make sure you have a good understanding of the SLAs offered for VMs.'
+    priority: 70
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "VMs should be deployed in a scale set\_using the Flexible orchestration mode"
+    url: 'https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-orchestration-modes'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d11722c1-dfcd-424b-9dd5-371369b0b687.61fc432f-8e20-4576-a373-3bb5af7bd11a.B
+      scoreOf: []
+    context: Flexible orchestration offers high availability guarantees (up to 1000 VMs) by spreading VMs across fault domains in a region or within an Availability Zone.
+    priority: 35
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Deploy VMs across\_Availability Zones"
+    url: 'https://docs.microsoft.com/azure/virtual-machines/availability'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d11722c1-dfcd-424b-9dd5-371369b0b687.61fc432f-8e20-4576-a373-3bb5af7bd11a.C
+      scoreOf: []
+    context: 'An Availability Zone is a physically separate zone, within an Azure region. There are three Availability Zones per supported Azure region.'
+    priority: 60
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Install applications on\_data disks"
+    url: 'https://docs.microsoft.com/azure/virtual-machines/linux/add-disk?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d11722c1-dfcd-424b-9dd5-371369b0b687.61fc432f-8e20-4576-a373-3bb5af7bd11a.D
+      scoreOf: []
+    context: Having your data on a separate disk from your OS disk makes it easier to recover from failures and to migrate workloads.
+    priority: 75
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Use\_maintenance control"
+    url: 'https://docs.microsoft.com/azure/virtual-machines/maintenance-configurations?branch=release-virtualmachine-ga '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d11722c1-dfcd-424b-9dd5-371369b0b687.61fc432f-8e20-4576-a373-3bb5af7bd11a.E
+      scoreOf: []
+    context: Control when VM maintenance occurs to manage the timing of system restarts.
+    priority: 56
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 4d25c284-c64f-4824-a687-3df81f3ddbd3
+name: ''

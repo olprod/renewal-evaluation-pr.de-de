@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has not started with migration options and considers cloud as ad-hoc migration.
+    description: 'Cloud adoption requires technical change, but to digitally transform with the cloud, it requires more than just IT. There are to accelerate migration and innovation efforts.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has made some considerations to accelerate migration and innovation efforts.
+    description: Follow migration guides designed to help accelerate migration and innovation efforts.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has made considerations for migration guides and taken on-board considerations for developing cloud foot-print.
+    description: Guides to help you align people and improve operations to develop your cloud operating model as well as migration and innovation efforts.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has created a business case for cloud migration to consider timeline and costs involved.
+    description: Created a business case for cloud migration to consider timeline and costs involved.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization is progressing with cloud adoption journey with forward outlook to improve operations to develop your cloud operating model.
+    description: Cloud adoption journey progresses to improve operations to develop your cloud operating model.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have a solid foundation to accelerate your adoption ambitions?
+isRequired: true
+uid: 98e85e41-2d1c-43c7-ae8b-2b96181f02b1
+name: Do you have a solid foundation to accelerate your adoption ambitions?

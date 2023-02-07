@@ -1,0 +1,33 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Cost Management for Azure Data Lake Gen2.
+    description: Monitor cost and use the Cost Analysis feature to set the budget.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: 9b88bfbd-b55f-4ff0-86b7-fcc67c591137
+name: How are you monitoring your costs?

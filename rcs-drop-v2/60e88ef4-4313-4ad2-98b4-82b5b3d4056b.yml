@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have not yet started the estimation of the project budget
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'An indicative budget has been proposed, but it has not been validated based on a detailed estimation of the effort and costs derived from the project scope and complexity'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'A budget estimate has been created based on high-level project scope, complexity and other project costs but it has not yet been approved by all the stakeholders'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'The budget estimate has been created based on a detailed estimation derived from the project scope, project complexity and other project costs with suitable contingency. It has been approved by all the relevant stakeholders. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Is there a plan to assess the budget according to the project scope and complexity?
+isRequired: true
+uid: 60e88ef4-4313-4ad2-98b4-82b5b3d4056b
+name: Is there a plan to assess the budget according to the project scope and complexity?

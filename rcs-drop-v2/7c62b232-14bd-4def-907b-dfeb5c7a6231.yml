@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 0%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 10-20%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 30-40%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '3'
+    text: 50-70%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '4'
+    text: 80-90%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '5'
+    text: 100%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+uid: 7c62b232-14bd-4def-907b-dfeb5c7a6231
+name: What percentage of your development projects are built by fusion teams? (Fusion team development is the practice of code first/ traditional developers and citizen developers/ business developers collaborating to build applications)

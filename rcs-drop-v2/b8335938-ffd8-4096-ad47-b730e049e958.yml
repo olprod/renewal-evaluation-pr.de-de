@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '11'
+    text: We do not use Azure's default internet outbound (SNAT) for any scenario. We use Azure Firewall or a partner NVA to govern Azure outbound traffic to the internet.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '12'
+    text: 'We use NAT gateway for Online Landing Zones Vnets not connected to the Hub VNet, where compute resources require internet outbound access and do not need any of the security features provided by Azure Firewall or a third-party NVA.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: b8335938-ffd8-4096-ad47-b730e049e958
+name: The following statements are true about our requirements and strategy for "Outbound Internet" access

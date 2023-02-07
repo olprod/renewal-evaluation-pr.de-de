@@ -1,0 +1,19 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: |-
+  Asset protection implements controls to support security architecture, standards, and policy. Each asset type and security requirement is unique. The security standards for any asset type should be consistently applied to all instances.
+  Start with a proven cloud infrastructure security approach and adapt it to your organization's needs and initial workload deployments.
+hideEmptyGuidance: false
+questions:
+  - c4c473ee-9e4b-444d-b878-8d11fcca6444
+  - e18a6630-c98e-4e11-ac53-99a749b538e4
+  - e9c8537d-a239-492e-99ab-062f7053f456
+  - 894584b2-c31e-42b0-a379-ae9a9dd48776
+  - b274a8ca-230e-4dc2-8549-e008a9f5df4a
+  - 2ff70c46-87f0-4775-822f-6e0bb422f675
+  - 7592451b-2dd8-4a8a-a839-cd4672f44a5e
+recommendations:
+  - 7f6f95de-1c10-437d-81b0-3d7a814c7578
+assignedGroupIds: []
+uid: 2752600e-84cc-47a7-badf-689657a98e93
+name: Asset Protection

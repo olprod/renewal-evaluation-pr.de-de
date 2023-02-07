@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Application can be automatically deployed to a new region without any manual operations to recover from disaster scenarios.
+    description: Can the application be deployed automatically from scratch without any manual operations?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Application deployments can be rolled-back and rolled-forward through automated deployment pipelines.
+    description: Can N-1 or N+1 be deployed via automated pipelines where N is current deployment in production?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: The lifecycle of the application is decoupled from its dependencies.
+    description: 'If the application lifecycle is closely coupled with that of its dependencies it can limit the operational agility of the application, particularly where new releases are concerned.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: The time it takes to deploy an entire production environment is tested and validated.
+    description: Is the time it takes to deploy an entire end-to-end production environment understood and validated?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Reliability allowances for operations
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWDP4N'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Operational processes for application deployment, such as roll-forward and roll-back, should be defined, sufficiently automated, and tested to help ensure alignment with reliability targets.'
+isRequired: false
+legacyId: '10'
+uid: 8f4e7227-fe6b-4aff-8abf-807a64b84aed
+name: 'Operational processes for application deployment, such as roll-forward and roll-back, should be defined, sufficiently automated, and tested to help ensure alignment with reliability targets.'

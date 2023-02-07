@@ -1,0 +1,24 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: Set expectations on the order and timing of your migration waves.
+links:
+  - title: Establish team structures
+    url: /azure/cloud-adoption-framework/organize/organization-structures
+    condition:
+      anyOf:
+        - project-plan.f6fa3c07-d41c-4d70-bbda-d6bfeef9361c.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Build your migration project plan
+    url: /azure/cloud-adoption-framework/plan/plan-intro
+    condition:
+      anyOf:
+        - project-plan.45a4b3cf-a4a6-41e6-a379-43e3ae367d4a.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 2035328b-bb87-446e-9f52-a80f42087467
+name: Migration plan

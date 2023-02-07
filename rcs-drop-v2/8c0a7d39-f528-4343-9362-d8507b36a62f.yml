@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Please tell us about your project to help us get a better understanding of your Dynamics 365 Implementation project and so provide more relevant recommendations.
+hideEmptyGuidance: true
+questions:
+  - df50ed71-fd1d-4bcd-b36e-0fbe056a0056
+  - 07909be3-313c-401e-9bcf-41f442689935
+  - 88751514-5405-4e78-9a5b-cd0ca124fee9
+  - eb2292cc-552f-4f5b-908c-9af2a1d85de7
+  - 536baefc-57d2-482f-8569-0930aa65b43c
+  - 0d3616d2-2868-4075-b8f4-de61043abe65
+  - 7e7d09fa-73d1-49c1-858d-e85a9404c56e
+recommendations:
+  - 9a64b439-7ca6-43d4-94e8-71d266dd2314
+assignedGroupIds: []
+uid: 8c0a7d39-f528-4343-9362-d8507b36a62f
+name: Project Overview

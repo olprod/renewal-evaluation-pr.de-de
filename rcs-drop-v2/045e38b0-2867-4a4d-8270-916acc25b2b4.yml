@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: There is no documented set of strategy documents in most of these areas and the project planning does not have a clear milestone deadline to complete these.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'Some of the strategy areas are being drafted, and there is an indicative target date, but there is no specific project milestone or task identified that is dependent on their completion.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: All the critical strategies are in an advanced state of being documented but are not yet ready to be actioned by the project
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: All the key strategies have been documented to the necessary level of detail to be able to confirm their feasibility and cost and are sufficiently detailed to drive project tasks at the formal start of the project.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you have a high-level view of the governance and management of key, project-specific strategies that will work efficiently with your chosen project approach/methodology: Testing, Data Migration, Integration, Cutover, ALM, Reporting/BI, Training etc?'
+isRequired: true
+uid: 045e38b0-2867-4a4d-8270-916acc25b2b4
+name: 'Do you have a high-level view of the governance and management of key, project-specific strategies that will work efficiently with your chosen project approach/methodology: Testing, Data Migration, Integration, Cutover, ALM, Reporting/BI, Training etc?'

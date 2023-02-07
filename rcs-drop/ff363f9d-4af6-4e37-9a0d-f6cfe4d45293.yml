@@ -1,0 +1,27 @@
+### YamlMime:RenewalAssessment
+certificationUid: certification.d365-functional-consultant-customer-service-v3
+referencedQuestionnaires:
+  - questionnaireUid: a9f47fb4-5cfe-4653-a52f-87e423de6df0
+    questionsToTake: 3
+    questionsToPass: 1
+  - questionnaireUid: 61ff7bdf-d07a-46be-99f9-f3063be67ab3
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: 4eabd2ca-def1-4ebb-b532-2529815a8168
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: a729cccb-83ce-4964-85a9-0b797ceeea9b
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: ece67b91-3668-41b2-81d5-5194b6435f33
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: 64ce7718-ba6f-445f-90e9-70bca2a299f9
+    questionsToTake: 5
+    questionsToPass: 3
+  - questionnaireUid: 70009fe3-e233-4675-938b-bb1a65abccf7
+    questionsToTake: 6
+    questionsToPass: 3
+uid: ff363f9d-4af6-4e37-9a0d-f6cfe4d45293
+title: 'Renewal assessment for Microsoft Certified: Dynamics 365 Customer Service Functional Consultant Associate'
+manualId: MB-230

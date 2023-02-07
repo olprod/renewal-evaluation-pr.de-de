@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Implement policies to apply rate limits and quotas to protect your APIs from being vulnerable to an excessive number of requests
+    url: /azure/api-management/api-management-access-restriction-policies#LimitCallRate
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 129b00f7-f195-4c97-9482-fcf7cddc64a9.a702299a-c6c2-4b0b-be80-d0903bd27733.A
+      scoreOf: []
+    context: 'Azure API Management supports advanced rate limiting and throttling policies which can be used to protect backend services and reduce the load placed on an API Management scale unit. The rate limiting policies can be applied at Global or Product, API and Operation level to provide significant customization of the rate limits applied to API consumers.'
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: Evaluate the need for response caching
+    url: /azure/architecture/best-practices/caching
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 129b00f7-f195-4c97-9482-fcf7cddc64a9.a702299a-c6c2-4b0b-be80-d0903bd27733.B
+      scoreOf: []
+    context: 'Response caching can reduce API latency, bandwidth consumption and the load placed upon the backend APIs leading to improved performance, user experience and reduced solution cost.'
+    priority: 25
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Plan a backup and restore process for your API Management Instance
+    url: /azure/api-management/api-management-howto-disaster-recovery-backup-restore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 129b00f7-f195-4c97-9482-fcf7cddc64a9.a702299a-c6c2-4b0b-be80-d0903bd27733.C
+      scoreOf: []
+    context: 'Consider taking regular backups of your API Management Service so that it can be easily restored in another region or instance in the same region at any time. Your recovery time objective may require that a standby is always deployed in a secondary region. In this case, it is still good practice to take regular backups to enable the ability to easily recreate your service in the event of an unforeseen loss or misconfiguration of the service as well as to replicate changes between your primary and standby instances.'
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Backup and Restore
+  - title: Configure multiple Azure regions in your API Management Service
+    url: /azure/api-management/api-management-howto-deploy-multi-region
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 129b00f7-f195-4c97-9482-fcf7cddc64a9.a702299a-c6c2-4b0b-be80-d0903bd27733.D
+      scoreOf: []
+    context: Configuring your API Management Service with multiple regions provides high-availability support in the event that an Azure region experiences downtime or is subject to a disaster scenario. This also reduces API call latency as calls can be routed to the nearest region.
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Implement a strategy to ensure availability in the event of an outage or disaster affecting an Azure Region
+    url: 'https://devblogs.microsoft.com/premier-developer/completing-the-redundancy-story-of-api-manager/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 129b00f7-f195-4c97-9482-fcf7cddc64a9.a702299a-c6c2-4b0b-be80-d0903bd27733.E
+      scoreOf: []
+    context: 'Consider using Azure Traffic Manager, Azure Front Door or Azure DNS to enable access to multiple regional deployments of API Management to ensure you can continue to serve requests in the event of an outage or disaster. This would also require syncing configurations between these individual Standard instances.'
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+uid: 0e8b0db1-9726-47a0-b3f5-95c6f715454f
+name: ''

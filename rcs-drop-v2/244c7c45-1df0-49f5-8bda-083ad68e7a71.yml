@@ -1,0 +1,81 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Mature team structures
+    url: /azure/cloud-adoption-framework/organize/organization-structures
+    condition:
+      allOf: []
+      anyOf:
+        - 85fccb4c-167c-41e9-9549-766567282a30.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-0.A
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore organizational and technical readiness learning paths.
+    url: /azure/cloud-adoption-framework/organize/suggested-skills
+    condition:
+      allOf: []
+      anyOf:
+        - 85fccb4c-167c-41e9-9549-766567282a30.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-0.B
+        - 85fccb4c-167c-41e9-9549-766567282a30.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-0.C
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Building technical skills
+    url: /azure/cloud-adoption-framework/organize/suggested-skills
+    condition:
+      allOf: []
+      anyOf:
+        - 85fccb4c-167c-41e9-9549-766567282a30.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-1.A
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learning module - Review the Azure compute services and explore how they solve common business needs.
+    url: /learn/modules/azure-compute-fundamentals/
+    condition:
+      allOf: []
+      anyOf:
+        - 85fccb4c-167c-41e9-9549-766567282a30.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-1.B
+        - 85fccb4c-167c-41e9-9549-766567282a30.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-1.C
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: CCoE chart and aligning owners that will drive it in the org
+    url: /azure/cloud-adoption-framework/organize/cloud-center-of-excellence
+    condition:
+      allOf: []
+      anyOf:
+        - 85fccb4c-167c-41e9-9549-766567282a30.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-2.A
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Aligning responsibilities across teams
+    url: /azure/cloud-adoption-framework/organize/raci-alignment
+    condition:
+      allOf: []
+      anyOf:
+        - 85fccb4c-167c-41e9-9549-766567282a30.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-2.B
+        - 85fccb4c-167c-41e9-9549-766567282a30.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f.e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-2.C
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 244c7c45-1df0-49f5-8bda-083ad68e7a71
+name: ''

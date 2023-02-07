@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This critical design area focuses on the two highest levels of alignment across all of your Azure deployments; your Azure billing offer and the association of that offer with an Azure Active Directory (Azure AD) tenant.
+hideEmptyGuidance: false
+questions:
+  - 0ebd48cd-9d0c-4a82-ba19-86c763dc156c
+  - 15be114c-c042-44db-a35c-754de381fb80
+  - bba398e6-b605-4bc8-9a2b-19f19f0fc50a
+recommendations:
+  - 777eeda6-5996-41be-af57-e74b63d097dc
+assignedGroupIds: []
+uid: 9b234605-e562-4157-b8cb-6b1142364fe5
+name: Azure Billing and Active Directory

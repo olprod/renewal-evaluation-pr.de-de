@@ -1,0 +1,102 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Enable storage compression.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#enable-storage-compression
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fe227d6-25ac-4b23-8f6a-1e642862a61a.136945da-303f-4b65-8ba9-6db98b8d54c7.0
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize database query performance.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#optimize-database-query-performance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fe227d6-25ac-4b23-8f6a-1e642862a61a.136945da-303f-4b65-8ba9-6db98b8d54c7.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the best suited storage access tier.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#use-the-best-suited-storage-access-tier
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fe227d6-25ac-4b23-8f6a-1e642862a61a.136945da-303f-4b65-8ba9-6db98b8d54c7.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Store only relevant data.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#only-store-what-is-relevant
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fe227d6-25ac-4b23-8f6a-1e642862a61a.136945da-303f-4b65-8ba9-6db98b8d54c7.3
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Determine the most suitable access tier for blob data.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#determine-the-most-suitable-access-tier-for-blob-data
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fe227d6-25ac-4b23-8f6a-1e642862a61a.136945da-303f-4b65-8ba9-6db98b8d54c7.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Reduce the number of recovery points for VM backups.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#reduce-the-number-of-recovery-points-for-vm-backups
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fe227d6-25ac-4b23-8f6a-1e642862a61a.136945da-303f-4b65-8ba9-6db98b8d54c7.5
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Revise backup and retention policies.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#revise-backup-and-retention-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fe227d6-25ac-4b23-8f6a-1e642862a61a.136945da-303f-4b65-8ba9-6db98b8d54c7.6
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize the collection of logs.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#optimize-the-collection-of-logs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fe227d6-25ac-4b23-8f6a-1e642862a61a.136945da-303f-4b65-8ba9-6db98b8d54c7.7
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 6c2a55ff-dad2-4166-83e8-63a70fa7c28c
+name: ''

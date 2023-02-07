@@ -1,0 +1,47 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Create a financial model for cloud transformation.
+    url: /azure/cloud-adoption-framework/strategy/financial-models
+    condition:
+      allOf: []
+      anyOf:
+        - 804d071d-09ec-41b3-b74e-52a6e39a1338.ec8cb532-3a38-400a-8074-5b950d42232e.1
+        - 804d071d-09ec-41b3-b74e-52a6e39a1338.ec8cb532-3a38-400a-8074-5b950d42232e.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn ways to achieve more with your cloud investments
+    url: /azure/cloud-adoption-framework/strategy/achieve-more
+    condition:
+      allOf: []
+      anyOf:
+        - 804d071d-09ec-41b3-b74e-52a6e39a1338.3b011f88-8813-49d2-af85-90ba69bc147b.0
+        - 804d071d-09ec-41b3-b74e-52a6e39a1338.3b011f88-8813-49d2-af85-90ba69bc147b.1
+        - 804d071d-09ec-41b3-b74e-52a6e39a1338.3b011f88-8813-49d2-af85-90ba69bc147b.2
+        - 804d071d-09ec-41b3-b74e-52a6e39a1338.3b011f88-8813-49d2-af85-90ba69bc147b.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understanding cloud accounting.
+    url: /azure/cloud-adoption-framework/strategy/cloud-accounting
+    condition:
+      allOf: []
+      anyOf:
+        - 804d071d-09ec-41b3-b74e-52a6e39a1338.3b011f88-8813-49d2-af85-90ba69bc147b.4
+        - 804d071d-09ec-41b3-b74e-52a6e39a1338.3b011f88-8813-49d2-af85-90ba69bc147b.5
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: ef499d19-52e6-4658-a341-dab258bd0cbd
+name: ''

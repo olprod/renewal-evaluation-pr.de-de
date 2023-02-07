@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Monitor with your Azure Synapse Analytics workspace.
+    description: You can use monitoring data to gain deep insights about your applications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Use Azure Synapse Analytics Studio to monitor your Apache Spark applications.
+    description: 'Allowing you to keep an eye on the latest status, issues, and progress.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Use Azure Synapse Analytics Studio to monitor your SQL requests.
+    description: Allowing you to  keep an eye on the status of running requests and discover details of historical requests.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Monitor your Azure Synapse Analytics dedicated SQL pool workload using Dynamic Management Views (DMVs).
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: monitor-data-synapse
+uid: 2f3bf023-2c0f-4e56-af17-5296495e7afd
+name: How do you monitor and measure application health?

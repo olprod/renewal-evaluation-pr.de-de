@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This area includes basic functional experience with Microsoft 365 services and general IT practices, including using PowerShell.'
+hideEmptyGuidance: false
+questions:
+  - 8f568476-5cf4-4034-94da-41c848cfc9cf
+  - 751e2cdb-e7bc-4cfe-9775-3f88db96987f
+  - 29ec7217-1e82-4bf6-8549-1310dc730ece
+recommendations:
+  - f4e1e4bc-4a77-40fe-b4d2-4b13141516bf
+assignedGroupIds: []
+uid: 3efea952-1e93-4261-87ff-7efe167589e6
+name: 'Manage Microsoft Teams '

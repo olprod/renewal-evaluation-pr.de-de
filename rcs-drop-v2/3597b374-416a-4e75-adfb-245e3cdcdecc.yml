@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: "Use Azure policies\_to enforce security, compliance, and organizational standards."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: "Activate diagnostic logs and store them in\_a log analytics workspace."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.security
+stem: ''
+isRequired: false
+uid: 3597b374-416a-4e75-adfb-245e3cdcdecc
+name: What considerations for compliance and governance do you need to take?

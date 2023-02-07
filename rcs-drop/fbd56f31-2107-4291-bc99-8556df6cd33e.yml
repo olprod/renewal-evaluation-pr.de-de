@@ -1,0 +1,7 @@
+### YamlMime:Questionnaire
+studyMaterials:
+  - uid: learn.wwl.configure-bitlocker-disk-encryption-for-windows-iaas-vms
+    type: Module
+uid: fbd56f31-2107-4291-bc99-8556df6cd33e
+title: 'Configure BitLocker disk encryption for Windows IaaS Virtual Machines '
+manualId: AZ-800_6

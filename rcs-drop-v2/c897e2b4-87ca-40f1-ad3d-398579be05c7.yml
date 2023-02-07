@@ -1,0 +1,22 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Continuous integration/continuous delivery, known as CI/CD, is a set of processes that help software development teams deliver code changes more frequently and reliably. CI/CD is part of DevOps, which helps shorten the software development lifecycle.'
+hideEmptyGuidance: false
+questions:
+  - 2de2b0b5-bf64-4137-a6a4-f59ff7257a5b
+  - 6318fa8b-4f01-430d-9726-d2a9167e2569
+  - c1fb793a-0e9a-4ad6-a628-d4cece3d656a
+  - 6ddb6853-4896-4276-8dea-a0059c7cddc3
+  - dacd8f47-a9fb-496b-8d21-0755794da7a0
+  - 4e43d91b-5b17-4b91-b74f-088f7a3ab149
+  - 3d8c388e-e8a7-4395-a099-d7ba5f2d32ed
+  - 13d46ec7-9a9a-49e9-8304-e7609b8d9f11
+  - 15c93333-5b4f-408e-9eb2-ac44b48041a2
+  - 4135cbaa-752b-4589-9e9f-ac64e1513078
+  - 153dd352-60ef-45a0-8350-5540e8d368db
+  - 92f97686-bcd6-418a-95e6-1dc5716b5e8f
+recommendations:
+  - 77be3ab6-08a5-49f7-959d-3d3fe88a8605
+assignedGroupIds: []
+uid: c897e2b4-87ca-40f1-ad3d-398579be05c7
+name: Continuous Integration and Continuous Delivery (CI/CD)

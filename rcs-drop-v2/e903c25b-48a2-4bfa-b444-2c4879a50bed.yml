@@ -1,0 +1,114 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-plan.png
+description: 'Catalog all of your workloads, applications, data sources, virtual machines, and other IT assets and evaluate them to determine the best way to host them in the cloud. Based on that create an actionable cloud adoption plan.'
+links:
+  - title: Create a financial model for cloud accounting
+    url: /azure/cloud-adoption-framework/strategy/financial-models
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.1ab1b481-41d1-42d5-885b-7b628db6eae7.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about cloud accounting
+    url: /azure/architecture/cloud-adoption/business-strategy/cloud-accounting
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.1ab1b481-41d1-42d5-885b-7b628db6eae7.B
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.1ab1b481-41d1-42d5-885b-7b628db6eae7.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage costs and billing for your Azure resources
+    url: /azure/cloud-adoption-framework/ready/azure-setup-guide/manage-costs
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.196fcb00-ad4c-420c-b6d4-8c9cb2a78c72.B
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.196fcb00-ad4c-420c-b6d4-8c9cb2a78c72.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn about various networking architectures and what to choose
+    url: /azure/cloud-adoption-framework/ready/considerations/networking-options#choose-a-networking-architecture
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.ef9f5d34-cce2-4963-9944-efb0254ed189.B
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.ef9f5d34-cce2-4963-9944-efb0254ed189.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn about Azure ARC - Bring Azure services and management to any infrastructure
+    url: 'https://azure.microsoft.com/en-us/services/azure-arc/'
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.88b8cdf0-7b53-47fe-b806-c75d1e57a265.A
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.369261a4-30dc-4038-a495-6101f8807b4e.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure a VPN connection to your CloudSimple Private Cloud
+    url: '/azure/vmware-cloudsimple/set-up-vpn?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.88b8cdf0-7b53-47fe-b806-c75d1e57a265.B
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.88b8cdf0-7b53-47fe-b806-c75d1e57a265.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Governance guide for complex enterprises: Multi-cloud improvement'
+    url: /azure/cloud-adoption-framework/govern/guides/complex/multicloud-improvement
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.369261a4-30dc-4038-a495-6101f8807b4e.B
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.369261a4-30dc-4038-a495-6101f8807b4e.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create a cloud adoption plan and DevOps
+    url: /azure/cloud-adoption-framework/plan/template
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.d3e728d8-5900-4bc3-8b49-8a2d6a511b0d.B
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.d3e728d8-5900-4bc3-8b49-8a2d6a511b0d.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: The 5 Rs of rationalization
+    url: /azure/cloud-adoption-framework/digital-estate/5-rs-of-rationalization
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.a44aa79c-a2fc-4565-bf65-931d80b5298f.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: How can a digital estate be measured?
+    url: /azure/cloud-adoption-framework/digital-estate/
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.a44aa79c-a2fc-4565-bf65-931d80b5298f.B
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.a44aa79c-a2fc-4565-bf65-931d80b5298f.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Assess each workload and refine plans
+    url: /azure/cloud-adoption-framework/migrate/azure-migration-guide/assess?tabs=Tools
+    condition:
+      anyOf:
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.39d73f59-c37a-445a-a2eb-00b06e0ddea1.B
+        - plan.db04c2e4-f1bd-4624-956a-202c8e7c0622.39d73f59-c37a-445a-a2eb-00b06e0ddea1.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: e903c25b-48a2-4bfa-b444-2c4879a50bed
+name: Plan

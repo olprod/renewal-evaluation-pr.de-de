@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Leveraging Azure DevOps for Azure Databricks.
+    description: 'Azure DevOps provides a cloud hosted interface for defining the stages of your CI/CD pipeline using YAML including a Pipeline editor, where you define your build in the azure-pipelines.yml file.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Migrating to modern CI/CD processes provides many benefits for application builds, deployments, testing, and monitoring'
+isRequired: false
+legacyId: '0'
+uid: 59da364a-c6d8-49e4-95a2-2f2116c125dd
+name: 'Migrating to modern CI/CD processes provides many benefits for application builds, deployments, testing, and monitoring'

@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Private link and private endpoints are used where available.
+    description: Azure PaaS services are typically accessed over public endpoints. Azure provides capabilities to secure public endpoints or even make them entirely private. Azure Private Link/Private Endpoints provide dedicated access to an Azure PaaS resource using private IP addresses and private network connectivity.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: Service endpoints are used on virtual networks where private endpoints are unavailable.
+    description: Virtual network service endpoints provide service-level access from selected subnets to selected PaaS services.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: Azure PaaS services are accessed from on-premises via ExpressRoute with private peering.
+    description: This applies to hybrid application scenarios where on-premises systems and Azure services need to access each other.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Communication between service instances in Azure needs to be protected, too.'
+isRequired: false
+uid: 3cde6964-938f-4134-b2cc-1cf181fac774
+name: 'Communication between service instances in Azure needs to be protected, too.'

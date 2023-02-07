@@ -1,0 +1,179 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: d7905063-9fba-4087-8a47-fa2f06cafb44-q-0
+    name: Knowing and understanding available resource providers and resources to help define resources and deploy to Azure.
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: d7905063-9fba-4087-8a47-fa2f06cafb44-q-1
+    name: 'Deploying, managing, and monitoring all resources by business unit, solution, workload, or application.'
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '3'
+    uid: d7905063-9fba-4087-8a47-fa2f06cafb44-q-2
+    name: 'Ensuring stability, performance, uptime across applications, workloads, and solutions that support the business.'
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '4'
+    uid: d7905063-9fba-4087-8a47-fa2f06cafb44-q-3
+    name: 'Speed to remediate performance or uptime for mission-critical applications, workloads, or solutions.'
+stem: 'Resource Consistency is a methodology to establish policies related to the operational management of an environment, application, or workload. It ensures that resources are consistently configured to be discoverable by IT, included in recovery solutions, and on-boarded into repeatable processes.'
+isRequired: true
+uid: d7905063-9fba-4087-8a47-fa2f06cafb44
+name: 'Resource Consistency is a methodology to establish policies related to the operational management of an environment, application, or workload.'

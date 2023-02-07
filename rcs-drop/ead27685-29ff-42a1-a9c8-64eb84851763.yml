@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You deploy both Connected Customer Service with IoT Hub and Connected Customer Service for IoT Central.
+
+  An IoT device fails and begins sending alerts.
+
+  You need to send a JSON message to the device to reset the device. You need to use the most efficient way.
+
+  What should you use to send the message?
+questionnaireUid: 7dab9546-06e2-4029-9495-40f1799f5a0b
+questions:
+  - uid: ead27685-29ff-42a1-a9c8-64eb84851763-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You deploy both Connected Customer Service with IoT Hub and Connected Customer Service for IoT Central.
+        isCorrect: true
+      - id: 1
+        text: An IoT device fails and begins sending alerts.
+        isCorrect: false
+      - id: 2
+        text: You need to send a JSON message to the device to reset the device.
+        isCorrect: false
+      - id: 3
+        text: You need to use the most efficient way.
+        isCorrect: false
+uid: ead27685-29ff-42a1-a9c8-64eb84851763
+title: ''

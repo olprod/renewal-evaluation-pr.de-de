@@ -1,0 +1,49 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We've identified Azure regions with a low-carbon footprint and have deployed our workload there.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: We run processing-intensive workloads when we know that the energy mix comes mostly from renewable energy sources and/or move the workload dynamically when the energy conditions change so that processes run when the carbon intensity is low.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: We proactively design batch processing of workloads to help with scheduling intensive work during low-carbon periods.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 4eb11871-8e1f-48d1-abee-2668b98f1988.ca6d89aa-b7bb-46fc-9104-ae5b645439db.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 5d0a071a-3fd0-468c-958d-5f1e35e374ea
+name: How do you leverage regional differences to reduce the emissions that your solution produces?

@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have an Azure Digital Twins solution, an IoT Hub and an Azure Function.
+
+  You create a solution that ingests data from the IoT Hub to an Azure Digital Twins instance by using an Azure Function.
+
+  You need to send data from the IoT Hub to the Azure Function.
+
+  Which feature should you use?
+questionnaireUid: f09699db-4203-4a18-ba12-f57d9ff4b7dc
+questions:
+  - uid: e88cdc24-49db-4664-8372-120e086548e9-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You have an Azure Digital Twins solution, an IoT Hub and an Azure Function.'
+        isCorrect: true
+      - id: 1
+        text: You create a solution that ingests data from the IoT Hub to an Azure Digital Twins instance by using an Azure Function.
+        isCorrect: false
+      - id: 2
+        text: You need to send data from the IoT Hub to the Azure Function.
+        isCorrect: false
+      - id: 3
+        text: Which feature should you use?
+        isCorrect: false
+uid: e88cdc24-49db-4664-8372-120e086548e9
+title: ''

@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Billing for an Azure Data Factory integration runtime is based on the amount of allocated memory.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 68fdc26c-0f27-4c6e-838e-0a27924904a7
+questions:
+  - uid: fc8affb8-71d7-4a76-884f-770881b9fb68-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Billing for an Azure Data Factory integration runtime is based on the amount of allocated memory.
+        isCorrect: false
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: true
+uid: fc8affb8-71d7-4a76-884f-770881b9fb68
+title: 'Otherwise, select No.'

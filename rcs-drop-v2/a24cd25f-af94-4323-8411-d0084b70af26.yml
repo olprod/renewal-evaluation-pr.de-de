@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Leverage Azure Machine Learning monitoring capabilities, such as model run logs and metrics.'
+    description: 'Logs can help you diagnose errors and warnings, or track performance metrics like parameters and model performance. You can log locally and send logs to your workspace in the portal. Or, log real-time information using both the default Python logging package and Azure Machine Learning Python SDK.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Enable logging in Azure Machine Learning training runs.
+    description: The Azure Machine Learning Python SDK lets you log real-time information using both the default Python logging package and SDK-specific functionality.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Use Azure Monitor to monitor the performance.
+    description: 'When you have critical applications and business processes relying on Azure resources, you want to monitor those resources for their availability, performance, and operation.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Leveraging the Azure Machine Learning workspace experiment console to track workload progress.
+    description: 'The experiment console provides details about the experiment run, running status, and other associated metrics.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+    - waf-config-golive.waf-scenario.ai
+stem: Performance is an indication of the responsiveness of a system to execute any action within a given time interval.
+isRequired: false
+legacyId: '6'
+uid: a24cd25f-af94-4323-8411-d0084b70af26
+name: Performance is an indication of the responsiveness of a system to execute any action within a given time interval.

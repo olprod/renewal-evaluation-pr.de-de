@@ -1,0 +1,39 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We built our operational processes around AKS based on the best practices published by the product group.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: A proactive governance process to check and upgrade Kubernetes as required so the Azure Kubernetes Service does not fall out of support is in place.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.aks
+stem: ''
+isRequired: false
+uid: 764803c8-0476-4bf1-bb35-a4b93d141c26
+name: Do your operational processes for Azure Kubernetes Services follow the best practices?

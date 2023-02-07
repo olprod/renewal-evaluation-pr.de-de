@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: There is a general sense of direction but might be clarified better
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: We have a couple of different directions to sort out
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: We have a clear vision and supported by our organization
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 70
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'For DevOps to have a chance at success, both technical and non-technical teams need to be in alignment. Non-technical stakeholders need to buy in, collaborating with engineering teams to help craft meaningful, achievable KPIs and SLAs. Technical teams need to design systems and processes that streamline software delivery and provide solid tools for communicating the value that DevOps is delivering to their organization.'
+isRequired: true
+uid: 0a5bad90-e036-4445-bc92-4e6af860633a
+name: 'For DevOps to have a chance at success, both technical and non-technical teams need to be in alignment. '

@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You have completely assessed and considered build versus buy.
+    description: A make-or-buy decision takes into account qualitative (such as WiFi certification) and quantitative (such as BOM cost and time to market) variables.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You have considered upstream data transmission optimization to reduce costs.
+    description: Data exchange can generate costs on the connectivity layer or data ingress service.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'You have integrated device and software service support costs, associated with a device lifetime.'
+    description: Devices may not be easily accessible (in a remote location or hazardous environment) requiring zero-touch maintenance capabilities like remote software update.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: You have considered non-recurring engineering costs such as manufacturing and testing.
+    description: 'Pre-certified system components or modules can reduce time-to-market to create a semi-custom device, but these components are also more expensive than discrete chips. Supply-chain and inventory management need to be properly resourced.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'You have clearly quantified the deployment cost, including staging, shipment and installation (including personnel training), of the device, and developed process to reduce those costs.'
+    description: 'Typically, using a pre-existing infrastructure, both for networking and for power supply, minimizes the cost of the installation. On the other hand, this approach might require a guarantee that they will not impact the existing system. In any case, the installation of the IoT devices demands dedicated resources (internal or external) that need to be trained.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'A device cost encompasses different aspects, all part of the total cost of deploying a device including installation, deployment, stock, and maintenance.'
+isRequired: false
+uid: fda74086-2b36-4971-861f-4012a8fac72f
+name: 'A device cost encompasses different aspects, all part of the total cost of deploying a device including installation, deployment, stock, and maintenance. Q12.'

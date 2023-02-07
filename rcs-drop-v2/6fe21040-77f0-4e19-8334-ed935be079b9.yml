@@ -1,0 +1,47 @@
+### YamlMime:SelfAssessment
+description: 'Upskilling Learn Assessment '
+duration: 5 minutes
+questionnaireReferences:
+  - questionnaireUid: d012dec7-39f2-46c4-af17-fc9b3bf30927
+    isRequired: false
+guidance:
+  title: 5 minutes
+  description: Upskilling guidance title
+  providers: []
+  scoring:
+    title: ''
+    description: ''
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf:
+                - d012dec7-39f2-46c4-af17-fc9b3bf30927.c652c7cb-b667-49cb-9607-19d67b91d588.0
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Sulabh
+  lastName: Grover
+  email: sulabhgrover@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+metadataTags:
+  - cdm
+uid: 6fe21040-77f0-4e19-8334-ed935be079b9
+name: Upskilling guidance description

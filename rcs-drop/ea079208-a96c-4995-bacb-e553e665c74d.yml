@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company has a hybrid Exchange deployment that contains a user named User1. User1 has a mailbox hosted on the on-premises Exchange Server.
+
+  You need to ensure that all mailbox items for User1 are retained, including deleted items and items processed by the Messaging Records Management system.
+
+  What should you do?
+questionnaireUid: 4e711f1a-cd08-4384-93fa-ded0f7aa0ddd
+questions:
+  - uid: ea079208-a96c-4995-bacb-e553e665c74d-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company has a hybrid Exchange deployment that contains a user named User1.
+        isCorrect: true
+      - id: 1
+        text: User1 has a mailbox hosted on the on-premises Exchange Server.
+        isCorrect: false
+      - id: 2
+        text: 'You need to ensure that all mailbox items for User1 are retained, including deleted items and items processed by the Messaging Records Management system.'
+        isCorrect: false
+      - id: 3
+        text: What should you do?
+        isCorrect: false
+    manualId: MS-203.9.3
+uid: ea079208-a96c-4995-bacb-e553e665c74d
+title: ''
+manualId: ''

@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Upskilling '
+hideEmptyGuidance: false
+questions:
+  - c652c7cb-b667-49cb-9607-19d67b91d588
+recommendations:
+  - e78fb6ce-b6d0-431f-9473-adf0a27ac856
+assignedGroupIds:
+  - b6a324fd-d21d-4f72-ae18-f475f53334f0
+uid: d012dec7-39f2-46c4-af17-fc9b3bf30927
+name: Upskilling

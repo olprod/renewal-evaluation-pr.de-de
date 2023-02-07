@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Yes.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: No.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+legacyId: '3'
+uid: 9a98bda7-9add-4c03-8c06-bbf4cbf40054
+name: Are the application owners identified and aligned to the migration plan?

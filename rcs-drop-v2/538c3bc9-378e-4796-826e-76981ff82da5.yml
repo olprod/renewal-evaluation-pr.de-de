@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Infrastructure backups are enabled and monitored to ensure backups are successful.
+    description: 'Infrastructure Backups store the stamp metadata, subscriptions, RBAC permissions and key vaults secrets that would be required in the event of a disaster to recovery a stamp. An alert in raised in Azure Stack Hub if the infrastructure backup fails or if it is not enabled.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: The network share location used for infrastructure backups is monitored to ensure there is sufficient capacity and availability of the file share.
+    description: 'Although Azure Stack Hub will raise an alert if there is an issue with the network shared used for infrastructure backup, it is recommended to have additional monitoring and alerting in place to monitor the free space and availability of the network share.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: The integrity of infrastructure backups is periodically validated using an Azure Stack Development Kit (ASDK) restore process.
+    description: 'Using an ASDK instance to restore the backup from a integrated/multi-node system, provides a mechanism to validate the integrity of the backups, to ensure you could restore from backup in a real disaster recovery scenario.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: 'The certificate PFX file and certificate password used to decrypt infrastructure backups, are stored in safe place that would be available in the event of a disaster.'
+    description: 'It is critically important to store the certificate PFX file (private key) and associated passwords external to the stamp. This is required in order to decrypt the infrastructure backups, in the event of a disaster recovery scenario.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: 'A backup strategy is in place for User (tenant) workloads, to ensure VM operating systems and data is protected. For example, implementing Azure Site Recovery (ASR) or a solution from an ISV Backup partner.'
+    description: 'User workloads, such as operating systems and data is not included in the infrastructure backups. Therefore it is critically important that a backup strategy is in place to protect User data / workload in the event of a disaster or data recovery scenario.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: F
+    text: 'Emergency break glass accounts and associated passwords are stored securely, together with processes and procedures that would be used to recover from a disaster.'
+    description: 'Emergency break glass accounts and associated passwords are stored securely, together with processes and procedures that would be used to recover from a disaster. (including solution specific credentials, such as HLH, BMC...etc.)'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 538c3bc9-378e-4796-826e-76981ff82da5
+name: What business continuity and disaster recovery (BC/DR) procedures have been implemented?

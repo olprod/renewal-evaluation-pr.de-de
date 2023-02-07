@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are evaluating whether to provision a Microsoft team by using Microsoft Graph.
+
+  What should you consider when provisioning a new team?
+questionnaireUid: 76e5ea13-aee8-4944-96a6-acf0672441a5
+questions:
+  - uid: ec3ebf7a-5a4e-46dd-bdf8-2c06007296f8-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are evaluating whether to provision a Microsoft team by using Microsoft Graph.
+        isCorrect: false
+      - id: 1
+        text: What should you consider when provisioning a new team?
+        isCorrect: false
+      - id: 2
+        text: 'During the provisioning process, an unlicensed users can become the owner of a team. '
+        isCorrect: true
+      - id: 3
+        text: Microsoft teams must be provisioned with multiple channels.
+        isCorrect: false
+    manualId: MS-600.3.1
+uid: ec3ebf7a-5a4e-46dd-bdf8-2c06007296f8
+title: ''
+manualId: ''

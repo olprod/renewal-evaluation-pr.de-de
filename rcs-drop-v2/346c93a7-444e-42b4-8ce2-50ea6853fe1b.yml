@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Knowing the business value of your applications and data is an essential component of  modernization.
+hideEmptyGuidance: false
+questions:
+  - a9df3c61-37e7-48d0-806e-921fba448254
+  - b3b70a81-cb58-4282-a80f-dae16edf6ee6
+recommendations:
+  - 06d4b99e-bf41-43ad-898b-052dc7949759
+assignedGroupIds: []
+uid: 346c93a7-444e-42b4-8ce2-50ea6853fe1b
+name: Business drivers

@@ -1,0 +1,74 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We understand the concept of "serverless cold start" and have picked our hosting plans to avoid it where a quick start-up time is essential.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Functions that might receive a large amount of traffic or sudden spikes in traffic run in a consumption plan.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: All our Azure Functions have a relatively short run time.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: 'When using non-durable functions, we ensure that they don''t require state.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: All our functions are idempotent by design.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: All Functions are asynchronous by design.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: We re-use connections to external resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.func
+stem: ''
+isRequired: false
+uid: d242e3ba-a298-44a7-87d4-c9aaeaf5bd86
+name: Do your Azure Functions implement the best practices for performance?

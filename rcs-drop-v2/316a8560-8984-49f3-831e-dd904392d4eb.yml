@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Your strategy considers topics like securing sponsorship, tools, skills, and testing.'
+hideEmptyGuidance: false
+questions:
+  - 4e086e78-af08-4444-bd61-a26e5b090aa7
+  - 8820ba4b-9104-487d-b940-b7a4db2be56c
+recommendations:
+  - 1b557022-dd9c-4fa2-a393-260b0cccd51f
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: 316a8560-8984-49f3-831e-dd904392d4eb
+name: Migration strategy

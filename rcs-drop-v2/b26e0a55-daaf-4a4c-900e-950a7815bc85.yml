@@ -1,0 +1,20 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Platform automation and DevOps
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/platform-automation-and-devops#define-central-and-federated-responsibilities'
+    condition:
+      allOf: []
+      anyOf:
+        - 28dc41ee-00c1-4c5b-8cc4-00c07ce95cb9.9c2f76b2-b283-40e5-a400-7988a5a1952b.0
+        - 28dc41ee-00c1-4c5b-8cc4-00c07ce95cb9.9c2f76b2-b283-40e5-a400-7988a5a1952b.1
+        - 28dc41ee-00c1-4c5b-8cc4-00c07ce95cb9.9c2f76b2-b283-40e5-a400-7988a5a1952b.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: b26e0a55-daaf-4a4c-900e-950a7815bc85
+name: Please review and confirm you are following the required teams and thinking

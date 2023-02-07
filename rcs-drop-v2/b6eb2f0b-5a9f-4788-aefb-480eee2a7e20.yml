@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Reliability refers to the consistency and dependability of a SAP workload on Azure.
+hideEmptyGuidance: false
+questions:
+  - dc5e7f2f-e900-480d-9ce5-44a5e890ba8b
+  - 3fc7ec5b-a639-4532-9f16-8a224c8236b4
+  - e4cce381-d2a7-44bf-9801-9900add6ecba
+  - 40deb6bd-c7d1-4def-a6bb-98fbbe2756d3
+  - 8d9f2b02-e2db-4608-8a51-e07730f4540c
+  - 0aa8b646-293e-461a-abe9-431d5cf28dd4
+recommendations:
+  - 78e03975-4f9f-4d30-a075-aa7fa839e903
+assignedGroupIds:
+  - b6a324fd-d21d-4f72-ae18-f475f53334f0
+uid: b6eb2f0b-5a9f-4788-aefb-480eee2a7e20
+name: AzSAP Reliability

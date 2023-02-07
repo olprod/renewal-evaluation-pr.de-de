@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: No business case or still working from high level estimates.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: B
+    text: In process of refining business case.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: Have a detailed business case that has been presented to executive sponsor.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+legacyId: '1'
+uid: b71babbf-1fc9-469b-ad77-6b18bbb3c806
+name: Have you created a business case based on your actual on-premises inventory and scope of migration project?

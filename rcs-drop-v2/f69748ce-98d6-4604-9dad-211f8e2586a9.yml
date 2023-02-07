@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not have a solid business strategy of pathway to take you to the cloud.
+    description: |
+      No solid business strategy of pathway to take you to the cloud.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is planning to document business strategy in a way that's both understandable to cloud technicians and palatable to your business stakeholders.
+    description: Documenting your business strategy in a way that's both understandable to cloud technicians and palatable to your business stakeholders.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has a vision and drafts a business strategy in a way that's both understandable to cloud technicians and palatable to your business stakeholders.
+    description: Has a vision and drafts a business strategy in a way that's both understandable to cloud technicians and palatable to your business stakeholders.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has a Business Strategy that  helps you drive adoption efforts that capture targeted business value in a cross-functional model.
+    description: ' Clarity and vision to help you drive adoption efforts that capture targeted business value in a cross-functional model'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization is optimized to take advantage of business strategies to reach your expected state of transformation.
+    description: Optimized to take advantage of business strategies to reach your expected state of transformation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have a solid business strategy to take you to the cloud?
+isRequired: true
+uid: f69748ce-98d6-4604-9dad-211f8e2586a9
+name: Do you have a solid business strategy to take you to the cloud?

@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 6a67e07b-05e6-441e-be71-c8fde047d765
+  - 479a3726-8b3e-4e0c-8a79-286121c629d5
+  - 7a7447d6-91fe-4c7b-9b28-e34d003c7260
+  - 4d6c9e24-1a0b-4f7a-92cc-deb1929551ac
+  - 6f45e807-2189-453e-8ebe-95e56091a341
+  - 14ff460c-1d3b-49e9-a3db-064775fd2db6
+  - 5f046cf6-f4a6-437d-bafe-b522a5e189fa
+recommendations:
+  - 5ea04d05-3be9-4cff-8d52-8e25d22b5244
+assignedGroupIds: []
+uid: 69ae7d8b-dd19-43a5-8979-29a2eb5e256f
+name: Synapse - Security

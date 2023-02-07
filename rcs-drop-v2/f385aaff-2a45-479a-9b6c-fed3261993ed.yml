@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 7de4a6ba-3de1-4bbd-9292-85ba273a9cf0
+recommendations:
+  - 7e4d86d1-6742-4fa2-9d2b-f06faf935763
+assignedGroupIds: []
+uid: f385aaff-2a45-479a-9b6c-fed3261993ed
+name: 'Go-Live - Kubernetes Service: Security'

@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'We run resource-intensive applications, such as ingress controllers, or workloads that require specialized hardware (such as large data processing workloads like machine learning (ML) or artificial intelligence (AI)).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: B
+    text: We provide dedicated nodes using taints and tolerations.
+    description: 'The Kubernetes Scheduler evaluates nodes in your AKS cluster that can run a given compute workload. Taints provide instructions to the scheduler to prevent inappropriate pods from running on tainted nodes. Tolerations identify pods that are suitable to be scheduled on a tainted node. When you create your AKS cluster, you can deploy nodes with GPU support or a large number of powerful CPUs. These nodes are often used for large data processing workloads such as machine learning (ML) or artificial intelligence (AI). As this type of hardware is typically an expensive node resource to deploy to may want to limit the workloads that can be scheduled on these nodes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: C
+    text: We control pod scheduling using node selectors and affinity.
+    description: 'Control the scheduling of pods on nodes using node selectors, node affinity, or inter-pod affinity. These settings allow the Kubernetes scheduler to logically isolate workloads, such as by hardware in the node. Unlike tolerations, pods without a matching node selector can be scheduled on labeled nodes. This behavior allows unused resources on the nodes to consume, but gives priority to pods that define the matching node selector. More flexibility is available using node affinity. With node affinity, you define what happens if the pod can''t be matched with a node.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for Azure Kubernetes Service. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Azure Kubernetes Service
+uid: 67dd3bc8-7e4e-4851-b585-e56149537914
+name: Please choose the applicable Well-Architected reliability considerations for Azure Kubernetes Service.

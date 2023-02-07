@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Total cost of ownership and benefits analysis
+hideEmptyGuidance: false
+questions:
+  - b71babbf-1fc9-469b-ad77-6b18bbb3c806
+recommendations:
+  - 0a2ea5f4-6daf-48c4-b5e3-a82603964f0b
+assignedGroupIds: []
+uid: tco
+name: Business case

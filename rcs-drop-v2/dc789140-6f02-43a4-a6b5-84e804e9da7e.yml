@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Perform regular DR and business continuity drills.
+    description: Are you testing your HA and DR processes to ensure your workload is available in the case of a disaster?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: B
+    text: Automate testing on database and SQL Server configuration deployments.
+    description: 'Automating tests is the best way to make sure that they are repeatable, comprehensive and exhaustive.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: C
+    text: Use manual testing when required.
+    description: 'Some database processes can''t be automated, how do you ensure those manual processes are still adequately tested?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: D
+    text: We use Visual Studio to enable database unit testing.
+    description: We perform SQL Server Database Unit Testing in our DevOps pipeline.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: testing-data-sqlvm
+uid: dc789140-6f02-43a4-a6b5-84e804e9da7e
+name: How are you testing your SQL Server infrastructure?

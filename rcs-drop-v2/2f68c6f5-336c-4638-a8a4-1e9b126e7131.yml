@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Strongly Disagree
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Somewhat Disagree
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Neither agree nor disagree
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: Somewhat agree
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: Strongly agree
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: The organisation has reporting tools to measure the actual return on investment for each application and platform adoption.
+isRequired: true
+uid: 2f68c6f5-336c-4638-a8a4-1e9b126e7131
+name: The organisation has reporting tools to measure the actual return on investment for each application and platform adoption.

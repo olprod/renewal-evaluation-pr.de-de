@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A Sales Order Processor user wants to sign into Dynamics 365 Business Central to view a new Role Center other than what is currently displayed.
+
+  This change must exist for all other Sales Order Processor users.
+
+  Where should you configure this change?
+questionnaireUid: 81d47dff-e26a-43b7-9fae-759a75ea8c61
+questions:
+  - uid: eadebfcf-2a0f-4da2-9ab8-ba1ac329dc0a-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A Sales Order Processor user wants to sign into Dynamics 365 Business Central to view a new Role Center other than what is currently displayed.
+        isCorrect: false
+      - id: 1
+        text: This change must exist for all other Sales Order Processor users.
+        isCorrect: false
+      - id: 2
+        text: Where should you configure this change?
+        isCorrect: false
+      - id: 3
+        text: Customized pages
+        isCorrect: true
+      - id: 4
+        text: Role Center page
+        isCorrect: false
+uid: eadebfcf-2a0f-4da2-9ab8-ba1ac329dc0a
+title: ''

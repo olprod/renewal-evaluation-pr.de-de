@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 0ccfb8c9-003b-49de-ab57-e56025c6ff7c
+recommendations:
+  - 1e013484-767b-4e92-ac41-ac914bdd85cf
+assignedGroupIds: []
+uid: 6cc0ca02-1971-4326-9725-baee82fafb3c
+name: 'Go-Live - Container Registry: Cost Optimization'

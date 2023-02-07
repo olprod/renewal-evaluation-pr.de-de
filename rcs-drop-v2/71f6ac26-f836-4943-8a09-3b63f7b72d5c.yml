@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Simulate attacks against critical impact accounts.
+    description: 'People are a critical part of your defense, especially your personnel with access to critical impact accounts. Ensuring these users (and ideally all users) have the knowledge and skills to avoid and resist attacks will reduce your overall organizational risk.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Establish a lifecycle management policy for critical impact accounts.
+    description: Ensure you have a process for disabling or deleting administrative accounts when admin personnel leave the organization (or leave administrative positions).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Appropriate emergency access accounts configured.
+    description: 'While rare, sometimes extreme circumstances arise where all normal means of administrative access are unavailable.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 71f6ac26-f836-4943-8a09-3b63f7b72d5c
+name: How are you ensuring your critical accounts are protected?

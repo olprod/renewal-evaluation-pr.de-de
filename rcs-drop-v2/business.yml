@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Migration drivers identified and organizational buy-in.
+hideEmptyGuidance: false
+questions:
+  - 504e6b13-a751-42b8-8799-7eeeeb2796e5
+  - fc654e16-99b3-4538-be88-acc27e9c2c70
+recommendations:
+  - 446ad137-fcf3-4ed6-b725-5698f996c571
+assignedGroupIds: []
+uid: business
+name: Business strategy

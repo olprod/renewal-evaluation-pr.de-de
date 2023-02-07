@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Gain a better sense of how well you maximize collaboration and productivity to achieve business goals faster.
+hideEmptyGuidance: false
+questions:
+  - 662de52b-7dfc-4834-bf65-9395c25a1bea
+  - f83d5d6b-5ad0-4962-a0dc-8e49da01d826
+recommendations:
+  - a216b662-e35d-47d1-b81e-c0dd9767f231
+assignedGroupIds: []
+uid: 2ebec64a-99d4-4c09-ad11-0aa5d743488e
+name: DevOps

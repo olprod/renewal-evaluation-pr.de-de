@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Description
+hideEmptyGuidance: false
+questions:
+  - e9af8610-436f-41d0-b922-efeb7ec7e6f2
+  - 1114281c-76a1-451a-a7e1-805d7f33410e
+  - 687d07e6-5bd0-44fa-8de5-7e6ac3d3c3e3
+  - 19c8ec9d-df4f-49fd-aade-dc4f5ad1a10a
+  - ab6ee93f-fefe-41cc-8d16-8b890b7afec3
+recommendations:
+  - 8a628bb7-aa7f-405d-91e5-c4fc967d6896
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: cff9b36d-3bc1-455e-ac87-8604c31cebdc
+name: Migration project planning

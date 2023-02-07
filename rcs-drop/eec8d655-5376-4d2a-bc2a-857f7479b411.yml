@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |+
+  A salesperson adds documents to a contact record by using the document management functionality in Dynamics 365 Sales.  
+
+  However, when the salesperson tries to add a document to a lead record, the functionality is not available.  
+
+  You need to enable functionality for documents to be stored on lead records. 
+
+  What should you do? 
+
+questionnaireUid: bfb4dd35-5fa0-4786-af9e-4bd8fcae4a8a
+questions:
+  - uid: eec8d655-5376-4d2a-bc2a-857f7479b411-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A salesperson adds documents to a contact record by using the document management functionality in Dynamics 365 Sales.
+        isCorrect: true
+      - id: 1
+        text: 'However, when the salesperson tries to add a document to a lead record, the functionality is not available.'
+        isCorrect: false
+      - id: 2
+        text: You need to enable functionality for documents to be stored on lead records.
+        isCorrect: false
+      - id: 3
+        text: What should you do?
+        isCorrect: false
+    manualId: mb-210.3.8
+uid: eec8d655-5376-4d2a-bc2a-857f7479b411
+title: ''
+manualId: ''

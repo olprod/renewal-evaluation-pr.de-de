@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Message size is close to the 4KB boundary.
+    description: "When sending small device-to-cloud messages, take into account the 4KB message size use to calculate the daily quota of the IoT Hub.\_Small messages can be combined into larger messages, always try to use a message size close to the 4KB boundary."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: You use AMQP message batching to combine small messages.
+    description: 'Use AMQP to connect devices to the cloud, and use AMQP message batching (provided by the Device SDK and IoT Hub / IoT Central) to combine smaller messages into larger ones. Increase the message batch size (number of messages that are combined into larger ones) for smaller messages.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: You use IoT Edge AMQP message batching.
+    description: Use AMQP to connect IoT Edge device to the cloud and the built-in message batching in IoT Edge to combine smaller messages into larger ones. Use the IoT Edge environment variables to configure the batch size.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: IoT Edge aggregates and analyzes data to limit the number of messages sent to the cloud.
+    description: You can use IoT Edge to aggregate and analyze data to limit the number of messages sent to the cloud.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: 'Depending on the device type, frequency of data change, protocol used, and application characteristics, devices can send small or larger messages to the IoT solution. Combining small messages into large messages can improve the performance and lower the overhead.'
+isRequired: false
+uid: ebad0909-e055-499e-bf36-f535f2cf15d8
+name: 'Depending on the device type, frequency of data change, protocol used, and application characteristics, devices can send small or larger messages to the IoT solution. Combining small messages into large messages can improve the performance and lower the overhead.'

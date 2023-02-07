@@ -1,0 +1,18 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'In this section we will assess and provide guidance to partner on pre-curated Microsoft resources which are useful during sales cycle with prospective customers. Resources ranging from Product decks, demos, product training videos and other useful artifacts.'
+hideEmptyGuidance: false
+questions:
+  - bcf90d37-e29b-4f07-895b-30525d6625f5
+  - 3789c7a2-a6dc-4518-820d-996f146ae844
+  - 84bf463f-a68b-4524-979e-493e6202bb7d
+  - a0f4b537-30f2-4c3b-87eb-399f2a1e2172
+  - fe9613b5-eaa9-4d6f-a001-81fd9972e39d
+  - 0888b4ea-da9d-4e51-9f37-ce5eccec3f83
+  - f9f5a3ed-216d-4225-9ec5-437c4c691bda
+recommendations:
+  - 941d07ff-26e2-45f9-b376-4514e47c0aa2
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: be8accec-580e-48fd-b9c8-2be032705376
+name: Curated Collateral & Resources for Partners

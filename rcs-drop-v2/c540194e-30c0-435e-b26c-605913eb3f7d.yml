@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have a project management office that takes care of that
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: We have a scrum of scrums
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: We give demo's to other teams that work on things that connect to our system
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: 'We have a portfolio board '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: We have an open office space so everyone is in the loop
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: We share our backlog on regular basis with other teams to keep them posted
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'Agile assumes the team has everything it needs to deliver an increment of work. Creating cross-functional teams with all the know-how and permissions to build, test, and deploy a product end-to-end with minimal interaction that cannot be achieved by the one team alone.'
+isRequired: true
+uid: c540194e-30c0-435e-b26c-605913eb3f7d
+name: Agile assumes the team has everything it needs to deliver an increment of work.

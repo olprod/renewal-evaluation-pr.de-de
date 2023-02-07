@@ -1,0 +1,39 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information to evaluate for our offering how to configure and manage co-sell offer
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We are aware of all requirements and criteria about this program
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Co-selling is any collaborative engagement between Microsoft and its partner ecosystem, including:
+
+  Building demand, Sales planning, Sharing sales leads, Accelerating partner-to-partner empowered selling, Delivering marketplace-led commerce
+
+  When you choose to co-sell an offer, you can work directly with Microsoft sales teams and Microsoft partners on joint selling opportunities. That unlocks benefits when selling through the commercial marketplace online stores: Azure Marketplace and the Microsoft commercial marketplace.
+isRequired: true
+uid: a5c28485-0be7-43c9-af80-01989f4c452f
+name: 'Co-selling is any collaborative engagement between Microsoft and its partner ecosystem, including:'

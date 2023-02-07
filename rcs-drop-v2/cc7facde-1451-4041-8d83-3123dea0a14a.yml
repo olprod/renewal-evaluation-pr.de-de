@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: H
+    text: Deploy Azure Databricks workspaces in multiple subscriptions to honor Azure Capacity Limits.
+    description: 'Key workspace capacity limits are maximum number of jobs that a workspace can create in an hour is 1000, not having more than 150 jobs simultaneously running in a workspace, maximum of 150 notebooks or execution contexts attached to a cluster, and maximum number secret scopes per workspace is 100.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: I
+    text: Consider Azure subscription limits for Azure Databricks AI deployments.
+    description: 'Key Azure limits are Storage accounts per region per subscription are 250, Maximum egress for general-purpose v2 and Blob storage accounts (all regions) are 50 Gbps, VMs per subscription per region are 25,000, and Resource groups per subscription are 980.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: J
+    text: Understand Azure Databricks relationship for accurate capacity planning for AI workloads.
+    description: The total capacity of clusters in each workspace is a function of the masks used for the workspace's enclosing Vnet and the pair of subnets associated with each cluster in the workspace. The masks can be changed if you use the Bring Your Own Vnet feature as it gives you more control over the networking layout.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: L
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'It''s critical to be aware of the systems that are in place, measures their performance, and evaluate patterns in usage to predict demand.'
+isRequired: false
+legacyId: '3'
+uid: cc7facde-1451-4041-8d83-3123dea0a14a
+name: 'It''s critical to be aware of the systems that are in place, measures their performance, and evaluate patterns in usage to predict demand.'

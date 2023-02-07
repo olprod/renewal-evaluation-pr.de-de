@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Have automated configuration and administration tasks.
+    description: Have you automated as many manual processes as you possibly can?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Monitor and update machine configurations using such tools as Azure Desired State Configuration.
+    description: Do you have a way to monitor and update your VM configuration? An example of this would be to use Azure Desired State Configuration to provide configuration management required for enterprise environments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: 'Do you have a patch management process that includes hot-fixes, services, packs, cumulative updates, etc.?'
+    description: 'Do you have a way to manage updates to your SQL VMs in Azure, on-premises, or in other cloud providers?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Using the SQL Server IaaS Agent extension.
+    description: 'The SQL Server IaaS Agent provides a number of benefits including SQL estate visibility across IaaS and PaaS, administration automation, and license manageability enhancements among others.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: cb4e475a-b160-4c2c-91dc-4eb66d2a77b6
+name: How are you managing the configuration of your SQL VMs?

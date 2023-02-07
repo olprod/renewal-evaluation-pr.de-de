@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Manually, through the Azure Portal.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Manually, through imperative tools like Azure PowerShell or Azure CLI.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Manually, via declarative Infrastructure-as-Code tools like ARM Template, Bicep, Terraform, etc.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Automatically, through a CI/CD pipeline, using imperative tools like Azure PowerShell or Azure CLI. Code is stored centrally in a Git repository.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Automatically, through a CI/CD pipeline, using Infrastructure-as-Code tools like ARM Template, Bicep, Terraform, etc. Code is stored centrally in a Git repository. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: false
+uid: 9c2f76b2-b283-40e5-a400-7988a5a1952b
+name: How do you manage and deploy changes to your Azure Landing Zone environment(s)?

@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Your devices can store the data in the event of intermittent connectivity errors for known duration of time
+    description: 'Devices can have intermittent connectivity issues. However, in many of the IoT solution, the data still need to be transmitted when connectivity is restored. To handle these types of issues, it is important to persist data locally on the device/edge until the connectivity is restored and data can be transmitted to the cloud.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: Your device is an IoT Edge device and uses IoT Edge store and forward capabilities
+    description: 'Azure IoT Edge supports extended offline operations on your IoT Edge devices and enables offline operations on child devices. As long as an IoT Edge device has had one opportunity to connect to IoT Hub, that device and any child devices can continue to function with intermittent or no internet connectivity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'In the case of connectivity issues, your devices should be able to store messages until they receive an acknowledgement from thethe IoT hub.'
+isRequired: false
+uid: 545de1f8-bfe9-4552-a371-d33646327e71
+name: 'In the case of connectivity issues, your devices should be able to store messages until they receive an acknowledgement from thethe IoT hub. Q13.'

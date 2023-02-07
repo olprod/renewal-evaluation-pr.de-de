@@ -1,0 +1,121 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Error budgets used to track service reliability.
+    description: 'An error budget describes the maximum amount of time that the application can fail without consequence, and is typically calculated as 1-Service Level Agreement (SLA). For example, if the SLA specifies that the application will function 99.99% of the time before the business has to compensate customers, the error budget is 52 minutes and 35 seconds per year.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: B
+    text: There is a policy that governs what happens when the error budget is exhausted.
+    description: 'If the application error budget has been met or exceeded and the application is operating at or below the defined Service Level Agreement (SLA), a policy may stipulate that all deployments are frozen until they reduce the number of errors to a level that allows deployments to proceed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: C
+    text: Availability targets such as Service Level Agreements (SLAs) and Service Level Objectives (SLOs) have been set.
+    description: Have availability targets been defined for the application and key scenarios? and are targets considered whilst the system is running in a recovery mode?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: The life-cycle of the application is decoupled from its dependencies.
+    description: 'If the application life-cycle is closely coupled with that of its dependencies it can limit the operational agility of the application, particularly where new releases are concerned.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: E
+    text: Application logs are correlated across components.
+    description: Are application logs correlated across components to ensure end-to-end system flows and component dependencies are monitored?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: F
+    text: The application is instrumented with semantic logs and metrics.
+    description: Is the application instrumented with semantic logs and metrics using APM technologies such as Application Insights?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: G
+    text: Validated required capacity is within Azure service scale limits and quotas.
+    description: 'Is the required capacity, both initial and future growth, within Azure service scale limits and quotas?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: H
+    text: Calculated target data sizes and associated growth rates per scenario and component.
+    description: Scale limits and recovery options should be assessed in the context of target data sizes and growth rates to ensure suitable capacity exists.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: I
+    text: Operational procedures are defined in case data sizes exceed limits.
+    description: Mitigation plans such as purging or archiving data can help the application to remain available in scenarios where data size exceeds expected limits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: J
+    text: Tested and validated defined latency and throughput targets per scenario and component.
+    description: 'Throughput targets, which are commonly defined in terms of IOPS, MB/s and Block Size, should be defined and measured for key application scenarios, as well as each individual component, to validate overall application performance and health. Available throughput typically varies based on SKU, so defined targets should be used to inform the use of appropriate SKUs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: K
+    text: Autoscaling is enabled for application components and integrated with Azure Monitor.
+    description: Autoscaling can be leveraged to address unanticipated peak loads to help prevent application outages caused by overloading.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: L
+    text: Defined a disaster recovery strategy to capture recovery steps for failover and failback.
+    description: 'A disaster recovery strategy should capture how the application responds to a disaster situation such as a regional outage or the loss of a critical platform service, using either a re-deployment, warm-spare active-passive, or hot-spare active-active approach. To drive cost down consider splitting application components and data into groups. For example: 1) must protect, 2) nice to protect, 3) ephemeral/can be rebuilt/lost, instead of protecting all data with the same policy.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: M
+    text: Keys and secrets are backed-up to geo-redundant storage.
+    description: Keys and secrets must still be available in a failover case.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: 'N'
+    text: Application can be automatically deployed to a new region without any manual operations to recover from disaster scenarios.
+    description: Can the application be deployed automatically from scratch without any manual operations?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: O
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: ''
+isRequired: false
+legacyId: reliability-tradeoffs
+uid: aed34592-dda9-430c-b9bd-cadb1776e932
+name: What operational excellence allowances for reliability have you made?

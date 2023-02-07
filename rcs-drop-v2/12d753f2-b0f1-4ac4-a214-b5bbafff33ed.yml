@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You're using Device Update for Azure IoT Hub to manage updates to final devices.
+    description: Device Update for Azure IoT Hub is a service that enables you to deploy over-the-air updates to your IoT devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: You've implemented CI/CD pipelines for Azure IoT Edge to deploy new image containers to Azure IoT Edge devices.
+    description: You can adopt DevOps using the built-in Azure IoT Edge tasks in Azure Pipelines.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: You use automatic and layered deployment to help you manage and configure modules on large numbers of Azure IoT Edge devices.
+    description: Use automatic deployments and layered deployment to manage and configure modules on large numbers of Azure IoT Edge devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: You've implemented a custom update mechanism after reviewing the device management pattern samples.
+    description: It's possible to implement your own custom update mechanism using pattern samples.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Distributing software updates to devices is a task that requires planning and a defined process.
+isRequired: false
+uid: 12d753f2-b0f1-4ac4-a214-b5bbafff33ed
+name: Distributing software updates to devices is a task that requires planning and a defined process. Q13.

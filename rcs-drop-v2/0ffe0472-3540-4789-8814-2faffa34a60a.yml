@@ -1,0 +1,138 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Review platform and service updates regularly and upgrade to more efficient services as they become available.
+    url: /azure/architecture/framework/sustainability/sustainability-application-platform#review-platform-and-service-updates-regularly
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.62168ec6-9492-4eb2-8f89-4616ef0177a2.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Enable cluster and node auto-updates.
+    url: /azure/aks/concepts-sustainable-software-engineering#enable-cluster-and-node-auto-updates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.62168ec6-9492-4eb2-8f89-4616ef0177a2.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Install supported add-ons and extensions.
+    url: /azure/aks/concepts-sustainable-software-engineering#install-supported-add-ons-and-extensions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.62168ec6-9492-4eb2-8f89-4616ef0177a2.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Deploy to low-carbon regions to improve carbon efficiency.
+    url: /azure/architecture/framework/sustainability/sustainability-application-platform#deploy-to-low-carbon-regions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.5d0a071a-3fd0-468c-958d-5f1e35e374ea.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Process when the carbon intensity is low.
+    url: /azure/architecture/framework/sustainability/sustainability-application-platform#process-when-the-carbon-intensity-is-low
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.5d0a071a-3fd0-468c-958d-5f1e35e374ea.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Run batch workloads during low-carbon intensity periods.
+    url: /azure/architecture/framework/sustainability/sustainability-application-platform#run-batch-workloads-during-low-carbon-intensity-periods
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.5d0a071a-3fd0-468c-958d-5f1e35e374ea.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Containerize your workload where applicable.
+    url: /azure/aks/concepts-sustainable-software-engineering#containerize-your-workload-where-applicable
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.2a99aca3-4f88-4ffb-867f-72f9e0a3dd6d.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Use spot node pools when possible.
+    url: /azure/aks/concepts-sustainable-software-engineering#use-spot-node-pools-when-possible
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.2a99aca3-4f88-4ffb-867f-72f9e0a3dd6d.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Turn off workloads and node pools outside of business hours.
+    url: /azure/aks/concepts-sustainable-software-engineering#turn-off-workloads-and-node-pools-outside-of-business-hours
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.b9352555-b057-4ba4-966b-6b812b71db95.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Match the scalability needs and utilize auto-scaling and bursting capabilities.
+    url: /azure/aks/concepts-sustainable-software-engineering#match-the-scalability-needs-and-utilize-auto-scaling-and-bursting-capabilities
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.b9352555-b057-4ba4-966b-6b812b71db95.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+  - title: Evaluate if the Ampere Altra Arm-based processors for virtual machines is a good option for your workload.
+    url: /azure/architecture/framework/sustainability/sustainability-application-platform#evaluate-ampere-altra-arm-based-processors-for-virtual-machines
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca1108b0-836e-49b2-9e8f-6c7b4d5f605b.b9352555-b057-4ba4-966b-6b812b71db95.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Application platform
+    reportingSubCategory: ''
+uid: 0ffe0472-3540-4789-8814-2faffa34a60a
+name: ''

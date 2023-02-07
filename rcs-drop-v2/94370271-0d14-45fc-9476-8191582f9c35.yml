@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Guide to Develop a cloud adoption strategy
+    url: 'https://aka.ms/developervelocity-cta-productmanagement-low'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - de0257c9-1706-41ac-b485-b8b2e8386efc<34
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Product Management - Business outcome template
+    url: 'https://aka.ms/developervelocity-cta-productmanagement-med'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - de0257c9-1706-41ac-b485-b8b2e8386efc<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Build a cost-conscious organization
+    url: 'https://aka.ms/developervelocity-cta-orgagility-med'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - de0257c9-1706-41ac-b485-b8b2e8386efc<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Guide to Develop a cloud adoption strategy
+    url: 'https://aka.ms/developervelocity-cta-productmanagement-high'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - de0257c9-1706-41ac-b485-b8b2e8386efc>66
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Build a cost-conscious organization
+    url: 'https://aka.ms/developervelocity-cta-orgagility-high'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - de0257c9-1706-41ac-b485-b8b2e8386efc>66
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 94370271-0d14-45fc-9476-8191582f9c35
+name: Management Practices

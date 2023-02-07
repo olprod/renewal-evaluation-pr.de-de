@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've established DevOps processes and procedures to be able to achieve repeatable automated deployments.
+    description: Automation helps drive consistency and greater control over deployment.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: You do manual deployments.
+    description: Automatic deployments and layered deployment help you manage and configure modules on large numbers of Azure IoT Edge devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: A repeatable process to deploy and configure your device or Azure IoT Edge minimizes any inconsistencies in how agents are deployed to devices and helps to deliver a more reliable end-to-end IoT solution. Automation and DevOps are essential to ensure that OS and software for IoT devices and gateways are properly uploaded and deployed to minimize any operational downtime.
+isRequired: false
+uid: a9ed522d-c63f-4ac3-8fe4-de4be8fe1159
+name: A repeatable process to deploy and configure your device or Azure IoT Edge minimizes any inconsistencies in how agents are deployed to devices and helps to deliver a more reliable end-to-end IoT solution. Automation and DevOps are essential to ensure that OS and software for IoT devices and gateways are properly uploaded and deployed to minimize any operational downtime.

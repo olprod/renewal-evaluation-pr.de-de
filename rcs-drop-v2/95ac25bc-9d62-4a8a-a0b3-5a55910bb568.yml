@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics Apache Spark Pool Auto Scaling Feature.
+    description: Apache Spark for Azure Synapse Analytics pool's Autoscale feature automatically scales the number of nodes in a cluster instance up and down.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Use Azure Synapse Analytics Serverless SQL Pool.
+    description: Serverless SQL pool auto-scaling feature auto-scales depending on the amount of data being queried.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Manage compute for Azure Synapse Analytics Dedicated SQL Pool.
+    description: You can increase or decrease compute resources by adjusting data warehouse units.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: design-data-synapse
+uid: 95ac25bc-9d62-4a8a-a0b3-5a55910bb568
+name: How are you designing your workload to scale?

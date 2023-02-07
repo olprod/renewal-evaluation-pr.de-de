@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our team is looking for excellent capabilities to support complex queries directly on files.
+    description: "Databricks supports\_complex queries directly on files with all-purpose clusters that can be shared by multiple users and are best for performing ad hoc analysis, data exploration, or development.\_"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: Our team is looking for familiar T-SQL language and tools to analyse data.
+    description: Use Serverless SQL pool to run T-SQL code against data in a data lake to query and analyse data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do advanced analysts need to explore data with ad hoc queries without adhering to certain SLAs?
+isRequired: true
+uid: 3336b2fa-2005-45be-a4fd-a834cf5e7006
+name: Do advanced analysts need to explore data with ad hoc queries without adhering to certain SLAs?

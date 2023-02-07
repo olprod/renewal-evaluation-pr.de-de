@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Choose the appropriate file sizes.
+    description: 'For scenarios with the highest performance requirements, dive preference to a small number of bigger files, instead of a high number of smaller files, as there is an inherent performance overhead for every file that needs to be accessed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Make sure your data is time partitioned (yyyy/MM/dd) inside your folders to easily filter out the data for time-bound analytics scenarios.
+    description: 'Time partitioning is a common approach, but you can also use other elements: country, business line, and so on.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: 'To enhance your query performance and speed up data retrieval, prefer highly denormalized schemas instead of normalized ones.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: 'Leverage machine-readable binary formats for maximizing performance, considering the following choices: favor column-oriented formats like Parquet or ORC for read-intensive analytical workloads, and prefer row-oriented formats like Avro for write-intensive and row-based querying workloads (e.g., IoT, Data Streaming).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: fa0d88f6-a462-465b-979a-1c6ac9c4e514
+name: How are you managing your data to handle scale?

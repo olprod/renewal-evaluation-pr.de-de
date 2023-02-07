@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are a Dynamics 365 Marketing functional consultant.
+   
+  Your organization wants to conduct a survey to gather feedback from the general public about a new service offered. 
+
+  You create the survey, and it is now ready to be sent.
+   
+  How should you share the survey to collect as many responses as possible?
+questionnaireUid: 103c5015-1976-440d-af13-ee0688b80c83
+questions:
+  - uid: ff86e1bb-9c95-408e-8fa9-b962ccb9d635-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are a Dynamics 365 Marketing functional consultant.
+        isCorrect: false
+      - id: 1
+        text: Your organization wants to conduct a survey to gather feedback from the general public about a new service offered.
+        isCorrect: false
+      - id: 2
+        text: 'You create the survey, and it is now ready to be sent. '
+        isCorrect: true
+      - id: 3
+        text: How should you share the survey to collect as many responses as possible?
+        isCorrect: false
+uid: ff86e1bb-9c95-408e-8fa9-b962ccb9d635
+title: ''

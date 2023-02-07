@@ -1,0 +1,58 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: core
+    text: Core Well-Architected Review
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: ai
+    text: Azure Machine Learning
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: iot
+    text: Internet of Things
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: sap
+    text: SAP On Azure (Preview)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: analytics
+    text: Analytics
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: stackhub
+    text: Azure Stack Hub (Preview)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Select an option below. For the Data Services assessment, see Data Services | Well-Architected Assessment in the Assessments Portal.'
+isRequired: true
+legacyId: waf-scenario
+uid: 3384865b-a473-45c1-a259-be456dfa7a31
+name: Select an option below.

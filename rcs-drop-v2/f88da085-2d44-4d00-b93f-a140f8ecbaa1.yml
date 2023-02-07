@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Azure network costs associated with inter-regional data transfer are estimated and understood.
+    description: 'Moving data between regions can add additional cost - both on the storage layer and networking layer. It''s worth reviewing if this cost is justified or can be replaced via re-architecture or justified due to e.g. disaster recovery (DR). If applications or services are exchanging data between regions, extra cost is typically accrued.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Azure network costs associated with Vnet-to-Vnet data transfer are estimated and understood.
+    description: Moving data between Vnets can add additional cost - both on the storage layer and networking layer. It's worth reviewing if this cost is justified or can be replaced via re-architecture or justified.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: The SAP workload is designed to use Availability Zones within a region.
+    description: 'Availability Zones can be used to optimise application availability within a region by providing data-center level fault tolerance. However, the application architecture must not share dependencies between zones to use them effectively. It is also important to note that Availability Zones may introduce performance and cost considerations for applications which are extremely ''chatty'' across zones given the implied physical separation between each zone and inter-zone bandwidth charges. That also means that AZ can be considered to get higher SLA for lower cost. Be aware of pricing changes coming to Availability Zone bandwidth starting February 2021.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: 'Difference between Vnet peering, Global Vnet peering, GlobalReach documented and understood.'
+    description: 'Global VNet Peering: Connecting VNets across Azure regions. Ability for resources in one virtual network to communicate with resources in a different virtual network. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: What actions are you taking to optimize cloud costs?
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4ICH5'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: Continue to monitor and optimize the workload by using the right resources and sizes.
+isRequired: false
+uid: f88da085-2d44-4d00-b93f-a140f8ecbaa1
+name: Continue to monitor and optimize the workload by using the right resources and sizes.

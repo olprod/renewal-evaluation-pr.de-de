@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Enable database authentication by using Azure AD • Enable database auditing • Configure dynamic masking on SQL workloads • Implement database encryption for Azure SQL Database • Implement network isolation for data solutions, including Azure Synapse Analytics and Azure Cosmos DB'
+isRequired: true
+uid: d90750bd-1d73-4b0e-93c1-6bc8bd44a82b
+name: 'For example: Enable database authentication by using Azure AD • Enable database auditing • Configure dynamic masking on SQL workloads • Implement database encryption for Azure SQL Database • Implement network isolation for data solutions, including Azure Synapse Analytics and Azure Cosmos DB '

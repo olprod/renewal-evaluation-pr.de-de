@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We work dedicated on one product
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: We have a couple of things we work on
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: We have dozens of products we work on
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Too many to count
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'Driving too many projects at once leads to a decrease in lower teams morale. The more the resources are stretched thin, the more time they will spend "context switching" between the projects, greatly affecting their productivity. '
+isRequired: true
+uid: efd6ad4b-72d7-47c1-83d6-53a5e5692ae5
+name: Driving too many projects at once leads to a decrease in lower teams morale.

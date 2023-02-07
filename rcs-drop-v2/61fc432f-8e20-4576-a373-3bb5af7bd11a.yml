@@ -1,0 +1,60 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have a good understanding of the SLAs offered by our VM deployments.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: 'Where VM Scale Sets are used, we use flexible scale sets by using Flexible Orchestration mode to future proof our applications for scaling and availability.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: We use availability zones for our VM deployment.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Applications are installed on data-disks.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'For controlling the time of VM maintenance and to manage timing of system restarts, we use maintenance control.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.vm
+stem: ''
+isRequired: false
+uid: 61fc432f-8e20-4576-a373-3bb5af7bd11a
+name: Is everything in place to offer the required availability or SLA for a seamless experience for VMs?

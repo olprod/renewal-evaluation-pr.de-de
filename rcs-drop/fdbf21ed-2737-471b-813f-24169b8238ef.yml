@@ -1,0 +1,23 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to set the default privacy level for a SharePoint site to Private.
+
+  Which should you use?
+questionnaireUid: a498b8a3-8c7c-48e4-86b2-ade97f7a73a0
+questions:
+  - uid: fdbf21ed-2737-471b-813f-24169b8238ef-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You need to set the default privacy level for a SharePoint site to Private.
+        isCorrect: true
+      - id: 1
+        text: Which should you use?
+        isCorrect: false
+      - id: 2
+        text: a sensitivity label
+        isCorrect: false
+uid: fdbf21ed-2737-471b-813f-24169b8238ef
+title: ''

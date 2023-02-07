@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no means to manage full machine learning model lifecycle.
+    description: Your organization has no means to manage full machine learning model lifecycle.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has limited capabilities to release models but rely heavily on manual processes and limited traceability on model performance.
+    description: Your organization has limited capabilities to release models but rely heavily on manual processes and limited traceability on model performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization builds, deploys and manages in a fully managed and traceable fashion along with easily reproducible models.'
+    description: 'Your organization builds, deploys and manages in a fully managed and traceable fashion along with easily reproducible models.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization manages machine learning model lifecycle with confidence and in entirety using automation. '
+    description: 'Your organization manages machine learning model lifecycle with confidence and in entirety using automation. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization leverages full automation and monitoring for improving existing models and building and deploying new models.
+    description: Your organization leverages full automation and monitoring for improving existing models and building and deploying new models.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'How do you currently build, deploy, and manage high-quality models faster and with confidence?'
+isRequired: true
+uid: ba2d5c59-9696-42cc-8ad4-a6c3a4e492af
+name: 'How do you currently build, deploy, and manage high-quality models faster and with confidence?'

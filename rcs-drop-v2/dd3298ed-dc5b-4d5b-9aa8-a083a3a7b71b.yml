@@ -1,0 +1,195 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Use Azure Databricks guidelines around Networking, Security, and Capacity Planning.'
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#scalable-Azure Databricks-deployments-guidelines-for-networking-security-and-capacity-planning'
+    condition:
+      noneOf:
+        - Performance-ai-adb.a7d74c8a-13c7-40d4-a1f4-6acb02fda411.M
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Databricks Interactive / Development AI Workloads. '
+    url: /azure/databricks/clusters/configure#autoscaling
+    condition:
+      noneOf:
+        - Performance-ai-adb.a7d74c8a-13c7-40d4-a1f4-6acb02fda411.N
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Follow Azure Databricks AI design patterns. '
+    url: /azure/cloud-adoption-framework/decision-guides/subscriptions/
+    condition:
+      noneOf:
+        - Performance-ai-adb.a7d74c8a-13c7-40d4-a1f4-6acb02fda411.O
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Databricks guidelines for Selecting, Sizing, and Optimizing Clusters Performance-ai-adb. '
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#deploying-applications-on-Azure Databricks-guidelines-for-selecting-sizing-and-optimizing-clusters-performance'
+    condition:
+      noneOf:
+        - Performance-ai-adb.2f031b10-4f79-475b-b221-f3bd33db0e37.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Follow Azure Databricks inference performance tuning guide.
+    url: /azure/databricks/applications/machine-learning/model-inference/model-inference-performance
+    condition:
+      noneOf:
+        - Performance-ai-adb.2f031b10-4f79-475b-b221-f3bd33db0e37.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks model reduction to a trivial model and measure the examples per second.
+    url: /azure/databricks/applications/machine-learning/model-inference/model-inference-performance
+    condition:
+      noneOf:
+        - Performance-ai-adb.2f031b10-4f79-475b-b221-f3bd33db0e37.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Control model performance in Azure Databricks.
+    url: /azure/databricks/applications/machine-learning/model-inference/model-inference-performance
+    condition:
+      noneOf:
+        - Performance-ai-adb.2f031b10-4f79-475b-b221-f3bd33db0e37.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Track Azure Databricks ML experiments with MLflow and Azure Machine Learning to improve model performance.
+    url: /azure/machine-learning/how-to-use-mlflow-azure-databricks
+    condition:
+      noneOf:
+        - Performance-ai-adb.2f031b10-4f79-475b-b221-f3bd33db0e37.Q
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks Shared High Concurrency Clusters on AI workloads.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#support-interactive-analytics-using-shared-high-concurrency-clusters'
+    condition:
+      noneOf:
+        - Performance-ai-adb.08701322-7337-44d1-b619-b4665e59c8b8.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Petastorm within Azure Databricks AI loads. '
+    url: /azure/databricks/applications/machine-learning/load-data/petastorm
+    condition:
+      noneOf:
+        - Performance-ai-adb.08701322-7337-44d1-b619-b4665e59c8b8.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use TFRecord format as the data source for distributed deep learning in Azure Databricks.
+    url: /azure/databricks/applications/machine-learning/load-data/ddl-data#tfrecord
+    condition:
+      noneOf:
+        - Performance-ai-adb.08701322-7337-44d1-b619-b4665e59c8b8.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy Azure Databricks workspaces in multiple subscriptions to honor Azure Capacity Limits
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#databricks-workspace-limits'
+    condition:
+      noneOf:
+        - Performance-ai-adb.cc7facde-1451-4041-8d83-3123dea0a14a.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure subscribtion limits for Azure Databricks AI deployments.
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      noneOf:
+        - Performance-ai-adb.cc7facde-1451-4041-8d83-3123dea0a14a.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Understand Azure Databricks relationship for accurate capacity planning for AI workloads. '
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#select-the-largest-vnet-cidr'
+    condition:
+      noneOf:
+        - Performance-ai-adb.cc7facde-1451-4041-8d83-3123dea0a14a.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize read performance from JDBC data sources in Azure Databricks
+    url: /azure/databricks/data/data-sources/sql-databases#determine-whether-the-jdbc-unload-is-occurring-in-parallel
+    condition:
+      noneOf:
+        - Performance-ai-adb.387c1a15-e8ed-44f8-8b8b-9e1649957389.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize performance with caching for AI workloads in Azure Databricks.
+    url: /azure/databricks/delta/optimizations/delta-cache
+    condition:
+      noneOf:
+        - Performance-ai-adb.387c1a15-e8ed-44f8-8b8b-9e1649957389.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimized data transformation in Azure Databricks for AI workloads.
+    url: /azure/databricks/delta/data-transformation/
+    condition:
+      noneOf:
+        - Performance-ai-adb.387c1a15-e8ed-44f8-8b8b-9e1649957389.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks GPU clusters to optimize the running speed for model inference and data at scale
+    url: /azure/databricks/applications/machine-learning/model-inference/model-inference-performance
+    condition:
+      noneOf:
+        - Performance-ai-adb.387c1a15-e8ed-44f8-8b8b-9e1649957389.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks Cluster tags.
+    url: /azure/databricks/administration-guide/account-settings/usage-detail-tags-azure
+    condition:
+      noneOf:
+        - Performance-ai-adb.f56a2a81-0137-4400-99b2-da8d368eaa97.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor your Azure Databricks AI apps.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#running-Azure Databricks-applications-smoothly-guidelines-on-observability-and-monitoring'
+    condition:
+      noneOf:
+        - Performance-ai-adb.f56a2a81-0137-4400-99b2-da8d368eaa97.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor resource utilization metrics across Azure Databricks cluster in a Log Analytics workspace.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#collect-resource-utilization-metrics-across-azure-databricks-cluster-in-a-log-analytics-workspace'
+    condition:
+      noneOf:
+        - Performance-ai-adb.f56a2a81-0137-4400-99b2-da8d368eaa97.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: dd3298ed-dc5b-4d5b-9aa8-a083a3a7b71b
+name: ''

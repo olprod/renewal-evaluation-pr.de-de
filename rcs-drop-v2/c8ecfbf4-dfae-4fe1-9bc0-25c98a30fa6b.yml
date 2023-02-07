@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Do you treat your SQL MI infrastructure as if it was code.
+    description: 'Infrastructure as Code is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Are Azure Resource Tags used to enrich database resources with operational metadata and SQL MI resources are named in a consistent fashion?
+    description: 'Organizing cloud-based assets in ways that aid operational management and support accounting requirements is a common challenge that faces large cloud adoption efforts - Azure Tags provide the ability to associate critical metadata as a name-value pair, such as billing information (e.g. cost center code), environment information (e.g. environment type), with Azure database resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: 'Do you isolate your SQL MI instances deployment if needed. '
+    description: SQL Managed Instance relies on virtual clusters which represents a dedicated set of isolated virtual machines deployed inside the customer's virtual network subnet.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: Is SQL MI Vnet planned correctly.
+    description: It's important to plan VNet related elements before SQL MI deployment to avoid future problems in networking area
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: Are you aware of your resource limits in Azure?
+    description: Tools like Azure Resource Manager and Azure Policy can enforces limits and quotas on the SQL MI resources(tiers) you can provision.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Understand database services and components that need to be highly available and have an appropriate deployment strategy.
+    description: A critical service that depends on a single instance of a database service creates a single point of failure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Are any routine operational changes performed outside of IaC (Infrastructure as Code)?
+    description: No routine operational changes should be performed outside of infrastructure as code like through the Azure Portal.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: 'How do you track and address configuration drift? '
+    description: 'Configuration drift is tracked and addressed by using tools like Terraform,Bamboo, Jenkins, Azure DevOps'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: deployment-data-sqlmi
+uid: c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b
+name: What considerations are you making around the deployment of your infrastructure?

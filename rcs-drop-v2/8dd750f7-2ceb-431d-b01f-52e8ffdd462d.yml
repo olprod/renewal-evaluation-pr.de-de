@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '1'
+    text: 'We have configured the data to the appropriate geo-distribution settings (to replicate the data to the appropriate regions) of our Cosmos DB account based on the workload pattern and user experience requirements (dev, test, production, availability and recovery requirements).'
+    description: 'Optimizing geo-distribution configuration can help maximize resources, eliminating any wasted costs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 21
+  - id: '3'
+    text: We have considered leveraging a secondary region for query and read operations so as to not create unnecessary contention with more important write heavy workload on primary region.
+    description: 'When you have a write-heavy workload, the ability to utilize your RUs will be consumed by your incoming data. Use a secondary, read-only region to better service your read requests and offload IO from your primary region.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '4'
+    text: We have considered configuring zone redundancy when high availability is required for disaster recovery (and geo-replication is not turned on).
+    description: 'When you keep a workload to a single region, you gain many things: reduced costs, simplified support, simplified deployments, and you still have three backups to your primary.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '5'
+    text: We utilize Azure Monitor to understand usage and consumption metrics to help identify and optimize cost and/or performance.
+    description: 'When you monitor consumption, you better understand end users and their needs. In turn, you can build a better application, support your end users proactively, and reduce costs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '7'
+    text: We are aware and are leveraging the feature to limit the total throughput provisioned on our Azure Cosmos DB account.
+    description: 'When creating a new Azure Cosmos DB account from the portal, you have the option to limit the account''s total throughput.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'Assess your the geo-distribution, monitoring needs for your workload based on the requirements of your business and user experience to optimize your RU consumption.'
+isRequired: false
+uid: 8dd750f7-2ceb-431d-b01f-52e8ffdd462d
+name: 'Assess your the geo-distribution, monitoring needs for your workload based on the requirements of your business and user experience to optimize your RU consumption.'

@@ -1,0 +1,35 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have an Azure subscription.
+
+  You plan to run a data warehouse in an Azure virtual machine named VM1.
+
+  You need to ensure that VM1 is optimized for running a data warehouse.
+
+  Which VM type should you use for VM1?
+questionnaireUid: 5e5934cd-e16c-477c-b7d6-452a3a76fd6b
+questions:
+  - uid: e8155598-c334-4e1a-b62d-092c810810e1-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have an Azure subscription.
+        isCorrect: false
+      - id: 1
+        text: You plan to run a data warehouse in an Azure virtual machine named VM1.
+        isCorrect: false
+      - id: 2
+        text: You need to ensure that VM1 is optimized for running a data warehouse.
+        isCorrect: false
+      - id: 3
+        text: Which VM type should you use for VM1?
+        isCorrect: true
+      - id: 4
+        text: General purpose (D-Series)
+        isCorrect: false
+    manualId: az-104.7.5
+uid: e8155598-c334-4e1a-b62d-092c810810e1
+title: ''
+manualId: ''

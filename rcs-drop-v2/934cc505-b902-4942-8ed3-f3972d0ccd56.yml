@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Co-sell with Microsoft sales teams and partners overview
+    url: 'https://learn.microsoft.com/en-us/partner-center/co-sell-overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 86245522-b8e7-482e-a5ad-ea53edb0918d.c611cc20-d983-4d51-aa8d-4207568b5ba8.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage co-sell opportunities in Partner Center
+    url: 'https://learn.microsoft.com/en-us/partner-center/manage-co-sell-opportunities'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 86245522-b8e7-482e-a5ad-ea53edb0918d.8f0a4437-68b2-4893-b844-30ca024d33e6.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Microsoft Partner Sales Bootcamp Series - Sales Training for Business Applications
+    url: 'https://info.microsoft.com/US-NoGEP-VDEO-FY23-08Aug-24-Microsoft-Partner-Sales-Bootcamp-Series-Sales-Training-for-Business-Applications-SRGCM7620_LP01-Registration---Form-in-Body.html'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 86245522-b8e7-482e-a5ad-ea53edb0918d.8ff68b5d-b186-4ab1-b422-061aacf5e613.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Sell with Microsoft (Strategize, Scale & CoSell)'
+    url: 'https://partner.microsoft.com/en-rs/partnership/sell-with-microsoft#tab-1'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 86245522-b8e7-482e-a5ad-ea53edb0918d.1f2e740c-d9ba-4926-b565-eec17044c5c6.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Investments and incentives for Partners
+    url: 'https://partner.microsoft.com/en-rs/partnership/partner-incentives'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 86245522-b8e7-482e-a5ad-ea53edb0918d.ef1a6f56-b4a2-4386-8105-3dfa8fc19fd3.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 934cc505-b902-4942-8ed3-f3972d0ccd56
+name: ''

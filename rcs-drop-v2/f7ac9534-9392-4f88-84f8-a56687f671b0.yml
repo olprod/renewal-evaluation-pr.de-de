@@ -1,0 +1,798 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Create additional Cloud Admin accounts on the PEP
+    url: /azure-stack/operator/azure-stack-manage-basics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.7c82847a-eb9e-409d-ba16-525a4543fea6.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use groups for identity and access management (IAM) permissions
+    url: /azure-stack/operator/azure-stack-identity-overview#users-and-groups
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.7c82847a-eb9e-409d-ba16-525a4543fea6.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable Multi-Factor Authentication (MFA) for Admin accounts
+    url: /azure/active-directory/authentication/howto-mfa-userstates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.7c82847a-eb9e-409d-ba16-525a4543fea6.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable recommended Security Defaults in Azure AD
+    url: /azure/active-directory/fundamentals/concept-fundamentals-security-defaults
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.7c82847a-eb9e-409d-ba16-525a4543fea6.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enforce Transport Layer Security (TLS) version 1.2 to increase security
+    url: /azure-stack/operator/azure-stack-security-configuration#tls-version-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.7c82847a-eb9e-409d-ba16-525a4543fea6.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create additional Cloud Admin accounts on the PEP
+    url: '/azure-stack/operator/azure-stack-manage-basics#:~:text=it%20is%20highly%20recommended%20that%20you%20create%20additional%20cloudadmin%20accounts'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f6f7a18b-fb60-40bc-bdec-59f93a9f39ba.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Service Principals for automation and DevOps
+    url: /azure-stack/operator/give-app-access-to-resources?&tabs=az1%2Caz2&pivots=state-disconnected
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f6f7a18b-fb60-40bc-bdec-59f93a9f39ba.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use groups for identity and access management (IAM) permissions
+    url: /azure-stack/operator/azure-stack-identity-overview?view=azs-2108#users-and-groups
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f6f7a18b-fb60-40bc-bdec-59f93a9f39ba.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor usage of the Service Admin Owner AD account
+    url: '/azure-stack/operator/azure-stack-integrate-identity#:~:text=following%20command%20to-,update%20the%20owner%20of%20the%20default%20provider%20subscription'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f6f7a18b-fb60-40bc-bdec-59f93a9f39ba.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Update Windows Defender signatures regularly in air-gapped environments
+    url: /azure-stack/operator/azure-stack-security-av#disconnected-scenario
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f6f7a18b-fb60-40bc-bdec-59f93a9f39ba.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure the ADFS Metadata endpoint or XML file is configured on the PEP
+    url: /azure-stack/operator/azure-stack-integrate-identity#setting-up-ad-fs-integration-by-downloading-federation-metadata
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f6f7a18b-fb60-40bc-bdec-59f93a9f39ba.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure ADFS 'AutoCertificateRollover' for automatic certificate management
+    url: /windows-server/identity/ad-fs/operations/configure-ts-td-certs-ad-fs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f6f7a18b-fb60-40bc-bdec-59f93a9f39ba.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enforce Transport Layer Security (TLS) version 1.2 to increase security
+    url: /azure-stack/operator/azure-stack-security-configuration#tls-version-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f6f7a18b-fb60-40bc-bdec-59f93a9f39ba.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure the Certificates CRL endpoint is accessible
+    url: '/azure-stack/operator/azure-stack-pki-certs#:~:text=Your%20Azure%20Stack%20Hub%20infrastructure%20must%20have%20network%20access%20to%20the%20certificate%20authority%27s%20Certificate%20Revocation%20List%20(CRL)%20location%20published%20in%20the%20certificate'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.b97ec79f-488f-48c3-ae2e-111d22b0ceb5.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Rotate Azure Stack Hub secrets in a timely manner
+    url: /azure-stack/operator/azure-stack-rotate-secrets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.b97ec79f-488f-48c3-ae2e-111d22b0ceb5.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate generating certificate signing requests
+    url: /azure-stack/operator/azure-stack-get-pki-certs?&tabs=omit-cn&pivots=csr-type-renewal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.b97ec79f-488f-48c3-ae2e-111d22b0ceb5.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement a firewall device to secure network access
+    url: /azure-stack/operator/azure-stack-firewall
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.b97ec79f-488f-48c3-ae2e-111d22b0ceb5.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Periodically review the 'Outbound Ports & URLs' requirements
+    url: /azure-stack/operator/azure-stack-integrate-endpoints#ports-and-urls-outbound
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.b97ec79f-488f-48c3-ae2e-111d22b0ceb5.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor External DNS name servers for availability
+    url: /azure-stack/operator/azure-stack-integrate-dns#resolving-external-dns-names-from-azure-stack-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.b97ec79f-488f-48c3-ae2e-111d22b0ceb5.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Periodically validate DNS Conditional Forwarders
+    url: /azure-stack/operator/azure-stack-integrate-dns#resolving-azure-stack-hub-dns-names-from-outside-azure-stack-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.b97ec79f-488f-48c3-ae2e-111d22b0ceb5.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure the time server used in Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-configure-time
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.b97ec79f-488f-48c3-ae2e-111d22b0ceb5.J
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consult Hardware OEM Partner for integrated monitoring solution capabilities
+    url: '/azure-stack/operator/azure-stack-integrate-monitor?&tabs=az#:~:text=check%20with%20your%20oem%20provider%20if%20their%20monitoring%20solutions%20can%20integrate%20with%20existing%20monitoring%20solutions%20in%20your%20datacenter.'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Integrate external monitoring solution with Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-integrate-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor Azure Stack Hub hardware components (if supported by OEM)
+    url: /azure-stack/operator/azure-stack-hardware-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Syslog forwarding for security monitoring
+    url: /azure-stack/operator/azure-stack-integrate-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Integrate Operations Manager with third-party solutions
+    url: /system-center/scom/manage-integration-thirdparty-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use web application transaction monitoring for ARM and Portal endpoints
+    url: /system-center/scom/web-application-transaction-monitoring-template
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Proactively send or collect diagnostic logs
+    url: /azure-stack/operator/diagnostic-log-collection#send-logs-proactively
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Periodically validate Azure Stack Hub system state
+    url: /azure-stack/operator/azure-stack-troubleshooting#get-scale-unit-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use 'Get-AzsDrive' and 'Get-AzsVolume' cmdlets to verify the status of physical disks and volumes
+    url: /azure-stack/operator/azure-stack-manage-storage-infrastructure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use 'Create-AzSStorageDashboard.ps1' to create Dashboard JSON files to upload to the Admin Portal
+    url: 'https://github.com/Azure/AzureStack-Tools/tree/az/CapacityManagement/DashboardGenerator'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.8a173dfe-a226-4e0e-9288-febbb0774003.J
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Understand how to use quotas, plans and offers for Azure Stack Hub'
+    url: /azure-stack/operator/service-plan-offer-subscription-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.a15c64c8-32d5-4cb2-bd70-e4342dc38d50.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Update Marketplace items on Azure Stack Hub
+    url: /azure-stack/operator/marketplace-update-items
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.a15c64c8-32d5-4cb2-bd70-e4342dc38d50.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure App Service and Azure Functions on Azure Stack Hub overview
+    url: /azure-stack/operator/azure-stack-app-service-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.a15c64c8-32d5-4cb2-bd70-e4342dc38d50.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Event Hubs on Azure Stack Hub overview
+    url: /azure-stack/operator/event-hubs-rp-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.a15c64c8-32d5-4cb2-bd70-e4342dc38d50.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Deploy, scale, and update Kubernetes clusters using AKS Engine'
+    url: /azure-stack/user/azure-stack-kubernetes-aks-engine-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.a15c64c8-32d5-4cb2-bd70-e4342dc38d50.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Install and offer the Azure Container Registry (ACR) Resource Provider
+    url: /azure-stack/operator/container-registries-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.a15c64c8-32d5-4cb2-bd70-e4342dc38d50.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Add and remove a custom VM image to Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-add-vm-image
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.a15c64c8-32d5-4cb2-bd70-e4342dc38d50.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand usage and billing for Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-billing-and-chargeback
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.a15c64c8-32d5-4cb2-bd70-e4342dc38d50.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the 'regionHealths' API to retrieve the current Physical Memory usage
+    url: /rest/api/azurestack/region-healths/get#returns-the-requested-health-status-of-a-region.
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.3332e4c0-eef4-484f-9833-23b7927f3931.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the 'Get-AzsVolume' cmdlet to retrieve health status and remaining capacity per volume
+    url: /azure-stack/operator/azure-stack-manage-storage-infrastructure#volume-states
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.3332e4c0-eef4-484f-9833-23b7927f3931.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the 'regionHealths' API to retrieve the current Public IP Address Pools usage information
+    url: /rest/api/azurestack/region-healths/get#returns-the-requested-health-status-of-a-region.
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.3332e4c0-eef4-484f-9833-23b7927f3931.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review the Capacity Planner prior to Azure Stack Updates
+    url: /azure-stack/operator/azure-stack-capacity-planner
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.3332e4c0-eef4-484f-9833-23b7927f3931.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use 'Test-AzureStack' and the HTML Validation Report to report the current 'physical to virtual CPU ratio' per node
+    url: /azure-stack/operator/azure-stack-diagnostic-test
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.3332e4c0-eef4-484f-9833-23b7927f3931.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Migrate managed disks between object stores
+    url: /azure-stack/operator/azure-stack-manage-storage-shares#migrate-a-managed-disk-between-volumes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.3332e4c0-eef4-484f-9833-23b7927f3931.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Reclaim capacity for deleted storage accounts
+    url: /azure-stack/operator/azure-stack-manage-storage-accounts#reclaim
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.3332e4c0-eef4-484f-9833-23b7927f3931.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Install hotfixes in a timely manner
+    url: /azure-stack/operator/azure-stack-servicing-policy#hotfixes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.1830cc76-db8c-4237-b9de-2f234abd83ba.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Keep your scale unit within N-2 supported versions
+    url: /azure-stack/operator/azure-stack-servicing-policy#keep-your-system-under-support
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.1830cc76-db8c-4237-b9de-2f234abd83ba.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Install Hardware OEM Updates in a timely manner
+    url: /azure-stack/operator/azure-stack-servicing-policy#oem-packages
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.1830cc76-db8c-4237-b9de-2f234abd83ba.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Azure Stack Hub update activity checklist
+    url: /azure-stack/operator/release-notes-checklist
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.1830cc76-db8c-4237-b9de-2f234abd83ba.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand all Field Replacement Unit (FRU) processes for your hardware
+    url: /azure-stack/operator/azure-stack-replace-component
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.1830cc76-db8c-4237-b9de-2f234abd83ba.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Retrieve your BitLocker recovery keys and store them in a secure location
+    url: /azure-stack/operator/azure-stack-security-bitlocker#retrieving-bitlocker-recovery-keys
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.1830cc76-db8c-4237-b9de-2f234abd83ba.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable infrastructure backups for Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-backup-enable-backup-console
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.538c3bc9-378e-4796-826e-76981ff82da5.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Infrastructure backup storage location and sizing best practices
+    url: /azure-stack/operator/azure-stack-backup-reference#supported-storage-locations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.538c3bc9-378e-4796-826e-76981ff82da5.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the ASDK to validate an Azure Stack Hub backup
+    url: /azure-stack/asdk/asdk-validate-backup
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.538c3bc9-378e-4796-826e-76981ff82da5.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Store infrastructure backup encryption files and passwords securely
+    url: /azure-stack/operator/azure-stack-backup-best-practices#encryption
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.538c3bc9-378e-4796-826e-76981ff82da5.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Protect VMs deployed on Azure Stack Hub
+    url: /azure-stack/user/azure-stack-manage-vm-protect
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.538c3bc9-378e-4796-826e-76981ff82da5.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage emergency access accounts
+    url: /azure/active-directory/roles/security-emergency-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.538c3bc9-378e-4796-826e-76981ff82da5.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Install the Az and AzureStack PowerShell modules
+    url: /azure-stack/operator/powershell-install-az-module
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f1132038-8674-4821-bc3c-32fb1ba5cdc4.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Operator Access Workstation (OAW) VM image
+    url: /azure-stack/operator/operator-access-workstation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f1132038-8674-4821-bc3c-32fb1ba5cdc4.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand/enable the Remote Support feature
+    url: /azure-stack/operator/remote-support
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f1132038-8674-4821-bc3c-32fb1ba5cdc4.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Privileged Endpoint (PEP) in Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-privileged-endpoint
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f1132038-8674-4821-bc3c-32fb1ba5cdc4.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider network upload bandwidth requirements
+    url: /azure-stack/operator/diagnostic-log-collection#bandwidth-considerations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f1132038-8674-4821-bc3c-32fb1ba5cdc4.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: How to raise a support case for Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-help-and-support-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f1132038-8674-4821-bc3c-32fb1ba5cdc4.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Azure Stack Hub telemetry
+    url: /azure-stack/operator/azure-stack-telemetry
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f1132038-8674-4821-bc3c-32fb1ba5cdc4.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Pass the AZ600 Exam to gain Cloud Operator certification
+    url: /learn/certifications/exams/az-600
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b309ebca-3047-4a4a-93f0-ff528fcef3de.f1132038-8674-4821-bc3c-32fb1ba5cdc4.J
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: f7ac9534-9392-4f88-84f8-a56687f671b0
+name: ''

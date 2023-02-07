@@ -1,0 +1,71 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You use Device Provisioning Service to manage the device lifecycle including reprovisioning, disenrollment, and deprovision.'
+    description: 'Device Provisioning Service is a helper service for Azure IoT Hub IoT Hub that enables zero-touch, just-in-time provisioning to the right IoT hub without requiring human intervention. DPS enables the provisioning of millions of devices in a secure and scalable manner.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: You use Azure IoT Hub device configurations to automatically filter and update large device twins at scale.
+    description: Automatic device management in Azure IoT Hub automates the many repetitive and complex tasks needed to manage large device fleets over the entirety of their lifecycles.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: 'To manage devices automatically, you use Azure IoT Hub jobs to update desired properties and invoke direct methods.'
+    description: 'Typically, backend apps allow device administrators and operators to update and interact with IoT devices in bulk and at a scheduled time. Jobs execute device twin updates and direct methods against a set of devices at a scheduled time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: You use Device Update for Azure IoT Hub to deploy and manage over-the-air updates for your IoT devices.
+    description: Device Update for Azure IoT Hub is a service that allows you to deploy over-the-air updates to your IoT devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'You use Azure IoT Hub to automatically deploy, update, and maintain Azure IoT Edge modules at scale using a deployment manifest.'
+    description: 'Use Azure IoT Edge automatic deployment in the Azure portal to manage ongoing deployments for many devices at once. Automatic deployments for Azure IoT Edge are part of the automatic device management feature of Azure IoT Hub. Deployments are dynamic processes that let you deploy multiple modules to multiple devices, track the status and health of the modules, and make changes when necessary.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: You use a CI/CD pipeline to trigger processes that automatically update the deployment manifest for Azure IoT Edge devices defined in Azure IoT Hub.
+    description: Azure DevOps Pipelines includes a built-in Azure IoT Edge task that helps you adopt DevOps with your Azure IoT Edge applications by establishing CI/CD pipeline to build and deploy IoT Edge modules at scale to your devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Device lifecycle management covers areas such as configuration and operating system updates, reprovisioning/deprovisioning and managing Azure IoT Edge modules. This ensures that devices are in good health, with the proper configuration, and the correct software version.'
+isRequired: false
+uid: f7adf6e4-dd67-4257-ac4e-a93abd6414e9
+name: 'Device lifecycle management covers areas such as configuration and operating system updates, reprovisioning/deprovisioning and managing Azure IoT Edge modules. This ensures that devices are in good health, with the proper configuration, and the correct software version.'

@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have considered an IP firewall for this workload.
+    description: 'IP firewall is the first layer of protection to secure your database. With IP firewall, you can configure your Azure Cosmos account to be accessible only from an approved set of machines and/or cloud services by specifying their IP addresses or IP address ranges.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Service endpoint connectivity has been evaluated.
+    description: A service endpoint limits access from a specific subnet of virtual network (VNet).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: We have evaluated private endpoint connectivity.
+    description: Azure Private Link allows you to connect to an Azure Cosmos DB account from your virtual network via a private endpoint and helps prevent certain data exfiltration scenarios.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: 'In the case where private endpoint has been adopted, disabling public connectivity has been considered.'
+    description: 'Private and public connectivity to the same Azure Cosmos DB can be enabled side by side - certain clients connect over public endpoint and other clients over private endpoint. If so desired, public connectivity can be disabled.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: 'If private endpoint connectivity has been adopted and Analytical Store feature is used, private endpoint for Analytical Store has been evaluated for this workload.'
+    description: Network isolation is managed separately for transactional (default) store and analytical store.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Any exception to "Accept connection(s) from within public Azure Datacenters" has been approved accordingly.
+    description: 'Be aware that when "Accept connections from within public Azure datacenters" has been enabled, applications owned by others running on Azure are permitted to access your Azure Cosmos DB account. Any application regardless of connectivity method must be in possession of a valid key or token.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: Cross-Origin Resource Sharing (CORS) feature has been evaluated for this workload.
+    description: 'Web browsers implement a security restriction known as same-origin policy that prevents a web page from calling APIs in a different domain. However, CORS provides a secure way to allow the origin domain to call APIs in another domain.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 1b44f462-3940-4a20-ac74-17d5d107a661
+name: How have you secured the network of your Azure Cosmos DB account?

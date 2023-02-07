@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not believe in development and testing of workloads on Azure.
+    description: Your organization does not believe in development and testing of workloads on Azure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization works in an ad-hoc manner to do basic development and testing of workloads on Azure.
+    description: Your organization works in an ad-hoc manner to do basic development and testing of workloads on Azure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization makes use of separating environments to run development and testing workloads on Azure.
+    description: Your organization makes use of separating environments to run development and testing workloads on Azure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization makes use of properly separating dev/test/prod environments to run development and testing workloads on Azure.
+    description: Your organization makes use of properly separating dev/test/prod environments to run development and testing workloads on Azure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization leverages the use of continuous development and integration through properly separating dev/test/prod environments to run development and testing workloads on Azure.
+    description: Your organization leverages the use of continuous development and integration through properly separating dev/test/prod environments to run development and testing workloads on Azure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  How do you separate dev/test/prod environments to run development and testing workloads on Azure?
+isRequired: true
+uid: f8d2ea5d-2728-44dc-82f2-5536c627fcf9
+name: How do you separate dev/test/prod environments to run development and testing workloads on Azure?

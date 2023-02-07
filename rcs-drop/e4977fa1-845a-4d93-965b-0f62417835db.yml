@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have an enrichment pipeline that uses Azure Cognitive Search for images.
+
+  You need to persist the normalized images.
+
+  Which three strings should you include in the knowledge store definition?
+questionnaireUid: 66a5f542-a8b4-4797-8f63-e058a9fbe964
+questions:
+  - uid: e4977fa1-845a-4d93-965b-0f62417835db-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: '`sourceContext`'
+        isCorrect: false
+      - id: 1
+        text: '`storageConnectionString`'
+        isCorrect: true
+      - id: 2
+        text: '`storageContainer`'
+        isCorrect: true
+      - id: 3
+        text: '`source`'
+        isCorrect: true
+      - id: 4
+        text: '`generatedKeyName`'
+        isCorrect: false
+uid: e4977fa1-845a-4d93-965b-0f62417835db
+title: ''

@@ -1,0 +1,46 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have evaluated if the solution would benefit from Azure SQL elastic database pools.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: We are using Query Performance Insight.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: C
+    text: We are actively monitoring performance recommendations.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-data.sql
+stem: ''
+isRequired: false
+uid: e635b898-4742-4418-a532-c42da1e3856d
+name: 'Have you configured your Azure SQL PaaS databases according to the best practices around performance? '

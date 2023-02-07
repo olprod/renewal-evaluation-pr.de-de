@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You incorporate appropriate retry logic in your IoT Hub device connectivity implementation to handle network outages
+    description: 'The IoT Hub Device SDK''s make it much easier to build, manage, and implement resilience in an IoT device.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You test offline capabilities with IoT Edge prior to production release to make sure the IoT Edge implementation functions as expected
+    description: IoT Edge is capable of running continuously in offline mode.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: 'If network connectivity is problematic in an IoT Hub or IoT Edge implementation, then you take local storage considerations into account to enable the device to store messages locally while the connection is down'
+    description: 'With a connected IoT device that can be updated remotely, make sure that the sizing of compute, memory, and storage take into account future use cases.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: IoT solutions require connectivity and it's important to have a documented approach for testing connectivity for devices that are part of the solution.
+isRequired: false
+uid: 8dd349bb-2a5f-44a4-a396-8b5403a4bfd4
+name: 'IoT solutions require connectivity and it''s important to have a documented approach for testing connectivity for devices that are part of the solution. Q6. '

@@ -1,0 +1,26 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: Detailed financial justification is essential for any migration project.
+links:
+  - title: Learn how to approach building a business case
+    url: /azure/cloud-adoption-framework/strategy/cloud-migration-business-case
+    condition:
+      anyOf:
+        - tco.b71babbf-1fc9-469b-ad77-6b18bbb3c806.A
+        - tco.b71babbf-1fc9-469b-ad77-6b18bbb3c806.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Azure TCO Calculator to build your analysis
+    url: 'https://azure.microsoft.com/pricing/tco/calculator/'
+    condition:
+      anyOf:
+        - tco.b71babbf-1fc9-469b-ad77-6b18bbb3c806.A
+        - tco.b71babbf-1fc9-469b-ad77-6b18bbb3c806.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 0a2ea5f4-6daf-48c4-b5e3-a82603964f0b
+name: Business case

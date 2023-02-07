@@ -1,0 +1,44 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Business Value
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/maturity-model-details'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 6eb53b73-7428-4719-af46-78840fb90c2b<14
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Get inspired by our customer stories
+    url: 'https://powerapps.microsoft.com/en-gb/blog/power-platform-stories/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 6eb53b73-7428-4719-af46-78840fb90c2b<14
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Offer solution envisioning workshops
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/solution-envisioning'
+    condition:
+      allOf: []
+      anyOf:
+        - 6eb53b73-7428-4719-af46-78840fb90c2b.995e883a-b0e9-46d4-8474-62986c3b74ca.0
+        - 6eb53b73-7428-4719-af46-78840fb90c2b.995e883a-b0e9-46d4-8474-62986c3b74ca.1
+        - 6eb53b73-7428-4719-af46-78840fb90c2b.995e883a-b0e9-46d4-8474-62986c3b74ca.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 93fcd9db-44c7-44b3-866c-d1819a957805
+name: ''

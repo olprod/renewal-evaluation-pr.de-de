@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Identify databases that have a high potential impact and/or a high potential exposure to risk.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Consider restricting access to any Storage Accounts that the database interacts with.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Sensitive data must not be stored in plaintext.
+    description: Configure Always encrypted to protect sensitive data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Data Masking can be used to protect sensitive data from un-authorized application users.
+    description: Dynamic data masking helps prevent unauthorized access to sensitive data by enabling customers to designate how much of the sensitive data to reveal with minimal impact on the application layer
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: design-data-sqldb
+uid: fef61731-c120-4a43-b1d5-a9900ef36bad
+name: What design considerations did you make while designing Azure SQL DB in regards to security?

@@ -1,0 +1,35 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: 'No'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: dc459ea8-11fc-4954-85c4-539cb2f82369
+name: Does the organization currently use a third-party MDM provider integrated with Azure AD (i.e. use Intune for MAM only)?

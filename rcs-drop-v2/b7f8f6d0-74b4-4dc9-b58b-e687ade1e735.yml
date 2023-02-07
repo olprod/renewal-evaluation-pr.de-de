@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - b23e1c76-8dab-4418-979b-e27c79e2fcf7
+recommendations:
+  - 29939481-6820-4535-8b56-4a470117e09c
+assignedGroupIds: []
+uid: b7f8f6d0-74b4-4dc9-b58b-e687ade1e735
+name: 'Go-Live - Key Vault: Security'

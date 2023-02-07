@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Continuous monitoring means having full, real-time visibility into the performance and health of the entire application stack, from the underlying infrastructure running the application to higher-level software components. '
+hideEmptyGuidance: false
+questions:
+  - 742de2bf-223d-4c04-846f-2e3481d96137
+  - b9090eab-febc-42df-9994-3e7157a01ef1
+  - a3c4d023-f30d-4212-b3a6-69503200f02c
+  - 18c76fab-f4b8-4983-80e9-5d7074b15d35
+  - 6c78fa3b-c177-473e-9ace-778d706a545d
+  - e5180d75-7ad0-4e2b-a454-a8afcfd62248
+  - d070b310-3d89-4bd8-b9e9-8d232fbdf804
+recommendations:
+  - fbf0148f-266d-434c-956b-54154a0f76a5
+assignedGroupIds: []
+uid: be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7
+name: Continuous Monitoring

@@ -1,0 +1,19 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Curated solution require conformance to Microsoft products development and extensibility best practices, this alignment help partners lower their go to market time and maintenance upkeep on solutions.  This section provide few pointers on following extensibility best practices, test automation, possibility of embedding ISV licensing in the solution and One Version update lifecycle and its association with ISV solution development, deployment and maintainability. '
+hideEmptyGuidance: false
+questions:
+  - e7d4ba07-e21e-40ea-9c82-33d77b1b8113
+  - 59884e86-3791-44c1-bbdf-2b32a4cea4b1
+  - f9c16f4e-d960-42f7-a5cd-9975dd214e6d
+  - 432014b8-0553-4ff2-abc6-d806208395a6
+  - 7c75b17e-1214-4c6c-b3b0-d33ab8d9e69e
+  - 53f0c184-a7af-4de1-b82d-389c27cb27f2
+  - 40a0a47d-dd27-4d1a-99a1-8818fdb91cb6
+  - f6c721b1-c66a-4f0e-baba-8c645b31ef5b
+recommendations:
+  - 0f807193-b53c-40e8-a331-5e5ee5183863
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: b2e067a0-d96f-4704-9634-a2969c5347ee
+name: 'Solution Validation '

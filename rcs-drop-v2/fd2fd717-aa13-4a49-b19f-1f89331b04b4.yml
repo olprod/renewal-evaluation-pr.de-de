@@ -1,0 +1,20 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This focusses on organization's maturity against Data Serving and Consuming dimension to create a holistic view of current state and provides a structured framework for developing maturity in each capability. This dimension aims to improve business performance management by enabling capabilities for better reporting requirements that are critical to the business and defining information delivery approach to support value for the business.
+hideEmptyGuidance: false
+questions:
+  - 3ec20d1f-332b-4a2e-9cd0-ee3a8f1ef303
+  - 82999541-a102-4350-8754-da0551024837
+  - 76edad20-e5b3-4ccc-8b2e-a35e31070072
+  - 149107e5-93a1-4d57-a762-3444901164eb
+  - 739a072b-b10b-48b0-acfa-4f514db2e08c
+  - 9bd69cf2-02e6-4aea-917d-62a0a56fd654
+  - c3b45171-ff29-4a96-99d3-c50087a2f136
+  - 11f901f6-059b-4613-a604-8c30952e573b
+  - ba306fd1-487c-4ea4-845b-e62571fe11f5
+recommendations:
+  - e7bc102d-0fb6-4441-a1b4-1cdca4a57431
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: fd2fd717-aa13-4a49-b19f-1f89331b04b4
+name: Maturity Framework - Data Serving and Consuming Pillar

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization is using a manual way to load data and sees no need for change data capture.
+    description: Your organization is using a manual way to load data and sees no need for change data capture.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is looking to implement a consistent data integration pattern and would like to record activities on the source data base when rows change.
+    description: Your organization is looking to implement a consistent data integration pattern and would like to record activities on the source data base when rows change.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization manually triggers an ingestion pattern that in turn, populates target storage'
+    description: 'Your organization manually triggers an ingestion pattern that in turn, populates target storage.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has enable Change Data Capture at source which which records activity on a database when tables and rows have been modified so that ETL can happen incrementally.
+    description: Your organization has enable Change Data Capture at source which which records activity on a database when tables and rows have been modified so that ETL can happen incrementally.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization leverages CDC for automated and incremental loading to ensure data transfers have minimal impact on performance.
+    description: Your organization leverages CDC for automated and incremental loading to ensure data transfers have minimal impact on performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you use utilize Change Data Capture replication technologies to record activity on a database when tables and rows have been modified?
+isRequired: true
+uid: df004b37-7c49-4442-88a5-1b1ce16d1bfd
+name: Do you use utilize Change Data Capture replication technologies to record activity on a database when tables and rows have been modified?

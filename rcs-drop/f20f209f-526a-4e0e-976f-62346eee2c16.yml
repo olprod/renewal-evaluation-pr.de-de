@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |+
+  You are implementing Microsoft Dynamics 365 Customer Insights for an organization. You are working with the organization to add users and assign permissions.
+
+  You need to explain Contributor role permissions to the organization’s Dynamics 365 Customer Insights administrator.  
+
+  Which two actions can a user with the Contributor role perform? Each correct answer presents a complete solution.
+
+questionnaireUid: 8e556c6d-ab2c-4eb5-a8b2-4a8e24ec3956
+questions:
+  - uid: f20f209f-526a-4e0e-976f-62346eee2c16-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are implementing Microsoft Dynamics 365 Customer Insights for an organization.
+        isCorrect: false
+      - id: 1
+        text: You are working with the organization to add users and assign permissions.
+        isCorrect: true
+      - id: 2
+        text: You need to explain Contributor role permissions to the organization’s Dynamics 365 Customer Insights administrator.
+        isCorrect: true
+      - id: 3
+        text: Which two actions can a user with the Contributor role perform?
+        isCorrect: false
+    manualId: MB-260.1.7
+uid: f20f209f-526a-4e0e-976f-62346eee2c16
+title: ''
+manualId: ''

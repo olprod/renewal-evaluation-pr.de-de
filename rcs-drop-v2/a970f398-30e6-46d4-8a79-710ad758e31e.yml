@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 401b0b42-b9fd-4a05-a6d5-e52477aac00f
+  - 9b88bfbd-b55f-4ff0-86b7-fcc67c591137
+recommendations:
+  - a6bb67ec-a30a-4616-86ff-a6f470886658
+assignedGroupIds: []
+uid: a970f398-30e6-46d4-8a79-710ad758e31e
+name: ADLS Gen2 - Cost Optimization

@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Design for evolution
+    url: 'https://aka.ms/developervelocity-cta-architecture-low'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 75fefe13-349c-4495-acee-91f9c08d6344<34
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn how to decompose a monolithic application into a microservices architecture
+    url: 'https://aka.ms/developervelocity-cta-architecture-med'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 75fefe13-349c-4495-acee-91f9c08d6344>33
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Expand your knowledge with the Azure Architecture Center
+    url: 'https://docs.microsoft.com/azure/architecture/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 75fefe13-349c-4495-acee-91f9c08d6344>33
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 8e20b731-2104-4cfd-a4ec-aabb1fcb8959
+name: Architecture

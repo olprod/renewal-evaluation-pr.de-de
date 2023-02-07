@@ -1,0 +1,29 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Prioritize scalability as you design and implement phases. Scalability leads to lower maintenance costs, better user experience, and higher agility.'
+hideEmptyGuidance: false
+questions:
+  - 7e48de48-2492-4c56-ad82-0b025b5cd4f4
+  - 36a4dca2-ff66-4ac6-ab55-0f64a2949262
+  - ecf01f33-54e7-4c12-9835-b99f9a8707e9
+  - 08e3fe9e-fc59-4541-811e-fd6153b121e0
+  - f03daffd-e35c-49e5-aa13-c8acaf033623
+  - 72569b61-1c8f-4bf5-b139-37fb6b1866d1
+  - d19bfbc0-d9b0-4c36-be15-7b5d23213ea4
+  - db4da914-cf33-4f55-8cbb-b4c4b027d8ab
+  - 93309dfd-a3ee-4584-baa0-f9f452a93058
+  - 20cfd1c9-e11f-4a27-9e9d-1f65670292cc
+  - d9fdbe77-e613-4ec9-a220-c2ee7211f674
+  - 24aa39e6-dc5a-49df-815f-6848b94f08c9
+  - 74c66ad6-db0c-42c1-a4a4-973647c3be8e
+  - d65ec160-278b-4ef5-955a-d97a1d6e8b14
+  - 5ee9d5a0-cd7a-46c5-b5d8-50673154b516
+  - c7e3e12c-7cba-4a7d-b228-a2420f8a9658
+  - 14a6e9e0-a9f6-4053-afd9-ea3c5aad7210
+  - 23721809-96bd-4e05-8292-66ba181dd2a2
+recommendations:
+  - 5b060439-9902-458b-a2c8-18bbd58a2d5d
+assignedGroupIds:
+  - b6a324fd-d21d-4f72-ae18-f475f53334f0
+uid: 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34
+name: IoT - Performance Efficiency

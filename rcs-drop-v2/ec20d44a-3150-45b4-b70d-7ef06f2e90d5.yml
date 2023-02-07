@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: End to End connectivity flows of SAP workload interfacing with other systems documented and understood.
+    description: 'Hybrid and cross-cloud workloads with components on-premises or on different cloud platforms, such as AWS or GCP, introduce additional operational considerations around achieving a ''single pane of glass'' for operations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: SAP workload deployed across multiple zones or regions where required services are available or planned to be available.
+    description: Deployment of SAP workload follows the operational consideration of upgrade/enhancement of solution.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: SAP workload deployed across multiple zones or regions in an active-passive configuration in alignment with recovery targets.
+    description: Is the application and/or its key workloads deployed across multiple regions in an active-passive configuration?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: The SAP workload is maintained with strategies for resiliency and self-healing.
+    description: 'Consider implementing strategies and capabilities for resiliency and self-healing needed to achieve workload availability targets. Programming paradigms such as retry patterns, request timeouts, and circuit breaker patterns can improve application resiliency by automatically recovering from transient faults.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Design considerations'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWK3af'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: ec20d44a-3150-45b4-b70d-7ef06f2e90d5
+name: What design considerations for operations have you made?

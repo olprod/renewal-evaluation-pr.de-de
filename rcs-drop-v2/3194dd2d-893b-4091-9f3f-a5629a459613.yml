@@ -1,0 +1,131 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'For Windows OS, use storage pools using managed disks to attain right IOPs and optimized cost.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: B
+    text: 'For Linux OS, use the MDADM utility to stripe disks together.'
+    description: 'Currently, disk striping for Linux is not available through the Azure portal.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: C
+    text: Collect the target workload's performance characteristics to determine the appropriate VM size.
+    description: 'The ''memory optimized'' virtual machines offer stronger memory-to-CPU ratios and medium-to-large cache options, and are the primary target.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: D
+    text: Leverage the Azure Virtual Machine marketplace images.
+    description: The marketplace images SQL Server settings and storage configuration options are configured for optimal SQL Server performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: E
+    text: 'Use Premium SSD disks (P30 and P40 for data, P30 - P80 for log) for best price/performance.'
+    description: Standard HDDs and SSDs have varying performance and lower bandwidth and are only recommended for dev/test workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: F
+    text: Ensure ReadOnly caching is enabled on the Azure Data Disks for the data files.
+    description: 'Do not enable caching for the log files as there is no benefit, the log files should have the caching policy of ''none''.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: G
+    text: Leverage Ultra disks only when sub-millisecond latencies are required.
+    description: Ultra disks are commonly used for log files when sub-millisecond latency is needed.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: H
+    text: Analyze workloads with Database Engine Tuning Advisor to obtain index and partitioning recommendations.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: I
+    text: Register SQL IaaS extension and patch SQL Server regularly.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: J
+    text: Ensure recommended SQL Server engine and database configuration settings are in place.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: K
+    text: Ensure recommended storage performance configurations settings are in place.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: L
+    text: Implement a database maintenance plan to ensure indexes and statistics are updated and optimized regularly.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: M
+    text: Monitor and track resource usage and establish a  performance baseline and understand peak usage windows.
+    description: Understanding the resource usage of a certain SQL Server instance can assist in troubleshooting performance issues and to predict future capacity requirements.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: 'N'
+    text: 'Implement resource governance and administrative policies to manage workload priorities and resource allocation, and to ensure performance consistency and minimize spikes.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: O
+    text: 'Establish database patterns and practices, such as DevOps and change control, ensuring database state is properly understood and documented, and that changes are properly tested for performance and other impact before rolling out to production.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 3194dd2d-893b-4091-9f3f-a5629a459613
+name: How are you thinking about performance?

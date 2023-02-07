@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider a partitioning strategy within Redis cache
+    url: /azure/architecture/best-practices/data-partitioning-strategies#partitioning-azure-cache-for-redis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50418479-b8a6-4ec5-abaf-ffd8a7672169.7f9f35e9-a745-4744-8127-77454fb6d6ac.A
+      scoreOf: []
+    context: 'Partitioning a Redis data store involves splitting the data across instances of the Redis service. Each instance constitutes a single partition. Azure Redis Cache abstracts the Redis services behind a fa?ade and does not expose them directly. The simplest way to implement partitioning is to create multiple Azure Redis Cache instances and spread the data across them. You can associate each data item with an identifier (a partition key) that specifies which cache stores the data item. The client application logic can then use this identifier to route requests to the appropriate partition. This scheme is very simple, but if the partitioning scheme changes (for example, if additional Azure Redis Cache instances are created), client applications might need to be reconfigured.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Implement retry policies in the context of your Azure Redis Cache
+    url: /azure/architecture/best-practices/retry-service-specific#cosmos-db
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50418479-b8a6-4ec5-abaf-ffd8a7672169.7f9f35e9-a745-4744-8127-77454fb6d6ac.B
+      scoreOf: []
+    context: 'Most Azure services and client SDKs include a retry mechanism. However, these differ because each service has different characteristics and requirements, and so each retry mechanism is tuned to a specific service.'
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: "Review\_how to administer Azure Cache for Redis"
+    url: /azure/azure-cache-for-redis/cache-administration#reboot
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50418479-b8a6-4ec5-abaf-ffd8a7672169.7f9f35e9-a745-4744-8127-77454fb6d6ac.C
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: "Configure\_Data Persistence\_to save a copy of the cache to Azure Storage or use Geo-Replication, depending on your business requirement"
+    url: /azure/azure-cache-for-redis/cache-how-to-premium-persistence
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50418479-b8a6-4ec5-abaf-ffd8a7672169.7f9f35e9-a745-4744-8127-77454fb6d6ac.D
+      scoreOf: []
+    context: "Data Persistence: If the master and replica reboot, the data will be loaded automatically from the storage account.\_Geo-Replication: The secondary cache needs to be unlinked from the primary. The secondary will now become the primary and can receive\_writes."
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Deploy Azure Cache for Redis within a VNET
+    url: /azure/azure-cache-for-redis/cache-how-to-premium-vnet
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 50418479-b8a6-4ec5-abaf-ffd8a7672169.7f9f35e9-a745-4744-8127-77454fb6d6ac.E
+      scoreOf: []
+    context: Gives you more control over the traffic that can connect to the cache. Make sure that the subnet has sufficient address space available to deploy the cache nodes and shards (cluster).
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+uid: 066d2f3b-6880-4963-83d1-7103816ad975
+name: ''

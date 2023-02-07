@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: 'No'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.e8f8b310-f986-4b96-b24d-61609278c4e0.1
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'By using ADRs, you can automatically approve and deploy software updates to endpoints, instead of the extra admin overhead of manually deploying updates to your managed devices which is also prone to missing required updates. https://learn.microsoft.com/en-us/mem/configmgr/sum/deploy-use/automatically-deploy-software-updates'
+isRequired: true
+uid: aa1e5528-9763-4999-8b4e-19f843ea6bdd
+name: 'By using ADRs, you can automatically approve and deploy software updates to endpoints, instead of the extra admin overhead of manually deploying updates to your managed devices which is also prone to missing required updates.'

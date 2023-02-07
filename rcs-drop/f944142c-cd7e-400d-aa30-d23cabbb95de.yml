@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |
+  A company uses the built-in master planning engine but plans to use Planning Optimization instead. You enable auto-firming. 
+
+  You need to ensure that planned orders are firmed within the current week. 
+
+  What should you do?
+questionnaireUid: b702b0c1-1de7-4c16-9525-25a1001f8798
+questions:
+  - uid: f944142c-cd7e-400d-aa30-d23cabbb95de-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company uses the built-in master planning engine but plans to use Planning Optimization instead.
+        isCorrect: false
+      - id: 1
+        text: You enable auto-firming.
+        isCorrect: false
+      - id: 2
+        text: You need to ensure that planned orders are firmed within the current week.
+        isCorrect: false
+      - id: 3
+        text: What should you do?
+        isCorrect: true
+      - id: 4
+        text: Set the firming time fence to one week plus issue margin.
+        isCorrect: false
+uid: f944142c-cd7e-400d-aa30-d23cabbb95de
+title: ''

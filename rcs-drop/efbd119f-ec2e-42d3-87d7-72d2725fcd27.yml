@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to create a new cost account in the Chart of Accounts.
+
+  Which three actions should you perform? Each correct answer presents part of the solution.
+questionnaireUid: 1cf692f3-97f4-4a61-be0f-e8329c4f5c7f
+questions:
+  - uid: efbd119f-ec2e-42d3-87d7-72d2725fcd27-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You need to create a new cost account in the Chart of Accounts.
+        isCorrect: true
+      - id: 1
+        text: Which three actions should you perform?
+        isCorrect: false
+      - id: 2
+        text: Each correct answer presents part of the solution.
+        isCorrect: true
+      - id: 3
+        text: Set the Account Category field to be Expense.
+        isCorrect: false
+      - id: 4
+        text: Set the Income/Balance field to Balance.
+        isCorrect: true
+uid: efbd119f-ec2e-42d3-87d7-72d2725fcd27
+title: ''

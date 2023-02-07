@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'For applications that are also globally distributed, we have considered making Azure Cosmos DB available across multiple write regions.'
+    description: 'Azure Cosmos DB continues to be highly available through building highly available and responsible applications, maintaining business continuity, and global scale and read.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: We have confirmed that backup strategy/configuration is aligned with recovery targets. Data is backed up and restorable within target recovery times.
+    description: Azure Cosmos DB automatically takes backups of your data at regular intervals. The automatic backups are taken without affecting the performance or availability of the database operations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: We have a well-defined business-continuity disaster-recovery strategy for the application and/or its key workloads. It covers recovery steps for failover and failback. The operational runbooks are defined for key failure scenarios.
+    description: 'Azure Cosmos DB provides guidance on what to expect and what to do in case of region outages, depending on your write region configuration.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: We are aware that backup of Azure Cosmos DB analytical store is currently not supported.  Our disaster-recovery strategy takes this aspect into account.  Additional recovery steps are included to address this if it's a business requirement.
+    description: 'If you use transactional TTL equal or bigger than your analytical TTL on your container, you can fully recreate your analytical store data by enabling analytical store on the restored container.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: We have evaluated automating operational procedures to failover and failback for both Azure Cosmos DB and the application.
+    description: 'Define your operational procedures, taking into account that Azure Cosmos DB SLAs will provide an efficient business continuity plan.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 7a64f25e-941c-45db-9776-e6575b45ad6d
+name: How do you handle disaster recovery for this workload?

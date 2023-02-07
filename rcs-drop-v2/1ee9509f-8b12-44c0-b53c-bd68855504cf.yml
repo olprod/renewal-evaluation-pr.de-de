@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Scale when load increases.
+    description: Ensure that you have the appropriate amount of resources to ensure the workload continues uninterrupted when load increases.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: B
+    text: Have proper database design for the expected workload type (transactional vs reporting).
+    description: The overall performance and scale of an application is often heavily weighted on the choice and proper implementation of the database. Use normalized data models for transactional processing and consider denormalizing for reporting workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: C
+    text: Have the right data partition strategy for tables and indexes.
+    description: 'Data is divided into partitions that can be managed, accessed separately, and can improve scalability, reduce contention, and optimize performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: D
+    text: Have the right compression strategy to improve data size.
+    description: Compress data when appropriate. The idea is to shrink the results returned from a page or API back to the browser or client application. This optimizes network traffic and accelerates the web application.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: E
+    text: Understand and have the right isolation level implemented.
+    description: Use locking to ensure consistency when using a relational database. The app owners must ensure an appropriate consistency and isolation level when making database connections to achieve maximum performance and scale out.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Use read-only replicas to offload read-only query workloads.
+    description: 'Read-only replicas do have some delay in replicating the data, so this does not work if up to the second real-time reporting is needed. Verify out of the box features, tiers, or self-implemented solutions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Use connection pooling.
+    description: Establishing connections to databases is typically an expensive operation that involves establishing an authenticated network connection to the remote database server. Connection pooling makes this process faster.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: 'Use an asynchronous processing mechanism if necessary, such as with Service Bus / Event Hubs.'
+    description: 'An asynchronous processing mechanism is in place for background processing of data events and messages, while allowing the application user to continue with additional application tasks.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 1ee9509f-8b12-44c0-b53c-bd68855504cf
+name: How are you designing your workload to scale?

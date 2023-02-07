@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: ' Sponsor and team are putting together the initial scope, budget and timeline for approval'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Solution scope, project organization, Dynamics 365 applications are agreed and deeper discovery on high-level solution blueprint design, timeline and costs is underway to refine these, to get ready for a formal project start'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Project charter, project scope, project organization, overview solution design, budget with a milestone project plan are all ready for project start'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: Project has completed discovery and has already started. We are reviewing our status/readiness against recommended practices
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: What phase is your project currently in?
+isRequired: true
+uid: 0d3616d2-2868-4075-b8f4-de61043abe65
+name: What phase is your project currently in?

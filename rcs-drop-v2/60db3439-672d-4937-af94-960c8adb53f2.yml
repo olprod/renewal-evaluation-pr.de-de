@@ -1,0 +1,90 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Security requirements are treated as design constraints and product owners engage with security experts as early as the requirements definition and design stage
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '1'
+    text: 'Security is everyone’s responsibility '
+    description: this concept describes a situation where every team member is aware of the security implications of their decisions and where the concept of security is an important topic in every decision
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '2'
+    text: Security and DevOps teams collaborate on threat models
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '3'
+    text: ' Organizational security policies are in the backlog'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '4'
+    text: ' Team security review and approve code change before deployment'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '5'
+    text: Security tools are integrated in the development integration pipeline
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '6'
+    text: Developers can provision a security-hardened infrastructure stack on demand
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '7'
+    text: ' We have a centralized team to manage the security of open source code and package used by our organization'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '8'
+    text: We have a centralized team of security researchers
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '9'
+    text: Not applicable
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: select all that apply
+isRequired: true
+uid: 60db3439-672d-4937-af94-960c8adb53f2
+name: select all that apply

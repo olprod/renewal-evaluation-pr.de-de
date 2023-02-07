@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Track how data flows in and out of Azure SQL DB.
+    description: 'Most of the time inbound data transfers (data going into Azure datacenters) are free - for outbound data transfers, data going out of Azure datacenters, the data transfer pricing is based on Billing Zones.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Defined and enforce data retention and archival requirements.
+    description: 'In typical systems, not all data needs to be available for online processing.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: Verify if data storage and partitioning is done correctly.
+    description: Choosing an inappropriate data store or one that is mis-configured can have a huge cost impact on your design.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: 'Use compression (row, page), column-store indexes where possible to keep storage footprint small.'
+    description: Compression will reduce size of the storage being used and therefore reduce the costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: Consider the number of days you require your backup history to be available.
+    description: 'Please check the documentation for the backup limits included in SQL DB cost, additional space required for backup can generate additional cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Verify if Long-Term Retention for your backups is needed.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Verify what is stored in the database and what can be offloaded to a storage account.
+    description: Check if any data can be removed from database and reduce it's size.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: Verify fragmentation and usage stats.
+    description: Please check the documentation how you can reduce fragmentation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.A
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: storage-data-sqldb
+uid: 39f659cf-ff74-4366-ab52-d70c05930c91
+name: How do you manage the storage footprint of your digital assets?

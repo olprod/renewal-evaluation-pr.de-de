@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our team wants flexibility and visibility for a variety of cluster types and sizes with precise control over how those clusters are created.
+    description: "Databricks offers capability to support workload\_require dedicated\_clusters as well as ability to select Clusters with GPU enabled\_and option to choose between standard\_and high-concurrency Cluster\_Nodes.\n"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: Our team is comfortable with less advanced approaches for precision control over how clusters are created.
+    description: "Azure Synapse offers flexibility\_through Serverless spark\_pools and ability to\_select\_Node size and number\_of Nodes on cluster.\n"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Will optimizing the workload require a variety of cluster types and sizes with precise control over how those clusters are created?
+isRequired: true
+uid: 3d097d2b-3e31-4571-b936-a0524c296885
+name: Will optimizing the workload require a variety of cluster types and sizes with precise control over how those clusters are created?

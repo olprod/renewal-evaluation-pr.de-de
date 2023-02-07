@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |
+  You use Dynamics 365 Sales Insights to monitor relationships with customers.
+
+  You need to ensure that the number of phone calls that the sales team makes increases the relationship statistics more than the number of emails sent does. 
+
+  What should you do?
+questionnaireUid: 7150f84e-f7ee-4784-b41e-74785c09aecd
+questions:
+  - uid: ecdaae36-41e2-4745-8e02-0c1ce188c1bd-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You use Dynamics 365 Sales Insights to monitor relationships with customers.
+        isCorrect: true
+      - id: 1
+        text: You need to ensure that the number of phone calls that the sales team makes increases the relationship statistics more than the number of emails sent does.
+        isCorrect: false
+      - id: 2
+        text: What should you do?
+        isCorrect: false
+      - id: 3
+        text: Adjust the importance of phone calls and emails in the configuration of the Relationship analytics.
+        isCorrect: false
+uid: ecdaae36-41e2-4745-8e02-0c1ce188c1bd
+title: ''

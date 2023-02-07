@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You plan to send activity feed notifications to a user by using Microsoft Graph.
+
+  The activity feed type in the app manifest must be unique.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 33667b9e-7551-4c49-8024-d23a877e2d37
+questions:
+  - uid: e6c3a8fd-5a41-46bf-bf44-2f980160fb57-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You plan to send activity feed notifications to a user by using Microsoft Graph.
+        isCorrect: true
+      - id: 1
+        text: The activity feed type in the app manifest must be unique.
+        isCorrect: false
+uid: e6c3a8fd-5a41-46bf-bf44-2f980160fb57
+title: Select Yes if the statement is true.

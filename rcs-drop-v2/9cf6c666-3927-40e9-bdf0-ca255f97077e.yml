@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Evaluate if Azure SQL Managed Instance can be used for the workload
+    url: /azure/azure-sql/managed-instance/sql-managed-instance-paas-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - bf837943-7a6a-44ed-b0e4-e511231fa1ed.3cef84b7-88de-4fe3-8263-6c6de46b50a1.A
+      scoreOf: []
+    context: 'Azure SQL Managed Instance is the intelligent, scalable, cloud database service that combines the broadest SQL Server database engine compatibility with all the benefits of a fully managed and evergreen platform as a service. SQL Managed Instance boasts near 100% compatibility with the latest SQL Server (Enterprise Edition) database engine.'
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Evaluate Azure SQL Managed Instance for cloud workloads
+    url: /azure/azure-sql/managed-instance/sql-managed-instance-paas-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - bf837943-7a6a-44ed-b0e4-e511231fa1ed.3cef84b7-88de-4fe3-8263-6c6de46b50a1.B
+      scoreOf: []
+    context: 'Azure SQL Managed Instance is the intelligent, scalable, cloud database service that combines the broadest SQL Server database engine compatibility with all the benefits of a fully managed and evergreen platform as a service. SQL Managed Instance boasts near 100% compatibility with the latest SQL Server (Enterprise Edition) database engine.'
+    priority: 30
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Follow best practices while configuring the underlying storage accounts or managed disks
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - bf837943-7a6a-44ed-b0e4-e511231fa1ed.3cef84b7-88de-4fe3-8263-6c6de46b50a1.C
+      scoreOf: []
+    context: 'Azure storage configuration should follow specific recommendations. Best Practice: Use premium SSDs; Standard storage is only recommended for dev/test; Keep the storage account and SQL Server VM in the same region; Disable Azure geo-redundant storage (geo-replication) on the storage account.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+uid: 9cf6c666-3927-40e9-bdf0-ca255f97077e
+name: ''

@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'As a means to doubly encrypt stored data, we have considered customer-managed-key (CMK).'
+    description: 'Data stored in your Azure Cosmos DB account is automatically and seamlessly encrypted with keys managed by Microsoft (service-managed keys). Optionally, you can choose to add a second layer of encryption with keys you manage (customer-managed keys).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: We are aware of assigning managed identity to Azure Cosmos DB to scope down access to Azure Key Vault for CMK.
+    description: Your Azure Cosmos DB can access CMK stored in Key Vault through a global identity or through identity of your account. Tightly scoped access is preferred.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: D
+    text: 'To protect highly sensitive data, we have evaluated the Always Encrypted feature.'
+    description: 'Always Encrypted is a feature designed to protect sensitive data, such as credit card numbers or national identification numbers (for example, U.S. social security numbers), stored in Azure Cosmos DB. Always Encrypted allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to the database.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 6a8fc0b7-5847-433d-9eeb-b10ee6dfe33a
+name: How do you manage encryption for this workload?

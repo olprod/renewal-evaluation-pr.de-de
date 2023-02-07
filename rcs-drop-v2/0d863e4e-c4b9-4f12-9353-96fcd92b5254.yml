@@ -1,0 +1,63 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Windows 10/11
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: iPadOS/iOS
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '2'
+    text: macOS
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '3'
+    text: Android
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '4'
+    text: Linux (Ubuntu/GNOME graphical desktop environment)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '5'
+    text: Chrome OS
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Intune supported operating systems - https://learn.microsoft.com/en-us/mem/intune/fundamentals/supported-devices-browsers#intune-supported-operating-systems'
+isRequired: true
+uid: 0d863e4e-c4b9-4f12-9353-96fcd92b5254
+name: 'Intune supported operating systems - https://learn.microsoft.com/en-us/mem/intune/fundamentals/supported-devices-browsers#intune-supported-operating-systems'

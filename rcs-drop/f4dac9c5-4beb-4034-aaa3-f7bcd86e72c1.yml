@@ -1,0 +1,25 @@
+### YamlMime:QuestionSet
+scenario: |
+  How is the PipelineData object of Azure Machine Learning Python SDK (v1) used in Azure Machine Learning pipelines?
+questionnaireUid: 2ea32e2c-e285-4d97-9bc8-bb111903c0dc
+questions:
+  - uid: f4dac9c5-4beb-4034-aaa3-f7bcd86e72c1-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: How is the PipelineData object of Azure Machine Learning Python SDK (v1) used in Azure Machine Learning pipelines?
+        isCorrect: false
+      - id: 1
+        text: It acts only as an output from a pipeline step.
+        isCorrect: true
+      - id: 2
+        text: Pass data between pipeline steps.
+        isCorrect: false
+      - id: 3
+        text: It creates a data dependency between a pipeline step and an AMLCompute resource.
+        isCorrect: false
+    manualId: 20_dp100-dp-100.4.3
+uid: f4dac9c5-4beb-4034-aaa3-f7bcd86e72c1
+title: ''

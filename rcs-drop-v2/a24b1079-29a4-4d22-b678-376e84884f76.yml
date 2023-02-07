@@ -1,0 +1,56 @@
+### YamlMime:SelfAssessment
+description: Examine your workload through the lens of sustainability.
+duration: 30 minutes.
+questionnaireReferences:
+  - questionnaireUid: 34a73736-c7cb-44f8-b0dd-b494f2a12e43
+    isRequired: true
+  - questionnaireUid: f9214695-5082-47c4-a662-5e7863cde4c9
+    isRequired: true
+  - questionnaireUid: b14c9f96-6e89-4c0d-9361-40b0a83843de
+    isRequired: true
+  - questionnaireUid: 35dac470-61fe-46a5-95d2-a171fa89dde4
+    isRequired: true
+  - questionnaireUid: ae49b22d-35e1-4f72-8253-d2cf69595fe0
+    isRequired: true
+  - questionnaireUid: 2fe227d6-25ac-4b23-8f6a-1e642862a61a
+    isRequired: true
+  - questionnaireUid: 24dd3dee-691f-474c-a0e8-ddf596c9097a
+    isRequired: true
+guidance:
+  title: ''
+  description: ''
+  providers: []
+  scoring:
+    title: 30 minutes.
+    description: Recommendations for your workload.
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Janet
+  lastName: Thomas
+  email: janet@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - azure
+uid: a24b1079-29a4-4d22-b678-376e84884f76
+name: Actionable items to consider implementing to improve sustainability.

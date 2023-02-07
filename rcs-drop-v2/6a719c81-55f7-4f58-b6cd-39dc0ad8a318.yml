@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Databricks shared cluster security reliability allowances.
+    description: 'Table Access control feature is available in High Concurrency mode and needs to be turned on so that users can limit access to their database objects (tables, views, functions, etc.) created on the shared cluster.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Use Azure Databricks ephemeral cluster enhancements.
+    description: 'Ephemeral clusters run only one job at a time, so each executor`s JVM runs code from only one user. This makes ephemeral clusters more secure than shared clusters for Java and Scala code for AI workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Follow Azure Databricks access patterns and approaches to securing data in ADLS.
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Follow Azure Databricks best practices around access control.
+    description: 'Credential passthrough, secret management, enabling customer-managed keys for notebooks, configuring customer-managed keys for DBFS root, securing cluster connectivity, encrypting traffic between cluster worker nodes IP access lists, and configure domain name firewall rules.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Identifying and addressing security-related risks helps to minimize application downtime and data loss caused by unexpected security exposures.
+isRequired: false
+legacyId: '9'
+uid: 6a719c81-55f7-4f58-b6cd-39dc0ad8a318
+name: Identifying and addressing security-related risks helps to minimize application downtime and data loss caused by unexpected security exposures.

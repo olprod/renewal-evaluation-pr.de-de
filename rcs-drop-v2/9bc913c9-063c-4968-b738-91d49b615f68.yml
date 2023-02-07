@@ -1,0 +1,78 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: When communicating with Azure platform services managed identities are preferred over API keys and connection strings.
+    description: 'Try to avoid authentication with keys (connection strings, API keys etc.) and always prefer Managed Identities (formerly also known as Managed Service Identity, MSI). Managed identities enable Azure Services to authenticate to each other without presenting explicit credentials via code. Typical use case is a Web App accessing Key Vault credentials or a Virtual Machine accessing SQL Database.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: All APIs in this workload require clients to authenticate.
+    description: 'API URLs used by client applications are exposed to attackers (JavaScript code on a website can be viewed, mobile application can be decompiled and inspected) and should be protected. For internal APIs, requiring authentication can increase the difficulty of lateral movement if an attacker obtains network access. Typical mechanisms include API keys, authorization tokens, IP restrictions or Azure Managed identities.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: 'Modern authentication protocols (OAuth 2.0, OpenID) are used by this workload.'
+    description: Modern authentication protocols support strong controls such as MFA and should be used instead of legacy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: 'Azure Active Directory or other managed identity provider (Microsoft Account, Azure B2C etc.) is used for user authentication.'
+    description: 'If possible, applications should utilize Azure Active Directory or other managed identity providers (such as Microsoft Account, Azure B2C...) to avoid managing user credentials with custom implementation. Modern protocols like OAuth 2.0 use token-based authentication with limited timespan, identity providers offer additional functionality like multi-factor authentication, password reset etc.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: Authentication via identity services is prioritized for this workload vs. cryptographic keys.
+    description: 'Consideration should always be given to authenticating with identity services rather than cryptographic keys when available. Managing keys securely with application code is difficult and regularly leads to mistakes like accidentally publishing sensitive access keys to code repositories like GitHub. Identity systems (such as Azure Active Directory) offer secure and usable experience for access control with built-in sophisticated mechanisms for key rotation, monitoring for anomalies, and more.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: F
+    text: Conditional access policies are implemented for users of this workload.
+    description: 'Modern cloud-based applications are often accessible over the internet and location-based networking restrictions don''t make much sense, but it needs to be mapped and understood what kind of restrictions are required. Multi-factor Authentication (MFA) is a necessity for remote access, IP-based filtering can be used to enable ad-hoc debugging, but VPNs are preferred.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: G
+    text: Password-less or multi-factor authentication (MFA) is enforced for users of this workload.
+    description: Attack methods have evolved to the point where passwords alone cannot reliably protect an account. Modern authentication solutions including password-less and multi-factor authentication increase security posture through strong authentication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: H
+    text: Current on-premises Active Directory is synchronized with Azure AD or other cloud identity system.
+    description: Consistency of identities across cloud and on-premises will reduce human errors and resulting security risk. Teams managing resources in both environments need a consistent authoritative source to achieve security assurances.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'In cloud-focused architecture, identity provides the basis of a large percentage of security assurances. While legacy IT infrastructure often heavily relied on firewalls and network security solutions at the internet egress points for protection against outside threats, these controls are less effective in cloud architectures with shared services being accessed across cloud provider networks or the internet.'
+isRequired: false
+legacyId: identity
+uid: 9bc913c9-063c-4968-b738-91d49b615f68
+name: 'In cloud-focused architecture, identity provides the basis of a large percentage of security assurances.'

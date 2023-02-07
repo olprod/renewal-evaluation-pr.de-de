@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |+
+  You plan to deploy the database tier on SAP HANA to Azure (Large Instances) (HLI) for an SAP application running on an Azure VM. 
+
+  You need to identify the ExpressRoute Gateway SKU that should be used to establish connectivity between the Azure VM and HLI. Your solution must minimize cost. 
+
+  Which ExpressRoute gateway SKU should you identify? 
+
+questionnaireUid: d5f617bb-9178-401c-810a-bdab94d43cae
+questions:
+  - uid: fcc7388d-53f7-4c55-a477-0356e432c6b9-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You plan to deploy the database tier on SAP HANA to Azure (Large Instances) (HLI) for an SAP application running on an Azure VM.
+        isCorrect: false
+      - id: 1
+        text: You need to identify the ExpressRoute Gateway SKU that should be used to establish connectivity between the Azure VM and HLI.
+        isCorrect: false
+      - id: 2
+        text: Your solution must minimize cost.
+        isCorrect: true
+      - id: 3
+        text: Which ExpressRoute gateway SKU should you identify?
+        isCorrect: false
+    manualId: AZ-120.9.6
+uid: fcc7388d-53f7-4c55-a477-0356e432c6b9
+title: ''
+manualId: ''

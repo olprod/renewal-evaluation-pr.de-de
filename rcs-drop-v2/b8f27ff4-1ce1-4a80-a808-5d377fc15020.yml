@@ -1,0 +1,58 @@
+### YamlMime:SelfAssessment
+description: 'This assessment covers checklist, guidance and tips for partners when publishing and updating their solutions on AppSource to get maximum benefits of marketplace ecosystem. This assessment also guide partners on enabling the offering for CoSell Readiness / Prioritization as well keep it align with Microsoft Cloud advancements. This assessment is part of Center of Excellence (COE) Series for establishing and driving excellence in Partner Dynamics 365 Finance & Operations Delivery Practice.'
+duration: 30 Minutes
+questionnaireReferences:
+  - questionnaireUid: ec0eebbd-d2d0-415e-8c5f-f8184b09752b
+    isRequired: false
+  - questionnaireUid: b2e067a0-d96f-4704-9634-a2969c5347ee
+    isRequired: false
+  - questionnaireUid: 06c516c3-3fc3-46b4-8013-c14fe9ea0374
+    isRequired: false
+guidance:
+  title: 30 Minutes
+  description: 'AppSource Publication Excellence Recommendations '
+  providers: []
+  scoring:
+    title: We like our partners to be equipped with latest and greatest resources from our side be available for closing deals faster leveraging rich set of information available at partner disposal.
+    description: ''
+    calculationType: Average
+    scoresVerbage: Adhoc|Moderate|Optimal
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Muhammad
+  lastName: Aurangzeb
+  email: maurangzeb@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+metadataTags:
+  - dynamics-365
+  - dynamics-finance
+  - dynamics-scm
+  - dynamics-commerce
+relatedTags:
+  - bcb90547-d75e-47cd-b133-4c5340e68fc2
+  - e25722a7-e0ab-4e52-b928-5ce9461df1ed
+  - 388159e6-55f1-4287-86fa-09032f5ad812
+  - 22e1e9a8-0289-4dca-98ea-4515ad392a3a
+uid: b8f27ff4-1ce1-4a80-a808-5d377fc15020
+name: Your Current Assessment result as follows

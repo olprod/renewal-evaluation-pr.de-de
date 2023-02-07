@@ -1,0 +1,67 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: '"Landing zones" are used to predefine secure configurations that are enforced during deployment'
+    description: |
+      Azure Policy and deployment templates are used for repeatable deployment of secure configurations
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'Secure configuration baselines are established for each resource type, and alerts generated for non-compliance'
+    description: |
+      Use the "secure score" in Defender for Cloud to monitor Azure, AWS and GCP resources for insecure configurations
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'Perform periodic vulnerability scanning against compute, network and storage resources'
+    description: |
+      Use a vulnerability scanning solution (such as that in Defender for Cloud) to alert on vulnerabilities and insecure configurations
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Apply security updates in a timely manner
+    description: |
+      Rapidly and automatically deploy patches and updates to remediate vulnerabilities in your cloud resources. Use the appropriate risk-based approach to prioritize the remediation of the vulnerabilities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: Conduct regular red team operations against your organization's assets
+    description: |
+      Periodically conduct penetration testing or red team activities on your resources and ensure remediation of all critical security findings
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: cc855aa8-ebb6-4d31-9cc3-de4ae2402636
+name: How do you manage the security posture of deployed assets?

@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  MAM can be used to manage Microsoft 365 Apps.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: c9f283d2-7135-4f89-9c04-079ed2fd94bc
+questions:
+  - uid: f15baee5-2b27-4264-85b1-2cd394c3b270-q-0
+    title: MAM can be used to manage Microsoft 365 Apps.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Select Yes if the statement is true.
+        isCorrect: true
+      - id: 1
+        text: 'Otherwise, select No.'
+        isCorrect: false
+uid: f15baee5-2b27-4264-85b1-2cd394c3b270
+title: MAM can be used to manage Microsoft 365 Apps.

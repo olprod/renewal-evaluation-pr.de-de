@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Specify security baselines for server and client endpoints • Specify security requirements for servers, including multiple platforms and operating systems • Specify security requirements for mobile devices and clients, including endpoint protection, hardening, and configuration • Specify requirements to secure Active Directory Domain Services • Design a strategy to manage secrets, keys, and certificates • Design a strategy for secure remote access'
+isRequired: true
+uid: 02441542-0b23-4059-b93a-f26e8c60c4f7
+name: 'Specify security baselines for server and client endpoints • Specify security requirements for servers, including multiple platforms and operating systems • Specify security requirements for mobile devices and clients, including endpoint protection, hardening, and configuration • Specify requirements to secure Active Directory Domain Services • Design a strategy to manage secrets, keys, and certificates • Design a strategy for secure remote access '

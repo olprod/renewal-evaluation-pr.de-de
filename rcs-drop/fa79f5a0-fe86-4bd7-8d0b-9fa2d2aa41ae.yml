@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You manage an Azure Stack Hub integrated system. The administrator portal is accessible at the URL https://adminportal.eastus.contoso.com.
+
+  You need to disable multi-tenancy of the Azure Stack Hub integrated system.
+
+  Which endpoint should you reference when running the Unregister-AzGuestDirectoryTenant cmdlet?
+questionnaireUid: 027553a3-82aa-4b28-88cb-e69c444af4bc
+questions:
+  - uid: fa79f5a0-fe86-4bd7-8d0b-9fa2d2aa41ae-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'https://graph.eastus.contoso.com'
+        isCorrect: false
+      - id: 1
+        text: 'https://management.eastus.contoso.com'
+        isCorrect: false
+      - id: 2
+        text: 'https://adminmanagement.eastus.contoso.com'
+        isCorrect: true
+      - id: 3
+        text: 'https://adminportal.eastus.contoso.com'
+        isCorrect: false
+uid: fa79f5a0-fe86-4bd7-8d0b-9fa2d2aa41ae
+title: ''

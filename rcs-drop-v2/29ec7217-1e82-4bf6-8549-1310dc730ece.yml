@@ -1,0 +1,53 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Beginner '
+    description: |
+      Beginner 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Intermediate
+    description: |
+      Intermediate
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Advanced '
+    description: |
+      Advanced 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: '[Or] I have completed "Manage apps for Microsoft Teams" module on Microsoft learn | 59 min'
+    description: |
+      If this is your first time taking the learner self-assessment or have yet to complete this learning, please don't choose this answer.  
+      This will allow the self-assessment results to provide you with the best learning recommendations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'This includes describe apps, bots, and connectors in Microsoft Teams, explore admin settings for Teams apps, manage app permission policies, configure app setup policies, manage custom app policies and settings, and publish a custom app in Microsoft Teams.'
+isRequired: true
+uid: 29ec7217-1e82-4bf6-8549-1310dc730ece
+name: 'This includes describe apps, bots, and connectors in Microsoft Teams, explore admin settings for Teams apps, manage app permission policies, configure app setup policies, manage custom app policies and settings, and publish a custom app in Microsoft Teams.'

@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We use NSGs to help protect traffic across subnets, as well as east/west traffic across the platform (traffic between landing zones).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Application teams use application security groups at the subnet-level to help protect multitier VMs within landing zones.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We use NSGs and Application Security Groups to micro-segment traffic within the landing zone and avoid using a central NVA to filter traffic flows.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: We enable NSG flow logs on all critical VNets/subnets in our subscription as an audit-ability and security best practice.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: c86c3b7f-4101-4847-b9cb-b6248fcf4421
+name: 'The following statements are true about our requirements and strategy of how we implement NSG to protect traffic across subnets, as well as east-west traffic across the platform'

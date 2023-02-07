@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - f5e9a708-1433-4695-850f-9a82fd346bd7
+  - 0aa4bfce-d46b-41cb-a8cf-b1c86ebb4632
+  - f78b22a1-e6c9-4978-979f-dffa56063efa
+  - 0c110dd5-e050-49de-ba19-32edaad202ce
+  - e8ac91e2-03e5-4c4f-8074-cc1767e6c19d
+  - 71f6ac26-f836-4943-8a09-3b63f7b72d5c
+recommendations:
+  - e53d53f0-24f7-4111-a380-d8633ad4621e
+assignedGroupIds: []
+uid: ed15be10-553c-42e7-921d-f34da37df85f
+name: SQL DB - Security

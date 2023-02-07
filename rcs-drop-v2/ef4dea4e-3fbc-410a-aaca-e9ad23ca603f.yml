@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: L
+    text: Use data partitioning strategy to run experiments in parallel if possible.
+    description: 'Azure Machine Learning ParallelRunStep enables data to spilt into multiple parts, and then run in parallel on multiple nodes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: P
+    text: Use autoscaling on clusters where appropriate
+    description: 'For training, create Azure Machine Learning compute clusters with a minimum of zero nodes to allow auto-shut down and to scale up on demand.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: Q
+    text: Use Azure Machine Learning pipeline step to process large amounts of data asynchronously and in parallel.
+    description: Common use cases for pipelines are training a model or running offline inference to generate predictions on a batch of observations. ParallelRunStep works by breaking up your data into batches that are processed in parallel. The batch size node count and other tunable parameters to speed up your parallel processing can be controlled with the ParallelRunConfig class.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: R
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+    - waf-config-golive.waf-scenario.ai
+stem: 'As traffic fluctuates into your application, the amount of underlying resources that you need vary over time.'
+isRequired: false
+legacyId: '0'
+uid: ef4dea4e-3fbc-410a-aaca-e9ad23ca603f
+name: 'As traffic fluctuates into your application, the amount of underlying resources that you need vary over time.'

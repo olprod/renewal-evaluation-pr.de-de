@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 37ddf562-3f06-4e90-8a3c-6c023061d085
+recommendations:
+  - 38903e4b-3b95-42aa-8c80-471ac75fc27e
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: 7c775491-76a7-43a8-9522-43d94915bd46
+name: 'Sustainability for AKS: Networking and connectivity'

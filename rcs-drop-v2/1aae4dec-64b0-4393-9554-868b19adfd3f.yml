@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Azure Site Recovery Recovery Plan configured and tested twice every year as part of Disaster Recovery[DR]-Drill exercise.'
+    description: Disaster Recovery approach tested regularly?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '1'
+    text: Automation Runbook used as part of Azure Site Recovery Plan to automated failover activities.
+    description: Tasks can be configured as the scripts to automate pre/post configuration as part of SAP failover eg. SAP (A)SCS failover.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '2'
+    text: Automatic update of the Mobility service in Azure-to-Azure replication configured.
+    description: 'Azure Site Recovery uses a monthly release cadence to fix any issues and enhance existing features or add new ones. To remain current with the service, you must plan for patch deployment each month. To avoid the overhead associated with each upgrade, you can allow Site Recovery to manage component updates.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: Private i.p's pre-configured in target region to help with post configuration tasks
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 1aae4dec-64b0-4393-9554-868b19adfd3f
+name: What is your approach to SAP workload recovery and failover?

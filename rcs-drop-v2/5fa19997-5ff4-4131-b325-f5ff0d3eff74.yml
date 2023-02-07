@@ -1,0 +1,33 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Monitor with your Azure Synapse Analytics workspace.
+    description: Monitors also help you avoid potential problems and troubleshoot past ones. You can use monitoring data to gain deep insights about your applications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Use Azure Synapse Studio to monitor your Apache Spark applications.
+    description: 'Monitor running Apache Spark Applications, View completed Apache Spark Applications, View canceled Apache Spark Applications and Debug failed Apache Spark Applications'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: monitor-data-synapse
+uid: 5fa19997-5ff4-4131-b325-f5ff0d3eff74
+name: How are you monitoring your deployments?

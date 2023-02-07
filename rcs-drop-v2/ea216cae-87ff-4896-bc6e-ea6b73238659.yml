@@ -1,0 +1,151 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-ready.png
+description: 'Create and implement a skills readiness plan to define support needs, address current gaps, and ensure that your business and IT employees are prepared for the changes and new technologies.'
+links:
+  - title: VMware host migration best practices for Azure
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/vmware-host
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.20bed01b-6b64-43e4-a17c-794f31890750.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Re-host an on-premises app on Azure VMs. Read how the fictional company Contoso re-hosts a two-tier Windows .NET front-end app running on VMware VMs, by migrating the app VMs to Azure VMs.'
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-rehost-vm
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.20bed01b-6b64-43e4-a17c-794f31890750.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.20bed01b-6b64-43e4-a17c-794f31890750.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Read how the fictional company Contoso re-hosts a two-tier Linux-based Apache MySQL PHP (LAMP) app, using Azure IaaS VMs.'
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-rehost-linux-vm
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.20bed01b-6b64-43e4-a17c-794f31890750.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.20bed01b-6b64-43e4-a17c-794f31890750.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Read how the fictional company Contoso re-hosts a two-tier Linux-based Apache/MySQL/PHP (LAMP) app, migrating it from on-premises to Azure using Azure VMs and Azure Database for MySQL.'
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-rehost-linux-vm-mysql
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.20bed01b-6b64-43e4-a17c-794f31890750.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.20bed01b-6b64-43e4-a17c-794f31890750.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Refactor a Linux app to multiple regions using Azure App Service, Traffic Manager, and Azure Database for MySQL. Read about how the fictional company Contoso rearchitects a two-tier Windows .NET app running on VMware VMs as part of a migration to Azure'
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-rearchitect-container-sql
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.d3667c3f-b6fe-4cf3-8e3a-d2e943df0802.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: SQL Server migration overview and Migration Guides - Migration of an entire SQL Server to Azure may accelerate the standard migration methodology outlined in the Cloud Adoption Framework
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/sql-migration
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.d3667c3f-b6fe-4cf3-8e3a-d2e943df0802.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.d3667c3f-b6fe-4cf3-8e3a-d2e943df0802.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Azure Database Migration Service enables seamless migrations from multiple database sources to Azure Data platforms with minimal downtime. '
+    url: '/azure/dms/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.d3667c3f-b6fe-4cf3-8e3a-d2e943df0802.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.d3667c3f-b6fe-4cf3-8e3a-d2e943df0802.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Rearchitect an on-premises app to an Azure container and Azure SQL Database. Read an example about fictional company Contoso rearchitecting their Windows .Net app
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-rearchitect-container-sql
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.de64484f-e4ce-4ca3-89c2-53bc96e2ae4d.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about when to rearchitect an app?
+    url: /azure/cloud-adoption-framework/digital-estate/5-rs-of-rationalization#rearchitect
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.de64484f-e4ce-4ca3-89c2-53bc96e2ae4d.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.de64484f-e4ce-4ca3-89c2-53bc96e2ae4d.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about when to rebuild an app?
+    url: /azure/cloud-adoption-framework/digital-estate/5-rs-of-rationalization#rebuild
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.0cf52c70-c563-466d-b750-ceea281bf643.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.0cf52c70-c563-466d-b750-ceea281bf643.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Make the switch from a mainframe to Azure.
+    url: /azure/cloud-adoption-framework/infrastructure/mainframe-migration/migration-strategies
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.5011477e-0657-4159-a3e0-40710e68cf88.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: When would you consider a mainframe migration
+    url: /azure/cloud-adoption-framework/infrastructure/mainframe-migration/
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.5011477e-0657-4159-a3e0-40710e68cf88.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.5011477e-0657-4159-a3e0-40710e68cf88.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Assess your governance baseline in your secure environment
+    url: 'https://aka.ms/adopt/gov/assess'
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.43c3a55c-bf61-4a96-8873-9e61a72612fa.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create a secure environment prior to migrating or innovating using Azure Blueprint
+    url: /azure/governance/blueprints/overview
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.43c3a55c-bf61-4a96-8873-9e61a72612fa.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.43c3a55c-bf61-4a96-8873-9e61a72612fa.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Assess each workload, challenge assumptions about each workload''s suitability for migration, and finalize architectural decisions about migration options'
+    url: /azure/cloud-adoption-framework/migrate/azure-migration-guide/assess?tabs=Tools
+    condition:
+      anyOf:
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.e5b61306-f305-48df-9edd-d57097ef0315.B
+        - ready.e0641d8c-bf60-43b9-99ac-46746f548233.e5b61306-f305-48df-9edd-d57097ef0315.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: ea216cae-87ff-4896-bc6e-ea6b73238659
+name: Ready

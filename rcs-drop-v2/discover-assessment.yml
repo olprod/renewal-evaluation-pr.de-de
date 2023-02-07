@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Discovery of on-premises environment leading to a defined migration scope.
+hideEmptyGuidance: false
+questions:
+  - 72df2647-e9ab-489a-a094-e1fdb0c8a897
+  - 72a56d47-06bb-4d15-9422-0ce0a150f451
+  - 9a98bda7-9add-4c03-8c06-bbf4cbf40054
+recommendations:
+  - 0a055ab0-a55c-463c-8ace-e154b0939acb
+assignedGroupIds: []
+uid: discover-assessment
+name: Discovery & Assessment

@@ -1,0 +1,22 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This focusses on organization''s maturity against Cloud Foundations (Technology and Infrastructure) dimension to create a holistic view of current state and provides a structured framework for developing maturity in each capability. '
+hideEmptyGuidance: false
+questions:
+  - 45cab142-02b8-410b-be89-90ec627c3125
+  - f69748ce-98d6-4604-9dad-211f8e2586a9
+  - 98e85e41-2d1c-43c7-ae8b-2b96181f02b1
+  - ae177bbc-e461-4096-9c22-20b922e6138e
+  - 952808a1-81dd-49c2-b6b7-aa03cca5b692
+  - 4300d2bc-0565-42b5-9c08-d47ecf463257
+  - 3e62e808-4238-437d-9f9d-a8f5aa491dfa
+  - f8d2ea5d-2728-44dc-82f2-5536c627fcf9
+  - 948952b3-7e1a-4578-aa3e-6323b9602110
+  - e175fbe4-9953-4a2b-a726-03cf4bfbcf7e
+  - 8aa3d8e3-c98b-4ea1-9fdc-c375fd5a3e4b
+  - d1248c1b-2a5f-443c-a553-bc7c1f35d89e
+recommendations:
+  - 2561ac97-ab00-4d47-ba6f-13bcb1b8f5df
+assignedGroupIds: []
+uid: 5a28c413-6f20-4d41-8210-174535467739
+name: Maturity Framework - Cloud Foundations (Technology and Infrastructure) Pillar

@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We are aware of key considerations and requirements for AI and ML in multitenant solutions, such as tenant isolation requirements.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'We understand different types of models, including tenant-specific models, shared models, and tenant-specific tuning of shared models.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We are familiar with common approaches and patterns to consider regarding scalability, performance, implementation complexity, and cost optimization.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'We are familiar with approaches and patterns to consider using when building AI and ML, including prebuilt and custom AI/ML services, as well as integrated AI/ML solutions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: We understand that failure to consider isolation requirements and  noisy neighbors are antipatterns to avoid for AI and ML in multitenant solutions.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'An ever-increasing number of multitenant solutions are built around artificial intelligence (AI) and machine learning (ML). A multitenant AI/ML solution is one that provides similar ML-based capabilities to any number of tenants. Tenants generally can''t see or share the data of any other tenant, but in some situations, tenants might use the same models as other tenants.'
+isRequired: true
+uid: d86847e2-6a88-46bf-bb21-36c4733f4904
+name: An ever-increasing number of multitenant solutions are built around artificial intelligence (AI) and machine learning (ML).

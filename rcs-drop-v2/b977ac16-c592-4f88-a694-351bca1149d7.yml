@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Monitor for normal and abnormal activity
+    url: /azure/cosmos-db/monitor-cosmos-db
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f1013c17-4702-4586-8a9c-9718d135025d.083175d7-1dca-490a-9101-e041996f8286.A
+      scoreOf: []
+    context: 'The Azure Activity Log is a subscription log that provides insight into subscription-level events that have occurred in Azure. The Activity Log reports control-plane events for your subscriptions under the Administrative category. Using the Activity Log, you can determine the ?what, who, and when? for any write operations (PUT, POST, DELETE) taken on the resources in your subscription. You can also understand the status of the operation and other relevant properties. The Activity Log differs from Diagnostic Logs. Activity Logs provide data about the operations on a resource from the outside (the ''control plane''). In the Azure Cosmos DB context, some of the control plane operations include create collection, list keys, delete keys, list database, etc. Diagnostics Logs are emitted by a resource and provide information about the operation of that resource (the ''data plane''). Some of the data plane diagnostic log examples will be delete, insert, readfeed operation, etc. Activity Logs (control plane operations) may be much more richer in nature, they may include the full email address of the caller, caller IP address, resource name, operation name, and TenantId, etc. The Activity Log contains several categories of data. For full details on the schemata of these categories, see Azure Activity Log event schema. However, Diagnostic Logs can be restrictive in nature as PII data is often stripped from them. So, you may have the IP address of the caller, but the last octant is removed. Azure Metrics, have the most important type of Azure telemetry data (also called performance counters) emitted by most Azure resources. Metrics enable you to view information about throughput, storage, consistency, availability, and the latency of your Azure Cosmos DB resources. For more information see Monitoring and debugging with metrics in Azure Cosmos DB. Azure Diagnostic Logs are logs emitted by a resource and provide rich, frequent data about the operation of that resource. The content of these logs varies by resource type. Resource-level diagnostic logs also differ from guest OS-level diagnostic logs. Guest OS diagnostic logs are those collected by an agent running inside of a virtual machine or other supported resource type. Resource-level diagnostic logs require no agent and capture resource-specific data from the Azure platform itself, while guest OS-level diagnostic logs capture data from the operating system and applications running on a virtual machine.'
+    priority: 75
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+  - title: Monitor Azure Cosmos DB data by using diagnostic settings
+    url: /azure/cosmos-db/cosmosdb-monitor-resource-logs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f1013c17-4702-4586-8a9c-9718d135025d.083175d7-1dca-490a-9101-e041996f8286.B
+      scoreOf: []
+    context: 'The Activity Log differs from Diagnostic Logs. Activity Logs provide data about the operations on a resource from the outside (the ''control plane''). Control plane operations may be much more richer in nature, they may include the full email address of the caller, caller IP address, resource name, operation name, and TenantId, etc.'
+    priority: 50
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+uid: b977ac16-c592-4f88-a694-351bca1149d7
+name: ''

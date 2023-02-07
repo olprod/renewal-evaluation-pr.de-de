@@ -1,0 +1,240 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: 1ab1b481-41d1-42d5-885b-7b628db6eae7
+    name: 'Are you aware of any existing financial model that your organization is set up with. Ex. Cost center model. Charge-back, Profit center model.'
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: 196fcb00-ad4c-420c-b6d4-8c9cb2a78c72
+    name: Do you understand how billing works and how to manage costs?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '3'
+    uid: ef9f5d34-cce2-4963-9944-efb0254ed189
+    name: Does your organization have needs to run workloads across public cloud and on premise (hybrid cloud)?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '4'
+    uid: 88b8cdf0-7b53-47fe-b806-c75d1e57a265
+    name: Do assets within your workload require connectivity to on-premises data center?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '5'
+    uid: 369261a4-30dc-4038-a495-6101f8807b4e
+    name: 'Does your organization have needs to run workloads across multiple cloud providers (Azure + Amazon Web Services ,Google Cloud Platform, Other)?'
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '6'
+    uid: d3e728d8-5900-4bc3-8b49-8a2d6a511b0d
+    name: Do you have an approved and comprehensive project plan to drive your organization through transformation?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '7'
+    uid: a44aa79c-a2fc-4565-bf65-931d80b5298f
+    name: 'Do you have a thorough inventory of assets, including applications, software, hardware, operating systems, and system performance metrics?'
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '8'
+    uid: 39d73f59-c37a-445a-a2eb-00b06e0ddea1
+    name: 'Do you have the inventory of assessments of your current digital estate (IT assets that include apps, data, infrastructure, process)?'
+stem: 'Catalog all of your workloads, applications, data sources, virtual machines, and other IT assets and evaluate them to determine the best way to host them in the cloud. Based on that create an actionable cloud adoption plan.'
+isRequired: true
+legacyId: '1'
+uid: db04c2e4-f1bd-4624-956a-202c8e7c0622
+name: 'Catalog all of your workloads, applications, data sources, virtual machines, and other IT assets and evaluate them to determine the best way to host them in the cloud.'

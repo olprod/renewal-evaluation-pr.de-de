@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Apply network segmentation best practices for SQL Server data workloads, using NSGs, ASGs, UDRs, and dedicated subnets.'
+    description: Segmentation refers to the isolation of resources from other parts of the organization. It's an effective way of detecting and containing adversary movements.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: DDoS mitigation plan is in place.
+    description: DDoS attacks are prevalent and are easily carried out by unsophisticated attackers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: Implement data exfiltration protection policies such as VNET service endpoint policies for Azure Storage which can limit data egress to only specific Azure Storage accounts
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: 'If public access is not required, use only local or private VNET communication between SQL Server and your application.'
+    description: Avoid assigning public access via Internet whenever possible in order to reduce attack surface.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Enable encrypted connections (data in transit) to the SQL Server database engine.
+    description: 'If data moving over a network is not encrypted, there''s a chance that it can be captured and stolen by unauthorized users.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: 'For increased security, configure SQL Server to listen on a non-default port.'
+    description: 'By default, SQL Server listens on a well-known port, 1433.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: 'Restrict network port traffic at various levels using native capabilities, such as Azure Firewall, NSGs, and Windows Firewall.'
+    description: 'Use JIT VM access/Azure Bastion to protect your VMs from exposing RDP/SSH ports to the outside world, while still providing secure access using RDP/SSH.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: c11c742b-796e-4fb9-8c0a-f63c6d1627ab
+name: How have you secured the network of your workload?

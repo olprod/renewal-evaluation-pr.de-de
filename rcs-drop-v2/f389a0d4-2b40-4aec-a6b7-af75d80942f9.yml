@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Application''s RPO (Recovery Point Objective)  and RTO (Recovery Time Objective) targets have been defined, and validated that Azure SQL MI can achieve them.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: "Availability SLAs (Service Level Agreements) have been defined for the solution\_and considered while architecting the solution."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: "Composite SLA (including Azure SQL\_ MI SLAs) have been defined for the service and considered while architecting the solution."
+    description: 'Composite SLAs involve multiple services supporting an application, each with differing levels of availability'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: targets-data-sqlmi
+uid: f389a0d4-2b40-4aec-a6b7-af75d80942f9
+name: What reliability targets and metrics have you defined for your databases?

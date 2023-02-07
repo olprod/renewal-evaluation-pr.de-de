@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Deploy timer-based scaling for Synapse Analytics dedicated SQL pool with an Azure Resource Manager template.
+    description: Use Azure Functions to manage compute resources for your dedicated SQL pool in Azure Synapse Analytics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Monitor Azure Synapse Analytics resource utilization and query activity.
+    description: Use Azure Synapse Analytics Workload Management Portal Monitoring.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: C
+    text: Monitor resource utilization and query activity in Azure Synapse Analytics.
+    description: Azure Synapse Analytics provides a rich monitoring experience within the Azure portal to surface insights regarding your data warehouse workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: D
+    text: Use Azure Synapse Analytics Studio to monitor your Apache Spark application.
+    description: 'With Azure Synapse Analytics, you can use Apache Spark to run notebooks, jobs, and other kinds of applications on your Apache Spark pools in your workspace.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 2b124912-964d-4f7c-ae5c-57b3b167f4cd
+name: How are you monitoring to ensure the workload is scaling appropriately?

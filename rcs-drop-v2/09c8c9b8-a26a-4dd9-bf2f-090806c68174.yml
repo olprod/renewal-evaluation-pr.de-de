@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has limited understanding on how data products will provide value and information about who owns each data product.
+    description: Your organization has limited understanding on how data products will provide value and information about who owns each data product.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has a fair understanding and planned need for how data contracts can help gain data usage insights because they provide information about who owns each data product.
+    description: Your organization has a fair understanding and planned need for how data contracts can help gain data usage insights because they provide information about who owns each data product.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization leverages data contracts provide insight into coupling and dependencies between domains and applications.
+    description: Your organization leverages data contracts provide insight into coupling and dependencies between domains and applications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization leverages data contracts to simplify oversight and managing compatibility of data products.
+    description: Your organization leverages data contracts to simplify oversight and managing compatibility of data products.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization fully leverages data contract to guarantees interface compatibility.
+    description: Your organization fully leverages data contract to guarantees interface compatibility.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you use Data Contracts and/or how to you gain data usage insights and information about who owns each data product?
+isRequired: true
+uid: 09c8c9b8-a26a-4dd9-bf2f-090806c68174
+name: Do you use Data Contracts and/or how to you gain data usage insights and information about who owns each data product?

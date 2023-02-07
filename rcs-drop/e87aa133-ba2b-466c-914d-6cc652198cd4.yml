@@ -1,0 +1,39 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are creating a Power Automate for desktop environment. 
+
+  The environment must meet the following requirements: 
+
+  - Contain only managed solutions accessed by Microsoft Power Platform admins. 
+
+  - Accessed by a select few business users for testing. 
+
+  - Accessed once per week. 
+   
+  Which environment type should you use? 
+questionnaireUid: 5ee3a29d-5783-4c64-b7ab-b1a64eca3245
+questions:
+  - uid: e87aa133-ba2b-466c-914d-6cc652198cd4-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are creating a Power Automate for desktop environment.
+        isCorrect: true
+      - id: 1
+        text: 'The environment must meet the following requirements:'
+        isCorrect: false
+      - id: 2
+        text: Contain only managed solutions accessed by Microsoft Power Platform admins.
+        isCorrect: false
+      - id: 3
+        text: Accessed by a select few business users for testing.
+        isCorrect: false
+      - id: 4
+        text: Accessed once per week.
+        isCorrect: false
+    manualId: Question 30-PL-500.7.1
+uid: e87aa133-ba2b-466c-914d-6cc652198cd4
+title: ''
+manualId: ''

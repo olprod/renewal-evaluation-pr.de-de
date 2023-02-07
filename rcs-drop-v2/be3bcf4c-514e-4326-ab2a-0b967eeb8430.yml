@@ -1,0 +1,120 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use cost management tools to plan and track costs
+    url: 'https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-optimize-cost'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-ai-aml.e0d45682-8849-430a-9229-a27855bcdf22.C
+      scoreOf: []
+    context: 'Use the following tips to manage and optimize your compute resource costs: Configure your training clusters for autoscaling, Set quotas on your subscription and workspaces, Set termination policies on your training run, Use low-priority Virtual Machines (VM), Schedule compute instances to shut down and start automatically, Use an Azure Reserved VM Instance, Train locally, Parallelize training, Set data retention and deletion policies, Deploy resources to the same region.'
+    priority: 25
+    reportingCategory: Cost Effectiveness
+    reportingSubCategory: Cost management
+  - title: Identify and use right-sized compute for machine learning models
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/innovate/best-practices/dev-train-comp-instances-for-ml'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-ai-aml.e0d45682-8849-430a-9229-a27855bcdf22.D
+      scoreOf: []
+    context: 'When determining development, training, and compute instances for your Machine Learning model, consider the algorithm that you are using, data type, data sizes, and if you will perform distributed training'
+    priority: 75
+    reportingCategory: Cost Effectiveness
+    reportingSubCategory: Compute management
+  - title: Leverage local vs remote managed compute for Automated Machine Learning to reduce costs.
+    url: /azure/machine-learning/concept-automated-ml
+    condition:
+      noneOf:
+        - Cost-ai-aml.e0d45682-8849-430a-9229-a27855bcdf22.E
+    context: 'Automated Machine Learning, also referred to as automated ML or AutoML, is the process of automating time-consuming, iterative tasks of Machine Learning model development. It allows data scientists, analysts, and developers to build Machine Learning models with high scale, efficiency, and productivity while sustaining model quality. Automated ML in Azure Machine Learning is based on a breakthrough from our Microsoft Research division.'
+    priority: 75
+    reportingCategory: Cost Effectiveness
+    reportingSubCategory: Data scalability
+  - title: Use an appropriately sized Compute Instance and Compute Cluster for Training and Inference.
+    url: /azure/machine-learning/concept-compute-target
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-ai-aml.e0d45682-8849-430a-9229-a27855bcdf22.K
+      scoreOf: []
+    context: A compute target is a designated compute resource or environment where you run your training script or host your service deployment. This location may be your local machine or a cloud-based compute resource. Using compute targets makes it easy for you to later change your compute environment without having to change your code
+    priority: 75
+    reportingCategory: Cost Effectiveness
+    reportingSubCategory: Manage compute cluster
+  - title: Plan and manage costs for Azure Machine Learning Services.
+    url: /azure/machine-learning/concept-plan-manage-cost
+    condition:
+      noneOf:
+        - Cost-ai-aml.c177c0d5-5da9-489e-89bd-faf2aa57cb8a.D
+    context: 'Azure Machine Learning costs are only a portion of the monthly costs in your Azure bill. If you are using other Azure services, you are billed for all the Azure services and resources used in your Azure subscription, including third-party services. This article explains how to plan and manage costs for Azure Machine Learning. After you are familiar with managing costs for Azure Machine Learning, apply similar methods to manage costs for all the Azure services used in your subscription'
+    priority: 25
+    reportingCategory: Cost Modeling
+    reportingSubCategory: Estimate cost
+  - title: Use cost alerts for Azure Machine learning service
+    url: /azure/machine-learning/concept-plan-manage-cost#get-cost-alerts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-ai-aml.c177c0d5-5da9-489e-89bd-faf2aa57cb8a.I
+      scoreOf: []
+    context: 'Plan and manage costs for Azure Machine Learning. Use the Azure pricing calculator to help plan for costs before you add any resources, as you add the Azure resources, review the estimated costs. After you''ve started using Azure Machine Learning resources, use the cost management features to set budgets and monitor costs. Also review the forecasted costs and identify spending trends to identify areas where you might want to act.Understand that the costs for Azure Machine Learning are only a portion of the monthly costs in your Azure bill. If you are using other Azure services, you''re billed for all the Azure services and resources used in your Azure subscription, including the third-party services.'
+    priority: 70
+    reportingCategory: Cost Modeling
+    reportingSubCategory: Metric alerts
+  - title: Track and monitor AML costs
+    url: /azure/machine-learning/concept-plan-manage-cost#monitor-costs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-ai-aml.e0d45682-8849-430a-9229-a27855bcdf22.C
+      scoreOf: []
+    context: 'As you use Azure resources with Azure Machine Learning, you incur costs. Azure resource usage unit costs vary by time intervals (seconds, minutes, hours, and days) or by unit usage (bytes, megabytes, and so on). As soon as Azure Machine Learning use starts, costs are incurred and you can see the costs in cost analysis'
+    priority: 75
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Monitor costs
+  - title: 'Optimize your cloud investment with cost management '
+    url: /azure/cost-management-billing/costs/cost-mgt-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-ai-aml.e0d45682-8849-430a-9229-a27855bcdf22.J
+      scoreOf: []
+    context: 'Cost Management gives you the tools to plan for, analyze and reduce your spending to maximize your cloud investment.'
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Optimize investment
+  - title: Plan and manage costs for Azure Machine Learning Services.
+    url: 'https://azure.microsoft.com/en-us/pricing/calculator/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-ai-aml.c177c0d5-5da9-489e-89bd-faf2aa57cb8a.D
+      scoreOf: []
+    context: Plan your cost of services ahead of the time by using Azure price calculator
+    priority: 75
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Cost management
+  - title: Use an appropriately sized Compute Instance and Compute Cluster for Training and Inference.
+    url: /azure/machine-learning/how-to-deploy-managed-online-endpoints
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-ai-aml.e0d45682-8849-430a-9229-a27855bcdf22.K
+      scoreOf: []
+    context: 'Managed online endpoints help  deploy your Machine Learning models in a turnkey manner. Managed online endpoints work with powerful CPU and GPU machines in Azure in a scalable, fully managed way. Managed online endpoints take care of serving, scaling, securing, and monitoring your models, freeing you from the overhead of setting up and managing the underlying infrastructure'
+    priority: 75
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Compute options
+uid: be3bcf4c-514e-4326-ab2a-0b967eeb8430
+name: ''

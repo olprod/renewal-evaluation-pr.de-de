@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have an established process or an individual responsible for monitoring and managing our Azure Container Registry storage consumption.
+    description: Each ACR SKU has storage constraints applied. It is recommended that deprecated and unneeded images are actively removed from the registry to reduce storage consumption. It is also good practice to regularly clean-up orphaned (or "dangling") images. These images are a result of pushing updated images with the same tag.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: The Azure Container Registry instance is deployed in the same region as the container deployments.
+    description: Placing your registry in a region that is close to the container hosts will help to reduce image pull latency and data egress costs. It is best practice to create your container registry in the same Azure region in which you deploy your containers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: We have enabled geo-replication for your Azure Container Registry.
+    description: 'Enabling geo-replication for your Azure Container Registry will enable you to continue to pull images in the event of a short-term region-wide outage and a longer-term disaster. Using the geo-replication feature means that only a single registry needs to be managed, rather than multiple to provide high-availability. In addition to the high-availability benefits, geo-replication also allows container hosts to perform network-close registry access for regional container deployments. There are no additional egress fees in this scenario.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: 'We have a strategy to enable images to be pulled, and workload deployments to continue in the event of an Azure outage in the region in which your Azure Container Registry is deployed.'
+    description: 'In the event of an outage in an Azure region, it won''t be possible to pull images to deploy workloads. If the outage is caused by a disaster, then the outage may long-term which will limit the ability to deploy workloads for a prolonged period of time. Consider deploying ACR in multiple regions to provide resilience against regional outages, or upgrade to the Premium SKU to take advantage of geo-replication of your container images. Using the geo-replication feature means that only a single registry needs to be managed, rather than multiple to provide high-availability. In addition to the high-availability benefits, geo-replication also allows container hosts to perform network-close registry access for regional container deployments. There are no additional egress fees in this scenario.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for Azure Container Registry. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Azure Container Registry
+uid: 72e46a7d-5e49-40bb-8244-e6669cce4b51
+name: Please choose the applicable Well-Architected reliability considerations for Azure Container Registry.

@@ -1,0 +1,38 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Dynamics 365 Finance.
+
+  A sales order includes the following lines:
+
+  - Line 1 has both revenue schedule and revenue price
+
+  - Line 2 only has revenue price
+
+  - Line 3 only has a revenue schedule
+
+  - Line 4 has neither revenue price nor revenue schedule
+
+  You generate an invoice for the sales order.
+
+  How many lines in the invoice have their revenue recognized?
+questionnaireUid: 933e1e45-5ba9-43ba-8395-14802cb57ff0
+questions:
+  - uid: f7a4e719-25f8-481f-88e2-03f9731d293e-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company uses Dynamics 365 Finance.
+        isCorrect: false
+      - id: 1
+        text: 'A sales order includes the following lines:'
+        isCorrect: true
+      - id: 2
+        text: Line 1 has both revenue schedule and revenue price
+        isCorrect: false
+      - id: 3
+        text: Line 2 only has revenue price
+        isCorrect: false
+uid: f7a4e719-25f8-481f-88e2-03f9731d293e
+title: ''

@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have an Azure subscription that contains the following resources:
+
+  - A network interface named NIC1
+  - A virtual machine named VM1
+  - A virtual network named VNET1
+  - A virtual subnet named Subnet1
+
+  You create a network security group (NSG) named NSG1.
+
+  To which resources can you assign NSG1?
+questionnaireUid: fcbe5d62-0a6c-476e-85ae-5ddc6062a02b
+questions:
+  - uid: ebfcd797-f451-4e9c-8a09-6780913c924c-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You have an Azure subscription that contains the following resources:'
+        isCorrect: false
+      - id: 1
+        text: A network interface named NIC1
+        isCorrect: false
+      - id: 2
+        text: A virtual machine named VM1
+        isCorrect: true
+      - id: 3
+        text: A virtual network named VNET1
+        isCorrect: false
+uid: ebfcd797-f451-4e9c-8a09-6780913c924c
+title: ''

@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Heads rolled so we get back with the program
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: We get a lot of push back and are reminded of other things that went wrong
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: We get some push back and are told to do better next time
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'If we can present lessons learned we get the benefit of the doubt '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: We are encouraged to find out the effect by making non-fatal experiments
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Curiosity can be a strong motivator for many to start learning! By far, one of the most important enablers for the team to start adopting a DevOps mindset is the curiosity to continuously learn, adapt and improve their skills and knowledge from failures.'
+isRequired: true
+uid: 9c0fe2fc-4b23-4e30-bd64-d6272510f69c
+name: 'Curiosity can be a strong motivator for many to start learning! '

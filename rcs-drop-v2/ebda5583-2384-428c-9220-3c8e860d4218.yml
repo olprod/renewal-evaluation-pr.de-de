@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: D
+    text: Use code-based definitions of your training runs as a script run configuration.
+    description: It will allow you to construct the information necessary for submitting a training run as part of an experiment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: E
+    text: Use code-based definitions of your compute targets.
+    description: Represents configuration for experiments runs targeting different compute targets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.ai
+stem: 'Cloud-based applications often run on multiple virtual machines or containers in multiple regions, and use multiple external services. How do you manage and store all your app''s configuration settings, feature flags, and secure access settings?'
+isRequired: false
+legacyId: '1'
+uid: ebda5583-2384-428c-9220-3c8e860d4218
+name: 'Cloud-based applications often run on multiple virtual machines or containers in multiple regions, and use multiple external services.'

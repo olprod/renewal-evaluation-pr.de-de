@@ -1,0 +1,35 @@
+### YamlMime:QuestionSet
+scenario: |+
+  A company has two Azure virtual networks named VNet1 and VNet2 residing in different Azure regions. VNet2 contains two Azure virtual machines (VMs) named VM1 and VM2 behind an internal Azure Basic Load Balancer named LB1. VM1 and VM2 host a web app accessible by using TCP port 80 and are protected by a network security group named NSG1 with the default rules.
+
+  You configure virtual network peering between VNet1 and VNet2 with the default settings. 
+
+  You attempt to connect from VNet1 to the website by using the IP address of LB1 and the connection fails. You verify that you can connect to the web site by using the IP address of LB1 from VNet2 and that you can access TCP port 80 on both VMs from VNet1.
+
+  You need to ensure that you can successfully connect to the web site by using the IP address of LB1.
+
+  What should you do?
+
+questionnaireUid: ee69ae80-be2f-42db-a249-1700ecad5fd7
+questions:
+  - uid: f9fbbbc9-14ce-4453-bd75-32120f2fd595-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company has two Azure virtual networks named VNet1 and VNet2 residing in different Azure regions.
+        isCorrect: false
+      - id: 1
+        text: VNet2 contains two Azure virtual machines (VMs) named VM1 and VM2 behind an internal Azure Basic Load Balancer named LB1.
+        isCorrect: false
+      - id: 2
+        text: VM1 and VM2 host a web app accessible by using TCP port 80 and are protected by a network security group named NSG1 with the default rules.
+        isCorrect: false
+      - id: 3
+        text: You configure virtual network peering between VNet1 and VNet2 with the default settings.
+        isCorrect: true
+    manualId: AZ720.3.2
+uid: f9fbbbc9-14ce-4453-bd75-32120f2fd595
+title: ''
+manualId: ''

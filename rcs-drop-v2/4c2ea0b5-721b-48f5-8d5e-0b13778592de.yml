@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use CapacityPlanner to appropriately size your Cosmos DB for your requirements
+    url: /azure/cosmos-db/request-units#request-unit-considerations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d39ccb08-2e4b-4f07-92de-20db59ef6023.04656c43-7e02-47c8-badb-d6b9cc425619.A
+      scoreOf: []
+    context: 'When estimating the number of request units to provision for your Azure Cosmos DB container, it is important to take the following variables into consideration: Item size. As size increases the number of request units consumed to read or write the data also increases; Item property count. Assuming default indexing of all properties, the units consumed to write a document/node/entity increase as the property count increases; Data consistency. When using data consistency models such as Strong or Bounded Staleness, additional request units are consumed to read items; Indexed properties. An index policy on each container determines which properties are indexed by default. You can reduce your request unit consumption by limiting the number of indexed properties or by enabling lazy indexing; Document indexing. By default each item is automatically indexed. You consume fewer request units if you choose to not index some of your items; Query patterns. The complexity of a query impacts how many request units are consumed for an operation. The number of predicates, nature of the predicates, projections, number of UDFs, and the size of the source data - all influence the cost of query operations; Script usage. As with queries, stored procedures and triggers consume request units based on the complexity of the operations being performed. As you develop your application, inspect the request charge header to better understand how each operation is consuming request unit capacity.'
+    priority: 75
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Analyze and optimize your Cosmos DB Request Unit (RU) configuration
+    url: /azure/cosmos-db/scaling-provisioned-throughput-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d39ccb08-2e4b-4f07-92de-20db59ef6023.04656c43-7e02-47c8-badb-d6b9cc425619.B
+      scoreOf: []
+    context: 'When you understand the factors that affect RU charges and your application''s throughput requirements, you can run your application cost effectively. Azure Cosmos DB ensures that the number of RUs for a given database operation over a given dataset is deterministic. You can examine the response header to track the number of RUs that are consumed by any database operation.'
+    priority: 75
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Performance Tuning and Configuration
+uid: 4c2ea0b5-721b-48f5-8d5e-0b13778592de
+name: ''

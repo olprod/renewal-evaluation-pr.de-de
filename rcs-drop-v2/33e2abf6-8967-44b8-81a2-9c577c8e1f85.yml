@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Regulatory and governance requirements of this workload are known and well understood.
+    description: 'Regulatory requirements may mandate that operational data, such as application logs and metrics, remain within a certain geo-political region. This has obvious implications for how the application should be operationalized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: There are tools and processes in place to grant just-in-time access.
+    description: 'Minimizing the number of people who have access to secure information or resources reduces the chance of a malicious actor gaining access or an authorized user inadvertently impacting a sensitive resource. For example, Azure AD Privileged Identity Management provides time-based and approval-based role activation to mitigate the risks of excessive, unnecessary, or misused access permissions on resources that you care about.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Appropriate emergency access accounts are configured for this workload.
+    description: 'While rare, sometimes extreme circumstances arise where all normal means of administrative access are unavailable and for this reason emergency access accounts (also referred to as ''break glass'' accounts) should be available. These accounts are strictly controlled in accordance with best practice guidance, and they are closely monitored for unsanctioned use to ensure they are not compromised or used for nefarious purposes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: D
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: ''
+isRequired: false
+legacyId: security-tradeoffs
+uid: 33e2abf6-8967-44b8-81a2-9c577c8e1f85
+name: What operational excellence allowances for security have you made?

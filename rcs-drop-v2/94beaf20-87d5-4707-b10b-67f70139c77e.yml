@@ -1,0 +1,67 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: There are clear requirements on what type of keys (PMK - Platform Managed Keys vs. CMK - Customer Managed Keys) should be used
+    description: |
+      Appropriate models for data encryption and key management must be defined
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'Passwords and secrets are managed outside of application artifacts, using tools like Azure Key Vault'
+    description: |
+      Certificate requests and secret generation must be performed programatically and securely stored without exposing them to admins or developers
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'The access model for keys and secrets is defined, and all operations and access is audited'
+    description: |
+      The access model for keys and secrets is defined, and all operations and access is audited. Ensure the access model for keys and secrets is defined, and audited for compliance
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Secret/key rotation procedures are in place
+    description: |
+      Ensure procedures are in place for secret/key rotation
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: Expiry dates of SSL/TLS certificates are monitored and there are renewal processes in place
+    description: |
+      Manual or automated processes to ensure secrets/keys are rotated before expiry are in place
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 94beaf20-87d5-4707-b10b-67f70139c77e
+name: 'Are keys, secrets and certificates managed in a secure way?'

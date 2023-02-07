@@ -1,0 +1,232 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: 'Ad-hoc, no process'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not consistent'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Generally consistent
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.A
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.B
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.C
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.D
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 333b3b6d-0803-4d66-bd4d-c9cc41b4e253-q-0
+    name: We have processes in place to identify configuration drift.
+  - responseAlternatives:
+      - id: A
+        text: 'Ad-hoc, no process'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not consistent'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Generally consistent
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.A
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.B
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.C
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.D
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 333b3b6d-0803-4d66-bd4d-c9cc41b4e253-q-1
+    name: We have a formal process for patch application and vulnerability detection.
+  - responseAlternatives:
+      - id: A
+        text: 'Ad-hoc, no process'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not consistent'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Generally consistent
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.A
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.B
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.C
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.D
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 333b3b6d-0803-4d66-bd4d-c9cc41b4e253-q-2
+    name: We have formal processes in place to restore applications. We have worked with the business to document business risk & acceptable recovery times.
+  - responseAlternatives:
+      - id: A
+        text: 'Ad-hoc, no process'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not consistent'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Generally consistent
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.A
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.B
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.C
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.D
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 333b3b6d-0803-4d66-bd4d-c9cc41b4e253-q-3
+    name: We have a formal process for managing the hardening of OS images.
+  - responseAlternatives:
+      - id: A
+        text: 'Ad-hoc, no process'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not consistent'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Generally consistent
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.A
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.B
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.C
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.D
+        - fb6db940-e401-4394-80a4-3007aa24d6a4.71da030a-5320-4af9-97de-ded45e10e0a5.71da030a-5320-4af9-97de-ded45e10e0a5-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 333b3b6d-0803-4d66-bd4d-c9cc41b4e253-q-4
+    name: We leverage automation tools to ensure resource deployments are scripted and orchestrated.
+stem: 'Deployment Acceleration is the practice of handling changes so that a system maintains its integrity over time. It implements the policies, procedures, techniques, and tools that manage system change.'
+isRequired: true
+uid: 333b3b6d-0803-4d66-bd4d-c9cc41b4e253
+name: Deployment Acceleration is the practice of handling changes so that a system maintains its integrity over time.

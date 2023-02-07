@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Beginner '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Advanced '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: '[Or] I have completed "Design Data Integration" module on Learn | 27 min'
+    description: 'If this is your first time taking the learner self-assessment or have yet to complete this learning, please don''t choose this answer. This will allow the self-assessment results to provide you with the best learning recommendations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Assess your proficiency in design data integrations including designing for:
+  Data integration solution with Azure Data Factory, Data integration solution with Azure Data Lake, Data integration and analytics solution with Azure Databricks, Data integration and analytics solution with Azure Synapse Analytics, strategy for hot/warm/cold data path, and Azure Stream Analytics solution for Data Analysis.
+isRequired: true
+uid: e3bb8627-1fd6-4abd-8fe8-35d9e86f4172
+name: 'Assess your proficiency in design data integrations including designing for: Data integration solution with Azure Data Factory, Data integration solution with Azure Data Lake, Data integration and analytics solution with Azure Databricks, Data integration and analytics solution with Azure Synapse Analytics, strategy for hot/warm/cold data path, and Azure Stream Analytics solution for Data Analysis.'

@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have a limited need for time series analysis capabilties.
+    description: 'Spark provides some time series analysis capabilities, but it is not specifically engineered for this task.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: We have a need for a dedicated query engine for optimized time series analysis.
+    description: "Azure Data Explorer provides with a dedicated query engine optimized and built for log and time series data workloads.\_ Optimized for efficient log analytics, using\_ structured, semi-structured, and free-text data\_ found in telemetry data."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does the workload involve analysis of time series data or large semi-structured datasets (such as log files)?
+isRequired: true
+uid: 58ccfc87-b875-4188-b406-ac615563de50
+name: Does the workload involve analysis of time series data or large semi-structured datasets (such as log files)?

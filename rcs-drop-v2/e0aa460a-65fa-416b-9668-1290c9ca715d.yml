@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not understand the need nor the structure and purpose of the data lake and relies heavily on structured data.
+    description: Your organization does not understand the need nor the structure and purpose of the data lake and relies heavily on structured data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization is leverating scale-out architecture and lands data into Data Lake, ad-hoc, ad-hoc, single or siloed zone/s.'
+    description: |
+      Your organization is leverating scale-out architecture and lands data into Data Lake, ad-hoc, ad-hoc, single or siloed zone/s.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization understands governed data lake approach and uses multiple data lakes ensuring security, privacy, governance and scalability.'
+    description: 'Your organization understands governed data lake approach and uses multiple data lakes ensuring security, privacy, governance and scalability.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has extended on governed data lake approach with self-service ingestion and provisioning or resources, operationalizing analytics and enabling immediate data impact to business operations.'
+    description: 'Your organization has extended on governed data lake approach with self-service ingestion and provisioning or resources, operationalizing analytics and enabling immediate data impact to business operations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has a solid foundation and best practices for data lake and lakehouse architecture and continuously looking to improve data security, governance and policies to better support business operations.'
+    description: 'Your organization has a solid foundation and best practices for data lake and lakehouse architecture and continuously looking to improve data security, governance and policies to better support business operations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How do you currently land data in your data lake? Do you use single or multiple data lakes and containers in the form of Raw/Enriched/Curated Zones?
+isRequired: true
+uid: e0aa460a-65fa-416b-9668-1290c9ca715d
+name: How do you currently land data in your data lake?

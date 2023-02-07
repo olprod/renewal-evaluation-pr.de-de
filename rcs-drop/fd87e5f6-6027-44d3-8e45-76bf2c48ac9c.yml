@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  When using a JSON notation to represent an Azure Data Factory pipeline, you can reference a linked service in the definition of an Execution Activity.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 806ae50b-244c-4c82-83ae-542bc0514530
+questions:
+  - uid: fd87e5f6-6027-44d3-8e45-76bf2c48ac9c-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'When using a JSON notation to represent an Azure Data Factory pipeline, you can reference a linked service in the definition of an Execution Activity.'
+        isCorrect: true
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: false
+uid: fd87e5f6-6027-44d3-8e45-76bf2c48ac9c
+title: 'Otherwise, select No.'

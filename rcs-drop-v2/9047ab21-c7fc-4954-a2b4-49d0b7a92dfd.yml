@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Version control enables rapid collaboration and iteration on new features, helping teams deliver business value and meet customer demand.'
+hideEmptyGuidance: false
+questions:
+  - b0854937-5fb4-409c-8116-9e26b0cca23b
+  - c9a3b352-76ff-43a5-ade3-04fb44ea0218
+  - a80344d2-4eed-42b7-8b14-1ec2bae6154c
+  - be395edd-bdf7-4f4a-b52a-2358b8ffc19c
+  - bc953cae-eb51-4822-a11a-f2107a7f5404
+  - 8f2184bf-604e-4152-abe8-a0a0561206ed
+  - 117ee817-e325-4b46-a0a4-e435c01fd3bc
+recommendations:
+  - ca8f4188-8924-4496-ad4d-257c2d2d78e8
+assignedGroupIds: []
+uid: 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd
+name: Version Control

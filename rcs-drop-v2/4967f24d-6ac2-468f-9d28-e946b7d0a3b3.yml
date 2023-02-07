@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have a well-crafted design for testing the deployed workload and we run integration, performance, load, or any other intense testing during low-carbon periods to ensure full utilization of the available resources and reduced carbon emissions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: Continuous testing is implemented and CI/CD worker agents scale as needed avoiding unnecessary capacity allocation.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 4967f24d-6ac2-468f-9d28-e946b7d0a3b3
+name: What considerations have you made for a more sustainable testing model?

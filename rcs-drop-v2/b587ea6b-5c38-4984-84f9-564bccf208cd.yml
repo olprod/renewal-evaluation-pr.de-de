@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - d64f5e53-27df-482b-b94c-6d0c47870ca1
+  - 9bc476a7-4f17-4cb2-912c-33374ee08b7e
+recommendations:
+  - 5abb4049-8fb9-4a6a-985a-34f04031792f
+assignedGroupIds:
+  - 3529bb1b-b511-4aea-9985-cde430e17278
+uid: b587ea6b-5c38-4984-84f9-564bccf208cd
+name: Multitenant Architecture | Cost management

@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You create a canvas app for a company. Vendors use the app to receive or reject service quotation requests.
+
+  You onboard a new vendor. You need to ensure that the new vendor can access the app.
+
+  Which three actions should you perform? Each correct answer presents part of the solution.
+questionnaireUid: 8ead327f-6d31-48be-88f1-60b834590976
+questions:
+  - uid: f284b8be-e417-4295-b225-24e708e56ca6-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You create a canvas app for a company.
+        isCorrect: true
+      - id: 1
+        text: Vendors use the app to receive or reject service quotation requests.
+        isCorrect: true
+      - id: 2
+        text: You onboard a new vendor.
+        isCorrect: true
+      - id: 3
+        text: You need to ensure that the new vendor can access the app.
+        isCorrect: false
+      - id: 4
+        text: Which three actions should you perform?
+        isCorrect: false
+uid: f284b8be-e417-4295-b225-24e708e56ca6
+title: ''

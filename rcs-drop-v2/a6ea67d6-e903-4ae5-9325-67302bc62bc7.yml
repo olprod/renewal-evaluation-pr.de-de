@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You have a centralized identity registry for your onboarding identities.
+    description: 'You have a centralized identity registry for all your IoT devices to manage and secure your IoT solution. The device identity registry is used to verify device identity and authorize onboarding. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You have a centralized identity registry for your device operational identities.
+    description: You have a centralized identity registry that includes the device operational identities and credentials used to authenticate for everyday use.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: You use a network sensor to detect and inventory unmanged IoT devices.
+    description: 'For visibility and reporting, network sensors detect and inventory unmanaged IoT devices that don''t connect to the identity registry in your network.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: |-
+  You should have a centralized registry for your organization's IoT devices to manage their lifecycle and audit device access. Use a cloud-based identity registry to handle the scale, management, and security of IoT solutions. IoT device registry information is used to onboard devices into an IoT solution by verifying that the device identity and credentials are known and authorized to onboard to the organization. Once onboarded, the device registry contains the core properties of devices, including its operational identity and the credentials it uses to authenticate for everyday use.
+
+  In cases where devices don't connect to Azure services for IoT, you can use network sensors to detect and inventory unmanaged IoT devices in your organization's network for awareness and monitoring.
+isRequired: false
+uid: a6ea67d6-e903-4ae5-9325-67302bc62bc7
+name: 'You should have a centralized registry for your organization''s IoT devices to manage their lifecycle and audit device access. Use a cloud-based identity registry to handle the scale, management, and security of IoT solutions.'

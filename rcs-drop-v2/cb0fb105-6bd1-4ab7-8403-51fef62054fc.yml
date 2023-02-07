@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Review Azure Synapse Analytics Automatic Restore Point RPO.
+    description: Dedicated SQL pool supports an eight-hour recovery point objective (RPO).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Review Azure Synapse Analytics Geo-Backups and Disaster Recovery RPO.
+    description: The RPO for a geo-restore is 24 hours.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Monitor Azure Synapse Analytics resource utilization to meet SLAs.
+    description: 'It provides configurable retention periods, alerts, recommendations, and customizable charts and dashboards for metrics and log.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: Manage Azure Synapse Analytics Compute to meet SLAs.
+    description: You can scale compute to meet performance demands independent of data storage
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Consider Azure Synapse Analytics Service SLAs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Use Synapse Studio to monitor your Apache Spark pools.
+    description: 'Monitor your Apache Spark pools, allowing you to keep an eye on the status of your pools, including how many vCores are in use by different workspace user.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: Use Azure Monitor with Synapse Analytics workspace.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: targets-data-synapse
+uid: cb0fb105-6bd1-4ab7-8403-51fef62054fc
+name: What reliability targets and metrics have you defined for your application?

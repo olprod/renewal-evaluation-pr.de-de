@@ -1,0 +1,191 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Critical - Implement Multi-Factor Authentication at company-wide level
+    url: /azure/active-directory/authentication/howto-mfa-getstarted?source=recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.a86cec1e-b076-45f5-a343-7d84a1840d7f.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Critical - Block legacy authentication
+    url: /azure/active-directory/conditional-access/block-legacy-authentication
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.a86cec1e-b076-45f5-a343-7d84a1840d7f.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider migrating to Password Hash Sync to improve your users credential's security
+    url: /active-directory/hybrid/how-to-connect-password-hash-synchronization
+    condition:
+      allOf: []
+      anyOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.147b4b46-8a70-47a2-b0c2-d764497a2d8d.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Upgrade your AAD Connect version
+    url: /azure/active-directory/hybrid/reference-connect-version-history
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.2b74d2ee-31bd-4c3e-9ecb-922337fb1ef8.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore Azure AD Connect Cloud Sync
+    url: /azure/active-directory/cloud-sync/what-is-cloud-sync
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.2b74d2ee-31bd-4c3e-9ecb-922337fb1ef8.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Filter objects synchronized to the cloud to avoid extra objects and reduce attack surface on Azure AD
+    url: /azure/active-directory/hybrid/how-to-connect-sync-configure-filtering
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.2b74d2ee-31bd-4c3e-9ecb-922337fb1ef8.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Don’t synchronize accounts to Azure AD that have high privileges in your existing Active Directory Domain Services instance
+    url: /azure/security/fundamentals/identity-management-best-practices#centralize-identity-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.2b74d2ee-31bd-4c3e-9ecb-922337fb1ef8.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Don’t synchronize Service accounts to Azure AD from your existing Active Directory Domain Services instance
+    url: /azure/security/fundamentals/identity-management-best-practices#centralize-identity-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.2b74d2ee-31bd-4c3e-9ecb-922337fb1ef8.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure AD Connect Heath for insights and monitoring capabilities on AAD Connect, ADFS and ADDS'
+    url: /azure/active-directory/hybrid/whatis-azure-ad-connect
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.2b74d2ee-31bd-4c3e-9ecb-922337fb1ef8.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider implementing Azure AD Connect Staging Mode (Secondary) to reduce service continuity recovery time
+    url: /azure/active-directory/hybrid/how-to-connect-sync-staging-server#staging-mode
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.2b74d2ee-31bd-4c3e-9ecb-922337fb1ef8.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Migrate Modern Authentication apps to Azure AD
+    url: /azure/active-directory/manage-apps/migrate-application-authentication-to-azure-active-directory
+    condition:
+      allOf: []
+      anyOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.0b2ef101-fea6-48a9-8b3c-41dbcf3d38dc.1
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.0b2ef101-fea6-48a9-8b3c-41dbcf3d38dc.2
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.b62a48cb-d0df-4243-970e-d1b6b75938f6.2
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.b62a48cb-d0df-4243-970e-d1b6b75938f6.1
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.b62a48cb-d0df-4243-970e-d1b6b75938f6.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Service Recommendation] Onboarding Accelerator - Migrate  Single Sign-On Applications to Azure  Active Directory'
+    url: 'https://serviceshub.microsoft.com/catalog/search/1bb80b86-b658-4a31-9200-369aff377fd3?q=Onboarding%20Accelerator%20-%20Migrate%20Single%20Sign-On%20Applications%20to%20Azure%20Active%20Directory&tabId=1&workspaceId=1bb80b86-b658-4a31-9200-369aff377fd3'
+    condition:
+      allOf: []
+      anyOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.0b2ef101-fea6-48a9-8b3c-41dbcf3d38dc.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Whitepaper] Migrate your apps to Azure AD'
+    url: 'https://aka.ms/migrateapps/whitepaper'
+    condition:
+      allOf: []
+      anyOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.b62a48cb-d0df-4243-970e-d1b6b75938f6.2
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.b62a48cb-d0df-4243-970e-d1b6b75938f6.1
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.b62a48cb-d0df-4243-970e-d1b6b75938f6.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: ''
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6bdded40-7e8d-4d83-abe0-2171906109c6.147b4b46-8a70-47a2-b0c2-d764497a2d8d.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider migrating to Password Hash Sync to improve your users credential's security
+    url: /active-directory/hybrid/how-to-connect-password-hash-synchronization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: a8d6e6de-ebf7-4396-bc92-3f86ae2a861a
+name: ''

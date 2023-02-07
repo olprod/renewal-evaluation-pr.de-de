@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: No experience with tasks involved in migration.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: B
+    text: Experimented with a few migrations in the pilot wave.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: Already migrated our pilot wave and comfortable executing rest of migration waves.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+legacyId: '1'
+uid: 5bfa9414-86d3-4f0e-b384-a30cb92c3341
+name: Has your migration team been trained or had prior experience with the migration process?

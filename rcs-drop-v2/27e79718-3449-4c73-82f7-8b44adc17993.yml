@@ -1,0 +1,60 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have reviewed and understand the guidance around throttling and throughput on Premium Service Bus Namespaces.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: The Service Bus tier used supports our overall throughput requirements.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Azure Service Bus instances are configured based on the messaging quotas and throttling thresholds of various service tiers.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: We reuse the same factory or client objects for multiple operations. We use these client objects for concurrent asynchronous operations and from multiple threads.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: We minimize the end-to-end latency of messages in a queue or topic as required by our solution.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.bus
+stem: ''
+isRequired: false
+uid: 27e79718-3449-4c73-82f7-8b44adc17993
+name: Have you configured Azure Service Bus with performance in mind?

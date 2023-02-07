@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |
+  A manufacturer of a bill of materials (BOM) part that is used in multiple products goes out of business.
+
+  The part needs to be replaced with a similar part from a different vendor. 
+
+  You need to identify the products that are impacted to calculate the new cost of the part.
+
+  What should you use?
+questionnaireUid: 8219afed-cd71-40ab-bfcc-2368b7aa0422
+questions:
+  - uid: f568ad8e-4126-4b20-a97e-8872b0996ae0-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A manufacturer of a bill of materials (BOM) part that is used in multiple products goes out of business.
+        isCorrect: false
+      - id: 1
+        text: The part needs to be replaced with a similar part from a different vendor.
+        isCorrect: true
+      - id: 2
+        text: You need to identify the products that are impacted to calculate the new cost of the part.
+        isCorrect: false
+      - id: 3
+        text: What should you use?
+        isCorrect: false
+      - id: 4
+        text: BOM calculations group
+        isCorrect: false
+uid: f568ad8e-4126-4b20-a97e-8872b0996ae0
+title: ''

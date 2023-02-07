@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your Data Strategy has limited alignment with corporate and business unit strategy.
+    description: Your Data Strategy has limited alignment with corporate and business unit strategy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your Data Strategy is evolving alignment with corporate and business unit strategy.
+    description: Your Data Strategy is evolving alignment with corporate and business unit strategy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your Data Strategy is in alignment with corporate and business unit strategy to an acceptable standard.
+    description: Your Data Strategy is in alignment with corporate and business unit strategy to an acceptable standard.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your Data Strategy is in alignment with corporate and business unit strategy.
+    description: Your Data Strategy is in alignment with corporate and business unit strategy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your Data Strategy is fully optimized and in alignment with corporate and business unit strategy.
+    description: Your Data Strategy is fully optimized and in alignment with corporate and business unit strategy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does your Data Strategy align with corporate and business unit strategy?
+isRequired: true
+uid: f2d1dadc-307a-44f6-b7bc-5aab70085dd7
+name: Does your Data Strategy align with corporate and business unit strategy?

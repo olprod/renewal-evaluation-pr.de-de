@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We will need support for CDC on the lakehouse, delta data.'
+    description: "Dataabricks supports Delta 2.x,\_which allows for CDC on the lakehouse data.\n"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: Our design does not incorporate the need for supporting CDC on delta but may need support for CDC on relational data.
+    description: Synapse does not support CDC from Delta.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does the workload require the lakehouse to produce a change data feed so downstream systems can process changes?
+isRequired: true
+uid: 40fb8e05-28a6-4a4b-95f7-ef4416740ee5
+name: 'Does the workload require the lakehouse to produce a change data feed so downstream systems can process changes? '

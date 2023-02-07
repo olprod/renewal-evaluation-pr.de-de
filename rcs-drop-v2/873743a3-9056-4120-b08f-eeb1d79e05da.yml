@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You''ve configured each client with two Azure IoT Hub connection strings, and the client decides when to failover.'
+    description: 'If your business uptime goals aren''t satisfied by the RTO that either Microsoft-initiated failover or manual failover options provide, you should consider implementing a per-device automatic cross region failover mechanism.'
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: 'You use manual failover, and you''ve established a process to change Azure IoT Hub built-in eventhub endpoint connections.'
+    description: 'Message routing enables you to send messages from your devices to cloud services in an automated, scalable, and reliable manner.'
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '2'
+    text: You've taken a dependency on Microsoft-initiated failover.
+    description: Microsoft-initiated failover has a recovery time objective (RTO) of 2-26 hours.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'When Azure IoT Hub service fails in a specific region, you can move your IoT hub instances to another region. Moving Azure IoT Hub causes the endpoint where other services receive data from the IoT hub to change. For a manual failover, you need to reconfigure the services that Azure IoT Hub sends data to with the new endpoint addresses.'
+isRequired: false
+uid: 873743a3-9056-4120-b08f-eeb1d79e05da
+name: 'When Azure IoT Hub service fails in a specific region, you can move your IoT hub instances to another region. Moving Azure IoT Hub causes the endpoint where other services receive data from the IoT hub to change.'

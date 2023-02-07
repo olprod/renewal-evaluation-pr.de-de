@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Client machines connecting to Azure SQL DB should be using the latest supported version of TLS.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Create a private endpoint for the server using a Private Link and disable the Public endpoint if possible.
+    description: Using a private endpoint is more secure than using a public endpoint.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Evaluate and set 'Allow Access to Azure services' to OFF and Deny Public network to ON at the server-level.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Consider using private endpoints or VNet Firewall rules over IP Firewall rules and only allow traffic from the subnet containing your application infrastructure.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: network-data-sqldb
+uid: 16f71582-aeeb-4428-8e50-349181c9574b
+name: How have you secured the network of your Azure SQL DB?

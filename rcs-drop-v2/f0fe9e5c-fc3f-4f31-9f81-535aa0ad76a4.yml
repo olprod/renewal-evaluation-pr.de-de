@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Service-managed keys are used where possible.
+    description: 'There can be regulatory requirements which dictate the use of customer-managed keys, but otherwise service-managed should be preferred.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '1'
+    text: Azure Key Vault is used to store all application keys and certificates.
+    description: 'No secrets are stored in source code or other places, such as files in storage accounts.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '2'
+    text: Each regional deployment stamp has a separate Azure Key Vault instance.
+    description: Each regional deployment has access to its local instance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '3'
+    text: Access to secrets follows the least-privilege model.
+    description: 'Azure Key Vault provides a security boundary since access permissions for keys, secrets, and certificates are applied at a vault level. Key Vault access policy assignments grant permissions separately to keys, secrets, or certificates.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '4'
+    text: Keys and certificates are rotated automatically.
+    description: Expired certificates are a common cause of application outages and key rotation is necessary in case of compromise.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '5'
+    text: Usage of secrets is monitored.
+    description: 'It''s clear what ''normal'' usage of secrets looks like, so that any unexpected access can be identified.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '6'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Cloud applications use a variety of keys and secrets to facilitate access. It's important to keep this information secure. Encryption is a vital step toward ensuring data integrity and is ultimately one of the most important security capabilities that can be applied to mitigate a wide array of threats.
+isRequired: false
+uid: f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4
+name: Cloud applications use a variety of keys and secrets to facilitate access.

@@ -1,0 +1,78 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'A list of dependencies, frameworks and libraries used by this workload is maintained and updated regularly.'
+    description: 'As part of the workload inventory the application team should maintain a framework and library list, along with versions in use. Understanding of the frameworks and libraries (custom, OSS, 3rd party, etc.) used by the application and the resulting vulnerabilities is important. There are automated solutions on the market that can help with this assessment: OWASP Dependency-Check, NPM audit or Whitesource Bolt.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Framework and library updates are included into the workload lifecycle.
+    description: 'Application frameworks are frequently provided with updates (e.g. security), released by the vendor or communities. Critical and important security patches need to be prioritized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: 'Technologies and frameworks used in this workload are fully understood, including their vulnerabilities.'
+    description: 'It is important to understand what technologies are used by the application and must be managed, such as .NET Core , Spring, or Node.js. Each choice of technology also has consequences for security.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: 'Security updates to VMs are applied in a timely manner, and strong passwords exist on those VMs for any local administrative accounts that may be in use.'
+    description: Attackers constantly scan public cloud IP ranges for open management ports and attempt "easy" attacks like common passwords and unpatched vulnerabilities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: All cloud services used by this workload are identified and it is understood how to configure them securely.
+    description: 'It is important to understand what Azure services, such as App Services and Event Hubs, are used by the workload to host both application code and data. Selection should be made with security in mind.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: F
+    text: 'Personally identifiable information (PII) is detected and removed/obfuscated automatically for this workload, including application logs.'
+    description: 'Extra care should be take around logging of sensitive application areas. PII (contact information, payment information etc.) should not be stored in any application logs and protective measures should be applied (such as obfuscation). Machine learning tools like Azure Cognitive Search PII detection can help with this.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: G
+    text: Azure Tags are used to enrich Azure resources with operational metadata.
+    description: Using tags can help to manage resources and make it easier to find relevant items during operational procedures.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: H
+    text: Elevated security capabilities such as dedicated Hardware Security Modules (HSMs) or the use of Confidential Computing was implemented or considered implementing?
+    description: Careful consideration is necessary on whether to utilize specialized security capabilities in an organization’s enterprise architecture.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Application codebase typically consists of custom code, configuration and dependencies. All these have to be evaluated and secured.'
+isRequired: false
+legacyId: development
+uid: 54c2b231-db63-4d04-b47b-04444eecb352
+name: 'Application codebase typically consists of custom code, configuration and dependencies.'

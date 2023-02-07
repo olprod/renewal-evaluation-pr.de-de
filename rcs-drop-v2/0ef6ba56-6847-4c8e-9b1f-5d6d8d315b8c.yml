@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Configure access control for storage accounts • Configure storage account access keys • Configure Azure AD authentication for Azure Storage and Azure Files • Configure delegated access'
+isRequired: true
+uid: 0ef6ba56-6847-4c8e-9b1f-5d6d8d315b8c
+name: 'For example: Configure access control for storage accounts • Configure storage account access keys • Configure Azure AD authentication for Azure Storage and Azure Files • Configure delegated access '

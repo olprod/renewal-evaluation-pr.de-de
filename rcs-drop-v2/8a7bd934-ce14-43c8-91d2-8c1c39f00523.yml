@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Implement the recommended operational best practices for AKS
+    url: /azure/aks/best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 86b03fef-e126-4481-9fea-2e387de7db8a.764803c8-0476-4bf1-bb35-a4b93d141c26.A
+      scoreOf: []
+    context: 'To build and run applications successfully in Azure Kubernetes Service (AKS), there are some key considerations to understand and implement. These areas include multi-tenancy and scheduler features, cluster and pod security, or business continuity and disaster recovery.'
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Ensure governance on Kubernetes versions
+    url: /azure/aks/supported-kubernetes-versions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 86b03fef-e126-4481-9fea-2e387de7db8a.764803c8-0476-4bf1-bb35-a4b93d141c26.B
+      scoreOf: []
+    context: 'AKS supports four minor versions of Kubernetes. This means that when a new minor patch version is introduced, the oldest minor version and patch releases supported are retired. Minor updates to Kubernetes happen on a periodic basis. Make sure that you have a governance process to check and upgrade as needed so you don''t fall out of support.'
+    priority: 50
+    reportingCategory: 'Upgrade, Migration and Deployment'
+    reportingSubCategory: Platform Upgrade and Migration
+uid: 8a7bd934-ce14-43c8-91d2-8c1c39f00523
+name: ''

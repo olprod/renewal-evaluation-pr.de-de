@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - fd50b32c-b216-4431-bfa5-518eab50a7ba
+  - ce81efa2-5773-4f50-a029-1be178dcccac
+  - 6c7ff38f-8c18-46e4-a77e-c69d798f879f
+recommendations:
+  - 27ad497a-151c-4546-9209-877e722bef1d
+assignedGroupIds: []
+uid: 89cd5e8b-33d3-42b6-8b6f-badf653b21df
+name: Identity Zero Trust Objective II. - Conditional Access policies gate access and provide remediation activities.

@@ -1,0 +1,96 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Document the release process.
+    description: 'Without detailed release process documentation, an operator might deploy a bad update or might improperly configure settings for your SQL hosts.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: Have a release process for my database code changes.
+    description: 'One of the challenges with automating database deployments is the cut-over itself, taking software from the final stage of testing to live production.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: Track the release of database code changes as they progresses through different environments.
+    description: Structured use of staging and pre-production environments allow you to push database updates to the production environment in a highly controlled way and minimize disruption from unanticipated deployment issues.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Audit and track changes in my database code and infrastructure configuration.
+    description: Capture as much version-specific information as possible and implement a robust logging strategy to aid environment and deployment management.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: 'Have a rollback plan for each deployment because if a deployment fails, your database could become unavailable.'
+    description: 'To minimize downtime, design and test a rollback process to go back to a last-known good version.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Identify portions of the SQL estate that need to be highly available and have an appropriate deployment strategy.
+    description: An application that depends on a single instance of a database or other SQL service creates a single point of failure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Understand database services and components that need to be highly available and have an appropriate deployment strategy.
+    description: A critical service that depends on a single instance of a database service creates a single point of failure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: Continuously improve the operational posture.
+    description: Do you hold a retrospective after each sprint (and outage) to find ways to be more effective?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: Deploy AD Controllers in the same Azure Region where your SQL Server VM is running.
+    description: Placing read-only replicas of AD Controllers in your Azure Regions provides resiliency and performance gains for authentication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: J
+    text: Use Availability Sets and Availability Zones to protect against planned and unplanned maintenance events.
+    description: 'Availability Set and Zones ensure that at least one virtual machine is available, which raises the availability SLA to 99.95%.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: b76f211a-0a58-4cf2-a75b-94a8610d9957
+name: What considerations are you making around the deployment of your SQL VM infrastructure?

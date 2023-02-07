@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: The backend uses asynchronous patterns.
+    description: 'Build the solution backend using a framework, such as .NET, that supports the async pattern to avoid blocking calls and handle network or I/O delays.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 45
+  - id: '1'
+    text: The backend uses Azure IoT service SDKs.
+    description: The solution uses the Azure IoT service SDKs and follows the suggested patterns.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: The backend uses a serverless architecture.
+    description: 'The backend uses a serverless architecture, such as Azure Functions, to support elastic scaling.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: The ingestion and processing layers are decoupled.
+    description: 'The backend has decoupled the ingestion and processing layers, which are independently scalable.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'When your IoT solution can grow to millions of connected devices or millions of ingested messages, the required cloud resources need to be able to manage the devices and process all the data. Therefore, the solution needs to scale accordingly.'
+isRequired: false
+uid: 74c66ad6-db0c-42c1-a4a4-973647c3be8e
+name: 'When your IoT solution can grow to millions of connected devices or millions of ingested messages, the required cloud resources need to be able to manage the devices and process all the data. Therefore, the solution needs to scale accordingly.'

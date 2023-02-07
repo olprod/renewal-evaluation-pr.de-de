@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've established a process to update firmware and application code.
+    description: Automatic device management in Azure IoT Hub automates many of the repetitive and complex tasks of managing large device fleets.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: You do manual updates.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ' Keep devices updated with the latest fixes to ensure the security and reliability of your devices. You should be able to update the full set of software on your devices: firmware, drivers, base OS, host applications and any cloud-deployed workloads. You should be able to monitor the success of these updates.'
+isRequired: false
+uid: 0861de98-255c-4ab2-9838-a0789d9a82ef
+name: 'Keep devices updated with the latest fixes to ensure the security and reliability of your devices. You should be able to update the full set of software on your devices: firmware, drivers, base OS, host applications and any cloud-deployed workloads.'

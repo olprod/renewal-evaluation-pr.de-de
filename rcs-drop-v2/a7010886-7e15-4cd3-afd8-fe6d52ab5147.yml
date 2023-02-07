@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Review Azure Synapse Analytics Automatic Restore Point RPO.
+    description: Dedicated SQL pool supports an eight-hour recovery point objective (RPO).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Review Azure Synapse Analytics Geo-Backups and Disaster Recovery RPO.
+    description: The RPO for a geo-restore is 24 hours.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Monitor Azure Synapse Analytics resource utilization to meet SLAs.
+    description: 'It provides configurable retention periods, alerts, recommendations, and customizable charts and dashboards for metrics and logs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Manage Azure Synapse Analytics Compute to meet SLAs.
+    description: You can scale compute to meet performance demands independent of data storage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Consider Azure Synapse Analytics Service SLAs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: Use Synapse Studio to monitor your Apache Spark pools.
+    description: 'Monitor your Apache Spark pools, allowing you to keep an eye on the status of your pools, including how many vCores are in use by different workspace user.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Use Azure Monitor with Synapse Analytics workspace.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: a7010886-7e15-4cd3-afd8-fe6d52ab5147
+name: What reliability targets and metrics have you defined for your application?

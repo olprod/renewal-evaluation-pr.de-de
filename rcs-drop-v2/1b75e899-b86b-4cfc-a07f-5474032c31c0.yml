@@ -1,0 +1,21 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - daf1ed63-c8d7-4b70-9b99-3e6f8b9e4ad1
+  - 642b265f-f911-43e2-9f4e-02ba6df885ad
+  - 484b3205-f9c6-41cd-9b49-d2c42b8992f5
+  - dfd0ab9c-7b14-449c-8f0d-4e3034dff61b
+  - 28031b28-ec8d-4cd1-9cfa-c548fa0a974b
+  - 19b440b3-9103-4c6e-8c36-c96789b39e68
+  - 52b64511-7b4c-43ce-bf7c-8db3245cc669
+  - 06519fe0-0b0e-4103-b516-b10e64d16d35
+  - 715bb3e1-78b4-45c1-bf0a-026f3a446d45
+  - ca2f60fa-7d83-4584-9e03-d8f08ce889f2
+  - 0f40ed73-0b8e-4146-ab9c-9376cb5b7e3b
+recommendations:
+  - 7931dbdf-f04f-4115-8af5-9f01c112f69c
+assignedGroupIds: []
+uid: 1b75e899-b86b-4cfc-a07f-5474032c31c0
+name: SQL MI - Reliability

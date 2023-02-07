@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '1'
+    text: Blue/Green
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Canary
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: A/B testing
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: Rolling
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: Recreate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: Shadow
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '7'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'In order for the software to connect with the operations system, business goals must align in order for DevOps deployment to be effective. By merging software development and IT operations, an effective DevOps deployment approach accomplishes this.'
+isRequired: true
+uid: 6ddb6853-4896-4276-8dea-a0059c7cddc3
+name: 'In order for the software to connect with the operations system, business goals must align in order for DevOps deployment to be effective.'

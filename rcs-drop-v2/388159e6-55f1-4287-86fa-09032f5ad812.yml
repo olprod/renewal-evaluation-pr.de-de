@@ -1,0 +1,56 @@
+### YamlMime:SelfAssessment
+description: 'This assessment covers topics pertaining to product features which help productivity, time saving and advance topics for Partners & Customers to skill end users, support personnel and administrators to maximize their value from Dynamics 365 Finance and Operation (D365 F&O) solutions. This assessment is part of Center of Excellence (COE) Series for establishing and driving excellence in Partner Dynamics 365 Finance & Operations Delivery Practice.'
+duration: 15 minutes
+questionnaireReferences:
+  - questionnaireUid: b189deac-9e3e-438a-8074-0b3965280002
+    isRequired: false
+  - questionnaireUid: 56702a39-55da-4c5e-b907-aa8875e3c068
+    isRequired: false
+guidance:
+  title: 15 minutes
+  description: ''
+  providers: []
+  scoring:
+    title: Features Usage Excellence Recommendations
+    description: ''
+    calculationType: Average
+    scoresVerbage: Adhoc|Moderate|Optimal
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Muhammad
+  lastName: Aurangzeb
+  email: maurangzeb@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+metadataTags:
+  - dynamics-365
+  - dynamics-finance
+  - dynamics-scm
+  - dynamics-commerce
+relatedTags:
+  - e25722a7-e0ab-4e52-b928-5ce9461df1ed
+  - bcb90547-d75e-47cd-b133-4c5340e68fc2
+  - b8f27ff4-1ce1-4a80-a808-5d377fc15020
+  - 22e1e9a8-0289-4dca-98ea-4515ad392a3a
+uid: 388159e6-55f1-4287-86fa-09032f5ad812
+name: Your Current Assessment result as follows

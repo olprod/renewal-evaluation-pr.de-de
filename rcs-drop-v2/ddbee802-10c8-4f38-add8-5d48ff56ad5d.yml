@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'No'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'Yes, but none are excluded from MFA or Conditional Access policies or have a Azure AD PIM permanent role assignment'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Yes, and at least one is excluded from MFA and Conditional Access polices and has an Azure AD PIM permanent role assignment of Global Admin to Azure AD'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: false
+uid: ddbee802-10c8-4f38-add8-5d48ff56ad5d
+name: Have you implemented and configured emergency access accounts (aka "break glass accounts") for Azure AD?

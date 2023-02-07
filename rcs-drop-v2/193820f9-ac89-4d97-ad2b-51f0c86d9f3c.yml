@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: On-premises
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Managed Service Provider
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '2'
+    text: Public Cloud
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '3'
+    text: Multi-cloud
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: ''
+isRequired: true
+uid: 193820f9-ac89-4d97-ad2b-51f0c86d9f3c
+name: Where do you currently host your applications?

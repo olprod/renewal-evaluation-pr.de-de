@@ -1,0 +1,83 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Database tiers that support availability zones are used.
+    description: There are various tiers and variants available for relational databases in Azure. Availability zone support is not always given.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '1'
+    text: (Azure SQL) Business-critical tier is used when possible.
+    description: Azure SQL Database Premium or Business Critical service tier database replicas can be distributed across availability zones at no extra cost.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '2'
+    text: (Azure SQL) vCore-based consumption model is used.
+    description: Azure SQL Database offers DTU-based and vCore purchasing models.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '3'
+    text: Sharding was considered and implemented when appropriate.
+    description: 'Sharding can be applied to distribute data and processing across multiple identical structured databases, partitioning databases horizontally to navigate platform constraints. For example, sharding is often applied in multi-tenant SaaS platforms to isolate groups of tenants into distinct data platform constructs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '4'
+    text: Azure SQL Database was prioritized for relational capabilities.
+    description: Azure SQL Database provides a fully managed database engine that is always running on the latest stable version of the SQL Server database engine and underlying Operating System.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '5'
+    text: (Azure SQL) Active geo-replication and auto failover groups were considered.
+    description: 'Azure SQL Database provides Auto Failover Groups, which replicates databases to a secondary server and allows for transparent failover if a failure.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '6'
+    text: Application is configured to query local replicas to optimize performance.
+    description: 'With geo-replication, the database is spread across multiple regions and the application should have a ''local'' replica in the same region.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '7'
+    text: Database usage is evaluated to determine if sizing is correct.
+    description: 'For most efficiency, the right balance between capacity and utilization must be achieved.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '8'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For scenarios with a highly relational data model or dependencies on existing relational technologies, the use of Azure Cosmos DB in a multi-write configuration might not be directly applicable. In such cases, it''s vital that used relational technologies are designed and configured to uphold the multi-region active-active aspirations of an application design.'
+isRequired: false
+uid: 88ff03bb-acce-4054-9a79-3221712030c5
+name: 'For scenarios with a highly relational data model or dependencies on existing relational technologies, the use of Azure Cosmos DB in a multi-write configuration might not be directly applicable.'

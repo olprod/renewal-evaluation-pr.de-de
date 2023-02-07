@@ -1,0 +1,103 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Data types are categorized by data consistency requirements.
+    description: 'Has the Consistency, Availability, and Partition tolerance (CAP) theorem been applied to the application and key data scenarios to ensure data is categorized according to consistency requirements?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: B
+    text: Data platform services are running in a highly available / multiple instance configuration.
+    description: 'Are data store(s) running in a HA configuration? For example, SQL Server deployed using Always-On Availability Groups, or a Highly Available MongoDB cluster.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: Data is replicated across multiple stamps/regions.
+    description: Are application data stores replicated to instances running on multiple Azure Stack Hub stamps/regions?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: Data is hosted and replicated from resources deployed within an Availability Set.
+    description: Is data replicated between instances that are deployed within compute resources leverage Availability Sets within each stamp/region? If there are multiple instances running in a single stamp/region.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Data is backed-up to storage external to Azure Stack Hub.
+    description: Is data backed-up to a storage device that is external to the Azure Stack Hub stamp/region where the data service instance is running?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: 'Replication is configured within the data platform (workload) components, such as storage and/or databases.'
+    description: 'For data platform components, such as storage (distributed file systems) and databases (SQL, NoSQL, MySQL…etc.), is replication configured to provide resiliency and redundancy, removing any single points of failure for data platform endpoints.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Application traffic can be routed to data stores in the case of stamp/rack/network outages.
+    description: 'Can application traffic be routed to data source(s) in the event of a stamp/rack/network outage? For example, in the event of a planned or unplanned failover, can the application automatically connect to the required data stores, i.e. using a clustered virtual network name for the data tier endpoint(s).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: H
+    text: Read operations are segregated from update operations.
+    description: 'Have read operations been segregated from update operations across application data stores? To help maximize performance, scalability, and, security for application architectures.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: I
+    text: Load balancer health probes assess data platform components.
+    description: 'If load balancers are used for data platform endpoints, have health probes been configured to assess the data store endpoint(s) availability?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: J
+    text: Data restore processes have been defined to ensure consistent application state when data is corrupted or deleted.
+    description: Has a data restore process been defined to ensure a consistent state for the application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: K
+    text: Data restore processes have been validated and tested to ensure consistent application state when data is corrupted or deleted.
+    description: Has the data restore process been validated and tested to ensure a consistent state for the application in the event of a restore?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 02e0ec9a-7883-403c-b895-ac90af44e1a3
+name: Decisions taken to ensure the data platform meets your reliability requirements?

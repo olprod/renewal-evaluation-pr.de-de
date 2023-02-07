@@ -1,0 +1,63 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'SAP production workloads configured for Automatic failover for (A)SCS, DB & SAPMNT.'
+    description: 'In the Primary region, high availability with auto-failover required to meet the RPO=0 requirement and achieve 99.95% SLA with AvSet & 99.99% SLA with AvZone.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: SAP workload deployed across Availability Zones or Availability Sets.
+    description: 'Is the application deployed across AZ [Availability Zone] or AS [Availability Set] ?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '2'
+    text: 'Standard Load Balancer implemented to configure High-Availability for (A)SCS & Database with recommended settings '
+    description: |-
+      Make sure that ALL Azure ILB Load Balancing Rules have: “Idle timeout (minutes)” settings,  set to the maximum value of 30 minutes.
+      “Floating IP (direct server return)” must be Enabled
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: Application Gateway/SAP Web-Dispatcher configured for High-Availability for HTTPS connectivity to SAP workload.
+    description: For internet facing workload configure Standard Load Balancer or Application Gateway
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '6'
+    text: Client traffic can be routed to the application in the case of region/zone/network outages using Traffic Manager.
+    description: 'How is the client traffic routed to the application in the case of a region outage? i.e. is traffic routed through a load balancer such as Standard Load Balancer, Application Gateway, SAP Web-Dispatcher,  Traffic Manager or a third-party?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Application reliability
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWEifN'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: Designing application resiliency and availability is critical to ensuring overall application reliability.
+isRequired: false
+uid: 8d9f2b02-e2db-4608-8a51-e07730f4540c
+name: Designing application resiliency and availability is critical to ensuring overall application reliability.

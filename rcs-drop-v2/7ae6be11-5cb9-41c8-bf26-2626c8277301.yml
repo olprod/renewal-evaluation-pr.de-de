@@ -1,0 +1,63 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Password Hash Sync (PHS)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: Password - Thru Authentication (PTA)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '2'
+    text: Password Writeback
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: Federated
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '4'
+    text: Seamless Sign-on
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '5'
+    text: none of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 7ae6be11-5cb9-41c8-bf26-2626c8277301
+name: What AAD password sync is configured?

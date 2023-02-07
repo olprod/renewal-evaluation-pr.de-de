@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Monitoring has been configured to track and record the amount of Physical Memory used/available within the stamp on a regular basis.
+    description: Has monitoring been configured to track and record the amount of Physical Memory used/available within the stamp on a regular basis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Monitoring has been configured to track and record the amount of Disk Space used/available for each Object Store (Volume) within the stamp on a regular basis.
+    description: Has monitoring been configured to track and record the amount of Disk Space used/available for each Object Store (Volume) within the stamp on a regular basis?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: Monitoring has been configured to track and record the Public IP Address Pool(s) usage within the stamp on a regular basis.
+    description: Has monitoring been configured to track and record the Public IP Address Pool(s) usage within the stamp on a regular basis?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: 'When using Internet Routable Public IP Addresses for connected stamps: the annual renewal of IPv4 block reservation(s) is monitored and renewed with the Internet Service Provider (ISP) in a timely manner.'
+    description: 'The Internet Assigned Numbers Authority (IANA) manages the IP address space globally. They assign IP ranges to ISPs who in turn manage and sell IPv4 ranges to customers. As the Public IP Address pool used for an Azure Stack Hub stamp deployment cannot be changed (without a redeployment), it is important to continue to renew any internet routable IPv4 block reservations with the ISP, during the lifetime of the stamp.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: 'Prior to performing Azure Stack Hub updates and/or on a periodic basis, the Capacity Planner Tool (spreadsheet) is used to perform workload planning and sizing based on workload requirements.'
+    description: 'The Capacity Planner Tool (spreadsheet) is updated periodically with any changes for the infrastructure VMs, it is recommended to use the update planner for workload planning and sizing based on your Users workload requirements.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: The process to obtain the 'Physical to Virtual CPU Ratio' of the nodes/stamp is understood and the information collected periodically and retained for capacity management and reporting purposes.
+    description: 'Are you able to report on the pCPU Cores (physical cores) to vCPU Cores (virtual cores) Ratio for each node, to mitigate the ''noisy neighbor'' scenario if the ratio of virtual cores exceeds your defined standards?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: 'Managed disks (VHDs) can be successfully moved / migrated between Object Stores (volumes), if an Object Store were to have insufficient free disk space available.'
+    description: 'The process to move managed disks (VHDs) between volumes (object stores) is a Cloud Operator responsibility, therefore it is important this process is known and understood such there be a requirement to move VHDs between volume to evenly distribute disk space on the underlying storage.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: H
+    text: 'The process to reclaim space used by deleted storage accounts is understood, for scenarios where storage account retention periods have been configured in the Admin portal.'
+    description: 'In scenarios where storage account retention periods have been defined and a specific volume was low on disk space, it is possible to reclaim the space used by deleted storage accounts prior to the retention/grace period expiry.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 3332e4c0-eef4-484f-9833-23b7927f3931
+name: What considerations and capabilities have been implemented for capacity management?

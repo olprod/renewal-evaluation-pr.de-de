@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Application components have been designed to apply key resiliency patterns for self-healing, such as retries with back-off and circuit breaker.'
+    description: |-
+      The application code should address as many failure scenarios as possible in order to maximize service availability and reliability.
+
+      Application code resiliency patterns go great lengths to transparently handle transient faults such as network packet loss, or the temporary loss of a downstream dependency.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: 'Built-in resiliency capabilities within Azure service SDKs, such as retry mechanisms, are applied.'
+    description: 'Vendor-provided SDKs, such as the Azure service SDKs, will typically provide built-in resiliency capabilities. These capabilities provide a standardized and validated approach to optimize the reliability of application code.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: 'Application code uses standardized packages to implement resiliency patterns, such as Polly for C# or Microsoft Sentinel for Java.'
+    description: Most programming languages provide standardized and validated packages for resiliency patterns that can be used to optimize code reliability.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Application code implements the retry pattern to handle transient failures effectively and transparently.
+    description: |-
+      An application should handle transient failures when attempting to connect to a dependent service or network resource, by transparently retrying failed operations. 
+
+      A retry pattern can greatly improve the overall stability of application code.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: Functional checks are exposed through health endpoints that external monitoring solutions can poll to retrieve application component health statuses.
+    description: 'Health Endpoint Monitoring should be interpreted alongside key operational metrics to inform application health and trigger operational responses, such as raising an alert or performing a compensating roll-back deployment.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '5'
+    text: Correlation IDs are used for all trace events and log messages to tie them to a given request.
+    description: A correlation ID is a GUID automatically generated for every incoming request.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '6'
+    text: Common engineering criteria is defined for all microservice teams to drive consistency in the use of application-level resiliency patterns.
+    description: 'Common engineering criteria is an essential tool for a complex mission-critical workload to ensure code quality across service teams, as well as to accelerate development.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'A mission-critical application must be developed with resiliency in mind. It is therefore critical for the application code to be designed and developed to be resilient, ensuring that the application can respond to failure, which is an unavoidable characteristic of highly distributed multi-tenant cloud environments like Azure.'
+isRequired: false
+uid: 3f7e518b-119a-481a-ab7d-b58197e67a0e
+name: A mission-critical application must be developed with resiliency in mind.

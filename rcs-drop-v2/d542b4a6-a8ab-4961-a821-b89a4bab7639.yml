@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Analyze ROI regularly.
+    description: Both TCO and ROI are key financial metrics that organizations may wish to quantify for their Cloud investment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Consider using different Azure datacenter locations to optimize cost.
+    description: Azure has datacenters all over the world and each datacenter is placed within a zone within a region or just a region.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Track the resource tier and optimize appropriately.
+    description: 'Costs are resource-specific, so the usage that a meter tracks and the number of meters associated with a resource depend on the resource type.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Take advantage of appropriate subscription offer types.
+    description: 'Azure usage rates and billing periods can differ between Enterprise, Web Direct, and Cloud Solution Provider (CSP) customers based on specific subscription types as described on the Azure offer-details page.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Make a clear analysis of your HA/DR requirements and setup your solution accordingly (RTO,RPO).'
+    description: Look into the documentation for more information about HA/DR patterns.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.F
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: tradeoffs-data-sqlmi
+uid: d542b4a6-a8ab-4961-a821-b89a4bab7639
+name: What trade-offs have you made to optimize for cost?

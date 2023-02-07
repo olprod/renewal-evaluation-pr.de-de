@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have evaluated the four traffic routing configurations in Azure Front Door.
+    description: Azure Front Door Service supports various traffic-routing methods to determine how to route your HTTP/HTTPS traffic to the various service endpoints.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for Azure Front Door. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Networking - FD
+uid: 2a4b2cf2-bd5a-4010-a2ff-8c35c30a0fdf
+name: Please choose the applicable Well-Architected reliability considerations for Azure Front Door.

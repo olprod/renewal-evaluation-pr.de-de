@@ -1,0 +1,258 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: List and document security requirements for the data lake
+    url: /azure/storage/blobs/data-lake-storage-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.83010f70-82ef-48c1-a373-af6c2b34eb39.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define and test operational processes for security incident response
+    url: /security/benchmark/azure/security-control-incident-response
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.83010f70-82ef-48c1-a373-af6c2b34eb39.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider reviewing data compliance requirements
+    url: /azure/compliance/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.83010f70-82ef-48c1-a373-af6c2b34eb39.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Use Azure policies\_to enforce security, compliance, and organizational standards"
+    url: /azure/governance/policy/samples/built-in-policies#storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.ab75294e-c0c1-49ff-848c-325425d80496.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Enable\_Azure Defender\_for your storage accounts to detect unusual and potentially harmful attempts to access or exploit your storage accounts"
+    url: /azure/storage/common/azure-defender-storage-configure?tabs=azure-security-center
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.ab75294e-c0c1-49ff-848c-325425d80496.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Azure Security Centre’s Secure Score\_is formally reviewed and improved on a regular basis"
+    url: /azure/defender-for-cloud/secure-score-security-controls
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.ab75294e-c0c1-49ff-848c-325425d80496.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Activate diagnostic logs and store them in\_a Log Analytics workspace, a blob storage, or to an Event Hub for further analysis by another tool"
+    url: /azure/storage/blobs/monitor-blob-storage?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.ab75294e-c0c1-49ff-848c-325425d80496.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Discover, connect, and explore data in Azure Data Lake Gen2 using Azure Purview'
+    url: /azure/purview/register-scan-adls-gen2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.ab75294e-c0c1-49ff-848c-325425d80496.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use ADLS Gen2 encryption with customer-managed key
+    url: /azure/storage/common/customer-managed-keys-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8c32b2aa-b4ae-4147-b2f1-e21353388bf2.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure your storage account to accept requests from secure connections only by setting the Secure transfer required property for the storage account
+    url: /azure/storage/common/storage-require-secure-transfer
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8c32b2aa-b4ae-4147-b2f1-e21353388bf2.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Keep in mind the principle of least privilege when assigning\_permissions\_to an\_Azure AD\_security principal via Azure RBAC"
+    url: /azure/storage/blobs/data-lake-storage-access-control-model
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8b8e8eed-2518-411d-a6cb-34aad664e8d1.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Define Azure Active Directory Groups and apply\_RBAC (Role-Based Access Controls)\_role assignments on your storage accounts to manage 'coarse-grain' access to your data"
+    url: /azure/storage/blobs/data-lake-storage-access-control-model#role-based-access-control-azure-rbac
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8b8e8eed-2518-411d-a6cb-34aad664e8d1.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Define Azure Active Directory Groups and apply\_Default ACL (Access Control List)\_and\_Access ACL\_entries on the folders and files in your storage accounts to manage 'fine-grain' access to your data"
+    url: /azure/storage/blobs/data-lake-storage-access-control
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8b8e8eed-2518-411d-a6cb-34aad664e8d1.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Prefer\_system-assigned Managed Identity\_(instead of a Service Principal or an access key) for automated processes that require access to your data"
+    url: /azure/active-directory/managed-identities-azure-resources/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8b8e8eed-2518-411d-a6cb-34aad664e8d1.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Conduct periodic and automated access reviews of the workload to make sure only authorized people have access
+    url: /azure/active-directory/reports-monitoring/concept-audit-logs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8b8e8eed-2518-411d-a6cb-34aad664e8d1.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Align your access strategy with a data partitioning scheme
+    url: /azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/secure-authentication#azure-data-lake-security-in-the-data-management-and-analytics-scenario
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8b8e8eed-2518-411d-a6cb-34aad664e8d1.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Leverage\_Credential Passthrough\_when possible (Databricks, Synapse, HDI, PBI, Azure ML (preview))"
+    url: /azure/databricks/security/credential-passthrough/adls-passthrough
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8b8e8eed-2518-411d-a6cb-34aad664e8d1.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prevent authorization with Shared Access Keys
+    url: /azure/storage/common/shared-key-authorization-prevent?tabs=portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.8b8e8eed-2518-411d-a6cb-34aad664e8d1.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Make sure you configure the\_firewall rules\_to limit access to a specified range of IP addresses or to a list of trusted Azure virtual networks"
+    url: /azure/storage/common/storage-network-security?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.4a997208-96f3-493c-8545-d9b22c39a28e.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Configure an\_Azure Private Endpoint\_for your storage account, except if you want to make it accessible from the Internet"
+    url: /azure/storage/common/storage-private-endpoints
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.4a997208-96f3-493c-8545-d9b22c39a28e.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "If you can't disallow shared key access, ensure that Azure Key Vault is used\_to manage and rotate the access keys"
+    url: /azure/key-vault/general/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ea7ee22c-047a-430e-90c5-833d3bb9a154.bbde070b-9bb5-4269-a802-6cf3d822306b.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 48b9d4bd-374b-4f48-ba16-166a15d97cc8
+name: ''

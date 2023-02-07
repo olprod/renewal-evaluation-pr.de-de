@@ -1,0 +1,60 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The connection between data resources and the App Service resource is handled via private link.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: We have enforced HTTPS for all App Services.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: TLS 1.0 and 1.1 are disabled for all App Services.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: We run our applications with an Azure Managed Identity.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Certificates used by our App Service are kept in Key Vault.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.app
+stem: ''
+isRequired: false
+uid: 9e5cecb9-e01e-49a5-8415-a814f4d06d78
+name: Have you configured your Azure App Services with security in mind?

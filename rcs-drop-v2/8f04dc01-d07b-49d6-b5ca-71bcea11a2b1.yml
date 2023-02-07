@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have not analyzed the implications of moving from traditional on-premises applications to SaaS and our interest in Dynamics 365 does not include this concept.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We understand that concepts for developing business applications are changing but have not considered how that affects our project yet.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: We understand that business applications need to keep pace with the accelerating pace of change in business models but have not thought about how that impacts our project yet.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'Keeping pace with, or ahead of, the accelerating pace of change with business models is the primary reason for considering our project.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Change is being triggered by the accelerating pace of change in business models. SaaS business application platforms allow companies to keep pace with that change. Understand this concept to ensure your project is focused on enabling this fundamental change.
+
+  Which statement best describes your organization's understanding of these concepts?
+isRequired: true
+uid: 8f04dc01-d07b-49d6-b5ca-71bcea11a2b1
+name: Change is being triggered by the accelerating pace of change in business models.

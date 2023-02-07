@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 7f9f35e9-a745-4744-8127-77454fb6d6ac
+recommendations:
+  - 066d2f3b-6880-4963-83d1-7103816ad975
+assignedGroupIds: []
+uid: 50418479-b8a6-4ec5-abaf-ffd8a7672169
+name: 'Go-Live - Cache for Redis: Reliability'

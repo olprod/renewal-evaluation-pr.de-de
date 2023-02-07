@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Devices are provisioned manually.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: Device Provisioning Service is used to automatically provisions devices.
+    description: Use Device Provisioning Service to automatically provision devices and connect to an Azure IoT Hub.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Provisioning devices is an important step to connect your devices to your IoT solution. While some devices or gateways/Azure IoT Edge devices are provisioned and configured manually, for example OPC UA servers in a plant, provisioning of large numbers of devices must be automated to ensure correct and secure attestation, geographical distribution, and resilient connectivity (for example, connected products).'
+isRequired: false
+uid: 20cfd1c9-e11f-4a27-9e9d-1f65670292cc
+name: 'Provisioning devices is an important step to connect your devices to your IoT solution. While some devices or gateways/Azure IoT Edge devices are provisioned and configured manually, for example OPC UA servers in a plant, provisioning of large numbers of devices must be automated to ensure correct and secure attestation, geographical distribution, and resilient connectivity (for example, connected products).'

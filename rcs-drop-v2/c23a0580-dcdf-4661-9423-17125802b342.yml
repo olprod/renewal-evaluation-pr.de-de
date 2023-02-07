@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have no defined process for evaluating Azure resource types before allowing them in our environment.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We assess the security configurations of some Azure services in our environment.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We assess the security configurations of most Azure services in our environment.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: 'We have a well-defined process for assessing Azure service security configurations as well as monitoring, alerting, and integrating services with existing systems. Secure resource configurations are defined but not enforced.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: 'We have a well-defined process for assessing Azure service security configurations as well as monitoring, alerting, and integrating services with existing systems. Secure resource configurations are defined and automatically enforced.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: false
+uid: c23a0580-dcdf-4661-9423-17125802b342
+name: How do you determine whether to allow Azure services in your environment or not?

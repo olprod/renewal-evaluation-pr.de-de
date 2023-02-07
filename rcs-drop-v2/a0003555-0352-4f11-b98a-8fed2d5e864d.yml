@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: J
+    text: 'Use tagging of workspaces (resource groups), clusters, and pools.'
+    description: 'Monitoring cost and accurately attributing Azure Databricks usage to your organization`s business units and teams, you can add custom tags for the objects managed by Azure Databricks. Workspace, pool, and cluster tags are aggregated by Azure Databricks and propagated to Azure VMs for cost analysis reporting. But pool and cluster tags are propagated differently from each other.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: K
+    text: Use MLFlow in Databricks for model insights.
+    description: 'MLflow provides a fully managed and hosted version managing the end-to-end machine learning lifecycle using primary components such as Tracking, Models Management, Project Management, Model Registry and Model Serving.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: L
+    text: Monitor Azure Databricks application logs using  Azure Monitor.
+    description: Send application logs and metrics from Azure Databricks to a Log Analytics workspace.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: M
+    text: Visualize metrics in Grafana Dashboards to monitor Azure Databricks jobs for performance issues.
+    description: Set up a Grafana dashboard to monitor Azure Databricks jobs for performance issues.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: 'N'
+    text: 'Manage,monitor performance and logs of Azure Databricks Cluster.'
+    description: 'Manage Azure Databricks clusters, including displaying, editing, starting, terminating, deleting, controlling access, and monitoring performance and logs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: P
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Traditional application and infrastructure monitoring is based on whether the application is running or not, or what response time it is giving. However, cloud-based monitoring offer many more opportunities that you should be leveraging in order to give your users the best experience.'
+isRequired: false
+legacyId: '4'
+uid: a0003555-0352-4f11-b98a-8fed2d5e864d
+name: 'Traditional application and infrastructure monitoring is based on whether the application is running or not, or what response time it is giving.'

@@ -1,0 +1,74 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have defined recovery point objective (RPO) targets based on business requirements for the application and key scenarios.
+    description: 'Recovery point objective: the maximum duration of data loss that is acceptable during a disaster.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: We have defined recovery time objective RTO targets based on business requirements for the application and key scenarios.
+    description: ' Recovery time objective: the maximum acceptable time an application is unavailable after an incident.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: We have defined availability targets such as Service Level Agreements (SLAs) and Service Level Objectives (SLOs) based on business requirements.
+    description: Availability targets such as Service Level Agreements (SLAs) and Service Level Objectives (SLOs). Have availability targets been defined for the application and key scenarios? Are targets considered while the system is running in a recovery mode?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: We have evaluated continuous backup in Azure Cosmos DB for more granular point-in-time restore and self-serve capabilities.
+    description: |-
+      Continuous backups ensure the backup is taken in each region every 100 seconds and provide the ability to restore data to any desired point in time with second granularity.
+
+      Periodic backups take full backups of all partitions from all containers under your account, with no synchronization across partitions. The minimum backup interval is one hour.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: We have configured our Azure Cosmos DB workload based on the availability requirements and understand the SLA impact.
+    description: |-
+      If a solution requires continuous availability during region outages, Azure Cosmos DB can be configured to replicate your data across multiple regions and to transparently fail over to available regions when required.
+
+      Single-region accounts may lose availability following a regional outage. To ensure high availability at all times, it's recommended to set up your Cosmos DB account with a single write region and at least a second (read) region and enable service-managed failover.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: 'For our durability requirements, we understand and have configured the appropriate consistency level for our Azure Cosmos DB account.'
+    description: 'When an Azure Cosmos DB account is deployed in multiple regions, data durability depends on the consistency level configured on the account.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '0'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 18cc037c-e9ad-4c44-996c-ef043634db2c
+name: What reliability targets and metrics have you defined for Azure Cosmos DB to support your application?

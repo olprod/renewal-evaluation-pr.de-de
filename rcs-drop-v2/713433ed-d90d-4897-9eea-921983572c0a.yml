@@ -1,0 +1,27 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: Get experience with migration tasks so you can drive repeatability and accelerate your project.
+links:
+  - title: Practice migrating pilot applications
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-overview
+    condition:
+      anyOf:
+        - migration-execution.5bfa9414-86d3-4f0e-b384-a30cb92c3341.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prepare to scale your migration project
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-scale
+    condition:
+      allOf: []
+      anyOf:
+        - migration-execution.5bfa9414-86d3-4f0e-b384-a30cb92c3341.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 713433ed-d90d-4897-9eea-921983572c0a
+name: Migration execution

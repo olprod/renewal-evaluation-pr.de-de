@@ -1,0 +1,44 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-manage.png
+description: Align the teams and roles supporting your organization's cloud adoption efforts.
+links:
+  - title: Mature team structures
+    url: /azure/cloud-adoption-framework/organize/organization-structures
+    condition:
+      anyOf:
+        - organize.4ef2cbe8-80d1-4252-b0d6-f8a996f042c8.a7200f0c-f401-4caa-b96c-0e7e1347dd22.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore organizational and technical readiness learning paths
+    url: /azure/cloud-adoption-framework/organize/suggested-skills
+    condition:
+      anyOf:
+        - organize.4ef2cbe8-80d1-4252-b0d6-f8a996f042c8.a7200f0c-f401-4caa-b96c-0e7e1347dd22.B
+        - organize.4ef2cbe8-80d1-4252-b0d6-f8a996f042c8.a7200f0c-f401-4caa-b96c-0e7e1347dd22.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Building technical skills
+    url: /azure/cloud-adoption-framework/organize/suggested-skills
+    condition:
+      anyOf:
+        - organize.4ef2cbe8-80d1-4252-b0d6-f8a996f042c8.6d8516b3-4fd0-4497-9b09-1c996d9aee14.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learning module - Review the Azure compute services and explore how they can solve common business needs
+    url: /learn/modules/intro-to-azure-compute/
+    condition:
+      anyOf:
+        - organize.4ef2cbe8-80d1-4252-b0d6-f8a996f042c8.6d8516b3-4fd0-4497-9b09-1c996d9aee14.B
+        - organize.4ef2cbe8-80d1-4252-b0d6-f8a996f042c8.6d8516b3-4fd0-4497-9b09-1c996d9aee14.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: c5f3d1c7-4ce0-416f-b7b4-0ae1c183359a
+name: Organize

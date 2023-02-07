@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: All Azure services and application resources are configured to auto-scale.
+    description: 'Many Azure services support automatic scaling to respond to changes in load. For others, like deployments on AKS, standardized solutions like Horizontal Pod Autoscaler can be configured.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: Custom scaling automation scripts are in place to scale services based on metrics.
+    description: 'Metrics that go beyond resource utilization can be, for example, the number of requests in a queue.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: Manual scaling operations are applied based on well-known usage patterns.
+    description: Manual scaling operations might be required for expected peaks and unusual load due to specific events.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Automatically scaling based on application load is crucial and needs to be performed across infrastructure and application resources.
+isRequired: false
+uid: d4752ae4-aa16-4209-902f-a8c1c75d36ae
+name: Automatically scaling based on application load is crucial and needs to be performed across infrastructure and application resources.

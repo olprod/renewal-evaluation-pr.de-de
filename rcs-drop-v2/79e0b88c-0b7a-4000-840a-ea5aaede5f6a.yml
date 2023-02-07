@@ -1,0 +1,20 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This focusses on organization''s maturity against Data Management dimension to create a holistic view of current state and provides a structured framework for developing maturity in each capability. This dimension explores practices to help your organization to build, improve and measure Data Management capability to allow timely, accurate and accessible data across your entire organization.'
+hideEmptyGuidance: false
+questions:
+  - bbb22436-4bf8-4dd5-99e6-aff6b52b85d4
+  - da0edef6-d4ef-4c99-a049-768a3c727308
+  - cc44ffff-079a-4963-8f2e-a62080082d04
+  - ef11347a-bab8-43f0-886f-607aab878b47
+  - 9d2d4c13-2e5d-4dc9-ad57-2eae19407f87
+  - fb07efcf-b76a-448c-b6cc-b017b1ee887e
+  - 9d5fe44e-d7d1-4a96-a3bf-888aae507532
+  - 1e25e6ae-ac49-47d6-9c09-6896b497b4c7
+  - f8a2893d-50e9-48af-b7c4-e47e4ade8143
+  - ebb9ccd6-0f29-4e97-9ddc-341352a18938
+recommendations:
+  - c63381ee-96a0-478b-ba20-d2d99f59a70e
+assignedGroupIds: []
+uid: 79e0b88c-0b7a-4000-840a-ea5aaede5f6a
+name: Maturity Framework - Data Management Pillar

@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The application is tested against critical Non-Functional requirements for performance.
+    description: Do you perform regular application performance testing to base line and assess the applications performance against defined targets?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: 'The application has been assessed against common cloud anti-patterns, to prevent known issues impacting its performance and/or scalability.'
+    description: Performance anti-patterns are common practices that often cause scalability and reliability problems when an application is under pressure. Having awareness of these anti-patterns can help cloud solution architects design and deploy reliable cloud platforms.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: Load Testing is conducted with expected peak volumes to test scalability and performance under load.
+    description: Is Load testing performed using expected peak volumes? i.e. do you test application scalability and performance under load?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Chaos Testing is performed by injecting faults.
+    description: Is the system tested under critical failure scenarios to validate availability and recovery targets are fully satisfied?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Tests are automated and carried out periodically or on-demand.
+    description: Are tests automated and carried out periodically or on-demand?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: 'Critical test environments have 1:1 parity with the production environment.'
+    description: 'Do key test environments have 1:1 parity with the production environment?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 37bd2222-ce58-41d5-9094-e38246dd055b
+name: How do you test the application to ensure it is fault tolerant?

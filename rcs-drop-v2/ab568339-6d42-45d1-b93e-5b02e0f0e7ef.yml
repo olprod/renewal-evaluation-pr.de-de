@@ -1,0 +1,444 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use a Threat Modeling Tool to generate findings and share those findings with the related business and development teams
+    url: /azure/cloud-adoption-framework/secure/risk-insights
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4b8457e8-b1c7-4bb0-91cd-9fc38d387d4b.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Integrate automated tests into the deployment pipelines with a continuous improvement feedback loop
+    url: /azure/cloud-adoption-framework/secure/devsecops-controls
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4b8457e8-b1c7-4bb0-91cd-9fc38d387d4b.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Use Azure Policy to apply consistent guardrails across all management groups and subscriptions
+    url: /en-us/security/benchmark/azure/security-baselines-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4b8457e8-b1c7-4bb0-91cd-9fc38d387d4b.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Use Defender for Cloud to apply a standard threat model across all environments and touch points
+    url: /azure/security/fundamentals/threat-detection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4b8457e8-b1c7-4bb0-91cd-9fc38d387d4b.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Use Defender for Cloud to apply regulation standards that are relevant to your industry and business objectives
+    url: /azure/defender-for-cloud/update-regulatory-compliance-packages
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4b8457e8-b1c7-4bb0-91cd-9fc38d387d4b.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Tag critical resources and their associated cloud assets in a way that controls are applied properly
+    url: /azure/cloud-adoption-framework/manage/considerations/criticality#criticality-scale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4b8457e8-b1c7-4bb0-91cd-9fc38d387d4b.5
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Know the vulnerabilities of any third party components included with your project
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.9dd8d8f4-f194-4b5a-95af-20bde44d5fdd.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Patch identified threats within timeframes defined by threat severity and business risk policies
+    url: /windows/deployment/update/plan-define-strategy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.9dd8d8f4-f194-4b5a-95af-20bde44d5fdd.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Local admin accounts should be disabled and only enabled for break glass situations
+    url: /defender-for-identity/cas-isp-laps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.9dd8d8f4-f194-4b5a-95af-20bde44d5fdd.2
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Perform a cloud app discovery across the organization and control access to sanctioned apps
+    url: /azure/cloud-adoption-framework/digital-estate/inventory
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.9dd8d8f4-f194-4b5a-95af-20bde44d5fdd.3
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Connect applications and the resources they utilize using tags for tracking and billing purposes
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.9dd8d8f4-f194-4b5a-95af-20bde44d5fdd.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Use Defender for Cloud to centrally report and alert events gathered across all cloud vender services
+    url: /azure/cloud-adoption-framework/manage/monitor/response
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.f6bfbf8c-c821-40ba-800a-5c0276157391.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: A unified security operations team should be established to manage threats across the diverse landscape
+    url: /azure/architecture/framework/security/monitor-security-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.f6bfbf8c-c821-40ba-800a-5c0276157391.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Create a read-only security principle for automated monitoring and alerting and audit it regularly
+    url: /azure/cloud-adoption-framework/organize/cloud-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.f6bfbf8c-c821-40ba-800a-5c0276157391.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Use Defender for Identity to monitor and remediate accounts that are at risk or have risky behavior detected
+    url: /azure/cloud-adoption-framework/govern/identity-baseline/metrics-tolerance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.f6bfbf8c-c821-40ba-800a-5c0276157391.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Create a centralize team to hunt for threats and communicate the findings to stakeholders
+    url: /azure/cloud-adoption-framework/innovate/considerations/adoption
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.f6bfbf8c-c821-40ba-800a-5c0276157391.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Use Microsoft Defender for Cloud Apps and Microsoft Defender to detect and remediate access to unsanctioned cloud applications
+    url: /defender-cloud-apps/mde-govern
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.f6bfbf8c-c821-40ba-800a-5c0276157391.5
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Create a group to be alerted for service health issues and assign at least one admin to the group
+    url: /azure/service-health/service-health-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.f6bfbf8c-c821-40ba-800a-5c0276157391.6
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Vulnerability scanning will help find known vulnerabilities in your code and infrastructure assets
+    url: /security/benchmark/azure/security-control-vulnerability-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.de8a8e1e-0c2d-414b-9078-3fc63dbe0c0c.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Penetration testing will help find exposed or weak targets before the bad guys do
+    url: /azure/security/fundamentals/pen-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.de8a8e1e-0c2d-414b-9078-3fc63dbe0c0c.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: You should regularly simulate phishing attacks across your organization and provide training
+    url: /microsoft-365/security/office-365-security/attack-simulation-training-get-started?view=o365-worldwide
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.de8a8e1e-0c2d-414b-9078-3fc63dbe0c0c.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Create an incident response guide to assist in remediating an attack
+    url: /security/benchmark/azure/security-control-incident-response
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.de8a8e1e-0c2d-414b-9078-3fc63dbe0c0c.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Apply security access controls as if every resource and client resides in an untrusted and compromised environment
+    url: /azure/cloud-adoption-framework/secure/access-control
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.de8a8e1e-0c2d-414b-9078-3fc63dbe0c0c.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Regularly train staff on policies and approved use of organization resources
+    url: /azure/cloud-adoption-framework/organize/suggested-skills
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.de8a8e1e-0c2d-414b-9078-3fc63dbe0c0c.5
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Security should be a business enabler and derive policy out of business objectives and risk appetite
+    url: /azure/cloud-adoption-framework/organize/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.9f1b9bd7-45db-470b-b034-1d73a5e0b1ee.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Create a diverse team of stakeholders across all business areas to drive the cloud strategy across the entire organization
+    url: /azure/cloud-adoption-framework/organize/cloud-strategy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.9f1b9bd7-45db-470b-b034-1d73a5e0b1ee.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: The Security Operations team should be involved at the early stages of product development to ensure that security is baked in and not an after thought
+    url: /azure/cloud-adoption-framework/organize/cloud-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.9f1b9bd7-45db-470b-b034-1d73a5e0b1ee.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Enrich the business stakeholders with incident learnings and threat trends that may affect the organization or it's customers
+    url: /azure/cloud-adoption-framework/secure/security-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.9f1b9bd7-45db-470b-b034-1d73a5e0b1ee.3
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Regularly audit application identities and remove those which are no longer used
+    url: /azure/active-directory/managed-identities-azure-resources/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.7babe692-48dd-4618-ab83-5cab33294ee5.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Access reviews should go through an approver on a regular basis for all privileged roles
+    url: /azure/active-directory/governance/access-reviews-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.7babe692-48dd-4618-ab83-5cab33294ee5.2
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Access reviews (self or approver based) should be performed on roles to prevent access to resources outside of current roles
+    url: /azure/active-directory/governance/manage-guest-access-with-access-reviews
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.7babe692-48dd-4618-ab83-5cab33294ee5.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Apply Security Operations Design Recommendations
+    url: /azure/cloud-adoption-framework/ready/landing-zone/design-area/security#security-operations-design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4f4e0bae-ca48-4850-8824-7cb68800fae6.0
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4f4e0bae-ca48-4850-8824-7cb68800fae6.1
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4f4e0bae-ca48-4850-8824-7cb68800fae6.2
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4f4e0bae-ca48-4850-8824-7cb68800fae6.3
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4f4e0bae-ca48-4850-8824-7cb68800fae6.4
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4f4e0bae-ca48-4850-8824-7cb68800fae6.5
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4f4e0bae-ca48-4850-8824-7cb68800fae6.6
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.4f4e0bae-ca48-4850-8824-7cb68800fae6.7
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Only grant access to privileged roles for as long as they are needed to perform the immediate task
+    url: /insidetrack/implementing-a-zero-trust-security-model-at-microsoft
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Use Azure AD reporting capabilities to generate access control audit reports
+    url: /insidetrack/implementing-a-zero-trust-security-model-at-microsoft
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.53b23e5d-2ddd-45d8-a9eb-ef78a7f1d8c3.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Implement a Cloud Monitoring Strategy
+    url: /azure/cloud-adoption-framework/manage/monitor/cloud-models-monitor-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.f6bfbf8c-c821-40ba-800a-5c0276157391.7
+      scoreOf: []
+    context: Select a Strategy for Cloud Monitoring
+    priority: 50
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+  - title: Establish security posture management
+    url: /azure/cloud-adoption-framework/secure/security-top-10#5-process-establish-security-posture-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b.f6bfbf8c-c821-40ba-800a-5c0276157391.8
+      scoreOf: []
+    context: SIEM + XDR Establish security posture management
+    priority: 10
+    reportingCategory: Security Operations
+    reportingSubCategory: ''
+uid: ab568339-6d42-45d1-b93e-5b02e0f0e7ef
+name: ''

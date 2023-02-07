@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Application monitoring is in place to monitor and alert on database level errors.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: 'Retry logic is implemented to handle transient failures, with appropriate back-off strategies to avoid cascading failures.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Metrics and monitoring thresholds have been defined.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: exceptions-data-sqlmi
+uid: 0b97d3ee-8d2e-408e-9904-a80e9d97d315
+name: How are you handling exceptions and errors in your Azure SQL MI?

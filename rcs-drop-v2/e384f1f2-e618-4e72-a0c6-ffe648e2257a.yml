@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have assessed consolidating multiple, related documents in the same partition having a common property (partition key), differentiated by their type.'
+    description: 'Query entities in a similar group but with different types (e.g., customer and invoice entity types in same container) and same partition key. When collocating them in a single container, you can improve query efficiency and reduce the number of containers.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'For related entities, our workload access patterns have been analyzed to help design the data model in considering the reference vs. embedded patterns.'
+    description: 'By understanding the access pattern, the data model can be optimized for cost savings based on several key factors (the RU cost, and frequency of read/writes/queries).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: We have considered using a synthetic partition key (i.e. combining multiple properties together) to ensure the data and workloads are evenly distributed across the collection.
+    description: Using a synthetic key helps with distributing the data and workload evenly with many distinct values for a partition key. This provides a more optimal usage of RU charges.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'Based on the workload, we have designed and set the appropriate consistency level.'
+    description: Choosing the appropriate default consistency level improves the scalability of your application. Weakening the consistency level can improve the RU cost for reads and reduce the latency for writes in the case of multi-region deployments at the cost of lower RPO and RTO values.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: 'For single read operations, we have evaluated point reads vs. query, and made the appropriate changes in our client code.'
+    description: 'For scenarios that read in a single item, point reads consume less RU charge and can provide significant overall cost savings.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'Data modeling of your access patterns is a critical factor in the design and optimization of your workload. In this activity, you assess the different modeling patterns such as reference vs. embedded, co-location of different entity types, aggregation lookups, considerations for different types of workloads. Going back to make changes is a significant effort, so getting this correct now is critical to realizing cost savings.'
+isRequired: false
+uid: e384f1f2-e618-4e72-a0c6-ffe648e2257a
+name: Data modeling of your access patterns is a critical factor in the design and optimization of your workload.

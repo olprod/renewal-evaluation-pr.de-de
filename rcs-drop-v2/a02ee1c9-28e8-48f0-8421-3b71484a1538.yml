@@ -1,0 +1,78 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Make use of a CDN to avoid unnecessary traffic on the network.
+    url: /azure/architecture/framework/sustainability/sustainability-networking#make-use-of-a-cdn
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ae49b22d-35e1-4f72-8253-d2cf69595fe0.fd7646ff-79d0-4e83-a179-52fba629e14d.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Follow caching best practices to minimize the amount of data transferred.
+    url: /azure/architecture/framework/sustainability/sustainability-networking#follow-caching-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ae49b22d-35e1-4f72-8253-d2cf69595fe0.fd7646ff-79d0-4e83-a179-52fba629e14d.1
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Select Azure regions based on where customers reside.
+    url: /azure/architecture/framework/sustainability/sustainability-networking#select-azure-regions-based-on-where-the-customer-resides
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ae49b22d-35e1-4f72-8253-d2cf69595fe0.fd7646ff-79d0-4e83-a179-52fba629e14d.2
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use managed audio and video streaming services with built-in compression whenever possible.
+    url: /azure/architecture/framework/sustainability/sustainability-networking#use-managed-audio-and-video-streaming-services-with-built-in-compression
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ae49b22d-35e1-4f72-8253-d2cf69595fe0.fd7646ff-79d0-4e83-a179-52fba629e14d.3
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable network file compression.
+    url: /azure/architecture/framework/sustainability/sustainability-networking#enable-network-file-compression
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ae49b22d-35e1-4f72-8253-d2cf69595fe0.fd7646ff-79d0-4e83-a179-52fba629e14d.4
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Maximize network utilization within the same cloud and, if possible, within the same region.'
+    url: /azure/architecture/framework/sustainability/sustainability-networking#maximize-network-utilization-within-the-same-cloud-and-region
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ae49b22d-35e1-4f72-8253-d2cf69595fe0.fd7646ff-79d0-4e83-a179-52fba629e14d.5
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: a02ee1c9-28e8-48f0-8421-3b71484a1538
+name: ''

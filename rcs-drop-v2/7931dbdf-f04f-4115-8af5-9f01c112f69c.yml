@@ -1,0 +1,510 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Define application's RPO (Recovery Point Objective)  and RTO (Recovery Time Objective) targets and validate that Azure SQL MI can achieve them
+    url: /azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.daf1ed63-c8d7-4b70-9b99-3e6f8b9e4ad1.A
+      scoreOf: []
+    context: 'Azure SQL Managed Instance is a fully managed relational database instance with built-in regional high availability and turnkey geo-replication to any Azure region. It provides broad compatibility with SQL Server, enabling on-premises application modernization at scale. Built-in intelligence supports self-driving features such as performance tuning, threat monitoring, and vulnerability assessments and provides fully automated patching and updating of the code base. The Azure SQL Managed Instance has an availability guarantee of at least 99.99%. This applies to both the Business Critical tier and the General Purpose tiers.'
+    priority: 99
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Define availability SLAs (Service Level Agreements) for the solution
+    url: 'https://azure.microsoft.com/support/legal/sla/azure-sql-sql-managed-instance/v1_0/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.daf1ed63-c8d7-4b70-9b99-3e6f8b9e4ad1.B
+      scoreOf: []
+    context: 'Azure SQL Managed Instance is a fully managed relational database instance with built-in regional high availability and turnkey geo-replication to any Azure region. It provides broad compatibility with SQL Server, enabling on-premises application modernization at scale. Built-in intelligence supports self-driving features such as performance tuning, threat monitoring, and vulnerability assessments and provides fully automated patching and updating of the code base. The Azure SQL Managed Instance has an availability guarantee of at least 99.99%. This applies to both the Business Critical tier and the General Purpose tiers.'
+    priority: 99
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: "Define composite SLA (including Azure SQL\_MI SLAs) for the service while architecting the solution"
+    url: 'https://azure.microsoft.com/support/legal/sla/azure-sql-sql-managed-instance/v1_0/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.daf1ed63-c8d7-4b70-9b99-3e6f8b9e4ad1.C
+      scoreOf: []
+    context: 'Azure SQL Managed Instance is a fully managed relational database instance with built-in regional high availability and turnkey geo-replication to any Azure region. It provides broad compatibility with SQL Server, enabling on-premises application modernization at scale. Built-in intelligence supports self-driving features such as performance tuning, threat monitoring, and vulnerability assessments and provides fully automated patching and updating of the code base. The Azure SQL Managed Instance has an availability guarantee of at least 99.99%. This applies to both the Business Critical tier and the General Purpose tiers.'
+    priority: 99
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: 'Perform reliability testing of the application in case of a database failover, such as retry logic'
+    url: 'https://docs.microsoft.com/sql/t-sql/language-elements/try-catch-transact-sql?view=sql-server-ver15'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.642b265f-f911-43e2-9f4e-02ba6df885ad.A
+      scoreOf: []
+    context: 'Azure SQL Database is a cloud service where you might expect transient errors that happen in the underlying infrastructure or in the communication between cloud entities. Although Azure SQL Database is resilient on the transitive infrastructure failures, these failures might affect your connectivity. When a transient error occurs while connecting to SQL Managed Instance, your code should retry the call. We recommend that retry logic use backoff logic, so that it does not overwhelm the service with multiple clients retrying simultaneously. Retry logic depends on the error messages for client programs.'
+    priority: 99
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Look into geo-restore or active geo-replication to ensure database recovery in case of a large scale outage
+    url: '/azure/azure-sql/database/auto-failover-group-overview?tabs=azure-powershell https://docs.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview?tabs=single-database#backup-storage-redundancy https://docs.microsoft.com/en-us/azure/azure-sql/database/read-scale-out'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.642b265f-f911-43e2-9f4e-02ba6df885ad.B
+      scoreOf: []
+    context: 'The auto-failover groups feature allows you to manage the replication and failover of a group of databases on a server or all user databases in a managed instance to another Azure region. It is a declarative abstraction on top of the active geo-replication feature, designed to simplify deployment and management of geo-replicated databases at scale.'
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Performed Failure Mode Analysis (FMA) to identify fault-points and fault-modes
+    url: /azure/architecture/resiliency/failure-mode-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.642b265f-f911-43e2-9f4e-02ba6df885ad.C
+      scoreOf: []
+    context: 'Failure mode analysis (FMA) is a process for building resiliency into a system, by identifying possible failure points in the system. The FMA should be part of the architecture and design phases, so that you can build failure recovery into the system from the beginning.'
+    priority: 91
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: 'Build a capability model (storage, compute) for Azure SQL MI with its current and future utilization'
+    url: /azure/azure-sql/managed-instance/sql-managed-instance-paas-overview#vcore-based-purchasing-model
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.484b3205-f9c6-41cd-9b49-d2c42b8992f5.A
+      scoreOf: []
+    context: 'The vCore-based purchasing model for SQL Managed Instance gives you flexibility, control, transparency, and a straightforward way to translate on-premises workload requirements to the cloud. This model allows you to change compute, memory, and storage based upon your workload needs. The vCore model is also eligible for up to 55 percent savings with the Azure Hybrid Benefit for SQL Server.'
+    priority: 55
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Consider scale up / scale down capabilities of Azure SQL MI based upon business usage pattern
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql/track-progress-of-sql-managed-instance-create-scale-request/ba-p/1698640'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.484b3205-f9c6-41cd-9b49-d2c42b8992f5.B
+      scoreOf: []
+    context: 'Azure SQL Managed Instance provides management operations that you can use to automatically deploy new managed instances, update instance properties, and delete instances when no longer needed. As result of connectivity and deployment architecture, instance deployment and scaling are long running operations. These operation can be monitored on couple of ways, but till now neither one of them was displaying full details on operation steps and progress.'
+    priority: 60
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Confirm Azure SQL MI service and required hardware availability in required regions
+    url: 'https://azure.microsoft.com/en-us/global-infrastructure/services/?products=azure-sql'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.484b3205-f9c6-41cd-9b49-d2c42b8992f5.C
+      scoreOf: []
+    context: 'Azure SQL Managed Instance is a fully managed relational database instance with built-in regional high availability and turnkey geo-replication to any Azure region. It provides broad compatibility with SQL Server, enabling on-premises application modernization at scale. Built-in intelligence supports self-driving features such as performance tuning, threat monitoring, and vulnerability assessments and provides fully automated patching and updating of the code base. The Azure SQL Managed Instance has an availability guarantee of at least 99.99%. This applies to both the Business Critical tier and the General Purpose tiers.'
+    priority: 65
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Confirm the availability of preview features in DR region
+    url: 'https://azure.microsoft.com/support/legal/preview-supplemental-terms/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.484b3205-f9c6-41cd-9b49-d2c42b8992f5.D
+      scoreOf: []
+    context: 'Azure may include preview, beta, or other pre-release features, services, software, or regions offered by Microsoft (''Previews''). Previews are licensed to you as part of your agreement governing use of Azure. Pursuant to the terms of your Azure subscription, PREVIEWS ARE PROVIDED ''AS-IS,'' ''WITH ALL FAULTS,'' AND  ''AS AVAILABLE,'' AND ARE EXCLUDED FROM THE SERVICE LEVEL AGREEMENTS AND LIMITED WARRANTY. Previews may not be covered by customer support. Previews may be subject to reduced or different security, compliance and privacy commitments, as further explained in the Microsoft Privacy Statement, Microsoft Azure Trust Center, the Product Terms, the DPA, and any additional notices provided with the Preview. The following terms in the DPA do not apply to Previews: Processing of Personal Data; GDPR, Data Security, and HIPAA Business Associate. Customers should not use Previews to process Personal Data or other data that is subject to heightened legal or regulatory requirements. Certain named Previews are subject to additional terms set forth below, if any. These Previews are made available to you pursuant to these additional terms, which supplement your agreement governing use of Azure. We may change or discontinue Previews at any time without notice. We also may choose not to release a Preview into ''General Availability''.'
+    priority: 85
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Service SKU
+  - title: Define a backup strategy in alignment with recovery targets
+    url: /azure/azure-sql/database/recovery-using-backups#point-in-time-restore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.dfd0ab9c-7b14-449c-8f0d-4e3034dff61b.A
+      scoreOf: []
+    context: 'Automatic backups protect your databases from user and application errors, accidental database deletion, and prolonged outages. This built-in capability is available for all service tiers and compute sizes.  When you''re using the Standard or Premium service tier, your database restore might incur an extra storage cost. The extra cost is incurred when the maximum size of the restored database is greater than the amount of storage included with the target database''s service tier and performance level. For pricing details of extra storage, see the SQL Database pricing page. If the actual amount of used space is less than the amount of storage included, you can avoid this extra cost by setting the maximum database size to the included amount.'
+    priority: 99
+    reportingCategory: Business Continuity
+    reportingSubCategory: Backup & Restore
+  - title: Define a disaster recovery strategy to capture recovery steps and failback
+    url: 'https://docs.microsoft.com/en-us/azure/azure-sql/database/auto-failover-group-overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.dfd0ab9c-7b14-449c-8f0d-4e3034dff61b.B
+      scoreOf: []
+    context: 'The goal of the high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running minimum of 99.99% of time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer to SLA for Azure SQL Database and SLA for Azure SQL Managed Instance. Azure automatically handles critical servicing tasks, such as patching, backups, Windows and Azure SQL upgrades, and unplanned events such as underlying hardware, software, or network failures. When the underlying database in Azure SQL Database is patched or fails over, the downtime is not noticeable if you employ retry logic in your app. SQL Database and SQL Managed Instance can quickly recover even in the most critical circumstances ensuring that your data is always available.'
+    priority: 100
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Test and validate the secondary Managed Instance and failback approach
+    url: 'https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-portal#create-a-secondary-managed-instance'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.dfd0ab9c-7b14-449c-8f0d-4e3034dff61b.C
+      scoreOf: []
+    context: 'The goal of the high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running minimum of 99.99% of time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer to SLA for Azure SQL Database and SLA for Azure SQL Managed Instance. Azure automatically handles critical servicing tasks, such as patching, backups, Windows and Azure SQL upgrades, and unplanned events such as underlying hardware, software, or network failures. When the underlying database in Azure SQL Database is patched or fails over, the downtime is not noticeable if you employ retry logic in your app. SQL Database and SQL Managed Instance can quickly recover even in the most critical circumstances ensuring that your data is always available.'
+    priority: 98
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Script implementation and configuration of Azure SQL MI as code and merge with the application code baseline
+    url: 'https://docs.microsoft.com/learn/modules/azure-sql-high-availability/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.28031b28-ec8d-4cd1-9cfa-c548fa0a974b.A
+      scoreOf: []
+    context: 'The goal of the high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running minimum of 99.99% of time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer to SLA for Azure SQL Database and SLA for Azure SQL Managed Instance. Azure automatically handles critical servicing tasks, such as patching, backups, Windows and Azure SQL upgrades, and unplanned events such as underlying hardware, software, or network failures. When the underlying database in Azure SQL Database is patched or fails over, the downtime is not noticeable if you employ retry logic in your app. SQL Database and SQL Managed Instance can quickly recover even in the most critical circumstances ensuring that your data is always available.'
+    priority: 97
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Run Azure SQL databases and application platform services in highly available configuration/SKUs
+    url: /azure/azure-sql/database/high-availability-sla
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.28031b28-ec8d-4cd1-9cfa-c548fa0a974b.B
+      scoreOf: []
+    context: 'The goal of the high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running minimum of 99.99% of time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer to SLA for Azure SQL Database and SLA for Azure SQL Managed Instance. Azure automatically handles critical servicing tasks, such as patching, backups, Windows and Azure SQL upgrades, and unplanned events such as underlying hardware, software, or network failures. When the underlying database in Azure SQL Database is patched or fails over, the downtime is not noticeable if you employ retry logic in your app. SQL Database and SQL Managed Instance can quickly recover even in the most critical circumstances ensuring that your data is always available.'
+    priority: 59
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Deploy and configure Azure SQL MI and application platform components across regions for disaster recovery scenarios
+    url: /azure/azure-sql/database/active-geo-replication-security-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.28031b28-ec8d-4cd1-9cfa-c548fa0a974b.C
+      scoreOf: []
+    context: 'The auto-failover groups feature allows you to manage the replication and failover of a group of databases on a server or all user databases in a managed instance to another Azure region. It is a declarative abstraction on top of the active geo-replication feature, designed to simplify deployment and management of geo-replicated databases at scale.'
+    priority: 95
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Consider Azure SQL DB Failover groups
+    url: /azure/azure-sql/database/auto-failover-group-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.28031b28-ec8d-4cd1-9cfa-c548fa0a974b.D
+      scoreOf: []
+    context: 'The auto-failover groups feature allows you to manage the replication and failover of a group of databases on a server or all user databases in a managed instance to another Azure region. It is a declarative abstraction on top of the active geo-replication feature, designed to simplify deployment and management of geo-replicated databases at scale.'
+    priority: 99
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Set up application monitoring to monitor and alert on database-level errors
+    url: /azure/azure-sql/database/alerts-insights-configure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.19b440b3-9103-4c6e-8c36-c96789b39e68.A
+      scoreOf: []
+    context: Set up alerts for databases in Azure SQL Database and Azure Synapse Analytics using the Azure portal. Alerts can send you an email or call a web hook when some metric (for example database size or CPU usage) reaches the threshold.
+    priority: 65
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Implement retry logic to handle transient failures
+    url: /azure/azure-sql/database/develop-overview#resiliency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.19b440b3-9103-4c6e-8c36-c96789b39e68.B
+      scoreOf: []
+    context: 'Azure SQL Database is a cloud service where you might expect transient errors that happen in the underlying infrastructure or in the communication between cloud entities. Although Azure SQL Database is resilient on the transitive infrastructure failures, these failures might affect your connectivity. When a transient error occurs while connecting to SQL Database, your code should retry the call. We recommend that retry logic use backoff logic, so that it does not overwhelm the service with multiple clients retrying simultaneously. Retry logic depends on the error messages for SQL Database client programs.'
+    priority: 96
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Define metrics and monitoring thresholds
+    url: /azure/azure-sql/database/monitor-tune-overview#azure-sql-database-and-azure-sql-managed-instance-resource-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.19b440b3-9103-4c6e-8c36-c96789b39e68.C
+      scoreOf: []
+    context: 'In the Azure portal, Azure SQL Database and Azure SQL Managed Instance provide monitoring of resource metrics. Azure SQL Database provides database advisors, and Query Performance Insight provides query tuning recommendations and query performance analysis. In the Azure portal, you can enable automatic tuning for logical SQL servers and their single and pooled databases. Databases with extremely low usage may show in the portal with less than actual usage. Due to the way telemetry is emitted when converting a double value to the nearest integer certain usage amounts less than 0.5 will be rounded to 0 which causes a loss in granularity of the emitted telemetry.'
+    priority: 61
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Set up databases as geo-redundant if the impact on transaction latency permits it
+    url: /azure/azure-sql/database/auto-failover-group-overview?tabs=azure-powershell#using-read-only-listener-to-connect-to-the-secondary-instance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.52b64511-7b4c-43ce-bf7c-8db3245cc669.A
+      scoreOf: []
+    context: 'The auto-failover groups feature allows you to manage the replication and failover of a group of databases on a server or all user databases in a managed instance to another Azure region. It is a declarative abstraction on top of the active geo-replication feature, designed to simplify deployment and management of geo-replicated databases at scale.'
+    priority: 63
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Define operational procedures in case data sizes approach limits
+    url: 'https://devblogs.microsoft.com/azure-sql/linked-server-to-synapse-sql-to-implement-polybase-like-scenarios-in-managed-instance/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.52b64511-7b4c-43ce-bf7c-8db3245cc669.B
+      scoreOf: []
+    context: Azure Synapse Analytics has a serverless SQL endpoint that enables you to read the files on Azure storage without pre-provisioning resources. You can leverage a serverless Synapse SQL endpoint to implement Polybase-like scenarios in Azure SQL Managed Instance. The Polybase technology enables SQL Server and SQL DW to directly query a large amount of big data stored on the external storage. You can run standard SQL queries over CSV or Parquet files that are placed in Azure Storage without the need to load the data in SQL database tables. Polybase is currently not available in Azure SQL (database or managed instance).
+    priority: 60
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Place SQL MI inside the Azure virtual network and the subnet dedicated to managed instances which provides a secure private IP address for the instance
+    url: 'https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/public-endpoint-configure'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.06519fe0-0b0e-4103-b516-b10e64d16d35.A
+      scoreOf: []
+    context: 'Azure SQL Managed Instance must be deployed within an Azure virtual network and the subnet dedicated for managed instances only. You can use the existing virtual network and subnet if they''re configured according to the SQL Managed Instance virtual network requirements. You can create a managed instance only in virtual networks created through the Azure Resource Manager deployment model. Azure virtual networks created through the classic deployment model are not supported. Calculate subnet size by following the guidelines in the Determine the size of subnet for SQL Managed Instance article. You can''t resize the subnet after you deploy the resources inside.  After the managed instance is created, you can move the instance to another subnet inside the Vnet, but moving the instance or VNet to another resource group or subscription is not supported.'
+    priority: 85
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Backup Keys and secrets to geo-redundant storage
+    url: /azure/azure-sql/database/transparent-data-encryption-byok-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.06519fe0-0b0e-4103-b516-b10e64d16d35.B
+      scoreOf: []
+    context: 'Azure SQL transparent data encryption (TDE) with customer-managed key enables Bring Your Own Key (BYOK) scenario for data protection at rest, and allows organizations to implement separation of duties in the management of keys and data. With customer-managed TDE, customer is responsible for and in a full control of a key lifecycle management (key creation, upload, rotation, deletion), key usage permissions, and auditing of operations on keys.'
+    priority: 85
+    reportingCategory: Business Continuity
+    reportingSubCategory: Backup & Restore
+  - title: The process for key rotation is automated and tested
+    url: /azure/azure-sql/database/transparent-data-encryption-byok-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.06519fe0-0b0e-4103-b516-b10e64d16d35.C
+      scoreOf: []
+    context: 'Azure SQL transparent data encryption (TDE) with customer-managed key enables Bring Your Own Key (BYOK) scenario for data protection at rest, and allows organizations to implement separation of duties in the management of keys and data. With customer-managed TDE, customer is responsible for and in a full control of a key lifecycle management (key creation, upload, rotation, deletion), key usage permissions, and auditing of operations on keys.'
+    priority: 85
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Set up and secure break glass AAD accounts
+    url: /azure/active-directory/roles/security-emergency-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.06519fe0-0b0e-4103-b516-b10e64d16d35.D
+      scoreOf: []
+    context: 'It is important that you prevent being accidentally locked out of your Azure Active Directory (Azure AD) organization because you can''t sign in or activate another user''s account as an administrator. You can mitigate the impact of accidental lack of administrative access by creating two or more emergency access accounts in your organization. Emergency access accounts are highly privileged, and they are not assigned to specific individuals. Emergency access accounts are limited to emergency or ''break glass'' scenarios where normal administrative accounts can''t be used. We recommend that you maintain a goal of restricting emergency account use to only the times when it is absolutely necessary.'
+    priority: 90
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: 'Implement access control policies using RLS, roles with least permissions'
+    url: 'https://docs.microsoft.com/en-us/azure/azure-sql/database/security-best-practice'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.06519fe0-0b0e-4103-b516-b10e64d16d35.E
+      scoreOf: []
+    context: 'Row-Level Security enables you to use group membership or execution context to control access to rows in a database table. Row-Level Security (RLS) simplifies the design and coding of security in your application. RLS helps you implement restrictions on data row access. For example, you can ensure that workers access only those data rows that are pertinent to their department. Another example is to restrict customers'' data access to only the data relevant to their company. The access restriction logic is located in the database tier rather than away from the data in another application tier. The database system applies the access restrictions every time that data access is attempted from any tier. This makes your security system more reliable and robust by reducing the surface area of your security system.'
+    priority: 65
+    reportingCategory: Data
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Configure geo-replication or Failover groups for Azure SQL MI if the disaster recovery requirements demand it
+    url: /azure/azure-sql/database/auto-failover-group-overview?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.715bb3e1-78b4-45c1-bf0a-026f3a446d45.A
+      scoreOf: []
+    context: 'The auto-failover groups feature allows you to manage the replication and failover of a group of databases on a server or all user databases in a managed instance to another Azure region. It is a declarative abstraction on top of the active geo-replication feature, designed to simplify deployment and management of geo-replicated databases at scale.'
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Utilize temporal tables to restore row versions from any point in time on a per-table basis
+    url: /azure/azure-sql/temporal-tables
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.715bb3e1-78b4-45c1-bf0a-026f3a446d45.B
+      scoreOf: []
+    context: 'Temporal tables are a programmability feature of Azure SQL Database and Azure SQL Managed Instance that allows you to track and analyze the full history of changes in your data, without the need for custom coding. Temporal tables keep data closely related to time context so that stored facts can be interpreted as valid only within the specific period. This property of temporal tables allows for efficient time-based analysis and getting insights from data evolution.'
+    priority: 50
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Use source control such as Git when collaborating on projects
+    url: /azure/architecture/solution-ideas/articles/dev-test-paas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.715bb3e1-78b4-45c1-bf0a-026f3a446d45.C
+      scoreOf: []
+    context: 'In platform as a service (PaaS) cloud computing, a service provider delivers a platform for clients to develop, run, and manage applications without having to build and maintain infrastructure. Solution development based on Azure Platform resources and services removes the overhead of managing virtual machines, virtual networks, disks, and related configurations. Development testing (DevTest) is a software development approach that integrates testing early in the development phase. DevOps is a set of practices that combine software development and IT operations, to shorten the development cycle and provide continuous delivery with high quality. This solution architecture combines reduced overhead and a DevOps toolchain to support rapid DevTest iteration cycles and a fast development environment with PaaS resources.'
+    priority: 28
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Use just-in-time access (JIT) to restrict the use of elevated rights
+    url: /azure/active-directory/privileged-identity-management/pim-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.715bb3e1-78b4-45c1-bf0a-026f3a446d45.D
+      scoreOf: []
+    context: 'Consumers of your managed application may be reluctant to grant you permanent access to the managed resource group. As a publisher of a managed application, you might prefer that consumers know exactly when you need to access the managed resources. To give consumers greater control over granting access to managed resources, Azure Managed Applications provides a feature called just-in-time (JIT) access. This feature is currently in preview. JIT access enables you to request elevated access to a managed application''s resources for troubleshooting or maintenance. You always have read-only access to the resources, but for a specific time period you can have greater access.'
+    priority: 63
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Validate changes using DEV/TEST environments with robust testing before implementing them into your production environment
+    url: /azure/architecture/solution-ideas/articles/dev-test-paas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.715bb3e1-78b4-45c1-bf0a-026f3a446d45.E
+      scoreOf: []
+    context: 'In platform as a service (PaaS) cloud computing, a service provider delivers a platform for clients to develop, run, and manage applications without having to build and maintain infrastructure. Solution development based on Azure Platform resources and services removes the overhead of managing virtual machines, virtual networks, disks, and related configurations. Development testing (DevTest) is a software development approach that integrates testing early in the development phase. DevOps is a set of practices that combine software development and IT operations, to shorten the development cycle and provide continuous delivery with high quality. This solution architecture combines reduced overhead and a DevOps toolchain to support rapid DevTest iteration cycles and a fast development environment with PaaS resources.'
+    priority: 90
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Conduct Load Testing with expected peak volumes to test scalability and performance under load
+    url: 'https://medium.com/azure-sqldb-managed-instance/running-tpcc5000-hammerdb-test-on-business-critical-instance-d310f1ccbfbd'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.ca2f60fa-7d83-4584-9e03-d8f08ce889f2.A
+      scoreOf: []
+    context: The main finding is that Business Critical instance is giving you 2–3x better performance of workload compared to equivalent General Purpose instance. HammerDB is one popular and easy-to-use tool that a lot of people are using to benchmark the performance of the databases.
+    priority: 61
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Perform Chaos Testing by injecting faults to test failover
+    url: /azure/azure-sql/database/high-availability-sla#testing-application-fault-resiliency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.ca2f60fa-7d83-4584-9e03-d8f08ce889f2.B
+      scoreOf: []
+    context: 'High availability is a fundamental part of the SQL Database and SQL Managed Instance platform that works transparently for your database application. However, we recognize that you may want to test how the automatic failover operations initiated during planned or unplanned events would impact an application before you deploy it to production. You can manually trigger a failover by calling a special API to restart a database, an elastic pool, or a managed instance. In the case of a zone-redundant serverless or provisioned General Purpose database or elastic pool, the API call would result in redirecting client connections to the new primary in an Availability Zone different from the Availability Zone of the old primary. So in addition to testing how failover impacts existing database sessions, you can also verify if it changes the end-to-end performance due to changes in network latency. Because the restart operation is intrusive and a large number of them could stress the platform, only one failover call is allowed every 15 minutes for each database, elastic pool, or managed instance.'
+    priority: 91
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: 'Automate performance, chaos testings and carry out periodically after significant application changes'
+    url: 'https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.ca2f60fa-7d83-4584-9e03-d8f08ce889f2.C
+      scoreOf: []
+    context: 'DevOps is a broad term with multiple technology and process options at hand. There are many options to implement DevOps for Azure SQL – as an example, SSDT or other tools to perform state-based or migration-based development and release. You can also select from solutions like GitHub Actions or Azure DevOps pipelines (or even a combination thereof). Use what is most appropriate and efficient for your scenario. In upcoming posts, we will show you more examples of these approaches and tools in action.'
+    priority: 55
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: 'Critical test environments should have 1:1 configuration and resource parity with the production environment'
+    url: /azure/azure-sql/managed-instance/user-initiated-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.ca2f60fa-7d83-4584-9e03-d8f08ce889f2.D
+      scoreOf: []
+    context: 'High availability is a fundamental part of SQL Managed Instance platform that works transparently for your database applications. Failovers from primary to secondary nodes in case of node degradation or fault detection, or during regular monthly software updates are an expected occurrence for all applications using SQL Managed Instance in Azure. Ensuring that your applications are failover resilient prior to deploying to production will help mitigate the risk of application faults in production and will contribute to application availability for your customers.'
+    priority: 65
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Verify end-to-end system performance after failover occurs
+    url: /azure/azure-sql/database/develop-overview#resiliency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.ca2f60fa-7d83-4584-9e03-d8f08ce889f2.E
+      scoreOf: []
+    context: 'Azure SQL Database is a cloud service where you might expect transient errors that happen in the underlying infrastructure or in the communication between cloud entities. Although Azure SQL Database is resilient on the transitive infrastructure failures, these failures might affect your connectivity. When a transient error occurs while connecting to SQL Managed Instance, your code should retry the call. We recommend that retry logic use backoff logic, so that it does not overwhelm the service with multiple clients retrying simultaneously. Retry logic depends on the error messages for client programs.'
+    priority: 95
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Use built in Azure Monitor tools to validate the Azure SQL MI Database health
+    url: /azure/azure-sql/database/monitor-tune-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.0f40ed73-0b8e-4146-ab9c-9376cb5b7e3b.A
+      scoreOf: []
+    context: Azure SQL Database and Azure SQL Managed Instance provide advanced monitoring and tuning capabilities backed by artificial intelligence to assist you in troubleshooting and maximizing the performance of your databases and solutions. You can choose to configure the streaming export of these Intelligent Insights and other database resource logs and metrics to one of several destinations for consumption and analysis.
+    priority: 63
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Use Azure Resource Health events to alert on resource health events
+    url: /azure/azure-sql/database/resource-health-to-troubleshoot-connectivity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.0f40ed73-0b8e-4146-ab9c-9376cb5b7e3b.B
+      scoreOf: []
+    context: Resource Health for Azure SQL Database and Azure SQL Managed Instance helps you diagnose and get support when an Azure issue impacts your SQL resources. It informs you about the current and past health of your resources and helps you mitigate issues. Resource Health provides technical support when you need help with Azure service issues.
+    priority: 55
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: 'Define a health model based on performance, availability, and recovery targets represented through monitoring dashboard and alerts'
+    url: /azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.0f40ed73-0b8e-4146-ab9c-9376cb5b7e3b.C
+      scoreOf: []
+    context: 'Most important among the diagnostic telemetry that you can export is the Intelligent Insights (SQLInsights) log (unrelated to Azure Monitor SQL Insights (preview)). Intelligent Insights uses built-in intelligence to continuously monitor database usage through artificial intelligence and detect disruptive events that cause poor performance. Once detected, a detailed analysis is performed that generates a Intelligent Insights log with an intelligent assessment of the issue. This assessment consists of a root cause analysis of the database performance issue and, where possible, recommendations for performance improvements. You need to configure the streaming export of this log to view its contents. In addition to streaming the export of the Intelligent Insights log, you can also export a variety of performance metrics and additional database logs. The following table describes the performance metrics and resources logs that you can configure for streaming export to one of several destinations. This diagnostic telemetry can be configured for single databases, elastic pools and pooled databases, and managed instances and instance databases.'
+    priority: 64
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Use Azure Service Health events to alert on applicable Service level events
+    url: /azure/azure-sql/managed-instance/alerts-create
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.0f40ed73-0b8e-4146-ab9c-9376cb5b7e3b.D
+      scoreOf: []
+    context: 'Set up alerts for databases in Azure SQL Managed Instance Database using the Azure portal. Alerts can send you an email, call a web hook, execute Azure Function, runbook, call an external ITSM compatible ticketing system, call you on the phone or send a text message when some metric, such is for example instance storage size, or CPU usage, reaches a predefined threshold. This article also provides best practices for setting alert periods.'
+    priority: 95
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Monitor for failures or processes taking longer than expected
+    url: /azure/azure-sql/identify-query-performance-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1b75e899-b86b-4cfc-a07f-5474032c31c0.0f40ed73-0b8e-4146-ab9c-9376cb5b7e3b.E
+      scoreOf: []
+    context: 'When trying to resolve a performance bottleneck, start by determining whether the bottleneck is occurring while the query is in a running state or a waiting state. Different resolutions apply depending upon this determination. Use the following diagram to help understand the factors that can cause either a running-related problem or a waiting-related problem. Problems and resolutions relating to each type of problem are discussed in this article. You can use Intelligent Insights or SQL Server DMVs to detect these types of performance bottlenecks.'
+    priority: 58
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+uid: 7931dbdf-f04f-4115-8af5-9f01c112f69c
+name: ''

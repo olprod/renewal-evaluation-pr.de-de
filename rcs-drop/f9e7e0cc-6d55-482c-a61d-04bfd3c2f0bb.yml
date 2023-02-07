@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are developing a mobile app that uses an API which stores geospatial data in Azure Cosmos DB. The app will be used to find restaurants in a particular area and related information including food types, menu information, and the optimal route to a selected restaurant from the user’s current location.
+
+  Which Azure Cosmos DB API should you use for the API?
+questionnaireUid: 2a840479-42f4-4cc0-894a-db3951397e39
+questions:
+  - uid: f9e7e0cc-6d55-482c-a61d-04bfd3c2f0bb-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a mobile app that uses an API which stores geospatial data in Azure Cosmos DB.
+        isCorrect: false
+      - id: 1
+        text: 'The app will be used to find restaurants in a particular area and related information including food types, menu information, and the optimal route to a selected restaurant from the user’s current location.'
+        isCorrect: true
+      - id: 2
+        text: Which Azure Cosmos DB API should you use for the API?
+        isCorrect: false
+      - id: 3
+        text: MongoDB
+        isCorrect: false
+uid: f9e7e0cc-6d55-482c-a61d-04bfd3c2f0bb
+title: ''

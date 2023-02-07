@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 9e5cecb9-e01e-49a5-8415-a814f4d06d78
+recommendations:
+  - 10989993-a648-4efc-bc47-3b2eee500009
+assignedGroupIds: []
+uid: 41e0a182-958f-45e9-bc42-06b7301d1a2f
+name: 'Go-Live - App Service: Security'

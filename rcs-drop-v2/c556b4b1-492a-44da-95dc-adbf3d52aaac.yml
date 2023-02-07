@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: G
+    text: Choose appropriate ML clusters in Databricks for AI workloads.
+    description: 'Azure Databricks supports clusters accelerated with graphics processing units (GPUs) as Databricks Runtime Version must be a GPU-enabled version, such as Runtime 6.6 ML (GPU, Scala 2.11, Spark 2.4.5). Databricks Runtime 7.0 ML and above support GPU-aware scheduling from Apache Spark 3.0. Azure Databricks pre-configures it on GPU clusters for you.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: H
+    text: Choose Azure Databricks Databricks Runtime for Machine Learning.
+    description: 'Databricks Runtime for Machine Learning (Databricks Runtime ML) automates the creation of a cluster optimized for machine learning. Databricks Runtime ML clusters include the most popular machine learning libraries, such as TensorFlow, PyTorch, Keras, and XGBoost, and also include libraries required for distributed training such as Horovod.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Use appropriate  Compute Instance and Compute Cluster for Training and Inference.
+isRequired: false
+legacyId: '1'
+uid: c556b4b1-492a-44da-95dc-adbf3d52aaac
+name: Use appropriate  Compute Instance and Compute Cluster for Training and Inference.

@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You create and save an Excel spreadsheet to your desktop. The spreadsheet is used to track paid invoices. Your company uses an ERP system to update invoices. 
+
+  A copy of an invoice header must be inserted into the spreadsheet when an invoice is marked as paid in the ERP system. 
+
+  Which action should you use? 
+questionnaireUid: 5eb1fc3b-4277-4b69-9c1e-7d26bdc5c9f5
+questions:
+  - uid: f2727969-da00-41bd-b046-cf4c31b0f4c9-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You create and save an Excel spreadsheet to your desktop. '
+        isCorrect: true
+      - id: 1
+        text: 'The spreadsheet is used to track paid invoices. '
+        isCorrect: false
+      - id: 2
+        text: Your company uses an ERP system to update invoices.
+        isCorrect: false
+      - id: 3
+        text: 'A copy of an invoice header must be inserted into the spreadsheet when an invoice is marked as paid in the ERP system. '
+        isCorrect: false
+    manualId: Question 1-PL-500.1.1
+uid: f2727969-da00-41bd-b046-cf4c31b0f4c9
+title: ''
+manualId: ''

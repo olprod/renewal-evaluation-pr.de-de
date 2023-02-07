@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'No usage of management groups, or use of the Tenant Root Management Group only.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: A single management group on top of the Tenant Root Management Group
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Management groups reflect organizational hierarchy and departments. The management groups contain associated subscriptions for each department.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: 'Management groups reflect applications/services and their various environments (e.g. prod, test, dev).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '4'
+    text: Management groups reflect archetypes built using Azure Policy & RBAC assignments to define different workload requirements. An example of this is the Azure Landing Zone conceptual architecture management group hierarchy.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '5'
+    text: Management Groups reflect archetypes and a "canary" testing hierarchy is in use.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: false
+uid: 1f61eb4e-a7de-4056-9d0b-8cd417ea154f
+name: Which option best describes your current usage of Management Groups?

@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Security is a core consideration for all customers, in every environment. When designing and implementing an Azure landing zone, security should be a consideration throughout the process.'
+hideEmptyGuidance: false
+questions:
+  - 2123c958-7c3f-4c0e-ae96-987a5c17340d
+  - f259ab56-5c40-47a7-bd45-80983a5b3f53
+  - f04d12e4-814a-4b29-a3dc-f9159aed61df
+  - 0c43783b-4be0-4b1f-bb0c-43b46a5a6c04
+  - f7693ecd-6a4d-4681-9048-ee3da8d292ad
+recommendations:
+  - 45d51990-b3c8-4d83-99f3-b01303d4d078
+assignedGroupIds: []
+uid: 4f2010c1-66fa-4a75-97ca-065a9832f599
+name: 'Platform Operations Security - Azure landing zones '

@@ -1,0 +1,83 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Identify opportunities to reduce overall cost.
+    description: 'Azure Advisor enables you to act on cost management recommendations from within the Azure Portal, such as resizing virtual machines. Make sure that all stakeholders are in agreement regarding the implementation and timing of this change.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: B
+    text: 'Leverage Azure Resource Groups along with cost analysis, budgeting, alerting, and advisory capabilities for specific project based analysis.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: Use cost management tools to plan and track costs.
+    description: Cost management is the process of effectively planning and controlling costs involved in your business.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: Azure resource Tag my resources and track that back to costs.
+    description: Use resource tags so that custom cost report can be created.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: 'Using Azure Subscriptions, Resource Groups and Tags to organize services and SQL VMs to aid cost monitoring and control.'
+    description: 'Subscriptions and Resource Groups have cost management tools including Analysis, Alerts, Budgets and Recommendations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: Using monitoring tools such as Azure Monitor and Windows PerfMon to establish if VMs are sized correctly and reduce recources if over-sized.
+    description: Planing for future capacity demands is less important in Azure as VMs can be scaled on demand.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: Reviewing licensing agreement to see if we qualify for OS/SQL Azure Hybrid Benefits.
+    description: If you have Software Assurance for your Windows or SQL licenses this entitles you to apply already bought Windows/SQL licenses to VM removing the OS/SQL licensing costs from the SQL Server VM.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: 'Installing the SQL IaaS Agent extension at the VM, Resource Group or Subscription level to increase SQL VM visability and allow AHUB to be easily applied.'
+    description: 'The SQL Iaas Agent extension provides a single pane for viewing the Version, Editon and License applied to a SQL Server as well a simple UI for switching the SQL licensing between PAYG, Azure Hybrid Benefits and HA/DR. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: Tuning your SQL workload and schema for performance to avoid scaling up the hardware.
+    description: 'Traditonal SQL Server performance techniques and tools such as indexing, Columnstore Indexes, compression and data archiving can have significant performance impoacts without the extra extra on-going costs of scaling up.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.B
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: optimize-data-sqlvm
+uid: d19ace64-4b16-43e1-81e3-20fd113bf54b
+name: What actions are you taking to optimize cloud costs?

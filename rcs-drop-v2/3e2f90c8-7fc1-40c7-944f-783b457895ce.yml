@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We monitor and track for stability and to provide the same infrastructure
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: We monitor and track for security and document all our changes to meet our security audits
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: We monitor and track for increased visibility and awareness so we can identify inter/intra-system dependencies
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: We monitor and track for fast remediation so our users are impacted less
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The need to manage and monitor your configuration is necessary to prevent security breaches, or paralyzing changes that prohibit your infrastructure from providing critical services.'
+isRequired: true
+uid: 3e2f90c8-7fc1-40c7-944f-783b457895ce
+name: 'The need to manage and monitor your configuration is necessary to prevent security breaches, or paralyzing changes that prohibit your infrastructure from providing critical services.'

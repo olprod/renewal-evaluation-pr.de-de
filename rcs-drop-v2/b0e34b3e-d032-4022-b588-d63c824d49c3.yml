@@ -1,0 +1,106 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The application has dedicated cross-premises bandwidth.
+    description: Does the application have dedicated cross-premises bandwidth? Or is bandwidth shared with other applications?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: B
+    text: Components with sensitive latency requirements are collocated.
+    description: Are there any components or scenarios that are very sensitive to latency and require resources to be collocated in close proximity?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: C
+    text: Gateways (ExpressRoute or VPN) have been sized according to expected cross-premises network throughput.
+    description: Have gateways (ExpressRoute or VPN) been sized accordingly to the expected cross-premises network throughput?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: D
+    text: Expected throughput passing through security/network appliances has been tested and autoscaling is configured based on throughput requirements.
+    description: Is autoscaling enabled and integrated within Azure Monitor?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: E
+    text: Autoscaling is enabled for application components and integrated with Azure Monitor.
+    description: Autoscaling can be leveraged to address unanticipated peak loads to help prevent application outages caused by overloading.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: F
+    text: Autoscaling has been tested and the time to scale in/out has been measured.
+    description: Has autoscaling been tested? and has the time to scale in/out been measured?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: G
+    text: Tested and validated defined latency and defined throughput targets per scenario and component.
+    description: 'Throughput targets, which are commonly defined in terms of IOPS, MB/s and Block Size, should be defined and measured for key application scenarios, as well as each individual component, to validate overall application performance and health. Available throughput typically varies based on SKU, so defined targets should be used to inform the use of appropriate SKUs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: H
+    text: Calculated target data sizes and associated growth rates per scenario and component.
+    description: Scale limits and recovery options should be assessed in the context of target data sizes and growth rates to ensure suitable capacity exists.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: I
+    text: Operational procedures are defined in case data sizes exceed limits.
+    description: Mitigation plans such as purging or archiving data can help the application to remain available in scenarios where data size exceeds expected limits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: Validated that long-running TCP connections are not required for the workload.
+    description: Does the workload require a large amount of long running TCP connections which may cause SNAT port exhaustion?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: K
+    text: Throttling is implemented to govern inbound application calls and inter-component calls.
+    description: Have you implemented throttling for all inbound and inter-component calls?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: L
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Reliability allowances for scalability
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWDsIQ'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Resilient applications should be able to automatically scale in response to changing load to maintain application availability and meet performance requirements.
+isRequired: false
+legacyId: '8'
+uid: b0e34b3e-d032-4022-b588-d63c824d49c3
+name: Resilient applications should be able to automatically scale in response to changing load to maintain application availability and meet performance requirements.

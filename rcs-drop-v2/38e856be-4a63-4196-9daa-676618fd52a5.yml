@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Initial. Your organization has limited relevant knowledge and information collaboration.
+    description: Your organization has limited relevant knowledge and information collaboration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is planning to provide training needed for knowledge management.
+    description: Your organization is planning to provide training needed for knowledge management.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization provides some avenues to generate knowledge and knowledge sharing processes.
+    description: Your organization provides some avenues to generate knowledge and knowledge sharing processes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has adopted enterprise-wide training and knowledge consumption and sharing.
+    description: 'Your organization has adopted enterprise-wide training and knowledge consumption and sharing. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has invested in employees to learn the skills they need to be successful with Azure and other Microsoft technologies via Microsoft Skills Initiative.
+    description: Your organization has invested in employees to learn the skills they need to be successful with Azure and other Microsoft technologies via Microsoft Skills Initiative.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'How mature is your organization’s knowledge capability, what skills and programming languages do users and data engineers know?'
+isRequired: true
+uid: 38e856be-4a63-4196-9daa-676618fd52a5
+name: 'How mature is your organization’s knowledge capability, what skills and programming languages do users and data engineers know?'

@@ -1,0 +1,46 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The subscription and quota limits for Container Groups are well known.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: B
+    text: We know the  maximum number of containers that is expected to run in a single Container Group.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: There is a plan or configuration in place to insulate against regional outages affecting Azure Container Instances.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.acs
+stem: ''
+isRequired: false
+uid: 9c75ea81-cbf3-415f-b3c3-65b96a033dc6
+name: Have you evaluated container instances for reliability?

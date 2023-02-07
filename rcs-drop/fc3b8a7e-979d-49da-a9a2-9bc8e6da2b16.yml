@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are creating a real-time marketing customer journey.
+
+  You need to include branching logic based on the value of an attribute in a specific event trigger, but you are unable to select any event triggers as the attribute location. The event trigger is unavailable.
+
+  What is the reason for this behavior?
+questionnaireUid: 5024d222-805a-40bb-982b-b549168a2e92
+questions:
+  - uid: fc3b8a7e-979d-49da-a9a2-9bc8e6da2b16-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are creating a real-time marketing customer journey.
+        isCorrect: false
+      - id: 1
+        text: 'You need to include branching logic based on the value of an attribute in a specific event trigger, but you are unable to select any event triggers as the attribute location.'
+        isCorrect: false
+      - id: 2
+        text: The event trigger is unavailable.
+        isCorrect: false
+      - id: 3
+        text: What is the reason for this behavior?
+        isCorrect: true
+uid: fc3b8a7e-979d-49da-a9a2-9bc8e6da2b16
+title: ''

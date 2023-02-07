@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Native APIs are preferred, such as SQL API for Cosmos DB.'
+    description: 'Some databases, such as Cosmos DB, support different APIs so that developers can pick the most suitable one for their use case.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: Direct connection mode is used without additional network overhead.
+    description: 'Data stores such as Cosmos DB can offer multiple connection modes. Some access data directly with persistent TCP connection, while others may utilize HTTP proxy.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: Partitioning strategy is designed for optimal use of logical and physical partitions.
+    description: High-scale globally distributed platforms utilize partitioning to achieve better performance and scale. Picking the right partitioning strategy is in the hands of the developer.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: Indexing is configured properly.
+    description: 'Data indexing is crucial for performance, and applications often don''t need to index every field present in data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: Retry logic is implemented on the client side.
+    description: 'Native SDKs provide default error handling and automated retries for selected database errors, but the application should handle additional edge cases with custom code.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '5'
+    text: Provisioned throughput is based on application traffic patterns.
+    description: 'Provisioned throughput can be configured as a static number, or auto-scale can be utilized to automatically adjust to demand.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '6'
+    text: Data recovery procedures are tested regularly.
+    description: 'Backups are important, but recovery also should be periodically tested on non-production environments.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'To fully accommodate the globally distributed active-active aspirations of an application design, a distributed multi-write data platform is used, where changes to separate writeable replicas are synchronized and merged between all replicas, with conflict resolution where required.'
+isRequired: false
+uid: f79863b7-fcd3-4147-8981-0607d31437c2
+name: 'To fully accommodate the globally distributed active-active aspirations of an application design, a distributed multi-write data platform is used, where changes to separate writeable replicas are synchronized and merged between all replicas, with conflict resolution where required.'

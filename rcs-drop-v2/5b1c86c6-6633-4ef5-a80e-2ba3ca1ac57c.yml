@@ -1,0 +1,58 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization often has unplanned analytics projects. Each application is highly specialized to unique data and stakeholder needs.
+    description: Data isn't exploited programmatically and consistently. Organization often has unplanned analytics projects. Each application is highly specialized to unique data and stakeholder needs. Each application also has significant code bases and engineering teams.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. You organization tends to be good at traditional data capture and analytics. It might have some level of commitment to a cloud-scale approach.
+    description: |
+      Teams are being formed and strategy is being created, but analytics remains departmentalized. The organization tends to be good at traditional data capture and analytics. It might have some level of commitment to a cloud-scale approach
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization can answer a few "why" questions and is actively working towards an end-to-end data strategy that uses centrally governed data lake stores to control data store sprawl and improve data discoverability.
+    description: Innovation platform is almost ready. Workflows are in place to address data quality. The organization can answer a few "why" questions. organization is actively searching for an end-to-end data strategy that uses centrally governed data lake stores to control data store sprawl and improve data discoverability.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization uses analytics platforms to make predictions unlocking digital innovation from both data estate and application development standpoints and successfully deliver on critical business workloads.
+    description: |
+      Organization uses a holistic data approach. Projects related to data are integrated within business outcomes. The organization uses analytics platforms to make predictions unlocking digital innovation from both data estate and application development standpoints and successfully deliver on critical business workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your entire organization uses frameworks, standards enterprise, and a data-driven culture'
+    description: |
+      Entire organization uses frameworks, standards enterprise, and a data-driven culture. Automation, data-driven feedback loops, and centers of excellence around analytics or automation can be observed in action.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you currently have a scalable, repeatable framework that meets your organization''s unique needs for building modern data platforms.'
+isRequired: true
+uid: 5b1c86c6-6633-4ef5-a80e-2ba3ca1ac57c
+name: 'Do you currently have a scalable, repeatable framework that meets your organization''s unique needs for building modern data platforms.'

@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our team plans to utilize cost effective workloads.
+    description: 'Spark can certainly handle simple ETL workloads, but it may not be cost effective.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: Our team plans to use cost effective and simple transformations.
+    description: Synapse Pipelines are easy to use and cost effective for moving data with simple transformations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does the workload require a direct upload of medium-sized datasets (less than 20 GB) with minimal transformations?
+isRequired: true
+uid: 86bb13ed-e695-4e38-a73a-d636c81b3873
+name: Does the workload require a direct upload of medium-sized datasets (less than 20 GB) with minimal transformations?

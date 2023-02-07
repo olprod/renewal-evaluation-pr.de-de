@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - db6b17f4-99e8-4b91-9252-a626883bfe0d
+recommendations:
+  - d21155fd-bc5b-4943-bc8e-a11c3f113ca0
+assignedGroupIds: []
+uid: 0407e879-3a1a-4182-b155-bc2d659ff70e
+name: 'Go-Live - SQL VM: Reliability'

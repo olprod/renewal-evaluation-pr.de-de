@@ -1,0 +1,42 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We reviewed different tenant types and defined tenants for our solution.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: We considered different deployment models and levels of isolation.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We are aware of common tenancy models.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'There are many different ways that you can design a solution to be multitenanted. Mostly this decision hinges on whether and how you share resources between your tenants. Intuitively, you might want to avoid sharing any resources, but this quickly becomes expensive, as your business scales and as you onboard more and more tenants.'
+isRequired: true
+uid: fd3f6e82-fdb0-4368-a350-25197ec78134
+name: There are many different ways that you can design a solution to be multitenanted.

@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - f3701855-fa8e-4c02-8f80-8ffca8617c53
+  - 5682c01a-c3ab-46a1-b85c-16c2e411031d
+  - 395fc145-369b-4fdf-ad64-59836a1672ff
+recommendations:
+  - d50ada7d-d80a-4058-9fea-d1116f5c82f3
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: eb266800-8192-439f-8cf6-7662ad7e74b2
+name: Required technical skills

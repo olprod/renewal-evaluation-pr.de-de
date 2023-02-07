@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: No landing zone work has been performed.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: B
+    text: Some components of our landing zone have been setup.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: We have a landing zone ready for migrated apps.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+legacyId: '1'
+uid: 6a34b41b-eb7c-430c-b150-352b819d0eb4
+name: 'Have you setup an Azure landing zone designed to accepted migrated workloads? Note: Important components are (i) networking, (ii) identity, (iii) management, (iv) security and (v) governance.'

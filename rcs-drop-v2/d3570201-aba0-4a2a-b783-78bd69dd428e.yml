@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Data is scattered across multiple sources and has not been identified or qualified.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Data is scattered across multiple sources and the sources have been identified but not yet analyzed for suitability and quality.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'Data relevant to the project has been identified, quantified, and qualified but a data management strategy (migration, cleansing, ownership etc) has not yet been defined.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'Data relevant to the project has been identified, quantified, and qualified. There is also a high-level data management strategy (migration, cleansing, ownership etc).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: What is the current status of the data to be used by your business application?
+isRequired: true
+uid: d3570201-aba0-4a2a-b783-78bd69dd428e
+name: What is the current status of the data to be used by your business application?

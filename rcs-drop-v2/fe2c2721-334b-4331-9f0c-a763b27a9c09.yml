@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use a device simulator to test the solution at production scale to understand the cost of solution.
+    description: 'Device simulators can help save costs at scale when there is a need to model, test, and simulate outcomes for any given scenario.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You test overall IoT workloads for cost estimation.
+    description: 'IoT solutions need to be tested with high volumes of data at scale. Sometimes, it is not easy to estimate the costs of downstream services that use a pay for use pricing policy. While load testing, you can estimate cost consumption at scale.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: You use Azure services such as Azure Application Insights to run your performance tests.
+    description: 'Azure Application Insights provides capabilities to analyze application''s operation and performance. Sometime, it''s cost effective to implement a performance test system using Azure services if the requirements are not complex. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: |
+  To test IoT solutions end-to-end, you need to set up an integrated test environment. Cost estimation is one of factors that you can validate through testing. 
+isRequired: false
+uid: fe2c2721-334b-4331-9f0c-a763b27a9c09
+name: 'To test IoT solutions end-to-end, you need to set up an integrated test environment. Cost estimation is one of factors that you can validate through testing.'

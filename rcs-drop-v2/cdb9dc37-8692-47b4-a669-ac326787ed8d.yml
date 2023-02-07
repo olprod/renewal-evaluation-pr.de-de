@@ -1,0 +1,60 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Health and performance is monitored for VMs in the production environment using Azure native tools/solutions like Azure Monitor.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Workloads on the VM are managed with automation tools like Azure Automation.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Testing environments help us ensure that workloads or applications that are deployed on VMs will perform well in production.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: We have reviewed the various VM families available and have picked the right size and types for our VMs according to the needs of our application/workload.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'According to our expectations for the growth and evolution of the workload, we have planned the required Azure quota. We have a process in place to request a quota increase in a timely manner to avoid service disruption.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.vm
+stem: ''
+isRequired: false
+uid: cdb9dc37-8692-47b4-a669-ac326787ed8d
+name: What are the monitoring and management solutions used in Azure for VMs?

@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Azure Front Door is used as the primary routing service.
+    description: Azure Front Door provides global HTTP/S load balancing and optimized connectivity using the Anycast protocol with split TCP to take advantage of the Microsoft global backbone network.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Azure Traffic Manager is used as the primary routing service.
+    description: 'Azure Traffic Manager is a DNS redirection service. The actual request payload isn''t processed. Instead, Traffic Manager returns the DNS name of one of the backends in the pool, based on configured rules for the selected traffic routing method.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Client-side routing logic is implemented to failover between different endpoints.
+    description: 'If the application workload encompasses client control, such as with mobile or desktop client applications, it''s possible to provide service redundancy within client routing logic.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: A third-party global traffic management solution is used as the primary routing service.
+    description: Third party solutions are offered by vendors such as Akamai or Cloudflare.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: A secondary global routing service complements the primary routing service.
+    description: 'Multiple global routing technologies, such as Azure Front Door and Azure Traffic Manager, can be considered in parallel for redundancy, with clients configured to fail over to an alternative technology when certain failure conditions are met.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  A routing service bound to a single region represents a single-point-of-failure and 
+  a significant risk with regard to regional outages.
+isRequired: false
+uid: 0d05ede8-836f-465b-8652-c54d5f0a3bf5
+name: A routing service bound to a single region represents a single-point-of-failure and a significant risk with regard to regional outages.

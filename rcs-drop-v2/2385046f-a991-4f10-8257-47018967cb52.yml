@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'We are aware of the three mechanisms to authorize operations: account keys, resource tokens, and role-based access control (RBAC).'
+    description: 'Primary/secondary keys: Shared secret allowing any management or data operation. It comes in both read-write and read-only variants. RBAC: Fine-grained, role-based permission model using Azure Active Directory identities for authentication. Resource tokens: Fine-grained permission model based on native Azure Cosmos DB users and permissions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: 'For account keys, Azure Key Vault has been evaluated as a secure store for application secrets.'
+    description: It is not safe to put keys and URL directly in the application code because they are available in clear text format to all the users. You want to make sure that the endpoint and keys are available but through a secured mechanism. This is where Azure Key Vault can help you to securely store and manage application secrets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: 'For account keys, for applications requiring only read access, we have provided read-only access keys.'
+    description: Any application that's been granted an unused or reducible permission is considered "overprivileged." Unused and reducible permissions have the potential to provide unauthorized or unintended access to data or operations not required by the app or its users to perform their jobs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: 'For account keys, we consistently rotate our Azure Cosmos DB account keys and we know when they were last rotated.'
+    description: 'Microsoft recommends that you rotate your access keys periodically to help keep your Azure Cosmos DB account secure. If possible, use Azure Key Vault to manage your access keys. Two access keys are assigned so that you can rotate your keys. Having two keys ensures that your application maintains access to Cosmos DB throughout the process.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: Has RBAC been evaluated as a key-less authorization mechanism?
+    description: 'Azure Cosmos DB exposes a built-in role-based access control (RBAC) system that lets you authenticate your data requests with an Azure Active Directory identity and authorize your data requests with a fine-grained, role-based permission model.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: 'If role-based access control has been adopted, has key authentication been disabled?'
+    description: 'In situations where you want to force clients to connect to Azure Cosmos DB through RBAC exclusively, you have the option to disable the account''s primary/secondary keys. When doing so, any incoming request using either a primary/secondary key or a resource token will be actively rejected.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: H
+    text: 'If RBAC has been adopted, have applications been provided with minimum needed permissions?'
+    description: 'Azure Cosmos DB provides two built-in role definitions, Cosmos DB Built-in Data Reader and Cosmos DB Built-in Data Contributor, that each permit a certain set of operations. In some scenarios, creating a custom RBAC role definition might allow you to achieve a more fine-grained access. For example, an Azure Function that checks external system and stores a record in Cosmos DB effectively only needs write (create) permission. However, the built-in Data Contributor role would also provide it with ability to delete or query data, which is unnecessary and does not adhere to the principle of least privilege.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 2385046f-a991-4f10-8257-47018967cb52
+name: How do you authorize operations against your Azure Cosmos DB account?

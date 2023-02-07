@@ -1,0 +1,33 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use the Cost Analysis feature of Azure Cost Management to monitor cost and create budgets.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+uid: 75b07a46-36b8-4efd-bc08-d8e6365b4c39
+name: How are you monitoring your costs?

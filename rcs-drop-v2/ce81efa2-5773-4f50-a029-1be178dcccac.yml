@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: At least 2 emergency accounts are created in Azure AD.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: All emergency accounts are created in the cloud and have the UPN suffix  ".onmicrosoft.com".
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Emergency accounts are actively monitored (and reviewed) for unauthorized access.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Emergency accounts are used for Azure Resource Manager RBAC as Owners alone.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.fd50b32c-b216-4431-bfa5-518eab50a7ba.6
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: ce81efa2-5773-4f50-a029-1be178dcccac
+name: How does your organization manage and secure emergency (break glass) accounts?

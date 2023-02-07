@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: D
+    text: Use Azure Databricks Cluster tags.
+    description: 'Cluster tags allow you to easily monitor the cost of cloud resources used by various groups in your organization. You can specify tags as key-value pairs when you create a cluster, and Azure Databricks applies these tags to cloud resources like VMs and disk volumes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: Monitor your Azure Databricks AI apps.
+    description: 'AI apps are rarely executed in isolation and need to be monitored along with a set of other services. Monitoring is needed for resource utilization (CPU/Memory/Network) across an Azure Databricks cluster, spark metrics which enables monitoring of Spark applications to help uncover bottlenecks, spark application logs which enables administrators/developers to query the logs, debug issues and investigate job run failures, and application instrumentation.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: F
+    text: Monitor resource utilization metrics across Azure Databricks cluster in a Log Analytics workspace.
+    description: Stream the VM's metrics to an Azure Log Analytics Workspace by installing the Log Analytics Agent on each cluster node.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Monitoring for scalability should be part of your overall monitoring strategy.
+isRequired: false
+legacyId: '5'
+uid: f56a2a81-0137-4400-99b2-da8d368eaa97
+name: Monitoring for scalability should be part of your overall monitoring strategy.

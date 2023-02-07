@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: All Production SAP systems are configured for High-Availability using AvSet or AvZone with auto-failover capability for (A)SCS & Database VMs.
+    description: 'Production SAP systems must be protected against failure to ensure continuous availability,'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '1'
+    text: Production SAP workloads are deployed across Availability Zones within the selected region.
+    description: Deploying SAP workloads across Availability Zones will increase the SLA to 99.99%.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '2'
+    text: 'Production SAP systems are configured to failover to another region to protect against regional failover Disaster Recovery [DR].'
+    description: Protect SAP systems against regional failover as part of Business Continuity and Disaster Recovery design.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '3'
+    text: 'SAP productions systems are configured to failover to another Zone to protect against regional Zone failure for Disaster Recovery [DR] use-case.'
+    description: Customers solutions that cannot span across regions due to Business Policies have started exploring Metro DR/Zone DR design.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '5'
+    text: 'Scheduled Events configured on the Virtual Machines where SAP production workloads are deployed, and integrated into SOP [Standard Operating Procedures].'
+    description: 'Scheduled Events is available as part of the Azure Instance Metadata Service, which is available on every Azure virtual machine. Customers can write automation to query the endpoint of their virtual machines to find scheduled maintenance notifications and perform mitigations, like saving the state and taking the virtual machine out of rotation.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: How have you ensured that your SAP application architecture is resilient to failures?
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWz31l'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: Resilient SAP application architectures should be designed to recover gracefully from failures without manual intervention
+isRequired: false
+uid: 3fc7ec5b-a639-4532-9f16-8a224c8236b4
+name: Resilient SAP application architectures should be designed to recover gracefully from failures without manual intervention

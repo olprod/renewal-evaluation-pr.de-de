@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Design a strategy for access to cloud resources • Recommend an identity store (tenants, B2B, B2C, hybrid) • Recommend an authentication strategy • Recommend an authorization strategy • Design a strategy for conditional access • Design a strategy for role assignment and delegation • Design security strategy for privileged role access to infrastructure including identity-based firewall rules, Azure PIM • Design security strategy for privileged activities including PAM, entitlement management, cloud tenant administration'
+isRequired: true
+uid: 9822d2b1-1468-45d0-9f92-2cbb0ffbe983
+name: 'For example: Design a strategy for access to cloud resources • Recommend an identity store (tenants, B2B, B2C, hybrid) • Recommend an authentication strategy • Recommend an authorization strategy • Design a strategy for conditional access • Design a strategy for role assignment and delegation • Design security strategy for privileged role access to infrastructure including identity-based firewall rules, Azure PIM • Design security strategy for privileged activities including PAM, entitlement management, cloud tenant administration '

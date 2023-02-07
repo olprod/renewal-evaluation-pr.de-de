@@ -1,0 +1,79 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Specific methodologies, like DevOps, are used to structure the development and operations process'
+    description: 'Are specific methodologies, like DevOps, used to structure the development and operations process?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: Collaboration between development and operations team to resolve production issue is clearly defined and well understood
+    description: How do development and operations teams collaborate to resolve production issues?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: Operational shortcomings and failures are analyzed and used to improve and refine operational procedures
+    description: How are operational shortcomings and failures analyzed?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: 'There are tools or processes in place, such as Azure AD Privileged Identity Management, to grant access to critical systems on a just in-time basis'
+    description: Are tools or processes in place to grant access on a just in-time basis?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: No users have long-standing write-access to production environments
+    description: Does anyone have long-standing write-access to production environments?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Azure Resource Tags are used to enrich resources with operational meta-data
+    description: 'Azure Tags provide the ability to associate critical meta-data as a name-value pair, such as billing information (e.g. cost center code), environment information (e.g. environment type), with Azure resources, resource groups, and subscriptions'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: 'There are tools and processes, like Azure Policy, in place to govern available services, enforce mandatory operational functionality and ensure compliance'
+    description: 'Are tools and processes in place to govern available services, enforce mandatory operational functionality and ensure compliance?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: H
+    text: 'Standards, policies, restrictions and best practices are defined as code, for example by using solutions like Azure Policy or HashiCorp Sentinel'
+    description: 'Are standards, policies, restrictions and best practices defined as code?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Optimizing your workload for operational excellence requires the integration of development, quality assurance, and IT operations into a unified culture and set of processes for delivering software.'
+isRequired: false
+legacyId: workload-operability
+uid: c293b529-4296-485d-8613-ebb4062e475d
+name: 'Optimizing your workload for operational excellence requires the integration of development, quality assurance, and IT operations into a unified culture and set of processes for delivering software.'

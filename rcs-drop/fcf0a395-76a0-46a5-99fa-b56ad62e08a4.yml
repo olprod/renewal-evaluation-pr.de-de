@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are creating queues to handle support cases.
+
+  Cases must be automatically routed based on the territory of the caller.
+
+  You need to configure routing.
+
+  What are three possible ways to achieve this goal?
+questionnaireUid: 39e576b4-564d-4dd8-b33f-144f830b9579
+questions:
+  - uid: fcf0a395-76a0-46a5-99fa-b56ad62e08a4-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are creating queues to handle support cases.
+        isCorrect: false
+      - id: 1
+        text: Cases must be automatically routed based on the territory of the caller.
+        isCorrect: false
+      - id: 2
+        text: You need to configure routing.
+        isCorrect: true
+      - id: 3
+        text: What are three possible ways to achieve this goal?
+        isCorrect: true
+      - id: 4
+        text: Instruct agents to add queue items to the appropriate territory queue and then use Save and Route.
+        isCorrect: true
+uid: fcf0a395-76a0-46a5-99fa-b56ad62e08a4
+title: ''

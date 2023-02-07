@@ -1,0 +1,29 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Please choose the applicable Well-Architected reliability considerations.
+hideEmptyGuidance: false
+questions:
+  - 39261027-1c11-4ed5-9f6b-a7e7112ebc07
+  - 9cc8e201-639a-4f79-987c-36c763a5df05
+  - 5207a255-02fb-40e5-b93a-62ca5b5db937
+  - 69bba8fe-9075-4a2b-b5a9-4ccec994203b
+  - f5f4ac99-6851-43cc-9cec-85da6cc8437e
+  - 0762322b-43d0-42d0-a3da-ea8fd06fdb83
+  - 564b4ff1-baac-47db-a5ff-22f2c042a86d
+  - 2a4b2cf2-bd5a-4010-a2ff-8c35c30a0fdf
+  - 67dd3bc8-7e4e-4851-b585-e56149537914
+  - 9b2f291c-ff35-4e10-bebf-96cc6bf3c972
+  - 3dc9f706-9c83-4310-8493-b75defdbe321
+  - c5024487-5a07-4f2b-b7d2-628d8c575bbb
+  - 70fd3a64-843e-4052-8268-aafd166e3080
+  - 2eddb193-c83b-466f-ba2e-15870bfc31da
+  - 72e46a7d-5e49-40bb-8244-e6669cce4b51
+  - 0a896ee0-3626-4cbf-9a74-28e0927ae687
+  - 9db794a8-7542-4f1c-8489-546b8eaec8fa
+  - 315533a6-97b8-4145-b149-2a1e883aa67d
+  - 1dd790e4-80f5-4c88-a2fd-4b4cfa73a1fe
+recommendations:
+  - 350218e0-90d0-413d-a983-eda340a0220f
+assignedGroupIds: []
+uid: reliability-golive
+name: GoLive - Reliability

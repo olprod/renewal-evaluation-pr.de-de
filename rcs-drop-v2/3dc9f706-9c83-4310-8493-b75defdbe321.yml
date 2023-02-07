@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We synchronize data between databases hosting VM nodes.
+    description: 'Since a data storage VM (as a SQL or Oracle Server node for example) is stateful by design, you need to implement a data synchronization solution between the nodes to ensure high availability of the service. Best Practice: Add at least secondary node to the cluster, and implement failover through internal load balancer implementation.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: We have appropriate database backup location in place.
+    description: 'SQL 2014 onwards: SQL Server Data Files in Azure, is new feature, available starting with SQL Server 2014. Running SQL Server with data files in Azure demonstrates comparable performance characteristics as using Azure data disks. SQL 2012 and above: Backup to Azure storage: When performing backups for SQL Server running in Azure virtual machines, you can use SQL Server Backup to URL.   Prior to SQL 2012:  you can use SQL Server Backup to Azure Tool to automate backups for SQL Server in Azure Virtual Machines. Prior to SQL Server 2012, you can use SQL Server Backup to Azure Tool. This tool can help to increase backup throughput using multiple backup stripe targets. Best Practice: Appropriate backup solution should be in place.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for Azure SQL (IaaS). If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Azure SQL (IaaS)
+uid: 3dc9f706-9c83-4310-8493-b75defdbe321
+name: Please choose the applicable Well-Architected reliability considerations for Azure SQL (IaaS).

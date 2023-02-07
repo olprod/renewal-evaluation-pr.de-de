@@ -1,0 +1,96 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Enable Azure Defender for SQL and create a security baseline for each database.
+    description: Discover and remediate common vulnerabilities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: Prioritize security best practices.
+    description: 'Business goals, project constraints, and other factors often cause organizations to balance security risks against other risks.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: Lines of responsibility are established.
+    description: Clearly documenting and sharing the contacts responsible for each function will create consistency and facilitate communication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: The security team has read only access into all environments.
+    description: 'Without this visibility, security will have to rely on information provided from groups operating the environment who have a potential conflict of interest (and other priorities).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: All the keys must be rotated per the compliance requirement of your organization.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Assign a security incident notification contact.
+    description: This enables your security operations team to rapidly respond to potential threats.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Regularly review access from highly privileged accounts in audit logs.
+    description: Set up a recurring review pattern to ensure that accounts are removed from permissions as roles change.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: Use blueprints to consistently deploy environments that comply with organizational policies.
+    description: Automation of deployment and maintenance tasks reduces security and compliance risk by limiting opportunity to introduce human errors during manual tasks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: Audit and enforce policy compliance.
+    description: 'Organizations of all sizes will have security compliance requirements. Industry, government, and internal corporate security policies all need to be audited and enforced.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: J
+    text: 'Discovering and classifying data which is playing a pivotal role in an organization''s information-protection approach, such as (but not limited to) business, financial, healthcare, or personal information.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb
+name: What considerations for compliance and governance do you need to take for your data workload?

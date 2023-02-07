@@ -1,0 +1,85 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Use environments for dev and test stages that simulate the production environment.
+    description: 'Maintaining production-like environments for your pre-prod stages means if issues in production occur you are far more capable of developing, testing, and releasing hotfixes/updates quickly.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '1'
+    text: Manage and actively resolve any technical debt in your environments.
+    description: 'Technical debt includes anything that increases the complexity of the database workload or code usually incurred due to delivery pressures. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: There is a systematic approach to the development and release process.
+    description: 'The use of source code control systems, such as Azure Repos or GitHub, and build and release systems, such as Azure Pipelines or GitHub Actions, should be understood, including the corresponding processes to access, review and approve changes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: The application can be deployed automatically from scratch without any manual operations
+    description: Manual deployment steps introduce significant risks where human error is concerned and also increases overall deployment times.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '4'
+    text: There is a documented process for any portions of the deployment that require manual intervention
+    description: 'Without detailed release process documentation, there is a much higher risk of an operator improperly configuring settings for the application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: N-1 or N+1 versions can be deployed via automated pipelines where N is current deployment version in production
+    description: N-1 and N+1 refer to roll-back and roll-forward. Automated deployment pipelines should allow for quick roll-forward and roll-back deployments to address critical bugs and code updates outside of the normal deployment lifecycle.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '6'
+    text: The application deployment process leverages blue-green deployments and/or canary releases
+    description: Blue/green or canary deployments are a way to gradually release new features or changes without impacting all users at once.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '7'
+    text: Releases to production are gated by having it successfully deployed and tested in other environments
+    description: Deploying to other environments and verifying changes before going into production can prevent bugs from getting in front of end-users.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '8'
+    text: Feature flags are used to test features before rolling them out to everyone
+    description: 'To test new features quickly and without bigger risk, Feature flags are a technique to help frequently integrate code into a shared repository, even if incomplete. It allows for deployment decisions to be separated from release decisions'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '9'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'The entire end-to-end CI/CD deployment process should be understood, and ideally, as much of the deployment process as possible is automated.'
+isRequired: true
+uid: c1fb793a-0e9a-4ad6-a628-d4cece3d656a
+name: 'The entire end-to-end CI/CD deployment process should be understood, and ideally, as much of the deployment process as possible is automated. '

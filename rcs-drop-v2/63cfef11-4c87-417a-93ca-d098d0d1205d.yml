@@ -1,0 +1,678 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Consider limiting access, protecting data, and monitoring activities offered by Azure Synapse Analytics'
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-manage-security
+    condition:
+      noneOf:
+        - Security-data.ac779805-0c51-4622-a053-6a3530e3b0da.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Dynamic Data Masking feature.
+    url: /azure/azure-sql/database/dynamic-data-masking-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.ac779805-0c51-4622-a053-6a3530e3b0da.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Column-Level Security-data.
+    url: /azure/synapse-analytics/sql-data-warehouse/column-level-security?toc=%2Fazure%2Fsynapse-analytics%2Ftoc.json&amp;bc=%2Fazure%2Fsynapse-analytics%2Fbreadcrumb%2Ftoc.json&amp;view=sql-server-ver15
+    condition:
+      noneOf:
+        - Security-data.ac779805-0c51-4622-a053-6a3530e3b0da.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Row-Level Security-data.
+    url: /sql/relational-databases/security/row-level-security?toc=%2Fazure%2Fsynapse-analytics%2Ftoc.json&amp;bc=%2Fazure%2Fsynapse-analytics%2Fbreadcrumb%2Ftoc.json&amp;view=sql-server-ver15
+    condition:
+      noneOf:
+        - Security-data.ac779805-0c51-4622-a053-6a3530e3b0da.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Data Discovery and Classification.
+    url: /azure/azure-sql/database/data-discovery-and-classification-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.234beb16-8593-440e-8fe3-f9920cadb733.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics vulnerability assessment.
+    url: /azure/azure-sql/database/sql-vulnerability-assessment?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.234beb16-8593-440e-8fe3-f9920cadb733.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Advanced Threat Protection.
+    url: /azure/azure-sql/database/threat-detection-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.234beb16-8593-440e-8fe3-f9920cadb733.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Role-Based Access Control (RBAC).
+    url: /azure/synapse-analytics/security/synapse-workspace-synapse-rbac
+    condition:
+      noneOf:
+        - Security-data.234beb16-8593-440e-8fe3-f9920cadb733.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Auditing for Azure Synapse Analytics.
+    url: /azure/azure-sql/database/auditing-overview
+    condition:
+      noneOf:
+        - Security-data.234beb16-8593-440e-8fe3-f9920cadb733.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Discover, connect, and explore data in Azure Synapse Analytics using Azure Purview.'
+    url: /azure/synapse-analytics/catalog-and-governance/how-to-discover-connect-analyze-azure-purview
+    condition:
+      noneOf:
+        - Security-data.234beb16-8593-440e-8fe3-f9920cadb733.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Set up access control for your Synapse Analytics workspace.
+    url: /azure/synapse-analytics/security/how-to-set-up-access-control
+    condition:
+      noneOf:
+        - Security-data.234beb16-8593-440e-8fe3-f9920cadb733.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Control storage account access for serverless SQL pool in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=managed-identity#supported-storage-authorization-types
+    condition:
+      noneOf:
+        - Security-data.234beb16-8593-440e-8fe3-f9920cadb733.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Transparent Data Encryption feature.
+    url: /azure/azure-sql/database/transparent-data-encryption-tde-overview?bc=%2Fazure%2Fsynapse-analytics%2Fsql-data-warehouse%2Fbreadcrumb%2Ftoc.json&toc=%2Fazure%2Fsynapse-analytics%2Fsql-data-warehouse%2Ftoc.json&tabs=azure-portal
+    condition:
+      noneOf:
+        - Security-data.0377244a-a495-468c-8d1d-8ce36f47fe58.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Transparent Data Encryption with customer-managed key.
+    url: /azure/azure-sql/database/transparent-data-encryption-byok-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.0377244a-a495-468c-8d1d-8ce36f47fe58.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable TLS for encryption of data in-transit.
+    url: /azure/azure-sql/database/security-overview#information-protection-and-encryption
+    condition:
+      noneOf:
+        - Security-data.0377244a-a495-468c-8d1d-8ce36f47fe58.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Active Directory authentication.
+    url: /azure/azure-sql/database/authentication-aad-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.6231b09e-9d27-46ac-b19b-e043065dd7d7.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics multi-factor Active Directory authentication.
+    url: /azure/azure-sql/database/authentication-mfa-ssms-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.6231b09e-9d27-46ac-b19b-e043065dd7d7.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Workspace Managed Identity.
+    url: /azure/synapse-analytics/security/synapse-workspace-managed-identity
+    condition:
+      noneOf:
+        - Security-data.6231b09e-9d27-46ac-b19b-e043065dd7d7.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Key Vault secrets in pipeline activities for data sources that don't support Azure AD or Managed Identity.
+    url: /azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities
+    condition:
+      noneOf:
+        - Security-data.6231b09e-9d27-46ac-b19b-e043065dd7d7.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Secure credentials with linked services using the TokenLibrary for Synapse Analytics Spark Pools.
+    url: /azure/synapse-analytics/spark/apache-spark-secure-credentials-with-tokenlibrary?pivots=programming-language-csharp
+    condition:
+      noneOf:
+        - Security-data.6231b09e-9d27-46ac-b19b-e043065dd7d7.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Synapse credentials utilities.
+    url: /azure/synapse-analytics/spark/microsoft-spark-utilities?pivots=programming-language-csharp#credentials-utilities
+    condition:
+      noneOf:
+        - Security-data.6231b09e-9d27-46ac-b19b-e043065dd7d7.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics IP Firewall rules.
+    url: /azure/azure-sql/database/firewall-configure?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.e76d4039-0bf4-4706-8183-28381fefa270.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Private Link.
+    url: /azure/azure-sql/database/private-endpoint-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.e76d4039-0bf4-4706-8183-28381fefa270.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Virtual Network Service Endpoints.
+    url: /azure/azure-sql/database/vnet-service-endpoint-rule-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      noneOf:
+        - Security-data.e76d4039-0bf4-4706-8183-28381fefa270.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Connect to a secure Azure storage account from your Azure Synapse Analytics workspace.
+    url: /azure/synapse-analytics/security/connect-to-a-secure-storage-account
+    condition:
+      noneOf:
+        - Security-data.e76d4039-0bf4-4706-8183-28381fefa270.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create Azure Synapse Analytics Workspace with Data Exfiltration protection enabled.
+    url: /azure/synapse-analytics/security/workspace-data-exfiltration-protection
+    condition:
+      noneOf:
+        - Security-data.e76d4039-0bf4-4706-8183-28381fefa270.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Managed private endpoints in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints
+    condition:
+      noneOf:
+        - Security-data.e76d4039-0bf4-4706-8183-28381fefa270.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Key Vault secrets in pipeline activities for data sources that don't support Azure AD or Managed Identity
+    url: /azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities
+    condition:
+      noneOf:
+        - Security-data.d6414788-edf6-4a07-96df-697baa8b7513.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Maintain an inventory of administrative accounts, change default passwords and use dedicated administrative accounts.'
+    url: /azure/synapse-analytics/security-baseline#identity-and-access-control
+    condition:
+      noneOf:
+        - Security-data.80ced676-1b13-46ae-8d52-202a7d3ef7c6.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: SQL Vulnerability Assessment for SQL Server on Azure VMs
+    url: 'https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vulnerability-assessment-enable Administer Servers by Using Policy-Based Management'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8c53ec2c-d902-4ecc-9b98-5050b91ab371.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure Blueprints samples
+    url: 'https://docs.microsoft.com/en-us/azure/governance/blueprints/samples/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8c53ec2c-d902-4ecc-9b98-5050b91ab371.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Adaptive application controls for defining safe applications should be enabled on your machines
+    url: 'https://docs.microsoft.com/en-us/azure/virtual-machines/policy-reference'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8c53ec2c-d902-4ecc-9b98-5050b91ab371.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate management with the SQL Server IaaS Agent extension
+    url: 'https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management?tabs=azure-powershell'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8c53ec2c-d902-4ecc-9b98-5050b91ab371.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Playbook for addressing common security requirements with Azure SQL Database
+    url: 'https://docs.microsoft.com/en-us/azure/azure-sql/database/security-best-practice'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8c53ec2c-d902-4ecc-9b98-5050b91ab371.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: SQL Data Discovery and Classification
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8c53ec2c-d902-4ecc-9b98-5050b91ab371.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Penetration Testing Rules of Engagement
+    url: 'https://www.microsoft.com/en-us/msrc/pentest-rules-of-engagement'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8c53ec2c-d902-4ecc-9b98-5050b91ab371.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Rotate Always Encrypted keys using SQL Server Management Studio
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/rotate-always-encrypted-keys-using-ssms'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8c53ec2c-d902-4ecc-9b98-5050b91ab371.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Microsoft Antimalware for Azure Cloud Services and Virtual Machine
+    url: 'https://docs.microsoft.com/en-us/azure/security/fundamentals/antimalware'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8c53ec2c-d902-4ecc-9b98-5050b91ab371.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure encryption overview
+    url: 'https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-overview#azure-disk-encryption'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.f040f981-ff0e-4266-a9e2-52f49c6d23f1.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure Storage encryption for data at rest
+    url: 'https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.f040f981-ff0e-4266-a9e2-52f49c6d23f1.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Set up SQL Server TDE Extensible Key Management by using Azure Key Vault
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.f040f981-ff0e-4266-a9e2-52f49c6d23f1.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Always Encrypted with secure enclaves
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-enclaves?view=sql-server-ver15'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.f040f981-ff0e-4266-a9e2-52f49c6d23f1.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure encryption overview
+    url: 'https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.f040f981-ff0e-4266-a9e2-52f49c6d23f1.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Overview of key management for Always Encrypted - Managing Keys with Role Separation
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/overview-of-key-management-for-always-encrypted?view=sql-server-ver15#managing-keys-with-role-separation'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.f040f981-ff0e-4266-a9e2-52f49c6d23f1.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Password Policy
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/security/password-policy?view=sql-server-ver15'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.717545ee-2116-4bf0-8631-591c519c52f5.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Principals and Database Object Security
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/security/securing-sql-server?redirectedfrom=MSDN&view=sql-server-ver15#principals-and-database-object-security'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.717545ee-2116-4bf0-8631-591c519c52f5.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Tutorial: Ownership Chains and Context Switching'
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/tutorial-ownership-chains-and-context-switching?view=sql-server-ver15'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.717545ee-2116-4bf0-8631-591c519c52f5.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Integrate on-premises AD with Azure
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/identity/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.717545ee-2116-4bf0-8631-591c519c52f5.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure managed identities for Azure resources on a VM using the Azure portal
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/qs-configure-portal-windows-vm'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.717545ee-2116-4bf0-8631-591c519c52f5.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure database security checklist
+    url: 'https://docs.microsoft.com/en-us/azure/security/fundamentals/database-security-checklist#checklist'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.717545ee-2116-4bf0-8631-591c519c52f5.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Segmentation strategies
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-segmentation'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.47f502e0-af1a-4083-88c2-fe2e75381a7f.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure offerings for DDoS protection
+    url: 'https://docs.microsoft.com/en-us/azure/security/fundamentals/ddos-best-practices#azure-offerings-for-ddos-protection'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.47f502e0-af1a-4083-88c2-fe2e75381a7f.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Integrate Azure services with virtual networks for network isolation
+    url: 'https://docs.microsoft.com/en-us/azure/virtual-network/vnet-integration-for-azure-services'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.47f502e0-af1a-4083-88c2-fe2e75381a7f.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable encrypted connections to the Database Engine
+    url: 'https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.47f502e0-af1a-4083-88c2-fe2e75381a7f.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use a non-default port
+    url: 'https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/security-considerations-best-practices#use-a-non-default-port'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.47f502e0-af1a-4083-88c2-fe2e75381a7f.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure the Windows Firewall to Allow SQL Server Access
+    url: 'https://docs.microsoft.com/en-us/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access?view=sql-server-ver15'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.47f502e0-af1a-4083-88c2-fe2e75381a7f.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: SQL Server Audit (Database Engine)
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/sql-server-audit-database-engine?view=sql-server-ver15'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.6bad0358-5bef-478f-add4-4147282df798.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Security design principles
+    url: 'https://www.microsoft.com/en-us/us-partner-blog/2021/04/23/azures-well-architected-framework-pillar-5-security/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8be9cb3b-060a-4934-8b03-299159999151.A
+        - Security-data.8be9cb3b-060a-4934-8b03-299159999151.F
+        - Security-data.8be9cb3b-060a-4934-8b03-299159999151.G
+        - Security-data.8be9cb3b-060a-4934-8b03-299159999151.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Microsoft Operational Security Assurance Practices
+    url: 'https://www.microsoft.com/en-us/securityengineering/osa/practices'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8be9cb3b-060a-4934-8b03-299159999151.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Continuous Delivery for Azure SQL DB using Azure DevOps Multi-stage Pipelines
+    url: 'https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8be9cb3b-060a-4934-8b03-299159999151.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure managed identities for Azure resources on a VM using the Azure portal
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/qs-configure-portal-windows-vm'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8be9cb3b-060a-4934-8b03-299159999151.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Minimize attack surface
+    url: 'https://docs.microsoft.com/en-us/azure/azure-sql/database/security-best-practice#minimize-attack-surface'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8be9cb3b-060a-4934-8b03-299159999151.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Defense In Depth
+    url: 'https://docs.microsoft.com/en-us/learn/modules/azure-well-architected-security/2-defense-in-depth'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-data.8be9cb3b-060a-4934-8b03-299159999151.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 63cfef11-4c87-417a-93ca-d098d0d1205d
+name: ''

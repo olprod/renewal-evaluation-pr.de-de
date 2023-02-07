@@ -1,0 +1,18 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: ''
+    url: ''
+    condition:
+      allOf:
+        - 267bdbda-da2d-492a-ab90-1a6beae9fc57.ca272a37-3d79-421a-bdf8-9521db1ae042.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: a4836c8b-e34f-4934-b37e-6db1baa01d62
+name: another test recommendation

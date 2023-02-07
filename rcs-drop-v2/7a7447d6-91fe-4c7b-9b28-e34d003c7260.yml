@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics column-level encryption.
+    description: Encrypt a column of data by using symmetric encryption.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: B
+    text: Use Azure Synapse Analytics Transparent Data Encryption feature.
+    description: Helps protect Azure Synapse Analytics against the threat of malicious offline activity by encrypting data at rest.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: C
+    text: Use Azure Synapse Analytics Transparent Data Encryption with customer-managed key.
+    description: 'Enables Bring Your Own Key (BYOK) scenario for data protection at rest, and allows organizations to implement separation of duties in the management of keys and data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Enable TLS for encryption of data in-transit.
+    description: This ensures all data is encrypted 'in transit' between the client and server irrespective of the setting of Encrypt or TrustServerCertificate in the connection string.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 7a7447d6-91fe-4c7b-9b28-e34d003c7260
+name: How are you managing encryption for this workload?

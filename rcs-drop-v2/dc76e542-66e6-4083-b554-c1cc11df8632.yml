@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Elastic pools are being used to save costs and share resources.
+    description: Consider the reliability impact that is introduced by elastic pool usage (all databases in the pool fail over together).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Your databases are set up as zone redundant if the impact on transaction latency permits it.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Operational procedures are defined in case data sizes approach limits.
+    description: Are there any mitigation plans defined in case data size approaches limits? i.e. purging or archiving
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: dc76e542-66e6-4083-b554-c1cc11df8632
+name: What reliability allowances for scalability and performance have you made?

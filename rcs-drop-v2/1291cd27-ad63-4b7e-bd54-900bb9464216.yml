@@ -1,0 +1,414 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Secure and govern workloads with network-level segmentation
+    url: /azure/architecture/reference-architectures/hybrid-networking/network-level-segmentation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.9361b554-b0cf-4e4b-8eb7-db79f8e3a285.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use NSGs for granular control over traffic between specific resources
+    url: /azure/virtual-network/network-security-groups-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.9361b554-b0cf-4e4b-8eb7-db79f8e3a285.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: 'Use Private (or Service) Endpoints to restrict resource access to the roles that need it, and block all other access'
+    url: /azure/private-link/private-endpoint-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.9361b554-b0cf-4e4b-8eb7-db79f8e3a285.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: 'Use ExpressRoute or VPN for private connectivity between Azure, on-prem and other cloud provider networks'
+    url: /azure/expressroute/expressroute-introduction
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.9361b554-b0cf-4e4b-8eb7-db79f8e3a285.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Protect Internet-facing endpoints from DDoS attack
+    url: /azure/ddos-protection/ddos-protection-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.64466d35-c1e6-4fe1-9e6f-d831fdb35857.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: 'Use Azure Firewall or a virtualized firewall appliance from the Azure Marketplace to centrally manage traffic flows between resources, as well as to/from the Internet, on-prem or other cloud provider networks'
+    url: /azure/firewall/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.64466d35-c1e6-4fe1-9e6f-d831fdb35857.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use signature-based IDPS to detect malicious traffic
+    url: /azure/firewall/premium-features#idps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.64466d35-c1e6-4fe1-9e6f-d831fdb35857.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: 'Use a web application firewall (WAF) to protect web applications and APIs against x-site scripting, SQL injection and other common attacks'
+    url: /azure/web-application-firewall/ag/ag-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.64466d35-c1e6-4fe1-9e6f-d831fdb35857.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use firewalls that integrate threat intelligence for real-time alerting/blocking of malicious IP addresses and DNS domains
+    url: /azure/firewall/threat-intel
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.64466d35-c1e6-4fe1-9e6f-d831fdb35857.5
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Require admins to request access to management ports on VMs
+    url: /azure/defender-for-cloud/just-in-time-access-usage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.64466d35-c1e6-4fe1-9e6f-d831fdb35857.5
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use tools to detect and remediate insecure legacy network protocols
+    url: 'https://aka.ms/sentinelipsetup'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.64466d35-c1e6-4fe1-9e6f-d831fdb35857.7
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use tools to automatically and continuously analyze your software-defined networks for vulnerabilities
+    url: /azure/defender-for-cloud/protect-network-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.7c3cef9a-64c8-4e33-90a9-f20925d7e498.2
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Always use industry standard cryptographic algorithms for authentication and encryption
+    url: /en-us/security/sdl/cryptographic-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.aad971ed-3f45-41bd-95d8-2ab2ab04a95f.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Ensure all communications between endpoints are strongly authenticated and encrypted
+    url: /azure/security/fundamentals/encryption-overview#tls-encryption-in-azure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.aad971ed-3f45-41bd-95d8-2ab2ab04a95f.5
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use the latest available TLS version to protect communication channels
+    url: /en-us/security/engineering/solving-tls1-problem
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.aad971ed-3f45-41bd-95d8-2ab2ab04a95f.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use secure modern hashing algorithms (SHA-2) only
+    url: 'https://techcommunity.microsoft.com/t5/windows-it-pro-blog/microsoft-to-use-sha-2-exclusively-starting-may-9-2021/ba-p/2261924'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.aad971ed-3f45-41bd-95d8-2ab2ab04a95f.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Ensure encryption of data at rest is enabled
+    url: /azure/security/fundamentals/encryption-atrest
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.aad971ed-3f45-41bd-95d8-2ab2ab04a95f.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Ensure data is protected against eavesdropping as it traverses the network
+    url: /azure/security/fundamentals/encryption-overview#encryption-of-data-in-transit
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.aad971ed-3f45-41bd-95d8-2ab2ab04a95f.5
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Define requirements for data encryption and key management
+    url: /azure/security/fundamentals/encryption-models
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.94beaf20-87d5-4707-b10b-67f70139c77e.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Certificate requests and secret generation must be performed programmatically and securely stored without exposing them to admins or developers
+    url: /azure/key-vault/general/developers-guide
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.94beaf20-87d5-4707-b10b-67f70139c77e.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: 'Ensure the access model for keys and secrets is defined, and audited for compliance'
+    url: /azure/key-vault/general/best-practices#control-access-to-your-vault
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.94beaf20-87d5-4707-b10b-67f70139c77e.2
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Ensure procedures are in place for secret/key rotation
+    url: /azure/key-vault/keys/how-to-configure-key-rotation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.94beaf20-87d5-4707-b10b-67f70139c77e.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Ensure secrets/keys are securely rotated before expiry
+    url: /azure/key-vault/certificates/tutorial-rotate-certificates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.94beaf20-87d5-4707-b10b-67f70139c77e.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Azure Policy and deployment templates are used for repeatable deployment of secure configurations
+    url: /azure/cloud-adoption-framework/ready/landing-zone
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.cc855aa8-ebb6-4d31-9cc3-de4ae2402636.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use the "secure score" in Defender for Cloud to monitor Azure and AWS resources for insecure configurations
+    url: /azure/defender-for-cloud/secure-score-security-controls
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.b51b5a8c-0ca2-4526-ad1e-ec8f804ad77a.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use a vulnerability scanning solution (such as that in Defender for Cloud) to alert on vulnerabilities and insecure configurations
+    url: /azure/defender-for-cloud/deploy-vulnerability-assessment-vm
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.7c3cef9a-64c8-4e33-90a9-f20925d7e498.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Rapidly and automatically deploy patches and updates to remediate vulnerabilities in your cloud resources
+    url: /azure/automation/update-management/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.cc855aa8-ebb6-4d31-9cc3-de4ae2402636.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Periodically conduct penetration testing or red team activities on your resources and ensure remediation of all critical security findings
+    url: /azure/security/fundamentals/pen-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.cc855aa8-ebb6-4d31-9cc3-de4ae2402636.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: 'Use Microsoft Defender for Servers (or a 3rd party EDR solution) on endpoints to detect, prevent and respond to threats'
+    url: /azure/defender-for-cloud/integration-defender-for-endpoint
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.7c3cef9a-64c8-4e33-90a9-f20925d7e498.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use Microsoft Defender (or a 3rd party) anti-malware solution on Windows and Linux endpoints
+    url: /en-us/microsoft-365/security/defender-endpoint/next-generation-protection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.7c3cef9a-64c8-4e33-90a9-f20925d7e498.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: 'Detect and prevent threats to compute, storage, databases and other services'
+    url: /azure/defender-for-cloud/defender-for-cloud-introduction#extend-defender-for-cloud-with-defender-plans-and-external-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.7c3cef9a-64c8-4e33-90a9-f20925d7e498.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use Azure Arc to unify governance and management across all workloads
+    url: /azure/azure-arc/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.b51b5a8c-0ca2-4526-ad1e-ec8f804ad77a.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Use Defender for Cloud to monitor the security posture and state of all workloads
+    url: /azure/defender-for-cloud/multicloud
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.b51b5a8c-0ca2-4526-ad1e-ec8f804ad77a.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+  - title: Design encryption and key management in Azure
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/encryption-and-keys'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 152b3a9b-64e1-42fd-9241-149081cf0175.94beaf20-87d5-4707-b10b-67f70139c77e.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Asset Protection
+    reportingSubCategory: ''
+uid: 1291cd27-ad63-4b7e-bd54-900bb9464216
+name: ''

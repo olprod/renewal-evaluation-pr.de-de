@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This section cover best practices for managing the codebase / technical extensibility aspects of D365 F&O workload.
+hideEmptyGuidance: false
+questions:
+  - 5553ef8f-87fa-4b51-9ac4-2f3e8c8da0bf
+  - 396589df-a5a0-42db-b2ad-883a73a16be5
+  - 9808412c-c215-4cd4-9147-399475bd54f6
+  - 3c98eacb-9879-421e-85ba-11e4d3468103
+recommendations:
+  - 231b5c85-54ea-4fb8-8c30-80466b54f3d4
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: 7bfa1cc3-06ce-43d6-9846-f892fcb01a2d
+name: 'Extensibility '

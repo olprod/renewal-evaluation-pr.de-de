@@ -1,0 +1,96 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: I am utilizing the use Free tier offer to save 1000 RU/s per subscription.
+    description: 'Immediate cost savings, especially for test and dev environment'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '1'
+    text: My service runs to scale for predictable and/or seasonal patterns.
+    description: Realize cost savings with manual provisioning based on a predictable throughput for a workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '2'
+    text: 'I am using auto-scale with a workload in which throughput requirements are undetermined / unpredictable, over time.'
+    description: Auto-scaling policies allow for less error-prone operations and cost savings through robust automation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '3'
+    text: 'I have identified workloads that spike occasionally and are idle during other parts of the day, so we use Serverless.'
+    description: Serverless provides a pay-as-you go model where resources are only billed when throughput is consumed and no cost when idle.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '4'
+    text: 'I have analyzed and understand the requirements of the workload patterns, and as such we have allocated the proper resource model.'
+    description: 'Through proper analysis of your workload pattern, at the container level, you can realize cost savings by selecting the appropriate resource model. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '5'
+    text: 'I set throughput at the database level to share RUs across multiple containers, because we do not require dedicated throughput for a specific container.'
+    description: Allows to share resources/RU across multiple collections.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '6'
+    text: 'I removed unneeded accounts, databases, and containers.'
+    description: Reduce costs and management of unused resources.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '7'
+    text: I have ensured we retain only the data required.
+    description: Consider implementing TTL to delete all unneeded data automatically.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '8'
+    text: I found there is data we do not consistently need and/or no longer need access via Cosmos DB.
+    description: Consider moving this data to blob storage to reduce your physical footprint.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '9'
+    text: 'I have found a consistent minimum # of RUs we use hourly.'
+    description: Consider purchasing reserved capacity to reduce the cost of RUs by up to 65%.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '10'
+    text: I have leveraged Cosmos DB Emulator during development
+    description: 'You can’t always be connected, but you can always test your application with the emulator.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.C
+    - waf-config-golive.pillars.cost
+stem: Identify the key resources to help optimize your Cosmos workload(s)
+isRequired: false
+uid: 8f9c1d64-24d7-4816-ba15-7a37deb8d3a4
+name: Identify the key resources to help optimize your Cosmos workload(s)

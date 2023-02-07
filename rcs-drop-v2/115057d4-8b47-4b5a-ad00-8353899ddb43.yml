@@ -1,0 +1,49 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We are aware of key considerations and requirements for storage and data in multitenant solutions including scale, performance predictability, and data isolation.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: We understand that different database and storage services provide different sets of features that can be useful for multitenancy.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We are familiar with approaches and patterns to consider for storage and data in multitenant solutions, including the Deployment Stamps pattern, shared multitenant databases and file stores, and the Sharding pattern.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'We avoid storage antipatterns including table-based database isolation, column-level tenant customization, and version dependencies.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'When planning multitenant storage or data components, you need to decide on an approach for sharing or isolating your tenants'' data. Data is often considered the most valuable part of a solution, since it represents your or your customers'' valuable business information. So, it''s important to carefully plan the approach you use to manage data in a multitenant environment.'
+isRequired: true
+uid: 115057d4-8b47-4b5a-ad00-8353899ddb43
+name: 'When planning multitenant storage or data components, you need to decide on an approach for sharing or isolating your tenants'' data.'

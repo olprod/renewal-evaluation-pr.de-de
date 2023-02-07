@@ -1,0 +1,37 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'This design area creates a foundation for security across your Azure, hybrid, and multi-cloud environments. You can enhance this foundation later with security guidance outlined in the Cloud Adoption Framework''s Secure methodology.'
+links:
+  - title: Meet your security requirements
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/security'
+    condition:
+      allOf: []
+      anyOf:
+        - b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e.20aa6d0d-a5d6-4544-90bb-437462448cbf.0
+        - b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e.20aa6d0d-a5d6-4544-90bb-437462448cbf.1
+        - b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e.20aa6d0d-a5d6-4544-90bb-437462448cbf.2
+        - b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e.20aa6d0d-a5d6-4544-90bb-437462448cbf.3
+        - b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e.20aa6d0d-a5d6-4544-90bb-437462448cbf.4
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Service enablement framework
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/service-enablement-framework'
+    condition:
+      allOf: []
+      anyOf:
+        - b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e.c23a0580-dcdf-4661-9423-17125802b342.0
+        - b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e.c23a0580-dcdf-4661-9423-17125802b342.1
+        - b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e.c23a0580-dcdf-4661-9423-17125802b342.3
+        - b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e.c23a0580-dcdf-4661-9423-17125802b342.4
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: c80e25ca-aac1-497d-a6f2-8ded44a7a95f
+name: Security design area review

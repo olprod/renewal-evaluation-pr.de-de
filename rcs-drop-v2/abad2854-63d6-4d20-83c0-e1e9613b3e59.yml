@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: Beginner
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: Intermediate
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: Advanced
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Create and configure Key Vault • Configure access to Key Vault • Manage certificates, secrets, and keys • Configure key rotation • Configure backup and recovery of certificates, secrets, and keys'
+isRequired: true
+uid: abad2854-63d6-4d20-83c0-e1e9613b3e59
+name: 'For example: Create and configure Key Vault • Configure access to Key Vault • Manage certificates, secrets, and keys • Configure key rotation • Configure backup and recovery of certificates, secrets, and keys '

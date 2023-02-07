@@ -1,0 +1,294 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Use Azure Front Door as the primary global traffic routing service for HTTP/S scenarios. Azure Front Door is strongly advocated for HTTP/S workloads as it provides optimized traffic routing, transparent fail over, private backend endpoints (with the Premium SKU), edge caching, and integration with Web Application Firewall (WAF).'
+    url: '/azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#:~:text=mission%2Dcritical%20workloads.-,Design%20recommendations,-Use%20Azure%20Front'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.0d05ede8-836f-465b-8652-c54d5f0a3bf5.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Traffic Manager for non-HTTP/S scenarios as a replacement to Azure Front Door. Capability differences will drive different design decisions for cache and WAF capabilities, and TLS certificate management.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.0d05ede8-836f-465b-8652-c54d5f0a3bf5.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For application scenarios where client control is possible, apply client side routing logic to consider failover scenarios where the primary global routing technology fails. Two or more global routing technologies should be positioned in parallel for added redundancy, if single service SLA isn''t sufficient. Client logic is required to route to the redundant technology in case of a global service failure.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.0d05ede8-836f-465b-8652-c54d5f0a3bf5.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: It's recommended to consider a third-party global routing service in place of two Azure global routing services. This provides the maximum level of fault mitigation and a more simple design approach since most industry leading CDN providers offer edge capabilities largely consistent with that offered by Azure Front Door.
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.0d05ede8-836f-465b-8652-c54d5f0a3bf5.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'To provide broader redundancy to global outage scenarios, a multi-cloud active-active deployment approach can be considered. A multi-cloud active-active deployment approach introduces significant operational complexities, which pose significant resiliency risks, likely far outweighing the hypothetical risks of a global outage.  For scenarios where client control isn''t possible, a dependency must be taken on a single global routing service to provide a unified entry point for all active deployment regions.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#design-considerations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.0d05ede8-836f-465b-8652-c54d5f0a3bf5.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'A Web Application Firewall provides protection against common web exploits and vulnerabilities, such as SQL injection or cross site scripting, and is essential to achieve the maximum reliability aspirations of a mission-critical application. Its use is highly recommended in any kind of web-traffic scenario.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.85c87a39-8f5b-4515-b13c-2447d0e56174.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure WAF in Prevention mode to directly block attacks. Only use WAF in Detection mode (i.e. only logging but not blocking suspicious requests) when the performance penalty of Prevention mode is too high. The implied additional risk must be fully understood and aligned to the specific requirements of the workload scenario.
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.85c87a39-8f5b-4515-b13c-2447d0e56174.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Prioritize the use of Azure Front Door WAF since it provides the richest Azure-native feature set and applies protections at the global edge, which simplifies the overall design and drives further efficiencies.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.85c87a39-8f5b-4515-b13c-2447d0e56174.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Separate the delivery of static and dynamic content to users and deliver relevant content from a cache to reduce load on backend services optimize performance for end-users. This can, for example, be achieved through the use of Azure Front Door Standard/Premium. It provides a built-in cache that serves static content from edge nodes. In many use cases, this can also eliminate the need for a dedicated CDN.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.85c87a39-8f5b-4515-b13c-2447d0e56174.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure DDoS Protection Standard plans to help protect public endpoints hosted within each application virtual network.
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.85c87a39-8f5b-4515-b13c-2447d0e56174.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Azure Standard Load Balancer SKU for any internal traffic distribution scenario within micros-service workloads. Provides an SLA of 99.99% when deployed across availability zones. Provides critical capabilities such as diagnostics or outbound rules.
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.85c87a39-8f5b-4515-b13c-2447d0e56174.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'It''s recommended that mission-critical solutions are deployed within Azure virtual networks where possible to remove unnecessary public endpoints, limiting the application attack surface to maximize security and reliability.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#virtual-network-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.09e7d456-befb-4e63-afc4-cd4bfb8bfbe3.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For application scenarios that don''t require corporate network connectivity, treat all virtual networks as ephemeral resources that are replaced when a new regional deployment is conducted.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#virtual-network-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.09e7d456-befb-4e63-afc4-cd4bfb8bfbe3.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'In scenarios where corporate network connectivity is required to facilitate application integration over private networks, ensure that the IPv4 address space used for regional application virtual networks doesn''t overlap with other connected networks and is properly sized to facilitate required scale without needing to update the virtual network resource and incur downtime.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#virtual-network-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.09e7d456-befb-4e63-afc4-cd4bfb8bfbe3.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Ensure all components on critical network paths are in line with the reliability and availability requirements of associated user flows, regardless of whether the management of these paths and associated component is delivered by the application team or central IT teams.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#virtual-network-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.09e7d456-befb-4e63-afc4-cd4bfb8bfbe3.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For scenarios requiring on-premises network integration, prioritize the use of Express Route to ensure secure and scalable connectivity.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#virtual-network-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.09e7d456-befb-4e63-afc4-cd4bfb8bfbe3.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use virtual network peering to connect networks within a region and across different regions. It's strongly recommended to avoid hair-pinning within Express Route.
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#inter-zone-and-inter-region-connectivity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.a86c6dce-924d-4694-b997-2bf9b16ba6cb.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Private Link to establish communication directly between services in the same region or across regions (service in Region A communicating with service in Region B).
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#inter-zone-and-inter-region-connectivity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.a86c6dce-924d-4694-b997-2bf9b16ba6cb.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For application workloads that are extremely chatty between components, consider constraining a deployment stamp to a single zone and deploying multiple stamps across the different zones. This ensures zonal redundancy is maintained at the level of an encapsulated deployment stamp rather than a single application component.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#inter-zone-and-inter-region-connectivity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.a86c6dce-924d-4694-b997-2bf9b16ba6cb.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For hyper latency-sensitive application scenarios, prioritize the use of zones with regional network gateways to optimize network latency for ingress paths.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#inter-zone-and-inter-region-connectivity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.a86c6dce-924d-4694-b997-2bf9b16ba6cb.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Public internet traffic should be disabled on RDP and SSH ports across all applicable NSGs.
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#micro-segmentation-and-kubernetes-network-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.6fcd5438-fcda-4f0f-966b-2e716d67eb43.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prioritize the use of the Azure CNI network plugin and consider Kubenet for scenarios with a limited range of available IP addresses to fit the application within a constrained address space.
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#micro-segmentation-and-kubernetes-network-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.6fcd5438-fcda-4f0f-966b-2e716d67eb43.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Limit inter-service communication to services that need to communicate with each other.
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#micro-segmentation-and-kubernetes-network-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.6fcd5438-fcda-4f0f-966b-2e716d67eb43.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: The Network Policy feature in Kubernetes should be used to define rules for ingress and egress traffic between pods in a cluster. Define granular Network Policies to restrict and limit cross-pod communication.
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#micro-segmentation-and-kubernetes-network-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c547a45-f43a-46fe-8287-4288c9ec60a3.6fcd5438-fcda-4f0f-966b-2e716d67eb43.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 534b0c73-c9cf-45c2-95cd-e43b6a08f01b
+name: ''

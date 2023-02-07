@@ -1,0 +1,72 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: B
+    text: The workload can scale horizontally in response to changing load.
+    description: A scale-unit approach should be taken to ensure that each application component and the application as a whole can scale effectively in response to changing demand. A robust capacity model should be used to define when and how the application should scale.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Have policies to scale in and scale down when the load decreases.
+    description: Scaling in removes unused resources when they become idle.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Configured scaling policies to use the appropriate metrics.
+    description: By performing load testing you can evaluate the bottlenecks in your workload and then configure your autoscaling rules to trigger off of the metrics related to those bottlenecks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Automatically schedule autoscaling to add resources based on time of day trends.
+    description: Preemptively scaling based on historical data can ensure your application is performant before your metrics indicate additional resources are required.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Autoscaling has been tested under sustained load.
+    description: The scaling on any single component may have an impact on downstream application components and dependencies. Autoscaling should therefore be tested regularly to help inform and validate a capacity model describing when and how application components should scale.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: You have measured the time it takes to scale in and out.
+    description: 'Time to scale-in and scale-out can vary between Azure services and instance sizes and should be assessed to determine if a certain amount of pre-scaling is required to handle scale requirements and expected traffic patterns, such as seasonal load variations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Ensuring the performance of your system
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4ICH9'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Performance is an indication of the responsiveness of a system to execute any action within a given time interval.
+isRequired: false
+legacyId: elasticity
+uid: cb69cbc9-8bed-4923-bce5-cd01e289f3cd
+name: Performance is an indication of the responsiveness of a system to execute any action within a given time interval.

@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |
+  Your company plans to deploy connectors to a Microsoft 365 infrastructure.
+
+  A Microsoft Exchange Online connector is required to deliver email messages from Exchange Online to an on-premises Exchange Server in a hybrid configuration.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 39ce3120-c632-4b93-ab18-8d9b1b833ae8
+questions:
+  - uid: e986c5a8-a771-451d-999c-9ec968f5f2f4-q-0
+    title: Your company plans to deploy connectors to a Microsoft 365 infrastructure.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A Microsoft Exchange Online connector is required to deliver email messages from Exchange Online to an on-premises Exchange Server in a hybrid configuration.
+        isCorrect: true
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: false
+uid: e986c5a8-a771-451d-999c-9ec968f5f2f4
+title: 'Otherwise, select No.'

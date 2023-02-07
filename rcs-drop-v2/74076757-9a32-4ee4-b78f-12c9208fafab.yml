@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: The expiry dates of SSL certificates are monitored and there are processes in place to renew SSL certificates.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: You monitor and take advantage of new features and capabilities of underlying services used in your SAP workload.
+    description: 'Azure is continuously evolving, with new features and services becoming available which may be beneficial for the application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '2'
+    text: 'Procedures are in place for key/secret rotation, where applicable.'
+    description: Do you have procedures in place for key/secret rotation?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: AzSAP Health Check implemented and ran regularly.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: 'SAP applications often run on multiple virtual machines in multiple regions, and use multiple external services. How do you manage and store all your SAP configuration settings, feature flags, and secure access settings?'
+isRequired: false
+uid: 74076757-9a32-4ee4-b78f-12c9208fafab
+name: 'SAP applications often run on multiple virtual machines in multiple regions, and use multiple external services.'

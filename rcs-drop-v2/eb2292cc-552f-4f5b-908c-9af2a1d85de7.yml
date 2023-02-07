@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Dynamics 365 Finance
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Dynamics 365 SCM
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '2'
+    text: Dynamics 365 Commerce
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '3'
+    text: Dynamics 365 Customer Engagement
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '4'
+    text: Dynamics 365 Project Operations
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Which Microsoft Dynamics 365 applications are in scope of your project? Select all the Microsoft Dynamics 365 applications in scope.
+isRequired: true
+uid: eb2292cc-552f-4f5b-908c-9af2a1d85de7
+name: Which Microsoft Dynamics 365 applications are in scope of your project?

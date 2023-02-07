@@ -1,0 +1,90 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Regulatory and governance requirements of applications are known and well understood.
+    description: 'Regulatory requirements may mandate that operational data, such as application logs and metrics, remain within a certain geopolitical region. This has obvious implications for how the application should be operationalized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Landing Zone concept is implemented for applications
+    description: 'Landing Zone refers to components that are already defined and in place before the workloads are getting deployed by the workload owners, e.g. network topology with Hub/Spoke concept. The purpose of the "Landing Zone" is to ensure that when a workload lands on Azure, the required "plumbing" is already in place, providing greater agility and compliance with enterprise security and governance requirements. It is crucial that a Landing Zone will be handed over to the workload owner with the security guardrails deployed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Policies are used to enforce and control security and organizational standards.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Root management group is used and any changes that are applied using this group are carefully considered.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: Compliance for applications is systematically monitored and maintained. Regular compliance attestations are performed.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: External or internal audits of this workload are performed periodically.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: Security plan for this workload was developed and is maintained.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '7'
+    text: 'Best practices and guidelines, based on industry recommendations, are reviewed and applied proactively.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '8'
+    text: Attacker vs. defender costs are considered when implementing defenses. Easy and cheap attack methods are always prevented.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '9'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Organizations of all sizes are constrained by their available resources: financial, people, and time. To achieve an effective return on investment (ROI) organizations must prioritize where they will invest. Implementation of security across the organization is also constrained by this, so to achieve an appropriate ROI on security the organization needs to first understand and define its security priorities.'
+isRequired: true
+uid: 250c42e7-21dd-48f7-b07a-0faff7bcf4a3
+name: 'Organizations of all sizes are constrained by their available resources: financial, people, and time.'

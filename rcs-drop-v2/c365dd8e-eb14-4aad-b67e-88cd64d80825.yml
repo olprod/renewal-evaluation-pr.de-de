@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: |
+  This section cover aspects for establishing a Center of Excellence for Dynamics 365 Finance & Operations (D365 F&O) implementations as a managed service provider / IT team taking care of D365 F&O workloads and interested in establishing COE.
+
+  We will ask series of questions regarding status of your COE journey in this area and provide you recommended next steps in COE establishment.
+hideEmptyGuidance: false
+questions:
+  - bdcce5e5-2799-4480-95bf-6c95eb24b03c
+recommendations:
+  - a2402ab9-4206-4167-bd04-956eeda7b88b
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: c365dd8e-eb14-4aad-b67e-88cd64d80825
+name: COE Establishment

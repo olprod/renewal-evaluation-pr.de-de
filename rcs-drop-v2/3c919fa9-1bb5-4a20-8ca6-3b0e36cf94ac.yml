@@ -1,0 +1,19 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Assessment
+    url: 'https://review.docs.microsoft.com/en-us/assessments/?branch=master&mode=pre-assessment&id=test-azure-architecture-review-data'
+    condition:
+      allOf:
+        - Cost-data.d19ace64-4b16-43e1-81e3-20fd113bf54b.E
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.E
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 3c919fa9-1bb5-4a20-8ca6-3b0e36cf94ac
+name: ''

@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a server that runs Windows Server named Server1.
+
+  You need to configure Server1 as a router.
+
+  Which role should you install on Server1?
+questionnaireUid: 919c8083-4462-4944-a4d8-28d93ed06f4a
+questions:
+  - uid: f66b7b18-f3b6-4a58-b7c8-23e35319c97b-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a server that runs Windows Server named Server1.
+        isCorrect: false
+      - id: 1
+        text: You need to configure Server1 as a router.
+        isCorrect: false
+      - id: 2
+        text: Which role should you install on Server1?
+        isCorrect: false
+      - id: 3
+        text: MultiPoint Services
+        isCorrect: true
+    manualId: 13_az-800-az-800.4.1
+uid: f66b7b18-f3b6-4a58-b7c8-23e35319c97b
+title: ''
+manualId: ''

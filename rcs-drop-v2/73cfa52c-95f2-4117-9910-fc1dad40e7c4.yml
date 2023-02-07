@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Manually, by clicking "Add Subscription" in the Azure Portal or EA portal.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'Manually, by raising a ticket with our partner/CSP to create one.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Manually, via an API call (ARM, REST, Bicep, Terraform, etc.), from a manual request (e-mail, ticket from ITSM tool).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: 'Automatically, via an API call (ARM, REST, Bicep, Terraform, etc.) triggered through a pipeline/integration tool.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: false
+uid: 73cfa52c-95f2-4117-9910-fc1dad40e7c4
+name: How do you currently create/provision subscriptions within your environment?

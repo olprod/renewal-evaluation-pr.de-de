@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - ecad703d-0b35-4d83-9287-85246c4ff9fb
+  - f1123a5d-0110-42b8-92b1-dd27e663a7c5
+  - 75b07a46-36b8-4efd-bc08-d8e6365b4c39
+recommendations:
+  - fca70ab0-3c8a-4da1-b49c-649acafa07cf
+assignedGroupIds: []
+uid: cb0f13dd-5a43-4d5b-981d-00b02475ab97
+name: Analysis Services - Cost Optimization

@@ -1,0 +1,126 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Familiarize yourself with the Microsoft REST API Design and Architecture Guidance
+    url: /azure/architecture/best-practices/api-design
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.A
+      scoreOf: []
+    context: REST APIs should follow standards and best practice where possible and sensible. This enables maximum compatibility across platforms and implementations. Review the REST API Guidelines and API Design guidance documentation.
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Get yourself familiarized with the Microsoft REST API Design and Architecture Guidance
+    url: /azure/architecture/best-practices/api-design
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.B
+      scoreOf: []
+    context: Versioning enables an API to maintain backwards compatibility whilst adding additional features as requirements change and evolve.
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: Management Processes
+  - title: Review the Microsoft REST API Design and Architecture Guidance
+    url: /azure/architecture/best-practices/api-design
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.C
+      scoreOf: []
+    context: 'Every effort is made to ensure that the API Import process is as seamless as possible, requiring no or minimal customisation or modification. However, there are some scenarios whereby restrictions are imposed or issues are identified that will require modification to the import source or changes once the import completes (if it can complete). This applies to both REST and SOAP Services. Please see the documentation for the current API Import restrictions.'
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Enable versioning of APIs to maintain backwards compatibility while adding additional features
+    url: /azure/architecture/best-practices/api-design#versioning-a-restful-web-api
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.D
+      scoreOf: []
+    context: Versioning enables an API to maintain backwards compatibility whilst adding additional features as requirements change and evolve.
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: Management Processes
+  - title: Learn about the API import restrictions in API Management
+    url: /azure/api-management/api-management-api-import-restrictions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.E
+      scoreOf: []
+    context: 'Every effort is made to ensure that the API Import process is as seamless as possible, requiring no or minimal customisation or modification. However, there are some scenarios whereby restrictions are imposed or issues are identified that will require modification to the import source or changes once the import completes (if it can complete). This applies to both REST and SOAP Services. Please see the documentation for the current API Import restrictions.'
+    priority: 30
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Familiarize yourself with the event logging feature
+    url: /azure/api-management/api-management-howto-log-event-hubs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.F
+      scoreOf: []
+    context: Azure API Management supports event logging to an Azure Event Hub to perform near real time analysis or for onward transit. This feature can be useful for integrating with external logging or SIEM solutions or analysing API usage in near real time.
+    priority: 30
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Trace calls in Azure API Management to assist with debugging and testing
+    url: /azure/api-management/api-management-howto-api-inspector
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.G
+      scoreOf: []
+    context: 'Azure API Management supports the ability to trace calls that are made to assist with debugging and troubleshooting your APIs. Tracing must be enabled on the subscription used to make the request, and is enabled on a request by request basis using the Ocp-Apim-Trace header value. The API Tracing is also built in to the admin portal and is enabled by default when testing APIs from the portal.'
+    priority: 50
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Information Gathering
+  - title: Configure logging using Azure Monitor for your API Management Service
+    url: /azure/api-management/api-management-howto-use-azure-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.H
+      scoreOf: []
+    context: Azure API Management provides rich metrics and logging capabilities. Logs can be sent to a Log Analytics workspace to enable complex querying and analysis and metrics can also be ingested by Log Analytics for longer term analysis. All of this data is then surfaced using Azure Monitor. It is also possible to integrate Application Insights for Application Performance Management.
+    priority: 75
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Information Gathering
+  - title: Choose the right modes to access private site connections
+    url: /azure/api-management/api-management-using-with-vnet
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.I
+      scoreOf: []
+    context: API Management supports Virtual Network integration in either internal or external mode.
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Evaluate your firewall rules and IP whitelisting based upon the API Management public IP address
+    url: /azure/api-management/api-management-howto-ip-addresses#changes-to-the-ip-addresses
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3a825ee6-c556-499b-b675-8f96f56a37dc.a8530a39-9af4-41bb-bdfb-d26b0b299424.J
+      scoreOf: []
+    context: 'The Basic, Developer, Standard, and Premium Plans of API Management have a fixed public IP address for the lifetime of the service. However, there are some scenarios which will cause the public IP to change.'
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+uid: 1f73b15a-d2c4-4740-bad5-575eda967d27
+name: ''

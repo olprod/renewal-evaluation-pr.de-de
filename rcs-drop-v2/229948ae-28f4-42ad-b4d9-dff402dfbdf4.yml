@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes, if the messages don''t match any query conditions on any routes they''re routed through a fallback route'
+    description: 'Message routing enables you to send messages from your devices to cloud services in an automated, scalable, and reliable manner. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: 'No, you directly read from the built in Event hub without any message routing'
+    description: "By default, messages are routed to the built-in service-facing endpoint (messages/events) that is compatible with\_Event Hubs. This endpoint is currently only exposed using the\_AMQP\_protocol on port 5671 and\_AMQP over WebSockets\_on port 443. An IoT hub exposes the following properties to enable you to control the built-in Event Hub-compatible messaging endpoint\_messages/events."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'After you create a message route, data stops flowing to the built-in endpoint. Enable a fallback route to route messages that don''t satisfy any routing criteria to the built-in endpoint.'
+isRequired: false
+uid: 229948ae-28f4-42ad-b4d9-dff402dfbdf4
+name: 'After you create a message route, data stops flowing to the built-in endpoint. Enable a fallback route to route messages that don''t satisfy any routing criteria to the built-in endpoint.'

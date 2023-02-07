@@ -1,0 +1,72 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: There is a capacity model for the workload
+    description: 'A capacity model should describe the relationships between the utilization of various components as a ratio, to capture when and how application components should scale-out. For instance, scaling the number of Application Gateway v2 instances may put excess pressure on downstream components unless also scaled to a degree. When modelling capacity for critical system components it is therefore recommended that an N+1 model be applied to ensure complete tolerance to transient faults, where N describes the capacity required to satisfy performance and availability requirements. This also prevents cost-related surprises when scaling out and realizing that multiple services need to be scaled at the same time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Auto-scaling is enabled for supporting PaaS and IaaS services
+    description: Is auto-scaling enabled for supporting PaaS and IaaS services?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: The process to provision and de-provision capacity is codified
+    description: Is the process to provision and de-provision capacity codified?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: The impact of changes in application health on capacity is fully understood
+    description: Is the impact of changes in application health on capacity fully understood?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: It has been validated that the required capacity (initial and future growth) is within Azure service scale limits and quotas
+    description: Is the required capacity (initial and future growth) within Azure service scale limits and quotas?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: It has been validated that the required capacity (initial and future growth) is available within targeted regions
+    description: Is the required capacity (initial and future growth) available within targeted regions?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Capacity utilization is monitored and used to forecast future growth
+    description: Is capacity utilization monitored and used to forecast future growth?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Having a well thought out scaling plan greatly simplifies management and operational burdens.
+isRequired: false
+legacyId: scaling
+uid: 5f9db10b-393f-4e8e-b1d1-4821c06b11da
+name: Having a well thought out scaling plan greatly simplifies management and operational burdens.

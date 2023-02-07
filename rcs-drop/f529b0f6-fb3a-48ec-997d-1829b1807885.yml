@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have an Azure virtual machine named VM1.
+
+  You plan to enable Azure Disk Encryption for VM1.
+
+  Where must you store the encryption key for VM1?
+questionnaireUid: fbd56f31-2107-4291-bc99-8556df6cd33e
+questions:
+  - uid: f529b0f6-fb3a-48ec-997d-1829b1807885-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have an Azure virtual machine named VM1.
+        isCorrect: true
+      - id: 1
+        text: You plan to enable Azure Disk Encryption for VM1.
+        isCorrect: false
+      - id: 2
+        text: Where must you store the encryption key for VM1?
+        isCorrect: false
+      - id: 3
+        text: an Azure key vault
+        isCorrect: false
+    manualId: 29_az-800-az-800.6.2
+uid: f529b0f6-fb3a-48ec-997d-1829b1807885
+title: ''
+manualId: ''

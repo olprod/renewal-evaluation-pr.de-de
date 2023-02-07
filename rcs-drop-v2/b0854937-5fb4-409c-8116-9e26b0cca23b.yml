@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Use Common code repository (e.g. Git based repo) with only source files
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Use Common code repository (e.g. Git based repo) with source, and configuration files'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Have an defined branching structure
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: Have an defined branching policy and enforced daily
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: Have branch and repository permission managed
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '5'
+    text: Enforce check in comments and workflow on code commits
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'As teams scale, the number of stakeholders depending on and contributing to codebases can grow quickly. Without a strategy in place to manage changes to their source code, teams put themselves at significant risk of ongoing confusion, errors, and lost productivity.'
+isRequired: true
+uid: b0854937-5fb4-409c-8116-9e26b0cca23b
+name: 'As teams scale, the number of stakeholders depending on and contributing to codebases can grow quickly.'

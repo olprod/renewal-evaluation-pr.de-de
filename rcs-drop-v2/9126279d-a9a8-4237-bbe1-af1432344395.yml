@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'We are aware of how to configure the audit diagnostic settings option to monitor control plane operations. '
+    description: Make sure to turn on log collection for control plane operations for audit situations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: We have alerts in place for updates and key regeneration.
+    description: Make sure to create alerts to monitor key updates to stay notified about key changes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: D
+    text: 'When required to further analyze user activity, we are aware of leveraging log analytics to monitor activities performed by a specific user.'
+    description: Make sure to review your Azure Cosmos DB resource activities for specific users.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 9126279d-a9a8-4237-bbe1-af1432344395
+name: How do you audit access to your Azure Cosmos DB workload?

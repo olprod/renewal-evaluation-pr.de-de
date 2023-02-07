@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Monitor with your Azure Synapse Analytics workspace.
+    description: Monitors also help you avoid potential problems and troubleshoot past ones. You can use monitoring data to gain deep insights about your applications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: B
+    text: Use Azure Synapse Studio to monitor your Apache Spark applications.
+    description: 'Monitor running Apache Spark Applications, View completed Apache Spark Applications, View canceled Apache Spark Applications, and Debug failed Apache Spark Applications.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: Monitor transaction log size for Synapse Analytics dedicated SQL Pool.
+    description: 'If one of the log files is reaching 160 GB, you should consider scaling up your instance or limiting your transaction size.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Monitor Azure Synapse Analytics table statistics.
+    description: 'Automate, update, and maintain table statistics.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Monitor Azure Synapse Analytics table sizes and design.
+    description: 'To see which tables are your largest tables and whether they''re round-robin, replicated, or hash-distributed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: Maintain and rebuild indexes for Azure Synapse Analytics tables.
+    description: 'Index maintenance methods, reorganizing an index and rebuilding an index.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: Monitor tables in Synapse Analytics dedicated SQL pool with higher skew.
+    description: Data skew can cause additional data movement or resource bottlenecks when running your workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: eb5c3ce3-c83b-40bb-80d7-a3355587283e
+name: How are you monitoring your deployments and workload?

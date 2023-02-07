@@ -1,0 +1,182 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: assets
+    uid: fd4764e3-19c9-4915-b250-7bb375c0c148
+    name: Do you have a clear inventory of assets across multiple clouds and have visibility into the run state of each asset?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: business-value
+    uid: 11edf3ad-70b3-4fa3-af4e-194ab67b834c
+    name: Have you documented criticality and business value of each workload?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '3'
+    uid: 8cc6b334-3f72-456c-b0ca-fdb11271a178
+    name: Have you established clear performance expectations and business interruptions time/value metrics?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '4'
+    uid: 343565e5-9977-41af-aa64-f78b995452d2
+    name: Have you established controls and processes to ensure each state is properly configured and running in a well-governed environment?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '5'
+    uid: 7769f0fa-7cf9-4ac4-9063-b78bd753a449
+    name: Are all your managed assets protected and able to be recovered using baseline management tooling?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '6'
+    uid: e3c7c47e-553a-45ab-bbfa-dd80a11d817a
+    name: 'Do you have monitoring strategy in place for each of the cloud deployment models - infrastructure (compute, storage, and server workloads), application (end-user, exceptions, and client), and network resources?'
+stem: 'Delivering on a cloud strategy requires solid planning, readiness, and adoption. But it''s the ongoing operation of the digital assets that delivers tangible business outcomes.'
+isRequired: true
+legacyId: '1'
+uid: 69c8d367-4af2-47a2-97ee-2289a3287e9b
+name: 'Delivering on a cloud strategy requires solid planning, readiness, and adoption.'

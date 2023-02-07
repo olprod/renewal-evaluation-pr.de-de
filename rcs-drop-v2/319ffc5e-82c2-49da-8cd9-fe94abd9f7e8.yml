@@ -1,0 +1,49 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We checked key considerations related to data management, access to tenants'' data, and compliance requirements.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'We are familiar with key governance tooling including Azure resource tags, access control, and Azure Resource Graph.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We understand how the Deployment Stamps pattern can help if we need to comply with tenant-specific requirements.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'We avoid governance antipatterns, including not using management groups, not planning access control effectively, and failing to understand tenants'' compliance requirements.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'As your use of Azure matures, it''s important to consider the governance of your cloud resources. Governance includes how tenants'' data is stored and managed, and how you organize your Azure resources. You might also need to follow regulatory or legal standards.'
+isRequired: true
+uid: 319ffc5e-82c2-49da-8cd9-fe94abd9f7e8
+name: 'As your use of Azure matures, it''s important to consider the governance of your cloud resources.'

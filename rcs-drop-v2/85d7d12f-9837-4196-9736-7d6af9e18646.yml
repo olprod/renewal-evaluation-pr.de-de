@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Recognizing the footprint of your infrastructure as well as key factors and requirements of your infrastructure can help determine the effort required to modernize.
+hideEmptyGuidance: false
+questions:
+  - 193820f9-ac89-4d97-ad2b-51f0c86d9f3c
+  - 5f2a250f-03dd-41bb-901a-5c53bbaed9d2
+recommendations:
+  - c8877eb8-dca0-40e7-8ca4-dbb277af5dd3
+assignedGroupIds: []
+uid: 85d7d12f-9837-4196-9736-7d6af9e18646
+name: Current Infrastructure

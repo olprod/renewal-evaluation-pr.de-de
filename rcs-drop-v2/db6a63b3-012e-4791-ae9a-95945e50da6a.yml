@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Configure Endpoint Protection for virtual machines (VMs) • Implement and manage security updates for VMs • Configure security for container services • Manage access to Azure Container Registry • Configure security for serverless compute • Configure security for an Azure App Service • Configure encryption at rest • Configure encryption in transit'
+isRequired: true
+uid: db6a63b3-012e-4791-ae9a-95945e50da6a
+name: 'For example: Configure Endpoint Protection for virtual machines (VMs) • Implement and manage security updates for VMs • Configure security for container services • Manage access to Azure Container Registry • Configure security for serverless compute • Configure security for an Azure App Service • Configure encryption at rest • Configure encryption in transit '

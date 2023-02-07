@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Cost Management for Azure Synapse Analytics Serverless SQL Pool.
+    description: Estimate amount of data processed before issuing a query. Use cost control feature to set the budget.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Use Cost Management for Azure Synapse Analytics Dedicated SQL Pool.
+    description: 'Lower costs by pausing the dedicated SQL pool, or scale the dedicated SQL pool to meet performance demands.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: dcf141de-468f-4aa0-be2d-0353e681544b
+name: How is your organization modeling cloud costs?

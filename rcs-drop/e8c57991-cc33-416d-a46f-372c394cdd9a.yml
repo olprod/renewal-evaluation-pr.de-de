@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Microsoft as a telephony provider. The company’s call queue has a number assigned and is successfully routing public switched telephone network (PSTN) calls to agents.
+
+  Inbound PSTN calls to the call queue that are not picked up by an agent must be transferred to an external number.
+
+  The PSTN inbound calls that get transferred to an external number fail and cannot be completed.
+
+  You need to identify the cause of the issue.
+
+  What is the cause?
+questionnaireUid: 3cc97ded-22fb-4477-a616-f08d07fbdf9c
+questions:
+  - uid: e8c57991-cc33-416d-a46f-372c394cdd9a-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'A company uses Microsoft as a telephony provider. '
+        isCorrect: true
+      - id: 1
+        text: 'The company’s call queue has a number assigned and is successfully routing public switched telephone network (PSTN) calls to agents. '
+        isCorrect: false
+      - id: 2
+        text: 'Inbound PSTN calls to the call queue that are not picked up by an agent must be transferred to an external number. '
+        isCorrect: false
+      - id: 3
+        text: 'The PSTN inbound calls that get transferred to an external number fail and cannot be completed. '
+        isCorrect: false
+uid: e8c57991-cc33-416d-a46f-372c394cdd9a
+title: ''

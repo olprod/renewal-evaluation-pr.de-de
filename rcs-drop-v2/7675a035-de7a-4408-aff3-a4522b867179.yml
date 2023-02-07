@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Infrastructure is deployed together with application code. Update, configuration, and application changes are handled within the same automation steps and procedures.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: Infrastructure updates are managed by a central team and aren't in scope for the platform team.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Independent automation or pipelines are used to perform updates on the infrastructure.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'All changes must be applied using automation, which needs to be set up early in the development process.'
+isRequired: false
+uid: 7675a035-de7a-4408-aff3-a4522b867179
+name: 'All changes must be applied using automation, which needs to be set up early in the development process.'

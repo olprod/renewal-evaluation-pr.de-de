@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Exchange Online. The company enables modern authentication. 
+
+  A user reports that they are unable to connect to their second mailbox by using the Outlook desktop app. The user is signed in with their Windows login. The user also reports that they are able to connect to their first mailbox by using the Outlook desktop app.  
+
+  You need to resolve the issue. 
+
+  What should you do? 
+questionnaireUid: d8427e42-8c16-40e5-92ae-2faa3fd9a78e
+questions:
+  - uid: ef0defc8-6266-46ec-84f0-a3b1399af235-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'A company uses Exchange Online. '
+        isCorrect: true
+      - id: 1
+        text: 'The company enables modern authentication. '
+        isCorrect: false
+      - id: 2
+        text: 'A user reports that they are unable to connect to their second mailbox by using the Outlook desktop app. '
+        isCorrect: false
+      - id: 3
+        text: 'The user is signed in with their Windows login. '
+        isCorrect: false
+    manualId: 'MS220.4.4 '
+uid: ef0defc8-6266-46ec-84f0-a3b1399af235
+title: ''
+manualId: ''

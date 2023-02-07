@@ -1,0 +1,33 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Maintain an inventory of administrative accounts, change default passwords, and use dedicated administrative accounts.'
+    description: You can identify the administrator accounts for a database by opening the Azure portal and navigating to the properties tab of your server or managed instance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 5f046cf6-f4a6-437d-bafe-b522a5e189fa
+name: How are you ensuring your critical accounts are protected?

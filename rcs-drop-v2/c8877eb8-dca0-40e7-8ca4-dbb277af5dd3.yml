@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Look at the Learn module for Applications and infrastructure migration and modernization
+    url: 'https://docs.microsoft.com/en-us/learn/modules/app-and-infra-migration-and-modernization/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: c8877eb8-dca0-40e7-8ca4-dbb277af5dd3
+name: ''

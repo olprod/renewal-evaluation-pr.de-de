@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've configured storage for the edgeHub and edgeAgent modules.
+    description: 'The Azure IoT Edge hub and agent modules use local storage to maintain state and enable messaging between modules, devices, and the cloud. For better reliability and performance, configure the system modules to use storage on the host filesystem.'
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: You haven't configured storage for the edgeHub and edgeAgent modules.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Azure IoT Edge modules can use storage on the host IoT device itself for improved reliability, especially when operating offline. For better reliability and performance, configure the system modules to use storage on the host filesystem. Don''t select any option if you don''t have Azure IoT Edge devices.'
+isRequired: false
+uid: 9cc4b64e-a90f-4397-b735-28e1eec08861
+name: 'Azure IoT Edge modules can use storage on the host IoT device itself for improved reliability, especially when operating offline. For better reliability and performance, configure the system modules to use storage on the host filesystem.'

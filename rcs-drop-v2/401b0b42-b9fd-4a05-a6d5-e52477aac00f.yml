@@ -1,0 +1,96 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Familiarize yourself with ADLS Gen2 pricing, and in particular on elements driving the price calculation: redundancy, region, amount of storage, transactions, tier.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: B
+    text: Use Azure Pricing Calculator to estimate the pricing which helps with your budgeting and cost optimization requirements.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: Reserve capacity for Azure Data Lake Storage Gen2 data in a standard storage account when you commit to 1 or 3 years reservation (available in units of 100Tb and 1 Pb).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Place blob data into the most cost-effective access tier.
+    description: 'Place frequently accessed data in hot tier, less frequent in cold or archive tier.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Use Premium tier storage for workloads with high transaction volumes or ones where latency is critical.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: F
+    text: Define rules for your data lifecycle.
+    description: 'Lifecycle management policies periodically move data between tiers. Policies can move data based on rules that specified by the user. For example, you might create rules that move blobs to the archive tier if that blob has not been modified in 90 days. Unused data can be completely removed using a policy. By creating policies that adjust the access tier of your data, you can design the least expensive storage options for your need.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: Govern and curate data in your data lake store to ensure there is no un-necessary duplication of data or data sprawl.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: H
+    text: 'Leverage compressed file formats (Parquet, Avro, ORC) as much as possible to reduce your storage costs.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: Avoid cross-regions to your storage accounts as much as possible to reduce your outbound bandwidth costs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: J
+    text: Optimize the number of snapshots of a file that must be stored.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: 401b0b42-b9fd-4a05-a6d5-e52477aac00f
+name: What actions are you taking to optimize cloud costs?

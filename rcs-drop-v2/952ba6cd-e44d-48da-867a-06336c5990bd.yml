@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Active Directory (AD) with Azure Machine Learning in Azure Kubernetes Service.
+    description: The Azure AD Pod Identity project allows applications to access cloud resources securely with Azure AD by using a managed identity and Kubernetes primitives.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Use managed identities with Azure Machine Learning for access control.
+    description: 'Configure Azure Machine Learning workspaces in trustworthy manner to ensure that different services associated with the workspace have the correct level of access. For example, during the machine learning workflow a workspace needs access to Azure Container Registry (ACR) for Docker images and storage accounts for training data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: D
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+    - waf-config-golive.waf-scenario.ai
+stem: 'In cloud-focused architecture, identity provides the basis of a large percentage of security assurances. While legacy IT infrastructure often heavily relied on firewalls and network security solutions at the internet egress points for protection against outside threats, these controls are less effective in cloud architectures with shared services being accessed across cloud provider networks or the internet.'
+isRequired: false
+legacyId: '3'
+uid: 952ba6cd-e44d-48da-867a-06336c5990bd
+name: 'In cloud-focused architecture, identity provides the basis of a large percentage of security assurances.'

@@ -1,0 +1,83 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use IoT Plug and Play to develop devices that connect to IoT Central.
+    description: IoT Plug and Play accelerates and simplifies the IoT solution. End-users can quickly and easily create trusted and connected solutions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '1'
+    text: 'When you need predictable development and operational costs, you use IoT Central.'
+    description: IoT Central provides predictable pricing options. You can estimate IoT solution development and operation costs because IoT Central is an "Application Platform as a Service" that provides built-in features for development and operation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '2'
+    text: You use open source IDE such as Visual Studio Code with its Azure IoT extensions to accelerate your solution development.
+    description: Visual Studio Code is a free development tool with many Azure service and IoT extensions. Developers can develop and debug code. You can use Visual Studio Code to deploy IoT Edge modules to IoT Edge devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '3'
+    text: You use infrastructure-as-code for your cloud deployments.
+    description: |
+      Azure Resource Manager Template and Bicep enable a developer to define infrastructure as code, which can improve time to market and consistency in deployment to various environments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '4'
+    text: 'To reduce costs, you use connectors for Azure services such as Power Apps, Power Automate, and Logic Apps.'
+    description: 'IoT Central provides a connector to implement your requirements within Logic Apps, Power Automate, and Power Apps. It is easy and quick to extend IoT Central to meet business requirements.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '5'
+    text: You use the IoT Hub and IoT Central free tiers for development and evaluation.
+    description: Azure IoT Hub and Azure IoT Central both have free tiers with limited functionality but suitable for testing the service.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '6'
+    text: You use an open source toolkit to build a dashboard for time series data.
+    description: 'Depending on your requirements, it may be efficient to use an open source toolkit such as Granfana to implement a time series dashboard. Reusing well defined and developed charts and dashboards is one of ways to achieve a cost optimization.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '7'
+    text: 'You investigate using public domain code repositories, GitHub, and the IoT SDKs that reduce development effort and time.'
+    description: Azure IoT provides a lot of sample code in GitHub. It reduces time and costs when building IoT solutions instead of building from scratch.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'IoT solutions development covers a broad set of technologies and areas, including device apps, business applications, and integrations. In terms of cost optimization, you should consider the synergy of various service combinations.'
+isRequired: false
+uid: c4a04bcd-fce0-4649-95f6-0822fc55a337
+name: 'IoT solutions development covers a broad set of technologies and areas, including device apps, business applications, and integrations. In terms of cost optimization, you should consider the synergy of various service combinations.'

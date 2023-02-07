@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Yes.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: No.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+legacyId: '2'
+uid: 72a56d47-06bb-4d15-9422-0ce0a150f451
+name: Have you identified the set of applications in scope for the migration project?

@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Terminate SSL/ TLS traffic at the application gateway
+    url: /azure/application-gateway/ssl-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4afac821-1cd7-4057-ac72-cd92f7756178.7f551b4f-f248-4e25-abce-007cb8141983.A
+      scoreOf: []
+    context: 'SSL/ TLS termination can be terminated at the application gateway. This reduces the overhead on the app service, and can increase performance.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Perform capacity testing
+    url: /azure/architecture/reliability/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4afac821-1cd7-4057-ac72-cd92f7756178.7f551b4f-f248-4e25-abce-007cb8141983.B
+      scoreOf: []
+    context: Azure support can help you increase your service limits to deal with planned high traffic events (like new product launches or special events).
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+uid: 924509da-d3aa-4c3a-82d8-62da2c4835c8
+name: ''

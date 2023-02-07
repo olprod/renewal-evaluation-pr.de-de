@@ -1,0 +1,91 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Basic concepts of fiscal outcome conversations are around revenue, cost and profit. Read more here'
+    url: /azure/cloud-adoption-framework/strategy/business-outcomes/fiscal-outcomes
+    condition:
+      allOf: []
+      anyOf:
+        - b9989cce-60f3-470a-9b48-f88a58702735.b9667bfc-1d91-487a-804e-6cba83719802.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: The ability to respond to and drive market change quickly is the fundamental measure of business agility. View Samples here
+    url: /azure/cloud-adoption-framework/strategy/business-outcomes/agility-outcomes
+    condition:
+      allOf: []
+      anyOf:
+        - b9989cce-60f3-470a-9b48-f88a58702735.b9667bfc-1d91-487a-804e-6cba83719802.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Responding to user needs is a key measure of customer engagement. Read more here
+    url: /azure/cloud-adoption-framework/strategy/business-outcomes/engagement-outcomes
+    condition:
+      allOf: []
+      anyOf:
+        - b9989cce-60f3-470a-9b48-f88a58702735.b9667bfc-1d91-487a-804e-6cba83719802.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Build agile employees and empower them with cloud skills to embrace the associated changes. '
+    url: /azure/cloud-adoption-framework/plan/suggested-skills
+    condition:
+      allOf: []
+      anyOf:
+        - b9989cce-60f3-470a-9b48-f88a58702735.b9667bfc-1d91-487a-804e-6cba83719802.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Organizations are increasingly discussing environmental goals and sustainability targets. Learn more about sustainability goals
+    url: /azure/cloud-adoption-framework/strategy/business-outcomes/sustainability
+    condition:
+      allOf: []
+      anyOf:
+        - b9989cce-60f3-470a-9b48-f88a58702735.b9667bfc-1d91-487a-804e-6cba83719802.4
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: The most successful transformation journeys start with a business outcome in mind. Learn more about business outcomes
+    url: /azure/cloud-adoption-framework/strategy/business-outcomes/
+    condition:
+      allOf: []
+      anyOf:
+        - b9989cce-60f3-470a-9b48-f88a58702735.b9667bfc-1d91-487a-804e-6cba83719802.5
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about business outcomes and business outcome template
+    url: /azure/cloud-adoption-framework/strategy/business-outcomes/
+    condition:
+      allOf: []
+      anyOf:
+        - b9989cce-60f3-470a-9b48-f88a58702735.dd49451f-be58-4a57-ab72-77d92bea7557.1
+        - b9989cce-60f3-470a-9b48-f88a58702735.dd49451f-be58-4a57-ab72-77d92bea7557.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: c899b94b-e434-48aa-962b-b0d5c0fa5427
+name: ''

@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use network segmentation to group IoT devices.
+    description: 'Network segmentation can group IoT devices, mitigating potential impact of a compromise. A common approach is to connect IoT devices to an "IoT network" for devices such as printers, VoIP phones, and smart TVs. This IoT network is separate from other organizational resources that the workforce accesses.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: You use micro-segmentation to isolate less-capable devices at the network layer.
+    description: 'Network micro-segmentation lets you isolate less-capable devices at the network layer, either behind a gateway or on a discrete network segment. For example, you can logically separate dedicated OT environments from the corporate IT network using zone (DMZ) network architecture with firewalls. More mature organizations can also implement micro-segmentation policies at multiple layers of the Purdue Model, typically using next-gen firewalls.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'To layer least-privileged access for IoT devices, use network segmentation to group IoT devices, mitigating potential impact of a potential compromise.'
+isRequired: false
+uid: ee2002a6-dce4-426e-ae6c-55f641063417
+name: 'To layer least-privileged access for IoT devices, use network segmentation to group IoT devices, mitigating potential impact of a potential compromise. Q8.'

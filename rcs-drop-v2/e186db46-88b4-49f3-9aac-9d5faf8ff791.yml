@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: As part of device authorization you check dynamic access signals.
+    description: 'When you grant authorization to devices and their workloads, it''s important to check the operating conditions of the caller’s context as "dynamic" access signals. Useful dynamic device signals include location, impossible contexts such as access from different locations at the same time, and time of day. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: You can search for and manage devices at scale.
+    description: 'A solution needs the capability to search for and manage devices at scale throughout the device lifecycle: plan, provision, configure, monitor, and retire.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: 'Coupled with strong identity provided by integrated devices and services, you should establish least-privileged access control to limit the potential impact from authenticated identities that may have been compromised or that are running unapproved workloads.'
+isRequired: false
+uid: e186db46-88b4-49f3-9aac-9d5faf8ff791
+name: 'Coupled with strong identity provided by integrated devices and services, you should establish least-privileged access control to limit the potential impact from authenticated identities that may have been compromised or that are running unapproved workloads. Q7.'

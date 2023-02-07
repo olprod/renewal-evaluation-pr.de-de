@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics IP Firewall rules.
+    description: Connection attempts from the internet and Azure must pass through the firewall before they reach your server or database.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Use Azure Synapse Analytics Private Link.
+    description: Private Link allows you to connect to various PaaS services in Azure via a private endpoint.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Use Azure Synapse Analytics Virtual Network Service Endpoints.
+    description: Virtual network rules are a firewall security feature that controls whether the server for your databases in Azure Synapse Analytics accepts communications that are sent from particular subnets in virtual networks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Connect to a secure Azure storage account from your Azure Synapse Analytics workspace.
+    description: Azure storage provides a layered security model that enables you to secure and control access to your storage accounts.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Create Azure Synapse Analytics Workspace with Data Exfiltration protection enabled.
+    description: 'With exfiltration protection, you can guard against malicious insiders accessing your Azure resources and exfiltrating sensitive data to locations outside of your organization’s scope.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Use Managed private endpoints in Azure Synapse Analytics.
+    description: Managed private endpoints are private endpoints created in a Managed Virtual Network associated with your Azure Synapse workspace.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: network-data-synapse
+uid: e76d4039-0bf4-4706-8183-28381fefa270
+name: How have you secured the network of your workload?

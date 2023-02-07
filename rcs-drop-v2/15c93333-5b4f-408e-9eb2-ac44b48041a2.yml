@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Perform regular DR and business continuity drills.
+    description: Are you testing your HA and DR processes to ensure your workload is available in the case of a disaster?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Automate testing on code and environment configuration deployments.
+    description: 'Automating tests is the best way to make sure that they are repeatable, comprehensive, and exhaustive.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: Use manual testing when required.
+    description: 'Some processes can''t be automated, how do you ensure those manual processes are still adequately tested?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: We use Visual Studio to enable unit testing.
+    description: We perform Unit Testing in our DevOps pipeline.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'While the majority of testing should be performed within the testing and staging environments, it is often beneficial to also run a subset of tests against the production system'
+isRequired: true
+uid: 15c93333-5b4f-408e-9eb2-ac44b48041a2
+name: 'While the majority of testing should be performed within the testing and staging environments, it is often beneficial to also run a subset of tests against the production system'

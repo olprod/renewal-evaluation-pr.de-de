@@ -1,0 +1,97 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Monitoring and alerting is in place for risks and threats across all clouds in use by your organization
+    description: |
+      Native cloud monitoring with centralized reporting
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '1'
+    text: A unified SecOps team regularly monitors security related telemetry data
+    description: |
+      Gain a centralized view of the threat landscape
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '2'
+    text: Appropriate security principals have read-only access into all cloud environment resources in a least privilege manner
+    description: |
+      Security monitoring principles are read-only
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '3'
+    text: Alerting and remediation is in place for compromised or risky accounts
+    description: |
+      Quickly respond and remediate accounts deemed at-risk
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '4'
+    text: "Communication, investigation and hunting activities are centrally managed & coordinated with the workload team.\_"
+    description: |
+      Threat hunting and telemetry should be centralized
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '5'
+    text: Alerting and remediation is in place for the use of unsanctioned cloud applications across the enterprise
+    description: |
+      Detect and block access to unsanctioned cloud applications
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '6'
+    text: "A designated point of contact was assigned to receive Azure incident notifications from Microsoft.\_"
+    description: |
+      Azure Service health alerts should be monitored
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '7'
+    text: We are manually correlating and analyzing logs throughout the environment
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '8'
+    text: We are leveraging SIEM+XDR capabilities
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '9'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: f6bfbf8c-c821-40ba-800a-5c0276157391
+name: How are you monitoring security-related events in the Landing Zones?

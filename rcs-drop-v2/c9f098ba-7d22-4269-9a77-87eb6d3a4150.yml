@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'New insights (new vulnerability, external incidents, risk scenarios, best practices, etc)'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '1'
+    text: New incidents are shared to improve learnings
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '2'
+    text: Threat hunting is employed to find new threats in the environment
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '3'
+    text: Incident responses triage & investigate new threats
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '4'
+    text: 'Risk mitigation is used to design, implement, and monitor risks (architecture, asset protection, posture management, governance)'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '7'
+    text: 'App platform (PaaS), serverless and containerized deployments are used wherever possible'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '8'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: c9f098ba-7d22-4269-9a77-87eb6d3a4150
+name: Which of the following are included in your continuous learning & risk reduction efforts?

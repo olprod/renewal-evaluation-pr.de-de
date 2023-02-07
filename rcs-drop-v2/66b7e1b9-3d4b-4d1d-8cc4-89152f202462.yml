@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization is using manual data loading approach as a way of managing Data Integration.
+    description: Your organization is using manual data loading approach as a way of managing Data Integration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization understands there are better ways to copy data between data stores and and is considering using pipelines to source the data.
+    description: Your organization understands there are better ways to copy data between data stores and and is considering using pipelines to source the data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has created a pattern to copy data from source to target, in a repeatable and standard approach.'
+    description: 'Your organization has created a pattern to copy data from source to target, in a repeatable and standard approach.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has a mature framework for copying data from source to target and is able to further transform and analyse that data.
+    description: Your organization has a mature framework for copying data from source to target and is able to further transform and analyse that data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has implemented scalable framework using data pipelines and integration runtimes to ingest, transform and load data between stores as well as monitoring the framework for failures, and improvements.'
+    description: 'Your organization has implemented scalable framework using data pipelines and integration runtimes to ingest, transform and load data between stores as well as monitoring the framework for failures, and improvements.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How do you currently copy data into your data stores?
+isRequired: true
+uid: 66b7e1b9-3d4b-4d1d-8cc4-89152f202462
+name: How do you currently copy data into your data stores?

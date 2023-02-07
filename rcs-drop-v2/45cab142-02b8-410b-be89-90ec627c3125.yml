@@ -1,0 +1,58 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization makes considerations for Cloud Adoption Framework made with no modern technology infrastructure (i.e., cloud, big data); basic, desktop tools.'
+    description: |
+      You are not following best practices, documentation and tools to implement business and technology strategies for the cloud.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization makes limited use of modern technology and cloud infrastructure platforms with shadow IT. Strategy and Planning is in progress.
+    description: 'You are considering following best practices, documentation and tools to implement business and technology strategies for the cloud.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization is making progress with Landing Zones design and set up. Planned Migration of workloads to cloud and selective use of technology and infrastructure with the option to scale easily.
+    description: 'You are following CAF best practices, documentation and tools to implement business and technology strategies for the cloud.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization is ready to innovate with cloud workloads, extended use of Landing Zones, moderately scaled systems and platforms facilitate enterprise-wide insights.'
+    description: |
+      You are following Microsoft's guidance on achieving your cloud adoption goals. Innovate with cloud workloads, Extended use of Landing Zones, moderately scaled systems and platforms facilitate enterprise-wide insights. Managed and governed with security and compliance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization organized and managed, centrally driven, real-time technology with self service-oriented architecture.'
+    description: |
+      Your organization is optimized to follow Microsoft's guidance on achieving your cloud adoption goals.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Are you following best practices, documentation and tools to implement business and technology strategies for the cloud?'
+isRequired: true
+uid: 45cab142-02b8-410b-be89-90ec627c3125
+name: 'Are you following best practices, documentation and tools to implement business and technology strategies for the cloud?'

@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Configuration management refers to managing the state of resources in a system including servers, virtual machines, and databases.'
+hideEmptyGuidance: false
+questions:
+  - d9faa94b-76fb-4fd3-88d6-3b14fa023d58
+  - ab1ec621-3ca2-44de-a20b-a0d95ed47d65
+  - 3e2f90c8-7fc1-40c7-944f-783b457895ce
+  - bae114cf-b347-44f7-a799-36f24b3f2dbb
+  - f68024d9-d115-43c8-87b9-4ac97533b2b1
+  - 2c798141-f07f-4611-adcb-87133138f140
+  - b8f929f9-9d77-44a1-bb45-eeaf250697e8
+recommendations:
+  - e63498bd-a90a-46e5-a18d-2004b4ae465c
+assignedGroupIds: []
+uid: cc557273-fcd4-43f8-b65d-d9d2b6578942
+name: Configuration Management

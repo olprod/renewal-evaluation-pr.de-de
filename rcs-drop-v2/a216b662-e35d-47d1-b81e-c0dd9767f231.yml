@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Collaborate on software development through source control, work tracking, and continuous integration and delivery, both on-premises and in the cloud.'
+    url: 'https://azure.microsoft.com/en-us/overview/what-is-devops/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: a216b662-e35d-47d1-b81e-c0dd9767f231
+name: ''

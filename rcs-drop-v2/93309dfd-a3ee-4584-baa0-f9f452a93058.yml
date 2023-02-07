@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: New devices onboard over time.
+    description: New devices onboard over time when they first connect to Azure IoT Hub. Account for latency and retries while onboarding devices.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: You onboard devices in planned batches.
+    description: 'Account for maximum connections and device registrations, including latency and retries, to plan for the batches and overall migration timeline.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Onboarding large number of devices to your IoT solution can affect the load and performance. While onboarding can be a one-time occurrence for most devices, onboarding many devices at the same time can have major effect on the overall onboarding flow in the IoT solution.'
+isRequired: false
+uid: 93309dfd-a3ee-4584-baa0-f9f452a93058
+name: 'Onboarding large number of devices to your IoT solution can affect the load and performance. While onboarding can be a one-time occurrence for most devices, onboarding many devices at the same time can have major effect on the overall onboarding flow in the IoT solution.'

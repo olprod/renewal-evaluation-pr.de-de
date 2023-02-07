@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are configuring Dynamics 365 Customer Service for a company that franchises hair salons and tanning salons.
+
+  You deploy a Power Virtual Agents chatbot to allow customers to check availability of hair salon appointments and book appointments.
+
+  Customers must be able to book an appointment in the chatbot if their membership status is current.
+
+  Billing agents and agents using Omnichannel for Customer Service are not able to book appointments.
+
+  What should you do?
+questionnaireUid: 2d0bf4a2-cbfb-47df-8776-4b2d0345b162
+questions:
+  - uid: eb60e36f-4495-4c12-a407-e69a9dac4858-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are configuring Dynamics 365 Customer Service for a company that franchises hair salons and tanning salons.
+        isCorrect: false
+      - id: 1
+        text: You deploy a Power Virtual Agents chatbot to allow customers to check availability of hair salon appointments and book appointments.
+        isCorrect: true
+      - id: 2
+        text: Customers must be able to book an appointment in the chatbot if their membership status is current.
+        isCorrect: false
+      - id: 3
+        text: Billing agents and agents using Omnichannel for Customer Service are not able to book appointments.
+        isCorrect: false
+uid: eb60e36f-4495-4c12-a407-e69a9dac4858
+title: ''

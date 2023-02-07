@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use unlogged tables for bulk inserts in PostgreSQL
+    url: /azure/postgresql/howto-optimize-bulk-inserts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f35dc9f-096d-44c9-8b6b-34bf41031453.20be0ac3-9b9e-41d7-9e23-223297d25672.A
+      scoreOf: []
+    context: 'Unlogged tables is a PostgreSQL feature that can be used effectively to optimize bulk inserts. PostgreSQL uses Write-Ahead Logging (WAL). It provides atomicity and durability, by default. Atomicity, consistency, isolation, and durability make up the ACID properties.'
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Optimize autovacuum on your database
+    url: /azure/postgresql/howto-optimize-autovacuum
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f35dc9f-096d-44c9-8b6b-34bf41031453.20be0ac3-9b9e-41d7-9e23-223297d25672.B
+      scoreOf: []
+    context: 'A vacuum job can be triggered manually or automatically. More dead tuples exist when the database experiences heavy update or delete operations. Fewer dead tuples exist when the database is idle. You need to vacuum more frequently when the database load is heavy, which makes running vacuum jobs manually inconvenient. Autovacuum can be configured and benefits from tuning. The default values that PostgreSQL ships with try to ensure the product works on all kinds of devices. These devices include Raspberry Pis. The ideal configuration values depend on the: Total resources available, such as SKU and storage size; Resource usage; Individual object characteristics.'
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Optimize query statistics collection on your database
+    url: /azure/postgresql/howto-optimize-query-stats-collection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f35dc9f-096d-44c9-8b6b-34bf41031453.20be0ac3-9b9e-41d7-9e23-223297d25672.C
+      scoreOf: []
+    context: 'Pg_stat_statements is a PostgreSQL extension that''s enabled by default in Azure Database for PostgreSQL. The extension provides a means to track execution statistics for all SQL statements executed by a server. This module hooks into every query execution and comes with a non-trivial performance cost. Enabling pg_stat_statements forces query text writes to files on disk. If you have unique queries with long query text or you don''t actively monitor pg_stat_statements, disable pg_stat_statements for best performance. To do so, change the setting to pg_stat_statements.track = NONE. The Query Store feature in Azure Database for PostgreSQL provides a more effective method to track query statistics. We recommend this feature as an alternative to using pg_stats_statements.'
+    priority: 25
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Use accelerated networking enabled underlying VMs in your AKS cluster
+    url: /azure/postgresql/concepts-aks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f35dc9f-096d-44c9-8b6b-34bf41031453.20be0ac3-9b9e-41d7-9e23-223297d25672.D
+      scoreOf: []
+    context: 'There are some options to consider when using AKS and Azure Database for PostgreSQL together to create an application. Use accelerated networking-enabled underlying VMs in your AKS cluster. When accelerated networking is enabled on a VM, there is lower latency, reduced jitter, and decreased CPU utilization on the VM.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: 'For queries using TOAST table storage, consider using the Main strategy instead of the default Extended option to reduce query times'
+    url: azure/postgresql/howto-optimize-query-time-with-toast-table-storage-strategy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f35dc9f-096d-44c9-8b6b-34bf41031453.20be0ac3-9b9e-41d7-9e23-223297d25672.E
+      scoreOf: []
+    context: 'If your queries access data types that can use TOAST, consider using the Main strategy instead of the default Extended option to reduce query times. Main doesn''t rule out out-of-line storage. If your queries don''t access data types that can use TOAST, it might be beneficial to keep the Extended option. A larger portion of the rows of the main table fit in the shared buffer cache, which helps performance. If you have a workload that uses a schema with wide tables and high character counts, consider using PostgreSQL TOAST tables. An example customer table had greater than 350 columns with several columns that spanned 255 characters. After it was converted to the TOAST table Main strategy, their benchmark query time reduced from 4203 seconds to 467 seconds. That''s an 89 percent improvement.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+uid: ce1d17a4-aa84-452a-b8e0-d7310510d562
+name: ''

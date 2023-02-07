@@ -1,0 +1,90 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Cloud Adoption Framework - Organizational antipatterns
+    url: 'https://aka.ms/developervelocity-cta-culture-low'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - d3843e90-4a26-45f7-9fb7-111949742a5a<34
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Cloud Adoption Framework - Guide to establishing teams
+    url: 'https://aka.ms/developervelocity-cta-teamcharacteristics-med'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - d3843e90-4a26-45f7-9fb7-111949742a5a<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Cloud Adoption Framework - Silos and fiefdoms
+    url: 'https://aka.ms/developervelocity-cta-culture-med'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - d3843e90-4a26-45f7-9fb7-111949742a5a<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Cloud Adoption Framework - Team characteristics
+    url: 'https://aka.ms/developervelocity-cta-teamcharacteristics-high'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - d3843e90-4a26-45f7-9fb7-111949742a5a>66
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Cloud Adoption Framework - Organizational antipatterns
+    url: 'https://aka.ms/developervelocity-cta-culture-high'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - d3843e90-4a26-45f7-9fb7-111949742a5a>66
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 7 Tips to Optimize Remote Developer Team Productivity
+    url: 'https://aka.ms/developervelocity-cta-remotework-mid'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - d3843e90-4a26-45f7-9fb7-111949742a5a<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 7 Tips to Optimize Remote Developer Team Productivity
+    url: 'https://aka.ms/developervelocity-cta-remotework-high'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - d3843e90-4a26-45f7-9fb7-111949742a5a>66
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: f4a079dd-e758-4657-b015-6be21662cab8
+name: Team and Culture

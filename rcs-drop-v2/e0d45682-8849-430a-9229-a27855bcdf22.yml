@@ -1,0 +1,58 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: C
+    text: Use cost management tools to plan and track costs.
+    description: Cost management is the process of effectively planning and controlling costs involved in your business.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Identify and use the right-sized compute for machine learning models.
+    description: 'When determining development, training, and compute instances for your machine learning model, consider the algorithm that you''re using, the data type, data sizes, and if you''ll perform distributed training.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Consider using local compute or remote managed compute for automated machine learning to reduce costs.
+    description: |
+      Start by developing and experimenting on a small amount of data and use your local environment, such as a local computer or a cloud-based virtual machine (VM) as your compute target.  As you scale up to larger data or do distributed training, start using training compute targets such as an Azure Machine Learning compute cluster or instance or other specialized options. After your model is ready, deploy it to a web hosting environment with a deployment compute targets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: J
+    text: Optimize your cloud investment with cost management.
+    description: |
+      Cost management gives you the tools to plan for, analyze, and reduce your spending to maximize your cloud investment. 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: K
+    text: Use an appropriately-sized compute instance and compute cluster for training and inference.
+    description: |
+      Use a compute instance as your fully configured and managed development environment in the cloud. Create and manage a compute cluster in your Azure Machine Learning workspace.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: L
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+    - waf-config-golive.waf-scenario.ai
+stem: Continue to monitor and optimize the workload by using the right resources and sizes.
+isRequired: false
+legacyId: '0'
+uid: e0d45682-8849-430a-9229-a27855bcdf22
+name: Continue to monitor and optimize the workload by using the right resources and sizes.

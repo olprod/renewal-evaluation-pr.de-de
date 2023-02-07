@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing a custom SPFx WebPart that displays customer orders.
+
+  Which app manifest section should you use to configure the WebPart name?
+questionnaireUid: fb75c819-8974-451c-8b69-a85fb1e89370
+questions:
+  - uid: f57b1a18-8569-47a0-b460-c7d1c2f1adcf-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a custom SPFx WebPart that displays customer orders.
+        isCorrect: true
+      - id: 1
+        text: Which app manifest section should you use to configure the WebPart name?
+        isCorrect: false
+      - id: 2
+        text: preconfiguredEntries
+        isCorrect: false
+      - id: 3
+        text: alias
+        isCorrect: false
+    manualId: MS-600.4.3
+uid: f57b1a18-8569-47a0-b460-c7d1c2f1adcf
+title: ''
+manualId: ''

@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Give access to compute engines or users to the data for read, write, and delete through one of the programming interfaces available: Powershell, Azure CLI, .NET, Java, Python, C++, REST APIs, or Javascript. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: B
+    text: Review the list of Azure services that you can use together with ADLS Gen2.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: C
+    text: Review the list of open-source platforms (and the supported versions) that integrate with ADLS Gen2.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 6ae28b5a-a105-48fd-95ae-1b7645997dd4
+name: How are you integrating your workloads?

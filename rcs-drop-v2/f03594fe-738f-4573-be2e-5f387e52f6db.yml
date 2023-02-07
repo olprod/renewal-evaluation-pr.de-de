@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We are familiar with storage compression and have enabled it to increase performance, lower the required bandwidth, and minimize unnecessary storage design climate impact.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: The application is optimized for database query performance to reduce the latency of data retrieval while also reducing the load on the database and improve energy efficiency.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: We chose and defined the appropriate storage using storage classes and provision volumes dynamically to automatically scale the number of storage resources and avoid underutilization.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '3'
+    text: We have considered how to plan backup storage retention to avoid storing backups indefinitely and allocating much unnecessary disk space.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 4eb11871-8e1f-48d1-abee-2668b98f1988.ca6d89aa-b7bb-46fc-9104-ae5b645439db.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: f03594fe-738f-4573-be2e-5f387e52f6db
+name: 'What design considerations for a more sustainable data storage architecture have you made? '

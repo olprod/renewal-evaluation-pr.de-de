@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Planned for expected usage patterns.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Confirmed Azure service availability in required regions.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: Validated required capacity is within Azure service scale limits and quotas
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: Aligned with Azure roadmaps for required preview services and capabilities.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: Made sure the Virtual Machine sizes and disks types are available in all the primary and secondary regions.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Perform dependency-mapping exercises to identify internal and external dependencies.
+    description: 'Service Map automatically discovers application components on Windows and Linux systems and maps the communication between services. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Make sure to deploy to Azure paired regions so maintenance windows in the underlaying infrastructure will not overlap.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: Ensure you have capacity guaranteed in the paired region by using Azure Site Recovery or having warm VMs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: capacity-data-sqlvm
+uid: 6c5283f7-ae77-4345-9a06-ec54167d8277
+name: How have you ensured required capacity and services are available in targeted regions?

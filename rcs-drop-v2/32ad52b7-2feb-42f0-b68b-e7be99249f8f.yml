@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Developer machines are managed and monitored for security incidents
+    description: Secure your development environment against attack
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: 'All dev tools, extensions and integrations are assessed for trustworthiness'
+    description: Ensure all dev tooling comes from trusted publishers or marketplaces
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: Gates and approvals are configured in DevOps release processes
+    description: Define policies that control releases of your application
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '3'
+    text: 'Branch policies are used in source control management, main branch is protected and code reviews are required'
+    description: Set branch policies to protect and enforce policy on important branches
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '4'
+    text: Security controls are applied to all self-hosted build agents
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '5'
+    text: CI/CD roles and permissions are clearly defined
+    description: Define and apply appropriate roles to protect the development and release process
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '6'
+    text: Auditing is enabled for all changes to the build environment
+    description: Configure auditing on changes and actions in the development and release pipelines
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '7'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 32ad52b7-2feb-42f0-b68b-e7be99249f8f
+name: How have you hardened your development environment and pipeline against compromise?

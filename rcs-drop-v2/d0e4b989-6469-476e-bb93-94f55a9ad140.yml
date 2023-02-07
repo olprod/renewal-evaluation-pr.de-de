@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Have appropriate access control and NSGs in place to restrict VM access
+    url: '/azure/azure-sql/virtual-machines/windows/security-considerations-best-practices '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d1dc8312-9492-49ac-8105-a4593094e7b9.a9ee2044-1c6d-4127-a30d-491d08249273.A
+      scoreOf: []
+    context: 'For the best security, choose the most restrictive option for your scenario. For example, if you are running an application that accesses SQL Server on the same VM, then Local is the most secure choice. If you are running an Azure application that requires access to the SQL Server, then Private secures communication to SQL Server only within the specified Azure Virtual Network. If you require Public (internet) access to the SQL Server VM, then make sure to follow other best practices in this topic to reduce your attack surface area. The selected options in the portal use inbound security rules on the VM''s network security group (NSG) to allow or deny network traffic to your virtual machine. You can modify or create new inbound NSG rules to allow traffic to the SQL Server port (default 1433). You can also specify specific IP addresses that are allowed to communicate over this port. Finally, consider enabling encrypted connections for the instance of the SQL Server Database Engine in your Azure virtual machine. Configure SQL server instance with a signed certificate. Best Practices: Restrict access to SQL server to most restrictive option possible; Ensure appropriate NSG rules are in place; Ensure connection to database engine is encrypted.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Ensure you are not using the default port 1433 for your SQL-Server
+    url: /azure/azure-sql/virtual-machines/windows/security-considerations-best-practices#use-a-non-default-port
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d1dc8312-9492-49ac-8105-a4593094e7b9.a9ee2044-1c6d-4127-a30d-491d08249273.B
+      scoreOf: []
+    context: 'Specifying a non-default port is a good idea if your SQL Server port is open to public internet connections. Best Practice: Ensure you are not using default port 1433 at least for public facing SQL Server.'
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Prefer Windows Authentication over SQL Login to connect to your database
+    url: /azure/azure-sql/virtual-machines/windows/security-considerations-best-practices?view=azuresql#manage-accounts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d1dc8312-9492-49ac-8105-a4593094e7b9.a9ee2044-1c6d-4127-a30d-491d08249273.C
+      scoreOf: []
+    context: 'It is highly recommended to use Windows Authentication instead, however if you must have SQL Login: Create a SQL account with a unique name that has sysadmin membership. You can do this from the portal by enabling SQL Authentication during provisioning; If you must use the SA login, enable the login after provisioning and assign a new strong password. Best Practices: Prefer Windows Authentication over SQL Login; If using SQL Login ensure you set up unique username and strong password for sysadmin account.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+uid: d0e4b989-6469-476e-bb93-94f55a9ad140
+name: ''

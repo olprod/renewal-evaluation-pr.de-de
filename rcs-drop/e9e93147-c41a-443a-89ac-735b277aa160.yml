@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |
+  You have an on-premises Active Directory forest and an Azure AD tenant.
+
+  You plan to synchronize Active Directory to Azure AD by using Azure AD Connect cloud sync.
+
+  You need to install the Azure AD Connect provisioning agent.
+
+  What should you create in Active Directory first?
+questionnaireUid: ef33e66c-15e9-489c-b874-e06b7835961b
+questions:
+  - uid: e9e93147-c41a-443a-89ac-735b277aa160-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have an on-premises Active Directory forest and an Azure AD tenant.
+        isCorrect: false
+      - id: 1
+        text: You plan to synchronize Active Directory to Azure AD by using Azure AD Connect cloud sync.
+        isCorrect: true
+      - id: 2
+        text: You need to install the Azure AD Connect provisioning agent.
+        isCorrect: false
+      - id: 3
+        text: What should you create in Active Directory first?
+        isCorrect: false
+    manualId: SC300_2.1.1
+uid: e9e93147-c41a-443a-89ac-735b277aa160
+title: ''
+manualId: ''

@@ -1,0 +1,106 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Data types are categorized by data consistency requirements.
+    description: Has CAP theorem been applied to the application and key data scenarios to ensure data is categorized according to consistency requirements?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: B
+    text: Data platform services are running in a highly available configuration/SKU.
+    description: 'Are data store(s) running in a HA configuration/SKU? i.e. SQL DB in a Zone Redundant configuration, or SQL MI Always-On.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: C
+    text: Data is replicated across multiple regions.
+    description: Is data replicated across paired regions?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: D
+    text: Data is replicated across Availability Zones.
+    description: Is data replicated across Availability Zones within a region?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: E
+    text: Data is backed-up on zone/geo-redundant storage.
+    description: Is data backed-up on zone/geo-redundant storage?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: F
+    text: Active geo-replication is used for data platform components such as storage and databases.
+    description: Is active geo-replication used?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: G
+    text: Application traffic can be routed to data stores in the case of region/zone/network outages.
+    description: How is application traffic routed to data sources in the case of region/zone/network outage? i.e. Cosmos DB Automatic Failover.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: H
+    text: Read operations are segregated from update operations.
+    description: Have read operations been segregated from update operations across application data stores?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: I
+    text: Load balancer health probes assess data platform components.
+    description: Do health probes asses critical internal data dependencies? e.g. do health probes perform a mutable database operation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: Data restore processes have been defined to ensure consistent application state when data is corrupted or deleted.
+    description: Has a data restore process been defined to ensure a consistent state for the application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: K
+    text: Data restore processes have been validated and tested to ensure consistent application state when data is corrupted or deleted.
+    description: Has a data restore process been validated and tested to ensure a consistent state for the application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: L
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Data reliability for your application
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWDIix'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Designing data platform resiliency and availability is critical to ensuring overall application reliability.
+isRequired: false
+legacyId: '5'
+uid: 2c1206aa-ec65-4691-90a5-da54159e2b1b
+name: Designing data platform resiliency and availability is critical to ensuring overall application reliability.

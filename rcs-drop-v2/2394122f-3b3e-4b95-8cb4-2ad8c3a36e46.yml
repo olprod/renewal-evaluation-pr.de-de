@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: 'No'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Actions for noncompliance are one or more time-ordered actions that are taken by a policy to help protect devices and your organization. As an example, an action for noncompliance can remotely lock a device to ensure its protected or send a notification to devices or users to help them understand and resolve the noncompliant status.
+  https://learn.microsoft.com/en-us/mem/intune/protect/actions-for-noncompliance#available-actions-for-noncompliance
+isRequired: true
+uid: 2394122f-3b3e-4b95-8cb4-2ad8c3a36e46
+name: Actions for noncompliance are one or more time-ordered actions that are taken by a policy to help protect devices and your organization.

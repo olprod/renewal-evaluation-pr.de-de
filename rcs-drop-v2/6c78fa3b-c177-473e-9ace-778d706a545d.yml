@@ -1,0 +1,78 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'A log aggregation technology, such as Azure Log Analytics or Splunk, is used to collect logs and metrics from Azure resources'
+    description: Which log aggregation technology is used to collect logs and metrics from Azure resources?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: Azure Activity Logs are collected within the log aggregation tool
+    description: Are you collecting Azure Activity Logs within the log aggregation tool?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: Resource-level monitoring is enforced throughout the application
+    description: Is resource-level monitoring enforced throughout the application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: Logs and metrics are available for critical internal dependencies
+    description: Are logs and metrics available for critical internal dependencies?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: Log levels are used to capture different types of application events.
+    description: 'Different log levels, such as INFO, WARNING, ERROR, and DEBUG should be pre-configured and applied within relevant environments. The approach to change log levels should be simple configuration change to support operational scenarios where it is necessary to elevate the log level within an environment.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '5'
+    text: Critical external dependencies are monitored
+    description: 'It''s common for applications to depend on other services or libraries. Despite these are external, it is still possible to monitor their health and availability using probes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '6'
+    text: There are no known gaps in application observability that led to missed incidents and/or false positives.
+    description: 'What you cannot see, you cannot measure. What you cannot measure, you cannot improve.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '7'
+    text: The application is instrumented to measure customer experience.
+    description: Effective instrumentation is vital to detecting and resolving performance anomalies that can impact customer experience and application availability.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '8'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Log aggregation technologies should be used to collate logs and metrics across all application components for later evaluation. Resources that logs are captured for may include Azure IaaS and PaaS services as well as 3rd-party appliances such as firewalls or anti-malware solutions used in the application.
+isRequired: true
+uid: 6c78fa3b-c177-473e-9ace-778d706a545d
+name: Log aggregation technologies should be used to collate logs and metrics across all application components for later evaluation.

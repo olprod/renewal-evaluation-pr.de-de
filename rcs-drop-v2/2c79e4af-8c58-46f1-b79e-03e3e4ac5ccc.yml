@@ -1,0 +1,270 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Choose the right data redundancy option for your storage account
+    url: /azure/storage/common/storage-redundancy?toc=/azure/storage/queues/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.fa540301-9e6b-45e8-a66d-26476ab7c5b3.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform Failure Mode Analysis (FMA) to identify fault-points and fault-modes
+    url: /azure/architecture/resiliency/failure-mode-analysis#storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.fa540301-9e6b-45e8-a66d-26476ab7c5b3.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider ADLS Gen2 resource limits
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.f08a3cfc-e40e-4c09-baa6-4b7cdf2d8e75.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Verify that the ADLS Gen2 product is available in your target region
+    url: 'https://azure.microsoft.com/en-us/global-infrastructure/services/?products=storage'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.f08a3cfc-e40e-4c09-baa6-4b7cdf2d8e75.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Regulatory or governance requirements\_for the data stored in your data lake (HIPAA, PCI, etc.) have been identified"
+    url: /azure/storage/common/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.f08a3cfc-e40e-4c09-baa6-4b7cdf2d8e75.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider the incidents you want the data lake to be protected from in order to choose the right redundancy option and build your Backup and Disaster Recovery plan
+    url: /azure/architecture/framework/resiliency/backup-and-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.dfc1c933-6996-4079-b6ae-840b6f8b623c.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Complete periodic disaster recovery exercises to ensure you the plan works as planned
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#operational-readiness-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.dfc1c933-6996-4079-b6ae-840b6f8b623c.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Verified end-to-end system performance after failover
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#failover-and-failback-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.dfc1c933-6996-4079-b6ae-840b6f8b623c.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Applications connected to ADLS Gen2 should implement retry logic to handle transient failures, with appropriate back-off strategies to avoid cascading failures'
+    url: /azure/architecture/best-practices/retry-service-specific#azure-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.0842f8f5-83f7-4883-a149-f2bb5cb0ca67.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Metrics thresholds and alerts should be defined
+    url: /azure/storage/blobs/monitor-blob-storage?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.0842f8f5-83f7-4883-a149-f2bb5cb0ca67.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor ingress and egress metrics and create an alert for when it gets close to the limit
+    url: /azure/storage/blobs/monitor-blob-storage?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.f7a6be37-13a9-4aa0-9b6c-29c86f876caf.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Monitor tools to validate the ADLS Gen2 health, such as diagnostic settings, log, and metrics'
+    url: /azure/storage/blobs/monitor-blob-storage?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.bf5eab4b-d65f-49c9-8b65-60fffdd8754a.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure Resource Health events are used to alert on resource health events
+    url: /azure/service-health/resource-health-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.bf5eab4b-d65f-49c9-8b65-60fffdd8754a.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure Service Health events are used to alert on applicable service-level events
+    url: /azure/service-health/alerts-activity-log-service-notifications-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.bf5eab4b-d65f-49c9-8b65-60fffdd8754a.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Configure a\_CannotDelete\_lock on your storage accounts to prevent accidental deletion"
+    url: /azure/storage/common/lock-account-resource?tabs=portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.dfa358ff-9e74-4ecb-bf30-585f781de76f.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable container Soft delete to protect against the accidental deletion of a container
+    url: /azure/storage/blobs/soft-delete-container-enable?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.dfa358ff-9e74-4ecb-bf30-585f781de76f.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable file and folder soft delete to protect against accidental deletion of files and folders
+    url: /azure/storage/blobs/soft-delete-blob-enable?tabs=azure-portal#enable-blob-soft-delete-hierarchical-namespace
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.dfa358ff-9e74-4ecb-bf30-585f781de76f.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Make the raw layer container immutable and automate all your pipelines
+    url: /azure/storage/blobs/immutable-policy-configure-container-scope?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.dfa358ff-9e74-4ecb-bf30-585f781de76f.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Backup your data
+    url: 'https://cloudblogs.microsoft.com/industry-blog/en-gb/technetuk/2021/08/17/backup-your-data-lake-using-azure-data-factory-metadata-copy-activity/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.dfa358ff-9e74-4ecb-bf30-585f781de76f.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'If they are stored in a dedicated container, consider using the immutability feature'
+    url: /azure/storage/blobs/immutable-policy-configure-container-scope?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.f8e160cb-016a-462f-9516-426ee2ca40ed.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure Data Factory offers the possibility to perform data consistency verification at the end of a copy activity
+    url: /azure/data-factory/copy-activity-data-consistency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.e9f41823-486d-4020-b98d-dfcbc3bd6339.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Rely on Microsoft data integrity checks, including cyclic redundancy checks network checksums calculations'
+    url: /azure/storage/common/storage-redundancy?toc=/azure/storage/blobs/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c63c57c4-da58-434f-b7c2-a589541dbe70.e9f41823-486d-4020-b98d-dfcbc3bd6339.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 2c79e4af-8c58-46f1-b79e-03e3e4ac5ccc
+name: ''

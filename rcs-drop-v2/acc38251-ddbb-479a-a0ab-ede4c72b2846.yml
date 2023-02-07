@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Azure Advisor, SQL Insights and/or other SQL monitoring tools are being used to track performance optimization potential.'
+    description: Use this input as a guideline to tune your database.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: B
+    text: 'Database error messages are captured in a structured format and can be indexed and searched for database related errors. '
+    description: Azure Log Analytics but also other database native solutions are a good choice to capture historical data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: Audit and track changes in my database code and infrastructure configuration.
+    description: 'All database code should be part of your source code control system, use Auditing to monitor any configuration changes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: Are you currently monitoring and alerting on database metrics?
+    description: Database logs and metrics are used to evaluate critical database performance targets and non-functional requirements.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: Are you aware what issues are caused by any particular queries?
+    description: 'For on-going monitoring and troubleshooting you know how to use Query Store, Dynamic Management Views and/or Extended Events.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: 'Which log aggregation technology is used to collect logs and metrics from Azure resources? '
+    description: 'A log aggregation technology, such as Azure Log Analytics or Splunk, is used to collect database related logs and metrics from the application log.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: Are you collecting Azure Activity Logs within the log aggregation tool?
+    description: Azure Activity Logs are collected within the log aggregation tool to monitor database operations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: Is alerting set up on pre defined metrics and Resource Health events to be able to get quick insights into database health?
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: Is monitoring centralized?
+    description: 'Leveraging central Azure monitoring tools like Azure Monitor and Azure Security Center, Azure Advisor recommendations help to optimize workload operability'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: monitor-data-sqldb
+uid: acc38251-ddbb-479a-a0ab-ede4c72b2846
+name: How are you monitoring your deployments?

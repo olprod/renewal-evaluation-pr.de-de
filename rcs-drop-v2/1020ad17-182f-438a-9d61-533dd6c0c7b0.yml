@@ -1,0 +1,54 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Follow security best practices while configuring the elastic jobs
+    url: /azure/azure-sql/database/elastic-jobs-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 643d0198-5fec-48d4-8867-430dedcc130f.0938d8d7-5397-4c4c-9c90-78ca77f81833.A
+      scoreOf: []
+    context: 'A few best practice considerations for working with Elastic Jobs: Limit usage of the APIs to trusted individuals; Credentials should have the least privileges necessary to perform the job step.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+  - title: Consider using Azure Active Directory authentication whenever possible
+    url: /azure/azure-sql/database/logins-create-manage?view=azuresql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 643d0198-5fec-48d4-8867-430dedcc130f.0938d8d7-5397-4c4c-9c90-78ca77f81833.B
+      scoreOf: []
+    context: 'Consider using Active Directory authentication whenever possible. However, if not possible - Ensure that passwords are updated regularly. Avoid using admin account to connect to the database. Uses special accounts with restricted access to connect to your database.'
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+  - title: Create Database level Firewall rules
+    url: /azure/azure-sql/database/firewall-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 643d0198-5fec-48d4-8867-430dedcc130f.0938d8d7-5397-4c4c-9c90-78ca77f81833.C
+      scoreOf: []
+    context: 'If there are multiple databases from different applications in single SQL Server, consider having database level firewall rules.'
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Enable Transparent Data Encryption
+    url: /azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 643d0198-5fec-48d4-8867-430dedcc130f.0938d8d7-5397-4c4c-9c90-78ca77f81833.D
+      scoreOf: []
+    context: 'Azure SQL Database transparent data encryption helps protect against the threat of malicious activity by performing real-time encryption and decryption of the database, associated backups, and transaction log files at rest without requiring changes to the application.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+uid: 1020ad17-182f-438a-9d61-533dd6c0c7b0
+name: ''

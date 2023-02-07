@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We effectively map the customer journey throughout our UI/UX design
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: ' We regularly review market trends and have a strong awareness of our competition'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '2'
+    text: Our products have strong go-to-market strategy
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '3'
+    text: We have a known roadmap for our products and evaluate its prioritization regularly
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '4'
+    text: For new features high level technical requirements and potential timelines are usually well understood by product management stakeholders
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '5'
+    text: ' Our product managers work effectively across teams and can communicate priorities and dependencies with ease'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: select all that apply
+isRequired: true
+uid: 3b17689e-26d2-4b52-b1c3-55df8eb895a9
+name: select all that apply

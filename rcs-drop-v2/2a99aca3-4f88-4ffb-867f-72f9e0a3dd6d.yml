@@ -1,0 +1,42 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We've containerized our workload and used tools like Draft to generate Dockerfiles and Kubernetes manifests.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: We use spot node pools to take advantage of unused capacity in Azure for our interruptible workloads.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 4eb11871-8e1f-48d1-abee-2668b98f1988.ca6d89aa-b7bb-46fc-9104-ae5b645439db.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 2a99aca3-4f88-4ffb-867f-72f9e0a3dd6d
+name: What platform design decisions have you made for operations that contribute to a better sustainability posture?

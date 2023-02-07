@@ -1,0 +1,54 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Reduce latency by deploying VMs closer together in proximity placement groups
+    url: 'https://docs.microsoft.com/azure/virtual-machines/windows/proximity-placement-groups-portal'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ff7546a2-6691-4130-b164-766d231da44f.e1b865f1-fc81-45bc-a3fd-a39225915859.A
+      scoreOf: []
+    context: Reduce latency by deploying VMs closer together in proximity placement groups.
+    priority: 30
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Convert disks from standard HDD to premium SSD
+    url: 'https://docs.microsoft.com/azure/virtual-machines/disks-performance-tiers?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ff7546a2-6691-4130-b164-766d231da44f.e1b865f1-fc81-45bc-a3fd-a39225915859.B
+      scoreOf: []
+    context: Convert disks from standard HDD to premium SSD.
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Enable Accelerated Networking to improve network performance and latency
+    url: 'https://docs.microsoft.com/azure/virtual-network/accelerated-networking-overview?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ff7546a2-6691-4130-b164-766d231da44f.e1b865f1-fc81-45bc-a3fd-a39225915859.C
+      scoreOf: []
+    context: Enable Accelerated Networking to improve network performance and latency.
+    priority: 35
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Autoscale your Flexible scale sets
+    url: 'https://docs.microsoft.com/azure/virtual-machine-scale-sets/scripts/cli-sample-enable-autoscale?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ff7546a2-6691-4130-b164-766d231da44f.e1b865f1-fc81-45bc-a3fd-a39225915859.D
+      scoreOf: []
+    context: Autoscale your Flexible scale sets.
+    priority: 80
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+uid: cc02d365-56b6-4646-91ad-ff26fa54ac2f
+name: ''

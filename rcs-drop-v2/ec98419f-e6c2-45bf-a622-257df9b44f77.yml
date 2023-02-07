@@ -1,0 +1,153 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: 0178cd68-ca3a-4490-9a64-2efba639bad1
+    name: 'Are you responding to any critical business events like data-center exit, mergers & acquisition, end of support for mission critical technologies, or response to regulatory compliance change?'
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: 9afca4fe-6705-4613-a5be-353b10e1e219
+    name: Have you developed the business outcomes that you want as part of moving to the cloud?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '3'
+    uid: d2ef3eef-fc5e-4b23-9243-6b159d658b58
+    name: 'Do these outcomes have associated business drivers, KPIs, and necessary technical capabilities?'
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '4'
+    uid: 161007db-a9b5-4d45-abee-0ea686138da3
+    name: Have you developed a financial model or performance economic assessment that could help provide business justification for moving to the cloud?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '5'
+    uid: f3a6cbb4-d365-4a26-9eba-17fa816c7e6c
+    name: Have you selected an initial cloud workload?
+stem: ' '
+isRequired: true
+legacyId: '4'
+uid: ec98419f-e6c2-45bf-a622-257df9b44f77
+name: Additional strategy questions

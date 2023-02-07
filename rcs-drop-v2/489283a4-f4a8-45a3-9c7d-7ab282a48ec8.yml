@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: B
+    text: Read Azure Databricks Spark logs.
+    description: 'Spark application logs which enables administrators/developers to query the logs, debug issues and investigate job run failures. This is specifically helpful to also understand exceptions across your AI workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: C
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Resilient applications should be able to automatically recover from errors by leveraging modern cloud application code patterns.
+isRequired: false
+legacyId: '6'
+uid: 489283a4-f4a8-45a3-9c7d-7ab282a48ec8
+name: Resilient applications should be able to automatically recover from errors by leveraging modern cloud application code patterns.

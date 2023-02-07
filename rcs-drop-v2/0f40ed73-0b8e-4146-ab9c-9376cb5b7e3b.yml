@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: You are using built in Azure Monitor tools to validate the Azure SQL MI Database health.
+    description: 'Azure SQL MI can be monitored with diagnostic settings, logs, and metrics. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Azure Resource Health events are used to alert on resource health events.
+    description: An appropriate threshold for resource unavailability must be set to minimize signal to noise ratios so that transient faults do not generate an alert.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'A health model has been defined based on performance, availability, and recovery targets and is represented through monitoring dashboard and alerts.'
+    description: 'Has a health model been defined to qualify what ''healthy'' and ''unhealthy'' states represent across all database components, in a measurable and observable format and is this health model fully represented through monitoring dashboards and alerts?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Azure Service Health events are used to alert on applicable Service level events.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Monitor for failures or processes taking longer than expected. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 0f40ed73-0b8e-4146-ab9c-9376cb5b7e3b
+name: How do you monitor and measure database health?

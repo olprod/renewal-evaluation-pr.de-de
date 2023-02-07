@@ -1,0 +1,479 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Plan your growth, then choose regions that will support those plans'
+    url: 'https://azure.microsoft.com/global-infrastructure/services/'
+    condition:
+      noneOf:
+        - Performance.bc3e062c-c894-4c8d-91ea-578e2682d64d.B
+        - Performance.bc3e062c-c894-4c8d-91ea-578e2682d64d.D
+        - Reliability.5cd55a17-f4e9-499d-8042-46d489fffe07.C
+    context: 'Plan your growth, then choose regions that will support those plans'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Deploy to paired regions
+    url: /azure/best-practices-availability-paired-regions
+    condition:
+      noneOf:
+        - Performance.bc3e062c-c894-4c8d-91ea-578e2682d64d.C
+    context: Deploy to paired regions
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Choose the right database to match usage
+    url: /azure/architecture/framework/Scalability/design-apps#choose-the-right-data-storage
+    condition:
+      noneOf:
+        - Performance.bc3e062c-c894-4c8d-91ea-578e2682d64d.I
+    context: Choose the right database to match usage
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Use microservices when possible
+    url: /azure/architecture/framework/scalability/design-apps
+    condition:
+      noneOf:
+        - Performance.bc3e062c-c894-4c8d-91ea-578e2682d64d.J
+    context: Use microservices when possible
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Identify sensible non-functional requirements
+    url: /azure/architecture/performance/#general-best-practices
+    condition:
+      noneOf:
+        - Performance.c6b3904f-3cfe-4cdd-818d-493bdce61d0b.B
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.A
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.D
+        - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.G
+    context: Identify sensible non-functional requirements
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Monitor how long it takes to scale against your targets
+    url: /azure/architecture/framework/scalability/monitor-infrastructure
+    condition:
+      noneOf:
+        - Performance.c6b3904f-3cfe-4cdd-818d-493bdce61d0b.C
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.N
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.B
+    context: Monitor how long it takes to scale against your targets
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Elasticity
+  - title: Leverage autoscaling to scale in and out as load varies
+    url: /azure/architecture/framework/scalability/design-scale
+    condition:
+      noneOf:
+        - Performance.cb69cbc9-8bed-4923-bce5-cd01e289f3cd.B
+        - Performance.cb69cbc9-8bed-4923-bce5-cd01e289f3cd.C
+        - Performance.880efd44-db19-4c58-a842-283777f7a989.D
+        - Operational.5f9db10b-393f-4e8e-b1d1-4821c06b11da.B
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.D
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.C
+    context: Leverage autoscaling to scale in and out as load varies
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Elasticity
+  - title: Choose metrics appropriately for your scaling policies
+    url: /azure/architecture/framework/Scalability/capacity#choosing-metrics-for-scaling-policies
+    condition:
+      noneOf:
+        - Performance.cb69cbc9-8bed-4923-bce5-cd01e289f3cd.D
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.K
+        - Reliability.b0e34b3e-d032-4022-b588-d63c824d49c3.E
+    context: Choose metrics appropriately for your scaling policies
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Elasticity
+  - title: Preemptively scale based on trends
+    url: /azure/architecture/framework/Scalability/capacity#preemptively-scaling-based-on-trends
+    condition:
+      noneOf:
+        - Performance.cb69cbc9-8bed-4923-bce5-cd01e289f3cd.E
+        - Operational.5f9db10b-393f-4e8e-b1d1-4821c06b11da.G
+    context: Preemptively scale based on trends
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Elasticity
+  - title: Know how long it takes to respond to scaling events
+    url: /azure/architecture/framework/scalability/performance-test#load-testing
+    condition:
+      noneOf:
+        - Performance.cb69cbc9-8bed-4923-bce5-cd01e289f3cd.F
+        - Performance.cb69cbc9-8bed-4923-bce5-cd01e289f3cd.G
+    context: Know how long it takes to respond to scaling events
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Elasticity
+  - title: Build a capacity model for your workload
+    url: /azure/architecture/framework/scalability/design-capacity
+    condition:
+      noneOf:
+        - Reliability.5cd55a17-f4e9-499d-8042-46d489fffe07.A
+        - Operational.5f9db10b-393f-4e8e-b1d1-4821c06b11da.A
+        - Performance.880efd44-db19-4c58-a842-283777f7a989.A
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.D
+    context: Build a capacity model for your workload
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Monitor capacity utilization to forecast future growth
+    url: /azure/architecture/framework/scalability/design-capacity#use-metrics-to-fine-tune-scaling
+    condition:
+      noneOf:
+        - Performance.880efd44-db19-4c58-a842-283777f7a989.B
+        - Operational.5f9db10b-393f-4e8e-b1d1-4821c06b11da.G
+    context: Monitor capacity utilization to forecast future growth
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Evaluate service limits and quotas to ensure they can support future growth
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      noneOf:
+        - Performance.880efd44-db19-4c58-a842-283777f7a989.E
+        - Operational.5f9db10b-393f-4e8e-b1d1-4821c06b11da.E
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.G
+        - Reliability.5cd55a17-f4e9-499d-8042-46d489fffe07.E
+    context: Evaluate service limits and quotas to ensure they can support future growth
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Optimize your resource choices
+    url: /azure/architecture/framework/Scalability/capacity#choosing-the-right-resources
+    condition:
+      noneOf:
+        - Performance.880efd44-db19-4c58-a842-283777f7a989.F
+    context: Optimize your resource choices
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service SKU
+  - title: Have a large scale event management strategy in place
+    url: /azure/architecture/framework/Scalability/capacity#large-scale-event-management
+    condition:
+      noneOf:
+        - Performance.880efd44-db19-4c58-a842-283777f7a989.G
+    context: Have a large scale event management strategy in place
+    priority: 30
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Use a Content Delivery Networks (CDN)
+    url: /azure/architecture/framework/Scalability/capacity#content-delivery-networks-(cdn)
+    condition:
+      noneOf:
+        - Performance.415b342f-3903-4147-8236-71850dfa13f5.A
+    context: Use a Content Delivery Networks (CDN)
+    priority: 30
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Offload SSL traffic by using the gateway offloading pattern
+    url: /azure/architecture/patterns/gateway-offloading
+    condition:
+      noneOf:
+        - Performance.415b342f-3903-4147-8236-71850dfa13f5.B
+    context: Offload SSL traffic by using the gateway offloading pattern
+    priority: 50
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Understand your performance bottlenecks around latency and throughput
+    url: /azure/architecture/framework/scalability/performance-test
+    condition:
+      noneOf:
+        - Performance.415b342f-3903-4147-8236-71850dfa13f5.D
+    context: Understand your performance bottlenecks around latency and throughput
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Data Latency and Throughput
+  - title: Test and validate your defined latency and throughput targets
+    url: /azure/networking/azure-network-latency
+    condition:
+      noneOf:
+        - Performance.415b342f-3903-4147-8236-71850dfa13f5.E
+        - Reliability.b0e34b3e-d032-4022-b588-d63c824d49c3.G
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.J
+    context: Test and validate your defined latency and throughput targets
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Data Latency and Throughput
+  - title: Consider using proximity placement groups for components that are very sensitive to network latency
+    url: /azure/virtual-machines/windows/co-location#proximity-placement-groups
+    condition:
+      noneOf:
+        - Performance.415b342f-3903-4147-8236-71850dfa13f5.F
+        - Performance.bc3e062c-c894-4c8d-91ea-578e2682d64d.G
+        - Reliability.b0e34b3e-d032-4022-b588-d63c824d49c3.B
+    context: Consider using proximity placement groups for components that are very sensitive to network latency
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Data Latency and Throughput
+  - title: Acquire dedicated networking resources as required
+    url: /azure/expressroute/expressroute-introduction
+    condition:
+      noneOf:
+        - Performance.415b342f-3903-4147-8236-71850dfa13f5.G
+    context: Acquire dedicated networking resources as required
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Network Throughput and Latency
+  - title: Design for eventual consistency
+    url: /azure/cosmos-db/consistency-levels
+    condition:
+      noneOf:
+        - Performance.e6f9f4aa-cd2d-4d2a-a2c0-153b9396377f.A
+        - Performance.e6f9f4aa-cd2d-4d2a-a2c0-153b9396377f.D
+    context: Design for eventual consistency
+    priority: 50
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Consistency
+  - title: Implement database partitioning
+    url: /azure/architecture/framework/scalability/design-apps#database-considerations
+    condition:
+      noneOf:
+        - Performance.e6f9f4aa-cd2d-4d2a-a2c0-153b9396377f.B
+    context: Implement database partitioning
+    priority: 30
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Optimize your database queries
+    url: /azure/architecture/performance/backend-services#step-4-optimize-the-query
+    condition:
+      noneOf:
+        - Performance.e6f9f4aa-cd2d-4d2a-a2c0-153b9396377f.E
+    context: Optimize your database queries
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Benchmarking
+  - title: Plan for the growth of your data over time
+    url: /azure/architecture/framework/scalability/design-scale#plan-for-growth
+    condition:
+      noneOf:
+        - Performance.e6f9f4aa-cd2d-4d2a-a2c0-153b9396377f.F
+        - Performance.e6f9f4aa-cd2d-4d2a-a2c0-153b9396377f.G
+        - Reliability.b0e34b3e-d032-4022-b588-d63c824d49c3.H
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.H
+    context: Plan for the growth of your data over time
+    priority: 50
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Data Size/Growth
+  - title: Identify human and environmental resources needed to create performance tests
+    url: /azure/architecture/framework/scalability/tradeoffs#performance-efficiency-vs-operational-excellence
+    condition:
+      noneOf:
+        - Performance.29141cef-7d97-468d-a8d8-868a9f7c7ce8.A
+    context: Identify human and environmental resources needed to create performance tests
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Tools & Planning
+  - title: Use appropriate performance testing tools
+    url: /azure/architecture/framework/scalability/performance-test
+    condition:
+      noneOf:
+        - Performance.29141cef-7d97-468d-a8d8-868a9f7c7ce8.B
+    context: Use appropriate performance testing tools
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Tools & Planning
+  - title: Define a testing strategy
+    url: /azure/architecture/framework/scalability/test-checklist#performance-testing
+    condition:
+      noneOf:
+        - Performance.29141cef-7d97-468d-a8d8-868a9f7c7ce8.E
+    context: Define a testing strategy
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Identify baseline performance targets and goals
+    url: /azure/architecture/framework/scalability/test-tools#identify-baselines-and-goals-for-performance
+    condition:
+      noneOf:
+        - Performance.25855250-bea9-4174-92d6-dd1cd9ec7c2b.A
+    context: Identify baseline performance targets and goals
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Establish targets for database performance
+    url: /sql/relational-databases/performance/display-an-actual-execution-plan
+    condition:
+      noneOf:
+        - Performance.25855250-bea9-4174-92d6-dd1cd9ec7c2b.H
+    context: Establish targets for database performance
+    priority: 30
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Determine and document what acceptable performance is
+    url: /azure/architecture/framework/scalability/performance-efficiency
+    condition:
+      noneOf:
+        - Performance.25855250-bea9-4174-92d6-dd1cd9ec7c2b.I
+    context: Determine and document what acceptable performance is
+    priority: 70
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Aggregate application and resource logs
+    url: /azure/azure-monitor/logs/cross-workspace-query
+    condition:
+      noneOf:
+        - Performance.7127a249-88f7-4ccd-b2e9-495a4f866f3a.A
+    context: Aggregate application and resource logs
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: Use critical system flows in the health model
+    url: /azure/architecture/framework/resiliency/monitor-model#application-logs
+    condition:
+      noneOf:
+        - Performance.7127a249-88f7-4ccd-b2e9-495a4f866f3a.C
+    context: Use critical system flows in the health model
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: The health model can determine if a fault is transient
+    url: /azure/architecture/best-practices/transient-faults
+    condition:
+      noneOf:
+        - Performance.7127a249-88f7-4ccd-b2e9-495a4f866f3a.D
+    context: The health model can determine if a fault is transient
+    priority: 59
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: Configure retention times for logs and metrics
+    url: /azure/architecture/framework/scalability/monitor#data-interpretation--health-modeling
+    condition:
+      noneOf:
+        - Performance.7127a249-88f7-4ccd-b2e9-495a4f866f3a.F
+    context: Configure retention times for logs and metrics
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: Analyze long-term trends to predict performance issues
+    url: /azure/architecture/framework/scalability/monitor#data-interpretation--health-modeling
+    condition:
+      noneOf:
+        - Performance.7127a249-88f7-4ccd-b2e9-495a4f866f3a.G
+    context: Analyze long-term trends to predict performance issues
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: Track how your resources scale
+    url: /azure/azure-monitor/autoscale/autoscale-overview
+    condition:
+      noneOf:
+        - Performance.7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f.A
+    context: Track how your resources scale
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: Have an overall monitoring strategy for scalability
+    url: /azure/architecture/framework/Scalability/design-distributed
+    condition:
+      noneOf:
+        - Performance.7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f.B
+    context: Have an overall monitoring strategy for scalability
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: Monitor the components required to serve a single request
+    url: /azure/architecture/best-practices/monitoring#instrumenting-an-application
+    condition:
+      noneOf:
+        - Performance.7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f.C
+    context: Monitor the components required to serve a single request
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Load Capacity
+  - title: Determine the acceptable operational margin between peak utilization and maximum load
+    url: /azure/azure-monitor/vm/vminsights-performance
+    condition:
+      noneOf:
+        - Performance.7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f.D
+    context: Determine the acceptable operational margin between peak utilization and maximum load
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Load Capacity
+  - title: Determine appropriate metrics for your workload
+    url: /azure/architecture/framework/scalability/checklist
+    condition:
+      noneOf:
+        - Performance.7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f.E
+    context: Determine appropriate metrics for your workload
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Load Capacity
+  - title: Collect application logs from all environments with a tool like Azure Application Insights
+    url: /azure/azure-monitor/app/app-insights-overview
+    condition:
+      noneOf:
+        - Performance.7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f.G
+    context: Collect application logs from all environments with a tool like Azure Application Insights
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Capture logs in a structured format
+    url: /azure/architecture/example-scenario/logging/unified-logging
+    condition:
+      noneOf:
+        - Performance.7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f.H
+    context: Capture logs in a structured format
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Correlate events across all tiers of your workload
+    url: /azure/architecture/framework/scalability/checklist
+    condition:
+      noneOf:
+        - Performance.7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f.I
+        - Operational.9f2921b6-df60-4c55-bde2-f5d47d1ba9dd.D
+    context: Correlate events across all tiers of your workload
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Develop a troubleshooting guide for database performance problems
+    url: /azure/azure-sql/database/automatic-tuning-overview
+    condition:
+      noneOf:
+        - Performance.dc90ebdf-bd70-4bb7-99ce-eec16028a509.A
+    context: Develop a troubleshooting guide for database performance problems
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Troubleshooting
+  - title: Develop a troubleshooting guide for high CPU or memory issues
+    url: /troubleshoot/azure/virtual-machines/troubleshoot-high-cpu-issues-azure-windows-vm
+    condition:
+      noneOf:
+        - Performance.dc90ebdf-bd70-4bb7-99ce-eec16028a509.B
+    context: Develop a troubleshooting guide for high CPU or memory issues
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Troubleshooting
+  - title: Determine how to isolate increased response times
+    url: /azure/azure-monitor/app/distributed-tracing
+    condition:
+      noneOf:
+        - Performance.dc90ebdf-bd70-4bb7-99ce-eec16028a509.C
+    context: Determine how to isolate increased response times
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Troubleshooting
+  - title: Use application profiling tools
+    url: /visualstudio/profiling/profiling-feature-tour?view=vs-2019
+    condition:
+      noneOf:
+        - Performance.dc90ebdf-bd70-4bb7-99ce-eec16028a509.D
+    context: Use application profiling tools
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Troubleshooting
+  - title: Learn how to use network capturing tools
+    url: /azure/virtual-network/virtual-network-tap-overview#virtual-network-tap-partner-solutions
+    condition:
+      noneOf:
+        - Performance.dc90ebdf-bd70-4bb7-99ce-eec16028a509.E
+    context: Learn how to use network capturing tools
+    priority: 50
+    reportingCategory: Performance Testing
+    reportingSubCategory: Troubleshooting
+uid: b4d4730e-7707-440f-ae2d-31b032cd5a4a
+name: ''

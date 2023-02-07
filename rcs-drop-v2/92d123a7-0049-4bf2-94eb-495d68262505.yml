@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 20e571bb-1767-499b-ad64-9bd7c64e163b
+recommendations:
+  - 8c8152f5-e2cc-40aa-bd1b-54fbfe478c5c
+assignedGroupIds: []
+uid: 92d123a7-0049-4bf2-94eb-495d68262505
+name: 'Go-Live - Cache for Redis: Performance Efficiency'

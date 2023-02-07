@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have configured the indexing policy based on query patterns, specifying ONLY those properties that are used as filters in queries.'
+    description: 'By reducing the number of properties you index, you reduce the work required to maintain indexes, which in turn reduces the RU charge associated with writing documents.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: 'Where we have complex queries with multiple filters, group by or order by properties we have assessed the use of composite indexes.'
+    description: Ensuring the appropriate properties are indexed for your frequent queries will reduce the RU charge for these queries.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: We have assessed and implemented opportunities to leverage Azure Cognitive Search for full-text queries at a lower cost.
+    description: Azure Cognitive Search index extracts existing text from Azure Cosmos DB and can reduce RU charge for full-text searchable querying.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: Designing and configuring your indexing policy based on the access pattern of your workloads can help to reduce costs and improve performance. Take a few minutes to step through the critical areas of indexing.
+isRequired: false
+uid: ef6d1833-ef80-4dd7-aacb-6b4d612718de
+name: Designing and configuring your indexing policy based on the access pattern of your workloads can help to reduce costs and improve performance.

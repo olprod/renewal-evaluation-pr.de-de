@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We've considered workload containerization options to reduce unnecessary resource allocation and make better use of deployed resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: We've evaluated moving to highly optimized managed services that operate on more efficient hardware to contribute to a lower carbon impact.
+    description: 'Managed services such as PaaS and serverless are highly optimized and operate on more efficient hardware than other options, contributing to a lower carbon impact.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: We're aware of potential unused capacity in Azure data centers and therefore use Azure Spot Virtual Machines whenever possible to utilize this otherwise wasted capacity and contribute to a more sustainable platform design.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: f65900d0-0aa7-4e7c-b1ec-a96b00e79f97
+name: What platform design decisions have you made for operations to contribute to a better sustainability posture?

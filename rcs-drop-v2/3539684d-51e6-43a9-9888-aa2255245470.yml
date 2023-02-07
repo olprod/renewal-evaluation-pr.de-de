@@ -1,0 +1,83 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use the Azure cost analysis tools.
+    description: 'Azure Cost Management has built-in cost analysis dashboard, to analyse cost usage based on defined metrics such as tags, resource group, and location. Additional advanced features such as setting alerts based on cost, and cost forecasting are also included.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '1'
+    text: You build and manage a budget for your IoT costs.
+    description: |
+      Azure Cost Management lets you define alerts based on actual cost, or forecast cost to ensure cloud spending is within your organizational spend limit.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '2'
+    text: You use Azure Policy to define a governance model.
+    description: Azure Policy helps to enforce organizational standards and to assess compliance of cloud deployment at scale.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '3'
+    text: You have chosen cost effective HA/DR options for your solution.
+    description: 'Azure provides business continuity and business recovery solution such as Azure Backup and Azure Site Recovery to enable you to deploy resilient solutions to the cloud. Some Azure Platform-as-a-Services provide built-in protection, and some require user configuration depending on application needs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '4'
+    text: You follow the deployment stamp pattern for predictable and optimized costs.
+    description: Stamps are discrete units of core solution components that optimally support a defined number of devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '5'
+    text: You use the IoT Hub basic SKU as a starting point.
+    description: Azure IoT Hub offers a basic SKU which could be a cost-effective starting point to connect your devices securely. The basic SKU lacks bi-directional messaging.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '6'
+    text: You autoscale IoT Hub units based on fluctuating message volumes.
+    description: 'Implementing auto-scaling strategy in Azure IoT Hub, especially if you have fluctuating messaging patterns, is an efficient way to optimize the costs of the gateway.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '7'
+    text: You use an appropriate cost model for each service in your solution.
+    description: 'Each service in your solution has its own pricing model. Understanding the impact of services charged hourly, daily and monthly, and optimizing them affects your overall cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: Optimizing cloud costs is a process to increase the efficiency of the IoT services in your solution.
+isRequired: false
+uid: 3539684d-51e6-43a9-9888-aa2255245470
+name: Optimizing cloud costs is a process to increase the efficiency of the IoT services in your solution. Q9.

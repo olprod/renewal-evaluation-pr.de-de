@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've configured your downstream and/or gateway devices to securely receive updated firmware and configuration settings over-the-air.
+    description: Firmware updates should be done over-the-air so that no manual steps are needed to update your devices. Device Update for Azure IoT Hub enables you to accomplish over-the-air updates at scale.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: You've configured monitoring and alerting to ensure that all downstream and/or gateway devices successfully receive and apply the latest configuration settings and firmware updates.
+    description: Monitor your configuration and firmware updates to validate that devices are getting these updates and generate alerts if anything fails. You can use Azure Monitor and the built-in monitoring features of Azure IoT Hub.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'You have a dedicated and secured store such as Azure SQL, Azure Cosmos DB, or Azure Key Vault to store downstream and/or gateway device configuration data.'
+    description: 'Storing configuration data, such as secrets or settings, in a secure store enables you to more efficiently track version changes and automate deployments/updates. For example, when using Azure Key Vault to store configuration secrets, you can inject secrets directly from Key Vault into an Azure DevOps pipeline while executing a configuration or firmware update.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: 'You can change or modify configuration settings, such as device or module properties, without rebuilding or redeploying firmware.'
+    description: 'Firmware updates may be unnecessary for some use cases, such as changing telemetry frequencies or sensor data thresholds. Device twins in Azure IoT Hub and deployment manifests in Azure IoT Edge can help you deploy configuration settings that don''t require a completely new version of firmware.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Downstream and/or gateway devices can either have an individual or baseline configuration that must be applied on first connection or in an as-needed manner. How do you manage and deploy these configurations at scale? Configurations includes device properties, connection settings, device relationships, and firmware updates.'
+isRequired: false
+uid: 1cf1ddc9-f3bd-4bb5-9f8c-0a570ddb6531
+name: Downstream and/or gateway devices can either have an individual or baseline configuration that must be applied on first connection or in an as-needed manner. How do you manage and deploy these configurations at scale?

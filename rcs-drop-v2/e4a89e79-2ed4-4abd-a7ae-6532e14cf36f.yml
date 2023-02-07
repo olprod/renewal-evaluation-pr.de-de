@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: By feature completion against requirement specification
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: In time-boxes such as sprints/iterations in 1-4 weeks
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: 'We strive for a one-piece flow of product backlog items, stack-ranked, and delivered continuously'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '4'
+    text: We create measurable experiments from hypotheses and use production data to assess results
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'An Agile development team works off of a backlog of requirements, often called user stories. The backlog is prioritized so the most important user stories are at the top. The product owner owns the backlog and adds, changes, and reprioritizes user stories based on the customer''s needs. One of the biggest drags on an Agile team''s productivity is a poorly defined backlog. A team cannot be expected to consistently deliver high-quality software each sprint unless they have clearly defined requirements.'
+isRequired: true
+uid: e4a89e79-2ed4-4abd-a7ae-6532e14cf36f
+name: 'An Agile development team works off of a backlog of requirements, often called user stories.'

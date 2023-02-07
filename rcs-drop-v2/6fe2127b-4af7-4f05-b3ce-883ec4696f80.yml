@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You''ve taken advantage of the pre-built metrics in the Azure services, such as IoT Hub, that you use'
+    description: Azure IoT Hub uses Azure Monitor to save monitoring data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You've created alerts to notify the support team when abnormal operating conditions occur or when a certain limit has been reached
+    description: Azure Monitor is able to proactively notify you when important conditions are found in your monitoring data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: You use Azure Event Grid to monitor the connection status for IoT devices and to trigger alerts when connection states change
+    description: 'With Event Grid, you can subscribe to the IoT Hub DeviceConnected and DeviceDisconnected events.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'You''ve implemented a mechanism to monitor, diagnose, and troubleshoot device disconnects'
+    description: 'IoT Hub integrates with two Azure services to help you monitor your solution: Event Grid and Azure Monitor.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: You've taken advantage of collecting and transporting metrics from the edge to the cloud
+    description: You can remotely monitor your IoT Edge fleet using Azure Monitor and built-in metrics integration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: 'To optimize your workload for operational excellence, integrate development, quality assurance, and IT operations into a unified culture and set of processes for delivering software. Use built-in metrics, Log Analytics, and Alerts to monitor the IoT Hub service and devices.'
+isRequired: false
+uid: 6fe2127b-4af7-4f05-b3ce-883ec4696f80
+name: 'To optimize your workload for operational excellence, integrate development, quality assurance, and IT operations into a unified culture and set of processes for delivering software. Use built-in metrics, Log Analytics, and Alerts to monitor the IoT Hub service and devices.'

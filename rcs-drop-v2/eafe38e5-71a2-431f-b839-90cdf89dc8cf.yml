@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Choose appropriate Azure Synapse Analytics SQL resource consumption model.
+    description: Managing your Synapse SQL infrastructure and picking the right size for your solution.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: B
+    text: Choose an appropriate number of nodes for the Azure Synapse Analytics Apache Spark pool autoscale feature.
+    description: Apache Spark for Azure Synapse Analytics pool's Autoscale feature automatically scales the number of nodes in a cluster instance up and down.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: C
+    text: Review Synapse Analytics access control definitions to ensure proper authorization for provisioning resources contained in Synapse Analytics.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: eafe38e5-71a2-431f-b839-90cdf89dc8cf
+name: How do you ensure that cloud resources are appropriately provisioned?

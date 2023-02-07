@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: A database backup strategy has been defined and implemented that meets the RPO requirements.
+    description: 'Most transactional databases require Point In Time Recovery capabilities based on Transaction Log backups. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Database DR and failover capabilities are automated and regularly tested.
+    description: 'In the event of disaster, you should be confident that your recovery and failover solutions will work as required.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'In the event of a Regional failover, database traffic rerouting has been considered.'
+    description: 'If you''re using a geo-resilient database, how will client traffic be rerouted to the failover environment in the case of a Regional outage?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: The database is deployed across multiple regions in an active-passive topology to meet RTO targets.
+    description: Is the database deployed across multiple regions in an active-passive configuration?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'In the case of backing up the databases on the local VM, there are automated processes to copy the backup to blob location in the same region and/or different region to achieve the RPO.'
+    description: Do you automate the process of copying the backup files outside the SQL VM?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 0d54f367-b537-4e8a-87c1-1ec088664772
+name: How are you handling disaster recovery for this workload?

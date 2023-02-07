@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You''ve configured the time-to-live setting, in seconds.'
+    description: 'The time-to-live setting is the amount of time, in seconds, that a message can wait to be delivered before it expires.'
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: You haven't configured the time-to-live setting.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The Azure IoT Edge hub module stores messages temporarily if they can''t be delivered for any reason. You can configure how long the Azure IoT Edge hub holds onto undelivered messages before letting them expire. If you have memory concerns on your device, you can lower the ''timeToLiveSecs'' value in the Azure IoT Edge hub module twin. Don''t select any option if you don''t have Azure IoT Edge devices.'
+isRequired: false
+uid: 2d3dc65f-a13f-4cb7-b259-cd5916ed8383
+name: The Azure IoT Edge hub module stores messages temporarily if they can't be delivered for any reason. You can configure how long the Azure IoT Edge hub holds onto undelivered messages before letting them expire.

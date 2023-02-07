@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: An effective architecture achieves business goals and ROI requirements while keeping costs within the allocated budget.
+hideEmptyGuidance: false
+questions:
+  - e0d45682-8849-430a-9229-a27855bcdf22
+  - c177c0d5-5da9-489e-89bd-faf2aa57cb8a
+recommendations:
+  - be3bcf4c-514e-4326-ab2a-0b967eeb8430
+assignedGroupIds: []
+uid: Cost-ai-aml
+name: Cost Optimization - Azure Machine Learning

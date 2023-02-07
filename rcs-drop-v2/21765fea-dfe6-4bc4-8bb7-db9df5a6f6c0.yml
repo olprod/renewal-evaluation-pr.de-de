@@ -1,0 +1,94 @@
+### YamlMime:SelfAssessment
+description: 'Review your Azure platform readiness so adoption can begin, assess your plan to create a landing zone to host workloads that you plan to build in or migrate to the cloud. This assessment is designed for customers with two or more years'' experience. If you are new to Azure, this assessment will help you identify Invesment areas for your adoption strategy.'
+duration: 30 minutes
+questionnaireReferences:
+  - questionnaireUid: 8fb33ea0-636d-405c-a075-1bef55ac9ded
+    isRequired: true
+  - questionnaireUid: 9b234605-e562-4157-b8cb-6b1142364fe5
+    isRequired: false
+  - questionnaireUid: e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b
+    isRequired: false
+  - questionnaireUid: e22f69ec-9647-4822-8904-3ea2583f634f
+    isRequired: false
+  - questionnaireUid: a008af7b-0b10-4cc7-8509-1e2812d0999c
+    isRequired: false
+  - questionnaireUid: ec155b68-4585-4c4c-95c3-8684946a1c03
+    isRequired: false
+  - questionnaireUid: 60f7c4e2-22ae-4afa-8541-5ccc6b48d296
+    isRequired: false
+  - questionnaireUid: b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e
+    isRequired: false
+  - questionnaireUid: 28dc41ee-00c1-4c5b-8cc4-00c07ce95cb9
+    isRequired: false
+guidance:
+  title: 30 minutes
+  description: Your results
+  providers: []
+  scoring:
+    title: View how your landing zone aligns to best practices and review recommendations to help you improve.
+    description: Recommendations for your Azure environment
+    calculationType: Sum
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: Actionable items to consider implementing to improve your landing zone across the 8 design areas of the Microsoft Cloud Adoption Framework Azure landing zone.
+        links:
+          - title: 'For organizations where this conceptual architecture fits with the operating model and resource structure they plan to use, there''s a ready-made deployment experience called the Azure landing zone accelerator.'
+            url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/#azure-landing-zone-accelerator'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Journey toward the target architecture
+      - iconUrl: ''
+        description: Review the Azure landing Zone accelerator This interactive guide will guide you through the Azure landing zone journey of staring your deployment with Azure landing zone accelerator and start small approaches.
+        links:
+          - title: 'Then you''ll enhance your landing zone by improving security, governance, and operations.'
+            url: 'https://mslabs.cloudguides.com/en-us/guides/Cloud%20Adoption%20Framework'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Interactive Guide
+      - iconUrl: ''
+        description: |-
+          Prepare your cloud environment with Cloud Adoption Framework Watch this video to learn about the Azure Migration and Modernization Program.
+          Discover how to get technical training, resources for using best practices, and support at every stage with a proven approach, unique cost-saving offers, and step-by-step guidance from Azure engineers and expert Azure migration partners.
+        links:
+          - title: 'https://docs.microsoft.com/video/media/8275d4c7-736b-489f-a49f-9d86962d3927/simplifycloudmigration_high.mp4'
+            url: 'https://azure.microsoft.com/en-us/migration/migration-modernization-program/#program-form'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Join the program!
+  recommendationsTitle: ''
+owner:
+  firstName: 'Dom '
+  lastName: Allen
+  email: Dominic.Allen@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - azure
+uid: 21765fea-dfe6-4bc4-8bb7-db9df5a6f6c0
+name: Find a local Azure Migration and Modernization Program Partner

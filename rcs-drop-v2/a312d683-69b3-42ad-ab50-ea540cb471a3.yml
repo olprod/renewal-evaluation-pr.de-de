@@ -1,0 +1,90 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Security and reliability controls are enforced with Azure Policy.
+    description: Any deviation from the strong security configuration can be automatically remediated or prohibited with Azure Policy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '1'
+    text: Production environments are protected with Privileged Identity Management (PIM).
+    description: PIM ensures that there's no long-standing access to production environments for user accounts.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '2'
+    text: Azure Managed Identities are used for all supported services.
+    description: Managed Identities facilitate the removal of credentials from application code and remove the operational burden of identity management for service-to-service communication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '3'
+    text: Azure Active Directory role-based access control (RBAC) is used for data plane authorization where supported.
+    description: Some services support RBAC alongside keys to manage access to data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '4'
+    text: Microsoft Defender for Cloud is enabled for all mission-critical subscriptions.
+    description: Microsoft Defender for Cloud (formerly known as Azure Security Center) should be enabled on all subscriptions that contain resources for a mission-critical workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '5'
+    text: First-party identity platform authentication libraries are used.
+    description: Using the official first-party authentication SDKs (such as MSAL) ensures compatibility and secure token caching.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '6'
+    text: All application updates are driven only through automated CI/CD pipelines.
+    description: 'Infrastructure as code (IaC) is preferred and no manual process is used for updates, including under failure circumstances.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '7'
+    text: A proper security posture was applied to lower environments.
+    description: 'Lower environments (for example, development) usually don''t require the same security controls as the production environment.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '8'
+    text: Security testing in CI/CD pipelines was implemented.
+    description: 'Security testing includes secret scanning, dependency scanning, automated vulnerability tests, benchmarking.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '9'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The Microsoft Zero Trust model provides a proactive and integrated approach to applying security across all layers of an application. The guiding principles of Zero Trust strive to explicitly and continuously verify every transaction, assert least privilege, use intelligence, and advanced detection to respond to threats in near real-time.'
+isRequired: false
+uid: a312d683-69b3-42ad-ab50-ea540cb471a3
+name: The Microsoft Zero Trust model provides a proactive and integrated approach to applying security across all layers of an application.

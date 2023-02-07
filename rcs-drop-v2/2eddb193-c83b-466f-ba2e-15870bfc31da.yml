@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have configured high availability.
+    description: 'Azure Database for PostgreSQL - Hyperscale (Citus) provides high availability (HA) to avoid database downtime. With HA enabled, every node in a server group will get a standby. If the original node becomes unhealthy, its standby will be promoted to replace it.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: We configure retry logic or pgbouncer for the connection pool.
+    description: This is important so that the app is resilient and does not go down for network blips or when we do upgrades . This is a must do to prevent availability issues.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for PostgreSQL. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-PostgreSQL
+uid: 2eddb193-c83b-466f-ba2e-15870bfc31da
+name: Please choose the applicable Well-Architected reliability considerations for PostgreSQL.

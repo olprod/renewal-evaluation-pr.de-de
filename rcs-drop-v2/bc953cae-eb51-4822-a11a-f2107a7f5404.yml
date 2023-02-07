@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We review code changes infrequently and have no polices
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: We review code changes by live peer reviews or pair programming
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'Some code is reviewed and we capture the review history using a pull request workflow or the equivalent '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: We make sure all code changes are peer-reviewed before being committed to the master or trunk by means of a pull request workflow/branch policies or the equivalent and have branch polices enforced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 45
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'All code changes should be peer-reviewed and approved, regardless of the scope of the change. Even one-line code updates frequently introduce bugs to a system.'
+isRequired: true
+uid: bc953cae-eb51-4822-a11a-f2107a7f5404
+name: 'All code changes should be peer-reviewed and approved, regardless of the scope of the change.'

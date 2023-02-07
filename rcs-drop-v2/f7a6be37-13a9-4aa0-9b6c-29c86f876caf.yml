@@ -1,0 +1,33 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Monitor ingress and egress metrics and create an alert for when it gets close to the limit.
+    description: Then contact your Microsoft account team to ask if the limit can be raised.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: f7a6be37-13a9-4aa0-9b6c-29c86f876caf
+name: What decisions have been taken to ensure networking and connectivity meets your reliability requirements?

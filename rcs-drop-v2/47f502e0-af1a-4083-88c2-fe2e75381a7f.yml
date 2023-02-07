@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Applied network segmentation for SQL Server data workloads, using NSGs, ASGs, UDRs and dedicated subnets.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: DDoS mitigation plan is in place.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: Implemented data exfiltration protection policies such as VNET service endpoint policies for Azure Storage.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: Using only local or private VNET communication between SQL Server and your application when public access is not required.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Configured SQL Server to listen on a non-default port.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: 'Restricted network port traffic at various levels using native capabilities such as Azure Firewall, NSGs, and Windows Firewall.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: network-data-sqlvm
+uid: 47f502e0-af1a-4083-88c2-fe2e75381a7f
+name: How have you secured the network of your SQL VM workload?

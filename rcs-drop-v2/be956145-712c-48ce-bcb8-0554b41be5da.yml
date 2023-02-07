@@ -1,0 +1,61 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'For more information on this topic, read the relevant section on strategy foundation to better plan, define, and craft your project''s vision and strategy. Having a clear strategy and vision heavily minimizes the chances of misalignment between teams, and wrong expectations setting.  '
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=92'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Vision and approach
+    priority: 75
+    reportingCategory: Vision and approach
+    reportingSubCategory: Vision and approach
+  - title: 'For more information on this topic, read the relevant section on allocating resources to increase clarity and prevent misalignment during the implementation. '
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=93'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Project organization and budgeting
+    priority: 50
+    reportingCategory: Project organization and budgeting
+    reportingSubCategory: Project organization and budgeting
+  - title: 'For further information on the types of areas to consider in your budget and resource allocation, visit the Implementation Guide'
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=95'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Project organization and budgeting
+    priority: 50
+    reportingCategory: Project organization and budgeting
+    reportingSubCategory: Project organization and budgeting
+  - title: Visit the Implementation Guide for recommendations on project methodologies
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=97'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Project organization and budgeting
+    priority: 80
+    reportingCategory: Project organization and budgeting
+    reportingSubCategory: Project organization and budgeting
+  - title: 'For Microsoft''s recommendations on suitable methodology considerations, see the TechTalk "Implementation Approach with Agile Techniques for Dynamics 365 Business Applications".'
+    url: 'https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/implementation-approach-with-agile-techniques-for-dynamics-365-business-applications-april-26-2021'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: be956145-712c-48ce-bcb8-0554b41be5da
+name: ''

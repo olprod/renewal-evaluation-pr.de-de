@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'SAP Application and resource level logs are either aggregated in a single data sink, or it is possible to cross-query events at both levels'
+    description: |-
+      Are application and resource level logs aggregated in a single data sink, or is it possible to cross-query events at both levels?.
+      VM Insights, Azure Monitor
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: SAP Solution MAI with Wily Introscope or 3rd party tool configured to visualize SAP application event trends.
+    description: Are application level events automatically correlated with resource level metrics to quantify the current application state?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: Azure Monitor for SAP configured and custom dashboard created for visualization of SAP on Azure workload from Azure Portal.
+    description: Is a health model used to qualify what 'healthy' and 'unhealthy' states represent for the SAP application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '3'
+    text: Retention times for logs and metrics have been defined and with housekeeping mechanisms configured
+    description: Have retention times for logs and metrics been defined and with housekeeping mechanisms configured?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Visualizing Data'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWJZDv'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: Dashboarding tools should be used to visualize metrics and events collected at the application and resource levels to illustrate the health model and the current operational state of the workload.
+isRequired: false
+uid: 2c13bd39-0749-46ef-beab-625ae605d843
+name: Dashboarding tools should be used to visualize metrics and events collected at the application and resource levels to illustrate the health model and the current operational state of the workload.

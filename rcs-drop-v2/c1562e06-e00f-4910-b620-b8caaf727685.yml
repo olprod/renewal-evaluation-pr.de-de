@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Result set Caching.
+    description: This allows subsequent query executions to get results directly from the persisted cache so recomputation is not needed.Reduces compute resource usage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Collect and Maintain Statistics on data.
+    description: 'The dedicated SQL pool query optimizer is a cost-based optimizer. It compares the cost of various query plans, and then chooses the plan with the lowest cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: Use Azure Synapse Analytics Serverless SQL Pool.
+    description: 'There is no charge for resources reserved, you are only being charged for the data processed by queries you run, hence this model is a true pay-per-use model.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: Use Azure Synapse Analytics Dedicated SQL Pool Pause and Resume feature.
+    description: Lower costs by pausing the dedicated SQL pool.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: Use Azure Synapse Analytics Apache Spark Pool Auto Scaling Feature.
+    description: Apache Spark for Azure Synapse Analytics pool's Autoscale feature automatically scales the number of nodes in a cluster instance up and down.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Use Azure Synapse Analytics Apache Spark Pool Auto Pause Feature.
+    description: Apache Spark for Azure Synapse Analytics pool's Auto Pause feature automatically release the unused resources to save cost.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Use Azure Pricing Calculator
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: Consider the distribution of often-used tables to determine if best distribution is being used.
+    description: 'It''s possible more DWUs are being used when data distribution could be optimized, allowing for fewer DWUs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.G
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: optimize-data-synapse
+uid: c1562e06-e00f-4910-b620-b8caaf727685
+name: What actions are you taking to optimize cloud costs?

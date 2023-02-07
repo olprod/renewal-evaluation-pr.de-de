@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - a6eb70d5-1829-4527-90fc-252d31633e57
+recommendations:
+  - efc62c36-6292-46ba-8dce-26965b2b8f26
+assignedGroupIds: []
+uid: 0fc0a3f3-e4c1-4c51-82c3-7b6905802e1f
+name: 'Go-Live - VM: Security'

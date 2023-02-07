@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've documented your HA/DR procedures according to your solution-defined SLAs.
+    description: It's a best practice to design and document your HA/DR processes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: You've tested and verified your HA/DR procedures according to your solution-defined SLAs.
+    description: 'In addition to being well-documented, HA/DR processes also need to be periodically tested to ensure validity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: 'No, you don''t have a HA/DR process in place.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Even if you''ve designed an efficient and complex HA/DR plan, you should verify that everything works as planned and identify any issues before the problems occur. Don''t select any option if you rely on Microsoft-initiated failover.'
+isRequired: false
+uid: 27d177ee-b423-4cb0-9a35-1c242274bed4
+name: 'Even if you''ve designed an efficient and complex HA/DR plan, you should verify that everything works as planned and identify any issues before the problems occur. Don''t select any option if you rely on Microsoft-initiated failover.'

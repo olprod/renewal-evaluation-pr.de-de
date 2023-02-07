@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We don't need one because it will be managed by the partner.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We have a document listing the external systems our app will be integrated with, but we do not yet have an integration strategy defined.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We have started a data integration strategy and architecture diagram, but we do not yet have details of the key data entities in scope and the anticipated volumes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'We have a detailed data integration strategy and architecture document with details of the key data entities, anticipated volumes and a mapping to integration patterns'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: What is your data integration ownership and management process?
+isRequired: true
+uid: 99edc1bb-d19d-4850-8503-512c1f85b107
+name: What is your data integration ownership and management process?

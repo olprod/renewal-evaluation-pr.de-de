@@ -1,0 +1,79 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: You have a capacity model for the workload.
+    description: 'A capacity model should describe the relationships between the utilization of various components as a ratio, to capture when and how application components should scale-out.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Capacity utilization is monitored and used to forecast future growth.
+    description: Predicting future growth and capacity demands can prevent outages due to insufficient provisioned capacity over time.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: A process for provisioning and de-provisioning capacity has been established.
+    description: 'Codifying and automating the process helps to avoid human error, varying results and to speed up the overall process.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: You have enabled auto-scaling for all PaaS and IaaS services that support it.
+    description: 'Leveraging built-in Auto-scaling capabilities can help to maintain system reliability in times of increased demand while not needing to over-provision resources up-front, by letting a service automatically scale within a pre-configured range of resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: You are aware of relevant Azure service limits and quotas.
+    description: 'Due to physical and logical resource constraints within the platform, Azure must apply limits and quotas to service scalability, which may be either hard or soft.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: You have validated the SKU and configuration choices are appropriate for your anticipated loads.
+    description: 'Understand which SKUs you have selected and ensure that they are the correct size. Additionally, ensure you understand the configuration of those SKUs (e.g. auto-scale settings for Application Gateways and App Services).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: There is a strategy in place to manage events that may cause a spike in load.
+    description: 'Knowing if there will be sudden spikes in traffic (Superbowl, Black Friday, or Marketing pushes) can allow you to prepare your infrastructure ahead of time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Sufficient capacity
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4IwwB'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'It''s critical to be aware of the systems that are in place, measure their performance, and evaluate patterns in usage to predict demand.'
+isRequired: false
+legacyId: capacity
+uid: 880efd44-db19-4c58-a842-283777f7a989
+name: 'It''s critical to be aware of the systems that are in place, measure their performance, and evaluate patterns in usage to predict demand.'

@@ -1,0 +1,23 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to load millions of rows of data to a table in an Azure Synapse Analytics dedicated SQL pool every hour. The data load must complete as quickly as possible.
+
+  Which approach should you recommend?
+questionnaireUid: b83b585d-3829-485f-b611-217b35a33896
+questions:
+  - uid: f37e6368-c747-4354-86a8-898e48bfd532-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You need to load millions of rows of data to a table in an Azure Synapse Analytics dedicated SQL pool every hour.
+        isCorrect: true
+      - id: 1
+        text: The data load must complete as quickly as possible.
+        isCorrect: false
+      - id: 2
+        text: Which approach should you recommend?
+        isCorrect: false
+uid: f37e6368-c747-4354-86a8-898e48bfd532
+title: ''

@@ -1,0 +1,34 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Exchange Online.  
+
+  The company creates a retention policy that permanently deletes items after five years. 
+
+  Some users inquire how the policy will affect recurring calendar items. 
+
+  You need to advise the users on when recurring calendar items will be deleted. 
+
+  What should you advise? 
+questionnaireUid: aaa3a53b-87d7-4472-b9e8-27c866ed5904
+questions:
+  - uid: f5f76dba-1ed7-4201-a9f5-87707f3517d7-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'A company uses Exchange Online. '
+        isCorrect: false
+      - id: 1
+        text: 'The company creates a retention policy that permanently deletes items after five years. '
+        isCorrect: false
+      - id: 2
+        text: 'Some users inquire how the policy will affect recurring calendar items. '
+        isCorrect: true
+      - id: 3
+        text: 'You need to advise the users on when recurring calendar items will be deleted. '
+        isCorrect: false
+    manualId: MS220.3.12
+uid: f5f76dba-1ed7-4201-a9f5-87707f3517d7
+title: ''
+manualId: ''

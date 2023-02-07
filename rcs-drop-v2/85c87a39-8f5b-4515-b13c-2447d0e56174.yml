@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: A Web Application Firewall (WAF) is being used and is running in prevention mode.
+    description: 'A WAF, either a native Azure service or a third-party cloud service or appliance (e.g. hosted on VMs), is being used.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: Azure Web Application Firewall (WAF) is used for traffic inspection.
+    description: Azure WAF provides out-of-the-box protection against the top 10 OWASP vulnerabilities using managed rule sets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: WAF is enabled in Azure Front Door to do traffic inspection at the network edge.
+    description: 'Azure Front Door also provides WAF capabilities at a global traffic level. Capabilities include firewall rulesets to protect against common attacks, geo-filtering, address blocking, rate limiting, and signature matching.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: An edge cache (or CDN) is being used to optimize content delivery.
+    description: 'Edge caches store and serve static data to clients from nodes in the network edge, thereby increasing client performance and optimizing delivery cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: Azure DDoS Protection is enabled.
+    description: Azure DDoS Protection Basic is integrated with Azure Front Door. Azure DDoS Protection Standard can be manually enabled on public IP addresses.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '5'
+    text: All Azure load balancers are deployed in Standard SKU.
+    description: The Azure Basic load balancer SKU isn't backed by an SLA and has several capability constraints compared to the Standard SKU.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '6'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Application delivery services, such as content delivery network (CDN) or firewall, ensure secure, reliable, and scalable ingress traffic.'
+isRequired: false
+uid: 85c87a39-8f5b-4515-b13c-2447d0e56174
+name: 'Application delivery services, such as content delivery network (CDN) or firewall, ensure secure, reliable, and scalable ingress traffic.'

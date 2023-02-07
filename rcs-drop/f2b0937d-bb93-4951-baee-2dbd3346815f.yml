@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You build an Azure Cognitive Search solution.
+
+  You need to extract text from PDFs during indexing.
+
+  Which skill should you use?
+questionnaireUid: 66a5f542-a8b4-4797-8f63-e058a9fbe964
+questions:
+  - uid: f2b0937d-bb93-4951-baee-2dbd3346815f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You build an Azure Cognitive Search solution.
+        isCorrect: false
+      - id: 1
+        text: You need to extract text from PDFs during indexing.
+        isCorrect: false
+      - id: 2
+        text: Which skill should you use?
+        isCorrect: false
+      - id: 3
+        text: key phrase extraction
+        isCorrect: true
+uid: f2b0937d-bb93-4951-baee-2dbd3346815f
+title: ''

@@ -1,0 +1,438 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Identify databases and data that have a high potential impact and/or a high potential exposure to risk
+    url: /azure/azure-sql/database/data-discovery-and-classification-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.f270dbbc-9c4a-4c7c-9c69-0526f7b4962c.A
+      scoreOf: []
+    context: 'Data Discovery & Classification is built into Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics. It provides basic capabilities for discovering, classifying, labeling, and reporting the sensitive data in your databases.'
+    priority: 65
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: 'Consider restricting access to any Storage Accounts with which SQL MI interacts '
+    url: /azure/storage/common/authorize-data-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.f270dbbc-9c4a-4c7c-9c69-0526f7b4962c.B
+      scoreOf: []
+    context: 'Each time you access data in your storage account, your client application makes a request over HTTP/HTTPS to Azure Storage. By default, every resource in Azure Storage is secured, and every request to a secure resource must be authorized. Authorization ensures that the client application has the appropriate permissions to access a particular resource in your storage account.'
+    priority: 65
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Privacy
+  - title: Always use Azure Key Vault to store all sensitive information which can be exposed in deployment and configuration scripts
+    url: 'https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.f270dbbc-9c4a-4c7c-9c69-0526f7b4962c.C
+      scoreOf: []
+    context: 'Centralizing storage of application secrets in Azure Key Vault allows you to control their distribution. Key Vault greatly reduces the chances that secrets may be accidentally leaked. When using Key Vault, application developers no longer need to store security information in their application. Not having to store security information in applications eliminates the need to make this information part of the code. For example, an application may need to connect to a database. Instead of storing the connection string in the app''s code, you can store it securely in Key Vault. Your applications can securely access the information they need by using URIs. These URIs allow the applications to retrieve specific versions of a secret. There is no need to write custom code to protect any of the secret information stored in Key Vault.'
+    priority: 60
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Privacy
+  - title: Sensitive data must not be stored in plaintext
+    url: /sql/relational-databases/security/encryption/always-encrypted-database-engine?view=azuresqldb-mi-current
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.f270dbbc-9c4a-4c7c-9c69-0526f7b4962c.C
+      scoreOf: []
+    context: 'Always Encrypted is a feature designed to protect sensitive data, such as credit card numbers or national identification numbers (for example, U.S. social security numbers), stored in Azure SQL Database or SQL Server databases. Always Encrypted allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to the Database Engine (SQL Database or SQL Server). As a result, Always Encrypted provides a separation between those who own the data and can view it, and those who manage the data but should have no access. By ensuring on-premises database administrators, cloud database operators, or other high-privileged unauthorized users, can''t access the encrypted data, Always Encrypted enables customers to confidently store sensitive data outside of their direct control. This allows organizations to store their data in Azure, and enable delegation of on-premises database administration to third parties, or to reduce security clearance requirements for their own DBA staff.'
+    priority: 65
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality
+  - title: Authenticate via Azure Active Directory where you can
+    url: /azure/azure-sql/database/authentication-aad-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.f270dbbc-9c4a-4c7c-9c69-0526f7b4962c.E
+      scoreOf: []
+    context: 'Azure Active Directory (Azure AD) authentication is a mechanism for connecting to Azure SQL Database, Azure SQL Managed Instance, and Synapse SQL in Azure Synapse Analytics by using identities in Azure AD.  With Azure AD authentication, you can centrally manage the identities of database users and other Microsoft services in one central location. Central ID management provides a single place to manage database users and simplifies permission management.'
+    priority: 61
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Privacy
+  - title: Data Masking can be used to protect sensitive data from unauthorized application users
+    url: /azure/azure-sql/database/dynamic-data-masking-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.f270dbbc-9c4a-4c7c-9c69-0526f7b4962c.F
+      scoreOf: []
+    context: 'Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics support dynamic data masking. Dynamic data masking limits sensitive data exposure by masking it to non-privileged users. Dynamic data masking helps prevent unauthorized access to sensitive data by enabling customers to designate how much of the sensitive data to reveal with minimal impact on the application layer. It’s a policy-based security feature that hides the sensitive data in the result set of a query over designated database fields, while the data in the database is not changed.'
+    priority: 59
+    reportingCategory: Data
+    reportingSubCategory: SQL Security
+  - title: Enable Azure Defender for SQL and create a security baseline for each database
+    url: /azure/azure-sql/database/azure-defender-for-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.A
+      scoreOf: []
+    context: 'Microsoft Defender for SQL is a unified package for advanced SQL security capabilities. Microsoft Defender for Cloud is available for Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics. It includes functionality for surfacing and mitigating potential database vulnerabilities, and detecting anomalous activities that could indicate a threat to your database. It provides a single go-to location for enabling and managing these capabilities.'
+    priority: 55
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Prioritize security best practices
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.B
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 56
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Lines of responsibility are established
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.C
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 60
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: The security team has read-only access into all environments
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.D
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 60
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality
+  - title: All the keys must be rotated per the compliance requirement of your organization
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.E
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 55
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality
+  - title: Assign a security incident notification contact
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.F
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 50
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Regularly review access from highly privileged accounts in audit logs
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.G
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 51
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Use blueprints to consistently deploy environments that comply with organizational policies
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.H
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 52
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Audit and enforce policy compliance
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.I
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 55
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: 'Discover and classify data which is playing a pivotal role in an organization''s information-protection approach, such as (but not limited to) business, financial, healthcare, or personal information'
+    url: /azure/azure-sql/database/data-discovery-and-classification-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.03bfa0aa-2d69-46a6-8841-55c8f9b3bfbb.J
+      scoreOf: []
+    context: 'Data Discovery & Classification is built into Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics. It provides basic capabilities for discovering, classifying, labeling, and reporting the sensitive data in your databases.'
+    priority: 59
+    reportingCategory: Data
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Data remains encrypted while traversing between application tiers
+    url: /azure/azure-sql/database/security-best-practice#network-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.ec853aae-dafb-492f-b230-caa624315044.A
+      scoreOf: []
+    context: 'Always Encrypted is a feature designed to protect sensitive data, such as credit card numbers or national identification numbers (for example, U.S. social security numbers), stored in Azure SQL Database or SQL Server databases. Always Encrypted allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to the Database Engine (SQL Database or SQL Server). As a result, Always Encrypted provides a separation between those who own the data and can view it, and those who manage the data but should have no access. By ensuring on-premises database administrators, cloud database operators, or other high-privileged unauthorized users, can''t access the encrypted data, Always Encrypted enables customers to confidently store sensitive data outside of their direct control. This allows organizations to store their data in Azure, and enable delegation of on-premises database administration to third parties, or to reduce security clearance requirements for their own DBA staff.'
+    priority: 56
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Privacy
+  - title: Transparent data encryption (TDE) is enabled to keep data encrypted at rest
+    url: /azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.ec853aae-dafb-492f-b230-caa624315044.B
+      scoreOf: []
+    context: 'Transparent data encryption (TDE) helps protect Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics against the threat of malicious offline activity by encrypting data at rest. It performs real-time encryption and decryption of the database, associated backups, and transaction log files at rest without requiring changes to the application. By default, TDE is enabled for all newly deployed Azure SQL Databases and must be manually enabled for older databases of Azure SQL Database. For Azure SQL Managed Instance, TDE is enabled at the instance level and newly created databases. TDE must be manually enabled for Azure Synapse Analytics.'
+    priority: 64
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Keys stored in Azure Key Vault should be periodically rotated
+    url: /azure/azure-sql/database/transparent-data-encryption-byok-key-rotation?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.ec853aae-dafb-492f-b230-caa624315044.C
+      scoreOf: []
+    context: 'Centralizing storage of application secrets in Azure Key Vault allows you to control their distribution. Key Vault greatly reduces the chances that secrets may be accidentally leaked. When using Key Vault, application developers no longer need to store security information in their application. Not having to store security information in applications eliminates the need to make this information part of the code. For example, an application may need to connect to a database. Instead of storing the connection string in the app''s code, you can store it securely in Key Vault. Your applications can securely access the information they need by using URIs. These URIs allow the applications to retrieve specific versions of a secret. There is no need to write custom code to protect any of the secret information stored in Key Vault.'
+    priority: 55
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Use strongest available cypher for data encryption
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.ec853aae-dafb-492f-b230-caa624315044.D
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 64
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Encryption
+  - title: Consider managing Always Encrypted keys with role separation if you're using Always Encrypted
+    url: /sql/relational-databases/security/encryption/overview-of-key-management-for-always-encrypted?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.ec853aae-dafb-492f-b230-caa624315044.E
+      scoreOf: []
+    context: 'Always Encrypted uses two types of cryptographic keys to protect your data - one key to encrypt your data, and another key to encrypt the key that encrypts your data. The column encryption key encrypts your data, the column master key encrypts the column encryption key. When discussing Always Encrypted keys and key management it is important to understand the distinction between the actual cryptographic keys, and the metadata objects that describe the keys. We use the terms column encryption key and column master key to refer to the actual cryptographic keys, and we use column encryption key metadata and column master key metadata to refer to the Always Encrypted key descriptions in the database.'
+    priority: 59
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Encryption
+  - title: 'When possible, avoid using SQL authentication and manage identities centrally using AAD'
+    url: /azure/azure-sql/database/authentication-aad-configure?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.722bcd27-6d92-417f-bc79-89263ea28651.A
+      scoreOf: []
+    context: 'Azure Active Directory (Azure AD) authentication is a mechanism for connecting to Azure SQL Database, Azure SQL Managed Instance, and Synapse SQL in Azure Synapse Analytics by using identities in Azure AD.  With Azure AD authentication, you can centrally manage the identities of database users and other Microsoft services in one central location. Central ID management provides a single place to manage database users and simplifies permission management.'
+    priority: 54
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Security principals must not be provided direct permissions
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.722bcd27-6d92-417f-bc79-89263ea28651.B
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 52
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Use built-in roles only when the minimum permission needed by the user matches the permissions assigned to the roles
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.722bcd27-6d92-417f-bc79-89263ea28651.C
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 59
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Consider securing passwords and secrets in Azure Key Vault and rotate them periodically if Password-based authentications cannot be avoided
+    url: /azure/key-vault/secrets/about-secrets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.722bcd27-6d92-417f-bc79-89263ea28651.D
+      scoreOf: []
+    context: 'Centralizing storage of application secrets in Azure Key Vault allows you to control their distribution. Key Vault greatly reduces the chances that secrets may be accidentally leaked. When using Key Vault, application developers no longer need to store security information in their application. Not having to store security information in applications eliminates the need to make this information part of the code. For example, an application may need to connect to a database. Instead of storing the connection string in the app''s code, you can store it securely in Key Vault. Your applications can securely access the information they need by using URIs. These URIs allow the applications to retrieve specific versions of a secret. There is no need to write custom code to protect any of the secret information stored in Key Vault.'
+    priority: 61
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Multi-factor authentication and conditional access have been considered for interactive database authentication
+    url: /azure/azure-sql/database/authentication-mfa-ssms-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.722bcd27-6d92-417f-bc79-89263ea28651.E
+      scoreOf: []
+    context: 'Multifactor authentication (MFA) adds a layer of protection to the sign-in process. When accessing accounts or apps, users provide additional identity verification, such as scanning a fingerprint or entering a code received by phone.'
+    priority: 65
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: 'User access has been restricted by implementing access control policies using RLS, roles with least privileges'
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.722bcd27-6d92-417f-bc79-89263ea28651.F
+      scoreOf: []
+    context: 'Row-Level Security enables you to use group membership or execution context to control access to rows in a database table. Row-Level Security (RLS) simplifies the design and coding of security in your application. RLS helps you implement restrictions on data row access. For example, you can ensure that workers access only those data rows that are pertinent to their department. Another example is to restrict customers'' data access to only the data relevant to their company. The access restriction logic is located in the database tier rather than away from the data in another application tier. The database system applies the access restrictions every time that data access is attempted from any tier. This makes your security system more reliable and robust by reducing the surface area of your security system.'
+    priority: 59
+    reportingCategory: Data
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Client machines connecting to Azure SQL MI should be using the latest supported version of TLS
+    url: /azure/azure-sql/database/security-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.8cfe8d6d-6639-40f0-9f86-bedc8cc22780.A
+      scoreOf: []
+    context: The Transport Layer Security (TLS) protocol is an industry standard designed to help protect the privacy of information communicated over the Internet. TLS 1.2 is a standard that provides security improvements over previous versions. TLS 1.2 will eventually be replaced by the newest released standard TLS 1.3 which is faster and has improved security. This article presents recommendations to secure .NET Framework applications that use the TLS protocol.
+    priority: 65
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Do not expose SQL MI to Internet through public endpoint if it's not required
+    url: /azure/azure-sql/managed-instance/public-endpoint-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.8cfe8d6d-6639-40f0-9f86-bedc8cc22780.B
+      scoreOf: []
+    context: 'Public endpoint for a managed instance enables data access to your managed instance from outside the virtual network. You are able to access your managed instance from multi-tenant Azure services like Power BI, Azure App Service, or an on-premises network. By using the public endpoint on a managed instance, you do not need to use a VPN, which can help avoid VPN throughput issues.'
+    priority: 65
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Consider using private link to connect SQL MI to specific Azure resources outside of your virtual network
+    url: /azure/private-link/private-link-overview?toc=/azure/virtual-network/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.8cfe8d6d-6639-40f0-9f86-bedc8cc22780.C
+      scoreOf: []
+    context: 'Azure Private Link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a private endpoint in your virtual network. Traffic between your virtual network and the service travels the Microsoft backbone network. Exposing your service to the public internet is no longer necessary. You can create your own private link service in your virtual network and deliver it to your customers. Setup and consumption using Azure Private Link is consistent across Azure PaaS, customer-owned, and shared partner services.'
+    priority: 65
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Have an intentional VNET and subnet strategy
+    url: /azure/azure-sql/managed-instance/vnet-existing-add-subnet
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.8cfe8d6d-6639-40f0-9f86-bedc8cc22780.D
+      scoreOf: []
+    context: 'Azure SQL Managed Instance must be deployed within an Azure virtual network and the subnet dedicated for managed instances only. You can use the existing virtual network and subnet if they''re configured according to the SQL Managed Instance virtual network requirements. You can create a managed instance only in virtual networks created through the Azure Resource Manager deployment model. Azure virtual networks created through the classic deployment model are not supported. Calculate subnet size by following the guidelines in the Determine the size of subnet for SQL Managed Instance article. You can''t resize the subnet after you deploy the resources inside.  After the managed instance is created, you can move the instance to another subnet inside the Vnet, but moving the instance or VNet to another resource group or subscription is not supported.'
+    priority: 85
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Ensure personnel are using MFA for their accounts and have just enough permissions assigned on instance/database level
+    url: /azure/azure-sql/database/authentication-aad-configure?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.d9d60e00-9f27-4aa6-ab9f-663c4233274f.A
+      scoreOf: []
+    context: 'Multifactor authentication (MFA) adds a layer of protection to the sign-in process. When accessing accounts or apps, users provide additional identity verification, such as scanning a fingerprint or entering a code received by phone.'
+    priority: 65
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Establish a lifecycle management policy for critical impact accounts
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.d9d60e00-9f27-4aa6-ab9f-663c4233274f.B
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 58
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Ensure appropriate emergency access accounts are configured
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.d9d60e00-9f27-4aa6-ab9f-663c4233274f.C
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a security control individually to help make your Azure resources compliant with the specific standard.'
+    priority: 65
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Access to SQL MI is audited/monitored
+    url: /azure/azure-sql/database/threat-detection-overview#explore-detection-of-a-suspicious-event
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.d9d60e00-9f27-4aa6-ab9f-663c4233274f.D
+      scoreOf: []
+    context: Advanced Threat Protection integrates its alerts with Microsoft Defender for Cloud. Live SQL Advanced Threat Protection tiles within the database and SQL Microsoft Defender for Cloud blades in the Azure portal track the status of active threats.
+    priority: 64
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: SQL MI by design is placed inside the Azure virtual network and the subnet that's dedicated to managed instances which provides a secure private IP address for the instance
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a7e1901c-1fd8-4cac-a93b-e159e2978f99.8cfe8d6d-6639-40f0-9f86-bedc8cc22780.B
+      scoreOf: []
+    context: Azure SQL Managed Instance must be deployed within an Azure virtual network and the subnet dedicated for managed instances only. You can use the existing virtual network and subnet if they're configured according to the SQL Managed Instance virtual network requirements.
+    priority: 65
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+uid: b6e6c469-9d31-45a4-ba49-92c91e201806
+name: ''

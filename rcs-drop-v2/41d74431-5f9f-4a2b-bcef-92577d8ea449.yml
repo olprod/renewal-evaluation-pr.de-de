@@ -1,0 +1,66 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: I don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: 41d74431-5f9f-4a2b-bcef-92577d8ea449-q-0
+    name: Do you have a GitHub account?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: I don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: 41d74431-5f9f-4a2b-bcef-92577d8ea449-q-1
+    name: Do you know the process to link your GitHub and Microsoft accounts?
+stem: ''
+isRequired: true
+legacyId: '1'
+uid: 41d74431-5f9f-4a2b-bcef-92577d8ea449
+name: Answer all the following questions regarding your GitHub account

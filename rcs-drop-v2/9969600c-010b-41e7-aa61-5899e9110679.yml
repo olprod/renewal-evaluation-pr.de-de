@@ -1,0 +1,942 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: '[Q1] Properly test Azure IoT Edge modules.'
+    url: /azure/iot-edge/development-environment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.c4be79bd-827c-40aa-a1ef-594897c22826.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q1] Build and automate a testing plan for IoT devices.'
+    url: /answers/questions/421519/strategy-to-perform-integration-testing-of-azure-i.html
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.c4be79bd-827c-40aa-a1ef-594897c22826.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q1] Define a process to reprovision and deprovision IoT devices.'
+    url: /azure/iot-dps/concepts-device-reprovision
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.c4be79bd-827c-40aa-a1ef-594897c22826.2
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q2] Identify users who will manage and maintain IoT devices.'
+    url: /azure/architecture/example-scenario/iot/builders-developers-operators
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.7a7bc320-d846-4337-8d4a-0f20e3efec0a.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q2] Create managed identities.'
+    url: /azure/active-directory/managed-identities-azure-resources/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.7a7bc320-d846-4337-8d4a-0f20e3efec0a.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q2] Centralize identities for IoT solutions.'
+    url: /azure/security/fundamentals/identity-management-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.7a7bc320-d846-4337-8d4a-0f20e3efec0a.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q3] Create an inventory of IoT devices and Azure IoT Edge devices.'
+    url: /azure/defender-for-iot/device-builders/how-to-manage-device-inventory-on-the-cloud
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.0ee46e1c-24af-42e8-ac73-10d73f41266c.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q3] Manage devices at scale with Azure IoT Hub and Device Provisioning Service.'
+    url: /azure/iot-hub/iot-hub-device-management-overview#device-management-patterns
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.0ee46e1c-24af-42e8-ac73-10d73f41266c.1
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q3] Use device twins and tags in Azure IoT Hub to manage your device inventory.'
+    url: /azure/iot-hub/iot-hub-devguide-device-twins
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.0ee46e1c-24af-42e8-ac73-10d73f41266c.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q4] Monitor your IoT solution with Azure Monitor.'
+    url: /azure/iot-hub/monitor-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.df551df4-d02b-4a18-a08d-a42451111040.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q4] Aggregate logs using Azure Log Analytics.'
+    url: /azure/iot-hub/monitor-iot-hub#collection-and-routing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.df551df4-d02b-4a18-a08d-a42451111040.1
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q4] Monitor your IoT solution with Azure Monitor.'
+    url: /azure/azure-monitor/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.df551df4-d02b-4a18-a08d-a42451111040.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q4] Configure service health alerts.'
+    url: /azure/iot-hub/iot-hub-azure-service-health-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.df551df4-d02b-4a18-a08d-a42451111040.3
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q4] Configure the Azure activity log.'
+    url: /azure/iot-hub/monitor-iot-hub#collection-and-routing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.df551df4-d02b-4a18-a08d-a42451111040.4
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q5] Configure Azure Monitor for Azure IoT Edge.'
+    url: 'https://github.com/Azure-Samples/iotedge-logging-and-monitoring-solution#monitoring-architecture-reference'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.dfc74ee1-932e-4239-a63a-aa2080e21862.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q5] Verify access to the storage blob from the Azure IoT Edge device.'
+    url: /azure/storage/blobs/storage-blob-download
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.dfc74ee1-932e-4239-a63a-aa2080e21862.1
+      scoreOf: []
+    context: ''
+    priority: 1
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q5] Add the metrics collector module from the marketplace to a deployment.'
+    url: /azure/iot-edge/how-to-collect-and-transport-metrics#metrics-collector-module
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.dfc74ee1-932e-4239-a63a-aa2080e21862.2
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q5] Configure service health alerts.'
+    url: /azure/service-health/resource-health-alert-monitor-guide
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.dfc74ee1-932e-4239-a63a-aa2080e21862.3
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q5] Configure the Azure activity log.'
+    url: /azure/azure-monitor/essentials/activity-log
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.dfc74ee1-932e-4239-a63a-aa2080e21862.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q6] Use the Azure IoT Hub device SDK.'
+    url: /azure/iot-hub/iot-hub-reliability-features-in-sdks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.871b247e-8e6a-431e-8cb7-c13d972e7648.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q6] Test Azure IoT Edge offline capabilities.'
+    url: /azure/iot-edge/offline-capabilities
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.871b247e-8e6a-431e-8cb7-c13d972e7648.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q6] Review hardware specifications for Azure IoT Edge devices.'
+    url: /azure/iot-edge/support?view=iotedge-1.4
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.871b247e-8e6a-431e-8cb7-c13d972e7648.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q7] Implement Azure DevOps.'
+    url: /azure/iot-edge/how-to-continuous-integration-continuous-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.d8db1eaa-b2ed-4ac5-ad15-8413d0cdc853.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q7] Prepare the environment to create pipelines.'
+    url: /azure/iot-edge/how-to-devops-starter
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.d8db1eaa-b2ed-4ac5-ad15-8413d0cdc853.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q7] Create build pipelines.'
+    url: /azure/iot-edge/how-to-continuous-integration-continuous-deployment#create-a-build-pipeline-for-continuous-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.d8db1eaa-b2ed-4ac5-ad15-8413d0cdc853.2
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q7] Create release pipelines.'
+    url: /azure/iot-edge/how-to-continuous-integration-continuous-deployment#create-a-release-pipeline-for-continuous-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.d8db1eaa-b2ed-4ac5-ad15-8413d0cdc853.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q7] Document the DevOps process for Azure IoT Edge.'
+    url: /training/modules/implement-cicd-iot-edge
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.d8db1eaa-b2ed-4ac5-ad15-8413d0cdc853.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q8] Document testing steps.'
+    url: /azure/iot-hub/iot-hub-ha-dr#manual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.528979f2-e2f3-4604-a0cb-890cfa22ed3c.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q8] Test failover and failback.'
+    url: /azure/iot-hub/tutorial-manual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.528979f2-e2f3-4604-a0cb-890cfa22ed3c.1
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q8] Define the health model.'
+    url: /azure/iot-hub/monitor-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.528979f2-e2f3-4604-a0cb-890cfa22ed3c.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q8] Verify the intra-region high-availability architecture.'
+    url: /azure/iot-hub/iot-hub-ha-dr#intra-region-ha
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.528979f2-e2f3-4604-a0cb-890cfa22ed3c.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q8] Document recovery steps.'
+    url: /azure/iot-hub/iot-hub-ha-dr#microsoft-initiated-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.528979f2-e2f3-4604-a0cb-890cfa22ed3c.4
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q9] Set up usage monitoring and an automated/coded approach to auto-scale your ingestion infrastructure.'
+    url: /azure/iot-hub/iot-hub-scaling#auto-scale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.1194c8b2-05ec-4fc8-ad6f-d357b2617b61.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q9] Set up monitoring and alerting to determine if devices are unhealthy.'
+    url: /azure/iot-hub/monitor-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.1194c8b2-05ec-4fc8-ad6f-d357b2617b61.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q9] Validate what-if scenarios to determine if your ingestion service''s limits/quotas and current/future capacity can meet your system''s load.'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.1194c8b2-05ec-4fc8-ad6f-d357b2617b61.2
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q9] Validate what-if scenarios to determine if your ingestion service''s current and future capacity can meet your system''s load in specific Azure regions.'
+    url: 'https://azure.microsoft.com/global-infrastructure/products-by-region'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.1194c8b2-05ec-4fc8-ad6f-d357b2617b61.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q9] Set up monitoring and alerting to determine if you''re reaching your capacity threshold.'
+    url: /azure/iot-hub/monitor-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.1194c8b2-05ec-4fc8-ad6f-d357b2617b61.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q10] Develop a process using common CI/CD practices to deploy firmware and configuration changes.'
+    url: /azure/iot-hub/iot-hub-configuration-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.06639aeb-1dab-45d6-af2b-a68ded9a0293.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q10] Use a no-touch provisioning service such as Azure IoT Hub Device Provisioning Service.'
+    url: /azure/iot-dps/about-iot-dps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.06639aeb-1dab-45d6-af2b-a68ded9a0293.1
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q10] Document any and all manual steps needed to fully provision and connect a device.'
+    url: /azure/iot-dps/about-iot-dps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.06639aeb-1dab-45d6-af2b-a68ded9a0293.2
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q10] Develop a process that uses common CI/CD practices to deploy and track your firmware versions.'
+    url: /azure/iot-edge/how-to-continuous-integration-continuous-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.06639aeb-1dab-45d6-af2b-a68ded9a0293.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q10] Use a CI/CD tool, such as Azure DevOps or GitHub Actions, to implement these practices.'
+    url: /azure/architecture/guide/devops/devops-start-here
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.06639aeb-1dab-45d6-af2b-a68ded9a0293.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q11] Define and store all ingestion infrastructure using an infrastructure as code language, such as Azure Bicep or ARM templates.'
+    url: /azure/iot-hub/iot-hub-rm-template-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.8dc3d8fc-2e44-4509-836f-b7c9a1ac286e.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q11] Define a process to track and address changes to firmware, configuration settings, and ingestion infrastructure code.'
+    url: /azure/iot-hub/iot-hub-device-management-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.8dc3d8fc-2e44-4509-836f-b7c9a1ac286e.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q11] Use a CI/CD tool, such as Azure DevOps or GitHub Actions, to deploy your infrastructure code.'
+    url: /azure/architecture/example-scenario/devops/automate-azure-pipelines
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.8dc3d8fc-2e44-4509-836f-b7c9a1ac286e.2
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q11] Create test environments that use the same firmware, configuration settings, and ingestion infrastructure code as your production environments.'
+    url: /azure/iot-hub/quickstart-bicep-route-messages?tabs=CLI
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.8dc3d8fc-2e44-4509-836f-b7c9a1ac286e.3
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q11] Lock down write access to your ingestion infrastructure using IAM or governance tooling, such as Azure role-based access control or Azure Policy.'
+    url: /azure/azure-resource-manager/management/lock-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.8dc3d8fc-2e44-4509-836f-b7c9a1ac286e.4
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q12] Enable your devices to receive over-the-air updates via secure services such as Device Update for Azure IoT Hub, Azure IoT Edge automatic deployments, or Azure IoT Hub automatic device management.'
+    url: /azure/iot-hub-device-update/understand-device-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.1cf1ddc9-f3bd-4bb5-9f8c-0a570ddb6531.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q12] Set up monitoring and alerting for configuration settings and firmware updates.'
+    url: /azure/iot-edge/module-deployment-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.1cf1ddc9-f3bd-4bb5-9f8c-0a570ddb6531.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q12] Store configuration data, such as secrets or specific settings, in a secure store such as Azure Key Vault.'
+    url: /azure/iot-edge/how-to-continuous-integration-continuous-deployment#create-a-release-pipeline-for-continuous-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.1cf1ddc9-f3bd-4bb5-9f8c-0a570ddb6531.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q12] Use device Twins and deployment manifests in Azure IoT Hub to update configuration settings.'
+    url: /azure/iot-hub/iot-hub-devguide-device-twins
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.1cf1ddc9-f3bd-4bb5-9f8c-0a570ddb6531.3
+      scoreOf: []
+    context: ''
+    priority: 30
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q13] Use device Update for Azure IoT Hub to deploy over-the-air updates to your IoT devices.'
+    url: /azure/iot-hub-device-update/understand-device-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.12d753f2-b0f1-4ac4-a214-b5bbafff33ed.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q13] Adopt DevOps with your Azure IoT Edge applications with the built-in Azure IoT Edge tasks in Azure Pipelines.'
+    url: /azure/iot-edge/how-to-continuous-integration-continuous-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.12d753f2-b0f1-4ac4-a214-b5bbafff33ed.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q13] Manage and configure modules on large numbers of Azure IoT Edge devices by using automatic and layered deployments.'
+    url: /azure/iot-edge/module-deployment-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.12d753f2-b0f1-4ac4-a214-b5bbafff33ed.2
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q13] Implement your own custom update mechanism.'
+    url: 'https://github.com/Azure/azure-iot-sdk-node/blob/main/doc/dmpatterns.md'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.12d753f2-b0f1-4ac4-a214-b5bbafff33ed.3
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q14] Process IoT data streams in the right order.'
+    url: 'https://techcommunity.microsoft.com/t5/internet-of-things-blog/processing-ordered-iot-streams-in-azure/ba-p/822926'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.2a7c9c2f-86d1-43ec-a70b-3ee90d5f2129.0
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q14] Handle duplicate messages in Azure IoT Hub by using using Azure Stream Analytics.'
+    url: /azure/stream-analytics/stream-analytics-stream-analytics-query-patterns#remove-duplicate-events-in-a-window
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.2a7c9c2f-86d1-43ec-a70b-3ee90d5f2129.1
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q14] Add logic to your devices to manage connection, re-connection, and retry messages.'
+    url: /azure/iot-hub/iot-hub-reliability-features-in-sdks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.2a7c9c2f-86d1-43ec-a70b-3ee90d5f2129.2
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q14] Use Azure IoT Hub message routing to send messages to built-in or custom endpoints such as blob storage, Service Bus Queues, Service Bus Topics, and Event Hubs.'
+    url: /azure/iot-hub/tutorial-routing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.2a7c9c2f-86d1-43ec-a70b-3ee90d5f2129.3
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q14] Determine the Azure IoT Hub tier and number of units you need for the maximum daily quota of messages that you send.'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.2a7c9c2f-86d1-43ec-a70b-3ee90d5f2129.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Automation and DevOps
+  - title: '[Q15] Use Azure Monitor to collect Azure IoT Hub metrics.'
+    url: /azure/iot-hub/monitor-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.adaae4b2-349c-489b-80ec-8faa627d82da.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q15] Create Azure Monitor alerts to proactively notify you when important conditions are found in your monitoring data.'
+    url: /azure/iot-hub/monitor-iot-hub#alerts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.adaae4b2-349c-489b-80ec-8faa627d82da.1
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q15] Use Azure Event Grid to monitor device connection state.'
+    url: /azure/iot-hub/monitor-device-connection-state
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.adaae4b2-349c-489b-80ec-8faa627d82da.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q15] Use Event Grid and Azure Monitor to detect issues.'
+    url: /azure/iot-hub/iot-hub-troubleshoot-connectivity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.adaae4b2-349c-489b-80ec-8faa627d82da.3
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q15] Use Azure Monitor to remotely monitor your Azure IoT Edge devices.'
+    url: /azure/iot-edge/how-to-collect-and-transport-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.adaae4b2-349c-489b-80ec-8faa627d82da.4
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Monitoring and alerting
+  - title: '[Q16] Configure Device Provisioning Service to provision IoT devices in a secure and scalable manner.'
+    url: /azure/iot-dps/quick-setup-auto-provision
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.dfe40cc2-351d-42c6-b3fa-c99ad4fc49f9.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q16] Manage device reprovision, unenrollment, and deprovision processes.'
+    url: /azure/iot-dps/how-to-reprovision
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.dfe40cc2-351d-42c6-b3fa-c99ad4fc49f9.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q16] Create a custom allocation policy to implement fine-grained allocations to IoT hubs.'
+    url: /azure/iot-dps/how-to-use-custom-allocation-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.dfe40cc2-351d-42c6-b3fa-c99ad4fc49f9.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q17] Grant permissions to access Azure IoT Hub service APIs'
+    url: /azure/iot-hub/iot-hub-dev-guide-azure-ad-rbac
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.188331e4-17f1-4138-a5eb-91ca0b62b2c5.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q17] Create access policies for Azure IoT Hub.'
+    url: /azure/iot-hub/iot-hub-dev-guide-sas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.188331e4-17f1-4138-a5eb-91ca0b62b2c5.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q17] Assign roles to users, groups, service principals, or managed identities to Azure resources.'
+    url: /azure/role-based-access-control/role-assignments-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.188331e4-17f1-4138-a5eb-91ca0b62b2c5.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q17] Ensure device manufacturers and other third parties can enroll devices and gateways.'
+    url: /azure/iot-dps/concepts-roles-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.188331e4-17f1-4138-a5eb-91ca0b62b2c5.3
+      scoreOf: []
+    context: ''
+    priority: 30
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Solution Operation and Scaling
+  - title: '[Q18] Use Device Provisioning Service to enable zero-touch, just-in-time provisioning to Azure IoT Hub.'
+    url: /azure/iot-dps/about-iot-dps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.f7adf6e4-dd67-4257-ac4e-a93abd6414e9.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q18] Use Azure IoT Hub configurations to update device twins at scale.'
+    url: /azure/iot-hub/iot-hub-configuration-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.f7adf6e4-dd67-4257-ac4e-a93abd6414e9.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q18] Use Azure IoT Hub jobs for batch device management operations.'
+    url: /azure/iot-hub/iot-hub-devguide-jobs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.f7adf6e4-dd67-4257-ac4e-a93abd6414e9.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q18] Use over-the-air device updates.'
+    url: /azure/iot-hub-device-update/understand-device-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.f7adf6e4-dd67-4257-ac4e-a93abd6414e9.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q18] Deploy your Azure IoT Edge modules at scale to your devices.'
+    url: /azure/iot-edge/how-to-deploy-at-scale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.f7adf6e4-dd67-4257-ac4e-a93abd6414e9.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+  - title: '[Q18] Develop and execute your own CI/CD pipeline to build and deploy Azure IoT Edge modules at scale to your devices.'
+    url: /azure/iot-edge/how-to-continuous-integration-continuous-deployment-classic
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 97aff36c-1437-42cf-a25e-90246ead4129.f7adf6e4-dd67-4257-ac4e-a93abd6414e9.5
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Operational Excellence
+    reportingSubCategory: Device Management
+uid: 9969600c-010b-41e7-aa61-5899e9110679
+name: ''

@@ -1,0 +1,49 @@
+### YamlMime:QuestionSet
+scenario: |+
+  You have a Power BI data model that contains a table named Contacts. 
+
+  Contacts contains the following text columns: 
+
+  - Name 
+     
+
+
+  - Email
+     
+
+
+  - Phone
+     
+
+
+  - Subscribed to Newsletter
+     
+  The Phone column contains the area code, number, and country code. The Subscribed to Newsletter column contains a value of true or false. 
+
+  You need to minimize the size of the data model by changing a column’s data type. The solution must prevent data loss.
+
+  What should you do?
+
+questionnaireUid: 982b02ff-5c5f-4d82-aec8-88fa12ca8801
+questions:
+  - uid: f1897ef5-4004-467c-bc4c-9f72bf32d509-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a Power BI data model that contains a table named Contacts.
+        isCorrect: false
+      - id: 1
+        text: 'Contacts contains the following text columns:'
+        isCorrect: true
+      - id: 2
+        text: Name
+        isCorrect: false
+      - id: 3
+        text: Email
+        isCorrect: false
+    manualId: PL-300.2.3.4 -PL-300.5.4
+uid: f1897ef5-4004-467c-bc4c-9f72bf32d509
+title: ''
+manualId: ''

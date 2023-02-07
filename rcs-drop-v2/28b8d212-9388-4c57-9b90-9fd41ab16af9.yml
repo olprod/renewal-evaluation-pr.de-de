@@ -1,0 +1,83 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Well-defined project goals are essential for steering a project to success. See this Implementation Guide section for recommendations on creating, reviewing and monitoring progress against your project goals.'
+    url: ' https://www.d365implementationguide.com/books/asvr/#p=165'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Project goals
+    priority: 80
+    reportingCategory: Project goals
+    reportingSubCategory: Project goals
+  - title: 'Aligning project goals with the priorities of the business stakeholders is essential. See our recommendations on creating, reviewing and monitoring progress against your project goals.'
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=165'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Project goals
+    priority: 60
+    reportingCategory: Project goals
+    reportingSubCategory: Project goals
+  - title: Read further for more detailed recommendations on how to better align the project organization to your project and business goals.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=169'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Project Strategies
+    priority: 60
+    reportingCategory: Project Strategies
+    reportingSubCategory: Project Strategies
+  - title: Read the recommendations in this section to help you to establish the most critical project governance practices and controls.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=178'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Project Strategies
+    priority: 60
+    reportingCategory: Project Strategies
+    reportingSubCategory: Project Strategies
+  - title: 'Read here for more recommendations on establishing and running effective architecture, design and change boards.'
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=183'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Project Structure and controls
+    priority: 80
+    reportingCategory: Project Structure and controls
+    reportingSubCategory: Project Structure and controls
+  - title: 'As testing is a significant part of the effort and cost of implementing a business application, early definition of the test strategy is critical to generate actionable projects tasks from the start, a reliable project completion date and good quality business outcomes.  See this section in the Implementation Guide.'
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=381'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: See this TechTalk on recommended practices to design a suitable Test Strategy.
+    url: 'https://community.dynamics.com/365/b/communityteam/posts/techtalk-test-strategy-for-finance-and-operations-implementations-october-21-2020'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 28b8d212-9388-4c57-9b90-9fd41ab16af9
+name: Project Governance Recommendations

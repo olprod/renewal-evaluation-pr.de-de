@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Are there any targets defined for management operations time?
+    description: 'For example, there are targets defined for the time to perform scale operations and the impact of scaling operations is understood.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Are there well-defined performance requirements for the workload?
+    description: Performance requirements baseline for the workload running on the Azure SQL DB should be defined to make sure targets can be met.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Have you automated as many manual processes as you possibly can?
+    description: 'Without detailed release process documentation, an operator might deploy a bad update or configuration setting.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Do you have a way to both define dependencies between resources and ensure they are deployed in the correct order?
+    description: 'Consider deploy, manage, and monitor workload as a group rather than handling its components individually.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Is your release process documented?
+    description: 'Without detailed release process documentation, an operator might deploy a bad update or may improperly configure settings for your SQL DB.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: b8f8ad80-f457-43bc-aad8-947312b101f9
+name: How are you managing the configuration of your workload?

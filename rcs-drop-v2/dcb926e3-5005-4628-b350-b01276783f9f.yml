@@ -1,0 +1,20 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 8b7c0f15-5eea-4201-9307-a8a8418e98fd
+  - b8f8ad80-f457-43bc-aad8-947312b101f9
+  - 2169ecb9-edef-4455-9e0a-bf4aa34d7c83
+  - 47806556-dd3d-443b-9c4f-01d485430ffb
+  - afebb0f4-b57b-4072-bed8-3b08a9e61286
+  - d2eabdde-e6cf-457e-925b-ffc4f58c4376
+  - 53de45b3-00bb-4daf-97db-d3d429f427aa
+  - 01f09443-c3ad-4c2d-a12d-d7ffac0097a1
+  - 93ffc5ef-1400-4003-8a0a-565d70ca6cf7
+  - 8291c7f0-2548-4af1-8faa-292828c8b5c7
+recommendations:
+  - 003a1011-61c5-460d-b8ca-03d03612d92f
+assignedGroupIds: []
+uid: dcb926e3-5005-4628-b350-b01276783f9f
+name: SQL DB - Operational Excellence

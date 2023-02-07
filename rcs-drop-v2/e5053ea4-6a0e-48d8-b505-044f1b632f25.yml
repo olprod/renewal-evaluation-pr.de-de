@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We plan to use Spark Structured Streaming for data ingestion.
+    description: "Databricks has excellent support for Spark Structured Streaming, which is the most popular framework in existing workloads.\_ For new projects, Delta Live Tables can provide a lower friction development experience for less complex streaming workloads."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: We plan to use streaming data to support other scenarios beyond Spark.
+    description: "Synapse integrates with the best-in-category ISV solutions like\_Striim and\_Confluent.\_ Azure Data Explorer can also be used in many real-time analytics scenarios."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does the workload require streaming/real-time data?
+isRequired: true
+uid: e5053ea4-6a0e-48d8-b505-044f1b632f25
+name: Does the workload require streaming/real-time data?

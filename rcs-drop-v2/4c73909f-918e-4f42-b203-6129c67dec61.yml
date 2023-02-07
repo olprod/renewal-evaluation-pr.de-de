@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no formal policies for collecting data from various sources.
+    description: Your organization has no formal policies for collecting data from various sources.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has policies defined and distributed for an approach to collect data from various sources.
+    description: Your organization has policies defined and distributed for an approach to collect data from various sources.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has data policies and data discovery defined and distributed across organization.
+    description: Your organization has data policies and data discovery defined and distributed across organization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has designed an approach to centralize common data discovery process and toolset to track and govern data activity.
+    description: Your organization has designed an approach to centralize common data discovery process and toolset to track and govern data activity.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has successfully implemented a centralized common data discovery process and toolset to track and govern data activity.
+    description: Your organization has successfully implemented a centralized common data discovery process and toolset to track and govern data activity.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have an established process to collect data from various sources by detecting patterns and outliers?
+isRequired: true
+uid: 4c73909f-918e-4f42-b203-6129c67dec61
+name: 'Do you have an established process to collect data from various sources by detecting patterns and outliers? '

@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Implementation and configuration of Azure SQL MI and the application pointing to it is scripted as code and merged with the code baseline.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Azure SQL database and application platform services are running in a highly available configuration/SKUs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: 'Azure SQL MI and application platform components are deployed and configured across regions for disaster recovery scenarios, all other dependencies such as auditing, alerts are configured as well.'
+    description: The platform must be designed for globally available service.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: 'If needed, load balancing is implemented to distribute traffic across multiple nodes (distributed architecture), and configured to redirect clients and client applications to the DR database server.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: platform-data-sqlmi
+uid: 4cf33a15-1db3-4173-b8a4-b6caa67eb4b1
+name: What decisions have been taken to ensure Application & Database platform meets your reliability requirements?

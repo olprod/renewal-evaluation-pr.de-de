@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: F
+    text: Use Azure Databricks Autoscaling feature for managing and modeling the cost of the infrastructure.
+    description: AI workloads can run faster compared to a constant-sized under-provisioned cluster and autoscaling clusters can reduce overall costs compared to a statically-sized cluster which allows the organization better cost forecasting and modeling of cluster costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: G
+    text: Understand Azure Databricks billing to manage and analyze cost.
+    description: 'It is important to understand cost management billing for Cost Management, Chargeback and Analysis.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: H
+    text: Collect resource utilization metrics across Azure Databricks cluster in a Log Analytics workspace.
+    description: Important facet of monitoring is understanding the resource utilization in Azure Databricks clusters
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Cost modeling is an exercise where you create logical groups of cloud resources that are mapped to the organization's hierarchy and then estimate costs for those groups. The goal of cost modeling is to estimate the overall cost of the organization in the cloud.
+isRequired: false
+legacyId: '2'
+uid: ff173827-0dff-49b7-b2f3-42d8aecd923a
+name: Cost modeling is an exercise where you create logical groups of cloud resources that are mapped to the organization's hierarchy and then estimate costs for those groups.

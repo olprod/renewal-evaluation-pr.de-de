@@ -1,0 +1,25 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: AzSAP Project Prep&Planning Phase is key phase for the customer deployment to Azure. It covers high-level project planning and deliverable with the ability to incorporate the key areas.
+hideEmptyGuidance: false
+questions:
+  - 3675f298-1d8e-446a-8820-3056457d3fda
+  - 74485407-a0ff-4c12-b5e4-ea296add42b7
+  - 96a1a252-f267-4f8c-891e-17c203504b07
+  - b9fc9a0a-d8f4-4df6-bbfa-333530107beb
+  - f601d026-133c-4fe1-8d21-4ec0b6ad5c8e
+  - 1d9bf8c5-402c-45e4-93af-8493aef5be71
+  - a0fdb1cb-f759-4aec-88a9-2d2ee1b3b77a
+  - b4388286-45db-4330-8724-70b23b76efce
+  - d3c0786d-7505-47d9-86ff-7157cb28e0f3
+  - de4c0f29-629c-4d24-8729-1032c484fb53
+  - fd605605-4fa2-441f-80df-f431ebff02cf
+  - 94c9e964-d87b-4c57-9798-45dc5b6bbc3c
+  - 463e45f4-4607-462f-8277-93818f4b1964
+  - e142b9a4-025e-4623-aa27-87a4ef04ab0d
+  - d794fed0-5204-4ab2-bfce-ed6c3445dd98
+recommendations:
+  - 5f2e8cb1-b886-404b-883e-730e59d19cfa
+assignedGroupIds: []
+uid: 3af05e5f-be4a-4d41-8b3b-337a4188d765
+name: 'AzSAP Project Prep&Planning Phase '

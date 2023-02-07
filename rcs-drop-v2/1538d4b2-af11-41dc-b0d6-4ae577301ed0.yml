@@ -1,0 +1,259 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use a data partitioning strategy
+    url: /python/api/azureml-pipeline-steps/azureml.pipeline.steps.parallelrunstep?view=azure-ml-py
+    condition:
+      noneOf:
+        - Performance-ai-aml.ef4dea4e-3fbc-410a-aaca-e9ad23ca603f.L
+    context: Creates an Azure Machine Learning Pipeline step to process large amounts of data asynchronously and in parallel.
+    priority: 60
+    reportingCategory: Performance Effectiveness
+    reportingSubCategory: Data partitioning
+  - title: Use auto scaling cluster for scalability.
+    url: /azure/machine-learning/concept-train-machine-learning-model
+    condition:
+      noneOf:
+        - Performance-ai-aml.ef4dea4e-3fbc-410a-aaca-e9ad23ca603f.P
+    context: 'Azure Machine Learning provides several ways to train your models, from code-first solutions using the SDK to low-code solutions such as automated Machine Learning and visual designer.'
+    priority: 80
+    reportingCategory: Performance Effectiveness
+    reportingSubCategory: Autoscaling
+  - title: Use Azure Machine Learning Pipeline step to process large amounts of data asynchronously and in parallel.
+    url: /azure/machine-learning/concept-train-machine-learning-model
+    condition:
+      noneOf:
+        - Performance-ai-aml.ef4dea4e-3fbc-410a-aaca-e9ad23ca603f.Q
+    context: 'Azure Machine Learning provides several ways to train your models, from code-first solutions using the SDK to low-code solutions such as automated machine learning and the visual designer.'
+    priority: 70
+    reportingCategory: Performance Effectiveness
+    reportingSubCategory: Handle huge data
+  - title: Use NVDIA Triton for GPU inference.
+    url: /azure/machine-learning/how-to-deploy-with-triton
+    condition:
+      allOf:
+        - Performance-ai-aml.01437fde-705e-43fa-8b45-a1fda64036db.F
+      anyOf: []
+      noneOf:
+        - Performance-ai-aml.01437fde-705e-43fa-8b45-a1fda64036db.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use various VM SKUs and sizes for different ML workloads.
+    url: /azure/virtual-machines/sizes
+    condition:
+      noneOf:
+        - Performance-ai-aml.01437fde-705e-43fa-8b45-a1fda64036db.G
+    context: There are sizes and options for the Azure virtual machines to run your apps and workloads. It also provides deployment considerations to be aware of when you are planning to use these resources.
+    priority: 40
+    reportingCategory: Performance Requirements
+    reportingSubCategory: Compute optimization
+  - title: Use the appropriate compute target based on your workload requirements
+    url: /azure/machine-learning/concept-compute-target
+    condition:
+      noneOf:
+        - Performance-ai-aml.01437fde-705e-43fa-8b45-a1fda64036db.L
+    context: A compute target is a designated compute resource or environment where you run your training script or host your service deployment. This location might be your local machine or a cloud-based compute resource. Using compute targets makes it easy for you to later change your compute environment without having to change your code.
+    priority: 65
+    reportingCategory: Performance Requirements
+    reportingSubCategory: Compute optimization
+  - title: Using datastores and datasets mounts  which allows for registration of data connection to reduce hard coding connection strings and reusability throughout workload.
+    url: /azure/machine-learning/how-to-connect-data-ui
+    condition:
+      noneOf:
+        - Performance-ai-aml.01437fde-705e-43fa-8b45-a1fda64036db.M
+    context: 'Connect to your data in storage services on Azure with Azure Machine Learning datastores, and package that data for tasks in your Machine Learning workflows with Azure Machine Learning datasets'
+    priority: 100
+    reportingCategory: Performance Requirements
+    reportingSubCategory: Reusability and improvement
+  - title: For unstructured files optimize the performance by mounting data files to the compute target.
+    url: /azure/machine-learning/how-to-train-with-datasets#mount-files-to-remote-compute-targets
+    condition:
+      noneOf:
+        - Performance-ai-aml.01437fde-705e-43fa-8b45-a1fda64036db.N
+    context: 'If you have unstructured data, create a FileDataset and either mount or download your data files to make them available to your remote compute target for training.'
+    priority: 80
+    reportingCategory: Performance Requirements
+    reportingSubCategory: Optimize performance
+  - title: 'Use advanced  AutomatedML options such as allow/denying specific models, minimum metric target to increase performance/ROI on experiment run time.'
+    url: /azure/machine-learning/concept-automated-ml
+    condition:
+      noneOf:
+        - Performance-ai-aml.01437fde-705e-43fa-8b45-a1fda64036db.O
+    context: 'Automated machine learning, also referred to as automated ML or AutoML, is the process of automating the time-consuming, iterative tasks of machine learning model development. It allows data scientists, analysts, and developers to build ML models with high scale, efficiency, and productivity all while sustaining model quality.'
+    priority: 70
+    reportingCategory: Performance Requirements
+    reportingSubCategory: Experiment performance improvement
+  - title: 'Have AML Datastore/Dataset connect and access data from various storage services. '
+    url: /azure/machine-learning/how-to-access-data
+    condition:
+      noneOf:
+        - Performance-ai-aml.9ae42b7d-7458-4d43-bb53-2ae7ca25aacc.A
+    context: 'Datastores securely connect to your storage service on Azure without putting your authentication credentials and the integrity of your original data source at risk. They store connection information, like your subscription ID and token authorization in your Key Vault that is associated with the workspace, so you can securely access your storage without having to hard code them in your scripts. You can create datastores that connect to these Azure storage solutions'
+    priority: 60
+    reportingCategory: Data Processing
+    reportingSubCategory: Data connectivity
+  - title: Use distributed training with Azure Machine Learning.
+    url: /azure/machine-learning/concept-distributed-training
+    condition:
+      noneOf:
+        - Performance-ai-aml.9ae42b7d-7458-4d43-bb53-2ae7ca25aacc.B
+    context: 'In distributed training, the workload to train a model is split up and shared among multiple mini processors, called worker nodes. These worker nodes work in parallel to speed up model training. Distributed training can be used for traditional Machine Learning models, but is better suited for compute and time intensive tasks, such as deep learning for training deep neural networks.'
+    priority: 80
+    reportingCategory: Data Processing
+    reportingSubCategory: Distributed training
+  - title: Azure Machine Learning datasets to access data for your local or remote experiments.
+    url: '/azure/machine-learning/how-to-create-register-datasets  '
+    condition:
+      noneOf:
+        - Performance-ai-aml.9ae42b7d-7458-4d43-bb53-2ae7ca25aacc.F
+    context: 'By creating a dataset, you create a reference to the data source location, along with a copy of its metadata. Because the data remains in its existing location, you incur no extra storage cost, and don''t risk the integrity of your data sources. Also datasets are lazily evaluated, which aids in workflow performance speeds. You can create datasets from datastores, public URLs, and Azure Open Datasets.'
+    priority: 100
+    reportingCategory: Data Processing
+    reportingSubCategory: Data access
+  - title: Adhere to Azure Maching Learning subscription limits for AML Compute and pipelines.
+    url: /azure/machine-learning/resource-limits-quotas-capacity
+    condition:
+      noneOf:
+        - Performance-ai-aml.a6013689-bb56-48c3-8bd6-9ac6ca077564.F
+    context: Understand service limits in Azure Machine Learning
+    priority: 60
+    reportingCategory: Azure Capacity
+    reportingSubCategory: ML limits
+  - title: Adhere to Azure Maching Learning subscription limits for Storage.
+    url: /azure/machine-learning/how-to-manage-quotas#storage
+    condition:
+      noneOf:
+        - Performance-ai-aml.a6013689-bb56-48c3-8bd6-9ac6ca077564.G
+    context: 'Azure Storage has a limit of 250 storage accounts per region, per subscription. This limit includes both Standard and Premium storage accounts.'
+    priority: 60
+    reportingCategory: Azure Capacity
+    reportingSubCategory: ML limits
+  - title: 'Review service limits in Azure Machine Learning. '
+    url: /azure/machine-learning/resource-limits-quotas-capacity
+    condition:
+      noneOf:
+        - Performance-ai-aml.a6013689-bb56-48c3-8bd6-9ac6ca077564.K
+    context: 'Azure uses limits and quotas to prevent budget overruns due to fraud, and to honor Azure capacity constraints. Consider these limits as you scale for production workloads. (1) Default limits on Azure resources related to Azure Machine Learning. (2) Creating workspace-level quotas. (3) Viewing your quotas and limits. (4) Requesting quota increases. Along with managing quotas, you can learn how to plan and manage costs for Azure Machine Learning or learn about the service limits in Azure Machine Learning.'
+    priority: 50
+    reportingCategory: Azure Capacity
+    reportingSubCategory: ML limits
+  - title: Use File datasets to improve performance.
+    url: /azure/machine-learning/how-to-train-with-datasets#mount-files-to-remote-datasets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Performance-ai-aml.9ae42b7d-7458-4d43-bb53-2ae7ca25aacc.1
+      scoreOf: []
+    context: 'Azure Machine Learning datasets provide a seamless integration with Azure Machine Learning training functionalities such as ScriptRunConfig, HyperDrive, and Azure Machine Learning pipeline.'
+    priority: 60
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: Performance improvement
+  - title: 'Use datasets/datastores to improve manageability, performance and scale when working data.'
+    url: /azure/machine-learning/how-to-connect-data-ui
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Performance-ai-aml.9ae42b7d-7458-4d43-bb53-2ae7ca25aacc.0
+      scoreOf: []
+    context: 'Connect to your data in storage services on Azure with Azure Machine Learning datastores, and then package that data for tasks in your Machine Learning workflows with Azure Machine Learning datasets.'
+    priority: 80
+    reportingCategory: Data Processing
+    reportingSubCategory: Improve data processing speed
+  - title: 'Use datasets/datastores to improve managability, performance and scale when working data.'
+    url: /azure/machine-learning/how-to-connect-data-ui
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Performance-ai-aml.9ae42b7d-7458-4d43-bb53-2ae7ca25aacc.0
+      scoreOf: []
+    context: 'Learn how to access your data with the Azure Machine Learning studio. Connect to your data in storage services on Azure with Azure Machine Learning datastores, and then package that data for tasks in your ML workflows with Azure Machine Learning datasets.'
+    priority: 60
+    reportingCategory: Data Processing
+    reportingSubCategory: Improve data processing speed
+  - title: 'Leveraging AML Workspace experiment console to track workload progress. '
+    url: /azure/machine-learning/concept-azure-machine-learning-architecture#experiments
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Performance-ai-aml.a24cd25f-af94-4323-8411-d0084b70af26.1
+      scoreOf: []
+    context: 'An environment is the encapsulation of the environment where training or scoring of your Machine Learning model happens. The environment specifies Python packages, environment variables, and software settings around your training and scoring scripts.'
+    priority: 100
+    reportingCategory: Performance and Lifecycle
+    reportingSubCategory: Monitor activities
+  - title: Leverage Azure ML monitoring capabilities. Monitor model run log and metrics.
+    url: /azure/machine-learning/how-to-monitor-view-training-logs
+    condition:
+      noneOf:
+        - Performance-ai-aml.a24cd25f-af94-4323-8411-d0084b70af26.A
+    context: 'Log real-time information using both, default Python logging package and Azure Machine Learning Python SDK-specific functionality. You can log locally and send logs to your workspace in the portal.'
+    priority: 80
+    reportingCategory: Performance and Lifecycle
+    reportingSubCategory: Monitor activities
+  - title: 'Enable Logging in Azure ML training runs. '
+    url: /azure/machine-learning/how-to-track-experiments
+    condition:
+      noneOf:
+        - Performance-ai-aml.a24cd25f-af94-4323-8411-d0084b70af26.B
+    context: 'Log real-time information using MLflow Tracking. You can log models, metrics, and artifacts with MLflow as it supports local mode to cloud portability.'
+    priority: 70
+    reportingCategory: Performance and Lifecycle
+    reportingSubCategory: Monitor activities
+  - title: Use Azure Monitor to monitor the performance.
+    url: /azure/machine-learning/monitor-azure-machine-learning
+    condition:
+      noneOf:
+        - Performance-ai-aml.a24cd25f-af94-4323-8411-d0084b70af26.C
+    context: 'When your critical applications and business processes relying on Azure resources, monitor those resources for their availability, performance, and operation. Azure Monitor can be used to monitor data generated by Azure Machine Learning and to analyze and alert on this data.'
+    priority: 60
+    reportingCategory: Performance and Lifecycle
+    reportingSubCategory: Monitor activities
+  - title: Leverage Azure ML capabilities to auto scale the training compute nodes based on our benchmarking.
+    url: /azure/machine-learning/concept-plan-manage-cost#configure-training-clusters-for-autoscaling
+    condition:
+      noneOf:
+        - Performance-ai-aml.e4919a42-898b-44cf-a615-c3e0432696c1.A
+    context: 'Understand that the costs for Azure Machine Learning are only a portion of the monthly costs in your Azure bill. If you are using other Azure services, you are billed for all the Azure services and resources used in your Azure subscription, including the third-party services. This article explains how to plan for and manage costs for Azure Machine Learning. After you are familiar with managing costs for Azure Machine Learning, apply similar methods to manage costs for all the Azure services used in your subscription.'
+    priority: 60
+    reportingCategory: Training and Inferencing
+    reportingSubCategory: Autoscaling
+  - title: Leverage multi-node scaling capabilities for Model Training.
+    url: /azure/machine-learning/how-to-create-attach-compute-cluster?tabs=python
+    condition:
+      noneOf:
+        - Performance-ai-aml.e4919a42-898b-44cf-a615-c3e0432696c1.B
+    context: 'You can use Azure Machine Learning compute cluster to distribute a training or batch inference process across a cluster of CPU or GPU compute nodes in the cloud. For more information on the VM sizes that include GPUs, see GPU-optimized virtual machine sizes.'
+    priority: 60
+    reportingCategory: Training and Inferencing
+    reportingSubCategory: Multi-node scaling
+  - title: Leverage Production-grade model deployment and auto scaling inference using Azure Kubernetes Service Cluster.
+    url: /azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python
+    condition:
+      noneOf:
+        - Performance-ai-aml.e4919a42-898b-44cf-a615-c3e0432696c1.C
+    context: 'The component that handles autoscaling for Azure ML model deployments is azureml-fe, which is a smart request router. Since all inference requests go through it, it has the necessary data to automatically scale the deployed model(s).'
+    priority: 60
+    reportingCategory: Training and Inferencing
+    reportingSubCategory: Autoscaling
+  - title: 'Use data drift to model degradation or model performance issues to be alerted when model training is required. '
+    url: /azure/machine-learning/how-to-monitor-datasets?tabs=python
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Performance-ai-aml.a24cd25f-af94-4323-8411-d0084b70af26.D
+      scoreOf: []
+    context: 'With Azure Machine Learning dataset monitors (preview), you can: Analyze drift in your data to understand how it changes over time, Monitor model data for differences between training and serving datasets. Start by collecting model data from deployed models: Monitor new data for differences between any baseline and target dataset, Profile features in data to track how statistical properties change over time, Set up alerts on data drift for early warnings to potential issues, Create a new dataset version when you determine the data has drifted too much.'
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: Model training
+uid: 1538d4b2-af11-41dc-b0d6-4ae577301ed0
+name: ''

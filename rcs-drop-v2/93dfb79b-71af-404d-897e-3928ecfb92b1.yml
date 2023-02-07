@@ -1,0 +1,142 @@
+### YamlMime:SelfAssessment
+description: Assess your Security Journey for Cloud Adoption. Receive actionable considerations to improve your security posture.
+duration: 30 minutes
+questionnaireReferences:
+  - questionnaireUid: 74f9a83d-884c-43c9-a141-bedc70f9a43f
+    isRequired: false
+  - questionnaireUid: 6917650d-1012-4ca1-a547-2d2f45fe66b6
+    isRequired: false
+  - questionnaireUid: f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b
+    isRequired: false
+  - questionnaireUid: 152b3a9b-64e1-42fd-9241-149081cf0175
+    isRequired: false
+  - questionnaireUid: ec762e5e-92b1-4cbc-8601-692423fc34bc
+    isRequired: false
+  - questionnaireUid: 50554db0-257a-44f7-8767-92cf33a46ea1
+    isRequired: false
+guidance:
+  title: 30 minutes
+  description: Your Results
+  providers: []
+  scoring:
+    title: View how your Azure landing zone aligns to best practices and recommendations to help you improve.
+    description: Recommendations for your environment
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: 'Actionable items to consider implementing to improve your Azure landing zone across the design areas of the security methodology of the Azure Cloud Adoption Framework Security transformation is necessary to keep up with the pace of change in cloud platforms, the threat environment, and the evolution of security technologies. '
+        links:
+          - title: 'Integration of security with business processes is a core component of the methodology focusing on three categories of risk insights, security integration, and operational resiliency.'
+            url: /azure/cloud-adoption-framework/secure/#business-alignment
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - 74f9a83d-884c-43c9-a141-bedc70f9a43f<50
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Business Alignment
+      - iconUrl: ''
+        description: 'Integrate security through business alignment across risk insights, security integration, and business resilience'
+        links:
+          - title: 'Organizations must embrace a zero-trust approach to access control as they embrace remote work and use cloud technology to digitally transform their business model, customer engagement model, employee engagement, and empowerment model.'
+            url: /azure/cloud-adoption-framework/secure/access-control
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - 6917650d-1012-4ca1-a547-2d2f45fe66b6<50
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Access Control
+      - iconUrl: ''
+        description: Secure assets where they are with zero trust
+        links:
+          - title: Security operations reduce risk by limiting damage from attackers who gain access to your organization's resources.
+            url: /azure/cloud-adoption-framework/secure/security-operations
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b<50
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Security Operations
+      - iconUrl: ''
+        description: 'Reduce organizational risk by limiting attacker dwell time through rapid detection and response Asset protection implements controls to support security architecture, standards, and policy. Each asset type and security requirement is unique. The security standards for any asset type should be consistently applied to all instances.'
+        links:
+          - title: Start with a proven cloud infrastructure security approach and adapt it to your organization's needs and initial workload deployments.
+            url: /azure/cloud-adoption-framework/secure/asset-protection
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - 152b3a9b-64e1-42fd-9241-149081cf0175<50
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Asset Protection
+      - iconUrl: ''
+        description: 'Get secure and stay secure through asset protection policies and standards '
+        links:
+          - title: 'Security governance bridges your business priorities with technical implementation like architecture, standards, and policy.'
+            url: /azure/cloud-adoption-framework/secure/security-governance
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - ec762e5e-92b1-4cbc-8601-692423fc34bc<50
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Security Governance
+      - iconUrl: ''
+        description: 'Establish security governance to bridge your business priorities with technical implementation like architecture, standards, and policy Innovation security protects the processes and data of innovation against cyberattacks.'
+        links:
+          - title: Innovation in the digital age takes the form of developing applications using the DevOps or DevSecOps method to rapidly innovate without waiting for the traditional waterfall ship schedule that can take months or years between releases.
+            url: /azure/cloud-adoption-framework/secure/innovation-security
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - 50554db0-257a-44f7-8767-92cf33a46ea1<50
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Innovation Security
+  recommendationsTitle: ''
+owner:
+  firstName: Ben
+  lastName: Brauer
+  email: benbrauer@microsoft.com
+isHiddenAssessment: false
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+metadataTags:
+  - azure
+uid: 93dfb79b-71af-404d-897e-3928ecfb92b1
+name: Secure the DevOps lifecycle

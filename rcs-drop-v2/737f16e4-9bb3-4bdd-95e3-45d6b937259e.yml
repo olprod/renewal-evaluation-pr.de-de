@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Enforce resource quotas for AKS
+    url: /azure/aks/operator-best-practices-scheduler#enforce-resource-quotas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2ad43d21-032f-455f-9f60-c3f6d8d39ad7.16dcafd0-04fd-4489-bb55-44c82d6afd9a.A
+      scoreOf: []
+    context: 'Plan and apply resource quotas at the namespace level. Resource quotas provide a way to reserve and limit resources across a development team or project. These quotas are defined on a namespace and can be used to set quotas on Compute resources, Storage resources and Object counts. When you define resource quotas, all pods created in the namespace must provide limits or requests in their pod specifications. If they don''t provide these values, you can reject the deployment.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+  - title: Assign pod requests and limits on AKS cluster
+    url: /azure/aks/developer-best-practices-resource-management#define-pod-resource-requests-and-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2ad43d21-032f-455f-9f60-c3f6d8d39ad7.16dcafd0-04fd-4489-bb55-44c82d6afd9a.B
+      scoreOf: []
+    context: 'Plan and apply resource quotas at the namespace level. Resource quotas provide a way to reserve and limit resources across a development team or project. These quotas are defined on a namespace and can be used to set quotas on Compute resources, Storage resources and Object counts. When you define resource quotas, all pods created in the namespace must provide limits or requests in their pod specifications. If they don''t provide these values, you can reject the deployment.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+  - title: Define Pod Disruption Budgets on AKS
+    url: /azure/aks/operator-best-practices-scheduler#plan-for-availability-using-pod-disruption-budgets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2ad43d21-032f-455f-9f60-c3f6d8d39ad7.16dcafd0-04fd-4489-bb55-44c82d6afd9a.C
+      scoreOf: []
+    context: 'To maintain the availability of applications, define Pod Distribution Budgets (PDBs) to make sure that a minimum number of pods are available in the cluster.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+uid: 737f16e4-9bb3-4bdd-95e3-45d6b937259e
+name: ''

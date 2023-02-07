@@ -1,0 +1,65 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Development and operations processes are connected to a Service Management framework like ISO or ITIL
+    description: ITIL is a set of detailed IT service management (ITSM) practices that can complement DevOps by providing support for products and services built and deployed using DevOps practices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: There is no separation between development and operations teams.
+    description: 'A true DevOps model positions the responsibility of operations with developers, but many customers do not fully embrace DevOps and maintain some degree of team separation between operations and development, either to enforce clear segregation of duties for regulated environments, or to share operations as a business function.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: You have identified all broader teams responsible for operational aspects of the application and have established remediation plans with them for any issues that occur.
+    description: 'Different teams such as Central IT, Security, or Networking may be responsible for aspects of the application which are controlled centrally, such as a shared network virtual appliance (NVA).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Features and development tasks for the application are prioritized and executed on in a consistent fashion.
+    description: 'It is important to understand how business features are prioritized relative to engineering fundamentals, especially if operations is a separate function.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: You understand how the choices and desired configuration of Azure services are managed.
+    description: Many customers govern service configuration through a catalogue of allowed services that developers and application owners must pick from.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Roles and responsibilities'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWJYPS'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: ''
+isRequired: false
+legacyId: roles
+uid: 37f016c5-fd26-453b-9ae1-cae3bee4e5d3
+name: Have you identified and planned out the roles and responsibilities to ensure your workload follows operational excellence best practices?

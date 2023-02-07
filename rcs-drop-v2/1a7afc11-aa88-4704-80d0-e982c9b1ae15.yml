@@ -1,0 +1,33 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Build a Cloud Governance Team.
+    url: /azure/cloud-adoption-framework/organize/cost-conscious-organization#cloud-governance-team
+    condition:
+      scoreOf:
+        - f89b8594-6182-4112-a1d1-1418c6e32b54<3
+    context: Build a Cloud Governance Team.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand the different capabilities required.
+    url: /azure/cloud-adoption-framework/organize/#understand-required-cloud-capabilities
+    condition:
+      scoreOf:
+        - f89b8594-6182-4112-a1d1-1418c6e32b54<3
+    context: Understand the different capabilities required.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Align the right responsibilities across teams.
+    url: /azure/cloud-adoption-framework/organize/raci-alignment
+    condition:
+      scoreOf:
+        - f89b8594-6182-4112-a1d1-1418c6e32b54>2
+    context: Align the right responsibilities across teams.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 1a7afc11-aa88-4704-80d0-e982c9b1ae15
+name: ''

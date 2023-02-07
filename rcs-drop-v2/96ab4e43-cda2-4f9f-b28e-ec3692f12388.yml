@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 4fe8e910-2e39-4083-85f3-1a4507190177
+  - e384f1f2-e618-4e72-a0c6-ffe648e2257a
+  - a33c9f65-743a-4e9f-8b62-3a181a687567
+  - 8dd750f7-2ceb-431d-b01f-52e8ffdd462d
+  - ef6d1833-ef80-4dd7-aacb-6b4d612718de
+recommendations:
+  - 3a9c1b7e-806e-4291-a320-ea5ad8c57411
+assignedGroupIds: []
+uid: 96ab4e43-cda2-4f9f-b28e-ec3692f12388
+name: Cosmos DB (SQL API) - Cost Optimization

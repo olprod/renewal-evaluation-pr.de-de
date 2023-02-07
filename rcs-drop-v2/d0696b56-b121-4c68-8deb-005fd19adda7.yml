@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have not documented our holistic project expectations, and criteria, in a way that potential partners can respond to appropriately and are not sure how to create this content.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We have created a rough list of high-level functional requirements, but we have not documented criteria for project controls, timing, budget or scope yet.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We have documented our project objectives and functional scope, but do not have a clear understanding of the division of responsibilities between our internal resources and the partners''.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'We have a clear project charter, key internal stakeholders are in place, our high-level scope and project controls criteria are well documented. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'There is a difference between deciding what you want to accomplish, and how you can best achieve it. Which of these choices best describes how prepared you are to convey ''what'' you want to achieve to prospective partners?'
+isRequired: true
+uid: d0696b56-b121-4c68-8deb-005fd19adda7
+name: 'There is a difference between deciding what you want to accomplish, and how you can best achieve it.'

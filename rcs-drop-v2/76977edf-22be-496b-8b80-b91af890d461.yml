@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Security governance: Tech leaders, security governance, project management, and security architects ensure adherence to compliance & security requirements'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'Asset protection roles: Infra Sec, Data Sec, IT Admin, App Owners, & OT Operations partner to protect assigned assets'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'Access Control: Identity & network teams manage access and protect security boundaries'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'Security operations: SecOps leadership, analysts, & threat hunters maintain operational security. Central operations partners with security operations to identify new threats and potential incidents'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'Innovation security: App Security, DevOps, and DevSecOps partner to ensure robust, secure delivery pipelines'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 76977edf-22be-496b-8b80-b91af890d461
+name: Which security disciplines are supported by required individuals who have both the proper skillset and are actively engaged?

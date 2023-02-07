@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization does not collect any logs which is a log data platform that collects activity logs and resource logs along with other monitoring data to provide deep analysis across your entire set of resources. '
+    description: 'Your organization does not collect any logs which is a log data platform that collects activity logs and resource logs along with other monitoring data to provide deep analysis across your entire set of resources. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Limited. Your organization collects some logs, manually, that captures activity logs and resource logs along with other monitoring data to provide deep analysis across your entire set of resources. '
+    description: 'Your organization collects some logs, manually, that captures activity logs and resource logs along with other monitoring data to provide deep analysis across your entire set of resources. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has a way to repeatedly and systematically to capture activity logs and resource logs along with other monitoring data to provide deep analysis across your entire set of resources. '
+    description: 'Your organization has a way to repeatedly and systematically to capture activity logs and resource logs along with other monitoring data to provide deep analysis across your entire set of resources. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has a repeated, measured way to collect and aggregate data from various activity and resource logs into a common data platform where it can be used for analysis, visualization, and alerting.'
+    description: 'Your organization has a repeated, measured way to collect and aggregate data from various activity and resource logs into a common data platform where it can be used for analysis, visualization, and alerting.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has a fully automated, alerted and monitored way to collect and aggregate data from various activity and resource logs into a common data platform where it can be used for analysis, visualization, and alerting.'
+    description: 'Your organization has a fully automated, alerted and monitored way to collect and aggregate data from various activity and resource logs into a common data platform where it can be used for analysis, visualization, and alerting.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: What kind of logs are you collecting for your data platform?
+isRequired: true
+uid: 948952b3-7e1a-4578-aa3e-6323b9602110
+name: What kind of logs are you collecting for your data platform?

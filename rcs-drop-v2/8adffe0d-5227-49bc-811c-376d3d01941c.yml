@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our team plans to develop heavy ETL workloads.
+    description: 'Using large Spark clusters, Databricks can scale out to perform parallel processing on terabytes of data'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: Our team plans to work with smaller volumes of data.
+    description: "Synapse Pipelines might need deeper performance tuning expertise with very high volumes of data.\_"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does the workload require ETL (i.e. processing before writing) that includes complex math or transformations over 10+ GB?
+isRequired: true
+uid: 8adffe0d-5227-49bc-811c-376d3d01941c
+name: Does the workload require ETL (i.e. processing before writing) that includes complex math or transformations over 10+ GB?

@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Limited or no executive commitment to migrate.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: B
+    text: Executive commitment secured; funding commit in progress.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: C
+    text: Have both executive commitment and funding.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+legacyId: '2'
+uid: fc654e16-99b3-4538-be88-acc27e9c2c70
+name: 'Is there an executive and stakeholder sign-off for the migration project, including committed funding?'

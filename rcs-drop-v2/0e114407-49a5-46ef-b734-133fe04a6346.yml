@@ -1,0 +1,97 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: 'Ad-hoc, no process'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not consistent'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Generally consistent
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.A
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.B
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.C
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.D
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 0e114407-49a5-46ef-b734-133fe04a6346-q-0
+    name: 'Our subscription and tagging strategies align with cloud accounting models, global deployment needs, and resource consistency policies.'
+  - responseAlternatives:
+      - id: A
+        text: 'Ad-hoc, no process'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not consistent'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Generally consistent
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.A
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.B
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.C
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.D
+        - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650.d7905063-9fba-4087-8a47-fa2f06cafb44.d7905063-9fba-4087-8a47-fa2f06cafb44-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 0e114407-49a5-46ef-b734-133fe04a6346-q-1
+    name: All resources related to a single application or single type are managed collectively.
+stem: 'Resource Consistency is a methodology to establish policies related to the operational management of an environment, application, or workload. It ensures that resources are consistently configured to be discoverable by IT, included in recovery solutions, and on-boarded into repeatable processes.'
+isRequired: true
+uid: 0e114407-49a5-46ef-b734-133fe04a6346
+name: 'Resource Consistency is a methodology to establish policies related to the operational management of an environment, application, or workload.'

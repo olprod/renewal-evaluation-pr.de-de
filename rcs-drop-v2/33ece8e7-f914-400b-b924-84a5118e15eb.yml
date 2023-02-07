@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 24c4af45-f6d1-49d8-a7dd-d78344f300f6
+  - 61649f1d-cc3d-4876-b2f0-1591271089ec
+  - f790ebbb-7349-4b29-9aa8-d922101db33e
+  - 425ee68c-5713-4ef9-a3b9-97a70ac8a440
+  - e30914dc-2946-47ec-9508-78dfe51f3588
+recommendations:
+  - 17548df3-18f1-4c8b-b849-f3a4d6cee8fa
+assignedGroupIds: []
+uid: 33ece8e7-f914-400b-b924-84a5118e15eb
+name: Analysis Services - Reliability

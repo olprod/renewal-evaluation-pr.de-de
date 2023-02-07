@@ -1,0 +1,91 @@
+### YamlMime:SelfAssessment
+description: 'Examine your data services through the lenses of reliability, cost management, operational excellence, security and performance efficiency.'
+duration: 20 minutes
+questionnaireReferences:
+  - questionnaireUid: waf-config-data
+    isRequired: true
+  - questionnaireUid: 5c915986-fbdf-4f6f-b28c-c36e5af606f3
+    isRequired: true
+  - questionnaireUid: 99b906ce-859e-4e82-9e40-6af1fbb0215b
+    isRequired: true
+  - questionnaireUid: ed15be10-553c-42e7-921d-f34da37df85f
+    isRequired: true
+  - questionnaireUid: a97f7d78-c883-4cf4-84ef-1185cd482aae
+    isRequired: true
+  - questionnaireUid: dcb926e3-5005-4628-b350-b01276783f9f
+    isRequired: true
+  - questionnaireUid: 948d5fd2-8509-4134-9442-add156ecb0a1
+    isRequired: true
+  - questionnaireUid: 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88
+    isRequired: true
+  - questionnaireUid: 7429b9f7-fa10-45f8-940b-f721d0306ca9
+    isRequired: true
+  - questionnaireUid: 26f03338-28f9-4c0c-bdd3-fd4706d88912
+    isRequired: true
+  - questionnaireUid: a8332849-e51a-4f97-ae56-8dbad6e916c6
+    isRequired: true
+  - questionnaireUid: 4829fb47-20f5-4c0e-9101-286c33895523
+    isRequired: true
+  - questionnaireUid: 1b75e899-b86b-4cfc-a07f-5474032c31c0
+    isRequired: true
+  - questionnaireUid: a7e1901c-1fd8-4cac-a93b-e159e2978f99
+    isRequired: true
+  - questionnaireUid: 6c4d3343-df18-4d07-a0cb-dc754c7e10f2
+    isRequired: true
+  - questionnaireUid: 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a
+    isRequired: true
+  - questionnaireUid: 09d149fe-9882-41c4-a425-baba824f6ffe
+    isRequired: true
+  - questionnaireUid: 57d1514e-5a0b-4c02-873f-5c6a28117c23
+    isRequired: true
+  - questionnaireUid: 0a5be529-02a0-4bd5-abc7-8deda5828d27
+    isRequired: true
+  - questionnaireUid: 96ab4e43-cda2-4f9f-b28e-ec3692f12388
+    isRequired: true
+  - questionnaireUid: 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b
+    isRequired: true
+  - questionnaireUid: 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808
+    isRequired: true
+  - questionnaireUid: Reliability
+    isRequired: true
+  - questionnaireUid: Security
+    isRequired: true
+  - questionnaireUid: Cost
+    isRequired: true
+  - questionnaireUid: Operational
+    isRequired: true
+  - questionnaireUid: Performance
+    isRequired: true
+guidance:
+  title: 20 minutes
+  description: Your results
+  providers: []
+  scoring:
+    title: View how your workload aligns to best practices and recommendations to help you improve.
+    description: Recommendations for your workload
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: Actionable items to consider implementing to improve your workload across the five pillars of the Microsoft Azure Well-Architected Framework
+    steps:
+      - iconUrl: ''
+        description: 'Next Steps Ensure you have identified and classified the applications in your portfolio that are critical to business functions. Enterprise organizations typically have a large application portfolio, so prioritizing where to invest time and effort into manual and resource-intensive tasks like threat modeling can increase the effectiveness of your security program.'
+        links:
+          - title: Identify applications that have a high potential impact and/or a high potential exposure to risk.
+            url: /azure/architecture/framework/security/design-apps-services
+            context: Review identify and classify business critical applications
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: 'Review, identify, and classify business critical applications'
+  recommendationsTitle: Opportunities for improvement
+owner:
+  firstName: 'Dom '
+  lastName: Allen
+  email: Dominic.Allen@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - azure
+uid: azure-architecture-review-data
+name: Identified and classified business critical applications.

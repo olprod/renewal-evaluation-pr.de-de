@@ -1,0 +1,50 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Store Commerce extension overview
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/pos-extension/pos-extension-overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce SDK Overview
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/retail-sdk/sdk-github'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: How Microsoft develops with DevOps
+    url: 'https://learn.microsoft.com/en-us/devops/develop/how-microsoft-develops-devops'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Adopt a Git branching strategy
+    url: 'https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: d50ada7d-d80a-4058-9fea-d1116f5c82f3
+name: Technical skill guidance

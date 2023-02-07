@@ -1,0 +1,86 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Availability targets such as SLAs, SLIs and SLOs are defined for the application and key scenarios and monitored'
+    description: 'Are availability targets such as Service Level Agreements (SLAs), Service Level Indicators (SLIs), and Service Level Objectives (SLOs) defined for the application and/or key scenarios?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: 'Availability targets such as SLAs, SLIs and SLOs for all leveraged dependencies are understood and monitored'
+    description: Are SLAs/SLOs/SLIs for all leveraged dependencies understood?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: Recovery targets such as Recovery Time Objective (RTO) and Recovery Point Objective (RPO) are defined for the application and key scenarios
+    description: Are recovery targets such as Recovery Time Objective (RTO) and Recovery Point Objective (RPO) defined for the application and/or key scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: The consequences if availability and recovery targets are not satisfied are well understood
+    description: What are the consequences if availability targets are not satisfied?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: There are targets defined for the time it takes to perform scale operations
+    description: Are there any targets defined for the time it takes to perform scale operations?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: 'Critical system flows through the application have been defined for all key business scenarios and have distinct availability, performance and recovery targets'
+    description: Have critical system flows through the application been defined for all key business scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: There are well defined performance requirements for the application and key scenarios
+    description: Are there well defined performance requirements for the application and/or key scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: Any application components which are less critical and have lower availability or performance requirements are well understood
+    description: Are there any application components which are less critical and have lower availability or performance requirements?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Targets and Non-Functional Requirements'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWKadz'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Understanding critical system flows is vital to assessing overall operational effectiveness, and should be used to inform a health model for the application. It can also tell if areas of the application are over or under utilized and should be adjusted to better meet business needs and cost goals.'
+isRequired: false
+legacyId: targets
+uid: 7db8985e-f868-4b0c-8457-44cc158c8005
+name: 'Understanding critical system flows is vital to assessing overall operational effectiveness, and should be used to inform a health model for the application.'

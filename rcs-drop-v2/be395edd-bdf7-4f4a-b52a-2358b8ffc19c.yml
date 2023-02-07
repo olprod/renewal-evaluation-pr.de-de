@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We keep new work in separate branches and merge only when finished, usually in weeks or months '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: We have no branches and develop only in the trunk or master
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: We use branches that live for a few days max and commit all changes to the master or trunk at least daily
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: We keep traceability on code changes but treat branches as temporary by using topic branches that we squash-merge to master when the work is complete
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'In Git, Branches, which are lightweight pointers to work in progress, manage this separation. Once work created in a branch is finished, it can be merged back into the team''s main (or trunk) branch. While there are various valid ways, a clearly defined strategy should be in place and understood.'
+isRequired: true
+uid: be395edd-bdf7-4f4a-b52a-2358b8ffc19c
+name: 'In Git, Branches, which are lightweight pointers to work in progress, manage this separation.'

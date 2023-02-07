@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: What happens when you create an order from a quote record?
+questionnaireUid: 8c1ddaf9-1259-4356-a923-229d5049a3bf
+questions:
+  - uid: face35c3-13e7-4ac8-9aed-3c85d5355635-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: What happens when you create an order from a quote record?
+        isCorrect: true
+      - id: 1
+        text: 'The quote is closed, and the status changes to Won.'
+        isCorrect: false
+      - id: 2
+        text: 'The quote is changed to draft, and the status changes to Won.'
+        isCorrect: false
+      - id: 3
+        text: 'The quote remains active, and the status changes to Won.'
+        isCorrect: false
+      - id: 4
+        text: 'The quote remains active, and the status remains at In Progress.'
+        isCorrect: false
+uid: face35c3-13e7-4ac8-9aed-3c85d5355635
+title: ''

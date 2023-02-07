@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Access Azure Databases through Private Link
+    url: /azure/sql-database/sql-database-private-endpoint-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 41e0a182-958f-45e9-bc42-06b7301d1a2f.9e5cecb9-e01e-49a5-8415-a814f4d06d78.A
+      scoreOf: []
+    context: Access Azure Databases through Private Link. Connections to databases or other data holding systems should be secured as much as possible. Without Private Link these services will be available on their public ip and accessed over this IP. With Private Link it's possible to access these services over IPs on the Virtual Network.
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Ensure HTTPS is enforced for all of your app service hosted web applications
+    url: /azure/app-service/configure-ssl-bindings#enforce-https
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 41e0a182-958f-45e9-bc42-06b7301d1a2f.9e5cecb9-e01e-49a5-8415-a814f4d06d78.B
+      scoreOf: []
+    context: 'App Service lets you secure your apps with HTTPS. When your app is created, its default domain name (<app_name>.azurewebsites.net) is already accessible using HTTPS. If you configure a custom domain for your app, you should also secure it with an SSL certificate so that client browsers can make secured HTTPS connections to your custom domain. By default, anyone can still access your app using HTTP. Enable ''HTTPS Only'' to redirect all HTTP requests to the HTTPS port.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+  - title: Disable TLS 1.0 and 1.1 for App Service
+    url: /azure/app-service/configure-ssl-bindings#enforce-tls-versions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 41e0a182-958f-45e9-bc42-06b7301d1a2f.9e5cecb9-e01e-49a5-8415-a814f4d06d78.C
+      scoreOf: []
+    context: 'TLS 1.0/ 1.1 is no longer considered secure by industry standards, such as PCI DSS. App Service lets you disable outdated protocols by enforcing TLS 1.2.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+  - title: Run applications with a Managed Identity
+    url: /azure/app-service/overview-managed-identity?tabs=dotnet
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 41e0a182-958f-45e9-bc42-06b7301d1a2f.9e5cecb9-e01e-49a5-8415-a814f4d06d78.D
+      scoreOf: []
+    context: Run applications with a Managed Identity. When applications are running using a Managed Identity they can access other Azure services using this identity. For example you could access an Azure SQL Database using the Managed Identity. Storing session state in memory could result in losing session state when there is a problem with the application or App Service. It will also limit the possibility to spread the load over other instances.
+    priority: 50
+    reportingCategory: 'Upgrade, Migration and Deployment'
+    reportingSubCategory: Configuring for Deployment
+  - title: Ensure all certs are accessible by the application as expected
+    url: /azure/app-service/configure-ssl-certificate
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 41e0a182-958f-45e9-bc42-06b7301d1a2f.9e5cecb9-e01e-49a5-8415-a814f4d06d78.E
+      scoreOf: []
+    context: Some certificates cannot be accessible under the subscription plan or configured to the resource. Check to see if all the certificates under the subscription are accessible by web apps. Also check if all private certificates (.PFX) present in the same server farm as the webapp are available to configure SSL Binding.
+    priority: 25
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+uid: 10989993-a648-4efc-bc47-3b2eee500009
+name: ''

@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You have centralized configuration and compliance management.
+    description: Your solution has a centralized configuration and compliance management to apply policies and to securely distribute updates and certificates (when used).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You can apply policies to devices to meet industry-specific compliance.
+    description: Your solution has the ability to apply policies that enable devices to meet their industry-specific compliance needs such as PCI.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: Your centralized configuration enables the secure distribution and update of certificates.
+    description: A centralized configuration enables the secure distribution and update of certificates used by IoT devices. These certificates include TLS certificates and certificates used by applications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOa
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: 'Device administrators need to have a straightforward approach to get the devices into a healthy security posture, and to apply policies that enable them to meet their industry-specific compliance needs (such as Payment Card Industry used in financial transactions). For example, enabling firewall rules to only allow inbound connections from known IP ranges.'
+isRequired: false
+uid: df727bb7-4bc2-4695-b8a9-3da7116f0528
+name: 'Device administrators need to have a straightforward approach to get the devices into a healthy security posture, and to apply policies that enable them to meet their industry-specific compliance needs (such as Payment Card Industry used in financial transactions). For example, enabling firewall rules to only allow inbound connections from known IP ranges.'

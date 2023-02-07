@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Ensuring you have a good definition of the business processes in scope with a clear strategy to convert these processes and related data, applications and architecture requirements into a robust solution blueprint is critical for business application implementations. '
+hideEmptyGuidance: false
+questions:
+  - 0828345c-db95-4ac5-877b-87dd739c178e
+  - d3570201-aba0-4a2a-b783-78bd69dd428e
+  - 99edc1bb-d19d-4850-8503-512c1f85b107
+  - 1a8e8c41-cba5-4130-b004-e0fb1f737de3
+recommendations:
+  - c1edfe90-bb32-43d8-82d2-d1a9f0894689
+assignedGroupIds: []
+uid: d9cb15dc-7898-4917-a488-9660bd993635
+name: Solution Scope

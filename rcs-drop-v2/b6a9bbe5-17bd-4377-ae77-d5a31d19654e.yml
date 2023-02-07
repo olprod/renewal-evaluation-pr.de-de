@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 80756e5e-19c1-4bc6-9756-cc202989d91f
+recommendations:
+  - ba66c935-5b61-445c-95cf-2711b56446c4
+assignedGroupIds: []
+uid: b6a9bbe5-17bd-4377-ae77-d5a31d19654e
+name: 'Go-Live - Cosmos DB: Security'

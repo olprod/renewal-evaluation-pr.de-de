@@ -1,0 +1,32 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Complete "Design Data Storage Solutions" learning path on Microsoft Learn | 1 hr 15 min '
+    url: 'https://docs.microsoft.com/learn/paths/design-data-storage-solutions/'
+    condition:
+      allOf: []
+      anyOf:
+        - fd55c3e8-5478-4e20-be51-63b1fddbc041.67b10409-d634-4b84-92a6-71d1b96bb574.0
+        - fd55c3e8-5478-4e20-be51-63b1fddbc041.67b10409-d634-4b84-92a6-71d1b96bb574.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Complete "Design Data Integration" module on Microsoft Learn | 27 min
+    url: 'https://docs.microsoft.com/learn/modules/design-data-integration/'
+    condition:
+      allOf: []
+      anyOf:
+        - fd55c3e8-5478-4e20-be51-63b1fddbc041.e3bb8627-1fd6-4abd-8fe8-35d9e86f4172.0
+        - fd55c3e8-5478-4e20-be51-63b1fddbc041.e3bb8627-1fd6-4abd-8fe8-35d9e86f4172.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 15e00c25-1229-4542-9108-33eed895a410
+name: ''

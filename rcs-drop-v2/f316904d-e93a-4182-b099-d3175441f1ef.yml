@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 6fc480f5-11c8-4406-a175-f33cadb09420
+recommendations:
+  - 8e855deb-7785-4ddf-b516-3c4d9cf3829e
+assignedGroupIds: []
+uid: f316904d-e93a-4182-b099-d3175441f1ef
+name: 'Go-Live - App Service: Operational Excellence'

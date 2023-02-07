@@ -1,0 +1,86 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: 'This design area establishes a foundation for operations management across your Azure, hybrid, or multicloud environments. For stable, ongoing operations in the cloud, a management baseline is required to provide visibility, operations compliance, and protect and recover capabilities. The management design area focuses on the considerations and recommendations for landing zone design decisions. Also, the Manage methodology in the Cloud Adoption Framework provides further in-depth guidance for holistic management processes and tools.'
+links:
+  - title: Inventory and visibility
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-platform'
+    condition:
+      allOf:
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.822bc5d5-e2c4-43f2-aeff-bd3863f047f6.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Business continuity and disaster recovery
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-business-continuity-disaster-recovery'
+    condition:
+      allOf:
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.6ac534e4-eaf6-4888-82bc-17e0292a3280.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Operational compliance
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-operational-compliance'
+    condition:
+      allOf:
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.511b6786-05b1-45b3-8e37-ca6003c4b863.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Workload management and monitoring
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-workloads'
+    condition:
+      allOf:
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.ecb93eaf-9c7c-46a0-8454-ce49c55ef685.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Operational compliance considerations
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-operational-compliance'
+    condition:
+      allOf: []
+      anyOf:
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.ecb93eaf-9c7c-46a0-8454-ce49c55ef685.0
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.ecb93eaf-9c7c-46a0-8454-ce49c55ef685.1
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.ecb93eaf-9c7c-46a0-8454-ce49c55ef685.2
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.ecb93eaf-9c7c-46a0-8454-ce49c55ef685.3
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.ecb93eaf-9c7c-46a0-8454-ce49c55ef685.4
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Inventory and visibility considerations
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-platform'
+    condition:
+      allOf: []
+      anyOf:
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.6ac534e4-eaf6-4888-82bc-17e0292a3280.0
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.6ac534e4-eaf6-4888-82bc-17e0292a3280.2
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.6ac534e4-eaf6-4888-82bc-17e0292a3280.3
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.6ac534e4-eaf6-4888-82bc-17e0292a3280.4
+        - 60f7c4e2-22ae-4afa-8541-5ccc6b48d296.6ac534e4-eaf6-4888-82bc-17e0292a3280.5
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 4a34bfe8-dfb0-4b24-bc79-da90e6be845b
+name: Management

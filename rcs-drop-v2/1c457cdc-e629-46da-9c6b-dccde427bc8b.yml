@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You understand the limits and quotas that apply to the device-to-cloud and cloud-to-device communications in your solution.
+    description: 'Understanding limits and quotas of device-to-cloud and cloud-to-device messaging affects your communication choices between options such as direct methods, device twin, and file uploads. Choosing right options helps sizing and optimizing IoT Hub for costs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '1'
+    text: You understand the cost implications of different device side protocols.
+    description: Choosing a protocol affect cost effectiveness. Devices frequently send telemetry to cloud. Optimizing size of IoT messages with the right protocol is an influence at the transport layer.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '2'
+    text: You compress telemetry at the edge to reduce bandwidth costs.
+    description: Compression of message payload is a way to optimize network costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '3'
+    text: You batch up messages on the device to reduce the impact on your message quota.
+    description: 'When the solution allows, evaluate bundling messages together as a bigger message to save on bandwidth and TLS costs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '4'
+    text: Your evaluated gateway capable hardware to process telemetry at the edge in order to reduce the amount of messages sent to the cloud.
+    description: 'Choosing more capable and more expensive hardware might be efficient way of lowering costs by doing more edge-based, offline processing.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '5'
+    text: You understand how to optimize keep-alive messages sent from a device to IoT Hub.
+    description: Keep alive/heartbeat messages are essential for checking device status but are a burden if they're a part of a message. Azure IoT checks keep-alive not in a message and has no charge.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '6'
+    text: Understand how to reduce number of messages for device status through event handling instead of sending regular message inside devices.
+    description: 'Events generate a number of messages form devices, including device status. It''s helpful to reduce costs if you check device status and its sensors inside devices and send events only when the device has a problem.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'IoT handles large amount data. All data sent from the field to the cloud IoT gateway is handled by the ingestion layer. Telecommunication costs for message transportation are affected by factors such as the choice of protocols, IoT gateway size, telemetry volume, and event handling.'
+isRequired: false
+uid: 1c457cdc-e629-46da-9c6b-dccde427bc8b
+name: IoT handles large amount data. All data sent from the field to the cloud IoT gateway is handled by the ingestion layer.

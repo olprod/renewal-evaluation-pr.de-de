@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: |
+  Goal of this assessment is to help assess your organizations current azure environment and provide recommendations architectural design and reference implementation.
+hideEmptyGuidance: false
+questions:
+  - 9c08b579-7b10-4e58-bda5-a1e00ff39c28
+  - 9610ddc7-40a6-4bf7-a863-9695a69291d6
+  - 023e31a6-5c7d-4d4a-863a-a8204ba3f9d4
+recommendations:
+  - fd6c7691-38d8-4385-a5db-a9728d1d9edb
+assignedGroupIds: []
+uid: 8fb33ea0-636d-405c-a075-1bef55ac9ded
+name: About your organization

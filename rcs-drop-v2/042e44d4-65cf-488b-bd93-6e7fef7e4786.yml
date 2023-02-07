@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Co-locate Azure Storage account and Azure Synapse Analytics Serverless SQL pool.
+    description: 'To minimize latency, Co-locate your Azure storage account and your serverless SQL pool endpoint.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Use Azure Synapse Analytics Dedicated SQL Pool Auto Scaling options.
+    description: Scale out or scale back compute by adjusting the data warehouse units setting for your dedicated SQL pool.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Use Azure Synapse Analytics Apache Spark pools Autoscaling.
+    description: Apache Spark for Azure Synapse Analytics pool's Autoscale feature automatically scales the number of nodes in a cluster instance up and down.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: performance-tradeoffs-data-synapse
+uid: 042e44d4-65cf-488b-bd93-6e7fef7e4786
+name: What reliability allowances for scalability and performance have you made?

@@ -1,0 +1,77 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We measure the carbon impact of our workload with the Emissions Impact Dashboard to record our current and future environmental impact and quantify the achievement of our technical, business, and sustainability outcomes.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'We have defined our emissions target along with cost constraints and track progress with service level objectives (SLO), service level agreements (SLA), or other performance metrics to optimize emissions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: 'We have identified metrics to prove changes have a positive effect on efficiency, and we''ve agreed upon and communicated any plan that impacts performance to the app users so that they know that a lower performance may be necessary for the greater good of fewer carbon emissions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: 'We have reviewed the concept of using a proxy solution to define our Sustainability Carbon Intensity, and linked cost-to-performance metrics to carbon efficiency to reduce unnecessary spending and lower the number of excessive emissions from our workload.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: We use Azure Advisor to identify unused resources and ImageCleaner to clean up stale images and remove an area of risk in our cluster.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '5'
+    text: We have defined one or more Azure policies to keep our workload optimized.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: We set Azure tags on our cluster to enable monitoring of our workload.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 4eb11871-8e1f-48d1-abee-2668b98f1988.ca6d89aa-b7bb-46fc-9104-ae5b645439db.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: b35253b7-db2c-4c51-88b8-1dfa42b8f325
+name: What practices and tools have you implemented to measure and track the sustainability impact of your workload?

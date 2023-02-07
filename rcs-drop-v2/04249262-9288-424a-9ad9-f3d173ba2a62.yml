@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: There's a clear guidance or requirement on what type of keys (PMK - Platform Managed Keys vs. CMK - Customer Managed Keys) should be used for this workload.
+    description: 'Different approaches can be used by the workload team. Decisions are often driven by security, compliance and specific data classification requirements. Understanding these requirements is important to determine which key types are best suitable (MMK - Microsoft-managed Keys, CMK - Customer-managed Keys or BYOK - Bring Your Own Key).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: 'Passwords and secrets are managed outside of application artifacts, using tools like Azure Key Vault.'
+    description: 'API keys, database connection string and passwords need to be stored in a secure store and not within the application code or configuration. This simplifies operational tasks like key rotation as well as improving overall security.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: Access model for keys and secrets is defined for this workload.
+    description: Permissions to keys and secrets have to be controlled with a access model.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: D
+    text: A clear responsibility / role concept for managing keys and secrets is defined for this workload.
+    description: 'Central SecOps team should provide guidance on how keys and secrets are managed (governance), application DevOps team is responsible to manage the application related keys and secrets.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: Secret/key rotation procedures are in place.
+    description: 'In the situation where a key or secret becomes compromised, it is important to be able to quickly act and generate new versions. Key rotation reduces the attack vectors and should be automated and executed without any human interactions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Expiry dates of SSL/TLS certificates are monitored and there are renewal processes in place.
+    description: Expired SSL/TLS certificates are one of the most common yet avoidable causes of application outages; even Azure and more recently Microsoft Teams have experienced outages due to expired certificates.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Secrets like API keys and certificates are sensitive pieces of information that need to be managed in a secure way - that includes proper storage, encryption and access control.'
+isRequired: false
+legacyId: keys
+uid: 04249262-9288-424a-9ad9-f3d173ba2a62
+name: 'Secrets like API keys and certificates are sensitive pieces of information that need to be managed in a secure way - that includes proper storage, encryption and access control.'

@@ -1,0 +1,71 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Recovery targets to identify how long the workload can be unavailable (Recovery Time Objective) and how much data is acceptable to lose during a disaster (Recovery Point Objective).
+    description: Have RPO/RTO targets been defined for the application and key scenarios? Recovery time objective (RTO) - the maximum acceptable time an application is unavailable after an incident. Recovery point objective (RPO) - the maximum duration of data loss that is acceptable during a disaster.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Availability targets such as Service Level Agreements (SLAs) and Service Level Objectives (SLOs).
+    description: Have availability targets been defined for the application and key scenarios? and are targets considered whilst the system is running in a recovery mode?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Availability metrics to measure and monitor availability such as Mean Time To Recover (MTTR) and Mean Time Between Failure (MTBF).
+    description: Are availability targets measured and monitored? Mean time to recover (MTTR) - the average time it takes to restore a component after a failure. Mean time between failures (MTBF) - how long a component can reasonably expect to last between outages
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Composite SLA for the workload derived using the Azure SLAs for all relevant resources.
+    description: Has a composite SLA been calculated for the application and/or key scenarios using Azure SLAs?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: SLAs for all internal and external dependencies.
+    description: Are SLAs defined and measured for third-party dependencies.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Independent availability and recovery targets for critical application subsystems and scenarios.
+    description: Has the application been decomposed into distinct subsystems with independent availability and recovery targets?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: What reliability targets and metrics have you defined for your application?
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4Mc4C'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Availability targets, such as Service Level Agreements (SLA) and Service Level Objectives (SLO), and Recovery targets, such as Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO), should be defined and tested to ensure application reliability aligns with business requirements.'
+isRequired: false
+legacyId: '0'
+uid: 096bf416-365e-466e-b01c-a9eb76b2a569
+name: 'Availability targets, such as Service Level Agreements (SLA) and Service Level Objectives (SLO), and Recovery targets, such as Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO), should be defined and tested to ensure application reliability aligns with business requirements.'

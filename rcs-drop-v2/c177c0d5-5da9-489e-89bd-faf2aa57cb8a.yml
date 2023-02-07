@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: D
+    text: Plan and manage costs for Azure Machine Learning.
+    description: |
+      Use the Azure pricing calculator to estimate costs before you create the resources in an Azure Machine Learning workspace.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: I
+    text: Utilize cost alerts for Azure Machine Learning.
+    description: |
+      Create, view, and manage metric alert rules for Azure Machine Learning, such as quota utilization percentage, idle cores, CPU/GPU utilization, and so on.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '0'
+    text: 'None of the above. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+    - waf-config-golive.waf-scenario.ai
+stem: |
+  Cost modeling is an exercise where you create logical groups of cloud resources that are mapped to the organization's hierarchy and then estimate costs for those groups. The goal of cost modeling is to estimate the overall cost of the organization in the cloud.  For monitoring costs, consider the metrics for each resource in the workload. For each metric, build alerts on baseline thresholds.
+isRequired: false
+legacyId: '2'
+uid: c177c0d5-5da9-489e-89bd-faf2aa57cb8a
+name: Cost modeling is an exercise where you create logical groups of cloud resources that are mapped to the organization's hierarchy and then estimate costs for those groups.

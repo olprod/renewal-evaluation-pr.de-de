@@ -1,0 +1,90 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Scan your container images for vulnerabilities
+    url: /azure/aks/operator-best-practices-container-image-management#secure-the-images-and-run-time
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d0cd6cfb-2a39-4f14-9e64-a1a29b8c5e23.03462c2c-365c-4e31-9cd5-ca8ab96af5e4.A
+      scoreOf: []
+    context: 'One of the risks associated with adopting container-based workloads is the potential for security vulnerabilities to be present in either the Operating System (OS) base image, frameworks, or runtimes that enable the application to run. Just like traditional OS and software patching it is important to adopt a strategy to actively scan for and remediate vulnerabilities in container images.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Ensure that vulnerability scanning is automated before pushing images to the registry using a CI/CD pipeline
+    url: /azure/aks/operator-best-practices-container-image-management#secure-the-images-and-run-time
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d0cd6cfb-2a39-4f14-9e64-a1a29b8c5e23.03462c2c-365c-4e31-9cd5-ca8ab96af5e4.B
+      scoreOf: []
+    context: It is recommended that images are proactively scanned before being pushed to the registry using automation as part of a CI/CD pipeline. This can be achieved using tools such as Prisma Cloud (formerly Twistlock) or Aqua.
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Enable Azure Security Center for Azure Container Registry to scan images that have already been pushed to the registry
+    url: /azure/security-center/azure-container-registry-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d0cd6cfb-2a39-4f14-9e64-a1a29b8c5e23.03462c2c-365c-4e31-9cd5-ca8ab96af5e4.C
+      scoreOf: []
+    context: 'Images already published to an Azure Container Registry can be regularly scanned by configuring Azure Security Center for the ACR resource. Azure Security Center uses Qualys to scan images. This feature will pull the image and run the container in an isolated sandbox to execute a vulnerability scan. The detected vulnerabilities are then made available in Azure Security Center or the Azure Container Registry for review and remediation. Note: Vulnerability scanning using Azure Security Center is only available for Linux-hosted ACR registries. The registry must also be accessible from the internet, meaning scanning cannot be achieved when access to the registry is restricted by firewall, Service Endpoints or private endpoints such as Private Link. This feature is also only available in commercial clouds, and not sovereign or national clouds (e.g. US Gov, China Gov, etc.).'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Have an automated process to update your container images when base images are updated and patched
+    url: /azure/aks/operator-best-practices-container-image-management#automatically-build-new-images-on-base-image-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d0cd6cfb-2a39-4f14-9e64-a1a29b8c5e23.03462c2c-365c-4e31-9cd5-ca8ab96af5e4.D
+      scoreOf: []
+    context: 'It is common when base images are updated that the update includes security fixes or vulnerability mitigations. It is important to use an automated approach to update your images to ensure they are using the most up to date versions of base images as possible. It is also good practice to regularly update base images, ensure application runtimes are up to date and redeploy workloads when required. Using automation to monitor the update status of base images can improve the reliability of this process.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Avoid using the built-in admin account to access the registry
+    url: '/azure/container-registry/container-registry-authentication#admin-account '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d0cd6cfb-2a39-4f14-9e64-a1a29b8c5e23.03462c2c-365c-4e31-9cd5-ca8ab96af5e4.E
+      scoreOf: []
+    context: 'It is recommended that the admin account is used in only very limited scenarios such as testing or deploying to Azure Container Instances or Azure Web App for Containers in the Azure Portal. Sharing the admin account amongst multiple users, applications and container hosts can increase the risk of credential breach, and makes it appears that one user is accessing the registry when there are actually multiple users sharing the credential. This reduces the opportunity to effectively audit access and usage of the registry. It is recommended that the admin account is disabled and users authenticate using individual identity using Azure AD and applications or container hosts authenticate using a service principal. It is highly recommended that, where available, applications and container hosts authenticate using a Managed Identity which enables credential-free access to the registry from Azure Resources. This is a special type of service principal which is managed by the Azure platform. Furthermore, principals (both users and service principals) should only be assigned the RBAC roles necessary to perform the actions required on the registry.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+  - title: 'Use granular Role Based Access Control assignments on your Container Registry to ensure users, applications and container hosts only have permission perform the actions required '
+    url: /azure/container-registry/container-registry-roles
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d0cd6cfb-2a39-4f14-9e64-a1a29b8c5e23.03462c2c-365c-4e31-9cd5-ca8ab96af5e4.F
+      scoreOf: []
+    context: 'Ensure the RBAC assignments on the Azure Container Registry resource are applied such that users, applications and container hosts can perform only the actions required to fulfil their function. For example, container hosts principals (either service principals or managed identities) should only be assigned the AcrPull role.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+  - title: Use Azure Managed Identity to authenticate and authorize access to Azure Container Registry to pull images on container hosts
+    url: /azure/container-registry/container-registry-authentication-managed-identity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d0cd6cfb-2a39-4f14-9e64-a1a29b8c5e23.03462c2c-365c-4e31-9cd5-ca8ab96af5e4.G
+      scoreOf: []
+    context: 'Managed Identities for Azure Resources is an Azure feature that enables you to create an identity associated with the container host on which your container images will run. The Managed Identity can then be assigned the required RBAC role on the registry to enable the host to pull images. Using Managed Identities eliminates the need to retrieve, store and manage service principal credentials. Instead the Azure platform performs all management of the Managed Identity including token retrieval and rolling of credentials.'
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+uid: d8d97ef6-c789-4d0a-a414-11d90527c95b
+name: ''

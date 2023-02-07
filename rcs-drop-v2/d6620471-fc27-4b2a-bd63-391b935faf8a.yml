@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Very poor
+    description: developers don’t have a clear progression path
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Below average
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Average
+    description: developers have one progression path based on both seniority and capabilities
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: Above average
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '4'
+    text: Truly distinctive
+    description: 'developers have several progression paths, both management and non-management, and are strongly supported to continuously advance'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: review the tooltips for examples
+isRequired: true
+uid: d6620471-fc27-4b2a-bd63-391b935faf8a
+name: review the tooltips for examples

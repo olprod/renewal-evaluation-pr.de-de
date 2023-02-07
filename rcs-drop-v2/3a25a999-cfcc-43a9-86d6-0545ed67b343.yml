@@ -1,0 +1,94 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Learn more about the implications of adopting a cloud mindset, as you plan your project, by reading this section of the Dynamics 365 Implementation Guide.'
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=32'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Adopt a cloud mindset
+    priority: 80
+    reportingCategory: Adopt a cloud mindset
+    reportingSubCategory: Adopt a cloud mindset
+  - title: Learn more about the benefits of focusing on business value by reading this content and incorporating the recommendations into your planning.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=34'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Adopt a cloud mindset
+    priority: 80
+    reportingCategory: Adopt a cloud mindset
+    reportingSubCategory: Adopt a cloud mindset
+  - title: Read this content to help you to understand the value of the business applications 'platform' that your Dynamics 365 applications can provide.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=39'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Adopt a cloud mindset
+    priority: 60
+    reportingCategory: Adopt a cloud mindset
+    reportingSubCategory: Adopt a cloud mindset
+  - title: Learn about the unique aspects of security and compliance by reading this content and planning to accommodate the relevant recommendations.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=41'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Adopt a cloud mindset
+    priority: 60
+    reportingCategory: Adopt a cloud mindset
+    reportingSubCategory: Adopt a cloud mindset
+  - title: Read this content to understand the value of improving business processes as part of your implementation project.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=50'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Considerations for the cloud
+    priority: 80
+    reportingCategory: Considerations for the cloud
+    reportingSubCategory: Considerations for the cloud
+  - title: 'Review this information to understand the importance of aligning to the Dynamics 365 applications while considering your organization''s roadmap, investment direction, and the latest industry trends.'
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=51'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Considerations for the cloud
+    priority: 60
+    reportingCategory: Considerations for the cloud
+    reportingSubCategory: Considerations for the cloud
+  - title: 'To further evaluate the recommendations on moving your operations to the cloud, read more here. '
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=322'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Considerations for the cloud
+    priority: 50
+    reportingCategory: Considerations for the cloud
+    reportingSubCategory: Considerations for the cloud
+  - title: Watch the TechTalks for "Dynamics CRM to Cloud migration" to increase your awareness of Dynamics 365 CRM app(s) upgrade to cloud.
+    url: 'https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/ask-microsoft-anything-dynamics-crm-to-cloud-migration'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 3a25a999-cfcc-43a9-86d6-0545ed67b343
+name: ''

@@ -1,0 +1,275 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Establish cloud security roles and responsibilities
+    url: /azure/cloud-adoption-framework/organize/cloud-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.0
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.1
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.2
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.3
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Leverage role tracking worksheets
+    url: /security/compass/progress-and-role-tracking-worksheets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.0
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.1
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.2
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.3
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Develop or improve the Security Baseline discipline
+    url: /azure/cloud-adoption-framework/govern/security-baseline/discipline-improvement
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.9b22ec39-f78e-4e02-9552-e897344fdb7c.3
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.9b22ec39-f78e-4e02-9552-e897344fdb7c.4
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.9b22ec39-f78e-4e02-9552-e897344fdb7c.5
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.c9f098ba-7d22-4269-9a77-87eb6d3a4150.0
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.c9f098ba-7d22-4269-9a77-87eb6d3a4150.1
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.c9f098ba-7d22-4269-9a77-87eb6d3a4150.2
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.c9f098ba-7d22-4269-9a77-87eb6d3a4150.3
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.c9f098ba-7d22-4269-9a77-87eb6d3a4150.4
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.c9f098ba-7d22-4269-9a77-87eb6d3a4150.5
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.c9f098ba-7d22-4269-9a77-87eb6d3a4150.6
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Increase the resilience of business operations
+    url: /azure/cloud-adoption-framework/secure/business-resilience
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.5308f899-062d-4b1c-a863-494df376f806.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Quantify business risk tolerance associated with the Security Baseline discipline
+    url: /azure/cloud-adoption-framework/govern/security-baseline/metrics-tolerance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.282066d4-9c91-4870-b5a9-e323bce925f9.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for security architecture functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for compliance management functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-compliance-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for security policy and standards functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-policy-standards
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for cloud security posture management functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-posture-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for identity and key management functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-identity-keys
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for people security functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-people
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for data security functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-data-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for application security and DevSecOps functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-application-security-devsecops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for infrastructure security functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-infrastructure-endpoint
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for security operations (SecOps) functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-operations-center
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for incident response and threat hunting functions
+    url: /azure/cloud-adoption-framework/organize/cloud-security-threat-intelligence
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Establish team for cloud security incident preparation
+    url: /azure/cloud-adoption-framework/organize/cloud-security-incident-preparation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.76977edf-22be-496b-8b80-b91af890d461.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: 'Replace managed server/VM instances with PaaS, container or serverless (Functions, Logic Apps, Event Grid) deployments where possible to avoid patching and configuration '
+    url: /azure/architecture/guide/design-principles/managed-services
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.c9f098ba-7d22-4269-9a77-87eb6d3a4150.7
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Prepare business owners for security risks
+    url: /azure/cloud-adoption-framework/govern/security-baseline/business-risks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.9b22ec39-f78e-4e02-9552-e897344fdb7c.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Prepare business owners for risk tolerance metrics and indicators
+    url: /azure/cloud-adoption-framework/govern/security-baseline/metrics-tolerance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.9b22ec39-f78e-4e02-9552-e897344fdb7c.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+  - title: Capture critical business risks
+    url: /azure/cloud-adoption-framework/govern/security-baseline/template
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 74f9a83d-884c-43c9-a141-bedc70f9a43f.9b22ec39-f78e-4e02-9552-e897344fdb7c.1
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+uid: a853a59d-c989-48e3-90de-a460842be333
+name: ''

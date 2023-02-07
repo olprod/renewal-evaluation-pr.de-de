@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Access reviews is implemented.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Entitlement management is implemented.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Privileged Identity Management is implemented.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.0
+  anyOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.1
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.3
+  noneOf: []
+  scoreOf: []
+stem: Premium P2
+isRequired: true
+uid: bfcce584-8f4a-43dc-a5e7-01fc9e0c777d
+name: Premium P2

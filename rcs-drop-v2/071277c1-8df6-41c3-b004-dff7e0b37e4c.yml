@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Zero trust strategy and architecture (SC-100 OD 1)
+hideEmptyGuidance: false
+questions:
+  - e0842694-a319-48b5-91a1-580a568e450c
+  - 95b8375c-4b90-4b27-adb7-cb9e3226dfd2
+  - 9822d2b1-1468-45d0-9f92-2cbb0ffbe983
+recommendations:
+  - fdf14339-cd9c-42ae-b026-617b0643f1c7
+assignedGroupIds: []
+uid: 071277c1-8df6-41c3-b004-dff7e0b37e4c
+name: Zero trust strategy and architecture (SC-100 OD 1)

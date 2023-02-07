@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Dynamic data masking prevents data in a table from being viewed directly, regardless of the table permissions.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 2208f931-6cf3-48ef-befe-c08918e6202b
+questions:
+  - uid: ed1c53a8-6fb0-4361-8957-7080a89efe0e-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'Dynamic data masking prevents data in a table from being viewed directly, regardless of the table permissions.'
+        isCorrect: false
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: true
+uid: ed1c53a8-6fb0-4361-8957-7080a89efe0e
+title: 'Otherwise, select No.'

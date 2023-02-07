@@ -1,0 +1,33 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'A clear folder hierarchy has been defined and is enforced. Different hierarchies are possible and can even be combined: by time partitioning, by subject area, by security Boundary (Department, Business unit), by data retention policy (permanent, temporary, applicable period, project lifetime), by business impact/criticality, by confidentiality classification (public information, internal use only, supplier confidential, PII, sensitive, financial, etc.)'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 8c0dfcc5-6c4a-4a71-954a-8baeb07d69ec
+name: 'Has the data been organized in the data lake to optimize for access, performance, and usability?'

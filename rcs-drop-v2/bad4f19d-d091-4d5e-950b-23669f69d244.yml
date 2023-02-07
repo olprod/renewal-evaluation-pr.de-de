@@ -1,0 +1,39 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Review this content to understand the value of approaching your digital transformation strategy as an ever-evolving roadmap.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=65'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Driving app value
+    priority: 80
+    reportingCategory: Driving app value
+    reportingSubCategory: Driving app value
+  - title: Review this content to understand how to account for the various change streams that will impact the program and ensure budget and timelines are adjusted to accommodate.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=70'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Driving app value
+    priority: 80
+    reportingCategory: Driving app value
+    reportingSubCategory: Driving app value
+  - title: Review this content to understand the value of creating and publicizing your transformation roadmap to help ensure organizational alignment and focus.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=74'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Driving app value
+    priority: 80
+    reportingCategory: Driving app value
+    reportingSubCategory: Driving app value
+uid: bad4f19d-d091-4d5e-950b-23669f69d244
+name: ''

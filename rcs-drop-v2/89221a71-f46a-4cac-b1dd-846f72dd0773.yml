@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Review ADLS Gen2 product limits.
+    description: 'Some limits are not hard limits, and can be increased by request.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: 'Monitor ADLS Gen2 resource utilization, query activity, and other metrics that have limitations.'
+    description: Use the Azure portal to follow the resource metrics to identify early when your data lake approaches its limit.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 89221a71-f46a-4cac-b1dd-846f72dd0773
+name: How are you ensuring you have sufficient capacity?

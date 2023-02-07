@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - c40bf6c6-c25d-40b8-95cd-98db3f8032aa
+  - dc2301d1-3a5e-429c-937b-f3ac8cd81703
+  - 26dac3e3-415d-4d89-9dfd-30a46aeb74f4
+  - 4732cb01-24b1-4f9c-858f-f37e7af70ff5
+  - a962a1f4-91db-4cb6-a0db-c587e4ddc13c
+  - 0dcffc23-8b2a-4338-b4f7-18cdb421c309
+recommendations:
+  - 8c964d9e-2e89-43c4-9937-1e50e27e3007
+assignedGroupIds: []
+uid: 948d5fd2-8509-4134-9442-add156ecb0a1
+name: SQL DB - Performance Efficiency

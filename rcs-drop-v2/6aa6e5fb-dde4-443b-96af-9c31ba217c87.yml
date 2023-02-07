@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Recovery targets have been defined for how long workload can be unavailable (Recovery Time Objective) and how much data is acceptable to lose (Recovery Point Objective) in the event of an unplanned outage or disaster.
+    description: Have RPO/RTO targets been defined for the application and key scenarios? Recovery time objective (RTO) - the maximum acceptable time an application is unavailable after an incident. Recovery point objective (RPO) - the maximum duration of data loss that is acceptable during a disaster.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: B
+    text: 'Availability targets, such as internal Service Level Agreements (SLAs) and Service Level Objectives (SLOs) have been defined and agreed with the business or end customer.'
+    description: Have availability targets been defined for the application and key scenarios? and are targets considered whilst the system is running in a recovery mode?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Capture metrics to measure and monitor workload availability, which can be used to calculate and report on the workloads Mean Time To Recover (MTTR) and Mean Time Between Failure (MTBF).'
+    description: Are availability targets measured and monitored? Mean time to recover (MTTR) - the average time it takes to restore a component after a failure. Mean time between failures (MTBF) - how long a component can reasonably expect to last between outages.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Availability targets are defined for all internal and external dependencies required for the workload.
+    description: Are SLAs defined and measured for third-party dependencies.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Independent availability and recovery targets exist for critical applications, their subsystems and/or components.'
+    description: Has the application been decomposed into distinct subsystems with independent availability and recovery targets?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 6aa6e5fb-dde4-443b-96af-9c31ba217c87
+name: What reliability targets and metrics have you defined for your application?

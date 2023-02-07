@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Familiarize yourself with Analysis Services pricing, and in particular on elements driving the price calculation: QPUs, Memory (GB), presence of SLA, scale-out instances, tier, uptime, and region.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: Use the Azure Pricing Calculator to estimate the pricing which helps with your budgeting and cost optimization requirements.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: 'The choice of the region to deploy the instance should be driven by the data source''s location, the users'' location, the availability of the SKU, the query replica feature (if it is planned to be used), and the price.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: 'Choose the right tier and plan for your server: you can change plans up or down within the same tier.'
+    description: 'Be careful that you can''t downgrade tier (i.e., can''t downgrade from Standard to Basic).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Consider upgrading plan which will allow for more query processing units and more cache capacity.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: 'Pause the server when not in use, and resume when needed.'
+    description: 'As the price for Azure Analysis Services is hourly, it is important to analyze the usage patterns of the instance and stop the instance so that the instance isn''t paid for during this time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: Automate the scale-up/scale down of the server.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: H
+    text: 'If you already use Power BI premium, evaluate the use of Power BI Premium that embeds an Analysis services instance instead of a standalone Azure Analysis Services server.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+uid: ecad703d-0b35-4d83-9287-85246c4ff9fb
+name: What actions are you taking to optimize cloud costs?

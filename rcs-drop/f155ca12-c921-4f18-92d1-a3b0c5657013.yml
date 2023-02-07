@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You preview a single table into Power Query Editor in Power BI Desktop. The table contains the following columns: LocationName, LocationID, Temperature, and DateTime.
+
+  You need to convert the table into a properly formed star schema.
+
+  To which table should you add the LocationName field?
+questionnaireUid: b4ed2b0c-b257-4622-bef0-54d12a1aebb3
+questions:
+  - uid: f155ca12-c921-4f18-92d1-a3b0c5657013-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You preview a single table into Power Query Editor in Power BI Desktop.
+        isCorrect: false
+      - id: 1
+        text: 'The table contains the following columns: LocationName, LocationID, Temperature, and DateTime.'
+        isCorrect: false
+      - id: 2
+        text: You need to convert the table into a properly formed star schema.
+        isCorrect: true
+      - id: 3
+        text: To which table should you add the LocationName field?
+        isCorrect: false
+    manualId: 15-PL_300_2.1.4
+uid: f155ca12-c921-4f18-92d1-a3b0c5657013
+title: ''

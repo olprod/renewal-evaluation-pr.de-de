@@ -1,0 +1,703 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: '[Q1] Engage IoT security consultants for a full audit.'
+    url: 'https://www.microsoft.com/security/business'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.e346e6ab-f12c-4e05-8e5a-cd084eb63991.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: General
+  - title: '[Q1] Use the Security Maturity Model from the Industrial IoT Consortium to understand maturity targets.'
+    url: 'https://www.iiconsortium.org/smm.htm'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.e346e6ab-f12c-4e05-8e5a-cd084eb63991.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: General
+  - title: '[Q1] Use Zero Trust security principles in your design.'
+    url: 'https://azure.microsoft.com/resources/zero-trust-cybersecurity-for-the-internet-of-things'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.e346e6ab-f12c-4e05-8e5a-cd084eb63991.2
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Security
+    reportingSubCategory: General
+  - title: '[Q1] Use the Azure Well-Architected Framework to address security pillars.'
+    url: /azure/architecture/framework
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.e346e6ab-f12c-4e05-8e5a-cd084eb63991.3
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Security
+    reportingSubCategory: General
+  - title: '[Q2] Devices should have a cryptographically backed identity.'
+    url: /azure/iot-dps/concepts-service#hardware-security-module
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.0a3c212e-8530-45b7-8d7c-1d8d0e77ac2e.0
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q2] Device identities should be immutable.'
+    url: /azure/iot-dps/concepts-service#attestation-mechanism
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.0a3c212e-8530-45b7-8d7c-1d8d0e77ac2e.1
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q2] Only use the device onboarding identity to onboard the device.'
+    url: 'https://azure.microsoft.com/resources/secure-iot-begins-with-zero-touch-provisioning-at-scale'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.0a3c212e-8530-45b7-8d7c-1d8d0e77ac2e.2
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q3] Store secrets that prove device identity in tamper-resistant hardware.'
+    url: /azure/iot-dps/concepts-service#hardware-security-module
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.e24023b6-ea9a-4a32-ad2f-dbdca6ef7375.0
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q3] Limit access to device secrets as much as possible.'
+    url: 'https://www.microsoft.com/research/uploads/prod/2020/11/Seven-Properties-of-Highly-Secured-Devices-2nd-Edition-R1.pdf'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.e24023b6-ea9a-4a32-ad2f-dbdca6ef7375.1
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q3] Obtain hardware from partners that offer secure hardware.'
+    url: 'https://azure.microsoft.com/blog/the-blueprint-to-securely-solve-the-elusive-zerotouch-provisioning-of-iot-devices-at-scale'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.e24023b6-ea9a-4a32-ad2f-dbdca6ef7375.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q4] Use password-less authentication for device identity.'
+    url: /azure/iot-hub/iot-hub-x509ca-concept
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.667af2d6-0ca9-4642-af23-5c687a144467.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q4] Isolate private keys in hardware.'
+    url: /azure/iot-dps/concepts-service#attestation-mechanism
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.667af2d6-0ca9-4642-af23-5c687a144467.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q4] Use IoT gateways to enforce strong identity patterns for less capable devices.'
+    url: /azure/iot-edge/iot-edge-as-gateway
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.667af2d6-0ca9-4642-af23-5c687a144467.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q5] Regularly issue devices with renewable credentials.'
+    url: /azure/iot-dps/how-to-roll-certificates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.2bb7a7e1-c017-4222-b7bb-99d895dbf581.0
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q5] Provision operational certificates from a trusted PKI with an appropriate lifetime.'
+    url: /azure/iot-dps/how-to-roll-certificates#enrollment-groups-and-certificate-expiration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.2bb7a7e1-c017-4222-b7bb-99d895dbf581.1
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q5] Renew operational certificates automatically.'
+    url: /azure/architecture/framework/iot/iot-security#zero-trust-criteria-for-devices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.2bb7a7e1-c017-4222-b7bb-99d895dbf581.2
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q5] Grant access to a device based on its operational identity. '
+    url: /azure/architecture/framework/iot/iot-security#least-privileged-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.2bb7a7e1-c017-4222-b7bb-99d895dbf581.3
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q5] Credential revocation must be supported.'
+    url: /azure/iot-hub/iot-hub-devguide-identity-registry#disable-devices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.2bb7a7e1-c017-4222-b7bb-99d895dbf581.4
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q6] Use a centralized identity registry for your onboarding identities.'
+    url: /azure/iot-hub/iot-hub-devguide-identity-registry
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.a7133ad2-050c-461a-9309-8529813baa7f.0
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.a7133ad2-050c-461a-9309-8529813baa7f.1
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q6] Detect and inventory unmanaged devices on your network.'
+    url: /azure/defender-for-iot/organizations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.a7133ad2-050c-461a-9309-8529813baa7f.2
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Strong Identity
+  - title: '[Q7] Check dynamic access signals as part of authorization.'
+    url: /azure/architecture/framework/iot/iot-security#least-privileged-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.0d56ed3f-ee85-409d-9276-065f681de0ff.0
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Least-privileged access
+  - title: '[Q7] Add the ability to search for and manage devices at scale.'
+    url: /azure/iot-hub/iot-hub-device-management-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.0d56ed3f-ee85-409d-9276-065f681de0ff.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Least-privileged access
+  - title: '[Q8] Use network segmentation to group IoT devices.'
+    url: /security/benchmark/azure/baselines/iot-hub-security-baseline?toc=/azure/iot-hub/TOC.json#network-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.ee2002a6-dce4-426e-ae6c-55f641063417.0
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Least-privileged access
+  - title: '[Q8] Use micro-segmentation to isolate less capable devices at the network layer.'
+    url: /security/benchmark/azure/baselines/iot-hub-security-baseline?toc=/azure/iot-hub/TOC.json#network-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.ee2002a6-dce4-426e-ae6c-55f641063417.1
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Least-privileged access
+  - title: '[Q9] Use encryption to protect IoT data in transit and at rest.'
+    url: /azure/iot-hub/iot-hub-tls-support
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.1eb139a9-f0a7-4e8a-9b73-d1834ef6b1a3.0
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Security
+    reportingSubCategory: Least-privileged access
+  - title: '[Q9] Use data classification strategies to categorize data access.'
+    url: /azure/cloud-adoption-framework/govern/policy-compliance/data-classification
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.1eb139a9-f0a7-4e8a-9b73-d1834ef6b1a3.1
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Least-privileged access
+  - title: '[Q9] Ensure your IoT data complies with regulatory requirements.'
+    url: /azure/cloud-adoption-framework/scenarios/data-management/overview-data-governance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.1eb139a9-f0a7-4e8a-9b73-d1834ef6b1a3.2
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Least-privileged access
+  - title: '[Q10] Prevent unhealthy devices from accessing IoT solutions.'
+    url: /azure/architecture/framework/iot/iot-security#device-health
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.73d81e9a-17ca-4f02-acf5-10209d3c8737.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q10] Isolate, investigate, and mitigate unhealthy devices.'
+    url: /azure/iot-dps/how-to-unprovision-devices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.73d81e9a-17ca-4f02-acf5-10209d3c8737.1
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q10] Flag critical devices for mitigation without taking them offline.'
+    url: /azure/iot-hub/iot-hub-devguide-device-twins#device-twins
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.73d81e9a-17ca-4f02-acf5-10209d3c8737.2
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q11] Assess your security configuration against a defined posture.'
+    url: /azure/defender-for-iot/device-builders/concept-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.d315bad1-5985-48dd-8789-bdd95386f382.0
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q11] Assess your compliance configuration against a defined posture.'
+    url: /azure/defender-for-iot/device-builders/concept-security-alerts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.d315bad1-5985-48dd-8789-bdd95386f382.1
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q11] Assess your device vulnerability.'
+    url: /azure/defender-for-iot/device-builders/concept-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.d315bad1-5985-48dd-8789-bdd95386f382.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q11] Prioritize vulnerability remediation.'
+    url: /azure/architecture/framework/iot/iot-security#zero-trust-criteria-for-iot-services
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.d315bad1-5985-48dd-8789-bdd95386f382.3
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q11] Check that your solution uses secure credentials and protocols.'
+    url: /azure/defender-for-iot/device-builders/concept-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.d315bad1-5985-48dd-8789-bdd95386f382.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q11] Monitor for active threats and threat alerts.'
+    url: /azure/defender-for-iot/device-builders/concept-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.d315bad1-5985-48dd-8789-bdd95386f382.5
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q11] Configure alerts for anomalous device behavior.'
+    url: /azure/defender-for-iot/device-builders/concept-agent-based-security-alerts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.d315bad1-5985-48dd-8789-bdd95386f382.6
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Device Health
+  - title: '[Q12] Set up centralized configuration and compliance management.'
+    url: /azure/defender-for-iot/device-builders/quickstart-onboard-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.a2c034ca-d9a7-4ab5-9595-ee8f44645559.0
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q12] Enable the application of service policies to meet industry-specific compliance. '
+    url: /azure/iot-hub/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.a2c034ca-d9a7-4ab5-9595-ee8f44645559.1
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q12] Services and data in the cloud should be compliant with the industry compliance regime.'
+    url: /compliance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.a2c034ca-d9a7-4ab5-9595-ee8f44645559.2
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q13] Set up centralized configuration and compliance management.'
+    url: /azure/defender-for-iot/device-builders/quickstart-onboard-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.93a4172d-208d-4eec-9e2f-771016e13401.0
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q13] Enable the application of device policies to meet industry-specific compliance. '
+    url: /azure/certification/overview#our-certification-programs-and-iot-device-requirements
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.93a4172d-208d-4eec-9e2f-771016e13401.1
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q13] Enable centralized configuration for the secure distribution and update of certificates.'
+    url: /azure/defender-for-iot/device-builders/concept-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.93a4172d-208d-4eec-9e2f-771016e13401.2
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q14] Enable the update of the full set of software on your devices.'
+    url: /azure/iot-hub-device-update/understand-device-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.a96559f9-8078-4f07-9660-3fae0ed08b8b.0
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Continual Updates
+  - title: '[Q14] Enable an update mechanism that has remote deployment capabilities and update rollout verification.'
+    url: /azure/iot-hub-device-update/understand-device-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.a96559f9-8078-4f07-9660-3fae0ed08b8b.1
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Security
+    reportingSubCategory: Continual Updates
+  - title: '[Q14] Enable pervasive security monitoring in your update mechanism. '
+    url: /azure/architecture/framework/iot/iot-security#continuous-updates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.a96559f9-8078-4f07-9660-3fae0ed08b8b.2
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Continual Updates
+  - title: '[Q15] Ensure you can rapidly identify unauthorized or compromised devices.'
+    url: /azure/sentinel/iot-solution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.c4e4718c-0f75-4de7-8371-f56f0657575a.0
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q15] Monitor devices that can''t easily be patched or configured remotely.'
+    url: /azure/defender-for-iot/organizations/architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.c4e4718c-0f75-4de7-8371-f56f0657575a.1
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q15] Generate an as-is asset inventory and network map of all IoT/OT devices.'
+    url: /azure/defender-for-iot/organizations/concept-key-concepts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.c4e4718c-0f75-4de7-8371-f56f0657575a.2
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q15] Identify all communication protocols used across IoT/OT networks.'
+    url: /azure/defender-for-iot/organizations/concept-supported-protocols
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.c4e4718c-0f75-4de7-8371-f56f0657575a.3
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q15] Catalog all external connections to and from IoT/OT networks.'
+    url: /azure/defender-for-iot/organizations/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.c4e4718c-0f75-4de7-8371-f56f0657575a.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q15] Identify vulnerabilities in IoT/OT devices and use a risk-based approach to mitigate them.'
+    url: /azure/defender-for-iot/device-builders/concept-standalone-micro-agent-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.c4e4718c-0f75-4de7-8371-f56f0657575a.5
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q15] Implement a vigilant monitoring program with anomaly detection.'
+    url: /azure/defender-for-iot/organizations/concept-sentinel-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.c4e4718c-0f75-4de7-8371-f56f0657575a.6
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q15] Highlight and remediate non-compliant device configurations.'
+    url: /azure/defender-for-iot/organizations/concept-sentinel-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.c4e4718c-0f75-4de7-8371-f56f0657575a.7
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q15] Perform regular auditing to check for misconfigurations.'
+    url: /azure/defender-for-iot/organizations/concept-sentinel-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.c4e4718c-0f75-4de7-8371-f56f0657575a.8
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q16] Collect and analyze logs from across the entire environment.'
+    url: /azure/defender-for-iot/organizations/concept-sentinel-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.efba0839-4bc8-4c72-86e3-840b8e5099a5.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q16] Implement a defined response mechanism using a SOAR.'
+    url: /azure/defender-for-iot/organizations/concept-sentinel-integration#soar-playbooks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.efba0839-4bc8-4c72-86e3-840b8e5099a5.1
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+  - title: '[Q16] Create alerts when security events, misconfiguration, and behavior anomaly are detected.'
+    url: /azure/defender-for-iot/organizations/concept-sentinel-integration#integrated-incident-timeline
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 347e13a3-aa0a-4d87-96bb-4d347de40094.efba0839-4bc8-4c72-86e3-840b8e5099a5.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Security
+    reportingSubCategory: Security monitoring and response
+uid: b5aac439-c08c-4c56-a9c0-7b5d7e2fbc48
+name: ''

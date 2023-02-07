@@ -1,0 +1,113 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-0
+    name: Do the appropriate people and teams have foundational level knowledge of cloud services and how those services are provided with Microsoft Azure?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-1
+    name: 'Do your developers understand cloud computing concepts as well as, general cloud computing models, and services such as Public, Private and Hybrid cloud and IaaS, PaaS and SaaS?'
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f-q-2
+    name: 'Do you have  a Cloud Center of Excellence (CCoE) staffed with cross-discipline members, For example, CTO, Finance, DevOps and Talent Management?'
+stem: |
+  Depending on the motivations and business outcomes associated with a cloud adoption effort, leaders might need to set up new organizational structures or virtual teams to handle various functions. Organizational and environmental (technical) readiness often require new skills for technical and nontechnical contributors.
+isRequired: true
+uid: e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f
+name: 'Depending on the motivations and business outcomes associated with a cloud adoption effort, leaders might need to set up new organizational structures or virtual teams to handle various functions.'

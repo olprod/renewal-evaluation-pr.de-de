@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |
+  Your company plans to implement a Zero Trust implementation.
+
+  To enact the principles of Zero Trust, you must implement Azure multi-factor authentication (MFA) and roll out passwordless credentials.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 11162164-085c-434d-80c8-d123d18e85bd
+questions:
+  - uid: f9f8a133-e06e-44a7-ab54-07b9c0938316-q-0
+    title: Your company plans to implement a Zero Trust implementation.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'To enact the principles of Zero Trust, you must implement Azure multi-factor authentication (MFA) and roll out passwordless credentials.'
+        isCorrect: true
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: false
+uid: f9f8a133-e06e-44a7-ab54-07b9c0938316
+title: 'Otherwise, select No.'

@@ -1,0 +1,74 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The benefits of the Premium tier of Azure Service Bus are well understood. We have adjusted our configurations based on the best practices.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: We have implemented geo-replication on the sender and receiver side to protect our solution against outages and disasters.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: We have configured Zone Redundancy in the Service Bus namespace (only available with Premium tier).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: Partitioned Queues or Topics are in use in our solution.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: 'We are aware of the requirement to set a Partition Key, Session ID, or Message ID on each message to ensure related messages send to the same partition in the messaging entity.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: The AMQP protocol is used for Service Bus connections whenever possible.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: We have implemented resilience for transient fault handling when sending or receiving messages.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.bus
+stem: ''
+isRequired: false
+uid: 06e81b45-6218-45e2-a380-04894ebd9d1a
+name: What actions have you taken to ensure the reliability of your Azure Service Bus?

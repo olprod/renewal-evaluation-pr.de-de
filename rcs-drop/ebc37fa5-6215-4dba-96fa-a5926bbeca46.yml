@@ -1,0 +1,36 @@
+### YamlMime:QuestionSet
+scenario: |+
+  A company has Azure virtual machines (VMs) in a virtual network named VNET1. VNET1 uses an address space of 10.1.0.0/17. The company deploys a virtual network gateway named VNG1 using a VpnGw1 SKU in VNET1. The company configures a site-to-site VPN connection on VNG1 with their on-premises network. The on-premises network uses an address space 10.1.0.0/16.
+
+  Users report issues connecting to the VMs from on-premises.
+
+  You need to resolve the issue.
+
+  What should you configure?
+
+questionnaireUid: dcf3344d-049c-4662-8f60-f740956458a4
+questions:
+  - uid: ebc37fa5-6215-4dba-96fa-a5926bbeca46-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company has Azure virtual machines (VMs) in a virtual network named VNET1.
+        isCorrect: false
+      - id: 1
+        text: VNET1 uses an address space of 10.1.0.0/17.
+        isCorrect: false
+      - id: 2
+        text: The company deploys a virtual network gateway named VNG1 using a VpnGw1 SKU in VNET1.
+        isCorrect: false
+      - id: 3
+        text: The company configures a site-to-site VPN connection on VNG1 with their on-premises network.
+        isCorrect: true
+      - id: 4
+        text: The on-premises network uses an address space 10.1.0.0/16.
+        isCorrect: false
+    manualId: AZ720.9.1
+uid: ebc37fa5-6215-4dba-96fa-a5926bbeca46
+title: ''
+manualId: ''

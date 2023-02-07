@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Work with your internal users to identify your key datasets (e.g. raw data or some highly curated data used for high impact dashboards,) and evaluate the business impact of losing temporary or permanent access to this data.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Define Recovery Point Objectives values for those datasets.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: 'Decide on the level of isolation from the rest of the data that match your security constraints (in a separate folder, container, storage accounts or subscription).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: 'If they are stored in a dedicated container, consider using the immutability feature.'
+    description: 'It uses the mode Write Once Read Many times (WORM) – data can be written, read, but not renamed, modified, or deleted.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: f8e160cb-016a-462f-9516-426ee2ca40ed
+name: How do you ensure the availability of your most critical datasets?

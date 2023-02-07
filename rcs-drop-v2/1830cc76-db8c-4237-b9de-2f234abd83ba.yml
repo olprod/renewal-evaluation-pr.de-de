@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Azure Stack Hub Hotfixes are installed within an acceptable time frame, for example within 45 days of their release date where possible.'
+    description: 'Installing Azure Stack Hub hotfixes in a timely manner is recommended, to enable the stamp to benefit from quality improvements in-between major update versions. Installing the updates in a timely manner, for example within 45 days of their release is recommended.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: Azure Stack Hub Updates are installed in a timely manner to ensure we remain within N-2 supported versions at all times.
+    description: 'To remain within support, Azure Stack Hub scale units must remain within N-2 versions of the most recent major update. Therefore, it is an important Cloud Operator task to install the updates in a timely manner.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Hardware OEM Updates are installed to ensure we benefit from driver and firmware improvements for our hardware, remaining within the OEM supported versions.'
+    description: 'Hardware OEM updates include quality, stability, and performance improvements for the physical nodes OS drivers and hardware component firmware. It is an important task to ensure the stamp is running a support OEM update package.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: 'When installing Azure Stack Hub Hotfixes, Updates or OEM Updates we follow the defined list of pre and post checks, to help ensure the platform is healthy and effectively monitored during servicing operations.'
+    description: The pre and post update check-list provides a comprehensive list of recommended practices prior that should be considered before Cloud Operators perform any servicing operations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: 'Field Replacement Unit (FRU) processes have been defined (as per our hardware OEM partner) to enable the successful replacement of physical disks, hardware components and entire nodes.'
+    description: 'Understanding the hardware OEMs Field Replacement Unit (FRU) processes is critically important, to ensure that any physical disks, components or node replacement activities are completed successfully and with minimal risk to the platform.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: 'BitLocker Recovery Keys are exported prior performing operations that could alter a Nodes measured/secure boot configuration, such as Msft/OEM Updates and running Stop-AzureStack. Recovery Keys are stored securely and externally to the stamp.'
+    description: Are BitLocker Recovery Keys exported from the stamp prior performing any update operations. It is important to retain the Recovery Keys external to the stamp in case they are needed to recover from an unplanned outage
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 1830cc76-db8c-4237-b9de-2f234abd83ba
+name: What process and procedure considerations have been implemented for servicing/update operations?

@@ -1,0 +1,39 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Look at the Azure Migration and Modernization center on Azure.com
+    url: 'https://azure.microsoft.com/en-us/migration/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore the Azure database migration guides
+    url: 'https://docs.microsoft.com/en-us/data-migration/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Modernizing Applications and Data: The View from Customers Who Have Taken the Journey with Microsoft Azure'
+    url: 'https://azure.microsoft.com/en-us/resources/modernizing-applications-and-data-the-view-from-customers-who-have-taken-the-journey-with-microsoft-azure/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 6a6a3bb4-864d-43aa-86a8-94123519bbfd
+name: ''

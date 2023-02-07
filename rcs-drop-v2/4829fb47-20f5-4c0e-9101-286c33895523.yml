@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 77437dce-1b30-4dd8-9878-8a2e3c25d5cf
+  - 3194dd2d-893b-4091-9f3f-a5629a459613
+  - 9ea7d023-227a-4eed-8c17-9f31f7bf587f
+  - a8a3847b-ab7a-4d67-902b-79344707245e
+  - e7411c46-e377-4de9-a5fa-a8755abc8dac
+recommendations:
+  - 3199a636-e724-4769-bcfe-39460d9461bf
+assignedGroupIds: []
+uid: 4829fb47-20f5-4c0e-9101-286c33895523
+name: SQL VM - Performance Efficiency

@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Appropriate SKUs are used for SAP servers.
+    description: 'The performance required and infrastructure utilization are key factors which define the "size" of Azure resources to be used, but there can be hidden aspects that affect cost too. Watch for cost variations between different SKUs – for example D Series, E Series & M Series for DB use-cases.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Appropriate operating systems are used for the SAP workload.
+    description: Analyze the technology stack and identify which workloads are capable of running on Linux and which require Windows. Selection of Operating System can have an impact on the cost of running SAP workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: A recent review of SKUs that could benefit from Reserved Instances for 1 or 3 years or more has been performed.
+    description: 'Purchasing reserved instances is a way to reduce Azure costs for workloads with stable usage. You have to manage utilization: if it’s too low then you are paying for resources that are not being used. One advice is to keep RI instances simple and not trying to have too much management overhead that has to be factored in as part of the cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '3'
+    text: VM instances which are not used are shut down.
+    description: Use the Start/Stop VMs during off-hours feature of virtual machines to minimize waste. There are many configuration options to schedule start the stop times. The feature is suitable as a low-cost automation option. Azure Advisor evaluates virtual machines based on CPU and network utilization over a time period and recommends actions like shut down or resize instances.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: Zone to Zone disaster recovery is used for virtual machines.
+    description: 'Replicate, failover and failback your business-critical virtual machines within the same region with zones. Ideal for those that have complicated networking infrastructure and want to avoid the cost and complexity of recreating it in a secondary region.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '5'
+    text: Snoozing/ Auto-Stop-Start used for SAP workload.
+    description: Auto-Stop-Start can help with cost optimisation for the SAP workload that does not need to be available more than few hrs on weekdays.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: 32d3fc44-8252-463c-8d42-1b47d422a8cc
+name: How do you manage compute costs for the critical SAP workload?

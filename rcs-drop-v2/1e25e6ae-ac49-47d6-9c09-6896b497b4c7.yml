@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. You organization has basic understanding of data lifecycle and has defined and planning to apply the process to enable better management practices.
+    description: You organization has basic understanding of data lifecycle and has defined and planning to apply the process to enable better management practices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. You organization has good understanding of data lifecycle and has mapped and aligned requirement to apply the process to enable better management practices.
+    description: You organization has good understanding of data lifecycle and has mapped and aligned requirement to apply the process to enable better management practices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has defined, approved and deployed some processes to manage data lifecycle through data governance practices and collects metrics to improve the overall process.'
+    description: 'Your organization has defined, approved and deployed some processes to manage data lifecycle through data governance practices and collects metrics to improve the overall process.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has implemented a standard process across your entire data estate for managing data lifecycle with metrics regularly reviewed for eliminating process redundancy.
+    description: Your organization has implemented a standard process across your entire data estate for managing data lifecycle with metrics regularly reviewed for eliminating process redundancy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization fully utilizes data lifecycle processes and tools with inbuilt data lifecycle features as wells as managing metrics to share and improve experiences. '
+    description: 'Your organization fully utilizes data lifecycle processes and tools with inbuilt data lifecycle features as wells as managing metrics to share and improve experiences. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Ensures that you organization understands, maps, inventories, and controls its data flows through business processes throughout the data lifecycle from creation or acquisition to retirement. Do you follow a practice for using policies to effectively manage data for the entire time it exists within your system?'
+isRequired: true
+uid: 1e25e6ae-ac49-47d6-9c09-6896b497b4c7
+name: 'Ensures that you organization understands, maps, inventories, and controls its data flows through business processes throughout the data lifecycle from creation or acquisition to retirement. '

@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Data mesh is an architectural pattern for implementing enterprise data platforms in large, complex organizations. It helps scale analytics adoption beyond a single platform and a single implementation team. Would you like to take a readiness to validate your organization''s suitability for adopting Data Mesh?'
+hideEmptyGuidance: false
+questions:
+  - cd9f20b6-e51e-462e-8773-c9b5e8c2d04a
+recommendations:
+  - 4e287487-7ce5-44fb-8121-74dfe90989c8
+assignedGroupIds: []
+uid: 6fbe6dd3-1d78-4b85-ac00-a60d6cfd8f8d
+name: Data Mesh Readiness

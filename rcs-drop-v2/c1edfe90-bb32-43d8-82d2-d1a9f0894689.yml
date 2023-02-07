@@ -1,0 +1,94 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Find out how Microsoft recommends taking a process-focused approach to the implementation of your Dynamics 365 business application.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=129'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Business process and apps
+    priority: 80
+    reportingCategory: Business process and apps
+    reportingSubCategory: Business process and apps
+  - title: Review this information to learn more about Microsoft's recommendations on defining and implementing your data management strategy.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=239'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review this documentation to learn more about designing your data structure.
+    url: 'https://docs.microsoft.com/en-us/learn/modules/design-app/design-data-structure'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Data
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Data
+  - title: Review this information to learn more about data management for Dynamics 365 finance and operations apps.
+    url: 'https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about Microsoft's recommendations on designing an effective integration strategy.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=452'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review this information to learn more about integrating Power Apps with enterprise systems.
+    url: 'https://docs.microsoft.com/en-us/power-apps/guidance/planning/enterprise-systems'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Read this to learn more about integrations finance and operations apps.
+    url: 'https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/integration-overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'To improve your chances of implementation success, consider these recommendations on driving a robust application architecture strategy.'
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=112'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Business process and apps
+    priority: 60
+    reportingCategory: Business process and apps
+    reportingSubCategory: Business process and apps
+uid: c1edfe90-bb32-43d8-82d2-d1a9f0894689
+name: ''

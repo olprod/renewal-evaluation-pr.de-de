@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You''ve defined the entire ingestion infrastructure for Azure IoT Hub and DPS, and any other backend services as code.'
+    description: Define your entire ingestion infrastructure as infrastructure as code to ensure that your resources can be deployed automatically and consistently across environments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: You track and address configuration drift.
+    description: 'A DevOps tool, such as Azure DevOps or GitHub, can help track configuration, infrastructure as code, and firmware versions. Version tracking helps your organization to determine what version(s) of firmware, configuration, and infrastructure-as-code are deployed to what environments.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: You have an automated process to deploy your ingestion infrastructure.
+    description: 'Using a CI/CD tool can help with rapid developing, testing, and deploying of new functionality or hot fixes to your ingestion infrastructure. Azure DevOps or GitHub actions can help accomplish this.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: 'Critical test environments have 1:1 parity with the production environment.'
+    description: 'Apply the same firmware, configuration settings, and ingestion infrastructure code in your production and testing environments to simplify the development and testing of new functionality or hot fixes. You can easily create these environments by using infrastructure as code and automating your processes as much as possible.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: Direct write access to ingestion infrastructure isn't possible. You use infrastructure as code to provision and configure all resources.
+    description: Ensure the only way to update configuration settings or ingestion infrastructure is through an automated pipeline. This enables you to see when and what changes have occurred to your environments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'As you provision and configure Azure IoT ingestion resources, such as Device Provisioning Service or Azure IoT Hub, a repeatable and predictable process helps you avoid errors and downtime.'
+isRequired: false
+uid: 8dc3d8fc-2e44-4509-836f-b7c9a1ac286e
+name: 'As you provision and configure Azure IoT ingestion resources, such as Device Provisioning Service or Azure IoT Hub, a repeatable and predictable process helps you avoid errors and downtime. Q11.'

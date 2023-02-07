@@ -1,0 +1,65 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Services are free to use different technologies and design patterns based on their unique requirements. '
+    description: Loosely coupled services that communicate with each other through well-defined interfaces allow for inherit flexibility in the composition of each service. Each service can be developed using the most appropriate language and hosted on compute and data platforms that best fit its use case.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Services can scale independently to optimize the use of underlying Azure platform resources.
+    description: 'In a microservice architecture, each service can be developed to scale independently based on characteristics about the operation of that service, such as queue length or resource utilization.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: The application implements end-to-end instrumentation and tracing that spans service boundaries.
+    description: 'In a loosely coupled microservice architecture, end-to-end tracing requires more complex orchestration since it must traverse service boundaries that likely encompass different technology stacks.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Failures can be handled separately and don't affect client transactions.
+    description: A loosely coupled microservice application should be designed such that failures within a single service don't take the full application down and can be handled independently.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '4'
+    text: The solution is designed to manage transactional integrity across different services.
+    description: |-
+      Transactional integrity ensures that when the application attempts to commit a transaction, if part of the transaction fails, none of the transaction will be committed.
+
+      Transactional integrity can be harder to manage in a distributed microservice environment because data creation and persistence might happen within separate services.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Loose coupling provides the cornerstone of a microservice architecture and allows a service to operate independently. In the context of a mission critical application, it further facilitates high-availability by preventing downstream failures from cascading to frontends or different deployment stamps. When implementing loose coupling, event-driven architecture and asynchronous message processing are key design patterns for interactions that don''t require an immediate response. '
+isRequired: false
+uid: 702e3c29-ab92-4b08-9945-fd247131dd47
+name: Loose coupling provides the cornerstone of a microservice architecture and allows a service to operate independently.

@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Understand fundamental questions about your business processes and readiness to modernize your applications and data.
+hideEmptyGuidance: false
+questions:
+  - c4ad71fd-4d8a-4c70-9c4f-2af6c931b899
+  - 9edbff4d-eda4-4ab8-b4f9-e3559c3437bf
+  - e21faeba-038f-4174-8d82-cc8a6793f0d6
+recommendations:
+  - 6a6a3bb4-864d-43aa-86a8-94123519bbfd
+assignedGroupIds: []
+uid: 6dd5ab55-d188-4f80-920e-f8ef24567ef3
+name: Fundamentals

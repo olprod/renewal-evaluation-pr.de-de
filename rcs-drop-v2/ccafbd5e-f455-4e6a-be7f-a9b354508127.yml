@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: "Regulatory and governance requirements for our portfolio are known and well understood.\_"
+    description: Establish a basic understanding of the methodology that drives cloud governance in the Cloud Adoption Framework to begin thinking through the end state solution
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: An Azure Landing zone has been implemented in alignment with the conceptual architecture
+    description: 'An Azure landing zone is the output of a multi-subscription Azure environment that accounts for scale, security governance, networking, and identity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'The Azure Landing Zone has been enhanced to meet any regulatory, compliance, or governance requirements of our organization'
+    description: Landing zone governance is the smallest unit of overall governance. Establishing a sound governance foundation within your first few landing zones will reduce the amount of refactoring required later in the adoption lifecycle.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'Individual application landing zones are further enhanced to meet regulatory, compliance, or governance requirements for critical workloads'
+    description: Application landing zones are placed in management groups like 'corp' or 'online' beneath the 'landing zones' management group to ensure policy controls are correctly applied
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: "Compliance to regulatory and/or governance requirements are systematically monitored and maintained. Regular compliance attestations are performed.\_"
+    description: 'For IT regulatory compliance, people and processes monitor corporate systems to detect and prevent violations of policies and procedures established by these governing laws, regulations, and standards. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: None of the above
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: ccafbd5e-f455-4e6a-be7f-a9b354508127
+name: What considerations for compliance and governance have you made across your portfolio?

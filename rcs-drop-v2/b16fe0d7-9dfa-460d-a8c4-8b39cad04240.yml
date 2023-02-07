@@ -1,0 +1,85 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 10%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 20%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 30%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 40%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 50%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '5'
+    text: 60%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '6'
+    text: 70%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '7'
+    text: 80%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '8'
+    text: 90%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '9'
+    text: 100%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+uid: b16fe0d7-9dfa-460d-a8c4-8b39cad04240
+name: What percentage of Line of Business applications do you delay development due to inefficient build processes or cost?

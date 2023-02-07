@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 6987466b-e304-4dad-a634-1891716d72c4
+  - fbf462f0-4144-4b44-a266-ec4dd1e32afe
+  - ae21f974-f6eb-445c-abe0-595927a64150
+  - a656b191-b8b8-4d70-ae83-e865c35a9f89
+  - 1fe6a59d-e3ed-471f-90d0-5a5e08879ba6
+recommendations:
+  - 7c90c0bb-784e-41b8-94c2-55b8e7f57bcc
+assignedGroupIds: []
+uid: 15a171d2-bf0d-48f4-b663-d031935b06ac
+name: Analysis Services - Performance Efficiency

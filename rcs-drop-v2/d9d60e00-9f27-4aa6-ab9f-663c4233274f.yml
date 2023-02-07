@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'People are a critical part of your defense, especially your personnel with access to critical impact accounts.'
+    description: ' Ensuring these users are using MFA for their accounts and have just enough permissions assigned on the instance/database level.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Established a lifecycle management policy for critical impact accounts.
+    description: Ensure you have a process for disabling or deleting administrative accounts when admin personnel leave the organization (or leave administrative positions).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Ensure appropriate emergency access accounts are reconfigured.
+    description: 'While rare, sometimes extreme circumstances arise where all normal means of administrative access are unavailable.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Access to SQL MI is audited/monitored.
+    description: You receive a notification upon detection of anomalous database activities
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: d9d60e00-9f27-4aa6-ab9f-663c4233274f
+name: How are you ensuring your critical accounts are protected?

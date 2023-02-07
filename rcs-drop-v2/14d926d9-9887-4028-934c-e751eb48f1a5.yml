@@ -1,0 +1,19 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This section covers aspects for security & compliance for D365 F&O solutions. It will cover topics on User access enablement, keep track of license compliance, security administration best practices for Batch Job execution, Data Logging best practices and related topics use in your operations to provide you personalized recommendations to improve & optimize your current state with applicable best practices.'
+hideEmptyGuidance: false
+questions:
+  - e36ce47a-1c9b-4abc-8388-e7ca6c989f5c
+  - 8292d434-6313-46fe-b858-6e8eaa45988b
+  - 432ae44a-9850-4180-b213-1d43a829155f
+  - 3e59065a-1875-48ae-8076-d369f0791125
+  - d9afb169-6ee0-4263-a98d-f7c1250506a1
+  - 138de6a4-2e64-4041-826f-94eca36c7908
+  - 59ba992b-1cd0-4c60-9b50-14bb7b7738ed
+  - 975226bd-7a38-4673-8555-9e25d59936d5
+recommendations:
+  - 1ead8c5b-2a8e-43de-ae0a-85cce02b324c
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: 14d926d9-9887-4028-934c-e751eb48f1a5
+name: Security & Compliance

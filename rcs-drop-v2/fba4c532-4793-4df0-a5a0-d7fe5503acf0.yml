@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Track how data flows in and out of Azure SQL MI.
+    description: 'Most of the time inbound data transfers (data going into Azure datacenters) are free - for outbound data transfers, data going out of Azure datacenters, the data transfer pricing is based on Billing Zones.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Defined and enforce data retention and archival requirements.
+    description: 'In typical systems, not all data needs to be available for online processing.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Verify if data storage and partitionining is done correctly.
+    description: Choosing an inappropriate data store or one that is mis-configured can have a huge cost impact on your design.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: 'Use compression (row, page), columstore indexes where possible to keep storage footprint small.'
+    description: Compression will reduce size of the storage being used and therefore reduce the costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Consider the number of days you require your backup history to be available.
+    description: 'Please check the documentation for the backup limites inlcuded in SQL MI cost, additional space requried for backup can generate additional cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Verify what is stored in the database and what can be offloaded to a storage account.
+    description: Check if any data can be removed from database and reduce it's size.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: 'Verify tranasaction log / tempdb size, fragmentation and usage stats.'
+    description: 'Please check the documentation for the storage inlcuded in SQL MI cost, additional space requried for transactional log/ tempdb can generate additional cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.F
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: storage-data-sqlmi
+uid: fba4c532-4793-4df0-a5a0-d7fe5503acf0
+name: How do you manage the storage footprint of your digital assets?

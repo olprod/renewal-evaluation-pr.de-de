@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Your security design is classified using native tools such as SQL Data Classification or Azure Purview.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: 'Security considered in the full lifecycle of system components including development, test, production, archival, and sharing data externally.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: 'Implemented governance policies and a DevOps lifecycle of continuous integration, continuous delivery (CI/CD) for your databases.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: 'Using native security capabilities, such as TDE, Azure Key Vault and managed identities.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: 'Ensured only essential services are installed, unused components are disabled, and only minimal required permissions are granted.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: 'Users are educated, informed, and incentivized to support the security assurance goals of the system.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: 'Established clear lines of accountability, ownership of resources, and ensured threats can be addressed in a timely manner.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: Zero-trust is assumed when evaluating access requests.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: Practiced a Defense in Depth strategy that employs a series of mechanisms to slow the advance of an attack.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: design-data-sqlvm
+uid: 8be9cb3b-060a-4934-8b03-299159999151
+name: What design considerations did you make in your SQL VM workload in regards to security?

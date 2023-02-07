@@ -1,0 +1,18 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 18cc037c-e9ad-4c44-996c-ef043634db2c
+  - 960c1882-d7a4-4c9d-9334-976a88c8e4c0
+  - 205df3e2-9964-4f14-89a1-91f1e408de90
+  - 7a64f25e-941c-45db-9776-e6575b45ad6d
+  - 8d706c64-c048-4e82-a66d-34cdd0aa276a
+  - 1031e925-cb31-4b91-b86d-89708b685090
+  - b306518e-8c43-42e4-bf68-42548d185a32
+  - 8397e788-2004-41bb-aba6-db13af1412cd
+recommendations:
+  - 797aa467-ba18-492c-b850-94ef9e3822c8
+assignedGroupIds: []
+uid: 57d1514e-5a0b-4c02-873f-5c6a28117c23
+name: Cosmos DB (SQL API) - Reliability

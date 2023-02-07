@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You can rapidly identify unauthorized or compromised devices.
+    description: 'Your solution can rapidly identify unauthorized or compromised devices, detect OT threats and multi-stage cross-boundaries OT/IT attacks.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '1'
+    text: 'You monitor devices that can''t easily be patched or configured remotely. '
+    description: Monitor managed greenfield devices and legacy unmanaged brownfield devices that don’t support agents and cannot easily be patched or configured remotely.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '2'
+    text: You generate an "as-is" asset inventory and network map of all IoT/OT devices.
+    description: Generate an as-is asset inventory and network map of all IoT/OT devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '3'
+    text: You identify all communication protocols used across IoT/OT networks.
+    description: Identify protocols used to enable monitoring.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '4'
+    text: You catalog all external connections to and from IoT/OT networks.
+    description: Your solution catalogs all external connections to and from IoT/OT networks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '5'
+    text: You identify vulnerabilities in IoT/OT devices and use a risk-based approach to mitigate them.
+    description: 'By collecting signals from the entire environment—across all users, devices, applications, and infrastructure, both on-premises and in multiple clouds—and analyzing them in centralized Security Information and Event Management (SIEM) and Extended Detection and Response (XDR) platforms, security operations center (SOC) analysts can hunt for and uncover previously unknown threats. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '6'
+    text: 'You implement a vigilant monitoring program with anomaly detection. '
+    description: A vigilant monitoring program with anomaly detection can detect malicious cyber tactics such as living off the land techniques within IoT/OT systems. Examples include monitoring for unauthorized changes to controllers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '7'
+    text: You highlight and remediate non-compliant device configurations.
+    description: You solution highlights and remediate non-compliant device configurations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '8'
+    text: 'You perform regular auditing to check for misconfigurations. '
+    description: You perform regular auditing to check for device misconfigurations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: Security monitoring is necessary to rapidly identify unauthorized or compromised devices. Monitoring adds an additional layer of protection for managed greenfield devices while also providing a compensating control for legacy unmanaged brownfield devices that don't support agents and can't easily be patched or configured remotely.
+isRequired: false
+uid: 2e9768c5-cd49-4c3e-b92d-467164d1d8fb
+name: Security monitoring is necessary to rapidly identify unauthorized or compromised devices. Monitoring adds an additional layer of protection for managed greenfield devices while also providing a compensating control for legacy unmanaged brownfield devices that don't support agents and can't easily be patched or configured remotely.

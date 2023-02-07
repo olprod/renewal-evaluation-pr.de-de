@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Beginner '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Advanced '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: '[Or] I have completed "Data Engineering on Microsoft Azure" learning path on Microsoft Learn | 3 hr 40 min'
+    description: 'If this is your first time taking the learner self-assessment or have yet to complete this learning, please don''t choose this answer. This will allow the self-assessment results to provide you with the best learning recommendations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Azure provides a variety of ways to store data: unstructured, archival, relational, and more. 
+  Assess your proficiency in designing storage management in Azure and selecting the right model for the data you want to store in the cloud.
+isRequired: true
+uid: 0e944fc2-aa66-4245-9876-e8293da890cd
+name: 'Azure provides a variety of ways to store data: unstructured, archival, relational, and more.'

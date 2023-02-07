@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Treat your infrastructure as if it were code.
+    description: 'Infrastructure as Code is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: B
+    text: Track the dependencies of your database objects.
+    description: Specific objects can have a dependency chain on other dependent objects which must be successfully deployed before workloads begin.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: C
+    text: Are you aware of your resource limits in Azure.
+    description: Tools like Azure Resource Manager and Azure Policy can enforces limits and quotas on the type and size of VM and SQL Server resources you can provision.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: D
+    text: Tag and name your SQL VM resources in a consistent fashion.
+    description: Organizing cloud-based assets in ways that aid operational management and support accounting requirements is a common challenge that faces large cloud adoption efforts.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: E
+    text: Isolate my SQL VM workloads.
+    description: 'You can isolate database workloads by the way resources are organized, by network topology. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: F
+    text: Build your application using SQL Server DevOps tools.
+    description: SQL Server DevOps provides guidance on how to use existing tools such as SQ Server Data Tools and BCP for integrating your database development into your CICD process.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: design-data-sqlvm
+uid: 538e4c59-d352-4092-815a-9a17ba45d3d5
+name: How are you designing your databases to take into account DevOps?

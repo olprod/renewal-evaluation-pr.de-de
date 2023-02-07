@@ -1,0 +1,39 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: An effective architecture achieves business goals and ROI requirements while keeping costs within the allocated budget.
+hideEmptyGuidance: false
+questions:
+  - 97434d28-e57a-4bbd-a2e1-6626f087349d
+  - 552b15af-b81e-49d9-83e9-e8b8ae409a22
+  - ecacd596-6463-4ade-9570-fd496fdf2bbd
+  - 39f659cf-ff74-4366-ab52-d70c05930c91
+  - 51d9a8e1-955f-4d60-97a4-a7ad8ea9dd5e
+  - b7516148-16aa-42c4-8890-1762a1a4f6f9
+  - d19ace64-4b16-43e1-81e3-20fd113bf54b
+  - 359b9ff6-97d1-4dbc-8991-eb063147783b
+  - 77015dc2-d635-4c67-bc95-2fa9b1436cf2
+  - 152d1f27-e41c-4c3b-ae34-bf3e3853a988
+  - b7977208-6230-4827-924e-539c753eb6c9
+  - cb5a6128-494a-4d29-966a-5f96e564243c
+  - 8ddc9535-f8cc-492a-96d4-f765bb76b4d7
+  - b64df7b8-fc27-440b-a7f0-cc2e410e1432
+  - 032df19c-a470-4d2b-93c1-1044d67efd8c
+  - fba4c532-4793-4df0-a5a0-d7fe5503acf0
+  - 0c6f23b7-fafc-41b8-931c-9c29af5a70b6
+  - d542b4a6-a8ab-4961-a821-b89a4bab7639
+  - c1562e06-e00f-4910-b620-b8caaf727685
+  - c8f27ba7-6373-497c-8219-617f025c0c98
+  - de15429a-64dd-4f76-92bf-9ca31d300234
+  - 0fb8b959-4a62-4a5f-bd0f-62fc17d2a020
+  - 8484cb67-091d-4eb5-8c33-f18cf5523ea6
+  - 3aa3f717-214c-4b77-9002-f43ecccb898b
+  - 8f9c1d64-24d7-4816-ba15-7a37deb8d3a4
+  - e41f1982-f46b-4cc4-9770-7d56bc30f5f5
+  - 16465016-8aa6-4261-8d96-4e9f46b30547
+  - 4d48ae50-6f4f-4c8c-87f5-0fcf70a4db6e
+  - 8c05937a-fedf-4112-a93a-884199de9e97
+recommendations:
+  - 98eec8a6-c231-4a33-a27a-43ad53724629
+assignedGroupIds: []
+uid: Cost-data
+name: Cost Optimization - Data management

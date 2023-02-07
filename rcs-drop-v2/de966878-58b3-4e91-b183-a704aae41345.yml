@@ -1,0 +1,102 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Store any state within the container, either in-memory or on disk, such as session, configuration, or logs'
+    url: /azure/aks/operator-best-practices-multi-region#remove-service-state-from-inside-containers
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f595a317-c92a-4f36-a098-2e6e499f36d5.08d83008-0ff5-4552-b1d8-ee9ce177cb20.A
+      scoreOf: []
+    context: 'Containers are most resilient when there is no need to store state within the container, or any state is delegated to a separate service such as Azure PaaS services. Ideally, use a service which supports multi-region replication for increased resilience. For example, configuration can be stored in Azure App Configuration, in-memory state such as session can be delegated instead to a distributed cache such as Azure Cache for Redis, and disk-based state can make use of Azure Blob or File Storage.'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Use a private container registry for the containers you run in Azure Container Instances
+    url: /azure/container-instances/container-instances-image-security#use-a-private-registry
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f595a317-c92a-4f36-a098-2e6e499f36d5.08d83008-0ff5-4552-b1d8-ee9ce177cb20.B
+      scoreOf: []
+    context: 'Containers in a public container registry does not necessarily guarantee security. Container images consist of multiple file-system layers, and each layer may introduce a vulnerability.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: 'Have a process to keep your container images up to date when base images are updated, or runtime dependencies are updated or reach end of support'
+    url: /azure/aks/operator-best-practices-container-image-management#automatically-build-new-images-on-base-image-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f595a317-c92a-4f36-a098-2e6e499f36d5.08d83008-0ff5-4552-b1d8-ee9ce177cb20.C
+      scoreOf: []
+    context: 'It is common when base images are updated that the update includes security fixes or vulnerability mitigations. It is important to use an automated approach to update your images to ensure they are using the most up to date versions of base images as possible. It is good practice to regularly update base images, ensure application runtimes are up to date and redeploy workloads when required. Using automation to monitor the update status of base images can improve the reliability of this process.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: 'Protect all credentials, keys, or connection strings stored in-memory or configuration files in the container'
+    url: /azure/container-instances/container-instances-image-security#protect-credentials
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f595a317-c92a-4f36-a098-2e6e499f36d5.08d83008-0ff5-4552-b1d8-ee9ce177cb20.D
+      scoreOf: []
+    context: 'Any individual or system with the ability to access the running container will have access to the unprotected credentials. It is best practice to ensure that there are no unprotected credentials or files in the running container, and access is controlled to ensure only specific authorized users and applications can access them. Apply the principle of least privilege at all times.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: A Web Application Firewall is recommended to mitigate common attack vectors
+    url: /azure/web-application-firewall/ag/create-waf-policy-ag
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f595a317-c92a-4f36-a098-2e6e499f36d5.08d83008-0ff5-4552-b1d8-ee9ce177cb20.E
+      scoreOf: []
+    context: 'A Web Application Firewall is recommended to mitigate common attack vectors employed against web based applications. A WAF will inspect incoming traffic to identify if there is likely to be any malicious intent to a request, such as SQL Injection or to restrict activity by web crawlers and bots. Azure Web Application Firewall is available as part of Azure Application Gateway and Azure Front Door.'
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Container groups should be integrated with an Azure Virtual Network
+    url: /azure/container-instances/container-instances-virtual-network-concepts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f595a317-c92a-4f36-a098-2e6e499f36d5.08d83008-0ff5-4552-b1d8-ee9ce177cb20.F
+      scoreOf: []
+    context: 'Azure Virtual Network provides secure, private networking for your Azure and on-premises resources. Integrate your container groups in Azure Container Instances with an Azure virtual network.'
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Have Azure Firewall or Network Security Groups configured on the virtual network or virtual network subnets that the container group deployment is integrated with
+    url: /azure/container-instances/container-instances-virtual-network-concepts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f595a317-c92a-4f36-a098-2e6e499f36d5.08d83008-0ff5-4552-b1d8-ee9ce177cb20.G
+      scoreOf: []
+    context: 'Azure Virtual Network provides secure, private networking for your Azure and on-premises resources. Integrate your container groups in Azure Container Instances with an Azure virtual network.'
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Review the Security Baseline recommendations and the Security Consideration recommendations for Azure Container Instances
+    url: /azure/container-instances/security-baseline
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f595a317-c92a-4f36-a098-2e6e499f36d5.08d83008-0ff5-4552-b1d8-ee9ce177cb20.H
+      scoreOf: []
+    context: Review and apply all applicable recommendations in the Security Baseline and Security Considerations documentation.
+    priority: 25
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+uid: de966878-58b3-4e91-b183-a704aae41345
+name: ''

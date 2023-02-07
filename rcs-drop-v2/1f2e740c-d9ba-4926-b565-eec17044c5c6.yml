@@ -1,0 +1,39 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on this
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We have SOP and tooling in place for this, team is trained and using this in operations'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Sell with Microsoft
+
+  Create a winning sales strategy, scale your reach to global customers, and prepare for co-selling with Microsoft sellers. No matter how you sell with us, we’ll help you grow.
+
+  By selling with Microsoft, you join forces with the largest technology ecosystem in the world to expand your opportunities with customers, Microsoft, and other partners. As a Microsoft partner, we provide you with clear paths and approaches that support your goals. No matter how you choose to sell with us, we have what you need to drive business growth and profitability.
+isRequired: true
+uid: 1f2e740c-d9ba-4926-b565-eec17044c5c6
+name: Sell with Microsoft

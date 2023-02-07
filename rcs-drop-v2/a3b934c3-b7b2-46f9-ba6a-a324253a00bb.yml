@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization is not aware and does not utilize serverless compute to build and run applications and services.
+    description: Your organization is not aware and does not utilize serverless compute to build and run applications and services.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is planning to utilize serverless compute to build and run applications and services.
+    description: Your organization is planning to utilize serverless compute to build and run applications and services.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization understands the benefits of and leverages serverless compute for build and run. '
+    description: 'Your organization understands the benefits of and leverages serverless compute for build and run. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organizations have successfully operationalized data transformation using serverless compute.
+    description: Your organization have successfully operationalized data transformation using serverless compute.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized.  Your organization is successfully using serverless compute to build and run data transformation and continuously looking to improve ways of utilizing the feature more broadly.
+    description: Your organization is successfully using serverless compute to build and run data transformation and continuously looking to improve ways of utilizing the feature more broadly.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you take advantage of serverless computing that allows you to build and run applications and services without thinking about servers and transform the data in the data lake? '
+isRequired: true
+uid: a3b934c3-b7b2-46f9-ba6a-a324253a00bb
+name: Do you take advantage of serverless computing that allows you to build and run applications and services without thinking about servers and transform the data in the data lake?

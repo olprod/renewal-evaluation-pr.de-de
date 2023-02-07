@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Provide users the minimum access required
+    url: /azure/cosmos-db/secure-access-to-data#users
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6a9bbe5-17bd-4377-ae77-d5a31d19654e.80756e5e-19c1-4bc6-9756-cc202989d91f.A
+      scoreOf: []
+    context: 'A Cosmos DB permission resource is associated with a Cosmos DB user. Each user may contain zero or more Cosmos DB permissions. A permission resource provides access to a security token that the user needs when trying to access a specific application resource. There are two available access levels that may be provided by a permission resource: All - The user has full permission on the resource; Read - The user can only read the contents of the resource, but cannot perform write, update, or delete operations on the resource.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+  - title: Use Read-Only key for building reports on Cosmos DB
+    url: /azure/cosmos-db/sql/odbc-driver#connect
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6a9bbe5-17bd-4377-ae77-d5a31d19654e.80756e5e-19c1-4bc6-9756-cc202989d91f.B
+      scoreOf: []
+    context: We recommend that you use the read-only key when building reports. This will prevent unnecessary exposure of the master key to potential security risks. The read-only key is available from the Keys blade of the Azure portal or you can use the demo account information provided above.
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+uid: ba66c935-5b61-445c-95cf-2711b56446c4
+name: ''

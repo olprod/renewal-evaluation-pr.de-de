@@ -1,0 +1,68 @@
+### YamlMime:SelfAssessment
+description: This assessment covers topics pertaining to enablement and awareness of implementation teams on features / options in the products which are quite handy and impactful for D365 F&O solution rollouts & administration. The assessment provides personalized guidance on getting acquainted to features  and  use those in administration of D365 F&O instances. This assessment is part of Center of Excellence (COE) Series for establishing and driving excellence in Partner Dynamics 365 Finance & Operations Delivery Practice.
+duration: 30 Minutes to 60 Minutes
+questionnaireReferences:
+  - questionnaireUid: 2e4c202f-0ddc-409f-bcc0-03a4460f72e2
+    isRequired: false
+  - questionnaireUid: 14d926d9-9887-4028-934c-e751eb48f1a5
+    isRequired: false
+  - questionnaireUid: d793a2d3-5537-4525-b9d2-b4e0f89d8665
+    isRequired: false
+  - questionnaireUid: 908dd5f5-1906-48b5-a236-0f6619628fc9
+    isRequired: false
+  - questionnaireUid: fe8ac1b0-b674-4195-8fc5-a5edb2fe0284
+    isRequired: false
+  - questionnaireUid: 123187c7-179c-4164-923d-60255c617863
+    isRequired: false
+  - questionnaireUid: 7bfa1cc3-06ce-43d6-9846-f892fcb01a2d
+    isRequired: false
+  - questionnaireUid: 06c516c3-3fc3-46b4-8013-c14fe9ea0374
+    isRequired: false
+guidance:
+  title: ' 30 Minutes to 60 Minutes'
+  description: 'Administration Excellence  Recommendations Based on your input, we recommend the following topics you and your team need to be aware of and streamline as practice in your day-to-day operations in optimal upkeep of your D365 F&O solutions.'
+  providers: []
+  scoring:
+    title: 'Establishing COE is continuous innovation and optimization of People, Process and Product aspects of the implemented workloads to get best of the platform for your users.'
+    description: ''
+    calculationType: Average
+    scoresVerbage: Adhoc|Moderate|Optimal
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Muhammad
+  lastName: Aurangzeb
+  email: maurangzeb@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+metadataTags:
+  - dynamics-365
+  - dynamics-finance-operations
+  - dynamics-scm
+  - dynamics-finance
+relatedTags:
+  - 388159e6-55f1-4287-86fa-09032f5ad812
+  - bcb90547-d75e-47cd-b133-4c5340e68fc2
+  - b8f27ff4-1ce1-4a80-a808-5d377fc15020
+  - 22e1e9a8-0289-4dca-98ea-4515ad392a3a
+uid: e25722a7-e0ab-4e52-b928-5ce9461df1ed
+name: Your Current  Assessment result as follows

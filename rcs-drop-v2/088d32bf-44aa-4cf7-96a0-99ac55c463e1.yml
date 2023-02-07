@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: B
+    text: Use ParallelRunStep for batch scoring.
+    description: 'ParallelRunStep, a solution for batch inference, handles partitions of large amounts of input data, distributes and coordinates workloads across a cluster of machines, and consolidates the output results.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Use Azure Kubernetes Service (AKS) for high-scale production deployments with fast response time.
+    description: 'Use Azure Machine Learning to deploy a model as a web service on Azure Kubernetes Service (AKS) for high-scale production deployments for autoscaling, fast response time, and hardware acceleration options such as GPU. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: I
+    text: Manage and increase quotas for resources with Azure Machine Learning.
+    description: 'Manage limits and quotas as you scale for production workloads: setting default limits on Azure resources related to Azure Machine Learning; creating workspace-level quotas; viewing your quotas and limits; and requesting quota increases.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: '1'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.ai
+stem: 'Availability targets, such as service level agreements (SLA) and service level objectives (SLO), and recovery targets, such as recovery time objectives (RTO) and recovery point objectives (RPO), should be defined and tested to ensure application reliability aligns with business requirements.'
+isRequired: false
+legacyId: '0'
+uid: 088d32bf-44aa-4cf7-96a0-99ac55c463e1
+name: 'Availability targets, such as service level agreements (SLA) and service level objectives (SLO), and recovery targets, such as recovery time objectives (RTO) and recovery point objectives (RPO), should be defined and tested to ensure application reliability aligns with business requirements.'

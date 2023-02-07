@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Security is one of the most important aspects of any architecture. It provides confidentiality, integrity, and availability assurances against deliberate attacks and abuse of your valuable data and systems. Losing these assurances can negatively impact your business operations and revenue, as well as your organization`s reputation in the marketplace. In the following series of articles, we`ll discuss key architectural considerations and principles for security and how they apply to Azure.'
+hideEmptyGuidance: false
+questions:
+  - 2bbb3f0f-5e44-4679-8a04-00c9d6e7ab76
+  - c6414ee6-80b3-46dd-8f02-1d1a113a453b
+  - 798f827c-d482-4e0e-ad81-6779cb3a4433
+  - bc01b579-3707-4210-ab98-0f784c17df57
+  - ff242fc2-2658-4e1b-bd48-c5d555094fb4
+recommendations:
+  - 20751886-3e9b-459c-8530-49f0c967faed
+assignedGroupIds: []
+uid: Security-ai-adb
+name: Security - ADB

@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This section cover best productivity tips administrators and power users which help productivity, time saving and advance topics for Partners & Customers to use in the D365 F&O workloads. '
+hideEmptyGuidance: false
+questions:
+  - cc7a5e67-c74c-4973-a38b-7e1c36c2ef25
+  - 31bc40d6-f4fa-4fca-8fa0-b9710b668481
+  - 72b50e4b-882b-4834-a572-532bfed7e02b
+  - 75dbfc74-c3c3-4cbd-b820-6be06980734b
+  - a0c7364c-ea5a-4883-9fdc-1e92a79967ac
+  - 7966424b-82dc-4b3d-ac34-c7ef89b6fcb1
+recommendations:
+  - 8fb4bde8-4f08-4ced-816e-9a6a7ae0b1bd
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: b189deac-9e3e-438a-8074-0b3965280002
+name: Power User Productivity Practices

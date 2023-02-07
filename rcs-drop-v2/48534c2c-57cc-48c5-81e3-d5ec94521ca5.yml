@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need flexibility to scale out compute and automatic resize based on workload demand/s.
+    description: "Offers\_fine-grained control over cluster sizing.\_ Clusters can be set to automatically resize based on usage.\_"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: We have limited demand for automatic resizing and can accept restart window for scaling out.
+    description: "Dedicated Pools cannot be resized without restarting.\_ Dedicated Pools cannot share storage with other clusters.\_ However, multiple Serverless Pools can share data."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: "Does the workload require elastic compute or the ability to have multiple clusters reading the same data?\_ Is there Snowflake compete?"
+isRequired: true
+uid: 48534c2c-57cc-48c5-81e3-d5ec94521ca5
+name: Does the workload require elastic compute or the ability to have multiple clusters reading the same data?

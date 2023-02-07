@@ -1,0 +1,78 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Availability targets such as Service Level Agreements (SLAs) for SAP application(s) defined.
+    description: Have availability targets been defined for the SAP application and associated key scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '1'
+    text: Azure Managed disk types are provisioned with the same SKU that supports the minimum single VM SLA.
+    description: 'Incorrect Managed Disk SKUs attached to the VM where SAP Application is running will impact the Azure VM SLA '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: Availability metrics to measure and monitor the end-to-end availability of SAP workload defined.
+    description: |-
+      Are availability targets defined and monitored? This might be through Solution Manager MAI, CCMS Ping, Azure Monitor for SAP, or 3rd party tools used to monitor the availability of the SAP system. 
+
+      Note : Including replication to the DR.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Composite SLA for the SAP workload derived using the Azure SLAs for all relevant resources.
+    description: Has a composite SLA been calculated for the SAP application? Microsoft Azure provides SLAs for a particular service.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '5'
+    text: SLAs for external dependencies identified and understood.
+    description: Are SLAs defined and measured for third-party dependencies and non-SAP systems?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '6'
+    text: Recovery targets to identify how long the SAPworkload can be unavailable (Recovery Time Objective) and how much data loss is acceptable during a disaster (Recovery Point Objective) identified.
+    description: Have RPO/RTO targets been defined for the SAP applications and key scenarios? Recovery time objective (RTO) - the maximum acceptable time an application can be unavailable after an incident. Recovery point objective (RPO) - the maximum duration of data loss that is acceptable during a disaster.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '7'
+    text: 'BCP [Business Continuity Planning] Tiers for SAP applications defined.'
+    description: '[Business Continuity Planning] BCP Tier defines the RPO and RTO for business. A Tier1 is highest availability and highest recover-ability category. The key definition for a system to fall into this environment is that it requires near-zero or real-time replication of data and automated failover to the secondary node within the chosen region. If the data is replicated, but the recovery requires manual intervention you are immediately pushed into Tier 2.  '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: What reliability targets and metrics have you defined for your SAP application?
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4Mc4C'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'Availability targets, such as Service Level Agreements (SLA)  and Recovery targets, such as Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO), should be defined and tested to ensure SAP application reliability aligns with business requirements.'
+isRequired: false
+uid: dc5e7f2f-e900-480d-9ce5-44a5e890ba8b
+name: 'Availability targets, such as Service Level Agreements (SLA)  and Recovery targets, such as Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO), should be defined and tested to ensure SAP application reliability aligns with business requirements.'

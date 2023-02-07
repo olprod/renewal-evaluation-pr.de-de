@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: External users are invited as guests to the tenant respecting the lifecycle of their identities on the source
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: External users are scoped in the conditional access policies and MFA is required
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: External Users (Guests) have the most restrictive access settings to Azure AD
+    description: check on Azure Ad -> External Identities -> External Collaboration settings
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.0
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.d141dd3a-0f09-45c8-8031-8c32f60576cc.2
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 53cd5f69-7cc9-4cf2-bf8a-112602c8161a
+name: 'What is your organization approach for external users (B2B collaboration)? '

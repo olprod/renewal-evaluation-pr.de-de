@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Do you backup your SQL Server databases regularly?
+    description: Backing up databases is a foundational tool to provide any level of database recoverability in the event of a disaster.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: 'Ensure that all dependency components such as operating system,  registry settings, 3rd party  drivers etc. are also protected.'
+    description: 'Azure Backup provides consistent,  workload aware backups that support all backup types - full, differential, and log and can be used to restore entire VM environments or just a single database.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Do you run regular database maintenance tasks such as re-indexing, statistics updates and DBCC checks?'
+    description: Running on a SQL VM means many of the core database maintenance routines are still your responsibility.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Defined an accelerated deployment process for urgent Security Updates.
+    description: Do you have an accelerated testing and deployment process for emergency patches and updates?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: What approach do you take to patch management of your VM and SQL environment?
+    description: As an IaaS environment you are responsible for patching your operating systems and SQL Server installations unless you've implimented and configured the SQL IaaS Agent accordingly.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: protecting-data-sqlvm
+uid: a3e001b6-f273-4f71-a451-a81d39fe1bc3
+name: 'Are your Azure SQL VMs  maintained, well operated and protected?'

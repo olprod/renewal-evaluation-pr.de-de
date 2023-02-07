@@ -1,0 +1,18 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - e7d6ab7e-ce3f-4f26-86b8-b6b8ea9365e4
+  - d000b0ff-8ca3-4d80-b53d-3309494c5771
+  - f88da085-2d44-4d00-b93f-a140f8ecbaa1
+  - f5f7b3a5-c083-4ada-9aaa-375b69530961
+  - 32d3fc44-8252-463c-8d42-1b47d422a8cc
+  - 21c5e78f-1d25-4e00-9ab8-2b4fdd95c12d
+  - 2d1d4360-7903-4578-bacb-73e1ae97b4c2
+recommendations:
+  - 214a2e30-b472-43ea-ae45-c4ba8a7b23a6
+assignedGroupIds:
+  - b6a324fd-d21d-4f72-ae18-f475f53334f0
+uid: c0111878-f41a-4628-bbb0-ea7d6a51ad63
+name: AzSAP Cost Optimization

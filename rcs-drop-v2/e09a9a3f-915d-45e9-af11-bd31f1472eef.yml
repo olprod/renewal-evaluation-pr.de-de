@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use sharding for database storage when appropriate.
+    description: 'Divide the data across multiple databases and database servers, or design the application to use data storage services that can provide this partitioning transparently.Only apply this pattern if needed since it introduces additional complexity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Minimize the load on the data store.
+    description: 'For data manipulation and analytics we strongly advice to use set based operations in the database, other complex procedural logic should run outside the database context.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: Normalize the data appropriately.
+    description: Data normalization helps to avoid duplication and inconsistency.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: Optimize database queries and create/modify indexes to match query patterns.
+    description: Use Query Performance Insights to find top resource consuming queries.Some suboptimal code may have an adverse effect on performance that can be reduced by optimizing the code.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: 'Document plans for data growth, retention and archival.'
+    description: 'If the amount of data stored by an application grows over time, how are you going to handle that growth?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: 'For analytical workloads, ensure large data is partitioned using partitioned tables, partitioned indexes, or partitioned views are in place in order to efficiently manage large amounts of data.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Consider columnstore indexes to compress and efficiently query larger analytics tables and use non-clustered columnstore indexes if you have combined transactional and reporting workload.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: 'Consider the Hyperscale service tier for fast vertical and horizontal compute scaling, high performance, instant backup and fast database restore or multi-TB databases.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: scaling-data-sqldb
+uid: e09a9a3f-915d-45e9-af11-bd31f1472eef
+name: How are you managing your data to handle scale?

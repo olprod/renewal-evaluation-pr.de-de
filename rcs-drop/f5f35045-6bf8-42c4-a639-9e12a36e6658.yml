@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A solar energy company installs and maintains solar panels at customer sites. The technicians use a model-driven app to display a list of the solar panels requiring maintenance.
+
+  You need to configure the app to display the panels with the due date column populated and the status set to **Maintenance required**. Technicians must be able to update the list when they complete an assignment.
+
+  Which mechanism should you use to create the view?
+questionnaireUid: 140b5f71-358d-4612-96f3-515e34e9e7a4
+questions:
+  - uid: f5f35045-6bf8-42c4-a639-9e12a36e6658-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A solar energy company installs and maintains solar panels at customer sites.
+        isCorrect: false
+      - id: 1
+        text: 'The technicians use a model-driven app to display a list of the solar panels requiring maintenance. '
+        isCorrect: false
+      - id: 2
+        text: 'You need to configure the app to display the panels with the due date column populated and the status set to **Maintenance required**. '
+        isCorrect: true
+      - id: 3
+        text: Technicians must be able to update the list when they complete an assignment.
+        isCorrect: false
+uid: f5f35045-6bf8-42c4-a639-9e12a36e6658
+title: ''

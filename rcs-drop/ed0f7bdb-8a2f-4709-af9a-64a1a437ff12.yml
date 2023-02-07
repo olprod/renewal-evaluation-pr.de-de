@@ -1,0 +1,30 @@
+### YamlMime:RenewalAssessment
+certificationUid: certification.security-operations-analyst
+referencedQuestionnaires:
+  - questionnaireUid: e70dd3b8-97a0-44c5-a1be-fa108e0daaa3
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: b326c9de-8b91-489b-9fd0-96d4b1156361
+    questionsToTake: 5
+    questionsToPass: 3
+  - questionnaireUid: 3b6c5970-c172-4930-82d4-f23b6695a8cb
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: 9925e134-1064-4042-ab90-9e49730d060c
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: 3222cc4a-4029-42a2-8b2f-ab1a2721c2d7
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: 8bbaca84-daf6-41a8-88d2-494855ee0a55
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: 96f34740-4efd-4bcb-aab5-e70459f38038
+    questionsToTake: 2
+    questionsToPass: 1
+  - questionnaireUid: 4149dbcb-8991-45a5-ae05-f034ac48f478
+    questionsToTake: 2
+    questionsToPass: 1
+uid: ed0f7bdb-8a2f-4709-af9a-64a1a437ff12
+title: 'Renewal assessment for Microsoft Certified: Security Operations Analyst Associate'
+manualId: SC-200

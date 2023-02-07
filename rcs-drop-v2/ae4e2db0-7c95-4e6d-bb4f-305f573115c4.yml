@@ -1,0 +1,42 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We are aware of key considerations and requirements for networking in multitenant solutions such as whether we use infrastructure or platform services, sizing our subnets, public and private networking, and whether we need access to tenants'' endpoints.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'We are familiar with approaches to consider for networking in multitenant solutions like tenant-specific virtual networks, static IP addresses for allowlisting,  Azure Private Link service, and how agents and relays can be used to simplify network configuration.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We avoid networking antipatterns, including failing to plan for VNet connectivity, not planning for limits, and deploying subnets that are too small.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'All solutions deployed to Azure require networking of some kind. Depending on your solution design and the workload, the ways in which you interact with Azure''s networking services might be different.'
+isRequired: true
+uid: ae4e2db0-7c95-4e6d-bb4f-305f573115c4
+name: All solutions deployed to Azure require networking of some kind.

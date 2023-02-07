@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization has individual pockets of excellence who are doing basic, non-interactive descriptive reporting.'
+    description: 'Your organization has individual pockets of excellence who are doing basic, non-interactive descriptive reporting.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is stepping away from individual spreadsheets and moving towards light Visualization tools that allow for interactive visualizations to be used.
+    description: |
+      Your organization is stepping away from individual spreadsheets and moving towards light Visualization tools that allow for interactive visualizations to be used.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has implemented and standardized analytical tools across enterprise to leverage interactive design for telling a better data story.
+    description: Your organization has implemented and standardized analytical tools across enterprise to leverage interactive design for telling a better data story.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organizations creates stunning reports with interactive data visualizations which help to tell your data story using a drag-and-drop canvas and hundreds of modern data visuals. '
+    description: 'Your organizations creates stunning reports with interactive data visualizations which help to tell your data story using a drag-and-drop canvas and hundreds of modern data visuals. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has adopted stunning reports with interactive data visualization, enterprise wide, and reviews key performance indicators regularly to measure success of this implementation and drive process improvement.'
+    description: 'Your organization has adopted stunning reports with interactive data visualization, enterprise wide, and reviews key performance indicators regularly to measure success of this implementation and drive process improvement.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you leverage interactive visuals to support your story telling?
+isRequired: true
+uid: 76edad20-e5b3-4ccc-8b2e-a35e31070072
+name: Do you leverage interactive visuals to support your story telling?

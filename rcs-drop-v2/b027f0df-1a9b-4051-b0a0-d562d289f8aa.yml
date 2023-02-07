@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use a Web Application Firewall (WAF) in front of your web apps
+    url: /azure/web-application-firewall/ag/ag-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d777cdeb-6521-4ab4-bfa1-20c129cc8f3f.97be8357-6eb5-4524-9a77-8e49dda1b0ea.A
+      scoreOf: []
+    context: 'A WAF can provide additional security features that are not native to Azure App Service. The Azure Application Gateway with WAF provides protection against OWASP top 10 vulnerabilities, such as cross-site scripting (XSS) and SQL injection.'
+    priority: 70
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Use Azure App Configuration Service to manage application settings and feature flags centrally
+    url: /azure/azure-app-configuration/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d777cdeb-6521-4ab4-bfa1-20c129cc8f3f.97be8357-6eb5-4524-9a77-8e49dda1b0ea.B
+      scoreOf: []
+    context: 'Modern applications generally have many distributed components (multiple services running in AKS, Function, WebApps, etc.) and present a significant challenge in managing configuration. Azure App Config service helps you centrally manage application settings and feature flags.'
+    priority: 70
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+uid: b027f0df-1a9b-4051-b0a0-d562d289f8aa
+name: ''

@@ -1,0 +1,109 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The App Service Plan is a Standard or Premium plan.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: B
+    text: All resources are co-located in the same region as the App Service.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: C
+    text: We have configured auto scaling on the App Service Plan.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: D
+    text: We have configured scale in rules on auto scale to reduce costs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: E
+    text: Load Tests are executed on a Deployment Slot.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: F
+    text: Always On is enabled.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: G
+    text: HTTP/2 is enabled
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: H
+    text: We have configured Application Initialization.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: I
+    text: The Web App runs on more than 1 instance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: The App Service has Local Cache enabled.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: K
+    text: Regular checks are performed for error 500 responses from the App Service.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: L
+    text: The usage of Temporary File utilization is monitored to prevent issues.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.app
+stem: ''
+isRequired: false
+uid: e90d9587-73a7-47ae-9330-5721738637df
+name: Have you designed and configured Azure App Service according to the performance best practices?

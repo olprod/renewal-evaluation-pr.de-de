@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have an Azure subscription and an on-premises server named Server1 that runs Windows Server.
+
+  You need to ensure that you can assign an Azure policy to Server1.
+
+  What should you do?
+questionnaireUid: d6e12881-d960-49a6-bf9e-eedbd2589f7f
+questions:
+  - uid: e88b46d9-9a34-4ee5-81de-fd5ee0be64ef-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have an Azure subscription and an on-premises server named Server1 that runs Windows Server.
+        isCorrect: true
+      - id: 1
+        text: You need to ensure that you can assign an Azure policy to Server1.
+        isCorrect: false
+      - id: 2
+        text: What should you do?
+        isCorrect: false
+      - id: 3
+        text: Onboard Server1 to Azure Arc.
+        isCorrect: false
+    manualId: 2_az-800-az-800.1.2
+uid: e88b46d9-9a34-4ee5-81de-fd5ee0be64ef
+title: ''
+manualId: ''

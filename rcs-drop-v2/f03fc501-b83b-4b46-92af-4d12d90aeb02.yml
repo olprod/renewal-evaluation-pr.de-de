@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Avoid self-signed certificates to configure end-to-end SSL
+    url: /azure/application-gateway/ssl-overview#end-to-end-ssl-and-whitelisting-of-certificates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c1e42fc1-b717-4b45-9316-11582b07a2a0.8a0d3c36-8407-4c80-8ce1-0e6cb036f388.A
+      scoreOf: []
+    context: Self-signed certificates are for test purposes only and not recommended for production workloads. Such certificates have to be whitelisted with the application gateway as described in the preceding steps before they can be used.
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+  - title: Evaluate Application Gateway Private Link
+    url: /azure/application-gateway/private-link
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c1e42fc1-b717-4b45-9316-11582b07a2a0.8a0d3c36-8407-4c80-8ce1-0e6cb036f388.B
+      scoreOf: []
+    context: 'Private Link for Application Gateway allows you to connect workloads over a private connection spanning across VNets and subscriptions. When configured, a private endpoint will be placed into a defined virtual network''s subnet, providing a private IP address for clients looking to communicate to the gateway.'
+    priority: 25
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+  - title: Consider using Key Vault to store certificates for Application Gateway
+    url: /azure/application-gateway/key-vault-certs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c1e42fc1-b717-4b45-9316-11582b07a2a0.8a0d3c36-8407-4c80-8ce1-0e6cb036f388.C
+      scoreOf: []
+    context: Azure Application Gateway supports integration with Key Vault for server certificates that are attached to HTTPS-enabled listeners. This support is limited to the v2 SKU of Application Gateway.
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+uid: f03fc501-b83b-4b46-92af-4d12d90aeb02
+name: ''

@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'On failover, devices send all their data to the secondary hub'
+    description: |
+      If your business uptime goals aren't satisfied by the RTO that either Microsoft-initiated failover or manual failover options provide, you should consider implementing a per-device automatic cross region failover mechanism.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: 'Yes, you''ve established message routing in your primary and secondary IoT hubs to route data to appropriate locations'
+    description: 'Message routing enables you to send messages from your devices to cloud services in an automated, scalable, and reliable manner.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: You have taken dependency on Microsoft-initiated failover
+    description: 'Microsoft-initiated failover has a recovery time objective (RTO) of 2-26 hours. If you are running a less critical IoT solution that can sustain a downtime of roughly a day, it is ok for you to take a dependency on this option to satisfy the overall disaster recovery goals for your IoT solution.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'When the IoT Hub service fails in a specific region, you can move your hubs to another region. Moving the hubs causes the endpoints where other  services receive data from IoT Hub to change. You need to reconfigure the services that IoT Hub provides data towith the new endpoint addresses.'
+isRequired: false
+uid: dffe91ab-abb5-4c5c-ba56-87d28a6574cf
+name: 'When the IoT Hub service fails in a specific region, you can move your hubs to another region. Moving the hubs causes the endpoints where other  services receive data from IoT Hub to change.'

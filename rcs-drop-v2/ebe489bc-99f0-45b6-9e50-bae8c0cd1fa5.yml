@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - c694b697-e161-4a59-9da8-432bb58e5aed
+  - 9e03e80e-f5fb-4bad-9aa7-343d4735b8e5
+  - ad98009c-1a75-4373-a504-eeec7888c142
+  - 2f7c4ac3-3b0a-4816-8a34-a97849413c99
+recommendations:
+  - 77084de2-a4e6-4f33-9d27-85786c4f8be5
+assignedGroupIds: []
+uid: ebe489bc-99f0-45b6-9e50-bae8c0cd1fa5
+name: 'DVA - Technology - Integration, Delivery and Tooling'

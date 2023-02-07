@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Refine your DevOps practice
+    url: 'https://docs.microsoft.com/devops/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 0452b76f-cbac-4e5e-b2ca-952630f1221f<101
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore agile engineering practices
+    url: 'https://aka.ms/developervelocity-cta-agile-low'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 0452b76f-cbac-4e5e-b2ca-952630f1221f<34
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: See how developers leverage Azure to build modern apps
+    url: 'https://aka.ms/developervelocity-cta-engineeringpractices-low'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 0452b76f-cbac-4e5e-b2ca-952630f1221f<101
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 4a6fdec2-b73a-4280-9a74-fab8bc3ee810
+name: ''

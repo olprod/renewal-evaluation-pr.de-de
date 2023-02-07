@@ -1,0 +1,282 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Secrets for Development
+    url: 'https://docs.microsoft.com/en-us/devops/operate/security-in-devops#secret-management'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.24bbd7d3-16e6-4333-a45a-59f29b56db3c.5
+      scoreOf: []
+    context: Use Secrets for Development
+    priority: 95
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Configuration & Security Management
+  - title: Adopt threat modeling processes
+    url: /azure/security/develop/threat-modeling-tool-threats
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.497199fc-dc9d-427e-9eb1-5da771b70685.0
+      scoreOf: []
+    context: Adopt threat modeling processes
+    priority: 95
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: 'Develop and implement a process to track, triage, and address threats into the application development lifecycle'
+    url: /azure/architecture/framework/security/design-threat-model#1--gather-information-about-the-basic-security-controls
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.497199fc-dc9d-427e-9eb1-5da771b70685.1
+      scoreOf: []
+    context: 'Develop and implement a process to track, triage, and address threats into the application development lifecycle'
+    priority: 90
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Implement established processes and timelines to deploy mitigations for identified threats
+    url: /azure/architecture/framework/security/design-threat-model#3--mitigate-the-identified-threats
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.497199fc-dc9d-427e-9eb1-5da771b70685.2
+      scoreOf: []
+    context: Implement established processes and timelines to deploy mitigations for identified threats
+    priority: 90
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Define security requirements for all applications
+    url: /azure/governance/policy/concepts/azure-security-benchmark-baseline
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.497199fc-dc9d-427e-9eb1-5da771b70685.3
+      scoreOf: []
+    context: Define security requirements for all applications
+    priority: 92
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Identify and classify business critical applications
+    url: /azure/architecture/framework/Security/applications-services#identify-and-classify-business-critical-applications
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.497199fc-dc9d-427e-9eb1-5da771b70685.5
+      scoreOf: []
+    context: Identify and classify business critical applications
+    priority: 90
+    reportingCategory: Resource and Infrastructure Services
+    reportingSubCategory: Security of Applications
+  - title: Make sure that all regulatory requirements are known and well understood
+    url: /azure/architecture/framework/security/design-regulatory-compliance#gather-regulatory-requirements
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.250c42e7-21dd-48f7-b07a-0faff7bcf4a3.0
+      scoreOf: []
+    context: Make sure that all regulatory requirements are known and well understood
+    priority: 90
+    reportingCategory: 'Regulatory, Governance & Compliance'
+    reportingSubCategory: 'Regulatory, Governance & Compliance'
+  - title: Implement a landing zone concept
+    url: /azure/architecture/framework/Security/governance#increase-automation-with-azure-blueprints
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.250c42e7-21dd-48f7-b07a-0faff7bcf4a3.1
+      scoreOf: []
+    context: Implement a landing zone concept
+    priority: 95
+    reportingCategory: 'Regulatory, Governance & Compliance'
+    reportingSubCategory: 'Regulatory, Governance & Compliance'
+  - title: Define a set of Policies which enforce organizational standards and are aligned with the governance team
+    url: /azure/governance/policy/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.250c42e7-21dd-48f7-b07a-0faff7bcf4a3.2
+      scoreOf: []
+    context: Define a set of Policies which enforce organizational standards and are aligned with the governance team
+    priority: 90
+    reportingCategory: 'Regulatory, Governance & Compliance'
+    reportingSubCategory: 'Regulatory, Governance & Compliance'
+  - title: 'Add planning, testing, and validation rigor to the use of the root management group'
+    url: /azure/architecture/framework/security/design-management-groups#use-root-management-group-with-caution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.250c42e7-21dd-48f7-b07a-0faff7bcf4a3.3
+      scoreOf: []
+    context: 'Add planning, testing, and validation rigor to the use of the root management group'
+    priority: 88
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Continuously assess and monitor compliance
+    url: /azure/security-center/security-center-compliance-dashboard#assess-your-regulatory-compliance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.250c42e7-21dd-48f7-b07a-0faff7bcf4a3.4
+      scoreOf: []
+    context: Continuously assess and monitor compliance
+    priority: 90
+    reportingCategory: 'Regulatory, Governance & Compliance'
+    reportingSubCategory: 'Regulatory, Governance & Compliance'
+  - title: Periodically perform external and/or internal application security audits
+    url: /azure/architecture/framework/security/monitor-audit#review-critical-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.250c42e7-21dd-48f7-b07a-0faff7bcf4a3.5
+      scoreOf: []
+    context: Periodically perform external and/or internal application security audits
+    priority: 93
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Develop a security plan
+    url: /azure/cloud-adoption-framework/get-started/security#step-3-develop-a-security-plan
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.250c42e7-21dd-48f7-b07a-0faff7bcf4a3.6
+      scoreOf: []
+    context: Develop a security plan
+    priority: 95
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: 'Review, prioritize, and proactively apply security best practices to applications'
+    url: /azure/architecture/framework/Security/governance#prioritize-security-best-practices-investments
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.250c42e7-21dd-48f7-b07a-0faff7bcf4a3.7
+      scoreOf: []
+    context: 'Review, prioritize, and proactively apply security best practices to applications'
+    priority: 90
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Implement defenses that detect and prevent commodity attacks
+    url: /azure/architecture/framework/security/resilience#increasing-attacker-cost
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.250c42e7-21dd-48f7-b07a-0faff7bcf4a3.8
+      scoreOf: []
+    context: Implement defenses that detect and prevent commodity attacks
+    priority: 85
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Integrate the scanning tools within a CI / CD pipeline
+    url: '/azure/security/develop/security-code-analysis-overview#:~:text=%20Microsoft%20Security%20Code%20Analysis%20tool%20set%20,in%20source%20code%20are%20a%20significant...%20More'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.733023cb-0897-43f5-98a7-a5d7ec7a3e69.5
+      scoreOf: []
+    context: Integrate the scanning tools within a CI / CD pipeline
+    priority: 90
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Establish a minimum-security baseline
+    url: /devops/operate/security-in-devops#key-devsecops-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.bdd6fdb9-e132-4c1f-80b5-6ce9d739a780.2
+      scoreOf: []
+    context: Establish a minimum-security baseline
+    priority: 90
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Drive Secure Code thru Testing
+    url: /azure/devops/learn/devops-at-microsoft/security-in-devops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.65e1a69f-b203-4dc3-bb42-ab33b63867ec.1
+      scoreOf: []
+    context: Drive Secure Code thru Testing
+    priority: 90
+    reportingCategory: Continuous Deployment & Testing
+    reportingSubCategory: Application Design
+  - title: Define an access model for keys and secrets
+    url: /azure/key-vault/general/secure-your-key-vault
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.143afbcc-cfff-48f9-b54a-4878bf3c299e.0
+      scoreOf: []
+    context: Define an access model for keys and secrets
+    priority: 96
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Store keys and secrets outside of application code in Azure Key Vault
+    url: /azure/architecture/framework/security/design-storage-keys#key-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.143afbcc-cfff-48f9-b54a-4878bf3c299e.0
+      scoreOf: []
+    context: Store keys and secrets outside of application code in Azure Key Vault
+    priority: 95
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Application Design
+  - title: Drive peer reviews thru test integration
+    url: /azure/architecture/framework/devops/release-engineering-ci#test-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.bdd6fdb9-e132-4c1f-80b5-6ce9d739a780.2
+      scoreOf: []
+    context: Drive peer reviews thru test integration
+    priority: 50
+    reportingCategory: Continuous Deployment & Testing
+    reportingSubCategory: Security Code Reviews
+  - title: Standardize on modern authentication protocols
+    url: /azure/architecture/framework/security/design-identity-authentication#use-modern-password-protection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.24bbd7d3-16e6-4333-a45a-59f29b56db3c.0
+      scoreOf: []
+    context: Standardize on modern authentication protocols
+    priority: 80
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Identity Authentication
+  - title: Enforce password-less or Multi-factor Authentication (MFA)
+    url: /azure/architecture/framework/security/design-identity-authentication#use-passwordless-authentication
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 77989738-b0b1-4e46-991e-53514b20936a.24bbd7d3-16e6-4333-a45a-59f29b56db3c.3
+      scoreOf: []
+    context: Enforce password-less or Multi-factor Authentication (MFA)
+    priority: 80
+    reportingCategory: Configuration & Security Management
+    reportingSubCategory: Identity Authentication
+uid: 416566b9-03ed-4b91-a1b5-43375b74afb7
+name: ''

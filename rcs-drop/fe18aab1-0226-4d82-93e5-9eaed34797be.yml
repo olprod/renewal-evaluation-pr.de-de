@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You can configure authentication to an Azure SQL database on the database level.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 689b3ebe-5d71-44d2-b388-6223ef8c1df4
+questions:
+  - uid: fe18aab1-0226-4d82-93e5-9eaed34797be-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You can configure authentication to an Azure SQL database on the database level.
+        isCorrect: true
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: false
+uid: fe18aab1-0226-4d82-93e5-9eaed34797be
+title: 'Otherwise, select No.'

@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: None
+    description: 'https://docs.microsoft.com/en-us/azure/governance/blueprints/overview'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Azure Policy
+    description: 'https://docs.microsoft.com/en-us/azure/governance/policy/overview'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Github
+    description: 'https://azure.microsoft.com/en-us/products/github/#overview'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: Azure DevOps
+    description: 'https://docs.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: HashiCorp Terraform
+    description: 'https://learn.hashicorp.com/collections/terraform/azure-get-started'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '5'
+    text: 'Azure Resource Manager '
+    description: 'https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '6'
+    text: Azure Blueprints
+    description: 'https://docs.microsoft.com/en-us/azure/governance/blueprints/overview'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '7'
+    text: Azure Bicep
+    description: 'https://docs.microsoft.com/EN-US/azure/azure-resource-manager/bicep/'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Please select the tools or services your team is comfortable to develop Infrastructure as code.
+isRequired: true
+uid: 023e31a6-5c7d-4d4a-863a-a8204ba3f9d4
+name: Please select the tools or services your team is comfortable to develop Infrastructure as code.

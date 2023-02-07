@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: F
+    text: Use R and Python to author experiments.
+    description: Azure Machine Learning supports both R and Python languages for your data science workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: O
+    text: Use low-code Azure Machine Learning designer to author experiments.
+    description: Use the drag-and-drop designer UI to train and deploy machine learning models without writing any code.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: Use the Azure Machine Learning Notebook or Jupyter Notebook to author the experiment.
+    description: 'Azure Machine Learning Notebook is integrated into the workspace and can be used with Azure ML compute instance, which also hosts a Jupyter Notebook environment for interactive coding.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: H
+    text: Use Azure Machine Learning automated GUI to author the experiment.
+    description: Azure ML designer and automated ML enable you create experiments with little or no code.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: I
+    text: 'Use ONNX and deep learning libraries, such as Tensorflow, PyTorch, Keras, and others.'
+    description: 'Azure Machine Learning supports ONNX for inferencing and many of the open-source libraries including Pytorch, TensorFlow, Keras, and so on.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: P
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.ai
+stem: 'To develop and deploy workloads, examine patterns and practices, configure DevOps pipelines, and implement site reliability engineering best practices.'
+isRequired: false
+legacyId: '3'
+uid: 7a07188c-3f34-4135-8499-574327591f83
+name: 'To develop and deploy workloads, examine patterns and practices, configure DevOps pipelines, and implement site reliability engineering best practices.'

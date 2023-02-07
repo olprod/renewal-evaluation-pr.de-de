@@ -1,0 +1,33 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Run tests at peak load.
+    description: You should load test your application at the expected peak load to ensure there are no challenges around performance or stability when operating at full capacity.Make sure proper monitoring is in place during these tests.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Have awareness about the time taken to scale in response to events.
+    description: Knowing how long it takes to scale allows you to understand how quickly you can adapt to changes in demand.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: load-data
+uid: 2d3e1d86-8fda-4302-aefc-5f9299f0c306
+name: How are you handling user load?

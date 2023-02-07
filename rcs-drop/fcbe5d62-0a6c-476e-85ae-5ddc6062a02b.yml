@@ -1,0 +1,6 @@
+### YamlMime:Questionnaire
+studyMaterials:
+  - uid: learn.secure-and-isolate-with-nsg-and-service-endpoints
+    type: Module
+uid: fcbe5d62-0a6c-476e-85ae-5ddc6062a02b
+title: Secure and isolate access to Azure resources by using network security groups and service endpoints

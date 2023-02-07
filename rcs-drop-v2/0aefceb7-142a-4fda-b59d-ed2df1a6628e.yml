@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Identify how prepared your are to build business applications faster and with less code.
+hideEmptyGuidance: false
+questions:
+  - ecb5348d-6975-44ee-812b-4d7dae4345cf
+  - b16fe0d7-9dfa-460d-a8c4-8b39cad04240
+  - 7c62b232-14bd-4def-907b-dfeb5c7a6231
+  - 31081a07-6a29-45ac-b635-6b1067ccaaeb
+recommendations:
+  - 7d95f29c-421c-4dcc-a876-e85d4c4acc97
+assignedGroupIds: []
+uid: 0aefceb7-142a-4fda-b59d-ed2df1a6628e
+name: Low Code

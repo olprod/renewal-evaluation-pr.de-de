@@ -1,0 +1,293 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Take advantage of the Azure hybrid use benefit
+    url: /azure/azure-sql/azure-hybrid-benefit?tabs=azure-powershell
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.e9c98711-54d5-479c-b7ef-44db4b65f6ff.A
+    context: Azure Hybrid Benefit allows you to exchange your existing licenses for discounted rates on Azure SQL Database and Azure SQL Managed Instance. You can save up to 30 percent or more on SQL Database and SQL Managed Instance by using your Software Assurance-enabled SQL Server licenses on Azure. The Azure Hybrid Benefit page has a calculator to help determine savings.
+    priority: 40
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Service SKU
+  - title: Use Dev/Test licensing
+    url: 'https://azure.microsoft.com/pricing/dev-test/'
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.e9c98711-54d5-479c-b7ef-44db4b65f6ff.B
+    context: 'Significantly reduce the costs of ongoing dev/test workloads with discounted rates on Azure services—available to active Visual Studio subscribers.  Provision fast, lean, and highly secure dev/test workloads on Azure—and realize substantial cost savings compared to your production workloads. Your dev/test discounted rates continue as long as you maintain your Visual Studio subscription.'
+    priority: 40
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Service SKU
+  - title: Use Azure Advisor to identify opportunities to reduce cost
+    url: /azure/advisor/advisor-cost-recommendations#sql-database-and-sql-managed-instance-reserved-capacity
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.e9c98711-54d5-479c-b7ef-44db4b65f6ff.C
+    context: 'Azure Advisor helps you optimize and reduce your overall Azure spend by identifying idle and underutilized resources. You can get cost recommendations from the Cost tab on the Advisor dashboard. Although certain application scenarios can result in low utilization by design, you can often save money by managing the size and number of your virtual machines. Advisor uses machine-learning algorithms to identify low utilization and to identify the ideal recommendation to ensure optimal usage of virtual machines. The recommended actions are shut down or resize, specific to the resource being evaluated.'
+    priority: 30
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Consider the number of days you require your backup history to be available.
+    url: /azure/azure-sql/database/automated-backups-overview?tabs=managed-instance#backup-retention
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.e9c98711-54d5-479c-b7ef-44db4b65f6ff.D
+    context: 'Azure SQL Database and Azure SQL Managed Instance provide both short-term and long-term retention of backups. Short-term retention backups allow Point-In-Time-Restore (PITR) within the retention period for the database, while long-term retention provides backups for various compliance requirements.'
+    priority: 62
+    reportingCategory: Business Continuity
+    reportingSubCategory: Backup & Restore
+  - title: Use cost management tools to track costs
+    url: /azure/cost-management-billing/costs/cost-mgt-best-practices#tag-shared-resources
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.e9c98711-54d5-479c-b7ef-44db4b65f6ff.E
+    context: 'Tags are an effective way to understand costs that span across multiple teams and Azure scopes. For example, you might have a resource like an email server that many teams use. You can put a shared resource, like the email server, in a subscription that''s dedicated to shared resources or put it in an existing subscription. If you put it in an existing subscription, the subscription owner might not want its cost accruing to their team every month.'
+    priority: 38
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Tag your resources
+    url: 'https://azure.microsoft.com/blog/announcing-the-support-for-tags-in-cost-management-apis/'
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.e9c98711-54d5-479c-b7ef-44db4b65f6ff.F
+    context: 'Tags are an effective way to understand costs that span across multiple teams and Azure scopes. For example, you might have a resource like an email server that many teams use. You can put a shared resource, like the email server, in a subscription that''s dedicated to shared resources or put it in an existing subscription. If you put it in an existing subscription, the subscription owner might not want its cost accruing to their team every month. '
+    priority: 35
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: 'Collect and visualize key performance metrics to determine right resource level usage (vCore, memory, IOPS)'
+    url: /azure/azure-monitor/insights/azure-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.cf602020-3395-484c-a53c-0b71dff41065.D
+      scoreOf: []
+    context: 'SQL Managed Instance has two service tiers: General Purpose and Business Critical. The Business Critical service tier provides an additional built-in copy of the SQL Managed Instance (secondary replica) that can be used for read-only workload. If you can separate read-write queries and read-only/analytic/reporting queries, you are getting twice the vCores and memory for the same price. The secondary replica might lag a few seconds behind the primary instance, so it is designed to offload reporting/analytic workloads that don''t need exact current state of data. In the table below, read-only queries are the queries that are executed on secondary replica.'
+    priority: 38
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: 'Reduce resource utilization by performance optimization, for example using Query Store and correct indexing strategy'
+    url: /azure/azure-sql/database/intelligent-insights-overview
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.e9c98711-54d5-479c-b7ef-44db4b65f6ff.H
+    context: 'A compound of development (Dev) and operations (Ops), DevOps is the union of people, process, and technology to continually provide value to customers. Use end-to-end solutions on Azure to implement DevOps practices throughout application planning, development, delivery, and operations. Apply the right combination of DevOps technologies, culture, and processes to enable continual software delivery and better value for customers.'
+    priority: 35
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Validate database service tiers
+    url: /azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.7a30c43e-58b5-4293-b38a-6a8d7791d77d.C
+    context: 'SQL Managed Instance has two service tiers: General Purpose and Business Critical. The Business Critical service tier provides an additional built-in copy of the SQL Managed Instance (secondary replica) that can be used for read-only workload. If you can separate read-write queries and read-only/analytic/reporting queries, you are getting twice the vCores and memory for the same price. The secondary replica might lag a few seconds behind the primary instance, so it is designed to offload reporting/analytic workloads that don''t need exact current state of data. In the table below, read-only queries are the queries that are executed on secondary replica.'
+    priority: 39
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Service SKU
+  - title: Automate deployment based on the application lifespan
+    url: 'https://azure.microsoft.com/resources/templates/101-sqlmi-new-vnet/'
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.3b11f391-55a5-47a1-aa70-b18fa2d3ac75.A
+    context: 'A compound of development (Dev) and operations (Ops), DevOps is the union of people, process, and technology to continually provide value to customers. Use end-to-end solutions on Azure to implement DevOps practices throughout application planning, development, delivery, and operations. Apply the right combination of DevOps technologies, culture, and processes to enable continual software delivery and better value for customers.'
+    priority: 28
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Use DevOps and deployment automation
+    url: /learn/paths/automate-deployments-azure-devops/
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.3b11f391-55a5-47a1-aa70-b18fa2d3ac75.C
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.3b11f391-55a5-47a1-aa70-b18fa2d3ac75.B
+    context: 'A compound of development (Dev) and operations (Ops), DevOps is the union of people, process, and technology to continually provide value to customers. Use end-to-end solutions on Azure to implement DevOps practices throughout application planning, development, delivery, and operations. Apply the right combination of DevOps technologies, culture, and processes to enable continual software delivery and better value for customers.'
+    priority: 30
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Deploy the database/instances in the same region as your application to prevent data transfer costs
+    url: 'https://azure.microsoft.com/pricing/details/bandwidth/'
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.b4956cd9-6b3c-4972-a4ea-882d73f2e076.A
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.3b11f391-55a5-47a1-aa70-b18fa2d3ac75.D
+    context: 'Bandwidth refers to data moving in and out of Azure data centers, as well as data moving between Azure data centers; other transfers are explicitly covered by the Content Delivery Network, ExpressRoute pricing, or Peering.'
+    priority: 39
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Choose appropriate service tiers that match business requirements
+    url: /azure/azure-sql/managed-instance/resource-limits#service-tier-characteristics
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.3b11f391-55a5-47a1-aa70-b18fa2d3ac75.E
+    context: 'SQL Managed Instance has two service tiers: General Purpose and Business Critical.The Business Critical service tier provides an additional built-in copy of the SQL Managed Instance (secondary replica) that can be used for read-only workload. If you can separate read-write queries and read-only/analytic/reporting queries, you are getting twice the vCores and memory for the same price. The secondary replica might lag a few seconds behind the primary instance, so it is designed to offload reporting/analytic workloads that don''t need exact current state of data. In the table below, read-only queries are the queries that are executed on secondary replica.'
+    priority: 40
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Service SKU
+  - title: Verify if instances needs to be deployed in multi-region scenario (Instance Failover Groups)
+    url: /azure/azure-sql/database/auto-failover-group-sql-db?tabs=azure-powershell
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.3b11f391-55a5-47a1-aa70-b18fa2d3ac75.G
+    context: 'Business continuity in Azure SQL Database and SQL Managed Instance refers to the mechanisms, policies, and procedures that enable your business to continue operating in the face of disruption, particularly to its computing infrastructure. In the most of the cases, SQL Database and SQL Managed Instance will handle the disruptive events that might happen in the cloud environment and keep your applications and business processes running.'
+    priority: 55
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: 'Use compression (row, page) and columstore indexes'
+    url: /sql/relational-databases/data-compression/data-compression?view=sql-server-ver15
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.b4956cd9-6b3c-4972-a4ea-882d73f2e076.D
+    context: Cost Management users often want answers to questions that many others ask.  Forecasted costs are shown in cost analysis areas for area and stacked column views. The forecast is based on your historical resource use. Changes to your resource use affect forecasted costs.
+    priority: 65
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Educate employees about the cloud and the various pricing models
+    url: 'https://azure.microsoft.com/pricing/tco/calculator/'
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.7a30c43e-58b5-4293-b38a-6a8d7791d77d.A
+    context: Understand the details of your on-premises workloads. This information will be used to understand your current TCO and recommended services in Azure.
+    priority: 40
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Service SKU
+  - title: Take advantage of appropriate subscription offer types.
+    url: 'https://azure.microsoft.com/support/legal/offer-details/'
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.7a30c43e-58b5-4293-b38a-6a8d7791d77d.D
+    context: Understand the lists of offers that are currently available and no longer available for purchase.
+    priority: 25
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Service SKU
+  - title: 'Make a clear analysis of your HA/DR requirements and setup your solution accordingly (RTO,RPO)'
+    url: /azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.7a30c43e-58b5-4293-b38a-6a8d7791d77d.E
+    context: 'The auto-failover groups feature allows you to manage the replication and failover of a group of databases on a server or all user databases in a managed instance to another Azure region. It is a declarative abstraction on top of the active geo-replication feature, designed to simplify deployment and management of geo-replicated databases at scale.'
+    priority: 65
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Use Azure Advisor to identify opportunities to reduce cost
+    url: /azure/advisor/advisor-cost-recommendations#sql-database-and-sql-managed-instance-reserved-capacity
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.e9c98711-54d5-479c-b7ef-44db4b65f6ff.C
+    context: 'Azure Advisor helps you optimize and reduce your overall Azure spend by identifying idle and underutilized resources. You can get cost recommendations from the Cost tab on the Advisor dashboard. Although certain application scenarios can result in low utilization by design, you can often save money by managing the size and number of your virtual machines. Advisor uses machine-learning algorithms to identify low utilization and to identify the ideal recommendation to ensure optimal usage of virtual machines. The recommended actions are shut down or resize, specific to the resource being evaluated.'
+    priority: 30
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Choose appropriate services tiers that match business requirements.
+    url: /azure/azure-sql/managed-instance/resource-limits#service-tier-characteristics
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.3b11f391-55a5-47a1-aa70-b18fa2d3ac75.E
+    context: 'SQL Managed Instance has two service tiers: General Purpose and Business Critical. The Business Critical service tier provides an additional built-in copy of the SQL Managed Instance (secondary replica) that can be used for read-only workload. If you can separate read-write queries and read-only/analytic/reporting queries, you are getting twice the vCores and memory for the same price. The secondary replica might lag a few seconds behind the primary instance, so it is designed to offload reporting/analytic workloads that don''t need exact current state of data. In the table below, read-only queries are the queries that are executed on secondary replica.'
+    priority: 40
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Service SKU
+  - title: Estimate and track my costs
+    url: /azure/azure-monitor/usage-estimated-costs
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.cf602020-3395-484c-a53c-0b71dff41065.A
+    context: 'Understand different ways that Azure Monitor charges for usage, how to evaluate charges on your Azure bill, and how to estimate charges to monitor your entire environment. Azure Monitor uses a consumption-based pricing (pay-as-you-go) billing model where you only pay for what you use. Features of Azure Monitor that are enabled by default do not incur any charge. This includes collection and alerting on the Activity log and collection and analysis of platform metrics.'
+    priority: 31
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Use appropriate governance about expenditure
+    url: /azure/cloud-adoption-framework/govern/guides/standard/cost-management-improvement
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.cf602020-3395-484c-a53c-0b71dff41065.C
+    context: 'Adding processes and changes to the governance MVP helps remediate many of the risks associated with cost governance. Together, they create the visibility, accountability, and optimization needed to control costs.'
+    priority: 65
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Define and enforce data retention and archival requirements
+    url: /azure/data-factory/connector-azure-sql-managed-instance
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.b4956cd9-6b3c-4972-a4ea-882d73f2e076.B
+    context: 'In Azure SQL Managed Instance, you can configure a long-term backup retention policy (LTR). This allows you to automatically retain database backups in separate Azure Blob storage containers for up to 10 years. You can then recover a database using these backups with the Azure portal and PowerShell.'
+    priority: 61
+    reportingCategory: Business Continuity
+    reportingSubCategory: Backup & Restore
+  - title: Verify data storage and partitionining is done correctly
+    url: 'https://techcommunity.microsoft.com/t5/datacat/storage-performance-best-practices-and-considerations-for-azure/ba-p/305525'
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.b4956cd9-6b3c-4972-a4ea-882d73f2e076.C
+    context: 'Understand how database file size and layout can have a significant performance impact on MI GP and BC instances. If sufficient storage performance cannot be achieved on a General Purpose instance even after following best practices, then switching to a Business Critical instance is recommended.'
+    priority: 60
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Consider the number of days you require your backup history to be available
+    url: /azure/azure-sql/database/automated-backups-overview?tabs=managed-instance#backup-retention
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.b4956cd9-6b3c-4972-a4ea-882d73f2e076.E
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.e9c98711-54d5-479c-b7ef-44db4b65f6ff.D
+    context: 'Azure SQL Database and Azure SQL Managed Instance provide both short-term and long-term retention of backups. Short-term retention backups allow Point-In-Time-Restore (PITR) within the retention period for the database, while long-term retention provides backups for various compliance requirements.'
+    priority: 62
+    reportingCategory: Business Continuity
+    reportingSubCategory: Backup & Restore
+  - title: Verify what is stored in the database and what can be offloaded to a storage account
+    url: 'https://devblogs.microsoft.com/azure-sql/linked-server-to-synapse-sql-to-implement-polybase-like-scenarios-in-managed-instance/'
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.b4956cd9-6b3c-4972-a4ea-882d73f2e076.F
+    context: Azure Synapse Analytics has a serverless SQL endpoint that enables you to read the files on Azure storage without pre-provisioning resources. You can leverage a serverless Synapse SQL endpoint to implement Polybase-like scenarios in Azure SQL Managed Instance. The Polybase technology enables SQL Server and SQL DW to directly query a large amount of big data stored on the external storage. You can run standard SQL queries over CSV or Parquet files that are placed in Azure Storage without the need to load the data in SQL database tables. Polybase is currently not available in Azure SQL (database or managed instance).
+    priority: 60
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: 'Verify tranasaction log / tempdb size, fragmentation and usage stats'
+    url: /azure/azure-sql/database/monitoring-with-dmvs
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.b4956cd9-6b3c-4972-a4ea-882d73f2e076.G
+    context: 'Microsoft Azure SQL Database and Azure SQL Managed Instance enable a subset of dynamic management views to diagnose performance problems, which might be caused by blocked or long-running queries, resource bottlenecks, poor query plans, and so on. This article provides information on how to detect common performance problems by using dynamic management views.'
+    priority: 63
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Watch your cloud costs with Azure cost management
+    url: /azure/cost-management-billing/understand/understand-invoice
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.8c65194b-b7a3-456c-aacb-b7ed1fd66061.A
+    context: 'The invoice provides a summary of your charges and provides instructions for payment. It’s available for download in the Portable Document Format (.pdf) from the Azure portal or can be sent via email. For more information, see How to get your Azure billing invoice and daily usage data.'
+    priority: 95
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Create and respond to cost alerts
+    url: /azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.8c65194b-b7a3-456c-aacb-b7ed1fd66061.B
+    context: 'Understand and use Cost Management alerts to monitor your Azure usage and spending. Cost alerts are automatically generated based when Azure resources are consumed. Alerts show all active cost management and billing alerts together in one place. When your consumption reaches a given threshold, alerts are generated by Cost Management. There are three types of cost alerts: budget alerts, credit alerts, and department spending quota alerts.'
+    priority: 95
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Perform cost reviews on a regular cadence
+    url: /azure/cost-management-billing/costs/cost-analysis-common-uses
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.8c65194b-b7a3-456c-aacb-b7ed1fd66061.C
+    context: Cost Management users often want answers to questions that many others ask.  Forecasted costs are shown in cost analysis areas for area and stacked column views. The forecast is based on your historical resource use. Changes to your resource use affect forecasted costs.
+    priority: 65
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Consider using different Azure datacenter locations to optimize cost
+    url: 'https://azure.microsoft.com/pricing/details/azure-sql/sql-managed-instance/single/'
+    condition:
+      noneOf:
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.7a30c43e-58b5-4293-b38a-6a8d7791d77d.B
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.cf602020-3395-484c-a53c-0b71dff41065.B
+        - 6c4d3343-df18-4d07-a0cb-dc754c7e10f2.3b11f391-55a5-47a1-aa70-b18fa2d3ac75.F
+    context: 'Explore Flexible purchasing options. Get a walkthrough of Azure pricing. Understand pricing for your cloud solution, learn about cost optimization.'
+    priority: 65
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+uid: b92e0a6a-6948-486a-9208-6c2ae21327a2
+name: ''

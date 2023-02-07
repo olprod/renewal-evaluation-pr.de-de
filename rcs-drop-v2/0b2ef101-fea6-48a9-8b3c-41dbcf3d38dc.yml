@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: A migration strategy is currently in use and the applications that rely on ADFS / Other IDPs are in process of migration to Azure AD
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Need help to create a migration strategy and currently there's no visibility of when to start Migration to AAD
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '2'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf:
+    - 6bdded40-7e8d-4d83-abe0-2171906109c6.b62a48cb-d0df-4243-970e-d1b6b75938f6.1
+    - 6bdded40-7e8d-4d83-abe0-2171906109c6.b62a48cb-d0df-4243-970e-d1b6b75938f6.2
+    - 6bdded40-7e8d-4d83-abe0-2171906109c6.b62a48cb-d0df-4243-970e-d1b6b75938f6.3
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 0b2ef101-fea6-48a9-8b3c-41dbcf3d38dc
+name: 'What is your organization''s approach on using modern authentication methods (SAML/OAuth/OIDC) for applications? '

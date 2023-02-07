@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |
+  You have an Azure AD Premium P2 tenant.
+
+  You plan to use continuous access evaluation (CAE).
+
+  You need to ensure that CAE has insight into a user location.
+
+  What should you configure? 
+questionnaireUid: 97cda3a3-4cb8-4972-b3f2-d34ddad53d8d
+questions:
+  - uid: f5b78319-77cd-4bf0-98d6-71d7a2e6fdad-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have an Azure AD Premium P2 tenant.
+        isCorrect: false
+      - id: 1
+        text: 'You plan to use continuous access evaluation (CAE). '
+        isCorrect: true
+      - id: 2
+        text: 'You need to ensure that CAE has insight into a user location. '
+        isCorrect: false
+      - id: 3
+        text: What should you configure?
+        isCorrect: false
+    manualId: SC300_4.1.1
+uid: f5b78319-77cd-4bf0-98d6-71d7a2e6fdad
+title: ''
+manualId: ''

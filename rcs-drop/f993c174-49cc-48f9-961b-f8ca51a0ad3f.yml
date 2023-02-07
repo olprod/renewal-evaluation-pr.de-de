@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  11_AI-102-ai-102.4.7
+
+  You plan to use Language service to detect the language of reviews.
+
+  You need to route the reviews that are multi-lingual to a human translator.
+
+  Which field in the JSON response should you use to filter records?
+questionnaireUid: 0162d990-feb8-48cf-b7ab-69c354042f7b
+questions:
+  - uid: f993c174-49cc-48f9-961b-f8ca51a0ad3f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: '`score`'
+        isCorrect: true
+      - id: 1
+        text: '`errors`'
+        isCorrect: false
+      - id: 2
+        text: '`statistics`'
+        isCorrect: false
+      - id: 3
+        text: '`name`'
+        isCorrect: false
+uid: f993c174-49cc-48f9-961b-f8ca51a0ad3f
+title: ''

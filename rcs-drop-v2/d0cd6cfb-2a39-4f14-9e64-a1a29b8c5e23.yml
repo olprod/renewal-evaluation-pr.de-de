@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 03462c2c-365c-4e31-9cd5-ca8ab96af5e4
+recommendations:
+  - d8d97ef6-c789-4d0a-a414-11d90527c95b
+assignedGroupIds: []
+uid: d0cd6cfb-2a39-4f14-9e64-a1a29b8c5e23
+name: 'Go-Live - Container Registry: Security'

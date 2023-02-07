@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Deploy Azure Container Registry to its own dedicated Resource Group
+    url: /azure/container-registry/container-registry-best-practices#dedicated-resource-group
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca525e39-8d65-42b9-a95b-74a69363f57a.dc7cf621-4616-45b0-89d7-e756abd77f68.A
+      scoreOf: []
+    context: 'It is recommended that Azure Container Registry is deployed to its own dedicated resource group, independent of any other services which may be used to run the container workloads. Container registries are typically used across multiple container hosts and provide images for multiple applications. This reduces the risk of accidental deletion of the registry if the resource group is deleted, resulting in the loss of all the images. Additionally, the use of delete locks on the resource group and/or the container registry will further protect against accidental deletion.'
+    priority: 75
+    reportingCategory: 'Upgrade, Migration and Deployment'
+    reportingSubCategory: Configuring for Deployment
+  - title: Have a defined and documented naming convention for repository namespaces for your registry
+    url: /azure/container-registry/container-registry-best-practices#repository-namespaces
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ca525e39-8d65-42b9-a95b-74a69363f57a.dc7cf621-4616-45b0-89d7-e756abd77f68.B
+      scoreOf: []
+    context: 'Making effective use of repository namespaces enables the sharing of an Azure Container Registry with multiple groups across your organization, reducing the management overhead for separate deployments and teams. In Azure Container Registry, nested namespaces are supported offering increased flexibility and isolation. For example, images that are used across an organization can be in a root namespace: contoso.azurecr.io/webframework:2.0. Images that are owned by groups or teams can then be organized by their own namespaces: contoso.azurecr.io/products/widget/web:1; contoso.azurecr.io/products/widget/api:12.3; contoso.azurecr.io/marketing/2020/promotions/discountcampaign:3.4.'
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+uid: c2897836-fc4a-4068-bb5c-16c1da60fa9e
+name: ''

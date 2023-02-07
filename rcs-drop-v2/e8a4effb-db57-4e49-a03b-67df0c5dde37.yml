@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has limited knowledge of what landing zones and how to use them.
+    description: |
+      Your organization has limited knowledge of what landing zones and how to use them.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is familiar with the concept of data landing zone and intends to deploy to enable agility for creating data products.
+    description: Your organization is familiar with the concept of data landing zone and intends to deploy to enable agility for creating data products.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has a clear plan to validate and build underpinning architectural components to support design and deployment of landing zones.
+    description: Your organization has a clear plan to validate and build underpinning architectural components to support design and deployment of landing zones.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has built one or more landing zones to host and run analytics workloads.
+    description: Your organization has built one or more landing zones to host and run analytics workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has succesfully operationalized landing zones to host and run analytics workloads and can easily scale to deploy new data landing zones with a standard set of services that let the data landing zone begin ingesting and analyzing data.
+    description: Your organization has succesfully operationalized landing zones to host and run analytics workloads and can easily scale to deploy new data landing zones with a standard set of services that let the data landing zone begin ingesting and analyzing data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you currently follow prescriptive guidance, coupled with best practices for your Azure workloads?'
+isRequired: true
+uid: e8a4effb-db57-4e49-a03b-67df0c5dde37
+name: 'Do you currently follow prescriptive guidance, coupled with best practices for your Azure workloads?'

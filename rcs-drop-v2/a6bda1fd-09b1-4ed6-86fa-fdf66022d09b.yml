@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Continuous integration and delivery for Azure Synapse workspace.
+    description: Using Azure release pipeline to automate the deployment of a Synapse workspace to multiple environments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: B
+    text: Use Azure Synapse Analytics Maintenance Schedules to manage service updates and maintenance.
+    description: 'You should use maintenance scheduling to choose a time window when it''s convenient to receive new features, upgrades, and patches.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Upgrade your Azure Synapse Analytics dedicated SQL pool to the latest generation Gen2 of Azure hardware and storage architecture.
+    description: You can now seamlessly upgrade to the dedicated SQL pool compute Optimized Gen2 tier in the Azure portal for supported regions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: a6bda1fd-09b1-4ed6-86fa-fdf66022d09b
+name: What reliability allowances for operations have you made?

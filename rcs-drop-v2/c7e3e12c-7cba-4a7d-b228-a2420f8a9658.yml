@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use managed ingestion to consume messages from Azure IoT Hub.
+    description: 'Whenever possible, you use managed ingestion from Azure IoT Hub to data destinations. For example, Azure IoT Hub routing, IoT Hub to Event Hubs, Storage, Service Bus, and Azure Data Explorer. If necessary, you use Azure SDKs to develop custom ingestion.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: Reporting and integration have no negative effect on data ingestion.
+    description: You should verify through testing that complex queries and load from the reporting and integration layer don't negatively affect data ingestion from a performance perspective.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: You use a separate storage resource for reporting and integration.
+    description: Use separate data store to ensure that complex queries or load from the integration layer don't negatively affect data ingestion from a performance perspective.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: You use Azure IoT Hub partitions and consumer groups for simultaneous data readers.
+    description: Azure IoT Hub partitions and consumer groups are configured for performance efficiency in regard to number of simultaneous data readers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: You use an appropriate data storage resource.
+    description: 'Your data storage meets throughput, size, retention period, data volume, CRUD, and consistency requirements. Storage options include Azure Data Lake, Azure Data Explorer, SQL, and Azure CosmosDB.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The IoT solution must be capable of handling and processing all the messages sent by the connected devices. Design your cloud storage and processing based on the amount of data to be ingested, depending on the frequency and size of messages sent by the devices.'
+isRequired: false
+uid: c7e3e12c-7cba-4a7d-b228-a2420f8a9658
+name: 'The IoT solution must be capable of handling and processing all the messages sent by the connected devices. Design your cloud storage and processing based on the amount of data to be ingested, depending on the frequency and size of messages sent by the devices.'

@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We use a Software Configuration Management platform, log our changes, review with a change control board, and deploy the change across the infrastructure'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: We implement the change in our infrastructure and through Ring Deployment verify the change before deploying further
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: We implement the change and deploy in our environment but reserve production deployment until telemetry verifies the change
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: 'We log and track the change with our Security team, then implement the change in a staged rolled-out deployment verifying as we go'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: We immediately deploy the change and make the update or patch part of our infrastructure as code verifying impacted services have the update
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Often times, these types of processes can lead to a configuration that is less than optimal.  What is your process to implement critical patches, security updates, or other software component updates while maintaining your configuration?'
+isRequired: true
+uid: f68024d9-d115-43c8-87b9-4ac97533b2b1
+name: 'Often times, these types of processes can lead to a configuration that is less than optimal.'

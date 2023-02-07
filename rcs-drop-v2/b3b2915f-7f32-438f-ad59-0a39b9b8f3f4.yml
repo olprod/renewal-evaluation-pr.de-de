@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has little awareness for data sharing capabilities.
+    description: Your organization has little awareness for data sharing capabilities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has identified a need for sharing capabilities and looking for data sharing platforms and policies.
+    description: Your organization has identified a need for sharing capabilities and looking for data sharing platforms and policies.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Acceptable. Your organization is looking to adopt data sharing policies and enhance capabilities for data sharing platforms. '
+    description: 'Your organization is looking to adopt data sharing policies and enhance capabilities for data sharing platforms. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: Advanced. Your organization is adopting data sharing policies and is able to securely share data with multiple customers and partners.
+    description: |
+      Your organization is adopting data sharing policies and is able to securely share data with multiple customers and partners.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: Optimized. Your organization has successfully adopted data sharing policies and is able to securely share data with multiple customers and partners.
+    description: Your organization has successfully adopted data sharing policies and is able to securely share data with multiple customers and partners.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you have any open data sharing platforms & policies?
+isRequired: true
+uid: b3b2915f-7f32-438f-ad59-0a39b9b8f3f4
+name: Do you have any open data sharing platforms & policies?

@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Yes.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: No.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+legacyId: '2'
+uid: 8da1406a-bd55-41ef-b964-eeb797fb1da3
+name: Do you have tools in place to monitor cloud spend and recommend cost saving options in Azure?

@@ -1,0 +1,31 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Setup MS Teams for Innovation Collaboration
+    url: 'https://learn.microsoft.com/en-us/microsoftteams/general-teams-templates-in-the-admin-console#organize-help-desk'
+    condition:
+      allOf: []
+      anyOf:
+        - b305e1ab-7c65-4902-82cc-f8b2ba604d07.191d8012-b3e6-4a95-a706-513814fa23ff.0
+        - b305e1ab-7c65-4902-82cc-f8b2ba604d07.191d8012-b3e6-4a95-a706-513814fa23ff.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Innovation Backlog app to manage app and flow ideas
+    url: 'https://learn.microsoft.com/en-us/power-platform/guidance/coe/use-innovationbacklog'
+    condition:
+      allOf: []
+      anyOf:
+        - b305e1ab-7c65-4902-82cc-f8b2ba604d07.191d8012-b3e6-4a95-a706-513814fa23ff.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 3808c834-fd4b-49b1-b312-ad0a922d415c
+name: Establish Innovation Culture for your Implementations

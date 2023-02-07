@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Automate creation of Azure Analysis Services instances with  ARM templates, PowerShell scripts, or Bicep files.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Use Dynamic Management Views (DMVs) in Analysis Services to monitor server instance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Monitor server metrics provided by Azure Monitor (memory, CPU usage, number of client connections, query resource consumption, etc.). '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: 'Enable Diagnostic logging for Azure Analysis Services to monitor and send logs to Azure storage, stream them to Azure Event Hubs, or export them to Azure Monitor logs.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Add resource health alerts for metrics such as: Memory Usage, memory limit High, memory limit Hard, etc.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.operational
+stem: ''
+isRequired: false
+uid: 989cc76a-7aa5-45ce-ba0b-fe6237891cc4
+name: How are you managing the configuration of your workload?

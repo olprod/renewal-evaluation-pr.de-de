@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'With Azure service principal support, perform unattended refresh operations using PowerShell, TOM, TMSL, or REST to make sure your model data is always up to date.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Implement Asynchronous refresh with the REST APIs to mitigate long running operations.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.performance
+stem: ''
+isRequired: false
+uid: 1fe6a59d-e3ed-471f-90d0-5a5e08879ba6
+name: How are you monitoring to ensure the workload is scaling appropriately?

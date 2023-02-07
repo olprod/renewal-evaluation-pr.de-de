@@ -1,0 +1,7 @@
+### YamlMime:Questionnaire
+studyMaterials:
+  - uid: learn.wwl.construct-kql-statements
+    type: Module
+uid: eb20eb3e-2656-466e-825b-1e3306795106
+title: Construct KQL statements for Microsoft Sentinel
+manualId: SC-300.10

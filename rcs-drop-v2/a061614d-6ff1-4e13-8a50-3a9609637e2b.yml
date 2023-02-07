@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Yes.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: No.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+legacyId: '3'
+uid: a061614d-6ff1-4e13-8a50-3a9609637e2b
+name: Do you have a plan for using Azure Policy and Azure Blueprints to ensure resources are deployed in a consistent and repeatable way?

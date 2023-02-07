@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This covers interaction, coordination with ISV vendor and ISV solution management for D365 F&O implementations. It covers practice on periodic cadence with ISV vendor, Code / Package handling of ISV codebase for the D365 F&O implementation.'
+hideEmptyGuidance: false
+questions:
+  - 48ea9f56-7e5c-4b87-b656-123951392086
+recommendations:
+  - 97ae53bb-7fc0-4631-b642-4fbce831d2d4
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: 69e3bae9-b169-4be7-9d1f-0610f6ef18c4
+name: ISV Management COE Objective

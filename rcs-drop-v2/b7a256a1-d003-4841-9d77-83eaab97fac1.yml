@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've accounted for the failure modes of your devices and test your cloud services with chaos testing tools.
+    description: Chaos engineering is a methodology that helps developers attain consistent reliability by hardening services against failures in production.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You have implemented load testing.
+    description: Load test your application at the expected peak load to ensure there are no challenges around performance or stability when operating at full capacity.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: You have implemented integration/regression testing.
+    description: 'Testing is one of the fundamental components of DevOps and agile development in general. Though automation gives DevOps the required speed and agility to deploy software quickly, those deployments achieve the required reliability only through extensive testing.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: '3'
+    text: You have not done any reliability testing.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Applications should be tested to ensure that reliability-related SLAs are met. Testing plays a critical role in making sure your applications can meet these requirements.
+isRequired: false
+uid: b7a256a1-d003-4841-9d77-83eaab97fac1
+name: Applications should be tested to ensure that reliability-related SLAs are met. Testing plays a critical role in making sure your applications can meet these requirements.

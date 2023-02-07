@@ -1,0 +1,40 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Planning and change management
+    url: 'https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/training-plans-and-content-for-your-fin-ops-project---part-1-planning-and-change-management-september-17-2020'
+    condition:
+      allOf:
+        - cff9b36d-3bc1-455e-ac87-8604c31cebdc.1114281c-76a1-451a-a7e1-805d7f33410e.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Success by Design Overview
+    url: 'https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/fasttrack-for-dynamics---success-by-design-overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Retail SDK deprecation timeline
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/get-started/removed-deprecated-features-commerce#modernpossln-and-cloudpossln-in-the-retail-sdk'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 8a628bb7-aa7f-405d-91e5-c4fc967d6896
+name: Store commerce app migration planning and execution

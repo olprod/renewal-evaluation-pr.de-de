@@ -1,0 +1,58 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Estimate cost of operating in the cloud.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: B
+    text: Architecting current environment in the cloud.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: C
+    text: Getting Infrastructure ready to deploy workload to the cloud.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: D
+    text: Deploy workload to the cloud.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: E
+    text: Manage operations.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: F
+    text: Improve performance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: G
+    text: Discovering new ways to improve and be efficient.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+type: AssessmentQuestion
+kind: MultiSelect
+stem: ''
+isRequired: false
+legacyId: '2'
+uid: 022a8eef-3a2c-4476-bd62-334ff2e259e2
+name: What areas interest you?

@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have not yet considered what project methodology will be used for the project '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We intend to use the same methodology we have always used for our on-premises software projects.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We are investigating which methodology would be suitable for the implementation of a cloud-based SaaS business application in our organization, with our project resources and considering our project circumstances.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'We have selected a methodology which suits cloud-based SaaS business application implementations, our organization, our project resources and our project circumstances. We have taken advice from the Microsoft Dynamics 365 Implementation Guide and other Microsoft documents and resources and also from our implementation partner to arrive at our decision.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Has a project methodology been selected that is appropriate for your organization and your project? '
+isRequired: true
+uid: 5e0ed607-5657-4486-b83f-e1f2f567829a
+name: Has a project methodology been selected that is appropriate for your organization and your project?

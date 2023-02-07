@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Track how data flows in and out of Azure.
+    description: 'Most of the time inbound data transfers (data going into Azure datacenters) are free. For outbound data transfers, such as data going out of Azure datacenters, the data transfer pricing is based on Billing Zones.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: Define and enforce data retention and archival policies that weigh down retrieval performance and access requirements against cost benefits of longer-term storage.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: Pre-plan the data storage and partition it correctly.
+    description: Choosing an inappropriate data store or one that is mis-configured can have a huge cost impact on your design.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: D
+    text: Use SQL Agent alerts to notify of low storage space and use PerfMon counters to monitor that disk IO is within HW limits.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: Manage backup type and frequency to ensure RTO/RPO requirements are met while not retaining backups beyond these needs.
+    description: Database backups utilize storage which has a cost associated with it. Ensure the backup process meets the RTO/RPO requirements and no more.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Ensure long-term-backups are stored on the most cost effective storage as possible.
+    description: 'Backups kept for regulatory and compliance reasons are not usually accessed on a regular basis and can be placed on the colder, more cost efficient storage tiers.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: e66898c3-e38c-44d4-83e3-64f44901b342
+name: How do you manage the storage footprint of your digital assets?

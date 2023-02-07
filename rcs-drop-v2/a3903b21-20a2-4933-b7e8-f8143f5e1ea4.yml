@@ -1,0 +1,49 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We reviewed the high-level identity requirements of our service, including the types of identities we''ll use, whether identities span multiple tenants, and whether we''ll use a single identity source or federations.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'We considered how we''ll manage account lifecycles, including whether automation is useful for our scenario.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We have considered how our identity provider will perform and scale across different tenant usage patterns.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Identity is an important aspect of any multitenant solution. The identity components of your application are responsible for both of the following:
+
+  --  Verifying who a user is (authentication).
+
+  --  Enforcing the user's permissions within the scope of a tenant (authorization).
+
+  Your customers might also wish to authorize external applications to access their data or to integrate to your solution. A user's identity determines what information a user or service will get access to. It's important that you consider your identity requirements, in order to isolate your application and data between tenants.
+isRequired: true
+uid: a3903b21-20a2-4933-b7e8-f8143f5e1ea4
+name: Identity is an important aspect of any multitenant solution.

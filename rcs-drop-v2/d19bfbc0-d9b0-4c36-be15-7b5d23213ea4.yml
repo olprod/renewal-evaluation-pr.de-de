@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: All messages have equal importance.
+    description: 'All messages are sent in order. When you use Azure IoT Edge, messages are buffered when there''s no connection, but after the connection is restored, all buffered messages are sent in order followed by new messages.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Messages can have different priorities.
+    description: 'For example, send alarms with the highest priority and telemetry with lower priority, so that the alarm messages are always sent first to the cloud. When you use Azure IoT Edge, you can use priority queues to separate messages based on priority. Azure IoT Edge buffers messages when there''s no connection. When the connection is restored, Azure IoT Edge sends all buffered messages by priority, highest priority first, followed by newly arrived messages.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: 'You have multiple ingestion strategies for different messages, priorities, data types and volumes.'
+    description: 'Use different strategies for ingesting different types of data. For example, send real-time messages to Azure IoT Hub directly, and use Azure IoT Hub file upload or batch data transfer (such as Azure Data Factory) if the data isn''t needed in real time.'
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Different types of data with different characteristics need different strategies for ingestion to your IoT solution. Real-time data with low latency must be sent as soon as possible to the cloud, high volume but non-real-time data can utilize file upload or batch data transfer (for example, Azure Data Factory).'
+isRequired: false
+uid: d19bfbc0-d9b0-4c36-be15-7b5d23213ea4
+name: 'Different types of data with different characteristics need different strategies for ingestion to your IoT solution. Real-time data with low latency must be sent as soon as possible to the cloud, high volume but non-real-time data can utilize file upload or batch data transfer (for example, Azure Data Factory).'

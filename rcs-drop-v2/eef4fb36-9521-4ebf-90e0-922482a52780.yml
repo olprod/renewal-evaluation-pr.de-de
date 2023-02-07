@@ -1,0 +1,158 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'Agile development is a term used to describe iterative software development. Iterative software development shortens the DevOps lifecycle by executing against work in smaller increments, usually called sprints. Sprints are typically 1-4 weeks long. Agile development is often contrasted with traditional or waterfall development, where larger projects are planned up front and executed against that plan.'
+links:
+  - title: Consider planning and scheduling work in time boxed sprints/iterations.
+    url: 'https://docs.microsoft.com/en-us/devops/plan/adopting-agile#schedule-and-rhythm'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.e4a89e79-2ed4-4abd-a7ae-6532e14cf36f.1
+      scoreOf: []
+    context: Consider planning and scheduling work in time boxed sprints/iterations.
+    priority: 90
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Agile Planning
+  - title: Drive toward small iterative sprints
+    url: 'https://devblogs.microsoft.com/premier-developer/what-is-your-agile'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.e4a89e79-2ed4-4abd-a7ae-6532e14cf36f.0
+      scoreOf: []
+    context: Drive toward small iterative sprints
+    priority: 90
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Agile Planning
+  - title: Setup a planned iteration for alignment on product planning
+    url: 'https://docs.microsoft.com/en-us/devops/plan/what-is-scrum#sprint-planning-and-the-sprint-backlog'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.e4a89e79-2ed4-4abd-a7ae-6532e14cf36f.3
+      scoreOf: []
+    context: Setup a planned iteration for alignment on product planning
+    priority: 95
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Agile Planning
+  - title: Ensure that all work is estimated and prioritized.
+    url: 'https://docs.microsoft.com/en-us/devops/plan/what-is-agile-development#diligent-backlog-refinement'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.e45e3b92-b8f3-446e-9911-5a109c49dacf.0
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.e45e3b92-b8f3-446e-9911-5a109c49dacf.1
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.e45e3b92-b8f3-446e-9911-5a109c49dacf.3
+      scoreOf: []
+    context: Ensure that all work is estimated and prioritized.
+    priority: 70
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Sprint Reviews
+  - title: Plan Sprint Reviews among the team to evaluate work
+    url: 'https://docs.microsoft.com/en-us/devops/plan/what-is-scrum#sprint-review-and-sprint-retrospective'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.bc5e8c85-68ac-4769-a27f-3e2e654e8376.0
+      scoreOf: []
+    context: Plan Sprint Reviews among the team to evaluate work
+    priority: 95
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Sprint Reviews
+  - title: Evaluate teams to projects ratio
+    url: 'https://docs.microsoft.com/en-us/devops/plan/adopting-agile#load-balance-work-not-people'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.efd6ad4b-72d7-47c1-83d6-53a5e5692ae5.0
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.efd6ad4b-72d7-47c1-83d6-53a5e5692ae5.1
+      scoreOf: []
+    context: Evaluate teams to projects ratio
+    priority: 90
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Balancing Work
+  - title: Drive collaboration among your team
+    url: 'https://devblogs.microsoft.com/devops/track-the-progress-of-work-using-rollup-columns/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.2911d995-3a3f-4945-b753-2dca8485fd1c.0
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.2911d995-3a3f-4945-b753-2dca8485fd1c.1
+      scoreOf: []
+    context: Drive collaboration among your team
+    priority: 92
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Team Collaboration
+  - title: Understand Agile Development
+    url: 'https://devblogs.microsoft.com/devops/azurefunbytes-intro-to-agile-development-with-abel-wang'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.c5d381d3-2522-4f0a-81ec-2bd6f361674a.0
+      scoreOf: []
+    context: Understand Agile Development
+    priority: 70
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Agile Process
+  - title: Use telemetry and analytics tools in the production to gather feedback
+    url: /azure/azure-monitor/app/mobile-center-quickstart
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.14549bdc-4826-4659-8444-820d545070fc.0
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.14549bdc-4826-4659-8444-820d545070fc.1
+      scoreOf: []
+    context: Use telemetry and analytics tools in the production to gather feedback
+    priority: 95
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Gather Feedback
+  - title: Coordinate with other team's on project work
+    url: test.com
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.c540194e-30c0-435e-b26c-605913eb3f7d.0
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.c540194e-30c0-435e-b26c-605913eb3f7d.3
+      scoreOf: []
+    context: Coordinate with other team's on project work
+    priority: 92
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Team Collaboration
+  - title: Develop and sponsor an change control process for risk
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.87e821e7-d6a4-4468-a91f-9565c326b229.0
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.87e821e7-d6a4-4468-a91f-9565c326b229.2
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.87e821e7-d6a4-4468-a91f-9565c326b229.4
+      scoreOf: []
+    context: Develop and sponsor an change control process for risk
+    priority: 50
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Risk Management
+  - title: Thrive to have your team to be always agile
+    url: 'https://docs.microsoft.com/en-us/devops/plan/what-is-agile-development#always-be-agile'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.efd6ad4b-72d7-47c1-83d6-53a5e5692ae5.0
+      scoreOf: []
+    context: Thrive to have your team to be always agile
+    priority: 50
+    reportingCategory: Adopting Agile Practices
+    reportingSubCategory: Agile Process
+uid: eef4fb36-9521-4ebf-90e0-922482a52780
+name: Define Agile Software Development

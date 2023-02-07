@@ -1,0 +1,47 @@
+### YamlMime:SelfAssessment
+description: 'Tool used to examine and understand data governance and data management capabilities across your analytics estate [30 minutes]. Each capability has a scale range from level one (Limited), representing the initial state of a data governance program, to level five, representing the objective state (Optimized) of Data Governance in that area of focus. '
+duration: 30 minutes
+questionnaireReferences:
+  - questionnaireUid: 8b4e7b04-5f39-4383-9ba7-08438ac18e0b
+    isRequired: false
+  - questionnaireUid: 79e0b88c-0b7a-4000-840a-ea5aaede5f6a
+    isRequired: false
+guidance:
+  title: 30 minutes
+  description: Your results
+  providers: []
+  scoring:
+    title: View how your maturity aligns to benchmark to leading practices and recommendations to help you improve.
+    description: |
+      Recommendations for your Analytics Assessment 
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Leo
+  lastName: Kozhushnik
+  email: lkozhushnik@microsoft.com
+isHiddenAssessment: true
+metadataTags:
+  - azure
+uid: 5a1ed6d8-544c-4598-9f3a-4c17f04105b7
+name: key dimensions of the Capabilities and Maturity Framework to create a holistic view of current state and provides a structured framework for developing maturity in each dimension.

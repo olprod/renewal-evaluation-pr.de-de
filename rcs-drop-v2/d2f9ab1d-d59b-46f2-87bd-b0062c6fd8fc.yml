@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The applications identity provider (AAD/ADDS/ADFS/Other) is highly available and aligns with availability and recovery targets.
+    description: Is the identity provider (AAD/ADFS/AD/Other) and network connectivity to the identity provider highly available?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: 'All external application endpoints are secured and monitored? For example, NSGs, NVA Firewalls, API Gateways, etc.'
+    description: Are all external application endpoints secured using security services? How threat vectors such as DDoS attacks are mitigated ultimately has a bearing on application reliability.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: 'If applicable, communication to services running in Public Azure are secured using an Express Route (with peering / route filters enabled) or Virtual Private Network (VPN) connections.'
+    description: 'If applicable, is communication to PaaS services running in Public Azure secured, for example using a VPN, Express Route and/or Private Link?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: Keys and secrets are backed-up to secure external storage.
+    description: Keys and secrets must still be available in a failover case.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: The process for key rotation is automated and tested.
+    description: Is the process for key rotation is automated and tested?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: Emergency access break glass accounts have been tested and secured for recovering from Identity provider failure scenarios.
+    description: 'For connected stamps, have emergency break glass accounts been setup in Azure AD and are their credentials stored securely?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: d2f9ab1d-d59b-46f2-87bd-b0062c6fd8fc
+name: What reliability allowances for security have you made?

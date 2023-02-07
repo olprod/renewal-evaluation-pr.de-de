@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have considered the steps involved in onboarding a tenant and provisioning the necessary resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'We have thought through whether, and how, to automate the onboarding steps for new tenants.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We have considered who is responsible for the deployment and management of each type of resource, including shared and tenant-specific resources.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'We reviewed approaches and patterns for deployment and configuration of multitenant solutions such as the Deployment Stamps pattern, deployment rings, and feature flags.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: 'We avoid deployment and configuration antipatterns, including manual deployment and testing, and applying ad hoc customizations for tenants.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Regardless of your architecture and the components you use to implement it, you need to deploy and configure your solution''s components. In a multitenant environment, it''s important to consider how you deploy your Azure resources, especially when you deploy dedicated resources for each tenant, or when you reconfigure resources based on the number of tenants in your system.'
+isRequired: true
+uid: d8ca22dc-e6f5-41a1-93da-f7d461290e4d
+name: 'Regardless of your architecture and the components you use to implement it, you need to deploy and configure your solution''s components.'

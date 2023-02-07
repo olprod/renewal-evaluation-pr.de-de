@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has lack of awareness about for Operational Analytics.
+    description: Your organization has lack of awareness about for Operational Analytics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has understanding of Operational Analytics and the need for the architecture shift.
+    description: Your organization has understanding of Operational Analytics and the need for the architecture shift.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization is changing the way they think about and work with data. '
+    description: 'Your organization is changing the way they think about and work with data. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. You organization leverages Operational Analytics to pivot towards real-time analysis that spends less time doing integration work and more time on analysis.
+    description: You organization leverages Operational Analytics to pivot towards real-time analysis that spends less time doing integration work and more time on analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. You organization had adopted a different way to interact with the data that provides fresher, more accurate data for faster insights that are shared across operational teams.'
+    description: 'You organization had adopted a different way to interact with the data that provides fresher, more accurate data for faster insights that are shared across operational teams.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you have ability to perform Operational Analytics?
+isRequired: false
+uid: 739a072b-b10b-48b0-acfa-4f514db2e08c
+name: Do you have ability to perform Operational Analytics?

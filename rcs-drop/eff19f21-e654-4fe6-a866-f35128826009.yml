@@ -1,0 +1,27 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are listening to a recording from an incoming call. The details tab of the conversation form displays colored indicators.
+
+  What do the colored areas of the call transcript indicate?
+questionnaireUid: a9f47fb4-5cfe-4653-a52f-87e423de6df0
+questions:
+  - uid: eff19f21-e654-4fe6-a866-f35128826009-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are listening to a recording from an incoming call.
+        isCorrect: false
+      - id: 1
+        text: The details tab of the conversation form displays colored indicators.
+        isCorrect: false
+      - id: 2
+        text: What do the colored areas of the call transcript indicate?
+        isCorrect: false
+      - id: 3
+        text: history
+        isCorrect: true
+    manualId: Question 54-MB-230.1.13
+uid: eff19f21-e654-4fe6-a866-f35128826009
+title: ''

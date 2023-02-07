@@ -1,0 +1,45 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on this
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We have SOP and tooling in place for this, team is trained and using this in operations'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  One of the four Microsoft Cloud solution areas, Business Applications provides purpose-built applications to help customers manage specific business functions including: sales, customer service, field service, finance and operations, and talent. 
+
+  Join this bootcamp for the following insights: 
+
+  Strategies for building an ongoing partnership focused on your customer’s continued digital transformation 
+
+  How to sell the value of Business Applications and lead with business outcomes 
+
+  Understand the “Why Microsoft” differentiators and cross-selling opportunities 
+
+  Explore relevant value propositions, conversation starters, objection-handling, opportunity identification, and sales resources 
+isRequired: true
+uid: 8ff68b5d-b186-4ab1-b422-061aacf5e613
+name: 'One of the four Microsoft Cloud solution areas, Business Applications provides purpose-built applications to help customers manage specific business functions including: sales, customer service, field service, finance and operations, and talent.'

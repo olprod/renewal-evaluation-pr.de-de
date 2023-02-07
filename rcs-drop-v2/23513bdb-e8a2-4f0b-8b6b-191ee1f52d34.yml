@@ -1,0 +1,58 @@
+### YamlMime:SelfAssessment
+description: Evaluate your mission critical workloads by assessing the technical design areas and overall operational effectiveness.
+duration: 30-60 minutes
+questionnaireReferences:
+  - questionnaireUid: 437b295b-90d3-4190-812e-34f7ebb05df2
+    isRequired: true
+  - questionnaireUid: 3b978c5b-050a-4758-91ce-15c48a3800e1
+    isRequired: true
+  - questionnaireUid: 29cd0819-ea59-4039-bc04-f46ee79cc22d
+    isRequired: true
+  - questionnaireUid: 5c547a45-f43a-46fe-8287-4288c9ec60a3
+    isRequired: true
+  - questionnaireUid: 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f
+    isRequired: true
+  - questionnaireUid: ac6f422a-9eac-44a3-ae58-f17d3df92731
+    isRequired: true
+  - questionnaireUid: 1da82153-009e-4ca1-8e65-ae5cd05c7341
+    isRequired: true
+  - questionnaireUid: ac698843-efb1-4d10-955f-81619ba4701e
+    isRequired: true
+guidance:
+  title: ''
+  description: ''
+  providers: []
+  scoring:
+    title: 30-60 minutes
+    description: Recommendations for your workload.
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Janet
+  lastName: Thomas
+  email: janet@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - azure
+uid: 23513bdb-e8a2-4f0b-8b6b-191ee1f52d34
+name: Actionable items to consider implementing to improve your workload across the five pillars of the Microsoft Azure Well-Architected Framework.

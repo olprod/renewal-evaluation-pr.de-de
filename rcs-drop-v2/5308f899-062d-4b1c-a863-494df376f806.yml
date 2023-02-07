@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Learning Organization (All teams focused on learning from internal & external incidents)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: Balanced Investment (SOC drives increased investment into meaningful incident prevention)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '2'
+    text: Response Focus (or over-pivot) (Building and maturing new separate security operations/SOC function - often after major incident)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: Compliance Focus (Preventive program focused on meeting compliance obligations and control configurations)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 5308f899-062d-4b1c-a863-494df376f806
+name: Rank your business resilience program maturity

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'A blue-green deployment is used and only the new (green) deployment is completed and tested, traffic is gradually switched from the blue deployment to the green.'
+    description: 'This allows new application code or resources to be deployed and tested in a new parallel environment, with traffic only transitioned once ready in a phased process before subsequently decommissioning the old environment.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: Blue-green deployments are done on an application level.
+    description: 'Application level: New code is deployed to a staging location within the existing infrastructure. For example, Azure App Service provides this capability through secondary deployment slots that can be swapped after the deployment, while in AKS this can be achieved using a separate pod deployment on each node and updating the service definition.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Blue-green deployments are done on an infrastructure level.
+    description: 'Infrastructure level: A deployment containing all infrastructure and application components within a deployment scope. New Azure resources are established before subsequently deploying application code to the new infrastructure. When the new deployment has been fully tested and validated, traffic can be transitioned through a phased process, and the old infrastructure can then be decommissioned when appropriate.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: 'At an infrastructure level, the orchestration of user traffic between the blue and green environments can be controlled using a global load balancer, such as Azure Front Door.'
+    description: 'When using infrastructure-level blue-green deployments, the traffic must be moved from the old (blue) set of infrastructure to the new (green). Based on the application type, this can happen on the global load balancer.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'A blue-green deployment approach requires a minimum of two identical deployment contexts, where an existing deployment (blue) is actively serving user traffic, and a new secondary deployment (green) is established and made ready to receive traffic.'
+isRequired: false
+uid: 0a60fb6c-3f09-4b54-b9de-4f9fb9ce6c9a
+name: 'A blue-green deployment approach requires a minimum of two identical deployment contexts, where an existing deployment (blue) is actively serving user traffic, and a new secondary deployment (green) is established and made ready to receive traffic.'

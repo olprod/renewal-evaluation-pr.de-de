@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 3f804391-963a-47e6-b66b-dbe86853807a
+recommendations:
+  - ff290605-3089-4642-af24-054d04ac4ced
+assignedGroupIds: []
+uid: 7b638cfc-4fa0-4095-a3cd-bb2fdb70562b
+name: 'Go-Live - Service Bus: Operational Excellence'

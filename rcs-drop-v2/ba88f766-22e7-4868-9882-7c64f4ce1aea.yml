@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We are an Open Source focussed organization. '
+    description: "Azure Databricks is the best option for teams\_that are already working with open source tools like Apache Hadoop, Apache Spark, and Python."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: We are a Microsoft Stack focussed organization.
+    description: "Azure Synapse is the best option for teams\_that\_have a long history of using Microsoft technologies like SQL Server and T-SQL."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: What skillset does the project team currently possess?
+isRequired: true
+uid: ba88f766-22e7-4868-9882-7c64f4ce1aea
+name: What skillset does the project team currently possess?

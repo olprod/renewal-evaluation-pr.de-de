@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Firewall rules in Azure Synapse allow you create rules that specify IP ranges that are denied access to an Azure Synapse workspace.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 444b4e1a-ae2a-488c-93f5-b6280da6753e
+questions:
+  - uid: f9845d38-46ef-4f70-8b7a-7dec17b76cb2-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Firewall rules in Azure Synapse allow you create rules that specify IP ranges that are denied access to an Azure Synapse workspace.
+        isCorrect: false
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: true
+uid: f9845d38-46ef-4f70-8b7a-7dec17b76cb2
+title: 'Otherwise, select No.'

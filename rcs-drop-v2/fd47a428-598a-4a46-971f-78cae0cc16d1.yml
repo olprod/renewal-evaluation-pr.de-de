@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Penetration testing is performed in-house or a third-party entity performs penetration testing of this workload to validate the current security defenses.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: 'Simulated attacks on users of this workload, such as phishing campaigns, are carried out regularly.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: A security training program is developed and maintained to ensure security staff of this workload are well-informed and equipped with the appropriate skills.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: 'Playbooks are built to help incident responders quickly understand the workload and components, to mitigate an attack and do an investigation.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Security and penetration testing, such as scanning for open ports or known vulnerabilities and exposed credentials, is vital to ensure overall security and also support the operational effectiveness of the system. If prevention fails and the security of the application is breached, proper response and mitigation can minimize damage and contain the attacker within minimal boundaries.'
+isRequired: true
+uid: fd47a428-598a-4a46-971f-78cae0cc16d1
+name: 'Security and penetration testing, such as scanning for open ports or known vulnerabilities and exposed credentials, is vital to ensure overall security and also support the operational effectiveness of the system.'

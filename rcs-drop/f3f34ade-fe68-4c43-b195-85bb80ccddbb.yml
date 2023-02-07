@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are designing a web application to manage user satisfaction surveys. The number of questions that a survey includes is variable.
+
+  Application users must be able to display results for a survey as quickly as possible. Users must also be able to quickly compute statistical measures including average values across various groupings of answers.
+
+  Which Azure Cosmos DB API should you use for the application?
+questionnaireUid: 2a840479-42f4-4cc0-894a-db3951397e39
+questions:
+  - uid: f3f34ade-fe68-4c43-b195-85bb80ccddbb-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are designing a web application to manage user satisfaction surveys.
+        isCorrect: true
+      - id: 1
+        text: The number of questions that a survey includes is variable.
+        isCorrect: false
+      - id: 2
+        text: Application users must be able to display results for a survey as quickly as possible.
+        isCorrect: false
+      - id: 3
+        text: Users must also be able to quickly compute statistical measures including average values across various groupings of answers.
+        isCorrect: false
+uid: f3f34ade-fe68-4c43-b195-85bb80ccddbb
+title: ''

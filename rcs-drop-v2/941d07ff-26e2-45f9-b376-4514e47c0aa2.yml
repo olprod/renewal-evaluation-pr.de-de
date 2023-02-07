@@ -1,0 +1,114 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Latest Sales Play, Customer Use Case and Products Taxonomy'
+    url: 'https://aka.ms/FY23taxonomypartner'
+    condition:
+      allOf: []
+      anyOf:
+        - be8accec-580e-48fd-b9c8-2be032705376.bcf90d37-e29b-4f07-895b-30525d6625f5.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Dynamics 365 Partners Resource Portal for Go To Market, Practice Skilling Resources'
+    url: 'https://dynamicspartners.transform.microsoft.com/'
+    condition:
+      allOf: []
+      anyOf:
+        - be8accec-580e-48fd-b9c8-2be032705376.3789c7a2-a6dc-4518-820d-996f146ae844.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Products and Customer Scenarios Pre-Curated Guided Tours
+    url: 'https://guidedtour.microsoft.com/en-US/guidedtour/landing'
+    condition:
+      allOf: []
+      anyOf:
+        - be8accec-580e-48fd-b9c8-2be032705376.84bf463f-a68b-4524-979e-493e6202bb7d.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Click Through Demos via Customer Digital Experiences
+    url: 'https://cdx.transform.microsoft.com/'
+    condition:
+      allOf: []
+      anyOf:
+        - be8accec-580e-48fd-b9c8-2be032705376.a0f4b537-30f2-4c3b-87eb-399f2a1e2172.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Dynamics 365 Licensing Guide
+    url: 'https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409'
+    condition:
+      allOf: []
+      anyOf:
+        - be8accec-580e-48fd-b9c8-2be032705376.0888b4ea-da9d-4e51-9f37-ce5eccec3f83.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Get started with a Dynamics 365 free trial
+    url: 'https://dynamics.microsoft.com/en-us/dynamics-365-free-trial/'
+    condition:
+      allOf: []
+      anyOf:
+        - be8accec-580e-48fd-b9c8-2be032705376.fe9613b5-eaa9-4d6f-a001-81fd9972e39d.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Free or discounted non-production environment licenses with Biz Apps and Power Platform products
+    url: 'https://experience.dynamics.com/requestlicense/'
+    condition:
+      allOf: []
+      anyOf:
+        - 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19.13b4b336-5afe-4f53-88b7-234e982f4379.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Microsoft compliance offerings
+    url: 'https://learn.microsoft.com/en-us/compliance/regulatory/offering-home'
+    condition:
+      allOf: []
+      anyOf:
+        - be8accec-580e-48fd-b9c8-2be032705376.f9f5a3ed-216d-4225-9ec5-437c4c691bda.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Dynamics 365 globalization services
+    url: 'https://learn.microsoft.com/en-us/dynamics365/finance/localizations/globalization-services-overview?context=%2Fdynamics365%2Fcontext%2Ffinance'
+    condition:
+      allOf: []
+      anyOf:
+        - be8accec-580e-48fd-b9c8-2be032705376.f9f5a3ed-216d-4225-9ec5-437c4c691bda.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 941d07ff-26e2-45f9-b376-4514e47c0aa2
+name: ''

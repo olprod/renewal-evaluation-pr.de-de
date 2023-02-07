@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Proactive (Integration natural aspect of risk and enablement decisions)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: 'Basic Business Alignment (Risk viewed per project or ad hoc, limited business enablement focus)'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 66
+  - id: '2'
+    text: Security as Technical Risk (Security program focused on technical view of risk - limited business alignment)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '3'
+    text: Unmanaged security risk (No security owner in leadership team)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'See https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/secure/security-integration for further information'
+isRequired: false
+uid: 282066d4-9c91-4870-b5a9-e323bce925f9
+name: 'See https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/secure/security-integration for further information'

@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Microsoft 365 E5 subscription that has a Microsoft Exchange Online tenant.
+
+  Your company’s security department requests that you add the URL `*.fabrikam.com/*` to the list of URL allow entries for the tenant.
+
+  What should you do from the Microsoft 365 Defender portal?
+questionnaireUid: 74c5a46a-f03a-41dd-936a-5b1b00107873
+questions:
+  - uid: f437b56e-b4e4-4e32-862c-680f984cba11-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a Microsoft 365 E5 subscription that has a Microsoft Exchange Online tenant.
+        isCorrect: false
+      - id: 1
+        text: Your company’s security department requests that you add the URL `*.fabrikam.com/*` to the list of URL allow entries for the tenant.
+        isCorrect: false
+      - id: 2
+        text: What should you do from the Microsoft 365 Defender portal?
+        isCorrect: true
+      - id: 3
+        text: Configure a Spoofed senders Tenant Allow/Block Lists entry.
+        isCorrect: false
+    manualId: MS-203.7.2
+uid: f437b56e-b4e4-4e32-862c-680f984cba11
+title: ''
+manualId: ''

@@ -1,0 +1,138 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Measure and track carbon impact with the Emissions Impact Dashboard.
+    url: /azure/architecture/framework/sustainability/sustainability-operational-procedures#the-emissions-impact-dashboard
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.b35253b7-db2c-4c51-88b8-1dfa42b8f325.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Define an emissions target and track progress with service level objectives (SLO), service level agreements (SLA), or other performance metrics.'
+    url: /azure/architecture/framework/sustainability/sustainability-operational-procedures#define-emissions-target
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.b35253b7-db2c-4c51-88b8-1dfa42b8f325.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+  - title: Identify the metrics and set improvement goals.
+    url: /azure/architecture/framework/sustainability/sustainability-operational-procedures#identify-the-metrics-and-set-improvement-goals
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.b35253b7-db2c-4c51-88b8-1dfa42b8f325.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+  - title: Use cost optimization as a proxy to measure emissions.
+    url: /azure/architecture/framework/sustainability/sustainability-operational-procedures#cost-optimization-as-a-proxy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.b35253b7-db2c-4c51-88b8-1dfa42b8f325.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+  - title: Assess your environment to identify and delete unused and orphaned resources.
+    url: /azure/aks/concepts-sustainable-software-engineering#delete-unused-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.b35253b7-db2c-4c51-88b8-1dfa42b8f325.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+  - title: Define Azure policies such as cost policies to keep your Azure virtual data center continuously optimized.
+    url: /azure/architecture/framework/sustainability/sustainability-operational-procedures#defining-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.b35253b7-db2c-4c51-88b8-1dfa42b8f325.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+  - title: Tag your resources.
+    url: /azure/aks/concepts-sustainable-software-engineering#tag-your-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.b35253b7-db2c-4c51-88b8-1dfa42b8f325.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+  - title: 'Create a sustainability community, define policies and targets, and communicate efforts and goals with the rest of the organization.'
+    url: /azure/architecture/framework/sustainability/sustainability-operational-procedures#create-a-sustainability-community
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.40497f5a-b7fe-4532-bcaa-fae7e6d661c9.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+  - title: Plan for learning to ensure your entire organization starts thinking about green software.
+    url: /azure/architecture/framework/sustainability/sustainability-operational-procedures#plan-for-learning
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.40497f5a-b7fe-4532-bcaa-fae7e6d661c9.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+  - title: Share sustainability best practices across teams in your organization.
+    url: /azure/architecture/framework/sustainability/sustainability-operational-procedures#share-best-practices-across-teams
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.40497f5a-b7fe-4532-bcaa-fae7e6d661c9.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+  - title: Set incentives to improve the environmental sustainability of your workload.
+    url: /azure/architecture/framework/sustainability/sustainability-operational-procedures#plan-for-incentives
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e06c9276-6136-41f9-8679-40837a7b2291.40497f5a-b7fe-4532-bcaa-fae7e6d661c9.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Operational procedures
+    reportingSubCategory: ''
+uid: 306c31d7-28cd-44bb-b4c2-e0065a632419
+name: ''

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: IoT Edge devices environmental requirements are defined
+    description: 'IoT Edge devices specifications typically include environmental parameters such as operating temperature range, humidity, ingress protection rating, relevant and EMI immunity, shock and vibration immunity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: IoT Edge devices operational profiles are defined
+    description: |
+      IoT Edge devices typically operate in multiple modes (such as frequency, low-power, transmission/reception) affecting performance and longevity. IoT Edge devices should be able to run these modes over its target lifetime.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'IoT Edge devices lifetime is assessed, and lifecycle strategy defined accordingly'
+    description: 'IoT Edge devices failure analysis typically includes severity (for example, single points of failures) probability and detectability (see FMEA practice). This analysis would result in acceptable/target Failures In Time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: IoT Edge device applicable regulations and standards are defined
+    description: 'IoT Edge devices are typically subject to applicable regulations and standards. Regulations and standards should be defined, and devices should feature compliance and conformity accordingly. Regulations include certification and marking (such as FCC and CE). Standards include industry/application (such as ATEX) and safety (such as IEC 61508) conformance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'IoT Edge devices should be designed and sourced to function reliably in the expected operation conditions and during expected lifetime. It implies that device should perform according to related specification (including hardware and software) and its failure should be properly detected and managed (mitigation, repair and replacement).'
+isRequired: false
+uid: 624fd34a-276b-4d1e-a68a-22ea656cab1e
+name: 'IoT Edge devices should be designed and sourced to function reliably in the expected operation conditions and during expected lifetime. It implies that device should perform according to related specification (including hardware and software) and its failure should be properly detected and managed (mitigation, repair and replacement).'

@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: C
+    text: Use Azure Active Directory for Azure Databricks.
+    description: 'As Azure Active Directory is the exclusive Identity Provider, it provides a seamless out of the box integration tightly integrated with Azure as an Azure Active Directory member is assigned to an Owner or Contributor role that can deploy Databricks and is automatically added to the Azure Databricks members list upon first login.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: D
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'In cloud-focused architecture, identity provides the basis of a large percentage of security assurances. While legacy IT infrastructure often heavily relied on firewalls and network security solutions at the internet egress points for protection against outside threats, these controls are less effective in cloud architectures with shared services being accessed across cloud provider networks or the internet.'
+isRequired: false
+legacyId: '3'
+uid: bc01b579-3707-4210-ab98-0f784c17df57
+name: 'In cloud-focused architecture, identity provides the basis of a large percentage of security assurances.'

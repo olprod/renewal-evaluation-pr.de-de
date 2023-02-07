@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: The solution uses password-less authentication for device identity.
+    description: 'The solution uses password-less authentication such as standardized X.509 certificates over TLS1.2 for device identity. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: Private keys are isolated in hardware and never shared.
+    description: 'When you use private/public certificate authentication, the private private key is isolated in hardware (for example, a root of trust such as TPM) and never shared.  Known public keys are shared with IoT services and devices. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: 'For less capable devices, you use IoT "guardian" gateways to enforce strong identity patterns.'
+    description: 'For IoT devices that aren''t manufactured with or capable of using strong identity, password-less authentication, or renewable credentials, use IoT gateways to locally interface with these less-capable devices, bridging them to access IoT services with strong identity patterns. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: 'Password-less authentication, often using standardized x509 certificates to prove device''s identity, offers greater protection than "secrets" such as passwords and symmetric tokens shared between both parties. For IoT devices that aren''t manufactured with or capable of using strong identity, password-less authentication, or renewable credentials, use IoT gateways to locally interface with these less-capable devices, bridging them to access IoT services with strong identity patterns. '
+isRequired: false
+uid: 49fe8c0a-47a2-4b72-837a-6bdd18df0ab4
+name: 'Password-less authentication, often using standardized x509 certificates to prove device''s identity, offers greater protection than "secrets" such as passwords and symmetric tokens shared between both parties. For IoT devices that aren''t manufactured with or capable of using strong identity, password-less authentication, or renewable credentials, use IoT gateways to locally interface with these less-capable devices, bridging them to access IoT services with strong identity patterns. '

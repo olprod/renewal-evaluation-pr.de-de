@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 596140fe-a2ed-41f9-9145-e8e965541d6b
+  - d16a545a-dec0-493c-9a66-48b6162862d9
+  - 8afecdfc-f541-4e67-b986-f4436fec068b
+  - cbe6aa84-a768-444d-9b4f-9234fbe162bf
+  - 754553fb-5e52-47d3-b4d5-ea1e0b6e7ddd
+recommendations:
+  - ed40569e-4d1f-45a8-a843-e03988a91c74
+assignedGroupIds: []
+uid: 2b34303d-9357-4a00-a8b8-cefcfe3d2b5b
+name: AzSAP Security

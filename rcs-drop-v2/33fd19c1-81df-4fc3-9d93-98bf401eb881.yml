@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our teams have excellent knowledge when it comes to using notebooks for writing code.
+    description: |
+      This is primary tool for creating solutions in Databricks. The Databricks web UI includes a very mature notebook experience.  
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: 'Our teams have fairly good knowledge when it comes to using notebooks for writing code, but prefer query editor.'
+    description: |
+      Azure Synapse Studio includes a Jupyter-compatible notebook editor
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does the project team prefer to use notebooks for writing code?
+isRequired: true
+uid: 33fd19c1-81df-4fc3-9d93-98bf401eb881
+name: Does the project team prefer to use notebooks for writing code?

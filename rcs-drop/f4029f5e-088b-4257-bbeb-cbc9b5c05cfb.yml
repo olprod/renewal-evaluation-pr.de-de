@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are implementing Microsoft Dynamics 365 Field Service at an insurance company.
+
+  The company requests a new filter to be created for their unique business requirement. You need to modify the schedule tab queries.
+
+  Which three queries can be modified? Each correct answer presents a complete solution.
+questionnaireUid: 45539ed0-f87a-4369-8ad2-d7342352194c
+questions:
+  - uid: f4029f5e-088b-4257-bbeb-cbc9b5c05cfb-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are implementing Microsoft Dynamics 365 Field Service at an insurance company.
+        isCorrect: true
+      - id: 1
+        text: The company requests a new filter to be created for their unique business requirement.
+        isCorrect: false
+      - id: 2
+        text: 'You need to modify the schedule tab queries. '
+        isCorrect: true
+      - id: 3
+        text: Which three queries can be modified?
+        isCorrect: true
+      - id: 4
+        text: Each correct answer presents a complete solution.
+        isCorrect: false
+    manualId: mb-240.3.7
+uid: f4029f5e-088b-4257-bbeb-cbc9b5c05cfb
+title: ''

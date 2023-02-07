@@ -1,0 +1,76 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Get familiar with basic concepts and design patterns germane to DDD.
+    url: 'https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design'
+    condition:
+      allOf: []
+      anyOf:
+        - f56c95de-2130-49f4-a9e6-b34efda362f5.d2dd75b8-e091-46ee-8ff5-526787e4713e.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Mesh
+  - title: Start with the Data domains that are foundation of data mesh.
+    url: 'https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/what-is-data-mesh'
+    condition:
+      allOf: []
+      anyOf:
+        - f56c95de-2130-49f4-a9e6-b34efda362f5.d41c30c1-e323-40b3-8985-0632cace43a3.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Mesh
+  - title: "Adopt the concept of\_data as a product."
+    url: 'https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/what-is-data-product'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Mesh
+  - title: Consider adoption ready-made framework that is a deployable reference architecture that comes with open-source templates and best practices.
+    url: 'https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/self-serve-data-platforms'
+    condition:
+      allOf: []
+      anyOf:
+        - f56c95de-2130-49f4-a9e6-b34efda362f5.284a2041-df52-4bd5-b651-44d4c895dd73.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Mesh
+  - title: Apply critical governance components
+    url: 'https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/data-mesh-checklist'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Mesh
+  - title: 'Implementing Data Mesh on Azure by adhering to all data mesh principles: domain ownership, data as product, self-serve data platform and federated computational governance.'
+    url: 'https://towardsdatascience.com/implementing-data-mesh-on-azure-c01ee94306cd'
+    condition:
+      allOf: []
+      anyOf:
+        - f56c95de-2130-49f4-a9e6-b34efda362f5.1630ec8d-f5bb-4b89-9889-d4608eb78c41.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 1d9dcdfb-5956-47f4-8d52-93195076011a
+name: ''

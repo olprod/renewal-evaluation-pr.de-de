@@ -1,0 +1,92 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You follow best practices for device development and operation.
+    description: 'You understand the device ecosystem and the various roles involved, such as hardware manufacturers, app developers and operators for planning. Evaluate best practices to help you understand more about device management.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: You understand key hardware differentiators and trade-offs for cost-effective hardware specification or configuration.
+    description: 'IoT devices cover a broad range of hardware, from small devices such as 8-bit MCUs, to x86 industrial PC.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Your IoT devices use pre-certified RTOS for safety and security standards.
+    description: Using a certified RTOS that is market proven reduces the development time required.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '3'
+    text: You use IoT Plug and Play to reduce time-to-market and development costs.
+    description: 'IoT Plug and Play allows solution builders to integrate IoT devices with the solution without any manual configuration. At the core, it''s a device model that a device uses to advertise its capabilities to an IoT Plug and Play-enabled application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: You use the Device Provisioning Service to simplify and automate provisioning.
+    description: The Device Provisioning Service helps reduce field work for device changes. It also provides capabilities to automatically provision and re-provision devices to IoT Hubs using a defined rule.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: Your solution can deliver over-the-air updates and remotely manage your devices.
+    description: Implementing a solution to remotely update the device's firmware or software is a key way to lower manual labor costs in the long run.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '6'
+    text: You have existing devices that connect to another LPWAN-enabled cloud.
+    description: When building your enterprise ready solution you will need to consider the costs to integrate LPWAN devices with Azure IoT Hub.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '7'
+    text: You have devices with no cloud or security capabilities.
+    description: 'The guardian module is an add-on hardware that incorporates an Azure Sphere chip and physically attaches to a port on a brownfield device, which provides secure IoT capabilities to a device that has no cloud or security capability.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '8'
+    text: You use a pre-licensed MCU/MPU with cloud-capable RTOS.
+    description: 'If you select a microcontroller (MCU) or microprocessor (MPU) device that''s pre-licensed with Azure RTOS, usage is free of charge.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '9'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Device management includes non cloud-based areas. You need to understand various roles such as hardware vendors, app development and operation, and broad implementation technologies. For cost-optimized device management, you need a good understanding of the device ecosystem.'
+isRequired: false
+uid: 994327a2-62a0-4324-b366-f5b32c4297f9
+name: 'Device management includes non cloud-based areas. You need to understand various roles such as hardware vendors, app development and operation, and broad implementation technologies.'

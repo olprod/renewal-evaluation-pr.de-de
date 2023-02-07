@@ -1,0 +1,20 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: |
+  This focusses on organization's maturity against Data Strategy dimension to create a holistic view of current state and provides a structured framework for developing maturity in each capability. 
+hideEmptyGuidance: false
+questions:
+  - 530e6555-197d-489c-84a1-a8958a7b0eb6
+  - f2d1dadc-307a-44f6-b7bc-5aab70085dd7
+  - c12d5465-9fa4-44a0-a47e-52db1bb6a0a6
+  - dbab1529-afaf-44c3-bb6a-7081b0d7c4a7
+  - 8c9f559a-700d-488d-a4cf-6dd6c9545764
+  - 601eaa5c-7e68-4918-b8f3-0f58143199ad
+  - 267f7302-4884-4f34-a23d-635331952b8c
+  - ee3fd6ac-8356-40d7-836d-72eef10bf20f
+  - e40147f5-7cbc-4b70-8bc6-a7fe826d440f
+recommendations:
+  - c4bcc137-4430-45ee-931d-ca12f6fa423a
+assignedGroupIds: []
+uid: 6de8db25-460d-4482-a166-c7b7146515f5
+name: Maturity Framework - Data Strategy Pillar

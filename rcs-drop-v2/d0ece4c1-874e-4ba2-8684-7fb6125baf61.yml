@@ -1,0 +1,90 @@
+### YamlMime:SelfAssessment
+description: |-
+  Power Platform’s low code approach to solution delivery has enabled thousands of organizations around the world to use technology to transform their business. It does this by enabling more people than ever before to create applications, integrate into their larger enterprise and to leverage mobile platforms and artificial technology to transform organizations with new ways of working.
+
+  This transformation is more critical now than ever. Technology is disrupting every industry but is also the key to those that are thriving. The events of the past year have shown that traditional IT risk planning approaches are no match for the benefits of the agility provided by digital transformation. Hence, it’s important to start the digital transformation journey incrementally, but with urgency.
+
+  This assessment will help identify the maturity of your Citizen Developer Journey and to prioritize actions for the areas of improvement which we can use to support your adoption program. 
+duration: 10 minutes
+questionnaireReferences:
+  - questionnaireUid: 14ce7a12-b918-4987-abc4-be9ea23ffdbf
+    isRequired: false
+  - questionnaireUid: 6eb53b73-7428-4719-af46-78840fb90c2b
+    isRequired: false
+  - questionnaireUid: 092d7621-d8cb-4355-8dbb-299a10aa4acd
+    isRequired: false
+  - questionnaireUid: 9d3bc256-6819-4447-9641-d2d0ebd69ab2
+    isRequired: false
+guidance:
+  title: 10 minutes
+  description: 'Power Platform Adoption We have identified consistent themes, patterns, practices, and behaviors that underpin the progress of successful organizations as they implement comprehensive digital transformation with Power Platform.'
+  providers: []
+  scoring:
+    title: 'The result of this work is the Power Platform adoption maturity model, which has broken down this process into four stages.'
+    description: Understanding your power platform adoption journey
+    calculationType: Sum
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: This Microsoft Power Platform guidance provides information that's designed to help you create and implement the business and technology strategies necessary for your organization to succeed with Microsoft Power Platform.
+        links:
+          - title: Establishing a Microsoft Power Platform Center of Excellence (CoE) means investing in and nurturing organic growth while maintaining governance and control.
+            url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/coe'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - 14ce7a12-b918-4987-abc4-be9ea23ffdbf<16
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Power Platform Center of Excellence
+      - iconUrl: ''
+        description: 'Establish a Microsoft Power Platform Center of Excellence '
+        links:
+          - title: 'Environments are containers that administrators can use to manage apps, flows, connections, and other assets, along with permissions to allow organization members to use the resources.'
+            url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/environment-strategy'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - 9d3bc256-6819-4447-9641-d2d0ebd69ab2<16
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Environment Strategy
+      - iconUrl: ''
+        description: Establish an Environment Strategy
+        links:
+          - title: 'When your organization adopts Microsoft Power Platform, you’ll want to consider how you''ll nurture your community of makers to ensure they''re using the tools you''ve invested in to further the goals of your organization.'
+            url: Nurture best practices
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - 092d7621-d8cb-4355-8dbb-299a10aa4acd<16
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Nurture Best Practices
+  recommendationsTitle: ''
+owner:
+  firstName: Nathan
+  lastName: Small
+  email: nasmall@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - power-platform
+uid: d0ece4c1-874e-4ba2-8684-7fb6125baf61
+name: Nurture and Educate your Community

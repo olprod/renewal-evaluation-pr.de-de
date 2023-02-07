@@ -1,0 +1,450 @@
+### YamlMime:SelfAssessment
+description: 'Examine your workload through the lenses of reliability, cost management, operational excellence, security and performance efficiency.'
+duration: 60 minutes
+questionnaireReferences:
+  - questionnaireUid: waf-config-golive
+    isRequired: true
+  - questionnaireUid: 5c915986-fbdf-4f6f-b28c-c36e5af606f3
+    isRequired: true
+  - questionnaireUid: Reliability
+    isRequired: true
+  - questionnaireUid: Security
+    isRequired: true
+  - questionnaireUid: Cost
+    isRequired: true
+  - questionnaireUid: Operational
+    isRequired: true
+  - questionnaireUid: Performance
+    isRequired: true
+  - questionnaireUid: Reliability-ai-aml
+    isRequired: true
+  - questionnaireUid: Security-ai-aml
+    isRequired: true
+  - questionnaireUid: Cost-ai-aml
+    isRequired: true
+  - questionnaireUid: Operational-ai-aml
+    isRequired: true
+  - questionnaireUid: Performance-ai-aml
+    isRequired: true
+  - questionnaireUid: e560ea0c-7d8f-4f6f-8262-99b2ba856ac7
+    isRequired: true
+  - questionnaireUid: 69ae7d8b-dd19-43a5-8979-29a2eb5e256f
+    isRequired: true
+  - questionnaireUid: e6229c67-30e4-4897-b0d0-a8078d358829
+    isRequired: true
+  - questionnaireUid: f5975b7c-34ec-4413-a64a-0cd826b66381
+    isRequired: true
+  - questionnaireUid: e1775e9f-3ef7-4445-908a-fbc1c8574caa
+    isRequired: true
+  - questionnaireUid: d5cd03f1-74ee-4891-98ed-4d109c483ac0
+    isRequired: true
+  - questionnaireUid: 347e13a3-aa0a-4d87-96bb-4d347de40094
+    isRequired: true
+  - questionnaireUid: deb7e843-20f1-4950-b3de-f2e12529d349
+    isRequired: true
+  - questionnaireUid: 97aff36c-1437-42cf-a25e-90246ead4129
+    isRequired: true
+  - questionnaireUid: 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34
+    isRequired: true
+  - questionnaireUid: b6eb2f0b-5a9f-4788-aefb-480eee2a7e20
+    isRequired: true
+  - questionnaireUid: 2b34303d-9357-4a00-a8b8-cefcfe3d2b5b
+    isRequired: true
+  - questionnaireUid: c0111878-f41a-4628-bbb0-ea7d6a51ad63
+    isRequired: true
+  - questionnaireUid: 3a9b223c-7ae9-4ef4-a658-963cbd44ca7c
+    isRequired: true
+  - questionnaireUid: 30460222-547b-40a8-b8b0-4558bf61a9e4
+    isRequired: true
+  - questionnaireUid: c63c57c4-da58-434f-b7c2-a589541dbe70
+    isRequired: true
+  - questionnaireUid: ea7ee22c-047a-430e-90c5-833d3bb9a154
+    isRequired: true
+  - questionnaireUid: a970f398-30e6-46d4-8a79-710ad758e31e
+    isRequired: true
+  - questionnaireUid: 668e03b9-89a9-4052-85a3-ca87282ab3c5
+    isRequired: true
+  - questionnaireUid: 8008987d-2e97-475b-8640-4ca6bbb63237
+    isRequired: true
+  - questionnaireUid: e747543e-2cf2-459b-9eef-b745e5da1b1d
+    isRequired: true
+  - questionnaireUid: b309ebca-3047-4a4a-93f0-ff528fcef3de
+    isRequired: true
+guidance:
+  title: 60 minutes
+  description: Your results
+  providers:
+    - Type: MicrosoftAdvisor
+      AdvisorCategories:
+        - Id: HighAvailability
+          Severities:
+            - High
+            - Medium
+          AssessmentCategoryId: Reliability
+        - Id: Cost
+          Severities:
+            - High
+            - Medium
+          AssessmentCategoryId: Cost
+        - Id: OperationalExcellence
+          Severities:
+            - High
+            - Medium
+          AssessmentCategoryId: Operational
+        - Id: Performance
+          Severities:
+            - High
+            - Medium
+          AssessmentCategoryId: Performance
+        - Id: Security
+          Severities:
+            - High
+            - Medium
+          AssessmentCategoryId: Security
+  scoring:
+    title: View how your workload aligns to best practices and recommendations to help you improve.
+    description: Recommendations for your workload
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: Actionable items to consider implementing to improve your workload across the five pillars of the Microsoft Azure Well-Architected Framework
+    steps:
+      - iconUrl: ''
+        description: 'Next Steps Ensure you have identified and classified the applications in your portfolio that are critical to business functions. Enterprise organizations typically have a large application portfolio, so prioritizing where to invest time and effort into manual and resource-intensive tasks like threat modeling can increase the effectiveness of your security program.'
+        links:
+          - title: Identify applications that have a high potential impact and/or a high potential exposure to risk.
+            url: /azure/architecture/framework/security/design-apps-services
+            condition:
+              noneOf:
+                - Security.42794116-57c8-40d1-a219-88c75b69682d.G
+            context: Review identify and classify business critical applications
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: 'Review, identify, and classify business critical applications'
+      - iconUrl: ''
+        description: 'Identified and classified business critical applications. Derive these values by conducting a risk assessment, and make sure you understand the cost and risk of downtime and data loss.'
+        links:
+          - title: These are nonfunctional requirements of a system and should be dictated by business requirements.
+            url: /azure/architecture/framework/Resiliency/business-metrics#recovery-metrics
+            condition:
+              noneOf:
+                - Reliability.096bf416-365e-466e-b01c-a9eb76b2a569.A
+                - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.C
+            context: Define RPO and RTO for your workload
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Define RPO and RTO for your workload
+      - iconUrl: ''
+        description: 'Identified how long the workload can be down for, and how much data it''s acceptable to lose in a disaster. Azure Resource Manager (ARM) enforces limits and quotas on how many resources of each type you can provision per Azure Subscription, and even per Azure Region. Some limits are a hard maximum, while others are a soft limit that can be increases upon request through a support case at no charge.'
+        links:
+          - title: 'When working with Virtual Machines, App Service, Storage Accounts, Databases, and other resources in Azure you can easily hit up against these limits, so it’s important to know they exist and how to work around them.'
+            url: /azure/architecture/framework/devops/release-engineering-app-dev?branch=main
+            condition:
+              noneOf:
+                - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.D
+            context: Review limits
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review limits
+      - iconUrl: ''
+        description: 'Be aware of your resource limits in Azure. Always authenticate with identity services rather than cryptographic keys when available. Managing keys securely with application code is difficult and regularly leads to mistakes like accidentally publishing sensitive access keys to code repositories like GitHub. Identity systems offer secure and usable experience for access control with built-in sophisticated mechanisms for key rotation, monitoring for anomalies, and more.'
+        links:
+          - title: Most organizations also have skilled teams dedicated to managing identity systems and few (if any) people actively managing key security systems.
+            url: /azure/architecture/framework/security/design-identity-authentication#use-identity-based-authentication
+            condition:
+              noneOf:
+                - Security.9bc913c9-063c-4968-b738-91d49b615f68.D
+            context: Review prefer identity authentication over keys
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review prefer identity authentication over keys
+      - iconUrl: ''
+        description: 'Authenticate via identity services where you can. Horizontal scaling allows you to dynamically add and remove resources based on demand. Also called scaling out and in, means adding or removing instances of a resource. The application continues running without interruption as new resources are provisioned. When the provisioning process is complete, the solution is deployed on these additional resources.'
+        links:
+          - title: 'If demand drops, the additional resources can be shut down cleanly and deallocated.'
+            url: /azure/architecture/framework/Scalability/performance#horizontal-scaling
+            condition:
+              noneOf:
+                - Performance.cb69cbc9-8bed-4923-bce5-cd01e289f3cd.B
+            context: Review horizontal scaling
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review horizontal scaling
+      - iconUrl: ''
+        description: Use horizontal scaling when possible.
+        links:
+          - title: Organizing cloud-based assets in ways that aid operational management and support accounting requirements is a common challenge that faces large cloud adoption efforts.
+            url: /azure/architecture/framework/cost/design-governance#enforce-resource-tagging
+            condition:
+              noneOf:
+                - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.K
+            context: Implement resource tagging
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Implement resource tagging
+      - iconUrl: ''
+        description: Tag your resources and track that back to costs. Use automation runbooks with hybrid runbook worker to unify management by orchestrating across on- premises environments.
+        links:
+          - title: 'Use webhooks to provide a way to fulfill requests and ensure continuous delivery and operations by triggering automation from ITSM, DevOps, and monitoring systems.'
+            url: /azure/architecture/framework/DevOps/configuration#automation-of-manual-tasks
+            condition:
+              noneOf:
+                - Operational.9f2921b6-df60-4c55-bde2-f5d47d1ba9dd.A
+            context: Review automation of manual tasks
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review automation of manual tasks
+      - iconUrl: ''
+        description: 'Automate manual tasks. Use an industry standard benchmark to evaluate your organizations current security posture. Benchmarking allows you to improve your security program by learning from external organizations. Benchmarking lets you know how your current security state compares to that of other organizations, providing both external validation for successful elements of your current system as well as identifying gaps that serve as opportunities to enrich your team’s overall security strategy.'
+        links:
+          - title: 'Even if your security program isn’t tied to a specific benchmark or regulatory standard, you will benefit from understanding the documented ideal states by those outside and inside of your industry.'
+            url: /azure/architecture/framework/Security/governance#evaluate-security-using-benchmarks
+            condition:
+              noneOf:
+                - Security.42794116-57c8-40d1-a219-88c75b69682d.F
+            context: Review evaluate security using benchmarks
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review evaluate security using benchmarks
+      - iconUrl: ''
+        description: Evaluate your security posture using standard benchmarks.
+        links:
+          - title: You should load test your application at the expected peak load to ensure there are no challenges around performance or stability when operating at full capacity.
+            url: /azure/architecture/framework/Scalability/load-testing#
+            condition:
+              noneOf:
+                - Performance.29141cef-7d97-468d-a8d8-868a9f7c7ce8.F
+            context: Implement load testing for your workload
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Implement load testing for your workload
+      - iconUrl: ''
+        description: 'Run tests at peak load. For certain application, capacity requirements may swing over time.'
+        links:
+          - title: Auto-scaling policies allow for less error-prone operations and cost savings through robust automation.
+            url: /azure/architecture/framework/cost/optimize-autoscale
+            condition:
+              noneOf:
+                - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.D
+            context: Review Autoscaling policies for your workload
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review Autoscaling policies for your workload
+      - iconUrl: ''
+        description: Configure auto-scale policies for your workload (both in and out). Use Penetration Testing to validate security defenses. Real world validation of security defenses is critical to validate your defense strategy and implementation. This can be accomplished by a penetration test (simulates a one time attack) or a red ream program (simulates a persistent threat actor targeting your environment).
+        links:
+          - title: 'Standard tests you can perform include Tests on your endpoints to uncover the Open Web Application Security Project (OWASP) top 10 vulnerabilities, Fuzz testing of your endpoints, Port scanning of your endpoints.'
+            url: /azure/architecture/framework/security/monitor-test#penetration-testing-pentesting
+            condition:
+              noneOf:
+                - Security.a4da6cb7-f723-4033-b34d-1d52168091bc.B
+            context: Review penetration testing
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review penetration testing
+      - iconUrl: ''
+        description: 'Perform penetration testing. To activate resources on demand, deploy solutions rapidly, minimize human error, and produce consistent and repeatable results, be sure to automate deployments and updates. As a best practice, create a repository of categorized automation scripts for quick access, documented with explanations of parameters and examples of script use.'
+        links:
+          - title: 'Keep this documentation in sync with your Azure deployments, and designate a primary person to manage the repository.'
+            url: /azure/architecture/framework/DevOps/deployment#automation
+            condition:
+              noneOf:
+                - Operational.ca65abac-0bec-4bf4-96aa-480e1091db55.B
+            context: Review automation
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review automation
+      - iconUrl: ''
+        description: Use automation to deploy and update your workload. Work with your business and marketing teams to prepare for large scale events.
+        links:
+          - title: 'Knowing if there will be sudden spikes in traffic (Superbowl, Black Friday, or Marketing pushes) can allow you to prepare your infrastructure ahead of time.'
+            url: /azure/architecture/framework/Scalability/capacity#large-scale-event-management
+            condition:
+              noneOf:
+                - Performance.880efd44-db19-4c58-a842-283777f7a989.G
+            context: Build a large scale event management process
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Build a large scale event management process
+      - iconUrl: ''
+        description: Have a strategy in place to manage events that may cause a spike in load. Network-based data loss prevention (DLP) is decreasingly effective at identifying both inadvertent and deliberate data loss.
+        links:
+          - title: The reason for this is that most modern protocols and attackers use network-level encryption for inbound and outbound communications.
+            url: /azure/security/compass/network-security-containment#discontinue-legacy-network-security-technology
+            condition:
+              noneOf:
+                - Security.6747ced2-f1a5-4527-84c5-c19ffc405236.F
+            context: Review discontinue legacy network security technology
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review discontinue legacy network security technology
+      - iconUrl: ''
+        description: 'Deprecate legacy network security controls. The health and performance of an application can degrade over time, and degradation might not be noticeable until the application fails.'
+        links:
+          - title: 'Implement probes or check functions, and run them regularly from outside the application.'
+            url: /azure/architecture/framework/Resiliency/monitoring#creating-good-health-probes
+            condition:
+              noneOf:
+                - Reliability.2c1206aa-ec65-4691-90a5-da54159e2b1b.I
+            context: Review creating good health probes
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review creating good health probes
+      - iconUrl: ''
+        description: 'Health probes are implemented to validate application functionality. Technical debt includes anything the team must do to deploy production quality code and keep it running in production. Examples are bugs, performance issues, operational issues, not having unit tests (necessary for refactoring code), accessibility, and others. SonarQube is a specific example of a tool that provides a set of static analyzers that can be used to identify areas of improvement in your code.'
+        links:
+          - title: It allows you to analyze the technical debt in your project and keep track of it in the future.
+            url: /azure/architecture/framework/DevOps/development#technical-debt
+            condition:
+              noneOf:
+                - Operational.039a8427-5147-4a19-b52b-7b724e6ef746.C
+            context: Review technical debt
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review technical debt
+      - iconUrl: ''
+        description: 'Manage and actively resolve the technical debt of the workload. Data normalization helps to avoid duplication and inconsistency. However, maintaining multiple indexes, checking for referential integrity, performing multiple accesses to small chunks of data, and joining tables to reassemble the data imposes an overhead that can affect performance. Consider if some additional storage volume and duplication is acceptable in order to reduce the load on the data store.'
+        links:
+          - title: Also consider if the application itself (which is typically easier to scale) can be relied on to take over tasks such as managing referential integrity in order to reduce the load on the data store.
+            url: /azure/cosmos-db/consistency-levels
+            condition:
+              noneOf:
+                - Performance.e6f9f4aa-cd2d-4d2a-a2c0-153b9396377f.D
+            context: Review data consistency
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review data consistency
+      - iconUrl: ''
+        description: 'Normalize the data appropriately. Cloud service providers make multiple methods of access control over storage resources available. Examples include shared keys, shared signatures, anonymous access, and identity provider-based methods.'
+        links:
+          - title: Identify provider methods of authentication and authorization are the least liable to compromise and enable more fine-grained role-based access controls over storage resources.
+            url: /azure/architecture/framework/security/design-storage-encryption#azure-encryption-features
+            condition:
+              noneOf:
+                - Security.6e1ae65a-eef6-4a1c-9de9-ac5f5a6a9c8c.F
+            context: Review use identity based storage access controls
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review use identity based storage access controls
+      - iconUrl: ''
+        description: Use identity based storage access controls.
+        links:
+          - title: Use Azure Service Health to identify issues with services affecting application and plan for scheduled maintenance.
+            url: /azure/architecture/framework/DevOps/monitoring#underlying-services
+            condition:
+              noneOf:
+                - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.F
+            context: Review guidance on how to monitor underlying services
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review guidance on how to monitor underlying services
+      - iconUrl: ''
+        description: 'Monitor underlying services. Synchronize your cloud identity with your existing identity systems. Consistency of identities across cloud and on-premises will reduce human errors and resulting security risk. Teams managing resources in both environment need a consistent authoritative source to achieve security assurances. For Azure, synchronize Azure AD with your existing authoritative on premises Active Directory using Azure AD connect. This is also required for an Office 365 migration, so it is often already done before Azure migration and development projects begin.'
+        links:
+          - title: Note that administrator accounts should be excepted from synchronization.
+            url: /azure/architecture/framework/security/design-identity-authentication#centralize-all-identity-systems
+            condition:
+              noneOf:
+                - Security.9bc913c9-063c-4968-b738-91d49b615f68.H
+            context: Review synchronize identity systems
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review synchronize identity systems
+      - iconUrl: ''
+        description: 'Synchronize your identity systems. If the application should be resilient to infrastructure failures, introducing faults in the underlying infrastructure and observing how the application behaves is fundamental for increasing the trust in your redundancy mechanisms.'
+        links:
+          - title: 'Shutting down ungracefully infrastructure components, degrading the performance of certain elements such as network equipment or introducing faults purposely in the environment are ways of verifying that the application is going to react as expected when these situations occur in real life.'
+            url: /azure/architecture/framework/DevOps/testing#dr-and-fault-injection
+            condition:
+              noneOf:
+                - Operational.5f9db10b-393f-4e8e-b1d1-4821c06b11da.B
+            context: Review dr and fault injection
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Review dr and fault injection
+      - iconUrl: ''
+        description: 'Perform disaster recovery and fault injection. You want to build great things on Azure, but you''re not sure exactly what that means.'
+        links:
+          - title: 'Using key principles throughout your architecture regardless of technology choice, can help you design, build, and continuously improve your architecture.'
+            url: 'https://aka.ms/architecture/learn'
+            context: Launch the Microsoft Azure Well-Architected learning path
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Launch the Microsoft Azure Well-Architected learning path
+      - iconUrl: ''
+        description: Review the 'Microsoft Azure Well-Architected' Learn module
+        links:
+          - title: 'Learn how to incorporate security into your architecture design, and discover the tools that Azure provides to help you create a secure environment through all the layers of your architecture.'
+            url: /learn/modules/design-for-security-in-azure/
+            context: Launch the design for security
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Launch the design for security
+  recommendationsTitle: Opportunities for improvement
+providers:
+  - MicrosoftAdvisor
+owner:
+  firstName: Dom
+  lastName: Allen
+  email: Dominic.Allen@microsoft.com
+isHiddenAssessment: false
+assignedGroupIds:
+  - b6a324fd-d21d-4f72-ae18-f475f53334f0
+metadataTags:
+  - azure
+relatedTags:
+  - b0f9a229-5f82-4f19-ae61-b7be31131f4e
+  - 23513bdb-e8a2-4f0b-8b6b-191ee1f52d34
+  - a24b1079-29a4-4d22-b678-376e84884f76
+  - 56ec577c-acb6-4c7b-ad13-e224b0846153
+  - 21765fea-dfe6-4bc4-8bb7-db9df5a6f6c0
+  - azure-architecture-review-data
+  - e50f7040-f235-4360-9d1d-cf753e12fed1
+uid: azure-architecture-review
+name: Review the 'how to incorporate security into your architecture design' Learn module

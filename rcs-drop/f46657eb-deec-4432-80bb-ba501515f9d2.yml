@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: "You make a Language service\_API call.\n\nYou call the following URL.\n\n`https://ai102cs.cognitiveservices.azure.com/text/analytics/v3.1/languages?showStats=true`\n\nYou send the following request body.\n\n```\n{\n  \"documents\": [\n    {\n      \"id\": \"1\",\n      \"countryHint\":\"US\",\n      \"text\": \"We analyzed text to see what would happen\"\n    },\n    {\n      \"id\": \"2\",\n      \"countryHint\":\"UK\",\n      \"text\": \"We analysed text to see what would happen\"\n    },\n  ]\n}\n```\n\nYou receive the following response.\n\n```\n{\n  \"statistics\": {\n    \"documentsCount\": 2,\n    \"validDocumentsCount\": 1,\n    \"erroneousDocumentsCount\": 1,\n    \"transactionsCount\": 1\n  },\n  \"documents\": [{\n    \"id\": \"1\",\n    \"detectedLanguages\": [{\n      \"name\": \"English\",\n      \"iso6391Name\": \"en\",\n      \"score\": 1.0\n    }],\n    \"statistics\": {\n      \"charactersCount\": 41,\n      \"transactionsCount\": 1\n    }\n  }],\n  \"errors\": [{\n    \"id\": \"2\",\n    \"message\": \"Country hint is not valid. Please specify an ISO 3166-1 alpha-2 two letter country code.\"\n  }]\n}\n```\n\nWhich three of the following statements correctly describe the code?"
+questionnaireUid: 1c5261f5-b288-402a-8421-8bda8c9a1473
+questions:
+  - uid: f46657eb-deec-4432-80bb-ba501515f9d2-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: "You make a Language service\_API call."
+        isCorrect: true
+      - id: 1
+        text: You call the following URL.
+        isCorrect: true
+      - id: 2
+        text: You send the following request body.
+        isCorrect: true
+      - id: 3
+        text: You receive the following response.
+        isCorrect: false
+      - id: 4
+        text: Which three of the following statements correctly describe the code?
+        isCorrect: false
+uid: f46657eb-deec-4432-80bb-ba501515f9d2
+title: ''

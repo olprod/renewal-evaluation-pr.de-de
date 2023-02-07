@@ -1,0 +1,82 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Create pattern/s and consider using either data flows, SQL serverless queries, or Spark notebooks to validate, transform, and move the datasets into your curated zone in your data lake.'
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end?tabs=portal'
+    condition:
+      allOf: []
+      anyOf:
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.c8b9d86b-985e-4bc0-9dca-a42daff86f2a.0
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.c8b9d86b-985e-4bc0-9dca-a42daff86f2a.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: Consider the use of mapping data flows provide an entirely visual experience with no coding required.
+    url: 'https://docs.microsoft.com/en-us/azure/data-factory/concepts-data-flow-overview'
+    condition:
+      allOf: []
+      anyOf:
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.a3b934c3-b7b2-46f9-ba6a-a324253a00bb.0
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.a3b934c3-b7b2-46f9-ba6a-a324253a00bb.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: Transform data with Azure Synapse serverless SQL pools using CREATE EXTERNAL TABLE AS SELECT statement. Operationalize data transformation with Azure Synapse serverless SQL pools using stored procedures.  Use Azure Synapse serverless SQL pool stored procedures from an Azure Synapse Pipeline.
+    url: 'https://docs.microsoft.com/en-us/learn/modules/use-azure-synapse-serverless-sql-pools-for-transforming-data-lake/1-introduction'
+    condition:
+      allOf: []
+      anyOf:
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.d9834627-7417-4818-ad77-b3f567fed219.0
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.d9834627-7417-4818-ad77-b3f567fed219.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: 'Consider using Spark Notebooks in Azure Synapse Analytics to ingest, process, and analyze data from a data lake.'
+    url: 'https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics/1-introduction'
+    condition:
+      allOf: []
+      anyOf:
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.099f5376-3753-4c06-83eb-1e12f16ac1eb.0
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.099f5376-3753-4c06-83eb-1e12f16ac1eb.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: Use Azure Cognitive Services which is cloud-based artificial intelligence (AI) services that help you build cognitive intelligence into your applications.
+    url: 'https://docs.microsoft.com/en-us/azure/cognitive-services/what-are-cognitive-services'
+    condition:
+      allOf: []
+      anyOf:
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.f709ef7e-2142-42db-8db3-2f553ff10e45.0
+        - a3b544c8-ef90-4285-8ef3-e8026459fafc.f709ef7e-2142-42db-8db3-2f553ff10e45.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: Leverage enterprise grade service for end-to-end machine learning lifecycle.
+    url: 'https://azure.microsoft.com/en-au/services/machine-learning/#capabilities'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+uid: 35083734-699c-4cb8-9854-0afbe89cc188
+name: ''

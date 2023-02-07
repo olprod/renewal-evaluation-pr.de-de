@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Data and Applications (SC-100 Prerequisites)
+hideEmptyGuidance: false
+questions:
+  - 0ef6ba56-6847-4c8e-9b1f-5d6d8d315b8c
+  - d90750bd-1d73-4b0e-93c1-6bc8bd44a82b
+  - abad2854-63d6-4d20-83c0-e1e9613b3e59
+recommendations:
+  - 59fe2fca-9526-45ca-b5bc-5f86d56015d8
+assignedGroupIds: []
+uid: d4145037-0d20-4161-ad78-9132cf16c3d3
+name: Data and Applications (SC-100 Prerequisites)

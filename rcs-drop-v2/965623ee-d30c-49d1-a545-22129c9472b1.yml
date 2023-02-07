@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You understand the implications for your cost model of choosing beween PaaS (IoT Hub) and aPaaS (IoT Central).
+    description: 'Platform selection between IoT Hub and IoT Central impacts to costs for Azure cloud and development efforts. It depends on a project timeline, available resources for development, and operation plan.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You use the correct pricing models when you compare an IoT Hub solution with an IoT Central solution.
+    description: 'Azure IoT Hub and Azure IoT Central have different pricing models: IoT Hub has SKU per unit, while IoT Central has plans with prices per device per month.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: You understand how the IoT services quotas and limits apply to your solution.
+    description: Every service has its own set of quotas and throttling limits. Understanding these limits is a key part of cost optimization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: You use the Azure IoT reference architecture to understand cost drivers and alternatives.
+    description: The reference architecture is a key resource to review when building Azure based IoT solutions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: You use the Azure pricing calculator for cost estimation
+    description: Azure provides a pricing calculator that enables you to select products and save an estimate for comparison. It lets you view monthly costs per scenario.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'A cost model is a framework for extracting overall costs for building IoT solutions. It includes direct and indirect costs from sources such as workloads, resources, devices, and time.'
+isRequired: false
+uid: 965623ee-d30c-49d1-a545-22129c9472b1
+name: 'A cost model is a framework for extracting overall costs for building IoT solutions. It includes direct and indirect costs from sources such as workloads, resources, devices, and time.'

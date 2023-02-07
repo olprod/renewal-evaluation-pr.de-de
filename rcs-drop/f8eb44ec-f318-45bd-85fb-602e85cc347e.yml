@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Microsoft 365 E5 subscription that contains a SharePoint site named Site1. Site1 has a retention policy that retains all files for one year.
+
+  A user named User1 creates a file named File1.docx on Site1. The owner of Site1 deletes File1.docx 65 days later.
+
+  Two days later, User1 requests to restore the file.
+
+  From what location should you restore File1.docx?
+questionnaireUid: 43938d04-5c5b-45df-b97d-81de437fce87
+questions:
+  - uid: f8eb44ec-f318-45bd-85fb-602e85cc347e-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a Microsoft 365 E5 subscription that contains a SharePoint site named Site1.
+        isCorrect: true
+      - id: 1
+        text: Site1 has a retention policy that retains all files for one year.
+        isCorrect: false
+      - id: 2
+        text: A user named User1 creates a file named File1.docx on Site1.
+        isCorrect: false
+      - id: 3
+        text: The owner of Site1 deletes File1.docx 65 days later.
+        isCorrect: false
+    manualId: SC400_8.6.1
+uid: f8eb44ec-f318-45bd-85fb-602e85cc347e
+title: ''
+manualId: ''

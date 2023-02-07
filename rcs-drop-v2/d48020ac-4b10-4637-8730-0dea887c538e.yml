@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Review key concepts for designing tables in Synapse Analytics dedicated SQL pool.
+    description: 'A star schema organizes data into fact and dimension tables. Some tables are used for integration or staging data before it moves to a fact or dimension table. As you design a table, decide whether the table data belongs in a fact, dimension, or integration table. This decision informs the appropriate table structure and distribution.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Identify tables in Synapse Analytics dedicated SQL pool with higher skew.
+    description: Data skew can cause additional data movement or resource bottlenecks when running your workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Choose the appropriate data abstraction for Azure Synapse Analytics Apache Spark pool.
+    description: Choose between DataFrames and Dataset's consider the relative merits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Use optimal data format for Azure Synapse Analytics Apache Spark pool.
+    description: 'Spark supports many formats, such as csv, json, xml, parquet, orc, and avro. Spark can be extended to support many more formats with external data sources.The best format for performance is parquet with snappy compression'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: scaling-data-synapse
+uid: d48020ac-4b10-4637-8730-0dea887c538e
+name: How are you managing your data to handle scale?

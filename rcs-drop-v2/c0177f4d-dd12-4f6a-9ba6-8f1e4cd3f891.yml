@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You evaluate the cost effectiveness of using highly secured modules.
+    description: |
+      The patterns of security threats evolve constantly. Azure Sphere is a hardware module that offers monthly security patches for 10 years with a onetime cost. It helps protect your devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You use secure device hardware to store secrets and certificates.
+    description: 'Higher investment in secure hardware needs to be evaluated to lower the risk of intrusion or stealing of certificate or key information, thus decreasing the overall risks of the application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'You evaluate the costs and trade-offs of using symmetric keys, X.509 certificates, or TPMs in your solution.'
+    description: 'Understand your security requirements and make a deliberate choice between the different authentication options, which impact the overall cost of your application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: You use device micro-agents for security.
+    description: 'Security for operational technology network is critical and the protection strategy is different from traditional IT security controls. Microsoft Defender for IoT is a unified security solution for identifying IoT/OT devices, vulnerabilities, and threats.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: You use intelligent OT security.
+    description: 'Defender for IoT''s agentless monitoring capabilities protect existing enterprise IoT/OT environments, providing automatic asset discovery, vulnerability management, and threat detection. Today, Defender for IoT''s agentless monitoring capabilities are available for on-premises deployment, with the option to connect to the cloud to send threat information to Microsoft Sentinel.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'This is the cost of protecting your IoT solution. As IoT provides end-to-end solutions, security costs are incurred from silicon to cloud. For example, MPU, devices, telecommunication, cloud, operation technology area. There are many options to implement security requirements and affect costs.'
+isRequired: false
+uid: c0177f4d-dd12-4f6a-9ba6-8f1e4cd3f891
+name: 'This is the cost of protecting your IoT solution. As IoT provides end-to-end solutions, security costs are incurred from silicon to cloud.'

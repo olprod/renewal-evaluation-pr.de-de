@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We are familiar with Spark SQL. '
+    description: 'Azure Databricks supports Spark SQL, which offers fundamental statements like SELECT, UPDATE, and MERGE.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: We are familiar with T-SQL.
+    description: |
+      Azure Synapse uses T-SQL, which offers a fuller range of programming options, like stored procedures.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf:
+    - ..
+  noneOf: []
+  scoreOf: []
+stem: "How heavily does the project team rely on the SQL language for querying and manipulating data?\_ With which dialects are they most familiar?"
+isRequired: true
+uid: 8c4dead5-3f4d-43b0-91d1-b0f5ab38e9b2
+name: How heavily does the project team rely on the SQL language for querying and manipulating data?

@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Accelerate application modernization with Azure Migrate: App Containerization'
+    url: 'https://azure.microsoft.com/en-us/blog/accelerate-application-modernization-with-azure-migrate-app-containerization/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 06ffe35b-4f17-44f3-aeee-1aa0de96ccdf
+name: ''

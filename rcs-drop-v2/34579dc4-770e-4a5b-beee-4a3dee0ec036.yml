@@ -1,0 +1,54 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: I don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: 51665edf-479a-4241-9183-e7762f823763
+    name: Do you have a GitHub account?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: I don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: 0ca1af57-440b-4c8a-b5e9-39e244b497f7
+    name: Did you link your GitHub and Microsoft accounts and join MicrosoftDocs GitHub org to access Docs content repositories?
+stem: ''
+isRequired: true
+legacyId: '1'
+uid: 34579dc4-770e-4a5b-beee-4a3dee0ec036
+name: Answer all the questions regarding your GitHub account

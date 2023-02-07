@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Very complex
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '1'
+    text: Somewhat complex
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '2'
+    text: Not complex at all
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+uid: e21faeba-038f-4174-8d82-cc8a6793f0d6
+name: How would you describe the business process complexity associated with your applications?

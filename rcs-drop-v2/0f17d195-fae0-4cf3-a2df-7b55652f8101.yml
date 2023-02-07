@@ -1,0 +1,159 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Azure DevOps for Azure Databricks
+    url: /azure/databricks/dev-tools/ci-cd/ci-cd-azure-devops
+    condition:
+      noneOf:
+        - Operational-ai-adb.59da364a-c6d8-49e4-95a2-2f2116c125dd.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure clusters in Azure Databricks
+    url: /azure/databricks/clusters/configure
+    condition:
+      noneOf:
+        - Operational-ai-adb.3d023c8b-a326-4026-be3c-cbaf362ef910.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Azure Databricks for specific workloads
+    url: /azure/databricks/runtime/
+    condition:
+      noneOf:
+        - Operational-ai-adb.3d023c8b-a326-4026-be3c-cbaf362ef910.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Examine databricks workspace limits
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#databricks-workspace-limits'
+    condition:
+      noneOf:
+        - Operational-ai-adb.3d023c8b-a326-4026-be3c-cbaf362ef910.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use python for databricks
+    url: /azure/databricks/languages/python
+    condition:
+      noneOf:
+        - Operational-ai-adb.5154fc2d-f14d-43a6-b94a-4a738675ac39.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use spark for databricks
+    url: /azure/databricks/spark/latest/sparkr/
+    condition:
+      noneOf:
+        - Operational-ai-adb.5154fc2d-f14d-43a6-b94a-4a738675ac39.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use scala for databricks
+    url: /azure/databricks/languages/scala
+    condition:
+      noneOf:
+        - Operational-ai-adb.5154fc2d-f14d-43a6-b94a-4a738675ac39.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the spark-sql adapter for databricks
+    url: /azure/databricks/spark/latest/spark-sql/
+    condition:
+      noneOf:
+        - Operational-ai-adb.5154fc2d-f14d-43a6-b94a-4a738675ac39.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Azure Databricks notebook
+    url: /azure/databricks/notebooks/notebooks-manage
+    condition:
+      noneOf:
+        - Operational-ai-adb.5154fc2d-f14d-43a6-b94a-4a738675ac39.L
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Databricks Runtime ML.
+    url: /azure/databricks/applications/machine-learning/
+    condition:
+      noneOf:
+        - Operational-ai-adb.5154fc2d-f14d-43a6-b94a-4a738675ac39.M
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Tag your workspaces
+    url: /azure/databricks/administration-guide/account-settings/usage-detail-tags-azure
+    condition:
+      noneOf:
+        - Operational-ai-adb.a0003555-0352-4f11-b98a-8fed2d5e864d.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use MLFlow to get model insights
+    url: /azure/databricks/applications/mlflow/
+    condition:
+      noneOf:
+        - Operational-ai-adb.a0003555-0352-4f11-b98a-8fed2d5e864d.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Send Databricks application logs to Azure Monitor
+    url: /azure/architecture/databricks-monitoring/application-logs
+    condition:
+      noneOf:
+        - Operational-ai-adb.a0003555-0352-4f11-b98a-8fed2d5e864d.L
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: ' Visualize metrics in Grafana Dashboards to monitor Azure Databricks jobs for performance issues.'
+    url: /azure/architecture/databricks-monitoring/dashboards
+    condition:
+      noneOf:
+        - Operational-ai-adb.a0003555-0352-4f11-b98a-8fed2d5e864d.M
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Manage, monitor performance and logs of Azure Databricks Cluster'
+    url: /azure/databricks/clusters/clusters-manage#cluster-log-delivery
+    condition:
+      noneOf:
+        - Operational-ai-adb.a0003555-0352-4f11-b98a-8fed2d5e864d.N
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use MLFlow for Data Science lifecycle.
+    url: /azure/databricks/applications/mlflow/model-registry
+    condition:
+      noneOf:
+        - Operational-ai-adb.5037e66a-f432-4c22-8cef-aef327ed2136.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use iterative performance testing for ML
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#arrive-at-correct-cluster-size-by-iterative-performance-testing'
+    condition:
+      noneOf:
+        - Operational-ai-adb.77496287-e12a-43a7-8961-cf2fce2dad1e.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 0f17d195-fae0-4cf3-a2df-7b55652f8101
+name: ''

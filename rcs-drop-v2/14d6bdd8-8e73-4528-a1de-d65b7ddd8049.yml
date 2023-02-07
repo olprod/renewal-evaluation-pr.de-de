@@ -1,0 +1,186 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Consider limiting access by following the principle of least privilege, protecting data, and monitoring activities offered by Azure Analysis Services'
+    url: /azure/active-directory/develop/secure-least-privileged-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.3e73f6d4-a689-4591-bae7-5a1ae42c0b3d.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define and test operational processes for incident response
+    url: /security/benchmark/azure/security-control-incident-response
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.3e73f6d4-a689-4591-bae7-5a1ae42c0b3d.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider reviewing data compliance requirements
+    url: /azure/compliance/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.3e73f6d4-a689-4591-bae7-5a1ae42c0b3d.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Use Azure policies\_to enforce security, compliance, and organizational standards"
+    url: /azure/governance/policy/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.3597b374-416a-4e75-adfb-245e3cdcdecc.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Activate diagnostic logs and store them in\_a log analytics workspace"
+    url: /azure/analysis-services/analysis-services-logging
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.3597b374-416a-4e75-adfb-245e3cdcdecc.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Rotate the storage key by specifying a key expiration period
+    url: /azure/analysis-services/analysis-services-create-server#create-a-server
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.b00a105f-e511-4975-a329-cb35d028d1ad.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Backup can be compressed and encrypted, depending on the options chosen'
+    url: 'https://azure.microsoft.com/en-in/blog/backup-and-restore-your-azure-analysis-services-models/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.b00a105f-e511-4975-a329-cb35d028d1ad.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: User identities are registered within the Azure Active Directory of the subscription
+    url: /azure/analysis-services/analysis-services-manage-users
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.29b738e6-24aa-4931-8ebd-f4c666686659.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Analysis Services Role-Based controls
+    url: /azure/analysis-services/analysis-services-manage-users
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.29b738e6-24aa-4931-8ebd-f4c666686659.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure object-level security includes table-level security and column-level security
+    url: /analysis-services/tabular-models/object-level-security?view=asallproducts-allversions#column-level-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.29b738e6-24aa-4931-8ebd-f4c666686659.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement row-level security
+    url: /analysis-services/tabular-models/roles-ssas-tabular?view=asallproducts-allversions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.29b738e6-24aa-4931-8ebd-f4c666686659.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure a server firewall to filter the inbound traffic
+    url: /azure/analysis-services/analysis-services-network-faq
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.f9c5a5af-d10b-42f6-9da6-e9843db01b44.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: On-premises data source is accessed through the data gateway
+    url: /azure/analysis-services/analysis-services-gateway-install?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.f9c5a5af-d10b-42f6-9da6-e9843db01b44.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use gateways for data sources on Azure Virtual Networks
+    url: /azure/analysis-services/analysis-services-vnet-gateway
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.f9c5a5af-d10b-42f6-9da6-e9843db01b44.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Direct query mode, where only metadata is stored'
+    url: /analysis-services/tabular-models/directquery-mode-ssas-tabular?view=asallproducts-allversions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b2124f3-5bbc-4fa7-ab55-13575c47b468.f9c5a5af-d10b-42f6-9da6-e9843db01b44.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 14d6bdd8-8e73-4528-a1de-d65b7ddd8049
+name: ''

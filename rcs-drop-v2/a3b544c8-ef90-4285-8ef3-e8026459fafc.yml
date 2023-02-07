@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This focusses on organization''s maturity against Data Preparation and Training dimension to create a holistic view of current state and provides a structured framework for developing maturity in each capability. This dimension looks at data extraction from different sources and profiling, cleaning, loading, modelling and training your data.'
+hideEmptyGuidance: false
+questions:
+  - f8607402-2bd5-4832-b362-a28542073705
+  - c8b9d86b-985e-4bc0-9dca-a42daff86f2a
+  - a3b934c3-b7b2-46f9-ba6a-a324253a00bb
+  - d9834627-7417-4818-ad77-b3f567fed219
+  - 099f5376-3753-4c06-83eb-1e12f16ac1eb
+  - f709ef7e-2142-42db-8db3-2f553ff10e45
+recommendations:
+  - 35083734-699c-4cb8-9854-0afbe89cc188
+assignedGroupIds: []
+uid: a3b544c8-ef90-4285-8ef3-e8026459fafc
+name: ' Maturity Framework - Data Preparation and Training Pillar'

@@ -1,0 +1,39 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have enabled high availability according to best practices and our solution dowtime tolerance (RTO and RPO).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: We have configured backup according to best practices and our solution dowtime tolerance (RTO and RPO).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-data.postgres
+stem: ''
+isRequired: false
+uid: 5dc3daca-cb5a-421f-98a9-ec88afe2feef
+name: Have you configured Azure Database for PostgreSQL with reliability in mind?

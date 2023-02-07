@@ -1,0 +1,438 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Scale when load increases
+    url: /azure/azure-sql/database/scale-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1ee9509f-8b12-44c0-b53c-bd68855504cf.A
+      scoreOf: []
+    context: 'Azure SQL Database and SQL Managed Instance enable you to dynamically add more resources to your database with minimal downtime; however, there is a switch over period where connectivity is lost to the database for a short amount of time, which can be mitigated using retry logic.'
+    priority: 65
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Have proper database design for the expected workload type (transactional vs reporting)
+    url: /office/troubleshoot/access/database-normalization-description
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1ee9509f-8b12-44c0-b53c-bd68855504cf.B
+      scoreOf: []
+    context: 'Normalization is the process of organizing data in a database. This includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.  Redundant data wastes disk space and creates maintenance problems. If data that exists in more than one place must be changed, the data must be changed in exactly the same way in all locations. A customer address change is much easier to implement if that data is stored only in the Customers table and nowhere else in the database.'
+    priority: 60
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Have the right data partition strategy for tables and indexes
+    url: /azure/architecture/best-practices/data-partitioning
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1ee9509f-8b12-44c0-b53c-bd68855504cf.C
+      scoreOf: []
+    context: 'Partitioning can improve scalability, reduce contention, and optimize performance. It can also provide a mechanism for dividing data by usage pattern. For example, you can archive older data in cheaper data storage.  However, the partitioning strategy must be chosen carefully to maximize the benefits while minimizing adverse effects.'
+    priority: 62
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Have the right compression strategy to improve data size
+    url: /sql/relational-databases/data-compression/data-compression?view=azuresqldb-mi-current
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1ee9509f-8b12-44c0-b53c-bd68855504cf.D
+      scoreOf: []
+    context: 'SQL Server, Azure SQL Database, and Azure SQL Managed Instance support row and page compression for rowstore tables and indexes, and support columnstore and columnstore archival compression for columnstore tables and indexes. For rowstore tables and indexes, use the data compression feature to help reduce the size of the database. In addition to saving space, data compression can help improve performance of I/O intensive workloads because the data is stored in fewer pages and queries need to read fewer pages from disk. However, extra CPU resources are required on the database server to compress and decompress the data, while data is exchanged with the application.'
+    priority: 60
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Understand and have the right isolation level implemented
+    url: /sql/connect/jdbc/understanding-isolation-levels?view=azuresqldb-mi-current
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1ee9509f-8b12-44c0-b53c-bd68855504cf.E
+      scoreOf: []
+    context: 'Transactions specify an isolation level that defines how one transaction is isolated from other transactions. Isolation is the separation of resource or data modifications made by different transactions. Isolation levels are described for which concurrency side effects are allowed, such as dirty reads or phantom reads.'
+    priority: 60
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Use read-only replicas to offload read-only query workloads
+    url: /azure/azure-sql/database/read-scale-out
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1ee9509f-8b12-44c0-b53c-bd68855504cf.F
+      scoreOf: []
+    context: 'As part of High Availability architecture, each single database, elastic pool database, and managed instance in the Premium and Business Critical service tier is automatically provisioned with a primary read-write replica and several secondary read-only replicas. The secondary replicas are provisioned with the same compute size as the primary replica. The read scale-out feature allows you to offload read-only workloads using the compute capacity of one of the read-only replicas, instead of running them on the read-write replica. This way, some read-only workloads can be isolated from the read-write workloads, and will not affect their performance. The feature is intended for the applications that include logically separated read-only workloads, such as analytics. In the Premium and Business Critical service tiers, applications could gain performance benefits using this additional capacity at no extra cost.'
+    priority: 65
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Use connection pooling
+    url: 'https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/connection-pooling-for-the-sql-server-dba/ba-p/370605'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1ee9509f-8b12-44c0-b53c-bd68855504cf.G
+      scoreOf: []
+    context: 'Connection pooling reduces the number of times that new connections must be opened. The pooler maintains ownership of the physical connection. It manages connections by keeping alive a set of active connections for each given connection configuration. Whenever a user calls Open on a connection, the pooler looks for an available connection in the pool. If a pooled connection is available, it returns it to the caller instead of opening a new connection. When the application calls Close on the connection, the pooler returns it to the pooled set of active connections instead of closing it. Once the connection is returned to the pool, it is ready to be reused on the next Open call.'
+    priority: 55
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'Use an asynchronous processing mechanism if necessary, such as with Service Bus/Event Hubs'
+    url: /azure/event-hubs/event-hubs-about
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1ee9509f-8b12-44c0-b53c-bd68855504cf.H
+      scoreOf: []
+    context: Azure Event Hubs is a big data streaming platform and event ingestion service. It can receive and process millions of events per second. Data sent to an event hub can be transformed and stored by using any real-time analytics provider or batching/storage adapters.
+    priority: 54
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Have well-defined performance goals
+    url: /azure/architecture/best-practices/monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.3adc2436-15a1-40ef-9eee-a803a798cc85.A
+      scoreOf: []
+    context: 'Distributed applications and services running in the cloud are, by their nature, complex pieces of software that comprise many moving parts. In a production environment, it''s important to be able to track the way in which users use your system, trace resource utilization, and generally monitor the health and performance of your system. You can use this information as a diagnostic aid to detect and correct issues, and also to help spot potential problems and prevent them from occurring.'
+    priority: 65
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Have policies to scale up and scale down when my load decreases
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql-blog/track-progress-of-sql-managed-instance-create-scale-request/ba-p/1698640'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.3adc2436-15a1-40ef-9eee-a803a798cc85.B
+      scoreOf: []
+    context: 'Azure SQL Managed Instance provides management operations that you can use to automatically deploy new managed instances, update instance properties, and delete instances when no longer needed. All management operations can be categorized as follows: Instance deployment (new instance creation), Instance update (changing instance properties, such as vCores or reserved storage), Instance deletion. As result of connectivity and deployment architecture, instance deployment and scaling are long running operations. These operation can be monitored on couple of ways, but till now neither one of them was displaying full details on operation steps and progress.'
+    priority: 58
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Use horizontal scaling when possible with Business Critical tier
+    url: /azure/azure-sql/database/read-scale-out
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.3adc2436-15a1-40ef-9eee-a803a798cc85.C
+      scoreOf: []
+    context: 'As part of High Availability architecture, each single database, elastic pool database, and managed instance in the Premium and Business Critical service tier is automatically provisioned with a primary read-write replica and several secondary read-only replicas. The secondary replicas are provisioned with the same compute size as the primary replica. The read scale-out feature allows you to offload read-only workloads using the compute capacity of one of the read-only replicas, instead of running them on the read-write replica. This way, some read-only workloads can be isolated from the read-write workloads, and will not affect their performance. The feature is intended for the applications that include logically separated read-only workloads, such as analytics. In the Premium and Business Critical service tiers, applications could gain performance benefits using this additional capacity at no extra cost.'
+    priority: 65
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Understand the performance bottlenecks
+    url: /azure/azure-sql/identify-query-performance-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.3adc2436-15a1-40ef-9eee-a803a798cc85.D
+      scoreOf: []
+    context: 'When trying to resolve a performance bottleneck, start by determining whether the bottleneck is occurring while the query is in a running state or a waiting state. Different resolutions apply depending upon this determination. Use the following diagram to help understand the factors that can cause either a running-related problem or a waiting-related problem. Problems and resolutions relating to each type of problem are discussed in this article.'
+    priority: 65
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Have the right indexing in place
+    url: /sql/relational-databases/sql-server-index-design-guide?view=azuresqldb-mi-current
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.3adc2436-15a1-40ef-9eee-a803a798cc85.E
+      scoreOf: []
+    context: 'Poorly designed indexes and a lack of indexes are primary sources of database application bottlenecks. Designing efficient indexes is paramount to achieving good database and application performance. This index design guide contains information on index architecture, and best practices to help you design effective indexes to meet the needs of your application.'
+    priority: 60
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Indexes and statistics are updated and optimized when it is needed
+    url: /sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.3adc2436-15a1-40ef-9eee-a803a798cc85.F
+      scoreOf: []
+    context: 'Both fragmentation and page density are among the factors to consider when deciding whether to perform index maintenance, and which maintenance method to use.  Fragmentation is defined differently for rowstore and columnstore indexes. For rowstore indexes, sys.dm_db_index_physical_stats() lets you determine fragmentation and page density in a specific index, all indexes on a table or indexed view, all indexes in a database, or all indexes in all databases. For partitioned indexes, sys.dm_db_index_physical_stats() provides this information for each partition.'
+    priority: 50
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Run tests at peak load
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql-blog/monitoring-options-available-for-azure-sql-managed-instance/ba-p/1065416'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.6f6c2de8-2eda-4f7c-a44c-d45df2ba0aa9.A
+      scoreOf: []
+    context: 'For production workloads running on your Azure SQL Managed Instance it is very important to continuously understand the resource consumption and any potential performance issues such that you can react in time and have your business running smoothly. There exist a number of options for monitoring and alerting of managed instances that can be considered, be it Microsoft cloud native, on-premises products, custom solutions, or third party solutions.'
+    priority: 60
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Have awareness about the time taken to scale in response to events
+    url: /azure/azure-sql/managed-instance/management-operations-overview#duration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.6f6c2de8-2eda-4f7c-a44c-d45df2ba0aa9.B
+      scoreOf: []
+    context: 'Azure SQL Managed Instance provides management operations that you can use to automatically deploy new managed instances, update instance properties, and delete instances when no longer needed. All management operations can be categorized as follows: Instance deployment (new instance creation), Instance update (changing instance properties, such as vCores or reserved storage), Instance deletion. As result of connectivity and deployment architecture, instance deployment and scaling are long running operations. These operation can be monitored on couple of ways, but till now neither one of them was displaying full details on operation steps and progress.'
+    priority: 62
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Have a strategy in place to manage capacity limits of each tier
+    url: /azure/azure-sql/managed-instance/resource-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.7e84da68-0878-4c43-86ba-dd5eae412d16.A
+      scoreOf: []
+    context: SQL Managed Instance has characteristics and resource limits that depend on the underlying infrastructure and architecture. SQL Managed Instance can be deployed on multiple hardware configurations.
+    priority: 58
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Have a caching strategy in place to manage events that may cause a spike in load
+    url: /azure/architecture/best-practices/caching
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.7e84da68-0878-4c43-86ba-dd5eae412d16.B
+      scoreOf: []
+    context: 'Caching is a common technique that aims to improve the performance and scalability of a system. It does this by temporarily copying frequently accessed data to fast storage that''s located close to the application. If this fast data storage is located closer to the application than the original source, then caching can significantly improve response times for client applications by serving data more quickly.'
+    priority: 59
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Schedule scaling to add resources based on periods with different usage
+    url: /azure/azure-sql/database/scale-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.7e84da68-0878-4c43-86ba-dd5eae412d16.C
+      scoreOf: []
+    context: 'Azure SQL Database and SQL Managed Instance enable you to dynamically add more resources to your database with minimal downtime; however, there is a switch over period where connectivity is lost to the database for a short amount of time, which can be mitigated using retry logic.'
+    priority: 59
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'Query DMVs using your preferred client tools like Azure Data Studio, Azure Portal (Query Editor), SQL Server Management Studio, etc. '
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql-blog/monitoring-options-available-for-azure-sql-managed-instance/ba-p/1065416'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.7e84da68-0878-4c43-86ba-dd5eae412d16.D
+      scoreOf: []
+    context: 'For production workloads running on your Azure SQL Managed Instance it is very important to continuously understand the resource consumption and any potential performance issues such that you can react in time and have your business running smoothly. There exist a number of options for monitoring and alerting of managed instances that can be considered, be it Microsoft cloud native, on-premises products, custom solutions, or third party solutions.'
+    priority: 55
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Use Azure Monitor and Alerts to make sure you are not bottlenecked on the capacity level
+    url: /azure/azure-sql/managed-instance/alerts-create
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.7e84da68-0878-4c43-86ba-dd5eae412d16.E
+      scoreOf: []
+    context: 'Understand how to set up alerts for databases in Azure SQL Managed Instance Database using the Azure portal. Alerts can send you an email, call a web hook, execute Azure Function, runbook, call an external ITSM compatible ticketing system, call you on the phone or send a text message when some metric, such is for example instance storage size, or CPU usage, reaches a predefined threshold. This article also provides best practices for setting alert periods.'
+    priority: 57
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Have a good database design and minimize the load on the data store
+    url: /azure/azure-sql/multi-model-features
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1a7438b7-9298-4754-8eca-52e8faa10ddb.A
+      scoreOf: []
+    context: 'Multi-model databases enable you to store and work with data in multiple formats, such as relational data, graph, JSON or XML documents, spatial data, and key-value pairs. The Azure SQL family of products uses a relational model that provides the best performance for a variety of general-purpose applications. However, Azure SQL products like Azure SQL Database and SQL Managed Instance are not limited to relational data. They enable you to use non-relational formats that are tightly integrated into the relational model.'
+    priority: 61
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Normalize the data appropriately
+    url: /office/troubleshoot/access/database-normalization-description
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1a7438b7-9298-4754-8eca-52e8faa10ddb.B
+      scoreOf: []
+    context: 'Normalization is the process of organizing data in a database. This includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.  Redundant data wastes disk space and creates maintenance problems. If data that exists in more than one place must be changed, the data must be changed in exactly the same way in all locations. A customer address change is much easier to implement if that data is stored only in the Customers table and nowhere else in the database.'
+    priority: 56
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Use sharding for database storage when appropriate
+    url: /azure/azure-sql/database/elastic-transactions-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1a7438b7-9298-4754-8eca-52e8faa10ddb.D
+      scoreOf: []
+    context: 'Elastic database transactions for Azure SQL Database and Azure SQL Managed Instance allow you to run transactions that span several databases. Elastic database transactions are available for .NET applications using ADO.NET and integrate with the familiar programming experience using the System.Transaction classes. To get the library, see .NET Framework 4.6.1 (Web Installer). Additionally, for managed instance distributed transactions are available in Transact-SQL.'
+    priority: 55
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Optimize database queries and create/modify indexes to match query patterns
+    url: /sql/relational-databases/sql-server-index-design-guide?view=azuresqldb-mi-current
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1a7438b7-9298-4754-8eca-52e8faa10ddb.E
+      scoreOf: []
+    context: 'Poorly designed indexes and a lack of indexes are primary sources of database application bottlenecks. Designing efficient indexes is paramount to achieving good database and application performance. This index design guide contains information on index architecture, and best practices to help you design effective indexes to meet the needs of your application.'
+    priority: 63
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'Ensure large data is partitioned using partitioned tables, partitioned indexes, or partitioned views are in place to efficiently manage large amounts of data'
+    url: /sql/relational-databases/partitions/create-partitioned-tables-and-indexes?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1a7438b7-9298-4754-8eca-52e8faa10ddb.F
+      scoreOf: []
+    context: We can create a partitioned table or index in SQL Server by using SQL Server Management Studio or Transact-SQL. The data in partitioned tables and indexes is horizontally divided into units that can be spread across more than one filegroup in a database. Partitioning can make large tables and indexes more manageable and scalable.
+    priority: 61
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Consider column-store indexes to compress and efficiently query larger analytics tables and use non-clustered column-store indexes if you have combined transactional and reporting workload
+    url: /sql/relational-databases/indexes/columnstore-indexes-overview?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1a7438b7-9298-4754-8eca-52e8faa10ddb.G
+      scoreOf: []
+    context: 'Columnstore indexes are the standard for storing and querying large data warehousing fact tables. This index uses column-based data storage and query processing to achieve gains up to 10 times the query performance in your data warehouse over traditional row-oriented storage. You can also achieve gains up to 10 times the data compression over the uncompressed data size. Beginning with SQL Server 2016 (13.x) SP1, columnstore indexes enable operational analytics: the ability to run performant real-time analytics on a transactional workload.'
+    priority: 64
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'By using in-memory technologies, you can achieve performance improvements with various workloads'
+    url: /azure/azure-sql/in-memory-oltp-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1a7438b7-9298-4754-8eca-52e8faa10ddb.H
+      scoreOf: []
+    context: 'In-memory technologies can improve performance of workloads by keeping the data that should be processed into the memory, using native compilation of the queries, or advanced processing such as batch processing and SIMD instructions that are available on the underlying hardware.'
+    priority: 65
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Verify option of SQL MI engine to use parallel threads during query processing
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql-blog/changing-default-maxdop-in-azure-sql-database-and-azure-sql/ba-p/1538528'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1a7438b7-9298-4754-8eca-52e8faa10ddb.I
+      scoreOf: []
+    context: 'The ''max degree of parallelism'' (a.k.a. MAXDOP) configuration option controls the ability of the MSSQL database engine to use parallel threads during query processing. When MAXDOP is other than 1, the database engine may execute queries using multiple concurrent threads. This often results in shorter query duration due to additional CPU resources used for query processing. The number of concurrently executing threads, and the resulting CPU utilization, depends on the MAXDOP value. Higher values generally result in more threads and higher resource utilization. If a query is using parallelism, it often gets faster as MAXDOP is increased, though after some point additional threads may just use extra CPU cycles without reducing query duration.'
+    priority: 54
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Increasing file size might be an easy way to improve your performance in SQL MI General Purpose tier
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql-blog/increase-data-file-size-to-improve-hammerdb-workload-performance/ba-p/823337'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.1a7438b7-9298-4754-8eca-52e8faa10ddb.J
+      scoreOf: []
+    context: The General Purpose tier of Managed Instance uses Azure Premium Storage to store database files. In Azure Premium Storage IO performance depends on the file size. Increasing file size might be an easy way to improve your performance. In this post you will see how to increase performance of HammerDB workload from 20K transactions/minute to 100K-300K transactions/minute by increasing the database file size.
+    priority: 55
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Track when resources scale in and out
+    url: /azure/azure-sql/database/monitor-tune-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.c8748c86-28d4-401b-894a-e76d513f9c85.A
+      scoreOf: []
+    context: 'Azure SQL Managed Instance provides management operations that you can use to automatically deploy new managed instances, update instance properties, and delete instances when no longer needed. All management operations can be categorized as follows: Instance deployment (new instance creation), Instance update (changing instance properties, such as vCores or reserved storage), Instance deletion. As result of connectivity and deployment architecture, instance deployment and scaling are long running operations. These operation can be monitored on couple of ways, but till now neither one of them was displaying full details on operation steps and progress.'
+    priority: 57
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Have an overall monitoring strategy for scalability
+    url: /azure/architecture/guide/design-principles/scale-out
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.c8748c86-28d4-401b-894a-e76d513f9c85.B
+      scoreOf: []
+    context: 'A primary advantage of the cloud is elastic scaling — the ability to use as much capacity as you need, scaling out as load increases, and scaling in when the extra capacity is not needed. Design your application so that it can scale horizontally, adding or removing new instances as demand requires.'
+    priority: 59
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Having a baseline performance in place
+    url: /azure/azure-sql/migration-guides/managed-instance/sql-server-to-managed-instance-performance-baseline#create-a-baseline
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.c8748c86-28d4-401b-894a-e76d513f9c85.C
+      scoreOf: []
+    context: 'Ideally, performance is similar or better after migration, so it is important to measure and record baseline performance values on the source and then compare them to the target environment. A performance baseline is a set of parameters that define your average workload on your source. Select a set of queries that are important to, and representative of your business workload. Measure and document the min/average/max duration and CPU usage for these queries, as well as performance metrics on the source server, such as average/max CPU usage, average/max disk IO latency, throughput, IOPS, average / max page life expectancy, and average max size of tempdb.'
+    priority: 59
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Implement retry logic for transient errors to avoid connection interruption when scaling or planned/unplanned failovers occur
+    url: /azure/azure-sql/database/troubleshoot-common-connectivity-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.c8748c86-28d4-401b-894a-e76d513f9c85.D
+      scoreOf: []
+    context: 'A transient error, also known as a transient fault, has an underlying cause that soon resolves itself. An occasional cause of transient errors is when the Azure system quickly shifts hardware resources to better load-balance various workloads. Most of these reconfiguration events finish in less than 60 seconds. During this reconfiguration time span, you might have issues with connecting to your database in SQL Database. Applications that connect to your database should be built to expect these transient errors. To handle them, implement retry logic in their code instead of surfacing them to users as application errors.'
+    priority: 91
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'If you are using read-only replicas, then monitor data replication latency'
+    url: /azure/azure-sql/database/read-scale-out#data-consistency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.c8748c86-28d4-401b-894a-e76d513f9c85.E
+      scoreOf: []
+    context: 'Data changes made on the primary replica are persisted on read-only replicas synchronously or asynchronously depending on replica type. However, for all replica types, reads from a read-only replica are always asynchronous with respect to the primary. Within a session connected to a read-only replica, reads are always transactionally consistent. Because data propagation latency is variable, different replicas can return data at slightly different points in time relative to the primary and each other. If a read-only replica becomes unavailable and a session reconnects, it may connect to a replica that is at a different point in time than the original replica. Likewise, if an application changes data using a read-write session on the primary and immediately reads it using a read-only session on a read-only replica, it is possible that the latest changes will not be immediately visible. Typical data propagation latency between the primary replica and read-only replicas varies in the range from tens of milliseconds to single-digit seconds. However, there is no fixed upper bound on data propagation latency. Conditions such as high resource utilization on the replica can increase latency substantially. Applications that require guaranteed data consistency across sessions, or require committed data to be readable immediately should use the primary replica.'
+    priority: 54
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Use scripting and automation to monitor and scale SQL Managed Instance resources
+    url: /azure/azure-sql/database/scale-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 09d149fe-9882-41c4-a425-baba824f6ffe.c8748c86-28d4-401b-894a-e76d513f9c85.F
+      scoreOf: []
+    context: 'Azure SQL Database and SQL Managed Instance enable you to dynamically add more resources to your database with minimal downtime; however, there is a switch over period where connectivity is lost to the database for a short amount of time, which can be mitigated using retry logic.'
+    priority: 61
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+uid: 2d68c5c0-51e2-4f27-8dcb-bddb277593ee
+name: ''

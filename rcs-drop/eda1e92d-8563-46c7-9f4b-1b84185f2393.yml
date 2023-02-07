@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You develop a Microsoft Azure Function to process Microsoft Dataverse webhook requests.
+
+  You must update the code to manage requests generated from different tables and different events.
+
+  Which two objects will contain the table and event names? Each correct answer presents a complete solution.
+questionnaireUid: 3fd3f77b-4723-4e0f-8d41-6f53fda2ab9e
+questions:
+  - uid: eda1e92d-8563-46c7-9f4b-1b84185f2393-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You develop a Microsoft Azure Function to process Microsoft Dataverse webhook requests.
+        isCorrect: true
+      - id: 1
+        text: You must update the code to manage requests generated from different tables and different events.
+        isCorrect: true
+      - id: 2
+        text: Which two objects will contain the table and event names?
+        isCorrect: false
+      - id: 3
+        text: Each correct answer presents a complete solution.
+        isCorrect: false
+uid: eda1e92d-8563-46c7-9f4b-1b84185f2393
+title: ''

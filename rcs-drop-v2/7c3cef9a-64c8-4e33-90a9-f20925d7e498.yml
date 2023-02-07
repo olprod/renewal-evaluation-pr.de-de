@@ -1,0 +1,58 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Use an endpoint detection and response (EDR) solution on client and server endpoints
+    description: |
+      Use Microsoft Defender for Servers (or a 3rd party EDR solution) on endpoints to detect, prevent and respond to threats
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Use an anti-malware solution on client and server endpoints
+    description: |
+      Use Microsoft Defender (or a 3rd party) anti-malware solution on Windows and Linux endpoints
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'Use a threat protection solution for compute, data and service layers of your environment'
+    description: |
+      Detect and prevent threats to compute, storage, databases and other services with Microsoft Defender for Cloud or a 3rd party solution
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: Centralize log and alert collection for investigation and remediation
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 7c3cef9a-64c8-4e33-90a9-f20925d7e498
+name: How do you detect and manage threats to your applications and services?

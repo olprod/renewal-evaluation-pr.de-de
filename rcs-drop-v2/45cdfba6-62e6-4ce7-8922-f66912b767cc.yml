@@ -1,0 +1,53 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Beginner '
+    description: |
+      Beginner 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Intermediate
+    description: |
+      Intermediate
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Advanced '
+    description: |
+      Advanced 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: '[Or] I have completed "Design Microsoft Power Platform solutions" learning path on Microsoft learn | 8 hr 3 min'
+    description: |-
+      If this is your first time taking the learner self-assessment or have yet to complete this learning, please don't choose this answer. This will allow the self-assessment results to provide you with the best learning recommendations.
+      You may choose this option if you are Microsoft certified Power Platform solution architect 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Assess your proficiency in designing Microsoft Power Platform solutions including: Understanding the capabilities of Power Apps, Understanding the capabilities of Power Automate, Understand the capabilities of Power Virtual Agents, Robotic process automation, Data modeling for Power Platform and the tradeoffs for modeling data in Power Platform solutions, security modeling, Reporting and analytics options for Power Platform, Integration design, Environment strategy and application lifecycle management, and solution testing strategies.'
+isRequired: true
+uid: 45cdfba6-62e6-4ce7-8922-f66912b767cc
+name: 'Assess your proficiency in designing Microsoft Power Platform solutions including: Understanding the capabilities of Power Apps, Understanding the capabilities of Power Automate, Understand the capabilities of Power Virtual Agents, Robotic process automation, Data modeling for Power Platform and the tradeoffs for modeling data in Power Platform solutions, security modeling, Reporting and analytics options for Power Platform, Integration design, Environment strategy and application lifecycle management, and solution testing strategies.'

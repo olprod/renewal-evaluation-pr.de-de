@@ -1,0 +1,46 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Azure AD Password protection custom banned password list is configured with words prohibited to be used in passwords
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Azure AD Password Protection is extended to domain controllers
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.0
+  anyOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.0
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.1
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.2
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.3
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: ff3cb84d-3587-414f-9dad-0000bfd010c5
+name: What is your organization's approach for user passwords?

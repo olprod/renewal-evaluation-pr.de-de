@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Define database RPO (Recovery Point Objective) & RTO (Recovery Time Objective) requirements.
+    description: RPO (what duration of data loss can be withstood in a DR scenario) and RTO (how long can the database be offline in a DR scenario) definitions affect critical architectural design decisions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: Define database availability targets such as Service Level Agreements (SLAs) and Service Level Objectives (SLOs).
+    description: Have availability targets been defined for the databases?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: Derive the composite SLA for the workload by combining the Azure SLAs for all relevant resources.
+    description: Has a composite SLA been calculated for the application and/or key scenarios using Azure SLAs?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: 'Identify specific business processes, data privacy, encryption, or other mandates which could impact your reliability targets.'
+    description: Consider time needed to retrieve certificates and encryption keys backups if needed.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Are availability targets considered while the system is running in disaster recovery mode?
+    description: Availability targets might or might not be applied when running in disaster recovery mode.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Identify critical sub-system flows which may require additional resiliency.
+    description: 'Critical sub-systems or paths through the application may have higher expectations around availability, recovery, and performance due to the criticality of associated business scenarios and functionality.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: 'Identify Service Level Indicators (SLI) such as response rate, processing time, user requests, transaction rate, success rate, and error rate.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 63cdd5c1-4134-4dfe-a47f-ff5afabe37a5
+name: What reliability targets and metrics have you defined for your database?

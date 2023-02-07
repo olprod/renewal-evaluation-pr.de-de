@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: VM data disks encrypted at the level and granularity required by your organization.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: Azure Blob storage and Azure file shares encrypted at the level and granularity required by your organization.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: Transparent Data Encryption (TDE) enabled to keep SQL data and log files encrypted at rest.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: D
+    text: Using the Always Encrypted feature in SQL when encryption key must not be revealed to the database engine or other high privileged database operators.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: Using column level encryption when more granular cell level encryption is required.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Managing Always Encrypted keys with role separation.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: encryption-data-sqlvm
+uid: f040f981-ff0e-4266-a9e2-52f49c6d23f1
+name: How are you managing encryption for this SQL VM workload?

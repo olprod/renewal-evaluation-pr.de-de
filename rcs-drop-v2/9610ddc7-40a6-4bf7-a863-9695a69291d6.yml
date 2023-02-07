@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Decentralized operations - If you limit the scope of operations to one workload or a small collection of workloads, complexity can be controlled. As such, decentralized operations are the least complex of the common operating models. '
+    description: |-
+      Operations are always complex. If you limit the scope of operations to one workload or a small collection of workloads, complexity can be controlled. As such, decentralized operations are the least complex of the common operating models. In this form of operations, all workloads are operated independently by dedicated workload teams.
+      https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare
+    imageUrl: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/operating-model/decentralized-operations.png'
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Centralized operations - Central operations tend to be the norm for technology environments that consist primarily of stable-state workloads. Examples of a stable-state of operations include things like commercial-off-the-shelf (COTS) applications or well-established custom applications that have a slow-release cadence.
+    description: |-
+      Central operations tend to be the norm for technology environments that consist primarily of stable-state workloads. Examples of a stable-state of operations include things like commercial-off-the-shelf (COTS) applications or well-established custom applications that have a slow-release cadence. When rate of change is driven by regular updates and patches, centralization of operations is an effective means to manage the portfolio.
+      https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare
+    imageUrl: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/operating-model/centralized-operations.png'
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Enterprise operations - Enterprise operations are the suggested target state for all cloud operations. Enterprise operations balance the need for control and innovation by democratizing decisions and responsibilities.
+    description: 'Enterprise operations are the suggested target state for all cloud operations. Enterprise operations balance the need for control and innovation by democratizing decisions and responsibilities. Replace central IT by a more facilitative cloud center of excellence or CCoE team. https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare'
+    imageUrl: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/operating-model/enterprise-operations.png'
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'Distributed operations - The existing operating model might be too engrained for the entire organization to shift to a new operating model. For others, global operations and various compliance requirements might prevent specific business units from making a change. A distributing operations approach might be required for those companies. This approach is by far the most complex approach. It requires an integration of one or more of the previously mentioned operating models.'
+    description: |-
+      The existing operating model might be too engrained for the entire organization to shift to a new operating model. For others, global operations and various compliance requirements might prevent specific business units from making a change. A distributing operations approach might be required for those companies. This approach is by far the most complex approach. It requires an integration of one or more of the previously mentioned operating models.
+      https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare
+    imageUrl: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/operating-model/complex-operations.png'
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Before deploying your cloud architecture, it''s important to understand how you want to operate in the cloud. Understanding your strategic direction, people organization, and governance, risk, and compliance (GRC) needs helps define your future state cloud operating model. Then, Azure landing zones can provide a variety of architecture and implementation options to support your operating model. '
+isRequired: true
+uid: 9610ddc7-40a6-4bf7-a863-9695a69291d6
+name: 'Before deploying your cloud architecture, it''s important to understand how you want to operate in the cloud.'

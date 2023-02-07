@@ -1,0 +1,106 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'The applications is tested for performance, scalability, and resiliency'
+    description: 'Is the application tested for performance, scalability, and resiliency?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '1'
+    text: At least a subset of tests is also performed in the production environment
+    description: Are any tests performed in production?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '2'
+    text: 'Tests for performance, scalability, and resiliency are performed as part of each major change'
+    description: 'When do you do test for performance, scalability, and resiliency?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '3'
+    text: Fault injection tests are being utilized
+    description: Is the application tested with injected faults?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '4'
+    text: Smoke tests are performed during application deployments
+    description: Are smoke tests performed during application deployments?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '5'
+    text: Unit and integration testing is performed as part of the application deployment process
+    description: When is integration testing performed?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '6'
+    text: All these tests are automated and carried out periodically
+    description: Are these tests automated and carried out periodically or on-demand?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '7'
+    text: Failing tests at least temporarily block a deployment and lead to a deeper analysis of what has happened
+    description: What happens when a test fails?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '8'
+    text: Business Continuity 'fire drills' are performed to test regional failover scenarios
+    description: Do you perform Business Continuity 'fire drills' to test regional failover scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '9'
+    text: Security and penetration testing is performed regularly
+    description: What degree of security testing is performed?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '10'
+    text: You regularly validate and update your tests to reflect any necessary changes.
+    description: 'Tests and test data should be evaluated and updated after each major application change, update, or outage.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '11'
+    text: Mocks and stubs are used to test external dependencies in non-production environments.
+    description: 'Mocks/stubs can help to test and validate external dependencies, to increase test coverage, when accessing those external dependencies is not possible due to for example IP restrictions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '12'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Regular testing should be performed as part of each major change and if possible on a regular basis to validate existing thresholds, targets, and assumptions, as well as ensure the validity of the health model, capacity model, and operational procedures.'
+isRequired: true
+uid: 4135cbaa-752b-4589-9e9f-ac64e1513078
+name: 'Regular testing should be performed as part of each major change and if possible on a regular basis to validate existing thresholds, targets, and assumptions, as well as ensure the validity of the health model, capacity model, and operational procedures.'

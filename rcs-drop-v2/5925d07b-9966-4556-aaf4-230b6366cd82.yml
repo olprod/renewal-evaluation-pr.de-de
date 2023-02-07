@@ -1,0 +1,594 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Use Azure Policy to enforce security and reliability configurations for all service, ensuring that any deviation is either remediated or prohibited by the control plane at configuration-time, helping to mitigate threats associated with ''malicious admin'' scenarios.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Active Directory Privileged Identity Management (PIM) within production subscriptions to revoke sustained control plane access to production environments. This will significantly reduce the risk posed from 'malicious admin' scenarios through additional 'checks and balances.'
+    url: /azure/active-directory/privileged-identity-management/pim-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Managed Identities for all services that support the capability, since it facilitates the removal of credentials from application code and removes the operational burden of identity management for service-to-service communication.'
+    url: /azure/active-directory/managed-identities-azure-resources/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure AD role-based access control (RBAC) for data plane authorization with all services that support the capability.
+    url: /azure/role-based-access-control/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable Microsoft Defender for Cloud (formerly known as Azure Security Center) for all subscriptions that contain the resources for a mission-critical workload.
+    url: /azure/defender-for-cloud/defender-for-cloud-introduction
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use first-party Microsoft identity platform authentication libraries within application code to integrate with Azure Active Directory.
+    url: /azure/active-directory/develop/reference-v2-libraries
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use infrastructure as code (IaC) and automated CI/CD pipelines to drive updates to all application components, including under failure circumstances.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Ensure CI/CD tooling service connections are safeguarded as critical sensitive information, and shouldn''t be directly available to any service team.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Apply granular RBAC to production CD pipelines to mitigate 'malicious admin' risks.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Define an appropriate security posture for all lower environments to ensure key vulnerabilities are mitigated. Don''t apply the same security posture as production, particularly with regard to data exfiltration, unless regulatory requirements stipulate the need to do so, since this will significantly compromise developer agility.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Embrace DevSecOps and implement security testing within CI/CD pipelines.
+    url: /azure/devops/devsecops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.8
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Test results should be measured against a compliant security posture to inform release approvals (automated or manual).
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.8
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Apply security testing as part of the CD production process for each release.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.8
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable secret scanning and dependency scanning within the source code repository.
+    url: 'https://github.blog/2020-08-27-secure-at-every-step-putting-devsecops-into-practice-with-code-scanning/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.a312d683-69b3-42ad-ab50-ea540cb471a3.8
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Create a threat model for the application. Start with a service-by-service level threat model, and unify the model by consolidating the thread model on application level.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#threat-modeling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.3b1ce505-d4d9-4ede-90e8-2f9adbdb4c08.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review and update the threat model regularly.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.3b1ce505-d4d9-4ede-90e8-2f9adbdb4c08.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Allocate engineering budget within each sprint to evaluate potential new threats and implement mitigations.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.3b1ce505-d4d9-4ede-90e8-2f9adbdb4c08.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Apply conscious effort to ensure security mitigations are captured within common engineering criteria to drive consistency across all application service teams.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.3b1ce505-d4d9-4ede-90e8-2f9adbdb4c08.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Limit network access to the absolute minimum required for the application to fulfill its business purpose.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.17c5847b-9ac1-4020-9c03-49853eb9fbf8.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'When dealing with private build agents, never open an RDP or SSH port directly to the internet. Use Azure Bastion to provide secure access to Azure Virtual Machines and to perform administrative tasks on Azure PaaS over the internet.'
+    url: /azure/bastion/bastion-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.17c5847b-9ac1-4020-9c03-49853eb9fbf8.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure DDoS Protection Standard protection plans to help protect public endpoints hosted within each application virtual network.
+    url: /azure/ddos-protection/ddos-protection-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.17c5847b-9ac1-4020-9c03-49853eb9fbf8.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Front Door with web application firewall policies to deliver and help protect global HTTP/S applications that span multiple Azure regions.
+    url: /azure/frontdoor/web-application-firewall
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.17c5847b-9ac1-4020-9c03-49853eb9fbf8.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Header ID validation to lock down public application endpoints so they only accept traffic originating from the Azure Front Door instance.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.17c5847b-9ac1-4020-9c03-49853eb9fbf8.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use network security groups and application security groups to micro-segment application traffic.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.17c5847b-9ac1-4020-9c03-49853eb9fbf8.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Avoid using a security appliance to filter intra-application traffic flows.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.17c5847b-9ac1-4020-9c03-49853eb9fbf8.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider the use of Azure Policy to enforce specific network security group rules are always associated with application subnets.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.17c5847b-9ac1-4020-9c03-49853eb9fbf8.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable network security group flow logs and feed them into Traffic Analytics to gain insights into internal and external traffic flows.
+    url: /azure/network-watcher/network-watcher-nsg-flow-logging-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.17c5847b-9ac1-4020-9c03-49853eb9fbf8.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Private Link/Private Endpoints, where available, to secure access to Azure PaaS services within the application design. For information on Azure services that support private link.'
+    url: /azure/private-link/availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.3cde6964-938f-4134-b2cc-1cf181fac774.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'If private endpoint isn''t available and data exfiltration risks are acceptable, use virtual network service endpoints to secure access to Azure PaaS services from within a virtual network.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-considerations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.3cde6964-938f-4134-b2cc-1cf181fac774.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Don't enable virtual network service endpoints by default on all subnets as this will introduce significant data exfiltration channels.
+    url: /azure/private-link/private-link-faq#what-is-the-difference-between-service-endpoints-and-private-endpoints-
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.3cde6964-938f-4134-b2cc-1cf181fac774.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For hybrid application scenarios, access Azure PaaS services from on-premises via ExpressRoute with private peering.'
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.3cde6964-938f-4134-b2cc-1cf181fac774.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use service-managed keys for data protection where possible, removing the need to manage encryption keys and handle operational tasks such as key rotation.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Only use customer-managed keys when there's a clear regulatory requirement.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Key Vault to store all application secrets and certificates.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Provision Azure Key Vault with the soft delete and purge policies enabled to allow retention protection for deleted objects.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Hardware Security Module-backed Azure Key Vault SKU for application production environments.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Deploy a separate Azure Key Vault instance within each regional deployment stamp, providing fault isolation and performance benefits through localization, as well as navigating the scale limits imposed by a single key vault instance.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Follow a least-privilege model by limiting authorization to access and permanently delete secrets, keys, and certificates to specialized custom Azure AD roles and service principals which need it.'
+    url: /azure/key-vault/general/rbac-guide?tabs=azure-cli#best-practices-for-individual-keys-secrets-and-certificates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Establish an automated process for key and certificate rotation. Automate the certificate management and renewal process with public certificate authorities to ease administration.
+    url: /azure/key-vault/managed-hsm/key-rotation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Set alerting and notifications to supplement automated certificate renewals.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define alerts for unexpected usage within Azure Monitor.
+    url: /azure/key-vault/general/alert
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Map regulatory and compliance requirements to Azure Policy definitions.
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.93839efb-0e9f-427f-84ef-983a55e8e84c.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Define common engineering criteria to capture secure and reliable configuration definitions for all utilized Azure services, ensuring this criteria is mapped to Azure Policy assignments to enforce compliance.'
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.93839efb-0e9f-427f-84ef-983a55e8e84c.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Policy for Kubernetes to extend the use of Azure Policy into Kubernetes clusters and apply policies to containers.
+    url: /azure/aks/use-azure-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.93839efb-0e9f-427f-84ef-983a55e8e84c.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use built-in policies where possible to minimize operational overhead of maintaining custom policy definitions.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#policy-driven-governance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.93839efb-0e9f-427f-84ef-983a55e8e84c.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Where custom policy definitions are required, ensure definitions are deployed at suitable management group scope to allow for reuse across encompassed environment subscriptions and to allow for policy reuse across production and lower environments.'
+    url: /azure/governance/policy/tutorials/create-custom-policy-definition
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.93839efb-0e9f-427f-84ef-983a55e8e84c.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Export Azure Active Directory activity logs to the global Log Analytics Workspace used by the application.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-4
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.93839efb-0e9f-427f-84ef-983a55e8e84c.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure Azure Active Directory activity logs are archived within the global Storage Account along with operational data for long-term retention.
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-4
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.93839efb-0e9f-427f-84ef-983a55e8e84c.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Integrate security information and event management with Microsoft Defender for Cloud (formerly known as Azure Security Center).
+    url: /azure/architecture/framework/mission-critical/mission-critical-security#design-recommendations-4
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac698843-efb1-4d10-955f-81619ba4701e.93839efb-0e9f-427f-84ef-983a55e8e84c.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 5925d07b-9966-4556-aaf4-230b6366cd82
+name: ''

@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - d0f0e7fd-c133-4b89-b52c-13b7bbd5e54e
+recommendations:
+  - b4976dd2-6dc3-43e4-9289-dec2d8ed230b
+assignedGroupIds: []
+uid: 7b74e83b-97f3-4626-be63-6a9836f2eade
+name: 'Go-Live - Service Bus: Security'

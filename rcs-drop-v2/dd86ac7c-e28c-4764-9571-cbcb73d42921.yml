@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use the Azure Cost Management APIs for multidimensional cost analysis.
+    description: The Azure Cost Management API lets you implement advanced filters and expressions for Azure consumption through customization. It's available for Azure Enterprise customers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You configure cost alerts for your Azure IoT services.
+    description: Azure Advisor provides a capability to configure recommendation alerts by defining rules. You can also configure alert actions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '2'
+    text: You monitor usage and estimated costs in Azure Monitor.
+    description: 'Azure monitor has two phases for understanding costs: estimating costs when you''re considering Azure Monitor as your monitoring solution, and then tracking actual costs after deployment.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Monitoring is the process of identifying potential risks and actual costs. It includes a way to figure out factors that affect costs.
+isRequired: false
+uid: dd86ac7c-e28c-4764-9571-cbcb73d42921
+name: Monitoring is the process of identifying potential risks and actual costs. It includes a way to figure out factors that affect costs.

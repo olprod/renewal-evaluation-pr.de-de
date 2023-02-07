@@ -1,0 +1,140 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'By adopting a DevOps culture along with DevOps practices and tools, teams gain the ability to better respond to customer needs, increase confidence in the applications they build and achieve business goals faster.'
+links:
+  - title: Implement a process between dev and ops to resolve production issues
+    url: /azure/architecture/framework/devops/principles#roles
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.9c05ca33-c07a-4304-a62d-e27e3e98f3f4.2
+      scoreOf: []
+    context: Implement a process between dev and ops to resolve production issues
+    priority: 95
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Roles & Responsibilities
+  - title: Adopt an Agile culture
+    url: /devops/plan/adopting-agile
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.2293c073-7907-4673-ad7d-550079d5ae14.0
+      scoreOf: []
+    context: Adopt an Agile culture
+    priority: 92
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Adopting Agile Process
+  - title: Drive a Culture of Shipping
+    url: /devops/plan/adopting-agile#a-culture-of-shipping
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.9c0fe2fc-4b23-4e30-bd64-d6272510f69c.4
+        - c897e2b4-87ca-40f1-ad3d-398579be05c7.dacd8f47-a9fb-496b-8d21-0755794da7a0.3
+        - eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8.efd6ad4b-72d7-47c1-83d6-53a5e5692ae5.0
+      scoreOf: []
+    context: Drive a Culture of Shipping
+    priority: 93
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Adopting Agile Process
+  - title: Co-Locate where possible
+    url: /devops/plan/adopting-agile#co-locate-teams-whenever-possible
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.e86f408f-7147-4e52-83c3-24f5f7d759d9.0
+      scoreOf: []
+    context: Co-Locate where possible
+    priority: 80
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Adopting Agile Process
+  - title: Drive a Align Autonomy Team
+    url: /devops/plan/scaling-agile#line-of-autonomy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.0a5bad90-e036-4445-bc92-4e6af860633a.2
+      scoreOf: []
+    context: Drive a Align Autonomy Team
+    priority: 93
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Line of Autonomy
+  - title: Thrive to have both development and operations to own the process end-to-end
+    url: 'https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops-culture'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.9c05ca33-c07a-4304-a62d-e27e3e98f3f4.1
+      scoreOf: []
+    context: Thrive to have both development and operations to own the process end-to-end
+    priority: 85
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Driving DevOps Culture
+  - title: Create a culture of experimentation
+    url: 'https://docs.microsoft.com/en-us/azure/devops/learn/agile/agile-culture'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.9c0fe2fc-4b23-4e30-bd64-d6272510f69c.4
+      scoreOf: []
+    context: Create a culture of experimentation
+    priority: 92
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Driving DevOps Culture
+  - title: Drive alignment for both technical and non-technical teams
+    url: 'https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.9c05ca33-c07a-4304-a62d-e27e3e98f3f4.2
+      scoreOf: []
+    context: Drive alignment for both technical and non-technical teams
+    priority: 90
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Driving DevOps Culture
+  - title: Drive learning and innovating teams
+    url: 'https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/3-explore-first-foundation'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.454cbe4a-8d85-4863-886a-2f8349191c66.3
+      scoreOf: []
+    context: Drive learning and innovating teams
+    priority: 93
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Driving DevOps Culture
+  - title: Build a healthy culture on trust and respect
+    url: 'https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops-culture'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.7ce8ac73-8bac-47b1-95f7-2a503694eeb0.0
+      scoreOf: []
+    context: Build a healthy culture on trust and respect
+    priority: 90
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Driving DevOps Culture
+  - title: Focus on continuous improvement with your team
+    url: 'https://docs.microsoft.com/en-us/learn/modules/characterize-devops-continous-collaboration-improvement/3-explore-continuous-improvement'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 87929634-2c74-4e96-b90b-2b504ace0a88.2293c073-7907-4673-ad7d-550079d5ae14.0
+      scoreOf: []
+    context: Focus on continuous improvement with your team
+    priority: 85
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Collaboration & Improvement
+uid: 1bfc4e8d-a152-4fb8-96fb-8eb01cfda3d1
+name: Drive a DevOps Culture

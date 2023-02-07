@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use the MQTT protocol to connect devices to the cloud.
+    description: Use MQTT or MQTT over WebSockets for a statefull bidirectional connection from your devices or gateways to the cloud.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: "You use the AMQP protocol to connect devices to the cloud.\_"
+    description: Use AMQP or AMQP over WebSockets for a statefull bidirectional connection from your devices or gateways to the cloud.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: You use the AMQP protocol and connection multiplexing to connect gateways and leaf devices to the cloud.
+    description: Use AMQP or AMQP over WebSockets for a statefull bidirectional connection from your devices to the cloud. Use AMQP connection multiplexing to connect leaf devices via your Transparent gateway to the cloud.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: 'Devices that are always (or most of the time) connected, will benefit from using a connection oriented protocol instead of a connectionless protocol because of the lower overhead.'
+isRequired: false
+uid: 68551adf-900a-4c34-a574-a37015e78c72
+name: "Devices that are always (or most of the time) connected, will benefit from using a connection oriented protocol instead of a connectionless protocol because of the lower overhead. Q2.\_"

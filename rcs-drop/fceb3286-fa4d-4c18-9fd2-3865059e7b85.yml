@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are creating a customer feedback survey in Dynamics 365 Customer Voice that will be sent with Microsoft Power Automate when a contact center agent closes a case for a customer.
+
+  The survey includes the question “How would you rate your experience with customer support about {{CaseTitle}}, case number {{CaseNumber}}?” You are expecting the two variables to be replaced with the case title and the case number, respectively.
+
+  When testing the survey, the variables show up as {{CaseNumber}} and {{CaseTitle}}, rather than the actual values from the case that was closed.
+
+  You need to identify the problem so you can update the configuration correctly.
+
+  What is the problem?
+questionnaireUid: 23593f71-f6c1-41dc-8804-9833f6fd03e9
+questions:
+  - uid: fceb3286-fa4d-4c18-9fd2-3865059e7b85-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are creating a customer feedback survey in Dynamics 365 Customer Voice that will be sent with Microsoft Power Automate when a contact center agent closes a case for a customer.
+        isCorrect: true
+      - id: 1
+        text: 'The survey includes the question “How would you rate your experience with customer support about {{CaseTitle}}, case number {{CaseNumber}}?”'
+        isCorrect: false
+      - id: 2
+        text: 'You are expecting the two variables to be replaced with the case title and the case number, respectively.'
+        isCorrect: false
+      - id: 3
+        text: 'When testing the survey, the variables show up as {{CaseNumber}} and {{CaseTitle}}, rather than the actual values from the case that was closed.'
+        isCorrect: false
+uid: fceb3286-fa4d-4c18-9fd2-3865059e7b85
+title: ''

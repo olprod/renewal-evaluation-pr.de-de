@@ -1,0 +1,35 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: 'No'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Update Compliance enables organizations to monitor security, quality, and feature updates for Windows 10/11, view a report of device and update issues related to compliance that need attention and check bandwidth savings incurred across multiple content types by using Delivery Optimization. It is offered through the Azure portal and is included as part of Windows 10/11 licenses. Azure Log Analytics ingestion and retention charges are not incurred on your Azure subscription for Update Compliance data. https://learn.microsoft.com/en-us/windows/deployment/update/update-compliance-get-started'
+isRequired: true
+uid: 32433e96-d7d5-492f-a63b-cfd0e026a9a5
+name: 'Update Compliance enables organizations to monitor security, quality, and feature updates for Windows 10/11, view a report of device and update issues related to compliance that need attention and check bandwidth savings incurred across multiple content types by using Delivery Optimization.'

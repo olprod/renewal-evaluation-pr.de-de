@@ -1,0 +1,71 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Application and resource level logs are either aggregated in a single data sink, or it is possible to cross-query events at both levels'
+    description: 'Are application and resource level logs aggregated in a single data sink, or is it possible to cross-query events at both levels?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Application level events are automatically correlated with resource-level metrics to quantify the current application state
+    description: Are application-level events automatically correlated with resource-level metrics to quantify the current application state?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: A health model is used to qualify what 'healthy' and 'unhealthy' states represent for the workload
+    description: Is a health model used to qualify what 'healthy' and 'unhealthy' states represent for the application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Critical system flows are used to inform the health model
+    description: Are critical system flows used to inform the health model?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: The health model can distinguish between transient and non-transient faults
+    description: Can the health model distinguish between transient and non-transient faults?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: Long-term trends are analyzed to predict operational issues before they occur
+    description: Are long-term trends analyzed to predict operational issues before they occur?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: Retention times for logs and metrics have been defined and with housekeeping mechanisms configured
+    description: Have retention times for logs and metrics been defined and with housekeeping mechanisms configured?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Dashboarding tools should be used to visualize metrics and events collected at the application and resource levels to illustrate the health model and the current operational state of the workload.
+isRequired: true
+uid: b9090eab-febc-42df-9994-3e7157a01ef1
+name: Dashboarding tools should be used to visualize metrics and events collected at the application and resource levels to illustrate the health model and the current operational state of the workload.

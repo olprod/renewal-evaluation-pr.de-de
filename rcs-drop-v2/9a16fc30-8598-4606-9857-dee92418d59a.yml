@@ -1,0 +1,102 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Enable and configure Android Enterprise
+    url: /troubleshoot/mem/intune/configure-android-enterprise-devices-intune
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2eab800b-3e00-4b50-a503-426ef44ec1d7.c32e4331-394b-47e7-87f5-8d2f7f17792e.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable and configure Apple's Automated Device Enrollment (ADE)
+    url: /mem/intune/enrollment/device-enrollment-program-enroll-ios
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2eab800b-3e00-4b50-a503-426ef44ec1d7.c32e4331-394b-47e7-87f5-8d2f7f17792e.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable and configure Windows Autopilot
+    url: /mem/autopilot/existing-devices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2eab800b-3e00-4b50-a503-426ef44ec1d7.c32e4331-394b-47e7-87f5-8d2f7f17792e.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use certificate-based authentication for their VPN and Wi-Fi connection
+    url: /windows/security/identity-protection/vpn/how-to-use-single-sign-on-sso-over-vpn-and-wi-fi-connections
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2eab800b-3e00-4b50-a503-426ef44ec1d7.c8bd76c1-f25b-4bea-aa64-f6269c06d06e.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Intune to use certificate (SCEP) based profiles
+    url: /mem/intune/protect/certificates-scep-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2eab800b-3e00-4b50-a503-426ef44ec1d7.c8bd76c1-f25b-4bea-aa64-f6269c06d06e.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Enerprise Issuing/Sub CA running Windows Server 2012 R2 or above
+    url: /previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831574(v=ws.11)
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2eab800b-3e00-4b50-a503-426ef44ec1d7.c8bd76c1-f25b-4bea-aa64-f6269c06d06e.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Extend on-premises PKI solution by designing and implementing Network Device Enrollment Service (NDES)
+    url: /troubleshoot/mem/intune/verify-ndes-configuration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2eab800b-3e00-4b50-a503-426ef44ec1d7.c8bd76c1-f25b-4bea-aa64-f6269c06d06e.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure administrative access to Certification Authority
+    url: /previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831574(v=ws.11)
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2eab800b-3e00-4b50-a503-426ef44ec1d7.c8bd76c1-f25b-4bea-aa64-f6269c06d06e.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 9a16fc30-8598-4606-9857-dee92418d59a
+name: ''

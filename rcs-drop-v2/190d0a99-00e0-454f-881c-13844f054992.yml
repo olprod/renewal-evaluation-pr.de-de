@@ -1,0 +1,35 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: core
+    text: Core Well-Architected Review
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: data
+    text: Data Services
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+legacyId: workload
+uid: 190d0a99-00e0-454f-881c-13844f054992
+name: What workload type do you want to evaluate?

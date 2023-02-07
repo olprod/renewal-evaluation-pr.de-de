@@ -1,0 +1,60 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization performs data preparation and processing in an ad-hoc fashion with activities happening in silos and by varied tools.
+    description: |
+      Your organization performs data preparation and processing in an ad-hoc fashion with activities happening in silos and by varied tools.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization has dedicated teams who are starting to take shape with some experimentation, using more standardized data zone approach and utilization of data sets to meet business needs. '
+    description: |
+      Your organization has dedicated teams who are starting to take shape with some experimentation, using more standardized data zone approach and utilization of data sets to meet business needs. 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization performs data preparation in unified manner Landing Zones and tools and approaches are standardized, and organizational level adoption is visible and supported.'
+    description: |
+      Your organization performs data preparation in unified manner Landing Zones and tools and approaches are standardized, and organizational level adoption is visible and supported.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization is fully supported with unified skills, technology and funding. Business gains are clearly captured and measured, and data driven decisions are embraced by the organization.'
+    description: |
+      Your organization is fully supported with unified skills, technology and funding. Business gains are clearly captured and measured, and data driven decisions are embraced by the organization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization regularly refines practices and business strategies to create continuous innovation and unified approach to data preparation that underpins entire organization and access to critical business data for wrangling in order to provide accurate analysis of complex data that continues to grow every day.
+    description: |
+      Your organization regularly refines practices and business strategies to create continuous innovation and unified approach to data preparation that underpins entire organization and access to critical business data for wrangling in order to provide accurate analysis of complex data that continues to grow every day.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you leverage Data Lake Zones and validate, transform, and move your datasets into your Curated zone in your data lake?'
+isRequired: true
+uid: f8607402-2bd5-4832-b362-a28542073705
+name: 'Do you leverage Data Lake Zones and validate, transform, and move your datasets into your Curated zone in your data lake? '

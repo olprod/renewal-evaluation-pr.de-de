@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Extremely low
+    description: We do not use PaaS at all
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Somewhat low
+    description: We have run some proof of concepts with PaaS services
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Medium
+    description: A small set of services leverage PaaS resources in production
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: Somewhat high
+    description: A significant share of our services leverage PaaS services
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '4'
+    text: Extremely high
+    description: We are a sophisticated adopter that fully leverages the benefits of PaaS
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: review the tooltips for examples
+isRequired: true
+uid: 977b7658-a426-4119-82dc-985e64b0641a
+name: review the tooltips for examples

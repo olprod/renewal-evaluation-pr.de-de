@@ -1,0 +1,71 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'There''s a designated group within the organization, which is responsible for centralized network management security of this workload.'
+    description: 'Centralizing network management and security can reduce the potential for inconsistent strategies that create potential attacker exploitable security risks. Because all divisions of the IT and development organizations do not have the same level of network management and security knowledge and sophistication, organizations benefit from leveraging a centralized network team’s expertise and tooling.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: 'There are controls in place to ensure that security extends past the network boundaries of the workload in order to effectively prevent, detect, and respond to threats.'
+    description: Traditional network controls based on a 'trusted intranet' approach will not be able to effectively provide security assurances for cloud applications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Enhanced network visibility is enabled by integrating network logs into a Security information and event management (SIEM) solution or similar technology.
+    description: 'Integrating logs from the network devices, and even raw network traffic itself, will provide greater visibility into potential security threats flowing over the wire.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: Cloud virtual networks are designed for growth based on an intentional subnet security strategy.
+    description: 'Most organizations end up adding more resources to networks than initially planned. When this happens, IP addressing and subnetting schemes need to be refactored to accommodate the extra resources. This is a labor-intensive process. There is limited security value in creating a very large number of small subnets and then trying to map network access controls (such as security groups) to each of them.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: 'This workload has a security containment strategy that blends existing on-premises security controls and practices with native security controls available in Azure, and uses a zero-trust approach.'
+    description: Assume breach is the recommended cybersecurity mindset and the ability to contain an attacker is vital to protect information systems.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Legacy network security controls for data loss prevention were deprecated.
+    description: 'Network-based data loss prevention (DLP) is decreasingly effective at identifying both inadvertent and deliberate data loss. The reason for this is that most modern protocols and attackers use network-level encryption for inbound and outbound communications. While the organization can use "SSL-bridging" to provide an "authorized man-in-the-middle" that terminates and then reestablishes encrypted network connections, this can also introduce privacy, security and reliability challenges.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: 'Traffic between subnets, Azure components and tiers of the workload is managed and protected.'
+    description: 'Data filtering between subnets and other Azure resources should be protected. Network Security Groups, PrivateLink, and Private Endpoints can be used for traffic filtering.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Network security has been the traditional linchpin of enterprise security efforts. However, cloud computing has increased the requirement for network perimeters to be more porous and many attackers have mastered the art of attacks on identity system elements.'
+isRequired: false
+legacyId: networking
+uid: 6747ced2-f1a5-4527-84c5-c19ffc405236
+name: Network security has been the traditional linchpin of enterprise security efforts.

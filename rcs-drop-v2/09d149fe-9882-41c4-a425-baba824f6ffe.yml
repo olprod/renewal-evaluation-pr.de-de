@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 1ee9509f-8b12-44c0-b53c-bd68855504cf
+  - 3adc2436-15a1-40ef-9eee-a803a798cc85
+  - 6f6c2de8-2eda-4f7c-a44c-d45df2ba0aa9
+  - 7e84da68-0878-4c43-86ba-dd5eae412d16
+  - 1a7438b7-9298-4754-8eca-52e8faa10ddb
+  - c8748c86-28d4-401b-894a-e76d513f9c85
+recommendations:
+  - 2d68c5c0-51e2-4f27-8dcb-bddb277593ee
+assignedGroupIds: []
+uid: 09d149fe-9882-41c4-a425-baba824f6ffe
+name: 'SQL MI - Performance '

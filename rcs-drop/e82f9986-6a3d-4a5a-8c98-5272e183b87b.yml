@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing a Power Apps app that processes sales transactions for a company’s conference exhibitor booth.
+
+  The app must interact with the company’s cloud-based ERP system to post submitted orders. The app must check a customer’s credit limit when starting a new order.
+
+  Which event framework stage should you recommend?
+questionnaireUid: db5c903f-0b44-42ee-b7d3-8d1304712d4b
+questions:
+  - uid: e82f9986-6a3d-4a5a-8c98-5272e183b87b-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a Power Apps app that processes sales transactions for a company’s conference exhibitor booth.
+        isCorrect: false
+      - id: 1
+        text: The app must interact with the company’s cloud-based ERP system to post submitted orders.
+        isCorrect: true
+      - id: 2
+        text: The app must check a customer’s credit limit when starting a new order.
+        isCorrect: false
+      - id: 3
+        text: Which event framework stage should you recommend?
+        isCorrect: false
+uid: e82f9986-6a3d-4a5a-8c98-5272e183b87b
+title: ''

@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Defined a backup strategy in alignment with recovery targets.
+    description: Is the Azure SQL Database configured with the needed PITR (Point in time restore) and LTR (long term retention) settings?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Defined a disaster recovery strategy to capture recovery steps and failback.
+    description: Is there a BCDR strategy for the database and/or its key workloads and are operational runbooks defined for key failure scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Successfully tested and validated the secondary Managed Instance and failback approach at least once.Are disaster recovery strategies and operational runbooks for key failure scenarios tested on a regular basis.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: disaster-data-sqlmi
+uid: af8646d4-dce7-49e0-a72f-27de58e43022
+name: How are you handling disaster recovery for this Azure SQL MI?

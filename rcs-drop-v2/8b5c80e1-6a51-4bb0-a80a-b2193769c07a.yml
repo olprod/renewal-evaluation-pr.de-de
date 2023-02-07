@@ -1,0 +1,45 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Complete "Introduction to Building apps for Microsoft Teams" module on Microsoft Learn | 39 min
+    url: 'https://docs.microsoft.com/learn/modules/intro-microsoft-teams-apps/'
+    condition:
+      allOf: []
+      anyOf:
+        - 2942ded0-914b-4ccf-b72c-063be6165629.ad3d6166-eed1-44e5-bf32-5aeffe646cb9.0
+        - 2942ded0-914b-4ccf-b72c-063be6165629.ad3d6166-eed1-44e5-bf32-5aeffe646cb9.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Complete "Create Embedded Web Experiences with Tabs for Microsoft Teams" module on Microsoft Learn | 2 hr 24 min
+    url: 'https://docs.microsoft.com/learn/modules/embedded-web-experiences/'
+    condition:
+      allOf: []
+      anyOf:
+        - 2942ded0-914b-4ccf-b72c-063be6165629.846f892c-e54a-487a-b510-0dbbeac31d5c.0
+        - 2942ded0-914b-4ccf-b72c-063be6165629.846f892c-e54a-487a-b510-0dbbeac31d5c.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Complete "Microsoft Teams – Authentication and Single Sign-on" module on Microsoft Learn | 1 hr 15 min
+    url: 'https://docs.microsoft.com/learn/modules/msteams-sso/'
+    condition:
+      allOf: []
+      anyOf:
+        - 2942ded0-914b-4ccf-b72c-063be6165629.266be96a-e436-4fc0-a9e7-64099978f41f.0
+        - 2942ded0-914b-4ccf-b72c-063be6165629.266be96a-e436-4fc0-a9e7-64099978f41f.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 8b5c80e1-6a51-4bb0-a80a-b2193769c07a
+name: ''

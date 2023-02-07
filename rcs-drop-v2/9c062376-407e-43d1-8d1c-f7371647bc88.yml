@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 105e3c26-babc-41ef-a227-0c48c7568fc9
+recommendations:
+  - 9585533f-0c2b-4bea-bd75-4ea18ad2f1e9
+assignedGroupIds: []
+uid: 9c062376-407e-43d1-8d1c-f7371647bc88
+name: 'Go-Live - Firewall: Security'

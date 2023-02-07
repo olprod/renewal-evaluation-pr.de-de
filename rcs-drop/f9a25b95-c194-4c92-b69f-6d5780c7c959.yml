@@ -1,0 +1,36 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company uses Dynamics 365 Customer Service.
+
+  You are a customer service agent. Another agent on the floor near you is working on a case.
+
+  You have more experience of the topic and want to manage the case. You notify the other agent.
+
+  You need to manage the case in the Customer Service workspace.
+
+  Which two actions should you perform? Each correct answer presents part of the solution.
+questionnaireUid: 61ff7bdf-d07a-46be-99f9-f3063be67ab3
+questions:
+  - uid: f9a25b95-c194-4c92-b69f-6d5780c7c959-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: Your company uses Dynamics 365 Customer Service.
+        isCorrect: false
+      - id: 1
+        text: You are a customer service agent.
+        isCorrect: false
+      - id: 2
+        text: Another agent on the floor near you is working on a case.
+        isCorrect: true
+      - id: 3
+        text: You have more experience of the topic and want to manage the case.
+        isCorrect: true
+      - id: 4
+        text: You notify the other agent.
+        isCorrect: false
+    manualId: Question 26-MB-230.2.12
+uid: f9a25b95-c194-4c92-b69f-6d5780c7c959
+title: ''

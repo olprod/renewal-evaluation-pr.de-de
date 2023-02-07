@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: G
+    text: Monitor a deployed model by collecting and evaluating model data.
+    description: 'You can use Azure Application Insights to collect data and analyze from an endpoint. Data collected includes output data; responses; request rates, response times, and failure rates; dependency rates, response times, and failure rates; and exceptions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: H
+    text: Enable logging in machine learning training runs.
+    description: The Azure Machine Learning Python SDK lets you log real-time information using both the default Python logging package and SDK-specific functionality.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: J
+    text: Use alert rules and events in your application.
+    description: Azure Machine Learning workspace alerts and events allow you to set up triggers based on actions performed.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: K
+    text: Analyze Azure Machine Learning platform metrics and logs from Azure Monitor.
+    description: 'Azure Machine Learning platform metrics and the activity log are collected and stored to be analyzed along with metrics from other Azure services, by opening Metrics from Azure Monitor.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: L
+    text: None of the above.
+    description: ' '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.ai
+stem: 'Traditional application and infrastructure monitoring is based on whether the application is running or on its response time. However, cloud-based monitoring offers many more opportunities that you can leverage in order to give customers the best experience.'
+isRequired: false
+legacyId: '4'
+uid: bccf7ecf-2232-439e-b790-bbce4c9fed31
+name: Traditional application and infrastructure monitoring is based on whether the application is running or on its response time.

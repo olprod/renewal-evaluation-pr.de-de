@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are an administrator of Microsoft Dynamics 365 Customer Insights in your organization. You are working on configuring search indexes for customer profiles.
+
+  The marketing team provided you with 25 attributes they want to use to search Customer Profiles on the Customer Page. You need to explain how search indexes are configured to the marketing team.
+
+  Which two pieces of information should you share with the marketing team when reviewing the attributes list they plan to use to search Customer Profiles? Each correct answer presents a complete solution.
+questionnaireUid: 6458f69d-2f09-4953-ab45-d1716281ce42
+questions:
+  - uid: fe128e2c-7bf5-4895-8c77-3ad4a6d8959d-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: 'You are an administrator of Microsoft Dynamics 365 Customer Insights in your organization. '
+        isCorrect: true
+      - id: 1
+        text: You are working on configuring search indexes for customer profiles.
+        isCorrect: true
+      - id: 2
+        text: The marketing team provided you with 25 attributes they want to use to search Customer Profiles on the Customer Page.
+        isCorrect: false
+      - id: 3
+        text: You need to explain how search indexes are configured to the marketing team.
+        isCorrect: false
+    manualId: 'MB-260.5.1 '
+uid: fe128e2c-7bf5-4895-8c77-3ad4a6d8959d
+title: ''
+manualId: ''

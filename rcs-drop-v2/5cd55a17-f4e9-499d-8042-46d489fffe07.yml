@@ -1,0 +1,78 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Built a capacity model for the application '
+    description: 'Is there a capacity model for the application identifying relationships between the utilization of various components, to capture when and how to scale-out?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Planned for expected usage patterns.
+    description: Has sufficient capacity been provisioned to handle expected usage patterns?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Confirmed Azure service availability in required regions.
+    description: 'Are Azure services available in all of the required regions, including any disaster recovery regions?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: Confirmed Availability Zones are available in required regions.
+    description: 'Are Azure Availability Zones available in all of the required regions, including any disaster recovery regions?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Validated required capacity is within Azure service scale limits and quotas.
+    description: 'Is the required capacity, both initial and future growth, within Azure service scale limits and quotas?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Validated all APIs/SDKs against target run-times and languages for required functionality.
+    description: Are all APIs/SDKs validated against target runtime/languages for required functionality?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: Aligned with Azure roadmaps for required preview services and capabilities.
+    description: Are any preview services/capabilities required in production?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Capacity and service availability by region
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWDIfT'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Azure services and capacity can vary by region, so it is important to understand if targeted regions offer required capabilities.'
+isRequired: false
+legacyId: '2'
+uid: 5cd55a17-f4e9-499d-8042-46d489fffe07
+name: 'Azure services and capacity can vary by region, so it is important to understand if targeted regions offer required capabilities.'

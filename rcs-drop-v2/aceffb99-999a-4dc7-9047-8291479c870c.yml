@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'For an initial Dynamics 365 implementation project, most customers can benefit by requesting assistance from a Microsoft certified Dynamics 365 partner. This questionnaire will help you understand the important considerations of selecting the right partner for your project.'
+hideEmptyGuidance: false
+questions:
+  - d0696b56-b121-4c68-8deb-005fd19adda7
+  - 821abdbe-6cd1-4112-9e52-88f6cc4e165c
+  - b20bd7bc-a298-4f34-ad66-3c825936bdca
+recommendations:
+  - 2ff23095-1788-4e6c-884d-ef3715333c9c
+assignedGroupIds: []
+uid: aceffb99-999a-4dc7-9047-8291479c870c
+name: Partner Selection

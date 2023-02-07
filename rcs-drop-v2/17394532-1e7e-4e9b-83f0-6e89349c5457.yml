@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Security in terms of network endpoints, data exfiltration prevention, enforcing network traffic flow for management and data plane operations, data encryption at-rest & in-transit, software deployment'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'Identity and access management in terms of authentication and access control, segregation of duties, multi-factor authentication and conditional access'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'Governance in terms of data export, import, privacy, usage and residency'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'Operations in terms of monitoring, backup management, disaster recovery, SKU, capacity management, patch and update management, audit & configuration management'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'Azure service compliance in terms of service attestation, certification, external audits, availability and service-level agreements (SLAs)'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 17394532-1e7e-4e9b-83f0-6e89349c5457
+name: 'Are you leveraging Landing Zone guidance to have a service enablement framework that takes into consideration the following? '

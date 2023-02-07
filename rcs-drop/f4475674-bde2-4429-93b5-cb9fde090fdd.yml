@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |
+  Azure Synapse Analytics is compatible with code developed for Azure SQL Data Warehouse.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: ef37212c-9862-47f4-953d-2666d007224d
+questions:
+  - uid: f4475674-bde2-4429-93b5-cb9fde090fdd-q-0
+    title: Azure Synapse Analytics is compatible with code developed for Azure SQL Data Warehouse.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Select Yes if the statement is true.
+        isCorrect: true
+      - id: 1
+        text: 'Otherwise, select No.'
+        isCorrect: false
+uid: f4475674-bde2-4429-93b5-cb9fde090fdd
+title: Azure Synapse Analytics is compatible with code developed for Azure SQL Data Warehouse.

@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - e635b898-4742-4418-a532-c42da1e3856d
+recommendations:
+  - f13bf51d-765a-4234-97cc-1d11fad2ac40
+assignedGroupIds: []
+uid: 72040c6f-e9be-49f4-88a1-2e2e0f10b59a
+name: 'Go-Live - SQL Database: Performance Efficiency'

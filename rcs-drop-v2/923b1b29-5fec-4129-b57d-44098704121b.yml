@@ -1,0 +1,29 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Optimizing operations to reduce costs
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+  - id: B
+    text: Engaging customers with improved digital experiences
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+  - id: C
+    text: Transforming products and services to drive new revenue opportunities
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+  - id: D
+    text: Empowering employees to improve agility
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: false
+legacyId: '1'
+uid: 923b1b29-5fec-4129-b57d-44098704121b
+name: Which of the following is most important to accomplish?

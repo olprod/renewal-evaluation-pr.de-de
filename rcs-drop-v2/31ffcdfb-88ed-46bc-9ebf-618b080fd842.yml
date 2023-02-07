@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We''ve integrated Microsoft Defender for Endpoint with Defender for Cloud to detect and protect against attacks such as botnets and crypto-mining, and to discover and remediate any unnecessary resource usage created by these common attacks without the intervention of a security analyst.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 80
+  - id: '1'
+    text: We have a well-defined tagging strategy that allows us to get the right information and insights at the right time to produce reports around emissions from our security appliances.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 31ffcdfb-88ed-46bc-9ebf-618b080fd842
+name: How well are your endpoint mitigation tactics and reporting optimized to detect and remediate unnecessary resource usage?

@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Each subscription has a limit of 100 Container Groups deployed at any given time
+    url: /azure/container-instances/container-instances-quotas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dc55ee58-cd9a-48bf-b5e6-064501eb37c1.9c75ea81-cbf3-415f-b3c3-65b96a033dc6.A
+      scoreOf: []
+    context: Each subscription has a limit of 100 Container Groups deployed at any given time. This limit can be increased by contacting support.
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+  - title: Consider identifying opportunities to reduce the number of containers per group or evaluating Azure Kubernetes Service
+    url: /azure/container-instances/container-instances-quotas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dc55ee58-cd9a-48bf-b5e6-064501eb37c1.9c75ea81-cbf3-415f-b3c3-65b96a033dc6.B
+      scoreOf: []
+    context: 'Multi-container groups are useful in cases where you want to divide a single functional task into a small number of container images. However, they all share the same resources and have the same lifecycle.The maximum number of containers per container group permitted is 60; However, if any container group is using more than 2 or 3 containers, consider whether there is a good use case for these containers to share resources and lifecycle. Consider identifying opportunities to reduce the number of containers per group or evaluating Azure Kubernetes Service.'
+    priority: 25
+    reportingCategory: Design
+    reportingSubCategory: Reliability
+  - title: Have a plan or configuration in place to insulate against regional outages affecting Azure Container Instances
+    url: /azure/traffic-manager/traffic-manager-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dc55ee58-cd9a-48bf-b5e6-064501eb37c1.9c75ea81-cbf3-415f-b3c3-65b96a033dc6.C
+      scoreOf: []
+    context: 'Azure Container Instances are deployed to a single Azure Region. If you require high-availability for applications running in ACI, consider employing a multi-region deployment using Azure Front Door or Azure Traffic Manager. This will enable high-availability across multiple regions in the event of a short term outage or longer term disaster. This can also be used to offload SSL.'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+uid: d63c88bb-b2a1-4631-b6ef-77a6759f3e6c
+name: ''

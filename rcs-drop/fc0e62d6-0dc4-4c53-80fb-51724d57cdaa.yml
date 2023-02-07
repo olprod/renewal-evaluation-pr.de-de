@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are planning redundancy for an Azure Storage account. A corporate compliance policy requires that all data remains within the East US Azure region.
+
+  Which redundancy option provides the most fault tolerance while meeting the compliance policy?
+questionnaireUid: 256c03a4-5519-47db-98f1-91332a42c40d
+questions:
+  - uid: fc0e62d6-0dc4-4c53-80fb-51724d57cdaa-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are planning redundancy for an Azure Storage account.
+        isCorrect: false
+      - id: 1
+        text: A corporate compliance policy requires that all data remains within the East US Azure region.
+        isCorrect: true
+      - id: 2
+        text: Which redundancy option provides the most fault tolerance while meeting the compliance policy?
+        isCorrect: false
+      - id: 3
+        text: Locally-redundant storage (LRS)
+        isCorrect: false
+uid: fc0e62d6-0dc4-4c53-80fb-51724d57cdaa
+title: ''

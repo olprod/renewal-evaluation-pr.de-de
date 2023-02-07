@@ -1,0 +1,36 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company uses Azure AD Identity protection.
+
+  Your plan to create the following administrators:
+
+  - Admin1 will be assigned the Global administrator role
+
+  - Admin2 will be assigned the Security administrator role
+
+  - Admin3 will be assigned the Security reader role
+
+  - Admin4 will be assigned the User administrator role
+
+  What administrators will receive Users at risk detection alerts from Azure AD Identity protection?
+questionnaireUid: 262f484a-c709-4741-a032-a07d01031cb3
+questions:
+  - uid: e807fb9a-f018-451f-862b-e592fd34799d-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company uses Azure AD Identity protection.
+        isCorrect: false
+      - id: 1
+        text: 'Your plan to create the following administrators:'
+        isCorrect: true
+      - id: 2
+        text: Admin1 will be assigned the Global administrator role
+        isCorrect: false
+      - id: 3
+        text: Admin2 will be assigned the Security administrator role
+        isCorrect: false
+uid: e807fb9a-f018-451f-862b-e592fd34799d
+title: ''

@@ -1,0 +1,21 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: The Network Topology and Connectivity design area is critical for establishing a foundation for your cloud network design.
+hideEmptyGuidance: false
+questions:
+  - 173bf92e-2ce8-4e36-9b16-5e14a72761c8
+  - 5cde8ce6-b8c2-4130-a736-2bfa22eca47c
+  - cbd258f8-917f-44b4-9907-5f95169d980e
+  - 8f30f115-8f48-49fa-a13c-17de212f0f58
+  - 924d3b2f-ac8d-473a-985a-121cd9402b49
+  - 32e0b039-2840-4924-86c9-e82baaf54073
+  - b8335938-ffd8-4096-ad47-b730e049e958
+  - f7863b17-7afc-4f3a-9106-6a1ee0361c9a
+  - c86c3b7f-4101-4847-b9cb-b6248fcf4421
+  - 4033e233-cbac-4352-9dfc-f48cc87542d5
+  - ec4a10f1-ca69-4a47-93c8-48513211efdb
+recommendations:
+  - 0a6d2bba-ea3b-425f-ae15-03736385f941
+assignedGroupIds: []
+uid: e22f69ec-9647-4822-8904-3ea2583f634f
+name: Network topology and connectivity

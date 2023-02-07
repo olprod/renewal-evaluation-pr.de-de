@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: No specific mapping or architectural analysis has been done to determine an application strategy
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'Applications in scope have been selected, but there is no explicit mapping of business processes (or sub-processes) to applications'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: High-level business process scope to application mapping has been conducted and a deeper analysis sufficient to help drive a solution blueprint is planned
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'High-level business process scope to application mapping has been conducted and applications and ISVs identified, sufficient to drive work towards a solution blueprint'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: To what extent have the business processes in scope been mapped to applications/systems?
+isRequired: true
+uid: 1a8e8c41-cba5-4130-b004-e0fb1f737de3
+name: To what extent have the business processes in scope been mapped to applications/systems?

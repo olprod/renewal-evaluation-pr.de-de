@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We envision our project as a single event and plan to build and deploy our applications all at once.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We see the value in starting with smaller solutions and then deploying continual enhancements, but we are unsure of how to deploy partial solutions while meeting users'' needs.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We are migrating users from legacy applications and the full application functionality needs to be deployed at once to enable the migration. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'My organization''s approach to digital transformation includes a clear understanding of the core business model and how the application being developed impacts the key elements of the business model. Our business transformation goals are clearly articulated, and communicated, and include specific measurable KPIs. Our implementation team understands the business processes in scope and the business teams are closely engaged to optimize the process where needed.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Your organization's approach to digital transformation is critical to a successful outcome. In most cases it is best to start with a small MVP pilot that targets specific business processes; then expand incrementally with more capabilities over time.
+
+  Which of these statements best describes your organization's approach to digital transformation?
+isRequired: true
+uid: 0cd8230c-6dc6-4a8f-a533-5f26ca0b65c7
+name: Your organization's approach to digital transformation is critical to a successful outcome.

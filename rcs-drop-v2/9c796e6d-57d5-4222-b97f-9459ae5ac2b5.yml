@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Message size is close to the 4KB boundary.
+    description: "When downstream devices send small messages through a gateway to the cloud, take into account the 4KB message size for calculating daily quota of the IoT Hub.\_Combine small messages into larger ones and always try to use a message size close to the 4KB boundary."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: Application-level batching combines smaller messages at the downstream device.
+    description: "Use application-level batching to combine multiple smaller messages at the downstream device into larger messages before sending them through the gateway to the cloud. This limits the message overhead at the downstream device and the gateway, and reduces the number of writes to local disk storage\_at the gateway."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: 'Depending on the device type, frequency of data change, protocol used, and application characteristics, downstream devices can send small or larger messages to a gateway/IoT Edge device. Combining small messages into large messages can improve the performance and lower the overhead.'
+isRequired: false
+uid: 9c796e6d-57d5-4222-b97f-9459ae5ac2b5
+name: 'Depending on the device type, frequency of data change, protocol used, and application characteristics, downstream devices can send small or larger messages to a gateway/IoT Edge device. Combining small messages into large messages can improve the performance and lower the overhead.'

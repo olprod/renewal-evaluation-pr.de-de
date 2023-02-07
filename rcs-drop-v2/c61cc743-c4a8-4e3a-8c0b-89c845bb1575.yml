@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We understand Lakehouse Architecture and plan to explore the Databricks Lakehouse Platform that has the architectural features of a lakehouse.
+    description: Databricks Lakehouse Platform has the architectural features of a lakehouse to unify unify data warehousing and AI use cases on a single platform.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: We plan to enable lakehouse pattern using Azure Synapse Analytics service.
+    description: 'Azure Synapse Analytics service, which integrates with Azure Databricks, enables a similar lakehouse pattern.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you use or have considered Data Lakehouse Architecture?
+isRequired: true
+uid: c61cc743-c4a8-4e3a-8c0b-89c845bb1575
+name: Do you use or have considered Data Lakehouse Architecture?

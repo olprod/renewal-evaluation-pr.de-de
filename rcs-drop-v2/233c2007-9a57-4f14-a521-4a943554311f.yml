@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: SQL Server(s) can be automatically deployed to a new region for non-production purposes without any manual operations to recover from disaster scenarios.
+    description: Can the SQL Server(s) be deployed automatically from scratch without any manual operations?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: The lifecycle of the SQL Server(s) is decoupled from its dependencies.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: The time it takes to deploy an entire production environment is tested and validated.
+    description: Is the time it takes to deploy an entire end-to-end production environment understood and validated?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Made sure all alerts from primary and secondary servers are integrated into your ITSM for the operation team to take actions and follow up.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 233c2007-9a57-4f14-a521-4a943554311f
+name: What reliability allowances for operations have you made?

@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics Data Discovery and Classification.
+    description: 'It provides basic capabilities for discovering, classifying, labeling, and reporting the sensitive data in your databases.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Use Azure Synapse Analytics vulnerability assessment.
+    description: 'SQL vulnerability assessment is an easy-to-configure service that can discover, track, and help you remediate potential database vulnerabilities. Use it to proactively improve your database security.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: Use Azure Synapse Analytics Advanced Threat Protection.
+    description: Advanced Threat Protection detects anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: Use Azure Synapse Analytics Role-Based Access Control (RBAC).
+    description: 'Azure RBAC is used to manage who can create, update, or delete the Synapse workspace and its SQL pools, Apache Spark pools, and Integration runtimes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: Use Auditing for Azure Synapse Analytics.
+    description: 'Auditing for Azure Synapse Analytics tracks database events and writes them to an audit log in your Azure storage account, Log Analytics workspace, or Event Hubs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: 'Discover, connect, and explore data in Azure Synapse Analytics using Azure Purview.'
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Set up access control for your Synapse Analytics workspace.
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: Control storage account access for serverless SQL pool in Azure Synapse Analytics.
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: governance-data-synapse
+uid: 234beb16-8593-440e-8fe3-f9920cadb733
+name: What considerations for compliance and governance do you need to take?

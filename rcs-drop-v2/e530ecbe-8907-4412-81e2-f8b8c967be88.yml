@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'When you''re making the shift to the cloud, there are technical considerations around how it will help improve how you manage and maintain your cloud and workloads. Discover the technical flexibility, efficiencies, and capabilities that help you build a business case to adopt the cloud.'
+hideEmptyGuidance: false
+questions:
+  - 16783bfd-7a26-4389-88ea-ce5ff8b176aa
+recommendations:
+  - 7214acd5-459b-44c9-9956-816e5dd3f936
+assignedGroupIds: []
+uid: e530ecbe-8907-4412-81e2-f8b8c967be88
+name: Technical Considerations in creating your business case

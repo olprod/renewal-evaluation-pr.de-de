@@ -1,0 +1,18 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Continuous security in DevOps should cover a holistic view of security including security culture, secure software delivery, and secure infrastructure.'
+hideEmptyGuidance: false
+questions:
+  - 65e1a69f-b203-4dc3-bb42-ab33b63867ec
+  - fd47a428-598a-4a46-971f-78cae0cc16d1
+  - 733023cb-0897-43f5-98a7-a5d7ec7a3e69
+  - 24bbd7d3-16e6-4333-a45a-59f29b56db3c
+  - bdd6fdb9-e132-4c1f-80b5-6ce9d739a780
+  - 143afbcc-cfff-48f9-b54a-4878bf3c299e
+  - 497199fc-dc9d-427e-9eb1-5da771b70685
+  - 250c42e7-21dd-48f7-b07a-0faff7bcf4a3
+recommendations:
+  - 416566b9-03ed-4b91-a1b5-43375b74afb7
+assignedGroupIds: []
+uid: 77989738-b0b1-4e46-991e-53514b20936a
+name: Continuous Security

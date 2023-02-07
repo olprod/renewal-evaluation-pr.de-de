@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Size your database-hosting VMs correctly
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 743af4be-98a8-44aa-8005-1e37dc2e51c2.4f76e992-68ac-4d15-b448-b44782bbe830.A
+      scoreOf: []
+    context: 'Right-sizing is critical for databases performance, and they affect the whole application most of the time. Start by collecting the cpu, memory, and storage throughput requirements of the workload at peak times. After IOPS and throughput requirements at peak are defined then evaluate VM sizes offers that capacity. Best Practices: DS3_v2 or higher for SQL Enterprise edition; DS2_v2 or higher for SQL Standard and Web editions.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+  - title: Optimize databases-storing volumes
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 743af4be-98a8-44aa-8005-1e37dc2e51c2.4f76e992-68ac-4d15-b448-b44782bbe830.B
+      scoreOf: []
+    context: 'Best Practices: Use a minimum of 2 P30 disks (1 for log files and 1 for data files including TempDB). For workloads requiring ~50,000 IOPS, consider using an Ultra SSD; Avoid using operating system or temporary disks for database storage or logging; Enable read caching on the disk(s) hosting the data files and TempDB data files; Do not enable caching on disk(s) hosting the log file. Important: Stop the SQL Server service when changing the cache settings for an Azure VM disk; Stripe multiple Azure data disks to get increased IO throughput; Format with documented allocation sizes; Place TempDB on local SSD for mission critical SQL Server workloads (after choosing correct VM size).'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Loosen the Heartbeat value on SQL Server clusters running on Azure
+    url: /archive/blogs/alwaysonpro/iaas-with-sql-alwayson-tuning-failover-cluster-network-thresholds
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 743af4be-98a8-44aa-8005-1e37dc2e51c2.4f76e992-68ac-4d15-b448-b44782bbe830.C
+      scoreOf: []
+    context: 'When running Windows Failover Clustering in IaaS with SQL Server AlwaysOn, changing the cluster setting to a more relaxed monitoring state is recommended. Cluster settings out of the box are restrictive and could cause unneeded outages. The default settings are designed for highly tuned on premises networks and does not take into account the possibility of induced latency caused by a multi-tenant environment such as Windows Azure (IaaS).'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+uid: ad70b269-6dec-4912-8fe9-a17651d34f5b
+name: ''

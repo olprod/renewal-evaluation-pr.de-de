@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 0f9bd08f-52eb-4aca-930d-8e05e3c45710
+  - 319ffc5e-82c2-49da-8cd9-fe94abd9f7e8
+recommendations:
+  - 4778d860-dde5-45f8-864b-b8eba50a613f
+assignedGroupIds:
+  - 3529bb1b-b511-4aea-9985-cde430e17278
+uid: 44213a3b-df8e-4a6a-838f-3542ad18108c
+name: Multitenant Architecture | Governance and resource organization

@@ -1,0 +1,56 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: 'https://azure.microsoft.com/en-us/global-infrastructure/data-residency/#overview'
+description: 'If any data sovereignty requirements exist, custom user policies can be deployed to enforce them.'
+links:
+  - title: 'Track costs across business units, environments, or projects'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/track-costs'
+    condition:
+      allOf:
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.eafc705b-d582-4b2e-9e0e-71f461c36c67.3
+      anyOf:
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.eafc705b-d582-4b2e-9e0e-71f461c36c67.0
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.eafc705b-d582-4b2e-9e0e-71f461c36c67.1
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.eafc705b-d582-4b2e-9e0e-71f461c36c67.2
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.eafc705b-d582-4b2e-9e0e-71f461c36c67.3
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.eafc705b-d582-4b2e-9e0e-71f461c36c67.4
+      noneOf:
+        - '--.undefined.'
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure governance
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/governance'
+    condition:
+      allOf: []
+      anyOf:
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.25d9394a-c458-420b-a781-5d69728755ba.0
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.25d9394a-c458-420b-a781-5d69728755ba.1
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.25d9394a-c458-420b-a781-5d69728755ba.2
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.25d9394a-c458-420b-a781-5d69728755ba.3
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.25d9394a-c458-420b-a781-5d69728755ba.4
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: How to optimize your cloud investment with Cost Management
+    url: 'https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-best-practices?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/toc.json'
+    condition:
+      allOf: []
+      anyOf:
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.abd2e3ba-f297-4c83-a32b-1c8e320f5ff2.0
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.abd2e3ba-f297-4c83-a32b-1c8e320f5ff2.1
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.abd2e3ba-f297-4c83-a32b-1c8e320f5ff2.2
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.abd2e3ba-f297-4c83-a32b-1c8e320f5ff2.3
+        - ec155b68-4585-4c4c-95c3-8684946a1c03.abd2e3ba-f297-4c83-a32b-1c8e320f5ff2.4
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 9273a20d-9804-485c-a2e1-1ea6bd38ce1a
+name: Region Policy for data sovereignty

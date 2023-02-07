@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company plans to deploy Dynamics 365 Fraud Protection. The company currently does not have a tenant in which they can provision Fraud Protection.
+
+  You must start the tenant creation process for the company.
+
+  What should you use to start the process?
+questionnaireUid: 3ff848b4-e9e5-4d5b-9928-69356d6048f4
+questions:
+  - uid: fa76098a-5a62-4bb3-84c8-3c547d2fadd9-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company plans to deploy Dynamics 365 Fraud Protection.
+        isCorrect: false
+      - id: 1
+        text: The company currently does not have a tenant in which they can provision Fraud Protection.
+        isCorrect: true
+      - id: 2
+        text: You must start the tenant creation process for the company.
+        isCorrect: false
+      - id: 3
+        text: What should you use to start the process?
+        isCorrect: false
+      - id: 4
+        text: Lifecycle Services
+        isCorrect: false
+uid: fa76098a-5a62-4bb3-84c8-3c547d2fadd9
+title: ''

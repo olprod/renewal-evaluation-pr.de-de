@@ -1,0 +1,49 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have evaluated scenarios to perform A/B testing or use slots with Azure Functions that are tied to events.
+    description: 'If you are doing A/B testing or using slots and your Azure Functions are tied to events, then a new deployment (slot B) might start picking up events as soon as it is deployed. Care needs to be taken for events such that you disable a slot or have your code smart enough not to process certain items when in a certain slot (this can be impossible for certain triggers).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: The functions leverage batching messages for better performance.
+    description: Some triggers like Event Hub enable receiving a batch of messages on a single invocation. Batching messages has much better performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: The complex functions are designed to allow for transient and persistent failures.
+    description: 'Assume your function could encounter an exception at any time. Design your functions with the ability to continue from a previous fail point during the next execution. Depending on how complex your system is, you may have: involved downstream services behaving badly, networking outages, or quota limits reached, etc. All of these can affect your function at any time. You need to design your functions to be prepared for it.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: We are aware that orchestrator of durable functions utilizes a replay pattern and must be deterministic.
+    description: 'Orchestrator functions use event sourcing to ensure reliable execution and to maintain local variable state. The replay behavior of orchestrator code creates constraints on the type of code that you can write in an orchestrator function. For example, orchestrator functions must be deterministic: an orchestrator function will be replayed multiple times, and it must produce the same result each time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf:
+    - waf-config-golive.422e38d1-679d-4fe3-9d62-f8ffd869329c.B
+  noneOf: []
+stem: 'Please choose the applicable Well-Architected reliability considerations for Azure Functions. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Azure Functions
+uid: 69bba8fe-9075-4a2b-b5a9-4ccec994203b
+name: Please choose the applicable Well-Architected reliability considerations for Azure Functions.

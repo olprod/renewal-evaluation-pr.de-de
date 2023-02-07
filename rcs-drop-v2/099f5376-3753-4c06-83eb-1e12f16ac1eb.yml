@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not see the need or use-case to implement Cognitive Services.
+    description: Your organization does not see the need or use-case to implement Cognitive Services.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization understands the benefits of leveraging Cognitive Services and planning to identify a use-case in proving the capability.
+    description: Your organization understands the benefits of leveraging Cognitive Services and planning to identify a use-case in proving the capability.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has tapped into cognitive service capabilities to harness ability for prepping and enriching data with artificial intelligence.
+    description: Your organization has tapped into cognitive service capabilities to harness ability for prepping and enriching data with artificial intelligence.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has is using Cognitive Services tools across some pockets of data estate to build intelligence into data applications.
+    description: Your organization has is using Cognitive Services tools across some pockets of data estate to build intelligence into data applications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has standardized the use of Cognitive Services over using data in a Spark table, then, using pretrained machine learning models, the service applies AI to your organizations data.'
+    description: 'Your organization has standardized the use of Cognitive Services over using data in a Spark table, then, using pretrained machine learning models, the service applies AI to your organizations data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you enrich your data with Azure Cognitive Service?
+isRequired: true
+uid: 099f5376-3753-4c06-83eb-1e12f16ac1eb
+name: Do you enrich your data with Azure Cognitive Service?

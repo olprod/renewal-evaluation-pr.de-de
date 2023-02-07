@@ -1,0 +1,131 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: How do you ensure that your workload stays up in case of a disaster?
+    description: 'Perform business continuity drills. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: B
+    text: Perform disaster recovery and fault injection.
+    description: 'If the application should be resilient to infrastructure failures, introducing faults in the underlying infrastructure and observing how the application behaves is fundamental to increasing the trust in your redundancy mechanisms.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: C
+    text: Do you automate testing on deployments?
+    description: Automating tests is the best way to make sure that they are executed.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: D
+    text: Do you use manual testing when required?
+    description: Some processes can't be automated. How do you ensure those manual processes are still run?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: E
+    text: Is there Database Unit Testing in your DevOps pipeline?
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: F
+    text: 'Is the application tested for performance, scalability, and resiliency?'
+    description: 'The database should be tested for performance, scalability, and resiliency.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: G
+    text: 'When do you test for performance, scalability, and resiliency?'
+    description: These tests should be performed as a part of each production release.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: H
+    text: Do your application and database work with A/B testing?
+    description: 'For new features, consider A/B testing in production using feature switches.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: I
+    text: Is the application tested with injected faults?
+    description: Fault injection tests should be utilized.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: J
+    text: Do you know if smoke tests are performed during database deployments?
+    description: Smoke tests should be performed during database deployments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: K
+    text: Do you know when integration testing is performed?
+    description: Integration testing should be performed as part of the database deployment process.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: L
+    text: Are tests automated and carried out periodically or on-demand?
+    description: All tests should be automated and carried out periodically.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: M
+    text: Do you know what happens when a deployment test fails?
+    description: Failing tests temporarily block a deployment and lead to a deeper analysis of what has happened.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: 'N'
+    text: What degree of security testing is performed?
+    description: Security and penetration testing are performed regularly.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: O
+    text: 'Do critical test environments have 1:1 parity with the production environment?'
+    description: 'Critical test environments should have 1:1 parity with the production environment.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 19a86b8a-98cf-44f6-8fd9-c08b9bac0721
+name: How are you testing your DevOps infrastructure?

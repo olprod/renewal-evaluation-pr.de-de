@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - aba6c842-3874-45be-86fa-dc7dc9721edb
+recommendations:
+  - a38b160d-0b56-4f69-b0fe-de3cc2de33ec
+  - 6c9cac47-e81e-41a2-861b-08d00e01569b
+assignedGroupIds:
+  - b6a324fd-d21d-4f72-ae18-f475f53334f0
+uid: b7e5129a-103b-450e-a8c2-b94924e0d0ee
+name: 'Go-Live - App Service Environment: Cost Optimization'

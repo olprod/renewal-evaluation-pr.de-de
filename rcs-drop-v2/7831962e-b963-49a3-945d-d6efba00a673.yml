@@ -1,0 +1,486 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Take advantage of the Azure hybrid use benefit
+    url: /azure/azure-sql/azure-hybrid-benefit?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.A
+      scoreOf: []
+    context: Azure Hybrid Benefit allows you to exchange your existing licenses for discounted rates on Azure SQL Database and Azure SQL Managed Instance. You can save up to 30 percent or more on SQL Database and SQL Managed Instance by using your Software Assurance-enabled SQL Server licenses on Azure. The Azure Hybrid Benefit page has a calculator to help determine savings
+    priority: 50
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Use Dev/Test licensing
+    url: 'https://azure.microsoft.com/en-us/pricing/dev-test/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.B
+      scoreOf: []
+    context: 'Provision fast, lean, and highly secure dev/test workloads on Azure—and realize substantial cost savings compared to your production workloads. Your dev/test discounted rates continue as long as you maintain your Visual Studio subscript'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Use reserved capacity
+    url: /azure/azure-sql/database/reserved-capacity-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.C
+      scoreOf: []
+    context: 'Save money with Azure SQL Database and SQL Managed Instance by committing to a reservation for compute resources compared to pay-as-you-go prices. With reserved capacity, you make a commitment for SQL Database and/or SQL Managed Instance for a period of one or three years to get a significant discount on the compute costs. To purchase reserved capacity, you should specify the Azure region, deployment type, performance tier, and term'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Manage long-term backup retention policies
+    url: /azure/azure-sql/database/long-term-backup-retention-configure?tabs=portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.D
+      scoreOf: []
+    context: 'In an Azure SQL Database, you can set a Long-Term backup Retention (LTR) policy (LTR) automatically retain backups in separate Azure Blob storage containers for up to 10 years. You can recover a database using these backups using the Azure portal, Azure CLI, or PowerShell. LTR policies are also supported for Azure SQL Managed Instance'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Server maintenance
+  - title: Use cost management tools to track costs
+    url: /azure/cost-management-billing/costs/cost-mgt-best-practices#tag-shared-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.E
+      scoreOf: []
+    context: 'Cost Management provides tools to plan, analyze, and reduce your spending to maximize your cloud investment. A methodical approach to cost management is provided and it highlights the tools available to you as you address your organization''s cost challenges. Azure makes it easy to build and deploy cloud solution'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Tag your resources
+    url: 'https://azure.microsoft.com/en-us/blog/announcing-the-support-for-tags-in-cost-management-apis/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.F
+      scoreOf: []
+    context: 'Apply tags to your Azure resources, resource groups, and subscriptions to logically organize them in a taxonomy. Each tag consists of a name and a value pair. For example, you can apply the name Environment and the value Production to all the resources in production.For recommendations on how to implement a tagging strategy, see Resource naming and tagging decision guide'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: 'Collect and visualize key performance metrics to determine right resource level usage (vCore, memory, IOPS)'
+    url: /azure/azure-monitor/insights/azure-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.G
+      scoreOf: []
+    context: 'https://techcommunity.microsoft.com/t5/azure-sql-blog/optimize-your-azure-sql-managed-instance-cost-with-microsoft/ba-p/2235216'
+    priority: 60
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Reduce resource utilization as appropriate
+    url: /azure/azure-sql/database/database-advisor-implement-performance-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.H
+      scoreOf: []
+    context: 'Azure SQL Database learns and adapts with your application. The database has a number of database advisors that provide customized recommendations to enable maximize performance. These database advisors continuously assess and analyze the usage history, and provide recommendations based on workload patterns that help improve performance'
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Validate database service tiers
+    url: /azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.I
+      scoreOf: []
+    context: 'Provides a brief overview of the vCore purchasing model used by Azure SQL Database and Azure SQL Managed Instance. To learn more about the vCore model for each product, review Azure SQL Database and Azure SQL Managed Instance'
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Configure dynamic scaling as needed
+    url: /azure/azure-sql/database/single-database-scale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a.J
+      scoreOf: []
+    context: 'Describes the steps to scale compute and storage resources available for an Azure SQL Database in the provisioned compute tier. Alternatively, the serverless compute tier provides compute autoscaling and bills per second for compute used'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: Automate deployment based on the application lifespan
+    url: /learn/modules/configure-automatic-deployment-azure-sql-database/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.A
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Operational Excellence
+  - title: Use DevOps and deployment automation
+    url: /learn/modules/deploy-nodejs/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.B
+      scoreOf: []
+    context: 'Refer to the link - https://medium.com/multinetinventiv/automate-build-and-deployment-of-azure-sql-database-using-azure-devops-with-azure-pipelines-9cf9b576b5c1#:~:text=%20Automate%20Build%20and%20Deployment%20of%20Azure%20SQL,to%20continuously%20deploy.%20From%20the%20solution...%20More%20'
+    priority: 25
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Operational Excellence
+  - title: Configure scaling policies for workloads (both in and out)
+    url: /azure/azure-sql/database/scale-resources?view=azuresql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.C
+      scoreOf: []
+    context: ''
+    priority: 52
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Deploy the database/instances in the same region as your application to minimize transfer costs
+    url: 'https://azure.microsoft.com/en-us/pricing/details/bandwidth/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.D
+      scoreOf: []
+    context: The first step (most important)  in cost optimization is to choose the right resources that are aligned with your business goals and can deliver the required performance of the planned workload. An inappropriate or misconfigured service can adversely impact the cost
+    priority: 64
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Choose appropriate services tiers that match business requirements
+    url: '/azure/azure-sql/managed-instance/resource-limits#service-tier-characteristicshttps://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-general-purpose-business-critical'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.E
+      scoreOf: []
+    context: 'The goal of high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running  99.99% of the time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer SLA for Azure SQL Database and SLA for Azure SQL Managed Instance'
+    priority: 70
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Make sure to adjust storage size to real needs
+    url: /azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.F
+      scoreOf: []
+    context: 'Review the vCore purchasing model for Azure SQL Database. To choose between the vCore and DTU purchasing models, see the differences between the vCore and DTU purchasing models.'
+    priority: 64
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Verify if instances needs to be deployed in multi-region scenario (Instance Failover Groups)
+    url: /azure/azure-sql/database/auto-failover-group-sql-db?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.G
+      scoreOf: []
+    context: 'The goal of high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running  99.99% of the time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer SLA for Azure SQL Database and SLA for Azure SQL Managed Instance'
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Manage multiple databases with elastic pool
+    url: /azure/azure-sql/database/elastic-pool-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.H
+      scoreOf: []
+    context: 'Azure SQL Database elastic pools are simple, cost-effective solutions used to manage and scale multiple databases that have varying and unpredictable usage demands. The databases in an elastic pool are on a single server and share a set number of resources at a set price. Elastic pools in SQL Database enable software as a service (SaaS) developers to optimize the price performance for a group of databases within a prescribed budget while delivering performance elasticity for each database'
+    priority: 57
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: Understand the implications of each purchasing model
+    url: /azure/azure-sql/database/purchasing-models
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.I
+      scoreOf: []
+    context: 'Azure SQL Database lets you easily purchase a fully managed platform as a service (PaaS) database engine that fits your performance and cost needs. Depending on the deployment model you''ve chosen for Azure SQL Database, you can select the purchasing model that works for you'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Deployments
+  - title: Use Azure SQL Database Serverless
+    url: /azure/azure-sql/database/serverless-tier-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.J
+      scoreOf: []
+    context: Serverless is a compute tier for single databases in Azure SQL Database that automatically scales compute based on workload demand and bills for the amount of compute used per second. The serverless compute tier also automatically pauses databases during inactive periods when only storage is billed and automatically resumes databases when activity returns.
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Deployments
+  - title: Select the appropriate hardware generation
+    url: /azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal#hardware-generations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.65cbc2ae-4499-432c-82ec-c45aa9d96dc1.K
+      scoreOf: []
+    context: 'This article provides a brief overview of the vCore purchasing model used by both Azure SQL Database and Azure SQL Managed Instance. To learn more about the vCore model for each product, review Azure SQL Database and Azure SQL Managed Instance.'
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: Estimate and track my costs
+    url: /azure/cost-management-billing/costs/quick-acm-cost-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.c8056a62-9479-4943-8096-9016e9f969a1.A
+      scoreOf: []
+    context: 'Microsoft Azure limits are also known as quotas. To learn more about Azure pricing, check Azure pricing overview. You can estimate costs with pricing calculator.'
+    priority: 64
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: Explore Azure Cloud Services
+    url: /azure/cost-management-billing/costs/quick-acm-cost-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.c8056a62-9479-4943-8096-9016e9f969a1.B
+      scoreOf: []
+    context: 'The main reasons why cloud computing is important for business is that it allows organizations to scale, maintain flexibility, and focus their efforts on business operations – not managing complex IT infrastructure. One of the best ways to optimize cloud computing for your business is by working with a cloud partner.'
+    priority: 50
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: Azure Governance can be described simply as mechanisms and processes to maintain control over your applications and resources in Azure
+    url: /azure/cloud-adoption-framework/govern/guides/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.c8056a62-9479-4943-8096-9016e9f969a1.C
+      scoreOf: []
+    context: 'The cloud governance guides demonstrate how to implement a governance MVP. From there, each guide shows how the cloud governance team can partner with the cloud adoption teams to accelerate adoption efforts. The CAF governance model guides the application of governance from foundation through subsequent improvements and evolutions.'
+    priority: 64
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: Data transferred out of Azure data centers
+    url: 'https://azure.microsoft.com/en-us/pricing/details/bandwidth/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.139e0fc7-2ea3-46ba-b774-8b7799fed139.A
+      scoreOf: []
+    context: 'Bandwidth refers to data moving in and out of Azure data centers, as well as data moving between Azure data centers; other transfers are explicitly covered by the Content Delivery Network, ExpressRoute pricing, or Peering.'
+    priority: 58
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: Understanding the Data requirement
+    url: 'https://azure.microsoft.com/en-us/pricing/details/bandwidth/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.139e0fc7-2ea3-46ba-b774-8b7799fed139.B
+      scoreOf: []
+    context: 'Review the reference architecture for each Application and differentiate the Application between OLTP and OLAP,based on category right data store can be selected and optimally used for the business needs.'
+    priority: 52
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Choose the right data store for the Business needs/requirement
+    url: /azure/architecture/framework/cost/provision-datastores
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.139e0fc7-2ea3-46ba-b774-8b7799fed139.C
+      scoreOf: []
+    context: 'Each Azure data store has a different billing model. To establish a total cost estimate, first, identify the business transactions and their requirements. Then, break each transaction into operations. Lastly, identify a data store appropriate for the type of data. Do this for each workload separately.'
+    priority: 62
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: 'Use compression (row, page) and column-store indexes'
+    url: /sql/relational-databases/data-compression/data-compression?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.139e0fc7-2ea3-46ba-b774-8b7799fed139.D
+      scoreOf: []
+    context: 'SQL Server, Azure SQL Database, and Azure SQL Managed Instance support row and page compression for rowstore tables and indexes, and support columnstore and columnstore archival compression for columnstore tables and indexes.'
+    priority: 50
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: Consider the number of days you require your backup history to be available
+    url: /azure/azure-sql/database/long-term-backup-retention-configure?tabs=portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.139e0fc7-2ea3-46ba-b774-8b7799fed139.E
+      scoreOf: []
+    context: 'This article provides a brief overview of the vCore purchasing model used by both Azure SQL Database and Azure SQL Managed Instance. To learn more about the vCore model for each product, review Azure SQL Database and Azure SQL Managed Instance'
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: 'Set up automatic, geo-redundant backups'
+    url: /azure/azure-sql/database/automated-backups-overview?tabs=single-database
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.139e0fc7-2ea3-46ba-b774-8b7799fed139.F
+      scoreOf: []
+    context: 'Active geo-replication is designed as a business continuity solution that lets you perform quick disaster recovery of individual databases in case of a regional disaster or a large scale outage. Once geo-replication is set up, you can initiate a geo-failover to a geo-secondary in a different Azure region. The geo-failover is initiated programmatically by the application or manually by the user.'
+    priority: 60
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Server maintenance
+  - title: Verify what is stored in the database and what can be offloaded to a storage account
+    url: /azure/architecture/data-science-process/move-azure-blob
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.139e0fc7-2ea3-46ba-b774-8b7799fed139.G
+      scoreOf: []
+    context: 'Review all the tables in the SQL DB, if any historical data or Audit data, specfic old data can be moved to blob storage for historical retenion purpose and it also help to reclaim and usage of the space more effective.'
+    priority: 56
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Server maintenance
+  - title: Detect and resolve fragmented indexes
+    url: /sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.139e0fc7-2ea3-46ba-b774-8b7799fed139.H
+      scoreOf: []
+    context: 'With Azure SQL Database, you can set a Long-Term Backup Retention (LTR) policy to automatically retain backups in separate Azure Blob storage containers for up to 10 years. You can then recover a database using these backups using the Azure portal, Azure CLI, or PowerShell'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Compare usage and costs by downloading your invoice and usage files
+    url: /azure/cost-management-billing/understand/review-individual-bill
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.02d7445b-450a-40c0-89ec-79033c4ef1ba.A
+      scoreOf: []
+    context: 'Review the charges on your invoice by analyzing the individual transactions. In the billing account for a Microsoft Customer Agreement, an invoice is generated every month for each billing profile. The invoice includes all charges from the previous month.'
+    priority: 70
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: Review cost management alerts to monitor your Azure usage and spending
+    url: /azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.02d7445b-450a-40c0-89ec-79033c4ef1ba.B
+      scoreOf: []
+    context: 'Cost alerts are automatically generated based when Azure resources are consumed. Alerts show all active cost management and billing alerts together in one place. When your consumption reaches a given threshold, alerts are generated by Cost Management. There are three types of cost alerts: budget alerts, credit alerts, and department spending quota alerts.'
+    priority: 59
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: 'Azure Billing features are used to review your invoiced costs and manage access to billing information. In larger organizations, procurement and finance teams usually conduct billing tasks'
+    url: /azure/cost-management-billing/cost-management-billing-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.02d7445b-450a-40c0-89ec-79033c4ef1ba.C
+      scoreOf: []
+    context: 'Use Cost Management + Billing features to: Conduct billing administrative tasks such as paying your bill. Manage billing access to costs. Download cost and usage data that was used to generate your monthly invoice. Proactively apply data analysis to your costs. Set spending thresholds.'
+    priority: 62
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: Estimate the cost savings you can realize by migrating your workloads to Azure
+    url: 'https://azure.microsoft.com/en-us/pricing/tco/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.061c5c00-efe2-41fb-b1a4-78c2eb1ce2ce.A
+      scoreOf: []
+    context: 'The TCO Calculator helps you understand the cost areas that affect your applications today, such as server hardware, software licenses, electricity, and labor.'
+    priority: 60
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: Azure regions and availability zones are designed to help and achieve resiliency and reliability for the  business-critical workloads. Azure maintains multiple geographies
+    url: /azure/availability-zones/az-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.061c5c00-efe2-41fb-b1a4-78c2eb1ce2ce.B
+      scoreOf: []
+    context: 'Azure regions and availability zones are physically separate locations within each Azure region that are tolerant to datacenter failures because of redundant infrastructure and logical isolation of Azure services.Azure services that support availability zones are designed to provide the right level of resiliency and flexibility along with ultra-low latency. With Azure services that support availability zones, whether you architect your own resiliency or opt for automatic replication and distribution, the benefit is the same. You get superior resiliency across highly available services, no matter the service type.Azure strives to enable high resiliency across every service and offering. Running Azure services that support availability zones provides fully transparent and consistent resiliency against nearly all scenarios, without interruption.'
+    priority: 55
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Availability
+  - title: 'Most services are priced based on units of size, amount of data, or operation'
+    url: /azure/architecture/framework/cost/design-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.061c5c00-efe2-41fb-b1a4-78c2eb1ce2ce.C
+      scoreOf: []
+    context: 'For example, you provision a virtual machine in Azure. Some meters that track its usage include: Compute Hours, IP Address Hours, Data Transfer In, Data Transfer Out, Standard Managed Disk, Standard Managed Disk Operations, Standard IO-Disk, Standard IO-Block Blob Read, Standard IO-Block Blob Write, Standard IO-Block Blob Delete.'
+    priority: 52
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Availability
+  - title: 'Using Azure subscriptions, businesses can choose which Azure services and features they want to deploy in the cloud'
+    url: /azure/cost-management-billing/cost-management-billing-faq
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.061c5c00-efe2-41fb-b1a4-78c2eb1ce2ce.D
+      scoreOf: []
+    context: Enterprise Agreement (EA)-This is design for a large organisation that can make a commitment related to consumptions. The minimum commitment is for 3 years.CSP - This structure works great for small companies.It is important to know that going with a CSP can have big advantages especially because don’t need to manage by yourself the subscriptions in comparison with EA and also get more personalized support that knows your business and needs.
+    priority: 55
+    reportingCategory: Capacity & Service Availabilty Planning
+    reportingSubCategory: Operational Excellence
+  - title: 'Make a clear analysis of your HA/DR requirements and setup your solution accordingly (RTO,RPO)'
+    url: /azure/azure-sql/database/high-availability-sla?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a97f7d78-c883-4cf4-84ef-1185cd482aae.061c5c00-efe2-41fb-b1a4-78c2eb1ce2ce.E
+      scoreOf: []
+    context: 'The goal of the high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running 99.99% of the time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer to SLA for Azure SQL Database and SLA for Azure SQL Managed Instance.'
+    priority: 60
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+uid: 7831962e-b963-49a3-945d-d6efba00a673
+name: ''

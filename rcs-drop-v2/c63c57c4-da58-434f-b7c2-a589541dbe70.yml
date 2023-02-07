@@ -1,0 +1,19 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - fa540301-9e6b-45e8-a66d-26476ab7c5b3
+  - f08a3cfc-e40e-4c09-baa6-4b7cdf2d8e75
+  - dfc1c933-6996-4079-b6ae-840b6f8b623c
+  - 0842f8f5-83f7-4883-a149-f2bb5cb0ca67
+  - f7a6be37-13a9-4aa0-9b6c-29c86f876caf
+  - bf5eab4b-d65f-49c9-8b65-60fffdd8754a
+  - dfa358ff-9e74-4ecb-bf30-585f781de76f
+  - f8e160cb-016a-462f-9516-426ee2ca40ed
+  - e9f41823-486d-4020-b98d-dfcbc3bd6339
+recommendations:
+  - 2c79e4af-8c58-46f1-b79e-03e3e4ac5ccc
+assignedGroupIds: []
+uid: c63c57c4-da58-434f-b7c2-a589541dbe70
+name: ADLS Gen2 - Reliability

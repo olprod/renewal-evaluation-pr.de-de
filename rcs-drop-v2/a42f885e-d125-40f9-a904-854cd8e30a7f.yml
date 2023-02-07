@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use environments for dev and test stages that simulate the production database environment.
+    description: 'Maintaining production-like environments for your pre-prod stages means if issues in production occur you are far more capable of developing, testing and releasing hot fixes/updates quickly.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Manage and actively resolve any technical debt in your databases environments.
+    description: 'Technical debt includes anything that increases the complexity of the database workload or code usually incurred due to delivery pressures. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Have a change log for all deployments.
+    description: Recording when and what changes are made to  your databases and SQL Server/VM configurations is critical to track down root causes when issues occur.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: "By using\_Visual Studio Database Projects\_to manage database code."
+    description: Visual Studio Database Projects facilitate database code changes and codebase management.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Database schema schema changes are managed through a Source Control platform.
+    description: 'Source Control systems like Azure DevOps enable database schema changes to be tracked, managed and reversed if required.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: development-data-sqlvm
+uid: a42f885e-d125-40f9-a904-854cd8e30a7f
+name: How is database development done for your workloads?

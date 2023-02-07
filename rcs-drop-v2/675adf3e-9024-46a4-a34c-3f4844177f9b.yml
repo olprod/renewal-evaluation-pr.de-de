@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have not started to analyse or plan the process to leverage cloud-based operations.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We broadly understand the benefits of the cloud, but we do not yet have an overall strategy that would help us upgrade our solutions to the cloud with full confidence.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We understand the advantages of cloud services and we are building a strategy and plan to minimize any risks and determine how to benefit from the advantages that Dynamics 365 cloud applications enable. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: We have a well-defined strategy for moving our business applications to the cloud and we are in detailed planning to upgrade to Dynamics 365 applications as part of that strategy.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How would you assess your readiness to upgrade from your on-premises applications to Dynamics 365 applications in the cloud?
+isRequired: true
+uid: 675adf3e-9024-46a4-a34c-3f4844177f9b
+name: How would you assess your readiness to upgrade from your on-premises applications to Dynamics 365 applications in the cloud?

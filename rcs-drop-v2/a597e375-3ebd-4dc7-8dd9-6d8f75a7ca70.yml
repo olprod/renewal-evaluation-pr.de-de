@@ -1,0 +1,91 @@
+### YamlMime:SelfAssessment
+description: |+
+  This Learner Self-Assessment is built to guide you during your Microsoft Cloud for Healthcare learning journey. It will provide you with unique insights into actions you may take to advance your learning journey.
+  It will also provide recommendations on learning paths and modules that will help you prepare for implementing Microsoft cloud for healthcare.
+  The Self-assessment results are just for you and this Self-assessment is not an exam, test, nor official Microsoft credential. 
+
+duration: 10 minutes
+questionnaireReferences:
+  - questionnaireUid: e0ff5fc8-2c88-40be-8f3e-11d5c9fff105
+    isRequired: true
+  - questionnaireUid: 3efea952-1e93-4261-87ff-7efe167589e6
+    isRequired: true
+  - questionnaireUid: 2942ded0-914b-4ccf-b72c-063be6165629
+    isRequired: true
+  - questionnaireUid: d1317e0f-b661-4411-8075-61615a4f5ebf
+    isRequired: true
+  - questionnaireUid: fd55c3e8-5478-4e20-be51-63b1fddbc041
+    isRequired: true
+  - questionnaireUid: d275c2e2-cf61-4e3b-9407-e253966aa5e1
+    isRequired: true
+guidance:
+  title: 10 minutes
+  description: Your Microsoft Cloud for Healthcare Learning Journey Starts Here!
+  providers: []
+  scoring:
+    title: Recommendation to learner
+    description: ''
+    calculationType: Sum
+    scoresVerbage: Beginner|Intermediate|Advanced
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: |
+          Great Job!
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Navigate to each category and take actions on completing the recommended learning paths
+      - iconUrl: ''
+        description: '1- Complete the recommended solution area learning paths After completing the recommended learning path for you, plan to participate in Microsoft Cloud for Healthcare implementation.'
+        links:
+          - title: Meanwhile you can continue practicing solution scenarios on your own trial environment.
+            url: 'https://docs.microsoft.com/en-us/learn/modules/training-environment-preparation-healthcare/'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Microsoft Cloud for Healthcare implementation environment preparation
+      - iconUrl: ''
+        description: '2- Participate in Microsoft Cloud for Healthcare implementation  '
+        links:
+          - title: Tell us about your experience taking this Learner Self-Assessment
+            url: 'https://forms.office.com/r/ejBPDVpKTC'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: 'Provide your feedback here '
+  recommendationsTitle: ''
+owner:
+  firstName: Tarek
+  lastName: Saleh Eldin
+  email: Tarek.Eldin@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - azure
+uid: a597e375-3ebd-4dc7-8dd9-6d8f75a7ca70
+name: Please provide your feedback on this Learner Self-Assessment

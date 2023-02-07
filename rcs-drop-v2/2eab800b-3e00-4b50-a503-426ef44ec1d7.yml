@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - c32e4331-394b-47e7-87f5-8d2f7f17792e
+  - c8bd76c1-f25b-4bea-aa64-f6269c06d06e
+recommendations:
+  - 9a16fc30-8598-4606-9857-dee92418d59a
+assignedGroupIds: []
+uid: 2eab800b-3e00-4b50-a503-426ef44ec1d7
+name: 'Endpoint Zero Trust Deployment Objective: V'

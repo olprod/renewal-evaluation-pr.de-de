@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Define database RPO (Recovery Point Objective) & RTO (Recovery Time Objective) requirements.
+    description: RPO (what duration of data loss can be withstood in a DR scenario) and RTO (how long can the database be offline in a DR scenario) definitions affect critical architectural design decisions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Define database availability targets such as Service Level Agreements (SLAs) and Service Level Objectives (SLOs).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Derive the composite SLA for the workload by combining the Azure SLAs for all relevant resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: 'Identify specific business processes, data privacy, encryption or other mandates which could impact your reliability targets.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Availability targets are considered while the system is running in disaster recovery mode
+    description: 'Availability targets might or might not be applied when running in disaster recovery mode. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Identify critical sub-system flows which may require additional resiliency.
+    description: 'Critical sub-systems or paths through the application may have higher expectations around availability, recovery, and performance due to the criticality of associated business scenarios and functionality.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: 'Identify Service Level Indicators (SLI) such as response rate, processing time, user requests, transaction rate, success rate, and error rate.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: targets-data-sqlvm
+uid: f18d10b7-75c6-45fc-852b-76c7b61945b4
+name: What reliability targets and metrics have you defined for your application?

@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |
+  Your company plans to implement sensitivity labels in a Microsoft 365 infrastructure.
+
+  Sensitivity labels can be used to restrict users from opening a document after a specified date.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 9fbb14e6-a51e-4c9a-ad8d-6ec79ac27a4d
+questions:
+  - uid: f8d204aa-8195-43bb-a6d4-9af69ab2006d-q-0
+    title: Your company plans to implement sensitivity labels in a Microsoft 365 infrastructure.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Sensitivity labels can be used to restrict users from opening a document after a specified date.
+        isCorrect: true
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: false
+uid: f8d204aa-8195-43bb-a6d4-9af69ab2006d
+title: 'Otherwise, select No.'

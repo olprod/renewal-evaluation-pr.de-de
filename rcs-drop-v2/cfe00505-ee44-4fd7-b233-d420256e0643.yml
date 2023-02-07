@@ -1,0 +1,124 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: cfe00505-ee44-4fd7-b233-d420256e0643-q-0
+    name: Forking and cloning repositories
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: cfe00505-ee44-4fd7-b233-d420256e0643-q-1
+    name: Working with GitHub local and remote branches
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '3'
+    uid: cfe00505-ee44-4fd7-b233-d420256e0643-q-2
+    name: Using GitHub for end-to-end content authoring
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '4'
+    uid: cfe00505-ee44-4fd7-b233-d420256e0643-q-3
+    name: Creating and submitting pull requests in GitHub
+stem: ''
+isRequired: true
+legacyId: '3'
+uid: cfe00505-ee44-4fd7-b233-d420256e0643
+name: How confident are you with the following GitHub skills for content authoring?

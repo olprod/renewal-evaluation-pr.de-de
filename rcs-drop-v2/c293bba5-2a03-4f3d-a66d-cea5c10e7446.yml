@@ -1,0 +1,175 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Established a framework for classifying data and level of access
+    url: /compliance/assurance/assurance-create-data-classification-framework
+    condition:
+      allOf: []
+      anyOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.c85c1992-29d3-4f48-bcb6-1e122e15a7e8.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable App Protection policy for mobile devices
+    url: /mem/intune/apps/app-protection-policies
+    condition:
+      allOf: []
+      anyOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.78deb85a-68b7-4df7-8b68-dd8f75a4ae1b.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable DLP policies for Endpoint
+    url: /microsoft-365/compliance/dlp-configure-endpoint-settings
+    condition:
+      allOf: []
+      anyOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.0c2c3a1f-22b7-497b-9b53-1393f4f5b2b3.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable Disk Encryption for Windows devices
+    url: /mem/intune/protect/encrypt-devices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.72873966-6460-45ce-abd6-0bbe55f665f8.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable Disk Encryption Android Mobile devices
+    url: /mem/intune/user-help/encrypt-your-device-android
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.72873966-6460-45ce-abd6-0bbe55f665f8.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable FileVault for macOS with Intune
+    url: /mem/intune/protect/encrypt-devices-filevault
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.72873966-6460-45ce-abd6-0bbe55f665f8.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage Windows Update workload using Intune
+    url: /mem/intune/protect/windows-update-settings
+    condition:
+      allOf: []
+      anyOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.5021a7b4-96fe-44cd-a7e5-c57af1ebe240.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy software updates automatically using Automatic Deployment Rule (ADR) - Microsoft Endpoint Configuration Manager (MECM)
+    url: /mem/configmgr/sum/deploy-use/automatically-deploy-software-updates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.e02969be-9106-41a0-b977-097343e7f567.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Microsoft Endpoint Configuration Manager (MECM) to deploy 3rd party updates to clients
+    url: /mem/configmgr/sum/deploy-use/third-party-software-updates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.e02969be-9106-41a0-b977-097343e7f567.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Microsoft Endpoint Configuration Manager (MECM) to deploy updates to servers
+    url: /mem/configmgr/sum/deploy-use/deploy-software-updates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.e02969be-9106-41a0-b977-097343e7f567.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Report compliance status via Reporting Services in Microsoft Endpoint Configuration Manager (MECM)
+    url: /mem/configmgr/develop/core/understand/sqlviews/how-to-run-configuration-manager-reports
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.e02969be-9106-41a0-b977-097343e7f567.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Onboard devices to an Update Compliance solution in a log analytics workspace
+    url: /windows/deployment/update/update-compliance-get-started
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.f0339daf-e8d2-4d0b-8624-ed11294fba90.0
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.f0339daf-e8d2-4d0b-8624-ed11294fba90.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use log analytics workspace for Desktop or Endpoint Analytics
+    url: /mem/configmgr/desktop-analytics/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.f0339daf-e8d2-4d0b-8624-ed11294fba90.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use log analytics workspace for Azure Update Management
+    url: /azure/automation/overview#update-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.f0339daf-e8d2-4d0b-8624-ed11294fba90.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: c293bba5-2a03-4f3d-a66d-cea5c10e7446
+name: ''

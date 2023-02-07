@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'If SQL authentication is used, enable Password Policy to apply the same complexity and expiration policies used in Windows to passwords used inside SQL Server.'
+    description: 'The password policy applies to a login that uses SQL Server authentication, and to a contained database user with password.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: 'Assign permissions to users, groups, and applications at a limited scope, with minimum privileges, such as at the table, view, row (RLS), or schema level.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: 'Understand database ownership chains, user context switching, linked server security context, and trustworthy database property which can be used to reduce certain threats when attaching databases.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: D
+    text: Synchronize your identity systems.
+    description: Integrate on-premises Active Directory with Azure. Consistency of identities across cloud and on-premises will reduce human errors and resulting security risk.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: Authenticate via identity systems such as Windows Authentication and Azure Active Directory Managed Identities rather than relying on direct use of passwords and cryptographic keys.
+    description: 'Minimize possibility of account exposure. Windows Authentication uses Kerberos security protocol, provides password policy enforcement with regard to complexity validation for strong passwords, provides support for account lockout, and supports password expiration. A connection made using Windows Authentication is sometimes called a trusted connection, because SQL Server trusts the credentials provided by Windows.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Implement Dynamic Data Masking to limit sensitive data exposure by masking it to non-privileged users.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 04b71ad8-0901-444a-9cd7-ac46a42f4932
+name: How are you managing identity for this workload?

@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: true
+questions:
+  - 1954fb51-a323-49ee-80c8-908c5355666f
+  - 3fcff892-a785-414a-8483-792c17b2389a
+  - 2a42ff33-484a-4079-b537-955b5a8f8826
+recommendations:
+  - 26b52796-ae07-4aeb-a278-14d5ae9f8b61
+assignedGroupIds: []
+uid: e407dec8-194c-428f-a670-3288a25e3e93
+name: 'Go-Live Configuration '

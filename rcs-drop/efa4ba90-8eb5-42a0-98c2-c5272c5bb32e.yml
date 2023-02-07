@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You create a new report.
+
+  You need to ensure that users have a good experience when they consume the report on a mobile device.
+
+  What are two ways to achieve the goal? Each correct answer presents a complete solution.
+questionnaireUid: dbfe3f57-e131-41aa-88e5-08a8ce568105
+questions:
+  - uid: efa4ba90-8eb5-42a0-98c2-c5272c5bb32e-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You create a new report.
+        isCorrect: true
+      - id: 1
+        text: 'You need to ensure that users have a good experience when they consume the report on a mobile device. '
+        isCorrect: true
+      - id: 2
+        text: What are two ways to achieve the goal?
+        isCorrect: false
+      - id: 3
+        text: 'Each correct answer presents a complete solution. '
+        isCorrect: false
+    manualId: PL-300.3.2.3 -PL-300.7.3
+uid: efa4ba90-8eb5-42a0-98c2-c5272c5bb32e
+title: ''

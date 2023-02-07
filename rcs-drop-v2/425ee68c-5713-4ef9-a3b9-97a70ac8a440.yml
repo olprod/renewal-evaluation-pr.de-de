@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Consider the incidents you want the instances to be protected from to choose the right redundancy options and build your Backup and Disaster Recovery plan: local outage, regional disaster, capacity limitations, and so on.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Deploy models to redundant servers in other regions.
+    description: 'This method requires processing data on both your primary server and redundant servers in-parallel, assuring all servers are in-sync.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Complete periodic disaster recovery exercises to ensure the plan works as planned.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Verified end-to-end system performance after failover occurs.
+    description: End-to-end performance needs validation as it may differ due to changes in network latency.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.reliability
+stem: ''
+isRequired: false
+uid: 425ee68c-5713-4ef9-a3b9-97a70ac8a440
+name: How are you handling disaster recovery for this workload?

@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company uses Azure AD Identity Protection.
+
+  You plan to review Risky sign-in reports.
+
+  What is the length of time a risky sign-in is shown in the report?
+questionnaireUid: e18abde9-a473-425e-961c-c675a9767b7f
+questions:
+  - uid: f1b7caec-9720-4b35-b769-89ed97071b01-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company uses Azure AD Identity Protection.
+        isCorrect: false
+      - id: 1
+        text: You plan to review Risky sign-in reports.
+        isCorrect: true
+      - id: 2
+        text: What is the length of time a risky sign-in is shown in the report?
+        isCorrect: false
+      - id: 3
+        text: 7 days
+        isCorrect: false
+uid: f1b7caec-9720-4b35-b769-89ed97071b01
+title: ''

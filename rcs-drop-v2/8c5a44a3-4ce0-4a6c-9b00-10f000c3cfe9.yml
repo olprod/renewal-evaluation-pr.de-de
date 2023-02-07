@@ -1,0 +1,22 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - c85c1992-29d3-4f48-bcb6-1e122e15a7e8
+  - 78deb85a-68b7-4df7-8b68-dd8f75a4ae1b
+  - 0c2c3a1f-22b7-497b-9b53-1393f4f5b2b3
+  - 72873966-6460-45ce-abd6-0bbe55f665f8
+  - 3d76fda9-76a4-4718-9fe4-4529728613d3
+  - ae1e74b6-1b4f-4fd4-81eb-ae934be79442
+  - 5021a7b4-96fe-44cd-a7e5-c57af1ebe240
+  - e8f8b310-f986-4b96-b24d-61609278c4e0
+  - aa1e5528-9763-4999-8b4e-19f843ea6bdd
+  - 6811d5b5-4e65-4e19-a8e6-a45a2cea70dd
+  - 3632327e-f405-45e2-8548-1cab501f1605
+  - 32433e96-d7d5-492f-a63b-cfd0e026a9a5
+recommendations:
+  - c293bba5-2a03-4f3d-a66d-cea5c10e7446
+assignedGroupIds: []
+uid: 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9
+name: 'Endpoint Zero Trust Deployment Objective: III'

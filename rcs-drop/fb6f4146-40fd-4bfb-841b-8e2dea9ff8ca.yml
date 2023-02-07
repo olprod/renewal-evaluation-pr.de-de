@@ -1,0 +1,30 @@
+### YamlMime:RenewalAssessment
+certificationUid: certification.azure-virtual-desktop-specialty
+referencedQuestionnaires:
+  - questionnaireUid: a83aefec-024c-4ad0-9a60-e9df99b0d414
+    questionsToTake: 3
+    questionsToPass: 1
+  - questionnaireUid: fb5f5663-a026-4dcd-99ab-843b04d914e2
+    questionsToTake: 4
+    questionsToPass: 3
+  - questionnaireUid: d0fd2ddb-be9c-4378-9c44-99c9b3770c5a
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: a3926444-726f-4846-b7e4-64d8ec07585f
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: 2154796c-a099-4923-9239-1527ef993238
+    questionsToTake: 4
+    questionsToPass: 2
+  - questionnaireUid: e1f5f0f5-5da3-4d6a-9857-d0c8bd915175
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: 978c8bdd-2c59-4464-a50b-a4a43c4ae8bc
+    questionsToTake: 2
+    questionsToPass: 1
+  - questionnaireUid: 3641b1f6-b502-4374-ba47-2fb77611d0de
+    questionsToTake: 4
+    questionsToPass: 2
+uid: fb6f4146-40fd-4bfb-841b-8e2dea9ff8ca
+title: 'Renewal assessment for Microsoft Certified: Azure Virtual Desktop Specialty'
+manualId: AZ-140

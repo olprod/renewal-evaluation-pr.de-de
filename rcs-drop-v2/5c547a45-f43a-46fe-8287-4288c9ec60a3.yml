@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 0d05ede8-836f-465b-8652-c54d5f0a3bf5
+  - 85c87a39-8f5b-4515-b13c-2447d0e56174
+  - 09e7d456-befb-4e63-afc4-cd4bfb8bfbe3
+  - a86c6dce-924d-4694-b997-2bf9b16ba6cb
+  - 6fcd5438-fcda-4f0f-966b-2e716d67eb43
+recommendations:
+  - 534b0c73-c9cf-45c2-95cd-e43b6a08f01b
+assignedGroupIds: []
+uid: 5c547a45-f43a-46fe-8287-4288c9ec60a3
+name: 'Mission Critical: Networking and Connectivity'

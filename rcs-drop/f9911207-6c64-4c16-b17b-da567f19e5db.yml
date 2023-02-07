@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company is documenting its Business process modeler (BPM) library in Lifecycle Services.
+
+  You need to recommend a tool to document the company's business processes for import into the BPM library.
+
+  Which tool should you recommend?
+questionnaireUid: 528b49bf-4c00-409a-82c7-cb00022e078c
+questions:
+  - uid: f9911207-6c64-4c16-b17b-da567f19e5db-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company is documenting its Business process modeler (BPM) library in Lifecycle Services.
+        isCorrect: false
+      - id: 1
+        text: You need to recommend a tool to document the company's business processes for import into the BPM library.
+        isCorrect: false
+      - id: 2
+        text: Which tool should you recommend?
+        isCorrect: true
+      - id: 3
+        text: Azure DevOps
+        isCorrect: false
+      - id: 4
+        text: Microsoft Visio
+        isCorrect: false
+uid: f9911207-6c64-4c16-b17b-da567f19e5db
+title: ''

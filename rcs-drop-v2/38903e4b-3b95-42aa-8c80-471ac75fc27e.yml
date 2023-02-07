@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Cache static data.
+    url: /azure/aks/concepts-sustainable-software-engineering#cache-static-data
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7c775491-76a7-43a8-9522-43d94915bd46.37ddf562-3f06-4e90-8a3c-6c023061d085.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Network and connectivity
+    reportingSubCategory: ''
+  - title: Choose a region that is closest to users.
+    url: /azure/aks/concepts-sustainable-software-engineering#choose-a-region-that-is-closest-to-users
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7c775491-76a7-43a8-9522-43d94915bd46.37ddf562-3f06-4e90-8a3c-6c023061d085.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Network and connectivity
+    reportingSubCategory: ''
+  - title: Reduce network traversal between nodes.
+    url: /azure/aks/concepts-sustainable-software-engineering#reduce-network-traversal-between-nodes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7c775491-76a7-43a8-9522-43d94915bd46.37ddf562-3f06-4e90-8a3c-6c023061d085.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Network and connectivity
+    reportingSubCategory: ''
+  - title: Evaluate using a service mesh.
+    url: /azure/aks/concepts-sustainable-software-engineering#evaluate-using-a-service-mesh
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7c775491-76a7-43a8-9522-43d94915bd46.37ddf562-3f06-4e90-8a3c-6c023061d085.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Network and connectivity
+    reportingSubCategory: ''
+  - title: Optimize log collection.
+    url: /azure/aks/concepts-sustainable-software-engineering#optimize-log-collection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7c775491-76a7-43a8-9522-43d94915bd46.37ddf562-3f06-4e90-8a3c-6c023061d085.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Network and connectivity
+    reportingSubCategory: ''
+uid: 38903e4b-3b95-42aa-8c80-471ac75fc27e
+name: ''

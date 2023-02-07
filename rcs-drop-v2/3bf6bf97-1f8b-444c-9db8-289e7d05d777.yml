@@ -1,0 +1,74 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: VMs that are not in use are either stopped or deleted.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: We use auto-stop properties for VMs which are not required to run all the time.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: We use Spot VMs when appropriate.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: We have taken steps to ensure that our VMs use the correct instance sizes for the tasks they need to perform.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: We utilize reserved instances to reduce Azure costs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: 'We are aware of and use hybrid benefit licensing, when eligible.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: 'We have Azure Policy configured to restrict regions, SKUs, and sizes for VMs where appropriate.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.vm
+stem: ''
+isRequired: false
+uid: 3bf6bf97-1f8b-444c-9db8-289e7d05d777
+name: How do you control the cost of Virtual Machines in Azure?

@@ -1,0 +1,44 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: Migrate your applications while maintaining control.
+links:
+  - title: Take the Governance Benchmark assessment
+    url: 'https://aka.ms/adopt/gov/assess'
+    condition:
+      anyOf:
+        - governance.8c3798e4-de17-4c69-a20e-6be87630463d.B
+        - governance.8da1406a-bd55-41ef-b964-eeb797fb1da3.B
+        - governance.a061614d-6ff1-4e13-8a50-3a9609637e2b.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Security Center
+    url: 'https://azure.microsoft.com/services/security-center/'
+    condition:
+      anyOf:
+        - governance.8c3798e4-de17-4c69-a20e-6be87630463d.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Cost Management
+    url: 'https://azure.microsoft.com/services/cost-management/'
+    condition:
+      anyOf:
+        - governance.8da1406a-bd55-41ef-b964-eeb797fb1da3.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Policy and Azure Blueprints to implement policies in your environment
+    url: 'https://azure.microsoft.com/solutions/governance/'
+    condition:
+      anyOf:
+        - governance.a061614d-6ff1-4e13-8a50-3a9609637e2b.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 002ea1be-2540-4bd0-8fe9-d918249aefec
+name: Governance

@@ -1,0 +1,77 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We use cloud-native log collection methods, where applicable, to simply the integration between services and remove the overhead of extra infrastructure.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: 'We use a cloud-native security service, such as Application Gateway Ingress Controller, that filters and offloads traffic at the network edge to keep it from reaching our origin and to reduce energy consumption and carbon emissions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: 'We have a requirement to store log data for an extended period, so we archive it in long-term storage to lower the cost and improve energy efficiency.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: We've carefully reviewed the network security reference architectures and configured routing accordingly so that it's minimized from endpoints to the destination and prevents applications and services from connecting to unauthorized devices.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: 'We use network security tools with auto-scaling capabilities, such as Web Application Firewall on Azure Front Door or Application Gateway, to enable right-sizing, meet demand, and reduce unnecessary waste of resources.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: We've evaluated whether to use TLS termination and made the decision to terminate TLS at our border gateway and continue with non-TLS to our workload load balancer and onwards to our workload.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: 'We''ve configured Azure DDoS Protection Standard, combined with application design best practices, to provide enhanced DDoS mitigation features.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 4eb11871-8e1f-48d1-abee-2668b98f1988.ca6d89aa-b7bb-46fc-9104-ae5b645439db.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 304089f0-1434-421d-9f6f-eb3c7bec0af1
+name: What practices and tools for network security have you implemented to increase efficiency and avoid unnecessary traffic?

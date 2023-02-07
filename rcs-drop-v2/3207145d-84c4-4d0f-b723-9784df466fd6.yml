@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We use the right client connection mode based on the application access pattern (gateway or direct connection mode).
+    description: 'How a client connects to Azure Cosmos DB has important performance implications, especially for reducing client-side request latency.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: We use the Azure Cosmos DB change feed to enable event-sourcing and data movement patterns
+    description: The change feed allows you to track database operations and to integrate these with downstream systems using near real-time DML.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 19
+  - id: '3'
+    text: We use the latest SDK and associated client frameworks for our client code/language.
+    description: Understanding your selection of SDK is important for feature and support capability. Remaining on the most recent SDK will ensure you have the best possible user experience. Latest versions and associated detail are well documented.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 19
+  - id: '4'
+    text: We have configured the workload with the appropriate consistency level.
+    description: Choosing the appropriate default consistency level improves the scalability of your application. Weakening the consistency level can improve the RU cost for reads and reduce the latency for writes in the case of multi-region deployments at the cost of lower RPO and RTO values.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 21
+  - id: '5'
+    text: We have assessed and configured the workload based on the activity growth and data retention requirements.
+    description: 'Appropriately managing the data retention for your workloads and reducing the amount of unnecessary data stored can improve the performance and cost efficiency of your application. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 21
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 3207145d-84c4-4d0f-b723-9784df466fd6
+name: How are you designing your workload to scale?

@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |
+  A lean manufacturing company is implementing Dynamics 365 Supply Chain Management. 
+
+  You need to collect information for configuring production flows. 
+
+  Which three tasks are performed by production flows? Each correct answer presents part of the solution.
+questionnaireUid: 41085216-5160-4545-adef-b820e0730afb
+questions:
+  - uid: fe39d606-6c24-4c0c-98b0-1024255f8291-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: A lean manufacturing company is implementing Dynamics 365 Supply Chain Management.
+        isCorrect: false
+      - id: 1
+        text: You need to collect information for configuring production flows.
+        isCorrect: false
+      - id: 2
+        text: Which three tasks are performed by production flows?
+        isCorrect: true
+      - id: 3
+        text: Each correct answer presents part of the solution.
+        isCorrect: true
+      - id: 4
+        text: Define the costing method for production.
+        isCorrect: true
+uid: fe39d606-6c24-4c0c-98b0-1024255f8291
+title: ''

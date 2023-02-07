@@ -1,0 +1,121 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Consider using dashboard as a single page, often called a canvas, that uses visualizations to tell a story.'
+    url: 'https://docs.microsoft.com/en-us/power-bi/consumer/end-user-dashboards'
+    condition:
+      allOf: []
+      anyOf:
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.82999541-a102-4350-8754-da0551024837.0
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.82999541-a102-4350-8754-da0551024837.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Data Lifecycle
+    reportingSubCategory: Data Products
+  - title: 'Consider Self-Service BI Scenarios specifically, decoupling the report creation process from the dataset creation process to work towards many report creators to reuse shared datasets.'
+    url: 'https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-usage-scenario-overview#self-service-bi-scenarios'
+    condition:
+      allOf: []
+      anyOf:
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.76edad20-e5b3-4ccc-8b2e-a35e31070072.0
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.76edad20-e5b3-4ccc-8b2e-a35e31070072.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Data Lifecycle
+    reportingSubCategory: Data Products
+  - title: Use interactive data visualizations tailored to your organization and industry.
+    url: 'https://powerbi.microsoft.com/en-us/power-bi-visuals/'
+    condition:
+      allOf: []
+      anyOf:
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.149107e5-93a1-4d57-a762-3444901164eb.0
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.149107e5-93a1-4d57-a762-3444901164eb.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Data Lifecycle
+    reportingSubCategory: Data Products
+  - title: 'Consider adopting sharing and collaborating on interactive Power BI content in Microsoft Teams, Outlook, and Office.'
+    url: 'https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-collaborate-microsoft-teams'
+    condition:
+      allOf: []
+      anyOf:
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.739a072b-b10b-48b0-acfa-4f514db2e08c.0
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.739a072b-b10b-48b0-acfa-4f514db2e08c.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Data Lifecycle
+    reportingSubCategory: Data Products
+  - title: Azure SQL enables hybrid transactional/analytical workloads for real-time operational analytics scenarios through a mix of in-memory and columnar database technologies.
+    url: 'https://docs.microsoft.com/en-us/shows/data-exposed/how-azure-sql-enables-real-time-operational-analytics-htap-part-1'
+    condition:
+      allOf: []
+      anyOf:
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.9bd69cf2-02e6-4aea-917d-62a0a56fd654.0
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.9bd69cf2-02e6-4aea-917d-62a0a56fd654.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Data Lifecycle
+    reportingSubCategory: Data Products
+  - title: Consider building strong foundation using a comprehensive set of solutions and architecture blueprints that turn your data into actionable insights?
+    url: 'https://azure.microsoft.com/en-au/products/category/analytics/'
+    condition:
+      allOf: []
+      anyOf:
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.c3b45171-ff29-4a96-99d3-c50087a2f136.0
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.c3b45171-ff29-4a96-99d3-c50087a2f136.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Data Lifecycle
+    reportingSubCategory: Data Products
+  - title: Implement a semantic model to simplify the analysis of business data and relationships.
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end?tabs=portal'
+    condition:
+      allOf: []
+      anyOf:
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.11f901f6-059b-4613-a604-8c30952e573b.0
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.11f901f6-059b-4613-a604-8c30952e573b.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Data Lifecycle
+    reportingSubCategory: Data Products
+  - title: Consider sharing of datasets needs to be actively managed for optimal organizational performance.
+    url: 'https://docs.microsoft.com/en-us/learn/modules/manage-datasets-power-bi/1-introduction'
+    condition:
+      allOf: []
+      anyOf:
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.ba306fd1-487c-4ea4-845b-e62571fe11f5.0
+        - fd2fd717-aa13-4a49-b19f-1f89331b04b4.ba306fd1-487c-4ea4-845b-e62571fe11f5.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Data Lifecycle
+    reportingSubCategory: Data Products
+  - title: Consider leveraging intelligent services to quickly learn from vast amounts of information.
+    url: 'https://azure.microsoft.com/en-us/solutions/knowledge-mining/#overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Data Lifecycle
+    reportingSubCategory: Data Products
+uid: e7bc102d-0fb6-4441-a1b4-1cdca4a57431
+name: ''

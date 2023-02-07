@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Start here and learn how you can build, migrate and scale Java applications on Azure using Azure services.'
+    url: 'https://docs.microsoft.com/en-us/learn/paths/java-on-azure/?WT.mc_id=java-00000-ropreddy'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: d2eda026-9b2e-4d56-820f-0240aad7d6e0
+name: ''

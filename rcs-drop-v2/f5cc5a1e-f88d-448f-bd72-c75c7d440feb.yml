@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Application is available across multiple stamps/regions in an active-active configuration.
+    description: Is the application and/or its key workloads deployed across multiple Azure Stack Hub stamps / regions in an active-active configuration?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: Application is deployed across multiple stamps / regions in an active-passive configuration in alignment with recovery targets.
+    description: Is the application and/or its key workloads deployed across multiple Azure Stack Hub stamps / regions in an active-passive configuration?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: Traffic is routable to the application in the event of a single stamp/region failure.
+    description: Can network traffic be routed to the application in the case of a single stamp/region outage?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: Defined a backup strategy for the application in alignment with recovery targets.
+    description: Is the application state and data backed-up and restorable within target recovery times?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: Defined a disaster recovery strategy to capture recovery steps for failover and failback.
+    description: 'A disaster recovery strategy should capture how the application responds to a disaster situation such as a stamp / region outage or the loss of a critical platform service, using either a re-deployment, warm-spare active-passive, or hot-spare active-active approach. To drive cost down consider splitting application components and data into groups. For example: 1) must protect, 2) nice to protect, 3) ephemeral/can be rebuilt/lost, instead of protecting all data with the same policy.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: Failover and failback steps and processes are automated.
+    description: Are the operational procedures for the failover and failback process automated?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Successfully tested and validated the failover and failback approach at least once.
+    description: Are disaster recovery strategies and operational procedures or runbooks for key failure scenarios tested on a regular basis?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: H
+    text: Decomposed the application into distinct subsystems with independent disaster recovery strategies.
+    description: Has the application been decomposed according to key workloads with their own independent recovery targets and disaster recovery strategies?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: I
+    text: Network connectivity redundancy is present for customers to access the data/application in the event of a failover.
+    description: 'Are there redundant connections, to ensure network connectivity is present for the application in the event of a failover or unplanned outage of a single stamp/region?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: f5cc5a1e-f88d-448f-bd72-c75c7d440feb
+name: How are you handling disaster recovery for this workload?

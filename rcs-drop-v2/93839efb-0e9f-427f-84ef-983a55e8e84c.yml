@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Regulatory and compliance requirements are mapped to Azure Policy definitions.
+    description: 'For example, if there are data residency requirements, a policy should be applied to restrict available deployment regions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Secure and reliable configuration is part of engineering criteria and mapped to Azure Policy assignments.
+    description: 'For example, apply an Azure Policy to enforce the use of availability zones for all relevant services, ensuring reliable intra-region deployment configurations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: Azure Policy is used to enforce and audit security measures for containers on Kubernetes clusters.
+    description: Azure Policy for Kubernetes extends the reach of Azure Policy to Kubernetes clusters to enforce and audit security measures for containers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Built-in policies are preferred to custom definitions.
+    description: 'A custom policy definition allows customers to define their own rules for using Azure. While that provides wide customization options, the built-in range of policies already covers most scenarios and reduces the management overhead.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: Custom policy definitions are deployed at suitable management group scope.
+    description: 'Azure Policy assignment scope dictates coverage, and the location of Azure Policy definitions informs the reusability of custom policies.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: Azure Active Directory activity logs are exported to the global Log Analytics workspace of the application.
+    description: Azure Policy provides a critical input for compliance reporting and security auditing.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '6'
+    text: Security information and event management is integrated with Microsoft Defender for Cloud.
+    description: Defender for Cloud is a comprehensive solution for managing security of the overall Azure landscape.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Security conventions are ultimately only effective if consistently and holistically enforced across all application services and teams. Azure Policy provides a framework to enforce security and reliability baselines, ensuring continued compliance with common engineering criteria for a mission-critical application.'
+isRequired: false
+uid: 93839efb-0e9f-427f-84ef-983a55e8e84c
+name: Security conventions are ultimately only effective if consistently and holistically enforced across all application services and teams.

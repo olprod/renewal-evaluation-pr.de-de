@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We track them in a spreadsheet or document
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: We use a work item tracking system
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: 'The dependencies are published as packages to a repository, so we can track the dependencies in our code. We publish our own artifacts as well so other teams that depend on us can see the new artifacts.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: We have full access to the source code of other teams and can build our own version of the dependencies if necessary (inner source)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '4'
+    text: 'We have a full open source model, so anyone can contribute and use our code as well as we can use other teams code'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Do you store compiled code in version control? Do you duplicate components? Do you have inefficient processes for managing dependencies? If the answer is yes, you need to share and re-use code across the organization with packages.'
+isRequired: true
+uid: 8f2184bf-604e-4152-abe8-a0a0561206ed
+name: Do you store compiled code in version control?

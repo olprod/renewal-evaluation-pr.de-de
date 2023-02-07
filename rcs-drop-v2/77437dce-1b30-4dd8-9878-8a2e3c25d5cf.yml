@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Analyze VM and disk performance targets to avoid capping conditions.
+    description: 'As a best practice, ensure that your VM and disk''s IOPs and throughput capabilities match the workload of your organization''s application at peak usage.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Schedule maintenance and batch jobs during times with minimal interference with other maintenance tasks and production workloads.
+    description: Trigger these jobs during idle periods or consider using resource governance pools to control resource usage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: Offload reporting data to a new database or implement locking mechanisms and eventual consistency to prevent concurrency issues between reporting and application activity.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: Virtualize high-volume big data and combine with SQL Server relational data for analytics using Big Data Clusters.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: 'Consider using an Azure Dedicated Host when flexibility over VM creation or data analysis is desired, workload requires guaranteed VM capacity provisioning, or further control over maintenance events is required.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: Implement application and report server caching to minimize roundtrips to the database.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: Batch requests or use Multiple Active Result Sets (MARS) when possible to minimize database roundtrips.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: Use connection pooling.
+    description: Establishing connections to databases is typically a very expensive operation that involves establishing an authenticated network connection to the remote database server. Connection pooling makes this process faster.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: 'Use asynchronous processing, such as with Service Broker, for background processing of data events and messages while allowing the application user to continue with additional application tasks.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 77437dce-1b30-4dd8-9878-8a2e3c25d5cf
+name: How are you designing your workload to scale?

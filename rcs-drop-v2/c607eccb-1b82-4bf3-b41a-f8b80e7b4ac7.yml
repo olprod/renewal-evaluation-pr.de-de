@@ -1,0 +1,92 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Reserved capacity is used for data in block blob storage.
+    description: Money can be saved by reserving capacity for block blob and for Azure Data Lake Storage Gen 2 data in a standard storage account when customer commits to 1 or 3 years reservation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Data is organized into access tiers.
+    description: 'You can reduce cost by placing blob data into the most cost-effective access tier. Place frequently accessed data in hot tier, less frequent in cold or archive tier. Use Premium storage for workloads with high transaction volumes or ones where latency is critical.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Life-cycle policy is used to move data between access tiers.
+    description: 'Life-cycle management policy periodically moves data between tiers. Policies can move data based on rules that specified by the user. For example, you might create rules that move blobs to the archive tier if that blob has not been modified in 90 days. Unused data can be also completely removed using a policy. By creating policies that adjust the access tier of your data, you can design the least expensive storage options for your need.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: Shared disks are leveraged for suitable workloads.
+    description: 'You can leverage shared disks to enable cost-effective clustering instead of setting up own shared disks via S2D (Storage Spaces Direct). Sample workloads that would benefit from shared disks are: SQL Server Failover Cluster Instances (FCI), Scale-out File Server (SoFS), File Server for General Use (IW workload) and SAP ASCS/SCS.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: E
+    text: Reserved premium disks (P30 & above) are used.
+    description: Premium Disks (P30 & above) can be reserved (1 or 3 years) at discounted price.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: F
+    text: Bursting for P20 and below disks is utilized for suitable workloads.
+    description: 'Azure Disks offer variety of SKUs and sizes to satisfy different workload requirements. Some of the more recent features could help further optimize cost-performance of existing disk use cases. You can leverage disk bursting for Premium (disks P20 and below). Example scenarios that could benefit from this feature are improving OS boot time, handling batch jobs and handling traffic spikes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: G
+    text: 'For database workloads, data and log files are stored on separate disks.'
+    description: 'You can optimize IaaS DB workload performance by configuring system, data and log files to be on different disk SKUs (leveraging Premium Disks for data and Ultra Disks for logs satisfies most production scenarios). Furthermore, Ultra Disk cost/performance can by optimized by taking advantage of the ability to configure capacity, IOPS and throughput independently; and ability to dynamically configure these attributes. Example workloads are SQL on IaaS, Cassandra DB, Maria DB, MySQL and MongoDB on IaaS.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: H
+    text: 'Unused storage resources (e.g. unattached disks, old snapshots) are periodically cleaned up.'
+    description: Unused storage resources can incur cost and it is a good idea to regularly perform cleanup to reduce spending.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: I
+    text: Selective disk backup and restore for Azure VMs is used.
+    description: 'Using the selective disks backup and restore functionality, you can back up a subset of the data disks in a VM. This provides an efficient and cost-effective solution for your backup and restore needs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: J
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Managing your storage footprint
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4If4G'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Most cloud workloads adopt the polyglot persistence approach. Instead of using one data store service, a mix of technologies is used. To establish a cost estimate, assess the types of data you need to store for each workload.'
+isRequired: false
+legacyId: storage
+uid: c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7
+name: Most cloud workloads adopt the polyglot persistence approach.

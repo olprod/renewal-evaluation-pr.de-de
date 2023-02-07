@@ -1,0 +1,313 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Review Azure Synapse Analytics Automatic Restore Point RPO.
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#automatic-restore-points
+    condition:
+      noneOf:
+        - Reliability-data.cb0fb105-6bd1-4ab7-8403-51fef62054fc.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review Azure Synapse Analytics Geo-Backups and Disaster Recovery RPO.
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#geo-backups-and-disaster-recovery
+    condition:
+      noneOf:
+        - Reliability-data.cb0fb105-6bd1-4ab7-8403-51fef62054fc.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor Azure Synapse Analytics resource utilization to meet SLAs.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity
+    condition:
+      noneOf:
+        - Reliability-data.cb0fb105-6bd1-4ab7-8403-51fef62054fc.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage Azure Synapse Analytics Compute to meet SLAs.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview
+    condition:
+      noneOf:
+        - Reliability-data.cb0fb105-6bd1-4ab7-8403-51fef62054fc.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Synapse Analytics Service SLAs.
+    url: 'https://azure.microsoft.com/support/legal/sla/synapse-analytics/v1_0/'
+    condition:
+      noneOf:
+        - Reliability-data.cb0fb105-6bd1-4ab7-8403-51fef62054fc.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Synapse Studio to monitor your Apache Spark pools.
+    url: /azure/synapse-analytics/monitoring/apache-spark-applications?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Reliability-data.cb0fb105-6bd1-4ab7-8403-51fef62054fc.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Monitor with Synapse Analytics workspace
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-using-azure-monitor
+    condition:
+      noneOf:
+        - Reliability-data.cb0fb105-6bd1-4ab7-8403-51fef62054fc.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure applications are designed and making use of Azure Synapse Analytics High Availability options.
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/analytics/azure-synapse#high-availability
+    condition:
+      noneOf:
+        - Reliability-data.05e4d235-9b73-4382-bb26-1124639c2e4e.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure applications are designed and making use of Azure Synapse Analytics Disaster recovery options.
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/analytics/azure-synapse#disaster-recovery
+    condition:
+      noneOf:
+        - Reliability-data.05e4d235-9b73-4382-bb26-1124639c2e4e.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use extended Azure Synapse Analytics Apache Spark history server to debug and diagnose Apache Spark applications.
+    url: /azure/synapse-analytics/spark/apache-spark-history-server
+    condition:
+      noneOf:
+        - Reliability-data.05e4d235-9b73-4382-bb26-1124639c2e4e.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Synapse Analytics resource limits.
+    url: /azure/azure-sql/database/resource-limits-logical-server#maximum-resource-limits
+    condition:
+      noneOf:
+        - Reliability-data.f068ef0c-e524-43f0-8580-839b85f32cf9.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Synapse Analytics capacity limits.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits
+    condition:
+      noneOf:
+        - Reliability-data.f068ef0c-e524-43f0-8580-839b85f32cf9.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Automatic Restore Points.
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#automatic-restore-points
+    condition:
+      noneOf:
+        - Reliability-data.7033befa-83a8-4aaf-997f-adecad4e7550.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics User-Defined Restore Points.
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#user-defined-restore-points
+    condition:
+      noneOf:
+        - Reliability-data.7033befa-83a8-4aaf-997f-adecad4e7550.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics geo-backups to restore to a paired region for disaster recovery.
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#geo-backups-and-disaster-recovery
+    condition:
+      noneOf:
+        - Reliability-data.7033befa-83a8-4aaf-997f-adecad4e7550.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Synapse Analytics resource limits.
+    url: /azure/azure-sql/database/resource-limits-logical-server#maximum-resource-limits
+    condition:
+      noneOf:
+        - Reliability-data.9254c6f1-1071-4230-948c-b3b9037a1353.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Monitor with Azure Synapse Analytics workspace.
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-using-azure-monitor
+    condition:
+      noneOf:
+        - Reliability-data.e8a25642-295a-49ce-8413-5733a781e9d7.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Synapse Analytics Managed Virtual Network.
+    url: /azure/synapse-analytics/security/synapse-workspace-managed-vnet
+    condition:
+      noneOf:
+        - Reliability-data.a857e646-31f4-475a-b3b0-1f91de97c755.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Synapse Analytics Managed private endpoints.
+    url: /azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints
+    condition:
+      noneOf:
+        - Reliability-data.a857e646-31f4-475a-b3b0-1f91de97c755.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor network resource configurations and detect changes.
+    url: /azure/synapse-analytics/security-baseline#network-security
+    condition:
+      noneOf:
+        - Reliability-data.a857e646-31f4-475a-b3b0-1f91de97c755.C
+        - Reliability-data.a857e646-31f4-475a-b3b0-1f91de97c755.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Advanced Threat Protection.
+    url: /azure/azure-sql/database/threat-detection-overview
+    condition:
+      noneOf:
+        - Reliability-data.962c83c3-1ca3-4101-9d8f-028b67f9c27b.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Maintain an inventory of administrative accounts,change default passwords and use dedicated administrative accounts.'
+    url: /azure/synapse-analytics/security-baseline#identity-and-access-control
+    condition:
+      noneOf:
+        - Reliability-data.962c83c3-1ca3-4101-9d8f-028b67f9c27b.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Secure Azure Synapse Analytics to a virtual network via Private Link.
+    url: /azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Reliability-data.962c83c3-1ca3-4101-9d8f-028b67f9c27b.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create Azure Synapse Analytics Workspace with Data Exfiltration protection enabled.
+    url: /azure/synapse-analytics/security/workspace-data-exfiltration-protection
+    condition:
+      noneOf:
+        - Reliability-data.962c83c3-1ca3-4101-9d8f-028b67f9c27b.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Secure credentials with linked services using the TokenLibrary.
+    url: /azure/synapse-analytics/spark/apache-spark-secure-credentials-with-tokenlibrary?pivots=programming-language-csharp
+    condition:
+      noneOf:
+        - Reliability-data.962c83c3-1ca3-4101-9d8f-028b67f9c27b.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Continuous integration and delivery for Azure Synapse workspace.
+    url: /azure/synapse-analytics/cicd/continuous-integration-deployment
+    condition:
+      noneOf:
+        - Reliability-data.5340c41a-c245-4488-a1e0-3318441cce63.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Maintenance Schedules to manage service updates and maintenance.
+    url: /azure/synapse-analytics/sql-data-warehouse/maintenance-scheduling?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+    condition:
+      noneOf:
+        - Reliability-data.5340c41a-c245-4488-a1e0-3318441cce63.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Upgrade your Azure Synapse Analytics dedicated SQL pool to the latest generation Gen2 of Azure hardware and storage architecture.
+    url: /azure/synapse-analytics/sql-data-warehouse/upgrade-to-latest-generation
+    condition:
+      noneOf:
+        - Reliability-data.5340c41a-c245-4488-a1e0-3318441cce63.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Synapse Analytics High Availability and Disaster Recovery options.
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/analytics/azure-synapse
+    condition:
+      noneOf:
+        - Reliability-data.abcf1f66-6d54-4180-a0ba-24e16e05f81b.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use retry logic to overcome any Transient errors.
+    url: /azure/azure-sql/database/troubleshoot-common-connectivity-issues#retry-logic-for-transient-errors
+    condition:
+      noneOf:
+        - Reliability-data.abcf1f66-6d54-4180-a0ba-24e16e05f81b.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Monitor with your Azure Synapse Analytics workspace.
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-using-azure-monitor
+    condition:
+      noneOf:
+        - Reliability-data.2f3bf023-2c0f-4e56-af17-5296495e7afd.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Studio to monitor your Apache Spark applications.
+    url: /azure/synapse-analytics/monitoring/apache-spark-applications
+    condition:
+      noneOf:
+        - Reliability-data.2f3bf023-2c0f-4e56-af17-5296495e7afd.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Studio to monitor your SQL requests.
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-sql-requests
+    condition:
+      noneOf:
+        - Reliability-data.2f3bf023-2c0f-4e56-af17-5296495e7afd.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor your Azure Synapse Analytics dedicated SQL pool workload using Dynamic Management Views (DMVs).
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor
+    condition:
+      noneOf:
+        - Reliability-data.2f3bf023-2c0f-4e56-af17-5296495e7afd.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 047ea069-9900-4e39-b93e-42e5e8fb80fb
+name: ''

@@ -1,0 +1,89 @@
+### YamlMime:SelfAssessment
+description: 'Examine your SAP On Azure workload through the lenses of reliability, security, cost management, operational excellence and performance efficiency [40 minutes].'
+duration: ''
+questionnaireReferences:
+  - questionnaireUid: b6eb2f0b-5a9f-4788-aefb-480eee2a7e20
+    isRequired: false
+  - questionnaireUid: 2b34303d-9357-4a00-a8b8-cefcfe3d2b5b
+    isRequired: false
+  - questionnaireUid: c0111878-f41a-4628-bbb0-ea7d6a51ad63
+    isRequired: false
+  - questionnaireUid: 3a9b223c-7ae9-4ef4-a658-963cbd44ca7c
+    isRequired: false
+  - questionnaireUid: 30460222-547b-40a8-b8b0-4558bf61a9e4
+    isRequired: false
+guidance:
+  title: Your results
+  description: View how your SAP On Azure workload aligns to best practices and recommendations to help you improve.
+  providers: []
+  scoring:
+    title: Recommendations for your SAP On Azure workload
+    description: Actionable items to consider implementing to improve your SAP On Azure workload across the five pillars of the Microsoft Azure Well-Architected Framework.
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: Next Steps
+    steps:
+      - iconUrl: ''
+        description: Please share your feedback and collaborate to help us make this great!
+        links:
+          - title: Feedback link
+            url: 'https://forms.office.com/r/Q8hbxjrvyV'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Share feedback on SAP WAF Pilot  with Microsoft AzSAP Assessment team.
+      - iconUrl: ''
+        description: 'Enterprise-scale for SAP on Azure provide specific architectural approach and reference implementation that enables effective construction and operationalization of platform workload landing zones within the Cloud Adoption Framework enterprise-scale landing zone. After you have successfully implemented an enterprise-scale landing zone, they can use enterprise-scale for SAP on Azure. Review the enterprise-scale overview and implementation guidance before deploying enterprise-scale for SAP on Azure.'
+        links:
+          - title: Review Enterprise-scale for SAP on Azure
+            url: /azure/cloud-adoption-framework/scenarios/sap/enterprise-scale-landing-zone
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Enterprise-scale for SAP on Azure.
+      - iconUrl: ''
+        description: 'When you use Microsoft Azure, you can reliably run your mission-critical SAP workloads and scenarios on a scalable, compliant, and enterprise-proven platform. '
+        links:
+          - title: Use Azure to run SAP workload scenarios
+            url: /azure/virtual-machines/workloads/sap/get-started
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Use Azure to host and run SAP workload scenarios
+      - iconUrl: ''
+        description: 'SAP HANA on Azure (Large Instances) is a unique solution to Azure. In addition to providing virtual machines for deploying and running SAP HANA, Azure offers you the possibility to run and deploy SAP HANA on bare-metal servers that are dedicated to you.'
+        links:
+          - title: ''
+            url: /azure/virtual-machines/workloads/sap/hana-overview-architecture
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: SAP HANA on Azure (Large Instances)
+  recommendationsTitle: Opportunities for improvement
+isHiddenAssessment: false
+uid: test-azure-architecture-review-adb
+name: Opportunities for improvement

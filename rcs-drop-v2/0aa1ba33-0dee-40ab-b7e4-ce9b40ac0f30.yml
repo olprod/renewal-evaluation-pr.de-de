@@ -1,0 +1,72 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: You have documented any components that are on-premises or in another cloud.
+    description: 'Hybrid and cross-cloud workloads with components on-premises or on different cloud platforms, such as AWS or GCP, introduce additional operational considerations around achieving a ''single pane of glass'' for operations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Deployed the application across multiple regions.
+    description: Does the application support multi-region deployments for failover purposes?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Application is deployed across multiple regions in an active-passive configuration in alignment with recovery targets.
+    description: Is the application and/or its key workloads deployed across multiple regions in an active-passive configuration?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: Application platform components are deployed across multiple active regions.
+    description: Is the application platform deployed across multiple regions? The ability to respond to disaster scenarios for overall compute platform availability and application resiliency is dependant on the use of multiple regions or other deployment locations
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: The workload is implemented with strategies for resiliency and self-healing.
+    description: 'Consider implementing strategies and capabilities for resiliency and self-healing needed to achieve workload availability targets. Programming paradigms such as retry patterns, request timeouts, and circuit breaker patterns can improve application resiliency by automatically recovering from transient faults.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: All platform-level dependencies are identified and understood.
+    description: 'Examples of typical dependencies include Azure Active Directory, Express Route, or a central NVA (Network Virtual Appliance), as well as application dependencies such as APIs which may be in-house or externally owned by a third-party.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Design considerations'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWK3af'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: ''
+isRequired: false
+legacyId: design
+uid: 0aa1ba33-0dee-40ab-b7e4-ce9b40ac0f30
+name: What design considerations for operations have you made?

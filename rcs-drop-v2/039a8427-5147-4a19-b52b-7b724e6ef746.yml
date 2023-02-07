@@ -1,0 +1,79 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Application and resource level logs are either aggregated in a single data sink, or it is possible to cross-query events at both levels'
+    description: 'Are application and resource level logs aggregated in a single data sink, or is it possible to cross-query events at both levels?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Application level events are automatically correlated with resource-level metrics to quantify the current application state
+    description: Are application level events automatically correlated with resource level metrics to quantify the current application state?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: A health model is used to qualify what 'healthy' and 'unhealthy' states represent for the workload
+    description: Is a health model used to qualify what 'healthy' and 'unhealthy' states represent for the application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Critical system flows are used to inform the health model
+    description: Are critical system flows used to inform the health model?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: The health model can distinguish between transient and non-transient faults
+    description: Can the health model distinguish between transient and non-transient faults?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Long-term trends are analysed to predict operational issues before they occur
+    description: Are long-term trends analysed to predict operational issues before they occur?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Retention times for logs and metrics have been defined and with housekeeping mechanisms configured
+    description: Have retention times for logs and metrics been defined and with housekeeping mechanisms configured?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Visualizing Data'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWJZDv'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Dashboarding tools should be used to visualize metrics and events collected at the application and resource levels to illustrate the health model and the current operational state of the workload.
+isRequired: false
+legacyId: visualization
+uid: 039a8427-5147-4a19-b52b-7b724e6ef746
+name: Dashboarding tools should be used to visualize metrics and events collected at the application and resource levels to illustrate the health model and the current operational state of the workload.

@@ -1,0 +1,39 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: All Cosmos DB resources are appropriately sized for our requirements. We are aware of the CapacityPlanner feature.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: We are aware of Request Units (RU) in Cosmos DB. We have considered the various factors affecting RU requirements.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-data.cosmos
+stem: ''
+isRequired: false
+uid: 04656c43-7e02-47c8-badb-d6b9cc425619
+name: Have you considered the cost of your Cosmos DB?

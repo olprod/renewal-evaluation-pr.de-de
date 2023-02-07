@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You create a project by using the Support ready-to-use template.
+
+  When cases are closed, surveys are not sent out.
+
+  You need to ensure that the system sends the surveys out when cases are closed. The solution must minimize effort.
+
+  Which action should you perform?
+questionnaireUid: 88b874f5-5aac-4f50-aff3-2a2dc9bb9486
+questions:
+  - uid: f6386597-df7c-49f0-958c-152d3abb1b0f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You create a project by using the Support ready-to-use template.
+        isCorrect: false
+      - id: 1
+        text: 'When cases are closed, surveys are not sent out.'
+        isCorrect: true
+      - id: 2
+        text: You need to ensure that the system sends the surveys out when cases are closed.
+        isCorrect: false
+      - id: 3
+        text: The solution must minimize effort.
+        isCorrect: false
+uid: f6386597-df7c-49f0-958c-152d3abb1b0f
+title: ''

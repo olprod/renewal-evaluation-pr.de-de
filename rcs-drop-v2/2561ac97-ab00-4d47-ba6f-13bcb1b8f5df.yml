@@ -1,0 +1,160 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider following Microsoft's guidance on achieving your cloud adoption goals.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/overview'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.f69748ce-98d6-4604-9dad-211f8e2586a9.null
+        - 5a28c413-6f20-4d41-8210-174535467739.f69748ce-98d6-4604-9dad-211f8e2586a9.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Drive adoption and efforts using cloud adoption strategy basics.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.98e85e41-2d1c-43c7-ae8b-2b96181f02b1.0
+        - 5a28c413-6f20-4d41-8210-174535467739.98e85e41-2d1c-43c7-ae8b-2b96181f02b1.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Follow workload guides to start aligning various teams to accelerate migration and innovation efforts.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/get-started/'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.ae177bbc-e461-4096-9c22-20b922e6138e.0
+        - 5a28c413-6f20-4d41-8210-174535467739.ae177bbc-e461-4096-9c22-20b922e6138e.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Create a landing zone to host the workloads.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.952808a1-81dd-49c2-b6b7-aa03cca5b692.0
+        - 5a28c413-6f20-4d41-8210-174535467739.952808a1-81dd-49c2-b6b7-aa03cca5b692.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Create a cloud operations adoptions lifecycle.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.4300d2bc-0565-42b5-9c08-d47ecf463257.0
+        - 5a28c413-6f20-4d41-8210-174535467739.4300d2bc-0565-42b5-9c08-d47ecf463257.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Develop a robust cloud governance strategy in parallel with cloud implementation.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.3e62e808-4238-437d-9f9d-a8f5aa491dfa.0
+        - 5a28c413-6f20-4d41-8210-174535467739.3e62e808-4238-437d-9f9d-a8f5aa491dfa.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Follow guidance on securing your workloads on Azure.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/secure/'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.f8d2ea5d-2728-44dc-82f2-5536c627fcf9.0
+        - 5a28c413-6f20-4d41-8210-174535467739.f8d2ea5d-2728-44dc-82f2-5536c627fcf9.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Consider using Enterprise Dev/Test for development and testing workloads on Azure.
+    url: 'https://azure.microsoft.com/en-au/offers/ms-azr-0148p/'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.948952b3-7e1a-4578-aa3e-6323b9602110.0
+        - 5a28c413-6f20-4d41-8210-174535467739.948952b3-7e1a-4578-aa3e-6323b9602110.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Consider using Azure Monitor Logs which is a log data platform that collects Activity logs and resource logs along with other monitoring data to provide deep analysis across your entire set of resources.
+    url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/data-platform'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.e175fbe4-9953-4a2b-a726-03cf4bfbcf7e.0
+        - 5a28c413-6f20-4d41-8210-174535467739.e175fbe4-9953-4a2b-a726-03cf4bfbcf7e.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Add metrics to Azure dashboard for visualization in combination with other data and used for near-real-time alerting.
+    url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/data-platform'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.8aa3d8e3-c98b-4ea1-9fdc-c375fd5a3e4b.0
+        - 5a28c413-6f20-4d41-8210-174535467739.8aa3d8e3-c98b-4ea1-9fdc-c375fd5a3e4b.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: Use Alerts to help detect and address issues before users notice them by proactively notifying you when Azure Monitor data indicates that there may be a problem with your infrastructure or application.
+    url: 'https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview'
+    condition:
+      allOf: []
+      anyOf:
+        - 5a28c413-6f20-4d41-8210-174535467739.d1248c1b-2a5f-443c-a553-bc7c1f35d89e.0
+        - 5a28c413-6f20-4d41-8210-174535467739.d1248c1b-2a5f-443c-a553-bc7c1f35d89e.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+  - title: 'Consider reviewing and understanding your network options to support your organization''s workload, governance, and connectivity requirements.'
+    url: 'https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/networking-options'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Operational Excellence
+uid: 2561ac97-ab00-4d47-ba6f-13bcb1b8f5df
+name: ''

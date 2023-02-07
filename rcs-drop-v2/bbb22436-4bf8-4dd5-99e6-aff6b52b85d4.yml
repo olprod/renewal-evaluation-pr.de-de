@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has defined and applied data lifecycle for a business process(es) and stakeholders agree on data elopements.
+    description: Your organization has defined and applied data lifecycle for a business process(es) and stakeholders agree on data elopements.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organizations requirements of data consumers and producers are mapped and aligned. '
+    description: 'Your organizations requirements of data consumers and producers are mapped and aligned. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization's data lifecycle management processes are defined and approved by stakeholders and managed by data governance bodies and processes. Change management addresses entire data lifecycle.
+    description: |
+      Your organization's data lifecycle management processes are defined and approved by stakeholders and managed by data governance bodies and processes. Change management addresses entire data lifecycle.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has successfully implemented a standard process is used across the organization for data lifecycle impact analysis, and to identify, estimate, and schedule changes to interfaces and data sets.'
+    description: 'Your organization has successfully implemented a standard process is used across the organization for data lifecycle impact analysis, and to identify, estimate, and schedule changes to interfaces and data sets.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has implemented regulative measures to follow, when it comes to datastores and retention policies. Metrics and stakeholder feedback are analyzed periodically for the purpose of introducing improvements into the management of data dependencies.'
+    description: 'Your organization has implemented regulative measures to follow, when it comes to datastores and retention policies. Metrics and stakeholder feedback are analyzed periodically for the purpose of introducing improvements into the management of data dependencies.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'How does your organization understand, maps, inventories, and controls its data flows through business processes throughout the data lifecycle from creation or acquisition to retirement. Do you use retention policies on datastores?'
+isRequired: true
+uid: bbb22436-4bf8-4dd5-99e6-aff6b52b85d4
+name: 'How does your organization understand, maps, inventories, and controls its data flows through business processes throughout the data lifecycle from creation or acquisition to retirement.'

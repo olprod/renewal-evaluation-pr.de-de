@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'The workload uses Azure Content Delivery Network as a global CDN solution to help minimize latency through storing frequently read static data closer to consumers, and to help reduce the network traversal and server load.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'We are familiar with caching best practices, and we use a high-performance caching solution to improve performance, reduce network traversal and server load, and increase compute density of resources that are already allocated.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: We selected Azure regions based on where customers reside to serve requests with good performance and energy efficiency.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: We've carefully selected managed streaming services with built-in compression to reduce the carbon footprint resulting from streaming media over the internet.
+    description: Select this answer even if steaming services are not used.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'We''ve enabled network file compression to improve file transfer speed, increase page-load performance, and reduce network payload.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: 'We avoid spreading resources unnecessarily between different cloud service providers and maximize network utilization within the same cloud and region, whenever possible, to optimize network routing and reduce network traversals between components.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: fd7646ff-79d0-4e83-a179-52fba629e14d
+name: What are you doing to enhance and optimize network efficiency to reduce unnecessary carbon emissions?

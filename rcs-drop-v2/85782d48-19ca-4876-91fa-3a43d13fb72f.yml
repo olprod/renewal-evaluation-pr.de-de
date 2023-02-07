@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use virtual networks (VNets) to secure Azure Machine Learning workspace during setup.
+    description: 'Secure an Azure Machine Learning workspace and its associated resources in a VNet to set up the environment. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Use virtual networks (VNets) to secure an Azure Machine Learning training environment.
+    description: ' Secure training environments with a VNet in Azure Machine Learning.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Configure Azure Private Link for Azure Machine Learning to enable private endpoint for inferencing.
+    description: 'Azure Private Link enables you to connect to your workspace using a private endpoint. The private endpoint is a set of private IP addresses within your virtual network. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: Secure an Azure Machine Learning inferencing environment with virtual networks (VNets).
+    description: 'Secure inferencing resources with Azure Kubernetes Service (AKS) cluster, private AKS cluster, AKS cluster with Azure Private Link, and Azure Container Instances in a VNet.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: Use Azure Machine Learning studio in an Azure virtual network (VNet).
+    description: 'Configure studio access to data stored inside a VNet, and access the studio from a resource inside of a VNet.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: 'Use TLS to secure web service through Azure Machine Learning. '
+    description: Secure a web service that's deployed through Azure Machine Learning
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: L
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+    - waf-config-golive.waf-scenario.ai
+stem: 'Network security has been the traditional linchpin of enterprise security efforts. However, cloud computing has increased the requirement for network perimeters to be more porous and many attackers have mastered the art of attacks on identity system elements.'
+isRequired: false
+legacyId: '4'
+uid: 85782d48-19ca-4876-91fa-3a43d13fb72f
+name: Network security has been the traditional linchpin of enterprise security efforts.

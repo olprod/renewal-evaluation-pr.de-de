@@ -1,0 +1,61 @@
+### YamlMime:SelfAssessment
+description: |-
+  The "Dynamics 365 Implementation Readiness Review" is designed to proactively help you to assess your readiness to start a Dynamics 365 implementation project by reviewing the key criteria for a successful project start. The results of the assessment (guidance) will provide actionable recommended practices that will help you prepare for a successful project start, a predictable go live with great business outcomes. 
+
+  Audience: Senior stakeholders, project managers and project leaders. 
+
+  When: This assessment is designed to be taken during your early discovery and analysis phase in pre-sales, or in pre-kickoff phase of your initiative. The project would typically be in the process of determining/refining the project charter, the scope, the high-level solution strategy, the key implementation approach and strategies, the project milestones, resources and budget.  
+
+  Who: Anyone who is planning to implement Dynamics 365 business applications with power platform, possibly for the first time in their organization.
+duration: 60 days
+questionnaireReferences:
+  - questionnaireUid: 8c0a7d39-f528-4343-9362-d8507b36a62f
+    isRequired: false
+  - questionnaireUid: 9b4b4a7b-4719-4690-b096-4a7585530474
+    isRequired: false
+  - questionnaireUid: f6d00080-82f2-461d-87de-3456c70f16bf
+    isRequired: false
+  - questionnaireUid: 4edcb17d-24af-4c13-b905-225fd15c4be3
+    isRequired: false
+  - questionnaireUid: f707262b-9079-4575-814c-d21d6981b901
+    isRequired: false
+  - questionnaireUid: d9cb15dc-7898-4917-a488-9660bd993635
+    isRequired: false
+  - questionnaireUid: aceffb99-999a-4dc7-9047-8291479c870c
+    isRequired: false
+guidance:
+  title: 60 days
+  description: ''
+  providers: []
+  scoring:
+    title: Your Results
+    description: Your score
+    calculationType: Average
+    scoresVerbage: Low|Intermediate|High
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Rishi
+  lastName: Manocha
+  email: rmanocha@microsoft.com
+isHiddenAssessment: true
+uid: 561d1647-3a8a-43b8-b749-fa5cdd29a8f1
+name: Your Level of Readiness is

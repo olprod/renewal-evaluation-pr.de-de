@@ -1,0 +1,71 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You monitor and take advantage of new features and capabilities of underlying services used in your application
+    description: 'Azure is continuously evolving, with new features and services becoming available which may be beneficial for the application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Application configuration information is stored using a dedicated management system
+    description: Where is application configuration information stored and how does the application access it?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Configuration settings can be changed or modified without rebuilding or redeploying the application
+    description: Can configuration settings be changed or modified without rebuilding or redeploying the application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: Passwords and other secrets are managed in a secure store like Azure Key Vault or HashiCorp Vault
+    description: How are passwords and other secrets managed?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: Procedures are in place for key/secret rotation
+    description: Do you have procedures in place for key/secret rotation?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: The expiry dates of SSL certificates are monitored and there are processes in place to renew them
+    description: Are the expiry dates of SSL certificates monitored and are processes in place to renew them?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '7'
+    text: Components are hosted on shared application or data platforms as appropriate
+    description: 'Do application components leverage shared data platforms, such as a central data lake, or application hosting platforms, such as a centrally managed Azure Kubernetes Service (AKS) or App Service Environment (ASE) cluster? Shared platforms drive down cost, but the workload needs to maintain the expected performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '8'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Cloud-based applications often run on multiple virtual machines or containers in multiple regions, and use multiple external services. How do you manage and store all your app''s configuration settings, feature flags, and secure access settings?'
+isRequired: true
+uid: d9faa94b-76fb-4fd3-88d6-3b14fa023d58
+name: 'Cloud-based applications often run on multiple virtual machines or containers in multiple regions, and use multiple external services.'

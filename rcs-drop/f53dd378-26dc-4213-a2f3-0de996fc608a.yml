@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |
+  A company is considering using Planning Optimization instead of the built-in master planning engine. 
+
+  What are three benefits of Planning Optimization? Each correct answer presents a complete solution.
+questionnaireUid: b702b0c1-1de7-4c16-9525-25a1001f8798
+questions:
+  - uid: f53dd378-26dc-4213-a2f3-0de996fc608a-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: A company is considering using Planning Optimization instead of the built-in master planning engine.
+        isCorrect: true
+      - id: 1
+        text: What are three benefits of Planning Optimization?
+        isCorrect: true
+      - id: 2
+        text: Each correct answer presents a complete solution.
+        isCorrect: true
+      - id: 3
+        text: It is a multitenant service.
+        isCorrect: false
+      - id: 4
+        text: It has multiple instances.
+        isCorrect: false
+uid: f53dd378-26dc-4213-a2f3-0de996fc608a
+title: ''

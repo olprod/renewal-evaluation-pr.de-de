@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 1 year
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: 2 years
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '2'
+    text: 3 years or more
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+uid: 9edbff4d-eda4-4ab8-b4f9-e3559c3437bf
+name: What is your timeline to migrate or modernize your applications to the cloud?

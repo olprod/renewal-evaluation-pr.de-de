@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization does not have a need or a use-case for Integration Runtime, everything is on-premises.'
+    description: 'Your organization does not have a need or a use-case for Integration Runtime, everything is on-premises.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization understands the need for Integration Runtime as part of the data integration solution and is planning a design approach.
+    description: Your organization understands the need for Integration Runtime as part of the data integration solution and is planning a design approach.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization understands the importance of Integration Runtime in the context of the infrastructure required for data integration and is using to access on-premises data.
+    description: Acceptable. Your organization understands the importance of Integration Runtime in the context of the infrastructure required for data integration and is using to access on-premises data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has designed and deployed a solution that utilizes different types of Integration Runtimes across several services in order to meet data integration needs.
+    description: Your organization has designed and deployed a solution that utilizes different types of Integration Runtimes across several services in order to meet data integration needs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized.
+    description: 'Optimized. Your organization is  fully leveraging Integration Runtimes for data movement, activity dispatching and data transformation and regular monitors its activity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you utilize Integration Runtimes to provide support data integration capabilities across your network environments?
+isRequired: true
+uid: aeb96592-f477-48ae-93ca-a362dcc5e446
+name: Do you utilize Integration Runtimes to provide support data integration capabilities across your network environments?

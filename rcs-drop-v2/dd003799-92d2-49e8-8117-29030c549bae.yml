@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have an immutable infrastructure that re-builds, through declarative or imperative IaC scripts, a new infrastructure as a result of changes.'
+    description: 'Instead of updating or modifying the current the infrastructure, it is replaced with a new one constructed from a common set of scripts.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: 'We have  a mutable infrastructure that adopts configuration changes to our current infrastructure, through declarative or imperative scripts, in a automated process'
+    description: The infrastructure is curated with automation and scripts.  As elements change these changes are absorbed into the infrastructure.  Services are released and restarted to use the new infrastructure changes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 80
+  - id: '2'
+    text: 'We have a compilation of scripts that are executed manually, but these scripts automatically build the infrastructure'
+    description: 'There is a set of scripts or JSON files that build our infrastructure in a repository, however we decide on the time and when they are executed to build the infrastructure.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '3'
+    text: We manually create the infrastructure as needed and have IT workflows that automate the communication to necessary groups responsible for parts of the infrastructure to deploy
+    description: 'There are no scripts, but we have automated communication process, for example a ticketing system, that assigns work to the groups responsible for the deployment of infrastructure elements.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '4'
+    text: We create our infrastructure when necessary and manually
+    description: 'We do not automate our infrastructure.  We manually curate our infrastructure and add, remove, or modify infrastructure elements based on demand and need.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'Infrastructure as Code evolved to solve the problem of environment drift in the release pipeline. Without IaC, teams must maintain the settings of individual deployment environments.'
+isRequired: true
+uid: dd003799-92d2-49e8-8117-29030c549bae
+name: Infrastructure as Code evolved to solve the problem of environment drift in the release pipeline.

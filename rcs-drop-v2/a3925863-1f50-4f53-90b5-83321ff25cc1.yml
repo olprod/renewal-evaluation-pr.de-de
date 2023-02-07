@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 62d4e2a0-f4a7-4e6f-9dd3-a5975bef03de
+recommendations:
+  - 985cc676-3333-4369-82dd-28513ff6a690
+assignedGroupIds: []
+uid: a3925863-1f50-4f53-90b5-83321ff25cc1
+name: 'Go-Live - Application Gateway: Reliability'

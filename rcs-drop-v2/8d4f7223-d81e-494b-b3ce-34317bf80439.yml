@@ -1,0 +1,762 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: '[Q1] Understand total cost of ownership (TCO) on running at scale in production.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#total-cost-of-ownership-tco
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.49edaf20-2c12-4056-ba79-366d472fb755.0
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Understand total cost of ownership
+  - title: '[Q1] Understand Azure IoT Hub quotas and throttling limits and how they impact cost.'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.49edaf20-2c12-4056-ba79-366d472fb755.1
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q1] Review the Azure IoT reference architecture.'
+    url: /azure/architecture/reference-architectures/iot
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.49edaf20-2c12-4056-ba79-366d472fb755.2
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q1] Use the Azure pricing calculator.'
+    url: 'https://azure.microsoft.com/pricing/calculator/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.49edaf20-2c12-4056-ba79-366d472fb755.3
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Understand total cost of ownership
+  - title: '[Q2] Refer to best practices for device management.'
+    url: /azure/iot-hub/iot-hub-configuration-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.994327a2-62a0-4324-b366-f5b32c4297f9.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q2] Understand IoT device types.'
+    url: /azure/iot-develop/concepts-iot-device-types#key-hardware-differentiators
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.994327a2-62a0-4324-b366-f5b32c4297f9.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q2] Use the market-proven real time operating system (RTOS) for IoT devices.'
+    url: /azure/rtos/overview-rtos#pre-certified-by-tuv-and-ul-to-many-safety-standards
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.994327a2-62a0-4324-b366-f5b32c4297f9.2
+      scoreOf: []
+    context: ''
+    priority: 15
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q2] Use IoT Plug and Play to reduce hardware development and on-boarding time.'
+    url: /azure/iot-develop/overview-iot-plug-and-play
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.994327a2-62a0-4324-b366-f5b32c4297f9.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q2] Understand how to use the Device Provisioning Service.'
+    url: /azure/iot-dps/concepts-roles-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.994327a2-62a0-4324-b366-f5b32c4297f9.4
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q2] Implement an over-the-air update solution.'
+    url: /azure/iot-hub-device-update/understand-device-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.994327a2-62a0-4324-b366-f5b32c4297f9.5
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q2] Integrate LPWAN devices with IoT Hub.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#lpwan-devices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.994327a2-62a0-4324-b366-f5b32c4297f9.6
+      scoreOf: []
+    context: ''
+    priority: 10
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q2] Use Azure Sphere guardian modules.'
+    url: /azure-sphere/hardware/guardian-modules
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.994327a2-62a0-4324-b366-f5b32c4297f9.7
+      scoreOf: []
+    context: ''
+    priority: 10
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q2] Use cloud-capable RTOS for IoT devices.'
+    url: 'https://azure.microsoft.com/pricing/details/rtos/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.994327a2-62a0-4324-b366-f5b32c4297f9.8
+      scoreOf: []
+    context: ''
+    priority: 10
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q3] Understand how to manage Azure IoT Edge devices.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#azure-iot-edge
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.ccd3c378-a101-4d92-860a-4b4645f2c63a.0
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q3] Understand Azure IoT Edge''s local message processing features.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#azure-iot-edge
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.ccd3c378-a101-4d92-860a-4b4645f2c63a.1
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q3] Evaluate free Azure IoT Edge modules.'
+    url: 'https://azuremarketplace.microsoft.com/en/marketplace/apps/category/internet-of-things?search=iot%20edge&page=1&subcategories=iot-edge-modules'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.ccd3c378-a101-4d92-860a-4b4645f2c63a.2
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q3] Evaluate Azure IoT Edge''s options for running Azure workloads on the edge.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#azure-iot-edge
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.ccd3c378-a101-4d92-860a-4b4645f2c63a.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q3] Understand the Azure Stream Analytics module for Azure IoT Edge.'
+    url: /azure/stream-analytics/stream-analytics-edge
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.ccd3c378-a101-4d92-860a-4b4645f2c63a.4
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q3] Evaluate a connectivity model for edge deployment.'
+    url: /azure/private-multi-access-edge-compute-mec/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.ccd3c378-a101-4d92-860a-4b4645f2c63a.5
+      scoreOf: []
+    context: ''
+    priority: 5
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q3] Evaluate edge computing device options.'
+    url: /azure/databox-online
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.ccd3c378-a101-4d92-860a-4b4645f2c63a.6
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q4] Use IoT Plug and Play to develop devices that connect to IoT Hub.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#iot-plug-and-play
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.6dc9931c-e893-4ba4-ae2d-072ef90ce715.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q4] Estimate solution costs based on running at scale in production.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#total-cost-of-ownership-tco
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.6dc9931c-e893-4ba4-ae2d-072ef90ce715.1
+      scoreOf: []
+    context: ''
+    priority: 30
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Understand total cost of ownership
+  - title: '[Q4] Adopt Visual Studio Code extensions for Azure IoT.'
+    url: 'https://devblogs.microsoft.com/iotdev/introducing-azure-iot-tools-for-visual-studio-code'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.6dc9931c-e893-4ba4-ae2d-072ef90ce715.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q4] Adopt an infrastructure as code approach for cloud workload deployment.'
+    url: /azure/azure-resource-manager/bicep/best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.6dc9931c-e893-4ba4-ae2d-072ef90ce715.3
+      scoreOf: []
+    context: ''
+    priority: 30
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q4] Consider out-of-the-box connector application extensions.'
+    url: /connectors/azureeventgrid
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.6dc9931c-e893-4ba4-ae2d-072ef90ce715.4
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q4] Use Azure services for lower cost, and evaluate Azure IoT Hub and Azure IoT Central with free trials.'
+    url: 'https://azure.microsoft.com/pricing/details/iot-hub/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.6dc9931c-e893-4ba4-ae2d-072ef90ce715.5
+      scoreOf: []
+    context: ''
+    priority: 10
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q4] Evaluate implementing IoT data dashboard using an open-source toolkit.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#interaction-and-reporting-layer
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.6dc9931c-e893-4ba4-ae2d-072ef90ce715.6
+      scoreOf: []
+    context: ''
+    priority: 30
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q4] Reuse IoT development code from GitHub.'
+    url: 'https://github.com/Azure/iot'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.6dc9931c-e893-4ba4-ae2d-072ef90ce715.7
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q5] Use device simulators to save costs in test and development.'
+    url: 'https://azure-samples.github.io/raspberry-pi-web-simulator'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.c7d4f986-eeba-4365-a6af-8d306b1bbeb5.0
+      scoreOf: []
+    context: ''
+    priority: 10
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q5] Set up a load testing environment for overall cost estimation.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#load-testing-for-cost-estimation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.c7d4f986-eeba-4365-a6af-8d306b1bbeb5.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Monitor and optimize
+  - title: '[Q5] Consider a performance test using Azure services.'
+    url: /azure/azure-monitor/app/tutorial-performance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.c7d4f986-eeba-4365-a6af-8d306b1bbeb5.2
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q6] Understand the different options in Azure IoT Hub and Azure IoT Central for bi-directional communication.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#iot-solution-platform
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.821835f7-130a-4e78-a23b-6c189f898722.0
+      scoreOf: []
+    context: ''
+    priority: 30
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q6] Understand the cost effectiveness of different messaging protocols.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#transport-layer
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.821835f7-130a-4e78-a23b-6c189f898722.1
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q6] Implement message compression, if possible.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#iot-hub-message-size-and-frequency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.821835f7-130a-4e78-a23b-6c189f898722.2
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q6] Implement client-side batching of messages, if possible.'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.821835f7-130a-4e78-a23b-6c189f898722.3
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q6] Consider higher hardware investment to benefit from lower cloud solution costs.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#hardware-selection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.821835f7-130a-4e78-a23b-6c189f898722.4
+      scoreOf: []
+    context: ''
+    priority: 15
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q6] Understand the options to reduce keep-alive messages from devices.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#transport-layer
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.821835f7-130a-4e78-a23b-6c189f898722.5
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q6] Use device twin to exchange status information asynchronously if cost is critical.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#iot-hub-message-size-and-frequency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.821835f7-130a-4e78-a23b-6c189f898722.6
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q7] Evaluate highly secure end-to-end IoT devices with Azure Sphere.'
+    url: /azure-sphere/product-overview/what-is-azure-sphere
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b4666c9-52c5-4a7f-8262-67e4320bff1e.0
+      scoreOf: []
+    context: ''
+    priority: 5
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q7] Evaluate added investment in security hardware to lower security risks.'
+    url: /azure/iot-fundamentals/iot-security-best-practices#iot-hardware-manufacturerintegrator
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b4666c9-52c5-4a7f-8262-67e4320bff1e.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Total cost of ownership
+  - title: '[Q7] Understand the cost implications of symmetric keys, HSM, or X.509 certificates for device authentication.'
+    url: 'https://azure.microsoft.com/pricing/calculator/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b4666c9-52c5-4a7f-8262-67e4320bff1e.2
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q7] Minimize the cost impact on devices with a micro-agent to give endpoint IoT and OT threat detection.'
+    url: /azure/defender-for-iot/device-builders/concept-standalone-micro-agent-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b4666c9-52c5-4a7f-8262-67e4320bff1e.3
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Strategy for IoT technology
+  - title: '[Q7] Review cost savings when compared to custom-built solutions, in addition to the reliability of Microsoft in security.'
+    url: 'https://azure.microsoft.com/pricing/details/defender-for-cloud'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b4666c9-52c5-4a7f-8262-67e4320bff1e.4
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Total cost of ownership
+  - title: '[Q8] Use Azure cost analysis to review and analyze the cost of consumed cloud resources.'
+    url: /azure/cost-management-billing/costs/quick-acm-cost-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.8a578f32-9d18-4568-bd01-d3a9e21d5a07.0
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Monitor and optimize
+  - title: '[Q8] Define your budget and configure cost alerts.'
+    url: /azure/cost-management-billing/costs/tutorial-acm-create-budgets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.8a578f32-9d18-4568-bd01-d3a9e21d5a07.1
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Monitor and optimize
+  - title: '[Q8] Define your cloud governance model and implement policies based on organization needs.'
+    url: /azure/cloud-adoption-framework/govern/cost-management/policy-statements
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.8a578f32-9d18-4568-bd01-d3a9e21d5a07.2
+      scoreOf: []
+    context: ''
+    priority: 30
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Total cost of ownership
+  - title: '[Q8] Identify, define, and test business continuity solutions such as backup and recovery.'
+    url: /azure/iot-hub/iot-hub-ha-dr
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.8a578f32-9d18-4568-bd01-d3a9e21d5a07.3
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q8] Evaluate a deployment stamping strategy.'
+    url: /azure/architecture/example-scenario/iot/application-stamps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.8a578f32-9d18-4568-bd01-d3a9e21d5a07.4
+      scoreOf: []
+    context: ''
+    priority: 5
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q8] Understand Azure IoT Hub service tiers.'
+    url: /azure/iot-hub/iot-hub-scaling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.8a578f32-9d18-4568-bd01-d3a9e21d5a07.5
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q8] Implement auto-scaling of Azure IoT Hub.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#iot-hub-autoscaling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.8a578f32-9d18-4568-bd01-d3a9e21d5a07.6
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q8] Understand the pricing model for each service in your solution.'
+    url: 'https://azure.microsoft.com/pricing/calculator/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.8a578f32-9d18-4568-bd01-d3a9e21d5a07.7
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Total cost of ownership
+  - title: '[Q9] IoT solutions commonly use storage and databases for persistent storage and downstream analysis needs.'
+    url: /azure/architecture/data-guide/technology-choices/data-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.27a9f86c-f398-4638-8d0c-73fee7bac8ef.0
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q9] Define the lifecycle of collected data to maximize value and minimize additional costs associated with archiving.'
+    url: /azure/storage/blobs/lifecycle-management-policy-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.27a9f86c-f398-4638-8d0c-73fee7bac8ef.1
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q9] Implement Azure IoT Hub routing and custom endpoints.'
+    url: /azure/iot-hub/iot-hub-devguide-messages-d2c
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.27a9f86c-f398-4638-8d0c-73fee7bac8ef.2
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q9] Understand how to use hot, warm, and cold path analytics for IoT data.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#lambda-architectural-pattern
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.27a9f86c-f398-4638-8d0c-73fee7bac8ef.3
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q10] Use Azure Cost Management API for multidimensional cost analysis.'
+    url: /rest/api/cost-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.dd86ac7c-e28c-4764-9571-cbcb73d42921.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Monitor and optimize
+  - title: '[Q10] Configure cost alerts for proactive cost actions.'
+    url: /azure/advisor/advisor-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.dd86ac7c-e28c-4764-9571-cbcb73d42921.1
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Monitor and optimize
+  - title: '[Q10] View usage and estimated costs in Azure Monitor.'
+    url: /azure/azure-monitor/usage-estimated-costs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.dd86ac7c-e28c-4764-9571-cbcb73d42921.2
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Monitor and optimize
+  - title: '[Q11] Understand the cost impact of custom devices compared to off-the-shelf devices.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#hardware-selection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b9610bb-309d-4d75-b01c-20ff2f66437c.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Total cost of ownership
+  - title: '[Q11] Batch messages, transmit during off periods, and select the correct data plan.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#iot-hub-message-quotas-and-throttling-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b9610bb-309d-4d75-b01c-20ff2f66437c.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q11] Update your devices to ensure correct and secure operation.'
+    url: /azure/iot-hub-device-update/understand-device-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b9610bb-309d-4d75-b01c-20ff2f66437c.2
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Define IoT architecture layer
+  - title: '[Q11] Manufacturing requires trusted partnerships for factory floor operations and testing.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#hardware-selection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b9610bb-309d-4d75-b01c-20ff2f66437c.3
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Total cost of ownership
+  - title: '[Q11] Include device costs for deployment, installation, and spares in the total cost of ownership.'
+    url: /azure/architecture/framework/iot/iot-cost-optimization#azure-iot-edge
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - deb7e843-20f1-4950-b3de-f2e12529d349.7b9610bb-309d-4d75-b01c-20ff2f66437c.4
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Cost Optimization
+    reportingSubCategory: Total cost of ownership
+uid: 8d4f7223-d81e-494b-b3ce-34317bf80439
+name: ''

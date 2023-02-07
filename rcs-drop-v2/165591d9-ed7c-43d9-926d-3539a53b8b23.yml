@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: 'https://learn.microsoft.com/en-us/training/achievements/sc-100-evaluate-governance-risk-compliance.svg'
+description: ''
+links:
+  - title: Evaluate a regulatory compliance strategy
+    url: 'https://learn.microsoft.com/training/modules/evaluate-regulatory-compliance-strategy/'
+    condition:
+      allOf: []
+      anyOf:
+        - b4397d26-c8e9-4cba-b911-79bdfdefc651.53f3fac3-cd40-4d05-b853-f0ef71c2cf6c.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Evaluate security posture and recommend technical strategies to manage risk
+    url: 'https://learn.microsoft.com/training/modules/evaluate-security-posture-recommend-technical-strategies-to-manage-risk/'
+    condition:
+      allOf: []
+      anyOf:
+        - b4397d26-c8e9-4cba-b911-79bdfdefc651.3de27439-e116-4775-83ad-1aa9ae404380.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 165591d9-ed7c-43d9-926d-3539a53b8b23
+name: Review learning materials for evaluating strategies in governance &amp; risk compliance and security operations

@@ -1,0 +1,15 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives: []
+video:
+  title: ''
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4Mc4C'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'Introduction to the AzSAP Project Prep&Planning Phase '
+isRequired: false
+uid: 3675f298-1d8e-446a-8820-3056457d3fda
+name: 'Introduction to the AzSAP Project Prep&Planning Phase '

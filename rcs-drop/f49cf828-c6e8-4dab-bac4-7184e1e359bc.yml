@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are creating a Power Virtual Agents chatbot to ask customers to select their top three products from your company.
+
+  To facilitate internal testing of the functionality of the chatbot before going live with customers, you create a chatbot in Microsoft Teams.
+
+  What should you do next?
+questionnaireUid: d5994896-8903-4b61-b297-cad9ac090790
+questions:
+  - uid: f49cf828-c6e8-4dab-bac4-7184e1e359bc-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are creating a Power Virtual Agents chatbot to ask customers to select their top three products from your company.
+        isCorrect: true
+      - id: 1
+        text: 'To facilitate internal testing of the functionality of the chatbot before going live with customers, you create a chatbot in Microsoft Teams.'
+        isCorrect: false
+      - id: 2
+        text: What should you do next?
+        isCorrect: false
+      - id: 3
+        text: Publish the bot in Microsoft Teams.
+        isCorrect: false
+      - id: 4
+        text: Share the bot with a team.
+        isCorrect: false
+uid: f49cf828-c6e8-4dab-bac4-7184e1e359bc
+title: ''

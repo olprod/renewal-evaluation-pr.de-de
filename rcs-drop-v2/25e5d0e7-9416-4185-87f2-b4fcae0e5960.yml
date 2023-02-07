@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Determine if database must be resilient to geographical or data center outages in order to meet RPO/RTO requirements.
+    description: Does the database RTO & RPO definition demand Data Center and/or Regional outage resilience?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Planned for SQL Server dependency failures to minimize service downtime.
+    description: 'Have you validated the database service can operate effectively in the absence of dependency services such email server if the database mail depending on it. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Setup High Availability configuration for SQL Server either locally or geographically.
+    description: 'Did you configure one of the high availability features(Availability Groups, Failover Cluster Instance, etc.) to be resilient to failures?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: failure-data-sqlvm
+uid: 25e5d0e7-9416-4185-87f2-b4fcae0e5960
+name: How have you ensured that your application architecture is resilient to failures?

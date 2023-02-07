@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'When assessing different entity types, I have evaluated consolidating them (distinct entity types) into a single container. '
+    description: When you are querying entities in a similar group but with different types (e.g. customer and invoice entity types in same container) and same partition key. When collocating them in a single container you can improve query efficiency and reduce the number of containers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '1'
+    text: 'For related entities, access patterns of my workload have been analyzed to help design the data model in considering the reference vs. embedded patterns.'
+    description: 'By understanding the access pattern, the data model can be optimized for cost savings based on several key factors (the RU cost, and frequency of read/writes/queries).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '2'
+    text: I have determined the right partition key to distribute storage and throughput across my logical partitions with a single property as the partition value that has high cardinality.
+    description: Using the proper partition key can avoid hot partitions and protect you against high costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 23
+  - id: '3'
+    text: 'For a workload that has a single property as a partition key that is problematic, I have considered using a synthetic partition key (i.e. combining multiple properties together).'
+    description: Using a synthetic key helps with distributing the data and workload evenly with many distinct values for a partition key. This provides a more optimal usage of RU Charges.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '4'
+    text: 'Based on the workload, I have designed and set the appropriate consistency level.'
+    description: Choosing the appropriate default consistency level improves the scalability of your application. Weakening the consistency level can improve the RU cost for reads and reduce the latency for writes in the case of multi-region deployments at the cost of lower RPO and RTO values.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '5'
+    text: 'For single read operations, I have evaluated Point Reads vs. Query and made the appropriate changes in my client code'
+    description: 'For scenarios that read in a single item, point reads consume less RU Charge and can provide significant overall cost savings.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '6'
+    text: 'I have separated documents into containers based on retention, availability, or hot and cold usage patterns'
+    description: 'By identifying the availability, retention and SLA’s for your data, Cost savings can be realized through separation of documents into different containers.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.C
+    - waf-config-golive.pillars.cost
+stem: 'Data modeling of your access patterns is a critical factor in the design and optimization of your workload. In this activity, you assess the different modeling patterns such as reference vs. embedded, co-location of different entity types, aggregation lookups, considerations for different types of workloads. Going back to make changes is a significant effort, so getting this right now is critical to realizing cost savings.'
+isRequired: false
+uid: e41f1982-f46b-4cc4-9770-7d56bc30f5f5
+name: Data modeling of your access patterns is a critical factor in the design and optimization of your workload.

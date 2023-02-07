@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization does not or has limited data monetization ambitions, platforms & policies.'
+    description: 'Your organization does not or has limited data monetization ambitions, platforms & policies.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization has considered data monetization benefits, approaches and policies.'
+    description: 'Your organization has considered data monetization benefits, approaches and policies.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has repeatable data monetization approaches and policies.
+    description: Your organization has repeatable data monetization approaches and policies.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has data monetization practices and platforms to take advantage of these practices.
+    description: |
+      Your organization has data monetization practices and platforms to take advantage of these practices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization fully endorses data monetization practices and platforms to take advantage of these practices.
+    description: Your organization fully endorses data monetization practices and platforms to take advantage of these practices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have any data monetization platforms & policies?
+isRequired: true
+uid: ee3fd6ac-8356-40d7-836d-72eef10bf20f
+name: Do you have any data monetization platforms & policies?

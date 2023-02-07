@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no DataOps capabilities with limited visibility and governance  into usability of data.
+    description: Your organization has no DataOps capabilities with limited visibility and governance  into usability of data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organizations has foundational DataOps capabilities that support data discovery for various enterprise datasets.
+    description: Your organizations has foundational DataOps capabilities that support data discovery for various enterprise datasets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has limited DataOps practice which enables reusable data pipelines and enables automation and CI/CD.
+    description: Your organization has limited DataOps practice which enables reusable data pipelines and enables automation and CI/CD.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has developed DataOps capabilities with trusted and standardized data practices which includes self-service provisioning of data assets.
+    description: Your organization has developed DataOps capabilities with trusted and standardized data practices which includes self-service provisioning of data assets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organizations has advanced DataOps capabilities that enables frictionless delivery of trusted data across entire enterprise with automated data curation and classification.
+    description: Your organizations has advanced DataOps capabilities that enables frictionless delivery of trusted data across entire enterprise with automated data curation and classification.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you use data automation methods i.e., how do you automate and parameterize your data pipelines, do you utilize centralized platform to host pipelines, do you use source control to store data-related infrastructure?'
+isRequired: true
+uid: dca7e3ca-e01a-4327-9bd6-825fdac39854
+name: 'Do you use data automation methods i.e., how do you automate and parameterize your data pipelines, do you utilize centralized platform to host pipelines, do you use source control to store data-related infrastructure?'

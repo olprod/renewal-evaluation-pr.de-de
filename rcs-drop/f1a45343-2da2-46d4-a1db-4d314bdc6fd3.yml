@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  When implementing Azure IaaS resources, you are responsible for physical host security.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 6161554a-fd80-4d7a-961f-3d5a3e7d00d4
+questions:
+  - uid: f1a45343-2da2-46d4-a1db-4d314bdc6fd3-q-0
+    title: 'When implementing Azure IaaS resources, you are responsible for physical host security.'
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Select Yes if the statement is true.
+        isCorrect: false
+      - id: 1
+        text: 'Otherwise, select No.'
+        isCorrect: true
+uid: f1a45343-2da2-46d4-a1db-4d314bdc6fd3
+title: 'When implementing Azure IaaS resources, you are responsible for physical host security.'

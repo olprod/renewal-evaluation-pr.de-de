@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Identify the integration points in an architecture by using Microsoft Cybersecurity Reference Architecture (MCRA) • Translate business goals into security requirements • Translate security requirements into technical capabilities, including security services, security products, and security processes • Design security for a resiliency strategy • Integrate a hybrid or multi-tenant environment into a security strategy • Develop a technical governance strategy for security'
+isRequired: true
+uid: e0842694-a319-48b5-91a1-580a568e450c
+name: 'For example: Identify the integration points in an architecture by using Microsoft Cybersecurity Reference Architecture (MCRA) • Translate business goals into security requirements • Translate security requirements into technical capabilities, including security services, security products, and security processes • Design security for a resiliency strategy • Integrate a hybrid or multi-tenant environment into a security strategy • Develop a technical governance strategy for security '

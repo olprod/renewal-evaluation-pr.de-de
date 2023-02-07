@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to create a new Azure Digital Twins Project.
+
+  What is the minimum RBAC Role that is required to grant access to the resource?
+questionnaireUid: 444e191e-24b6-4f91-ac6b-32f32e12aa72
+questions:
+  - uid: fb78e978-063e-4823-b77b-37dcf0c0dc68-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You need to create a new Azure Digital Twins Project.
+        isCorrect: true
+      - id: 1
+        text: What is the minimum RBAC Role that is required to grant access to the resource?
+        isCorrect: false
+      - id: 2
+        text: Owner
+        isCorrect: false
+      - id: 3
+        text: Contributor
+        isCorrect: false
+uid: fb78e978-063e-4823-b77b-37dcf0c0dc68
+title: ''

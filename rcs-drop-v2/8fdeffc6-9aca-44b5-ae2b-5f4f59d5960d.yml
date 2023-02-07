@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Do you track the dependencies of your database objects? '
+    description: Specific objects can have a dependency chain on other dependent objects which must be successfully deployed before workloads begin.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Are you building your database using DevOps tools?
+    description: SQL DevOps provides guidance on how to use existing tools such as Data Tools and BCP for integrating your database development into your CICD process.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Do you have an orchestration system in place to deploy your database?
+    description: The task of automating and managing a large number of databases and how they interact is known as orchestration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 8fdeffc6-9aca-44b5-ae2b-5f4f59d5960d
+name: How are you designing your applications to take into account DevOps?

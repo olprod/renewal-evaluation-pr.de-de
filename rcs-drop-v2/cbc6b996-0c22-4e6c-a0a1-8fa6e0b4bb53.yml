@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 01571c26-3a28-4c53-943b-41ee33640181
+  - 989cc76a-7aa5-45ce-ba0b-fe6237891cc4
+  - 0c044074-19a0-458f-8a3c-58077035c06e
+  - 8564b609-04c8-4314-af82-3bca4dffc7c8
+recommendations:
+  - 8285eaf1-95b8-4aa8-b630-a60d8958bc98
+assignedGroupIds: []
+uid: cbc6b996-0c22-4e6c-a0a1-8fa6e0b4bb53
+name: Analysis Services - Operational Excellence

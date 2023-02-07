@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Estimate and track my costs over time.
+    description: 'In many cases, first calculation of cloud resources is quite inaccurate and relies on more familiar and common on-premise approaches. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Educate the employees about the cloud and various pricing models.
+    description: Azure brings a new set of technical capabilities and tools for your organization's technical staff and your business users.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Have appropriate governance about expenditure.
+    description: 'Have you considered how to implement cloud cost governance controls (Azure Policy, Resource Tags, Budgets)?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: 'Have identified the roles and responsibilities in monitoring, collating, and reporting on cloud costs.'
+    description: Ensuring that responsibilities for cost management are clearly defined is key to optimizing cloud expenditure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Put together a holistic plan to ensure you are taking advantage of all the most valuable cost saving measures for your environment.
+    description: It is often valuable to employ cost saving teams leveraging tools and standards for continuous cost/budget reviews as new features become available and as your environment evolves.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: dcb33c48-3a10-4ceb-9187-4528aad4c1ab
+name: How is your organization modeling cloud costs?

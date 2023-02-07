@@ -1,0 +1,78 @@
+### YamlMime:SelfAssessment
+description: 'Databricks brings together data, analytics and AI on one platform. Using a Data Lakehouse architecture, Databricks unifies the best of data warehouses and data lakes in one simple platform to handle all your data, analytics and AI use cases. It’s built on an open and reliable data foundation that efficiently handles all data types and applies one common security and governance approach across all of your data and cloud platforms.'
+duration: 15 minutes
+questionnaireReferences:
+  - questionnaireUid: 167122f1-71f7-4e0a-b699-171c9de287ed
+    isRequired: true
+guidance:
+  title: 15 minutes
+  description: Your results
+  providers: []
+  scoring:
+    title: ''
+    description: ''
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: 'View how your readiness and desires aligns to Databricks expansion. '
+        links:
+          - title: 'Review and evaluation of an organization''s data and analytics capabilities across several dimensions that typically includes an examination of data foundations , data governance,  data management processes, analytics infrastructure, and the organization''s ability to use data and analytics to make informed business decisions.'
+            url: 'https://learn.microsoft.com/en-us/assessments/?id=c7c36e71-70a1-463d-a0c9-2155692f9fca&mode=pre-assessment'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Analytics Journey Tracker
+      - iconUrl: ''
+        description: 'Take the Analytics Journey Tracker Review to identify areas for improvement and provide recommendations for how to optimize the organization''s use. Data mesh is an intentionally designed distributed data architecture, under centralized governance and standardization for interoperability, enabled by a shared and harmonized self-serve data infrastructure. '
+        links:
+          - title: This quick assessment helps you evaluate your organizational fitness for data mesh.
+            url: 'https://review.learn.microsoft.com/en-us/test/docs/assessments/?id=e2da705a-4434-4ae0-b378-240c08053bad&mode=pre-assessment&branch=main&session=519eee6a-40e8-4744-8158-67d1185c4e3d'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Data Mesh | Analytics Journey
+      - iconUrl: ''
+        description: Take the Data Mesh | Analytics Journey Review
+        links:
+          - title: 'Examine your workload through the lenses of reliability, cost management, operational excellence, security and performance efficiency [30-60 minutes].'
+            url: azure/architecture/framework/
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Set of guiding tenets that can be used to improve the quality of a workload
+  recommendationsTitle: ''
+owner:
+  firstName: Leo
+  lastName: Kozhushnik
+  email: lkozhushnik@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+metadataTags:
+  - azure
+uid: 387aea1d-e3be-4873-bcad-b30867c2ecc0
+name: Take the Azure Well-Architected Review

@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'The secrets that prove the device identity are secured in dedicated, tamper-resistant hardware.'
+    description: 'The secrets that prove the device identity are secured in dedicated, tamper-resistant hardware, where those secrets can be generated, stored, and processed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: Access to device secrets is limited.
+    description: Access to device secrets is limited to the smallest possible subset of the device's hardware and software.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: You obtain hardware from partners that offer secure hardware elements.
+    description: 'Hardware is obtained from partners that offer secure hardware elements, such as HSM and TPM, suitable for establishing a hardware root-of-trust for strong identities.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'When possible, secure the secrets that prove device identity in dedicated, tamper-resistant hardware, where those secrets can be generated, stored, and processed. Limit access to device secrets to the smallest possible subset of the device''s hardware and software.'
+isRequired: false
+uid: e24023b6-ea9a-4a32-ad2f-dbdca6ef7375
+name: 'When possible, secure the secrets that prove device identity in dedicated, tamper-resistant hardware, where those secrets can be generated, stored, and processed. Limit access to device secrets to the smallest possible subset of the device''s hardware and software.'

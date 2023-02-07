@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Estimate and track my costs.
+    description: 'In many cases, first calculation of cloud resources is quite inaccurate and relies on a more familiar and common on-premise approach.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: 'Educate the employees about the SQL MI pricing models to understand SQL MI billing to manage and analyze cost. '
+    description: The Cloud brings a new set of technical capabilities and tools for your organization's technical staff and your business users.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Have appropriate governance about expenditure.
+    description: 'Have you considered how to implement cloud cost governance controls (Azure Policy, Resource Tags, Budgets).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: c8056a62-9479-4943-8096-9016e9f969a1
+name: How is your organization modeling cloud costs?

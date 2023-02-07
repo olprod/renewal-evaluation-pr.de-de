@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |
+  You plan to extract data from Azure resource logs.
+
+  You can use Transact-SQL to extract information from Azure Monitor log data.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 79227b15-20d1-4b98-b3b5-8722bfb9eed1
+questions:
+  - uid: eb083f8b-65ab-4084-8bab-760aa8567439-q-0
+    title: You plan to extract data from Azure resource logs.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You can use Transact-SQL to extract information from Azure Monitor log data.
+        isCorrect: false
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: true
+uid: eb083f8b-65ab-4084-8bab-760aa8567439
+title: 'Otherwise, select No.'

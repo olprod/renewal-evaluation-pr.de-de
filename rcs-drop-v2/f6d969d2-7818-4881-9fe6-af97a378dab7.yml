@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: A multi-region data platform design is adopted.
+    description: 'In any distributed application with multiple data replicas, there''s a trade-off between consistency and latency, as expressed in the CAP and PACELC theorems.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '1'
+    text: Data replicas are distributed across availability zones within a region.
+    description: 'Within availability zone-enabled regions, Cosmos DB offers availability zone redundancy support for high availability and resiliency to zonal failures within a region.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '2'
+    text: A multi-region write data platform design is used according to required consistency level.
+    description: 'While multi-region write increases overall availability, there''s a tradeoff in lower consistency and the need for conflict resolution.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '3'
+    text: The application is designed to prioritize the use of local database replica.
+    description: 'In multi-region configurations, each deployment region should have its own "local" replica. The application can be configured to prefer it under normal circumstances to avoid cross-region queries.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '4'
+    text: Service-managed keys are used for encryption.
+    description: 'Azure supports various encryption models, including server-side encryption that uses service-managed keys, customer-managed keys in Azure Key Vault, or customer-managed keys on customer-controlled hardware.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '5'
+    text: Conflict resolution is properly configured.
+    description: 'Simultaneous writes in multiple regions can generate conflicts. A common and frequently used conflict resolution strategy is “last writer wins,” but that might not be suitable for all scenarios.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '6'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Several factors must be considered to validate the accuracy of data within an application, and the management of these factors can have a significant bearing on the design of the data platform.'
+isRequired: false
+uid: f6d969d2-7818-4881-9fe6-af97a378dab7
+name: 'Several factors must be considered to validate the accuracy of data within an application, and the management of these factors can have a significant bearing on the design of the data platform.'

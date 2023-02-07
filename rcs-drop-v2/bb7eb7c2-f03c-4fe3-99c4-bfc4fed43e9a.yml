@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Unit tests are executed on every application build.
+    description: Unit testing is intended to confirm that application business logic works as expected. Improve confidence in the overall effect of code changes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: Smoke testing is used to identify whether infrastructure and application components are available and act as expected.
+    description: |-
+      A smoke test focuses on functionality rather than performance under load. Typically, only a single virtual user session is tested.
+
+      Common smoke testing scenarios include interrogating the HTTPS endpoint of a web application, querying a database, and simulating a user flow in the application.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: UI tests validate that application user interfaces are deployed and functioning as expected.
+    description: 'UI testing is similar to smoke testing, but it''s focused on user-interface interactions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Automated load tests are regularly executed as part of the deployment pipeline.
+    description: 'Load testing is designed to validate scalability and application operation under load through rapid and/or gradual increase in application test load, until a threshold/limit''s reached. Load tests are typically designed around a particular user flow or scenario, in order to verify that application requirements are satisfied under a defined load.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: Stress tests are performed on a regular basis.
+    description: |-
+      Stress testing is a type of negative testing, which applies activities aimed at overloading existing resources in order to understand where solution limits exist, and to ensure the system's ability to recover gracefully.
+
+      Unlike load testing, stress tests do not adhere to a realistic usage pattern, but aim to identify performance and scale limits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: Failure injection testing (chaos testing) is executed as part of the deployment pipeline.
+    description: 'Chaos testing introduces artificial failures to the system to validate how the system reacts and the effectiveness of resiliency measures, operational procedures, and mitigations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '6'
+    text: Automated security scanning and penetration testing is used to ensure that an application and its environment satisfy an expected security posture.
+    description: 'Security scanning can cover the code base for known CVEs, for example in dependent packages, as well as automated penetration testing to test for risks like OWASP Top 10.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Testing is a fundamental activity for any mission-critical solution, to fully validate the health of both the application code and infrastructure. More specifically, to satisfy desired standards for reliability, performance, availability, security, quality, and scale, testing must be well defined and applied as a core component of the application design and DevOps methodologies.'
+isRequired: false
+uid: bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a
+name: 'Testing is a fundamental activity for any mission-critical solution, to fully validate the health of both the application code and infrastructure.'

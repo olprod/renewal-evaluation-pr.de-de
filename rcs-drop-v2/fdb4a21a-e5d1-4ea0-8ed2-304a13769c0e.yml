@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: Beginner
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: Intermediate
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: Advanced
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Integrate single sign-on (SSO) and identity providers for authentication, Create an app registration, Configure app registration permission scopes, Manage app registration permission consent, Manage API permissions to Azure subscriptions and resources, Configure an authentication method for a service principal.'
+isRequired: true
+uid: fdb4a21a-e5d1-4ea0-8ed2-304a13769c0e
+name: 'For example: Integrate single sign-on (SSO) and identity providers for authentication, Create an app registration, Configure app registration permission scopes, Manage app registration permission consent, Manage API permissions to Azure subscriptions and resources, Configure an authentication method for a service principal.'

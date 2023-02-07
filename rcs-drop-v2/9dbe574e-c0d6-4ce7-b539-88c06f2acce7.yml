@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'In case of datacenter outage, we have evaluated and are leveraging availability zones or multi-regions with our Cosmos DB account(s).'
+    description: 'For high-availability workloads, it''s good practice to enable availability zones for your workload. This will enable a higher uptime, but at the cost of performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: We have evaluated the built-in backup features of Azure Cosmos DB to recover from an outage of our single read/write region.
+    description: Make sure you have a process in place to perform disaster recovery from serious outages.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: 'For write outage scenarios of critical workloads, we leverage Azure Cosmos DB in multiple regions (write-write, write-read).'
+    description: 'For high-availability workloads, consider multi-region writes as part of your design.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 9dbe574e-c0d6-4ce7-b539-88c06f2acce7
+name: How do you leverage the Azure Cosmos DB feature to operate and maintain your business continuity strategy?

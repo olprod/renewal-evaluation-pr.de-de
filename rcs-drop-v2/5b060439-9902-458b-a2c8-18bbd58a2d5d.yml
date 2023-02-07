@@ -1,0 +1,630 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: '[Q1] Identify your closest Azure regions.'
+    url: 'https://azure.microsoft.com/global-infrastructure/services/?products=iot-hub'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.7e48de48-2492-4c56-ad82-0b025b5cd4f4.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q1] Use Device Provisioning Service to allocate devices to regions.'
+    url: /azure/iot-dps/concepts-service#allocation-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.7e48de48-2492-4c56-ad82-0b025b5cd4f4.1
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q2] Use MQTT (or MQTT over WebSockets) for a stateful bidirectional connection from your devices to the cloud.'
+    url: /azure/iot-hub/iot-hub-devguide-protocols
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.36a4dca2-ff66-4ac6-ab55-0f64a2949262.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q2] Use AMQP (or AMQP over WebSockets) for a stateful bidirectional connection from your devices to the cloud'
+    url: /azure/iot-hub/iot-hub-devguide-protocols
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.36a4dca2-ff66-4ac6-ab55-0f64a2949262.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q2] Use AMQP (or AMQP over WebSockets) for a stateful bidirectional connection from your devices to the cloud and AMQP connection multiplexing to connect downstream devices through your gateways to the cloud.'
+    url: /azure/iot-hub/iot-hub-devguide-protocols
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.36a4dca2-ff66-4ac6-ab55-0f64a2949262.2
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q3] Only send data when devices are connected.'
+    url: /azure/iot-hub/iot-hub-reliability-features-in-sdks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.ecf01f33-54e7-4c12-9835-b99f9a8707e9.0
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q3] Cache data locally and send when the device reconnects.'
+    url: /azure/architecture/best-practices/caching
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.ecf01f33-54e7-4c12-9835-b99f9a8707e9.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q3] Prioritize locally cached data by importance and type in case storage capacities are reached.'
+    url: /azure/architecture/best-practices/caching
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.ecf01f33-54e7-4c12-9835-b99f9a8707e9.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q3] Use Azure IoT Edge for configurable message buffering when a device isn''t connected to the cloud.'
+    url: /azure/iot-edge/offline-capabilities
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.ecf01f33-54e7-4c12-9835-b99f9a8707e9.3
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q4] Send messages to the cloud, sized close to the 4KB boundary.'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.08e3fe9e-fc59-4541-811e-fd6153b121e0.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q4] Use AMQP message batching to combine smaller messages into larger messages.'
+    url: /dotnet/api/microsoft.azure.devices.client.deviceclient.sendeventbatchasync
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.08e3fe9e-fc59-4541-811e-fd6153b121e0.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q4] Use AMQP to connect Azure IoT Edge devices to Azure IoT Hub using batching to combine smaller messages.'
+    url: 'https://github.com/Azure/iotedge/blob/master/doc/EnvironmentVariables.md'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.08e3fe9e-fc59-4541-811e-fd6153b121e0.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q4] Use Azure Stream Analytics on Azure IoT Edge.'
+    url: /azure/stream-analytics/stream-analytics-edge
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.08e3fe9e-fc59-4541-811e-fd6153b121e0.3
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q5] Send messages from downstream devices, sized close to the 4KB boundary.'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.f03daffd-e35c-49e5-aa13-c8acaf033623.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q5] Use application-level message batching to combine smaller messages into larger messages.'
+    url: 'https://techcommunity.microsoft.com/t5/internet-of-things-blog/stretching-the-iot-edge-performance-limits/ba-p/2993856'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.f03daffd-e35c-49e5-aa13-c8acaf033623.1
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q6] Use a fixed number of transparent gateways based on the maximum required capacity.'
+    url: /azure/iot-edge/iot-edge-as-gateway#transparent-gateways
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.72569b61-1c8f-4bf5-b139-37fb6b1866d1.0
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q6] Use a fixed number of translation gateways based on the maximum required capacity.'
+    url: /azure/iot-edge/iot-edge-as-gateway#translation-gateways
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.72569b61-1c8f-4bf5-b139-37fb6b1866d1.1
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q6] Use multiple transparent gateways depending on the current capacity.'
+    url: /azure/iot-edge/iot-edge-as-gateway#transparent-gateways
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.72569b61-1c8f-4bf5-b139-37fb6b1866d1.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q6] Use multiple translation gateways based on the current capacity.'
+    url: /azure/iot-edge/iot-edge-as-gateway#translation-gateways
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.72569b61-1c8f-4bf5-b139-37fb6b1866d1.3
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q7] Send messages in order of their priority to the cloud, using multiple ingestion strategies like sending individual messages or file uploads for batches.'
+    url: /azure/iot-hub/iot-hub-devguide-file-upload
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.d19bfbc0-d9b0-4c36-be15-7b5d23213ea4.2
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q8] Use direct methods for request-response pattern for cloud-to-device communication.'
+    url: /azure/iot-hub/iot-hub-devguide-direct-methods
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.db4da914-cf33-4f55-8cbb-b4c4b027d8ab.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q8] Use device twins for an eventually consistent pattern for cloud-to-device communication.'
+    url: /azure/iot-hub/iot-hub-devguide-device-twins
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.db4da914-cf33-4f55-8cbb-b4c4b027d8ab.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q9] Onboard new devices using DPS when they first connect, taking into account the quota and limits of DPS and Azure IoT Hub.'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.93309dfd-a3ee-4584-baa0-f9f452a93058.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q9] Check the quota and limits of Device Provisioning Service and Azure IoT Hub that apply during batch onboarding.'
+    url: /azure/iot-hub/iot-hub-devguide-identity-registry
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.93309dfd-a3ee-4584-baa0-f9f452a93058.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q10] Use the Device Provisioning Service for provisioning, reprovisioning and provisioning updates.'
+    url: /azure/iot-dps/about-iot-dps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.20cfd1c9-e11f-4a27-9e9d-1f65670292cc.1
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q11] Get connection information from a cached value, when you need to refresh cached value from Device Provisioning Service.'
+    url: /azure/iot-dps/concepts-service#linked-iot-hubs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.d9fdbe77-e613-4ec9-a220-c2ee7211f674.3
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q12] Use multiple Azure IoT Hubs to horizontally scale your solution.'
+    url: /azure/iot-dps/how-to-use-allocation-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.24aa39e6-dc5a-49df-815f-6848b94f08c9.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q13] Use asynchronous programming patterns for backend services.'
+    url: /azure/architecture/framework/scalability/design-efficiency#reduce-response-time-with-asynchronous-programming
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.74c66ad6-db0c-42c1-a4a4-973647c3be8e.0
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q13] Use the Azure IoT Hub service SDKs to build your solution backend.'
+    url: /azure/iot-hub/iot-hub-devguide-sdks#azure-iot-hub-service-sdks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.74c66ad6-db0c-42c1-a4a4-973647c3be8e.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q13] Use a serverless architecture for backend services.'
+    url: 'https://azure.microsoft.com/overview/serverless-computing'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.74c66ad6-db0c-42c1-a4a4-973647c3be8e.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q13] Decouple your ingestion and processing layers.'
+    url: /azure/architecture/guide/architecture-styles/event-driven
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.74c66ad6-db0c-42c1-a4a4-973647c3be8e.3
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q14] Define the data volumes and metrics of your solution.'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.d65ec160-278b-4ef5-955a-d97a1d6e8b14.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q14] Choose the correct Azure IoT Hub tier.'
+    url: /azure/iot-hub/iot-hub-scaling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.d65ec160-278b-4ef5-955a-d97a1d6e8b14.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q14] Choose the correct Azure IoT Hub tier for your message throughput.'
+    url: /azure/iot-hub/iot-hub-scaling#message-throughput
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.d65ec160-278b-4ef5-955a-d97a1d6e8b14.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q14] Calculate your daily message quota based on message size.'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.d65ec160-278b-4ef5-955a-d97a1d6e8b14.3
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q14] Enable auto-scaling in all services that support it.'
+    url: /azure/iot-hub/iot-hub-scaling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.d65ec160-278b-4ef5-955a-d97a1d6e8b14.4
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q15] Use the Azure Certified Device Catalog to identify suitable hardware.'
+    url: 'https://devicecatalog.azure.com'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.5ee9d5a0-cd7a-46c5-b5d8-50673154b516.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q15] Use a protocol translation gateway.'
+    url: /azure/iot-hub/iot-hub-protocol-gateway
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.5ee9d5a0-cd7a-46c5-b5d8-50673154b516.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q15] Minimize the bandwidth usage of your downstream devices.'
+    url: /azure/iot-develop/concepts-iot-device-types
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.5ee9d5a0-cd7a-46c5-b5d8-50673154b516.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q15] Use a binary protocol to reduce message sizes.'
+    url: /azure/iot-hub/iot-hub-devguide-messages-construct
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.5ee9d5a0-cd7a-46c5-b5d8-50673154b516.3
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q16] Use managed ingestion from Azure IoT Hub.'
+    url: /azure/iot-hub/iot-hub-devguide-messages-d2c
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.c7e3e12c-7cba-4a7d-b228-a2420f8a9658.0
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q16] Verify there''s no negative impact on data ingestion from reporting or integration.'
+    url: /azure/architecture/guide/design-principles/design-for-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.c7e3e12c-7cba-4a7d-b228-a2420f8a9658.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q16] Use a separate storage system for reporting and integration.'
+    url: /azure/architecture/guide/design-principles/use-the-best-data-store
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.c7e3e12c-7cba-4a7d-b228-a2420f8a9658.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q16] Use partitions and consumer groups for simultaneous data readers.'
+    url: /azure/iot-hub/iot-hub-devguide-messages-read-builtin
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.c7e3e12c-7cba-4a7d-b228-a2420f8a9658.3
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q16] Choose a suitable storage resource for your solution.'
+    url: /azure/architecture/guide/design-principles/use-the-best-data-store
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.c7e3e12c-7cba-4a7d-b228-a2420f8a9658.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q17] Use ''MessageQueue'' parameters to handle message rate, latency, and persistent storage when reviewing performance attributes.'
+    url: 'https://techcommunity.microsoft.com/t5/internet-of-things-blog/prioritize-critical-messages-from-your-edge-device-to-the-cloud/ba-p/1777959'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.14a6e9e0-a9f6-4053-afd9-ea3c5aad7210.0
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q17] Include best practices to avoid edgeHub crashes by considering disks and performance.'
+    url: 'https://github.com/Azure/iotedge/blob/main/doc/EnvironmentVariables.md'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.14a6e9e0-a9f6-4053-afd9-ea3c5aad7210.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q17] Guidelines and standards for container images are defined.'
+    url: /azure/container-registry/intro-connected-registry
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.14a6e9e0-a9f6-4053-afd9-ea3c5aad7210.2
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q18] Use Azure Monitor to collect Azure IoT Hub metrics.'
+    url: /azure/iot-hub/monitor-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.23721809-96bd-4e05-8292-66ba181dd2a2.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q18] Monitor Azure IoT Hub with Azure Service Health.'
+    url: /azure/iot-hub/iot-hub-azure-service-health-integration#check-iot-hub-health-with-azure-resource-health
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.23721809-96bd-4e05-8292-66ba181dd2a2.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q18] Set up Azure Monitor alerts based on scale limits.'
+    url: /azure/iot-hub/monitor-iot-hub-reference#device-telemetry-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.23721809-96bd-4e05-8292-66ba181dd2a2.2
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+  - title: '[Q18] Set up Azure Monitor for metrics and logs.'
+    url: /azure/azure-monitor/essentials/data-platform-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2fd662d6-ec48-4e4d-89b9-ba9c05e7ea34.23721809-96bd-4e05-8292-66ba181dd2a2.3
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Performance Efficiency
+    reportingSubCategory: ''
+uid: 5b060439-9902-458b-a2c8-18bbd58a2d5d
+name: ''

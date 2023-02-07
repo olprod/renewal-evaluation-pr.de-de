@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Azure governance establishes the tooling needed to support cloud governance, compliance auditing, and automated guardrails.'
+hideEmptyGuidance: false
+questions:
+  - eafc705b-d582-4b2e-9e0e-71f461c36c67
+  - 25d9394a-c458-420b-a781-5d69728755ba
+  - abd2e3ba-f297-4c83-a32b-1c8e320f5ff2
+recommendations:
+  - 9273a20d-9804-485c-a2e1-1ea6bd38ce1a
+assignedGroupIds: []
+uid: ec155b68-4585-4c4c-95c3-8684946a1c03
+name: Governance

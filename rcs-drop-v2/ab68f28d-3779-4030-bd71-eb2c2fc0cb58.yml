@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: Defining business justification and expected outcomes will set you up for success.
+links:
+  - title: Azure pricing calculator
+    url: 'https://azure.microsoft.com/en-us/pricing/calculator/'
+    condition:
+      anyOf:
+        - intro.923b1b29-5fec-4129-b57d-44098704121b.A
+        - intro.923b1b29-5fec-4129-b57d-44098704121b.B
+        - intro.923b1b29-5fec-4129-b57d-44098704121b.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: ab68f28d-3779-4030-bd71-eb2c2fc0cb58
+name: Business Strategy

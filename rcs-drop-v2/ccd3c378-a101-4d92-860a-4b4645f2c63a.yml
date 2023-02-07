@@ -1,0 +1,78 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Azure IoT Edge to deploy compute and advanced workloads on edge devices at no cost.
+    description: 'Azure IoT Edge is an open-source runtime, container orchestrator, and local messaging hub that adds more flexibility and features on the edge, helping you lower the overall cost of your solution.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 23
+  - id: '1'
+    text: You understand how Azure IoT Edge helps reduce messaging and network costs.
+    description: 'Azure IoT Edge has out of the box store and forward functionality and includes built-in batching, which can lower overall bandwidth costs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 23
+  - id: '2'
+    text: You use some free Azure IoT Edge modules from the Azure Marketplace to connect devices using open protocols.
+    description: 'Azure Marketplace provides various Azure IoT Edge modules from Microsoft and third-party vendors. Some of the modules, for open protocols such as OPC-UA and Modubus, are free of charge.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '3'
+    text: You use Azure IoT Edge modules to run Azure cloud services on the edge.
+    description: 'Azure IoT Edge offers the ability to run typical cloud workloads on the edge such as Azure Functions, Event Grid, and Azure Storage.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '4'
+    text: You use pre-built Azure IoT Edge modules to run stream processing on the edge.
+    description: Azure Stream Analytics is a service that can be run locally and offline as an Azure IoT Edge module.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '5'
+    text: You use Azure Private Multi-Access Edge Compute (MEC) for latency sensitive workloads.
+    description: 'Azure Private MEC is a solution that brings a portfolio of Microsoft compute, networking, and application services managed from cloud, allowing you to build a low-latency, high-performance IoT solution at the edge.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '6'
+    text: 'For hybrid workloads, you use Azure Stack Edge purpose-built hardware as a service.'
+    description: 'Azure Stack Edge is a purpose-built device with edge computing capability. Deploy cloud-native capability such as Azure IoT Edge, Stream Analytics, and Azure Functions to handle edge processing needs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Azure IoT Edge helps distribute cloud workloads to the field. There are many ways to use Azure IoT Edge to improve your solution, for example you can implement processing and analytics in the field. Those workloads can reduce overall costs when optimized.'
+isRequired: false
+uid: ccd3c378-a101-4d92-860a-4b4645f2c63a
+name: 'Azure IoT Edge helps distribute cloud workloads to the field. There are many ways to use Azure IoT Edge to improve your solution, for example you can implement processing and analytics in the field.'

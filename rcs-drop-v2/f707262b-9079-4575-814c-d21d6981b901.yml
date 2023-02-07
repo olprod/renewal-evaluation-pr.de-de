@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'All system implementation projects, including Dynamics 365 applications, need good project governance to succeed. It is critical to ensure that the methodology, approach, and governance models are sufficiently robust to support and drive the Dynamics 365 business application project.'
+hideEmptyGuidance: false
+questions:
+  - c73f0683-136c-4333-a2b8-448dd59c628f
+  - 601e17b7-7dc9-4c3d-be85-1dd246166b82
+  - a54d78c9-cc0f-4623-83f0-bbbcd9bcf6ad
+  - 1f918618-cfe1-4247-bb76-20576c088272
+  - 045e38b0-2867-4a4d-8270-916acc25b2b4
+  - a55d1ee9-1521-48a2-bf50-75c9bc9139e5
+recommendations:
+  - 28b8d212-9388-4c57-9b90-9fd41ab16af9
+assignedGroupIds: []
+uid: f707262b-9079-4575-814c-d21d6981b901
+name: Project Governance

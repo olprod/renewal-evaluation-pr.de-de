@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have Azure subscription that contains a virtual machine named VM1. An app named App1 is installed in VM1.
+
+  You need to ensure that App1 can obtain the access token of VM1.
+
+  What should you create first?
+questionnaireUid: db45157f-c0ec-425e-be1d-1222c0d28ff5
+questions:
+  - uid: fc3adbcd-2daa-498e-916f-0410906e68c3-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have Azure subscription that contains a virtual machine named VM1.
+        isCorrect: false
+      - id: 1
+        text: An app named App1 is installed in VM1.
+        isCorrect: false
+      - id: 2
+        text: You need to ensure that App1 can obtain the access token of VM1.
+        isCorrect: true
+      - id: 3
+        text: 'What should you create first? '
+        isCorrect: false
+    manualId: SC300_5.3.1
+uid: fc3adbcd-2daa-498e-916f-0410906e68c3
+title: ''
+manualId: ''

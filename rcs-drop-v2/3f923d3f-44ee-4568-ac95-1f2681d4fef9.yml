@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '3'
+    text: Through monitoring server side latency in containers and accounts we can detect unusually high latency for point operations or queries
+    description: 'The server-side latency metric is used to view the server-side latency of an operation. Azure Cosmos DB provides SLA of less than 10 ms for point read/write operations with direct connectivity. For point read and write operations.  If a user reports latency in an operation, it is helpful to have this metric available to determine if the issue is client or server-side.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 19
+  - id: '7'
+    text: We monitor to ensure that throughput and storage distribution are evenly distributed across partitions and the cardinality of the partition key.
+    description: The Normalized RU Consumption metric is used to see how well saturated the partition key ranges are with respect to the traffic. Use this metric to calculate the RU/s usage across partition key range for given container.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 28
+  - id: '8'
+    text: We monitor request units usage for different types of operations to better understand which operations make up most of the throughput (request units/time).
+    description: 'Monitoring request units provides information on current performance and also allows you to predict operating costs for the service. If you notice an unexpected change in RU consumption, this may indicate that there is anomalous activity within the application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 23
+  - id: NOA
+    text: 'When assessing data plane operations such as inserts, delete, and readfeed per specific requests, we use diagnostic settings for richer information on these requests and patterns.'
+    description: 'Logging and analysis of logs is key to stability, cost management and deploying new workloads onto the platform. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '9'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 3f923d3f-44ee-4568-ac95-1f2681d4fef9
+name: Do you monitor the workload to intelligently scale up or down appropriately?

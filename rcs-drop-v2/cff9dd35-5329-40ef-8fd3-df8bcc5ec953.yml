@@ -1,0 +1,83 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'When communicating with Azure platform services managed identities are preferred over API keys and connection strings. '
+    description: 'Service accounts and application accounts remaining a top challenge, but becoming easier to solve.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '1'
+    text: 'All APIs  require clients to authenticate. '
+    description: Require your client code to authenticate with valid credentials before you can call the service's API
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '2'
+    text: 'Modern authentication protocols (OAuth 2.0, OpenID) are used'
+    description: Review workloads that do not leverage modern authentication protocols and convert where possible.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '3'
+    text: 'Azure Active Directory or other managed identity provider (Microsoft Account, Azure B2C etc.) is used for user authentication. '
+    description: Use a managed identity service for all resources to simplify overall management
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '4'
+    text: 'Authentication via identity services is prioritized vs. cryptographic keys. '
+    description: Managed identities enable Azure Services to authenticate to each other without presenting explicit credentials via code.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '5'
+    text: Conditional access policies are implemented for users
+    description: 'Azure Active Directory (Azure AD) Conditional Access analyses signals such as user, device, and location to automate decisions and enforce organizational access policies for resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '6'
+    text: Password-less or multi-factor authentication (MFA) is enforced for users
+    description: Implement passwordless or multifactor authentication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '7'
+    text: 'Current on-premises Active Directory is synchronized with Azure AD or other cloud identity system. '
+    description: Directory synchronization is often the best solution for preserving existing user and access management while providing the required IAM capabilities for managing cloud resources.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '8'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: cff9dd35-5329-40ef-8fd3-df8bcc5ec953
+name: 'How are you managing end-user and application-level authentication? '

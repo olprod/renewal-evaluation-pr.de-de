@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Teams use a common CI/CD pipeline (or multiple CI/CD pipelines) and Git repository to deploy to Azure.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'All teams are encouraged to deploy resources in whatever way fits their requirements for achieving their goals and SLAs whilst using declarative Infrastructure-as-Code tooling. Teams work separately from each other in their own Git repository and CI/CD pipeline (or pipelines), which gives each team autonomy.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 6195a834-4f1f-422e-9d28-dab1c3b0266c
+name: How do different teams work together and deploy and manage their Azure resource deployments?

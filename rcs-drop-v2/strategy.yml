@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'There are many reasons and motivations for cloud adoption, and understanding them is key to developing an effective cloud adoption strategy.'
+hideEmptyGuidance: false
+questions:
+  - d48d8d47-f0f0-44af-b99f-31e09e8b942a
+  - 022a8eef-3a2c-4476-bd62-334ff2e259e2
+  - 61083e1b-f173-4d06-ac4e-d9d001effd9a
+  - ec98419f-e6c2-45bf-a622-257df9b44f77
+recommendations:
+  - 3c79abe0-d5e7-4048-b8a8-23b3a501e8a3
+assignedGroupIds: []
+uid: strategy
+name: Strategy

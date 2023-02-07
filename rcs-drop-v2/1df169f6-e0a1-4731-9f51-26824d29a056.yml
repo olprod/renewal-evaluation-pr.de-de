@@ -1,0 +1,63 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 1df169f6-e0a1-4731-9f51-26824d29a056-q-0
+    name: Do you understand the key components of building a business case?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 1df169f6-e0a1-4731-9f51-26824d29a056-q-1
+    name: Do you know how to build a digital transformation timeline?
+stem: Create a business case
+isRequired: true
+uid: 1df169f6-e0a1-4731-9f51-26824d29a056
+name: Create a business case

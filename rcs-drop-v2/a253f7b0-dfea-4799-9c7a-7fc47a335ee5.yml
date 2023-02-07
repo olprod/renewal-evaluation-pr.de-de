@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Application monitoring is in place to monitor and alert on database level errors.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: 'Retry logic is implemented to handle transient failures, with appropriate back-off strategies to avoid cascading failures.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Metrics and monitoring thresholds have been defined.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: exceptions-data-sqldb
+uid: a253f7b0-dfea-4799-9c7a-7fc47a335ee5
+name: How does your application logic handle exceptions and errors?

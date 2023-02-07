@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This design area creates a foundation for security across your Azure, hybrid, and multi-cloud environments.'
+hideEmptyGuidance: false
+questions:
+  - 20aa6d0d-a5d6-4544-90bb-437462448cbf
+  - c23a0580-dcdf-4661-9423-17125802b342
+recommendations:
+  - c80e25ca-aac1-497d-a6f2-8ded44a7a95f
+assignedGroupIds: []
+uid: b63f6f47-7a6c-4c7c-bdab-271d2e6e6d4e
+name: Security

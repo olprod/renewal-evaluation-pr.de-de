@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has limited knowledge or understanding of data domains.
+    description: Your organization has limited knowledge or understanding of data domains.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has growing appetite to understand and learn about data domain and see relevance.
+    description: Your organization has growing appetite to understand and learn about data domain and see relevance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization sees the value in data domain as a a data domain is a way to define boundaries around your enterprise data.
+    description: Your organization sees the value in data domain as a a data domain is a way to define boundaries around your enterprise data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has full understanding on decentralization and the distribution of responsibility to domains and has modelled data domains based on your business processes or source systems.
+    description: Your organization has full understanding on decentralization and the distribution of responsibility to domains and has modelled data domains based on your business processes or source systems
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization fully embraced Domain-Driven Design and uses domains as a way to define boundaries around your enterprise data.
+    description: Your organization fully embraced Domain-Driven Design and uses domains as a way to define boundaries around your enterprise data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you understand and use foundational concept of Data Domains?
+isRequired: true
+uid: d00c8fdf-70a8-462d-8519-c33809f0dc2c
+name: Do you understand and use foundational concept of Data Domains?

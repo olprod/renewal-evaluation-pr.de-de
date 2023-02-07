@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |+
+  A company uses Exchange Online. The company configures the organizational settings to disable basic authentication for Exchange Online.  
+
+  Users are still able to connect to their mailboxes via basic authentication. 
+
+  You need to verify whether there are any overrides of the organizational settings. 
+
+  Which PowerShell cmdlet should you use? 
+
+questionnaireUid: d8427e42-8c16-40e5-92ae-2faa3fd9a78e
+questions:
+  - uid: fc2a4bcf-4bee-4740-b3cd-5c71a2bb456a-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: '` Get-AuthenticationPolicy `'
+        isCorrect: true
+      - id: 1
+        text: '` Get-OrganizationConfig `'
+        isCorrect: false
+      - id: 2
+        text: '` Get-OwaMailboxPolicy `'
+        isCorrect: false
+      - id: 3
+        text: '` Get-AuthConfig `'
+        isCorrect: false
+    manualId: MS220.4.2
+uid: fc2a4bcf-4bee-4740-b3cd-5c71a2bb456a
+title: ''
+manualId: ''

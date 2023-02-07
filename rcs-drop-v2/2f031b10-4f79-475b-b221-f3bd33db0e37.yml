@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: H
+    text: 'Use Azure Databricks guidelines for Selecting, Sizing, and Optimizing Clusters Performance-ai-adb.'
+    description: ' Consider performance measures in Azure Databricks such as Cloud Optimization to design AI applications according to Cloud best practices and Cloud-friendly features, Platform/Software as a Service Abstractions to design Azure Databricks hiding infrastructure details as much as possible so the user can focus on application development, and using Managed Services to ensure a 99.95% uptime SLA.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: I
+    text: Follow Azure Databricks inference performance tuning guide.
+    description: 'Two main parts in model inference become important: data input pipeline and model inference. The data input pipeline is heavy on data I/O input and model inference is heavy on computation. Determining the bottleneck of the AI workflow is simple.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: Use Azure Databricks model reduction to a trivial model and measure the examples per second.
+    description: Knowing the minimal difference of the end to end time between the full model and the trivial model is important to identify performance bottleneck in the data input pipeline or model inference.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: K
+    text: Control model performance in Azure Databricks.
+    description: 'If running model inference with GPU, check the GPU utilization metrics. If GPU utilization is not continuously high, then the data input pipeline may be the bottleneck.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: Q
+    text: Track Azure Databricks ML experiments with MLflow and Azure Machine Learning to improve model performance.
+    description: 'Enable MLflow''s tracking URI and logging API, collectively known as MLflow Tracking, to connect your Azure Databricks (ADB) experiments, MLflow, and Azure Machine Learning.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: R
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Performance is an indication of the responsiveness of a system to execute any action within a given time interval.
+isRequired: false
+legacyId: '1'
+uid: 2f031b10-4f79-475b-b221-f3bd33db0e37
+name: Performance is an indication of the responsiveness of a system to execute any action within a given time interval.

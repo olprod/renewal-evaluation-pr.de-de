@@ -1,0 +1,124 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: 5ee4ebd1-8443-4f17-bd2d-b60c31c4f0b7-q-0
+    name: Identifying the stakeholders for your module
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: 5ee4ebd1-8443-4f17-bd2d-b60c31c4f0b7-q-1
+    name: Creating your design document
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '3'
+    uid: 5ee4ebd1-8443-4f17-bd2d-b60c31c4f0b7-q-2
+    name: Identifying the learning objectives and prerequisites for your Learn module
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '4'
+    uid: 5ee4ebd1-8443-4f17-bd2d-b60c31c4f0b7-q-3
+    name: Instructional design skills required for writing and structuring Learn content
+stem: ''
+isRequired: true
+legacyId: '1'
+uid: 5ee4ebd1-8443-4f17-bd2d-b60c31c4f0b7
+name: How confident are you with the following aspects of planning and designing your Learn module?

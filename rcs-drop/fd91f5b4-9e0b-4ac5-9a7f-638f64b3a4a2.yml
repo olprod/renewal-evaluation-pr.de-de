@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to make sure a new survey is consistent with your organization’s branding and style guidelines.
+
+  Which element of the survey can you configure to customize its visual appearance?
+questionnaireUid: b1fb618a-b097-4378-9c7d-9925e446b9ae
+questions:
+  - uid: fd91f5b4-9e0b-4ac5-9a7f-638f64b3a4a2-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You need to make sure a new survey is consistent with your organization’s branding and style guidelines.
+        isCorrect: false
+      - id: 1
+        text: Which element of the survey can you configure to customize its visual appearance?
+        isCorrect: false
+      - id: 2
+        text: Survey variables
+        isCorrect: false
+      - id: 3
+        text: JScript
+        isCorrect: true
+uid: fd91f5b4-9e0b-4ac5-9a7f-638f64b3a4a2
+title: ''

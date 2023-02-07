@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Identify and classify business critical datasets which may adversely affect operations if they are compromised or become unavailable.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: List and document security requirements for the Azure Analysis Services instances.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Consider limiting access by following the principle of least privilege, protecting data, and monitoring activities offered by Azure Analysis Services.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Define and test operational processes for incident response.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Consider reviewing data compliance requirements.
+    description: Choose appropriate regulatory compliance controls for your data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.security
+stem: ''
+isRequired: false
+uid: 3e73f6d4-a689-4591-bae7-5a1ae42c0b3d
+name: What design considerations did you make in your workload with regard to security?

@@ -1,0 +1,24 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You develop a personal bot for the users in your company.
+
+  You plan to deploy the bot in production.
+
+  Adaptive cards are required to display a bot message.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 86780293-6f56-47c6-8759-a690fb79ab18
+questions:
+  - uid: fc2e8001-f30d-46ad-9631-5b840aaa2a7d-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You develop a personal bot for the users in your company.
+        isCorrect: false
+      - id: 1
+        text: You plan to deploy the bot in production.
+        isCorrect: true
+uid: fc2e8001-f30d-46ad-9631-5b840aaa2a7d
+title: Adaptive cards are required to display a bot message.

@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You have a systematic approach to the development and release process for firmware and device configuration.
+    description: 'Use a DevOps-based process to help with rapid development, testing, and deployment of new functionality or hot fixes. Azure DevOps or GitHub actions can help you accomplish this.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'A device can fully provision itself, without any manual operations, by using DPS.'
+    description: 'No-touch provisioning enables you to deploy devices in a more automated, secure, and less-restrictive fashion. Azure IoT Hub Device Provisioning Service can be used for this.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: You have a documented process for any steps in the deployment process that require manual intervention.
+    description: 'If no-touch provisioning isn''t possible in your solution, be sure to document any manual steps needed to ensure all devices are provisioned uniformly.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: You can deploy N-1 or N+1 firmware and configuration versions by using automated pipelines where N is the current version in production.
+    description: 'Use a DevOps tool, such as Azure DevOps or GitHub, to help track configuration and firmware versions. Version tracking helps your organization determine what version(s) of firmware and configuration are deployed to what device.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'Your deployment process uses practices such as blue-green deployments, canary releases, release gateways, and rollbacks.'
+    description: 'These DevOps-based practices can help with rapid development, testing, and deployment of new functionality or hot fixes. Azure DevOps or GitHub actions can help accomplish this.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The entire end-to-end deployment process should be understood, and ideally it should be automated as much as possible.'
+isRequired: false
+uid: 06639aeb-1dab-45d6-af2b-a68ded9a0293
+name: 'The entire end-to-end deployment process should be understood, and ideally it should be automated as much as possible. Q10.'

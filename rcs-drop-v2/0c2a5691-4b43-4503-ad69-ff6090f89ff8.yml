@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: There is an automated process to deploy application releases to production.
+    description: The time it takes to perform a complete environment deployment should align with recovery targets. Automation and agility also lead to cost savings due to the reduction of manual actions and errors.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: There is a difference in configuration for production and non-production environments.
+    description: Understand the scope of the solution and distinguish between SKUs used in production and non-production environments. To drive down cost it might be possible to consolidate environments for applications that are not as critical to the business and not needing the same testing.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: C
+    text: Test-environments  are deployed automatically and deleted after use.
+    description: 'Automating test cases reduces time, cost and helps inefficient resource utilization. It also provides a structured approach to testing with test scripts. Test environments can quickly become overhead if not monitored properly, therefore stopping these resources when they are not in use leads to cost saving. In order to drive down cost a good place to look is test environments that might not be used anymore. Implementing a process can help by tagging all test environments with end date and owner and after this date follow up with the owner if the environment is still needed and if so set a new end-of-life date.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: D
+    text: There is awareness around how the application has been built and is being maintained (in house or via an external partner).
+    description: Exploring where technical delivery capabilities reside helps to qualify operational model boundaries and estimate the cost of operating the application as well as defining a budget and cost model.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: There is awareness regarding the ratio of cost of production and non-production environments for this workload.
+    description: 'If you are spending more money on testing than production, it usually means you have too many non-production environments. Consider the ratio of non-production to production environments and if it is substantially higher you should consider merging testing environments or re-visit why the cost is so much higher.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: ''
+isRequired: false
+legacyId: devops
+uid: 0c2a5691-4b43-4503-ad69-ff6090f89ff8
+name: What considerations for DevOps practices are you making in this workload?

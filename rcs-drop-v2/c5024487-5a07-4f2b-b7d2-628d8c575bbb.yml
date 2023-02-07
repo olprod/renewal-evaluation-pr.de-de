@@ -1,0 +1,100 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have deployed the Cosmos DB and application in the region that corresponds to our end users.
+    description: 'There are two common scenarios for configuring two or more regions: 1. Delivering low-latency access to data to end users no matter where they are located around the globe 2. Adding regional resiliency for business continuity and disaster recovery (BCDR) For delivering low-latency to end-users, it is recommended to deploy both the application and add Azure Cosmos DB in the regions that correspond to where the application''s users are located.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: B
+    text: We have selected the right consistency level.
+    description: 'You need to balance performance and throughput of the data.  Bounded staleness provides a stronger consistency guarantee than session, consistent-prefix, or eventual consistency. For globally distributed applications, we recommend you use bounded staleness for scenarios where you would like to have strong consistency but also want 99.99% availability and low latency.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: C
+    text: We change the consistency level depending on the data operation/usage.
+    description: 'Depending on the type of data being stored, different consistency levels may be changed on a per request basis.  For example if log data is being written to CosmosDB an Eventual consistency maybe relevant but if writing ecommerce transactions then Strong maybe more appropriate.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: D
+    text: We have evaluated the connectivity modes and connection protocols in Azure Cosmos DB.
+    description: 'Azure Cosmos DB supports two connectivity modes. In Gateway mode, requests are always made to the Azure Cosmos DB gateway, which forwards it to the corresponding data partitions. In Direct connectivity mode, the client fetches the mapping of tables to partitions, and requests are made directly against data partitions. We recommend Direct, the default. Azure Cosmos DB supports two connection protocols - Https and Tcp. Tcp is the default, and recommended because it is more lightweight.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: E
+    text: We have configured preferred locations.
+    description: 'Setting preferred locations can improve performance of queries. In order to take advantage of global distribution, client applications can specify the ordered preference list of regions to be used to perform document operations. This can be done by setting the connection policy. Based on the Azure Cosmos DB account configuration, current regional availability and the preference list specified, the most optimal endpoint will be chosen by the SQL SDK to perform write and read operations. This preference list is specified when initializing a connection using the SQL SDKs. The SDKs accept an optional parameter ""PreferredLocations"" that is an ordered list of Azure regions. The SDK will automatically send all writes to the current write region. All reads will be sent to the first available region in the PreferredLocations list. If the request fails, the client will fail down the list to the next region, and so on. The SDKs will only attempt to read from the regions specified in PreferredLocations. So, for example, if the Database Account is available in four regions, but the client only specifies two read(non-write) regions for PreferredLocations, then no reads will be served out of the read region that is not specified in PreferredLocations. If the read regions specified in the PreferredLocations are not available, reads will be served out of write region. The application can verify the current write endpoint and read endpoint chosen by the SDK by checking two properties, WriteEndpoint and ReadEndpoint, available in SDK version 1.8 and above. If the PreferredLocations property is not set, all requests will be served from the current write region.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: F
+    text: We specify index precisions.
+    description: 'Setting these values appropriately can improve query performance and reduce throughput requests. You can use index precision to make trade-offs between index storage overhead and query performance. For numbers, we recommend using the default precision configuration of -1 (maximum). Because numbers are 8 bytes in JSON, this is equivalent to a configuration of 8 bytes. Choosing a lower value for precision, such as 1 through 7, means that values within some ranges map to the same index entry. Therefore, you reduce index storage space, but query execution might have to process more documents. Consequently, it consumes more throughput in request units. Index precision configuration has more practical application with string ranges. Because strings can be any arbitrary length, the choice of the index precision might affect the performance of string range queries. It also might affect the amount of index storage space that''s required. String Range indexes can be configured with 1 through 100 or -1 (maximum). If you want to perform ORDER BY queries against string properties, you must specify a precision of -1 for the corresponding paths. Spatial indexes always use the default index precision for all types (Point, LineString, and Polygon). The default index precision for spatial indexes can''t be overridden.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: G
+    text: We follow the best practices while choosing the partition key.
+    description: 'To scale effectively with Azure Cosmos DB, you need to pick a good partition key when you create your container.  There are two main considerations for choosing a partition key: 1. Boundary for query and transactions. Your choice of partition key should balance the need to enable the use of transactions against the requirement to distribute your entities across multiple partition keys to ensure a scalable solution. At one extreme, you can set the same partition key for all your items, but this option might limit the scalability of your solution. At the other extreme, you can assign a unique partition key for each item. This choice is highly scalable, but it prevents you from using cross-document transactions via stored procedures and triggers. An ideal partition key enables you to use efficient queries and has sufficient cardinality to ensure your solution is scalable.  2. No storage and performance bottlenecks. It''s important to pick a property that allows writes to be distributed across various distinct values. Requests to the same partition key can''t exceed the throughput of a single partition and are throttled. So it''s important to pick a partition key that doesn''t result in ""hot spots"" within your application. Because all the data for a single partition key must be stored within a partition, you should avoid partition keys that have high volumes of data for the same value.  To achieve the full throughput of the container, you must choose a partition key that allows you to evenly distribute requests among some distinct partition key values. It''s a best practice to have a partition key with many distinct values (hundreds to thousands at a minimum).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: H
+    text: We have optimized for read performance.
+    description: 'You can optimize the performance of reads on the database. - A Point Query is the most efficient lookup to use and is recommended to be used for high-volume lookups or lookups requiring lowest latency. Such a query can use the indexes to locate an individual entity very efficiently by specifying both the PartitionKey and RowKey values. For example: $filter=(PartitionKey eq ''Sales'') and (RowKey eq ''2''). - Second best is a Range Query that uses the PartitionKey and filters on a range of RowKey values to return more than one entity. The PartitionKey value identifies a specific partition, and the RowKey values identify a subset of the entities in that partition. For example: $filter=PartitionKey eq ''Sales'' and RowKey ge ''S'' and RowKey lt ''T''  - Third best is a Partition Scan that uses the PartitionKey and filters on another non-key property and that may return more than one entity. The PartitionKey value identifies a specific partition, and the property values select for a subset of the entities in that partition. For example: $filter=PartitionKey eq ''Sales'' and LastName eq ''Smith''  - A Table Scan does not include the PartitionKey and is very inefficient because it searches all of the partitions that make up your table in turn for any matching entities. It will perform a table scan regardless of whether or not your filter uses the RowKey. For example: $filter=LastName eq ''Jones''  - Queries that return multiple entities return them sorted in PartitionKey and RowKey order. To avoid resorting the entities in the client, choose a RowKey that defines the most common sort order.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: I
+    text: We have optimized the performance of reads on the database.
+    description: You can optimize the performance of reads on the database. - High volume delete pattern - Enable the deletion of a high volume of entities by storing all the entities for simultaneous deletion in their own separate table; you delete the entities by deleting the table.  - Data series pattern - Store complete data series in a single entity to minimize the number of requests you make.  - Wide entities pattern - Use multiple physical entities to store logical entities with more than 252 properties.  - Large entities pattern - Use blob storage to store large property values.  - Intra-partition secondary index pattern - Store multiple copies of each entity using different RowKey values (in the same partition) to enable fast and efficient lookups and alternate sort orders by using different RowKey values.  - Inter-partition secondary index pattern - Store multiple copies of each entity using different RowKey values in separate partitions or in separate tables to enable fast and efficient lookups and alternate sort orders by using different RowKey values.  - Eventually consistent transactions pattern - Enable eventually consistent behavior across partition boundaries or storage system boundaries by using Azure queues. - Index Entities Pattern - Maintain index entities to enable efficient searches that return lists of entities.  - Denormalization pattern - Combine related data together in a single entity to enable you to retrieve all the data you need with a single point query.  - Data series pattern - Store complete data series in a single entity to minimize the number of requests you make.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: J
+    text: We have evaluated ways to improve database performance.
+    description: 'Best practices for query performance: Connection policy: Use direct connection mode Connection policy: Use the TCP protocol Call OpenAsync to avoid startup latency on first request Collocate clients in same Azure region for performance Increase number of threads/tasks Install the most recent SDK Use a singleton Azure Cosmos DB client for the lifetime of your application Increase System.Net MaxConnections per host when using Gateway mode Tune parallel queries for partitioned collections Turn on server-side GC Implement backoff at RetryAfter intervals Scale out your client-workload Cache document URIs for lower read latency Tune the page size for queries/read feeds for better performance Increase number of threads/tasks Use 64-bit host processing Exclude unused paths from indexing for faster writes Measure and tune for lower request units/second usage Handle rate limiting/request rate too large Design for smaller documents for higher throughput'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: K
+    text: We have configured data replication to ensure CosmosDB meets the SLAs.
+    description: 'If you have replicated your data in more than one data center, Azure Cosmos DB automatically rolls over your operations should a regional data center go offline. You can create a prioritized list of failover regions using the regions in which your data is replicated.  Even within a single data center, Azure Cosmos DB automatically replicates data for high availability giving you the choice of consistency levels. This guarantees a 99.99% availability SLA for all single region accounts and all multi-region accounts with relaxed consistency, and 99.999% read availability on all multi-region database accounts.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: L
+    text: We handle retries when resource limits are reached.
+    description: 'Request unit consumption is evaluated as a rate per second if the budget is empty. For applications that exceed the provisioned request unit rate for a container, requests to that container are throttled until the rate drops below the reserved level. When a throttle occurs, the server preemptively ends the request with RequestRateTooLargeException (HTTP status code 429) and returns the x-ms-retry-after-ms header indicating the amount of time, in milliseconds, that the user must wait before reattempting the request. If you are using the .NET Client SDK and LINQ queries, then most of the time you never have to deal with this exception, as the current version of the .NET Client SDK implicitly catches this response, respects the server-specified retry-after header, and retries the request. Unless your account is being accessed concurrently by multiple clients, the next retry will succeed. If you have more than one client cumulatively operating above the request rate, the default retry behavior may not suffice, and the client will throw a DocumentClientException with status code 429 to the application. In cases such as this, you may consider handling retry behavior and logic in your application''s error handling routines or increasing the reserved throughput for the container.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for CosmosDB. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-CosmosDB
+uid: c5024487-5a07-4f2b-b7d2-628d8c575bbb
+name: Please choose the applicable Well-Architected reliability considerations for CosmosDB.

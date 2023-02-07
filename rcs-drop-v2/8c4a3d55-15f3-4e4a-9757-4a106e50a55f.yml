@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: 'https://learn.microsoft.com/en-us/training/achievements/sc-100-design-a-strategy-for-data-and-applications.svg'
+description: ''
+links:
+  - title: Specify security requirements for applications
+    url: 'https://learn.microsoft.com/training/modules/specify-security-requirements-for-applications/'
+    condition:
+      allOf: []
+      anyOf:
+        - b6616383-eb62-4c99-bcd7-bd4b13ece104.b4109585-bdcd-4af3-b660-aac5229f3694.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Design a strategy for securing data
+    url: 'https://learn.microsoft.com/training/modules/design-strategy-for-securing-data/'
+    condition:
+      allOf: []
+      anyOf:
+        - b6616383-eb62-4c99-bcd7-bd4b13ece104.9137365b-bd54-4f42-a767-65b993048d72.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 8c4a3d55-15f3-4e4a-9757-4a106e50a55f
+name: Review learning materials for designing a strategy for data and applications

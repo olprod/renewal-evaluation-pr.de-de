@@ -1,0 +1,27 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to analyze the read/write latency for the data and transaction log files of a SQL Server that runs on an Azure virtual machine. The solution must use the least amount of administrative effort and provide statistics for database files.
+
+  What should you use?
+questionnaireUid: af338a9d-d621-48a4-adde-91d8d4ff2934
+questions:
+  - uid: f129f0bc-6e6c-4dc3-9022-4aa58942623f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You need to analyze the read/write latency for the data and transaction log files of a SQL Server that runs on an Azure virtual machine.
+        isCorrect: false
+      - id: 1
+        text: The solution must use the least amount of administrative effort and provide statistics for database files.
+        isCorrect: false
+      - id: 2
+        text: What should you use?
+        isCorrect: false
+      - id: 3
+        text: Windows Performance Monitor
+        isCorrect: true
+    manualId: DP-300.4.6
+uid: f129f0bc-6e6c-4dc3-9022-4aa58942623f
+title: ''

@@ -1,0 +1,46 @@
+### YamlMime:SelfAssessment
+description: 'Data mesh is an intentionally designed distributed data architecture, under centralized governance and standardization for interoperability, enabled by a shared and harmonized self-serve data infrastructure. This quick assessment helps you evaluate your organizational fitness for data mesh. '
+duration: 15 minutes
+questionnaireReferences:
+  - questionnaireUid: 6fbe6dd3-1d78-4b85-ac00-a60d6cfd8f8d
+    isRequired: true
+  - questionnaireUid: f56c95de-2130-49f4-a9e6-b34efda362f5
+    isRequired: false
+guidance:
+  title: 15 minutes
+  description: Your results
+  providers: []
+  scoring:
+    title: View how your readiness and desires aligns to data mesh key criteria
+    description: Recommendations for your assessment Propensity to go Data Mesh.
+    calculationType: Sum
+    scoresVerbage: Low|Medium|High
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: '(Low) - this is no for us, (Medium) - we should consider this, (High) - we need Data Mesh. We recommend you transition to data mesh by using cloud-scale analytics. Cloud-scale analytics is an open-source and prescriptive blueprint for designing and quickly deploying modern data platforms. It has been coupled with Azure best practices and design principles, and is aligned with Azure Well-Architected Framework. Cloud-scale analytics aims to give enterprises an 80 percent prescribed viewpoint and the ability to customize the remaining 20 percent. Cloud-scale analytics offers enterprises a strategic design path toward data mesh, and it can be used to quickly set up such an architecture.'
+        links:
+          - title: 'It offers a blueprint, including core data platform services for data management'
+            url: 'https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Set of technical and non-technical considerations for analytics and governance in the cloud
+  recommendationsTitle: ''
+owner:
+  firstName: Leo
+  lastName: Kozhushnik
+  email: lkozhushnik@microsoft.com
+isHiddenAssessment: true
+metadataTags:
+  - azure
+uid: e2da705a-4434-4ae0-b378-240c08053bad
+name: Cloud Scale Analytics

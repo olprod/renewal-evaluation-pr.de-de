@@ -1,0 +1,45 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: 'https://learn.microsoft.com/en-us/training/achievements/security-data-applications.svg'
+description: ''
+links:
+  - title: Implement storage security
+    url: 'https://learn.microsoft.com/training/modules/storage-security/'
+    condition:
+      allOf: []
+      anyOf:
+        - d4145037-0d20-4161-ad78-9132cf16c3d3.0ef6ba56-6847-4c8e-9b1f-5d6d8d315b8c.0
+        - d4145037-0d20-4161-ad78-9132cf16c3d3.0ef6ba56-6847-4c8e-9b1f-5d6d8d315b8c.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure and manage SQL database security
+    url: 'https://learn.microsoft.com/training/modules/sql-database-security/'
+    condition:
+      allOf: []
+      anyOf:
+        - d4145037-0d20-4161-ad78-9132cf16c3d3.d90750bd-1d73-4b0e-93c1-6bc8bd44a82b.0
+        - d4145037-0d20-4161-ad78-9132cf16c3d3.d90750bd-1d73-4b0e-93c1-6bc8bd44a82b.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy and secure Azure Key Vault
+    url: 'https://learn.microsoft.com/training/modules/azure-key-vault/'
+    condition:
+      allOf: []
+      anyOf:
+        - d4145037-0d20-4161-ad78-9132cf16c3d3.abad2854-63d6-4d20-83c0-e1e9613b3e59.0
+        - d4145037-0d20-4161-ad78-9132cf16c3d3.abad2854-63d6-4d20-83c0-e1e9613b3e59.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 59fe2fca-9526-45ca-b5bc-5f86d56015d8
+name: Review learning materials on securing data and applications

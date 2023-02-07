@@ -1,0 +1,306 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider an IP firewall for this workload.
+    url: /azure/cosmos-db/how-to-configure-firewall
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.1b44f462-3940-4a20-ac74-17d5d107a661.A
+      scoreOf: []
+    context: 'IP firewall is the first layer of protection to secure your database. With IP firewall, you can configure your Azure Cosmos DB account to be accessible only from an approved set of machines and/or cloud services by specifying their IP addresses or IP address ranges.'
+    priority: 95
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Evaluate service endpoint connectivity.
+    url: /azure/cosmos-db/how-to-configure-vnet-service-endpoint
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.1b44f462-3940-4a20-ac74-17d5d107a661.B
+      scoreOf: []
+    context: 'A service endpoint limits access from a specific subnet of virtual network (VNet). '
+    priority: 75
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Evaluate private endpoint connectivity.
+    url: /azure/cosmos-db/how-to-configure-private-endpoints
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.1b44f462-3940-4a20-ac74-17d5d107a661.C
+      scoreOf: []
+    context: Azure Private Link allows you to connect to an Cosmos DB account from your virtual network via a private endpoint and helps prevent certain data exfiltration scenarios.
+    priority: 75
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: 'In the case where a private endpoint has been adopted, consider disabling public connectivity.'
+    url: /azure/cosmos-db/how-to-configure-private-endpoints#blocking-public-network-access-during-account-creation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.1b44f462-3940-4a20-ac74-17d5d107a661.D
+      scoreOf: []
+    context: 'Private and public connectivity to the same Azure Cosmos DB can be enabled side by side. Certain clients connect over public endpoint and other clients over private endpoint. If desired, public connectivity can be disabled.'
+    priority: 93
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: 'If private endpoint connectivity has been adopted and Analytical Store feature is used, private endpoint for Analytical Store has been evaluated for this workload.'
+    url: /azure/cosmos-db/analytical-store-private-endpoints
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.1b44f462-3940-4a20-ac74-17d5d107a661.E
+      scoreOf: []
+    context: Network isolation is managed separately for transactional (default) store and analytical store.
+    priority: 75
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Any exception to "Accept connection(s) from within public Azure Datacenters" has been approved.
+    url: /azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.1b44f462-3940-4a20-ac74-17d5d107a661.F
+      scoreOf: []
+    context: 'Beware that when "Accept connections from within public Azure datacenters" has been enabled, applications owned by others running on Azure are permitted to access your Azure Cosmos DB account. Any application regardless of connectivity method must be in possession of a valid key or token.'
+    priority: 88
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Evaluate the Cross-Origin Resource Sharing (CORS) feature for this workload.
+    url: /azure/cosmos-db/sql/how-to-configure-cross-origin-resource-sharing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.1b44f462-3940-4a20-ac74-17d5d107a661.G
+      scoreOf: []
+    context: 'Web browsers implement a security restriction known as same-origin policy that prevents a web page from calling APIs in a different domain. However, CORS provides a secure way to allow the origin domain to call APIs in another domain.'
+    priority: 40
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: 'Be aware of the three mechanisms to authorize operations: account keys, resource tokens, and RBAC.'
+    url: /azure/cosmos-db/secure-access-to-data?tabs=using-primary-key
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.2385046f-a991-4f10-8257-47018967cb52.A
+      scoreOf: []
+    context: 'Primary/secondary keys: Shared secrets that allow any management or data operation. It comes in both read-write and read-only variants. RBAC: Fine-grained, role-based permission model using Azure Active Directory identities for authentication. Resource tokens: Fine-grained permission model based on native Cosmos DB users and permissions.'
+    priority: 85
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: 'For account keys, Azure Key Vault has been evaluated as a secure store for application secrets.'
+    url: /azure/cosmos-db/access-secrets-from-keyvault
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.2385046f-a991-4f10-8257-47018967cb52.B
+      scoreOf: []
+    context: It is not safe to put keys and the URL directly in the application code because they are available in clear text format to all the users. You want to make sure that the endpoint and keys are available but through a secured mechanism. Azure Key Vault can help you to securely store and manage application secrets.
+    priority: 80
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: 'For account keys, for applications requiring only read access, provide read-only access keys.'
+    url: /azure/cosmos-db/database-security?tabs=sql-api#primarysecondary-keys
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.2385046f-a991-4f10-8257-47018967cb52.C
+      scoreOf: []
+    context: Any application that's been granted an unused or reducible permission is considered "overprivileged." Unused and reducible permissions have the potential to provide unauthorized or unintended access to data or operations not required by the app or its users to perform their jobs.
+    priority: 95
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Roles & Responsibilities
+  - title: 'For account keys, consistently rotate your Azure Cosmos DB account keys and know when they were last rotated.'
+    url: /azure/cosmos-db/database-security?tabs=sql-api#key-rotation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.2385046f-a991-4f10-8257-47018967cb52.D
+      scoreOf: []
+    context: 'Microsoft recommends that you rotate your access keys periodically to help keep your Azure Cosmos DB account secure. If possible, use Azure Key Vault to manage your access keys. Two access keys are assigned so that you can rotate your keys. Having two keys ensures that your application maintains access to Cosmos DB throughout the process.'
+    priority: 82
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Evaluate role-based access control (RBAC) as a key-less authorization mechanism.
+    url: /azure/cosmos-db/secure-access-to-data?tabs=using-primary-key#rbac
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.2385046f-a991-4f10-8257-47018967cb52.F
+      scoreOf: []
+    context: 'Azure Cosmos DB exposes a built-in RBAC system that lets you authenticate your data requests with an Azure Active Directory identity and authorize your data requests with a fine-grained, role-based permission model.'
+    priority: 85
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Roles & Responsibilities
+  - title: 'If you''ve adopted role-based access control, disable key authentication.'
+    url: /azure/cosmos-db/how-to-setup-rbac#disable-local-auth
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.2385046f-a991-4f10-8257-47018967cb52.G
+      scoreOf: []
+    context: 'In situations where you want to force clients to connect to Azure Cosmos DB through RBAC exclusively, you have the option to disable the account''s primary/secondary keys. When doing so, any incoming request using either a primary/secondary key or a resource token will be actively rejected.'
+    priority: 80
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: 'If you''ve adopted RBAC, provide applications with minimum-needed permissions.'
+    url: /azure/cosmos-db/how-to-setup-rbac#role-definitions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.2385046f-a991-4f10-8257-47018967cb52.H
+      scoreOf: []
+    context: 'Azure Cosmos DB provides two built-in role definitions, Cosmos DB Built-in Data Reader and Cosmos DB Built-in Data Contributor, that each permit a certain set of operations. In some scenarios, creating a custom RBAC role definition might allow you to achieve a more fine-grained access. For example, an Azure Function that checks external system and stores a record in Cosmos DB effectively only needs write (create) permission. However, the Built-in Data Contributor role would also provide it with ability to delete or query data, which is unnecessary and does not adhere to the principle of least privilege.'
+    priority: 85
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: 'As a means to doubly encrypt stored data, consider customer-managed keys (CMK).'
+    url: /azure/cosmos-db/how-to-setup-cmk
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.6a8fc0b7-5847-433d-9eeb-b10ee6dfe33a.A
+      scoreOf: []
+    context: 'Data stored in your Azure Cosmos DB account is automatically and seamlessly encrypted with keys managed by Microsoft (service-managed keys). Optionally, you can choose to add a second layer of encryption with keys you manage (customer-managed keys or CMK).'
+    priority: 70
+    reportingCategory: Data
+    reportingSubCategory: Encryption
+  - title: Be aware of assigning managed identity to Azure Cosmos DB to scope down access to Key Vault for CMK.
+    url: /azure/cosmos-db/how-to-setup-cmk#to-use-a-system-assigned-managed-identity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.6a8fc0b7-5847-433d-9eeb-b10ee6dfe33a.C
+      scoreOf: []
+    context: Your Azure Cosmos DB can access customer-managed keys stored in Azure Key Vault through a global identity or through identity of your account. Tightly scoped access is preferred.
+    priority: 65
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Security Monitoring
+  - title: 'To protect highly sensitive data, evaluate the Always Encrypted feature.'
+    url: /azure/cosmos-db/how-to-always-encrypted?tabs=dotnet
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.6a8fc0b7-5847-433d-9eeb-b10ee6dfe33a.D
+      scoreOf: []
+    context: 'Always Encrypted is a feature designed to protect sensitive data, such as credit card numbers or national identification numbers (for example, U.S. social security numbers), stored in Cosmos DB. Always Encrypted allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to the database.'
+    priority: 65
+    reportingCategory: Architecture Design
+    reportingSubCategory: Encryption
+  - title: Restrict management-plane access using RBAC accordingly.
+    url: /azure/cosmos-db/role-based-access-control
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.a2bf4cae-e95a-48ea-bb83-0e6018f9d934.A
+      scoreOf: []
+    context: 'Azure Cosmos DB provides role-based access control (RBAC) for common management scenarios. An individual who has a profile in Azure Active Directory can assign these Azure roles to users, groups, service principals, or managed identities to grant or deny access to resources and operations. Role assignments are scoped to control-plane access only, which includes access to Cosmos DB accounts, databases, containers, and offers (throughput). Cosmos DB provides five built-in roles to help manage access to configuration and data. Give users the lowest level of access required to complete their work.'
+    priority: 80
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Roles & Responsibilities
+  - title: Be aware of disabling changes to Azure Cosmos DB using account keys.
+    url: /azure/cosmos-db/role-based-access-control#prevent-sdk-changes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.a2bf4cae-e95a-48ea-bb83-0e6018f9d934.B
+      scoreOf: []
+    context: 'The Azure Cosmos DB resource provider can be locked down to prevent any changes to resources from a client connecting using the account keys (that is, applications connecting via the Azure Cosmos DB SDK). This feature may be desirable for users who want higher degrees of control and governance for production environments. The clients connecting from Cosmos DB SDK will be prevented from changing any property for the Cosmos DB accounts, databases, containers, and throughput. The operations involving reading and writing data to Cosmos DB containers themselves are not impacted.'
+    priority: 85
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: 'To prevent accidental changes/deletion for your Azure Cosmos DB instance, evaluate Resource Lock.'
+    url: /azure/azure-resource-manager/management/lock-resources?tabs=json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.a2bf4cae-e95a-48ea-bb83-0e6018f9d934.C
+      scoreOf: []
+    context: 'As an administrator, you can lock a subscription, resource group, or resource to prevent other users in your organization from accidentally deleting or modifying critical resources. The lock overrides any permissions the user might have.'
+    priority: 55
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: Consider Microsoft Defender for Azure Cosmos DB to provide an extra layer of security intelligence.
+    url: /azure/cosmos-db/sql/defender-for-cosmos-db
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.a2bf4cae-e95a-48ea-bb83-0e6018f9d934.D
+      scoreOf: []
+    context: 'Microsoft Defender for Azure Cosmos DB provides an extra layer of security intelligence that detects unusual and potentially harmful attempts to access or exploit Cosmos DB accounts. This layer of protection allows you to address threats, even without being a security expert, and integrate them with central security monitoring systems.'
+    priority: 60
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Security Monitoring
+  - title: Consider enabling diagnostic settings to collect telemetry about Azure Cosmos DB operations and usage.
+    url: /azure/cosmos-db/cosmosdb-monitor-resource-logs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.a2bf4cae-e95a-48ea-bb83-0e6018f9d934.E
+      scoreOf: []
+    context: 'Azure resource logs are emitted by a resource and provide rich, frequent data about the operation of that resource. These logs are captured per request and they are also referred to as data plane logs. Some examples of data plane operations include delete, insert, and readFeed. Logs can not only help you understand what operation was performed, but also the originating IP Address, authentication mechanism, or user agent header.'
+    priority: 55
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: 'If full query text logging has been enabled, restrict access to the underlying Log Analytics workspace or storage account.'
+    url: /azure/cosmos-db/cosmosdb-monitor-resource-logs#full-text-query
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.a2bf4cae-e95a-48ea-bb83-0e6018f9d934.F
+      scoreOf: []
+    context: 'By enabling full-text query, you will be able to view the de-obfuscated query for all requests within your Azure Cosmos DB account. As these requests might contain sensitive information, it is important to tightly restrict access to the logging solution. Log Analytics supports doing so via RBAC on workspace or table level.'
+    priority: 45
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Consider having sensitive keys and secrets stored and backed up into secured geo-redundant storage.
+    url: /azure/cosmos-db/access-secrets-from-keyvault
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.826b14d3-b63a-4dd0-8ae3-0db807887570.A
+      scoreOf: []
+    context: Make sure that the endpoint and keys are available but through a secured mechanism. Azure Key Vault can help you to securely store and manage application secrets.
+    priority: 55
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Consider defining automated and testing processes for key rotation.
+    url: /azure/key-vault/keys/how-to-configure-key-rotation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0a5be529-02a0-4bd5-abc7-8deda5828d27.826b14d3-b63a-4dd0-8ae3-0db807887570.B
+      scoreOf: []
+    context: Automation key operations will help ensure best practices and a secure environment.
+    priority: 75
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Automation
+uid: 3b2a78dd-96d6-4e42-89c2-4a5f5f904835
+name: ''

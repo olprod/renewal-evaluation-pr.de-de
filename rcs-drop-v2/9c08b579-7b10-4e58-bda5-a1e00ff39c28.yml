@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have an Azure tenant with nothing deployed in it.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: We have an Azure tenant and have deployed resources in a single subscription.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We have an Azure tenant and have deployed resources in multiple subscriptions.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: We have an Azure tenant and have deployed resources in multiple subscriptions that we organize using management groups.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: We have a mature Azure environment containing many subscriptions and management groups. We want to deploy a greenfield management group hierarchy to plan our migration to the Azure Landing Zone conceptual architecture.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: Azure landing zone
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4xdvm'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Please select the answers that apply to your organizations current Azure environment state. '
+isRequired: true
+uid: 9c08b579-7b10-4e58-bda5-a1e00ff39c28
+name: 'Please select the answers that apply to your organizations current Azure environment state. '

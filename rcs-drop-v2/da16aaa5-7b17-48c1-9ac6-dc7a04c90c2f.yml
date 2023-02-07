@@ -1,0 +1,47 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-govern.png
+description: 'Identify business risks and your risk tolerance, and mitigate those risks with governance and compliance policies. Execute recurring governance processes to monitor policy adherence.'
+links:
+  - title: Assess your governance baseline in your secure environment
+    url: 'https://aka.ms/adopt/gov/assess'
+    condition:
+      anyOf:
+        - govern.dc512112-b562-4b92-a45e-dd7e54cc1ace.6bc69ed5-92f3-472e-8ae5-dcaf66184fe1.A
+        - govern.dc512112-b562-4b92-a45e-dd7e54cc1ace.9943ccc5-3464-4f5f-a747-d2957ceba994.A
+        - govern.dc512112-b562-4b92-a45e-dd7e54cc1ace.aae868fb-d596-4b1a-a525-5570e005a80b.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Standard Enterprise Governance Guide
+    url: /azure/cloud-adoption-framework/govern/guides/standard/initial-corporate-policy#business-risks
+    condition:
+      anyOf:
+        - govern.dc512112-b562-4b92-a45e-dd7e54cc1ace.6bc69ed5-92f3-472e-8ae5-dcaf66184fe1.B
+        - govern.dc512112-b562-4b92-a45e-dd7e54cc1ace.6bc69ed5-92f3-472e-8ae5-dcaf66184fe1.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Learn about governance, security, and compliance in Azure'
+    url: /azure/cloud-adoption-framework/ready/azure-setup-guide/govern-org-compliance?tabs=AzureBlueprints
+    condition:
+      anyOf:
+        - govern.dc512112-b562-4b92-a45e-dd7e54cc1ace.9943ccc5-3464-4f5f-a747-d2957ceba994.B
+        - govern.dc512112-b562-4b92-a45e-dd7e54cc1ace.9943ccc5-3464-4f5f-a747-d2957ceba994.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Managing access to your Azure environment with role-based access controls
+    url: /azure/cloud-adoption-framework/ready/azure-setup-guide/manage-access
+    condition:
+      anyOf:
+        - govern.dc512112-b562-4b92-a45e-dd7e54cc1ace.aae868fb-d596-4b1a-a525-5570e005a80b.B
+        - govern.dc512112-b562-4b92-a45e-dd7e54cc1ace.aae868fb-d596-4b1a-a525-5570e005a80b.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: da16aaa5-7b17-48c1-9ac6-dc7a04c90c2f
+name: Govern

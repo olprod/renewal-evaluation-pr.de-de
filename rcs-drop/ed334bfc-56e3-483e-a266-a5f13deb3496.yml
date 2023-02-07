@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |
+  You manage a project in Azure DevOps named Project1. Project1 contains an Azure Artifacts feed named Feed1. Feed1 does not contain any public upstream sources.
+
+  You need to connect Feed1 to a public source of Java library packages of.
+
+  To which upstream source should you connect in Azure Artifacts?
+questionnaireUid: e663a8f0-db51-4dc7-b35d-a5cbac521002
+questions:
+  - uid: ed334bfc-56e3-483e-a266-a5f13deb3496-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You manage a project in Azure DevOps named Project1.
+        isCorrect: true
+      - id: 1
+        text: Project1 contains an Azure Artifacts feed named Feed1.
+        isCorrect: false
+      - id: 2
+        text: Feed1 does not contain any public upstream sources.
+        isCorrect: false
+      - id: 3
+        text: You need to connect Feed1 to a public source of Java library packages of.
+        isCorrect: false
+uid: ed334bfc-56e3-483e-a266-a5f13deb3496
+title: ''

@@ -1,0 +1,28 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Modernize .NET applications
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/net-app-modernization'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: .NET application migration
+    url: 'https://azure.microsoft.com/en-us/migration/web-applications/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: d183650c-036d-44b9-9227-764cc0b71f7b
+name: ''

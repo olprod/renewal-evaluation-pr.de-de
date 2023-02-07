@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your Guiding principles, best practices and direction to be impactful across organization is limited and reactive.'
+    description: 'Guiding principles, best practices and direction to be impactful across your organization is limited and reactive.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your Guiding principles, best practices and direction to be impactful across organization is evolving to be formally announced.'
+    description: 'Guiding principles, best practices and direction to be impactful across your organization is evolving to be formally announced.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your Guiding principles, best practices and direction to be impactful across organization is defined and acceptable to support execution.'
+    description: 'Guiding principles, best practices and direction to be impactful across your organization is defined and acceptable to support execution.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your Guiding principles, best practices and direction to be impactful across organization is advanced and managed to drive business value.'
+    description: 'Guiding principles, best practices and direction to be impactful across your organization is advanced and managed to drive business value.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your Guiding principles, best practices and direction to be impactful across organization is optimized to support large use-cases.'
+    description: 'Guiding principles, best practices and direction to be impactful across your organization is optimized to support large use-cases.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Does your strategy incorporate guiding principles, best practices and direction to be impactful across your organization?'
+isRequired: true
+uid: c12d5465-9fa4-44a0-a47e-52db1bb6a0a6
+name: 'Does your strategy incorporate guiding principles, best practices and direction to be impactful across your organization?'

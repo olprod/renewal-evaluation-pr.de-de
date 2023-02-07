@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Security is one of the most important aspects of any architecture. It provides confidentiality, integrity, and availability assurances against deliberate attacks and abuse of your valuable data and systems. Losing these assurances can negatively impact your business operations and revenue, as well as your organization''s reputation in the marketplace.'
+hideEmptyGuidance: false
+questions:
+  - 500eeeac-3af9-4f94-8252-c8787294e7ca
+  - 244571d9-07ea-42d6-b8d2-ba1897e0c292
+  - 3637fce7-9a59-452c-a24b-6c80deb36271
+  - 952ba6cd-e44d-48da-867a-06336c5990bd
+  - 85782d48-19ca-4876-91fa-3a43d13fb72f
+  - 72b9d8d0-dfeb-464d-add0-f57a855301c3
+recommendations:
+  - ab205cd6-6a3e-4643-b9fb-930b64c7a39c
+assignedGroupIds: []
+uid: Security-ai-aml
+name: Security - Azure Machine Learning

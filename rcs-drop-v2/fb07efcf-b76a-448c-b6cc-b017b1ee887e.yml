@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no data catalog feature to support data discovery use-cases.
+    description: Your organization has no data catalog feature to support data discovery use-cases.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has basic means for managing data inventory.
+    description: Your organization has basic means for managing data inventory.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has implemented a cataloging tool to manage data inventory and find data for analysis and prepare data for sharing.
+    description: Your organization has adopted a mechanism for cataloging data and manage data for analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has implemented a cataloging tool to manage data inventory and find data for analysis and prepare data for sharing.
+    description: Your organization has implemented a cataloging tool to manage data inventory and find data for analysis and prepare data for sharing.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization is harnessing the power Data Cataloging tool to add context to datasets and products and enable searching data catalog for easy, self-service data discovery.'
+    description: 'Your organization is harnessing the power Data Cataloging tool to add context to datasets and products and enable searching data catalog for easy, self-service data discovery.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The primary means for organizations'' data consumers to find, understand and evaluate data. Do you have the means for data users to find the data that they need across your data estate, either on-prem or in the cloud?'
+isRequired: true
+uid: fb07efcf-b76a-448c-b6cc-b017b1ee887e
+name: 'The primary means for organizations'' data consumers to find, understand and evaluate data.'

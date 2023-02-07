@@ -1,0 +1,222 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Result set Caching
+    url: /azure/synapse-analytics/sql-data-warehouse/performance-tuning-result-set-caching
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.70b31cdc-9cb9-4393-9c56-bf2dfce927b3.A
+      scoreOf: []
+    context: 'When result set caching is enabled, dedicated SQL pool automatically caches query results in the user database for repetitive use. This allows subsequent query executions to get results directly from the persisted cache so recomputation is not needed. Result set caching improves query performance and reduces compute resource usage. In addition, queries using cached results set do not use any concurrency slots and thus do not count against existing concurrency limits.'
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Collect and Maintain Statistics on data
+    url: /azure/synapse-analytics/sql/develop-tables-statistics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.70b31cdc-9cb9-4393-9c56-bf2dfce927b3.B
+      scoreOf: []
+    context: 'The more dedicated SQL pool knows about your data, the faster it can execute queries. After loading data into a dedicated SQL pool, collecting statistics on your data is one of the most important things you can do for query optimization.'
+    priority: 100
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'Use Azure Synapse Analytics Serverless SQL Pool, if applicable'
+    url: /azure/synapse-analytics/sql/on-demand-workspace-overview?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.70b31cdc-9cb9-4393-9c56-bf2dfce927b3.C
+      scoreOf: []
+    context: 'Serverless SQL pool is serverless, hence there''s no infrastructure to setup or clusters to maintain. A default endpoint for this service is provided within every Azure Synapse workspace, so you can start querying data as soon as the workspace is created. There is no charge for resources reserved, you are only being charged for the data processed by queries you run, hence this model is a true pay-per-use model.'
+    priority: 70
+    reportingCategory: Operations
+    reportingSubCategory: Cost Optimization
+  - title: Use Azure Synapse Analytics Dedicated SQL Pool Pause and Resume feature
+    url: /azure/synapse-analytics/sql-data-warehouse/pause-and-resume-compute-portal?toc=%2Fazure%2Fsynapse-analytics%2Ftoc.json&bc=%2Fazure%2Fsynapse-analytics%2Fbreadcrumb%2Ftoc.json&view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.70b31cdc-9cb9-4393-9c56-bf2dfce927b3.D
+      scoreOf: []
+    context: 'To reduce costs, you can pause and resume compute resources on-demand. For example, if you won''t be using the database during the night and on weekends, you can pause it during those times, and resume it during the day.'
+    priority: 90
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Use Azure Synapse Analytics Apache Spark Pool Auto Scaling Feature
+    url: /azure/synapse-analytics/spark/apache-spark-autoscale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.70b31cdc-9cb9-4393-9c56-bf2dfce927b3.E
+      scoreOf: []
+    context: 'Apache Spark for Azure Synapse Analytics pool''s Autoscale feature automatically scales the number of nodes in a cluster instance up and down based on the amount of activity. During the creation of a new Apache Spark for Azure Synapse Analytics pool, a minimum and maximum number of nodes can be set when Autoscale is selected. Autoscale then monitors the resource requirements of the load and scales the number of nodes up or down.'
+    priority: 90
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Use Azure Synapse Analytics Apache Spark Pool Auto Pause Feature
+    url: /azure/synapse-analytics/quickstart-create-apache-spark-pool-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.70b31cdc-9cb9-4393-9c56-bf2dfce927b3.F
+      scoreOf: []
+    context: The automatic pause feature releases resources after a set idle period reducing the overall cost of an Apache Spark pool. The number of minutes of idle time can be set once this feature is enabled. The automatic pause feature is independent of the autoscale feature. Resources can be paused whether the autoscale is enabled or disabled. This setting can be altered after pool creation although the instance may need to be restarted.
+    priority: 90
+    reportingCategory: Operations
+    reportingSubCategory: Cost Optimization
+  - title: Use Azure Pricing Calculator
+    url: 'https://azure.microsoft.com/en-us/pricing/calculator/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.70b31cdc-9cb9-4393-9c56-bf2dfce927b3.G
+      scoreOf: []
+    context: Calculate your estimated hourly or monthly costs for using Azure.
+    priority: 70
+    reportingCategory: Billing & Cost Optimization
+    reportingSubCategory: Optimization
+  - title: Consider the distribution of often-used tables to determine if best distribution is being used
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.70b31cdc-9cb9-4393-9c56-bf2dfce927b3.H
+      scoreOf: []
+    context: 'The distribution type of Synapse tables defines the workload scalability.A distributed table appears as a single table, but the rows are actually stored across 60 distributions. Dedicated SQL pool supports three methods for distributing data: Round-robin, Hash, and Replicated. A hash distributed table distributes rows based on the value in the distribution column. A hash distributed table is designed to achieve high performance for queries on large tables. A replicated table has a full copy of the table available on every Compute node. Queries run fast on replicated tables because joins on replicated tables don''t require data movement. A round-robin table distributes table rows evenly across all distributions. The rows are distributed randomly. Loading data into a round-robin table is fast. But, queries can require more data movement than the other distribution methods.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Choose appropriate Azure Synapse Analytics SQL resource consumption model
+    url: /azure/synapse-analytics/sql/resource-consumption-models
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.eafe38e5-71a2-431f-b839-90cdf89dc8cf.A
+      scoreOf: []
+    context: 'A Synapse SQL pool represents a collection of analytic resources that are being provisioned. Analytic resources are defined as a combination of CPU, memory, and IO. These three resources are bundled into units of compute scale called Data Warehouse Units (DWUs). A DWU represents an abstract, normalized measure of compute resources and performance. A change to your service level alters the number of DWUs that are available to the system. In turn, this change adjusts the performance and cost of your system.'
+    priority: 100
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Choose an appropriate number of nodes for the Azure Synapse Analytics Apache Spark pool autoscale feature
+    url: /azure/synapse-analytics/spark/apache-spark-autoscale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.eafe38e5-71a2-431f-b839-90cdf89dc8cf.B
+      scoreOf: []
+    context: 'Apache Spark for Azure Synapse Analytics pool''s Autoscale feature automatically scales the number of nodes in a cluster instance up and down based on the amount of activity. During the creation of a new Apache Spark for Azure Synapse Analytics pool, a minimum and maximum number of nodes can be set when Autoscale is selected. Autoscale then monitors the resource requirements of the load and scales the number of nodes up or down.'
+    priority: 90
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Review Synapse Analytics access control definitions to ensure proper authorization for provisioning resources contained in Synapse Analytics
+    url: /azure/synapse-analytics/security/how-to-set-up-access-control
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.eafe38e5-71a2-431f-b839-90cdf89dc8cf.C
+      scoreOf: []
+    context: 'Azure Synapse provides a comprehensive and fine-grained access control system, that integrates: 1. Azure roles for resource management and access to data in storage, 2.Synapse roles for managing live access to code and execution, 3. SQL roles for data plane access to data in SQL pools, 4. Git permissions for source code control, including continuous integration and deployment support. Azure Synapse roles provide sets of permissions that can be applied at different scopes. This granularity makes it easy to grant appropriate access to administrators, developers, security personnel, and operators to compute resources and data. Access control can be simplified by using security groups that are aligned with people''s job roles. You only need to add and remove users from appropriate security groups to manage access.'
+    priority: 70
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Control-place RBAC
+  - title: Use Cost Management for Azure Synapse Analytics Serverless SQL Pool
+    url: /azure/synapse-analytics/sql/data-processed?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.dcf141de-468f-4aa0-be2d-0353e681544b.A
+      scoreOf: []
+    context: 'Estimate and manage costs for serverless SQL pool in Azure Synapse Analytics: Estimate amount of data processed before issuing a query, and use cost control feature to set the budget. Understand that the costs for serverless SQL pool in Azure Synapse Analytics are only a portion of the monthly costs in your Azure bill. If you are using other Azure services, you’re billed for all the Azure services and resources used in your Azure subscription, including the third-party services.'
+    priority: 80
+    reportingCategory: Billing & Cost Optimization
+    reportingSubCategory: Optimization
+  - title: Use Cost Management for Azure Synapse Analytics Dedicated SQL Pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.dcf141de-468f-4aa0-be2d-0353e681544b.B
+      scoreOf: []
+    context: 'You can control costs for a dedicated SQL pool by pausing the resource when it is not is use. For example, if you won''t be using the database during the night and on weekends, you can pause it during those times, and resume it during the day.'
+    priority: 80
+    reportingCategory: Billing & Cost Optimization
+    reportingSubCategory: Optimization
+  - title: Use Azure Synapse Analytics Column-store Indexes
+    url: /sql/relational-databases/indexes/columnstore-indexes-overview?toc=%2Fazure%2Fsynapse-analytics%2Ftoc.json&amp;bc=%2Fazure%2Fsynapse-analytics%2Fbreadcrumb%2Ftoc.json&amp;view=azure-sqldw-latest&amp;preserve-view=true&view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.b6690cc0-1a50-4daf-a18a-c4483353126d.A
+      scoreOf: []
+    context: Columnstore indexes are the standard for storing and querying large data warehousing fact tables. This index uses column-based data storage and query processing to achieve gains up to 10 times the query performance in your data warehouse over traditional row-oriented storage. You can also achieve gains up to 10 times the data compression over the uncompressed data size.
+    priority: 100
+    reportingCategory: Architecture
+    reportingSubCategory: Optimization
+  - title: Use Azure Synapse Analytics 'Cost Analysis'
+    url: /azure/synapse-analytics/plan-manage-costs?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.541840b6-29e6-4aee-b1c0-8f2340d0892f.A
+      scoreOf: []
+    context: Use Cost Management features to set budgets and monitor costs. You can also review forecasted costs and identify spending trends to identify areas where you might want to act. Costs for Azure Synapse Analytics are only a portion of the monthly costs in your Azure bill.
+    priority: 70
+    reportingCategory: Billing & Cost Optimization
+    reportingSubCategory: Optimization
+  - title: Use Development best practices for Azure Synapse Analytics SQL
+    url: /azure/synapse-analytics/sql/best-practices-dedicated-sql-pool?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.1f5d5e99-de25-4233-99ec-f2a31fd53783.A
+      scoreOf: []
+    context: 'Use best practices that include data loading, reducing cost, statistics maintenance, query tuning, query external tables, distribution types, partitioning, data types, temporary tables, optimizing indexes, resource classes and the use of DMVs to monitor and optimize your queries.'
+    priority: 90
+    reportingCategory: Governance
+    reportingSubCategory: Optimization
+  - title: Optimize Azure Synapse Analytics Apache Spark Jobs
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.1f5d5e99-de25-4233-99ec-f2a31fd53783.B
+      scoreOf: []
+    context: 'Spark operates by placing data in memory, so managing memory resources is a key aspect of optimizing the execution of Spark jobs.'
+    priority: 100
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Use Synapse SQL Serverless where and when appropriate
+    url: /azure/synapse-analytics/sql/on-demand-workspace-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e6229c67-30e4-4897-b0d0-a8078d358829.1f5d5e99-de25-4233-99ec-f2a31fd53783.C
+      scoreOf: []
+    context: 'Serverless SQL pool is a distributed data processing system, built for large-scale data and computational functions and enables you to analyze your Big Data in seconds to minutes, depending on the workload. Thanks to built-in query execution fault-tolerance, the system provides high reliability and success rates even for long-running queries involving large data sets. If you need to explore data in the data lake, gain insights from it or optimize your existing data transformation pipeline, you can benefit from using serverless SQL pool. It is suitable for the following scenarios: Basic discovery and exploration - Quickly reason about the data in various formats (Parquet, CSV, JSON) in your data lake. Logical data warehouse – Provide a relational abstraction on top of raw or disparate data without relocating and transforming data, allowing always up-to-date view of your data. Data transformation - Simple, scalable, and performant way to transform data in the lake using T-SQL, so it can be fed to BI and other tools, or loaded into a relational data store (Synapse SQL databases, Azure SQL Database, etc.).'
+    priority: 50
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+uid: aaa57965-a845-47f3-aef4-81376138ae46
+name: ''

@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 40e5c72e-ce50-491f-91c9-f6bd51b5b232
+  - 3fda9a20-3376-4edd-9378-e2e90bae82f9
+recommendations:
+  - 6db2ac97-bf15-4fd3-92be-dca646193a39
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: c9a8c3a4-4582-4467-a93c-185a9898a6d2
+name: Implementation details

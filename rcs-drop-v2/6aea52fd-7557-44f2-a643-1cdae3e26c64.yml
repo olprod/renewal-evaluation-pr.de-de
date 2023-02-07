@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Manage the request throttling in your Service Bus Premium Tier
+    url: /azure/service-bus-messaging/service-bus-throttling#throttling-in-azure-service-bus-premium-tier
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e28edc9f-274c-4009-bd4c-b90cd0bc0130.27e79718-3449-4c73-82f7-8b44adc17993.A
+      scoreOf: []
+    context: 'In the premium tier, throttling is applied based upon the limitations of the dedicated compute and storage resources provisioned for the namespace. If the number of requests are more than the resources can service, then the requests will be throttled.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Pick Service Bus the appropriate tier for your application requirements
+    url: /azure/service-bus-messaging/service-bus-performance-improvements?tabs=net-standard-sdk-2#pricing-tier
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e28edc9f-274c-4009-bd4c-b90cd0bc0130.27e79718-3449-4c73-82f7-8b44adc17993.B
+      scoreOf: []
+    context: 'Service Bus offers various pricing tiers. It is recommended to pick the appropriate tier for your application requirements. If the right tier is not picked, there is a risk of overwhelming the Service Bus namespace which may lead to throttling. Throttling does not lead to loss of data. Applications leveraging the Service Bus SDK can utilize the default retry policy to ensure that the data is eventually accepted by Service Bus.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Review the table lists quota and configure your Azure Service Bus accordingly
+    url: /azure/service-bus-messaging/service-bus-quotas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e28edc9f-274c-4009-bd4c-b90cd0bc0130.27e79718-3449-4c73-82f7-8b44adc17993.C
+      scoreOf: []
+    context: 'For example, the maximum number of concurrent connections on a Service Bus Namespace when using the NetMessaging/SBMP protocol is 1,000. The maximum number of concurrent connections on a Service Bus Namespace when using the AMQP protocol is 5,000.'
+    priority: 25
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Do not close Messaging Factory or Queue/Topic/Subscription Client instances after you send a message and recreate them when next sending a message but reuse them
+    url: /azure/service-bus-messaging/service-bus-performance-improvements?tabs=net-standard-sdk#reusing-factories-and-clients
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e28edc9f-274c-4009-bd4c-b90cd0bc0130.27e79718-3449-4c73-82f7-8b44adc17993.D
+      scoreOf: []
+    context: Establishing a connection is an expensive operation that you can avoid by reusing the same factory or client objects for multiple operations. You can safely use these client objects for concurrent asynchronous operations and from multiple threads.
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance and Scalability
+  - title: Try to minimize the end-to-end latency of messages in a queue or topic
+    url: /azure/service-bus-messaging/service-bus-performance-improvements?tabs=net-standard-sdk#low-latency-queue
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e28edc9f-274c-4009-bd4c-b90cd0bc0130.27e79718-3449-4c73-82f7-8b44adc17993.E
+      scoreOf: []
+    context: 'Follow the best practice for minimizing latency in the documentation. You may also want to consider enabling Express Entities, althrough this comes with a trade-off against resilience. Messages sent to an Express Entity are held in memory for a short time before being written to the messaging store. If the message broker were to fail, the message may be lost. Whilst the use of Express Entities is still available, it is highly recommended to apply the best practice to optimise performance ahead of enabling this feature. NOTE: Express Entities are not supported on the Premium Tier.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+uid: 6aea52fd-7557-44f2-a643-1cdae3e26c64
+name: ''

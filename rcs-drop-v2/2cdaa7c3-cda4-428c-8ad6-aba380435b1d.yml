@@ -1,0 +1,366 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Ensure all environments reflect the production environment as much as possible, with simplifications applied for lower environments as necessary.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.8bf180cd-64ef-45d7-a309-3f5db97b62ba.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Avoid sharing components between environments. Possible exceptions are downstream security appliances like firewalls, or source locations for synthetic test data.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.8bf180cd-64ef-45d7-a309-3f5db97b62ba.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Separate development environments within a distinct subscription context, with all development environments sharing the same subscription.  Ensure that there''s an automated process to deploy code from a feature branch to a development environment. Treat development environments as ephemeral, sharing the lifecycle of the associated feature branch.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.8bf180cd-64ef-45d7-a309-3f5db97b62ba.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure at least one staging environment is fully reflective of production to enable production-like testing and validation. Capacity within this pre-production environment can flex based on the execution of test activities.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.8bf180cd-64ef-45d7-a309-3f5db97b62ba.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use of a constant synthetic user load generation is required to provide a realistic test case for changes on one of the pre-production environments. The Mission Critical online reference implementation provides an example user load generator.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.8bf180cd-64ef-45d7-a309-3f5db97b62ba.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Utilize a blue/green deployment approach to release all production changes. Decommission the old and inactive blue environment, ensuring that any connections established while this environment was active are also closed and any queues are drained before removing associated resources. This will save costs relative to maintaining secondary production infrastructure and will ensure new environments are free of configuration drift. While blue and green environments can be reused, it''s strongly recommended to deploy new infrastructure for each new deployment. Treat each regional deployment stamp as ephemeral with a lifecycle tied to that of a single release.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.0a60fb6c-3f09-4b54-b9de-4f9fb9ce6c9a.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prioritize an infrastructure level approach in order to achieve zero-downtime deployments and provide one consistent deployment strategy for any kind of changes (application-level and/or infrastructure-level). Use a global load balancer to orchestrate the automated transition of user traffic between the blue and green environments.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.0a60fb6c-3f09-4b54-b9de-4f9fb9ce6c9a.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Phase the transition of traffic between the blue-green environments to minimize client and user exposure whilst confidence is established in the new environment. Allow for a short ramp-up period when transitioning traffic between blue-green environments in order to catch faults which may not come to light immediately.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.0a60fb6c-3f09-4b54-b9de-4f9fb9ce6c9a.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'To prevent downtime, the process to control the transition of traffic between environments should be fully automated.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.0a60fb6c-3f09-4b54-b9de-4f9fb9ce6c9a.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Apply the concept of IaC and ensure all Azure resources are defined in declarative templates and maintained in a source control repository from where they can be deployed automatically using CI/CD pipelines.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.411b6a22-20fb-4868-b613-58635db993ce.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Define infrastructure artifacts as declarative templates, and not as imperative scripts. Declarative scripts are idempotent by nature which makes them more resilient.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.411b6a22-20fb-4868-b613-58635db993ce.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure the deployment of both infrastructure and application components are fully automated.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.411b6a22-20fb-4868-b613-58635db993ce.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prohibit manual operations against production and lower environments. Athe only exception should be fully independent developer environments.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.411b6a22-20fb-4868-b613-58635db993ce.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For a mission-critical application, employ container registry instances that are dedicated to the application workload. Avoid taking a dependency on a centralized service unless availability and reliability requirements are in full alignment with the application.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-5
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.4e5ceb10-418b-427c-b106-15ea2ce2888c.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure that zone redundancy on Azure Container Registry is enabled in all supported regions.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-5
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.4e5ceb10-418b-427c-b106-15ea2ce2888c.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Configure geo-replication to all considered deployment regions in order to remove regional dependencies and optimize latency. Images should be hosted geographically as close as possible to the consuming compute resources, within the same Azure regions. Prioritize regions with availability zone support to take advantage of zonal redundancy capabilities.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-5
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.4e5ceb10-418b-427c-b106-15ea2ce2888c.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Protect the Azure Container Registry with network restrictions and/or private endpoints to limit incoming traffic to known endpoints only for higher reliability and security.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-5
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.4e5ceb10-418b-427c-b106-15ea2ce2888c.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Active Directory integrated authentication to push and pull images instead of relying on access keys. For optimal security, fully disable the use of the admin access key.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-5
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.4e5ceb10-418b-427c-b106-15ea2ce2888c.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'When using container registries outside Azure, ensure that the provided SLA is aligned with the reliability and security targets. Take special note of throttling limits in cases such as when relying on Docker Hub.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-5
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.4e5ceb10-418b-427c-b106-15ea2ce2888c.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Execute unit tests as part of every application build.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-7
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Execute smoke tests as part of every deployment. The outcome of a smoke test should be that the system responds with expected values and behavior.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-7
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Execute UI tests as part of every deployment. UI automation tools can and should be used to drive automation. During a UI test, a script will mimic a realistic user scenario and follow a series of steps to execute actions and achieve an intended outcome.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-7
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Run extensive load tests, along with stress and chaos testing, as part of every deployment to validate application performance and operability is maintained. Use load profiles that are reflective of real peak usage patterns.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-7
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Perform regular stress tests that apply activities aimed at overloading existing resources in order to understand where solution limits exist, and to ensure the systems ability to recover gracefully.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-7
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Run chaos experiments and failure injection tests at the same time as load tests to validate how the system reacts and the effectiveness of resiliency measures, operational procedures, and mitigations.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-7
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Chaos Studio which provides an Azure-native chaos experimentation suite of tools to easily conduct chaos experiments and inject faults within Azure services and application components. Provides built-in chaos experiments for common fault scenarios, providing a growing set of ''behind the curtain'' experiments for underlying and abstracted components of Azure services. Supports custom experiments targeting infrastructure and application components.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-7
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Run penetration testing and scan and monitor the end-to-end software supply chain and package dependencies for known CVEs. Use Dependabot for GitHub repositories to ensure the repository automatically keeps up-to-date with the latest releases of packages and applications it depends on.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-7
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Define what DevOps process data will be collected and how it will be analyzed. Expose application observability data from staged test environments and the production environment for analysis and correlation within AIOps models. Gather deployment telemetry from DevOps processes, such as test execution metrics and time series data of changes within each deployment.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-8
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.ae3a5fda-76db-4b44-b0b0-fcb15614ebf4.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Develop analytical models that are context-aware and dependency-aware to provide predictions along with automated feature engineering to address schema and behavior changes. Operationalize models by registering and deploying the best trained models within deployment pipelines.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-8
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.ae3a5fda-76db-4b44-b0b0-fcb15614ebf4.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Develop analytical models that are context-aware and dependency-aware to provide predictions along with automated feature engineering to address schema and behavior changes. Operationalize models by registering and deploying the best trained models within deployment pipelines.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#design-recommendations-8
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1da82153-009e-4ca1-8e65-ae5cd05c7341.ae3a5fda-76db-4b44-b0b0-fcb15614ebf4.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 2cdaa7c3-cda4-428c-8ad6-aba380435b1d
+name: ''

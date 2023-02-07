@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing an Azure-based application that stores all application settings in the Azure App Configuration service.
+
+  You provision a standard tier Azure App Configuration instance and enable the customer-managed key capability on the instance.
+
+  You need to allow the Azure App Configuration instance to use an Azure Key Vault key.
+
+  Which two actions should you perform? Each correct answer presents part of the solution.
+questionnaireUid: 40e87cd2-37b8-4091-8799-889b8bd44330
+questions:
+  - uid: e9d27416-19a7-4142-81da-82161e719c6f-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are developing an Azure-based application that stores all application settings in the Azure App Configuration service.
+        isCorrect: false
+      - id: 1
+        text: You provision a standard tier Azure App Configuration instance and enable the customer-managed key capability on the instance.
+        isCorrect: true
+      - id: 2
+        text: You need to allow the Azure App Configuration instance to use an Azure Key Vault key.
+        isCorrect: false
+      - id: 3
+        text: Which two actions should you perform?
+        isCorrect: true
+      - id: 4
+        text: Each correct answer presents part of the solution.
+        isCorrect: false
+uid: e9d27416-19a7-4142-81da-82161e719c6f
+title: ''

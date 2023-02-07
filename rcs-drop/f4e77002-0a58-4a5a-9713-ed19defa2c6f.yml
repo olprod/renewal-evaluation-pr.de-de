@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |
+  Your company uses Windows Autopilot to manage Windows 10 deployments.
+
+  You purchase three new computers and intend to use them as follows:
+
+  - Computer1: Personal device
+  - Computer2: Kiosk browser
+  - Computer3: Shared device
+
+  You plan to deploy Windows 10 by using Windows Autopilot Self-deploying mode.
+
+  Which two computers should be deployed by using self-deploying mode?
+questionnaireUid: 08b9411d-a628-443a-9027-0676f554bee7
+questions:
+  - uid: f4e77002-0a58-4a5a-9713-ed19defa2c6f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company uses Windows Autopilot to manage Windows 10 deployments.
+        isCorrect: false
+      - id: 1
+        text: 'You purchase three new computers and intend to use them as follows:'
+        isCorrect: true
+      - id: 2
+        text: 'Computer1: Personal device'
+        isCorrect: false
+uid: f4e77002-0a58-4a5a-9713-ed19defa2c6f
+title: ''

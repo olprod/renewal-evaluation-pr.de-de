@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information to evaluate for our offer
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Need guidance how we can make our offer transactable
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We are aware of options and evaluated and set the best option for our offer
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Setting the right option reduce sales cycle time and self service option such as trial / test drive etc. help prospective customer do initial understanding of solution and approach your team to make more advance discussions around sales deal. '
+isRequired: true
+uid: 5af4e8df-cc99-4c8e-92ed-4a9827623f62
+name: Setting the right option reduce sales cycle time and self service option such as trial / test drive etc. help prospective customer do initial understanding of solution and approach your team to make more advance discussions around sales deal.

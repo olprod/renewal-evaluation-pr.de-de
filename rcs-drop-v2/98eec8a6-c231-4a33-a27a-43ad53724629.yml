@@ -1,0 +1,1248 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Take advantage of the Azure hybrid use benefit
+    url: /azure/azure-sql/azure-hybrid-benefit?tabs=azure-powershell
+    condition:
+      noneOf:
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.A
+        - Cost-data.8ddc9535-f8cc-492a-96d4-f765bb76b4d7.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Dev/Test licensing
+    url: 'https://azure.microsoft.com/pricing/dev-test/'
+    condition:
+      noneOf:
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.B
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.K
+        - Cost-data.8ddc9535-f8cc-492a-96d4-f765bb76b4d7.B
+        - Operational-data.a42f885e-d125-40f9-a904-854cd8e30a7f.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use reserved capacity
+    url: /azure/azure-sql/database/reserved-capacity-overview
+    condition:
+      noneOf:
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage long-term backup retention policies
+    url: /azure/azure-sql/database/long-term-backup-retention-configure
+    condition:
+      noneOf:
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.D
+        - Cost-data.39f659cf-ff74-4366-ab52-d70c05930c91.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use cost management tools to track costs
+    url: /azure/cost-management-billing/costs/cost-mgt-best-practices#tag-shared-resources
+    condition:
+      noneOf:
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.E
+        - Cost-data.8ddc9535-f8cc-492a-96d4-f765bb76b4d7.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Tag your resources
+    url: 'https://azure.microsoft.com/blog/announcing-the-support-for-tags-in-cost-management-apis/'
+    condition:
+      noneOf:
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.F
+        - Cost-data.8ddc9535-f8cc-492a-96d4-f765bb76b4d7.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Reduce resource utilization as appropriate
+    url: /azure/azure-sql/database/database-advisor-implement-performance-recommendations
+    condition:
+      noneOf:
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Validate database service tiers
+    url: /azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal
+    condition:
+      noneOf:
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.I
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.F
+        - Cost-data.d542b4a6-a8ab-4961-a821-b89a4bab7639.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure dynamic scaling as needed
+    url: /azure/azure-sql/database/single-database-scale
+    condition:
+      noneOf:
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.J
+        - Operational-data.905ef9ba-8b77-4822-9b1b-185daab08e16.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate deployment based on the application lifespan
+    url: 'https://azure.microsoft.com/resources/templates/101-sqlmi-new-vnet/'
+    condition:
+      noneOf:
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.A
+        - Cost-data.b64df7b8-fc27-440b-a7f0-cc2e410e1432.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use DevOps and deployment automation.
+    url: /learn/paths/automate-deployments-azure-devops/
+    condition:
+      noneOf:
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.B
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.C
+        - Cost-data.b64df7b8-fc27-440b-a7f0-cc2e410e1432.C
+        - Cost-data.b64df7b8-fc27-440b-a7f0-cc2e410e1432.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy the database/instances in the same region as your application to minimize transfer costs
+    url: 'https://azure.microsoft.com/pricing/details/bandwidth/'
+    condition:
+      noneOf:
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.D
+        - Cost-data.77015dc2-d635-4c67-bc95-2fa9b1436cf2.A
+        - Cost-data.152d1f27-e41c-4c3b-ae34-bf3e3853a988.A
+        - Cost-data.fba4c532-4793-4df0-a5a0-d7fe5503acf0.A
+        - Cost-data.b64df7b8-fc27-440b-a7f0-cc2e410e1432.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Choose appropriate services tiers that match business requirements
+    url: /azure/azure-sql/database/service-tiers-general-purpose-business-critical
+    condition:
+      noneOf:
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage multiple databases with elastic pools
+    url: /azure/azure-sql/database/elastic-pool-overview
+    condition:
+      noneOf:
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand the implications of each purchasing model
+    url: /azure/azure-sql/database/purchasing-models
+    condition:
+      noneOf:
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure SQL Database Serverless
+    url: /azure/azure-sql/database/serverless-tier-overview
+    condition:
+      noneOf:
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.J
+        - Operational-data.905ef9ba-8b77-4822-9b1b-185daab08e16.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Select the appropriate hardware generation
+    url: /azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal#hardware-generations
+    condition:
+      noneOf:
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use compression (row, page) and columstore indexes'
+    url: /sql/relational-databases/data-compression/data-compression?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.39f659cf-ff74-4366-ab52-d70c05930c91.D
+        - Cost-data.fba4c532-4793-4df0-a5a0-d7fe5503acf0.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Setup automatic, geo-redundant backups'
+    url: /azure/azure-sql/database/automated-backups-overview?tabs=single-database
+    condition:
+      noneOf:
+        - Cost-data.39f659cf-ff74-4366-ab52-d70c05930c91.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Detect and resolve fragmented indexes
+    url: /sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.39f659cf-ff74-4366-ab52-d70c05930c91.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Advisor to identify opportunities to reduce overall cost
+    url: /azure/advisor/advisor-overview
+    condition:
+      noneOf:
+        - Cost-data.d19ace64-4b16-43e1-81e3-20fd113bf54b.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use cost management tools to plan and track costs
+    url: /azure/cloud-adoption-framework/ready/azure-setup-guide/manage-costs
+    condition:
+      noneOf:
+        - Cost-data.d19ace64-4b16-43e1-81e3-20fd113bf54b.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Tag resources to accurately track cost
+    url: /azure/azure-resource-manager/management/tag-resources
+    condition:
+      noneOf:
+        - Cost-data.d19ace64-4b16-43e1-81e3-20fd113bf54b.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Organize services with subscriptions, resource groups, and tags'
+    url: /azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources?tabs=AzureManagementGroupsAndHierarchy
+    condition:
+      noneOf:
+        - Cost-data.d19ace64-4b16-43e1-81e3-20fd113bf54b.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use monitoring tools to validate virtual machines are sized correctly
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices#vm-size-guidance
+    condition:
+      noneOf:
+        - Cost-data.d19ace64-4b16-43e1-81e3-20fd113bf54b.F
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review licensing agreement to see if you qualify for OS/SQL Azure Hybrid Benefits
+    url: /azure/azure-sql/virtual-machines/windows/pricing-guidance
+    condition:
+      noneOf:
+        - Cost-data.d19ace64-4b16-43e1-81e3-20fd113bf54b.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use DevOps and deployment automation
+    url: /azure/azure-sql/virtual-machines/windows/application-patterns-development-strategies
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure autoscaling policies
+    url: /azure/architecture/best-practices/auto-scaling
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.B
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.L
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Choose appropriate services that match your business requriements
+    url: /learn/modules/choose-azure-services-sla-lifecycle/
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Auto-shutdown of non-prod SQL VMs on a scheduled basis
+    url: /azure/automation/automation-solution-vm-management
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Reserved Capacity for consistently running workloads
+    url: 'https://azure.microsoft.com/pricing/reserved-vm-instances/'
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Role based access controls
+    url: /azure/role-based-access-control/overview
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure policies to govern size and types of VMs
+    url: /azure/governance/policy/overview
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Have a clearly defined and documented set of RTO/RPO classifications for SQL VM workloads
+    url: /azure/azure-sql/virtual-machines/windows/business-continuity-high-availability-disaster-recovery-hadr-overview
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.H
+        - Operational-data.dc789140-6f02-43a4-a6b5-84e804e9da7e.A
+        - Operational-data.5306234c-0ac9-49f9-b746-21ac7f0154a5.F
+        - Operational-data.5306234c-0ac9-49f9-b746-21ac7f0154a5.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Be aware of the max number of disks different VM's support
+    url: /azure/virtual-machines/edv4-edsv4-series
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use spot VMs for transient or bursting workloads
+    url: /azure/virtual-machines/spot-vms
+    condition:
+      noneOf:
+        - Cost-data.359b9ff6-97d1-4dbc-8991-eb063147783b.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Educate employees about the cloud and the various pricing models
+    url: 'https://azure.microsoft.com/pricing/tco/calculator/'
+    condition:
+      noneOf:
+        - Cost-data.77015dc2-d635-4c67-bc95-2fa9b1436cf2.B
+        - Cost-data.cb5a6128-494a-4d29-966a-5f96e564243c.A
+        - Cost-data.cb5a6128-494a-4d29-966a-5f96e564243c.J
+        - Cost-data.d542b4a6-a8ab-4961-a821-b89a4bab7639.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement appropriate governance for expenditure
+    url: 'https://azure.microsoft.com/resources/videos/azure-adoption-guide-what-is-azure-governance/'
+    condition:
+      noneOf:
+        - Cost-data.77015dc2-d635-4c67-bc95-2fa9b1436cf2.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define roles and responsibilities for cost optimization
+    url: 'https://azure.microsoft.com/blog/defining-roles-and-responsibilities-for-cloud-cost-optimization/'
+    condition:
+      noneOf:
+        - Cost-data.77015dc2-d635-4c67-bc95-2fa9b1436cf2.D
+        - Cost-data.77015dc2-d635-4c67-bc95-2fa9b1436cf2.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize your azure costs to meet your financial objectives
+    url: 'https://azure.microsoft.com/blog/optimize-your-azure-costs-to-help-meet-your-financial-objectives/'
+    condition:
+      noneOf:
+        - Cost-data.77015dc2-d635-4c67-bc95-2fa9b1436cf2.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define and enforce data retention and archival policies
+    url: 'https://azure.microsoft.com/services/storage/archive/'
+    condition:
+      noneOf:
+        - Cost-data.152d1f27-e41c-4c3b-ae34-bf3e3853a988.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: use PerfMon counters to monitor disk IO
+    url: /azure/azure-monitor/agents/data-sources-performance-counters
+    condition:
+      noneOf:
+        - Cost-data.152d1f27-e41c-4c3b-ae34-bf3e3853a988.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use SQL Agent alerts to notify of low storage space
+    url: /sql/relational-databases/performance-monitor/monitor-resource-usage-system-monitor?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.152d1f27-e41c-4c3b-ae34-bf3e3853a988.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage backup type and frequency
+    url: /azure/backup/backup-azure-sql-database
+    condition:
+      noneOf:
+        - Cost-data.152d1f27-e41c-4c3b-ae34-bf3e3853a988.E
+        - Operational-data.a3e001b6-f273-4f71-a451-a81d39fe1bc3.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure long-term-backups are stored on the most cost effective storage
+    url: /azure/storage/blobs/storage-blob-storage-tiers
+    condition:
+      noneOf:
+        - Cost-data.152d1f27-e41c-4c3b-ae34-bf3e3853a988.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review your cloud costs
+    url: /azure/cost-management-billing/cost-management-billing-overview
+    condition:
+      noneOf:
+        - Cost-data.b7977208-6230-4827-924e-539c753eb6c9.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create and respond to cost alerts
+    url: /azure/architecture/framework/cost/monitor-alert
+    condition:
+      noneOf:
+        - Cost-data.b7977208-6230-4827-924e-539c753eb6c9.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform cost reviews on a regular cadence
+    url: /azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal
+    condition:
+      noneOf:
+        - Cost-data.b7977208-6230-4827-924e-539c753eb6c9.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use an Azure native tools such as Movere to review deployed capacity and provide right sizing recommendations
+    url: /movere/overview
+    condition:
+      noneOf:
+        - Cost-data.b7977208-6230-4827-924e-539c753eb6c9.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use different Azure datacenter locations to optimize cost.
+    url: 'https://azure.microsoft.com/global-infrastructure/geographies/'
+    condition:
+      noneOf:
+        - Cost-data.cb5a6128-494a-4d29-966a-5f96e564243c.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Marketplace to find both 1st and 3rd party offers
+    url: 'https://azure.microsoft.com/marketplace/'
+    condition:
+      noneOf:
+        - Cost-data.cb5a6128-494a-4d29-966a-5f96e564243c.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Take advantage of appropriate subscription offer types.
+    url: 'https://azure.microsoft.com/support/legal/offer-details/'
+    condition:
+      noneOf:
+        - Cost-data.cb5a6128-494a-4d29-966a-5f96e564243c.E
+        - Cost-data.d542b4a6-a8ab-4961-a821-b89a4bab7639.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Purposefully undersize VMs for non-prod/low-importance workloads
+    url: /azure/virtual-machines/windows/resize-vm
+    condition:
+      noneOf:
+        - Cost-data.cb5a6128-494a-4d29-966a-5f96e564243c.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand the interaction between reservations and premium disks
+    url: /azure/virtual-machines/disks-types#premium-ssd
+    condition:
+      noneOf:
+        - Cost-data.cb5a6128-494a-4d29-966a-5f96e564243c.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Constrained Cores to take advantage of the higher performance characteristics of larger VMs whilst reduce compute and license costs.
+    url: /azure/virtual-machines/constrained-vcpu
+    condition:
+      noneOf:
+        - Cost-data.cb5a6128-494a-4d29-966a-5f96e564243c.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Advisor to identify opportunities to reduce cost
+    url: /azure/advisor/advisor-cost-recommendations#sql-database-and-sql-managed-instance-reserved-capacity
+    condition:
+      noneOf:
+        - Cost-data.8ddc9535-f8cc-492a-96d4-f765bb76b4d7.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Choose appropriate services tiers that match business requirements.
+    url: /azure/azure-sql/managed-instance/resource-limits#service-tier-characteristics
+    condition:
+      noneOf:
+        - Cost-data.b64df7b8-fc27-440b-a7f0-cc2e410e1432.E
+        - Operational-data.c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Estimate and track your costs
+    url: /azure/azure-monitor/usage-estimated-costs
+    condition:
+      noneOf:
+        - Cost-data.032df19c-a470-4d2b-93c1-1044d67efd8c.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use appropriate governance about expenditure
+    url: /azure/cloud-adoption-framework/govern/guides/standard/cost-management-improvement
+    condition:
+      noneOf:
+        - Cost-data.032df19c-a470-4d2b-93c1-1044d67efd8c.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define and enforce data retention and archival requirements.
+    url: /azure/data-factory/connector-azure-sql-managed-instance
+    condition:
+      noneOf:
+        - Cost-data.fba4c532-4793-4df0-a5a0-d7fe5503acf0.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Verify data storage and partitionining is done correctly
+    url: 'https://techcommunity.microsoft.com/t5/datacat/storage-performance-best-practices-and-considerations-for-azure/ba-p/305525'
+    condition:
+      noneOf:
+        - Cost-data.fba4c532-4793-4df0-a5a0-d7fe5503acf0.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider the number of days you require your backup history to be available
+    url: /azure/azure-sql/database/automated-backups-overview?tabs=managed-instance#backup-retention
+    condition:
+      noneOf:
+        - Cost-data.fba4c532-4793-4df0-a5a0-d7fe5503acf0.E
+        - Cost-data.8ddc9535-f8cc-492a-96d4-f765bb76b4d7.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Verify what is stored in the database and what can be offloaded to a storage account
+    url: 'https://devblogs.microsoft.com/azure-sql/linked-server-to-synapse-sql-to-implement-polybase-like-scenarios-in-managed-instance/'
+    condition:
+      noneOf:
+        - Cost-data.fba4c532-4793-4df0-a5a0-d7fe5503acf0.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Watch your cloud costs with Azure cost management
+    url: /azure/cost-management-billing/understand/understand-invoice
+    condition:
+      noneOf:
+        - Cost-data.0c6f23b7-fafc-41b8-931c-9c29af5a70b6.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create and respond to cost alerts
+    url: /azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending
+    condition:
+      noneOf:
+        - Cost-data.0c6f23b7-fafc-41b8-931c-9c29af5a70b6.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform cost reviews on a regular cadence
+    url: /azure/cost-management-billing/costs/cost-analysis-common-uses
+    condition:
+      noneOf:
+        - Cost-data.0c6f23b7-fafc-41b8-931c-9c29af5a70b6.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider using different Azure datacenter locations to optimize cost
+    url: 'https://azure.microsoft.com/pricing/details/azure-sql/sql-managed-instance/single/'
+    condition:
+      noneOf:
+        - Cost-data.d542b4a6-a8ab-4961-a821-b89a4bab7639.B
+        - Cost-data.032df19c-a470-4d2b-93c1-1044d67efd8c.B
+        - Cost-data.b64df7b8-fc27-440b-a7f0-cc2e410e1432.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Result set Caching
+    url: /azure/synapse-analytics/sql-data-warehouse/performance-tuning-result-set-caching
+    condition:
+      noneOf:
+        - Cost-data.c1562e06-e00f-4910-b620-b8caaf727685.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Collect and Maintain Statistics on data.
+    url: /azure/synapse-analytics/sql/develop-tables-statistics
+    condition:
+      noneOf:
+        - Cost-data.c1562e06-e00f-4910-b620-b8caaf727685.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Serverless SQL Pool.
+    url: /azure/synapse-analytics/sql/on-demand-workspace-overview?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.c1562e06-e00f-4910-b620-b8caaf727685.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Dedicated SQL Pool Pause and Resume feature.
+    url: /azure/synapse-analytics/sql-data-warehouse/pause-and-resume-compute-portal?toc=%2Fazure%2Fsynapse-analytics%2Ftoc.json&bc=%2Fazure%2Fsynapse-analytics%2Fbreadcrumb%2Ftoc.json&view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.c1562e06-e00f-4910-b620-b8caaf727685.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Apache Spark Pool Auto Scaling Feature.
+    url: /azure/synapse-analytics/spark/apache-spark-autoscale
+    condition:
+      noneOf:
+        - Cost-data.c1562e06-e00f-4910-b620-b8caaf727685.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Apache Spark Pool Auto Pause Feature.
+    url: /azure/synapse-analytics/quickstart-create-apache-spark-pool-portal
+    condition:
+      noneOf:
+        - Cost-data.c1562e06-e00f-4910-b620-b8caaf727685.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Pricing Calculator
+    url: 'https://azure.microsoft.com/pricing/calculator/'
+    condition:
+      noneOf:
+        - Cost-data.c1562e06-e00f-4910-b620-b8caaf727685.G
+        - Cost-data.cb5a6128-494a-4d29-966a-5f96e564243c.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Consider the distribution of often-used tables to determine if best distribution is being used. '
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute
+    condition:
+      noneOf:
+        - Cost-data.c1562e06-e00f-4910-b620-b8caaf727685.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Choose appropriate Azure Synapse Analytics SQL resource consumption model.
+    url: /azure/synapse-analytics/sql/resource-consumption-models
+    condition:
+      noneOf:
+        - Cost-data.c8f27ba7-6373-497c-8219-617f025c0c98.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Choose an appropriate number of nodes for the Azure Synapse Analytics Apache Spark pool autoscale feature
+    url: /azure/synapse-analytics/spark/apache-spark-autoscale
+    condition:
+      noneOf:
+        - Cost-data.c8f27ba7-6373-497c-8219-617f025c0c98.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review Synapse Analytics access control definitions to ensure proper authorization for provisioning resources contained in Synapse Analytics.
+    url: /azure/synapse-analytics/security/synapse-workspace-access-control-overview
+    condition:
+      noneOf:
+        - Cost-data.c8f27ba7-6373-497c-8219-617f025c0c98.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Setup Access control for Synapse Analytics.
+    url: /azure/synapse-analytics/security/how-to-set-up-access-control
+    condition:
+      noneOf:
+        - Cost-data.c8f27ba7-6373-497c-8219-617f025c0c98.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Cost Management for Azure Synapse Analytics Serverless SQL Pool.
+    url: /azure/synapse-analytics/sql/data-processed?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.de15429a-64dd-4f76-92bf-9ca31d300234.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Cost Management for Azure Synapse Analytics Dedicated SQL Pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.de15429a-64dd-4f76-92bf-9ca31d300234.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Columnstore Indexes.
+    url: /sql/relational-databases/indexes/columnstore-indexes-overview?toc=/azure/synapse-analytics/toc.json&amp;bc=/azure/synapse-analytics/breadcrumb/toc.json&amp;view=azure-sqldw-latest&amp;preserve-view=true
+    condition:
+      noneOf:
+        - Cost-data.0fb8b959-4a62-4a5f-bd0f-62fc17d2a020.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics 'Cost Analysis' to monitor cost and create budgets.
+    url: /azure/synapse-analytics/plan-manage-costs?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.8484cb67-091d-4eb5-8c33-f18cf5523ea6.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Development best practices for Azure Synapse Analytics SQL. '
+    url: /azure/synapse-analytics/sql/develop-best-practices?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.3aa3f717-214c-4b77-9002-f43ecccb898b.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize Azure Synapse Analytics Apache Spark Jobs.
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost-data.3aa3f717-214c-4b77-9002-f43ecccb898b.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Synapse SQL Serverless where & when appropriate.
+    url: /azure/synapse-analytics/sql/on-demand-workspace-overview
+    condition:
+      noneOf:
+        - Cost-data.3aa3f717-214c-4b77-9002-f43ecccb898b.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Develop, test your applications, or even run small production workloads for free'
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/free-tier'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: How to choose between standard (manual) and autoscale provisioned throughput
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-choose-offer'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Evaluate and realize savings by understanding your consumption (request unit) requirements
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/request-units'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Scale your throughput (RU/s) of your database or container with autoscale provisioned throughput
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/provision-throughput-autoscale'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Be charged only for the Request Units consumed by your db operations and storage consumed by your data.
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/serverless'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: How to choose between standard (manual) and autoscale provisioned throughput
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-choose-offer'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Introduction and setting provisioned throughput on your databases and containers
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/set-throughput'
+    condition:
+      allOf: []
+      anyOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.4
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: A tour of Azure Cosmos DB database operations models
+    url: 'https://youtu.be/CgYQo6uHyt0'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage your Azure Cosmos DB- Commands
+    url: 'https://docs.microsoft.com/en-us/cli/azure/cosmosdb/sql/container?view=azure-cli-latest'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Set throughput at database level
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/set-throughput#set-throughput-on-a-database'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Cosmos DB Attachments to reference associated metadata with an external blob or media file.
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/attachments'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.8
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Expire data in Azure Cosmos DB with Time to Live
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/sql/time-to-live'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Reserved capacity in Azure Cosmos DB to Optimize cost
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/cosmos-db-reserved-capacity'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.9
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Azure Cosmos DB Emulator for local development and testing
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8f9c1d64-24d7-4816-ba15-7a37deb8d3a4.10
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Distinguish between different entity types and when to bring them into a single container
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/modeling-data#distinguishing-between-different-document-types'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.e41f1982-f46b-4cc4-9770-7d56bc30f5f5.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Modeling your data in Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/modeling-data'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.e41f1982-f46b-4cc4-9770-7d56bc30f5f5.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Choosing the right partition key
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/partitioning-overview#choose-partitionkey'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.e41f1982-f46b-4cc4-9770-7d56bc30f5f5.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimizing the cost of your requests in Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/optimize-cost-reads-writes#:~:text=Read%20operations%20in%20Azure%20Cosmos%20DB%20are%20typically,equality%20or%20range%20filter%20clause%20on%20any%20property.'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.e41f1982-f46b-4cc4-9770-7d56bc30f5f5.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Bulk import data to Azure Cosmos DB SQL API by using .NET SDK
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/tutorial-sql-api-dotnet-bulk-import'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.16465016-8aa6-4261-8d96-4e9f46b30547.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Database migration tools for Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/import-data'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.16465016-8aa6-4261-8d96-4e9f46b30547.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize your Azure Cosmos DB application using rate limiting
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/rate-limiting-requests'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.16465016-8aa6-4261-8d96-4e9f46b30547.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Overview of Azure Synapse Link for Cosmos DB '
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.16465016-8aa6-4261-8d96-4e9f46b30547.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Expire data in Azure Cosmos DB with Time to Live
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/time-to-live'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.16465016-8aa6-4261-8d96-4e9f46b30547.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Change feed design patterns in Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/sql/change-feed-design-patterns'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.16465016-8aa6-4261-8d96-4e9f46b30547.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Partition keys for read-heavy containers
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/partitioning-overview#partition-keys-for-read-heavy-containers'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.16465016-8aa6-4261-8d96-4e9f46b30547.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize your Azure Cosmos DB application using rate limiting
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/rate-limiting-requests'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.16465016-8aa6-4261-8d96-4e9f46b30547.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: How to configure multi-region writes in Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-multi-master?tabs=api-async'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.4d48ae50-6f4f-4c8c-87f5-0fcf70a4db6e.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Distribute you data Globally with Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.4d48ae50-6f4f-4c8c-87f5-0fcf70a4db6e.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Global distribution with Azure Cosmos DB- under the hood
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/global-dist-under-the-hood'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.4d48ae50-6f4f-4c8c-87f5-0fcf70a4db6e.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: High availability in Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.4d48ae50-6f4f-4c8c-87f5-0fcf70a4db6e.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor and debug with insights in Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/use-metrics'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.4d48ae50-6f4f-4c8c-87f5-0fcf70a4db6e.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Distribute data globally with Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.4d48ae50-6f4f-4c8c-87f5-0fcf70a4db6e.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Zone Redundancy in Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability#availability-zone-support'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.4d48ae50-6f4f-4c8c-87f5-0fcf70a4db6e.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/monitor-cosmos-db'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.4d48ae50-6f4f-4c8c-87f5-0fcf70a4db6e.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Indexing policies in Azure Cosmos DB
+    url: 'https://docs.microsoft.com/en-us/azure/cosmos-db/index-policy'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8c05937a-fedf-4112-a93a-884199de9e97.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Index data from Azure Cosmos DB - Azure Cognitive Search
+    url: 'https://docs.microsoft.com/en-us/azure/search/search-howto-index-cosmosdb'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Cost-data.8c05937a-fedf-4112-a93a-884199de9e97.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 98eec8a6-c231-4a33-a27a-43ad53724629
+name: ''

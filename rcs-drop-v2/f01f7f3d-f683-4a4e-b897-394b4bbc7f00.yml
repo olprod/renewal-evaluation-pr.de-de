@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Data is extracted into a separate data platform for analytics.
+    description: 'Traditionally, large-scale analytical scenarios are facilitated by extracting data into a separate data platform optimized for subsequent analytical queries. Extract, transform, and load (ETL) pipelines are used to extract data will consume throughput and impact transactional workload performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: Azure Cosmos DB Analytical Store with Azure Synapse Link is used to perform analytics on operational data.
+    description: 'The Cosmos DB Analytical Store provides a schematized, fully isolated column-oriented data store that enables large-scale analytics on Cosmos DB data from Azure Synapse without impact to Cosmos DB transactional workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: f01f7f3d-f683-4a4e-b897-394b4bbc7f00
+name: How are analytical scenarios covered?

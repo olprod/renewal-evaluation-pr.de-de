@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: "Use Azure policies\_to enforce security, compliance, and organizational standards."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: "Enable\_Azure Defender\_for your storage accounts to detect unusual and potentially harmful attempts to access or exploit your storage accounts."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: "Azure Security Centre's Secure Score\_is formally reviewed and improved on a regular basis."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: "Activate diagnostic logs and store them in\_a Log Analytics workspace, a Blob Storage, or to an Event Hub for further analysis by another tool."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Discover, connect, and explore data in Azure Data Lake Gen2 using Azure Purview.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: ab75294e-c0c1-49ff-848c-325425d80496
+name: What considerations for compliance and governance do you need to take?

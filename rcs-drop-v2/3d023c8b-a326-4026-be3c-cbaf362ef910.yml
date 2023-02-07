@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: F
+    text: Configuring clusters in Azure Databricks (Azure Databricks).
+    description: 'Create and edit Azure Databricks clusters through the Azure Databricks UI, Clusters CLI or Clusters API to assign to notebooks that handle workload different compute targets. Run job APIs to automatically create new clusters to run Jobs and also terminate them after running it to enable a Ephemeral Job Cluster pattern process.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: Configuring clusters in Azure Databricks for specific workloads.
+    description: 'Azure Databricks allows configuring specific Databricks workloads for Machine Learning, Genomics, Databricks basic and Databricks light.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: H
+    text: Deploy workspaces in multiple subscription.
+    description: based on service limits including Databricks workspace limits and Azure Subscription limits
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Cloud-based applications often run on multiple virtual machines or containers in multiple regions, and use multiple external services. How do you manage and store all your app''s configuration settings, feature flags, and secure access settings.'
+isRequired: false
+legacyId: '1'
+uid: 3d023c8b-a326-4026-be3c-cbaf362ef910
+name: 'Cloud-based applications often run on multiple virtual machines or containers in multiple regions, and use multiple external services.'

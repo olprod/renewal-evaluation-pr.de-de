@@ -1,0 +1,234 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Establish a layered health model that reflects the application structure.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#layered-application-health
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.f4176a51-534b-4302-bb54-e4a3ecdff2a4.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Aggregate foundational components alongside key non-functional requirements to build a business-contextualized lens.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#layered-application-health
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.f4176a51-534b-4302-bb54-e4a3ecdff2a4.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Aggregate system flows with appropriate weights based on business criticality.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#layered-application-health
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.f4176a51-534b-4302-bb54-e4a3ecdff2a4.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prioritize financially significant or customer-facing user flows.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#layered-application-health
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.f4176a51-534b-4302-bb54-e4a3ecdff2a4.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use a unified data sink to provide a single pane across all operational data sets.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#unified-data-sink-for-correlated-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.d4ad1667-042a-4668-b1dc-6dcddb709fc8.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Export critical operational data that requires long-term retention to (cheaper) storage.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#unified-data-sink-for-correlated-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.d4ad1667-042a-4668-b1dc-6dcddb709fc8.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define and configure appropriate retention periods for operational data types.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#unified-data-sink-for-correlated-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.d4ad1667-042a-4668-b1dc-6dcddb709fc8.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use an Application Performance Monitoring solution to collect application logs, metrics and traces.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#unified-data-sink-for-correlated-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.d4ad1667-042a-4668-b1dc-6dcddb709fc8.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'A ‘traffic light’ model should be used to visually represent ''healthy'' and ''unhealthy'' states, with green used to illustrate when key non-functional requirements are fully satisfied and resources are optimally utilized. Use green, amber, and red to represent healthy, degraded, and unavailable states.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#visualization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.899ad56e-426e-4762-b4af-56c647aaaa3a.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Dashboards to create operational lenses for global resources and regional deployment stamps, representing key metrics such as request count for Azure Front Door, server-side latency for Cosmos DB, incoming/outgoing messages for Event Hubs, and CPU utilization or deployment statuses for AKS. Dashboards should be tailored to drive operational effectiveness, infusing learnings from failure scenarios to ensure DevOps teams have direct visibility into key metrics.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#visualization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.899ad56e-426e-4762-b4af-56c647aaaa3a.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'While the visual representations of application health provide invaluable operational and business insights to support issue detection and diagnosis, it relies on the readiness and interpretations of operational teams, as well as the effectiveness of subsequent human-triggered responses. Therefore, to maximize reliability, it''s necessary to implement extensive alerting to detect proactively and respond to issues in near real-time.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#automated-incident-response
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.ad901a80-04da-4309-91eb-6de8c93108db.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Consolidate automated actions within a minimal number of Action Groups, aligned with service teams to support a DevOps approach.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#automated-incident-response
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.ad901a80-04da-4309-91eb-6de8c93108db.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Respond to excessive resource utilization signals through automated scale operations, using Azure-native auto-scale capabilities where possible. Where built-in auto-scale functionality isn''t applicable, use the component health score to model signals and determine when to respond with automated scale operations. Ensure automated scale operations are defined according to a capacity model, which quantifies scale relationships between components, so that scale responses encompass components that need to be scaled in relation to other components.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#automated-incident-response
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.ad901a80-04da-4309-91eb-6de8c93108db.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Conduct operational readiness tests as part of CI/CD processes to validate key alert rules for deployment updates.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#automated-incident-response
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.ad901a80-04da-4309-91eb-6de8c93108db.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define runbooks for critical failure scenarios that can't be met with an automated response.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#automated-incident-response
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.ad901a80-04da-4309-91eb-6de8c93108db.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Instrument all Azure resources and application components so that a complete operational dataset is available for AIOps model training.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#predictive-action-and-ai-operations-aiops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.cb0d01dd-ce1c-4437-b5af-e4dcdc1f72c0.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ingest Log Analytics operational data into Azure Synapse for analysis.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#predictive-action-and-ai-operations-aiops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.cb0d01dd-ce1c-4437-b5af-e4dcdc1f72c0.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Monitor Alerts API to retrieve historic alerts and store them within cold storage for operational data to subsequently use within ML models.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#predictive-action-and-ai-operations-aiops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.cb0d01dd-ce1c-4437-b5af-e4dcdc1f72c0.null
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Cognitive Services for specific predictive scenarios.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling#predictive-action-and-ai-operations-aiops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f.cb0d01dd-ce1c-4437-b5af-e4dcdc1f72c0.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 7ba15abf-1f82-4e24-a3de-9265256757b3
+name: ''

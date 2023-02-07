@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Consider Azure Synapse Analytics resource limits.
+    description: Information on what happens when those resource limits are hit or exceeded and describes the resource governance mechanisms used to enforce these limits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Consider Azure Synapse Analytics capacity limits.
+    description: Maximum values allowed for various components of dedicated SQL pool in Azure Synapse Analytics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: capacity-data-synapse
+uid: f068ef0c-e524-43f0-8580-839b85f32cf9
+name: How have you ensured required capacity and services are available in targeted regions?

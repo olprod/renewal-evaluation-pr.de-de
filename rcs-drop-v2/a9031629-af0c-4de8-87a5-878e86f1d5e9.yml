@@ -1,0 +1,70 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Availability targets such as SLAs, SLOs are defined for the SAP application and key scenarios and monitored.'
+    description: 'Are availability targets such as Service Level Agreements (SLAs), Service Level Indicators (SLIs), and Service Level Objectives (SLOs) defined for the application and/or key scenarios?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: 'Availability targets such as SLAs, SLIs and SLOs for all leveraged dependencies are understood and monitored'
+    description: Are SLAs/SLOs/SLIs for all leveraged dependencies understood?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: Recovery targets such as Recovery Time Objective (RTO) and Recovery Point Objective (RPO) are defined for the SAP workload and documented.
+    description: Are recovery targets such as Recovery Time Objective (RTO) and Recovery Point Objective (RPO) defined for the application and/or key scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '3'
+    text: For SAP workloads where availability and recovery targets are not satisfied are well understood and documented.
+    description: |-
+      What are the consequences if availability targets are not satisfied?.
+      e.g No HA for SAP IQ or MaxDB database
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: There are well defined performance requirements for the SAP application and key scenarios.
+    description: 'Are there well defined performance requirements for the application and/or key scenarios? e.g ST03N, Azure/3rd Party Metrics'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: Any SAP components designed lower BCP tiers resulting to have lower availability or performance requirements are well understood
+    description: Are there any application components which are less critical and have lower availability or performance requirements?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Targets and Non-Functional Requirements'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWKadz'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: 'Understanding critical system flows is vital to assessing overall operational effectiveness, and should be used to inform a health model for the application. It can also tell if areas of the application are over or under utilized and should be adjusted to better meet business needs and cost goals.'
+isRequired: false
+uid: a9031629-af0c-4de8-87a5-878e86f1d5e9
+name: 'Understanding critical system flows is vital to assessing overall operational effectiveness, and should be used to inform a health model for the application.'

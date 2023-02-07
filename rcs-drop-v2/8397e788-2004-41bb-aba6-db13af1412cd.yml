@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: C
+    text: We have monitored application-level telemetry and correlated it across all component logs.
+    description: 'To help maximize the availability and performance of your applications and services, you should collect, analyze, and act on telemetry from your cloud and on-premises environments. This information helps you understand how your applications are performing and proactively identify issues that affect them and the resources they depend on.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: 'We have defined a health model to qualify what "healthy" and "unhealthy" states represent across all application components, based on performance, availability, and recovery targets. This model should be materialized in a measurable and observable format that is fully represented through monitoring dashboards and alerts.'
+    description: Azure Resource Health helps you diagnose and get support for service problems that affect your Azure resources. It reports on the current and past health of your resources.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: F
+    text: We have evaluated integrating Azure Service Health events to alert on applicable service-level events.
+    description: 'Alerts help you detect and address issues before users notice them, by proactively notifying you when Azure Monitor data indicates that there may be a problem with your infrastructure or application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: H
+    text: We have monitored long-running application workflows and operationalized failure scenarios with alerts to detect issues proactively.
+    description: 'Alerts help you detect and address issues before users notice them, by proactively notifying you when Azure Monitor data indicates that there may be a problem with your infrastructure or application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 8397e788-2004-41bb-aba6-db13af1412cd
+name: How do you monitor and measure application health?

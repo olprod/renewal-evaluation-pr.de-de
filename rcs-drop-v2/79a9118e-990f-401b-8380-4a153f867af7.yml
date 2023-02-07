@@ -1,0 +1,104 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'There are tools and processes in place to grant just-in-time access. '
+    description: 'Just-in-time (JIT), just-enough access granted on a task-by-task basis to limit exposure of overprivileged admin credentials.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '1'
+    text: No user accounts have long-standing write access
+    description: Limit long-standing write access to production environments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '2'
+    text: 'Appropriate emergency access accounts are configured in case of an emergency. '
+    description: Plan for emergency access or break-glass accounts to prevent tenant-wide account lockout.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: 'Lines of responsibility and designated responsible parties were clearly defined for specific functions in Azure. '
+    description: 'Clear ownership of security decisions speeds up cloud adoption and increases security. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '4'
+    text: All teams have a clear view on responsibilities and individual/group access levels
+    description: 'Clear ownership of security decisions speeds up cloud adoption and increases security. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '5'
+    text: 'Infrastructure is protected with role-based access control (RBAC). '
+    description: 'Dealing with groups rather than individual users simplifies maintenance of access policies, provides consistent access management across teams, and reduces configuration errors.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '6'
+    text: Resource locks are leveraged to protect critical infrastructure
+    description: You can set locks that prevent either deletions or modifications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '7'
+    text: 'Direct access to the infrastructure through Azure Portal, command-line Interface (CLI) or REST API is limited and CI/CD is preferred. '
+    description: 'Automation and the Agile methodology enable teams to deliver faster, but also add complexity to security because the workflow extends to the developer teams themselves.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '8'
+    text: 'Permissions are never based on individual resources. Nor are custom permissions used. A workflow & exception process is required for anyone to violate this policy '
+    description: Grant roles the appropriate permissions that start with least privilege and add more based on your operational needs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '9'
+    text: There are processes and tools being used to manage privileged activities. Administrative access is automatically terminated after a period of time.
+    description: Privileged access includes IT administrators with control of large portions of the enterprise estate and other users with access to business critical assets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '10'
+    text: 'There is a lifecycle management policy for critical accounts and privileged accounts are reviewed regularly. '
+    description: Each admin account represents potential attack surface that an attacker can target
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '11'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 79a9118e-990f-401b-8380-4a153f867af7
+name: What security controls do you have in place to manage Azure Infrastructure?

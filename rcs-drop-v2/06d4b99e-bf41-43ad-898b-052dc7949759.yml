@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Identify your business drivers and outcomes by guidance provided in the Cloud Adoption Framework
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 06d4b99e-bf41-43ad-898b-052dc7949759
+name: ''

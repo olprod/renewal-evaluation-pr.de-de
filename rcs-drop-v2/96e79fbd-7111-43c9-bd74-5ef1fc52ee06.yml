@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have not consdered Dynamics 365 as a platform, and it has not been part of the decision-making process for this project.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We understand that an application platform as a service (PaaS) has value, but we have not considered how to leverage that, and it has not been a significant part of our decision making for this project at this point.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Having a low-code business applications cloud platform is an important part of our planning process but we are unsure what it will take to enable the value it can provide.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'We understand the significance of a modern cloud-based business applicatons platfrom, as the foundation of our digital transformation initiative and we fully intend to staff and train resources to leverage it as much as possible.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Focus on the business applications 'platform' aspect of your digital transformation project to enable an approach that limits risk and brings a built-in structure that enables reuse. Don't ignore the platform component of your project by concentrating only on a single application and the functional capabilities of it.
+
+  Which statement best describes your organization's approach to leveraging the platform?
+isRequired: true
+uid: 96e79fbd-7111-43c9-bd74-5ef1fc52ee06
+name: Focus on the business applications 'platform' aspect of your digital transformation project to enable an approach that limits risk and brings a built-in structure that enables reuse.

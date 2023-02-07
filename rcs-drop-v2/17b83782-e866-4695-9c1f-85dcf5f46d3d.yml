@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: Beginner
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: Intermediate
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: Advanced
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Configure Azure role permissions for management groups, subscriptions, resource groups, and resources, Interpret role and resource permissions, Assign built-in Azure AD roles, and Create and assign custom roles, including Azure roles and Azure AD roles'
+isRequired: true
+uid: 17b83782-e866-4695-9c1f-85dcf5f46d3d
+name: 'For example: Configure Azure role permissions for management groups, subscriptions, resource groups, and resources, Interpret role and resource permissions, Assign built-in Azure AD roles, and Create and assign custom roles, including Azure roles and Azure AD roles '

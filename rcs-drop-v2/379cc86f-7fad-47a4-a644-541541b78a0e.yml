@@ -1,0 +1,476 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Identify recovery targets for your workload
+    url: /azure/architecture/framework/Resiliency/business-metrics#recovery-metrics
+    condition:
+      noneOf:
+        - Reliability.096bf416-365e-466e-b01c-a9eb76b2a569.A
+        - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.C
+        - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.D
+        - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.E
+    context: Identify recovery targets for your workload
+    priority: 90
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Have clearly defined availability targets
+    url: /azure/architecture/framework/Resiliency/business-metrics#workload-availability-targets
+    condition:
+      noneOf:
+        - Reliability.096bf416-365e-466e-b01c-a9eb76b2a569.B
+    context: Have clearly defined availability targets
+    priority: 95
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Measure and monitor key availability targets
+    url: /azure/architecture/framework/Resiliency/business-metrics#availability-metrics
+    condition:
+      noneOf:
+        - Reliability.096bf416-365e-466e-b01c-a9eb76b2a569.C
+    context: Measure and monitor key availability targets
+    priority: 80
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Compute a composite SLA for your workload
+    url: /azure/architecture/framework/Resiliency/business-metrics#understand-service-level-agreements
+    condition:
+      noneOf:
+        - Reliability.096bf416-365e-466e-b01c-a9eb76b2a569.D
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.C
+    context: Compute a composite SLA for your workload
+    priority: 95
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Identify SLAs for 3rd party dependencies
+    url: /azure/architecture/framework/resiliency/design-resiliency#understand-the-impact-of-dependencies
+    condition:
+      noneOf:
+        - Reliability.096bf416-365e-466e-b01c-a9eb76b2a569.E
+        - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.B
+    context: Identify SLAs for 3rd party dependencies
+    priority: 95
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Decouple your application services
+    url: /azure/architecture/guide/design-principles/minimize-coordination
+    condition:
+      noneOf:
+        - Reliability.096bf416-365e-466e-b01c-a9eb76b2a569.F
+    context: Decouple your application services
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Deploy to multiple availability zones
+    url: /azure/availability-zones/az-overview#availability-zones
+    condition:
+      noneOf:
+        - Reliability.bf25e8dc-4182-4498-b6e6-a001eb516bd0.C
+        - Performance.bc3e062c-c894-4c8d-91ea-578e2682d64d.E
+    context: Deploy to multiple availability zones
+    priority: 75
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Perform a failure mode analysis
+    url: /azure/architecture/resiliency/failure-mode-analysis
+    condition:
+      noneOf:
+        - Reliability.bf25e8dc-4182-4498-b6e6-a001eb516bd0.D
+    context: Perform a failure mode analysis
+    priority: 85
+    reportingCategory: Application Design
+    reportingSubCategory: Failure Mode Analysis
+  - title: Detect and remediate faults through chaos engineering
+    url: /azure/architecture/framework/resiliency/chaos-engineering
+    condition:
+      noneOf:
+        - Reliability.bf25e8dc-4182-4498-b6e6-a001eb516bd0.E
+    context: Detect and remediate faults through chaos engineering
+    priority: 57
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Plan for dependent service outages
+    url: /azure/architecture/framework/Resiliency/backup-and-recovery#dependent-service-outage
+    condition:
+      noneOf:
+        - Reliability.bf25e8dc-4182-4498-b6e6-a001eb516bd0.F
+    context: Plan for dependent service outages
+    priority: 79
+    reportingCategory: Application Design
+    reportingSubCategory: Dependencies
+  - title: Plan for expected usage patterns
+    url: /azure/architecture/framework/scalability/design-capacity#preemptively-scaling-based-on-trends
+    condition:
+      noneOf:
+        - Reliability.5cd55a17-f4e9-499d-8042-46d489fffe07.B
+    context: Plan for expected usage patterns
+    priority: 54
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Validate Availability Zones are in required regions
+    url: /azure/availability-zones/az-region
+    condition:
+      noneOf:
+        - Reliability.5cd55a17-f4e9-499d-8042-46d489fffe07.D
+    context: Validate Availability Zones are in required regions
+    priority: 77
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service Availability
+  - title: Operate your workload in multiple regions
+    url: /azure/availability-zones/az-overview
+    condition:
+      noneOf:
+        - Reliability.70a02a6c-5d60-4c5a-8382-c6ce408d63d2.A
+        - Reliability.70a02a6c-5d60-4c5a-8382-c6ce408d63d2.B
+        - Reliability.bf25e8dc-4182-4498-b6e6-a001eb516bd0.A
+        - Operational.0aa1ba33-0dee-40ab-b7e4-ce9b40ac0f30.B
+        - Performance.bc3e062c-c894-4c8d-91ea-578e2682d64d.A
+    context: Operate your workload in multiple regions
+    priority: 77
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Document regional failure plan
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#plan-for-regional-failures
+    condition:
+      noneOf:
+        - Reliability.70a02a6c-5d60-4c5a-8382-c6ce408d63d2.C
+    context: Document regional failure plan
+    priority: 79
+    reportingCategory: Application Platform Availability
+    reportingSubCategory: Compute Availability
+  - title: Create a backup strategy
+    url: /azure/architecture/framework/Resiliency/backup-and-recovery#backup-strategy
+    condition:
+      noneOf:
+        - Reliability.70a02a6c-5d60-4c5a-8382-c6ce408d63d2.D
+    context: Create a backup strategy
+    priority: 79
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Replication and Redundancy
+  - title: Create a disaster recovery plan
+    url: /azure/architecture/framework/Resiliency/backup-and-recovery#disaster-recovery-plan
+    condition:
+      noneOf:
+        - Reliability.70a02a6c-5d60-4c5a-8382-c6ce408d63d2.E
+        - Operational.0a7ab161-b3dd-407e-81e2-6ab64a8b27cd.A
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.L
+    context: Create a disaster recovery plan
+    priority: 79
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Automatically test your failover and failback process
+    url: /azure/architecture/framework/Resiliency/backup-and-recovery#failover-and-failback-testing
+    condition:
+      noneOf:
+        - Reliability.70a02a6c-5d60-4c5a-8382-c6ce408d63d2.F
+        - Operational.0a7ab161-b3dd-407e-81e2-6ab64a8b27cd.E
+    context: Automatically test your failover and failback process
+    priority: 51
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Identify distinct workloads
+    url: /azure/architecture/framework/Resiliency/app-design#considerations-for-improving-reliability
+    condition:
+      noneOf:
+        - Reliability.70a02a6c-5d60-4c5a-8382-c6ce408d63d2.H
+    context: Identify distinct workloads
+    priority: 99
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Have redundant network connections to on-prem data sources
+    url: /azure/expressroute/cross-network-connectivity
+    condition:
+      noneOf:
+        - Reliability.70a02a6c-5d60-4c5a-8382-c6ce408d63d2.I
+        - Reliability.31530a4b-0653-4ce1-8026-560a5383e33d.D
+    context: Have redundant network connections to on-prem data sources
+    priority: 55
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Connectivity
+  - title: Avoid session state
+    url: /aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/web-development-best-practices#sessionstate
+    condition:
+      noneOf:
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.A
+    context: Avoid session state
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Store session state in an external data store
+    url: /aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/web-development-best-practices
+    condition:
+      noneOf:
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.B
+    context: Store session state in an external data store
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Archive application configuration and installation information
+    url: /azure/architecture/patterns/external-configuration-store#custom-backing-store-example
+    condition:
+      noneOf:
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.C
+    context: Archive application configuration and installation information
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Use high availability offerings for platform services
+    url: /azure/architecture/high-availability/building-solutions-for-high-availability
+    condition:
+      noneOf:
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.E
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.F
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.G
+    context: Use high availability offerings for platform services
+    priority: 77
+    reportingCategory: Application Platform Availability
+    reportingSubCategory: Service SKU
+  - title: Implement load balancing
+    url: /azure/architecture/guide/technology-choices/load-balancing-overview
+    condition:
+      noneOf:
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.H
+    context: Implement load balancing
+    priority: 54
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Connectivity
+  - title: Create application specific health probes
+    url: /azure/architecture/framework/Resiliency/app-design-error-handling#application-health-probes
+    condition:
+      noneOf:
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.I
+        - Reliability.31530a4b-0653-4ce1-8026-560a5383e33d.B
+    context: Create application specific health probes
+    priority: 54
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Zone-Aware Services
+  - title: Implement resiliency strategies in your workload
+    url: /azure/architecture/framework/resiliency/design-resiliency#build-resiliency-with-failure-mode-analysis
+    condition:
+      noneOf:
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.J
+    context: Implement resiliency strategies in your workload
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Develop a plan for region/zone/network outages
+    url: /azure/architecture/framework/Resiliency/backup-and-recovery#network-outage
+    condition:
+      noneOf:
+        - Reliability.303a65f3-81fa-4afc-a83d-7bef964fc9d2.K
+    context: Develop a plan for region/zone/network outages
+    priority: 79
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Architect storage for resiliency
+    url: /azure/architecture/framework/Resiliency/data-management#storage-resiliency
+    condition:
+      noneOf:
+        - Reliability.2c1206aa-ec65-4691-90a5-da54159e2b1b.C
+        - Reliability.2c1206aa-ec65-4691-90a5-da54159e2b1b.D
+    context: Architect storage for resiliency
+    priority: 50
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Service SKU
+  - title: Distribute data geographically
+    url: /azure/architecture/framework/Resiliency/data-management#distribute-data-geographically
+    condition:
+      noneOf:
+        - Reliability.2c1206aa-ec65-4691-90a5-da54159e2b1b.E
+    context: Distribute data geographically
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Segregate read operations from update operations
+    url: /azure/architecture/patterns/cqrs
+    condition:
+      noneOf:
+        - Reliability.2c1206aa-ec65-4691-90a5-da54159e2b1b.H
+    context: Segregate read operations from update operations
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Create health probes that validate data consistency
+    url: /azure/architecture/framework/resiliency/monitor-model#create-good-health-probes
+    condition:
+      noneOf:
+        - Reliability.2c1206aa-ec65-4691-90a5-da54159e2b1b.I
+    context: Create health probes that validate data consistency
+    priority: 50
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Connectivity
+  - title: Create a data restoration plan
+    url: /azure/architecture/reliability/architect#manage-your-data
+    condition:
+      noneOf:
+        - Reliability.2c1206aa-ec65-4691-90a5-da54159e2b1b.J
+        - Reliability.2c1206aa-ec65-4691-90a5-da54159e2b1b.K
+    context: Create a data restoration plan
+    priority: 79
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Replication and Redundancy
+  - title: Implement request timeouts
+    url: /azure/architecture/framework/Resiliency/app-design-error-handling#request-timeouts
+    condition:
+      noneOf:
+        - Reliability.53894b58-6c46-4219-bdad-c121e6518e6f.B
+    context: Implement request timeouts
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Implement retry logic to handle transient failures
+    url: /azure/architecture/framework/Resiliency/app-design-error-handling#handling-transient-failures
+    condition:
+      noneOf:
+        - Reliability.53894b58-6c46-4219-bdad-c121e6518e6f.C
+    context: Implement retry logic to handle transient failures
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Use semantic logs and metrics
+    url: /azure/azure-monitor/app/app-insights-overview
+    condition:
+      noneOf:
+        - Reliability.53894b58-6c46-4219-bdad-c121e6518e6f.D
+        - Reliability.c8f2624d-8f9b-470e-808b-576839620529.A
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.F
+    context: Use semantic logs and metrics
+    priority: 84
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring and Measurement
+  - title: Load balance traffic across availability zones
+    url: /azure/load-balancer/load-balancer-standard-availability-zones
+    condition:
+      noneOf:
+        - Reliability.31530a4b-0653-4ce1-8026-560a5383e33d.C
+    context: Load balance traffic across availability zones
+    priority: 54
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Connectivity
+  - title: Simulate a failure path for cross premise connectivity
+    url: /azure/expressroute/use-s2s-vpn-as-backup-for-expressroute-privatepeering
+    condition:
+      noneOf:
+        - Reliability.31530a4b-0653-4ce1-8026-560a5383e33d.E
+    context: Simulate a failure path for cross premise connectivity
+    priority: 55
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Connectivity
+  - title: Put operational procedures into place for if data size exceeds limits
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits#managing-limits
+    condition:
+      noneOf:
+        - Reliability.b0e34b3e-d032-4022-b588-d63c824d49c3.I
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.I
+    context: Put operational procedures into place for if data size exceeds limits
+    priority: 52
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Data Size/Growth
+  - title: Manage load balancer connections to avoid port exhaustion
+    url: /azure/load-balancer/load-balancer-outbound-connections#scenarios
+    condition:
+      noneOf:
+        - Reliability.b0e34b3e-d032-4022-b588-d63c824d49c3.J
+    context: Manage load balancer connections to avoid port exhaustion
+    priority: 54
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Network Throughput and Latency
+  - title: Implement application throttling
+    url: /azure/architecture/patterns/throttling
+    condition:
+      noneOf:
+        - Reliability.b0e34b3e-d032-4022-b588-d63c824d49c3.K
+    context: Implement application throttling
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Backup keys and secrets in a geo-redudant way
+    url: /azure/key-vault/general/disaster-recovery-guidance
+    condition:
+      noneOf:
+        - Reliability.73288ba1-7338-4ffe-b33c-bbde9367edea.D
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.M
+    context: Backup keys and secrets in a geo-redudant way
+    priority: 53
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Automate key rotation
+    url: /azure/key-vault/secrets/key-rotation-log-monitoring
+    condition:
+      noneOf:
+        - Reliability.73288ba1-7338-4ffe-b33c-bbde9367edea.E
+    context: Automate key rotation
+    priority: 53
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Decouple the lifecycle of the application from its dependencies
+    url: /azure/architecture/framework/resiliency/design-resiliency#understand-the-impact-of-dependencies
+    condition:
+      noneOf:
+        - Reliability.8f4e7227-fe6b-4aff-8abf-807a64b84aed.C
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.D
+    context: Decouple the lifecycle of the application from its dependencies
+    priority: 85
+    reportingCategory: Application Design
+    reportingSubCategory: Dependencies
+  - title: Test under expected peak load
+    url: /azure/architecture/framework/Resiliency/testing#test-under-peak-loads
+    condition:
+      noneOf:
+        - Reliability.5b9e399b-f09a-4a4c-8c01-c531cc48f4fd.B
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.A
+    context: Test under expected peak load
+    priority: 57
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Perform chaos testing by injecting faults
+    url: /azure/architecture/framework/Resiliency/testing#fault-injection-testing
+    condition:
+      noneOf:
+        - Reliability.5b9e399b-f09a-4a4c-8c01-c531cc48f4fd.C
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.D
+    context: Perform chaos testing by injecting faults
+    priority: 57
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Automate your tests
+    url: /azure/architecture/framework/devops/testing#automated-testing
+    condition:
+      noneOf:
+        - Reliability.5b9e399b-f09a-4a4c-8c01-c531cc48f4fd.D
+    context: Automate your tests
+    priority: 51
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Collect and store logs and key metrics of critical components
+    url: /azure/architecture/framework/Resiliency/monitoring#instrumentation
+    condition:
+      noneOf:
+        - Reliability.c8f2624d-8f9b-470e-808b-576839620529.D
+    context: Collect and store logs and key metrics of critical components
+    priority: 80
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Resource and Infrastructure Level Monitoring
+  - title: Correlate logs across workload tiers
+    url: /azure/architecture/best-practices/monitoring#analyzing-data-and-diagnosing-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Reliability.c8f2624d-8f9b-470e-808b-576839620529.C
+      scoreOf: []
+    context: Correlate logs across workload tiers
+    priority: 80
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Monitor long-running workflows for failures
+    url: /azure/architecture/framework/Resiliency/monitoring#long-running-workflow-failures
+    condition:
+      noneOf:
+        - Reliability.c8f2624d-8f9b-470e-808b-576839620529.H
+    context: Monitor long-running workflows for failures
+    priority: 80
+    reportingCategory: Application Design
+    reportingSubCategory: Transactional
+uid: 379cc86f-7fad-47a4-a644-541541b78a0e
+name: ''

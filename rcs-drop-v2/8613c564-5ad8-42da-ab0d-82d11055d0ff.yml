@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Enforce, manage, and audit security policies using native tools such as SQL Vulnerability Assessment (part of Azure Defender), SQL Server Policy-Based Management, Azure Policy, Azure Security Center, and Azure Monitor.'
+    description: Organizations of all sizes will have security compliance requirements which need to be audited and enforced.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Identify compliance requirements and review Azure Blueprint samples to assist you in meeting your compliance needs.
+    description: Evaluate your security posture using standard benchmarks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: Create approved application lists for your SQL Server virtual machines to prevent specific software from running on your VM.
+    description: 'Adaptive application control in Azure Security Center is an intelligent, automated end-to-end application filtering solution.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: Ensure security updates are applied regularly.
+    description: Consider installing the SQL Server IaaS Agent extension to configure automatic patching. Have a policy in place to apply security updates to SQL Server VMs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: 'Understand common risks such as SQL injection attacks, privilege abuse, data exfiltration, unclassified PII data, public endpoints, and unencrypted sensitive data.'
+    description: Identifying and remediating common security hygiene risks significantly reduces overall risk to your organization by increasing cost to attackers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: Centrally categorize and label deployed assets by criticality and data classification using tools such as SQL Data Discovery and Classification or Azure Purview.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: Audit your compliance baseline and perform penetration testing (pentest) to simulate real-world attacks.
+    description: 'Implement processes that proactively integrate realistic penetration testing, red team activities, learnings from real world attacks, and other sources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: All the keys must be rotated per the compliance requirement of your organization.
+    description: Make sure you implement a keys rotation policy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: Understand anti-malware deployment options on Azure VMs.
+    description: 'If an anti-malware solution is deployed, ensure proper exclusions are in place.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 8613c564-5ad8-42da-ab0d-82d11055d0ff
+name: What considerations for compliance and governance do you need to take?

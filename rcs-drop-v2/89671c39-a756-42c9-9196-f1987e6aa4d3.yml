@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 5dc3daca-cb5a-421f-98a9-ec88afe2feef
+recommendations:
+  - 927a450c-9635-4ca6-9f9b-a1cbdb679ffb
+assignedGroupIds: []
+uid: 89671c39-a756-42c9-9196-f1987e6aa4d3
+name: 'Go-Live - PostgreSQL: Reliability'

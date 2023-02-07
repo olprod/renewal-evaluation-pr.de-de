@@ -1,0 +1,36 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: Comprehensive knowledge of the Azure platform is important both during and after migration.
+links:
+  - title: Explore free self-paced training at Microsoft Learn
+    url: 'https://docs.microsoft.com/learn/azure/'
+    condition:
+      anyOf:
+        - skills.34d0a28a-1178-48d9-82c0-2a01fbf3b4f7.A
+        - skills.34d0a28a-1178-48d9-82c0-2a01fbf3b4f7.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For people new to Azure, take the Azure Fundamentals course'
+    url: 'https://docs.microsoft.com/learn/paths/az-900-describe-cloud-concepts/'
+    condition:
+      anyOf:
+        - skills.34d0a28a-1178-48d9-82c0-2a01fbf3b4f7.A
+        - skills.34d0a28a-1178-48d9-82c0-2a01fbf3b4f7.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore Azure certifications
+    url: 'https://docs.microsoft.com/learn/certifications/'
+    condition:
+      anyOf:
+        - skills.34d0a28a-1178-48d9-82c0-2a01fbf3b4f7.A
+        - skills.34d0a28a-1178-48d9-82c0-2a01fbf3b4f7.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: ccf5bccf-7ee4-448e-9501-1a4045f935f7
+name: Technical skilling

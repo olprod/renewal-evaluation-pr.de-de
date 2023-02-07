@@ -1,0 +1,85 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We selected the optimal partition key based on the workload pattern.
+    description: The choice of partition key will determine how data and workload is distributed across partitions.  Ensuring even distribution of data and throughput is critical to ensure optimum utilization of provisioned resources.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '1'
+    text: We considered the applications data access patterns in choosing an appropriate data model based on the application experience.
+    description: |
+      When using the document model, understanding data modeling strategies and the appropriate use of embedding or referencing approaches in designing your data model.
+      It is important to understand the differences between NoSQL and relational data modeling when optimizing performance and scale.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '2'
+    text: We optimized our queries and read operations to ensure that only the data needed is returned.
+    description: 'Ensuring that you are using the most efficient method (point reads vs queries) for returning the required data and ensuring that queries are limited to single partition queries where possible, will ensure efficient use of provisioned resources. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '3'
+    text: We have assessed composite indexes when performing operations on multiple fields.
+    description: Choosing the correct index policy will ensure that queries perform efficiently.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '4'
+    text: We evaluated the properties which need to be indexed in our documents.
+    description: |
+      When using the SQL API, by default all properties will be indexed. Having unneeded indexes on all properties will unnecessarily increase the cost of write operations. You should understand the queries you are running to inform the choice of indexes included in your index policy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '5'
+    text: We reviewed options for managing the utilization of provisioned resources when migrating or bulk load data into our Cosmos DB container.
+    description: 'Azure Data Factory and the Cosmos DB Spark connector provides options to limit the consumption of provisioned resources when loading data into containers, using these options can avoid having these workloads overwhelm your operational workloads running in parallel.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '6'
+    text: 'We reference asynchronous SDK operations to efficiently utilize parallel operations. '
+    description: 'Because Azure Cosmos DB is accessed via network calls, you can make client-side optimizations to achieve peak performance, for example by using the .NET Task Parallel Library.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '7'
+    text: 'We chose the appropriate unique constraints to assist in the management of data consistency in our containers. '
+    description: 'Once you select a unique key, it can''t be altered on that container, so pay special attention to your selection, you can change your selection by migrating the data to a new container.  Unique key names are case sensitive. It is not recommended to have a lot of sparse values'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 7cbd8622-2018-4a2c-ae8a-10bf0bc692b2
+name: How are you managing your data to handle scale?

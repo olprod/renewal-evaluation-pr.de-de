@@ -1,0 +1,90 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Understand the serverless cold start
+    url: 'https://azure.microsoft.com/blog/understanding-serverless-cold-start/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a54b9609-f33a-468b-ae3d-bf617648cd2f.d242e3ba-a298-44a7-87d4-c9aaeaf5bd86.A
+      scoreOf: []
+    context: 'Cold start is a term used to describe the phenomenon that applications which have not been used take longer to start up. In the context of Azure Functions, latency is the total time a user must wait for their function. From when an event happens to start up a function until that function completes responding to the event. So more precisely, a cold start is an increase in latency for Functions which have not been called recently. When using Azure Functions in the dedicated plan, the Functions host is always running, which means that cold start isn''t really an issue. So, our scope is narrowed to Functions running the serverless consumption model.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Review the functions hosting plan options
+    url: /azure/azure-functions/functions-scale#hosting-plans-comparison
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a54b9609-f33a-468b-ae3d-bf617648cd2f.d242e3ba-a298-44a7-87d4-c9aaeaf5bd86.B
+      scoreOf: []
+    context: Functions can take a few minutes to spin up at large scale. Please review hosting plan options.
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Refactor large functions into smaller function sets that work together and return responses fast
+    url: /azure/azure-functions/functions-best-practices#avoid-long-running-functions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a54b9609-f33a-468b-ae3d-bf617648cd2f.d242e3ba-a298-44a7-87d4-c9aaeaf5bd86.C
+      scoreOf: []
+    context: 'Large, long-running functions can cause unexpected timeout issues. Whenever possible, refactor large functions into smaller function sets that work together and return responses fast. For example, a webhook or HTTP trigger function might require an acknowledgment response within a certain time limit; it''s common for webhooks to require an immediate response. You can pass the HTTP trigger payload into a queue to be processed by a queue trigger function. This approach lets you defer the actual work and return an immediate response.'
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Make your (non-durable) functions written to be stateless
+    url: /azure/azure-functions/functions-best-practices#write-functions-to-be-stateless
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a54b9609-f33a-468b-ae3d-bf617648cd2f.d242e3ba-a298-44a7-87d4-c9aaeaf5bd86.D
+      scoreOf: []
+    context: 'Functions should be stateless and idempotent if possible. Associate any required state information with your data. For example, an order being processed would likely have an associated state member. A function could process an order based on that state while the function itself remains stateless. Idempotent functions are especially recommended with timer triggers. For example, if you have something that absolutely must run once a day, write it so it can run anytime during the day with the same results. The function can exit when there''s no work for a particular day. Also if a previous run failed to complete, the next run should pick up where it left off. Durable Entities should be utilized if state is required within a durable function.'
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Design your functions to be idempotent
+    url: /azure/azure-functions/functions-idempotent
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a54b9609-f33a-468b-ae3d-bf617648cd2f.d242e3ba-a298-44a7-87d4-c9aaeaf5bd86.E
+      scoreOf: []
+    context: The reality of event-driven and message-based architecture dictates the need to accept identical requests while preserving data integrity and system stability. Ultimately idempotency is achieved by ensuring a given action is possible and is only executed once.
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Use the asynchronous paradigm in your functions
+    url: /azure/azure-functions/functions-best-practices#use-async-code-but-avoid-blocking-calls
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a54b9609-f33a-468b-ae3d-bf617648cd2f.d242e3ba-a298-44a7-87d4-c9aaeaf5bd86.F
+      scoreOf: []
+    context: 'Asynchronous programming is a recommended best practice, especially when blocking I/O operations are involved. In C#, always avoid referencing the Result property or calling Wait method on a Task instance. This approach can lead to thread exhaustion.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Re-use connections to external resources within your functions
+    url: /azure/azure-functions/manage-connections
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a54b9609-f33a-468b-ae3d-bf617648cd2f.d242e3ba-a298-44a7-87d4-c9aaeaf5bd86.G
+      scoreOf: []
+    context: 'Functions in a function app share resources. Among those shared resources are connections: HTTP connections, database connections, and connections to services such as Azure Storage. When many functions are running concurrently, it''s possible to run out of available connections. For example, in C# reuse the HttpClient object, by caching it in a static variable (do not dispose). In JavaScript, use the native http.agent class.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+uid: 3edc2447-b696-4411-9b09-7f2dc674b812
+name: ''

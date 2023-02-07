@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You engage IoT security consultants for a full audit.
+    description: Security consultants can help provide comprehensive review.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '1'
+    text: You use the Security Maturity Model from the Industrial IoT Consortium to understand maturity targets.
+    description: 'Use the Industrial IoT Consortium''s Security Maturity Model to understand maturity targets, measure your organization''s current maturity state, and determine the right solutions for addressing security gaps.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '2'
+    text: You use Zero Trust security principles in your design.
+    description: 'Zero Trust security principles include explicit verification, least-privileged access, and assumed breach.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: '3'
+    text: You use Azure Well-Architected Framework to address security pillars.
+    description: The Azure Well-Architected Framework has a set of guiding tenets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Users are responsible for assessing the security of their solution. By using this assessment, you agree to follow the License stated in https://github.com/MicrosoftDocs/azure-docs/blob/master/LICENSE.'
+isRequired: false
+uid: e346e6ab-f12c-4e05-8e5a-cd084eb63991
+name: 'Users are responsible for assessing the security of their solution. By using this assessment, you agree to follow the License stated in https://github.com/MicrosoftDocs/azure-docs/blob/master/LICENSE.'

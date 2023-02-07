@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Beginner '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Advanced '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: '[Or] i have completed "Introduction to Building apps for Microsoft Teams" module on Microsoft Learn | 39 min'
+    description: 'If this is your first time taking the learner self-assessment or have yet to complete this learning, please don''t choose this answer. This will allow the self-assessment results to provide you with the best learning recommendations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Assess your proficiency in deploying a Teams app which includes: the ability to describe the components of a Microsoft Teams app, list the options for distributing a Microsoft Teams app, list the extensibility points available in Microsoft Teams, and choose the correct extensibility point(s) based on your scenario.'
+isRequired: true
+uid: ad3d6166-eed1-44e5-bf32-5aeffe646cb9
+name: 'Assess your proficiency in deploying a Teams app which includes: the ability to describe the components of a Microsoft Teams app, list the options for distributing a Microsoft Teams app, list the extensibility points available in Microsoft Teams, and choose the correct extensibility point(s) based on your scenario.'

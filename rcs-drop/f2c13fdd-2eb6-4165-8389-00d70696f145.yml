@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are a Dynamics 365 Field Service consultant for a hospital. 
+
+  Your IT administrator asks you to automate the doctors’ scheduling board to handle emergency requests for in-house patients.
+
+  Which type of Resource Scheduling Optimization should be used?
+questionnaireUid: 0537f144-beb0-4bb3-b7c0-a6ccafc3d990
+questions:
+  - uid: f2c13fdd-2eb6-4165-8389-00d70696f145-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are a Dynamics 365 Field Service consultant for a hospital.
+        isCorrect: true
+      - id: 1
+        text: Your IT administrator asks you to automate the doctors’ scheduling board to handle emergency requests for in-house patients.
+        isCorrect: false
+      - id: 2
+        text: Which type of Resource Scheduling Optimization should be used?
+        isCorrect: false
+      - id: 3
+        text: Condition-based scheduling
+        isCorrect: false
+uid: f2c13fdd-2eb6-4165-8389-00d70696f145
+title: ''

@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Databricks scalability and performance reliability allowances.
+    description: Separate the production and dev/stage environments into separate subscriptions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Use Azure Databricks autoscaling best practices.
+    description: 'When you provide a range for the number of workers, Azure Databricks chooses the appropriate number of workers required to run your job.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: 'Use Azure Databricks optimization for latency over throughput, while providing a secure environment.'
+    description: Follow rules for shared High Concurrency clusters.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: D
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Resilient applications should be able to automatically scale in response to changing load to maintain application availability and meet performance requirements.
+isRequired: false
+legacyId: '8'
+uid: bf20d297-140d-49f9-b620-2d2b75ffd5a6
+name: Resilient applications should be able to automatically scale in response to changing load to maintain application availability and meet performance requirements.

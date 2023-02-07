@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 66a3abba-ddb1-4de7-a411-cf7303168f56
+recommendations:
+  - cb94c228-3a56-451a-8024-f7de60f967f3
+assignedGroupIds: []
+uid: 1b6e10cb-4acb-408c-82dd-b14dc617582c
+name: 'Go-Live - API Management: Security'

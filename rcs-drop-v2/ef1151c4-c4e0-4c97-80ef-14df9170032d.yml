@@ -1,0 +1,60 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has skepticism of data as reliable tool in decision making; no advanced analytics skills and no awareness of 'skills gaps'.
+    description: |
+      Skepticism of data as reliable tool in decision making; no advanced analytics skills and no awareness of 'skills gaps'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization has some appreciation of data for decision making theoretically, not practically with spotty analytics skills to support.'
+    description: |
+      Appreciation of data for decision making theoretically, not practically with spotty analytics skills to support.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has moderate support and alignment for data driven decisions with pockets of advanced technical skills.
+    description: |
+      Moderate support and alignment for data driven decisions with pockets of advanced technical skills.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization support strong data-driven decision making with clear executive support with build out of deep, varied analytical skills. '
+    description: |
+      Strong data-driven decision making with clear executive support with build out of deep, varied analytical skills. 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization nurtures culture of innovative data driven thinking with executive alignment and integrated analytics roles within functions.
+    description: |
+      Culture of innovative data driven thinking with executive alignment and integrated analytics roles within functions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Does your organization have a strong data-driven decision making function with clear executive support with build out of deep, varied analytical skills?'
+isRequired: true
+uid: ef1151c4-c4e0-4c97-80ef-14df9170032d
+name: 'Does your organization have a strong data-driven decision making function with clear executive support with build out of deep, varied analytical skills?'

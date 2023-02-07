@@ -1,0 +1,33 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: G
+    text: Azure Synapse Analytics
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: H
+    text: Azure Data Lake Storage Gen2
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.analytics
+stem: ''
+isRequired: false
+legacyId: waf-analytics
+uid: 6bbdac56-4b4f-4f16-acc1-4860894aff92
+name: Which analytics service are you using?

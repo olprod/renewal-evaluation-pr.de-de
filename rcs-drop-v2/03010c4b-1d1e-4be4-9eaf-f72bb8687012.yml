@@ -1,0 +1,39 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: '80% Legacy on-premises, 15% Modern technology, 5% Experimentation'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: B
+    text: '60% Legacy on-premises, 30% Modern technology, 10% Experimentation'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: C
+    text: '25% Legacy on-premises, 35% Modern technology, 40% Experimentation'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf:
+    - 6f2fdd21-8894-4ffc-80ab-2722c836833f.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed-q-0.A
+    - 6f2fdd21-8894-4ffc-80ab-2722c836833f.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed-q-0.B
+    - 6f2fdd21-8894-4ffc-80ab-2722c836833f.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed-q-0.C
+    - 6f2fdd21-8894-4ffc-80ab-2722c836833f.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed-q-0.D
+    - 6f2fdd21-8894-4ffc-80ab-2722c836833f.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed.7ef0089b-08cc-4dc8-9b7f-f2e53886c4ed-q-0.E
+  noneOf: []
+  scoreOf: []
+stem: 'Cost Management is the process to effectively plan and control costs involved in adopting cloud technologies. Tasks are normally performed by finance, management, and app development teams.'
+isRequired: true
+uid: 03010c4b-1d1e-4be4-9eaf-f72bb8687012
+name: Cost Management is the process to effectively plan and control costs involved in adopting cloud technologies.

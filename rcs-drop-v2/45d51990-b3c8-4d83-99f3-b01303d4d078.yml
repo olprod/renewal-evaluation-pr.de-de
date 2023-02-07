@@ -1,0 +1,96 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Azure Landing Zone Security Desing Area
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/security#security-operations-design-recommendations'
+    condition:
+      allOf: []
+      anyOf:
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.2123c958-7c3f-4c0e-ae96-987a5c17340d.0
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.2123c958-7c3f-4c0e-ae96-987a5c17340d.1
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.2123c958-7c3f-4c0e-ae96-987a5c17340d.2
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.2123c958-7c3f-4c0e-ae96-987a5c17340d.3
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.2123c958-7c3f-4c0e-ae96-987a5c17340d.4
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.2123c958-7c3f-4c0e-ae96-987a5c17340d.5
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.2123c958-7c3f-4c0e-ae96-987a5c17340d.6
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.2123c958-7c3f-4c0e-ae96-987a5c17340d.7
+      noneOf:
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.0178cd68-ca3a-4490-9a64-2efba639bad1.null
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Access control design recommendations
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/security#access-control-design-recommendations'
+    condition:
+      allOf: []
+      anyOf:
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f259ab56-5c40-47a7-bd45-80983a5b3f53.0
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f259ab56-5c40-47a7-bd45-80983a5b3f53.1
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f259ab56-5c40-47a7-bd45-80983a5b3f53.2
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f259ab56-5c40-47a7-bd45-80983a5b3f53.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Securing privileged access for hybrid and cloud deployments in Azure AD
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/roles/security-planning'
+    condition:
+      allOf: []
+      anyOf:
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f04d12e4-814a-4b29-a3dc-f9159aed61df.0
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f04d12e4-814a-4b29-a3dc-f9159aed61df.1
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f04d12e4-814a-4b29-a3dc-f9159aed61df.2
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f04d12e4-814a-4b29-a3dc-f9159aed61df.3
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f04d12e4-814a-4b29-a3dc-f9159aed61df.4
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f04d12e4-814a-4b29-a3dc-f9159aed61df.5
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Encryption and key management in Azure
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/encryption-and-keys'
+    condition:
+      allOf: []
+      anyOf:
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.0
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.1
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.2
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.3
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.4
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.5
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.6
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.7
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.8
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.9
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.0c43783b-4be0-4b1f-bb0c-43b46a5a6c04.10
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Service Enablement Framework
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/service-enablement-framework'
+    condition:
+      allOf: []
+      anyOf:
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f7693ecd-6a4d-4681-9048-ee3da8d292ad.0
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f7693ecd-6a4d-4681-9048-ee3da8d292ad.1
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f7693ecd-6a4d-4681-9048-ee3da8d292ad.2
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f7693ecd-6a4d-4681-9048-ee3da8d292ad.3
+        - 4f2010c1-66fa-4a75-97ca-065a9832f599.f7693ecd-6a4d-4681-9048-ee3da8d292ad.4
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 45d51990-b3c8-4d83-99f3-b01303d4d078
+name: Azure landing zone security operations

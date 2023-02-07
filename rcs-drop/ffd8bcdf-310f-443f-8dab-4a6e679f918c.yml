@@ -1,0 +1,34 @@
+### YamlMime:QuestionSet
+scenario: |+
+  You are documenting a test plan for an unattended Power Automate desktop flow. 
+
+  The flow must run on a virtual machine. The flow must open and enter data into a shared Excel workbook. 
+
+  Which two steps should you include in the test plan? Each correct answer presents part of the solution.  
+
+questionnaireUid: 0fdfd3f5-e44a-469a-a2e3-2336e172757f
+questions:
+  - uid: ffd8bcdf-310f-443f-8dab-4a6e679f918c-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are documenting a test plan for an unattended Power Automate desktop flow.
+        isCorrect: false
+      - id: 1
+        text: The flow must run on a virtual machine.
+        isCorrect: false
+      - id: 2
+        text: The flow must open and enter data into a shared Excel workbook.
+        isCorrect: true
+      - id: 3
+        text: Which two steps should you include in the test plan?
+        isCorrect: true
+      - id: 4
+        text: Each correct answer presents part of the solution.
+        isCorrect: false
+    manualId: 'Question 27-PL-500.6.3 '
+uid: ffd8bcdf-310f-443f-8dab-4a6e679f918c
+title: ''
+manualId: ''

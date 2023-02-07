@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Require HTTPS connections across Azure Functions
+    url: /azure/app-service/configure-ssl-bindings#enforce-https
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d7eb4dcb-94b1-4fa6-a766-45b45a88d159.42cff44d-01ed-4c70-8682-1d542514147f.A
+      scoreOf: []
+    context: 'By default, clients can connect to function endpoints by using both HTTP or HTTPS. You should redirect HTTP to HTTPs because HTTPS uses the SSL/TLS protocol to provide a secure connection, which is both encrypted and authenticated.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Understand Azure Function key authorization scopes
+    url: /azure/azure-functions/security-concepts?tabs=v4#authorization-scopes-function-level
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d7eb4dcb-94b1-4fa6-a766-45b45a88d159.42cff44d-01ed-4c70-8682-1d542514147f.B
+      scoreOf: []
+    context: 'Functions lets you use keys to make it harder to access your HTTP function endpoints during development. Unless the HTTP access level on an HTTP triggered function is set to anonymous, requests must include an API access key in the request.'
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+  - title: Secure your function endpoints in production according to the best practices
+    url: /azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=in-process%2Cfunctionsv2&pivots=programming-language-csharp#secure-an-http-endpoint-in-production
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d7eb4dcb-94b1-4fa6-a766-45b45a88d159.42cff44d-01ed-4c70-8682-1d542514147f.C
+      scoreOf: []
+    context: 'To fully secure your function endpoints in production, you should consider implementing one of the following function app-level security options. When using one of these function app-level security methods, you should set the HTTP-triggered function authorization level to anonymous.'
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Server Hardening and Surface Area Configuration
+uid: 3641bcf2-3d03-44df-990a-cffdf83aee86
+name: ''

@@ -1,0 +1,390 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Source Control Integration for dedicated SQL pool in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-source-control-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.31a2aad1-0e33-47e5-8db2-ca91dfd87b1d.A
+      scoreOf: []
+    context: Integrate your SQL Server Data Tools (SSDT) database project with source control. Source control integration is the first step in building your continuous integration and deployment pipeline with the dedicated SQL pool resource in Azure Synapse Analytics.
+    priority: 40
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Use Continuous integration and deployment for dedicated SQL pool in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-continuous-integration-and-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.31a2aad1-0e33-47e5-8db2-ca91dfd87b1d.B
+      scoreOf: []
+    context: Integrate your SQL Server Data tools (SSDT) database project with Azure DevOps and leverage Azure Pipelines to set up continuous integration and deployment.
+    priority: 40
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Use Continuous integration and delivery for Azure Synapse Analytics workspace
+    url: /azure/synapse-analytics/cicd/continuous-integration-delivery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.31a2aad1-0e33-47e5-8db2-ca91dfd87b1d.C
+      scoreOf: []
+    context: 'Continuous integration (CI) is the process of automating the build and testing of code every time a team member commits a change to version control. Continuous delivery (CD) is the process of building, testing, configuring, and deploying from multiple testing or staging environments to a production environment. In an Azure Synapse Analytics workspace, CI/CD moves all entities from one environment (development, test, production) to another environment.'
+    priority: 40
+    reportingCategory: Operations
+    reportingSubCategory: Development
+  - title: Use Source control in Azure Analytics Synapse Studio
+    url: /azure/synapse-analytics/cicd/source-control
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.31a2aad1-0e33-47e5-8db2-ca91dfd87b1d.D
+      scoreOf: []
+    context: 'By default, Synapse Studio authors directly against the Synapse service. If you have a need for collaboration using Git for source control, Synapse Studio allows you to associate your workspace with a Git repository, Azure DevOps, or GitHub.'
+    priority: 40
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Automate creation of Azure Synapse Analytics Workspace with Azure CLI
+    url: /azure/synapse-analytics/quickstart-create-workspace-cli
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.36bb2d06-cd83-4071-a396-1f0e389c5de9.A
+      scoreOf: []
+    context: 'The Azure CLI is Azure''s command-line experience for managing Azure resources. You can use it in your browser with Azure Cloud Shell. You can also install it on macOS, Linux, or Windows and run it from the command line to create a Synapse workspace by using the Azure CLI.'
+    priority: 30
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Automation
+  - title: Automate creation of Azure Synapse Analytics Workspace with Azure PowerShell
+    url: /azure/synapse-analytics/quickstart-create-workspace-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.36bb2d06-cd83-4071-a396-1f0e389c5de9.B
+      scoreOf: []
+    context: 'Azure PowerShell is a set of cmdlets for managing Azure resources directly from PowerShell. You can use it in your browser with Azure Cloud Shell. You can also install it on macOS, Linux, or Windows to create a Synapse workspace using Azure PowerShell.'
+    priority: 30
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Automation
+  - title: Automate creation of Azure Synapse Analytics Workspace with Azure ARM template
+    url: /azure/synapse-analytics/quickstart-deployment-template-workspaces
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.36bb2d06-cd83-4071-a396-1f0e389c5de9.C
+      scoreOf: []
+    context: "An\_ARM template\_is a JavaScript Object Notation (JSON) file that defines the infrastructure and configuration for your project. The template uses declarative syntax. In declarative syntax, you describe your intended deployment without writing the sequence of programming commands to create the deployment."
+    priority: 30
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Automation
+  - title: Use Azure Functions to automate compute resource management for your Azure Synapse Analytics dedicated SQL pool
+    url: /azure/synapse-analytics/sql-data-warehouse/manage-compute-with-azure-functions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.36bb2d06-cd83-4071-a396-1f0e389c5de9.D
+      scoreOf: []
+    context: Azure Functions can be used to manage compute resources for your dedicated SQL pool in Azure Synapse Analytics.
+    priority: 90
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Manage Python libraries for Apache Spark in Azure Synapse Analytics
+    url: /azure/synapse-analytics/spark/apache-spark-manage-python-packages
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.36bb2d06-cd83-4071-a396-1f0e389c5de9.E
+      scoreOf: []
+    context: 'Apache Spark in Azure Synapse Analytics has a full set of libraries for common data engineering, data preparation, machine learning, and data visualization tasks. When a Spark instance starts up, these libraries will automatically be included. Extra Python and custom-built packages can be added at the Spark pool and session level.'
+    priority: 30
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: Manage Scala and Java packages for Apache Spark in Azure Synapse Analytics
+    url: /azure/synapse-analytics/spark/apache-spark-manage-scala-packages
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.36bb2d06-cd83-4071-a396-1f0e389c5de9.F
+      scoreOf: []
+    context: 'Apache Spark in Azure Synapse Analytics has a full set of libraries for common data engineering, data preparation, machine learning, and data visualization tasks. When a Spark instance starts up, these libraries will automatically be included. Extra Scala/Java packages can be added at the Spark pool and session level.'
+    priority: 50
+    reportingCategory: Architecture
+    reportingSubCategory: Optimization
+  - title: Consider Azure Synapse Analytics resource limits
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.e4bf52fa-0ccc-4a8d-b035-5e81cfe9845b.A
+      scoreOf: []
+    context: 'The maximum service level is DW30000c, which has 60 Compute nodes and one distribution per Compute node. For example, a 600 TB data warehouse at DW30000c processes approximately 10 TB per Compute node.'
+    priority: 90
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Consider Azure Synapse Analytics capacity limits
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.e4bf52fa-0ccc-4a8d-b035-5e81cfe9845b.B
+      scoreOf: []
+    context: 'The maximum service level is DW30000c, which has 60 Compute nodes and one distribution per Compute node. For example, a 600 TB data warehouse at DW30000c processes approximately 10 TB per Compute node.'
+    priority: 90
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Use Stored Procedures for dedicated SQL pools in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-stored-procedures
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.9d679486-4f52-4eb7-a829-d786030db0ff.A
+      scoreOf: []
+    context: 'Stored procedures are a great way for encapsulating your SQL code, which is stored close to your dedicated SQL pool data. Stored procedures also help developers modularize their solutions by encapsulating the code into manageable units, thus facilitating greater code reusability. Each stored procedure can also accept parameters to make them even more flexible.'
+    priority: 40
+    reportingCategory: Architecture Design
+    reportingSubCategory: Development
+  - title: Use user-defined schemas for dedicated SQL pools in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-user-defined-schemas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.9d679486-4f52-4eb7-a829-d786030db0ff.B
+      scoreOf: []
+    context: 'User-defined schemas can be used for setting application boundaries. Traditional data warehouses often use separate databases to create application boundaries based on either workload, domain or security. As an example, a traditional SQL Server data warehouse might include a staging database, a data warehouse database, and some data mart databases. In this topology, each database operates as a workload and security boundary in the architecture. By contrast, a dedicated SQL pool runs the entire data warehouse workload within one database. Dedicated SQL pool expects all tables used by the warehouse to be stored within the one database and using user-defines schemad for isolation.'
+    priority: 80
+    reportingCategory: Architecture
+    reportingSubCategory: Database Design
+  - title: 'Create, develop, and maintain Synapse Studio notebooks in Azure Synapse Analytics'
+    url: /azure/synapse-analytics/spark/apache-spark-development-using-notebooks?tabs=classical#create-a-notebook
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.9d679486-4f52-4eb7-a829-d786030db0ff.C
+      scoreOf: []
+    context: 'A Synapse notebook is a web interface for you to create files that contain live code, visualizations, and narrative text. Notebooks are a good place to validate ideas and use quick experiments to get insights from your data. Notebooks are also widely used in data preparation, data visualization, machine learning, and other Big Data scenarios.'
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Development
+  - title: Create an Apache Spark application with VSCode using an Azure Synapse Analytics workspace
+    url: /azure/synapse-analytics/spark/vscode-tool-synapse
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.9d679486-4f52-4eb7-a829-d786030db0ff.D
+      scoreOf: []
+    context: 'The Apache Spark & Hive Tools for Visual Studio Code extension can be used to create and submit Apache Hive batch jobs, interactive Hive queries, and PySpark scripts for Apache Spark.'
+    priority: 40
+    reportingCategory: Architecture Design
+    reportingSubCategory: Development
+  - title: Create an Apache Spark application with IntelliJ using a Synapse workspace
+    url: /azure/synapse-analytics/spark/intellij-tool-synapse
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.9d679486-4f52-4eb7-a829-d786030db0ff.E
+      scoreOf: []
+    context: 'Using the Azure Toolkit for IntelliJ plug-in to develop Apache Spark applications, which are written in Scala, allow you to submit them to a serverless Apache Spark pool directly from the IntelliJ integrated development environment (IDE). You can use the plug-in in a few ways: Develop and submit a Scala Spark application on a Spark pool, access your Spark pools resources, and develop and run a Scala Spark application locally.'
+    priority: 20
+    reportingCategory: Architecture Design
+    reportingSubCategory: Development
+  - title: Use .NET for Apache Spark with Azure Synapse Analytics
+    url: /azure/synapse-analytics/spark/spark-dotnet
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.9d679486-4f52-4eb7-a829-d786030db0ff.F
+      scoreOf: []
+    context: 'The Spark pool comes with support for C# and F# which allows you to access Spark APIs. With .NET for Apache Spark, you can also write and execute user-defined functions for Spark written in .NET. The .NET APIs for Spark enable you to access all aspects of Spark DataFrames that help you analyze your data, including Spark SQL, Delta Lake, and Structured Streaming. You can analyze data with .NET for Apache Spark through Spark batch job definitions or with interactive Azure Synapse Analytics notebooks.'
+    priority: 20
+    reportingCategory: Architecture Design
+    reportingSubCategory: Development
+  - title: Use Azure Monitor with your Azure Synapse Analytics workspace
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-using-azure-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb5c3ce3-c83b-40bb-80d7-a3355587283e.A
+      scoreOf: []
+    context: 'Azure Monitor provides base-level infrastructure metrics, alerts, and logs for most Azure services. Azure diagnostic logs are emitted by a resource and provide rich, frequent data about the operation of that resource. Azure Synapse Analytics can write diagnostic logs in Azure Monitor.'
+    priority: 80
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Use Azure Synapse Studio to monitor your Apache Spark applications
+    url: /azure/synapse-analytics/monitoring/apache-spark-applications
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb5c3ce3-c83b-40bb-80d7-a3355587283e.B
+      scoreOf: []
+    context: 'With Azure Synapse Analytics, you can use Apache Spark to run notebooks, jobs, and other kinds of applications on your Apache Spark pools in your workspace. Monitor your Apache Spark applications, allowing you to keep an eye on environment and job status, issues, and progress.'
+    priority: 50
+    reportingCategory: Operations
+    reportingSubCategory: Monitoring
+  - title: Monitor transaction log size for Synapse Analytics dedicated SQL Pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-transaction-log-size
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb5c3ce3-c83b-40bb-80d7-a3355587283e.C
+      scoreOf: []
+    context: Tempdb is used to hold intermediate results during query execution. High utilization of the tempdb database can lead to slow query performance.
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Monitor Azure Synapse Analytics table statistics
+    url: /azure/synapse-analytics/sql/develop-tables-statistics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb5c3ce3-c83b-40bb-80d7-a3355587283e.D
+      scoreOf: []
+    context: 'The more dedicated SQL pool knows about your data, the faster it can execute queries. After loading data into a dedicated SQL pool, collecting statistics on your data is one of the most important things you can do for query optimization.'
+    priority: 100
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Monitor Azure Synapse Analytics table sizes and design
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-overview#table-size-queries
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb5c3ce3-c83b-40bb-80d7-a3355587283e.E
+      scoreOf: []
+    context: 'Determining the table category such as fact, dimension and integration tables are important to decide on the distribution type to use for these tables. Also consider applying best practices for temporary and external tables, data types, table partitions, columnstore indexes and statistics.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Maintain and rebuild indexes for Azure Synapse Analytics tables
+    url: /sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15#concepts-index-fragmentation-and-page-density
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb5c3ce3-c83b-40bb-80d7-a3355587283e.F
+      scoreOf: []
+    context: You can reduce index fragmentation and increase page density by reorganize an index or rebuild an index.
+    priority: 100
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Monitor tables in Synapse Analytics dedicated SQL pool with higher skew
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute#how-to-tell-if-your-distribution-column-is-a-good-choice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb5c3ce3-c83b-40bb-80d7-a3355587283e.G
+      scoreOf: []
+    context: 'The distribution type of Synapse tables defines the workload scalability.A distributed table appears as a single table, but the rows are actually stored across 60 distributions. Dedicated SQL pool supports three methods for distributing data: Round-robin, Hash, and Replicated. A hash distributed table distributes rows based on the value in the distribution column. A hash distributed table is designed to achieve high performance for queries on large tables. A replicated table has a full copy of the table available on every Compute node. Queries run fast on replicated tables because joins on replicated tables don''t require data movement. A round-robin table distributes table rows evenly across all distributions. The rows are distributed randomly. Loading data into a round-robin table is fast. But, queries can require more data movement than the other distribution methods.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Integrate pipelines and activities using Azure Synapse Studio
+    url: /azure/synapse-analytics/get-started-pipelines
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb2aa3ea-5890-4a12-915e-eb98150edee5.A
+      scoreOf: []
+    context: Use integration pipelines in Synapse similar to the pipelines used in Azure Data Factory.
+    priority: 80
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Visualize data with Power BI
+    url: /azure/synapse-analytics/get-started-visualize-power-bi
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb2aa3ea-5890-4a12-915e-eb98150edee5.B
+      scoreOf: []
+    context: You can link a Power BI workspace to your Azure Synapse workspace. This capability allows you to easily get data into your Power BI workspace. You can edit your Power BI reports directly in your Azure Synapse workspace.
+    priority: 60
+    reportingCategory: Architecture Design
+    reportingSubCategory: Reporting
+  - title: Connect to Azure Data Explorer using Apache Spark for Azure Synapse Analytics
+    url: /azure/synapse-analytics/quickstart-connect-azure-data-explorer
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb2aa3ea-5890-4a12-915e-eb98150edee5.C
+      scoreOf: []
+    context: 'With an Azure Data Explorer linked service, you can browse and explore data, read, and write from Apache Spark for Azure Synapse. You can also run integration jobs in a pipeline.'
+    priority: 40
+    reportingCategory: Architecture Design
+    reportingSubCategory: Development
+  - title: Use the Azure Synapse Analytics connector for Azure Databricks to directly upload a dataframe as a table in a Synapse Spark pool
+    url: /azure/databricks/scenarios/databricks-extract-load-sql-data-warehouse?bc=%2fazure%2fsynapse-analytics%2fbreadcrumb%2ftoc.json&toc=%2fazure%2fsynapse-analytics%2ftoc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb2aa3ea-5890-4a12-915e-eb98150edee5.D
+      scoreOf: []
+    context: 'The Azure Synapse connector for Azure Databricks allows you to extract data from Azure Data Lake Storage Gen2 into Azure Databricks, run transformations on the data in Azure Databricks, and load the transformed data into Azure Synapse Analytics. This connector, in turn, uses Azure Blob Storage as temporary storage for the data being transferred between an Azure Databricks cluster and Azure Synapse.'
+    priority: 30
+    reportingCategory: Architecture Design
+    reportingSubCategory: Development
+  - title: Use Azure Synapse Analytics Link for Azure Cosmos DB
+    url: /azure/cosmos-db/synapse-link?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb2aa3ea-5890-4a12-915e-eb98150edee5.E
+      scoreOf: []
+    context: "Using\_Azure Cosmos DB analytical store, a fully isolated column store, Azure Synapse Link enables no Extract-Transform-Load (ETL) analytics in\_Azure Synapse Analytics\_against your operational data at scale. Business analysts, data engineers, and data scientists can now use Synapse Spark or Synapse SQL interchangeably to run near real time business intelligence, analytics, and machine learning pipelines. You can achieve this without impacting the performance of your transactional workloads on Azure Cosmos DB."
+    priority: 30
+    reportingCategory: Architecture Design
+    reportingSubCategory: Development
+  - title: Link an Azure Synapse Analytics workspace to an Azure Machine Learning workspace
+    url: /azure/synapse-analytics/machine-learning/quickstart-integrate-azure-machine-learning
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb2aa3ea-5890-4a12-915e-eb98150edee5.F
+      scoreOf: []
+    context: 'Linking an Azure Synapse Analytics workspace to an Azure Machine Learning workspace allows you to leverage Azure Machine Learning from various experiences in Synapse. For example: Run your Azure Machine Learning pipelines as a step in your Synapse pipelines or enrich your data with predictions by bringing a machine learning model from the Azure Machine Learning model registry and score the model in Synapse SQL pools.'
+    priority: 30
+    reportingCategory: Architecture Design
+    reportingSubCategory: Development
+  - title: Connect an Azure Purview Account to an Azure Synapse Analytics workspace
+    url: /azure/synapse-analytics/catalog-and-governance/quickstart-connect-azure-purview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f5975b7c-34ec-4413-a64a-0cd826b66381.eb2aa3ea-5890-4a12-915e-eb98150edee5.G
+      scoreOf: []
+    context: 'Connecting a Microsoft Purview Account to a Synapse workspace allows you to discover Microsoft Purview assets, interact with them through Synapse capabilities, and push lineage information to Microsoft Purview.'
+    priority: 80
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Development
+uid: e2b33978-76d6-413c-99c3-a0c5440f271c
+name: ''

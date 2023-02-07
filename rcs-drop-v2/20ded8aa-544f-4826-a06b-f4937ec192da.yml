@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Load Testing is conducted with expected peak volumes to test scalability and performance under load.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Chaos Testing is performed by injecting faults to test failover (High Availability).
+    description: for example calling the API to restart Azure SQL DB.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Performance, chaos testing is automated and carried out periodically and after significant application changes.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: 'Critical test environments have 1:1 configuration and resource parity with the production environment.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Verified end-to-end system performance after failover occurs. '
+    description: 'End-to-end performance needs validation as it may differ due to changes in network latency. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: fault-tolerant-data-sqldb
+uid: 20ded8aa-544f-4826-a06b-f4937ec192da
+name: How do you test the application to ensure it is fault tolerant?

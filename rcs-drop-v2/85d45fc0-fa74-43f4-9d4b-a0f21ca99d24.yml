@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 7d1c32aa-1277-4838-8c98-9173cea4849b
+  - af5ba5ab-ce0b-4434-a913-2455b1dcd225
+  - 6b707700-01c3-48b9-9d9c-a2f26a096d6f
+  - bace41a0-a641-46fe-abac-1fa879041575
+recommendations:
+  - 58848a8c-fca6-4798-a096-097cad335279
+assignedGroupIds: []
+uid: 85d45fc0-fa74-43f4-9d4b-a0f21ca99d24
+name: DVA - Working Practices - Open Source and Inner Source

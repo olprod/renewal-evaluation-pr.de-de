@@ -1,0 +1,20 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Agile is a software development approach that emphasizes team collaboration, customer and user feedback, and high adaptability to change through short release cycles.'
+hideEmptyGuidance: false
+questions:
+  - e4a89e79-2ed4-4abd-a7ae-6532e14cf36f
+  - e45e3b92-b8f3-446e-9911-5a109c49dacf
+  - bc5e8c85-68ac-4769-a27f-3e2e654e8376
+  - efd6ad4b-72d7-47c1-83d6-53a5e5692ae5
+  - 2911d995-3a3f-4945-b753-2dca8485fd1c
+  - 14549bdc-4826-4659-8444-820d545070fc
+  - c540194e-30c0-435e-b26c-605913eb3f7d
+  - fb511188-487c-41d3-a6d1-b3b6b09b009e
+  - 87e821e7-d6a4-4468-a91f-9565c326b229
+  - c5d381d3-2522-4f0a-81ec-2bd6f361674a
+recommendations:
+  - eef4fb36-9521-4ebf-90e0-922482a52780
+assignedGroupIds: []
+uid: eeb18ef1-b3e6-49d7-9da5-d5ff90a000e8
+name: Agile Software Development

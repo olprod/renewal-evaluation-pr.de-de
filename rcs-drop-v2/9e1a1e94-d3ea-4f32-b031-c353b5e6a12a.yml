@@ -1,0 +1,79 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: I
+    text: There is a systematic approach to the development and release process.
+    description: 'The use of source code control systems, such as Azure Repos or GitHub, and build and release systems, such as Azure Pipelines or GitHub Actions, should be understood, including the corresponding processes to access, review and approve changes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: A
+    text: The application can be deployed automatically from scratch without any manual operations
+    description: Manual deployment steps introduce significant risks where human error is concerned and also increases overall deployment times.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: B
+    text: There is a documented process for any portions of the deployment that require manual intervention
+    description: 'Without detailed release process documentation, there is a much higher risk of an operator improperly configuring settings for the application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: C
+    text: N-1 or N+1 versions can be deployed via automated pipelines where N is current deployment version in production
+    description: N-1 and N+1 refer to roll-back and roll-forward. Automated deployment pipelines should allow for quick roll-forward and roll-back deployments to address critical bugs and code updates outside of the normal deployment lifecycle.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: D
+    text: There is a defined hotfix process which bypasses normal deployment procedures
+    description: 'In some scenarios there is an operational need to rapidly deploy changes, such as critical security updates. Having a defined process for how such changes can be safely and effectively performed helps greatly to prevent ''heat of the moment'' issues.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: E
+    text: The application deployment process leverages blue-green deployments and/or canary releases
+    description: Blue/green or canary deployments are a way to gradually release new feature or changes without impacting all users at once.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: F
+    text: Releases to production are gated by having it successfully deployed and tested in other environments
+    description: Deploying to other environments and verifying changes before going into production can prevent bugs getting in front of end users.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: G
+    text: Feature flags are used to test features before rolling them out to everyone
+    description: 'To test new features quickly and without bigger risk, Feature flags are a technique to help frequently integrate code into a shared repository, even if incomplete. It allows for deployment decisions to be separated from release decisions'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'The entire end-to-end CI/CD deployment process should be understood, and ideally as much of the deployment process as possible is automated.'
+isRequired: false
+legacyId: deployment
+uid: 9e1a1e94-d3ea-4f32-b031-c353b5e6a12a
+name: 'The entire end-to-end CI/CD deployment process should be understood, and ideally as much of the deployment process as possible is automated.'

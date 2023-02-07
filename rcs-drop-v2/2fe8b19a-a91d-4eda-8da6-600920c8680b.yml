@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Privileged Identity Management (PIM) is used for Just-In-Time for all privileged roles
+    description: 'The roles considered the most privileged are: Global Administrator Privileged Role Administrator Exchange Administrator SharePoint Administrator Note: There are other roles that may also be considered privileged depending on your business.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: An approval flow is required for Global Administrator / Privileged Role Administration roles eligible users to activate the role
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: Access reviews module inside PIM are used to regularly verify the active/eligible identities
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.1
+  anyOf:
+    - 0349efd9-0388-476c-94ab-d34065dd8c04.bfcce584-8f4a-43dc-a5e7-01fc9e0c777d.2
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 2fe8b19a-a91d-4eda-8da6-600920c8680b
+name: How your organization implements Privileged Identity Manager (AADPIM)?

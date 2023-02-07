@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'To monitor data plane insights and query statistics, we have enabled diagnostic settings.'
+    description: 'To analyze any problems related to your workload, this is one of the steps to find problems around your workload.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: B
+    text: We evaluate enabling full-text query when we need to get insights about workload issues and problems.
+    description: This allows for more detailed information around your workload query patterns.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: We monitor the throughput distribution of our partitioned containers to identify any hot partitions.
+    description: 'It''s a good practice to follow your partition load to make sure you don''t have any hot partitions. If you have hot partitions, it might be time to review the data model and partitioning strategy.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: We monitor the tracked metrics and configured alerts for logical partition usage.
+    description: You can define alerts based on metrics for better insights around your logical partition usage and when we are reaching the limit of a logical partition. Set an alert to be notified ahead of time before the logical partition reaches it limit.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: We evaluate our current Azure Cosmos DB resources (databases or containers) with auto-scale throughput provisioned to determine the optimal maximum auto-scale throughput required for the applicable workload.
+    description: Analyze which kind of workload you have and optimize your throughput for better performance and cost.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: We evaluate our Azure Cosmos DB resources (databases or containers) with manual throughput provisioned to determine if the optimal throughput has been provisioned for the applicable workload.
+    description: Analyze which kind of workload you have and optimize your throughput for better performance and cost.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: We have configured alerts for our workload.
+    description: It is a good practice to have alerts in place for your workload to stay proactive in any unforeseen issue.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: 'We monitor the change feed progress using the change feed estimator, and we leverage the output to scale out our feed processor layer.'
+    description: 'Monitor your change feed to make sure you are not lagging, and if so make changes to adjust the behavior.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: J
+    text: We leverage monitoring insights in our daily operations.
+    description: A good practice for initial insights on your Azure Cosmos DB accounts. This also allows for drilling down in the metrices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: ca15b6ab-1501-49df-af0d-bbb1dc4f603c
+name: How do you monitor the performance of your workload (server side)?

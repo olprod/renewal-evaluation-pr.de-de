@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Dynamics 365 Customer Service Insights. 
+
+  You create a workspace. 
+
+  You need to allow an unlicensed user read-only access to the workspace.
+
+  Which three actions should you perform?
+questionnaireUid: e0e79a61-910c-4087-a757-b8523d83e2b1
+questions:
+  - uid: f5e4b525-485b-455f-9893-15e14903de3b-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: A company uses Dynamics 365 Customer Service Insights.
+        isCorrect: true
+      - id: 1
+        text: You create a workspace.
+        isCorrect: false
+      - id: 2
+        text: You need to allow an unlicensed user read-only access to the workspace.
+        isCorrect: true
+      - id: 3
+        text: Which three actions should you perform?
+        isCorrect: false
+      - id: 4
+        text: Assign a Customer Service Insights license.
+        isCorrect: true
+uid: f5e4b525-485b-455f-9893-15e14903de3b
+title: ''

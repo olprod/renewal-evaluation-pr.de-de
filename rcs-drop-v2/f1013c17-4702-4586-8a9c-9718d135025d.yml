@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 083175d7-1dca-490a-9101-e041996f8286
+recommendations:
+  - b977ac16-c592-4f88-a694-351bca1149d7
+assignedGroupIds: []
+uid: f1013c17-4702-4586-8a9c-9718d135025d
+name: 'Go-Live - Cosmos DB: Operational Excellence'

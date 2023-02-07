@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing a Microsoft Teams App that displays user’s inbox in a personal tab using Microsoft Graph. The app will be configured for SSO.
+
+  SSO tokens will expire.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 19f3abd1-79e9-4b47-89b7-5b18f23554f5
+questions:
+  - uid: f81c3c2f-2d82-4f69-bad1-f986b4f805bf-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a Microsoft Teams App that displays user’s inbox in a personal tab using Microsoft Graph.
+        isCorrect: true
+      - id: 1
+        text: The app will be configured for SSO.
+        isCorrect: false
+uid: f81c3c2f-2d82-4f69-bad1-f986b4f805bf
+title: SSO tokens will expire.

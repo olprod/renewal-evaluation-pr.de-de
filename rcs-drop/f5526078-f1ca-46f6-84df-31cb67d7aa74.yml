@@ -1,0 +1,34 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company uses Azure Virtual Desktop (AVD) and has a host pool named HostPool1. HostPool1 has an application group with the following settings:
+
+  - Name: AppGroup1
+
+  - Application group type: Desktop
+
+  To enhance security, you have been asked to deploy an app named App1 by using remote app streaming.
+
+  You need to deploy App1 as a RemoteApp.
+
+  What do you do first?
+questionnaireUid: 2154796c-a099-4923-9239-1527ef993238
+questions:
+  - uid: f5526078-f1ca-46f6-84df-31cb67d7aa74-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company uses Azure Virtual Desktop (AVD) and has a host pool named HostPool1.
+        isCorrect: false
+      - id: 1
+        text: 'HostPool1 has an application group with the following settings:'
+        isCorrect: true
+      - id: 2
+        text: 'Name: AppGroup1'
+        isCorrect: false
+      - id: 3
+        text: 'Application group type: Desktop'
+        isCorrect: false
+uid: f5526078-f1ca-46f6-84df-31cb67d7aa74
+title: ''

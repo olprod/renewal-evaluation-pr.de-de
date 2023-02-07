@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We deploy over 100 container groups in a single subscription.
+    description: Each subscription has a limit of 100 Container Groups deployed at any given time. This limit can be increased by contacting support.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: We consider opportunities to reduce the number of containers per group or evaluate Azure Kubernetes Service.
+    description: 'Multi-container groups are useful in cases where you want to divide a single functional task into a small number of container images. However, they all share the same resources and have the same lifecycle. The maximum number of containers per container group permitted is 60; However, if any container group is using more than 2 or 3 containers, consider whether there is a good use case for these containers to share resources and lifecycle. Consider identifying opportunities to reduce the number of containers per group or evaluating Azure Kubernetes Service.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: We run web applications or web APIs using Azure Container Instances.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: D
+    text: We have a plan or configuration in place to insulate against regional outages affecting Azure Container Instances.
+    description: 'Azure Container Instances are deployed to a single Azure Region. If you require high-availability for applications running in ACI, consider employing a multi-region deployment using Azure Front Door or Azure Traffic Manager. This will enable high-availability across multiple regions in the event of a short term outage or longer term disaster. This can also be used to offload SSL.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: 'We store state within the container, either in-memory or on disk, such as session, configuration or logs.'
+    description: 'Containers are most resilient when there is no need to store state within the container, or any state is delegated to a separate service such as Azure PaaS services. Ideally, use a service which supports multi-region replication for increased resilience. For example, configuration can be stored in Azure App Configuration, in-memory state such as session can be delegated instead to a distributed cache such as Azure Cache for Redis, and disk-based state can make use of Azure Blob or File Storage.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for Azure Container Instances. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Azure Container Instances
+uid: 0a896ee0-3626-4cbf-9a74-28e0927ae687
+name: Please choose the applicable Well-Architected reliability considerations for Azure Container Instances.

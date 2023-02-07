@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - a702299a-c6c2-4b0b-be80-d0903bd27733
+recommendations:
+  - 0e8b0db1-9726-47a0-b3f5-95c6f715454f
+assignedGroupIds: []
+uid: 129b00f7-f195-4c97-9482-fcf7cddc64a9
+name: 'Go-Live - API Management: Reliability'

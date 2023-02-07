@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization is not aware of how and why tokenization is used.
+    description: Your organization is not aware of how and why tokenization is used.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is has plans to implement data security and is familiar with how tokenization can be used to protect sensitive data.
+    description: Your organization is has plans to implement data security and is familiar with how tokenization can be used to protect sensitive data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has previously used an approach for data tokenization to support data security strategy to comply with data protection requlations.is an important consideration for organizations when complying with data protection regulations.
+    description: Your organization has previously used an approach for data tokenization to support data security strategy to comply with data protection requlations.is an important consideration for organizations when complying with data protection regulations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has data services strategy and used data tokenization for sensitive data assets, in a measured and repetitive way to protect privacy and meet compliance requirements. '
+    description: 'Your organization has data services strategy and used data tokenization for sensitive data assets, in a measured and repetitive way to protect privacy and meet compliance requirements. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization uses tokenization to remove secure information and replace with non-sensitive  data for analytics purpose and it works with structured data vs unstructured data to support data security and compliance strategy that is regularly measured and improved.
+    description: Your organization uses tokenization to remove secure information and replace with non-sensitive  data for analytics purpose and it works with structured data vs unstructured data to support data security and compliance strategy that is regularly measured and improved.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does you consider data security an important consideration for your organizations when complying with data protection regulations?
+isRequired: true
+uid: 872c6ac3-0180-45fe-8a54-397fc99da844
+name: Does you consider data security an important consideration for your organizations when complying with data protection regulations?

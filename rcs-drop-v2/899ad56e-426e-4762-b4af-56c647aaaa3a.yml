@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: A "traffic light" model is used to visually represent "healthy" and "unhealthy" states.
+    description: A "traffic light" visualization makes it easier to understand the current state and the impact of issues on the overall application health status.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: 'Dashboards are tailored to drive operational effectiveness, infusing learnings from failure scenarios to ensure DevOps teams have direct visibility into key metrics.'
+    description: 'Target audience groups for tailored dashboards can be ITOps, BusinessOps, Auditors, and others.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Visually representing the health model with critical operational data is essential to achieve effective operations and maximize reliability. Dashboards should be utilized to provide near-real time insights into application health for DevOps teams, facilitating the swift diagnosis of deviations from steady state.'
+isRequired: false
+uid: 899ad56e-426e-4762-b4af-56c647aaaa3a
+name: Visually representing the health model with critical operational data is essential to achieve effective operations and maximize reliability.

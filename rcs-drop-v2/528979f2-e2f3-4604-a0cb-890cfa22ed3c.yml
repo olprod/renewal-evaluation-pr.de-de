@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You have defined and implemented a testing process for failover and failback of both IoT resources and other backend services in your solution.
+    description: You can use a manual failover on a non-production Azure IoT Hub for testing and learning how the process works.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: You've tested and validated the failover and failback process at least once.
+    description: 'You can perform a planned failover to test your disaster recovery capabilities. Ideally, you should use a test IoT hub rather than one running in production.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: You use the health model to classify failover situations.
+    description: All application resources should be configured to route diagnostic logs and metrics to the chosen log aggregation technology. Application-level events should be automatically correlated with resource level metrics to quantify the current application state.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: The solution has appropriate retry policies in place for intra-region high availability.
+    description: The Azure IoT Hub service provides intra-region HA by implementing redundancies in almost all layers of the service. Build appropriate retry policies into the components interacting with a cloud application to deal with transient failures.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: You've documented the recovery steps to recover both from a Microsoft-initiated failover and from a manual failover.
+    description: 'Whether Microsoft initiated a failover or it was a manual failover, you should document the steps to bring the end-to-end solution back online.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The steps required to recover or failover the application to a secondary Azure region in failure situations should be codified, preferably in an automated manner, to ensure capabilities exist to effectively respond to an outage in a way that limits impact. Similar codified steps should also exist to capture the process required to failback the application to the primary region once a failover triggering issue has been addressed.'
+isRequired: false
+uid: 528979f2-e2f3-4604-a0cb-890cfa22ed3c
+name: 'The steps required to recover or failover the application to a secondary Azure region in failure situations should be codified, preferably in an automated manner, to ensure capabilities exist to effectively respond to an outage in a way that limits impact. Similar codified steps should also exist to capture the process required to failback the application to the primary region once a failover triggering issue has been addressed.'

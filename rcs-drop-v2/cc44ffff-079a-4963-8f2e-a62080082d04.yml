@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization performs basic data profiling.
+    description: Your organization performs basic data profiling.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization is establishing and following data profiling methodology with plans to perform data profiling activities. '
+    description: 'Your organization is establishing and following data profiling methodology with plans to perform data profiling activities. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has defined, and standardized data profiling processes and data sets are regularly profiled and monitored.'
+    description: 'Your organization has defined, and standardized data profiling processes and data sets are regularly profiled and monitored.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization is actively performing data profiling activities with results centrally stored, analyzed and insights are used to improve data quality.'
+    description: 'Your organization is actively performing data profiling activities with results centrally stored, analyzed and insights are used to improve data quality.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has automated profiling and uses the process and other activities to identify defects in the data sets to make improvements based on the quantified expected benefits.
+    description: Your organization has automated profiling and uses the process and other activities to identify defects in the data sets to make improvements based on the quantified expected benefits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Develops an understanding of the content, quality, and rules of a specified set of data under management. Do you currently examine data products that are registered, in the data catalog, and collects statistics and information about that data?'
+isRequired: true
+uid: cc44ffff-079a-4963-8f2e-a62080082d04
+name: 'Develops an understanding of the content, quality, and rules of a specified set of data under management.'

@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company has a Microsoft 365 infrastructure.
+
+  You need to turn on Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams.
+
+  Which type of Microsoft Defender for Office 365 policy should you configure?
+questionnaireUid: 72f10dc8-5bea-42d1-8d7b-7785515adc8f
+questions:
+  - uid: feb966ca-b5d0-4110-a7d0-04d988f25d41-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company has a Microsoft 365 infrastructure.
+        isCorrect: false
+      - id: 1
+        text: 'You need to turn on Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams.'
+        isCorrect: true
+      - id: 2
+        text: Which type of Microsoft Defender for Office 365 policy should you configure?
+        isCorrect: false
+      - id: 3
+        text: Anti-phishing
+        isCorrect: false
+      - id: 4
+        text: Safe attachments
+        isCorrect: false
+uid: feb966ca-b5d0-4110-a7d0-04d988f25d41
+title: ''

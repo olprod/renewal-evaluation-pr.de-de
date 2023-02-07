@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: The roles and responsibilities for the project have not been defined
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Roles and responsibilities have been defined for some of the anticipated project roles
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Roles and responsibilities have been clearly defined for all the key projects roles but some of the key roles do not have resources identified
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'Roles and responsibilities are clearly defined for all the key projects roles, across all participating organizations, and all key roles have suitably experienced and capable resources allocated'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How would you define the current assignment of roles and responsibilities between you and your partner?
+isRequired: true
+uid: c60edec9-e2e7-482e-a4dc-8e61e86cfccc
+name: How would you define the current assignment of roles and responsibilities between you and your partner?

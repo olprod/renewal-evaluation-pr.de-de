@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on this
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We are aware of it and its content and collateral is reviewed by our sales engagement team regularly
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Microsoft Customer Digital Experiences (CDX), is a portfolio of immersed digital experiences to demonstrate Microsoft technology and product with hands-on interaction, orchestrated by Microsoft sellers, partners or marketers. There are three major types of experiences: demos, interactive guide, and Customer Immersion Experience. '
+isRequired: true
+uid: a0f4b537-30f2-4c3b-87eb-399f2a1e2172
+name: 'Microsoft Customer Digital Experiences (CDX), is a portfolio of immersed digital experiences to demonstrate Microsoft technology and product with hands-on interaction, orchestrated by Microsoft sellers, partners or marketers.'

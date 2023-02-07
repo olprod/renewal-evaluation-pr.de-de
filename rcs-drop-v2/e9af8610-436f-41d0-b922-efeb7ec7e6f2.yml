@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Yes - code requiring refactoring has been identified
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Partially - documentation is understood but no formal discovery has been completed
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '2'
+    text: No - No assessment has been conducted
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: e9af8610-436f-41d0-b922-efeb7ec7e6f2
+name: Have you performed a discovery and assessment to estimate the effort and time for the migration activities?

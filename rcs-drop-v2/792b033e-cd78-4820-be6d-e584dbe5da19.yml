@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: C
+    text: Consider Azure Databricks VNet isolation.
+    description: 'Ensuring networking and connectivity meets keep the associated subnet pairs separate from other workspaces, we recommend that you should only deploy one workspace in any Vnet. Same can be achieved while keeping the workspaces separate by following the hub and spoke model and using Vnet Peering to extend the private IP space of the workspace Vnet.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Follow best practices around creatung an Azure Databricks workspace in your own Virtual Network.
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Identifying and mitigating potential network bottle-necks or points-of-failure supports a reliable and scalable foundation over which resilient application components can communicate.
+isRequired: false
+legacyId: '7'
+uid: 792b033e-cd78-4820-be6d-e584dbe5da19
+name: Identifying and mitigating potential network bottle-necks or points-of-failure supports a reliable and scalable foundation over which resilient application components can communicate.

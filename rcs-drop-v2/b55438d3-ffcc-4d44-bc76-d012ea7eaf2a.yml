@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Security for Infrastructure (SC-100 OD 3)
+hideEmptyGuidance: false
+questions:
+  - 02441542-0b23-4059-b93a-f26e8c60c4f7
+  - 420d44cd-5e8d-4b1c-8deb-2500b568c236
+recommendations:
+  - d7bbc8a1-d629-491b-b53d-450ac88fb7fc
+assignedGroupIds: []
+uid: b55438d3-ffcc-4d44-bc76-d012ea7eaf2a
+name: Security for Infrastructure (SC-100 OD 3)

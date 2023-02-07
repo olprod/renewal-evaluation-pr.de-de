@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We are not familiar with this feature and its use in operations
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We need more information how to enable this feature
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We have SOP and tooling in place for this, team is trained and using this in operations'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Thanks to One Version, new updates are now automatically broadcast, downtime is minimal, and customers enjoy the benefits of staying current with recent features and fixes without having to go through expensive upgrades.
+
+  Feature management lets customers control when new features are applied. Therefore, as an independent software vendor (ISV) partner, you can innovate together with Microsoft to take advantage of new features without having to handle the waiting times that come with long release cycles. When all your customers run on current versions, you have fewer versions to maintain. You can focus instead on building quality into the solutions that you provide for your customers.
+isRequired: true
+uid: 432014b8-0553-4ff2-abc6-d806208395a6
+name: 'Thanks to One Version, new updates are now automatically broadcast, downtime is minimal, and customers enjoy the benefits of staying current with recent features and fixes without having to go through expensive upgrades.'

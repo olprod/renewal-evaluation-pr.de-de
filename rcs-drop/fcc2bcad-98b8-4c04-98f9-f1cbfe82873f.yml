@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Deny by default is one of the protection principles at the network security layer.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 6161554a-fd80-4d7a-961f-3d5a3e7d00d4
+questions:
+  - uid: fcc2bcad-98b8-4c04-98f9-f1cbfe82873f-q-0
+    title: Deny by default is one of the protection principles at the network security layer.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Select Yes if the statement is true.
+        isCorrect: true
+      - id: 1
+        text: 'Otherwise, select No.'
+        isCorrect: false
+uid: fcc2bcad-98b8-4c04-98f9-f1cbfe82873f
+title: Deny by default is one of the protection principles at the network security layer.

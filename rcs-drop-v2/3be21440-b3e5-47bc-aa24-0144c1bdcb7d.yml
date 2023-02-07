@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 568727a1-887d-4b8f-af4f-f49c712031de
+recommendations:
+  - 2714cf47-1f8f-4724-b89d-cf0cf9c2b347
+assignedGroupIds: []
+uid: 3be21440-b3e5-47bc-aa24-0144c1bdcb7d
+name: 'Go-Live - Kubernetes Service: Reliability'

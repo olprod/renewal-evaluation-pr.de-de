@@ -1,0 +1,348 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Azure Synapse Analytics Apache Spark Pool Auto Scaling Feature.
+    url: /azure/synapse-analytics/spark/apache-spark-autoscale
+    condition:
+      noneOf:
+        - Performance-data.95ac25bc-9d62-4a8a-a0b3-5a55910bb568.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Serverless SQL Pool.
+    url: /azure/synapse-analytics/sql/on-demand-workspace-overview
+    condition:
+      noneOf:
+        - Performance-data.95ac25bc-9d62-4a8a-a0b3-5a55910bb568.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage compute for Azure Synapse Analytics Dedicated SQL Pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/quickstart-scale-compute-tsql#scale-compute
+    condition:
+      noneOf:
+        - Performance-data.95ac25bc-9d62-4a8a-a0b3-5a55910bb568.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Development best practices for Azure Synapse Analytics Dedicated SQL pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/cheat-sheet
+    condition:
+      noneOf:
+        - Performance-data.915f15f6-ff0a-4c4d-a8fc-2b36e2502042.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Materialized views.
+    url: /azure/synapse-analytics/sql-data-warehouse/performance-tuning-materialized-views
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Ordered Cluster ColumnStore Index.
+    url: /azure/synapse-analytics/sql-data-warehouse/performance-tuning-ordered-cci
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Result Set Caching.
+    url: /azure/synapse-analytics/sql-data-warehouse/performance-tuning-result-set-caching
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review Guidance for designing distributed tables using dedicated SQL pool in Azure Synapse Analytics.
+    url: ''
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Partition tables in Azure Synapse Analytic dedicated SQL pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-partition?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Bulk load data using the COPY statement in to your Azure Synapse Analytics dedicated SQL pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/quickstart-bulk-load-copy-tsql?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Minimize row length for Azure Synapse Analytics SQL tables.
+    url: /azure/synapse-analytics/sql/develop-tables-data-types#minimize-row-length
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Workload management concepts for Azure Synapse Analytics dedicated SQL pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-workload-management#workload-management-concepts
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Avoid data loading misconfiguration.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-recommendations#data-loading-misconfiguration
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize performance by upgrading dedicated SQL pool in Azure Synapse Analytics to the latest generation Gen2 of Azure hardware and storage architecture.
+    url: /azure/synapse-analytics/sql-data-warehouse/upgrade-to-latest-generation
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize performance by using Azure Synapse Analytics Apache Spark pool cache.
+    url: /azure/synapse-analytics/spark/apache-spark-performance#use-the-cache
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize execution of Azure Synapse Analytics Apache Spark pool jobs by managing the memory efficiently.
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#use-memory-efficiently
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.L
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize data serialization of Azure Synapse Analytics Apache Spark pool.
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#optimize-data-serialization
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.M
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize performance by using Azure Synapse Analytics Apache Spark pool Bucketed tables.
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#use-bucketing
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.N
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize Joins and Shuffles of Azure Synapse Analytics Apache Spark pool jobs.
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#optimize-joins-and-shuffles
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.O
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize performance by using Azure Synapse Analytics Apache Spark pool Hyperspace Indexes.
+    url: /azure/synapse-analytics/spark/apache-spark-performance-hyperspace?view=sql-server-ver15&pivots=programming-language-csharp
+    condition:
+      noneOf:
+        - Performance-data.4f42ce5e-77a6-437b-8986-3942fc43253c.P
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor tempdb usage for Synapse Analytics dedicated SQL Pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-tempdb
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor memory usage for Synapse Analytics dedicated SQL Pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-memory
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor transaction log size for Synapse Analytics dedicated SQL Pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-transaction-log-size
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor connections for Synapse Analytics dedicated SQL Pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-connections
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor Adaptive cache for Synapse Analytics dedicated SQL Pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-how-to-monitor-cache
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review Memory and concurrency limits for dedicated SQL pool in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/sql-data-warehouse/memory-concurrency-limits
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor Azure Synapse Analytics resource utilization and query activity.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-workload-management-portal-monitor
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor resource utilization and query activity in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity#resource-utilization
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor and investigate space utilization for dedicated SQL pool in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-overview#table-size-queries
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Select the correct executor size for Azure Synapse Analytics Apache Spark pool.
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#optimize-joins-and-shuffles
+    condition:
+      noneOf:
+        - Performance-data.63bfb319-757b-4edc-bbaa-f2a3bc98bcc3.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review key concepts for designing tables in Synapse Analytics dedicated SQL pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-overview
+    condition:
+      noneOf:
+        - Performance-data.d48020ac-4b10-4637-8730-0dea887c538e.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Identify tables in Synapse Analytics dedicated SQL pool with higher skew.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute#how-to-tell-if-your-distribution-column-is-a-good-choice
+    condition:
+      noneOf:
+        - Performance-data.d48020ac-4b10-4637-8730-0dea887c538e.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Choose the appropriate data abstraction for Azure Synapse Analytics Apache Spark pool.
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#choose-the-data-abstraction
+    condition:
+      noneOf:
+        - Performance-data.d48020ac-4b10-4637-8730-0dea887c538e.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use optimal data format for Azure Synapse Analytics Apache Spark pool.
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#use-optimal-data-format
+    condition:
+      noneOf:
+        - Performance-data.d48020ac-4b10-4637-8730-0dea887c538e.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy timer-based scaling for Synapse Analytics dedicated SQL pool with an Azure Resource Manager template.
+    url: /azure/synapse-analytics/sql-data-warehouse/manage-compute-with-azure-functions
+    condition:
+      noneOf:
+        - Performance-data.4e1cddcb-5c0e-4e06-9cfe-4f74b885da75.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor Azure Synapse Analytics resource utilization and query activity.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-workload-management-portal-monitor
+    condition:
+      noneOf:
+        - Performance-data.4e1cddcb-5c0e-4e06-9cfe-4f74b885da75.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor resource utilization and query activity in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity#resource-utilization
+    condition:
+      noneOf:
+        - Performance-data.4e1cddcb-5c0e-4e06-9cfe-4f74b885da75.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Studio to monitor your Apache Spark application.
+    url: /azure/synapse-analytics/monitoring/apache-spark-applications?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Performance-data.4e1cddcb-5c0e-4e06-9cfe-4f74b885da75.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 357e26a8-72cb-4cd5-a5b7-979697ba6a9f
+name: ''

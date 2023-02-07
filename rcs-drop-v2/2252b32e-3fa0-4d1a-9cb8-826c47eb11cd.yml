@@ -1,0 +1,714 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Define database RPO (Recovery Point Objective) & RTO (Recovery Time Objective) requirements
+    url: /azure/architecture/framework/resiliency/business-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.63cdd5c1-4134-4dfe-a47f-ff5afabe37a5.A
+      scoreOf: []
+    context: 'Define your own target SLAs for each workload in your solution, so you can determine whether the architecture meets the business requirements align with Azure SQL database - Refer to the below link respective to SLA for Azure SQL Database - https://azure.microsoft.com/en-us/support/legal/sla/azure-sql-database/v1_7/'
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Define database availability targets such as Service Level Agreements (SLAs) and Service Level Objectives (SLOs)
+    url: /azure/azure-sql/virtual-machines/windows/business-continuity-high-availability-disaster-recovery-hadr-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.63cdd5c1-4134-4dfe-a47f-ff5afabe37a5.B
+      scoreOf: []
+    context: 'Define your own target SLAs for each workload in your solution, so you can determine whether the architecture meets the business requirements align with Azure SQL database - Refer to  the below link respective to SLA for Azure SQL Database - https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_9/'
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Derive the composite SLA for the workload by combining the Azure SLAs for all relevant resources
+    url: /azure/architecture/framework/resiliency/business-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.63cdd5c1-4134-4dfe-a47f-ff5afabe37a5.C
+      scoreOf: []
+    context: 'Critical subsystems or paths through the application may have higher expectations around availability, recovery, and performance due to the criticality of associated business scenarios and functionality. This also helps in understanding if costs will be affected due to these higher needs.'
+    priority: 54
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: 'Identify specific business processes, data privacy, encryption or other mandates which could impact your reliability targets'
+    url: /compliance/assurance/assurance-developing-your-ebcm-plan
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.63cdd5c1-4134-4dfe-a47f-ff5afabe37a5.D
+      scoreOf: []
+    context: 'User need to look across business processes to see where any cascading dependency relationships exist. Based on the outcome, you prioritize and form resiliency strategies, and standard operating procedures supporting your strategies.'
+    priority: 50
+    reportingCategory: Business Continuity
+    reportingSubCategory: Design
+  - title: Consider availability targets while the system is running in disaster recovery mode
+    url: /azure/architecture/framework/resiliency/design-requirements
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.63cdd5c1-4134-4dfe-a47f-ff5afabe37a5.E
+      scoreOf: []
+    context: 'Availability targets might or might not be applied when running in disaster recovery mode. This depends from application to application. If targets must also apply in a failure state, then an N+1 model should be used to achieve greater availability and resiliency. In this scenario, N is the capacity needed to deliver required availability. There is also a cost implication, because more resilient infrastructure usually is more expensive. This has to be accepted by businesses.'
+    priority: 87
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Identify critical sub-system flows which may require additional resiliency
+    url: /azure/architecture/framework/resiliency/business-metrics#identify-critical-system-flows
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.63cdd5c1-4134-4dfe-a47f-ff5afabe37a5.F
+      scoreOf: []
+    context: 'Critical subsystems or paths through the application may have higher expectations around availability, recovery, and performance due to the criticality of associated business scenarios and functionality. This also helps in understanding if costs will be affected due to these higher needs.'
+    priority: 54
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: 'Identify Service Level Indicators (SLI) such as response rate, processing time, user requests, transaction rate, success rate, and error rate'
+    url: /azure/architecture/best-practices/monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.63cdd5c1-4134-4dfe-a47f-ff5afabe37a5.G
+      scoreOf: []
+    context: 'System performance depends on a number of factors. Each factor is typically measured through key performance indicators (KPIs) such as the number of database transactions per second or the volume of network requests that are successfully serviced in a specified time frame. Some of these KPIs might be available as specific performance measures, whereas others might be derived from a combination of metrics.'
+    priority: 77
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Determine if database must be resilient to geographical or data center outages in order to meet RPO/RTO requirements
+    url: /azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.e20429e1-e897-4444-bd5f-eb57e1c1a4be.A
+      scoreOf: []
+    context: 'Resiliency is a system’s ability to recover from failures and continue to function. It’s not only about avoiding failures but also involves responding to failures in a way that minimizes downtime or data loss. Availability requirements range from how much downtime is acceptable – and how much it costs your business – to the amount of money and time that you can realistically invest in making an application highly available. -https://docs.microsoft.com/en-us/azure/availability-zones/overview'
+    priority: 75
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Planned for SQL Server dependency failures to minimize service downtime
+    url: /sql/tools/configuration-manager/sql-server-services?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.e20429e1-e897-4444-bd5f-eb57e1c1a4be.B
+      scoreOf: []
+    context: Setting service startup dependencies is an essential step to take to help ensure a seamless startup experience and to reduce the chance for failure.
+    priority: 50
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Set up High Availability configuration for SQL Server either locally or geographically
+    url: /azure/azure-sql/virtual-machines/windows/hadr-cluster-best-practices?tabs=windows2012
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.e20429e1-e897-4444-bd5f-eb57e1c1a4be.C
+      scoreOf: []
+    context: 'Setup high availability – Allows customers to install and run passive SQL Server instances in a separate operating system environment (OSE) or server for high availability on-premises in anticipation of a failover event. - https://techcommunity.microsoft.com/t5/sql-server-blog/sql-server-licensing-high-availability-and-disaster-recovery/ba-p/1212931'
+    priority: 85
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Plan for expected usage patterns
+    url: /azure/azure-sql/virtual-machines/windows/application-patterns-development-strategies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.80e36894-c687-4e49-975f-5a62da59996e.A
+      scoreOf: []
+    context: 'Determining which application pattern or patterns to use for your SQL Server-based applications in an Azure environment is an important design decision, and it requires a solid understanding of how SQL Server and each infrastructure component of Azure work together. With SQL Server in Azure Infrastructure Services, you can easily migrate, maintain, and monitor your existing SQL Server applications built on Windows Server to virtual machines (VMs) in Azure.'
+    priority: 76
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Confirm Azure service availability in required regions
+    url: 'https://azure.microsoft.com/en-ca/global-infrastructure/geographies/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.80e36894-c687-4e49-975f-5a62da59996e.B
+      scoreOf: []
+    context: 'Each Azure region features datacenters deployed within a latency-defined perimeter. They are connected through a dedicated regional low-latency network. This design ensures that Azure services, within any region, offer the best possible performance and security. - https://docs.microsoft.com/en-us/azure/availability-zones/az-overview'
+    priority: 70
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Validate required capacity is within Azure service scale limits and quotas
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.80e36894-c687-4e49-975f-5a62da59996e.C
+      scoreOf: []
+    context: 'The terms soft limit and hard limit often are used, informally, to describe the current, adjustable limit (soft limit) and the maximum limit (hard limit). If a limit isn''t adjustable, there won''t be a soft limit, only a hard limit. If you want to raise the limit or quota above the default limit, open an online customer support request at no charge. - https://docs.microsoft.com/en-us/azure/azure-resource-manager/troubleshooting/error-resource-quota?tabs=azure-cli'
+    priority: 58
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Service SKU
+  - title: Align with Azure roadmaps for required preview services and capabilities
+    url: 'https://azure.microsoft.com/en-ca/updates/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.80e36894-c687-4e49-975f-5a62da59996e.D
+      scoreOf: []
+    context: 'New Azure Compute Gallery feature, ‘community gallery’, makes your private images public.'
+    priority: 40
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Ensure the Virtual Machine sizes and disk types are available in all primary and secondary regions
+    url: 'https://azure.microsoft.com/en-ca/global-infrastructure/services/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.80e36894-c687-4e49-975f-5a62da59996e.E
+      scoreOf: []
+    context: 'Azure operates in multiple datacenters around the world. These datacenters are grouped in to geographic regions, giving you flexibility in choosing where to build your applications. Each Azure region is paired with another region within the same geography (such as US, Europe, or Asia). This approach allows for the replication of resources, such as VM storage, across a geography that should reduce the likelihood of natural disasters, civil unrest, power outages, or physical network outages affecting both regions at once. Additional advantages of region pairs include. - https://docs.microsoft.com/en-us/azure/virtual-machines/regions'
+    priority: 79
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Perform dependency-mapping exercises to identify internal and external dependencies
+    url: azure/azure-monitor/vm/service-map
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.80e36894-c687-4e49-975f-5a62da59996e.F
+      scoreOf: []
+    context: "Internal and External Dependencies\_are two kinds of logical relationships between two or more tasks that belong to either the same project or several different projects. Internal dependency means that tasks are dependent on each other within one and the same project. External dependency assumes that tasks of different projects or sub-projects are dependent on each other."
+    priority: 35
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Data Classification
+  - title: Make sure to deploy to Azure paired regions so maintenance windows in the underlaying infrastructure will not overlap
+    url: /azure/availability-zones/cross-region-replication-azure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.80e36894-c687-4e49-975f-5a62da59996e.G
+      scoreOf: []
+    context: 'Azure regions are designed to offer protection against local disasters with availability zones. Additionally, they can also provide protection from regional or large geography disasters with disaster recovery by making use of another region that uses cross-region replication.'
+    priority: 78
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Ensure guaranteed capacity in the paired region by using Azure Site Recovery or by having warm VMs
+    url: /azure/site-recovery/azure-to-azure-common-questions#general
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.80e36894-c687-4e49-975f-5a62da59996e.H
+      scoreOf: []
+    context: 'Site Recovery helps ensure business continuity by keeping business apps and workloads running during outages. Site Recovery replicates workloads running on physical and virtual machines (VMs) from a primary site to a secondary location. When an outage occurs at your primary site, you fail over to a secondary location, and access apps from there. After the primary location is running again, you can fail back to it.'
+    priority: 96
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Define and implement a database backup strategy that meets the RPO requirements
+    url: /azure/azure-sql/virtual-machines/windows/backup-restore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0d54f367-b537-4e8a-87c1-1ec088664772.A
+      scoreOf: []
+    context: 'Azure Backup provides an Enterprise class backup capability for SQL Server on Azure VMs. All backups are stored and managed in a Recovery Services vault. Azure Storage maintains three copies of every Azure VM disk to guarantee protection against data loss or physical data corruption. However, you should still back up your SQL Server databases to protect against application or user errors, such as inadvertent data insertions or deletions. In this situation, it is important to be able to restore to a specific point in time.'
+    priority: 95
+    reportingCategory: Business Continuity
+    reportingSubCategory: 'Backup & Restore '
+  - title: Automate and regularly test database DR and failover capabilities
+    url: /azure/backup/backup-azure-sql-database
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0d54f367-b537-4e8a-87c1-1ec088664772.B
+      scoreOf: []
+    context: "Azure Backup\_offers a stream-based, specialized solution to back up SQL Server running in Azure VMs. This solution aligns with Azure Backup's benefits of zero-infrastructure backup, long-term retention, and central management."
+    priority: 89
+    reportingCategory: Business Continuity
+    reportingSubCategory: 'Backup & Restore '
+  - title: Consider database traffic rerouting in the event of a regional failover
+    url: /azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0d54f367-b537-4e8a-87c1-1ec088664772.C
+      scoreOf: []
+    context: "The replica in the remote data center is part of the availability group but it is in a different subnet. If this replica becomes the primary replica, application connection time-outs may occur. This behavior is the same as an on-premises availability group in a multi-subnet deployment. To allow connections from client applications, either update the client connection or configure name resolution caching on the cluster network name resource. Preferably, update the cluster configuration to et\_RegisterAllProvidersIP=1\_and the client connection strings to set\_MultiSubnetFailover=Yes. See\_Connecting With MultiSubnetFailover."
+    priority: 83
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Deploy the database across multiple regions in an active-passive topology to meet RTO targets
+    url: /azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0d54f367-b537-4e8a-87c1-1ec088664772.D
+      scoreOf: []
+    context: Microsoft SQL Server Always On offers a diverse combination of operating modes and feature configurations to match specific workload requirements. Feature enhancements of SQL Server Enterprise Edition leverage the cluster-management capabilities of Windows Server to deliver the complete solution.
+    priority: 81
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Automate processes to copy the backup to blob location in the same or different region to achieve the RPO
+    url: /azure/azure-sql/virtual-machines/windows/backup-restore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0d54f367-b537-4e8a-87c1-1ec088664772.E
+      scoreOf: []
+    context: "Automated Backup provides an automatic backup service for SQL Server Standard and Enterprise editions running on a Windows VM in Azure. This service is provided by the\_SQL Server IaaS Agent Extension, which is automatically installed on SQL Server Windows virtual machine images in the Azure portal."
+    priority: 81
+    reportingCategory: Business Continuity
+    reportingSubCategory: 'Backup & Restore '
+  - title: Deploy application platform components across Availability Zones or Availability Sets
+    url: /azure/architecture/reference-architectures/enterprise-integration/ase-high-availability-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.f7a892f9-a42a-411d-9577-20023fbb06f1.A
+      scoreOf: []
+    context: "Availability zones\_are physically separated collections of datacenters within a given region. Replicating your deployments across multiple zones, ensures that local outages limited to a zone do not negatively impact the availability of your application."
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Leveraged platform services are Availability Zone aware
+    url: /azure/availability-zones/az-overview#region-and-service-categories
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.f7a892f9-a42a-411d-9577-20023fbb06f1.B
+      scoreOf: []
+    context: 'With availability zones, you can design and operate applications and databases that automatically transition between zones without interruption. Azure availability zones are highly available, fault tolerant, and more scalable than traditional single or multiple datacenter infrastructures.'
+    priority: 92
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Deploy application platform components across multiple regions
+    url: /azure/architecture/reference-architectures/app-service-web-app/multi-region
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.f7a892f9-a42a-411d-9577-20023fbb06f1.C
+      scoreOf: []
+    context: 'Azure App Service application works in multiple regions to achieve high availability. There are several general approaches to achieve high availability across regions: 1) Active/Passive with hot standby: traffic goes to one region, while the other waits on hot standby. Hot standby means the VMs in the secondary region are allocated and running at all times. 2) Active/Passive with cold standby: traffic goes to one region, while the other waits on cold standby. Cold standby means the VMs in the secondary region are not allocated until needed for failover. This approach costs less to run, but will generally take longer to come online during a failure. 3) Active/Active: both regions are active, and requests are load balanced between them. If one region becomes unavailable, it is taken out of rotation.'
+    priority: 77
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Implement load balancing to distribute traffic across multiple nodes
+    url: /azure/architecture/example-scenario/infrastructure/multi-tier-app-disaster-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.f7a892f9-a42a-411d-9577-20023fbb06f1.D
+      scoreOf: []
+    context: 'To route traffic between regions, you need a global load balancer. There are two main Azure offerings: 1) Azure Front Door 2) Azure Traffic Manager . When choosing a load balancer, consider your requirements and the feature set of the two offerings.'
+    priority: 73
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Utilize SQL Insights to monitor SQL servers
+    url: /azure/azure-monitor/insights/sql-insights-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.fa49f0ba-5815-4887-b162-6f07c155ea99.A
+      scoreOf: []
+    context: "SQL Insights performs all monitoring remotely. Monitoring agents on dedicated virtual machines connect to your SQL resources and remotely gather data. The gathered data is stored in\_Azure Monitor Logs\_to enable easy aggregation, filtering, and trend analysis."
+    priority: 86
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Event log analysis
+  - title: Set up Azure Monitor Alerts or similar to notify DBAs of any failures
+    url: /azure/azure-monitor/alerts/alerts-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.fa49f0ba-5815-4887-b162-6f07c155ea99.B
+      scoreOf: []
+    context: Alert rules are separated from alerts and the actions taken when an alert fires. The alert rule captures the target and criteria for alerting. The alert rule can be in an enabled or a disabled state. Alerts only fire when enabled.
+    priority: 69
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Integrate alerts into service management solution to guarantee prompt handling
+    url: /azure/azure-monitor/alerts/itsmc-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.fa49f0ba-5815-4887-b162-6f07c155ea99.C
+      scoreOf: []
+    context: 'Azure services like Azure Log Analytics and Azure Monitor provide tools to detect, analyze, and troubleshoot problems with your Azure and non-Azure resources. However, the work items related to an issue typically reside in an ITSM product or service.'
+    priority: 87
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Ensure the disaster recovery SQL servers are accepting SQL connections whenever the failover happens
+    url: /sql/ssms/quickstarts/ssms-connect-query-sql-server-azure-vm?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.d176627b-33eb-48ad-8dd8-6c3e7f183783.A
+      scoreOf: []
+    context: 'There are some prerequisites to ensure your recovery plan is fully customized according to your need. Any SQL Server deployment typically needs an Active Directory deployment. It also needs connectivity for your application tier - https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sql'
+    priority: 74
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Configure Standard load balancer for the Availability Group listener to utilize Availability Zones
+    url: /azure/azure-sql/virtual-machines/windows/availability-group-listener-powershell-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.d176627b-33eb-48ad-8dd8-6c3e7f183783.B
+      scoreOf: []
+    context: 'An availability group listener is a virtual network name that clients connect to for database access. On Azure Virtual Machines in a single subnet, a load balancer holds the IP address for the listener. The load balancer routes traffic to the instance of SQL Server that is listening on the probe port. Usually, an availability group uses an internal load balancer. An Azure internal load balancer can host one or many IP addresses. Each IP address uses a specific probe port.'
+    priority: 83
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Avoid routing the traffic to on-prem network to reduce the dependency on the on-prem network
+    url: /azure/virtual-network/virtual-networks-udr-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.d176627b-33eb-48ad-8dd8-6c3e7f183783.C
+      scoreOf: []
+    context: "Azure automatically creates system routes and assigns the routes to each subnet in a virtual network. You can't create system routes, nor can you remove system routes, but you can override some system routes with\_custom routes."
+    priority: 75
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Choose the correct VM size for the maximum network bandwidth appropriate to the SQL VM
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-vm-size
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0479f969-6f85-41e2-8134-835d3205d002.A
+      scoreOf: []
+    context: "When you are creating a SQL Server on Azure VM, carefully consider the type of workload necessary. If you are migrating an existing environment,\_collect a performance baseline\_to determine your SQL Server on Azure VM requirements. If this is a new VM, then create your new SQL Server VM based on your vendor requirements."
+    priority: 82
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Choose the correct VM size for the max IOPS per machine in both primary and secondary servers
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0479f969-6f85-41e2-8134-835d3205d002.B
+      scoreOf: []
+    context: 'Use the SQL Server VM Azure Marketplace images with the storage configuration in the portal. This will make it easier to properly create the storage pools necessary to get the size, IOPS, and throughput required for your workloads. It is important to choose SQL Server VMs that support premium storage and premium storage caching.'
+    priority: 69
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Service SKU
+  - title: Choose the correct VM size for the maximum number of disks to satisfy the IOPS required using storage spaces configurations
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0479f969-6f85-41e2-8134-835d3205d002.C
+      scoreOf: []
+    context: 'Use the SQL Server VM Azure Marketplace images with the storage configuration in the portal. This will make it easier to properly create the storage pools necessary to get the size, IOPS, and throughput required for your workloads. It is important to choose SQL Server VMs that support premium storage and premium storage caching.'
+    priority: 78
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Service SKU
+  - title: Choose the correct disk tier and size to achieve the target IOPS requirements in both primary and secondary servers
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0479f969-6f85-41e2-8134-835d3205d002.D
+      scoreOf: []
+    context: 'To find the most effective configuration for SQL Server workloads on an Azure VM, start by measuring the storage performance of your business application. Once storage requirements are known, select a virtual machine that supports the necessary IOPS and throughput with the appropriate memory-to-vCore ratio. Choose a VM size with enough storage scalability for your workload and a mixture of disks (usually in a storage pool) that meet the capacity and performance requirements of your business.'
+    priority: 80
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Ensure you have enough IP addresses in the subnet that will host the SQL AG to make room to add more replicas
+    url: /azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0479f969-6f85-41e2-8134-835d3205d002.E
+      scoreOf: []
+    context: The success of TCP/IP as the network protocol of the Internet is largely because of its ability to connect together networks of different sizes and systems of different types.
+    priority: 7
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Pick the right VM series that will allow future scalability
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-vm-size
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.0479f969-6f85-41e2-8134-835d3205d002.F
+      scoreOf: []
+    context: Check VM size guidance for a series of best practices and guidelines to optimize performance for your SQL Server on Azure Virtual Machines (VMs). Carefully consider the type of workload necessary.
+    priority: 72
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Configure Key Vault per SQL Server(s) to store TDE certificates and make sure both primary and secondary servers have access to it
+    url: /sql/relational-databases/security/encryption/extensible-key-management-using-azure-key-vault-sql-server?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.164f7e37-a965-4f96-b938-b8e312bbbb8f.A
+      scoreOf: []
+    context: "Microsoft Azure Key Vault enables SQL Server encryption to use the Azure Key Vault service as an\_Extensible Key Management (EKM)\_provider to protect SQL Server encryption keys."
+    priority: 100
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: 'If using certificates for SSL encryption, make sure to use the same certificate on all servers to avoid any failures when failing over'
+    url: /sql/database-engine/availability-groups/windows/listeners-client-connectivity-application-failover?view=sql-server-ver15#SSLcertificates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.164f7e37-a965-4f96-b938-b8e312bbbb8f.B
+      scoreOf: []
+    context: 'When connecting to an availability group listener, if the participating instances of SQL Server use TLS/SSL certificates in conjunction with session encryption, the connecting client driver will need to support the Subject Alternate Name in the TLS/SSL certificate in order to force encryption. SQL Server driver support for certificate Subject Alternative Name is planned for ADO.NET (SqlClient), Microsoft JDBC, and SQL Native Client (SNAC).'
+    priority: 87
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: 'If depending on domain controllers for authentication, make sure to have secondary domain controllers in the secondary region/zone'
+    url: /azure/architecture/reference-architectures/n-tier/multi-region-sql-server
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.164f7e37-a965-4f96-b938-b8e312bbbb8f.C
+      scoreOf: []
+    context: 'In Windows Server 2016, SQL Server Always On Availability Groups require a domain controller, and all nodes in the availability group must be in the same Active Directory (AD) domain.'
+    priority: 82
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Make sure you break-glass accounts are created in secondary servers for emergency use
+    url: /azure/active-directory/roles/security-emergency-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.164f7e37-a965-4f96-b938-b8e312bbbb8f.D
+      scoreOf: []
+    context: "It is important that you prevent being accidentally locked out of your Azure Active Directory (Azure AD) organization because you can't sign in or activate another user's account as an administrator. You can mitigate the impact of accidental lack of administrative access by creating two or more\_emergency access accounts\_in your organization."
+    priority: 100
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Actively monitor for security incidents
+    url: 'https://techcommunity.microsoft.com/t5/azure-sentinel/monitoring-sql-server-with-azure-sentinel/ba-p/1502960'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.164f7e37-a965-4f96-b938-b8e312bbbb8f.E
+      scoreOf: []
+    context: "Azure SQL Managed Instances or Azure Synapse Analytics,\_Azure Data Security\_(ADS) provides comprehensive database security in relation to Data Discovery and Classification, Vulnerability assessment and Advanced Threat Protection."
+    priority: 86
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Set up an automated process to synchronize SQL logins and any other server-level objects to all replicas in an availability group setup
+    url: /sql/database-engine/availability-groups/windows/logins-and-jobs-for-availability-group-databases?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.164f7e37-a965-4f96-b938-b8e312bbbb8f.F
+      scoreOf: []
+    context: 'If you are using Availability Groups or Mirroring, you know you need to sync SQL logins and jobs among replicas. Users could automate this process by writing script.- https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/sync-sql-logins-and-jobs/ba-p/371393'
+    priority: 74
+    reportingCategory: Business Continuity
+    reportingSubCategory: Design
+  - title: Automatically deploy SQL Servers to a new region for non-production purposes without any manual operations to recover from disaster scenarios
+    url: /azure/virtual-machines/infrastructure-automation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.233c2007-9a57-4f14-a521-4a943554311f.A
+      scoreOf: []
+    context: 'To create and manage Azure virtual machines (VMs) in a consistent manner at scale, some form of automation is typically desired. There are many tools and solutions that allow you to automate the complete Azure infrastructure deployment and management lifecycle.'
+    priority: 57
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Automation
+  - title: The lifecycle of the SQL Server(s) is decoupled from its dependencies
+    url: /azure/azure-monitor/vm/service-map
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.233c2007-9a57-4f14-a521-4a943554311f.B
+      scoreOf: []
+    context: 'Each version of SQL Server is backed by a minimum of 10 years support, which includes five years in mainstream support, and five years in extended support: -https://docs.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver15'
+    priority: 50
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Server info
+  - title: Understand and validate the time it takes to deploy an entire production environment
+    url: /azure/azure-sql/virtual-machines/windows/create-sql-vm-resource-manager-template?tabs=CLI
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.233c2007-9a57-4f14-a521-4a943554311f.C
+      scoreOf: []
+    context: 'Along with continuous integration, continuous delivery and continuous deployment are practices that automate phases of software delivery. These practices enable development teams to release new features, enhancements and fixes to their customers with greater speed, accuracy and productivity.'
+    priority: 27
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Ensure all alerts from primary and secondary servers are integrated into your ITSM for the operation team to take actions and follow up
+    url: /azure/azure-monitor/alerts/itsmc-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.233c2007-9a57-4f14-a521-4a943554311f.D
+      scoreOf: []
+    context: 'Azure Monitor provides a bi-directional connection between Azure and ITSM tools to help you resolve issues faster. You can create work items in your ITSM tool, based on your Azure alerts (Metric Alerts, Activity Log Alerts, and Log Analytics alerts).'
+    priority: 68
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Conduct Load Testing with expected peak volumes to test scalability and performance under load
+    url: 'https://docs.microsoft.com'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.e577cb8c-b246-4edf-b18d-fdaa135ca255.A
+      scoreOf: []
+    context: 'Conduct load testing with expected peak volumes to test scalability and performance under load. Perform chaos testing by injecting faults. Regular testing should be performed as part of each major change and, if possible, on a regular basis to validate existing thresholds, targets and assumptions.'
+    priority: 77
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'Perform Chaos Testing by injecting faults in whole machine, network, disks, and any dependency that the SQL Server depends on'
+    url: /azure/architecture/framework/resiliency/chaos-engineering
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.e577cb8c-b246-4edf-b18d-fdaa135ca255.B
+      scoreOf: []
+    context: 'Chaos engineering is a methodology that helps developers attain consistent reliability by hardening services against failures in production. A common way to introduce chaos is to deliberately inject faults that cause system components to fail. The goal is to observe, monitor, respond to, and improve your system''s reliability under adverse circumstances.'
+    priority: 45
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: Automate and carry out tests periodically or on-demand
+    url: 'https://www.microsoft.com/en-us/sql-server/developer-get-started/sql-devops/?rtc=1'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.e577cb8c-b246-4edf-b18d-fdaa135ca255.C
+      scoreOf: []
+    context: DevOps increases an organization’s ability to continuously deliver applications and services at speed. Continuous Testing has emerged to match today’s DevOps/Continuous Delivery standards & Test Automation is the best approach towards Continuous Testing.
+    priority: 70
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: 'Ensure critical test environments have 1:1 parity with production environments'
+    url: /azure/architecture/framework/resiliency/testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.e577cb8c-b246-4edf-b18d-fdaa135ca255.D
+      scoreOf: []
+    context: 'Regular testing should be performed as part of each major change and, if possible, on a regular basis to validate existing thresholds, targets and assumptions. While the majority of testing should be performed within the testing and staging environments, it is often beneficial to also run a subset of tests against the production system. Plan a 1:1 parity of key test environments with the production environment.'
+    priority: 73
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Set up monitoring using the SQL Insights
+    url: /azure/azure-monitor/insights/sql-insights-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.7f114bb6-31dc-40fd-8430-6169f13306a3.A
+      scoreOf: []
+    context: "SQL Insights performs all monitoring remotely. Monitoring agents on dedicated virtual machines connect to your SQL resources and remotely gather data. The gathered data is stored in\_Azure Monitor Logs\_to enable easy aggregation, filtering, and trend analysis."
+    priority: 80
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Event log analysis
+  - title: Set up monitoring using Virtual Machine insights only
+    url: /azure/azure-monitor/vm/vminsights-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.7f114bb6-31dc-40fd-8430-6169f13306a3.B
+      scoreOf: []
+    context: 'VM insights stores its data in Azure Monitor Logs, which allows it to deliver powerful aggregation and filtering and to analyze data trends over time. You can view this data in a single VM from the virtual machine directly, or you can use Azure Monitor to deliver an aggregated view of multiple VMs.'
+    priority: 60
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Event log analysis
+  - title: Set up monitoring using third-party SQL-Specific monitoring tool
+    url: /sql/sql-server/partner-monitor-sql-server?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.7f114bb6-31dc-40fd-8430-6169f13306a3.C
+      scoreOf: []
+    context: 'To monitor your SQL Server services, choose from a wide variety of industry-leading tools.'
+    priority: 40
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Set up Azure Monitor Alerts for the important metrics
+    url: /azure/azure-monitor/alerts/alerts-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.7f114bb6-31dc-40fd-8430-6169f13306a3.D
+      scoreOf: []
+    context: Alert rules are separated from alerts and the actions taken when an alert fires. The alert rule captures the target and criteria for alerting. The alert rule can be in an enabled or a disabled state. Alerts only fire when enabled.
+    priority: 45
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Create Azure Monitor Alerts for the activity logs related to the server
+    url: /azure/azure-monitor/alerts/activity-log-alerts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.7f114bb6-31dc-40fd-8430-6169f13306a3.E
+      scoreOf: []
+    context: "Activity log alerts allow you to be notified on events and operations that are logged in\_Azure Activity Log. An alert is fired when a new\_activity log event\_occurs that matches the conditions specified in the alert rule."
+    priority: 60
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Event log analysis
+  - title: Enable Query Store for SQL Databases
+    url: /sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88.7f114bb6-31dc-40fd-8430-6169f13306a3.F
+      scoreOf: []
+    context: 'SQL Server Query Store feature provides you with insight on query plan choice and performance. It simplifies performance troubleshooting by helping you quickly find performance differences caused by query plan changes. Query Store automatically captures a history of queries, plans, and runtime statistics, and retains these for your review.'
+    priority: 92
+    reportingCategory: Data
+    reportingSubCategory: Performance
+uid: 2252b32e-3fa0-4d1a-9cb8-826c47eb11cd
+name: ''

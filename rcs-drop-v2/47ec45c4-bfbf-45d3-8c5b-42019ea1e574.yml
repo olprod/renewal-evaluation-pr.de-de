@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We use cloud-native network security controls, such as network and application security groups to eliminate unnecessary network traffic.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: We've carefully reviewed the network security reference architectures and configured routing accordingly so that it's minimized from endpoints to the destination and prevents applications and services from connecting to unauthorized devices.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'We use network security tools with auto-scaling capabilities, such as Azure Firewall Premium or Web Application Firewall on Application Gateway, to enable right-sizing to meet demand without manual intervention and reduce waste of unnecessary resources.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: 'We''ve evaluated whether to use TLS termination, and made the decision to terminate TLS at our border gateway and continue with non-TLS to our workload load balancer and onwards to our workload whenever possible to reduce unnecessary CPU consumption.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: 'We''ve configured Azure DDoS Protection Standard, combined with application design best practices, to provide enhanced DDoS mitigation features to defend against attacks that flood network and compute resources and to avoid unnecessary spike in usage and cost.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 47ec45c4-bfbf-45d3-8c5b-42019ea1e574
+name: What practices and tools for network security have you implemented to increase efficiency and avoid unnecessary traffic?

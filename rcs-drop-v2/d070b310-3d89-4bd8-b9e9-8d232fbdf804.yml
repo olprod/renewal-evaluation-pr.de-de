@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We implement custom counters in our production code that stream service health, up-time, and code invocation and execution to a central repository'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: 'We poll our production system at regular intervals with a monitoring solution such as IpSwitch, SolarWinds, Quest, etc... and log the data to a central repository'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: We use AGENTLESS technology to conduct PING tests and verification of services.  We log this data to a central repository that allows us to build and visualize trends over time
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: We use AGENT technology to conduct PING tests and verification of services.  We log this data to a central repository that allows us to build and visualize trends over time
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: Effective application instrumentation is an important practice to help identify and understand possible issues. Efficient instrumentation of your environment and applications enable engineering and operations teams to identify and resolve potential issues more efficiently.
+isRequired: true
+uid: d070b310-3d89-4bd8-b9e9-8d232fbdf804
+name: Effective application instrumentation is an important practice to help identify and understand possible issues. Efficient instrumentation of your environment and applications enable engineering and operations teams to identify and resolve potential issues more efficiently.

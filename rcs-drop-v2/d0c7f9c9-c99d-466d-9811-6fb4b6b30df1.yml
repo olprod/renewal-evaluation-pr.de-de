@@ -1,0 +1,97 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We believe that there is sufficient troubleshooting knowledge and expertise within our organization to manage and support Azure solutions.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: 'There are documented escalation paths if we need support for third-party solutions, Open-Source solutions, or with Azure Support teams.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: The support setup for the solution matches our SLA requirements.
+    description: 'For example, if the required solution SLA is 99.95% 24x7/365, without an adequate support setup.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: 'There is a clear process in place for escalating issues, including handover points to third parties and Microsoft.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: We keep a list of failures and documented mitigation plans and/or automated scripts that can mitigate common failures.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Application Insights is used to monitor applications.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Azure Monitor is used to gain insight into the health of our Azure Infrastructure.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: We are aware that we can monitor Azure services and applications from Grafana using the Azure Monitor data source plugin.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: 'Azure Monitor Alerts automatically alert us and/or execute an automated process, when a specific monitoring criteria is met.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: J
+    text: We have familiarized ourselves with the range of platform (automatically collected) Metrics that can be viewed in Azure Monitor.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: d0c7f9c9-c99d-466d-9811-6fb4b6b30df1
+name: What is your approach to anticipating and resolving failures in your application?

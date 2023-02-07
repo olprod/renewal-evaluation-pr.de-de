@@ -1,0 +1,510 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Azure Synapse Analytics Apache Spark Pool Auto Scaling Feature
+    url: /azure/synapse-analytics/spark/apache-spark-autoscale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.15752a26-3450-4275-a527-204248fe143b.A
+      scoreOf: []
+    context: 'Apache Spark for Azure Synapse Analytics pool''s Autoscale feature automatically scales the number of nodes in a cluster instance up and down based on the amount of activity. During the creation of a new Apache Spark for Azure Synapse Analytics pool, a minimum and maximum number of nodes can be set when Autoscale is selected. Autoscale then monitors the resource requirements of the load and scales the number of nodes up or down.'
+    priority: 90
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Use Azure Synapse Analytics Serverless SQL Pool
+    url: /azure/synapse-analytics/sql/on-demand-workspace-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.15752a26-3450-4275-a527-204248fe143b.B
+      scoreOf: []
+    context: 'Serverless SQL pool is a distributed data processing system, built for large-scale data and computational functions and enables you to analyze your Big Data in seconds to minutes, depending on the workload. Thanks to built-in query execution fault-tolerance, the system provides high reliability and success rates even for long-running queries involving large data sets. If you need to explore data in the data lake, gain insights from it or optimize your existing data transformation pipeline, you can benefit from using serverless SQL pool. It is suitable for the following scenarios: Basic discovery and exploration - Quickly reason about the data in various formats (Parquet, CSV, JSON) in your data lake. Logical data warehouse – Provide a relational abstraction on top of raw or disparate data without relocating and transforming data, allowing always up-to-date view of your data. Data transformation - Simple, scalable, and performant way to transform data in the lake using T-SQL, so it can be fed to BI and other tools, or loaded into a relational data store (Synapse SQL databases, Azure SQL Database, etc.).'
+    priority: 50
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Manage compute for Azure Synapse Analytics Dedicated SQL Pool
+    url: /azure/synapse-analytics/sql-data-warehouse/quickstart-scale-compute-tsql#scale-compute
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.15752a26-3450-4275-a527-204248fe143b.C
+      scoreOf: []
+    context: 'In dedicated SQL pool (formerly SQL DW), you can increase or decrease compute resources by adjusting data warehouse units. Scale out compute for better performance, or scale back compute to save costs.'
+    priority: 100
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Partition tables in Azure Synapse Analytic dedicated SQL pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-partition?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.15752a26-3450-4275-a527-204248fe143b.D
+      scoreOf: []
+    context: 'The primary benefit of partitioning in dedicated SQL pool is to improve the efficiency and performance of loading data by use of partition deletion, switching and merging. In most cases data is partitioned on a date column that is closely tied to the order in which the data is loaded into the SQL pool.One of the greatest benefits of using partitions to maintain data is the avoidance of transaction logging. While simply inserting, updating, or deleting data can be the most straightforward approach, with a little thought and effort, using partitioning during your load process can substantially improve performance. Partitioning can benefit data maintenance and query performance. Whether it benefits both or just one is dependent on how data is loaded and whether the same column can be used for both purposes, since partitioning can only be done on one column.'
+    priority: 60
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Design your data model with semantic layer
+    url: /power-bi/guidance/center-of-excellence-business-intelligence-solution-architecture#data-models
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.15752a26-3450-4275-a527-204248fe143b.E
+      scoreOf: []
+    context: 'BI semantic models represent a semantic layer over enterprise models. Business users can create smaller-scale, independent models—or, they can extend core BI semantic models with departmental or external sources. BI semantic models commonly focus on a single subject area, and are often widely shared. Business capabilities are enabled not by data alone, but by BI semantic models that describe concepts, relationships, rules, and standards. This way, they represent intuitive and easy-to-understand structures that define data relationships and encapsulate business rules as calculations. They can also enforce fine-grained data permissions, ensuring the right people have access to the right data. Importantly, they accelerate query performance, providing extremely responsive interactive analytics—even over terabytes of data. Like enterprise models, BI semantic models adopt naming conventions ensuring consistency.'
+    priority: 40
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Efficiency
+  - title: Co-locate Azure Storage account and Azure Synapse Analytics Serverless SQL pool
+    url: /azure/synapse-analytics/sql/best-practices-serverless-sql-pool#colocate-your-storage-and-serverless-sql-pool
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.15752a26-3450-4275-a527-204248fe143b.F
+      scoreOf: []
+    context: 'For optimal performance, if you access other storage accounts with serverless SQL pool, make sure they''re in the same region. If they aren''t in the same region, there will be increased latency for the data''s network transfer between the remote region and the endpoint''s region. Storage accounts and endpoints provisioned during workspace creation are located in the same region.'
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Consider workload scalability while designing Synapse tables
+    url: /azure/synapse-analytics/sql/develop-tables-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.15752a26-3450-4275-a527-204248fe143b.G
+      scoreOf: []
+    context: 'The distribution type of Synapse tables defines the workload scalability.A distributed table appears as a single table, but the rows are actually stored across 60 distributions. Dedicated SQL pool supports three methods for distributing data: Round-robin, Hash, and Replicated. A hash distributed table distributes rows based on the value in the distribution column. A hash distributed table is designed to achieve high performance for queries on large tables. A replicated table has a full copy of the table available on every Compute node. Queries run fast on replicated tables because joins on replicated tables don''t require data movement. A round-robin table distributes table rows evenly across all distributions. The rows are distributed randomly. Loading data into a round-robin table is fast. But, queries can require more data movement than the other distribution methods.'
+    priority: 90
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Consider monitoring the Azure Services status
+    url: 'https://status.azure.com/en-us/status'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.15752a26-3450-4275-a527-204248fe143b.H
+      scoreOf: []
+    context: 'Azure status provides you with a global view of the health of Azure services and regions. With Azure status, you can get information on service availability. Azure status is available to everyone to view all services that report their service health, as well as incidents with wide-ranging impact. '
+    priority: 50
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Use Development best practices for Azure Synapse Analytics Dedicated SQL pool
+    url: /azure/synapse-analytics/sql-data-warehouse/cheat-sheet
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.A
+      scoreOf: []
+    context: 'Apply best practices for data loading in staging and distribution or replication of the tables depending on the size and purpose such as (small) dimension, fact and staging tables.'
+    priority: 90
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Use Azure Synapse Analytics Materialized views
+    url: /azure/synapse-analytics/sql-data-warehouse/performance-tuning-materialized-views
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.B
+      scoreOf: []
+    context: Materialized views for dedicated SQL pools in Azure Synapse provide a low maintenance method for complex analytical queries to get fast performance without any query change.
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Use Azure Synapse Analytics Ordered Cluster Column-Store Index
+    url: /azure/synapse-analytics/sql-data-warehouse/performance-tuning-ordered-cci
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.C
+      scoreOf: []
+    context: 'When creating an ordered CCI, the dedicated SQL pool engine sorts the existing data in memory by the order key(s) before the index builder compresses them into index segments. With sorted data, segment overlapping is reduced allowing queries to have a more efficient segment elimination and thus faster performance because the number of segments to read from disk is smaller.'
+    priority: 100
+    reportingCategory: Architecture
+    reportingSubCategory: Database Design
+  - title: Use Azure Synapse Analytics Result Set Caching
+    url: /azure/synapse-analytics/sql-data-warehouse/performance-tuning-result-set-caching
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.D
+      scoreOf: []
+    context: "When result set caching is enabled, dedicated SQL pool automatically caches query results in the user database for repetitive use. This allows subsequent query executions to get results directly from the persisted cache so recomputation is not needed. Result set caching improves query performance and reduces compute resource usage. In addition, queries using cached results set do not use any concurrency slots and thus do not count against existing concurrency limits.\_"
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Review Guidance for designing distributed tables using dedicated SQL pool in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.E
+      scoreOf: []
+    context: 'The distribution type of Synapse tables defines the workload scalability.A distributed table appears as a single table, but the rows are actually stored across 60 distributions. Dedicated SQL pool supports three methods for distributing data: Round-robin, Hash, and Replicated. A hash distributed table distributes rows based on the value in the distribution column. A hash distributed table is designed to achieve high performance for queries on large tables. A replicated table has a full copy of the table available on every Compute node. Queries run fast on replicated tables because joins on replicated tables don''t require data movement. A round-robin table distributes table rows evenly across all distributions. The rows are distributed randomly. Loading data into a round-robin table is fast. But, queries can require more data movement than the other distribution methods.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Partition tables in Azure Synapse Analytic dedicated SQL pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-partition?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.F
+      scoreOf: []
+    context: 'The primary benefit of partitioning in dedicated SQL pool is to improve the efficiency and performance of loading data by use of partition deletion, switching and merging.In most cases data is partitioned on a date column that is closely tied to the order in which the data is loaded into the SQL pool.One of the greatest benefits of using partitions to maintain data is the avoidance of transaction logging. While simply inserting, updating, or deleting data can be the most straightforward approach, with a little thought and effort, using partitioning during your load process can substantially improve performance. Partitioning can benefit data maintenance and query performance. Whether it benefits both or just one is dependent on how data is loaded and whether the same column can be used for both purposes, since partitioning can only be done on one column.'
+    priority: 60
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Bulk load data using the COPY statement in to your Azure Synapse Analytics dedicated SQL pool
+    url: /azure/synapse-analytics/sql-data-warehouse/quickstart-bulk-load-copy-tsql?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.G
+      scoreOf: []
+    context: Bulk load data into your dedicated SQL pool using the simple and flexible COPY statement for high-throughput data ingestion. The COPY statement is the recommended loading utility as it enables you to seamlessly and flexibly load data.
+    priority: 80
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Minimize row length for Azure Synapse Analytics SQL tables
+    url: /azure/synapse-analytics/sql/develop-tables-data-types#minimize-row-length
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.H
+      scoreOf: []
+    context: 'Minimizing the size of data types shortens the row length, which leads to better query performance. Use the smallest data type that works for your data.'
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Use Workload management concepts for Azure Synapse Analytics dedicated SQL pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-workload-management#workload-management-concepts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.I
+      scoreOf: []
+    context: "Dedicated SQL pool workload management in Azure Synapse consists of three high-level concepts:\_Workload Classification,\_Workload Importance, and\_Workload Isolation. These capabilities give you more control over how your workload utilizes system resources."
+    priority: 90
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Avoid data loading misconfiguration
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-recommendations#data-loading-misconfiguration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.J
+      scoreOf: []
+    context: One should always load data from a storage account in the same region as your dedicated SQL pool to minimize latency. Use the COPY statement for high throughput data ingestion and split your staged files in your storage account to maximize throughput.
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Optimize performance by upgrading dedicated SQL pool in Azure Synapse Analytics to the latest generation Gen2 of Azure hardware and storage architecture.
+    url: /azure/synapse-analytics/sql-data-warehouse/upgrade-to-latest-generation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.K
+      scoreOf: []
+    context: 'You can seamlessly upgrade to the dedicated SQL pool (formerly SQL DW) Compute Optimized Gen2 tier in the Azure portal for supported regions. Upgrade to take advantage of the latest generation of Azure hardware and enhanced storage architecture including faster performance, higher scalability, and unlimited columnar storage.'
+    priority: 100
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Optimize performance by using Azure Synapse Analytics Apache Spark pool cache
+    url: /azure/synapse-analytics/spark/apache-spark-performance#use-the-cache
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.L
+      scoreOf: []
+    context: 'Spark provides its own native caching mechanisms, which is effective with small data sets as well as in ETL pipelines where you need to cache intermediate results.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Optimize execution of Azure Synapse Analytics Apache Spark pool jobs by managing the memory efficiently
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#use-memory-efficiently
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.M
+      scoreOf: []
+    context: 'Spark operates by placing data in memory, so managing memory resources is a key aspect of optimizing the execution of Spark jobs.'
+    priority: 100
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Optimize data serialization of Azure Synapse Analytics Apache Spark pool
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#optimize-data-serialization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.N
+      scoreOf: []
+    context: 'Spark operates by placing data in memory, so managing memory resources is a key aspect of optimizing the execution of Spark jobs.'
+    priority: 100
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Optimize performance by using Azure Synapse Analytics Apache Spark pool Bucketed tables
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#use-bucketing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.O
+      scoreOf: []
+    context: 'Spark operates by placing data in memory, so managing memory resources is a key aspect of optimizing the execution of Spark jobs.'
+    priority: 100
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Optimize Joins and Shuffles of Azure Synapse Analytics Apache Spark pool jobs
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#optimize-joins-and-shuffles
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.P
+      scoreOf: []
+    context: 'Spark operates by placing data in memory, so managing memory resources is a key aspect of optimizing the execution of Spark jobs.'
+    priority: 100
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Optimize performance by using Azure Synapse Analytics Apache Spark pool Hyperspace Indexes
+    url: /azure/synapse-analytics/spark/apache-spark-performance-hyperspace?view=sql-server-ver15&pivots=programming-language-csharp
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.4ce2feef-b0df-4b10-b022-4e44abdf0cb1.Q
+      scoreOf: []
+    context: 'Hyperspace introduces the ability for Apache Spark users to create indexes on their datasets, such as CSV, JSON, and Parquet, and use them for potential query and workload acceleration.'
+    priority: 90
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Monitor tempdb usage for Synapse Analytics dedicated SQL Pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-tempdb
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.b802b7d0-b9fd-48a2-bee5-0f545d25f78b.A
+      scoreOf: []
+    context: Tempdb is used to hold intermediate results during query execution. High utilization of the tempdb database can lead to slow query performance.
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Monitor memory usage for Synapse Analytics dedicated SQL Pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-memory
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.b802b7d0-b9fd-48a2-bee5-0f545d25f78b.B
+      scoreOf: []
+    context: Tempdb is used to hold intermediate results during query execution. High utilization of the tempdb database can lead to slow query performance.
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Monitor connections for Synapse Analytics dedicated SQL Pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-connections
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.b802b7d0-b9fd-48a2-bee5-0f545d25f78b.C
+      scoreOf: []
+    context: Tempdb is used to hold intermediate results during query execution. High utilization of the tempdb database can lead to slow query performance.
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Monitor Adaptive cache for Synapse Analytics dedicated SQL Pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-how-to-monitor-cache
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.b802b7d0-b9fd-48a2-bee5-0f545d25f78b.D
+      scoreOf: []
+    context: 'When you have a large working set, you can experience a low cache hit percentage and high cache utilization. For this scenario, you should scale up to increase cache capacity and rerun your workload.'
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Review Memory and concurrency limits for dedicated SQL pool in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql-data-warehouse/memory-concurrency-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.b802b7d0-b9fd-48a2-bee5-0f545d25f78b.E
+      scoreOf: []
+    context: "To ensure each query has enough resources to execute efficiently, Synapse SQL tracks resource utilization by assigning concurrency slots to each query. The system puts queries into a queue based on importance and concurrency slots. Queries wait in the queue until enough concurrency slots are available.\_Importance\_and concurrency slots determine CPU prioritization."
+    priority: 90
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Monitor Azure Synapse Analytics resource utilization and query activity
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-workload-management-portal-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.b802b7d0-b9fd-48a2-bee5-0f545d25f78b.F
+      scoreOf: []
+    context: 'There are two different categories of workload group metrics provided for monitoring workload management: resource allocation and query activity. These metrics can be split and filtered by workload group. The metrics can be split and filtered based on if they are system defined (resource class workload groups) or user-defined.'
+    priority: 100
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Monitor resource utilization and query activity in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity#resource-utilization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.b802b7d0-b9fd-48a2-bee5-0f545d25f78b.G
+      scoreOf: []
+    context: 'Manage and monitor your data warehouse, providing the data needed to optimize the data warehouse''s usage and performance.'
+    priority: 75
+    reportingCategory: Operations
+    reportingSubCategory: Monitoring
+  - title: Monitor and investigate space utilization for dedicated SQL pool in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-overview#table-size-queries
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.b802b7d0-b9fd-48a2-bee5-0f545d25f78b.H
+      scoreOf: []
+    context: 'Determining the table category such as fact, dimension and integration tables are important to decide on the distribution type to use for these tables. Also consider applying best practices for temporary and external tables, data types, table partitions, columnstore indexes and statistics.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Select the correct executor size for Azure Synapse Analytics Apache Spark pool
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#select-the-correct-executor-size
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.b802b7d0-b9fd-48a2-bee5-0f545d25f78b.I
+      scoreOf: []
+    context: 'Spark operates by placing data in memory, so managing memory resources is a key aspect of optimizing the execution of Spark jobs.'
+    priority: 100
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Review key concepts for designing tables in Synapse Analytics dedicated SQL pool
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.228474af-944c-4181-a5ed-90b860c68d58.A
+      scoreOf: []
+    context: 'Determining the table category such as fact, dimension and integration tables are important to decide on the distribution type to use for these tables. Also consider applying best practices for temporary and external tables, data types, table partitions, columnstore indexes and statistics.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Identify tables in Synapse Analytics dedicated SQL pool with higher skew
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute#how-to-tell-if-your-distribution-column-is-a-good-choice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.228474af-944c-4181-a5ed-90b860c68d58.B
+      scoreOf: []
+    context: 'The distribution type of Synapse tables defines the workload scalability.A distributed table appears as a single table, but the rows are actually stored across 60 distributions. Dedicated SQL pool supports three methods for distributing data: Round-robin, Hash, and Replicated. A hash distributed table distributes rows based on the value in the distribution column. A hash distributed table is designed to achieve high performance for queries on large tables. A replicated table has a full copy of the table available on every Compute node. Queries run fast on replicated tables because joins on replicated tables don''t require data movement. A round-robin table distributes table rows evenly across all distributions. The rows are distributed randomly. Loading data into a round-robin table is fast. But, queries can require more data movement than the other distribution methods.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Choose the appropriate data abstraction for Azure Synapse Analytics Apache Spark pool
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#choose-the-data-abstraction
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.228474af-944c-4181-a5ed-90b860c68d58.C
+      scoreOf: []
+    context: 'Spark operates by placing data in memory, so managing memory resources is a key aspect of optimizing the execution of Spark jobs.'
+    priority: 100
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Use optimal data format for Azure Synapse Analytics Apache Spark pool
+    url: /azure/synapse-analytics/spark/apache-spark-performance?view=sql-server-ver15#use-optimal-data-format
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.228474af-944c-4181-a5ed-90b860c68d58.D
+      scoreOf: []
+    context: 'Spark operates by placing data in memory, so managing memory resources is a key aspect of optimizing the execution of Spark jobs.'
+    priority: 100
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Deploy timer-based scaling for Synapse Analytics dedicated SQL pool with an Azure Resource Manager template
+    url: /azure/synapse-analytics/sql-data-warehouse/manage-compute-with-azure-functions#deploy-timer-based-scaling-with-an-azure-resource-manager-template
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.2b124912-964d-4f7c-ae5c-57b3b167f4cd.A
+      scoreOf: []
+    context: Azure Functions can be used to manage compute resources for your dedicated SQL pool in Azure Synapse Analytics.
+    priority: 90
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Monitor Azure Synapse Analytics resource utilization and query activity
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-workload-management-portal-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.2b124912-964d-4f7c-ae5c-57b3b167f4cd.B
+      scoreOf: []
+    context: 'There are two different categories of workload group metrics provided for monitoring workload management: resource allocation and query activity. These metrics can be split and filtered by workload group. The metrics can be split and filtered based on if they are system defined (resource class workload groups) or user-defined.'
+    priority: 100
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Monitor resource utilization and query activity in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity#resource-utilization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.2b124912-964d-4f7c-ae5c-57b3b167f4cd.C
+      scoreOf: []
+    context: 'Manage and monitor your data warehouse, providing the data needed to optimize the data warehouse''s usage and performance.'
+    priority: 75
+    reportingCategory: Operations
+    reportingSubCategory: Monitoring
+  - title: Use Azure Synapse Analytics Studio to monitor your Apache Spark application
+    url: /azure/synapse-analytics/monitoring/apache-spark-applications?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e1775e9f-3ef7-4445-908a-fbc1c8574caa.2b124912-964d-4f7c-ae5c-57b3b167f4cd.D
+      scoreOf: []
+    context: 'Monitoring Spark applications using Azure Analytics Studio allows you to view running, completed and cancelled Apache Spark applications as well as debug failed Apache Spark applications, view input data/output and Compare Apache Spark Applications.'
+    priority: 90
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+uid: bee58977-63d0-404f-9cb3-aa37e4cd21bf
+name: ''

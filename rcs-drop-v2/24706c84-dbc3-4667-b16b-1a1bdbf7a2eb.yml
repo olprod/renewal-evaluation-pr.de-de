@@ -1,0 +1,262 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Ensure regulatory and governance requirements for the environment are understood
+    url: /azure/cloud-adoption-framework/govern/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.ccafbd5e-f455-4e6a-be7f-a9b354508127.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Apply Azure Landing zone concept
+    url: /azure/cloud-adoption-framework/ready/landing-zone/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.ccafbd5e-f455-4e6a-be7f-a9b354508127.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Improve landing zone governance
+    url: /azure/cloud-adoption-framework/ready/considerations/landing-zone-governance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.ccafbd5e-f455-4e6a-be7f-a9b354508127.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Enhance individual application landing zones for critical workloads
+    url: /azure/cloud-adoption-framework/ready/landing-zone/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.ccafbd5e-f455-4e6a-be7f-a9b354508127.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Understand regulatory compliance
+    url: /azure/cloud-adoption-framework/govern/policy-compliance/regulatory-compliance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.ccafbd5e-f455-4e6a-be7f-a9b354508127.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: 'Adopt operational Azure Landing Zone compliance '
+    url: /azure/cloud-adoption-framework/ready/landing-zone/design-area/management-operational-compliance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.1ff0c548-05f5-45c6-8546-a81085a25c6a.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Understand Azure Policy
+    url: /azure/governance/policy/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.1ff0c548-05f5-45c6-8546-a81085a25c6a.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Organize your Azure resources effectively
+    url: /azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.1ff0c548-05f5-45c6-8546-a81085a25c6a.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Implement management group recommendations
+    url: /azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-management-groups
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.1ff0c548-05f5-45c6-8546-a81085a25c6a.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Monitor and audit security and compliance
+    url: /azure/architecture/framework/security/monitor-audit
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.1ff0c548-05f5-45c6-8546-a81085a25c6a.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Develop a security plan
+    url: /azure/cloud-adoption-framework/get-started/security#step-3-develop-a-security-plan
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.1ff0c548-05f5-45c6-8546-a81085a25c6a.5
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Proactively review and apply best practice configurations and guidelines
+    url: /security/benchmark/azure/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.1ff0c548-05f5-45c6-8546-a81085a25c6a.6
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Build resilience into your cybersecurity strategy
+    url: /azure/architecture/framework/security/resilience
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.1ff0c548-05f5-45c6-8546-a81085a25c6a.7
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Build network security and containment strategy
+    url: /security/compass/network-security-containment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.1ff0c548-05f5-45c6-8546-a81085a25c6a.8
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Understand cloud adoption functions
+    url: /azure/cloud-adoption-framework/organize/cloud-adoption
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.5209fe02-7082-435b-82d8-a96626a88f24.0
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Establish a cloud governance team
+    url: /azure/cloud-adoption-framework/organize/cloud-governance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.5209fe02-7082-435b-82d8-a96626a88f24.1
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Establish a cloud operations team
+    url: /azure/cloud-adoption-framework/organize/cloud-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.5209fe02-7082-435b-82d8-a96626a88f24.2
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Establish a Security Operations Center
+    url: /azure/cloud-adoption-framework/organize/cloud-security-operations-center
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.5209fe02-7082-435b-82d8-a96626a88f24.3
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Establish Compliance management
+    url: /azure/cloud-adoption-framework/organize/cloud-security-compliance-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.5209fe02-7082-435b-82d8-a96626a88f24.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Establish a DevSecOps and application security process
+    url: /azure/cloud-adoption-framework/organize/cloud-security-application-security-devsecops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.5209fe02-7082-435b-82d8-a96626a88f24.5
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+  - title: Implement service enablement framework
+    url: /azure/cloud-adoption-framework/ready/landing-zone/design-area/service-enablement-framework
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.17394532-1e7e-4e9b-83f0-6e89349c5457.0
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.17394532-1e7e-4e9b-83f0-6e89349c5457.1
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.17394532-1e7e-4e9b-83f0-6e89349c5457.2
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.17394532-1e7e-4e9b-83f0-6e89349c5457.3
+        - ec762e5e-92b1-4cbc-8601-692423fc34bc.17394532-1e7e-4e9b-83f0-6e89349c5457.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Security Governance
+    reportingSubCategory: ''
+uid: 24706c84-dbc3-4667-b16b-1a1bdbf7a2eb
+name: ''

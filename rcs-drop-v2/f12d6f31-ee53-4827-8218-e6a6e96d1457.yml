@@ -1,0 +1,276 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Azure Databricks regional disaster recovery topology.
+    url: /azure/databricks/scenarios/howto-regional-disaster-recovery
+    condition:
+      noneOf:
+        - Reliability-ai-adb.b92cdc82-25e4-4180-9d38-4648aadfc7f8.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Recovery time objective and Revovery point objective of services within regional disaster topology of Azure Databricks.
+    url: /azure/databricks/scenarios/howto-regional-disaster-recovery
+    condition:
+      noneOf:
+        - Reliability-ai-adb.b92cdc82-25e4-4180-9d38-4648aadfc7f8.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Availibility Target Documentation for Azure Databricks
+    url: 'https://azure.microsoft.com/en-us/support/legal/sla/databricks/v1_0/'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.b92cdc82-25e4-4180-9d38-4648aadfc7f8.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Log analytics directly to query the performance data.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#collect-resource-utilization-metrics-across-azure-databricks-cluster-in-a-log-analytics-workspace'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.b92cdc82-25e4-4180-9d38-4648aadfc7f8.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure Databricks offers distinct availability and recovery targets for critical application subsystems and scenarios.
+    url: ''
+    condition:
+      noneOf:
+        - Reliability-ai-adb.b92cdc82-25e4-4180-9d38-4648aadfc7f8.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure Azure Databricks cluster failure resilientsy tasks are in place.
+    url: /azure/databricks/kb/clusters/cluster-failed-launch
+    condition:
+      noneOf:
+        - Reliability-ai-adb.ac032d16-8492-49de-aa62-39eca9123dae.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Read Azure Databricks Spark logs. '
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#running-Azure Databricks-applications-smoothly-guidelines-on-observability-and-monitoring'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.ac032d16-8492-49de-aa62-39eca9123dae.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Seperate Azure Databricks Workspaces.
+    url: /azure/cloud-adoption-framework/decision-guides/subscriptions/
+    condition:
+      noneOf:
+        - Reliability-ai-adb.ac032d16-8492-49de-aa62-39eca9123dae.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Follow Azure Databricks architecture patterns ensuring fault tolerance.
+    url: /azure/databricks/scenarios/howto-regional-disaster-recovery#azure-databricks-architecture
+    condition:
+      noneOf:
+        - Reliability-ai-adb.3cd8f67b-8200-42e9-ba65-f60422a58112.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks fault tolerance measures for queries in AI workloads/jobs.
+    url: /azure/databricks/spark/latest/structured-streaming/production#recover-from-query-failures
+    condition:
+      noneOf:
+        - Reliability-ai-adb.3cd8f67b-8200-42e9-ba65-f60422a58112.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Be aware that not all Azure Databricks services provide fault tolerance. '
+    url: /azure/databricks/applications/machine-learning/train-model/distributed-training/horovod-estimator#distributed-training
+    condition:
+      noneOf:
+        - Reliability-ai-adb.3cd8f67b-8200-42e9-ba65-f60422a58112.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use cluster monitoring for Azure Databricks.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#running-Azure Databricks-applications-smoothly-guidelines-on-observability-and-monitoring'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.e1fad8ea-1187-48c7-928e-71fc545acf1d.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Databricks Spark monitoring. '
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#running-Azure Databricks-applications-smoothly-guidelines-on-observability-and-monitoring'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.e1fad8ea-1187-48c7-928e-71fc545acf1d.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks Spark application logs
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#running-Azure Databricks-applications-smoothly-guidelines-on-observability-and-monitoring'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.e1fad8ea-1187-48c7-928e-71fc545acf1d.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks Log analytics directly to query the Perf data.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#querying-vm-metrics-in-log-analytics-once-you-have-started-the-collection-using-the-above-document'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.e1fad8ea-1187-48c7-928e-71fc545acf1d.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks best practices around capacity planning.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#scalable-Azure Databricks-deployments-guidelines-for-networking-security-and-capacity-planning'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.f7d47ff0-0204-4868-8e6f-b93cc6bf4eb6.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Databricks workspace capacity limits
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#databricks-workspace-limits'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.f7d47ff0-0204-4868-8e6f-b93cc6bf4eb6.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Consider Azure Databricks subscribtion capacity limits. '
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#azure-subscription-limits'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.f7d47ff0-0204-4868-8e6f-b93cc6bf4eb6.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Increase availability and recover targets for AML for associated resources.
+    url: /azure/machine-learning/how-to-high-availability-machine-learning
+    condition:
+      noneOf:
+        - Reliability-ai-adb.24599356-5e49-449b-9c5f-ff2447ba1b5f.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create reginal Azure Databricks disaster recovery plan
+    url: /azure/databricks/scenarios/howto-regional-disaster-recovery#how-to-create-a-regional-disaster-recovery-topology
+    condition:
+      noneOf:
+        - Reliability-ai-adb.24599356-5e49-449b-9c5f-ff2447ba1b5f.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Read Azure Databricks Spark logs.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#running-Azure Databricks-applications-smoothly-guidelines-on-observability-and-monitoring'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.489283a4-f4a8-45a3-9c7d-7ab282a48ec8.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Databricks VNet isolation.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#consider-isolating-each-workspace-in-its-own-vnet'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.792b033e-cd78-4820-be6d-e584dbe5da19.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Follow best practices around creatung an Azure Databricks workspace in your own Virtual Network.
+    url: /azure/databricks/scenarios/quickstart-create-databricks-workspace-vnet-injection
+    condition:
+      noneOf:
+        - Reliability-ai-adb.792b033e-cd78-4820-be6d-e584dbe5da19.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks scalability and performance reliability allowances.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#azure-subscription-limits'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.bf20d297-140d-49f9-b620-2d2b75ffd5a6.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Databricks autoscaling best practices. '
+    url: /azure/databricks/clusters/configure#autoscaling
+    condition:
+      noneOf:
+        - Reliability-ai-adb.bf20d297-140d-49f9-b620-2d2b75ffd5a6.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Databricks optimizition for latency over throughput, while providing a secure environment'
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#support-interactive-analytics-using-shared-high-concurrency-clusters'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.bf20d297-140d-49f9-b620-2d2b75ffd5a6.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks shared cluster security reliability allowances.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#support-interactive-analytics-using-shared-high-concurrency-clusters'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.6a719c81-55f7-4f58-b6cd-39dc0ad8a318.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks ephemeral cluster enhancements.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#support-batch-etl-workloads-with-single-user-ephemeral-standard-clusters'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.6a719c81-55f7-4f58-b6cd-39dc0ad8a318.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Follow Azure Databricks access patterns and approaches to securing data in ADLS.
+    url: 'https://github.com/hurtn/datalake-ADLS-access-patterns-with-Databricks/blob/master/readme.md'
+    condition:
+      noneOf:
+        - Reliability-ai-adb.6a719c81-55f7-4f58-b6cd-39dc0ad8a318.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Follow Azure Databricks best practices around access control, credential passthrough, secret management, enabling customer-managed keys for notebooks, configuring customer-managed keys for DBFS root, securing cluster connectivity, encrypting traffic between cluster worker nodes IP access lists, and configure domain name firewall rules.'
+    url: /azure/databricks/security/
+    condition:
+      noneOf:
+        - Reliability-ai-adb.6a719c81-55f7-4f58-b6cd-39dc0ad8a318.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: f12d6f31-ee53-4827-8218-e6a6e96d1457
+name: ''

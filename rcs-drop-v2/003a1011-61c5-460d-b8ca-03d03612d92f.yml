@@ -1,0 +1,763 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Track the dependencies of your database and solution components
+    url: /sql/relational-databases/tables/view-the-dependencies-of-a-table?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.8b7c0f15-5eea-4201-9307-a8a8418e98fd.A
+      scoreOf: []
+    context: Document Data dictionary with all dependencies in a table or a diagram for reference that help to track the dependencya and interpret with developers for future releases.
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Understand how to implement DevOps for Azure SQL
+    url: 'https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.8b7c0f15-5eea-4201-9307-a8a8418e98fd.B
+      scoreOf: []
+    context: 'Refer to this link - https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    priority: 50
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: 'Implement an orchestration system to deploy your database '
+    url: 'https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.8b7c0f15-5eea-4201-9307-a8a8418e98fd.C
+      scoreOf: []
+    context: Continuous Delivery for Azure SQL DB using Azure DevOps Multi-stage Pipelines - Azure SQL Database Devs’ Corner (microsoft.com)
+    priority: 25
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Deployments
+  - title: Define targets for management operations time
+    url: /azure/azure-sql/database/scale-resources
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.b8f8ad80-f457-43bc-aad8-947312b101f9.A
+      scoreOf: []
+    context: 'Azure SQL Database and SQL Managed Instance scale on the fly with minimal downtime. Scalability is one of the most important characteristics of platform as a service (PaaS) that enables you to dynamically add more resources to your service when needed. Azure SQL Database enables you to easily change resources (CPU power, memory, IO throughput, and storage) allocated to your databases'
+    priority: 40
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Identify performance issues by using query analysis
+    url: /azure/azure-sql/identify-query-performance-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.b8f8ad80-f457-43bc-aad8-947312b101f9.B
+      scoreOf: []
+    context: Detectable types of query performance bottlenecks in Azure SQL Database and Azure SQL Managed Instance
+    priority: 61
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Database Options
+  - title: Define dependencies between resources and ensure they are deployed in the correct order
+    url: 'https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.b8f8ad80-f457-43bc-aad8-947312b101f9.D
+      scoreOf: []
+    context: 'Refer to this link - https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    priority: 25
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Operational Excellence
+  - title: Treat your SQL DB infrastructure as if it were code
+    url: /azure/azure-sql/database/single-database-create-arm-template-quickstart
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.2169ecb9-edef-4455-9e0a-bf4aa34d7c83.A
+      scoreOf: []
+    context: Create using Azure SQL Database and ARM template
+    priority: 51
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Use Azure Resource Tags
+    url: /azure/azure-resource-manager/management/tag-resources?tabs=json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.2169ecb9-edef-4455-9e0a-bf4aa34d7c83.B
+      scoreOf: []
+    context: Tags to organize Azure resources and management hierarchy.
+    priority: 52
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Investigate your resource limits
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.2169ecb9-edef-4455-9e0a-bf4aa34d7c83.C
+      scoreOf: []
+    context: 'Microsoft Azure limits are also known as quotas. To learn more about Azure pricing, check Azure pricing overview. You can estimate costs with the pricing calculator.'
+    priority: 64
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Make a clear analysis of your HA/DR requirements and set up your solution accordingly
+    url: /azure/azure-sql/database/high-availability-sla
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.2169ecb9-edef-4455-9e0a-bf4aa34d7c83.D
+      scoreOf: []
+    context: 'The goal of the high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running  99.99% of the time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer to SLA for Azure SQL Database and SLA for Azure SQL Managed Instance.'
+    priority: 85
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Perform all database operations as infrastructure as code activities
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql/infrastructure-as-code-and-azure-a-match-made-in-the-cloud-part/ba-p/1722367'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.2169ecb9-edef-4455-9e0a-bf4aa34d7c83.E
+      scoreOf: []
+    context: 'Methods available to deploy Azure SQL database including PowerShell, Azure CLI and Terraform.'
+    priority: 49
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Deployments
+  - title: Track configuration drift
+    url: 'https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/#terraform-ansible-etc'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.2169ecb9-edef-4455-9e0a-bf4aa34d7c83.F
+      scoreOf: []
+    context: Continuous Delivery for Azure SQL DB using Azure DevOps Multi-stage Pipelines - Azure SQL Database Devs’ Corner (microsoft.com).
+    priority: 25
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: 'Deployments '
+  - title: Use environments for dev and test stages that simulate the production database environment
+    url: /azure/architecture/solution-ideas/articles/dev-test-paas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.47806556-dd3d-443b-9c4f-01d485430ffb.A
+      scoreOf: []
+    context: Source control and versioning are as important for data schemas as for code and builds.
+    priority: 48
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Deployments
+  - title: Have pipelines for continuous deployment/continuous integration
+    url: 'https://azure.microsoft.com/en-us/blog/7-best-practices-for-continuous-monitoring-with-azure-monitor/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.47806556-dd3d-443b-9c4f-01d485430ffb.C
+      scoreOf: []
+    context: Practice continous monitoring with Azure monitor
+    priority: 47
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Deployments
+  - title: Use feature flags
+    url: /azure/devops/migrate/phase-features-with-feature-flags?view=azure-devops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.47806556-dd3d-443b-9c4f-01d485430ffb.D
+      scoreOf: []
+    context: 'For DevOps teams, the need to control disclosure of new features becomes increasingly important in order to limit the audience for testing in production; feature flags are a great solution.'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: Use a tool that facilitates database code changes and codebase management
+    url: 'https://azure.microsoft.com/en-us/resources/videos/connect-2017-database-devops-with-sql-server-data-tools-and-team-services/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.47806556-dd3d-443b-9c4f-01d485430ffb.E
+      scoreOf: []
+    context: Azure Videos | Microsoft Azure
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Use SQL monitoring tools to track performance optimization potential
+    url: /azure/azure-sql/database/intelligent-insights-use-diagnostics-log
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.afebb0f4-b57b-4072-bed8-3b08a9e61286.A
+      scoreOf: []
+    context: Use the Intelligent Insights performance diagnostics log of Azure SQL Database and Azure SQL Managed Instance performance issues.
+    priority: 60
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Performance
+  - title: Capture database error messages in a structured format to be indexed and searched
+    url: /azure/azure-monitor/insights/azure-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.afebb0f4-b57b-4072-bed8-3b08a9e61286.B
+      scoreOf: []
+    context: Azure SQL Analytics is a cloud-only monitoring solution which supports streaming of diagnostics telemetry for Azure SQL databases.
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Monitoring
+  - title: Configure Azure SQL Database and Azure SQL Managed Instance resource monitoring
+    url: /azure/azure-sql/database/monitor-tune-overview#azure-sql-database-and-azure-sql-managed-instance-resource-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.afebb0f4-b57b-4072-bed8-3b08a9e61286.D
+      scoreOf: []
+    context: Enable monitor and tune Azure SQL in the Azure portal.
+    priority: 58
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: 'Know how to use Query Store, Dynamic Management Views, and Extended Events'
+    url: /sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.afebb0f4-b57b-4072-bed8-3b08a9e61286.E
+      scoreOf: []
+    context: Enable query store to monitor the SQL performance.
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: 'Verify transaction log/tempdb size, fragmentation, and usage stats'
+    url: /azure/azure-monitor/insights/azure-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.afebb0f4-b57b-4072-bed8-3b08a9e61286.F
+      scoreOf: []
+    context: Azure SQL Analytics is a cloud-only monitoring solution which supports streaming of diagnostics telemetry for Azure SQL databases.
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: Collect Azure Activity Logs within the log aggregation tool
+    url: /azure/azure-monitor/essentials/activity-log
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.afebb0f4-b57b-4072-bed8-3b08a9e61286.G
+      scoreOf: []
+    context: The Activity log is a platform log in Azure that provides insight into subscription-level events. Activity log includes such information as when a resource is modified or when a virtual machine is started.
+    priority: 45
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Monitoring
+  - title: Set up alerting on pre-defined metrics and Resource Health events
+    url: /azure/azure-sql/database/alerts-insights-configure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.afebb0f4-b57b-4072-bed8-3b08a9e61286.H
+      scoreOf: []
+    context: This section includes the steps to set up alerts for databases in Azure SQL Database and Azure Synapse Analytics using Azure portal. Alerts are sent via an email or call a web hook when some metric (for example database size or CPU usage) reaches the threshold.
+    priority: 58
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: 'Monitoring '
+  - title: Leverage central Azure monitoring tools
+    url: /azure/azure-sql/database/monitor-tune-overview#azure-sql-database-and-azure-sql-managed-instance-resource-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.afebb0f4-b57b-4072-bed8-3b08a9e61286.I
+      scoreOf: []
+    context: An introduction to the Azure Automation service and its usage to simplify the management of databases in Azure SQL Database.
+    priority: 75
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: Make a clear analysis of your HA/DR requirements and set up your solution accordingly
+    url: /azure/azure-sql/database/high-availability-sla
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.01f09443-c3ad-4c2d-a12d-d7ffac0097a1.A
+      scoreOf: []
+    context: The goal of high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running 99.99% of the time without worrying about the impact of maintenance operations and outage.
+    priority: 85
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: 'Test and validate your disaster recovery, geo-failover, and failback procedure'
+    url: /azure/azure-sql/database/disaster-recovery-guidance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.01f09443-c3ad-4c2d-a12d-d7ffac0097a1.B
+      scoreOf: []
+    context: 'Azure SQL Database offers the following capabilities to recover from an outage: Active geo-rep lication, Auto-failover groups, Geo-restore, Zone-redundant databases.'
+    priority: 100
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: The health model is being used to clearly define geo-failover situations
+    url: /azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.01f09443-c3ad-4c2d-a12d-d7ffac0097a1.C
+      scoreOf: []
+    context: 'Azure SQL Database offers an easy several-clicks solution to scale database instances when more resources are needed. This is one of the strengths of PaaS, you pay for only what you use and it is easy to change when you need more or less. A current limitation is that the service doesn''t support auto-scaling.'
+    priority: 85
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Define runbooks to react to reliability and performance issues
+    url: /azure/azure-sql/database/automation-manage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.01f09443-c3ad-4c2d-a12d-d7ffac0097a1.D
+      scoreOf: []
+    context: An introduction to the Azure Automation service and its usage to simplify the management of databases in Azure SQL Database.
+    priority: 52
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: 'Monitoring '
+  - title: Perform disaster recovery drills
+    url: /azure/azure-sql/database/disaster-recovery-drills#validation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.01f09443-c3ad-4c2d-a12d-d7ffac0097a1.E
+      scoreOf: []
+    context: It is recommended to periodically perform the validation of application readiness for recovery workflow. A good engineering practice is to verify the application behavior and implications of data loss and/or the disruption that failover involves. It is also a requirement by most industry standards as part of business continuity.
+    priority: 100
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Use an auto failover group
+    url: /azure/azure-sql/database/auto-failover-group-overview?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.01f09443-c3ad-4c2d-a12d-d7ffac0097a1.G
+      scoreOf: []
+    context: The auto-failover groups feature allows to manage the replication and failover of some or all databases on a logical server to another region. The focus is on using the Auto-failover group feature with Azure SQL Database and some best practices.
+    priority: 95
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Consider using automation runbooks to perform scaling of the Azure SQL DB based on workload demand
+    url: 'https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-auto-scale-azure-sql-databases/ba-p/2235441'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.93ffc5ef-1400-4003-8a0a-565d70ca6cf7.A
+      scoreOf: []
+    context: 'Azure SQL Database offers an easy several-clicks solution to scale database instances when more resources are needed. This is one of the strengths of PaaS - you pay for only what you use, and it is easy to change accordingly.'
+    priority: 51
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Azure SQL Database Serverless compute tier is used for applications with less strict performance requirements and highly intermittent workload(s)
+    url: /azure/azure-sql/database/serverless-tier-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.93ffc5ef-1400-4003-8a0a-565d70ca6cf7.B
+      scoreOf: []
+    context: 'Serverless is a compute tier for single databases in Azure SQL Database that automatically scales compute based on workload demand and bills for the amount of compute used per second. The serverless compute tier automatically pauses databases during inactive periods when only storage is billed, and automatically resumes databases when activity returns.'
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Operational Excellence
+  - title: Script the process to provision and deprovision capacity
+    url: 'https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-auto-scale-azure-sql-databases/ba-p/2235441'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.93ffc5ef-1400-4003-8a0a-565d70ca6cf7.C
+      scoreOf: []
+    context: 'Azure SQL Database offers an easy several-clicks solution to scale database instances when more resources are needed. This is one of the strengths of PaaS, you pay for only what you use and it is easy to change when you need more or less. A current limitation is that the service doesn''t support auto-scaling.'
+    priority: 58
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Operational Excellence
+  - title: The impact of changes in application health on capacity is fully understood
+    url: /azure/azure-sql/database/single-database-scale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.93ffc5ef-1400-4003-8a0a-565d70ca6cf7.D
+      scoreOf: []
+    context: 'Steps to scale the compute and storage resources available for an Azure SQL Database in the provisioned compute tier. After initially picking the number of vCores or DTUs, you can scale a single database up or down dynamically based on actual experience using: Transact-SQL, Azure portal, PowerShell, Azure CLI, REST API.'
+    priority: 55
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Operational Excellence
+  - title: Validate that the required capacity (initial and future growth) is within Azure SQL DB service scale limits and quotas
+    url: /azure/azure-sql/database/resource-limits-vcore-single-databases
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.93ffc5ef-1400-4003-8a0a-565d70ca6cf7.E
+      scoreOf: []
+    context: The weblink provides detailed resource limits for single databases in Azure SQL Database using the vCore purchasing model
+    priority: 52
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Operational Excellence
+  - title: Validate that required hardware is available in targeted regions
+    url: /azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal#hardware-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.93ffc5ef-1400-4003-8a0a-565d70ca6cf7.F
+      scoreOf: []
+    context: 'This section provides a brief overview of the vCore purchasing model used by both Azure SQL Database and Azure SQL Managed Instance. To learn more about the vCore model for each product, review Azure SQL Database and Azure SQL Managed Instance.'
+    priority: 53
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Operational Excellence
+  - title: Forecast future growth based on current resource utilization
+    url: /azure/azure-sql/database/monitor-tune-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.93ffc5ef-1400-4003-8a0a-565d70ca6cf7.G
+      scoreOf: []
+    context: 'Monitor the performance of a database in Azure SQL Database and Azure SQL Managed Instance, CPU and IO resources used by your workload relative to the level of database performance you chose in selecting a particular service tier and performance level. To accomplish this, Azure SQL Database and Azure SQL Managed Instance emit resource metrics that can be viewed in the Azure portal.'
+    priority: 53
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Operational Excellence
+  - title: Implement a system so configuration settings can be changed or modified without rebuilding or redeploying the application
+    url: /azure/azure-sql/database/develop-overview#resiliency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.8291c7f0-2548-4af1-8faa-292828c8b5c7.A
+      scoreOf: []
+    context: 'Azure SQL Database expects transient errors that happen in the underlying infrastructure. Although Azure SQL Database is resilient to transitive infrastructure failures, these failures might affect your connectivity. When a transient error occurs while connecting to SQL Database, the Apps code should retry the call. We recommend that retry logic uses backoff logic, so that it does not overwhelm the service with multiple clients retrying simultaneously.'
+    priority: 80
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Manage passwords using a tool like Azure Key Vault or HashiCorp Vault
+    url: 'https://azure.microsoft.com/en-us/blog/how-to-configure-azure-sql-database-geo-dr-with-azure-key-vault/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.8291c7f0-2548-4af1-8faa-292828c8b5c7.B
+      scoreOf: []
+    context: 'Azure Key Vaults (AKV) help in remedy and the safe and secure storage of the following: Keys - typically used for signing or encryption, Secrets - used for storing key-value pairs such as key and password, Certificates'
+    priority: 55
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Excellence
+  - title: Implement a procedure to rotate keys and secrets
+    url: /azure/key-vault/secrets/tutorial-rotation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.8291c7f0-2548-4af1-8faa-292828c8b5c7.C
+      scoreOf: []
+    context: 'This web link shows the steps to automate periodic rotation of secrets for databases and services that use one set of authentication credentials. Specifically, this tutorial rotates SQL Server passwords stored in Azure Key Vault by using a function triggered by Azure Event Grid notification.'
+    priority: 52
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Excellence
+  - title: 'Set the database-scoped configuration settings, such as MAXDOP and compatibility level, optimally for your workload'
+    url: /sql/t-sql/statements/alter-database-scoped-configuration-transact-sql?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.8291c7f0-2548-4af1-8faa-292828c8b5c7.D
+      scoreOf: []
+    context: 'Max degree of parallelism (MAXDOP) limit is set per task. It is not a per request or per query limit. This means during a parallel query execution, a single request can spawn multiple tasks which are assigned to a scheduler. For more information, see the Thread and Task Architecture Guide.'
+    priority: 75
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Performance
+  - title: Create a Microsoft.Sql/servers resource using template
+    url: '/azure/templates/microsoft.sql/servers?tabs=json '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.D
+      scoreOf: []
+    context: 'Using Template format - create a Microsoft.Sql/servers resource, add the following Bicep or JSON to your template.Refer the recommendation link for additional info.'
+    priority: 64
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Deployments
+  - title: Automated - Azure SQL DB Deployment
+    url: '/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=yaml '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.F
+      scoreOf: []
+    context: Deploy your database updates to Azure SQL database after every successful build.
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Deployments
+  - title: Use feature flags
+    url: /azure/devops/migrate/phase-features-with-feature-flags?view=azure-devops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.d2eabdde-e6cf-457e-925b-ffc4f58c4376.J
+      scoreOf: []
+    context: 'For DevOps teams, the need to control disclosure of new features becomes increasingly important in order to limit the audience for testing in production; feature flags are a great solution.'
+    priority: 25
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Configurations
+  - title: Identify performance issues by using query analysis
+    url: /azure/azure-sql/identify-query-performance-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.K
+      scoreOf: []
+    context: Detectable types of query performance bottlenecks in Azure SQL Database and Azure SQL Managed Instance.
+    priority: 61
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Database Options
+  - title: Failure Detection - Building Resiliency
+    url: /azure/architecture/resiliency/failure-mode-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.d2eabdde-e6cf-457e-925b-ffc4f58c4376.L
+      scoreOf: []
+    context: 'Failure mode analysis (FMA) is a process for building resiliency into a system, by identifying possible failure points in the system. The FMA should be part of the architecture and design phases, so that you can build failure recovery into the system from the beginning.'
+    priority: 70
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Performance
+  - title: 'When possible, avoid using SQL authentication and manage identities centrally using AAD'
+    url: /azure/azure-sql/database/authentication-aad-configure?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.d2eabdde-e6cf-457e-925b-ffc4f58c4376.M
+      scoreOf: []
+    context: 'Steps to create and populate an Azure Active Directory (Azure AD) instance, and use Azure AD with Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics. For an overview, refer to Azure Active Directory authentication.'
+    priority: 62
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Built-in definitions for Azure SQL Database
+    url: /azure/azure-sql/database/policy-reference
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.d2eabdde-e6cf-457e-925b-ffc4f58c4376.N
+      scoreOf: []
+    context: 'Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Through its compliance dashboard, it provides an aggregated view to evaluate the overall state of the environment, with the ability to drill down to the per-resource, per-policy granularity. It also helps to bring your resources to compliance through bulk remediation for existing resources and automatic remediation for new resources.'
+    priority: 60
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Make a clear analysis of your HA/DR requirements and set up your solution accordingly
+    url: /azure/azure-sql/database/high-availability-sla
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.A
+      scoreOf: []
+    context: The goal of high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running 99.99% of the time without worrying about the impact of maintenance operations and outage.
+    priority: 85
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Perform disaster recovery drills
+    url: /azure/azure-sql/database/disaster-recovery-drills#validation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.B
+      scoreOf: []
+    context: It is recommended to periodically perform the validation of application readiness for recovery workflow. A good engineering practice is to verify the application behavior and implications of data loss and/or the disruption that failover involves. It is also a requirement by most industry standards as part of business continuity.
+    priority: 100
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Testing DB in a DevOps Pipeline
+    url: 'https://www.youtube.com/watch?v=t3Lc9LRDZQ4'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.E
+      scoreOf: []
+    context: "How and why you should\_be testing your database changes and implementations prior to deploying into production."
+    priority: 56
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Deployments
+  - title: High Availability Models
+    url: /azure/azure-sql/database/high-availability-sla#testing-application-fault-resiliency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.F
+      scoreOf: []
+    context: 'The high availability solution is designed to ensure that committed data is never lost due to failures, that maintenance operations do not affect your workload, and that the database will not be a single point of failure in your software architecture. There are no maintenance windows or downtimes that should require you to stop the workload while the database is upgraded or maintained.'
+    priority: 64
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: 'Test for performance, scalability, and resiliency as a part of each production release'
+    url: /azure/azure-sql/database/high-availability-sla#testing-application-fault-resiliency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider using A/B testing in production using feature switches
+    url: /azure/devops/migrate/phase-features-with-feature-flags?view=azure-devops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform chaos testing by injecting faults to test failover (High Availability)
+    url: /azure/azure-sql/database/high-availability-sla?tabs=azure-powershell#testing-application-fault-resiliency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.I
+      scoreOf: []
+    context: 'Azure SQL Database and Azure SQL Managed Instance feature a built-in high availability solution that is deeply integrated with the Azure platform. It is dependent on Service Fabric for failure detection and recovery, on Azure Blob storage for data protection, and on Availability Zones for higher fault tolerance (not applicable to Azure SQL Managed Instance yet). In addition, SQL Database and SQL Managed Instance use the Always On availability group technology from the SQL Server instance for replication and failover. The combination of these technologies enables applications to fully realize the benefits of a mixed storage model and support the most demanding SLAs.'
+    priority: 64
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Continuous Delivery for Azure SQL DB using Azure DevOps Multi-stage Pipelines
+    url: 'https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.J
+      scoreOf: []
+    context: 'The source code for the multi-stage Azure DevOps pipeline is 1) CreateDB – this stage has a single job, which uses the Azure CLI task for CRUD of the database; 2 )BuildDACPAC – we build the DACPAC from the SQL project source code, and publish it as an artifact for subsequent deployment task.'
+    priority: 55
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Deployments
+  - title: Integration Test Validation ( TerraForm)
+    url: /azure/developer/terraform/best-practices-integration-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.K
+      scoreOf: []
+    context: 'Integration tests validate that a newly introduced code change doesn''t break existing code. In DevOps, continuous integration (CI) refers to a process that builds the entire system whenever the code base is changed - such as someone wanting to merge a PR into a Git repo.'
+    priority: 50
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Operational Excellence
+  - title: Testing (Azure Environment)
+    url: /azure/architecture/framework/devops/release-engineering-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.L
+      scoreOf: []
+    context: 'There are multiple stages at which tests can be performed in the life cycle of code, and each of them has some particularities that are important to understand. In this guide, you can find a summary of the different tests that you should consider while developing and deploying applications. (Refer to the recommended link).'
+    priority: 0
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Operational Excellence
+  - title: Secure your cloud solutions on Azure
+    url: /security/benchmark/azure/baselines/sql-database-security-baseline#penetration-tests-and-red-team-exercises
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.N
+      scoreOf: []
+    context: "Security baseline applies guidance from the\_Azure Security Benchmark version 2.0\_to Azure SQL Database. The Azure Security Benchmark provides recommendations on how you can secure your cloud solutions on Azure. The content is grouped by the\_security controls\_defined by the Azure Security Benchmark and the related guidance applicable to Azure SQL Database."
+    priority: 75
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Access
+  - title: 'Ensure critical test environments have 1:1 parity with the production environment'
+    url: 'https://techcommunity.microsoft.com/t5/azure-database-support-blog/copy-production-database-to-stage-or-test-environment-using/ba-p/368960'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.53de45b3-00bb-4daf-97db-d3d429f427aa.O
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform disaster recovery drills
+    url: /azure/azure-sql/database/disaster-recovery-drills
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.01f09443-c3ad-4c2d-a12d-d7ffac0097a1.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform disaster recovery drills
+    url: /azure/azure-sql/database/disaster-recovery-drills#validation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.01f09443-c3ad-4c2d-a12d-d7ffac0097a1.H
+        - dcb926e3-5005-4628-b350-b01276783f9f.01f09443-c3ad-4c2d-a12d-d7ffac0097a1.I
+      scoreOf: []
+    context: It is recommended to periodically perform the validation of application readiness for recovery workflow. A good engineering practice is to verify the application behavior and implications of data loss and/or the disruption that failover involves. It is also a requirement by most industry standards as part of business continuity.
+    priority: 100
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: ' The database should support a deployment process that leverages blue-green deployments and/or canary releases'
+    url: /azure/architecture/framework/devops/release-engineering-cd
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - dcb926e3-5005-4628-b350-b01276783f9f.d2eabdde-e6cf-457e-925b-ffc4f58c4376.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 003a1011-61c5-460d-b8ca-03d03612d92f
+name: ''

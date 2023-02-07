@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Identify databases and data that have a high potential impact and/or a high potential exposure to risk.
+    description: Use solutions like discovery and classification or vulnerability assessment options to identify such areas.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Consider restricting access to any Storage Accounts that SQL MI interacts with.
+    description: 'Review storage accounts used for backups, logs, and more to prevent data exfiltration'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Managing sensitive data securely is difficult and regularly leads to mistakes like accidentally publishing sensitive data to code repositories like GitHub.
+    description: Always use Azure Key Vault to store all sensitive information which can be exposed in deployment and configuration scripts
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: You've configured Always encrypted to protect sensitive data.
+    description: Sensitive data must not be stored in plaintext.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Authenticate via Azure Active Directory where you can.
+    description: 'With Azure AD authentication, you can centrally manage the identities of database users.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Data Masking can be used to protect sensitive data from unauthorized application users.
+    description: Dynamic data masking helps prevent unauthorized access to sensitive data by enabling customers to designate how much of the sensitive data to reveal with minimal impact on the application layer.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: f270dbbc-9c4a-4c7c-9c69-0526f7b4962c
+name: What design considerations did you make while designing Azure SQL Managed Instance with regard to security?

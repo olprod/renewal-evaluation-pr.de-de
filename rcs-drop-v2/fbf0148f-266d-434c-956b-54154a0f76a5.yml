@@ -1,0 +1,115 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Implement Application Monitoring
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/framework/devops/monitoring#application-monitoring'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.742de2bf-223d-4c04-846f-2e3481d96137.0
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.742de2bf-223d-4c04-846f-2e3481d96137.5
+      scoreOf: []
+    context: Implement Application Monitoring
+    priority: 95
+    reportingCategory: Application Monitoring
+    reportingSubCategory: ''
+  - title: Collect application level logs
+    url: /azure/architecture/framework/devops/monitoring#application-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.742de2bf-223d-4c04-846f-2e3481d96137.0
+      scoreOf: []
+    context: Collect application level logs
+    priority: 92
+    reportingCategory: Application Monitoring
+    reportingSubCategory: ''
+  - title: Instrument and collect data for your application
+    url: /azure/architecture/best-practices/monitoring#instrumenting-an-application
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.742de2bf-223d-4c04-846f-2e3481d96137.1
+      scoreOf: []
+    context: Instrument and collect data for your application
+    priority: 92
+    reportingCategory: Application Monitoring
+    reportingSubCategory: ''
+  - title: Gather logs in a structured format
+    url: /azure/architecture/best-practices/monitoring#information-to-include-in-the-instrumentation-data
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.742de2bf-223d-4c04-846f-2e3481d96137.2
+      scoreOf: []
+    context: Gather logs in a structured format
+    priority: 90
+    reportingCategory: Application Monitoring
+    reportingSubCategory: ''
+  - title: Use a log aggregation technology for applications
+    url: /azure/architecture/best-practices/monitoring#collecting-and-storing-data
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.b9090eab-febc-42df-9994-3e7157a01ef1.0
+      scoreOf: []
+    context: Use a log aggregation technology for applications
+    priority: 90
+    reportingCategory: Application Monitoring
+    reportingSubCategory: ''
+  - title: Enforce resource level monitoring
+    url: /azure/azure-monitor/deploy-scale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.6c78fa3b-c177-473e-9ace-778d706a545d.2
+      scoreOf: []
+    context: Enforce resource level monitoring
+    priority: 90
+    reportingCategory: Application Monitoring
+    reportingSubCategory: ''
+  - title: Monitor critical external dependencies
+    url: /azure/architecture/framework/devops/monitoring#monitor-external-dependencies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.6c78fa3b-c177-473e-9ace-778d706a545d.5
+      scoreOf: []
+    context: Monitor critical external dependencies
+    priority: 80
+    reportingCategory: Application Monitoring
+    reportingSubCategory: ''
+  - title: Correlate logs and metrics for critical internal dependencies
+    url: /azure/architecture/framework/devops/monitoring#event-correlation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.6c78fa3b-c177-473e-9ace-778d706a545d.3
+      scoreOf: []
+    context: Correlate logs and metrics for critical internal dependencies
+    priority: 80
+    reportingCategory: Application Monitoring
+    reportingSubCategory: ''
+  - title: Correlate resource-level logs
+    url: /azure/architecture/framework/devops/monitoring#event-correlation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - be5b72e4-4842-4eb8-87c8-5e5f2e8d91d7.b9090eab-febc-42df-9994-3e7157a01ef1.1
+      scoreOf: []
+    context: Correlate resource-level logs
+    priority: 88
+    reportingCategory: Application Monitoring
+    reportingSubCategory: ''
+uid: fbf0148f-266d-434c-956b-54154a0f76a5
+name: ''

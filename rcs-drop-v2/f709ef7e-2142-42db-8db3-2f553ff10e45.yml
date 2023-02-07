@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not have a use-case to support idea of Machine Learning for data preparation and enrichment.
+    description: |
+      Your organization does not have a use-case to support idea of Machine Learning for data preparation and enrichment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization understands the benefits of utilizing Machine Learning for data Preparation and Enrichment to support your business use-cases and plans to pilot the approach.
+    description: Your organization understands the benefits of utilizing Machine Learning for data Preparation and Enrichment to support your business use-cases and plans to pilot the approach.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has experimented with Machine Learning to automate, enrich and prep data at scale.'
+    description: 'Your organization has experimented with Machine Learning to automate, enrich and prep data at scale.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has a well-defined strategy and leveraging the benefits of Machine Learning to assist with data prep and experimentation.
+    description: Your organization has a well-defined strategy and leveraging the benefits of Machine Learning to assist with data prep and experimentation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization is using and continuously monitoring enterprise grade Machine Learning service for end-to-end machine learning lifecycle and aid in data prep, experimentation and scaling.'
+    description: 'Your organization is using and continuously monitoring enterprise grade Machine Learning service for end-to-end machine learning lifecycle and aid in data prep, experimentation and scaling.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you enrich your data with predictive machine learning models to score and predict better business outcomes?
+isRequired: true
+uid: f709ef7e-2142-42db-8db3-2f553ff10e45
+name: Do you enrich your data with predictive machine learning models to score and predict better business outcomes?

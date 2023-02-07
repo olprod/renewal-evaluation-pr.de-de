@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We treat our infrastructure as if it was code.
+    description: 'Infrastructure as Code is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as the DevOps team uses for source code.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '1'
+    text: Understand application services and components that need to be highly available and have an appropriate deployment strategy.
+    description: Provides sufficient high availability (HA) to reach your Service Level Objective (SLA).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '2'
+    text: Are any routine operational changes to application infrastructure performed outside of Infrastructure as Code (IaC)?
+    description: No routine operational changes should be performed outside of infrastructure as code like through the Azure Portal.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '3'
+    text: We track and address configuration drift.
+    description: 'Configuration drift is tracked and addressed by using tools like Terraform, Bamboo, Jenkins, Azure DevOps'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'As you provision and update resources, application code, and configuration settings, produce a repeatable and predictable process avoiding errors and downtime.'
+isRequired: true
+uid: d35487f2-c77b-49b9-9d40-92a3c22004d6
+name: 'As you provision and update resources, application code, and configuration settings, produce a repeatable and predictable process avoiding errors and downtime.'

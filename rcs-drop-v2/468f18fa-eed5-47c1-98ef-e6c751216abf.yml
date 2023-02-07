@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Devices use a configurable connection to IoT Hub when they restart.
+    description: Devices use a configurable connection to IoT Hub when they restart and connect.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: Devices use Device Provisioning Service to get the connection to IoT Hub when they restart.
+    description: 'Devices use Device Provisioning Service (DPS) to get the connection to the IoT Hub when they restart. This means that when many devices restart at the same time, because they''re onboarding or restarting after power outage, DPS gets a burst of provisioning requests.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: Devices use Device Provisioning Service to get and cache the initial connection to IoT Hub and use the cached value when they restart.
+    description: 'Devices use Device Provisioning Service (DPS) to get the initial connection to the IoT Hub when they restart but then cache this value to use in future restarts. When the cached connection becomes invalid, a device can request a new connection through DPS and cache the new value. This limits the number of provisioning requests to DPS when many devices restart at the same time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: "When your solution contains connected devices that can be restarted at the same time, for example in case of a power-outage, multiple devices can try to connect to the IoT solution at the same time or in a limited time period.\_"
+isRequired: false
+uid: 468f18fa-eed5-47c1-98ef-e6c751216abf
+name: "When your solution contains connected devices that can be restarted at the same time, for example in case of a power-outage, multiple devices can try to connect to the IoT solution at the same time or in a limited time period. Q11.\_"

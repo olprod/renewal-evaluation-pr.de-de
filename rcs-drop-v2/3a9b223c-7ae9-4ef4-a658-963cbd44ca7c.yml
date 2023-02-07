@@ -1,0 +1,20 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 7f3245fc-b7b5-40fe-b359-f5aa29f32dac
+  - ec20d44a-3150-45b4-b70d-7ef06f2e90d5
+  - a9031629-af0c-4de8-87a5-878e86f1d5e9
+  - a1d5d658-812b-454b-8335-51a793f92a41
+  - 2eb5803d-5209-4270-a4fa-7096c576116f
+  - 2c13bd39-0749-46ef-beab-625ae605d843
+  - 51c2e61f-d195-4c89-a6f7-2449143de9a7
+  - 1aae4dec-64b0-4393-9554-868b19adfd3f
+  - 1b17a497-b5b0-4b1b-874f-5cbe5a29d854
+  - 74076757-9a32-4ee4-b78f-12c9208fafab
+recommendations:
+  - 07ef7ed8-dfcb-4859-82c3-d5fbe890629d
+assignedGroupIds: []
+uid: 3a9b223c-7ae9-4ef4-a658-963cbd44ca7c
+name: AzSAP Operational Excellence

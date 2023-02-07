@@ -1,0 +1,63 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Understand cloud accounting.
+    url: /azure/cloud-adoption-framework/strategy/cloud-accounting
+    condition:
+      scoreOf:
+        - 99319d86-7b33-4c78-94c5-a6dd767c5903<1
+    context: Understand cloud accounting.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand the different capabilities required.
+    url: /azure/cloud-adoption-framework/govern/cost-management/business-risks
+    condition:
+      scoreOf:
+        - 99319d86-7b33-4c78-94c5-a6dd767c5903<2
+    context: Understand the different capabilities required.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create a financial model for cloud accounting.
+    url: /azure/cloud-adoption-framework/strategy/financial-models
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 99319d86-7b33-4c78-94c5-a6dd767c5903<3
+    context: Create a financial model for cloud accounting.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Quantify business risk tolerance as it relates to cost management.
+    url: /azure/cloud-adoption-framework/govern/cost-management/metrics-tolerance
+    condition:
+      scoreOf:
+        - 99319d86-7b33-4c78-94c5-a6dd767c5903<3
+    context: Quantify business risk tolerance as it relates to cost management.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Improve the discipline of cost management.
+    url: /azure/cloud-adoption-framework/govern/cost-management/discipline-improvement
+    condition:
+      scoreOf:
+        - 99319d86-7b33-4c78-94c5-a6dd767c5903>2
+    context: Improve the discipline of cost management.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure tools to assist in cost management.
+    url: /azure/cloud-adoption-framework/govern/cost-management/toolchain
+    condition:
+      scoreOf:
+        - 99319d86-7b33-4c78-94c5-a6dd767c5903>2
+    context: Azure tools to assist in cost management.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: cb31412c-57dc-4496-afac-a7b4cfbbbdb7
+name: ''

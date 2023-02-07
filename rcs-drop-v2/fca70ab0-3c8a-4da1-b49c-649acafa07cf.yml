@@ -1,0 +1,90 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Familiarize yourself with Analysis Services pricing, and in particular on elements driving the price calculation: QPUs, Memory (GB), presence of SLA, scale-out instances, tier, uptime, and region'
+    url: 'https://azure.microsoft.com/en-us/pricing/details/analysis-services/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cb0f13dd-5a43-4d5b-981d-00b02475ab97.ecad703d-0b35-4d83-9287-85246c4ff9fb.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Azure Pricing Calculator to estimate the pricing which helps with your budgeting and cost optimization requirements
+    url: 'https://azure.microsoft.com/en-us/pricing/calculator/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cb0f13dd-5a43-4d5b-981d-00b02475ab97.ecad703d-0b35-4d83-9287-85246c4ff9fb.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'The choice of the region to deploy the instance should be driven by the data source’s location, the users’ location, the availability of the SKU, the query replica feature (if it is planned to be used), and the price'
+    url: /azure/analysis-services/analysis-services-overview#availability-by-region
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cb0f13dd-5a43-4d5b-981d-00b02475ab97.ecad703d-0b35-4d83-9287-85246c4ff9fb.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider upgrading plan which will allow for more query processing units and more cache capacity
+    url: /azure/analysis-services/analysis-services-overview#the-right-tier-when-you-need-it
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cb0f13dd-5a43-4d5b-981d-00b02475ab97.ecad703d-0b35-4d83-9287-85246c4ff9fb.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'If you already use Power BI premium, evaluate the use of Power BI Premium that embeds an Analysis services instance instead of a standalone Azure Analysis Services server'
+    url: 'https://powerbi.microsoft.com/en-us/blog/power-bi-premium-and-azure-analysis-services/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cb0f13dd-5a43-4d5b-981d-00b02475ab97.ecad703d-0b35-4d83-9287-85246c4ff9fb.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Cost Management for Azure Analysis Services
+    url: /azure/cost-management-billing/costs/tutorial-acm-create-budgets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cb0f13dd-5a43-4d5b-981d-00b02475ab97.f1123a5d-0110-42b8-92b1-dd27e663a7c5.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Cost Analysis feature of Azure Cost Management to monitor cost and create budgets
+    url: /azure/cost-management-billing/costs/cost-analysis-common-uses
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cb0f13dd-5a43-4d5b-981d-00b02475ab97.75b07a46-36b8-4efd-bc08-d8e6365b4c39.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: fca70ab0-3c8a-4da1-b49c-649acafa07cf
+name: ''

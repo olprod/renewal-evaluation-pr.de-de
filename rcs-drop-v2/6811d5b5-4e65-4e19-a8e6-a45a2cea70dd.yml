@@ -1,0 +1,63 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Microsoft Operating System Security and Critical Updates
+    description: 'E.g. Monthly Quality Updates, Cumulative Updates, Servicing Stacks'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: Microsoft Operating System Feature Updates
+    description: E.g. Windows 10/11 22H2 Feature Update/Upgrade
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: Office/Microsoft 365 Apps monthly updates and channel releases
+    description: 'E.g. Office 365 C2R feature updates, Microsoft 365 Apps Semi-Annual Channel'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: Third-party application updates
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: Drivers
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 6811d5b5-4e65-4e19-a8e6-a45a2cea70dd
+name: What type of updates do you include in your regular patching cycle?

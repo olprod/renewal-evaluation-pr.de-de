@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Use a single governance and management layer across Azure, non-Azure and on-prem workloads'
+    description: |
+      Azure Arc is used to provide a consistent management platform for Azure, non-Azure and on-prem workloads
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: Consolidate security recommendations and alerts from on-prem and multiple cloud workloads to a single console
+    description: |
+      Gain insight into the security posture and state of all workloads across multiple clouds and on-prem by consolidating alerts and data to Defender for Cloud
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: Leverage Defender for Servers across the hybrid estate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 7592451b-2dd8-4a8a-a839-cd4672f44a5e
+name: What is your approach to centrally managing and monitoring across cloud service providers and on-prem?

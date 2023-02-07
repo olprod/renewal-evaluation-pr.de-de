@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Choose the appropriate server size for your workload
+    url: /azure/postgresql/single-server/overview-postgres-choose-server-options
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0c0f541f-bc39-4380-8548-7e8272a0eaf5.68c60223-2d84-4646-b4c8-071fa7f61174.A
+      scoreOf: []
+    context: 'Configuration options: Single Server, Flexible Server, Hyperscale (Citus).'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: Consider Reserved Capacity for Azure Database for PostgreSQL Single Server and Hyperscale (Citus)
+    url: /azure/postgresql/single-server/concept-reserved-pricing#how-does-the-instance-reservation-work
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0c0f541f-bc39-4380-8548-7e8272a0eaf5.68c60223-2d84-4646-b4c8-071fa7f61174.B
+      scoreOf: []
+    context: 'Compute costs associated with Azure Database For PostgreSQL Single Server Reservation Discount and Hyperscale (Citus) Reservation Discount. Once the total compute capacity and performance tier for Azure Database for PostgreSQL in a region is determined, this information can be used to reserve the capacity. The reservation can span one or three years. You can realize significant cost optimization with this commitment.'
+    priority: 25
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+uid: 0d534ba6-8365-4e36-8a73-1fafbd8088fa
+name: ''

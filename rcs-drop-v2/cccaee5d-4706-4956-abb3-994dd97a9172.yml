@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We use cloud-native log collection methods, where applicable, to simplify the integration between services and to remove the overhead of extra infrastructure.'
+    description: Service-to-service integration for data connectors in Azure removes the overhead of extra infrastructure and is a great example of how the integration between the services and Microsoft Sentinel is simplified.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: 'We use cloud-native security services to perform localized analysis on relevant security data sources, and we don''t transfer large unfiltered data sets from one cloud service provider to another.'
+    description: Cloud-native SIEM solutions such as Microsoft Sentinel can be connected via an API or connector to existing security services to transmit only the relevant security incident or event data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: 'We considered use cases based on Microsoft Sentinel analytics rules required for our environment. We''ve filtered or excluded log sources before transmission or ingestion into our SIEM to remove unnecessary transmission and storage of log data, and to reduce the carbon emissions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'We have a requirement to store log data for an extended period, so we archive them to long-term storage to lower the cost and improve energy efficiency.'
+    description: Select this answer even if you don't have that requirement.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: cccaee5d-4706-4956-abb3-994dd97a9172
+name: How well are your security monitoring solutions optimized for sustainability?

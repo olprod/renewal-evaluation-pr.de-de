@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 83010f70-82ef-48c1-a373-af6c2b34eb39
+  - ab75294e-c0c1-49ff-848c-325425d80496
+  - 8c32b2aa-b4ae-4147-b2f1-e21353388bf2
+  - 8b8e8eed-2518-411d-a6cb-34aad664e8d1
+  - 4a997208-96f3-493c-8545-d9b22c39a28e
+  - bbde070b-9bb5-4269-a802-6cf3d822306b
+recommendations:
+  - 48b9d4bd-374b-4f48-ba16-166a15d97cc8
+assignedGroupIds: []
+uid: ea7ee22c-047a-430e-90c5-833d3bb9a154
+name: ADLS Gen2 - Security

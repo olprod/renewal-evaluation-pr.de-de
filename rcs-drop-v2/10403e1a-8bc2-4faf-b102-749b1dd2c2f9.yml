@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Have a good database design and minimize the load on the data store.
+    description: 'Use appropiate types where possible, remove logic (such as processing XML documents or JSON objects) from the data store, and perform processing within the application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: Normalize the data appropriately.
+    description: Data normalization helps to avoid duplication and inconsistency. Optimize database queries and indexes.Some T-SQL statements or constructs may have an adverse effect on performance that can be reduced by optimizing the code in a stored procedure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: Document plans for data growth and retention.
+    description: 'The amount of data stored by an application grows over time, how are you going to handle that growth?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Use sharding for database storage when appropriate.
+    description: 'Divide the data across multiple databases and database servers, or design the application to use data storage services that can provide this partitioning transparently.Only apply this pattern if needed since it introduces additional complexity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Optimize database queries and create/modify indexes to match query patterns.
+    description: Use Query Performance Insights to find top resource consuming queries.Some suboptimal code may have an adverse effect on performance that can be reduced by optimizing the code.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: 'Ensure large data is partitioned using partitioned tables, partitioned indexes, or partitioned views are in place in order to efficiently manage large amounts of data.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Consider columnstore indexes to compress and efficiently query larger analytics tables and use non-clustered columnstore indexes if you have combined transactional and reporting workload.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: 'By using in-memory technologies, you can achieve performance improvements with various workloads.'
+    description: 'In-memory technologies can improve performance of these workloads by keeping the data that should be processed into the memory, using native compilation of the queries, or advanced processing such as batch processing and SIMD instructions that are available on the underlying hardware.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: Verify  option of SQL MI engine to use parallel threads during query processing.
+    description: 'The number of concurrently executing threads, and the resulting CPU utilization, depends on the MAXDOP value - higher values generally result in more threads and higher resource utilization.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: J
+    text: Increasing file size might be an easy way to improve your performance in SQL MI General Purpose tier
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: scaling-data-sqlmi
+uid: 10403e1a-8bc2-4faf-b102-749b1dd2c2f9
+name: How are you managing your data to handle scale?

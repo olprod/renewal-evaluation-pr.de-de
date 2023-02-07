@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Scaling options for applications in Azure Kubernetes Service (AKS).
+    description: 'With Azure Kubernetes Service (AKS), you may need to increase or decrease the amount of compute resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Manage a compute cluster in your Azure Machine Learning workspace.
+    description: 'You can use an Azure Machine Learning compute cluster to distribute a training or batch inference process across a cluster of CPU or GPU compute nodes in the cloud. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Use AKS fault tolerance and QoS metrics for real-time inferencing in Azure Machine Learning.
+    description: This is used to provision Azure Machine Learning components to ensure the desired level of fault tolerance and QoS.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Build a failover plan for business continuity and disaster recovery to respond to failures and disasters.
+    description: 'To maximize your uptime, plan ahead to maintain business continuity and prepare for disaster recovery with Azure Machine Learning. If unplanned service outages occur, we recommend having a disaster recovery plan in place for handling regional service outages. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.ai
+stem: Designing application platform resiliency and availability is critical to ensuring overall application reliability.
+isRequired: false
+legacyId: '4'
+uid: 9c94ff3a-a383-43bf-b502-68af5ca3ed29
+name: Designing application platform resiliency and availability is critical to ensuring overall application reliability.

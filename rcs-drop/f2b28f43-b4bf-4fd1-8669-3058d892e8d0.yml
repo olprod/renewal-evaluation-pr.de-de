@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to remove customizations that have been applied to the Customer list page in the Order Processing profile (role).
+
+  Which three actions should you perform? Each correct answer presents part of the solution.
+questionnaireUid: 81d47dff-e26a-43b7-9fae-759a75ea8c61
+questions:
+  - uid: f2b28f43-b4bf-4fd1-8669-3058d892e8d0-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You need to remove customizations that have been applied to the Customer list page in the Order Processing profile (role).
+        isCorrect: false
+      - id: 1
+        text: Which three actions should you perform?
+        isCorrect: true
+      - id: 2
+        text: Each correct answer presents part of the solution.
+        isCorrect: false
+      - id: 3
+        text: 'From the Order Processing role center, open the profile in customization mode.'
+        isCorrect: true
+      - id: 4
+        text: Open the Customer list page in customization mode and select **Clear Customization**.
+        isCorrect: true
+uid: f2b28f43-b4bf-4fd1-8669-3058d892e8d0
+title: ''

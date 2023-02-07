@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 9cdb6adf-915c-42ef-bea6-68f86cbfd579
+recommendations:
+  - 0ef32af6-9c50-4491-8b10-d3b1bae8aa11
+assignedGroupIds: []
+uid: cc674387-2946-464b-aab1-9c687972e015
+name: 'Go-Live - Cosmos DB: Reliability'

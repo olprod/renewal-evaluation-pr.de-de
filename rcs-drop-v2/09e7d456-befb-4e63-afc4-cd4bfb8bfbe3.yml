@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Unnecessary public endpoints were removed to limit the application attack surface.
+    description: Most Azure services provide capabilities to limit traffic to known endpoints through network restrictions and/or to create Private Endpoints and limit all traffic to those.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Virtual networks that don't require corporate network connectivity are treated as ephemeral resources that are replaced when a new regional deployment is conducted.
+    description: 'If the VNets don''t require peering, they should be treated as ephemeral resources, just like other components of the application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'In corp-connected scenarios, it''s ensured that IP address spaces don''t overlap with connected networks and are properly sized.'
+    description: IP space contention or overlap can create serious outages that are often hard to fix quickly.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: All components on critical network paths are in line with the reliability and availability requirements of associated user flows.
+    description: 'Those components might include centrally managed firewall appliances, DNS servers, or Express Route connections. If any of these are on the critical path for the application, their availability targets and resiliency strategies need to be understood and aligned.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'For scenarios requiring on-premises network integration, the use of Express Route is prioritized to ensure secure and scalable connectivity.'
+    description: Express Route provides more predictable and reliable connections than VPN.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'A mission-critical application typically encompasses requirements for integration with other applications or dependent systems, which could be hosted on Azure, another public cloud, or on-premises data centers. '
+isRequired: false
+uid: 09e7d456-befb-4e63-afc4-cd4bfb8bfbe3
+name: 'A mission-critical application typically encompasses requirements for integration with other applications or dependent systems, which could be hosted on Azure, another public cloud, or on-premises data centers.'

@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: F
+    text: Adhering to Azure Machine Learning subscription limits for compute and pipelines.
+    description: 'Azure Machine Learning limits for compute include a maximum of 800 workspaces per resource group, up to 100 compute nodes, 1-4 GPU MPI processes per node, 1-4 GPU workers per node, up to 21 days of job lifetime, and 1 parameter server per node. Pipelines have limits of 30,000 steps in a pipeline and up to 800 workspaces per resource group.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: K
+    text: Review service limits in Azure Machine Learning.
+    description: This section lists basic quotas and throttling thresholds in Azure Machine Learning.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: G
+    text: Adhering to Azure Machine Learning subscription limits for storage.
+    description: Up to 250 storage accounts.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: L
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+    - waf-config-golive.waf-scenario.ai
+stem: Azure uses limits and quotas to prevent budget overruns due to fraud and to honor Azure capacity constraints. Consider these limits as you scale for production workloads.
+isRequired: false
+legacyId: '3'
+uid: a6013689-bb56-48c3-8bd6-9ac6ca077564
+name: Azure uses limits and quotas to prevent budget overruns due to fraud and to honor Azure capacity constraints.

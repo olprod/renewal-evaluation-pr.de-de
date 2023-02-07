@@ -1,0 +1,23 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Security operations reduce risk by limiting damage from attackers who gain access to your organization's resources.
+hideEmptyGuidance: false
+questions:
+  - 4b8457e8-b1c7-4bb0-91cd-9fc38d387d4b
+  - 9dd8d8f4-f194-4b5a-95af-20bde44d5fdd
+  - f6bfbf8c-c821-40ba-800a-5c0276157391
+  - de8a8e1e-0c2d-414b-9078-3fc63dbe0c0c
+  - 9f1b9bd7-45db-470b-b034-1d73a5e0b1ee
+  - 7babe692-48dd-4618-ab83-5cab33294ee5
+  - 4f4e0bae-ca48-4850-8824-7cb68800fae6
+  - 53b23e5d-2ddd-45d8-a9eb-ef78a7f1d8c3
+  - 42e29a6b-a908-4535-ae36-63d23dbe1f54
+  - 78bece29-6399-452a-aaef-6b32b331b2dc
+  - 4748e5f6-b8d6-4222-be49-9e6ce5422dba
+  - 6fa81d06-928b-48f9-a7ce-473bd07541e1
+recommendations:
+  - ab568339-6d42-45d1-b93e-5b02e0f0e7ef
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: f9786eb5-0ea0-4765-b6ac-48aad5bbfa9b
+name: Security Operations

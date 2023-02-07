@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: 'No'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.88377a38-1877-45ac-bf31-f69850668789.2
+  anyOf:
+    - 6bdded40-7e8d-4d83-abe0-2171906109c6.4d37de25-824e-45ae-b858-d7067141564b.1
+    - 6bdded40-7e8d-4d83-abe0-2171906109c6.4d37de25-824e-45ae-b858-d7067141564b.2
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 5b6fee25-c024-431c-b00c-6521570cba83
+name: 'Since you use ADFS or 3rd party Identity Provider, do you integrate your IdP with Microsoft Defender for Cloud Apps?'

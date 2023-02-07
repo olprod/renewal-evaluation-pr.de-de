@@ -1,0 +1,59 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Security operations policies are aligned to the mission of the organization
+    description: |
+      Create a bridge between Security and Business
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: A Cloud Strategy Team has been formed and includes operations representatives
+    description: |
+      A "Cloud Strategy Team" should be established and functional
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Cloud SecOps is involved with the release planning phase of the software development lifecycle
+    description: |
+      Involve Security Operations in early stages
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: 'Current and relevant threats are communicated with business leaders regularly '
+    description: |
+      Create a knowledge feedback loop
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 9f1b9bd7-45db-470b-b034-1d73a5e0b1ee
+name: How is security and security operations integrated into the broader organization?

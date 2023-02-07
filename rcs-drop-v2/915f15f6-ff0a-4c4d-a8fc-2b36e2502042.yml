@@ -1,0 +1,26 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Development best practices for Azure Synapse Analytics Dedicated SQL pool.
+    description: 'Review different design options for performance optimizations, Including Statistics, Table designs, Partitioning.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: performance-data-synapse
+uid: 915f15f6-ff0a-4c4d-a8fc-2b36e2502042
+name: How are you thinking about performance?

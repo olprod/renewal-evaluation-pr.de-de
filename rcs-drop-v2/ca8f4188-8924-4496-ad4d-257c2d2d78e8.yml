@@ -1,0 +1,162 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'Version control systems are software that helps track changes make in code over time. As a developer edits code, the version control system takes a snapshot of the files. It then saves that snapshot permanently so it can be recalled later if needed.'
+links:
+  - title: Implement Source Control Integration
+    url: 'https://docs.microsoft.com/en-us/devops/develop/git/what-is-git#git-basics'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.b0854937-5fb4-409c-8116-9e26b0cca23b.0
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.b0854937-5fb4-409c-8116-9e26b0cca23b.1
+      scoreOf: []
+    context: Implement Source Control Integration
+    priority: 99
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Source Control Integration
+  - title: Protect branches with policies
+    url: 'https://docs.microsoft.com/en-us/devops/develop/git/git-pull-requests#protect-branches-with-policies'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.bc953cae-eb51-4822-a11a-f2107a7f5404.3
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.b0854937-5fb4-409c-8116-9e26b0cca23b.3
+      scoreOf: []
+    context: Protect branches with policies
+    priority: 95
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Branching Strategy
+  - title: Adopt a Git branching strategy
+    url: 'https://docs.microsoft.com/en-us/devops/develop/git/git-share-code#create-a-branch'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.be395edd-bdf7-4f4a-b52a-2358b8ffc19c.3
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.be395edd-bdf7-4f4a-b52a-2358b8ffc19c.2
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.b0854937-5fb4-409c-8116-9e26b0cca23b.2
+      scoreOf: []
+    context: Adopt a Git branching strategy
+    priority: 95
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Branching Strategy
+  - title: Update code with fetch and pull
+    url: 'https://docs.microsoft.com/en-us/devops/develop/git/git-share-code#stage-changes'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.a80344d2-4eed-42b7-8b14-1ec2bae6154c.0
+      scoreOf: []
+    context: Update code with fetch and pull
+    priority: 90
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Branching Strategy
+  - title: Implement a Code Review Strategy
+    url: 'https://devblogs.microsoft.com/appcenter/how-the-visual-studio-mobile-center-team-does-code-review/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.bc953cae-eb51-4822-a11a-f2107a7f5404.3
+      scoreOf: []
+    context: Implement a Code Review Strategy
+    priority: 90
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Code Reviews
+  - title: Understand the impact of dependencies
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/design-resiliency#understand-the-impact-of-dependencies'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.8f2184bf-604e-4152-abe8-a0a0561206ed.4
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.8f2184bf-604e-4152-abe8-a0a0561206ed.3
+      scoreOf: []
+    context: Understand the impact of dependencies
+    priority: 80
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Code Dependencies
+  - title: Manage dependencies with Azure Artifacts
+    url: 'https://docs.microsoft.com/en-us/learn/modules/manage-build-dependencies/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.8f2184bf-604e-4152-abe8-a0a0561206ed.4
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.8f2184bf-604e-4152-abe8-a0a0561206ed.3
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.8f2184bf-604e-4152-abe8-a0a0561206ed.2
+      scoreOf: []
+    context: Manage dependencies with Azure Artifacts
+    priority: 50
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Code Dependencies
+  - title: Use version control for product files
+    url: 'https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/use-git-microsoft'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.c9a3b352-76ff-43a5-ade3-04fb44ea0218.3
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.c9a3b352-76ff-43a5-ade3-04fb44ea0218.2
+      scoreOf: []
+    context: Use version control for product files
+    priority: 50
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Source Control Integration
+  - title: Start managing technical debt
+    url: 'https://devblogs.microsoft.com/premier-developer/technical-debt-the-anti-devops-culture/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.8f2184bf-604e-4152-abe8-a0a0561206ed.4
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.117ee817-e325-4b46-a0a4-e435c01fd3bc.0
+      scoreOf: []
+    context: Start managing technical debt
+    priority: 90
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Managing Technical Debt
+  - title: Perform peer code reviews prior to every commit or check-in
+    url: 'https://docs.microsoft.com/en-us/devops/develop/git/git-pull-requests#get-code-reviewed'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.bc953cae-eb51-4822-a11a-f2107a7f5404.3
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.b0854937-5fb4-409c-8116-9e26b0cca23b.5
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.bc953cae-eb51-4822-a11a-f2107a7f5404.1
+      scoreOf: []
+    context: Perform peer code reviews prior to every commit or check-in
+    priority: 90
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Code Reviews
+  - title: Configure check-in policies
+    url: 'https://docs.microsoft.com/en-us/devops/develop/git/git-pull-requests#protect-branches-with-policies'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.bc953cae-eb51-4822-a11a-f2107a7f5404.3
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.be395edd-bdf7-4f4a-b52a-2358b8ffc19c.3
+      scoreOf: []
+    context: Configure check-in policies
+    priority: 95
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Branching Strategy
+  - title: Integrate code early and often
+    url: 'https://docs.microsoft.com/en-us/devops/plan/what-is-agile-development#integrate-early-and-often'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9047ab21-c7fc-4954-a2b4-49d0b7a92dfd.a80344d2-4eed-42b7-8b14-1ec2bae6154c.0
+      scoreOf: []
+    context: Integrate code early and often
+    priority: 90
+    reportingCategory: Software Development Practices
+    reportingSubCategory: Source Control Integration
+uid: ca8f4188-8924-4496-ad4d-257c2d2d78e8
+name: Define a Version Control System

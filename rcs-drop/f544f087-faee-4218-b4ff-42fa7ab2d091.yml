@@ -1,0 +1,23 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are planning a Microsoft Teams solution that will provide content that is relevant only to individual users.
+
+  What is the most appropriate tab scope for the solution?
+questionnaireUid: 648834dd-62e9-4f5e-bec1-0f2b2c175748
+questions:
+  - uid: f544f087-faee-4218-b4ff-42fa7ab2d091-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are planning a Microsoft Teams solution that will provide content that is relevant only to individual users.
+        isCorrect: false
+      - id: 1
+        text: What is the most appropriate tab scope for the solution?
+        isCorrect: false
+      - id: 2
+        text: Teams scope
+        isCorrect: true
+uid: f544f087-faee-4218-b4ff-42fa7ab2d091
+title: ''

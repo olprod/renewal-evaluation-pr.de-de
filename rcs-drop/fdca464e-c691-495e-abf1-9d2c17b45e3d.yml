@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Dynamics 365 Supply Chain Management.
+
+  Users need to add fields in the purchase order form to increase data entry efficiency. Each user has different efficiency requirements that dictate which fields should be used.
+
+  How should you address the form optimization requests?
+questionnaireUid: 2c1e19a4-7194-49a0-8fd9-81732e8b19a7
+questions:
+  - uid: fdca464e-c691-495e-abf1-9d2c17b45e3d-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company uses Dynamics 365 Supply Chain Management.
+        isCorrect: false
+      - id: 1
+        text: Users need to add fields in the purchase order form to increase data entry efficiency.
+        isCorrect: false
+      - id: 2
+        text: Each user has different efficiency requirements that dictate which fields should be used.
+        isCorrect: false
+      - id: 3
+        text: 'How should you address the form optimization requests?  '
+        isCorrect: true
+      - id: 4
+        text: Add the fields by extending the base purchase order form.
+        isCorrect: false
+uid: fdca464e-c691-495e-abf1-9d2c17b45e3d
+title: ''

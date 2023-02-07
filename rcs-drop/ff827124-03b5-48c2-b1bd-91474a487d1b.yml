@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are configuring a Power Query import for a CSV file that contains sales transactions. You have applied several complex transformations to prepare the data for ingestions. 
+
+  While checking your work, you notice that you have removed two columns that are required to define an activity in Microsoft Dynamics 365 Customer Insights.
+
+  You need to include the removed columns in the ingested data.
+
+  What should you do?
+questionnaireUid: 5a0c26ba-576a-4071-95f6-10a2ea4364ca
+questions:
+  - uid: ff827124-03b5-48c2-b1bd-91474a487d1b-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are configuring a Power Query import for a CSV file that contains sales transactions.
+        isCorrect: false
+      - id: 1
+        text: You have applied several complex transformations to prepare the data for ingestions.
+        isCorrect: false
+      - id: 2
+        text: 'While checking your work, you notice that you have removed two columns that are required to define an activity in Microsoft Dynamics 365 Customer Insights.'
+        isCorrect: true
+      - id: 3
+        text: You need to include the removed columns in the ingested data.
+        isCorrect: false
+    manualId: 'MB-260.4.2 '
+uid: ff827124-03b5-48c2-b1bd-91474a487d1b
+title: ''
+manualId: ''

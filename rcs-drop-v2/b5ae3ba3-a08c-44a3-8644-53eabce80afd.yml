@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Create and customize alert rules by using Azure Monitor • Configure diagnostic logging and log retention by using Azure Monitor • Monitor security logs by using Azure Monitor • Create and customize alert rules in Microsoft Sentinel • Configure connectors in Microsoft Sentinel • Evaluate alerts and incidents in Microsoft Sentinel'
+isRequired: true
+uid: b5ae3ba3-a08c-44a3-8644-53eabce80afd
+name: 'For example: Create and customize alert rules by using Azure Monitor • Configure diagnostic logging and log retention by using Azure Monitor • Monitor security logs by using Azure Monitor • Create and customize alert rules in Microsoft Sentinel • Configure connectors in Microsoft Sentinel • Evaluate alerts and incidents in Microsoft Sentinel '

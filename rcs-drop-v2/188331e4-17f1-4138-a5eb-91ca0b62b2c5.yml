@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You''ve defined the list of users and security principals with access to Azure IoT Hub, DPS, and any other backend service along with their corresponding permissions using Azure role-based access control (RBAC) and IAM features.'
+    description: 'You can use Azure Active Directory to authenticate requests to Azure IoT Hub service APIs, such as create device identity and invoke direct method. You can also use Azure RBAC to authorize those same service APIs. By using these technologies together, you can grant permissions to access Azure IoT Hub service APIs to an Azure Active Directory security principal. This security principal could be a user, group, or application service principal.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: You've designed your Azure IoT Hub access level policies to ensure fine-grained isolation of activities.
+    description: Azure IoT Hub uses access policies to grant access to each IoT hub endpoint. Permissions limit the access to an IoT hub based on functionality.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: 'You''ve configured the Azure Active Directory Security Principals that have access to other backend services of the IoT solution, such as Stream Analytics or Event Hubs, with the correct permissions and based on the principle of least privilege.'
+    description: 'RBAC is the authorization system you use to manage access to Azure resources. To grant access, you assign roles to users, groups, service principals, or managed identities at a particular scope.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: 'For auto-provisioning scenarios, you''ve configured device and gateway manufacturers (and other third parties) with the appropriate roles in DPS to properly enroll those devices/gateways.'
+    description: 'Provisioning places requirements on the device manufacturer, specific to enabling the attestation mechanism. Manufacturing operations can also occur independent of the timing of auto-provisioning phases, especially in cases where new devices are procured after auto-provisioning has already been established.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 70
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Define the right set of roles and map the right users to those roles to ensure users have the right permissions for the Azure resources they manage. Define roles for accessing Azure IoT Hub, DPS, and any other services that are part of the overall IoT solution.'
+isRequired: false
+uid: 188331e4-17f1-4138-a5eb-91ca0b62b2c5
+name: 'Define the right set of roles and map the right users to those roles to ensure users have the right permissions for the Azure resources they manage. Define roles for accessing Azure IoT Hub, DPS, and any other services that are part of the overall IoT solution.'

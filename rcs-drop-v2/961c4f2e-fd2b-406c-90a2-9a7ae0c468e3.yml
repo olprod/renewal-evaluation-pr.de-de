@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited.Limited. Your organization does not have a data model repository with models being developed in an ad-hoc fashion using a set of disparate tools.
+    description: Your organization does not have a data model repository with models being developed in an ad-hoc fashion using a set of disparate tools.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization has identified a need for a common data repository and plans to develop and store models in a central, easy to manage location.'
+    description: 'Your organization has identified a need for a common data repository and plans to develop and store models in a central, easy to manage location.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization is leveraging the concepts of common data repository and actively develops and stores models in a central, easy to manage location.'
+    description: 'Your organization is leveraging the concepts of common data repository and actively develops and stores models in a central, easy to manage location.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization is implementing tools and processes by leveraging database templates to help accelerate development and standardization using industry-based templates from one central location.
+    description: Your organization is implementing tools and processes by leveraging database templates to help accelerate development and standardization using industry-based templates from one central location.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization is fully utilizing and leveraging database templates relevant your industry from one central location that easy to manage.
+    description: Your organization is fully utilizing and leveraging database templates relevant your industry from one central location that easy to manage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How do you handover data modeling requirements to the data Engineers?
+isRequired: true
+uid: 961c4f2e-fd2b-406c-90a2-9a7ae0c468e3
+name: How do you handover data modeling requirements to the data Engineers?

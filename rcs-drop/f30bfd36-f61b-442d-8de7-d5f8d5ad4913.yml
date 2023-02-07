@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing a plug-in to create an activity. The activity must make a phone call three days after a user adds a contact record.
+
+  You must register the plug-in. You complete the Plug-in Registration tool information and select the **Register Selected Plug-ins** option. You successfully register the plug-in.
+
+  What should you do next?
+questionnaireUid: 3fd3f77b-4723-4e0f-8d41-6f53fda2ab9e
+questions:
+  - uid: f30bfd36-f61b-442d-8de7-d5f8d5ad4913-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a plug-in to create an activity.
+        isCorrect: true
+      - id: 1
+        text: The activity must make a phone call three days after a user adds a contact record.
+        isCorrect: false
+      - id: 2
+        text: You must register the plug-in.
+        isCorrect: false
+      - id: 3
+        text: You complete the Plug-in Registration tool information and select the **Register Selected Plug-ins** option.
+        isCorrect: false
+uid: f30bfd36-f61b-442d-8de7-d5f8d5ad4913
+title: ''

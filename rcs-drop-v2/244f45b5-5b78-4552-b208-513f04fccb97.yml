@@ -1,0 +1,277 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Does not exist
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not formalized'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: 'Formalized, but requires development'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.A
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.B
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.C
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.D
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 244f45b5-5b78-4552-b208-513f04fccb97-q-0
+    name: 'We have an established structure with representation from Business, Finance, and IT to advocate, support and influence across the company.'
+  - responseAlternatives:
+      - id: A
+        text: Does not exist
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not formalized'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: 'Formalized, but requires development'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.A
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.B
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.C
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.D
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 244f45b5-5b78-4552-b208-513f04fccb97-q-1
+    name: 'We have a dedicated Cloud Strategy team that consists of influencers from Finance, impacted Line of Business units, and Technical Architects.'
+  - responseAlternatives:
+      - id: A
+        text: Does not exist
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not formalized'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: 'Formalized, but requires development'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.A
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.B
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.C
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.D
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 244f45b5-5b78-4552-b208-513f04fccb97-q-2
+    name: 'We have a dedicated Cloud Governance team that consists of subject matter experts from Security, IT Ops, and Business Decision Makers to assess business risks and tolerance levels.'
+  - responseAlternatives:
+      - id: A
+        text: Does not exist
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not formalized'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: 'Formalized, but requires development'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.A
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.B
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.C
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.D
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 244f45b5-5b78-4552-b208-513f04fccb97-q-3
+    name: We have a dedicated Cloud Migration team that consists of subject matter experts that have strong awareness of current technical estate.
+  - responseAlternatives:
+      - id: A
+        text: Does not exist
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not formalized'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: 'Formalized, but requires development'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.A
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.B
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.C
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.D
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 244f45b5-5b78-4552-b208-513f04fccb97-q-4
+    name: We have top-down support and push to adopt the cloud.
+  - responseAlternatives:
+      - id: A
+        text: Does not exist
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: 'Exists, but not formalized'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: 'Formalized, but requires development'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: D
+        text: Formalized and performing
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    condition:
+      allOf: []
+      anyOf:
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.A
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.B
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.C
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.D
+        - 18475f82-3867-43a1-be66-70cf19e166a3.652b96f2-80ce-423b-9977-d540e3123823.652b96f2-80ce-423b-9977-d540e3123823-q-0.E
+      noneOf: []
+      scoreOf: []
+    stem: ''
+    isRequired: false
+    uid: 244f45b5-5b78-4552-b208-513f04fccb97-q-5
+    name: 'We have adequate training for our developers to ensure they are building safe apps (e.g., cross-site scripting, cross-origin resource sharing, script injection, using HTTPS).'
+stem: 'Organizational Readiness is the degree to which your people, roles, skills, and policies support cloud adoption.'
+isRequired: true
+uid: 244f45b5-5b78-4552-b208-513f04fccb97
+name: 'Organizational Readiness is the degree to which your people, roles, skills, and policies support cloud adoption. '

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Public internet traffic is disabled on RDP and SSH ports across all applicable NSGs.
+    description: Direct management access should be limited or avoided. Management traffic should go through APIs and/or jump boxes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: The use of Azure CNI network plugin is prioritized over the use of Kubenet.
+    description: Azure CNI provides a richer feature set than Kubenet.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: Inter-service communication is restricted to services that need to communicate with each other.
+    description: 'Lateral movement, data exfiltration, and other attack vectors should be limited.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Network Policy feature in Kubernetes is used to define rules for ingress and egress traffic between pods in a cluster.
+    description: Network Policy allows the creation of traffic rules as Kubernetes objects.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Micro-segmentation is a network security design pattern used to isolate and secure individual application workloads, with policies applied to limit network traffic between workloads based on a Zero Trust model.'
+isRequired: false
+uid: 6fcd5438-fcda-4f0f-966b-2e716d67eb43
+name: 'Micro-segmentation is a network security design pattern used to isolate and secure individual application workloads, with policies applied to limit network traffic between workloads based on a Zero Trust model.'

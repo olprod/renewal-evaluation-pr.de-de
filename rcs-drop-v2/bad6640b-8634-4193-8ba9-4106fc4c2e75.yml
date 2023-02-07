@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Very poor
+    description: developers receive very little training and/or our training sessions are ineffective
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Below average
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Average
+    description: 'we have efficient and effective learning programs delivered through a mix of technologies, and updated periodically'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: Above average
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '4'
+    text: Truly distinctive
+    description: 'we know what skills we will need in the future to win and develop effective programs and 1:1 coaching to help our developers to develop the skills needed for our business'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: review the tooltips for examples
+isRequired: true
+uid: bad6640b-8634-4193-8ba9-4106fc4c2e75
+name: review the tooltips for examples

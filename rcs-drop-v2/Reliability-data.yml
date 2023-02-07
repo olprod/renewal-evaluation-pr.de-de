@@ -1,0 +1,56 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'In a cloud environment you scale out rather than buying higher-end hardware to scale up. While it’s always desirable to prevent all failure, focus your efforts in minimizing the effects of a single failing component.'
+hideEmptyGuidance: false
+questions:
+  - 1920a08e-5ff0-4584-a847-24157af718ad
+  - 709b3731-1b9c-42cf-9494-ef0b70b0345e
+  - a9a7141b-7462-4d7d-a043-391d6bb700f9
+  - d4355dd2-e470-4d0a-8a99-3c4e136e638a
+  - a2ba3022-8146-4654-8a97-a7183f2d11f7
+  - a253f7b0-dfea-4799-9c7a-7fc47a335ee5
+  - 1c377942-ac94-4ce5-ad9c-16e73877b87f
+  - 93e01ec5-c51c-407a-8fc5-59a3295fa1f6
+  - 575a87b0-7406-4773-b8c8-c6197f781a16
+  - 20ded8aa-544f-4826-a06b-f4937ec192da
+  - a923179e-151f-44ee-ae3f-bcfede5fe930
+  - f18d10b7-75c6-45fc-852b-76c7b61945b4
+  - 25e5d0e7-9416-4185-87f2-b4fcae0e5960
+  - 6c5283f7-ae77-4345-9a06-ec54167d8277
+  - 223960de-be52-4413-89c1-2e175955d3b1
+  - 699058ad-8feb-48c2-9b07-579f6981f0a9
+  - e4495fcc-e7b8-4428-a688-b2011786e4d8
+  - fec802d4-1e3b-4710-97c5-919207134e62
+  - 9faee5c7-e5d6-4f51-918f-488de736a6c9
+  - e57b75b2-70dc-41d7-adc1-2c3ee06a01c9
+  - 7090cb3a-6efb-4630-ab8a-f5dde7728efb
+  - 43cf7303-d171-48db-b808-524044e3a38d
+  - 3ab1b610-801c-4726-a93b-681c38efac32
+  - f389a0d4-2b40-4aec-a6b7-af75d80942f9
+  - 6c804d86-7a1c-4a43-9134-43131bec0cc1
+  - 04f08ef0-eb49-41ab-9985-1f56fac6167e
+  - af8646d4-dce7-49e0-a72f-27de58e43022
+  - 4cf33a15-1db3-4173-b8a4-b6caa67eb4b1
+  - 0b97d3ee-8d2e-408e-9904-a80e9d97d315
+  - a13b21a9-d5df-4b8a-b819-5fc9dbfc6dee
+  - ccd1c4cf-9614-4827-aa59-d82008ec0547
+  - 5961ae4e-1b72-4f65-bd9c-2403a6e686ee
+  - 8b049cbd-9453-4b12-8f6c-4d4ee3fd1ba8
+  - 513a6e70-f618-4c07-93e8-c54714be167f
+  - cb0fb105-6bd1-4ab7-8403-51fef62054fc
+  - 05e4d235-9b73-4382-bb26-1124639c2e4e
+  - f068ef0c-e524-43f0-8580-839b85f32cf9
+  - 7033befa-83a8-4aaf-997f-adecad4e7550
+  - 9254c6f1-1071-4230-948c-b3b9037a1353
+  - e8a25642-295a-49ce-8413-5733a781e9d7
+  - a857e646-31f4-475a-b3b0-1f91de97c755
+  - 042e44d4-65cf-488b-bd93-6e7fef7e4786
+  - 962c83c3-1ca3-4101-9d8f-028b67f9c27b
+  - 5340c41a-c245-4488-a1e0-3318441cce63
+  - abcf1f66-6d54-4180-a0ba-24e16e05f81b
+  - 2f3bf023-2c0f-4e56-af17-5296495e7afd
+recommendations:
+  - 047ea069-9900-4e39-b93e-42e5e8fb80fb
+assignedGroupIds: []
+uid: Reliability-data
+name: Reliability - Data Management

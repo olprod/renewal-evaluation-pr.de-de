@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |
+  Your company is considering whether to use communication compliance policies.
+
+  Administrators can create multiple communication compliance policies by using a single Monitor for sensitive info template.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 374aa148-f917-49ef-853b-1928c8b8343f
+questions:
+  - uid: fafa1034-09f5-4dee-9748-9e78ca0dd97f-q-0
+    title: Your company is considering whether to use communication compliance policies.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Administrators can create multiple communication compliance policies by using a single Monitor for sensitive info template.
+        isCorrect: false
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: true
+uid: fafa1034-09f5-4dee-9748-9e78ca0dd97f
+title: 'Otherwise, select No.'

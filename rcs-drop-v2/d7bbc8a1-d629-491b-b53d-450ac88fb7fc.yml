@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: 'https://learn.microsoft.com/en-us/training/achievements/sc-100-design-security-for-infrastructure.svg'
+description: ''
+links:
+  - title: Design a strategy for securing server and client endpoints
+    url: 'https://learn.microsoft.com/training/modules/design-strategy-for-secure-server-client-endpoints/'
+    condition:
+      allOf: []
+      anyOf:
+        - b55438d3-ffcc-4d44-bc76-d012ea7eaf2a.02441542-0b23-4059-b93a-f26e8c60c4f7.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Design a strategy for securing SaaS, PaaS and IaaS services'
+    url: 'https://learn.microsoft.com/training/modules/design-strategy-for-secure-paas-iaas-saas-services/'
+    condition:
+      allOf: []
+      anyOf:
+        - b55438d3-ffcc-4d44-bc76-d012ea7eaf2a.420d44cd-5e8d-4b1c-8deb-2500b568c236.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: d7bbc8a1-d629-491b-b53d-450ac88fb7fc
+name: Review learning materials for designing security for infrastructure

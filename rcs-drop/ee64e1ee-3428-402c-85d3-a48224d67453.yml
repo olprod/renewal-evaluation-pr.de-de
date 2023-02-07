@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company has a Microsoft 365 E5 subscription.
+
+  You notice that an insider risk management alert was recently triggered.
+
+  How can you resolve the alert?
+questionnaireUid: eecb5a7c-8d3c-42a4-b3cc-a8f15dc457c6
+questions:
+  - uid: ee64e1ee-3428-402c-85d3-a48224d67453-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company has a Microsoft 365 E5 subscription.
+        isCorrect: true
+      - id: 1
+        text: You notice that an insider risk management alert was recently triggered.
+        isCorrect: false
+      - id: 2
+        text: How can you resolve the alert?
+        isCorrect: false
+      - id: 3
+        text: Assign the alert to an existing case.
+        isCorrect: false
+    manualId: MS100_8.2.3
+uid: ee64e1ee-3428-402c-85d3-a48224d67453
+title: ''
+manualId: ''

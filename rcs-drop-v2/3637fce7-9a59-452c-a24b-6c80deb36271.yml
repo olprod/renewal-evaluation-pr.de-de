@@ -1,0 +1,27 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use data encryption with Azure Machine Learning.
+    description: Azure Machine Learning uses a variety of Azure data storage services and compute resources when training models and performing inference. There are different ways each of the resources provide encryption for data at rest and in transit.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: C
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+    - waf-config-golive.waf-scenario.ai
+stem: 'Protecting data at rest and in transit is required to maintain confidentiality, integrity, and availability assurances across all workloads.'
+isRequired: false
+legacyId: '2'
+uid: 3637fce7-9a59-452c-a24b-6c80deb36271
+name: 'Protecting data at rest and in transit is required to maintain confidentiality, integrity, and availability assurances across all workloads.'

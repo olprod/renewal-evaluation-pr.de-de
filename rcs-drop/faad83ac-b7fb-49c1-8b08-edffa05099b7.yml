@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You plan to provision the built-in tab Website to an existing Team by using Microsoft Graph.
+
+  For Website tabs, you must set the teamsApp@odata.bind to https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.web.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 33667b9e-7551-4c49-8024-d23a877e2d37
+questions:
+  - uid: faad83ac-b7fb-49c1-8b08-edffa05099b7-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You plan to provision the built-in tab Website to an existing Team by using Microsoft Graph.
+        isCorrect: true
+      - id: 1
+        text: 'For Website tabs, you must set the teamsApp@odata.bind to https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.web.'
+        isCorrect: false
+uid: faad83ac-b7fb-49c1-8b08-edffa05099b7
+title: Select Yes if the statement is true.

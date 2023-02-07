@@ -1,0 +1,39 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Clearly define your project and have a clear understanding of how you want to structure and govern your project before selecting a partner. Find guidelines in the Dynamics 365 Implementation Guide to help you prepare.
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=111'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Partner selection
+    priority: 60
+    reportingCategory: Partner selection
+    reportingSubCategory: Partner selection
+  - title: 'Dynamics 365 implementation projects can vary greatly depending on variables such as objectives, scope, complexity, and your existing internal competencies. Create partner selection criteria to match your unique project requirements.  Common selection include: Documented experience and references with projects similar to yours (Industry, business model, applications, complexity, etc.); experience and qualifications of individual partner resources assigned to project, project governance alignment, escalation processes; and shared commitment to expected outcomes.'
+    url: 'https://dynamics.microsoft.com/en-us/partners/find-a-partner/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Partner selection
+    priority: 80
+    reportingCategory: Partner selection
+    reportingSubCategory: Partner selection
+  - title: 'While organizing and planning your implementation project, review the Success by Design principles to drive your partner selection criteria and to confirm your partner has considered these principles in their approach.'
+    url: 'https://www.d365implementationguide.com/books/asvr/#p=i'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Partner selection
+    priority: 60
+    reportingCategory: Partner selection
+    reportingSubCategory: Partner selection
+uid: 2ff23095-1788-4e6c-884d-ef3715333c9c
+name: ''

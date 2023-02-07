@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Microsoft Exchange Online tenant.
+
+  You plan to enable Organization Sharing between your company and a company named the A. Datum Corporation.
+
+  You need to identify which domain names A. Datum has available for Organization Sharing.
+
+  Which PowerShell cmdlet should you use?
+questionnaireUid: a6cb0bb3-c6a7-4eb3-aa20-1ba80e9e3bc4
+questions:
+  - uid: f533fb18-00f7-4f63-9593-17535236743f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: '`Get-OrganizationRelationship`'
+        isCorrect: false
+      - id: 1
+        text: '`Get-FederationOrganizationIdentifier`'
+        isCorrect: false
+      - id: 2
+        text: '`Get-FederationInformation`'
+        isCorrect: true
+      - id: 3
+        text: '`Get-FederationTrust`'
+        isCorrect: false
+    manualId: MS-203.2.1
+uid: f533fb18-00f7-4f63-9593-17535236743f
+title: ''
+manualId: ''

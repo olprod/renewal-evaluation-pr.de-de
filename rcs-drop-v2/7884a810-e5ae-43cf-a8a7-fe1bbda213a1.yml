@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Continue to build talent across your organization
+    url: 'https://aka.ms/developervelocity-cta-talent-high'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 2be8efe2-3a34-4277-95f1-3daf32df812a>66
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Build Talent across your organization
+    url: 'https://aka.ms/developervelocity-cta-talent-med'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 2be8efe2-3a34-4277-95f1-3daf32df812a<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 7884a810-e5ae-43cf-a8a7-fe1bbda213a1
+name: ''

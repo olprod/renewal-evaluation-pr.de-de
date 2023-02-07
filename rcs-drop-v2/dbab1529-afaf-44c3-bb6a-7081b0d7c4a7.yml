@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your Executive Sponsorship and endorsement for Data Strategy are limited and reactive.
+    description: |
+      Sponsorship and endorsement are limited and reactive.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your Executive Sponsorship and endorsement for Data Strategy are evolving and are to be formally announced.
+    description: |
+      Sponsorship and endorsement are evolving and are to be formally announced.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your Executive Sponsorship and endorsement for Data Strategy are evolving and are defined and acceptable to support execution and drive outcomes.
+    description: Sponsorship and endorsement are evolving and are defined and acceptable to support execution and drive outcomes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your Executive Sponsorship and endorsement for Data Strategy are advanced and managed to better business outcomes.
+    description: Sponsorship and endorsement are advanced and managed to better business outcomes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your Executive Sponsorship and endorsement from your C-Suite are endorsed top-down to drive better business outcomes.
+    description: Sponsorship and endorsement from your C-Suite are endorsed top-down to drive better business outcomes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does your strategy have top-down sponsorship and endorsement from your C-Suite to drive better business outcomes?
+isRequired: true
+uid: dbab1529-afaf-44c3-bb6a-7081b0d7c4a7
+name: Does your strategy have top-down sponsorship and endorsement from your C-Suite to drive better business outcomes?

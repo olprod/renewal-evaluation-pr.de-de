@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Azure IoT device SDKs (Azure IoT Edge or any SDK except Python) and you have selected exponential backoff pattern.
+    description: The Azure IoT Hub device SDKs simplify cloud-to-device and device-to-cloud connections and communication. These SDKs provide a robust way to connect to Azure IoT Hub and a comprehensive set of options for sending and receiving messages.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: You use Azure IoT Python SDK and you've reviewed the failure modes for connectivity and implemented appropriate exponential backoff and retry policies.
+    description: Python SDK does not provide configurable retry policies. It does provide a fixed retry mechanism though.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: You don't use the Azure IoT device SDKs. You've implemented your own policies to handle transient connectivity issues.
+    description: 'You can develop device or backend apps without using the Azure IoT SDKs. However Microsoft strongly advises using an Azure IoT SDK. The Azure IoT device and service SDKs are published on many popular platforms. The SDKs provide a convenient layer that handles much of the complexity of the underlying communication protocol, including device connection and reconnection, and retry policy.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: You don't use the Azure IoT device SDKs. You haven't implemented your own policies to handle transient connectivity issues.
+    description: 'You can develop device or backend apps without using the Azure IoT SDKs. However Microsoft strongly advises using an Azure IoT SDK. The Azure IoT device and service SDKs are published on many popular platforms. The SDKs provide a convenient layer that handles much of the complexity of the underlying communication protocol, including device connection and reconnection, and retry policy.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Azure IoT Edge and Azure IoT Hub resources might intermittently be unavailable for a few seconds or more for any reason. While those resources are offline, devices will attempt to reconnect, potentially flooding your IoT solution with messages if your device connection strategy isn''t designed to recover properly.'
+isRequired: false
+uid: ee0f936f-2502-414f-9b1d-2036abd0db20
+name: 'Azure IoT Edge and Azure IoT Hub resources might intermittently be unavailable for a few seconds or more for any reason. While those resources are offline, devices will attempt to reconnect, potentially flooding your IoT solution with messages if your device connection strategy isn''t designed to recover properly.'

@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This section cover setting up alerts on specific events and monitoring those alerts for optimal upkeep of D365 F&O workload.
+hideEmptyGuidance: false
+questions:
+  - af6f8bf8-d7d5-4daa-aa14-e54213e84c77
+  - 3b62d38c-8af2-4d4d-8fa0-14dbfe19e29b
+  - e74962cc-278c-484d-af29-8dba9f32dc5f
+  - a66748f9-1150-4c9c-be76-f792aeb77a9d
+recommendations:
+  - 2649f3ef-f2a1-483c-961e-b5ba3e2d068a
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: fe8ac1b0-b674-4195-8fc5-a5edb2fe0284
+name: Monitoring & Alerts

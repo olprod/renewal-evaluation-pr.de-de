@@ -1,0 +1,58 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Build confidence to invest in becoming a data-driven enterprise is much easier when organizations can trust their cloud to support their innovation.
+    url: 'https://azure.microsoft.com/en-au/blog/build-a-data-driven-culture-to-accelerate-innovation/'
+    condition:
+      allOf: []
+      anyOf:
+        - 752bf448-59ac-4dbf-ad67-5715719c3c3c.ef1151c4-c4e0-4c97-80ef-14df9170032d.0
+        - 752bf448-59ac-4dbf-ad67-5715719c3c3c.ef1151c4-c4e0-4c97-80ef-14df9170032d.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Cultural Transformation
+  - title: Help your organization learn the skills they need to be successful with Azure and other Microsoft technologies via Microsoft Skills Initiative.
+    url: 'https://esi.microsoft.com/'
+    condition:
+      allOf: []
+      anyOf:
+        - 752bf448-59ac-4dbf-ad67-5715719c3c3c.38e856be-4a63-4196-9daa-676618fd52a5.0
+        - 752bf448-59ac-4dbf-ad67-5715719c3c3c.38e856be-4a63-4196-9daa-676618fd52a5.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governace
+    reportingSubCategory: Cultural Transformation
+  - title: 'Consider a management strategy and following a set of key practices that empowers employees to be be decision-makesrs. '
+    url: 'https://workplaceinsights.microsoft.com/management-strategy/empowering-your-employees-to-empower-themselves/'
+    condition:
+      allOf: []
+      anyOf:
+        - 752bf448-59ac-4dbf-ad67-5715719c3c3c.6e470b04-ab8e-4402-a44b-ac11cb31bff0.0
+        - 752bf448-59ac-4dbf-ad67-5715719c3c3c.6e470b04-ab8e-4402-a44b-ac11cb31bff0.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Cultural Transformation
+  - title: 'Build an environment that empowers people, both will share in the benefits.'
+    url: 'https://workplaceinsights.microsoft.com/management-strategy/empowering-your-employees-to-empower-themselves/'
+    condition:
+      allOf: []
+      anyOf:
+        - 752bf448-59ac-4dbf-ad67-5715719c3c3c.e6284340-a02a-40ce-9c99-0e186636c7b9.0
+        - 752bf448-59ac-4dbf-ad67-5715719c3c3c.e6284340-a02a-40ce-9c99-0e186636c7b9.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Cultural Transformation
+uid: 30cfc84d-b98e-4648-b395-38af4fcaf816
+name: ''

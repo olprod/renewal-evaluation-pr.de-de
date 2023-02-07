@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Track when resources scale in and out.
+    description: 'Azure services scale in and out in a variety of different ways, track and optimize these scaling events to ensure that you are taking advantage of distributed resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Have an overall monitoring strategy for scalability.
+    description: 'The overall monitoring strategy should take into consideration not only scalability, but resiliency (infrastructure, application, and dependent services) and application performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: 'Having a baseline performance in place. '
+    description: Use a defined  baseline to compare workload performance on the SQL Managed Instance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Implement retry logic for transient errors to avoid connection interruption when scaling or planned/unplanned failovers occur.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: 'If you are using read-only replicas, then monitor data replication latency.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Use scripting and automation to monitor and scale SQL Managed Instance resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: c8748c86-28d4-401b-894a-e76d513f9c85
+name: How are you monitoring to ensure the workload is scaling appropriately?

@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: As part of the pull request and code review flow before code is committed.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 43
+  - id: '1'
+    text: Security tests are run In the continuous integration and continuous delivery pipeline.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 43
+  - id: '2'
+    text: Before any production update or Before a major release.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Establish a minimum-security baseline that takes account of both security and compliance controls. Ensure these are baked into the DevOps process and pipeline.
+isRequired: true
+uid: 65e1a69f-b203-4dc3-bb42-ab33b63867ec
+name: Establish a minimum-security baseline that takes account of both security and compliance controls.

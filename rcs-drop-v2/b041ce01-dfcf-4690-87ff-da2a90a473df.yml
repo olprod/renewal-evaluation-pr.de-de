@@ -1,0 +1,462 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Review Azure Synapse Analytics Automatic Restore Point RPO
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#automatic-restore-points
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a7010886-7e15-4cd3-afd8-fe6d52ab5147.A
+      scoreOf: []
+    context: "A geo-backup is created once per day to a\_paired data center. The RPO for a geo-restore is 24 hours. You can restore the geo-backup to a server in any other region where dedicated SQL pool is supported. A geo-backup ensures you can restore data warehouse in case you cannot access the restore points in your primary region."
+    priority: 100
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Review Azure Synapse Analytics Geo-Backups and Disaster Recovery RPO
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#automatic-restore-points
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a7010886-7e15-4cd3-afd8-fe6d52ab5147.B
+      scoreOf: []
+    context: "A geo-backup is created once per day to a\_paired data center. The RPO for a geo-restore is 24 hours. You can restore the geo-backup to a server in any other region where dedicated SQL pool is supported. A geo-backup ensures you can restore data warehouse in case you cannot access the restore points in your primary region."
+    priority: 100
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Monitor Azure Synapse Analytics resource utilization to meet SLAs
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a7010886-7e15-4cd3-afd8-fe6d52ab5147.C
+      scoreOf: []
+    context: 'Monitor to detect configurations and processes that are causing a performance impact such as data skew, missing or outdated statistics, adaptive cache utilization, tempdb contention, data loading misconfiguration.'
+    priority: 100
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Manage Azure Synapse Analytics Compute to meet SLAs
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a7010886-7e15-4cd3-afd8-fe6d52ab5147.D
+      scoreOf: []
+    context: 'The architecture of dedicated SQL pool (formerly SQL DW) separates storage and compute, allowing each to scale independently. As a result, you can scale compute to meet performance demands independent of data storage. You can also pause and resume compute resources. A natural consequence of this architecture is that billing for compute and storage is separate. You can scale out or scale back compute by adjusting the data warehouse units setting for your dedicated SQL pool (formerly SQL DW). Loading and query performance can increase linearly as you add more data warehouse units'
+    priority: 80
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Consider Azure Synapse Analytics Service SLAs
+    url: 'https://azure.microsoft.com/en-us/support/legal/sla/synapse-analytics/v1_1/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a7010886-7e15-4cd3-afd8-fe6d52ab5147.E
+      scoreOf: []
+    context: 'Verify the Service Level Agreement for Azure Synapse Analytics to learn the number of nines for succesfull client Operational Procedures executed on a database in Azure Synapse, successfull process requests to perform Operational Procedures against Data Integration Resources used in Azure Synapse, all Azure Synapse pipeline activity runs that will initiate within 4 minutes of their scheduled execution times, and the number of Apache Spark sessions that will be created successfully.'
+    priority: 80
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Use Synapse Studio to monitor your Apache Spark pools
+    url: /azure/synapse-analytics/monitoring/apache-spark-applications?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a7010886-7e15-4cd3-afd8-fe6d52ab5147.F
+      scoreOf: []
+    context: 'Monitoring Spark applications using Azure Analytics Studio allows you to view running, completed and cancelled Apache Spark applications as well as debug failed Apache Spark applications, view input data/output and Compare Apache Spark Applications.'
+    priority: 90
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Use Azure Monitor with Synapse Analytics workspace
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-using-azure-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a7010886-7e15-4cd3-afd8-fe6d52ab5147.G
+      scoreOf: []
+    context: 'Azure Monitor provides base-level infrastructure metrics, alerts, and logs for most Azure services. Azure diagnostic logs are emitted by a resource and provide rich, frequent data about the operation of that resource. Azure Synapse Analytics can write diagnostic logs in Azure Monitor.'
+    priority: 80
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Ensure applications are designed and making use of Azure Synapse Analytics High Availability options
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/analytics/azure-synapse#high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.d65cce5e-2605-49c0-a99c-535b11c07bca.A
+      scoreOf: []
+    context: Azure Synapse Analytics uses database snapshots to provide database restore points for the warehouse. A data warehouse snapshot creates a restore point that can be used to recover or copy a data warehouse to a previous state.
+    priority: 70
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Ensure applications are designed and making use of Azure Synapse Analytics Disaster recovery options
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/analytics/azure-synapse#disaster-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.d65cce5e-2605-49c0-a99c-535b11c07bca.B
+      scoreOf: []
+    context: Azure Synapse Analytics uses database snapshots to provide database restore points for the warehouse. A data warehouse snapshot creates a restore point that can be used to recover or copy a data warehouse to a previous state.
+    priority: 70
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Use extended Azure Synapse Analytics Apache Spark history server to debug and diagnose Apache Spark applications
+    url: /azure/synapse-analytics/spark/apache-spark-history-server
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.d65cce5e-2605-49c0-a99c-535b11c07bca.C
+      scoreOf: []
+    context: Use the extended Apache Spark history server to debug and diagnose completed and running Spark applications.
+    priority: 40
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Consider Azure Synapse Analytics resource limits
+    url: /azure/synapse-analytics/sql-data-warehouse/memory-concurrency-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.508cc55e-2708-42c9-9de1-b33ba5c068a9.A
+      scoreOf: []
+    context: "To ensure each query has enough resources to execute efficiently, Synapse SQL tracks resource utilization by assigning concurrency slots to each query. The system puts queries into a queue based on importance and concurrency slots. Queries wait in the queue until enough concurrency slots are available.\_Importance\_and concurrency slots determine CPU prioritization."
+    priority: 90
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Consider Azure Synapse Analytics capacity limits
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.508cc55e-2708-42c9-9de1-b33ba5c068a9.B
+      scoreOf: []
+    context: 'The maximum service level is DW30000c, which has 60 Compute nodes and one distribution per Compute node. For example, a 600 TB data warehouse at DW30000c processes approximately 10 TB per Compute node.'
+    priority: 90
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Use Azure Synapse Analytics Automatic Restore Points
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#automatic-restore-points
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.f093911d-98b4-40e7-828c-a06b986848d9.A
+      scoreOf: []
+    context: "A geo-backup is created once per day to a\_paired data center. The RPO for a geo-restore is 24 hours. You can restore the geo-backup to a server in any other region where dedicated SQL pool is supported. A geo-backup ensures you can restore data warehouse in case you cannot access the restore points in your primary region."
+    priority: 100
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Use Azure Synapse Analytics User-Defined Restore Points
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#user-defined-restore-points
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.f093911d-98b4-40e7-828c-a06b986848d9.B
+      scoreOf: []
+    context: "A geo-backup is created once per day to a\_paired data center. The RPO for a geo-restore is 24 hours. You can restore the geo-backup to a server in any other region where dedicated SQL pool is supported. A geo-backup ensures you can restore data warehouse in case you cannot access the restore points in your primary region."
+    priority: 100
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Use Azure Synapse Analytics geo-backups to restore to a paired region for disaster recovery
+    url: /azure/synapse-analytics/sql-data-warehouse/backup-and-restore#geo-backups-and-disaster-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.f093911d-98b4-40e7-828c-a06b986848d9.C
+      scoreOf: []
+    context: "A geo-backup is created once per day to a\_paired data center. The RPO for a geo-restore is 24 hours. You can restore the geo-backup to a server in any other region where dedicated SQL pool is supported. A geo-backup ensures you can restore data warehouse in case you cannot access the restore points in your primary region."
+    priority: 100
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Consider Azure Synapse Analytics resource limits
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.c249f42c-eda4-4c53-bdb7-b2a3e5e7589b.A
+      scoreOf: []
+    context: 'The maximum service level is DW30000c, which has 60 Compute nodes and one distribution per Compute node. For example, a 600 TB data warehouse at DW30000c processes approximately 10 TB per Compute node.'
+    priority: 90
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Use Azure Monitor with Azure Synapse Analytics workspace
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-using-azure-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.162ed1fe-777b-4910-87a6-76fc5e236484.A
+      scoreOf: []
+    context: 'Azure Monitor provides base-level infrastructure metrics, alerts, and logs for most Azure services. Azure diagnostic logs are emitted by a resource and provide rich, frequent data about the operation of that resource. Azure Synapse Analytics can write diagnostic logs in Azure Monitor.'
+    priority: 80
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Consider Azure Synapse Analytics Managed Virtual Network
+    url: /azure/synapse-analytics/security/synapse-workspace-managed-vnet
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.0a1c2917-dd92-43f5-af72-28d0c8ff75b3.A
+      scoreOf: []
+    context: 'When you create your Azure Synapse workspace, you can choose to associate it to a Microsoft Azure Virtual Network. The Virtual Network associated with your workspace is managed by Azure Synapse. This Virtual Network is called a Managed workspace Virtual Network and provides  value in four ways: 1. With a Managed workspace Virtual Network you can offload the burden of managing the Virtual Network to Azure Synapse. 2. You don''t have to configure inbound NSG rules on your own Virtual Networks to allow Azure Synapse management traffic to enter your Virtual Network. Misconfiguration of these NSG rules causes service disruption for customers. 3. You don''t need to create a subnet for your Spark clusters based on peak load. 4. Managed workspace Virtual Network along with Managed private endpoints protects against data exfiltration. You can only create Managed private endpoints in a workspace that has a Managed workspace Virtual Network associated with it. Creating a workspace with a Managed workspace Virtual Network associated with it ensures that your workspace is network isolated from other workspaces. Azure Synapse provides various analytic capabilities in a workspace: Data integration,serverless Apache Spark pool, dedicated SQL pool, and serverless SQL pool.'
+    priority: 100
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Consider Azure Synapse Analytics Managed private endpoints
+    url: /azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.0a1c2917-dd92-43f5-af72-28d0c8ff75b3.B
+      scoreOf: []
+    context: 'Managed private endpoints are private endpoints created in a Managed Virtual Network associated with your Azure Synapse workspace. Managed private endpoints establish a private link to Azure resources. Azure Synapse manages these private endpoints on your behalf. You can create Managed private endpoints from your Azure Synapse workspace to access Azure services (such as Azure Storage or Azure Cosmos DB) and Azure hosted customer/partner services. When you use Managed private endpoints, traffic between your Azure Synapse workspace and other Azure resources traverse entirely over the Microsoft backbone network. Managed private endpoints protect against data exfiltration. A Managed private endpoint uses private IP address from your Managed Virtual Network to effectively bring the Azure service that your Azure Synapse workspace is communicating into your Virtual Network. Managed private endpoints are mapped to a specific resource in Azure and not the entire service. Customers can limit connectivity to a specific resource approved by their organization.'
+    priority: 100
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Consider Traffic Auditing for Azure Synapse Analytics
+    url: /security/benchmark/azure/baselines/synapse-analytics-security-baseline#network-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.0a1c2917-dd92-43f5-af72-28d0c8ff75b3.C
+      scoreOf: []
+    context: 'Implement security for internal traffic - based on your applications and enterprise segmentation strategy, restrict or allow traffic between internal resources under your NSG rules. Protect your Azure Synapse Analytics resources against attacks from external networks, including: 1. Distributed denial of service (DDoS) attacks, 2. Application-specific attacks, 3. Unsolicited, potentially malicious internet traffic. Using Azure Firewall, protect applications and services against potentially malicious traffic from the internet and other external locations.'
+    priority: 70
+    reportingCategory: Architecture
+    reportingSubCategory: End-to-end design
+  - title: Monitor network resource configurations and detect changes
+    url: /azure/azure-monitor/essentials/activity-log
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.0a1c2917-dd92-43f5-af72-28d0c8ff75b3.D
+      scoreOf: []
+    context: "The Activity log is a\_platform log\_in Azure that provides insight into subscription-level events. Activity log includes such information as when a resource is modified or when a virtual machine is started. You can view the Activity log in the Azure portal or retrieve entries with PowerShell and CLI. T"
+    priority: 70
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Monitoring
+  - title: Co-locate Azure Storage account and Azure Synapse Analytics Serverless SQL pool
+    url: /azure/synapse-analytics/sql/best-practices-serverless-sql-pool#colocate-your-storage-and-serverless-sql-pool
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.69385023-6241-4594-8fa3-bed341f13fd7.A
+      scoreOf: []
+    context: 'For optimal performance, if you access other storage accounts with serverless SQL pool, make sure they''re in the same region. If they aren''t in the same region, there will be increased latency for the data''s network transfer between the remote region and the endpoint''s region. Storage accounts and endpoints provisioned during workspace creation are located in the same region.'
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Use Azure Synapse Analytics Dedicated SQL Pool Auto Scaling options
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview?view=sql-server-ver15#scaling-compute
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.69385023-6241-4594-8fa3-bed341f13fd7.B
+      scoreOf: []
+    context: 'You can control costs for a dedicated SQL pool by pausing the resource when it is not is use. For example, if you won''t be using the database during the night and on weekends, you can pause it during those times, and resume it during the day.'
+    priority: 80
+    reportingCategory: Billing & Cost Optimization
+    reportingSubCategory: Optimization
+  - title: Use Azure Synapse Analytics Apache Spark pools Autoscaling
+    url: /azure/synapse-analytics/spark/apache-spark-autoscale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.69385023-6241-4594-8fa3-bed341f13fd7.C
+      scoreOf: []
+    context: 'Apache Spark for Azure Synapse Analytics pool''s Autoscale feature automatically scales the number of nodes in a cluster instance up and down based on the amount of activity. During the creation of a new Apache Spark for Azure Synapse Analytics pool, a minimum and maximum number of nodes can be set when Autoscale is selected. Autoscale then monitors the resource requirements of the load and scales the number of nodes up or down.'
+    priority: 90
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Use Azure Synapse Analytics Advanced Threat Protection
+    url: /azure/azure-sql/database/threat-detection-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.b1e9a223-1d66-4383-9eb5-3efcb5577d58.A
+      scoreOf: []
+    context: 'Advanced Threat Protection for Azure Synapse Analytics detects anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases. Advanced Threat Protection is part of the Microsoft Defender for SQL offering, which is a unified package for advanced SQL security capabilities. Advanced Threat Protection can be accessed and managed via the central Microsoft Defender for SQL portal.'
+    priority: 95
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: 'Maintain an inventory of administrative accounts, change default passwords, and use dedicated administrative accounts'
+    url: /security/benchmark/azure/baselines/synapse-analytics-security-baseline#privileged-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.b1e9a223-1d66-4383-9eb5-3efcb5577d58.B
+      scoreOf: []
+    context: 'Implement security for internal traffic - based on your applications and enterprise segmentation strategy, restrict or allow traffic between internal resources under your NSG rules. Protect your Azure Synapse Analytics resources against attacks from external networks, including: 1. Distributed denial of service (DDoS) attacks, 2. Application-specific attacks, 3. Unsolicited, potentially malicious internet traffic. Using Azure Firewall, protect applications and services against potentially malicious traffic from the internet and other external locations.'
+    priority: 70
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Auditing
+  - title: Secure Azure Synapse Analytics to a virtual network via Private Link
+    url: /azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.b1e9a223-1d66-4383-9eb5-3efcb5577d58.C
+      scoreOf: []
+    context: 'Managed private endpoints are private endpoints created in a Managed Virtual Network associated with your Azure Synapse workspace. Managed private endpoints establish a private link to Azure resources. Azure Synapse manages these private endpoints on your behalf. You can create Managed private endpoints from your Azure Synapse workspace to access Azure services (such as Azure Storage or Azure Cosmos DB) and Azure hosted customer/partner services. When you use Managed private endpoints, traffic between your Azure Synapse workspace and other Azure resources traverse entirely over the Microsoft backbone network. Managed private endpoints protect against data exfiltration. A Managed private endpoint uses private IP address from your Managed Virtual Network to effectively bring the Azure service that your Azure Synapse workspace is communicating into your Virtual Network. Managed private endpoints are mapped to a specific resource in Azure and not the entire service. Customers can limit connectivity to a specific resource approved by their organization.'
+    priority: 100
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Create Azure Synapse Analytics Workspace with Data Exfiltration protection enabled
+    url: /azure/synapse-analytics/security/workspace-data-exfiltration-protection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.b1e9a223-1d66-4383-9eb5-3efcb5577d58.D
+      scoreOf: []
+    context: 'Azure Synapse Analytics workspaces support enabling data exfiltration protection for workspaces. With exfiltration protection, you can guard against malicious insiders accessing your Azure resources and exfiltrating sensitive data to locations outside of your organization’s scope.'
+    priority: 100
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Secure credentials with linked services using the TokenLibrary
+    url: /azure/synapse-analytics/spark/apache-spark-secure-credentials-with-tokenlibrary?pivots=programming-language-csharp
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.b1e9a223-1d66-4383-9eb5-3efcb5577d58.E
+      scoreOf: []
+    context: 'Synapse uses Azure Active Directory (AAD) passthrough by default for authentication between resources. If you need to connect to a resource using other credentials, use the TokenLibrary directly. The TokenLibrary simplifies the process of retrieving SAS tokens, AAD tokens, connection strings, and secrets stored in a linked service or from an Azure Key Vault.'
+    priority: 100
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Secrets Management
+  - title: Use Continuous integration and delivery for Azure Synapse workspace
+    url: /azure/synapse-analytics/cicd/continuous-integration-delivery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a6bda1fd-09b1-4ed6-86fa-fdf66022d09b.A
+      scoreOf: []
+    context: 'Continuous delivery (CD) is the process of building, testing, configuring, and deploying from multiple testing or staging environments to a production environment. In an Azure Synapse Analytics workspace, CI/CD moves all entities from one environment (development, test, production) to another environment. Promoting your workspace to another workspace is a two-part process. '
+    priority: 70
+    reportingCategory: Operations
+    reportingSubCategory: Development
+  - title: Use Azure Synapse Analytics Maintenance Schedules to manage service updates and maintenance
+    url: /azure/synapse-analytics/sql-data-warehouse/maintenance-scheduling?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a6bda1fd-09b1-4ed6-86fa-fdf66022d09b.B
+      scoreOf: []
+    context: 'The maintenance schedule feature integrates the Service Health Planned Maintenance Notifications, Resource Health Check Monitor, and maintenance scheduling service for Synapse SQL pool (data warehouse) within Azure Synapse Analytics. You should use maintenance scheduling to choose a time window when it''s convenient to receive new features, upgrades, and patches. You will need to choose a primary and a secondary maintenance window within a seven-day period, each window must be within separate day ranges.'
+    priority: 80
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Patch & Update Process (PNU)
+  - title: Upgrade your Azure Synapse Analytics dedicated SQL pool to the latest generation Gen2 of Azure hardware and storage architecture
+    url: /azure/synapse-analytics/sql-data-warehouse/upgrade-to-latest-generation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.a6bda1fd-09b1-4ed6-86fa-fdf66022d09b.C
+      scoreOf: []
+    context: 'You can seamlessly upgrade to the dedicated SQL pool (formerly SQL DW) Compute Optimized Gen2 tier in the Azure portal for supported regions. Upgrade to take advantage of the latest generation of Azure hardware and enhanced storage architecture including faster performance, higher scalability, and unlimited columnar storage.'
+    priority: 100
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Consider Azure Synapse Analytics High Availability and Disaster Recovery options
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/analytics/azure-synapse
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.de3ea9fd-db1e-4c55-acf6-5c02de2ac63b.A
+      scoreOf: []
+    context: Azure Synapse Analytics uses database snapshots to provide database restore points for the warehouse. A data warehouse snapshot creates a restore point that can be used to recover or copy a data warehouse to a previous state.
+    priority: 70
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Use retry logic to overcome any Transient errors
+    url: /azure/azure-sql/database/troubleshoot-common-connectivity-issues#retry-logic-for-transient-errors
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.de3ea9fd-db1e-4c55-acf6-5c02de2ac63b.B
+      scoreOf: []
+    context: "Client programs that occasionally encounter a transient error are more robust when they contain retry logic.\_"
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Design
+  - title: Use Azure Monitor with your Azure Synapse Analytics workspace
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-using-azure-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.4ffaae3a-36b5-4787-9e5f-52feb132c56d.A
+      scoreOf: []
+    context: 'Azure Monitor provides base-level infrastructure metrics, alerts, and logs for most Azure services. Azure diagnostic logs are emitted by a resource and provide rich, frequent data about the operation of that resource. Azure Synapse Analytics can write diagnostic logs in Azure Monitor.'
+    priority: 80
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Use Azure Synapse Analytics Studio to monitor your Apache Spark applications
+    url: /azure/synapse-analytics/monitoring/apache-spark-applications
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.4ffaae3a-36b5-4787-9e5f-52feb132c56d.B
+      scoreOf: []
+    context: 'With Azure Synapse Analytics, you can use Apache Spark to run notebooks, jobs, and other kinds of applications on your Apache Spark pools in your workspace. Monitor your Apache Spark applications, allowing you to keep an eye on environment and job status, issues, and progress.'
+    priority: 50
+    reportingCategory: Operations
+    reportingSubCategory: Monitoring
+  - title: Use Azure Synapse Analytics Studio to monitor your SQL requests
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-sql-requests
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.4ffaae3a-36b5-4787-9e5f-52feb132c56d.C
+      scoreOf: []
+    context: 'With Synapse Studio, you can monitor your SQL requests, allowing you to keep an eye on the status of running requests and discover details of historical requests.'
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Monitor your Azure Synapse Analytics dedicated SQL pool workload using Dynamic Management Views (DMVs)
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e560ea0c-7d8f-4f6f-8262-99b2ba856ac7.4ffaae3a-36b5-4787-9e5f-52feb132c56d.D
+      scoreOf: []
+    context: Tempdb is used to hold intermediate results during query execution. High utilization of the tempdb database can lead to slow query performance.
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+uid: b041ce01-dfcf-4690-87ff-da2a90a473df
+name: ''

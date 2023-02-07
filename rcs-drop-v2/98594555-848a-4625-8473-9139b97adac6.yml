@@ -1,0 +1,39 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Azure tools to assist in establishing security baseline.
+    url: /azure/cloud-adoption-framework/govern/security-baseline/toolchain
+    context: Azure tools to assist in establishing security baseline.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider baseline metrics.
+    url: /azure/cloud-adoption-framework/govern/security-baseline/metrics-tolerance
+    condition:
+      scoreOf:
+        - 455205d5-7f0e-48fb-921b-24552ef3bad5<3
+    context: Consider baseline metrics.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review some sample policies.
+    url: /azure/cloud-adoption-framework/govern/security-baseline/policy-statements
+    condition:
+      scoreOf:
+        - 455205d5-7f0e-48fb-921b-24552ef3bad5<3
+    context: Review some sample policies.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Improve the discipline of Security Baseline.
+    url: /azure/cloud-adoption-framework/govern/security-baseline/discipline-improvement
+    condition:
+      scoreOf:
+        - 455205d5-7f0e-48fb-921b-24552ef3bad5>2
+    context: Improve the discipline of Security Baseline.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 98594555-848a-4625-8473-9139b97adac6
+name: ''

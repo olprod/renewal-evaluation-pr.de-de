@@ -1,0 +1,54 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: Understanding your on-premises environment enables migration planning.
+links:
+  - title: Use Azure Migrate to discover and assess your on-premises environment
+    url: 'https://azure.microsoft.com/services/azure-migrate/'
+    condition:
+      allOf: []
+      anyOf:
+        - discover-assessment.72df2647-e9ab-489a-a094-e1fdb0c8a897.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use this guide to learn to use Azure Migrate
+    url: /azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-assessment
+    condition:
+      allOf: []
+      anyOf:
+        - discover-assessment.72df2647-e9ab-489a-a094-e1fdb0c8a897.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Identify your migration scope
+    url: /azure/cloud-adoption-framework/plan/workloads
+    condition:
+      allOf: []
+      anyOf:
+        - discover-assessment.72a56d47-06bb-4d15-9422-0ce0a150f451.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Get application owner alignment
+    url: /azure/cloud-adoption-framework/plan/initial-org-alignment
+    condition:
+      allOf: []
+      anyOf:
+        - discover-assessment.9a98bda7-9add-4c03-8c06-bbf4cbf40054.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 0a055ab0-a55c-463c-8ace-e154b0939acb
+name: Discovery &amp; assessment

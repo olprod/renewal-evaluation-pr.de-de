@@ -1,0 +1,21 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/scenarios/sap/eslz-management-and-monitoring
+description: 'This article builds on a number of considerations and recommendations defined in the Azure landing zone article enterprise-scale design area for management and monitoring. Following the guidance in this article will help explore how to operationally maintain an SAP platform on Azure enterprise estate, with centralized management and monitoring at the platform level. The article presents key recommendations for SAP operations teams to maintain SAP systems within the Azure platform. Since SAP is an mission-critical platform, the guidance on the enterprise-scale design areas should also be included in your design.'
+links:
+  - title: Operations baseline for SAP on Azure
+    url: /azure/cloud-adoption-framework/scenarios/sap/eslz-management-and-monitoring
+    condition:
+      allOf:
+        - 3a9b223c-7ae9-4ef4-a658-963cbd44ca7c.7f3245fc-b7b5-40fe-b359-f5aa29f32dac.2
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      anyOf:
+        - 3a9b223c-7ae9-4ef4-a658-963cbd44ca7c.a9031629-af0c-4de8-87a5-878e86f1d5e9.4
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 07ef7ed8-dfcb-4859-82c3-d5fbe890629d
+name: Operations baseline for SAP on Azure

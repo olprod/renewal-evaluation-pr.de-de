@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You prevent unhealthy devices from accessing IoT solutions. '
+    description: 'Device health is used to prevent IoT devices flagged as unhealthy from accessing IoT solutions. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: 'You isolate, investigate, and mitigate unhealthy devices. '
+    description: 'You have procedures to isolate, investigate, and then mitigate unhealthy devices to make them healthy again. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: You flag critical devices for mitigation without taking them offline.
+    description: 'Where IoT devices are part of vital business operations and critical infrastructure, taking these IoT devices offline or blocking access may not be a feasible option. These devices can be flagged for mitigation to ensure that action is taken to get them to a healthy state again while remaining online for continuous operation.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: 'Following the Zero Trust principle of "trust but verify," use device health as a key factor when you determine the risk profile of a device. You can use this risk profile as an access gate to ensure only healthy devices can access IoT applications and services, or to identify devices in questionable health for remediation action.'
+isRequired: false
+uid: 47a6eb2e-7930-471d-a423-45edb0f5a695
+name: 'Following the Zero Trust principle of "trust but verify," use device health as a key factor when you determine the risk profile of a device. You can use this risk profile as an access gate to ensure only healthy devices can access IoT applications and services, or to identify devices in questionable health for remediation action.'

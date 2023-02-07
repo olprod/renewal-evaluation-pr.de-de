@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on this
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: This is not applicable to our offering
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '2'
+    text: 'We have SOP and tooling in place for this, team is trained and using this in operations'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Some customers like to have information on regulatory, globalization and localization laws compliances and features in the product.  Having this resource handy will give you access to updated information on these topics and features Dynamics 365 products offer so you can augment / extend / use those in your offering.'
+isRequired: true
+uid: 40a0a47d-dd27-4d1a-99a1-8818fdb91cb6
+name: 'Some customers like to have information on regulatory, globalization and localization laws compliances and features in the product. Having this resource handy will give you access to updated information on these topics and features Dynamics 365 products offer so you can augment / extend / use those in your offering.'

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has limited foresight to take excellence through the lenses of efficient use of resources and provision of quality products and services to internal and external customers.
+    description: Your organization has limited foresight to take excellence through the lenses of efficient use of resources and provision of quality products and services to internal and external customers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is evolving in its foresight to take excellence through the lenses of efficient use of resources and provision of quality products and services to internal and external customers.
+    description: Your organization is evolving in its foresight to take excellence through the lenses of efficient use of resources and provision of quality products and services to internal and external customers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization is having a Center of Excellent to take advantage and use of resources and provision of quality products and services to internal and external customers.
+    description: Your organization is having a Center of Excellent to take advantage and use of resources and provision of quality products and services to internal and external customers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization's Center of Excellent is advanced and managed to take advantage and use of resources and provision of quality products and services to internal and external customers.
+    description: Your organization's Center of Excellent is advanced and managed to take advantage and use of resources and provision of quality products and services to internal and external customers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization's Center of Excellent is fully optimized to advantage and use of resources and provision of quality products and services to internal and external customers.
+    description: Your organization's Center of Excellent is fully optimized to advantage and use of resources and provision of quality products and services to internal and external customers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does your organization take excellence through the lenses of efficient use of resources and provision of quality products and services to internal and external customers?
+isRequired: true
+uid: 601eaa5c-7e68-4918-b8f3-0f58143199ad
+name: Does your organization take excellence through the lenses of efficient use of resources and provision of quality products and services to internal and external customers?

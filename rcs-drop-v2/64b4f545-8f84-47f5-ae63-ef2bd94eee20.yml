@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - c016716c-c2d9-49ea-ad3f-362b05a4bb0d
+recommendations:
+  - 5d4f79fe-a40e-490b-8fa9-eb8274c9cfeb
+assignedGroupIds: []
+uid: 64b4f545-8f84-47f5-ae63-ef2bd94eee20
+name: 'Go-Live - SQL VM: Cost Optimization'

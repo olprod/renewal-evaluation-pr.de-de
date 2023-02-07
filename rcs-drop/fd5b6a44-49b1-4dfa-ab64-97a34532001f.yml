@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company uses Microsoft Teams for collaboration and communication.
+
+  You need to identify and block Teams chat and channel messages that contain credit card information.
+
+  Which type of policy should you configure?
+questionnaireUid: af0c1925-48e3-4e64-8e4b-68b413dc168e
+questions:
+  - uid: fd5b6a44-49b1-4dfa-ab64-97a34532001f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company uses Microsoft Teams for collaboration and communication.
+        isCorrect: false
+      - id: 1
+        text: You need to identify and block Teams chat and channel messages that contain credit card information.
+        isCorrect: false
+      - id: 2
+        text: Which type of policy should you configure?
+        isCorrect: false
+      - id: 3
+        text: information barrier policy
+        isCorrect: true
+    manualId: MS-700.3.3
+uid: fd5b6a44-49b1-4dfa-ab64-97a34532001f
+title: ''

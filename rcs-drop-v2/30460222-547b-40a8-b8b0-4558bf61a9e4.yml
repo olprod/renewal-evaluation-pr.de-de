@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 15d6e6f7-0336-4f55-8d3e-eba504a71ced
+  - c48d0112-8954-43c9-854e-e1259f992c64
+  - 42fd8a7b-f670-4306-952b-1d9788a90e34
+  - 3cff01bb-8167-4b6d-822c-cf66bc167255
+  - 16e3376e-f8df-4805-9ccc-214827aca064
+  - ac0fd555-2620-4a45-b28f-29907642d445
+recommendations:
+  - 8f50c38d-d213-4167-b332-e17080ac89f1
+assignedGroupIds: []
+uid: 30460222-547b-40a8-b8b0-4558bf61a9e4
+name: AzSAP Performance Efficiency

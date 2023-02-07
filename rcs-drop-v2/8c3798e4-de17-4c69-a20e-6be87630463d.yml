@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Yes.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: No.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+legacyId: '1'
+uid: 8c3798e4-de17-4c69-a20e-6be87630463d
+name: 'Have you designed for the following aspects of securing your Azure workloads: (i) identity & access, (ii) app/data security, (iii) network security, (iv) threat protection, (v) security management?'

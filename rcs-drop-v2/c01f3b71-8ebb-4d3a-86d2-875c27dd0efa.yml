@@ -1,0 +1,149 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'When responding to critical business event that drives cloud adoption, review the get started guide for Accelerating Migration'
+    url: /azure/cloud-adoption-framework/get-started/migrate
+    condition:
+      allOf: []
+      anyOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.977afcd7-6aa3-4432-bd75-0fb0d8a5032a.0
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.977afcd7-6aa3-4432-bd75-0fb0d8a5032a.1
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.977afcd7-6aa3-4432-bd75-0fb0d8a5032a.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Explore the\_Migrate methodology\_in the Cloud Adoption Framework which outlines the\_strategy for performing a cloud migration."
+    url: /azure/cloud-adoption-framework/get-started/migrate
+    condition:
+      allOf: []
+      anyOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.0
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.1
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.2
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.3
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.4
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.5
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.6
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.7
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore options for extending on premises compute capacity to Azure
+    url: /azure/architecture/data-guide/scenarios/hybrid-on-premises-and-cloud
+    condition:
+      allOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.8
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand the critical events that can drive motivations for cloud adoption
+    url: /azure/cloud-adoption-framework/strategy/motivations#motivation-driven-strategies
+    condition:
+      allOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73.9
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: "Explore the\_Migrate methodology\_in the Cloud Adoption Framework which outlines the\_strategy for performing a cloud migration."
+    url: /azure/cloud-adoption-framework/get-started/migrate
+    condition:
+      allOf: []
+      anyOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.0
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.1
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.2
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.3
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.4
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.5
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore the Innovate methodology of the Cloud Adoption Framework that guides the development of new products and services.
+    url: /azure/cloud-adoption-framework/get-started/innovate
+    condition:
+      allOf: []
+      anyOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.6
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.7
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.8
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.9
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand the motivations behind cloud adoption
+    url: /azure/cloud-adoption-framework/strategy/motivations
+    condition:
+      allOf: []
+      anyOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5.10
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review the Cloud Center of Excellence guidance.
+    url: /azure/cloud-adoption-framework/organize/cloud-center-of-excellence
+    condition:
+      allOf: []
+      anyOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.00ca3ce8-e4af-4e7c-96d8-44cb380ccafb.0
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.00ca3ce8-e4af-4e7c-96d8-44cb380ccafb.1
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.00ca3ce8-e4af-4e7c-96d8-44cb380ccafb.2
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.00ca3ce8-e4af-4e7c-96d8-44cb380ccafb.3
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.f5198e6e-cde7-4811-a122-b8b69a8a7717.0
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.f5198e6e-cde7-4811-a122-b8b69a8a7717.1
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.f5198e6e-cde7-4811-a122-b8b69a8a7717.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review examples of cloud adoption plan with four horizons.
+    url: /azure/cloud-adoption-framework/strategy/digital-transformation-timeline
+    condition:
+      allOf: []
+      anyOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.d0177763-0145-4c4d-b4a7-8aaaf829cd1b.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Connect with your Microsoft Account team for additional support  and leverage the Cloud Adoption Framework strategy guidance to build a cloud strategy and adoption plan.
+    url: /azure/cloud-adoption-framework/strategy/
+    condition:
+      allOf: []
+      anyOf:
+        - 09f5210e-5b3d-45a4-a90c-e4956e955f9d.d0177763-0145-4c4d-b4a7-8aaaf829cd1b.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: c01f3b71-8ebb-4d3a-86d2-875c27dd0efa
+name: ''

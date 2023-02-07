@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Static code analysis is performed early in development, before software testing begins'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: 'Static code analysis is performed later in development, after software testing begins'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'Static code analysis is performed after development, before deployment begins'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: Static analysis tools enable you to enforce coding standards and identify common errors or failures to follow best practices. Many static analysis tools can be extended to implement custom rules and enforce your own policies.
+isRequired: true
+uid: 117ee817-e325-4b46-a0a4-e435c01fd3bc
+name: 'Static analysis tools enable you to enforce coding standards and identify common errors or failures to follow best practices. '

@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: D
+    text: Use Azure Databricks regional disaster recovery topology.
+    description: 'As Azure Databricks is the compute for the Big Data pipeline, within the regional disaster recovery topology provision multiple Azure Databricks workspaces in separate Azure regions, use geo-redundant storage and migrate the users, user folders, notebooks, cluster configuration, jobs configuration, libraries, storage, init scripts, and reconfigure access control. For applicable metrics, view doucmentation on applicable Azure services for Recovery Point Objective.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: Use Recovery time objective and recovery point objective of services within regional disaster topology of Azure Databricks.
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Use availability target documentation for Azure Databricks.
+    description: The documentation defines SLAs for Azure Databricks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Use Log analytics directly to query the performance data for Azure Databricks.
+    description: 'In a recovery scenario, monitoring resource utilization (CPU/Memory/Network) across an Azure Databricks clusters, Spark metrics, Spark application logs and Application instrumentation becomes crucial to measure Mean time to recovery/Mean time between failures.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: Azure Databricks offers distinct availability and recovery targets for critical application subsystems and scenarios.
+    description: Please review individual Azure Services for further information of availability and recovery targets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Availability targets, such as Service Level Agreements (SLA) and Service Level Objectives (SLO), and Recovery targets, such as Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO), should be defined and tested to ensure application reliability aligns with business requirements.'
+isRequired: false
+legacyId: '0'
+uid: b92cdc82-25e4-4180-9d38-4648aadfc7f8
+name: 'Availability targets, such as Service Level Agreements (SLA) and Service Level Objectives (SLO), and Recovery targets, such as Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO), should be defined and tested to ensure application reliability aligns with business requirements.'

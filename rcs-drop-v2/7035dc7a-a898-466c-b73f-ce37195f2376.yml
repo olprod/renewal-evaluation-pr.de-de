@@ -1,0 +1,682 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use cost modeling to identify opportunities for cost reduction
+    url: /azure/architecture/framework/cost/design-model
+    condition:
+      noneOf:
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.A
+    context: 'Estimate and track costs, educate the employees about the cloud and various pricing models, have appropriate governance about expenditure.'
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Financial Management & Cost Models
+  - title: Define a clear price model for individual services
+    url: /azure/architecture/framework/cost/design-price
+    condition:
+      noneOf:
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.B
+    context: As part of driving a good behavior it's important that the consumer has understood why they are paying the price for a service and also that the cost is transparent and fair to the user of the service or else it can drive wrong behavior.
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Define critical system flows
+    url: /azure/architecture/framework/resiliency/business-metrics#identify-critical-system-flows
+    condition:
+      noneOf:
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.C
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.E
+        - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.F
+    context: 'Understanding critical system flows is vital to assessing overall operational effectiveness, and should be used to inform a health model for the application. It can also tell if areas of the application are over or under-utilized and should be adjusted to better meet business needs and cost goals.'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Key Scenarios
+  - title: Define a capacity model
+    url: /azure/architecture/framework/scalability/capacity
+    condition:
+      noneOf:
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.D
+    context: Right sizing your infrastructure to meet the needs of your applications can save you considerably as opposed to a 'one size fits all' solution often employed with on-premises hardware. Identify the needs of your application and choose the resources that best fit those needs.
+    priority: 90
+    reportingCategory: Application Design
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Map application dependencies
+    url: /azure/azure-monitor/app/app-map?tabs=net
+    condition:
+      noneOf:
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.E
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.O
+    context: 'Examples of typical dependencies include platform dependencies outside the remit of the application, such as Azure Active Directory, Express Route, or a central NVA (Network Virtual Appliance), as well as application dependencies such as APIs which may be in-house or externally owned by a third-party. For cost it''s important to understand the price for these services and how they are being charged, this makes it easier to understanding an all-up cost. For more details see cost models.'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Dependencies
+  - title: Understand the Azure services used and cost implications
+    url: /azure/architecture/framework/cost/design-initial-estimate
+    condition:
+      noneOf:
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.F
+    context: 'It is important to understand what Azure services, such as App Services and Event Hubs, are used by the application platform to host both application code and data. In a discussion around cost, this can drive decisions towards the right replacements (e.g. moving from Virtual Machines to containers to increase efficiency, or migrating to .NET Core to use cheaper SKUs etc.).'
+    priority: 90
+    reportingCategory: Application Design
+    reportingSubCategory: Application Composition
+  - title: Understand the operational capabilities of Azure services
+    url: /azure/architecture/framework/cost/design-paas
+    condition:
+      noneOf:
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.G
+    context: 'Operational capabilities, such as auto-scale and auto-heal for App Services, can reduce management overheads, support operational effectiveness and reduce cost.'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Application Composition
+  - title: Learn if there are any discounts available for the services already in use
+    url: 'https://azure.microsoft.com/en-us/pricing/'
+    condition:
+      noneOf:
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.H
+    context: When alternative cost options are considered it should be understood first if any special offers or deals are given for the existing SKUs to verify that the correct prices are being used to build a business case.
+    priority: 90
+    reportingCategory: Governance
+    reportingSubCategory: Licensing
+  - title: Leverage the hybrid use benefit
+    url: 'https://azure.microsoft.com/en-us/pricing/hybrid-benefit/'
+    condition:
+      noneOf:
+        - Cost.7d96bb83-c14e-4309-abb6-670262b9ad51.I
+    context: Understanding your current spending on licenses can help you drive down cost in the cloud. A-HUB allows you to reuse licenses that you purchased for on-premises in Azure and via this drive down the cost as the license is already paid.
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Licensing
+  - title: Assign a budget and spend limit to the workload
+    url: /azure/architecture/framework/cost/monitor-alert
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.A
+    context: For cost management it is recommended to have a budget even for the smallest services operated as that allows to track and understand the flow of the spend and also understand the impact of a smaller service in a bigger picture.
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Financial Management & Cost Models
+  - title: Establish a cost owner for each service used by the workload
+    url: 'https://azure.microsoft.com/en-us/blog/how-to-optimize-your-azure-workload-costs-2/'
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.B
+    context: Every service should have a cost owner that is tracking and is responsible for cost. This drives responsibility and awareness on who owns the cost tracking.
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Financial Management & Cost Models
+  - title: Use cost forecasting for budget alignment
+    url: /azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.C
+    context: In order to predict costs and trends it's recommended to use forecasting to be proactive for any spending that might be going up due to higher demand than anticipated.
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Financial Management & Cost Models
+  - title: Revisit new Azure services
+    url: 'https://azure.microsoft.com/en-us/updates/'
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.D
+    context: 'Consider revisiting new Azure Services in a regular basis, as it can help you understanding if there is a newer SKU for a particular service that could be a better fit for this application. '
+    priority: 90
+    reportingCategory: Governance
+    reportingSubCategory: Financial Management & Cost Models
+  - title: Define end-date for each environment
+    url: 'https://azure.microsoft.com/en-us/services/cost-management/'
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.E
+    context: If your workload or environment isn't needed then you should be able to decommission it. The same should occur if you are introducing a new service or new feature.
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Operational Lifecycles
+  - title: Utilize the PaaS pay-as-you-go consumption model where relevant
+    url: /azure/architecture/framework/cost/design-price
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.F
+    context: 'To bring down cost the goal should be to get as many applications to only consume resources when they are used, this goes as an evolution from IaaS to PaaS to serverless where you only pay when a service I triggered. The PaaS and serverless might appear more expensive, but risk and other operational work is transferred to the cloud provider which should also be factored in as part of the cost (e.g. patching, monitoring, licenses).'
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Operational Lifecycles
+  - title: Understand how the budget is defined
+    url: /azure/architecture/framework/cost/monitor-alert#revise-budgets
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.G
+    context: 'It is important to have a clear understanding how an IT budget is defined. This is especially true for applications that are not built in-house, where IT budget has to be factored in as part of the delivery.'
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Culture & Dynamics
+  - title: Associate cost to the criticality of the business
+    url: /azure/architecture/framework/cost/design-governance#enforce-resource-tagging
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.H
+    context: Applications that are less critical to the business could use a smaller budget.
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Culture & Dynamics
+  - title: Have ongoing conversation between app owner and business
+    url: /azure/architecture/framework/cost/monitor-reviews
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.I
+    context: 'Is what''s delivered from IT and what the business is expecting from IT, mapped to the cost of the application?'
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Culture & Dynamics
+  - title: Develop a plan to modernize the workload
+    url: /dotnet/architecture/serverless/
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.J
+    context: 'Is there a plan to change the execution model to Serverless? To move as far as you can up the stack towards cloud-native. When the workload is serverless, it''s charged only for actual use, whereas with traditional infrastructure there are many underlying things that need to be factored into the price. By applying an end date to the application it encourages you to discuss the goal of re-designing the application to make even better use of the cloud. It might be more expensive from an Azure cost point of view but factoring in other things like licenses, people, time to deploy can drive down cost.'
+    priority: 10
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Enforce naming conventions and resource tagging for all Azure resources
+    url: /azure/architecture/framework/cost/design-governance#enforce-resource-tagging
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.K
+    context: Use tags on resources and resource groups to track the incurred costs. Identify the service meters that can't be tagged or viewed in the cost analysis tool in Azure portal.
+    priority: 90
+    reportingCategory: Governance
+    reportingSubCategory: Standards
+  - title: Define a naming convention
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.L
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.M
+    context: Using tags can help to manage resources and make it easier to find relevant items during operational procedures.
+    priority: 90
+    reportingCategory: Governance
+    reportingSubCategory: Standards
+  - title: Use RBAC to contol access to dashboards and data
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/track-costs#provide-the-right-level-of-cost-access
+    condition:
+      noneOf:
+        - Cost.93ced85e-122e-47eb-804d-0ab50f467af6.M
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.G
+    context: 'Are the dashboards openly available in your organization or do you limit access based on roles etc.? For example: developers usually don''t need to know the overall cost of Azure for the company, but it might be good for them to be able to watch a particular workload.'
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Dashboarding
+  - title: Set up alerts for cost limits and thresholds
+    url: /azure/architecture/framework/cost/monitor-alert#respond-to-alerts
+    condition:
+      noneOf:
+        - Cost.46f69716-7278-454b-a868-1037a89eb3f2.A
+    context: 'This is to ensure that if any budget is close to threshold, the cost owner gets notified to take appropriate actions on the change.'
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Alerting
+  - title: Define clear responsibilities for alerts
+    url: /azure/architecture/framework/cost/design-model#organization-structure
+    condition:
+      noneOf:
+        - Cost.46f69716-7278-454b-a868-1037a89eb3f2.B
+    context: Ensure the correct people responsible for the application is  alerted when there is any problem with the resource.
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Alerting
+  - title: Collect logs and metrics from Azure resources
+    url: /azure/azure-monitor/platform/data-platform-logs
+    condition:
+      noneOf:
+        - Cost.46f69716-7278-454b-a868-1037a89eb3f2.C
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.F
+    context: In order to successfully maintain the application it's important to 'turn the lights on' and have clear visibility of important metrics both in real-time and historically.
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Resource and Infrastructure Level Monitoring
+  - title: Use ACM or other cost management tools
+    url: /azure/architecture/framework/cost/monitor-reports
+    condition:
+      noneOf:
+        - Cost.46f69716-7278-454b-a868-1037a89eb3f2.D
+    context: 'In order to track spending an ACM tool can help with understanding how much is spent, where and when. This helps to make better decisions about how and if cost can be reduced.'
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Dashboarding
+  - title: Understand cloud-native features and implement where possible
+    url: 'https://azure.microsoft.com/en-us/overview/cloudnative/'
+    condition:
+      noneOf:
+        - Cost.fcf7ca0d-8504-49c3-8ca8-bfce5c67d489.A
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.A
+    context: Understanding if the application is cloud-native or not provides a very useful high-level indication about potential technical debt for operability and cost efficiency.
+    priority: 10
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Understand cost implications of availability strategy
+    url: /azure/architecture/framework/cost/tradeoffs
+    condition:
+      noneOf:
+        - Cost.fcf7ca0d-8504-49c3-8ca8-bfce5c67d489.B
+    context: 'As you design the workload, consider tradeoffs between cost optimization and other aspects of the design, such as security, scalability, resilience, and operability. Ask questions such as if the cost of high availability components exceeds the cost of the application downtime to the business and design your application accordingly.'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Consider multi-tenant or microservices scenarios when running multiple applications
+    url: 'https://azure.microsoft.com/en-us/solutions/microservice-applications/'
+    condition:
+      noneOf:
+        - Cost.fcf7ca0d-8504-49c3-8ca8-bfce5c67d489.C
+    context: 'When running multiple applications (typically in multi-tenant or microservices scenarios) density can be increased by deploying them on shared infrastructure and utilizing it more. For example: Containerization and moving to Kubernetes (Azure Kubernetes Services) enables pod-based deployment which can utilize underlying nodes efficiently. Similar approach can be taken with App Service Plans. To prevent the ''noisy neighbor'' situation, proper monitoring must be in place and performance analysis must be done (if possible).'
+    priority: 10
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Consider the cost of data transfers and make sure cross-region peering is used efficiently
+    url: 'https://azure.microsoft.com/en-us/pricing/details/bandwidth/'
+    condition:
+      noneOf:
+        - Cost.fcf7ca0d-8504-49c3-8ca8-bfce5c67d489.D
+    context: Moving data between regions can add additional cost - both on the storage layer or networking layer. It's worth reviewing if this cost is can be replaced via re-architecture or justified due to e.g. disaster recovery (DR).
+    priority: 90
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Data flow
+  - title: Understand the cost implications of multi-region deployment
+    url: /azure/architecture/framework/cost/design-regions#traffic-across-billing-zones-and-regions
+    condition:
+      noneOf:
+        - Cost.fcf7ca0d-8504-49c3-8ca8-bfce5c67d489.E
+    context: 'Consider how important is the application to justify the cost of having resources cross zones and/or cross regions. For non-mission critical applications such as, developer or test, consider keeping the solution and its dependencies in a single region or single zone to leverage the advantages of choosing the lower-cost region.'
+    priority: 90
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Understand the cost implications of Availability Zones
+    url: 'https://azure.microsoft.com/en-us/global-infrastructure/availability-zones/'
+    condition:
+      noneOf:
+        - Cost.fcf7ca0d-8504-49c3-8ca8-bfce5c67d489.F
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.B
+    context: 'Availability Zones can be used to optimize application availability within a region by providing datacenter level fault tolerance. However, the application architecture must not share dependencies between zones to use them effectively. It is also important to note that Availability Zones may introduce performance and cost considerations for applications which are extremely ''chatty'' across zones given the implied physical separation between each zone and inter-zone bandwidth charges. That also means that AZ can be considered to get higher Service Level Agreement (SLA) for lower cost. Be aware of  pricing changes coming to Availability Zone bandwidth starting February 2021.'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Define performance requirements
+    url: /azure/architecture/framework/cost/tradeoffs#cost-versus-performance-efficiency
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.A
+    context: 'As you design the workload, identify the ideal ratio between cost and performance. Analyze and compare factors such as fixed or consumption-based resources, compare prices between different regions and understand if the performance of the application will be degraded if the resource is deployed in a regions that is cheaper.'
+    priority: 90
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Define and monitor targets for scale operations
+    url: /azure/azure-monitor/vm/vminsights-performance
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.B
+    context: Use Azure monitor to analyze the usage of the resources.
+    priority: 90
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Design the workload to scale independently
+    url: /azure/architecture/framework/cost/optimize-autoscale
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.C
+    context: 'For certain application, capacity requirements may swing over time. Autoscaling policies allow for less error-prone operations and cost savings through robust automation. Choose smaller instances where workload is highly variable and scale out to get the desired level of performance, rather than up.'
+    priority: 90
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Configure auto-scale policies for your workload (both in and out)
+    url: /azure/architecture/framework/cost/optimize-autoscale
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.D
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.C
+    context: Deliberate selection of resources and sizing is important to maintain efficiency and optimal cost.
+    priority: 90
+    reportingCategory: Application Design
+    reportingSubCategory: Application Composition
+  - title: Set up a disaster recovery strategy that splits the application components and data into defined groups
+    url: /azure/backup/guidance-best-practices
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.E
+    context: 'Exclude disk  provides an efficient and cost-effective choice to selectively back up critical data. For example, back up only one disk when you don''t want to back up the rest of the disks attached to a VM. This is also useful when you have multiple backup solutions. For example, when you back up your databases or data with a workload backup solution (SQL Server database in Azure VM backup) and you want to use Azure VM level backup for selected disks.'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Use Azure Advisor
+    url: /azure/advisor/advisor-cost-recommendations
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.F
+    context: 'Azure Advisor helps to optimize and improve efficiency of the workload by identifying idle and under-utilized resources. It analyzes your configurations and usage telemetry and consolidates it into personalized, actionable recommendations to help you optimize your resources.'
+    priority: 90
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service SKU
+  - title: Review Azure Advisor recommendations periodically
+    url: /azure/architecture/framework/cost/monitor-reports#advisor-recommendations
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.G
+    context: 'Your underutilized resources need to be reviewed often in order to be identified and dealt with accordingly, in addition to ensuring that your actionable recommendations are up-to-date and fully optimized. For example, Azure Advisor monitors your virtual machine (VM) usage for 7 days and then identifies low-utilization VMs.'
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service SKU
+  - title: Choose appropriate region for workload deployments
+    url: /azure/architecture/framework/cost/design-checklist#architecture
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.H
+    context: 'Check your egress and ingress cost, within regions and across regions. Only deploy to multiple regions if your service levels require it for either availability or geo-distribution.'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Use developer SKUs for dev/test purposes
+    url: 'https://azure.microsoft.com/en-us/pricing/dev-test/'
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.I
+    context: 'Special SKUs and subscription offers for development and testing purposes can save costs, but have to be used properly. Dev SKUs are not meant for production deployments.'
+    priority: 10
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Consider shared platforms
+    url: /azure/architecture/framework/cost/design-paas
+    condition:
+      noneOf:
+        - Cost.42f8b5e2-e346-486f-9d0d-ade3a5a6ba16.J
+    context: ' '
+    priority: 10
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: The entire end-to-end CI/CD deployment process should be understood
+    url: 'https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/'
+    condition:
+      noneOf:
+        - Cost.0c2a5691-4b43-4503-ad69-ff6090f89ff8.A
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.J
+    context: ' '
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Code Deployments
+  - title: Differentiate between production and non-production configuration
+    url: /azure/architecture/framework/cost/design-resources#subscription-and-offer-type
+    condition:
+      noneOf:
+        - Cost.0c2a5691-4b43-4503-ad69-ff6090f89ff8.B
+    context: Azure usage rates and billing periods can vary depending on the subscription and offer type. Some subscription types also include usage allowances or lower prices.
+    priority: 90
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Delete or deallocate unused resources in test environments
+    url: 'https://azure.microsoft.com/en-us/solutions/dev-test/#overview'
+    condition:
+      noneOf:
+        - Cost.0c2a5691-4b43-4503-ad69-ff6090f89ff8.C
+    context: Review you pre-production environment periodically and shutdown or remove unused resources.
+    priority: 90
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Explore where technical delivery capabilities reside
+    url: /azure/architecture/framework/cost/design-model#organization-structure
+    condition:
+      noneOf:
+        - Cost.0c2a5691-4b43-4503-ad69-ff6090f89ff8.D
+    context: Map the organization's needs to logical groupings offered by cloud services. This way the business leaders of the company get a clear view of the cloud services and how they're controlled.
+    priority: 50
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Roles & Responsibilities
+  - title: Consider the ratio of non-production to production environments
+    url: /azure/architecture/framework/cost/design-resources#subscription-and-offer-type
+    condition:
+      noneOf:
+        - Cost.0c2a5691-4b43-4503-ad69-ff6090f89ff8.E
+    context: Consider using appropriate subscriptions types for Dev workloads and ensure production workloads are deployed in the correct subscription.
+    priority: 10
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Build Environments
+  - title: Monitor utilization of compute resources
+    url: /azure/azure-monitor/essentials/metrics-charts
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.A
+    context: Use Azure monitor to analyze the usage of the resources.
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Select the right operating system
+    url: /azure/architecture/guide/technology-choices/compute-decision-tree
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.B
+    context: 'Analyze the technology stack and identify which workloads are capable of running on Linux and which require Windows. Linux-based VMs and App Services are significantly cheaper, but require the app to run on supported stack (.NET Core, Node.js etc.).Select the right operating system'
+    priority: 90
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Consider reserved instances
+    url: /azure/architecture/framework/cost/optimize-vm#reserved-vms
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.C
+    context: 'Azure Reservations help you save money by committing to one-year or three-year plans for multiple products. Committing allows you to get a discount on the resources you use. Reservations can significantly reduce your resource costs by up to 72% from pay-as-you-go prices. '
+    priority: 90
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Consider B-series VMs
+    url: /azure/virtual-machines/sizes-b-series-burstable
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.D
+    context: 'The B-series provides you with the ability to purchase a VM size with baseline performance that can build up credits when it is using less than its baseline. These  types of VMs are ideal for workloads that do not need the full performance of the CPU continuously, like web servers, proof of concepts, small databases and development build environments. '
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Shut down VM instances not in use
+    url: /azure/architecture/framework/cost/optimize-vm#shut-down-the-under-utilized-instances
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.E
+    context: "Use the\_Start/stop VMs during off-hours a\_feature of virtual machines to minimize waste."
+    priority: 90
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Consider spot VMs
+    url: /azure/architecture/framework/cost/optimize-vm#spot-vms
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.F
+    context: 'Spot VMs are ideal for workloads that can be interrupted, such as highly parallel batch processing jobs. These VMs take advantage of the surplus capacity in Azure at a lower cost. They''re also well suited for experimental, development, and testing of large-scale solutions.'
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Consider Platform as a service (PaaS) options
+    url: /azure/architecture/framework/cost/provision-compute#use-paas-as-an-alternative-to-buying-vms
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.G
+    context: 'Consider modernizing your application to use PaaS. When you use the IaaS model, you do have final control over the VMs. It may appear to be a cheaper option at first, but when you add operational and maintenance costs, the cost increases. When you use the PaaS model, these extra costs are included in the pricing. In some cases, this means that PaaS services can be a cheaper than managing VMs on your own. '
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Use App Service Premium (v3) plan where possible
+    url: /azure/app-service/app-service-configure-premium-tier
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.H
+    context: Opportunity to save costs with upgrade and apply reservations.
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Application Composition
+  - title: Consider VM Zone to Zone DR
+    url: /azure/site-recovery/azure-to-azure-how-to-enable-zone-to-zone-disaster-recovery
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.I
+    context: Site Recovery does not move or store customer data out of the region in which it is deployed when the customer is using Zone to Zone Disaster Recovery.  Note that the egress charges that you would see in zone to zone disaster recovery would be lower than region to region disaster recovery.
+    priority: 10
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Pause AKS clusters
+    url: /azure/aks/start-stop-cluster
+    condition:
+      noneOf:
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.J
+    context: 'To optimize your costs when AKS workloads may not need to run continuously, you can completely turn off (stop) your cluster. This action will stop your control plane and agent nodes altogether, allowing you to save on all the compute costs, while maintaining all your objects and cluster state stored for when you start it again. '
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Consider using Service Endpoints and Private Link
+    url: /azure/private-link/private-endpoint-overview
+    condition:
+      noneOf:
+        - Cost.8d035b91-36fb-4700-8561-038ef8bd4d72.A
+    context: 'Service Endpoints and Private Link can be leveraged to restrict access to PaaS endpoints from only authorized virtual networks, effectively mitigating data intrusion risks and associated impact to application availability. Service Endpoints provide service level access to a PaaS service, while Private Link provides direct access to a specific PaaS resource to mitigate data exfiltration risks (e.g. malicious admin scenarios).'
+    priority: 50
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Network Security
+  - title: Understand cost implications of hub and spoke design
+    url: /azure/architecture/networking/hub-spoke-vwan-architecture
+    condition:
+      noneOf:
+        - Cost.8d035b91-36fb-4700-8561-038ef8bd4d72.B
+    context: Consider using a hub and spoke approach to save costs by using a managed service and removing the necessity of network virtual appliance.
+    priority: 50
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Data flow
+  - title: Prefer Microsoft backbone for networking
+    url: /azure/architecture/reference-architectures/hybrid-networking/
+    condition:
+      noneOf:
+        - Cost.8d035b91-36fb-4700-8561-038ef8bd4d72.C
+    context: Are you closer to your users or on-prem? If users are closer to the cloud you should use MSFT (i.e. egress traffic). MPLS is when another service provider gives you the line.
+    priority: 50
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Connectivity
+  - title: Consider additional DDoS protection
+    url: 'https://azure.microsoft.com/services/ddos-protection/'
+    condition:
+      noneOf:
+        - Cost.8d035b91-36fb-4700-8561-038ef8bd4d72.D
+    context: ' Azure DDoS Protection Standard, combined with application design best practices, provides enhanced DDoS mitigation features to defend against DDoS attacks. It is automatically tuned to help protect your specific Azure resources in a virtual network.'
+    priority: 50
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Be aware of cost implications of Web Application Firewall
+    url: 'https://azure.microsoft.com/pricing/details/web-application-firewall/'
+    condition:
+      noneOf:
+        - Cost.8d035b91-36fb-4700-8561-038ef8bd4d72.E
+    context: 'There are cost implications to using Front Door with Web Application Firewall enabled, but it can save costs compared to using a 3rd party solution. Front Door has a good latency, because it uses unicast. If only 1 or 2 regions are required, Application Gateway can be used. There are cost implications of having a WAF - you should check pricing of hours and GB/s.'
+    priority: 10
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Be aware of cross-region data transfer costs
+    url: /azure/architecture/framework/cost/provision-networking#peering
+    condition:
+      noneOf:
+        - Cost.8d035b91-36fb-4700-8561-038ef8bd4d72.F
+    context: Moving data between regions can add additional cost - both on the storage layer or networking layer. It's worth reviewing if this cost is can be replaced via re-architecture or justified due to e.g. disaster recovery (DR).
+    priority: 50
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Data flow
+  - title: Be aware of extra cost when tunnelling traffic through on-premises
+    url: /azure/firewall/forced-tunneling
+    condition:
+      noneOf:
+        - Cost.8d035b91-36fb-4700-8561-038ef8bd4d72.G
+    context: Consider the extra cost related to data ingress and egress if your application requires to use forced tunneling.
+    priority: 10
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Data flow
+  - title: Look for Public IPs and orphaned NICs
+    url: /azure/virtual-machines/linux/find-unattached-nics
+    condition:
+      noneOf:
+        - Cost.8d035b91-36fb-4700-8561-038ef8bd4d72.H
+    context: 'When you delete a VM, some of the resources such as NICs or Managed Disks are not deleted by default. It is recommended to delete those resources if they are no longer needed.'
+    priority: 90
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Resource and Infrastructure Level Monitoring
+  - title: Consider reserved capacity for Storage
+    url: /azure/storage/blobs/storage-blob-reserved-capacity
+    condition:
+      noneOf:
+        - Cost.c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7.A
+    context: Azure Storage reserved capacity can significantly reduce your capacity costs for block blobs and Azure Data Lake Storage Gen2 data.  You can purchase Azure Storage reserved capacity in units of 100 TiB and 1 PiB per month for a one-year or three-year term
+    priority: 90
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Organize data into access tiers
+    url: /azure/cloud-adoption-framework/ready/considerations/storage-options
+    condition:
+      noneOf:
+        - Cost.c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7.B
+    context: 'Azure offers multiple products and services for different storage capabilities.  Review the different options available and decide which one is better for your workload.  After you identify the Storage resources that best match your requirements, use the detailed documentation available to familiarize yourself with these services.'
+    priority: 90
+    reportingCategory: Application Design
+    reportingSubCategory: Application Composition
+  - title: Use data lifecycle policy
+    url: /azure/storage/blobs/storage-lifecycle-management-concepts
+    condition:
+      noneOf:
+        - Cost.c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7.C
+    context: 'Azure storage offers different access tiers, allowing you to store blob object data in the most cost-effective manner. Available access tiers include: Hot (Optimized for storing data that is accessed frequently), Cool (Optimized for storing data that is infrequently accessed and stored for at least 30 days), and Archive (Optimized for storing data that is rarely accessed and stored for at least 180 days with flexible latency requirements, on the order of hours).'
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Resource and Infrastructure Level Monitoring
+  - title: Consider using shared disks for suitable workloads
+    url: /azure/virtual-machines/disks-shared
+    condition:
+      noneOf:
+        - Cost.c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7.D
+    context: 'Shared managed disks offer shared block storage that can be accessed from multiple VMs, these are exposed as logical unit numbers (LUNs). LUNs are then presented to an initiator (VM) from a target (disk). These LUNs look like direct-attached-storage (DAS) or a local drive to the VM.'
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Consider using reserved Premium disks
+    url: /azure/virtual-machines/disks-reserved-capacity
+    condition:
+      noneOf:
+        - Cost.c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7.E
+    context: 'Azure Disk Storage reservations are available only for select Azure premium SSD SKUs. The SKU of a premium SSD determines the disk''s size and performance. A disk reservation is made per disk SKU. As a result, the reservation consumption is based on the unit of the disk SKUs instead of the provided size. Make sure you track the usage in disk SKUs instead of provisioned or used disk capacity.'
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Consider utilizing disk bursting
+    url: /azure/virtual-machines/disk-bursting
+    condition:
+      noneOf:
+        - Cost.c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7.F
+    context: 'Azure offers the ability to boost disk storage IOPS and MB/s performance. Consider using disk bursting for some scenarios such as improve startup times, handle back jobs, traffic spikes.'
+    priority: 90
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Separate data and log disks
+    url: /sql/relational-databases/policy-based-management/place-data-and-log-files-on-separate-drives?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Cost.c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7.G
+    context: 'Placing both data and log files on the same device can cause contention for that device, resulting in poor performance. Placing the files on separate drives allows the I/O activity to occur at the same time for both the data and log files.'
+    priority: 90
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Cleanup Storage regularly
+    url: /azure/architecture/framework/cost/optimize-checklist
+    condition:
+      noneOf:
+        - Cost.c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7.H
+    context: Review your storage account to understand if there is any piece of data that can be deleted or moved to a different tier.
+    priority: 90
+    reportingCategory: Governance
+    reportingSubCategory: Financial Management & Cost Models
+  - title: Consider selective backups for VMs
+    url: /azure/backup/selective-disk-backup-restore
+    condition:
+      noneOf:
+        - Cost.c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7.I
+    context: 'Azure Backup supports the use of the Selective Disks backup and restore functionally which allows you to back up a subset of data disks in a VM, which is an efficient  and cost-effective way to backup your application.'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+uid: 7035dc7a-a898-466c-b73f-ce37195f2376
+name: ''

@@ -1,0 +1,49 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We use node pool stop and start to turn off our node pools outside of business hours, and KEDA CRON scaler to scale down our pods based on time.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: We sized our cluster to match the scalability needs of our application and use cluster auto-scaler in combination with virtual nodes to rapidly scale and maximize compute resource utilization.
+    description: Enforce resource quotas at the namespace level and scale user node pools to 0 when there's no demand.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: We've evaluated and identified Ampere Altra Arm-based processors for virtual machines as a power-efficient option to reduce energy waste without compromise on the required performance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 4eb11871-8e1f-48d1-abee-2668b98f1988.ca6d89aa-b7bb-46fc-9104-ae5b645439db.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: b9352555-b057-4ba4-966b-6b812b71db95
+name: How do you ensure the workload is not oversized and that you make the best use of allocated resources to avoid energy waste and added carbon emissions?

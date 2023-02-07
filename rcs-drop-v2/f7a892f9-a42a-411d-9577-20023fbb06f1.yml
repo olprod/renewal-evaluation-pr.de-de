@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Application platform components are deployed across Availability Zones or Availability Sets.
+    description: Is the application deployed across AZs or ASs?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Leveraged platform services are Availability Zone aware.
+    description: 'Platform services that can leverage Availability Zones are deployed in either a zonal manner within a particular zone, and/or in a zone-redundant configuration across multiple zones'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Application platform components are deployed across multiple regions.
+    description: The ability to respond to disaster scenarios for overall compute platform availability and application resiliency is dependent on the use of multiple regions or other deployment locations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Load balancing is implemented to distribute traffic across multiple nodes.
+    description: Are application components hosted across multiple nodes based on expected traffic patterns?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: f7a892f9-a42a-411d-9577-20023fbb06f1
+name: What decisions have been taken to ensure the database platform meets your reliability requirements?

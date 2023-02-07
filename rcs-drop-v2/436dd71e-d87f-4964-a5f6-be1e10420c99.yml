@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Have well-defined performance goals.
+    description: Defining performance goals allows you to build architecture that aligns to your business needs and trade-off between performance and cost optimization. Carefully take the price / performance ratio into consideration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Have policies to scale up and scale down when my load decreases.
+    description: Adjust the SQL MI configuration based on the workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Use horizontal scaling when possible with Business Critical tier.
+    description: Horizontal scaling allows you to dynamically add and remove resources based on demand.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Understand the performance bottlenecks.
+    description: 'Understanding your performance bottlenecks is critical for designing systems that will have variable throughput over time, consider build in features like query store, DMV''s etc.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Have the right indexing in place.
+    description: Poorly designed indexes and a lack of indexes are primary sources of database application bottlenecks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Indexes and statistics are updated and optimized when it is needed.
+    description: Lack of proper index maintenance might cause additional IO for some workloads and having outdated statistics might results in suboptimal query plans.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: performance-data-sqlmi
+uid: 436dd71e-d87f-4964-a5f6-be1e10420c99
+name: How are you thinking about performance?

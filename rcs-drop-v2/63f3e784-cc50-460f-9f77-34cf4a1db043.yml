@@ -1,0 +1,97 @@
+### YamlMime:SelfAssessment
+description: Identify the skills required to start your Docs contribution journey and get recommendation on mandatory trainings.
+duration: '15'
+questionnaireReferences:
+  - questionnaireUid: plan-design-training
+    isRequired: true
+  - questionnaireUid: setup-install-training
+    isRequired: true
+  - questionnaireUid: write-training
+    isRequired: true
+guidance:
+  title: '15'
+  description: 'Next steps To be successful with your Docs contribution journey, you need to have an understanding of what it takes to write successful content.'
+  providers: []
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: This report will help you identify your training needs to be a successful Docs contributor. This 48-minutes training teaches you how to plan and design your Docs content.
+        links:
+          - title: Complete this training before starting the create and publish Docs content training.
+            url: 'https://review.docs.microsoft.com/en-us/learn/paths/plan-design-docs/?branch=master'
+            condition:
+              allOf: []
+              anyOf:
+                - plan-design-training.4e5ff75f-2e30-40ca-9056-69557f6ddc82.beab0bbe-6763-4a65-b11d-176d11908aa7.B
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Plan and design your Docs
+      - iconUrl: ''
+        description: 'Required training: Plan and design your Docs content docs.microsoft.com is the home for Microsoft documentation and learning for developers and technology professionals.'
+        links:
+          - title: Identify the content area you are looking to contribute to.
+            url: 'https://review.docs.microsoft.com/learn/modules/minor-edits'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Learn how to how to make minor Docs content updates directly on GitHub.com
+      - iconUrl: ''
+        description: 'Required training: Where do you want to contribute to? docs.microsoft.com is the home for Microsoft documentation and learning for developers and technology professionals.'
+        links:
+          - title: Identify the content area you are looking to contribute to.
+            url: 'https://aka.ms/learn-training/learn'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Learn best practices for contributing modules to Microsoft Learn
+      - iconUrl: ''
+        description: 'Required training: Where do you want to contribute to? This training guides you through steps to setup your GitHub and authoring tools.'
+        links:
+          - title: It takes around 50 mins to complete.
+            url: 'https://review.docs.microsoft.com/en-us/learn/paths/setup-install-docs/?branch=master'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Set up your system to prepare for contribution to Microsoft Docs
+      - iconUrl: ''
+        description: 'Required training: Prepare your system for contribution to Microsoft Docs'
+        links:
+          - title: This learning path guides you through the different steps involved in creating and publishing your Docs. It takes around 1.5 hours to complete.
+            url: 'https://review.docs.microsoft.com/en-us/learn/paths/create-content-docs/?branch=master'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Create and publish your Docs content
+      - iconUrl: ''
+        description: 'Required training: Create and publish your Docs Based on your self-assessment, you don''t require any mandatory onboarding training.'
+        links:
+          - title: Refer to the Docs contributor guide for detailed guidance that'll help you along your contribution journey.
+            url: /help/contribute/?branch=master
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Docs contributor guide
+  recommendationsTitle: ''
+owner:
+  firstName: Heidi
+  lastName: ' McDonald'
+  email: heidib@microsoft.com
+isHiddenAssessment: true
+uid: 63f3e784-cc50-460f-9f77-34cf4a1db043
+name: 'Guidance: Docs contributor guide'

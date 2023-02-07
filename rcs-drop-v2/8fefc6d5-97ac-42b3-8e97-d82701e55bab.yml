@@ -1,0 +1,105 @@
+### YamlMime:SelfAssessment
+description: Assess your cloud adoption strategy and get recommendations on building or advancing your cloud business case.
+duration: 10 minutes
+questionnaireReferences:
+  - questionnaireUid: 09f5210e-5b3d-45a4-a90c-e4956e955f9d
+    isRequired: false
+  - questionnaireUid: b9989cce-60f3-470a-9b48-f88a58702735
+    isRequired: false
+  - questionnaireUid: 804d071d-09ec-41b3-b74e-52a6e39a1338
+    isRequired: false
+  - questionnaireUid: e530ecbe-8907-4412-81e2-f8b8c967be88
+    isRequired: false
+  - questionnaireUid: 85fccb4c-167c-41e9-9549-766567282a30
+    isRequired: false
+  - questionnaireUid: 64c69b3b-8f65-47f6-92ab-03aa1a3a6b4b
+    isRequired: false
+guidance:
+  title: 10 minutes
+  description: Understanding the maturity of your cloud adoption strategy.
+  providers: []
+  scoring:
+    title: 'Review the evaluation of your strategy, and select guidance that can help you improve your business case for cloud adoption.'
+    description: Recommendations to improve your cloud adoption strategy. Consider reviewing the following guidance to improve your strategy in various categories.
+    calculationType: Average
+    scoresVerbage: Low|Medium|High
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: |
+          These recommendations can help you strengthen your business case. This template allows you to estimate your cost savings against pay-as-you-go pricing by optimizing Azure offers and benefits for VMs like Azure Hybrid Benefit and reserved instances.
+        links:
+          - title: Download the following files to use the Power BI model
+            url: 'https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/strategy/azure-virtual-machine-cost-estimator.pbix'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Download the template
+      - iconUrl: ''
+        description: Azure Virtual Machine cost estimator
+        links:
+          - title: Use the template to start building your cloud adoption plan
+            url: 'https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Download the word template
+      - iconUrl: ''
+        description: 'Cloud Adoption Plan template Estimate your total cost of ownership and cost savings. '
+        links:
+          - title: Learn how to manage and optimize your cloud spend.
+            url: 'https://azure.microsoft.com/en-us/pricing/calculator/'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - e530ecbe-8907-4412-81e2-f8b8c967be88<6
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Configure and estimate the costs for Azure products
+      - iconUrl: ''
+        description: Pricing calculator
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf:
+                - 804d071d-09ec-41b3-b74e-52a6e39a1338<6
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: second rec
+  recommendationsTitle: ''
+owner:
+  firstName: Moh
+  lastName: Radwan
+  email: mohrad@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - azure
+uid: 8fefc6d5-97ac-42b3-8e97-d82701e55bab
+name: Ex 2

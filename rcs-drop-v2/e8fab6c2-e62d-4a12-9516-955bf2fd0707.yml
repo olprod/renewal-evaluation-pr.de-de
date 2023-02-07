@@ -1,0 +1,18 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Complete "Get started with Microsoft Cloud for Healthcare" learning path on Microsoft Learn | 5 hr 15 min
+    url: 'https://docs.microsoft.com/learn/paths/healthcare-in-a-day/'
+    condition:
+      allOf:
+        - d275c2e2-cf61-4e3b-9407-e253966aa5e1.4d694c95-9093-4942-b09a-c18a1a69014d.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: e8fab6c2-e62d-4a12-9516-955bf2fd0707
+name: ''

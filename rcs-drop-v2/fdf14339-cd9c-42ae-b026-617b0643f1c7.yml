@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: 'https://learn.microsoft.com/en-us/training/achievements/sc-100-design-zero-trust-strategy-architecture.svg'
+description: ''
+links:
+  - title: Build an overall security strategy and architecture
+    url: 'https://learn.microsoft.com/training/modules/build-overall-security-strategy-architecture/'
+    condition:
+      allOf: []
+      anyOf:
+        - 071277c1-8df6-41c3-b004-dff7e0b37e4c.e0842694-a319-48b5-91a1-580a568e450c.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Design a security operations strategy
+    url: 'https://learn.microsoft.com/training/modules/design-security-operations-strategy/'
+    condition:
+      allOf:
+        - 071277c1-8df6-41c3-b004-dff7e0b37e4c.95b8375c-4b90-4b27-adb7-cb9e3226dfd2.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Design an identity security strategy
+    url: 'https://learn.microsoft.com/training/modules/design-identity-security-strategy/'
+    condition:
+      allOf: []
+      anyOf:
+        - 071277c1-8df6-41c3-b004-dff7e0b37e4c.9822d2b1-1468-45d0-9f92-2cbb0ffbe983.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: fdf14339-cd9c-42ae-b026-617b0643f1c7
+name: Review learning materials for designing a zero trust strategy and architecture

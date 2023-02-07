@@ -1,0 +1,97 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Automate deployment based on the application lifespan.
+    description: Does your service run seasonally or follow long-term patterns.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Use DevOps and deployment automation.
+    description: 'In an on premises environment, we do not typically have the luxury of being able to access APIs to turn on/off, or scale up/down or even drop and re-deploy workloads, in the same way as we do in the cloud.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: C
+    text: Configure scaling policies for workloads (both in and out).
+    description: 'For certain solutions, capacity requirements may swing over time, scaling policies allow for less error-prone operations and cost savings through robust automation - this includes also deleting environments and re-creating them instead of scale-up / scale-down.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: D
+    text: Deploy the database/instances in the same region as your application to prevent data transfer costs.
+    description: Deploying SQL DB in one region and other services like App Service in another region can generate additional cross regions data transfer costs and network latency.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: E
+    text: Choose appropriate services tiers that match business requirements.
+    description: Any architecture planning starts with a careful enumeration of requirements - verify if You need General Purpose or Business Critical tier
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: F
+    text: "Make sure to adjust\_storage size to real needs."
+    description: Storage can be easily added to running instance - deploying storage which is not used can generate additional cost.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: G
+    text: Verify if instances needs to be deployed in multi-region scenario (Instance fail-over Groups).
+    description: 'If workload does not require multi-region availability, use single region deployment based on correct tier General Purpose or Business Critical and included HA/DR options'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: H
+    text: Select the right deployment model depending on your requirements (Single Database / Elastic Pools).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: I
+    text: 'Azure SQL Database supports two purchasing models: vCore and DTU.'
+    description: The way you get charged varies between the purchasing models so it's important to understand the model that works best for your workload when planning and considering costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: 'Use Azure SQL Database Serverless for applications that have intermittent, unpredictable usage patterns.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: K
+    text: Select the appropriate hardware generation to match your workload requirements.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.A
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: provision-data-sqldb
+uid: 552b15af-b81e-49d9-83e9-e8b8ae409a22
+name: How do you ensure that cloud resources are appropriately provisioned?

@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization publishes dataset for consumers by self-service creators in an uncontrolled way, without a specific strategy.'
+    description: 'Your organization publishes dataset for consumers by self-service creators in an uncontrolled way, without a specific strategy.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization has pockets of good practices but overly dependent on the knowledge, skills, and habits of the content creator.'
+    description: 'Your organization has pockets of good practices but overly dependent on the knowledge, skills, and habits of the content creator.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has clear guidelines that are defined and communicated to describe how to deliver datasets and models.
+    description: Your organization has clear guidelines that are defined and communicated to describe how to deliver datasets and models.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has clear guidelines for datasets and model delivery that are followed by most, or all, groups across the organization.'
+    description: 'Your organization has clear guidelines for datasets and model delivery that are followed by most, or all, groups across the organization.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization drives successful business value that's achieved for deployed datasets and models and are regularly evaluated for process improvement.
+    description: Your organization drives successful business value that's achieved for deployed datasets and models and are regularly evaluated for process improvement.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  How do you manage datasets and models for business consumption?
+isRequired: true
+uid: 11f901f6-059b-4613-a604-8c30952e573b
+name: How do you manage datasets and models for business consumption?

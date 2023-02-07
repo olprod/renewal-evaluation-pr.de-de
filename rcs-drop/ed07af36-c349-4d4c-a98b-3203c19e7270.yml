@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing a RESTful Azure Function app API that uses the Microsoft identity platform. You implement an API method to read a user’s calendar.
+
+  You need to ensure the API can request permission to access a user’s calendar.
+
+  What should you use?
+questionnaireUid: 7e55fe63-3977-4d59-bd9c-c656c6d33016
+questions:
+  - uid: ed07af36-c349-4d4c-a98b-3203c19e7270-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a RESTful Azure Function app API that uses the Microsoft identity platform.
+        isCorrect: false
+      - id: 1
+        text: You implement an API method to read a user’s calendar.
+        isCorrect: false
+      - id: 2
+        text: You need to ensure the API can request permission to access a user’s calendar.
+        isCorrect: true
+      - id: 3
+        text: What should you use?
+        isCorrect: false
+      - id: 4
+        text: the ```state``` OAuth 2.0 authorization request parameter
+        isCorrect: false
+uid: ed07af36-c349-4d4c-a98b-3203c19e7270
+title: ''

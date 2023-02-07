@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not have access to centralized data that is well prepared and meaningful and that is easily accessible to all consumers at all levels.
+    description: Your organization does not have access to centralized data that is well prepared and meaningful and that is easily accessible to all consumers at all levels.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization is planning to adopt the use semantic data layer that is your organization-wide centre of intelligence. '
+    description: 'Your organization is planning to adopt the use semantic data layer that is your organization-wide centre of intelligence. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization extracts and transforms data into the exact business logic that is needed by your organization by creating a semantic data layer as delivery mechanism.
+    description: Your organization extracts and transforms data into the exact business logic that is needed by your organization by creating a semantic data layer as delivery mechanism.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization is leveraging viable semantic data models giving your organization a trusted source of data that is centred around the business logic specific to your business.
+    description: Your organization is leveraging viable semantic data models giving your organization a trusted source of data that is centred around the business logic specific to your business.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization is leveraging viable semantic data models and reviews key performance indicators regularly to measure success of implementation.
+    description: Your organization is leveraging viable semantic data models and reviews key performance indicators regularly to measure success of implementation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you leverage the use of semantic models? '
+isRequired: true
+uid: c3b45171-ff29-4a96-99d3-c50087a2f136
+name: Do you leverage the use of semantic models?

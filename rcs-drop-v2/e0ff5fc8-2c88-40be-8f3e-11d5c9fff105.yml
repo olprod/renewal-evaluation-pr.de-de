@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Functional and technical knowledge of Microsoft Power Platform, Dynamics 365 apps, related Microsoft cloud solutions, and other third-party technologies.'
+hideEmptyGuidance: false
+questions:
+  - 45cdfba6-62e6-4ce7-8922-f66912b767cc
+recommendations:
+  - fff992b0-0e2f-4997-b5e5-415dd52ca1a5
+assignedGroupIds: []
+uid: e0ff5fc8-2c88-40be-8f3e-11d5c9fff105
+name: Design and Implement a Power Platform Solution

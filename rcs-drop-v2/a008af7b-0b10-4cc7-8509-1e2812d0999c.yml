@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: The critical resource organization design area establishes consistent patterns for organizing resources deployed to the cloud.
+hideEmptyGuidance: false
+questions:
+  - 1f61eb4e-a7de-4056-9d0b-8cd417ea154f
+  - a17622a8-84f0-4b36-aeaf-40613b651fc2
+  - 73cfa52c-95f2-4117-9910-fc1dad40e7c4
+recommendations:
+  - 507baa9d-12c0-450f-81e9-9fbfa3eb9436
+assignedGroupIds: []
+uid: a008af7b-0b10-4cc7-8509-1e2812d0999c
+name: Resource organization

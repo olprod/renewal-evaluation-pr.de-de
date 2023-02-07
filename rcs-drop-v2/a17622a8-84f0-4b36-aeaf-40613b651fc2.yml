@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: No democratization. One subscription for all resources hosted in Azure.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'Two subscriptions, one for platform shared services and another for applications/workloads.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Separate subscriptions for different environments (e.g. prod, test, dev). The subscriptions are shared by all applications/workloads and their teams.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: 'Separate subscriptions for each application/workload team. Each team can have multiple subscriptions depending on their particular application/workload requirements. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: Separate subscriptions for each application/workload team. Each team can have multiple subscriptions depending on their particular application/workload requirements. There are also separate subscriptions for central shared platform services.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: false
+uid: a17622a8-84f0-4b36-aeaf-40613b651fc2
+name: Which of these options best describes your current usage of Subscriptions and how you democratize their usage?

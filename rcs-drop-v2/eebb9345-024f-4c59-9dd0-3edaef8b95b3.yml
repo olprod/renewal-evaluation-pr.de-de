@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Key components of a business case
+    url: /azure/cloud-adoption-framework/strategy/cloud-migration-business-case
+    condition:
+      allOf: []
+      anyOf:
+        - 64c69b3b-8f65-47f6-92ab-03aa1a3a6b4b.1df169f6-e0a1-4731-9f51-26824d29a056.1df169f6-e0a1-4731-9f51-26824d29a056-q-0.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Build a digital transformation timeline
+    url: /azure/cloud-adoption-framework/strategy/digital-transformation-timeline
+    condition:
+      allOf: []
+      anyOf:
+        - 64c69b3b-8f65-47f6-92ab-03aa1a3a6b4b.1df169f6-e0a1-4731-9f51-26824d29a056.1df169f6-e0a1-4731-9f51-26824d29a056-q-1.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: eebb9345-024f-4c59-9dd0-3edaef8b95b3
+name: ''

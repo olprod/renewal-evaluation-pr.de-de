@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Assessing whether your.NET applications are up-to-date can help to determine how ready you are to modernize those applications.
+hideEmptyGuidance: false
+questions:
+  - aae84b12-4452-4304-aa31-1ba1ee9ee0da
+  - f3a8328c-7f99-4835-a4e5-c1664642d9ba
+recommendations:
+  - d183650c-036d-44b9-9227-764cc0b71f7b
+assignedGroupIds: []
+uid: cae00f72-6df1-4cb5-baed-3bea802485fe
+name: .NET

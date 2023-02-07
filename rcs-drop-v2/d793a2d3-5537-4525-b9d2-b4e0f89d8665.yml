@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This section cover tips and practices on database audit and logging and relevant best practices.
+hideEmptyGuidance: false
+questions:
+  - 9ce9f695-fbc5-466a-9d0a-6a6b34443b48
+  - 15c29aa2-fabb-4df1-b5a5-f116bd8b6ed5
+  - 533defec-2cef-4568-80d2-40689db0532f
+recommendations:
+  - 65d11be4-441e-435e-ab43-f5eba3492cd6
+  - 87f1341d-e055-490f-bc04-fd46556a84e2
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: d793a2d3-5537-4525-b9d2-b4e0f89d8665
+name: Database Audit & Logging

@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Windows Server container host named Host1.
+
+  You plan to run containers named container1 and container2 on Host1.
+
+  You need to ensure that container1 and container2 do **NOT** share a kernel.
+
+  Which parameter should you use with `docker run`?
+questionnaireUid: f19cc7b6-132a-44ac-91ab-28481f303c6a
+questions:
+  - uid: f1cf9bdf-8466-4ea5-9491-8b9489c3dab3-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: '`--isolation=process`'
+        isCorrect: false
+      - id: 1
+        text: '`--isolation=hyperv`'
+        isCorrect: true
+      - id: 2
+        text: '`--kernel-memory="4"`'
+        isCorrect: false
+      - id: 3
+        text: '`--kernel-memory="16"`'
+        isCorrect: false
+    manualId: 8_az-800-az-800.3.2
+uid: f1cf9bdf-8466-4ea5-9491-8b9489c3dab3
+title: ''
+manualId: ''

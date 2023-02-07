@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Turn on logs for your Azure Firewall
+    url: /azure/firewall/firewall-workbook
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 765d5004-b7c0-48b5-a837-3673d2196341.58806504-fb86-478e-a114-4734d8e7717c.A
+      scoreOf: []
+    context: You can monitor Azure Firewall using firewall logs or workbooks. You can also use activity logs to audit operations on Azure Firewall resources.
+    priority: 50
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Information Gathering
+  - title: Use FQDN tags on your Azure Firewall
+    url: /azure/firewall/fqdn-tags
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 765d5004-b7c0-48b5-a837-3673d2196341.58806504-fb86-478e-a114-4734d8e7717c.B
+      scoreOf: []
+    context: 'FQDN tags make it easy for you to allow well known Azure service network traffic through your firewall. For example, say you want to allow Windows Update network traffic through your firewall. You create an application rule and include the Windows Update tag. Now network traffic from Windows Update can flow through your firewall.'
+    priority: 50
+    reportingCategory: 'Upgrade, Migration and Deployment'
+    reportingSubCategory: Configuring for Deployment
+uid: f954b7d7-7afd-4112-962b-1c57a97f2482
+name: ''

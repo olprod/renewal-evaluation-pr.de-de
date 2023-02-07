@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are implementing the Microsoft Dynamics 365 Field Service for a courier company.
+
+  You need to configure the system to show the schedule boards that are related to a specific dispatcher.
+
+  What are two ways to accomplish this goal? Each correct answer presents a complete solution.
+questionnaireUid: 45539ed0-f87a-4369-8ad2-d7342352194c
+questions:
+  - uid: e8c110df-34ab-4002-abbe-782bc7386f42-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are implementing the Microsoft Dynamics 365 Field Service for a courier company.
+        isCorrect: false
+      - id: 1
+        text: You need to configure the system to show the schedule boards that are related to a specific dispatcher.
+        isCorrect: false
+      - id: 2
+        text: What are two ways to accomplish this goal?
+        isCorrect: true
+      - id: 3
+        text: Each correct answer presents a complete solution.
+        isCorrect: true
+    manualId: ''
+uid: e8c110df-34ab-4002-abbe-782bc7386f42
+title: ''

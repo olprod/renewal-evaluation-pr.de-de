@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 3207145d-84c4-4d0f-b723-9784df466fd6
+  - e68ab610-2992-4d18-bf07-f951ed3e5135
+  - f7c4c015-224b-4fe9-b3d4-b6225cb688d3
+  - 7cbd8622-2018-4a2c-ae8a-10bf0bc692b2
+  - 3f923d3f-44ee-4568-ac95-1f2681d4fef9
+recommendations:
+  - 010765fc-9a86-44c8-b279-7dff88e6bd81
+assignedGroupIds: []
+uid: 27ed5adb-8cd1-4f90-a2be-3ae87f3c0808
+name: Cosmos DB (SQL API) - Performance Efficiency

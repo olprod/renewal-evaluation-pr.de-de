@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: DDoS Standard is enabled on all public-facing IP addresses to protect against DDoS attack
+    description: |
+      Protect Internet-facing endpoints from DDoS attack
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '2'
+    text: 'A centrally-managed layer 7 firewall is used to govern all traffic flows (at the edge, and across all Azure and on-prem subnets)'
+    description: 'Use Azure Firewall or a virtualized firewall appliance from the Azure Marketplace to centrally manage traffic flows between resources, as well as to/from the Internet, on-prem or other cloud provider networks'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '3'
+    text: TLS termination and IDPS is used to inspect traffic to and from your workloads
+    description: |
+      Use signature-based IDPS to detect malicious traffic. Combine with TLS termination to allow encrypted connections to be inspected.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '4'
+    text: A web application firewall (WAF) is used to protect all web applications and APIs from common exploits and vulnerabilities
+    description: |
+      Use a web application firewall (WAF) to protect web applications and APIs against x-site scripting, SQL injection and other common attacks
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '5'
+    text: Firewalls integrate with threat intel to alert/block communication with known bad IPs and domains
+    description: |
+      Use firewalls that integrate threat intel for realtime alerting/blocking of malicious IP addresses and DNS domains
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '7'
+    text: Insecure legacy protocol usage is detected and alerts raised
+    description: |
+      Use tools to detect and remediate insecure legacy network protocols
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '8'
+    text: Network configurations are continuously analyzed for vulnerabilities
+    description: |
+      Use tools to automatically and continuously analyze your software-defined networks for vulnerabilities
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: '10'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 64466d35-c1e6-4fe1-9e6f-d831fdb35857
+name: How are you protecting network access to your applications?

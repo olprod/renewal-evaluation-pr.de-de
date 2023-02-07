@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A store must count several items by using the POS that headquarters requested.
+
+  What should you do before committing the counted quantities?
+questionnaireUid: 965fbc6b-d27e-47a9-9e8f-30533064b204
+questions:
+  - uid: ff6e8d00-8b58-467d-9c73-12c8a7981de2-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A store must count several items by using the POS that headquarters requested.
+        isCorrect: false
+      - id: 1
+        text: What should you do before committing the counted quantities?
+        isCorrect: false
+      - id: 2
+        text: The cycle count must be created for the store from headquarters.
+        isCorrect: false
+      - id: 3
+        text: The store must be closed for the day.
+        isCorrect: true
+      - id: 4
+        text: The POS must not have suspended transactions.
+        isCorrect: false
+uid: ff6e8d00-8b58-467d-9c73-12c8a7981de2
+title: ''

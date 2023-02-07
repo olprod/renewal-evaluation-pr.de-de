@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have confirmed Azure Cosmos DB replicas are deployed in the required regions that meet our high availability and disaster recovery needs.
+    description: 'You can configure your databases to be globally distributed and available in any of the Azure regions. To lower the latency, place the data close to where your users are. Choosing the required regions depends on the global reach of your application and where your users are located.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: 'We have validated required capacity is within Azure service scale limits and quotas, considering both initial/current state and future growth.'
+    description: 'Plan resource capacity considering future increase in consumption regarding access patterns, application adoption, potential business growth.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: We have considered using newest versions of APIs/SDKs and validated target runtimes and languages for required functionality.
+    description: Using the latest production-ready SDK versions provides the best performance and experience.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 205df3e2-9964-4f14-89a1-91f1e408de90
+name: How have you ensured required capacity and services are available in targeted regions?

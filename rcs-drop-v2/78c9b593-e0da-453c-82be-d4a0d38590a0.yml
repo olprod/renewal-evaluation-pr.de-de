@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Azure SQL Database (PaaS)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: B
+    text: SQL Server on VM (IaaS)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: C
+    text: 'Azure Cosmos DB (SQL API) '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: F
+    text: Azure SQL Managed Instance (PaaS)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: ''
+isRequired: true
+legacyId: database-services
+uid: 78c9b593-e0da-453c-82be-d4a0d38590a0
+name: Which data service are you interested in assessing?

@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have several Azure Cosmos DB for NoSQL databases.
+
+  You are evaluating the use of autoscale.
+
+  When an increase in throughput is required, how long will it take for autoscale to react to the increased load?
+questionnaireUid: 5a9c2818-1cf0-43c6-ae67-e9312e38a0f8
+questions:
+  - uid: fb8fe4d9-ae8e-478e-9874-09af5ba92f60-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have several Azure Cosmos DB for NoSQL databases.
+        isCorrect: false
+      - id: 1
+        text: You are evaluating the use of autoscale.
+        isCorrect: true
+      - id: 2
+        text: 'When an increase in throughput is required, how long will it take for autoscale to react to the increased load?'
+        isCorrect: false
+      - id: 3
+        text: 10 seconds
+        isCorrect: false
+    manualId: DP-420.4.2.1
+uid: fb8fe4d9-ae8e-478e-9874-09af5ba92f60
+title: ''
+manualId: ''

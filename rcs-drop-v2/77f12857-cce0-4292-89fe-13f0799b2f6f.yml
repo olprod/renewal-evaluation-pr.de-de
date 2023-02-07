@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not use any data security or encryption approaches.
+    description: Your organization does not use any data security or encryption approaches.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization uses basic data encryption approaches to securing data.
+    description: Your organization uses basic data encryption approaches to securing data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization understands various encryption models and uses encryption across various services offered today.
+    description: Your organization understands various encryption models and uses encryption across various services offered today.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has a clear strategy and utilizes various encryption models to secure data at rest, in-flight and takes advantage of Azure Key Vault functionality.'
+    description: 'Your organization has a clear strategy and utilizes various encryption models to secure data at rest, in-flight and takes advantage of Azure Key Vault functionality.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organizations has enterprise wide adoption of the major areas of encryption, including encryption at rest, encryption in flight, and key management with Azure Key Vault that is regularly monitored, measured and improved.'
+    description: |
+      Your organizations has enterprise wide adoption of the major areas of encryption, including encryption at rest, encryption in flight, and key management with Azure Key Vault that is regularly monitored, measured and improved.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you currently use any area of encryption, including encryption at rest, encryption in flight, and key management with Azure Key Vault?'
+isRequired: true
+uid: 77f12857-cce0-4292-89fe-13f0799b2f6f
+name: 'Do you currently use any area of encryption, including encryption at rest, encryption in flight, and key management with Azure Key Vault?'

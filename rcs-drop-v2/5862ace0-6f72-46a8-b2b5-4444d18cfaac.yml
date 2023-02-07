@@ -1,0 +1,133 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    uid: 5862ace0-6f72-46a8-b2b5-4444d18cfaac-q-0
+    name: Having a holistic view to manage users across the enterprise with a single identity and sign-on.
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    uid: 5862ace0-6f72-46a8-b2b5-4444d18cfaac-q-1
+    name: Conducting regular review of access rights and recurring access recertification configuration for all users in administrator roles.
+  - responseAlternatives:
+      - id: A
+        text: Don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: B
+        text: Not important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+      - id: C
+        text: Somewhat important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: D
+        text: Very important
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 2
+      - id: E
+        text: Critical
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 3
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    uid: 5862ace0-6f72-46a8-b2b5-4444d18cfaac-q-2
+    name: 'Enabling just-in-time access, and role-change alerting capabilities to provide a comprehensive set of governance controls to help secure company resources.'
+stem: 'Identity Baseline is the process of authenticating and authorizing security identities, and controlling information related to those identities. Security identities may include services, applications, users, and groups. Identity Baseline complements the Security Baseline domain by consistently applying authentication and authorization requirements across cloud adoption efforts.'
+isRequired: true
+uid: 5862ace0-6f72-46a8-b2b5-4444d18cfaac
+name: 'Identity Baseline is the process of authenticating and authorizing security identities, and controlling information related to those identities.'

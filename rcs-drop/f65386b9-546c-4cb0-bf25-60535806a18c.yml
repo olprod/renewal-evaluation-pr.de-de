@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You enable **Topic clustering for case** in the configuration for Dynamics 365 Customer Service Insights.
+
+  You need to configure clustering to search on the Description attribute rather than the Case Title attribute.
+
+  Where should you make this change?
+questionnaireUid: 06d794d9-90b5-4213-8bbd-e8c434d1ae36
+questions:
+  - uid: f65386b9-546c-4cb0-bf25-60535806a18c-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You enable **Topic clustering for case** in the configuration for Dynamics 365 Customer Service Insights.
+        isCorrect: false
+      - id: 1
+        text: You need to configure clustering to search on the Description attribute rather than the Case Title attribute.
+        isCorrect: false
+      - id: 2
+        text: Where should you make this change?
+        isCorrect: true
+      - id: 3
+        text: Topic automation
+        isCorrect: false
+uid: f65386b9-546c-4cb0-bf25-60535806a18c
+title: ''

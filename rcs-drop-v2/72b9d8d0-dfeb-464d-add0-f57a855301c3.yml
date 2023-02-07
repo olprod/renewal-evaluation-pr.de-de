@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: ' Use practices to protect users'' data privacy in machine learning. '
+    description: 'Amount of data that an organization collects and uses for analyses increases, so do concerns of privacy and security. Analyses require data. Typically, the more data used to train models, the more accurate they are. When personal information is used for these analyses, it''s especially important that the data remains private throughout its use.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Work on encrypted data with homomorphic encryption.
+    description: 'In traditional cloud storage and computation solutions, the cloud needs to have unencrypted access to customer data to compute on it.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Use model interpretability with Azure Machine Learning. '
+    description: 'Interpretability is critical for data scientists, auditors, and business decision makers alike to ensure compliance with company policies, industry standards, and government regulations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: 'Mitigate fairness in machine learning models using open source packages in Azure Machine Learning. '
+    description: The Fairlearn open-source Python package can help you mitigate fairness issues in machine learning models.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Use datasheets with Azure Machine Learning to make responsible decisions.
+    description: Document the machine learning lifecycle with datasheets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+    - waf-config-golive.waf-scenario.ai
+stem: 'Put responsible AI principles into practice and build trust throughout the ML lifecycle. Understand, protect, and control your data, models, and processes to build trusted solutions.'
+isRequired: false
+legacyId: '5'
+uid: 72b9d8d0-dfeb-464d-add0-f57a855301c3
+name: Put responsible AI principles into practice and build trust throughout the ML lifecycle.

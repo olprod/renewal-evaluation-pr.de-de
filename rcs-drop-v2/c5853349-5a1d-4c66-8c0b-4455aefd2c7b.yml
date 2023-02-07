@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Azure DevOps to develop CI/CD pipelines that support IoT Edge module deployments
+    description: 'For your Azure IoT Edge applications, you can easily adopt Azure DevOps with its built-in Azure IoT Edge tasks in Azure Pipelines.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You use Azure DevOps Starter to simplify the initial configuration of a build and release pipeline in Azure Pipelines.
+    description: Azure DevOps Starter creates a CI/CI pipeline in Azure DevOps. It also creates Azure resources in the specified Azure subscription.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'You have a build pipeline for continuous integration that includes build code, download dependencies, create Docker image'
+    description: The build pipeline is configured to run automatically when changes are checked in.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'You have a release pipeline for continuous deployment that includes upload images to Azure Container Registry, upload deployment manifest'
+    description: A release pipeline is configured to run automatically when your build pipeline drops artifacts.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: You have a documented process for deploying new or updated modules in production
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: 'As your solution scales out, it''s vital to have an automated end-to-end capability for smoke testing changes to your IoT Edge modules prior to a production deployment.'
+isRequired: false
+uid: c5853349-5a1d-4c66-8c0b-4455aefd2c7b
+name: 'As your solution scales out, it''s vital to have an automated end-to-end capability for smoke testing changes to your IoT Edge modules prior to a production deployment. Q7.'

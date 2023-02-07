@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 0-20%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 20-40%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '2'
+    text: 40-60%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '3'
+    text: 60-80%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '4'
+    text: 80-100%
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: ''
+isRequired: true
+uid: 1e65f328-bdf9-4378-ba8e-cae0f7ad46f2
+name: How many applications do you have running containers in production?

@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'If SQL authentication is used, Password Policy is enabled at same complexity and expiration policies used in Windows.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: 'Permissions assigned to users, groups, and applications at a limited scope with minimum privileges.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: 'Understand database ownership chains, user context switching, linked server security context, and TRUSTWORTHY database property to reduce certain threats when attaching databases.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: D
+    text: Identity systems integrated with Active Directory with Azure.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: Authentication via identity systems such as Windows Authentication and Azure Active Directory Managed Identities rather than passwords and cryptographic keys.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Implemented Dynamic Data Masking to limit sensitive data exposure by masking it to non-privileged users.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: identity-data-sqlvm
+uid: 717545ee-2116-4bf0-8631-591c519c52f5
+name: How are you managing identity for this SQL VM workload?

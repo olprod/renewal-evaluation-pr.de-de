@@ -1,0 +1,179 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Learn more on how to take control of privileged accounts on your organization
+    url: /azure/active-directory/roles/security-planning
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.0
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.1
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.2
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.3
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement Just-in-time with Microsoft Privileged Identity Management (PIM)
+    url: /azure/active-directory/privileged-identity-management/pim-deployment-plan
+    condition:
+      allOf:
+        - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.1
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Adopt and deploy a privileged access solution
+    url: /security/compass/privileged-access-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for passwordless authentication on privileged accounts
+    url: /azure/active-directory/authentication/howto-authentication-passwordless-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Reduce the exposure of privileged accounts
+    url: /azure/security/fundamentals/identity-management-best-practices#lower-exposure-of-privileged-accounts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53543a59-35f1-4a70-8cb9-38155e9fdc19.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore Access Reviews in Azure AD Governance
+    url: /azure/active-directory/governance/access-reviews-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.bfcce584-8f4a-43dc-a5e7-01fc9e0c777d.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore Entitlement management in Azure AD Governance
+    url: /azure/active-directory/governance/entitlement-management-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.bfcce584-8f4a-43dc-a5e7-01fc9e0c777d.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore Privileged Identity Management in Azure AD Governance
+    url: /azure/active-directory/governance/entitlement-management-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.bfcce584-8f4a-43dc-a5e7-01fc9e0c777d.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Entitlement Management to help you keep track of guest/external users access
+    url: /azure/active-directory/governance/entitlement-management-external-users
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53cd5f69-7cc9-4cf2-bf8a-112602c8161a.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure guest users are required to provide MFA to authenticate to your environment
+    url: /azure/active-directory/external-identities/authentication-conditional-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53cd5f69-7cc9-4cf2-bf8a-112602c8161a.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Restrict guest access permissions in Azure Active Directory
+    url: /azure/active-directory/enterprise-users/users-restrict-guest-permissions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.53cd5f69-7cc9-4cf2-bf8a-112602c8161a.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about Permission Classifications on Azure AD Applications
+    url: /azure/active-directory/manage-apps/configure-permission-classifications?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.8910bfa1-7e75-49f2-aa15-a551bd0617fd.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Investigate and remediate risky OAuth apps
+    url: /defender-cloud-apps/investigate-risky-oauth
+    condition:
+      allOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.153af358-c651-4df8-84f7-271e84845626.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Oauth App Policies on your Microsoft Defender for Cloud Apps
+    url: /defender-cloud-apps/app-permission-policy
+    condition:
+      allOf:
+        - 0349efd9-0388-476c-94ab-d34065dd8c04.153af358-c651-4df8-84f7-271e84845626.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 8887f5e1-cf54-4f54-a862-127ad53fd932
+name: ''

@@ -1,0 +1,23 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You plan to deploy Azure SQL Database for MySQL.
+
+  Which type of encryption at rest is available for Azure SQL Database for MySQL?
+questionnaireUid: 596669e9-0721-4d35-aa20-05600159de74
+questions:
+  - uid: e7d7fdab-f0f5-4e0f-840b-86f9a0cd283e-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You plan to deploy Azure SQL Database for MySQL.
+        isCorrect: false
+      - id: 1
+        text: Which type of encryption at rest is available for Azure SQL Database for MySQL?
+        isCorrect: true
+      - id: 2
+        text: Transparent data encryption (TDE) only
+        isCorrect: false
+uid: e7d7fdab-f0f5-4e0f-840b-86f9a0cd283e
+title: ''

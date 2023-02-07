@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This section contains questionnaire regarding current state of your practices on employee onboarding to SOPs, tooling in place for D365 F&O implementation management.  It will cover topics such as resource onboarding to practice & team, access to information portals, communication SOP, predefined templates,  organization support and Microsoft resources access to the resource in performing the day to day operations efficiently. '
+hideEmptyGuidance: false
+questions:
+  - 59a56a6a-decd-48ad-a631-d5f504ee29ad
+recommendations:
+  - 95c3650b-c5e9-425e-b218-14dc2cfa88de
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: 08a7bba3-bcfd-465b-8311-5ab087df6da6
+name: Resource Onboarding and Enablement COE Objective

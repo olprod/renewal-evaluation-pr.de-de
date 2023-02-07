@@ -1,0 +1,40 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: A well-architected landing zone ensures migrated workloads run optimally.
+links:
+  - title: Start planning your Azure landing zone
+    url: /azure/cloud-adoption-framework/ready/landing-zone/
+    condition:
+      allOf: []
+      anyOf:
+        - landing-zone.6a34b41b-eb7c-430c-b150-352b819d0eb4.A
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore landing zone implementation options
+    url: /azure/cloud-adoption-framework/ready/landing-zone/implementation-options/
+    condition:
+      anyOf:
+        - landing-zone.6a34b41b-eb7c-430c-b150-352b819d0eb4.B
+        - landing-zone.6a34b41b-eb7c-430c-b150-352b819d0eb4.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand landing zone design areas
+    url: /azure/cloud-adoption-framework/ready/landing-zone/design-areas/
+    condition:
+      allOf: []
+      anyOf:
+        - landing-zone.6a34b41b-eb7c-430c-b150-352b819d0eb4.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: dcd44e48-5ecb-48af-bed5-0ff5dcc08c1b
+name: Landing zone

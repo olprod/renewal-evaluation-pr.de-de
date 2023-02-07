@@ -1,0 +1,102 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'Based on your input, we recommend the following topics for you and your team need to be aware of and streamline as practice in your day-to-day operations in optimal upkeep of your D365 F&O implementations. Establishing COE is continuous innovation and optimization of People, Process and Product aspects of the implemented workloads to get best of the platform for your customers.'
+links:
+  - title: Apply Security on Database Log Access
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/configure-manage-database-log#security-for-database-logging'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 14d926d9-9887-4028-934c-e751eb48f1a5.975226bd-7a38-4673-8555-9e25d59936d5.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Batch Manager Role Assignment for Batch Job Administrator
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/runby'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 14d926d9-9887-4028-934c-e751eb48f1a5.432ae44a-9850-4180-b213-1d43a829155f.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Stay compliant with user licensing requirements
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/stay-compliant-user-license-requirement'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 14d926d9-9887-4028-934c-e751eb48f1a5.d9afb169-6ee0-4263-a98d-f7c1250506a1.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Set the session inactivity timeout for users
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/session-idle-timeout'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 14d926d9-9887-4028-934c-e751eb48f1a5.3e59065a-1875-48ae-8076-d369f0791125.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Block access by location with Azure AD Conditional Access
+    url: 'https://learn.microsoft.com/en-us/power-platform/admin/restrict-access-online-trusted-ip-rules?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 14d926d9-9887-4028-934c-e751eb48f1a5.e36ce47a-1c9b-4abc-8388-e7ca6c989f5c.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Apply Security with Active Directory security groups
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/active-directory-security-group'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 14d926d9-9887-4028-934c-e751eb48f1a5.8292d434-6313-46fe-b858-6e8eaa45988b.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Import or export a customized security configuration by using Data management
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/import-export-customized-security'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 14d926d9-9887-4028-934c-e751eb48f1a5.138de6a4-2e64-4041-826f-94eca36c7908.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Secure one-box development environments
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-tools/secure-developer-vm'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 14d926d9-9887-4028-934c-e751eb48f1a5.59ba992b-1cd0-4c60-9b50-14bb7b7738ed.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 1ead8c5b-2a8e-43de-ae0a-85cce02b324c
+name: Establish Security &amp; Compliance Best Practices

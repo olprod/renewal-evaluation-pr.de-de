@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are developing a web app that uses Azure Durable Functions. The app will allow users to create images for use on social media.
+
+  Users upload images of themselves and then the app will superimpose the uploaded images on up to 20 different background images. 
+
+  You need to develop the app.
+
+  Which pattern should you use?
+questionnaireUid: b8b94b87-8764-4678-bf01-3c73a9b596ba
+questions:
+  - uid: ffde6e9c-8d41-470c-ac2d-acb4993d8cc3-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a web app that uses Azure Durable Functions.
+        isCorrect: false
+      - id: 1
+        text: The app will allow users to create images for use on social media.
+        isCorrect: true
+      - id: 2
+        text: Users upload images of themselves and then the app will superimpose the uploaded images on up to 20 different background images.
+        isCorrect: false
+      - id: 3
+        text: You need to develop the app.
+        isCorrect: false
+uid: ffde6e9c-8d41-470c-ac2d-acb4993d8cc3
+title: ''

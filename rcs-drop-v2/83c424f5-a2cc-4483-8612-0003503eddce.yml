@@ -1,0 +1,105 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Azure Databricks Cost-based Optimizer
+    url: /azure/databricks/spark/latest/spark-sql/cbo
+    condition:
+      noneOf:
+        - Cost-ai-adb.1fff99cf-0ab4-483d-9d04-19d6a4dd3bac.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks shared High Concurrency clusters
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#support-interactive-analytics-using-shared-high-concurrency-clusters'
+    condition:
+      noneOf:
+        - Cost-ai-adb.1fff99cf-0ab4-483d-9d04-19d6a4dd3bac.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable Azure Databricks support for batch AI workloads
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#support-batch-etl-workloads-with-single-user-ephemeral-standard-clusters'
+    condition:
+      noneOf:
+        - Cost-ai-adb.1fff99cf-0ab4-483d-9d04-19d6a4dd3bac.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review Azure Databricks cluster policies
+    url: /azure/databricks/administration-guide/clusters/policies
+    condition:
+      noneOf:
+        - Cost-ai-adb.1fff99cf-0ab4-483d-9d04-19d6a4dd3bac.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Choose appropriate ML clusters in Databricks for AI workloads.
+    url: /azure/databricks/clusters/gpu#overview
+    condition:
+      noneOf:
+        - Cost-ai-adb.c556b4b1-492a-44da-95dc-adbf3d52aaac.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks Databricks runtime for machine learning
+    url: /azure/databricks/runtime/mlruntime
+    condition:
+      noneOf:
+        - Cost-ai-adb.c556b4b1-492a-44da-95dc-adbf3d52aaac.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks auto-scaling feature
+    url: /azure/databricks/clusters/configure#autoscaling
+    condition:
+      noneOf:
+        - Cost-ai-adb.ff173827-0dff-49b7-b2f3-42d8aecd923a.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks billing to manage and analyze cost.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#cost-management-chargeback-and-analysis'
+    condition:
+      noneOf:
+        - Cost-ai-adb.ff173827-0dff-49b7-b2f3-42d8aecd923a.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Collect resource utilization metrics across Azure Databricks cluster in a Log Analytics workspace.
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#collect-resource-utilization-metrics-across-azure-databricks-cluster-in-a-log-analytics-workspace'
+    condition:
+      noneOf:
+        - Cost-ai-adb.ff173827-0dff-49b7-b2f3-42d8aecd923a.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Cost Management for Azure Databricks
+    url: /azure/cost-management-billing/costs/quick-acm-cost-analysis
+    condition:
+      noneOf:
+        - Cost-ai-adb.6ffeaa53-ce6d-4237-af47-2d0a386f675e.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Monitor usage using cluster,pool and workspace tags.'
+    url: /azure/databricks/administration-guide/account-settings/usage-detail-tags-azure
+    condition:
+      noneOf:
+        - Cost-ai-adb.6ffeaa53-ce6d-4237-af47-2d0a386f675e.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 83c424f5-a2cc-4483-8612-0003503eddce
+name: ''

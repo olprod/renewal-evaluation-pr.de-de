@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We use only private IP address ranges from RFC 1918 for our private On-premises networks and/or Azure Virtual Networks.
+    description: 10.0.0.0 - 10.255.255.255  (10/8 prefix) 172.16.0.0 - 172.31.255.255  (172.16/12 prefix) 192.168.0.0 - 192.168.255.255 (192.168/16 prefix)
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We do not use any of the following IP address ranges as Address Space of our Azure or On-Premises networks: 224.0.0.0/4 (multicast), 255.255.255.255/32 (broadcast), 127.0.0.0/8 (loopback), 169.254.0.0/16 (link-local), and  168.63.129.16/32 (internal DNS).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'We do not create large Azure Virtual Networks like (/16), unless for Landing Zone Virtual Networks hosting services that may require thousands of IP Addresses, such as Azure Kubernetes or Azure Databricks.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: We use an IP address management solution that helps us to reserve and assign IP addresses ranges and ensure admins don't create networks with IP overlap.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'A good Azure IP addressing schema provides flexibility, room for growth, and integration with on-premises networks. The schema ensures that communication works for deployed resources, minimizes public exposure of systems, and gives the organization flexibility in its network. If not properly designed, systems might not be able to communicate, and additional work will be required to remediate.'
+isRequired: false
+uid: 8f30f115-8f48-49fa-a13c-17de212f0f58
+name: 'A good Azure IP addressing schema provides flexibility, room for growth, and integration with on-premises networks.'

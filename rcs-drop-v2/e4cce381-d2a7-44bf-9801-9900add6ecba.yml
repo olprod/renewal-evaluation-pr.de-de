@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Production SAP systems are running on VM''s with Reserved Instances [RI] '
+    description: Active Virtual Machines will increase the availability of capacity to the customer.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '3'
+    text: On-Demand capacity reservations selected for Azure Virtual Machines.
+    description: On-Demand capacity reservations for Azure Virtual Machines is a new feature that enables IT organizations to reserve compute capacity for a virtual machine size in any public Azure region.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '4'
+    text: 'Azure Services in Preview are not being used in Production SAP systems '
+    description: 'Preview Services do not carry a SLA until they are Generally Available [GA] and therefore is not recommended for Production workloads'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Capacity and SKU availability by region
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWDIfT'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'Azure services and capacity can vary by region & Zone, so it is important to understand if targeted regions/zones offer required capabilities.'
+isRequired: false
+uid: e4cce381-d2a7-44bf-9801-9900add6ecba
+name: 'Azure services and capacity can vary by region & Zone, so it is important to understand if targeted regions/zones offer required capabilities.'

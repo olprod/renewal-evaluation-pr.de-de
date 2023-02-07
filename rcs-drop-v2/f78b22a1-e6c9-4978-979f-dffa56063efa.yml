@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Data remains encrypted while traversing between application tiers. '
+    description: 'If data moving over a network is not encrypted, there''s a chance that it can be captured and stolen by unauthorized users.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Transparent data encryption (TDE) is enabled to keep data encrypted at rest.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Keys stored in Azure Key Vault should be periodically rotated.
+    description: This includes customer-managed TDE keys and Always Encrypted Master keys.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Use strongest available cypher for data encryption.
+    description: 'Cyphers such RC4, DES, and TripleDES, are deprecated and shouldn''t be used because of known vulnerabilities.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Consider managing Always Encrypted keys with role separation if you're using Always Encrypted.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: f78b22a1-e6c9-4978-979f-dffa56063efa
+name: How are you protecting sensitive data stored in Azure SQL DB?

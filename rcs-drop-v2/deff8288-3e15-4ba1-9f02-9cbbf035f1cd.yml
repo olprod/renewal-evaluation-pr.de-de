@@ -1,0 +1,22 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Establish cloud security roles and responsibilities
+    url: /azure/cloud-adoption-framework/organize/cloud-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - fbfef39b-5bef-4a7b-87a1-f97f0db47600.52724323-8ea3-438b-a6c6-c7942e6c5b04.0
+        - fbfef39b-5bef-4a7b-87a1-f97f0db47600.52724323-8ea3-438b-a6c6-c7942e6c5b04.1
+        - fbfef39b-5bef-4a7b-87a1-f97f0db47600.52724323-8ea3-438b-a6c6-c7942e6c5b04.2
+        - fbfef39b-5bef-4a7b-87a1-f97f0db47600.52724323-8ea3-438b-a6c6-c7942e6c5b04.3
+        - fbfef39b-5bef-4a7b-87a1-f97f0db47600.52724323-8ea3-438b-a6c6-c7942e6c5b04.4
+      scoreOf: []
+    context: ''
+    priority: 70
+    reportingCategory: Business Alignment
+    reportingSubCategory: ''
+uid: deff8288-3e15-4ba1-9f02-9cbbf035f1cd
+name: ''

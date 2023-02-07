@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You use Azure IoT alerts, metrics, logs, and events to monitor your overall fleet of IoT devices and service health by turning on diagnostic settings for Azure IoT Hub, or you built a custom service management solution by using metrics, logs, events for Azure IoT Hub.'
+    description: It's important that you plan and develop an effective end-to-end monitoring strategy for your IoT solution.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: 'You use Azure IoT Edge metrics collector along with a solution for log shipping for your IoT Edge-based solution, or you collect logs from your devices (IoT Edge devices or regular devices) using a custom implementation.'
+    description: Azure IoT Edge metrics collector module provides you with an easy way to collect logs and metrics from Azure IoT Edge devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Health monitoring enables near real-time information about the state of your devices and IoT application. Monitoring can be a useful tool to help detect and fix issues in your IoT solution.
+isRequired: false
+uid: 6e2d1a5e-b1ed-4bd4-a82e-8e77bee2bd66
+name: Health monitoring enables near real-time information about the state of your devices and IoT application. Monitoring can be a useful tool to help detect and fix issues in your IoT solution.

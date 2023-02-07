@@ -1,0 +1,633 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Identify key non-functional requirements for critical user-system flows to inform scale-unit composition.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore the scale-limits of each Azure resource within the application design.
+    url: /azure/architecture/framework/mission-critical/mission-critical-cross-cutting-issues#scale-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define a scale-unit when the scale-limits of a single deployment are likely to be exceeded.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.1
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Define the relationship between scale-units, according to a capacity model and non-functional requirements.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Model required capacity using identified traffic patterns to ensure sufficient capacity is provisioned at peak times to prevent service degradation.
+    url: /azure/architecture/framework/scalability/design-capacity#preemptively-scaling-based-on-trends
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use identified traffic patterns and performance metrics to optimize capacity and resource utilization during peak periods and periods of reduced traffic.
+    url: /azure/architecture/framework/scalability/design-capacity#use-metrics-to-fine-tune-scaling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Define a regional deployment stamp to unify the provisioning, management, and operation of regional application resources, into a heterogenous but inter-dependent scale-unit.  As the load increases, extra stamps can be deployed within the same or different Azure regions, in order to horizontally scale the solution as an overarching unit that can be tested and validated prior to directing traffic to it.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'To drive continuous improvement, track the time it takes to conduct scale operations as an operational metric.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use a dedicated subscription for each environment type to ensure lower environments do not impact production scale-limits and quotas.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For high-scale application scenarios, define a subscription-scoped deployment as a scale-unit to avoid a ''spill-and-fill'' subscription model.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For high-scale application scenarios, deploy each regional deployment stamp within a dedicated subscription to ensure subscription limits only apply within the context of a single stamp. Separate ''global'' shared resources within a dedicated subscription to allow for consistent regional deployment-units.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Where multiple production subscriptions are needed to ensure requisite scale, use a dedicated Management Group to simplify policy assignment through a policy aggregation boundary.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Segregate one or more tenants within dedicated deployment stamps that can be independently scaled when needed.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#example---subscription-scale-unit-approach
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.7a76b41c-6f7e-423d-a0ad-709eee052bcc.8
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploying your application across multiple Azure regions makes it possible to achieve a level of fault tolerance equal to an entire Azure region.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#global-distribution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Within a single geography, prioritize the use of regional pairs to benefit from safe deployment practices (SDP), serialized rollouts for planned maintenance, and regional prioritization in the event of unplanned maintenance.'
+    url: 'https://azure.microsoft.com/blog/advancing-safe-deployment-practices'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'When leveraging paired regions for scenarios with large capacity requirements, ensure there is either sufficient provisioned capacity in each region to cater to the failure of a single region, or that the application can seamlessly scale to additional regions as required. This will avoid potential capacity challenges in the event of a regional outage, where a significant increase in demand for resources within the paired region may mean supply temporarily does not satisfy demand.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#global-distribution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.0
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For applications targeting an SLO >= 99.99%, a minimum of three deployment regions is recommended to maximize the composite SLA and overall reliability.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#global-distribution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'When constrained to a geography with two regions where only one region supports Availability Zones (3 + 1 datacenter model), create a secondary deployment pattern using fault domain isolation to allow for both regions to be deployed in an active configuration, ensuring the primary region houses multiple deployment stamps with Availability Zone isolation.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#global-distribution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'If only a single Azure region is suitable, multiple deployment stamps should be deployed as regional scale units within the selected region using Availability Zones to provide datacenter-level fault tolerance.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#example---global-distribution-approach
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use an active-active deployment strategy where possible to maximize reliability.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#global-distribution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Where data consistency challenges exist, explore the use of 1) a globally distributed data store, 2) a regional shared architecture, or 3) a partially active-active deployment, where some components are active across all regions while others are available within a single active region.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#globally-distributed-multi-write-datastore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use availability zones where possible to maximize availability within a single Azure region.
+    url: /azure/availability-zones/az-overview#availability-zones
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use zonal pinning for workloads that are particularly chatty across nodes, with isolated deployment stamps per Availability Zone in an active-active configuration. This will avoid accumulated latency from repeated interzone communication traversing the less than 2 milliseconds between zones, as well as avoiding bandwidth charges from interzone data transfer.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#container-orchestration-and-kubernetes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Select deployment regions that support Availability Zones to maximize attainable availability.
+    url: /azure/availability-zones/az-overview#azure-regions-with-availability-zones
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Select deployment regions that offer the services and capabilities required by the application, particularly those needed to achieve performance and availability targets.'
+    url: /azure/availability-zones/region-types-service-categories-azure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'If suitable Azure regions don''t offer required capabilities, be prepared to compromise on the consistency of regional deployment stamps to prioritize geographical distribution and maximize reliability.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#global-distribution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Align current service availability with product roadmaps when selecting deployment regions. Not all services may be available in every region on day one.
+    url: /azure/architecture/framework/mission-critical/mission-critical-cross-cutting-issues#azure-roadmap-alignment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Geographically co-locate Azure resources with users to minimize network latency and maximize end-to-end performance.
+    url: /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure the globally distributed design conforms to any relevant data compliance requirements around data residency.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#global-distribution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Apply business targets to calculate the composite SLA for all user flows.
+    url: /azure/architecture/framework/mission-critical/mission-critical-design-methodology#1design-for-business-requirements
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.8
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy additional regional deployment stamps to achieve a greater composite SLA. The use of global resources will constrain the increase in composite SLA associated with additional deployment regions.
+    url: /azure/architecture/framework/mission-critical/mission-critical-design-methodology#1design-for-business-requirements
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.8
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Define a target recovery point objective (RPO) and recovery time objective (RTO), while ensuring alignment with the deployment strategy across selected Azure regions.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-design-methodology#1design-for-business-requirements
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.4fc8ba09-25a2-4b3e-9225-3a84a0afc863.9
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Key functionality should be deployed and managed as independent microservices that communicate through well-defined synchronous interfaces and asynchronous communication channels.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#loosely-coupled-event-driven-architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.702e3c29-ab92-4b08-9945-fd247131dd47.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Allow services relative flexibility to choose technologies and design patterns that best fit their use case.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#loosely-coupled-event-driven-architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.702e3c29-ab92-4b08-9945-fd247131dd47.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use event-driven asynchronous communication where possible to ensure sustainable scalability, optimized resource utilization within each service, and optimal overall performance.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#loosely-coupled-event-driven-architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.702e3c29-ab92-4b08-9945-fd247131dd47.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define the scale relationship between services according to a capacity model and non-functional requirements.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.702e3c29-ab92-4b08-9945-fd247131dd47.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: The definition of microservice boundaries should consider and align with critical user/system flows.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.702e3c29-ab92-4b08-9945-fd247131dd47.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement end-to-end instrumentation and tracing that traverses all services.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#loosely-coupled-event-driven-architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.702e3c29-ab92-4b08-9945-fd247131dd47.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use event-driven asynchronous communication where possible to reduce the risk of cascading application failures.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#loosely-coupled-event-driven-architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.702e3c29-ab92-4b08-9945-fd247131dd47.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Manage complex transactions by applying approaches such as eventual consistency or two-phase commit protocols. Alternatively, design transactions to not span multiple microservices where possible.'
+    url: 'https://walkingtreetech.medium.com/transaction-management-in-microservices-ab09b0cb803b'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.702e3c29-ab92-4b08-9945-fd247131dd47.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Design and develop application code to anticipate and handle failures.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#application-level-resiliency-patterns-and-error-handling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the resiliency capabilities provided by utilized SDKs instead of re-implementing resiliency functionality.
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Implement resiliency patterns using standardized packages, such as Polly for C# or Microsoft Sentinel for Java.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#application-level-resiliency-patterns-and-error-handling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement the retry pattern to enable application code to transparently handle transient failures.
+    url: /azure/architecture/patterns/retry
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Apply a suitable back-off strategy with growing delays when retrying failures caused by a condition that may need a short time to recover, such as network connectivity or high load failures.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#application-level-resiliency-patterns-and-error-handling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.3
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prevent retries if the fault is unlikely to be transient and is unlikely to succeed if the operation is reattempted.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#application-level-resiliency-patterns-and-error-handling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement Health Endpoint Monitoring by exposing functional checks within application code through health endpoints that external monitoring solutions can poll to retrieve application component health status.
+    url: /azure/architecture/framework/mission-critical/mission-critical-health-modeling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use structured logging for all application log messages.
+    url: 'https://stackify.com/what-is-structured-logging-and-why-developers-need-it'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use correlation IDs for all trace events and log messages to tie them to a given request.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#application-level-resiliency-patterns-and-error-handling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Return correlation IDs to the caller for all calls, not just failed requests.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#application-level-resiliency-patterns-and-error-handling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define common engineering criteria for all application microservice teams to drive consistency and acceleration regarding the use of application-level resiliency patterns.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-design#application-level-resiliency-patterns-and-error-handling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Developers should familiarize themselves with common software engineering patterns for resilient applications.
+    url: /azure/architecture/patterns
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 437b295b-90d3-4190-812e-34f7ebb05df2.3f7e518b-119a-481a-ab7d-b58197e67a0e.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 6a73d3f5-98f6-492d-a857-270cc527940d
+name: ''

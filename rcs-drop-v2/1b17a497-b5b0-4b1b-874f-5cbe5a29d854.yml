@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Business peak periods are well defined and planned for SAP workload.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '1'
+    text: Automation is well defined to add/remove application servers for SAP systems based on load.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '2'
+    text: Multiple application servers are configured for Load Balacing load using Logon Group & RFC Server Group.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 1b17a497-b5b0-4b1b-874f-5cbe5a29d854
+name: How are scale operations performed to prepare for peak business period?

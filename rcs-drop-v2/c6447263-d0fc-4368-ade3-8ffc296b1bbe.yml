@@ -1,0 +1,113 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Align your offer to published Sales Play Taxonomy
+    url: 'https://aka.ms/FY23taxonomypartner'
+    condition:
+      allOf: []
+      anyOf:
+        - ec0eebbd-d2d0-415e-8c5f-f8184b09752b.e267ac28-3ef4-4c0a-9d98-c98b7dd89c06.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: AppSource Published Solution Examples
+    url: 'https://appsource.microsoft.com/en-US/marketplace/apps?exp=ubp8&product=dynamics-365&page=1'
+    condition:
+      allOf: []
+      anyOf:
+        - ec0eebbd-d2d0-415e-8c5f-f8184b09752b.a9c70567-4771-483a-81f4-dafe7df37319.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Offer listing best practices
+    url: 'https://learn.microsoft.com/en-us/azure/marketplace/preferred-solution'
+    condition:
+      allOf: []
+      anyOf:
+        - ec0eebbd-d2d0-415e-8c5f-f8184b09752b.a9c70567-4771-483a-81f4-dafe7df37319.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Microsoft preferred solution badge criteria
+    url: 'https://learn.microsoft.com/en-us/azure/marketplace/preferred-solution'
+    condition:
+      allOf: []
+      anyOf:
+        - ec0eebbd-d2d0-415e-8c5f-f8184b09752b.8307e492-f894-47f1-85af-492cf6b8da66.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan a Microsoft Dynamics 365 offer
+    url: 'https://learn.microsoft.com/en-us/azure/marketplace/marketplace-dynamics-365#listing-options'
+    condition:
+      allOf: []
+      anyOf:
+        - ec0eebbd-d2d0-415e-8c5f-f8184b09752b.5af4e8df-cc99-4c8e-92ed-4a9827623f62.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commercial marketplace transact capabilities
+    url: 'https://learn.microsoft.com/en-us/azure/marketplace/marketplace-commercial-transaction-capabilities-and-considerations#transact-overview'
+    condition:
+      allOf: []
+      anyOf:
+        - ec0eebbd-d2d0-415e-8c5f-f8184b09752b.5af4e8df-cc99-4c8e-92ed-4a9827623f62.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Publishing guide by offer type
+    url: Publishing guide by offer type
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Co-sell with Microsoft sales teams and partners overview
+    url: 'https://learn.microsoft.com/en-us/partner-center/co-sell-overview'
+    condition:
+      allOf: []
+      anyOf:
+        - ec0eebbd-d2d0-415e-8c5f-f8184b09752b.a5c28485-0be7-43c9-af80-01989f4c452f.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Introduction to Solutions partner designations
+    url: 'https://learn.microsoft.com/en-us/partner-center/introduction-to-pcs'
+    condition:
+      allOf: []
+      anyOf:
+        - ec0eebbd-d2d0-415e-8c5f-f8184b09752b.491d181f-1112-4131-9622-4947cca15243.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 1
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: c6447263-d0fc-4368-ade3-8ffc296b1bbe
+name: 'Establish Offer Positioning &amp; Marketing Best Practices '

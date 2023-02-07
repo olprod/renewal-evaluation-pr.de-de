@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Create a disaster recovery plan that is documented, automated and fully tested'
+    url: /azure/site-recovery/azure-to-azure-architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6ca692f6-b44d-43f6-8fa0-8185cafa22b0.66d6b011-7017-4e13-bbe3-1606f6c6eaed.A
+      scoreOf: []
+    context: 'It is crucial to have a well-tested disaster recovery plan. The plan should include the people, processes, and applications needed to restore functionality within the service-level agreement (SLA) you''ve defined for your customers.'
+    priority: 70
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Business Continuity Processes
+  - title: Have provisions in place for Azure-wide service disruption and perform regional failover drills
+    url: /azure/architecture/reliability/disaster-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6ca692f6-b44d-43f6-8fa0-8185cafa22b0.66d6b011-7017-4e13-bbe3-1606f6c6eaed.B
+      scoreOf: []
+    context: 'In disaster planning, you must consider the entire range of possible disasters. One of the most severe service disruptions would involve all Azure regions simultaneously. As with other service disruptions, you might decide that you''ll take the risk of temporary downtime in that event. Widespread service disruptions that span regions should be much rarer than isolated service disruptions that involve dependent services or single regions.'
+    priority: 70
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Business Continuity Processes
+  - title: Deploy your application to a paired region
+    url: /azure/best-practices-availability-paired-regions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6ca692f6-b44d-43f6-8fa0-8185cafa22b0.66d6b011-7017-4e13-bbe3-1606f6c6eaed.C
+      scoreOf: []
+    context: An application running in a single region could be impacted by an outage or service degradation of a single region.
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Design your solution to handle transient errors
+    url: /azure/architecture/best-practices/transient-faults
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6ca692f6-b44d-43f6-8fa0-8185cafa22b0.66d6b011-7017-4e13-bbe3-1606f6c6eaed.D
+      scoreOf: []
+    context: 'Cloud resources can have transient failures, and it is essential to a design solution that is aware of such intermittent failures and can deal with them gracefully.'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Plan to recover your services to the same Azure region as your primary service
+    url: /azure/architecture/framework/resiliency/backup-and-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6ca692f6-b44d-43f6-8fa0-8185cafa22b0.66d6b011-7017-4e13-bbe3-1606f6c6eaed.E
+      scoreOf: []
+    context: 'Have you thought about resilience, in the context of geographical location / Azure Regions? Will you be using Cold, Warm, Hot or Active-Active type of redundancy model?'
+    priority: 30
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+uid: dfa62281-3f66-429f-8891-685673c13129
+name: ''

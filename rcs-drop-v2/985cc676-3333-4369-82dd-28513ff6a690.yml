@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Configure your Application Gateway to be zone redundant
+    url: /azure/application-gateway/application-gateway-autoscaling-zone-redundant#autoscaling-and-high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a3925863-1f50-4f53-90b5-83321ff25cc1.62d4e2a0-f4a7-4e6f-9dd3-a5975bef03de.A
+      scoreOf: []
+    context: 'An Application Gateway or WAF deployment can span multiple Availability Zones, removing the need to provision separate Application Gateway instances in each zone with a Traffic Manager. You can choose a single zone or multiple zones where Application Gateway instances are deployed, which makes it more resilient to zone failure. The backend pool for applications can be similarly distributed across availability zones.'
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Configure your Application Gateway for autoscaling
+    url: /azure/application-gateway/application-gateway-autoscaling-zone-redundant#autoscaling-and-high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a3925863-1f50-4f53-90b5-83321ff25cc1.62d4e2a0-f4a7-4e6f-9dd3-a5975bef03de.B
+      scoreOf: []
+    context: 'If an Application Gateway is not configured to scale automatically and there is more traffic than what Application Gateway or WAF can handle, it could result in traffic loss. '
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+uid: 985cc676-3333-4369-82dd-28513ff6a690
+name: ''

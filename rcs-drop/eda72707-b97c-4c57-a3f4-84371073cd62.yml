@@ -1,0 +1,17 @@
+### YamlMime:QuestionSet
+scenario: "8_AI-102_v2-ai-102.4.4.2\n\nYou make a Language service\_API call.\n\nYou call the following URL.\n\n```\nhttps://ai102cs.cognitiveservices.azure.com/text/analytics/v3.1/entities?showStats=false\n```\n\nYou send the following body.\n\n```\n{\n  \"documents\": [\n    {\n      \"language\": \"en\",\n      \"id\": \"1\",\n      \"text\": \"Our tour guide took us up the Space Needle during our trip to Seattle last week.\"\n    }\n  ]\n}\n```\n\nYou receive the following response body.\n\n```\n{\n  \"documents\": [{\n    \"id\": \"1\",\n    \"entities\": [{\n      \"name\": \"Space Needle\",\n      \"matches\": [{\n        \"wikipediaScore\": 0.3979737247920536,\n        \"text\": \"Space Needle\",\n        \"offset\": 30,\n        \"length\": 12\n      }],\n      \"wikipediaLanguage\": \"en\",\n      \"wikipediaId\": \"Space Needle\",\n      \"wikipediaUrl\": \"https://en.wikipedia.org/wiki/Space_Needle\",\n      \"bingId\": \"f8dd5b08-206d-2554-6e4a-893f51f4de7e\",\n      \"type\": \"Location\"\n    }, {\n      \"name\": \"Space Needle\",\n      \"matches\": [{\n        \"entityTypeScore\": 0.71,\n        \"text\": \"Space Needle\",\n        \"offset\": 30,\n        \"length\": 12\n      }],\n      \"type\": \"Organization\"\n    }, {\n      \"name\": \"Seattle\",\n      \"matches\": [{\n        \"wikipediaScore\": 0.2544970497716894,\n        \"entityTypeScore\": 0.81,\n        \"text\": \"Seattle\",\n        \"offset\": 62,\n        \"length\": 7\n      }],\n      \"wikipediaLanguage\": \"en\",\n      \"wikipediaId\": \"Seattle\",\n      \"wikipediaUrl\": \"https://en.wikipedia.org/wiki/Seattle\",\n      \"bingId\": \"5fbba6b8-85e1-4d41-9444-d9055436e473\",\n      \"type\": \"Location\",\n      \"subType\": \"GPE\"\n    }\n]\n  }],\n  \"errors\": []\n}\n```\n\nThe response includes common words like “the” from the document.\n\nSelect Yes if the statement is true. Otherwise, select No."
+questionnaireUid: 0162d990-feb8-48cf-b7ab-69c354042f7b
+questions:
+  - uid: eda72707-b97c-4c57-a3f4-84371073cd62-q-0
+    title: 8_AI-102_v2-ai-102.4.4.2
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: "You make a Language service\_API call."
+        isCorrect: false
+      - id: 1
+        text: You call the following URL.
+        isCorrect: true
+uid: eda72707-b97c-4c57-a3f4-84371073cd62
+title: You send the following body.

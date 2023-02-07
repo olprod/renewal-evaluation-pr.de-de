@@ -1,0 +1,86 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have evaluated the Premium tier benfits of Azure Service Bus.
+    description: Consider migrating to the Premium tier of Service Bus to take advantage of platform supported outage and disaster protection.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: B
+    text: We have implemented geo-replication on the sender and receiver side to protect against outages and disasters.
+    description: The Standard Tier of Azure Service Bus only supports the implementation of sender and receiver side geo-redundancy. An outage or disaster in an Azure Region could cause downtime in your solution.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: We have configured Zone Redundancy in the Service Bus namespace.
+    description: 'The Service Bus Premium Tier supports Availability Zones to provide zone redundancy within an Azure Region. This means that there will be three copies of the messaging store, with one allocated as the primary and the others as secondaries. If the primary zone becomes unavailable, a secondary is automatically promoted to primary with no perceivable downtime. NOTE: Availability Zones are available in a subset of Azure Regions with new regions being added regularly.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: We implement high availability for the Service Bus namespace.
+    description: The Service Bus Premium Tier supports Geo-disaster recovery and Geo-replication at the namespace level to provide high-availability for metadata disaster recovery using primary and secondary disaster recovery namespaces. The Geo-disaster recovery feature enables the ability to continue to operate in the event that an entire Azure region or datacenters (if no availability zones are used) experiences downtime.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: We have considered using partitioned Queues or Topics in our solution.
+    description: 'Azure Service Bus use a message broker to handle messages that are sent to a Queue or Topic. By default, all messages are handled by the same message broker process which can limit the overall throughput of the messaging entity. However, you can also partition a queue or topic when it is created.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: We ensure that related messages are delivered in guaranteed order.
+    description: 'Be aware of the requirement to set a Partition Key, Session ID or Message ID on each message to ensure related messages are sent to the same partition in the messaging entity. This will ensure that related messages are delivered in guaranteed order.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: We have evaluated the different JMS features through the JMS API.
+    description: It is important to note that features available through the JMS 2.0 API (and it's SDK) are not the same as the features available through the native SDK. i.e. Service Bus Sessions are not available in JMS.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: AMQP is the preferred protocol for connections to the messaging entities.
+    description: It is recommended that AMQP be the preferred protocol due to its efficiency. Connections to the Service Bus are maintained and batching and prefetching are implemented. It is also an international standard (ISO/IEC 19494) with cross-platform compatibility. NetMessaging/SBMP is being phased out in favour of AMQP.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: We use .NET Nuget packages to communicate with Service Bus messaging entites.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: J
+    text: We implement resilience for transient fault handling when sending or receiving messages.
+    description: It is essential that suitable transient-fault-handling and error-handling for send and receive operations is implemented to maintain throughput and prevent the loss of messages.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for Service Bus. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Service Bus
+uid: 9db794a8-7542-4f1c-8489-546b8eaec8fa
+name: Please choose the applicable Well-Architected reliability considerations for Service Bus.

@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company uses Azure Virtual Desktop (AVD).
+
+  You are designing a business continuity and disaster recovery (BCDR) plan to provide an Active-passive configuration for the AVD host pools.
+
+  In the event of a regional failure, you need to ensure that virtual machine workloads are replicated to an alternate region and failover is efficiently orchestrated.
+
+  What do you include in the BCDR plan?
+questionnaireUid: a83aefec-024c-4ad0-9a60-e9df99b0d414
+questions:
+  - uid: fcfa2ab8-36d2-4f8d-b2c1-c5380cc806a6-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company uses Azure Virtual Desktop (AVD).
+        isCorrect: false
+      - id: 1
+        text: You are designing a business continuity and disaster recovery (BCDR) plan to provide an Active-passive configuration for the AVD host pools.
+        isCorrect: false
+      - id: 2
+        text: 'In the event of a regional failure, you need to ensure that virtual machine workloads are replicated to an alternate region and failover is efficiently orchestrated.'
+        isCorrect: true
+      - id: 3
+        text: What do you include in the BCDR plan?
+        isCorrect: false
+uid: fcfa2ab8-36d2-4f8d-b2c1-c5380cc806a6
+title: ''

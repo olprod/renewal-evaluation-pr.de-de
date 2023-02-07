@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Consider limiting access, protecting data, and monitoring activities offered by Azure Synapse Analytics.'
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Use Azure Synapse Analytics Dynamic Data Masking feature.
+    description: Dynamic data masking limits sensitive data exposure by masking it to non-privileged users.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Use Azure Synapse Analytics Column-Level Security.
+    description: Column-Level security allows customers to control access to table columns based on the user's execution context or group membership.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Use Azure Synapse Analytics Row-Level Security.
+    description: Row-Level Security enables you to use group membership or execution context to control access to rows in a database table.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: design-data-synapse
+uid: ac779805-0c51-4622-a053-6a3530e3b0da
+name: What design considerations did you make in your workload in regards to security?

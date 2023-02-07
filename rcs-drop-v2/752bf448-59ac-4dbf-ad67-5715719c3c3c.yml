@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This focusses on organization''s maturity against Culture and Talent dimension to create a holistic view of current state and provides a structured framework for developing maturity in each capability. This pillar leverages data to help design and execute talent, leadership, and change programs.'
+hideEmptyGuidance: false
+questions:
+  - ef1151c4-c4e0-4c97-80ef-14df9170032d
+  - 38e856be-4a63-4196-9daa-676618fd52a5
+  - 6e470b04-ab8e-4402-a44b-ac11cb31bff0
+  - e6284340-a02a-40ce-9c99-0e186636c7b9
+recommendations:
+  - 30cfc84d-b98e-4648-b395-38af4fcaf816
+assignedGroupIds: []
+uid: 752bf448-59ac-4dbf-ad67-5715719c3c3c
+name: Maturity Framework - Culture and Talent Pillar

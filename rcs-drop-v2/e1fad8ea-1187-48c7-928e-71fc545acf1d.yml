@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: D
+    text: Use cluster monitoring for Azure Databricks.
+    description: Resource utilization (CPU/Memory/Network) across an Azure Databricks cluster needs to be monitored known as VM metrics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: Use Azure Databricks Spark monitoring.
+    description: Spark metrics which enables monitoring of Spark applications help uncovering bottlenecks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Use Azure Databricks Spark application logs.
+    description: 'Spark application logs which enable administrators/developers to query the logs, debug issues and investigate job run failures. This is specifically helpful to also understand exceptions across your AI workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: Use Azure Databricks Log analytics directly to query the Perf data.
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Monitoring and measuring application availability is vital to qualifying overall application health and progress towards defined reliability targets.
+isRequired: false
+legacyId: '12'
+uid: e1fad8ea-1187-48c7-928e-71fc545acf1d
+name: Monitoring and measuring application availability is vital to qualifying overall application health and progress towards defined reliability targets.

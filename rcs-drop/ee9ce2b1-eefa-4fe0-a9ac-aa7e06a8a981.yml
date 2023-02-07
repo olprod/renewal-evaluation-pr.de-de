@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company has a Microsoft 365 E5 subscription.
+
+  You need to turn on Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams.
+
+  Which type of Microsoft Defender for Office 365 policy should you configure?
+questionnaireUid: 1c1573db-abdf-4971-949c-9b62be925780
+questions:
+  - uid: ee9ce2b1-eefa-4fe0-a9ac-aa7e06a8a981-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company has a Microsoft 365 E5 subscription.
+        isCorrect: false
+      - id: 1
+        text: 'You need to turn on Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams.'
+        isCorrect: true
+      - id: 2
+        text: Which type of Microsoft Defender for Office 365 policy should you configure?
+        isCorrect: false
+      - id: 3
+        text: Anti-phishing
+        isCorrect: false
+      - id: 4
+        text: Safe attachments
+        isCorrect: false
+    manualId: MS100_5.1.3
+uid: ee9ce2b1-eefa-4fe0-a9ac-aa7e06a8a981
+title: ''
+manualId: ''

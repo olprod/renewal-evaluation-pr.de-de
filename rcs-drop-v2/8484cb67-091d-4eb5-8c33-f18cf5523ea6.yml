@@ -1,0 +1,27 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics 'Cost Analysis'.
+    description: Monitor cost and create budgets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.G
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: monitor-data-synapse
+uid: 8484cb67-091d-4eb5-8c33-f18cf5523ea6
+name: How are you monitoring your costs?

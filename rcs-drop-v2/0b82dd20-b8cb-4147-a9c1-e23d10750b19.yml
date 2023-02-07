@@ -1,0 +1,141 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Azure Machine Learning to monitor data drifts.
+    url: /azure/machine-learning/how-to-monitor-datasets
+    condition:
+      noneOf:
+        - Reliability-ai-aml.088d32bf-44aa-4cf7-96a0-99ac55c463e1.A
+    context: 'With Azure Machine Learning dataset monitors (preview), you can: Analyze drift in your data to understand how it changes over time, Monitor model data for differences between training and serving datasets. Start by collecting model data from deployed models: Monitor new data for differences between any baseline and target dataset, Profile features in data to track how statistical properties change over time, Set up alerts on data drift for early warnings to potential issues, Create a new dataset version when you determine the data has drifted too much. An Azure Machine Learning dataset is used to create the monitor. The dataset must include a timestamp column. You can view data drift metrics with the Python SDK or in Azure Machine Learning studio. Other metrics and insights are available through the Azure Application Insights resource associated with the Azure Machine Learning workspace.'
+    priority: 80
+    reportingCategory: Monitor data drifts
+    reportingSubCategory: Monitor data drifts
+  - title: Use Parallelrunstep for batch scoring.
+    url: /azure/machine-learning/tutorial-pipeline-batch-scoring-classification
+    condition:
+      noneOf:
+        - Reliability-ai-aml.088d32bf-44aa-4cf7-96a0-99ac55c463e1.B
+    context: A tutorial to build Azure Machine Learning pipeline for image classification
+    priority: 40
+    reportingCategory: Design Considerations
+    reportingSubCategory: Data solution
+  - title: Use AKS for production workload benchmarking to create targets and performance reliability testing
+    url: /azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python
+    condition:
+      noneOf:
+        - Reliability-ai-aml.088d32bf-44aa-4cf7-96a0-99ac55c463e1.C
+    context: Azure Machine Learning  can deploy a model as a web service on Azure Kubernetes Service (AKS). Azure Kubernetes Service is good for high-scale production deployments.
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Testing
+  - title: Version and track Azure Machine Learning Datasets.
+    url: zure/machine-learning/how-to-version-track-datasets
+    condition:
+      noneOf:
+        - Reliability-ai-aml.b2a74102-61ab-413a-ad8a-83b536323012.A
+    context: The OpenCensus Python library can be used to route logs to Application Insights from your scripts. Aggregating logs from pipeline runs in one place allows to build queries and diagnose issues. Using Application Insights allows to track logs over time and compare pipeline logs across runs.
+    priority: 60
+    reportingCategory: Reliability
+    reportingSubCategory: Dataset versioning
+  - title: Collect ML log files in Application Insights.
+    url: /azure/machine-learning/how-to-log-pipelines-application-insights
+    condition:
+      noneOf:
+        - Reliability-ai-aml.8c3882a2-8f4a-4ef7-bcd8-fc4129b8a132.A
+    context: 'The OpenCensus Python library can be used to route logs to Application Insights from your scripts. Aggregating logs from pipeline runs in one place allows you to build queries and diagnose issues. Using Application Insights will allow you to track logs over time and compare pipeline logs across runs. Having your logs in once place will provide a history of exceptions and error messages. Since Application Insights integrates with Azure Alerts, you can also create alerts based on Application Insights queries.'
+    priority: 80
+    reportingCategory: Monitor and Measure application health
+    reportingSubCategory: Generate alerts and debugs
+  - title: Use Azure Machine Learning events to monitor applications.
+    url: /azure/machine-learning/how-to-use-event-grid
+    condition:
+      noneOf:
+        - Reliability-ai-aml.8c3882a2-8f4a-4ef7-bcd8-fc4129b8a132.B
+    context: 'Set up event-driven applications, processes, or CI/CD workflows based on Azure Machine Learning events, such as failure notification emails or ML pipeline runs, when certain conditions are detected by Azure Event Grid.'
+    priority: 60
+    reportingCategory: Monitor and Measure application health
+    reportingSubCategory: Monitor applications
+  - title: Collect data for Model deployed to web service endpoints in AKS.
+    url: /azure/machine-learning/how-to-enable-app-insights
+    condition:
+      noneOf:
+        - Reliability-ai-aml.8c3882a2-8f4a-4ef7-bcd8-fc4129b8a132.C
+    context: 'Use Azure Application Insights to collect the following data from an endpoint: Output data, Responses, Request rates, dependency rates, failure rates, and response times, Exceptions.'
+    priority: 80
+    reportingCategory: Monitor and Measure application health
+    reportingSubCategory: Collect endpoint data
+  - title: Use native application monitoring
+    url: /azure/machine-learning/how-to-enable-app-insights
+    condition:
+      noneOf:
+        - Reliability-ai-aml.8c3882a2-8f4a-4ef7-bcd8-fc4129b8a132.G
+    context: 'Use Azure Application Insights to collect the following data from an endpoint: Output data, Responses, Request rates, response times, and failure rates, Dependency rates, response times, and failure rates, Exceptions.'
+    priority: 80
+    reportingCategory: Monitor and Measure application health
+    reportingSubCategory: Custom troubleshooting
+  - title: Manage and increase quotas for resources with Azure Machine Learning.
+    url: /azure/machine-learning/how-to-manage-quotas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Reliability-ai-aml.088d32bf-44aa-4cf7-96a0-99ac55c463e1.I
+      scoreOf: []
+    context: 'Azure uses limits and quotas to prevent budget overruns due to fraud, and to honor Azure capacity constraints. Consider these limits as you scale for production workloads.'
+    priority: 60
+    reportingCategory: Reliability Requirements
+    reportingSubCategory: Quota management
+  - title: Scaling options for applications in Azure Kubernetes Service.
+    url: /azure/aks/concepts-scale
+    condition:
+      noneOf:
+        - Reliability-ai-aml.9c94ff3a-a383-43bf-b502-68af5ca3ed29.A
+    context: 'As you run applications in Azure Kubernetes Service (AKS), you may need to increase or decrease the amount of compute resources. As the number of application instances you need change, the number of underlying Kubernetes nodes may also need to change. You also might need to quickly provision a large number of additional application instances.'
+    priority: 20
+    reportingCategory: Reliability Requirements
+    reportingSubCategory: Scaling compute resources
+  - title: Manage a compute cluster in your Azure Machine Learning workspace.
+    url: /azure/machine-learning/how-to-create-attach-compute-cluster?tabs=python
+    condition:
+      noneOf:
+        - Reliability-ai-aml.9c94ff3a-a383-43bf-b502-68af5ca3ed29.B
+    context: You can use Azure Machine Learning compute cluster to distribute a training or batch inference process across a cluster of CPU or GPU compute nodes in the cloud.
+    priority: 100
+    reportingCategory: Reliability Requirements
+    reportingSubCategory: Distribute a compute cluster
+  - title: Use AKS fault tolerance and QoS metrics for real time inferencing in Azure Machine Learning.
+    url: 'https://azure.github.io/azureml-sdk-for-r/reference/attach_aks_compute.html'
+    condition:
+      noneOf:
+        - Reliability-ai-aml.9c94ff3a-a383-43bf-b502-68af5ca3ed29.C
+    context: 'If you already have an AKS cluster in your Azure subscription, and it is version 1.12.##, you can attach it to your workspace for deployments.'
+    priority: 80
+    reportingCategory: Reliability Requirements
+    reportingSubCategory: Provide components for real time inference
+  - title: Enable logging in ML training runs to support handling exceptions and errors.
+    url: /azure/machine-learning/how-to-track-experiments
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Reliability-ai-aml.b2a74102-61ab-413a-ad8a-83b536323012.E
+      scoreOf: []
+    context: 'Logs can help you diagnose errors and warnings, or track performance metrics like parameters and model performance.'
+    priority: 80
+    reportingCategory: Reliability Requirements
+    reportingSubCategory: Handle exceptions and errors
+  - title: Build a failover plan for business continuity and disaster recovery to respond to failures and disasters.
+    url: /azure/machine-learning/how-to-high-availability-machine-learning
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Reliability-ai-aml.9c94ff3a-a383-43bf-b502-68af5ca3ed29.D
+      scoreOf: []
+    context: 'To maximize your uptime, plan ahead to maintain business continuity and prepare for disaster recovery with Azure Machine Learning.'
+    priority: 80
+    reportingCategory: Reliability Requirements
+    reportingSubCategory: Disaster recovery plan
+uid: 0b82dd20-b8cb-4147-a9c1-e23d10750b19
+name: ''

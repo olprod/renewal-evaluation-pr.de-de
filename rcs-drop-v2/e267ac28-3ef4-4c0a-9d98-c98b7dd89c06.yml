@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on Sales Plays and Customer Use Cases to align our offer colleteral
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We already reviewed our colleteral and it is align to published Sales Plays, Customer Use Cases and Product Technical Capabilities'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Aligning your sales pitch, offerings and proposed solution decks to Microsoft / Industry specific sales plays and customer scenarios help convey the message across the table and gain more visibility and acceptance with prospective clientele and during potential customer outreach.'
+isRequired: true
+uid: e267ac28-3ef4-4c0a-9d98-c98b7dd89c06
+name: 'Aligning your sales pitch, offerings and proposed solution decks to Microsoft / Industry specific sales plays and customer scenarios help convey the message across the table and gain more visibility and acceptance with prospective clientele and during potential customer outreach.'

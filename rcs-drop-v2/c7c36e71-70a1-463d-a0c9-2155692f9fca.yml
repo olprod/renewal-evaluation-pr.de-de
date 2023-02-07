@@ -1,0 +1,85 @@
+### YamlMime:SelfAssessment
+description: 'Examine and understand data capabilities across entire analytics estate [30-60 minutes].'
+duration: 60 minutes
+questionnaireReferences:
+  - questionnaireUid: 6de8db25-460d-4482-a166-c7b7146515f5
+    isRequired: false
+  - questionnaireUid: 5a28c413-6f20-4d41-8210-174535467739
+    isRequired: false
+  - questionnaireUid: cd469bc7-05ee-47a0-84ca-6b407c81025e
+    isRequired: false
+  - questionnaireUid: 8b4e7b04-5f39-4383-9ba7-08438ac18e0b
+    isRequired: false
+  - questionnaireUid: 79e0b88c-0b7a-4000-840a-ea5aaede5f6a
+    isRequired: false
+  - questionnaireUid: a13a82fb-df44-4f5a-b5b0-6139705d150a
+    isRequired: false
+  - questionnaireUid: a3b544c8-ef90-4285-8ef3-e8026459fafc
+    isRequired: false
+  - questionnaireUid: 9433370c-b387-476e-a966-52fb3c94f6a9
+    isRequired: false
+  - questionnaireUid: fd2fd717-aa13-4a49-b19f-1f89331b04b4
+    isRequired: false
+  - questionnaireUid: 752bf448-59ac-4dbf-ad67-5715719c3c3c
+    isRequired: false
+guidance:
+  title: 60 minutes
+  description: Your results
+  providers: []
+  scoring:
+    title: View how your maturity aligns to benchmark to leading practices and recommendations to help you improve.
+    description: 'Recommendations for your Analytics Assessment '
+    calculationType: Average
+    scoresVerbage: Limited|Acceptable|Optimized
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: 'Actionable initiatives to consider implementing to improve your Maturity across key dimensions of the Capabilities and Maturity Framework to create a holistic view of current state and provides a structured framework for developing maturity in each dimension. Data mesh is an intentionally designed distributed data architecture, under centralized governance and standardization for interoperability, enabled by a shared and harmonized self-serve data infrastructure. '
+        links:
+          - title: This quick assessment helps you evaluate your organizational fitness for data mesh.
+            url: 'https://review.learn.microsoft.com/en-us/test/docs/assessments/?id=e2da705a-4434-4ae0-b378-240c08053bad&mode=pre-assessment&branch=main&session=519eee6a-40e8-4744-8158-67d1185c4e3d'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Data Mesh | Analytics Journey
+      - iconUrl: ''
+        description: Take the Data Mesh | Analytics Journey Review
+        links:
+          - title: 'Examine your workload through the lenses of reliability, cost management, operational excellence, security and performance efficiency [30-60 minutes].'
+            url: azure/architecture/framework/
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Set of guiding tenets that can be used to improve the quality of a workload
+  recommendationsTitle: ''
+owner:
+  firstName: Leo
+  lastName: Kozhushnik
+  email: lkozhushnik@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+metadataTags:
+  - azure
+  - azure-synapse-analytics
+  - azure-data-lake-analytics
+relatedTags:
+  - e2da705a-4434-4ae0-b378-240c08053bad
+  - 5a1ed6d8-544c-4598-9f3a-4c17f04105b7
+uid: c7c36e71-70a1-463d-a0c9-2155692f9fca
+name: Take the Azure Well-Architected Review

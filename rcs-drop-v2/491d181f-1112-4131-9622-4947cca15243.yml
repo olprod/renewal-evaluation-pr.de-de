@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on this
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: we are aware of it and its content and collateral is reviewed by our sales engagement team regularly
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  The Solutions partner benefits packages include:
+
+  Product benefits
+
+  Internal use rights (IURs)
+  Cloud licenses
+  Azure credits
+  Go-to-market services
+
+  Customer-facing badges
+
+  Technical pre-sales and deployment services
+
+  Technical support
+
+  Eligibility to earn incentives
+isRequired: true
+uid: 491d181f-1112-4131-9622-4947cca15243
+name: 'The Solutions partner benefits packages include:'

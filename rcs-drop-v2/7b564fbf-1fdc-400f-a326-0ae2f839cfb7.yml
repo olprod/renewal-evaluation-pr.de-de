@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization sometimes applies data integration techniques in real time by storing the data in a data lake and conducting the analytics on the data at rest at a later time.
+    description: Your organization sometimes applies data integration techniques in real time by storing the data in a data lake and conducting the analytics on the data at rest at a later time.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organiation recognizes the uses for stream processing to support business operations by capturing and storing real time messages.
+    description: Your organization recognizes the uses for stream processing to support business operations by capturing and storing real time messages.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has implemented a pattern for stream processing  and capturing real-time messages in order to prepare data for analysis.
+    description: Your organization has implemented a pattern for stream processing  and capturing real-time messages in order to prepare data for analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization is focussing on improving stream processing pattern to improve capabilities and ensure data reliability, quality and fault tolerance.'
+    description: 'Your organization is focussing on improving stream processing pattern to improve capabilities and ensure data reliability, quality and fault tolerance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized.  Your organization's streaming data and analytics capabilities are well established and use machine learning to adapt to changing operational conditions.
+    description: Your organization's streaming data and analytics capabilities are well established and use machine learning to adapt to changing operational conditions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How do you ingest streaming data into your Landing Zone/s?
+isRequired: true
+uid: 7b564fbf-1fdc-400f-a326-0ae2f839cfb7
+name: How do you ingest streaming data into your Landing Zone/s?

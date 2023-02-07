@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - d63c96ad-09d2-47d2-b427-c591d91600f4
+  - 0c936c39-d7b4-4e26-afa2-0d2bd9a7d158
+  - f65900d0-0aa7-4e7c-b1ec-a96b00e79f97
+  - 139bb3c9-efeb-4f14-8ecc-4d1dc8af22f5
+recommendations:
+  - 83e83e25-0c6b-4416-9ed7-58644a7f14aa
+assignedGroupIds: []
+uid: f9214695-5082-47c4-a662-5e7863cde4c9
+name: 'Sustainability: Application platform'

@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We protect our application against outages in Azure.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: B
+    text: 'The disaster recovery plans are documented, automated and fully tested.'
+    description: ' It is crucial to have a well-tested disaster recovery plan. The plan should include the people, processes, and applications needed to restore functionality within the service-level agreement (SLA) you''ve defined for your customers.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Have provisions in place for Azure-wide service disruption and peform region failover drills.
+    description: 'In disaster planning, you must consider the entire range of possible disasters. One of the most severe service disruptions would involve all Azure regions simultaneously. As with other service disruptions, you might decide that you''ll take the risk of temporary downtime in that event. Widespread service disruptions that span regions should be much rarer than isolated service disruptions that involve dependent services or single regions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: D
+    text: We recover our services to the same Azure region as the primary service.
+    description: 'Have you thought about resilience, in the context of geographical location / Azure Regions? Will you be using Cold, Warm, Hot or Active-Active type of redundancy model?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for Service management. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Service management
+uid: 39261027-1c11-4ed5-9f6b-a7e7112ebc07
+name: Please choose the applicable Well-Architected reliability considerations for Service management.

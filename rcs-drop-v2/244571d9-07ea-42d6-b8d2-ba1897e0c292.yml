@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Implement a security and governance plan in accordance with guidance.
+    description: 'These features are useful for administrators, DevOps, and MLOps who want to create a secure configuration that is compliant with your company policies.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Audit and manage Azure Machine Learning using Azure Policy.
+    description: "Use policies to lay out guardrails for teams to manage their own resources.\_Azure Policy\_helps audit and govern resource states. "
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '0'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+    - waf-config-golive.waf-scenario.ai
+stem: 'Organizations of all sizes are constrained by their available resources: financial, people, and time. To achieve an effective return on investment (ROI) organizations must prioritize where they will invest. Implementation of security across the organization is also constrained by this, so to achieve an appropriate ROI on security the organization needs to first understand and define its security priorities.'
+isRequired: false
+legacyId: '1'
+uid: 244571d9-07ea-42d6-b8d2-ba1897e0c292
+name: 'Organizations of all sizes are constrained by their available resources: financial, people, and time.'

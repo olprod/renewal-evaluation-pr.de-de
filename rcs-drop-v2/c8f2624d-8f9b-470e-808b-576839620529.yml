@@ -1,0 +1,85 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The application is instrumented with semantic logs and metrics.
+    description: Is the application instrumented with semantic logs and metrics using APM technologies such as Application Insights?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Application logs are correlated across components.
+    description: Are application logs correlated across components to ensure end-to-end system flows and component dependencies are monitored?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: All components are monitored and correlated with application telemetry.
+    description: Are all components monitored and correlated with application level telemetry?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: 'Key metrics, thresholds, and indicators are defined and captured.'
+    description: 'Have key metrics, thresholds and indicators been defined and captured?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: 'A health model has been defined based on performance, availability, and recovery targets and is represented through monitoring dashboard and alerts.'
+    description: 'Has a health model been defined to qualify what ''healthy'' and ''unhealthy'' states represent across all application components, in a measurable and observable format? and is this health model fully represented through monitoring dashboards and alerts?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Azure Service Health events are used to alert on applicable Service level events.
+    description: Have Azure Service Health events been integrated to alert on applicable Service level events?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Azure Resource Health events are used to alert on resource health events.
+    description: 'Are Azure Resource Health event used to alert on resource health events? An appropriate threshold for resource unavailability must be set to minimise signal to noise ratios so that transient faults do not generate an alert. For example, configuring a virtual machine alert with an unavailability threshold of 1 minute before an alert is triggered.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: Monitor long-running workflows for failures.
+    description: Do you monitor any long running application workflows and operationalise failure scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Reliability - monitoring and measuring application health
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWFkEv'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Monitoring and measuring application availability is vital to qualifying overall application health and progress towards defined reliability targets.
+isRequired: false
+legacyId: '12'
+uid: c8f2624d-8f9b-470e-808b-576839620529
+name: Monitoring and measuring application availability is vital to qualifying overall application health and progress towards defined reliability targets.

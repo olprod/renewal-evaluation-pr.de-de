@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |
+  You plan to create a GitHub workflow that will use the GitHub Script action to automatically post a comment to all newly created issues.
+
+  Which notation should you use when invoking the GitHub API?
+questionnaireUid: f03d4e80-eb98-4432-bcbe-567a382854dc
+questions:
+  - uid: ffcb7218-6206-475b-9d50-3cf2376b275f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: '`github.issues.createComment`'
+        isCorrect: true
+      - id: 1
+        text: '`octokit.issues.createComment`'
+        isCorrect: false
+      - id: 2
+        text: '`action.issues.createComment`'
+        isCorrect: false
+      - id: 3
+        text: '`actions/github-script@0.8.0.issues.createComment`'
+        isCorrect: false
+uid: ffcb7218-6206-475b-9d50-3cf2376b275f
+title: ''

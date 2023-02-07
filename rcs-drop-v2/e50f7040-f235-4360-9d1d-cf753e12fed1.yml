@@ -1,0 +1,119 @@
+### YamlMime:SelfAssessment
+description: 'Discover the Developer Velocity Index (DVI) score for your organization and get guidance to boost business performance. '
+duration: 20 minutes
+questionnaireReferences:
+  - questionnaireUid: 75fefe13-349c-4495-acee-91f9c08d6344
+    isRequired: true
+  - questionnaireUid: 7fd2c2e9-43cb-432b-92ba-d426ca7eb057
+    isRequired: true
+  - questionnaireUid: ebe489bc-99f0-45b6-9e50-bae8c0cd1fa5
+    isRequired: true
+  - questionnaireUid: 0452b76f-cbac-4e5e-b2ca-952630f1221f
+    isRequired: true
+  - questionnaireUid: a483f3c7-479a-4156-ab74-60a162161e49
+    isRequired: true
+  - questionnaireUid: 85d45fc0-fa74-43f4-9d4b-a0f21ca99d24
+    isRequired: true
+  - questionnaireUid: d3843e90-4a26-45f7-9fb7-111949742a5a
+    isRequired: true
+  - questionnaireUid: de0257c9-1706-41ac-b485-b8b2e8386efc
+    isRequired: true
+  - questionnaireUid: 2be8efe2-3a34-4277-95f1-3daf32df812a
+    isRequired: true
+guidance:
+  title: 20 minutes
+  description: ''
+  providers: []
+  scoring:
+    title: Recommended Actions
+    description: ''
+    calculationType: Average
+    chart:
+      mode: gapanalysis
+      type: bar
+      title: ''
+      labels:
+        - Architecture
+        - Infrastructure
+        - Tooling/Delivery
+        - Engineering
+        - Security/Comp.
+        - Open Source
+        - Team/Culture
+        - Management
+        - Talent/Hiring
+      items:
+        - type: ''
+          label: Components of Developer Velocity
+          items:
+            - 75fefe13-349c-4495-acee-91f9c08d6344
+            - 7fd2c2e9-43cb-432b-92ba-d426ca7eb057
+            - ebe489bc-99f0-45b6-9e50-bae8c0cd1fa5
+            - 0452b76f-cbac-4e5e-b2ca-952630f1221f
+            - a483f3c7-479a-4156-ab74-60a162161e49
+            - 85d45fc0-fa74-43f4-9d4b-a0f21ca99d24
+            - d3843e90-4a26-45f7-9fb7-111949742a5a
+            - de0257c9-1706-41ac-b485-b8b2e8386efc
+            - 2be8efe2-3a34-4277-95f1-3daf32df812a
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: Developer Velocity Index
+        links:
+          - title: Architecture
+            url: 'https://www.youtube.com/playlist?list=PLLasX02E8BPAvZ1ZH9fuF__VB2qDe3xGN'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Infrastructure
+      - iconUrl: ''
+        description: Tooling/Delivery Engineering
+        links:
+          - title: Security/Comp.
+            url: 'https://azure.microsoft.com/resources/developer-velocity-how-software-excellence-fuels-business-performance'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Open Source
+      - iconUrl: ''
+        description: Team/Culture Management
+        links:
+          - title: Talent/Hiring
+            url: 'https://aka.ms/developervelocity-cta-infrastructure-high'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: 'Learn the fundamentals of Developer Velocity and how you can empower your developer teams with the best-in-class tools, better working practices, and an aligned culture through our video series.'
+  recommendationsTitle: ''
+owner:
+  firstName: Daniel
+  lastName: Stocker
+  email: dasto@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - azure
+uid: e50f7040-f235-4360-9d1d-cf753e12fed1
+name: Start watching

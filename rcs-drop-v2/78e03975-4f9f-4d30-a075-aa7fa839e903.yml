@@ -1,0 +1,139 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/scenarios/sap/eslz-business-continuity-and-disaster-recovery
+description: ' Following the guidance in this article will help understand the unique constraints required for any landing zone to support the SAP platform. However, since SAP is an mission-critical platform, the guidance on the enterprise-scale design areas should also be included in your design.'
+links:
+  - title: Improve the reliability of SAP On Azure workload using right Disaster Recovery design
+    url: /azure/cloud-adoption-framework/scenarios/sap/eslz-business-continuity-and-disaster-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: 'Reliability of SAP On Azure workload '
+    priority: 90
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Targets & Business requirements
+  - title: Improve the reliability of SAP On Azure workload
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/sap/sap-overview#resiliency'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.dc5e7f2f-e900-480d-9ce5-44a5e890ba8b.0
+      scoreOf: []
+    context: 'Reliability of SAP On Azure workload '
+    priority: 95
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Targets & Business requirements
+  - title: Improve the SAP Workload reliability with Azure Availability Zones
+    url: 'https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/sap/sap-ha-availability-zones'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ..
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn about Azure Managed Disk SLA
+    url: 'https://azure.microsoft.com/en-gb/support/legal/sla/storage/v1_5/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.dc5e7f2f-e900-480d-9ce5-44a5e890ba8b.1
+      scoreOf: []
+    context: Azure Managed Disk SLA
+    priority: 85
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Testing & Business requirement
+  - title: Implement Azure Monitor for SAP
+    url: 'https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/sap/monitor-sap-on-azure'
+    condition:
+      allOf:
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.dc5e7f2f-e900-480d-9ce5-44a5e890ba8b.2
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Implement Azure Monitor for SAP
+    priority: 89
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: SAP Monitoring
+  - title: Composite SLA
+    url: 'https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/business-metrics#composite-slas'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.dc5e7f2f-e900-480d-9ce5-44a5e890ba8b.4
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.dc5e7f2f-e900-480d-9ce5-44a5e890ba8b.5
+      scoreOf: []
+    context: Azure SLAs for all relevant resources.
+    priority: 80
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Service Level Agreement
+  - title: SLAs for external dependencies identified and understood.
+    url: 'https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/design-resiliency#understand-the-impact-of-dependencies'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.dc5e7f2f-e900-480d-9ce5-44a5e890ba8b.5
+      scoreOf: []
+    context: external dependencies
+    priority: 79
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Service Level Agreement
+  - title: Recovery targets
+    url: 'https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-business-continuity-disaster-recovery'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.dc5e7f2f-e900-480d-9ce5-44a5e890ba8b.6
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.dc5e7f2f-e900-480d-9ce5-44a5e890ba8b.7
+      scoreOf: []
+    context: Recovery targets to identify how long the SAPworkloa
+    priority: 77
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Recovery Time Objectives
+  - title: Review Business Continuity Planning
+    url: 'https://learn.microsoft.com/en-us/azure/reliability/business-continuity-management-program'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.dc5e7f2f-e900-480d-9ce5-44a5e890ba8b.7
+      scoreOf: []
+    context: Review Business Continuity Planning
+    priority: 76
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Business Continuity Planning
+  - title: High-availability architecture and scenarios for SAP Workload
+    url: 'https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/sap/sap-high-availability-architecture-scenarios'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.3fc7ec5b-a639-4532-9f16-8a224c8236b4.0
+      scoreOf: []
+    context: High-availability architecture and scenarios
+    priority: 75
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: High-availability
+  - title: 'Overview of SAP workloads across Availability Zones '
+    url: 'https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b6eb2f0b-5a9f-4788-aefb-480eee2a7e20.3fc7ec5b-a639-4532-9f16-8a224c8236b4.1
+      scoreOf: []
+    context: 'SAP workloads across Availability Zones '
+    priority: 74
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: 'Availability Zones '
+uid: 78e03975-4f9f-4d30-a075-aa7fa839e903
+name: Improve the reliability of SAP On Azure workload

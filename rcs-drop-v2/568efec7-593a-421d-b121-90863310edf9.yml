@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Use Azure Migrate to do capacity planning and assessments. '
+    description: 'Azure MIgrate provides a centralized hub to assess and migrate to Azure on-premises servers, infrastructure, applications, and data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: 'Ensure a VM vertical/horizontal scale plan is in place and tested (ensuring time and effort to scale are understood) and includes suitable VM series choices for new memory,cpu, I/O, and tempdb requirements.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Use Database Experimentation Assistant for A/B testing when a SQL Server version upgrade is required.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Ensure sufficient network bandwidth is in place between the database server and aplications to achieve the performance and latency requirements.
+    description: Ensure resources are co-located for optimal performance and to minimize network latency and egress charges.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: 'Verify SQL VMs and its associated application, infrastructure, and storage resources are co-located in the same region in order to maintain latency SLAs.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Implement Alerts to be notified of and handle spikes in activity.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: capacity-data-sqlvm
+uid: 568efec7-593a-421d-b121-90863310edf9
+name: How are you ensuring you have sufficient capacity?

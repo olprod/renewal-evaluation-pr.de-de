@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You plan to use Microsoft Graph to retrieve the owners of a Microsoft Team.
+
+  You can call the endpoint named https://graph.microsoft.com/v1.0/teams/{group-id} to retrieve the Team details and the Team owners.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 33667b9e-7551-4c49-8024-d23a877e2d37
+questions:
+  - uid: f8ca7606-986a-42bd-83a9-665b894edf1d-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You plan to use Microsoft Graph to retrieve the owners of a Microsoft Team.
+        isCorrect: false
+      - id: 1
+        text: 'You can call the endpoint named https://graph.microsoft.com/v1.0/teams/{group-id} to retrieve the Team details and the Team owners.'
+        isCorrect: true
+uid: f8ca7606-986a-42bd-83a9-665b894edf1d
+title: Select Yes if the statement is true.

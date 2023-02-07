@@ -1,0 +1,210 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Set up Authorization for AML using  Role Based Access Control to manage access to an Azure Machine Learning workspace
+    url: /azure/machine-learning/how-to-assign-roles
+    condition:
+      noneOf:
+        - Security-ai-aml.500eeeac-3af9-4f94-8252-c8787294e7ca.A
+    context: 'Learn to manage access (authorization) to an Azure Machine Learning workspace. Azure role-based access control (Azure RBAC) is used to manage access to Azure resources, such as the ability to create new resources or use existing ones. Users in your Azure Active Directory (Azure AD) are assigned specific roles, which grant access to resources. Azure provides both built-in roles and the ability to create custom roles.'
+    priority: 80
+    reportingCategory: Security Considerations
+    reportingSubCategory: Manage access
+  - title: Set up Authentication for AML resources and workflows.
+    url: /azure/machine-learning/how-to-setup-authentication
+    condition:
+      noneOf:
+        - Security-ai-aml.500eeeac-3af9-4f94-8252-c8787294e7ca.B
+    context: Learn to set up authentication to your Azure Machine Learning workspace. Authentication to your Azure Machine Learning workspace is based on Azure Active Directory (Azure AD).
+    priority: 60
+    reportingCategory: Security Considerations
+    reportingSubCategory: Verification process
+  - title: 'Leverage MLOps security guidance. Model management, deployment, and monitoring with Azure Machine Learning.'
+    url: /azure/machine-learning/concept-model-management-and-deployment
+    condition:
+      noneOf:
+        - Security-ai-aml.500eeeac-3af9-4f94-8252-c8787294e7ca.C
+    context: Learn Machine Learning Operations (MLOps) in Azure Machine Learning to manage the lifecycle of your models.
+    priority: 20
+    reportingCategory: Security Considerations
+    reportingSubCategory: ML lifecycle management using MLOps
+  - title: Use appropriate recommendations from Azure ML security baseline to improve security posture.
+    url: /azure/machine-learning/security-baseline
+    condition:
+      noneOf:
+        - Security-ai-aml.500eeeac-3af9-4f94-8252-c8787294e7ca.D
+    context: This security baseline applies guidance from the Azure Security Benchmark version 2.0 to Microsoft Azure Machine Learning. The Azure Security Benchmark provides recommendations to secure your cloud solutions on Azure. The content is grouped by the security controls defined by the Azure Security Benchmark and the related guidance applicable to Azure Machine Learning.
+    priority: 80
+    reportingCategory: Security Considerations
+    reportingSubCategory: Recommendations and best practices
+  - title: Implement a security and governance plan in accordance with guidance
+    url: /azure/machine-learning/concept-enterprise-security
+    condition:
+      noneOf:
+        - Security-ai-aml.244571d9-07ea-42d6-b8d2-ba1897e0c292.A
+    context: 'With Azure Machine Learning and the Azure platform, you can: Restrict access to resources and operations by user account or groups, Restrict incoming and outgoing network communications, Encrypt data in transit and at rest, Scan for vulnerabilities, Apply and audit configuration policies.'
+    priority: 60
+    reportingCategory: Compliance and Governance
+    reportingSubCategory: Security and governance plan
+  - title: Audit and manage Azure Machine Learning using Azure Policy
+    url: /azure/machine-learning/how-to-integrate-azure-policy
+    condition:
+      noneOf:
+        - Security-ai-aml.244571d9-07ea-42d6-b8d2-ba1897e0c292.B
+    context: 'When teams collaborate on Azure Machine Learning, they may face varying requirements to the configuration and organization of resources. Machine Learning teams may look for flexibility in how to organize workspaces for collaboration, or size compute clusters to the requirements of their use cases.'
+    priority: 80
+    reportingCategory: Compliance and Governance
+    reportingSubCategory: Azure Policies
+  - title: Use Data encryption with AML.
+    url: /azure/machine-learning/concept-data-encryption
+    condition:
+      noneOf:
+        - Security-ai-aml.3637fce7-9a59-452c-a24b-6c80deb36271.A
+    context: Azure Machine Learning uses a variety of Azure data storage services and compute resources when training models and performing inference. Each of these have their own story on how they provide encryption for data at rest and in transit.
+    priority: 80
+    reportingCategory: Data Encryption
+    reportingSubCategory: Data protection
+  - title: Use Azure Active Directory with Azure Machine Learning in AKS.
+    url: /azure/machine-learning/how-to-use-azure-ad-identity
+    condition:
+      noneOf:
+        - Security-ai-aml.952ba6cd-e44d-48da-867a-06336c5990bd.A
+    context: Learn to assign an Azure Active Directory (Azure AD) identity to your deployed Machine Learning model in Azure Kubernetes Service.
+    priority: 80
+    reportingCategory: Identity Management
+    reportingSubCategory: Secure access
+  - title: Use Managed Identities with Azure Machine Learning for access control.
+    url: /azure/machine-learning/how-to-use-managed-identities?tabs=python
+    condition:
+      noneOf:
+        - Security-ai-aml.952ba6cd-e44d-48da-867a-06336c5990bd.B
+    context: 'Managed identities allow to configure workspace with the minimum required permissions to access resources. When configuring Azure Machine Learning workspace in trustworthy manner, it is important to ensure that different services associated with the workspace have the correct level of access. For example, during Machine Learning workflow, the workspace needs access to Azure Container Registry (ACR) for Docker images, and storage accounts for training data.'
+    priority: 100
+    reportingCategory: Identity Management
+    reportingSubCategory: Access control
+  - title: Use VNETs to secure Azure Machine Learning workspace.
+    url: /azure/machine-learning/how-to-secure-workspace-vnet
+    condition:
+      noneOf:
+        - Security-ai-aml.85782d48-19ca-4876-91fa-3a43d13fb72f.A
+    context: Secure an Azure Machine Learning workspace and its associated resources in a virtual network.
+    priority: 80
+    reportingCategory: Network Security
+    reportingSubCategory: VNET usage to secure workspace
+  - title: Use VNETs to secure Azure Machine Learning Training environment.
+    url: /azure/machine-learning/how-to-secure-training-vnet
+    condition:
+      noneOf:
+        - Security-ai-aml.85782d48-19ca-4876-91fa-3a43d13fb72f.B
+    context: Secure an Azure Machine Learning workspace and its associated resources in a virtual network.
+    priority: 80
+    reportingCategory: Network Security
+    reportingSubCategory: VNET usage to secure training environment
+  - title: Configure Private link for Azure Machine Learning to enable private endpoint for inferencing.
+    url: /azure/machine-learning/how-to-configure-private-link?tabs=python
+    condition:
+      noneOf:
+        - Security-ai-aml.85782d48-19ca-4876-91fa-3a43d13fb72f.C
+    context: Learn to configure a private endpoint for your Azure Machine Learning workspace.
+    priority: 80
+    reportingCategory: Network Security
+    reportingSubCategory: Connect workspace using private endpoint
+  - title: Secure Azure Machine Learning inferencing environment with virtual networks.
+    url: /azure/machine-learning/how-to-secure-inferencing-vnet?tabs=python
+    condition:
+      noneOf:
+        - Security-ai-aml.85782d48-19ca-4876-91fa-3a43d13fb72f.D
+    context: Learn to secure inferencing environments with a virtual network in Azure Machine Learning.
+    priority: 80
+    reportingCategory: Network Security
+    reportingSubCategory: VNET usage to secure inferencing resources
+  - title: Use Azure Machine Learning Studio in Azure virtual network.
+    url: /azure/machine-learning/how-to-enable-studio-virtual-network
+    condition:
+      noneOf:
+        - Security-ai-aml.85782d48-19ca-4876-91fa-3a43d13fb72f.E
+    context: 'Using Azure Machine Learning Studio in a virtual network is critical to enterprise security. This protects data, code, and other resources.'
+    priority: 80
+    reportingCategory: Network Security
+    reportingSubCategory: Studio access configuration
+  - title: Use TLS to secure web service through AML
+    url: /azure/machine-learning/how-to-secure-web-service
+    condition:
+      noneOf:
+        - Security-ai-aml.85782d48-19ca-4876-91fa-3a43d13fb72f.F
+    context: 'HTTPS restricts access to web services and secure the data that clients submit. HTTPS helps secure communications between a client and a web service by encrypting communications. Encryption uses Transport Layer Security (TLS). TLS is sometimes referred to as Secure Sockets Layer (SSL), which was the predecessor of TLS.'
+    priority: 80
+    reportingCategory: Network Security
+    reportingSubCategory: TLS usage to secure webservice
+  - title: Use modern password protection (managed identity)
+    url: /azure/machine-learning/how-to-setup-authentication#configure-a-managed-identity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-ai-aml.72b9d8d0-dfeb-464d-add0-f57a855301c3.A
+      scoreOf: []
+    context: Managed identity is only supported when using the Azure Machine Learning SDK from an Azure Virtual Machine or with an Azure Machine Learning compute cluster. Using a managed identity with a compute cluster is currently in preview.
+    priority: 100
+    reportingCategory: AI Principles and ML lifecycle
+    reportingSubCategory: Password protection
+  - title: ' Use practices to protect user''s data privacy in machine learning. '
+    url: /azure/machine-learning/concept-differential-privacy
+    condition:
+      noneOf:
+        - Security-ai-aml.72b9d8d0-dfeb-464d-add0-f57a855301c3.A
+    context: 'As the amount of data that an organization collects and uses for analyses increases, so do concerns of privacy and security. Analysis require data. Typically, the more data used to train Machine Learning models, the more accurate they are. When personal information is used for these analysis, it is important that the data remains private throughout its use.'
+    priority: 80
+    reportingCategory: AI Principles and ML lifecycle
+    reportingSubCategory: Best practices to protect user data
+  - title: Work on encrypted data with homomorphic encryption.
+    url: /azure/machine-learning/concept-responsible-ml#work-on-encrypted-data-with-homomorphic-encryption
+    condition:
+      noneOf:
+        - Security-ai-aml.72b9d8d0-dfeb-464d-add0-f57a855301c3.B
+    context: 'In traditional cloud storage and computation solutions, the cloud needs to have unencrypted access to customer data to compute on it. This access exposes the data to cloud operators. Data privacy relies on access control policies implemented by the cloud and trusted by the customer. Homomorphic encryption allows computations on encrypted data without requiring access to a secret (decryption) key. The results of the computations are encrypted and can be revealed only by the owner of the secret key. Using homomorphic encryption, cloud operators will never have unencrypted access to the data they are storing and computing on. Computations are performed directly on encrypted data. Data privacy relies on state-of-the-art cryptography, and the data owner controls all information releases.'
+    priority: 60
+    reportingCategory: AI Principles and ML lifecycle
+    reportingSubCategory: Unencrypted access to user data
+  - title: Use model Interpretability with Azure Machine Learning.
+    url: /azure/machine-learning/how-to-machine-learning-interpretability
+    condition:
+      noneOf:
+        - Security-ai-aml.72b9d8d0-dfeb-464d-add0-f57a855301c3.C
+    context: 'Model interpretability is critical for data scientists, auditors, and business decision makers alike to ensure compliance with company policies, industry standards, and government regulations: Data scientists need the ability to explain their models to executives and stakeholders, so they can understand the value and accuracy of their findings. They also require interpretability to debug their models and make informed decisions about how to improve them, Legal auditors require tools to validate models with respect to regulatory compliance and monitor how models'' decisions are impacting humans, Business decision makers need peace-of-mind by having the ability to provide transparency for end users. This allows them to earn and maintain trust.'
+    priority: 80
+    reportingCategory: AI Principles and ML lifecycle
+    reportingSubCategory: Ensure compliance with policies and regulations
+  - title: 'Mitigate fairness in machine learning models using open source package in Azure Machine Learning. '
+    url: /azure/machine-learning/concept-fairness-ml
+    condition:
+      noneOf:
+        - Security-ai-aml.72b9d8d0-dfeb-464d-add0-f57a855301c3.D
+    context: 'Artificial Intelligence and Machine Learning systems can display unfair behavior. One way to define unfair behavior is by its harm, or impact on people. See the NeurIPS 2017 keynote by Kate Crawford to learn more. Two common types of AI-caused harms are: Harm of allocation: An AI system extends or withholds opportunities, resources, or information for certain groups. Examples include hiring, school admissions, and lending where a model might be much better at picking good candidates among a specific group of people than among other groups, Harm of quality-of-service: An AI system doesn’t work as well for one group of people as it does for another. As an example, a voice recognition system might fail to work as well for women as it does for men.'
+    priority: 80
+    reportingCategory: AI Principles and ML lifecycle
+    reportingSubCategory: Reduce fairness issues
+  - title: Use Data Sheets with AML to make responsible decisions .
+    url: /azure/machine-learning/concept-responsible-ml#document-the-machine-learning-lifecycle-with-datasheets
+    condition:
+      noneOf:
+        - Security-ai-aml.72b9d8d0-dfeb-464d-add0-f57a855301c3.E
+    context: 'Documenting the right information in the machine learning process is key to making responsible decisions at each stage. Datasheets are a way to document machine learning assets that are used and created as part of the machine learning lifecycle. Some model information you might want to document as part of a datasheet: Intended use, Model architecture, Training data used, Evaluation data used, Training model performance metrics, Fairness information.'
+    priority: 80
+    reportingCategory: AI Principles and ML lifecycle
+    reportingSubCategory: Document ML lifecycle
+  - title: Review and implement appropriate guidelines from Azure Machine Learning best practices for enterprise security
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/ai-machine-learning-enterprise-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Security-ai-aml.500eeeac-3af9-4f94-8252-c8787294e7ca.F
+      scoreOf: []
+    context: 'The recommended Machine Learning network security architecture is a virtual network with the following subnets: Training contains compute resources used for training, such as Machine Learning compute instances or compute clusters, Scoring contains compute resources used for scoring, such as Azure Kubernetes Service (AKS), Firewall contains the firewall that allows traffic to and from the public internet, such as Azure Firewall.'
+    priority: 60
+    reportingCategory: Security
+    reportingSubCategory: ML best practices
+uid: ab205cd6-6a3e-4643-b9fb-930b64c7a39c
+name: ''

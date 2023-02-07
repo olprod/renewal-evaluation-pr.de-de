@@ -1,0 +1,60 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your Data Capability is performed on a reactive ‘as needs’ basis with no or little alignment between Data Strategy and Business Strategy. No guiding principles or Executive Sponsorship. '
+    description: |
+      Data capability is performed on a reactive ‘as needs’ basis with no or little alignment between Data Strategy and Business Strategy. No guiding principles or Executive Sponsorship. 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your Data Strategy is formed and announced by the Executive Steering Committee where endorsement, buy-in and communication of Data Strategy made formal Capability Statement is clear and present.'
+    description: |
+      Data strategy is formed and announced by the Executive Steering Committee where endorsement, buy-in and communication of Data Strategy made formal Capability Statement is clear and present.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your Data Strategy is well defined and aligned to the Organization''s Business Strategy with Guiding Principles, goals and objectives clearly set and defined. Official endorsement by the Executive Steering Committed is issued to organization and execution of Data Strategy is well on its way.'
+    description: |
+      Data Strategy is well defined and aligned to the Organization's Business Strategy with Guiding Principles, goals and objectives clearly set and defined. Official endorsement by the Executive Steering Committed is issued to organization and execution of Data Strategy is well on its way.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your Data Strategy is consistently measured and communication on strategy progress is systematic. Leverages next-generation AI techniques to drive business value supported by benefits realization KPI’s.
+    description: |
+      Data Strategy is consistently measured and communication on strategy progress is systematic. Leverages next-generation AI techniques to drive business value supported by benefits realization KPI’s.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your Data Strategy is consistently measured against progressing strategy initiatives with Data driven business decision becoming ingrained into organization's culture and supporting a large use case inventory.
+    description: |
+      Data Strategy is consistently measured against progressing strategy initiatives with Data driven business decision becoming ingrained into organization's culture and supporting a large use case inventory.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have an existing and well-defined Data Strategy covering key objectives and capabilities statement?
+isRequired: true
+uid: 530e6555-197d-489c-84a1-a8958a7b0eb6
+name: Do you have an existing and well-defined Data Strategy covering key objectives and capabilities statement?

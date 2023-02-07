@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |+
+  An agent wants to compose an email using the Enhanced Email form. 
+
+  The agent wants to add a table to the email. 
+
+  What should the agent use? 
+
+questionnaireUid: ece67b91-3668-41b2-81d5-5194b6435f33
+questions:
+  - uid: ee3c3a17-8d14-46c0-9b5c-749cfa437f68-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: An agent wants to compose an email using the Enhanced Email form.
+        isCorrect: false
+      - id: 1
+        text: The agent wants to add a table to the email.
+        isCorrect: false
+      - id: 2
+        text: What should the agent use?
+        isCorrect: false
+      - id: 3
+        text: 'HTML '
+        isCorrect: true
+    manualId: 'Question 64-MB-230.5.9 '
+uid: ee3c3a17-8d14-46c0-9b5c-749cfa437f68
+title: ''
+manualId: ''

@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |
+  You have a tenant in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra, named contoso.com.
+
+  You manage an Azure subscription named Sub1 that is associated to contoso.com.
+
+  You configure Azure Monitor to store and track Azure AD sign-in log data in a Log Analytics workspace named workspace1. 
+
+  You need to create a security dashboard in the Azure portal that will display the summary of sign-in events during the current week based on the Azure AD sign-in log data.
+
+  What should you do first?
+questionnaireUid: e0a4d45d-6fd7-4b4e-bac5-939ee8e1aab0
+questions:
+  - uid: f0f43ae0-ae59-4bbc-8aaf-0079313e87c7-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You have a tenant in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra, named contoso.com.'
+        isCorrect: true
+      - id: 1
+        text: You manage an Azure subscription named Sub1 that is associated to contoso.com.
+        isCorrect: false
+      - id: 2
+        text: You configure Azure Monitor to store and track Azure AD sign-in log data in a Log Analytics workspace named workspace1.
+        isCorrect: false
+      - id: 3
+        text: You need to create a security dashboard in the Azure portal that will display the summary of sign-in events during the current week based on the Azure AD sign-in log data.
+        isCorrect: false
+    manualId: 12_az-400-az-400.2.7
+uid: f0f43ae0-ae59-4bbc-8aaf-0079313e87c7
+title: ''

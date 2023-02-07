@@ -1,0 +1,83 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use IoT Edge to enable compute and advanced workloads at no cost on the edge.
+    description: 'Azure IoT Edge is an open source runtime, container orchestrator and local messaging hub that adds more flexibility and features on the edge, helping you lower the overall cost of your solution.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '1'
+    text: You understand how IoT Edge helps reduce messaging and network costs.
+    description: 'Azure IoT Edge has out of the box store and forward functionality and includes built-in batching, which can lower overall bandwidth costs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '2'
+    text: You use some free IoT Edge modules from the Azure Marketplace to connect devices using open protocols.
+    description: 'Azure Marketplace provides various IoT Edge modules from Microsoft and third-party vendors. Some of the modules, for open protocols such as OPC-UA and Modubus, are free of charge.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '3'
+    text: You use IoT Edge modules to run Azure cloud services on the edge.
+    description: 'Azure IoT Edge offers the ability to run typical cloud workloads on the edge such as Azure Functions, Event Grid, and Azure Storage.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '4'
+    text: You use pre-built Azure IoT Edge modules to run stream processing on the edge.
+    description: Azure Stream Analytics is a service that can be run locally and offline as an Azure IoT Edge module.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '5'
+    text: You use comprehensive AI and edge development kit and platfrom which provides pre-build AI models and solution management with built in security to start your proof of concept AI solution.
+    description: 'The Azure Percept DK provides HW and SW for building, deploying, and managing AI models. You can implement a prototype of your AI concept in minutes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '6'
+    text: You use Azure Private Multi-Access Edge Compute (MEC) for latency sensitive workloads.
+    description: 'Azure Private MEC is a solution that brings a portfolio of Microsoft compute, networking, and application services managed from cloud, enabling you to build a low latency, high performance IoT solution at the edge.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '7'
+    text: 'For hybrid workloads, you use Azure Stack Edge purpose built hardware-as-a-service.'
+    description: |
+      Azure Stack Edge is a purpose built device with edge computing capability. Deploy cloud native capability such as Azure IoT Edge, Stream Analytics, Azure Functions to handle edge processing needs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'IoT Edge helps distribute cloud workloads to the field. There are many ways to use IoT Edge to improve your solution. For example, it enables you to implement processing and analytics in the field. Those workloads can reduce overall costs when optimized.'
+isRequired: false
+uid: be1c5bc8-40f1-4c0e-aca8-c0476f74823e
+name: IoT Edge helps distribute cloud workloads to the field. There are many ways to use IoT Edge to improve your solution.

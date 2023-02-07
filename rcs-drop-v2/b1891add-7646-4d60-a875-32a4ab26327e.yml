@@ -1,0 +1,120 @@
+### YamlMime:SelfAssessment
+description: Identify gaps in your organization's current state of governance. Get a personalized benchmark report and curated guidance on how to get started.
+duration: 30 minutes
+questionnaireReferences:
+  - questionnaireUid: 6f2fdd21-8894-4ffc-80ab-2722c836833f
+    isRequired: false
+  - questionnaireUid: 99319d86-7b33-4c78-94c5-a6dd767c5903
+    isRequired: true
+  - questionnaireUid: 0c0042a3-f975-4f9d-a95f-dd5f69bbc650
+    isRequired: false
+  - questionnaireUid: f0032d32-3643-4574-9035-804aca81d184
+    isRequired: true
+  - questionnaireUid: 061fad13-249c-4cc2-a6cd-7991a1554119
+    isRequired: false
+  - questionnaireUid: 455205d5-7f0e-48fb-921b-24552ef3bad5
+    isRequired: true
+  - questionnaireUid: d1b875b6-9d84-4b27-855f-41af67530a40
+    isRequired: false
+  - questionnaireUid: c542a746-fc17-4728-ab1b-1573c4df0a9f
+    isRequired: true
+  - questionnaireUid: fb6db940-e401-4394-80a4-3007aa24d6a4
+    isRequired: false
+  - questionnaireUid: 21e49bb4-01cd-4da2-81a7-b33adf5e195c
+    isRequired: true
+  - questionnaireUid: 18475f82-3867-43a1-be66-70cf19e166a3
+    isRequired: false
+  - questionnaireUid: f89b8594-6182-4112-a1d1-1418c6e32b54
+    isRequired: true
+guidance:
+  title: 30 minutes
+  description: Understanding your cloud adoption journey. Successful cloud adoption requires a clear understanding of your current state and what business objectives you want to achieve.
+  providers: []
+  scoring:
+    title: ''
+    description: ''
+    calculationType: Average
+    chart:
+      mode: gapanalysis
+      type: bar
+      title: This report will help you identify your cloud adoption needs based on the questions your assessment survey answers.
+      labels:
+        - Business priorities
+        - Current state
+      items:
+        - type: ''
+          label: Cost Management
+          items:
+            - 6f2fdd21-8894-4ffc-80ab-2722c836833f
+            - 99319d86-7b33-4c78-94c5-a6dd767c5903
+        - type: ''
+          label: 'Resource Consistency '
+          items:
+            - 0c0042a3-f975-4f9d-a95f-dd5f69bbc650
+            - f0032d32-3643-4574-9035-804aca81d184
+        - type: ''
+          label: Security Baseline
+          items:
+            - 061fad13-249c-4cc2-a6cd-7991a1554119
+            - 455205d5-7f0e-48fb-921b-24552ef3bad5
+        - type: ''
+          label: Identity Baseline
+          items:
+            - d1b875b6-9d84-4b27-855f-41af67530a40
+            - c542a746-fc17-4728-ab1b-1573c4df0a9f
+        - type: ''
+          label: Deployment Acceleration
+          items:
+            - fb6db940-e401-4394-80a4-3007aa24d6a4
+            - 21e49bb4-01cd-4da2-81a7-b33adf5e195c
+        - type: ''
+          label: Organization Readiness
+          items:
+            - 18475f82-3867-43a1-be66-70cf19e166a3
+            - f89b8594-6182-4112-a1d1-1418c6e32b54
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: Governance Assessment Business priorities
+        links:
+          - title: Current state
+            url: /azure/governance/blueprints/overview
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Build your governance MVP by using Azure Blueprints.
+      - iconUrl: ''
+        description: Azure Blueprints makes it possible for developers to rapidly build and deploy new environments that align to organizational policies to increase velocity.
+        links:
+          - title: Review Azure Blueprints
+            url: 'https://azuremarketplace.microsoft.com/marketplace/consulting-services?page=1&search=governance'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Use Azure Blueprints.
+  recommendationsTitle: ''
+owner:
+  firstName: Chan
+  lastName: Park
+  email: v-chanpark@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: b1891add-7646-4d60-a875-32a4ab26327e
+name: Find partners that can help you with your governance set up.

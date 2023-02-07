@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Monitoring the SQL MI is critical to most aspects of successful operations.
+    description: 'A lack of effective monitoring can affect performance, availability, security, and the client experience'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Utilize SQL insights as a comprehensive solution for monitoring any product in the Azure SQL family
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Create SQL MI workload baseline to evaluate update or code changes impact as well predict future hardware resources
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: monitoring-environment-data-sqlmi
+uid: 1b654d8f-389c-4e88-8dc4-9bdc71432ea5
+name: Is monitoring configured for your environment?

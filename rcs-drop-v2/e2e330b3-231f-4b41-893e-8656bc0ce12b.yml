@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no ability to ingest unstructured data.
+    description: Your organization has no ability to ingest unstructured data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has a need for more advanced data ingestion pattern to support unstructured data landing into raw zone.
+    description: Your organization has a need for more advanced data ingestion pattern to support unstructured data landing into raw zone.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has designed a data ingestion pattern that supports unstructured data ingestion. .
+    description: |
+      Your organization has designed a data ingestion pattern that supports unstructured data ingestion. 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has implemented a scalable approach to unstructured data ingestion that provides strong consistency for large amounts of data.
+    description: Your organization has implemented a scalable approach to unstructured data ingestion that provides strong consistency for large amounts of data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization is using flexible patterns that offers fast ingestion, consistency, scalability and schemeless approach.'
+    description: 'Your organization is using flexible patterns that offers fast ingestion, consistency, scalability and schemeless approach.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Do you have an ingestion pattern for pulling data from a wide variety of non-structured data sources, both on-premises and in the cloud?'
+isRequired: true
+uid: e2e330b3-231f-4b41-893e-8656bc0ce12b
+name: 'Do you have an ingestion pattern for pulling data from a wide variety of non-structured data sources, both on-premises and in the cloud?'

@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are setting up a Dynamics 365 Customer Voice survey for customers who have interacted with the customer service department. You want to include the case number in the form submission.
+
+  The case number is stored as a custom attribute in Dynamics 365 Customer Service, but occasionally the value of the case number attribute is blank.
+
+  You need to ensure a value for case number is always populated when surveys are submitted.
+
+  What should you do?
+questionnaireUid: e4e67e9f-b38c-4e5b-8cd0-ea3dec6ededb
+questions:
+  - uid: edf0bddd-c829-486a-b457-809c3bb28d22-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are setting up a Dynamics 365 Customer Voice survey for customers who have interacted with the customer service department.
+        isCorrect: false
+      - id: 1
+        text: You want to include the case number in the form submission.
+        isCorrect: true
+      - id: 2
+        text: 'The case number is stored as a custom attribute in Dynamics 365 Customer Service, but occasionally the value of the case number attribute is blank.'
+        isCorrect: false
+      - id: 3
+        text: You need to ensure a value for case number is always populated when surveys are submitted.
+        isCorrect: false
+uid: edf0bddd-c829-486a-b457-809c3bb28d22
+title: ''

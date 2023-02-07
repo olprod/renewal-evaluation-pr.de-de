@@ -1,0 +1,126 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Ensure there is sufficient troubleshooting knowledge and expertise within your organization to manage and support Azure solutions
+    url: /troubleshoot/azure/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.A
+      scoreOf: []
+    context: 'Knowing what is required to get an appropriate level of support from Microsoft when it is needed can significantly improve the customer''s support experience. For example: If you raise an Azure Portal case, do you know that a Fiddler trace and full-screen screenshots will be required? How do you troubleshoot and measure the performance of the VMs, before reaching out to support? Who are the people in the organization with access to the support contract?'
+    priority: 70
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+  - title: 'Have documented escalation paths if you need support for third-party solutions, Open-Source solutions, or with Azure Support teams'
+    url: /azure/azure-portal/supportability/how-to-create-azure-support-request
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.B
+      scoreOf: []
+    context: 'It is crucial to have a clear view of how third-party components within your solutions are supported, and by whom?.  Additionally, all teams that would need to be involved in a business-critical situation internally as well with clearly defined role accountable.'
+    priority: 70
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+  - title: Choose an appropriate support setup for your solution
+    url: 'https://azure.microsoft.com/en-us/support/options/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.C
+      scoreOf: []
+    context: 'To ensure Business SLAs to be met, it is essential to have appropriate support setup. Alternatively, if not critical, consider redefining your SLA working with business to ensure they are realistic.'
+    priority: 70
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+  - title: 'Have a clear process in place for escalating issues, including handover points to third parties and Microsoft'
+    url: /azure/architecture/framework/devops/principles
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.D
+      scoreOf: []
+    context: When incidents occur the correct stakeholders and engineers need to be engaged to prioritize and resolve issues. It is best to know all support escalations for the end-to-end solution with a clearly defined route to escalate.
+    priority: 50
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Incident Management
+  - title: 'Maintain a list of failures and documented mitigation plans or automated scripts, runbooks for typical top failures'
+    url: /azure/automation/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.E
+      scoreOf: []
+    context: 'It is recommended to record common failures and steps to mitigate, the time it takes to execute and time last performed, making information readily available. If possible, automating the steps will help minimize downtime.'
+    priority: 50
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+  - title: Use Application Insights within your application
+    url: /azure/azure-monitor/app/app-insights-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.F
+      scoreOf: []
+    context: 'Application Insights, a feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers and DevOps professionals. We would recommend you to use Application Insights, or an alternative APM service to monitor your live applications.'
+    priority: 50
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Information Gathering
+  - title: Use Azure Monitor to gain insight into the health of your Azure Infrastructure
+    url: /azure/azure-monitor/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.G
+      scoreOf: []
+    context: 'Azure Monitor maximizes the availability and performance of your applications and services by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments. It helps you understand how your applications are performing and proactively identifies issues affecting them and the resources they depend on.'
+    priority: 50
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+  - title: Consider monitoring Azure services and applications from Grafana using the Azure Monitor data source plugin
+    url: /azure/azure-monitor/platform/grafana-plugin
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.H
+      scoreOf: []
+    context: 'You can now monitor Azure services and applications from Grafana using the Azure Monitor data source plugin. The plugin gathers application performance data collected by Azure Monitor, including various logs and metrics. You can then display this data on your Grafana dashboard.'
+    priority: 30
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+  - title: 'Use Azure Monitor Alerts to automatically alert you, or execute an automated process, when a specific monitoring criteria is met'
+    url: /azure/azure-monitor/platform/alerts-log
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.I
+      scoreOf: []
+    context: 'Azure Monitor Alerts can be used to alert you, or execute an automated process, when a pre-configured monitoring criteria is met. For example: 1.) Metric alerts can tell you when any metric crosses a threshold value for some period - such as response times, exception counts, CPU usage, or page views. 2.) Log alerts can automatically run specified log queries at regular intervals. If the results of the log query match particular criteria, then an alert record is created. 3.) The result of Availability Tests can trigger alerts to notify teams when your site is not available.'
+    priority: 70
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Operational Strategy and Processes
+  - title: Review the range of platform (automatically collected) Metrics you can view from Azure Monitor
+    url: /azure/azure-monitor/platform/metrics-supported
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d284f656-a205-4940-83db-8096e1bea0cc.d0c7f9c9-c99d-466d-9811-6fb4b6b30df1.J
+      scoreOf: []
+    context: 'Azure Monitor provides several ways to interact with metrics, including charting them in the portal, accessing them through the REST API, or querying them using PowerShell or CLI.'
+    priority: 50
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Information Gathering
+uid: 48abf2ed-bbe9-4daa-b1f1-c24e7f9e5155
+name: ''

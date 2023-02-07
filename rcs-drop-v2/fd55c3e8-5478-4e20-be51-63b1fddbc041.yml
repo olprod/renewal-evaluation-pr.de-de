@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Design Microsoft Azure Infrastructure Solutions
+hideEmptyGuidance: false
+questions:
+  - 67b10409-d634-4b84-92a6-71d1b96bb574
+  - e3bb8627-1fd6-4abd-8fe8-35d9e86f4172
+recommendations:
+  - 15e00c25-1229-4542-9108-33eed895a410
+assignedGroupIds: []
+uid: fd55c3e8-5478-4e20-be51-63b1fddbc041
+name: Design Microsoft Azure Infrastructure Solutions

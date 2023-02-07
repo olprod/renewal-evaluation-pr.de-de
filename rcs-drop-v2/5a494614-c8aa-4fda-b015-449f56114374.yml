@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has ad-hoc process with competence reflecting individuals rather than proven and repeatable organization process.
+    description: Your organization has ad-hoc process with competence reflecting individuals rather than proven and repeatable organization process.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Repeatable. Your organization is able to repeat the processes but not enterprise wide, limited pockets of excellence.'
+    description: 'Your organization is able to repeat the processes but not enterprise wide, limited pockets of excellence.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has a set of processes that are consistent and maintained.
+    description: Your organization has a set of processes that are consistent and maintained.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has a set of significantly contributing set of processes that control the integrity, quality, access security, privacy, and retention of data across your organization.'
+    description: 'Your organization has a set of significantly contributing set of processes that control the integrity, quality, access security, privacy, and retention of data across your organization.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization''s rules to control the integrity, quality, access security, privacy, and retention of data across your organization is firmly established and continually revised to reflect changing business objectives.'
+    description: 'Your organization''s rules to control the integrity, quality, access security, privacy, and retention of data across your organization is firmly established and continually revised to reflect changing business objectives.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you have sufficient processes in place to set the foundation for data discovery and understanding the data landscape?
+isRequired: true
+uid: 5a494614-c8aa-4fda-b015-449f56114374
+name: Do you have sufficient processes in place to set the foundation for data discovery and understanding the data landscape?

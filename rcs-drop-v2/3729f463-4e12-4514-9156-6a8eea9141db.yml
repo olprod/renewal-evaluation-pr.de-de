@@ -1,0 +1,71 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-manage.png
+description: 'Delivering on a cloud strategy requires solid planning, readiness, and adoption. But it''s the ongoing operation of the digital assets that delivers tangible business outcomes.'
+links:
+  - title: Enhanced management baseline
+    url: /azure/cloud-adoption-framework/manage/azure-management-guide/enhanced-baseline?tabs=AzureAutomation%2CAzureSecurityCenter
+    condition:
+      anyOf:
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.fd4764e3-19c9-4915-b250-7bb375c0c148.A
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.11edf3ad-70b3-4fa3-af4e-194ab67b834c.A
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.8cc6b334-3f72-456c-b0ca-fdb11271a178.A
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.343565e5-9977-41af-aa64-f78b995452d2.A
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.7769f0fa-7cf9-4ac4-9063-b78bd753a449.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn about cloud management baseline
+    url: /azure/cloud-adoption-framework/manage/azure-management-guide/inventory?tabs=AzureServiceHealth%2CLog-Analytics%2CAzure-Monitor%2CConfigure-solutions
+    condition:
+      anyOf:
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.fd4764e3-19c9-4915-b250-7bb375c0c148.B
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.fd4764e3-19c9-4915-b250-7bb375c0c148.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Read why workloads need to be classified by criticality and business value
+    url: /azure/cloud-adoption-framework/manage/best-practices
+    condition:
+      anyOf:
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.11edf3ad-70b3-4fa3-af4e-194ab67b834c.B
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.11edf3ad-70b3-4fa3-af4e-194ab67b834c.C
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.8cc6b334-3f72-456c-b0ca-fdb11271a178.B
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.8cc6b334-3f72-456c-b0ca-fdb11271a178.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn about operational compliance
+    url: /azure/cloud-adoption-framework/manage/azure-management-guide/operational-compliance?tabs=UpdateManagement%2CAzurePolicy%2CAzureBlueprints
+    condition:
+      anyOf:
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.343565e5-9977-41af-aa64-f78b995452d2.B
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.343565e5-9977-41af-aa64-f78b995452d2.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn how to reduce the duration and impact of outages that can't be prevented.
+    url: /azure/cloud-adoption-framework/manage/azure-management-guide/protect-recover?tabs=AzureBackup%2Csiterecovery
+    condition:
+      anyOf:
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.7769f0fa-7cf9-4ac4-9063-b78bd753a449.B
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.7769f0fa-7cf9-4ac4-9063-b78bd753a449.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Look through the Cloud Monitoring Guide for recommended monitoring strategies for each of the cloud deployment models
+    url: /azure/cloud-adoption-framework/manage/monitor/cloud-models-monitor-overview
+    condition:
+      anyOf:
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.e3c7c47e-553a-45ab-bbfa-dd80a11d817a.B
+        - manage.69c8d367-4af2-47a2-97ee-2289a3287e9b.e3c7c47e-553a-45ab-bbfa-dd80a11d817a.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 3729f463-4e12-4514-9156-6a8eea9141db
+name: Manage

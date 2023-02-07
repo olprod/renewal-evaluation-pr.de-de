@@ -1,0 +1,72 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Recovery steps are defined and well understood for failover and failback
+    description: Are recovery steps defined for failover and failback?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: The failover and failback approach has been tested/validated at least once
+    description: Has the failover and failback approach been tested/validated at least once?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: The health model is being used to classify failover situations
+    description: Is the health model being used to classify failover situations?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Automated recovery procedures are in place for common failure events
+    description: Are automated recovery procedures in place for common failure event?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Automated recovery procedures are tested and validated on a regular basis
+    description: Are these automated recovery procedures tested and validated on a regular basis?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Critical manual processes are defined and documented for failure responses.
+    description: Are critical manual processes defined and documented for failure responses?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: Manual operational runbooks are tested and validated on a regular basis
+    description: Are these manual operational runbooks tested and validated on a regular basis?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'The steps required to recover or fail over the application to a secondary Azure region in failure situations should be codified, preferably in an automated manner, to ensure capabilities exist to effectively respond to an outage in a way that limits impact. Similar codified steps should also exist to capture the process required to failback the application to the primary region once a failover triggering issue has been addressed.'
+isRequired: false
+legacyId: recovery
+uid: 0a7ab161-b3dd-407e-81e2-6ab64a8b27cd
+name: 'The steps required to recover or fail over the application to a secondary Azure region in failure situations should be codified, preferably in an automated manner, to ensure capabilities exist to effectively respond to an outage in a way that limits impact.'

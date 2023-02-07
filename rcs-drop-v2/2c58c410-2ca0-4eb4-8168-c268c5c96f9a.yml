@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Understand default encryption settings and encrypt VM data disks (data at rest) at the level and granularity required by your organization.
+    description: 'Implement additional Azure disk encryption, server-side disk capabilities as required.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: Understand default encryption settings and encrypt Azure Blob storage and Azure file shares (data at rest) at the level and granularity required by your organization.
+    description: Monitor file access with Azure Monitor. Data at rest in Azure Blob storage and Azure file shares can be encrypted in both server-side and client-side scenarios.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: Enable Transparent Data Encryption (TDE) to keep SQL data and log files encrypted at rest.
+    description: The pages in an encrypted database are encrypted before they are written to disk and are decrypted when they're read into memory.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: D
+    text: Consider using the Always Encrypted feature in SQL when encryption key must not be revealed to the database engine or other highly privileged database operators.
+    description: 'By ensuring on-premises database administrators, cloud database operators, or other highly-privileged unauthorized users can''t access the encrypted data, Always Encrypted enables customers to confidently store sensitive data outside of their direct control. Understand performance impact of column-based encryption capabilities.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: Consider using the column-level encryption when more granular cell level encryption is required.
+    description: Understand performance impact of column-based encryption capabilities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Consider managing Always Encrypted keys with role separation if your goal is to ensure DBAs in your organization cannot access sensitive data.
+    description: Key management process with role separation ensures DBAs have no access to the keys or key stores holding the actual keys.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 2c58c410-2ca0-4eb4-8168-c268c5c96f9a
+name: How are you managing encryption for this workload?

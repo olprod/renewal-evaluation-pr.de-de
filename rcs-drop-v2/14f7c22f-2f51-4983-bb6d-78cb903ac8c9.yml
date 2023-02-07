@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Plan to use more than 2 Application Gateway instances for production purposes
+    url: /azure/application-gateway/high-traffic-support
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 92affdee-d0e5-4e07-8b71-67c229916f4c.ed885a93-df6e-4c4f-b702-1d4604f849b4.A
+      scoreOf: []
+    context: An instance count of 1 can be chosen for testing purposes. It is important to know that any instance count under two instances is not covered by the SLA and are therefore not recommended. Small gateways are to be used for dev test and not for production purposes.
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Use CNAME records for your custom domain
+    url: /azure/application-gateway/application-gateway-faq#does-the-ip-or-dns-name-change-over-the-lifetime-of-the-application-gateway
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 92affdee-d0e5-4e07-8b71-67c229916f4c.ed885a93-df6e-4c4f-b702-1d4604f849b4.B
+      scoreOf: []
+    context: 'To ensure that your custom domain name continues pointing to your application gateway, it is recommended that you use CNAME records. The use of A-records is not recommended since the VIP may change on restart of application gateway.'
+    priority: 50
+    reportingCategory: 'Upgrade, Migration and Deployment'
+    reportingSubCategory: Configuring for Deployment
+uid: 14f7c22f-2f51-4983-bb6d-78cb903ac8c9
+name: ''

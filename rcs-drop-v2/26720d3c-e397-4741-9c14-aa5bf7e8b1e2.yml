@@ -1,0 +1,534 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Define Application's RPO (Recovery Point Objective) and RTO (Recovery Time Objective) targets and validate that Azure SQL DB can achieve them
+    url: /azure/architecture/framework/resiliency/business-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.070de198-b5a6-4df7-84e3-d0da1687214b.A
+      scoreOf: []
+    context: 'Define your own target SLAs for each workload in your solution to determine whether the architecture meets the business requirements, aligning with Azure SQL database. Refer link - https://azure.microsoft.com/en-us/support/legal/sla/azure-sql-database/v1_7/.'
+    priority: 99
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Define and consider availability SLAs (Service Level Agreements) for the solution
+    url: /azure/architecture/framework/resiliency/business-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.070de198-b5a6-4df7-84e3-d0da1687214b.B
+      scoreOf: []
+    context: 'Define your own target SLAs for each workload in your solution to determine whether the architecture meets the business requirements, aligning with Azure SQL database. Refer link - https://azure.microsoft.com/en-us/support/legal/sla/azure-sql-database/v1_7/.'
+    priority: 95
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Define and consider composite SLA (including Azure SQL DB SLAs)  for the service
+    url: /azure/architecture/framework/resiliency/business-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.070de198-b5a6-4df7-84e3-d0da1687214b.C
+      scoreOf: []
+    context: 'Define your own target SLAs for each workload in your solution to determine whether the architecture meets the business requirements, aligning with Azure SQL database. Refer link - https://azure.microsoft.com/en-us/support/legal/sla/azure-sql-database/v1_7/.'
+    priority: 77
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: 'Perform reliability testing of the application in case of a database failover, such as retry logic'
+    url: /azure/azure-sql/database/troubleshoot-common-connectivity-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.6502a0d9-e6d3-4bce-8f80-fd2b19d3e423.A
+      scoreOf: []
+    context: 'A transient error, also known as a transient fault, has an underlying cause that soon resolves itself. Client programs that occasionally encounter a transient error are more robust when they contain retry logic. When your program communicates with your database in SQL Database through third-party middleware, ask the vendor whether the middleware contains retry logic for transient errors. A transient error occurs during a SQL Database and SQL Managed Instance query command.'
+    priority: 80
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Look into geo-restore or active geo-replication to ensure database recovery in case of a regional disaster or large scale outage
+    url: /azure/azure-sql/database/active-geo-replication-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.6502a0d9-e6d3-4bce-8f80-fd2b19d3e423.B
+      scoreOf: []
+    context: 'Active geo-replication is designed as a business continuity solution that lets you perform quick disaster recovery of individual databases in case of a regional disaster or a large scale outage. Once geo-replication is set up, you can initiate a geo-failover to a geo-secondary in a different Azure region. The geo-failover is initiated programmatically by the application or manually by the user.'
+    priority: 88
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Consider deploying the database across Availability Zones within a region
+    url: /azure/azure-sql/database/high-availability-sla?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.6502a0d9-e6d3-4bce-8f80-fd2b19d3e423.C
+      scoreOf: []
+    context: 'Zone-redundant configuration for the general purpose service tier is offered for both serverless and provisioned compute. This configuration utilizes Azure Availability Zones  to replicate databases across multiple physical locations within an Azure region. By default, the cluster of nodes for the premium availability model is created in the same datacenter. With the introduction of Azure Availability Zones, SQL Database can place different replicas of the Business Critical database to different availability zones in the same region.'
+    priority: 60
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Operational Excellence
+  - title: Perform Failure Mode Analysis (FMA) to identify fault points and fault modes
+    url: '/azure/architecture/resiliency/failure-mode-analysis#:~:text=Failure%20mode%20analysis%20%28FMA%29%20is%20a%20process%20for,is%20the%20general%20process%20to%20conduct%20an%20FMA%3A'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.6502a0d9-e6d3-4bce-8f80-fd2b19d3e423.D
+      scoreOf: []
+    context: 'Failure Mode Analysis (FMA) is a process to build resiliency into a system by identifying possible failure points in the system. The FMA should be part of the architecture and design phases, so that you can build failure recovery into the system from the beginning. It is recommended to follow the general process to conduct an FMA by identifying the components, risk factors, and failure mode, and document the entire process for this audit.'
+    priority: 84
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Build and consider a capability model (storage) for Azure SQL database with its current and future utilization
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql-blog/azure-sql-capacity-planning-overview-data-exposed/ba-p/1587259'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.73e3f2f4-0b11-4c5e-ae68-6c71addcfd0b.A
+      scoreOf: []
+    context: 'Refer to the below link for Azure SQL capacity planning  - https://docs.microsoft.com/en-us/shows/data-exposed/azure-sql-capacity-planning-overview.'
+    priority: 55
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Consider sufficient compute capacity
+    url: /azure/azure-sql/database/single-database-scale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.73e3f2f4-0b11-4c5e-ae68-6c71addcfd0b.B
+      scoreOf: []
+    context: 'Refer to the below link for Azure SQL capacity planning  - https://docs.microsoft.com/en-us/shows/data-exposed/azure-sql-capacity-planning-overview'
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Confirm Azure SQL DB service and required hardware availability in required regions
+    url: /azure/azure-sql/database/service-tiers-vcore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.73e3f2f4-0b11-4c5e-ae68-6c71addcfd0b.C
+      scoreOf: []
+    context: 'A virtual core (vCore) represents a logical CPU and offers options to choose the physical characteristics of the hardware (for example, the number of cores, the memory, and the storage size). The vCore-based purchasing model provides flexibility, control, transparency of individual resource consumption, and a straightforward way to translate on-premises workload requirements to the cloud. This model optimizes price, and allows to choose compute, memory, and storage resources based on your workload needs.'
+    priority: 52
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Confirm Availability Zones in required regions
+    url: /azure/availability-zones/az-region
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.73e3f2f4-0b11-4c5e-ae68-6c71addcfd0b.D
+      scoreOf: []
+    context: 'Three types of Azure services support availability zones: zonal, zone-redundant, and always-available services. You can combine the three architecture approaches when designing your resiliency strategy.'
+    priority: 52
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Define a backup strategy that aligns with recovery targets
+    url: /azure/azure-sql/managed-instance/point-in-time-restore?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.91390fe4-8b77-4e49-8b23-ff979ee1a313.A
+      scoreOf: []
+    context: 'In Azure SQL, restoring a database is easy. A complex backup strategy is not required as Azure SQL creates backups automatically for you (backups are created automatically after few minutes of the database creation) To know how to restore the data after deleting a table and restore the database after deleting the database, refer link - https://www.sqlservercentral.com/articles/backup-strategy-in-azure-sql.'
+    priority: 58
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Define a disaster recovery strategy to capture recovery steps for geo-failover and failback.
+    url: /azure/azure-sql/database/disaster-recovery-guidance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.91390fe4-8b77-4e49-8b23-ff979ee1a313.B
+      scoreOf: []
+    context: 'For success with recovery to another data region using either failover groups or geo-redundant backups, prepare a server in another data center outage to become the new primary server (should the need arise) as well as have well-defined steps documented and tested to ensure a smooth recovery. Refer the link - https://docs.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-guidance.'
+    priority: 70
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Test and validate the geo-failover or geo-restore and failback approach at least once
+    url: /azure/azure-sql/database/disaster-recovery-guidance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.91390fe4-8b77-4e49-8b23-ff979ee1a313.C
+      scoreOf: []
+    context: 'Refer to the below link- https://docs.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-configure-portal?tabs=portal'
+    priority: 64
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Deploy Azure SQL databases across Availability Zones
+    url: /azure/azure-sql/database/high-availability-sla
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.5479f76e-7b9d-4e68-a535-de52a32c14d2.A
+      scoreOf: []
+    context: 'Zone-redundant configuration for the general purpose service tier is offered for both serverless and provisioned compute. This configuration utilizes Azure Availability Zones  to replicate databases across multiple physical locations within an Azure region. By default, the cluster of nodes for the premium availability model is created in the same datacenter. With the introduction of Azure Availability Zones, SQL Database can place different replicas of the Business Critical database to different availability zones in the same region.'
+    priority: 55
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Implement and configure Azure SQL Database
+    url: /learn/modules/azure-sql-high-availability/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.5479f76e-7b9d-4e68-a535-de52a32c14d2.B
+      scoreOf: []
+    context: 'Refer to the link --  https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal for create and implement Azure SQL DB.'
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Ensure Azure SQL Database and application platform services are running in a highly available configuration/SKUs
+    url: /azure/azure-sql/database/high-availability-sla?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.5479f76e-7b9d-4e68-a535-de52a32c14d2.C
+      scoreOf: []
+    context: 'There are two high availability architectural models: 1) Standard availability model based on a separation of compute and storage. It relies on high availability and reliability of the remote storage tier. This architecture targets budget-oriented business applications that can tolerate some performance degradation during maintenance activities. 2) Premium availability model based on a cluster of database engine processes. It relies on the fact that there is always a quorum of available database engine nodes. This architecture targets mission-critical applications with high IO performance, high transaction rate, and guarantees minimal performance impact to your workload during maintenance activities.'
+    priority: 70
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Deploy Azure SQL DB and application platform components across Availability Zones or Availability Sets
+    url: /azure/azure-sql/database/high-availability-sla?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.5479f76e-7b9d-4e68-a535-de52a32c14d2.D
+      scoreOf: []
+    context: 'Zone-redundant configuration for the general purpose service tier is offered for both serverless and provisioned compute. This configuration utilizes Azure Availability Zones  to replicate databases across multiple physical locations within an Azure region. By default, the cluster of nodes for the premium availability model is created in the same datacenter. With the introduction of Azure Availability Zones, SQL Database can place different replicas of the Business Critical database to different availability zones in the same region.'
+    priority: 69
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Deploy Azure SQL DB and application platform components across regions for disaster recovery scenarios
+    url: /azure/azure-sql/database/active-geo-replication-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.5479f76e-7b9d-4e68-a535-de52a32c14d2.E
+      scoreOf: []
+    context: 'Active geo-replication is designed as a business continuity solution that lets you perform quick disaster recovery of individual databases in case of a regional disaster or a large scale outage. Once geo-replication is set up, you can initiate a geo-failover to a geo-secondary in a different Azure region. The geo-failover is initiated programmatically by the application or manually by the user.'
+    priority: 60
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Implement and configure load balancing to distribute traffic across multiple nodes (distributed architecture) to redirect clients and client applications to the DR database server
+    url: /azure/azure-sql/database/auto-failover-group-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.5479f76e-7b9d-4e68-a535-de52a32c14d2.F
+      scoreOf: []
+    context: 'Azure provides various load balancing services that you can use to distribute your workloads across multiple computing resources - Application Gateway, Front Door, Load Balancer, and Traffic Manager (Refer link  - https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview).'
+    priority: 60
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Automate processes to scale up Azure SQL DB components
+    url: /azure/azure-sql/database/scripts/monitor-and-scale-database-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.5479f76e-7b9d-4e68-a535-de52a32c14d2.G
+      scoreOf: []
+    context: 'Refer to this link - https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-auto-scale-azure-sql-databases/ba-p/2235441.'
+    priority: 55
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Ensure application monitoring is in place to monitor and alert on database-level errors
+    url: /azure/azure-sql/database/alerts-insights-configure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.1a3126cb-6c9c-495c-b5a6-7bc82a2d412f.A
+      scoreOf: []
+    context: Create/receive an alert based on monitoring metrics or events on your Azure services. Using metric values triggers when the condition is first met and again when that condition is no longer being met. Activity log events is an alert that can trigger on every event or only when a certain number of events occur. Send email notifications to the service administrator and co-administrators. Send email to additional emails that you specify and call a webhook.
+    priority: 51
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: Implement retry logic to handle transient failures with appropriate back-off strategies to avoid cascading failures
+    url: /azure/azure-sql/database/develop-overview#resiliency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.1a3126cb-6c9c-495c-b5a6-7bc82a2d412f.B
+      scoreOf: []
+    context: 'Azure SQL Database is resilient on the transitive infrastructure failures, these failures might affect your connectivity. When a transient error occurs while connecting to SQL Database, your code should retry the call. We recommend to retry logic using backoff logic, so that it does not overwhelm the service with multiple clients retrying simultaneously. Retry logic depends on the error messages for SQL Database client programs.'
+    priority: 64
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Define metrics and monitoring thresholds
+    url: /azure/azure-sql/database/monitor-tune-overview#azure-sql-database-and-azure-sql-managed-instance-resource-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.1a3126cb-6c9c-495c-b5a6-7bc82a2d412f.C
+      scoreOf: []
+    context: 'https://docs.microsoft.com/en-us/azure/azure-sql/database/monitor-tune-overview?view=azuresql#azure-sql-database-and-azure-sql-managed-instance-resource-monitoring - Monitoring and performance tuning in Azure SQL Database and Azure SQL Managed Instance.'
+    priority: 55
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: Use elastic pools if the workload permits it to save costs and share resources
+    url: /azure/azure-sql/database/elastic-pool-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.dc76e542-66e6-4083-b554-c1cc11df8632.A
+      scoreOf: []
+    context: 'With an elastic pool, you determine the amount of resources that the elastic pool requires to handle the workload of its databases, and the amount of resources for each pooled database.'
+    priority: 54
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Set up databases as zone redundant if the impact on transaction latency permits
+    url: /azure/azure-sql/database/high-availability-sla?tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.dc76e542-66e6-4083-b554-c1cc11df8632.B
+      scoreOf: []
+    context: 'Refer to the link - https://docs.microsoft.com/en-us/shows/data-exposed/azure-sql-zone-redundant-configuration-for-high-availability'
+    priority: 52
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Define operational procedures in case data sizes approach limits
+    url: /azure/azure-sql/database/file-space-manage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.dc76e542-66e6-4083-b554-c1cc11df8632.C
+      scoreOf: []
+    context: There are workload patterns where the allocation of underlying data files for databases can become larger than the amount of used data pages. This condition can occur when the space used increases and data is subsequently deleted. This happens because the file space allocated is not automatically reclaimed when data is deleted. Allow data growth in an elastic pool when the file space allocated for its databases reaches the pool's  maximum size. Allow decreasing the maximum size of a single database or elastic pool. Allow changing a single database or elastic pool to a different service tier or performance tier with a lower maximum size.
+    priority: 51
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Consider restricting access to Azure SQL DB only through private or service endpoints
+    url: /azure/private-link/private-endpoint-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.7df3f138-e1a1-4fe5-9e41-ea276e8d444c.A
+      scoreOf: []
+    context: 'Just like private endpoints, service endpoints work at an Azure SQL Database logical server level instead of the individual database level. If a private endpoint is set on the server and you deny public access, service endpoints will fail (active connections won’t close, but new ones will be blocked).'
+    priority: 80
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Access
+  - title: Back up keys and secrets to geo-redundant storage
+    url: /azure/azure-sql/database/transparent-data-encryption-byok-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.7df3f138-e1a1-4fe5-9e41-ea276e8d444c.B
+      scoreOf: []
+    context: 'Provides steps to back up secrets, keys, and certificates stored in your key vault. A backup is intended to provide an offline copy of all your secrets in the unlikely event that you loose access to your key vault.'
+    priority: 60
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Operational Excellence
+  - title: Automate and test key rotation
+    url: /azure/azure-sql/database/transparent-data-encryption-byok-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.7df3f138-e1a1-4fe5-9e41-ea276e8d444c.C
+      scoreOf: []
+    context: 'Refer to the link - https://docs.microsoft.com/en-us/azure/key-vault/keys/how-to-configure-key-rotation'
+    priority: 51
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Excellence
+  - title: 'Restrict user permissions by implementing access control policies using RLS, roles with least permissions'
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.7df3f138-e1a1-4fe5-9e41-ea276e8d444c.E
+      scoreOf: []
+    context: 'RLS allows you to provide access to other applications and users, only to a certain portion of a table. For example, you might want to: Grant access only to rows that meet some criteria, Anonymize data in some of the columns, All of the above (Refer to Link - https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/rowlevelsecuritypolicy).'
+    priority: 51
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Access
+  - title: Configure active geo-replication or failover groups for Azure SQL DB if the disaster recovery requirements demand it
+    url: /azure/azure-sql/database/auto-failover-group-sql-db?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.67ee6bea-8801-4131-8bd1-c8de9993eb91.A
+      scoreOf: []
+    context: 'This article shows you how to configure active geo-replication for Azure SQL Database using the Azure portal or Azure CLI and to initiate failover - https://docs.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-configure-portal?view=azuresql&tabs=portal.'
+    priority: 60
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Availability
+  - title: Use temporal tables to restore row versions from any point in time on a per-table basis
+    url: /azure/azure-sql/temporal-tables
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.67ee6bea-8801-4131-8bd1-c8de9993eb91.B
+      scoreOf: []
+    context: 'When we create a temporal table, we must declare one period for SYSTEM_TIME with two columns declared as GENERATED ALWAYS AS ROW START OR GENERATED ALWAYS AS ROW END. Both should have a datetime2 datatype. A history table must be declared, which should be schema-aligned with the current temporal table. They should have the same number of columns, column datatypes and column names. If we do not create a history table, then it will be created automatically in the current schema. When we execute any DML statement on a temporal table, the below operations will be performed to maintain the data changes: The timestamp of the DML statement will be stored in period columns, If any Update or Delete statement is executed on a temporal table, the old values will be stored in the history table.'
+    priority: 50
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Use source control such as Git when collaborating on projects
+    url: /azure/architecture/solution-ideas/articles/dev-test-paas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.67ee6bea-8801-4131-8bd1-c8de9993eb91.C
+      scoreOf: []
+    context: 'A source control system, also called a version control system, allows developers to collaborate on code and track changes. Source control is an essential tool for multi-developer projects (Refer link - https://docs.microsoft.com/en-us/azure/devops/user-guide/source-control?view=azure-devops#:~:text=A%20source%20control%20system%2C%20also%20called%20a%20version,Git%20%28distributed%29%20and%20Team%20Foundation%20Version%20Control%20%28TFVC%29).'
+    priority: 52
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Deployments
+  - title: Use DEV/TEST environments with robust testing to validate changes before implementing them into your production environment
+    url: /azure/architecture/solution-ideas/articles/dev-test-paas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.67ee6bea-8801-4131-8bd1-c8de9993eb91.E
+      scoreOf: []
+    context: 'Refer to the link - https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=yaml'
+    priority: 45
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Deployments
+  - title: Perform chaos testing by injecting faults to test failover (High Availability)
+    url: /azure/azure-sql/database/high-availability-sla?tabs=azure-powershell#testing-application-fault-resiliency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.a10e9cf6-a2ad-40b7-ba6e-3e86b5ab2c4a.B
+      scoreOf: []
+    context: 'Azure SQL Database and Azure SQL Managed Instance feature a built-in high availability solution that is deeply integrated with the Azure platform. It is dependent on Service Fabric for failure detection and recovery, on Azure Blob storage for data protection, and on Availability Zones for higher fault tolerance (not applicable to Azure SQL Managed Instance yet). In addition, SQL Database and SQL Managed Instance use the Always On availability group technology from the SQL Server instance for replication and failover. The combination of these technologies enables applications to fully realize the benefits of a mixed storage model and support the most demanding SLAs.'
+    priority: 64
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Availability
+  - title: Use built-in Azure Monitor tools to validate the Azure SQL DB health
+    url: /azure/azure-sql/database/monitor-tune-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.614bf633-cce4-492e-bd5a-ceabed61c063.A
+      scoreOf: []
+    context: Azure SQL Database can be monitored by Azure Monitor. View your Azure Monitor metrics for all connected resources at Azure Monitor page directly in the Azure Portal or on the Overview page of an Azure SQL DB; click Metrics under the Monitoring heading to reach Azure Monitor.
+    priority: 57
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: Use Azure Resource Health events to alert on resource health events
+    url: /azure/azure-sql/database/resource-health-to-troubleshoot-connectivity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.614bf633-cce4-492e-bd5a-ceabed61c063.B
+      scoreOf: []
+    context: Azure Resource Health helps diagnose and get support for service problems that affect your Azure resources. It reports on the current and past health of your resources.
+    priority: 57
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: 'Define a health model based on performance, availability, and recovery targets, which is represented through monitoring dashboard and alerts'
+    url: /azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.614bf633-cce4-492e-bd5a-ceabed61c063.C
+      scoreOf: []
+    context: 'https://docs.microsoft.com/en-us/azure/azure-sql/database/monitor-tune-overview?view=azuresql'
+    priority: 58
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: Use Azure Service Health events to alert on applicable Service-level events
+    url: /azure/azure-sql/database/alerts-insights-configure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.614bf633-cce4-492e-bd5a-ceabed61c063.D
+      scoreOf: []
+    context: 'Azure Service Health is a combination of three smaller services: Azure status informs you of service outages in Azure on the Azure Status page, Service health provides a personalized view of the health of the Azure services and regions you are using, Resource health provides information about the health of your individual cloud resources such as a specific virtual machine instance. Using Azure Monitor, you can also configure alerts to notify you of availability changes to your cloud resources. Resource Health along with Azure Monitor notifications will help you stay better informed about the availability of your resources minute by minute and quickly assess whether an issue is due to a problem on your side or related to an Azure platform event.'
+    priority: 52
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: Monitor for failures or processes taking longer than expected
+    url: /azure/azure-sql/identify-query-performance-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.614bf633-cce4-492e-bd5a-ceabed61c063.A
+      scoreOf: []
+    context: /azure/azure-sql/database/monitor-tune-overview?view=azuresql
+    priority: 61
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: 'Monitoring '
+  - title: Test and secure emergency access or 'break glass' accounts for recovering from Identity provider failure scenarios
+    url: 'https://danielchronlund.com/2019/04/08/break-glass-account-best-practices-in-azure-ad/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.7df3f138-e1a1-4fe5-9e41-ea276e8d444c.D
+      scoreOf: []
+    context: "A break glass procedure refers to\_a quick method for a user to gain access when needed (usually during an emergency) to a managed system who would ordinarily not have access."
+    priority: 75
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Access
+  - title: Use just in time access (JIT) to restrict the use of elevated rights
+    url: /azure/defender-for-cloud/just-in-time-access-usage?tabs=jit-config-asc%2Cjit-request-asc
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.67ee6bea-8801-4131-8bd1-c8de9993eb91.D
+      scoreOf: []
+    context: 'Enable JIT on your VMs - You can enable JIT with your own custom options for one or more VMs using Defender for Cloud, PowerShell, or the REST API. Alternatively, you can enable JIT with default, hard-coded parameters, from Azure virtual machines. When enabled, JIT locks down inbound traffic to your Azure and AWS VMs by creating a rule in your network security group.'
+    priority: 64
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Access
+  - title: Automate performance and chaos testing and carry out periodically
+    url: /azure/azure-sql/database/monitor-tune-overview?view=azuresql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 99b906ce-859e-4e82-9e40-6af1fbb0215b.a10e9cf6-a2ad-40b7-ba6e-3e86b5ab2c4a.C
+      scoreOf: []
+    context: Periodically monitor the performance of a database in Azure SQL Database  by monitoring the CPU and IO resources used by your workload relative to the level of database performance you chose in selecting a particular service tier and performance levels and take pro-active remediations.
+    priority: 64
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Performance
+uid: 26720d3c-e397-4741-9c14-aa5bf7e8b1e2
+name: ''

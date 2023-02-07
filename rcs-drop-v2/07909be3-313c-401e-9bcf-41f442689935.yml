@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We do not intend to hire a partner - we will manage the project ourselves
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'No partner selected yet, but we are actively searching for a suitable and experienced implementation partner'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We have selected an implementation partner, but we have not yet finalized the ways of working and the roles and responsibilities'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'Our implementation partner is working with us to define the project charter including project approach with clear roles and responsibilities '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Have you selected an implementation partner?
+isRequired: true
+uid: 07909be3-313c-401e-9bcf-41f442689935
+name: Have you selected an implementation partner?

@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Setup monitoring using the SQL Insights.
+    description: 'SQL insights is a comprehensive solution for monitoring any product in the Azure SQL family, SQL insights uses dynamic management views to expose the data you need to monitor health, diagnose problems, and tune performance'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Setup monitoring using Virtual Machine insights only.
+    description: 'VM insights monitors the performance and health of your virtual machines and virtual machine scale sets, including their running processes and dependencies on other resources'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Setup monitoring using third party SQL-Specific monitoring tool
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: 'Setup Azure Monitor Alerts for the important metrics '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Created Azure Monitor Alerts for the activity logs related to the server
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Enabled Query Store for SQL Databases.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: monitor-data-sqlvm
+uid: 3ab1b610-801c-4726-a93b-681c38efac32
+name: How do you monitor and measure application health?

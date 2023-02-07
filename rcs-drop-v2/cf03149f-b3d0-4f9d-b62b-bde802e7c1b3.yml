@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Evaluate the four traffic routing configurations
+    url: /azure/frontdoor/front-door-routing-methods
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 00d0e2dd-cfb8-4b86-8df6-2ee9d37cea9c.6dd460ec-d259-4d01-b1df-5c0c3a7840d4.A
+      scoreOf: []
+    context: Azure Front Door Service supports various traffic-routing methods to determine how to route your HTTP/HTTPS traffic to the various service endpoints.
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: Create HTTP/HTTPS health probes for your Azure Front Door Service
+    url: /azure/frontdoor/front-door-health-probes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 00d0e2dd-cfb8-4b86-8df6-2ee9d37cea9c.6dd460ec-d259-4d01-b1df-5c0c3a7840d4.B
+      scoreOf: []
+    context: 'In order to determine the health of each backend, each Front Door environment periodically sends a synthetic HTTP/HTTPS request to each of your configured backends. Front Door then uses responses from these probes to determine the ''best'' backends to which it should route real client requests.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+uid: cf03149f-b3d0-4f9d-b62b-bde802e7c1b3
+name: ''

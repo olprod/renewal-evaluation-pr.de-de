@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We turn off unused virtual machines outside of business hours.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: 'We''ve enabled and integrated auto-scaling with Azure Monitor and utilize B-series burstable virtual machine sizes for machines that are idle most of the time and have high usage only in certain periods. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: We've considered the application platform and ensured that it meets the scalability needs of the solution.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: We've evaluated and identified Ampere Altra Arm-based processors for virtual machines as a power-efficient option to reduce energy waste without compromise on the required performance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: We continuously assess our subscriptions to identify and delete unutilized and orphaned resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 139bb3c9-efeb-4f14-8ecc-4d1dc8af22f5
+name: How do you ensure your workload isn't oversized and make the best use of allocated resources to avoid energy waste and added carbon emissions?

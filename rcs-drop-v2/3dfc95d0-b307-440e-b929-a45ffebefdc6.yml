@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We manage all our IaC scripts centrally in one repository
+    description: Having your code in a source control system means you can place processes that can be used to track changes giving greater visibility.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: 'Each application has a separate source control branch, folder, or repository that hosts all the IaC that builds the infrastructure elements during deployment'
+    description: Practicing disposable systems and placing emphasis on reproducing your infrastructure during your build activities ensure a consisted configuration and resistance to configuration drift.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 80
+  - id: '2'
+    text: Scripts are in a repository with limited access.  Business processes trigger teams to execute these scripts when necessary.
+    description: Using IT workflows your team triggers another team to create the infrastructure using automation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '3'
+    text: 'Scripts are maintained by the feature team, or development team, and reviewed prior to execution by operations'
+    description: 'Deployment is automated through scripts, but there is a manual review and execution process'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '4'
+    text: Scripts are created on the fly and stored in a central file repository.  They are used when the demand to create the infrastructure arises.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '5'
+    text: 'Scripts are stored in a shared location, such as a file share'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: Configuration files for IaC are often written in reusable code and saved in source control.  IT operations and application development teams can access them and deploy from them.
+isRequired: true
+uid: 3dfc95d0-b307-440e-b929-a45ffebefdc6
+name: Configuration files for IaC are often written in reusable code and saved in source control.

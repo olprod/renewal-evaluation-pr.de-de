@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Transfer on-premises SQL Server licenses where possible using Azure Hybrid Use Benefit.
+    description: Look into licensing reclassification documentation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Use Dev/Test Licensing to run non-production workload
+    description: Development/Test environment can be run at lower cost.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: Identify opportunities to reduce overall cost.
+    description: 'Azure Advisor enables you to act on cost management recommendations from within the Azure Portal, such as reserved capacity for Azure SQL Managed Instance. Make sure that all stakeholders are in agreement regarding the implementation and timing of this change.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: Consider backup costs in the overall backup strategy.
+    description: Analyze Point In Time Restore and Long Term backup costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: E
+    text: Use cost management tools to plan and track costs.
+    description: Cost management is the process of effectively planning and controlling costs involved in your business.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Tag resources and track that back to costs.
+    description: Use resource tags so that a custom cost report can be created.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: 'Collect and visualize key performance metrics to determine right resource level usage (vCore, memory, IOPS, etc).'
+    description: 'Verify if your database requires a specific number of cores, memory, IOPS, and use it to determine right service tier (General Purpose or Business Critical).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: 'Reduce resource utilization by performance optimization, for example using Query Store and correct indexing strategy.'
+    description: Performance recommendations is a good starting point to understand tuning opportunities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: e9c98711-54d5-479c-b7ef-44db4b65f6ff
+name: What actions are you taking to optimize cloud costs?

@@ -1,0 +1,37 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company has a Microsoft 365 infrastructure.
+
+  You need to ensure that containers stored in the following locations can be retained:
+
+  - Microsoft SharePoint sites
+
+  - Microsoft OneDrive accounts
+
+  - Microsoft Teams channel messages
+
+  - Microsoft Teams chats
+
+  What is the minimum number of retention policies that you should create?
+questionnaireUid: af0c1925-48e3-4e64-8e4b-68b413dc168e
+questions:
+  - uid: ffd504af-3373-40f9-be9a-ecc31b854bcf-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company has a Microsoft 365 infrastructure.
+        isCorrect: false
+      - id: 1
+        text: 'You need to ensure that containers stored in the following locations can be retained:'
+        isCorrect: true
+      - id: 2
+        text: Microsoft SharePoint sites
+        isCorrect: false
+      - id: 3
+        text: Microsoft OneDrive accounts
+        isCorrect: false
+    manualId: MS-700.3.2
+uid: ffd504af-3373-40f9-be9a-ecc31b854bcf
+title: ''

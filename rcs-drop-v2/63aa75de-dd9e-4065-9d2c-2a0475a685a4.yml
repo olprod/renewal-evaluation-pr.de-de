@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We don't see any value in creating a transformation roadmap.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We will let the business subject matter experts document their requirements which will dictate the roadmap.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We have a roadmap in mind, but we have not yet fully documented it or planned the communication with the organization to drive alignment.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'Our transformation roadmap will include an effective MVP scope that goes beyond the bare minimum to accelerate value realization, structured phases to maximize time to value with a defined expansion model, and the intention to adopt the latest capabilities to deliver continuous innovation to the business.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Develop and communicate your transformation roadmap early in your implementation planning stage to ensure organizational alignment and focus.
+
+  Which of the following statements best describes your organization's intention to include transformation roadmap planning in your project?
+isRequired: true
+uid: 63aa75de-dd9e-4065-9d2c-2a0475a685a4
+name: Develop and communicate your transformation roadmap early in your implementation planning stage to ensure organizational alignment and focus.

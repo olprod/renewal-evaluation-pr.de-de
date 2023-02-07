@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We make use of query metrics to optimize our queries against Azure Cosmos DB.
+    description: It's a good practice to analyze your query metrics so you don't spend high RUs on un-optimized queries.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: We make use of index metrics to analyze and optimize our indexes for Azure Cosmos DB.
+    description: It is a good practice to analyze your index metrics to make sure you're utilizing our indexes and to update them if you are not.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: We have implemented best practices in using our chosen SDK.
+    description: 'Depending on your application implementation, always consider the best practices which are updated with new changes and updates when writing your code.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: D
+    text: We leverage Azure Cosmos DB integrated cache from the client side to boost our frequent queries.
+    description: 'Depending on your Azure Cosmos DB setup, you can leverage the integrated cache to speed up frequent queries.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: 'We monitor the change feed progress using the change feed estimator, and we leverage the output to scale out our feed processor layer.'
+    description: 'Monitor your change feed to make sure you are not lagging, and if so make changes to adjust the behavior.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: F
+    text: We follow best practices when using the Azure Cosmos DB SDK with multi-region read/writes.
+    description: Make sure to follow the best practices for the SDK when using multi-region read/writes to ensure stability in your application.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: f5f161a7-c8ce-4e3c-804f-4cf8afb68690
+name: How do you monitor the performance of your workload (client side)?

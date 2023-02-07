@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - dc7cf621-4616-45b0-89d7-e756abd77f68
+recommendations:
+  - c2897836-fc4a-4068-bb5c-16c1da60fa9e
+assignedGroupIds: []
+uid: ca525e39-8d65-42b9-a95b-74a69363f57a
+name: 'Go-Live - Container Registry: Operational Excellence'

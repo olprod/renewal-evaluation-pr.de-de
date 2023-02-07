@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics Transparent Data Encryption feature.
+    description: Helps protect Azure Synapse Analytics against the threat of malicious offline activity by encrypting data at rest.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Use Azure Synapse Analytics Transparent Data Encryption with customer-managed key.
+    description: 'Enables Bring Your Own Key (BYOK) scenario for data protection at rest, and allows organizations to implement separation of duties in the management of keys and data. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Enable TLS for encryption of data in-transit.
+    description: This ensures all data is encrypted 'in transit' between the client and server irrespective of the setting of Encrypt or TrustServerCertificate in the connection string.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: encryption-data-synapse
+uid: 0377244a-a495-468c-8d1d-8ce36f47fe58
+name: How are you managing encryption for this workload?

@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: "Keep in mind the principle of least privilege when assigning\_permissions\_to an\_Azure AD\_security principal via Azure RBAC."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: "Define Azure Active Directory Groups and apply\_RBAC (Role-Based Access Controls)\_role assignments on your storage accounts to manage 'coarse-grain' access to your data."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: "Define Azure Active Directory Groups and apply\_Default ACL(Access Control List)\_and\_Access ACL\_entries on the folders and files in your storage accounts to manage 'fine-grain' access to your data."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: "Prefer\_system-assigned Managed Identity\_(instead of a Service Principal or an access key) for automated processes that require access to your data."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: Conduct periodic and automated access reviews of the workload to make sure only authorized people have access.
+    description: Consider monitoring Azure AD group membership changes using Azure AD audit activity reports.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Define your access rules and access control mechanisms at the company level and not only at the project level to ensure the best consistency.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: G
+    text: Align your access strategy with your data partitioning scheme.
+    description: ACL and data partition design must align to ensure effective data access control.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: "Leverage\_Credential Passthrough\_when possible (Databricks, Synapse, HDI, PBI, Azure ML (preview))."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: I
+    text: Prevent authorization with Shared Access Keys.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 8b8e8eed-2518-411d-a6cb-34aad664e8d1
+name: How are you managing identity and authorization for this workload?

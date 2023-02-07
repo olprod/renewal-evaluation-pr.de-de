@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Built a capability model (storage) for Azure SQL database with its current and future utilization and considered while architecting the solution.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Scale up /scale down capabilities of Azure sql db considered based upon business usage pattern.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Confirmed Azure SQL DB service and required hardware availability in required regions.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: "If required by the design, Availability Zones availability been confirmed\_ in required regions."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'When using preview features, has the availability of the feature been confirmed in DR region.'
+    description: Please note preview features do not come with SLAs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: capacity-data-sqldb
+uid: a9a7141b-7462-4d7d-a043-391d6bb700f9
+name: How have you ensured required capacity and services are available in targeted regions?

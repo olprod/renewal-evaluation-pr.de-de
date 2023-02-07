@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Partition large data using partitioned tables, partitioned indexes, or partitioned views and use filtered indexes in order to ensure acceptable performance and contain resource requirements as data continues to grow.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Implement columnstore indexes to compress and efficiently query larger analytics tables - use non-clustered columnstore indexes for HTAP tables.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Model tables to optimize for workload read/write access patterns and denormalized data when the number of queries must be reduced (such as with analytical/data warehouse patterns).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: scaling-data-sqlvm
+uid: 9b0c7098-b553-4768-8aa3-9f09a50fa3ba
+name: How are you managing your data to handle scale?

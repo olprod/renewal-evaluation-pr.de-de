@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We are not connected with a migration partner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We have a partner engaged, but are still defining roles and responsibilities for the project'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '2'
+    text: We have a trusted partner and already have a contract or statement of work (SOW) signed
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 8820ba4b-9104-487d-b940-b7a4db2be56c
+name: Do you have a plan for how a migration partner will support during and after the project?

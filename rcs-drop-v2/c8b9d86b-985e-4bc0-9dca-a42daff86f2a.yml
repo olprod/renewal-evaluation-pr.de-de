@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization develops code on an-ad hoc basis with no visual experience.
+    description: |
+      Your organization develops code on an-ad hoc basis with no visual experience.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is moving away from manual coding and focuses on creating a unique authoring canvas experience.
+    description: Your organization is moving away from manual coding and focuses on creating a unique authoring canvas experience.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization leverages low-code/no-code dev approach enabling self-guided envelopment.
+    description: Your organization leverages low-code/no-code dev approach enabling self-guided envelopment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization had developed practices to support data engineers to develop data transformation logic without writing code.
+    description: Your organization had developed practices to support data engineers to develop data transformation logic without writing code.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has fully embraced data flows to allow data engineers to develop data transformation logic without writing code. '
+    description: Your organization has fully embraced data flows to allow data engineers to develop data transformation logic without writing code.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you have a visual way to design your data transformations?
+isRequired: true
+uid: c8b9d86b-985e-4bc0-9dca-a42daff86f2a
+name: Do you have a visual way to design your data transformations?

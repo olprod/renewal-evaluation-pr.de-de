@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 9c75ea81-cbf3-415f-b3c3-65b96a033dc6
+recommendations:
+  - d63c88bb-b2a1-4631-b6ef-77a6759f3e6c
+assignedGroupIds: []
+uid: dc55ee58-cd9a-48bf-b5e6-064501eb37c1
+name: 'Go-Live - Container Services: Reliability'

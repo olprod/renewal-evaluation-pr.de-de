@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'A log aggregation technology, such as Azure Log Analytics or Splunk, is used to collect logs and metrics from Azure resources'
+    description: Which log aggregation technology is used to collect logs and metrics from Azure resources?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '1'
+    text: Azure Activity Logs are collected within the log aggregation tool.
+    description: Are you collecting Azure Activity Logs within the log aggregation tool?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Resource-level monitoring is enforced throughout the SAP application.
+    description: 'Is resource level monitoring enforced throughout the SAP application?. Example: Vnet, VM, Disk Monitoring.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: There are no known gaps in application observability that led to missed incidents and/or false positives.
+    description: 'What you cannot see, you cannot measure. What you cannot measure, you cannot improve.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: The workload is instrumented to measure customer experience.
+    description: Effective instrumentation is vital to detecting and resolving performance anomalies that can impact customer experience and application availability.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Interpreting Application Health'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWJUDX'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: Log aggregation technologies should be used to collate logs and metrics across all workload components for later evaluation. Resources that logs are captured for may include Azure IaaS and PaaS services as well as 3rd-party appliances such as firewalls or anti-malware solutions used in the workload.
+isRequired: false
+uid: 2eb5803d-5209-4270-a4fa-7096c576116f
+name: Log aggregation technologies should be used to collate logs and metrics across all workload components for later evaluation.

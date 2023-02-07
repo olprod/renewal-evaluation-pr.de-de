@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not have security methodology or a vision to complete and state and guide security program over time.
+    description: 'Secure methodology provides a vision of the complete end state to guide the improvement of your security program over time. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization considered or planning security methodology or a vision to complete and state and guide security program over time.
+    description: 'Secure methodology provides a vision of the complete end state to guide the improvement of your security program over time. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization is following some basic guidance to address a security model for the cloud.
+    description: 'Security guidance for this security journey by providing clarity for the processes, best practices, models, and experiences. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has established security guidance for security journey and provides clarity for the processes, best practices, models, and experiences. '
+    description: 'Your organization has established security guidance for security journey and provides clarity for the processes, best practices, models, and experiences. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has matured and established security disciplines and follows security concepts and guidance to optimize and reduce organizational risk. '
+    description: 'Your organization has matured and established security disciplines and follows security concepts and guidance to optimize and reduce organizational risk. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Are your key cloud resources secured?
+isRequired: true
+uid: 3e62e808-4238-437d-9f9d-a8f5aa491dfa
+name: Are your key cloud resources secured?

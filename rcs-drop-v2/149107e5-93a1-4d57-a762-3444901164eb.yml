@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization publishes content for consumers by self-service creators in an uncontrolled way, without collaboration.'
+    description: 'Your organization publishes content for consumers by self-service creators in an uncontrolled way, without collaboration.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has pockets of good practices for collaboration exist but rely on reactive sharing.
+    description: Your organization has pockets of good practices for collaboration exist but rely on reactive sharing.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has clear guidelines that are defined and communicated to enable collaboration.
+    description: Your organization has clear guidelines that are defined and communicated to enable collaboration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has defined criteria to align collaboration and modern workplace with content sharing and tool enablement.
+    description: Your organization has defined criteria to align collaboration and modern workplace with content sharing and tool enablement.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has adopted sharing and collaboration tools across the business which is regularly measure and evaluated for improvement.
+    description: Your organization has adopted sharing and collaboration tools across the business which is regularly measure and evaluated for improvement.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How do you currently collaborate your insights across your modern workplace?
+isRequired: true
+uid: 149107e5-93a1-4d57-a762-3444901164eb
+name: How do you currently collaborate your insights across your modern workplace?

@@ -1,0 +1,90 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider migrating to the Premium tier of Service Bus
+    url: /azure/service-bus-messaging/service-bus-outages-disasters#protecting-against-outages-and-disasters---service-bus-premium
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f144ae3-4c3a-4195-b41f-6fcdc7e86629.06e81b45-6218-45e2-a380-04894ebd9d1a.A
+      scoreOf: []
+    context: Consider migrating to the Premium tier of Service Bus to take advantage of platform supported outage and disaster protection.
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Implement geo-replication on the sender and receiver side to protect against outages and disasters
+    url: /azure/service-bus-messaging/service-bus-outages-disasters#protecting-against-outages-and-disasters---service-bus-premium
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f144ae3-4c3a-4195-b41f-6fcdc7e86629.06e81b45-6218-45e2-a380-04894ebd9d1a.B
+      scoreOf: []
+    context: The Standard Tier of Azure Service Bus only supports the implementation of sender and receiver side geo-redundancy. An outage or disaster in an Azure Region could cause downtime in your solution.
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Configure Zone Redundancy in your Service Bus namespace
+    url: /azure/service-bus-messaging/service-bus-outages-disasters#protecting-against-outages-and-disasters---service-bus-premium
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f144ae3-4c3a-4195-b41f-6fcdc7e86629.06e81b45-6218-45e2-a380-04894ebd9d1a.C
+      scoreOf: []
+    context: 'The Service Bus Premium Tier supports Availability Zones to provide zone redundancy within an Azure Region. This means that there will be three copies of the messaging store, with one allocated as the primary and the others as secondaries. If the primary zone becomes unavailable, a secondary is automatically promoted to primary with no perceivable downtime. NOTE: Availability Zones are available in a subset of Azure Regions with new regions being added regularly.'
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Consider using partitioned Queues or Topics in your solution
+    url: /azure/service-bus-messaging/service-bus-partitioning
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f144ae3-4c3a-4195-b41f-6fcdc7e86629.06e81b45-6218-45e2-a380-04894ebd9d1a.D
+      scoreOf: []
+    context: 'Azure Service Bus uses a message broker to handle messages that are sent to a Queue or Topic. By default, all messages are handled by the same message broker process which can limit the overall throughput of the messaging entity. However, you can also partition a queue or topic when it is created.'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: 'Ensure that related messages are delivered in guaranteed order '
+    url: /azure/service-bus-messaging/service-bus-partitioning#use-of-partition-keys
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f144ae3-4c3a-4195-b41f-6fcdc7e86629.06e81b45-6218-45e2-a380-04894ebd9d1a.E
+      scoreOf: []
+    context: 'Be aware of the requirement to set a Partition Key, Session ID, or Message ID on each message to ensure related messages are sent to the same partition in the messaging entity. This will ensure that related messages are delivered in guaranteed order.'
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: It is recommended that AMQP be the preferred protocol for your connections to your messaging entities
+    url: /azure/service-bus-messaging/service-bus-amqp-protocol-guide
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f144ae3-4c3a-4195-b41f-6fcdc7e86629.06e81b45-6218-45e2-a380-04894ebd9d1a.F
+      scoreOf: []
+    context: It is recommended that AMQP be the preferred protocol due to its efficiency. Connections to the Service Bus are maintained and batching and prefetching are implemented. It is also an international standard (ISO/IEC 19494) with cross-platform compatibility. NetMessaging/SBMP is being phased out in favour of AMQP.
+    priority: 25
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Implement resilience for transient fault handling when sending or receiving messages in Service Bus
+    url: /azure/architecture/best-practices/retry-service-specific#service-bus
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f144ae3-4c3a-4195-b41f-6fcdc7e86629.06e81b45-6218-45e2-a380-04894ebd9d1a.G
+      scoreOf: []
+    context: It is essential that suitable transient-fault-handling and error-handling for send and receive operations is implemented to maintain throughput and prevent the loss of messages.
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+uid: e29027c9-3ad8-4a21-aedf-179e2961f8bd
+name: ''

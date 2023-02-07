@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: SQL MI by design is placed inside the Azure virtual network and the subnet that's dedicated to managed instances which provides a secure private IP address for the instance.
+    description: Do not expose SQL MI to Internet through public endpoint if it's not required.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Keys and secrets are backed-up to geo-redundant storage.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: The process for key rotation is automated and tested.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Emergency access or 'break glass' accounts have been tested and secured for recovering from Identity provider failure scenarios.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'User permissions have been restricted by implementing access control policies using RLS, roles with least permissions.'
+    description: Lack of granular permissions makes database vulnerable to intentional/accidental impact.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: security-tradeoffs-data-sqlmi
+uid: ccd1c4cf-9614-4827-aa59-d82008ec0547
+name: What reliability allowances for security have you made for database?

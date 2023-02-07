@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Interpret compliance requirements and translate into specific technical capabilities (new or existing) • Evaluate infrastructure compliance by using Microsoft Defender for Cloud • Interpret compliance scores and recommend actions to resolve issues or improve security • Design implementation of Azure Policy • Design for data residency requirements • Translate privacy requirements into requirements for security solutions
+isRequired: true
+uid: 53f3fac3-cd40-4d05-b853-f0ef71c2cf6c
+name: 'Interpret compliance requirements and translate into specific technical capabilities (new or existing) • Evaluate infrastructure compliance by using Microsoft Defender for Cloud • Interpret compliance scores and recommend actions to resolve issues or improve security • Design implementation of Azure Policy • Design for data residency requirements • Translate privacy requirements into requirements for security solutions '

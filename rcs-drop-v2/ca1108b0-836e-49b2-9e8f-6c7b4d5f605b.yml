@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 62168ec6-9492-4eb2-8f89-4616ef0177a2
+  - 5d0a071a-3fd0-468c-958d-5f1e35e374ea
+  - 2a99aca3-4f88-4ffb-867f-72f9e0a3dd6d
+  - b9352555-b057-4ba4-966b-6b812b71db95
+recommendations:
+  - 0ffe0472-3540-4789-8814-2faffa34a60a
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: ca1108b0-836e-49b2-9e8f-6c7b4d5f605b
+name: 'Sustainability for AKS: Application platform'

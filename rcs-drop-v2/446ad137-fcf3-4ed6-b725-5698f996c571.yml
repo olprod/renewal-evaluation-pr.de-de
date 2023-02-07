@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: Defining business strategy and expected outcomes will set you up for success.
+links:
+  - title: Decide on your organization's migration drivers
+    url: /azure/cloud-adoption-framework/strategy/motivations
+    condition:
+      allOf: []
+      anyOf:
+        - business.504e6b13-a751-42b8-8799-7eeeeb2796e5.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Get stakeholders aligned by deciding on desired business outcomes
+    url: /azure/cloud-adoption-framework/strategy/business-outcomes
+    condition:
+      allOf: []
+      anyOf:
+        - business.fc654e16-99b3-4538-be88-acc27e9c2c70.A
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define your organization's desired fiscal outcomes
+    url: /azure/cloud-adoption-framework/strategy/business-outcomes/fiscal-outcomes
+    condition:
+      allOf: []
+      anyOf:
+        - business.fc654e16-99b3-4538-be88-acc27e9c2c70.B
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 446ad137-fcf3-4ed6-b725-5698f996c571
+name: Business strategy

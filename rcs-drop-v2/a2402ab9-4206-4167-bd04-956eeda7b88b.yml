@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'Based on your input, we recommend the following topics you and your team need to establish in your  practice of D365 F&O implementations. Establishing COE is continuous innovation and optimization of People, Process and Product aspects of the implemented workloads to get best of the platform for your customers.'
+links:
+  - title: ''
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: a2402ab9-4206-4167-bd04-956eeda7b88b
+name: Establish Center of Excellence for your D365 F&amp;O workload Implementations

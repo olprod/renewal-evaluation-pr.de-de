@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not have a centralized data governance and management view across your organization.
+    description: Your organization does not have a centralized data governance and management view across your organization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has plans for a centralized data governance and management view across your organization.
+    description: Your organization has plans for a centralized data governance and management view across your organization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Acceptable. Your organization has researched and understand data management landing zone concept and its benefits.
+    description: Your organization has researched and understand data management landing zone concept and its benefits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: Advanced. Your organization has a centralized data governance and management view across your organization.
+    description: Your organization has a centralized data governance and management view across your organization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: 'Optimized. Your organization has implemented data management landing zone to provide the foundation for your platform''s centralized data governance and management across your organization. '
+    description: 'Implement data management landing zone to provide the foundation for your platform''s centralized data governance and management across your organization. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have a centralized data governance and management view across your organization?
+isRequired: true
+uid: 41a7dee2-3099-44c5-b460-dde0aabf95c9
+name: Do you have a centralized data governance and management view across your organization?

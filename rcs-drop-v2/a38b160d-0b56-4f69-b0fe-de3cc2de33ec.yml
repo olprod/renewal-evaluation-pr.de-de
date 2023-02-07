@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Ensure your ASE's subnet is appropriately sized
+    url: /azure/app-service/environment/network-info#ase-subnet-size
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b7e5129a-103b-450e-a8c2-b94924e0d0ee.aba6c842-3874-45be-86fa-dc7dc9721edb.A
+      scoreOf: []
+    context: The size of the subnet used to host an ASE directly affects maximum scale. An ASE with no App Service plans at all will use 12 to 13 addresses before you create an app. It is recommended that ASEs be deployed into a /24 subnet. The maximum number of nodes in a ASE is 100. During a scale-up event the new machines are provisioned and placed into the subnet before the applications are migrated to these machines and the old ones removed. Therefore the subnet must allow for at least 200 machines to cope with maximum deployment size. This requires a /24 subnet. If not sufficient capacity is planned this will limit scale-out operations.
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+  - title: Consider migrating to ASE v3
+    url: /azure/app-service/environment/migration-alternatives
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b7e5129a-103b-450e-a8c2-b94924e0d0ee.aba6c842-3874-45be-86fa-dc7dc9721edb.B
+      scoreOf: []
+    context: "If you're currently using App Service Environment v1 or v2, you have the opportunity to migrate your workloads to\_App Service Environment v3. App Service Environment v3 has\_advantages and feature differences\_that provide enhanced support for your workloads and can reduce overall costs."
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+uid: a38b160d-0b56-4f69-b0fe-de3cc2de33ec
+name: ''

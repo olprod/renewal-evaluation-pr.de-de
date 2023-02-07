@@ -1,0 +1,71 @@
+### YamlMime:SelfAssessment
+description: 'Identify your cloud adoption path based on your needs with this tracker and navigate to relevant content in the Cloud Adoption Framework for Azure. '
+duration: 15 minutes
+questionnaireReferences:
+  - questionnaireUid: strategy
+    isRequired: true
+  - questionnaireUid: plan
+    isRequired: true
+  - questionnaireUid: ready
+    isRequired: true
+  - questionnaireUid: govern
+    isRequired: true
+  - questionnaireUid: manage
+    isRequired: true
+  - questionnaireUid: organize
+    isRequired: true
+guidance:
+  title: 15 minutes
+  description: Understanding your cloud adoption journey Successfully cloud adoption requires a clear understanding of your current state and what business objectives you want to achieve.
+  providers: []
+  scoring:
+    title: This report will help you identify your cloud adoption needs based on the questions your assessment survey answers.
+    description: Understanding your cloud adoption journey Successfully cloud adoption requires a clear understanding of your current state and what business objectives you want to achieve.
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: This report will help you identify your cloud adoption needs based on the questions your assessment survey answers.
+    steps:
+      - iconUrl: ''
+        description: Recommended next steps
+        links:
+          - title: Governance Assessment will help you identify gaps in your organization across six key domains as defined in the Microsoft Cloud Adoption Framework.
+            url: /en-us/assessments/
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Take the assessment
+      - iconUrl: ''
+        description: Complete Governance Assessment
+        links:
+          - title: 'This module covers the basics of how to use the Cloud Adoption Framework — a set of documentation, implementation guidance, best practices, and tools that aid in aligning the strategy for business, people, and technology.'
+            url: /learn/modules/microsoft-cloud-adoption-framework-for-azure/
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Start the module
+      - iconUrl: ''
+        description: Take Cloud Adoption Framework business value module.
+        links:
+          - title: The template organizes the decisions and data points that will help align your specific plans for adoption.
+            url: /azure/cloud-adoption-framework/plan/template#align-the-cloud-adoption-plan
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Download the template
+  recommendationsTitle: Your Cloud adoption journey
+owner:
+  firstName: Moh
+  lastName: Radwan
+  email: mohrad@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - azure
+uid: cloud-journey-tracker
+name: Leverage Cloud Plan template

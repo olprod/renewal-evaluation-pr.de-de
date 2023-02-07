@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Development environments reflect production as much as possible, only with reduced scale and reliability settings.'
+    description: 'Development environments will typically not share the same reliability, capacity, and security requirements as the production environment. Given the reduced scale, reliability, and security requirements of a development environment, they can more easily coexist within a single subscription.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Development environments are not permanent. Multiple environments can be created and destroyed on demand by developers.
+    description: 'Development environments must be available when required, but need not exist permanently and typically only exist for short periods of time. Keeping environments short lived saves costs, and prevents configuration drift from the code base. Also, development environments often share the lifecycle of a feature branch.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'There is at least one staging environment that resembles production requirements for reliability, capacity, and security.'
+    description: 'Staging environments can vary depending on their intended function within the release cycle. They typically resemble the requirements of the production environment for reliability, capacity, and security. Staging environments can be used for various purposes, but the focus is testing and validation, with a multitude of test cycles considered.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: 'In absence of a production load, a constant synthetic user load against a staging environment is used.'
+    description: 'During the early development cycles and in absence of a production load, a constant synthetic user load against an environment should be used to provide realistic metrics and with valuable health modeling input.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Some environments might be permanent and reflect production, others may be short lived with a reduced level of complexity. These environments should be staged during the engineering and release cycle in order to ensure deployment operations are fully tested before released into the production environment.'
+isRequired: false
+uid: 8bf180cd-64ef-45d7-a309-3f5db97b62ba
+name: 'Some environments might be permanent and reflect production, others may be short lived with a reduced level of complexity.'

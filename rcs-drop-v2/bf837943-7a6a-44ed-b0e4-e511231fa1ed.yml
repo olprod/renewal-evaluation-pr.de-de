@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 3cef84b7-88de-4fe3-8263-6c6de46b50a1
+recommendations:
+  - 9cf6c666-3927-40e9-bdf0-ca255f97077e
+assignedGroupIds: []
+uid: bf837943-7a6a-44ed-b0e4-e511231fa1ed
+name: 'Go-Live - SQL VM: Operational Excellence'

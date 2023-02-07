@@ -1,0 +1,93 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Track when resources scale in and out.
+    description: 'Azure services scale in and out in a variety of different ways, track and optimize these scaling events to ensure that you are taking advantages of distributed resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: B
+    text: Have an overall monitoring strategy for scalability and performance.
+    description: 'The overall monitoring strategy should take into consideration not only scalability, but resiliency (infrastructure, application and dependent services) and application performance as well.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: Application logs are collected from different application environments.
+    description: Application logs support the end-to-end application life-cycle. Logging is essential in understanding how the application operates in various environments and what events occur and under which conditions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: Logs are captured in a structured format.
+    description: 'Structured format, following well-known schema can help in parsing and analyzing logs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: You monitor how much of an application is involved in serving a single request.
+    description: 'When understanding load and demands on the application, it is necessary to understand how the application is architected - whether monolithic, n-Tier, or microservice-based - and then understand how load is distributed across the application. This is crucial for focusing on the testing of individual components and identifying bottlenecks.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: Application events are correlated across all application components.
+    description: Distributed tracing provides the ability to build and visualize end-to-end transaction flows for the application.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: 'You have determined an acceptable operational margin between your peak utilization and the application''s maximum load, and monitor for this.'
+    description: 'What is the maximum taxation you wish to place on resources? Factors such as memory, CPU, and disk IOPS should all be considered. Once a stress test has been performed resulting in the maximum supported load and an operational margin has been chosen, it is best to determine an operational threshold. Then, environment scaling (automatic or manual) can be performed once the threshold has been reached.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: You are aware of the appropriate metrics to monitor for performance tests under standard load.
+    description: 'A true performance test measures how the application performs under a standard load. It is critical to understand how your application operates--including CPU utilization and memory consumption--under a standard load. First, this will help you plan accordingly as you anticipate future user growth. Second, this gives you a baseline for performance regression testing.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: You monitor critical external dependencies for performance.
+    description: 'It''s common for applications to depend on other services or libraries. Despite these are external, it is still possible to monitor their health and availability using probes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: J
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Monitoring for performance
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4IFfF'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Monitoring for scalability should be part of your overall monitoring strategy.
+isRequired: false
+legacyId: monitoring
+uid: 7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f
+name: Monitoring for scalability should be part of your overall monitoring strategy.

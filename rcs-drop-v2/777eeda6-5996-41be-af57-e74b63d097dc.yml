@@ -1,0 +1,236 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: This critical design area focuses on the two highest levels of alignment across all of your Azure deployments; your Azure billing offer and the association of that offer with an Azure Active Directory (Azure AD) tenant.
+links:
+  - title: Plan for Enterprise Agreement enrollment
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-enterprise-agreement'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for the Microsoft customer agreement service
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-microsoft-customer-agreement'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for the Cloud Solution Provider service
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-cloud-solution-provider'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.2
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Setup the notification contact email address to ensure notifications are sent to an appropriate group mailbox.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-enterprise-agreement#design-recommendations'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.0
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.2
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Only use the authentication type Work or school account for all account types.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-enterprise-agreement#design-recommendations'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Assign a budget for each invoice section or billing profile, and establish an alert associated with the budget.'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-microsoft-customer-agreement#design-recommendations'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'If your business domain has independent IT capabilities, create a new invoice section for IT.'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-microsoft-customer-agreement#design-recommendations'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Work with your CSP partner to ensure that Azure Lighthouse is used for administer on behalf of (AOBO) access for most support scenarios. For more information, see Azure Lighthouse and the Cloud Solution Provider program.'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-cloud-solution-provider#design-recommendations'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.2
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Work with your CSP partner to understand how to create support cases and escalation processes.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-cloud-solution-provider#design-recommendations'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.2
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Discuss how to create self-service subscriptions with your CSP partner.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-cloud-solution-provider#design-recommendations'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.2
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Add one or more custom domains to your Azure AD tenant as per Add your custom domain name using the Azure Active Directory portal
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-domain'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.0
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.1
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.2
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.3
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review Azure AD UserPrincipalName population if planning to or using Azure AD Connect to ensure custom domain names are reflected in you on-premises Active Directory Domain Services environment.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-ad-define'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'If your organization doesn''t have an identity infrastructure, start by implementing an Azure AD only identity deployment.'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-ad-define'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for emergency access or break-glass accounts to prevent tenant-wide account lockout.
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/roles/security-emergency-access'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.0
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.1
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.2
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.3
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: This choice in identity solutions gives you the flexibility to use the most appropriate directory for your organization's needs.
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory-domain-services/compare-identity-solutions'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.0
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.1
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.2
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.3
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Send all Azure AD diagnostic logs to a central Azure Monitor Log Analytics workspace following the guidance here: Integrate Azure AD logs with Azure Monitor Logs'
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/howto-integrate-activity-logs-with-log-analytics'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.0
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.1
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.2
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.15be114c-c042-44db-a35c-754de381fb80.3
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Compare Visual Studio 2022 Editions
+    url: 'https://visualstudio.microsoft.com/vs/compare/'
+    condition:
+      allOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.bba398e6-b605-4bc8-9a2b-19f19f0fc50a.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: There are multiple ways to acquire Visual Studio based on your needs.
+    url: 'https://visualstudio.microsoft.com/vs/pricing/?tab=business'
+    condition:
+      allOf: []
+      anyOf:
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.bba398e6-b605-4bc8-9a2b-19f19f0fc50a.1
+        - 9b234605-e562-4157-b8cb-6b1142364fe5.bba398e6-b605-4bc8-9a2b-19f19f0fc50a.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 777eeda6-5996-41be-af57-e74b63d097dc
+name: Azure billing offers and Active Directory tenants

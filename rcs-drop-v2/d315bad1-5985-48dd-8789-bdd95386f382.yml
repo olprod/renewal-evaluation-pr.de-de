@@ -1,0 +1,78 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You assess your security configuration against a defined posture.
+    description: 'A security configuration assessment ensures that the device is configured securely as measured against a defined security configuration posture, such as open ports.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '1'
+    text: You assess your compliance configuration against a defined posture.
+    description: 'A compliance configuration assessment measures your devices against a defined policy configuration posture, such as PCI.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '2'
+    text: You assess your device vulnerability.
+    description: A vulnerability assessment validates that devices aren't running software that's out of date or has known vulnerabilities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: '3'
+    text: You prioritize vulnerability remediation.
+    description: 'You prioritize the remediation of found vulnerabilities. You can use criteria such as device count, device value, vulnerability severity, or active threats on the organizational networks.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 19
+  - id: '4'
+    text: You check that your solution uses secure credentials and protocols.
+    description: 'Your solution uses secure credentials such as certificates and secure protocols such as TLS 1.2+. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '5'
+    text: You monitor for active threats and threat alerts.
+    description: You monitor for active threats and threat alerts that indicate if potential threats are running on the device. This is a combination of known threats and alerts that might indicate the presence of a threat.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '6'
+    text: You have alerts for anomalous device behavior.
+    description: 'Ensure your solution generates anomalous behavioral alerts. For IoT devices that are targeted in their functionality, there''s an opportunity to use their behavior as a measure of device health.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '7'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'You can combine different elements to determine the health of a device by using a risk assessment system for runtime decisions. Some of these elements can be captured through a system such as attestation. Such a system uses a combination of hardware and cryptography to ensure that the measurements are tamper resistant. However, you must also rely on signals that aren''t attested. According to industry standards, the evaluation of device health should include assessments around: security configuration ("Is the device configured securely?"), vulnerability ("Is the device running software that is out of date, or software that has known vulnerabilities?"), insecure credential ("Is the device using secure credentials such as certificates and protocols such as TLS 1.2+?"), active threats and threat alerts and anomalous behavioral alerts such as network patterns and usage deviation.'
+isRequired: false
+uid: d315bad1-5985-48dd-8789-bdd95386f382
+name: You can combine different elements to determine the health of a device by using a risk assessment system for runtime decisions. Some of these elements can be captured through a system such as attestation.

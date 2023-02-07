@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Workload teams/cloud adoption
+    description: 'Cloud adoption teams are the modern-day equivalent of technical implementation teams or project teams. But the nature of the cloud may require a more fluid team structure. Some teams focus exclusively on cloud migration, while other teams focus on innovations that take advantage of cloud technologies.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: IT governance/cloud governance
+    description: A cloud governance team ensure that risks and risk tolerance are properly evaluated and managed. This team ensures the proper identification of risks that can't be tolerated by the business. The people on this team convert risks into governing corporate policies.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: IT operations/cloud operations
+    description: 'An operations team focuses on monitoring, repairing, and the remediation of issues related to traditional IT operations and assets. In the cloud, many of the capital costs and operations activities are transferred to the cloud provider, giving IT operations the opportunity to improve and provide significant additional value.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: Security operations center (SOC)
+    description: 'The main objective of a cloud security operations (SecOps) function is to detect, respond to, and recover from active attacks on enterprise assets.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: Security compliance management
+    description: The objective of cloud security compliance management is to ensure that the organization is compliant with regulatory requirements (and internal policies) and efficiently tracks and reports status.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '5'
+    text: App Security &/or DevSecOps
+    description: The objective of application security and DevSecOps is to integrate security assurances into development processes and custom line of business (LOB) applications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 5209fe02-7082-435b-82d8-a96626a88f24
+name: Who is accountable for security governance?

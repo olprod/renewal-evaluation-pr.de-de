@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |
+  A lean manufacturing company updates activity cycle times. Some jobs use the updated activity cycle times while other jobs do not. 
+
+  Which three events calculate activity cycle time? Each correct answer presents a complete solution.
+questionnaireUid: 41085216-5160-4545-adef-b820e0730afb
+questions:
+  - uid: f9ece962-8d4d-4108-a02a-63d7f4249573-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: A lean manufacturing company updates activity cycle times.
+        isCorrect: true
+      - id: 1
+        text: Some jobs use the updated activity cycle times while other jobs do not.
+        isCorrect: true
+      - id: 2
+        text: Which three events calculate activity cycle time?
+        isCorrect: true
+      - id: 3
+        text: Each correct answer presents a complete solution.
+        isCorrect: false
+      - id: 4
+        text: version creation
+        isCorrect: false
+uid: f9ece962-8d4d-4108-a02a-63d7f4249573
+title: ''

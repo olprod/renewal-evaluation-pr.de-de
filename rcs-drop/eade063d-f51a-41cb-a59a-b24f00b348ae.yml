@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing an application that uses feature flags.
+
+  You must externalize the feature flags used by the application and allow feature flag states to be updated without changing or redeploying the application.
+
+  You need to store the feature flags in a central repository hosted in Azure.
+
+  Which service should you use?
+questionnaireUid: 40e87cd2-37b8-4091-8799-889b8bd44330
+questions:
+  - uid: eade063d-f51a-41cb-a59a-b24f00b348ae-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing an application that uses feature flags.
+        isCorrect: false
+      - id: 1
+        text: You must externalize the feature flags used by the application and allow feature flag states to be updated without changing or redeploying the application.
+        isCorrect: false
+      - id: 2
+        text: You need to store the feature flags in a central repository hosted in Azure.
+        isCorrect: true
+      - id: 3
+        text: Which service should you use?
+        isCorrect: false
+      - id: 4
+        text: Azure Key Vault
+        isCorrect: false
+uid: eade063d-f51a-41cb-a59a-b24f00b348ae
+title: ''

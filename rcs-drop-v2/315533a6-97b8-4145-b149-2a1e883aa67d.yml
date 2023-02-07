@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We implement policies to apply rate limits and quotas to protect our APIs from being vulnerable to an excessive number of requests.
+    description: 'Azure API Management supports advanced rate limiting and throttling policies which can be used to protect backend services and reduce the load placed on an API Management scale unit. The rate limiting policies can be applied at Global or Product, API and Operation level to provide significant customization of the rate limits applied to API consumers.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: We evaluate the need for response caching.
+    description: 'Response caching can reduce API latency, bandwidth consumption and the load placed upon the backend APIs leading to improved performance, user experience and reduced solution cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: We plan a backup and restore process for our API Management instance.
+    description: 'Consider taking regular backups of your API Management Service so that it can be easily restored in another region or instance in the same region at any time. Your recovery time objective may require that a standby is always deployed in a secondary region. In this case, it is still good practice to take regular backups to enable the ability to easily recreate your service in the event of an unforeseen loss or misconfiguration of the service as well as to replicate changes between your primary and standby instances.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: We configure multiple Azure regions in our API Management service.
+    description: Configuring your API Management Service with multiple regions provides high-availability support in the event that an Azure region experiences downtime or is subject to a disaster scenario. This also reduces API call latency as calls can be routed to the nearest region.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: We implement a strategy to ensure availability in the event of an outage or disaster affecting an Azure region.
+    description: 'Consider using Azure Traffic Manager, Azure Front Door or Azure DNS to enable access to multiple regional deployments of API Management to ensure you can continue to serve requests in the event of an outage or disaster. This would also require syncing configurations between these individual Standard instances.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for API Management. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-API Management
+uid: 315533a6-97b8-4145-b149-2a1e883aa67d
+name: Please choose the applicable Well-Architected reliability considerations for API Management.

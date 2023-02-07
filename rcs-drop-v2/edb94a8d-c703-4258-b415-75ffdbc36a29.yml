@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use multiple IoT Hubs to be able to horizontally scale to millions of devices.
+    description: "Use multiple IoT Hubs to be able to horizontally scale to millions of devices.\_When you use multiple IoT Hubs, take into account that mapping from device to hub is needed for cloud-to-device messages and commands."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: The IoT solution doesn't have a large number of devices.
+    description: The IoT solution doesn't involve a large number of devices. Consider selecting the right IoT Hub SKU also based on the number of message that each device can send. Some IoT solution have just a few devices but millions of messages per day/hour.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: 'When your IoT solution can grow to millions of connected devices, the connection to the cloud and required cloud resources need to be able to scale accordingly.'
+isRequired: false
+uid: edb94a8d-c703-4258-b415-75ffdbc36a29
+name: 'When your IoT solution can grow to millions of connected devices, the connection to the cloud and required cloud resources need to be able to scale accordingly. Q12.'

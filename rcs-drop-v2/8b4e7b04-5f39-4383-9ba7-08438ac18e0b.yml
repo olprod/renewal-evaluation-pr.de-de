@@ -1,0 +1,21 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This focusses on organization''s maturity against Data Governance dimension to create a holistic view of current state and provides a structured framework for developing maturity in each capability. Data governance is the collection of processes, policies, roles, metrics, and standards that ensures an effective and efficient use of information. This also helps establish data management processes that keep your data secured, private, accurate, and usable throughout the data life cycle.'
+hideEmptyGuidance: false
+questions:
+  - fadd248e-fa7d-44e7-a488-b5a238e87d25
+  - 5a494614-c8aa-4fda-b015-449f56114374
+  - 873d51a4-06ed-4ac2-9859-43fe8b66803b
+  - 4c73909f-918e-4f42-b203-6129c67dec61
+  - 5aeff321-908e-4959-80e7-0d522908b39d
+  - 7a8092d4-6ea2-43cd-a353-ba8e726b0d4a
+  - 78a3b30c-78e9-4252-b986-de43cc8ea1a6
+  - b3b2915f-7f32-438f-ad59-0a39b9b8f3f4
+  - 47f50eb3-ba95-4192-b7ba-1bf597c6b797
+  - 872c6ac3-0180-45fe-8a54-397fc99da844
+  - 77f12857-cce0-4292-89fe-13f0799b2f6f
+recommendations:
+  - 53c348d1-bdbb-4774-8d08-c46301e6b959
+assignedGroupIds: []
+uid: 8b4e7b04-5f39-4383-9ba7-08438ac18e0b
+name: Maturity Framework - Data Governance Pillar

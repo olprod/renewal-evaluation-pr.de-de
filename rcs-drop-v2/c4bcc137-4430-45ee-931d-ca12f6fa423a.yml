@@ -1,0 +1,121 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Accept need for a Data Strategy and prepare and formalize your Data Strategy.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/data-management/strategy'
+    condition:
+      allOf: []
+      anyOf:
+        - 6de8db25-460d-4482-a166-c7b7146515f5.f2d1dadc-307a-44f6-b7bc-5aab70085dd7.0
+        - 6de8db25-460d-4482-a166-c7b7146515f5.f2d1dadc-307a-44f6-b7bc-5aab70085dd7.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Preparation
+  - title: 'Create a Charter, define tenants, and align stakeholders across your organization.'
+    url: ''
+    condition:
+      allOf: []
+      anyOf:
+        - 6de8db25-460d-4482-a166-c7b7146515f5.c12d5465-9fa4-44a0-a47e-52db1bb6a0a6.0
+        - 6de8db25-460d-4482-a166-c7b7146515f5.c12d5465-9fa4-44a0-a47e-52db1bb6a0a6.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Preparation
+  - title: Build your Data Strategy Roadmap.
+    url: ''
+    condition:
+      allOf: []
+      anyOf:
+        - 6de8db25-460d-4482-a166-c7b7146515f5.dbab1529-afaf-44c3-bb6a-7081b0d7c4a7.0
+        - 6de8db25-460d-4482-a166-c7b7146515f5.dbab1529-afaf-44c3-bb6a-7081b0d7c4a7.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Preparation
+  - title: Gain support for adoption the Data Strategy from Senior Leadership which aligns with the Business Strategy and facilitates the prioritisation of Data & Analytics as a core capability. Establish funding mechanism (CAPEX/OPEX) allowing the hire and upskill the Data & Analytics team including business consultants in a partnership capacity.
+    url: ''
+    condition:
+      allOf: []
+      anyOf:
+        - 6de8db25-460d-4482-a166-c7b7146515f5.8c9f559a-700d-488d-a4cf-6dd6c9545764.0
+        - 6de8db25-460d-4482-a166-c7b7146515f5.8c9f559a-700d-488d-a4cf-6dd6c9545764.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Preparation
+  - title: 'Set up a community of practice augmented to a centre led operating model will facilitate knowledge sharing, drive quality control, provide feedback for continuous improvement.'
+    url: ''
+    condition:
+      allOf: []
+      anyOf:
+        - 6de8db25-460d-4482-a166-c7b7146515f5.601eaa5c-7e68-4918-b8f3-0f58143199ad.0
+        - 6de8db25-460d-4482-a166-c7b7146515f5.601eaa5c-7e68-4918-b8f3-0f58143199ad.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Preparation
+  - title: Delivery better services through centers of excellence that represents an opportunity to consolidate best practices and new technologies in one place central to production.
+    url: ''
+    condition:
+      allOf: []
+      anyOf:
+        - 6de8db25-460d-4482-a166-c7b7146515f5.267f7302-4884-4f34-a23d-635331952b8c.0
+        - 6de8db25-460d-4482-a166-c7b7146515f5.267f7302-4884-4f34-a23d-635331952b8c.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Preparation
+  - title: Define strandards and metrics for the operational success. Develop a Training Plan that will assist in planning when new capabilities will be available to the business to endorse and promote Data Literacy.
+    url: ''
+    condition:
+      allOf: []
+      anyOf:
+        - 6de8db25-460d-4482-a166-c7b7146515f5.ee3fd6ac-8356-40d7-836d-72eef10bf20f.0
+        - 6de8db25-460d-4482-a166-c7b7146515f5.ee3fd6ac-8356-40d7-836d-72eef10bf20f.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Preparation
+  - title: 'Set up a community of practice augmented to a centre led operating model will facilitate knowledge sharing, drive quality control, provide feedback for continuous improvement.'
+    url: 'https://azure.microsoft.com/en-us/blog/four-models-businesses-like-yours-are-using-to-monetize-iot/'
+    condition:
+      allOf: []
+      anyOf:
+        - 6de8db25-460d-4482-a166-c7b7146515f5.e40147f5-7cbc-4b70-8bc6-a7fe826d440f.0
+        - 6de8db25-460d-4482-a166-c7b7146515f5.e40147f5-7cbc-4b70-8bc6-a7fe826d440f.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Preparation
+  - title: 'Commence with Data Literacy, and provide access to data and tools including Change Management and Cultural Shift towards Data Driven Culture.'
+    url: ''
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Preparation
+uid: c4bcc137-4430-45ee-931d-ca12f6fa423a
+name: ''

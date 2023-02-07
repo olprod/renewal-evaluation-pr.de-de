@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Managing infrastructure as a flexible resource is a critical component of DevOps since we should be able to remove existing infrastructure and spin up a new one at any moment because we have defined our infrastructure as a code.
+hideEmptyGuidance: false
+questions:
+  - e7e83cab-f146-472a-977c-77856294351b
+  - dd003799-92d2-49e8-8117-29030c549bae
+  - d35487f2-c77b-49b9-9d40-92a3c22004d6
+  - f4811c68-9eba-4980-aec6-f753f106729e
+  - 03e7dec7-3096-4415-a737-227cbd4754bd
+  - 3dfc95d0-b307-440e-b929-a45ffebefdc6
+  - acf13c9d-0326-44ac-8d8d-32c0fc18ba23
+recommendations:
+  - 5cff8f03-1697-4b0e-9f4c-86795517193d
+assignedGroupIds: []
+uid: 648970e8-fa10-4b2d-af07-2d166cff3cec
+name: Infrastructure as a Flexible Resource

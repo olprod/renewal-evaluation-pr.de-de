@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Watch my cloud costs.
+    description: ' Do you or your team review your invoice?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Create and respond to cost alerts.
+    description: 'You have established your cost budget amounts, time periods, and email alerts. Like any systems monitoring, this may need refining over time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Perform cost reviews on a regular cadence.
+    description: Effective ongoing cost management includes informed cost reviews with key stakeholders.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: On an ad-hoc basis with little process or formality.
+    description: Do you have problems with unexpected costs?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Use an Azure native tool such as Movere to review deployed capacity and provide right-sizing recommendations.
+    description: A number of tools exist to monitor your VM environments and provide recommendations about right-sizing them which can lead to significant cost savings.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: 3a1e6041-7a98-4bcd-966d-65908333af94
+name: How are you monitoring your costs?

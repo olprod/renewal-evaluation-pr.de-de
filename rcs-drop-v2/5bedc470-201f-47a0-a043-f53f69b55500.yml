@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: hot pink
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: royal blue
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 267bdbda-da2d-492a-ab90-1a6beae9fc57.15818e53-8f6e-4b6e-9260-bb0d4b3c6c81.0
+    - 267bdbda-da2d-492a-ab90-1a6beae9fc57.15818e53-8f6e-4b6e-9260-bb0d4b3c6c81.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 5bedc470-201f-47a0-a043-f53f69b55500
+name: What is your favorite color of jet?

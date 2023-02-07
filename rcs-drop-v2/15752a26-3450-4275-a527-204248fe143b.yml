@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics Apache Spark Pool Auto Scaling Feature.
+    description: Apache Spark for Azure Synapse Analytics pool's Autoscale feature automatically scales the number of nodes in a cluster instance up and down.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Use Azure Synapse Analytics Serverless SQL Pool.
+    description: Serverless SQL pool auto-scaling feature auto-scales depending on the amount of data being queried.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Manage compute for Azure Synapse Analytics Dedicated SQL Pool.
+    description: You can increase or decrease compute resources by adjusting data warehouse units.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: Partition tables in Azure Synapse Analytic dedicated SQL pool.
+    description: Partitioning can benefit data maintenance and query performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: Design your data model with semantic layer.
+    description: 'Semantic layer can help accelerate query performance, providing extremely responsive interactive analytics.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Co-locate Azure Storage account and Azure Synapse Analytics Serverless SQL pool.
+    description: 'To minimize latency, co-locate your Azure storage account and your serverless SQL pool endpoint.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: G
+    text: Consider workload scalability while designing Synapse tables.
+    description: Permanent tables can perform better then external tables at scale.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: Consider monitoring the Azure Services status.
+    description: The workload can operate with reduced functionality or degraded performance in the case of an service outage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 15752a26-3450-4275-a527-204248fe143b
+name: How are you designing your workload to scale?

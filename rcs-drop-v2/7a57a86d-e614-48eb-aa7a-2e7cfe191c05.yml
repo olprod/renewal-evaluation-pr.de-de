@@ -1,0 +1,486 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Treat your infrastructure as if it were code
+    url: /devops/deliver/what-is-infrastructure-as-code
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.13b15c63-288b-433f-bfce-a2f559487380.A
+      scoreOf: []
+    context: 'Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code.'
+    priority: 38
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Track the dependencies of your database objects
+    url: /sql/ssms/object/object-dependencies?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.13b15c63-288b-433f-bfce-a2f559487380.B
+      scoreOf: []
+    context: "Database objects have dependencies upon other database objects. For example, views and stored procedures depend upon the existence of tables that contain the data returned by the view or procedure. The\_Object Dependencies (General Page)\_for the current object lists both the database objects that must be present for the object to function properly and the objects that depend upon the selected object."
+    priority: 76
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Investigate your resource limits
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.13b15c63-288b-433f-bfce-a2f559487380.C
+      scoreOf: []
+    context: "If you want to raise the limit or quota above the default limit,\_open an online customer support request at no charge."
+    priority: 67
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: Develop a naming and tagging strategy
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.13b15c63-288b-433f-bfce-a2f559487380.D
+      scoreOf: []
+    context: 'Organize your cloud assets to support governance, operational management, and accounting requirements. Well-defined naming and metadata tagging conventions help to quickly locate and manage resources.'
+    priority: 28
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Automation
+  - title: Isolate your SQL VM workloads
+    url: /azure/security/fundamentals/isolation-choices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.13b15c63-288b-433f-bfce-a2f559487380.E
+      scoreOf: []
+    context: 'One of the primary benefits of cloud computing is the concept of a shared, common infrastructure across numerous customers, simultaneously, leading to economies of scale. This concept is called multi-tenancy. Microsoft works continuously to ensure that the multi-tenant architecture of Microsoft Cloud Azure supports security, confidentiality, privacy, integrity, and availability standards.'
+    priority: 55
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Build your application using SQL Server DevOps tools
+    url: 'https://www.microsoft.com/en-us/sql-server/developer-get-started/sql-devops/?rtc=1'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.13b15c63-288b-433f-bfce-a2f559487380.F
+      scoreOf: []
+    context: "Build your application using\_SQL\_Server\_DevOps tools.\_Use\_tools\_that help you integrate and deploy your database and your code."
+    priority: 40
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Automate configuration and administration tasks
+    url: /en-us/azure/automation/update-management/manage-updates-for-vm
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.cb4e475a-b160-4c2c-91dc-4eb66d2a77b6.A
+      scoreOf: []
+    context: 'Automation Update Management provides a set of tools and resources that can help manage the complex task of tracking and applying software updates to machines in Azure and hybrid cloud. An effective software update management process is necessary to maintain operational efficiency, overcome security issues, and reduce the risks of increased cyber security threats.'
+    priority: 59
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Monitor and update machine configurations using such tools as Azure Desired State Configuration
+    url: /azure/automation/automation-dsc-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.cb4e475a-b160-4c2c-91dc-4eb66d2a77b6.B
+      scoreOf: []
+    context: "Using\_Automation DSC, you can consistently deploy, reliably monitor, and automatically update the desired state of all your IT resources, at scale from the cloud. Automation DSC can align machine configuration with specific state across physical and virtual machines, Windows or Linux, in the cloud or on-premises, enabling continuous deployment and IT services delivery with consistent control."
+    priority: 62
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Automate patch management
+    url: /azure/azure-sql/virtual-machines/windows/automated-patching
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.cb4e475a-b160-4c2c-91dc-4eb66d2a77b6.C
+      scoreOf: []
+    context: "Use the Azure portal to\_configure Automated Patching\_when you create a new\_SQL Server\_virtual machine in the Resource Manager deployment model."
+    priority: 58
+    reportingCategory: Operation Procedures
+    reportingSubCategory: Patch & Update Process (PNU)
+  - title: Install the SQL IaaS Agent extension
+    url: /azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.cb4e475a-b160-4c2c-91dc-4eb66d2a77b6.D
+      scoreOf: []
+    context: 'SQL Server IaaS Agent extension allows for integration with the Azure portal, and depending on the management mode, unlocks a number of feature benefits for SQL Server on Azure VMs. The extension unlocks a number of automation feature benefits, such as portal management, license flexibility, automated backup, automated patching and offers a simplified method to fulfill the requirement of notifying Microsoft that the Azure Hybrid Benefit has been enabled as specified in the product terms. This process negates needing to manage licensing registration forms for each resource.'
+    priority: 85
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Document the release process
+    url: /sql/relational-databases/system-stored-procedures/sp-addextendedproperty-transact-sql?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.b76f211a-0a58-4cf2-a75b-94a8610d9957.A
+      scoreOf: []
+    context: 'As a best practice, create a repository of categorized automation scripts for quick access, documented with explanations of parameters and examples of script use.'
+    priority: 64
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Implement a release process for database code changes
+    url: 'https://www.microsoft.com/en-us/sql-server/developer-get-started/sql-devops/?rtc=1'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.b76f211a-0a58-4cf2-a75b-94a8610d9957.B
+      scoreOf: []
+    context: "Build your application using\_SQL\_Server\_DevOps tools.\_Use\_tools\_that help you integrate and deploy your database and your code."
+    priority: 70
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Track the release of database code changes as they progress through different environments
+    url: /troubleshoot/sql/general/determine-version-edition-update-level
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.b76f211a-0a58-4cf2-a75b-94a8610d9957.C
+      scoreOf: []
+    context: 'Once the code has been thoroughly tested, it is then pushed to Stage and, if  developers are satisfied with the change, the code will be Pushed to Prod.'
+    priority: 59
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Audit and track changes in the database code
+    url: /sql/relational-databases/security/auditing/sql-server-audit-database-engine?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.b76f211a-0a58-4cf2-a75b-94a8610d9957.D
+      scoreOf: []
+    context: "Auditing\_an instance of the SQL Server Database Engine or an individual database involves tracking and logging events that occur on the Database Engine. SQL Server audit lets you create server audits which can contain server audit specifications for server level events and database audit specifications for database level events."
+    priority: 87
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Auditing
+  - title: Identify portions of the SQL estate that need to be highly available and have an appropriate deployment strategy
+    url: /azure/azure-sql/virtual-machines/windows/business-continuity-high-availability-disaster-recovery-hadr-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.b76f211a-0a58-4cf2-a75b-94a8610d9957.F
+      scoreOf: []
+    context: 'Most SQL Server HADR solutions are supported on virtual machines (VMs) as both Azure-only and hybrid solutions. In an Azure-only solution, the entire HADR system runs in Azure. In a hybrid configuration, part of the solution runs in Azure, and the other part runs on-premises in your organization.'
+    priority: 91
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Understand database services and components that need to be highly available and have an appropriate deployment strategy
+    url: /azure/azure-sql/virtual-machines/windows/business-continuity-high-availability-disaster-recovery-hadr-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.b76f211a-0a58-4cf2-a75b-94a8610d9957.G
+      scoreOf: []
+    context: 'Most SQL Server HADR solutions are supported on virtual machines (VMs) as both Azure-only and hybrid solutions. In an Azure-only solution, the entire HADR system runs in Azure. In a hybrid configuration, part of the solution runs in Azure and the other part runs on-premises in your organization.'
+    priority: 84
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Deploy AD Controllers in the same Azure Region where your SQL Server VM is running
+    url: /azure/active-directory-domain-services/scenarios
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.b76f211a-0a58-4cf2-a75b-94a8610d9957.I
+      scoreOf: []
+    context: 'To let you use a single set of AD credentials, Azure virtual machines (VMs) can be joined to an Azure AD DS managed domain. This approach reduces credential management issues such as maintaining local administrator accounts on each VM or separate accounts and passwords between environments.'
+    priority: 66
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Efficiency
+  - title: Use Availability Sets and Availability Zones
+    url: /azure/virtual-machines/availability-set-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.b76f211a-0a58-4cf2-a75b-94a8610d9957.J
+      scoreOf: []
+    context: An availability set is a logical grouping of VMs that allows Azure to understand how your application is built to provide for redundancy and availability.
+    priority: 88
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: 'Maintaining production-like environments for your pre-prod stages means if issues in production occur you are far more capable of developing, testing, and releasing hot fixes/updates quickly'
+    url: 'https://azure.microsoft.com/en-us/pricing/dev-test/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.5fc97c8d-b9e1-42d6-920c-bc00740270eb.A
+      scoreOf: []
+    context: Pre-production environments — when set up correctly — can drastically improve the performance and time it takes for developers to push code.
+    priority: 63
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Track when and what changes are made to your databases and SQL Server/VM configurations
+    url: /sql/relational-databases/database-lifecycle-management?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.5fc97c8d-b9e1-42d6-920c-bc00740270eb.C
+      scoreOf: []
+    context: Database lifecycle management (DLM) is a policy-based approach to managing databases and data assets.
+    priority: 54
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Server info
+  - title: Use a tool that facilitates database code changes and codebase management
+    url: 'https://azure.microsoft.com/en-in/resources/videos/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.5fc97c8d-b9e1-42d6-920c-bc00740270eb.D
+      scoreOf: []
+    context: Database lifecycle management (DLM) is a policy-based approach to managing databases and data assets.
+    priority: 56
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Database schema changes are managed through a Source Control platform
+    url: 'https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.5fc97c8d-b9e1-42d6-920c-bc00740270eb.E
+      scoreOf: []
+    context: "'DevOps' is a broad term which encompasses various disciplines like CI / CD, testing, monitoring\_and more."
+    priority: 61
+    reportingCategory: Data
+    reportingSubCategory: Options
+  - title: Implement alerting and monitoring for SQL Server infrastructure and workloads
+    url: /azure/cloud-adoption-framework/manage/monitor/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.7f8e67e8-a412-439a-bfa5-c220434303e7.A
+      scoreOf: []
+    context: "Use\_SQL Health Check solution to assess the risk and health of your server environments at regular intervals."
+    priority: 74
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Correlate events between the different application tiers
+    url: /azure/architecture/best-practices/monitoring#information-for-correlating-data
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.7f8e67e8-a412-439a-bfa5-c220434303e7.B
+      scoreOf: []
+    context: 'User can easily monitor individual system-level performance counters, capture metrics for resources, and obtain application trace information from various log files.'
+    priority: 40
+    reportingCategory: Operation Procedures
+    reportingSubCategory: Efficiency
+  - title: Actively monitor SQL Server and OS logs for errors
+    url: /sql/tools/configuration-manager/monitoring-the-error-logs?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.7f8e67e8-a412-439a-bfa5-c220434303e7.C
+      scoreOf: []
+    context: SQL Server logs certain system events and user-defined events to the SQL Server error log and the Microsoft Windows application log. Both logs automatically timestamp all recorded events. Use the information in the SQL Server error log to troubleshoot problems related to SQL Server.
+    priority: 77
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Track deployment metrics
+    url: /sql/relational-databases/data-collection/management-data-warehouse?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.7f8e67e8-a412-439a-bfa5-c220434303e7.D
+      scoreOf: []
+    context: 'Deployment Tracking is a key component of continuous deployment, which is itself a key component of DevOps.'
+    priority: 76
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Report and set notifications for events
+    url: /sql/relational-databases/service-broker/event-notifications?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.7f8e67e8-a412-439a-bfa5-c220434303e7.E
+      scoreOf: []
+    context: 'Event notifications run asynchronously, outside the scope of a transaction. Therefore, unlike DDL triggers, event notifications can be used inside a database application to respond to events without using any resources defined by the immediate transaction.'
+    priority: 71
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Monitor underlying SQL Server services
+    url: /sql/relational-databases/performance/monitor-sql-server-components?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.7f8e67e8-a412-439a-bfa5-c220434303e7.G
+      scoreOf: []
+    context: Monitoring is important because SQL Server provides a service in a dynamic environment. The data in the application changes. The type of access that users require changes.
+    priority: 69
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Utilize SQL insights as a comprehensive solution for monitoring any product in the Azure SQL family
+    url: /azure/azure-monitor/insights/sql-insights-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.7f8e67e8-a412-439a-bfa5-c220434303e7.H
+      scoreOf: []
+    context: "SQL Insights performs all monitoring remotely. Monitoring agents on dedicated virtual machines connect to your SQL resources and remotely gather data. The gathered data is stored in\_Azure Monitor Logs\_to enable easy aggregation, filtering, and trend analysis. You can view the collected data from the SQL Insights\_workbook template, or you can delve directly into the data by using\_log queries."
+    priority: 86
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Event log analysis
+  - title: Create SQL Server workload baselines
+    url: /sql/relational-databases/performance/establish-a-performance-baseline?view=sql-server-ver15&viewFallbackFrom=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.7f8e67e8-a412-439a-bfa5-c220434303e7.I
+      scoreOf: []
+    context: 'Determine whether your SQL Server system is performing optimally and take performance measurements at regular intervals over time, even when no problems occur, to establish a server performance baseline.'
+    priority: 86
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Perform regular DR and business continuity drills
+    url: /azure/azure-sql/virtual-machines/windows/business-continuity-high-availability-disaster-recovery-hadr-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.d31c047f-8037-4494-b1fb-fe143d655946.A
+      scoreOf: []
+    context: 'Most SQL Server HADR solutions are supported on virtual machines (VMs) as both Azure-only and hybrid solutions. In an Azure-only solution, the entire HADR system runs in Azure. In a hybrid configuration, part of the solution runs in Azure and the other part runs on-premises in your organization.'
+    priority: 87
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Automate testing on database and SQL Server configuration deployments
+    url: /previous-versions/visualstudio/visual-studio-2015/test/unit-test-your-code?view=vs-2015&redirectedfrom=MSDN
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.d31c047f-8037-4494-b1fb-fe143d655946.B
+      scoreOf: []
+    context: Database deployment automation is the practice of including databases in the DevOps process and automating it for the whole pipeline to run more smoothly.
+    priority: 58
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Server info
+  - title: Ensure any manual processes are still adequately tested
+    url: /azure/devops/test/overview?view=azure-devops
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.d31c047f-8037-4494-b1fb-fe143d655946.C
+      scoreOf: []
+    context: Azure Test Plans provides rich and powerful tools everyone in the team can use to drive quality and collaboration throughout the development process.
+    priority: 34
+    reportingCategory: Operation Procedures
+    reportingSubCategory: Automation
+  - title: Use Visual Studio to enable database unit testing
+    url: 'https://www.youtube.com/watch?v=t3Lc9LRDZQ4'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.d31c047f-8037-4494-b1fb-fe143d655946.D
+      scoreOf: []
+    context: "Microsoft.VisualStudio.TestTools.UnitTesting\_Describes the UnitTesting namespace, which provides attributes, exceptions, asserts, and other classes that support unit testing."
+    priority: 40
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Provision your application in the same region as your database
+    url: /azure/azure-sql/virtual-machines/windows/application-patterns-development-strategies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.a0198829-1b3c-4ced-87a5-ee89772ca686.A
+      scoreOf: []
+    context: 'Determining which application pattern or patterns to use for your SQL Server-based applications in an Azure environment is an important design decision, and it requires a solid understanding of how SQL Server and each infrastructure component of Azure work together.'
+    priority: 65
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Efficiency
+  - title: Implement SQL Server and Applications VMs in cross-regional replication topologies
+    url: /azure/architecture/reference-architectures/n-tier/multi-region-sql-server
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.a0198829-1b3c-4ced-87a5-ee89772ca686.B
+      scoreOf: []
+    context: "A multi-region architecture can provide higher availability than deploying to a single region. If a regional outage affects the primary region, you can use\_Traffic Manager\_to fail over to the secondary region.\_"
+    priority: 92
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Backup your SQL Server databases regularly
+    url: /azure/azure-sql/virtual-machines/windows/backup-restore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.f533fe12-bde0-45c1-92c4-a214fcd81a6e.A
+      scoreOf: []
+    context: "Azure Backup\_provides an Enterprise class backup capability for SQL Server on Azure VMs. All backups are stored and managed in a Recovery Services vault."
+    priority: 95
+    reportingCategory: Business Continuity
+    reportingSubCategory: 'Backup & Restore '
+  - title: 'Ensure that all dependency components such as operating system, registry settings, third-party drivers, and so on are also protected'
+    url: /azure/backup/backup-azure-sql-database
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.f533fe12-bde0-45c1-92c4-a214fcd81a6e.B
+      scoreOf: []
+    context: "Azure Backup\_offers a stream-based, specialized solution to back up SQL Server running in Azure VMs. This solution aligns with Azure Backup's benefits of zero-infrastructure backup, long-term retention, and central management."
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Design
+  - title: Regularly run database maintenance tasks such as re-indexing
+    url: /sql/relational-databases/maintenance-plans/maintenance-plans?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.f533fe12-bde0-45c1-92c4-a214fcd81a6e.C
+      scoreOf: []
+    context: 'Maintenance plans create a workflow of the tasks required to make sure that your database is optimized, regularly backed up, and free of inconsistencies. The Maintenance Plan Wizard also creates core maintenance plans, but creating plans manually gives you much more flexibility.'
+    priority: 88
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Install the SQL IaaS Agent extension
+    url: /azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a8332849-e51a-4f97-ae56-8dbad6e916c6.f533fe12-bde0-45c1-92c4-a214fcd81a6e.E
+      scoreOf: []
+    context: 'SQL Server IaaS Agent extension allows for integration with the Azure portal, and depending on the management mode, unlocks a number of feature benefits for SQL Server on Azure VMs. The extension unlocks a number of automation feature benefits, such as portal management, license flexibility, automated backup, automated patching and offers a simplified method to fulfill the requirement of notifying Microsoft that the Azure Hybrid Benefit has been enabled as specified in the product terms. This process negates needing to manage licensing registration forms for each resource.'
+    priority: 85
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+uid: 7a57a86d-e614-48eb-aa7a-2e7cfe191c05
+name: ''

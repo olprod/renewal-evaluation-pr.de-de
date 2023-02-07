@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has not made any networking design decisions to properly support the workloads and services that are hosted in the cloud.
+    description: Your organization has not made any networking design decisions to properly support the workloads and services that are hosted in the cloud.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization understands networking options and has plans for networking design decisions to properly support the workloads and services that are hosted in the cloud.
+    description: Your organization understands networking options and has plans for networking design decisions to properly support the workloads and services that are hosted in the cloud.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has a degree of confidence in how to structure networking services and the networking architectures to host your cloud workloads.
+    description: Your organization has a degree of confidence in how to structure networking services and the networking architectures to host your cloud workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has made design decisions and has chosen services and the networking architectures that work to support your organization''s workload, governance, and connectivity requirements along with migration some of the workloads.'
+    description: 'Your organization has made design decisions and has chosen services and the networking architectures that work to support your organization''s workload, governance, and connectivity requirements along with migration some of the workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization is hosting workloads in the cloud that supports capabilities, governance, and connectivity requirements to ensure policies exist to control the allowed networking resources and configuration based on your workload needs to be secure.'
+    description: 'Your organization is hosting workloads in the cloud that supports capabilities, governance, and connectivity requirements to ensure policies exist to control the allowed networking resources and configuration based on your workload needs to be secure.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you understand the principles behind designing and implementing Azure networking capabilities that are critical part of your cloud adoption efforts?
+isRequired: true
+uid: d1248c1b-2a5f-443c-a553-bc7c1f35d89e
+name: Do you understand the principles behind designing and implementing Azure networking capabilities that are critical part of your cloud adoption efforts?

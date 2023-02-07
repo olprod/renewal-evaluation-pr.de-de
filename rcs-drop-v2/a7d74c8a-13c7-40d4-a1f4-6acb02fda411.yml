@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: M
+    text: 'Use Azure Databricks guidelines around Networking, Security, and Capacity Planning.'
+    description: 'For Enterprise-grade large scale AI deployments upfront planning is necessary to manage Azure Databricks in terms of Networking requirements, number and the type of Azure networking resources required to launch clusters, and overall Capacity Planning process.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: 'N'
+    text: Use Azure Databricks Interactive / Development AI Workloads.
+    description: The ability for a cluster to auto scale is most important for these types of jobs as it is taking the advantage of the auto-scaling feature to manage the cost of the infrastructure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: O
+    text: Follow Azure Databricks AI design patterns.
+    description: 'The business unit subscription design pattern aligns well with the Databricks charge-back model as it helps in streamlining your access control matrix within your workspace (folders, notebooks etc.) and also across all your resources that the workspace interacts with (storage, related data stores like Azure SQL DB, Azure SQL DW etc.).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: R
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: As traffic fluctuates into your application the amount of underlying resources that you need will vary over time.
+isRequired: false
+legacyId: '0'
+uid: a7d74c8a-13c7-40d4-a1f4-6acb02fda411
+name: As traffic fluctuates into your application the amount of underlying resources that you need will vary over time.

@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are a Dynamics 365 Marketing functional consultant.
+
+  You need to implement an account-based marketing program in Dynamics 365 Marketing.
+
+  Your organization wants to target customers who work for the top 10 accounts in Dynamics 365 with annual revenue over $1 billion per year.
+
+  Which segment type should you use to target these customers?
+questionnaireUid: 00373595-cb54-4cd3-a802-a92f826e6bf2
+questions:
+  - uid: f953d45d-e619-4036-94a7-f85152770558-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You are a Dynamics 365 Marketing functional consultant. '
+        isCorrect: true
+      - id: 1
+        text: You need to implement an account-based marketing program in Dynamics 365 Marketing.
+        isCorrect: false
+      - id: 2
+        text: 'Your organization wants to target customers who work for the top 10 accounts in Dynamics 365 with annual revenue over $1 billion per year. '
+        isCorrect: false
+      - id: 3
+        text: 'Which segment type should you use to target these customers? '
+        isCorrect: false
+uid: f953d45d-e619-4036-94a7-f85152770558
+title: ''

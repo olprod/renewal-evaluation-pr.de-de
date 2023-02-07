@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: You have a defined process to patch and update all relevant workload components.
+    description: 'The PNU process will vary based on the type of Azure service used (i.e. Virtual Machines, Virtual Machine Scale Sets, Containers on Azure Kubernetes Service). Applications using IaaS will typically require more investment to define a PNU process.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: You have a defined rollback strategy for patches.
+    description: It is recommended to have a defined strategy in place to rollback patches in case of an error or unexpected side effects.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: There is an playbook to deploy emergency patches as needed.
+    description: Emergency patches might contain critical security updates that cannot wait till the next maintenance or release window
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: D
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: ''
+isRequired: false
+legacyId: patching
+uid: f22dd80e-e583-4694-a84b-e33c1921c838
+name: How are you managing and distributing your patches

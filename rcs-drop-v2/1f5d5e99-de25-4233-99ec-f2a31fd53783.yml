@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Development best practices for Azure Synapse Analytics SQL.
+    description: Review different design options for trade-offs between performance and cost.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: B
+    text: Optimize Azure Synapse Analytics Apache Spark Jobs.
+    description: Learn how to optimize an Apache Spark cluster configuration for your particular workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: C
+    text: Use Synapse SQL Serverless where and when appropriate.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: 1f5d5e99-de25-4233-99ec-f2a31fd53783
+name: What trade-offs have you made to optimize for cost?

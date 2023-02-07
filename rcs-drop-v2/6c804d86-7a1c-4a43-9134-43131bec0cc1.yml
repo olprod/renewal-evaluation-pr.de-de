@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Perform reliability testing of the application in case of a database failover, such as retry logic.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Based on your RPO/RTO and cost requirements have you looked into geo-restore or active geo-replication to ensure database recovery in case of a regional disaster or large scale outage.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Performed Failure Mode Analysis (FMA) to identify fault-points and fault-modes.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: failure-data-sqlmi
+uid: 6c804d86-7a1c-4a43-9134-43131bec0cc1
+name: How have you ensured that your database architecture is resilient to failures?

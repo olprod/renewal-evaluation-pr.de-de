@@ -1,0 +1,100 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: L
+    text: You monitor and take advantage of new features and capabilities of underlying services used in your workload.
+    description: 'Azure is continuously evolving, with new features and services becoming available which may be beneficial for the application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: A
+    text: Application configuration information is stored using a dedicated management system such as Azure App Configuration or Azure Key Vault
+    description: Where is application configuration information stored and how does the application access it?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: K
+    text: Soft-Delete is enabled for your keys and credentials such as things stored in Key Vaults and Key Vault objects.
+    description: 'The Soft-Delete feature retains resources for a given retention period after a DELETE operation has been performed, while giving the appearance that the object is deleted. It helps to mitigate scenarios where resources are unintentionally, maliciously or incorrectly deleted.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: B
+    text: Configuration settings can be changed or modified without rebuilding or redeploying the application
+    description: Can configuration settings be changed or modified without rebuilding or redeploying the application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: Passwords and other secrets are managed in a secure store like Azure Key Vault or HashiCorp Vault
+    description: How are passwords and other secrets managed?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: Procedures are in place for key/secret rotation
+    description: Do you have procedures in place for key/secret rotation?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: The application uses Azure Managed Identities
+    description: Does the application use Managed Identities?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: The expiry dates of SSL certificates are monitored and there are processes in place to renew them
+    description: Are the expiry dates of SSL certificates monitored and are processes in place to renew them?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: Components are hosted on shared application or data platforms as appropriate.
+    description: 'Do application components leverage shared data platforms, such as a central data lake, or application hosting platforms, such as a centrally managed Azure Kubernetes Service (AKS) or App Service Environment (ASE) cluster? Shared platforms drive down cost, but the workload needs to maintain the expected performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: Your workload takes advantage of multiple Azure subscriptions.
+    description: Understanding the subscription landscape of the application and how components are organized within or across subscriptions is important when analyzing if relevant subscription limits or quotas can be navigated.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: J
+    text: The workload is designed to leverage managed services.
+    description: Where possible prefer Platform-as-a-Service (PaaS) offerings to leverage their advanced capabilities and to avoid managing the underlying infrastructure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Cloud-based applications often run on multiple virtual machines or containers in multiple regions, and use multiple external services. How do you manage and store all your app''s configuration settings, feature flags, and secure access settings?'
+isRequired: false
+legacyId: configuration
+uid: f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59
+name: 'Cloud-based applications often run on multiple virtual machines or containers in multiple regions, and use multiple external services.'

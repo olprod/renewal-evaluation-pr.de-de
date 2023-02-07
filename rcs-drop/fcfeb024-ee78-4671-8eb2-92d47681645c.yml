@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company accumulates hundreds of identically formatted Microsoft Excel worksheets containing customer data.
+
+  You merge all the data into a single worksheet. Users experience performance issues when using the merged worksheet.
+
+  You need to improve performance. You import the worksheet into a custom table in Microsoft Dataverse.
+
+  Which solution should you use to improve performance?
+questionnaireUid: aae95373-f652-40f8-bd98-2fb5e460d93a
+questions:
+  - uid: fcfeb024-ee78-4671-8eb2-92d47681645c-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company accumulates hundreds of identically formatted Microsoft Excel worksheets containing customer data.
+        isCorrect: true
+      - id: 1
+        text: You merge all the data into a single worksheet.
+        isCorrect: false
+      - id: 2
+        text: Users experience performance issues when using the merged worksheet.
+        isCorrect: false
+      - id: 3
+        text: You need to improve performance.
+        isCorrect: false
+      - id: 4
+        text: You import the worksheet into a custom table in Microsoft Dataverse.
+        isCorrect: false
+uid: fcfeb024-ee78-4671-8eb2-92d47681645c
+title: ''

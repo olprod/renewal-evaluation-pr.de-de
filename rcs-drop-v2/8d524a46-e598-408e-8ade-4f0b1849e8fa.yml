@@ -1,0 +1,42 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: "Our team prefers to use tools like dbx to connect their favourite IDE.\_"
+    description: "Developers can use tools like dbx to connect their favorite IDE to Databricks.\_ Spark code can be packaged and submitted as a job.\_ Databricks also supports connections from RStudio.\n"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: Our team prefers to use Microsoft tools for developers to connect to both Dedicated Pools and Serverless Pools.
+    description: |
+      Developers can easily connect to both Dedicated Pools and Serverless Pools with SQL Server Management Studio, Visual Studio, and VS Code.  Any IDE that supports SQL Server development should also be compatible.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does the project team prefer to write code in a traditional IDE?
+isRequired: true
+uid: 8d524a46-e598-408e-8ade-4f0b1849e8fa
+name: Does the project team prefer to write code in a traditional IDE?

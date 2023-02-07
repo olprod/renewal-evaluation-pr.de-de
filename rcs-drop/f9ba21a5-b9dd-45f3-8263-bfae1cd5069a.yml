@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company logs expenses against pre-defined projects for clients.
+
+  A user processes a journal entry and posts entries to a business development project. This configuration results in account balances becoming unbalanced and clients not being charged for specific transactions.
+
+  You need to ensure that users can specify a client project.
+
+  What should you do?
+questionnaireUid: cae9def0-594d-4eea-b920-121106c083cf
+questions:
+  - uid: f9ba21a5-b9dd-45f3-8263-bfae1cd5069a-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company logs expenses against pre-defined projects for clients.
+        isCorrect: false
+      - id: 1
+        text: A user processes a journal entry and posts entries to a business development project.
+        isCorrect: true
+      - id: 2
+        text: This configuration results in account balances becoming unbalanced and clients not being charged for specific transactions.
+        isCorrect: false
+      - id: 3
+        text: You need to ensure that users can specify a client project.
+        isCorrect: false
+      - id: 4
+        text: What should you do?
+        isCorrect: false
+uid: f9ba21a5-b9dd-45f3-8263-bfae1cd5069a
+title: ''

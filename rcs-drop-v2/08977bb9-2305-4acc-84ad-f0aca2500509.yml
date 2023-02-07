@@ -1,0 +1,54 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Enable storage compression.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#enable-storage-compression
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f9d81d1-d28c-4f5d-be40-7653a2275a31.f03594fe-738f-4573-be2e-5f387e52f6db.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Storage
+    reportingSubCategory: ''
+  - title: Optimize database query performance.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#optimize-database-query-performance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f9d81d1-d28c-4f5d-be40-7653a2275a31.f03594fe-738f-4573-be2e-5f387e52f6db.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Storage
+    reportingSubCategory: ''
+  - title: Optimize storage utilization.
+    url: /azure/aks/concepts-sustainable-software-engineering#optimize-storage-utilization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f9d81d1-d28c-4f5d-be40-7653a2275a31.f03594fe-738f-4573-be2e-5f387e52f6db.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Storage
+    reportingSubCategory: ''
+  - title: Revise backup and retention policies.
+    url: /azure/architecture/framework/sustainability/sustainability-storage#revise-backup-and-retention-policies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7f9d81d1-d28c-4f5d-be40-7653a2275a31.f03594fe-738f-4573-be2e-5f387e52f6db.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: Storage
+    reportingSubCategory: ''
+uid: 08977bb9-2305-4acc-84ad-f0aca2500509
+name: ''

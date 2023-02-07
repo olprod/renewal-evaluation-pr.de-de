@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: No. We use third party reports.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: No. We do not report any update compliance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 8c5a44a3-4ce0-4a6c-9b00-10f000c3cfe9.e8f8b310-f986-4b96-b24d-61609278c4e0.1
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'There are over 30 Software Update reports available out-of-the-box in MECM to help you monitor update compliance, evaluation scan and deployment statuses. https://learn.microsoft.com/en-us/mem/configmgr/core/servers/manage/list-of-reports#software-updates---a-compliance'
+isRequired: true
+uid: 3632327e-f405-45e2-8548-1cab501f1605
+name: 'There are over 30 Software Update reports available out-of-the-box in MECM to help you monitor update compliance, evaluation scan and deployment statuses.'

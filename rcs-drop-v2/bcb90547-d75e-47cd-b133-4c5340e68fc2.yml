@@ -1,0 +1,59 @@
+### YamlMime:SelfAssessment
+description: |
+  This assessment help partner sales / technical presales team to assess what is needed to do effective sales and be equipped with Microsoft provided resources such as trainings, templates, presales collateral and other resources to better engage with prospects in PreSales cycles and close more deals. This assessment is part of Center of Excellence (COE) Series for establishing and driving excellence in Partner Dynamics 365 Finance & Operations Delivery Practice.
+duration: 15 minutes
+questionnaireReferences:
+  - questionnaireUid: 4ae33b5d-0d48-4a38-9d51-04bafd2dbe19
+    isRequired: false
+  - questionnaireUid: be8accec-580e-48fd-b9c8-2be032705376
+    isRequired: false
+  - questionnaireUid: 86245522-b8e7-482e-a5ad-ea53edb0918d
+    isRequired: false
+guidance:
+  title: 15 minutes
+  description: 'Presales Excellence Recommendations '
+  providers: []
+  scoring:
+    title: We like our partners to be equipped with latest and greatest resources from our side be available for closing deals faster leveraging rich set of information available at partner disposal.
+    description: ''
+    calculationType: Average
+    scoresVerbage: Adhoc|Moderate|Optimal
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Muhammad
+  lastName: Aurangzeb
+  email: maurangzeb@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+metadataTags:
+  - dynamics-365
+  - dynamics-finance
+  - dynamics-scm
+  - dynamics-commerce
+relatedTags:
+  - b8f27ff4-1ce1-4a80-a808-5d377fc15020
+  - e25722a7-e0ab-4e52-b928-5ce9461df1ed
+  - 388159e6-55f1-4287-86fa-09032f5ad812
+  - 22e1e9a8-0289-4dca-98ea-4515ad392a3a
+uid: bcb90547-d75e-47cd-b133-4c5340e68fc2
+name: Your Current Assessment result as follows

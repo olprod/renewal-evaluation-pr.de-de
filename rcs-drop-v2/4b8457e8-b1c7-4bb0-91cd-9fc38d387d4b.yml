@@ -1,0 +1,74 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: "Threat modeling processes are adopted, identified threats are ranked based on organizational impact, mapped to mitigations and communicated to stakeholders.\_"
+    description: |
+      Analyze and share threat intelligence with all stakeholders
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '1'
+    text: "There's a process to track, triage and address security threats in the application development cycle.\_"
+    description: "There's a process to track, triage and address security threats in the application development cycle.\_  Discover and remediate threats before they are deployed to production\n"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '2'
+    text: Security requirements are consistently defined across the portfolio to establish a baseline for all workloads
+    description: |
+      Apply consistent guardrails across all cloud environments
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '3'
+    text: A common threat protection model has been agreed upon & consistently applied
+    description: |
+      A common threat protection model should be applied
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '4'
+    text: "Security posture was evaluated with standard benchmarks (CIS Control Framework, MITRE framework etc.).\_"
+    description: |
+      Map policies to regulations that apply to your business model and industry
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '5'
+    text: Identified and classified critical workloads which may adversely affect operations once compromised or unavailable
+    description: |
+      Critical workloads and related assets should be mapped out
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 4b8457e8-b1c7-4bb0-91cd-9fc38d387d4b
+name: Have you performed a threat analysis of your platforms and workloads?

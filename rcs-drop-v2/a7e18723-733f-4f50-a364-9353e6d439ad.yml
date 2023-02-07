@@ -1,0 +1,105 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Support Microsoft Power Platform champions in your organization
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/champions'
+    condition:
+      allOf: []
+      anyOf:
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.07e530d8-7131-4007-bf77-316c3aa1426c.0
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.07e530d8-7131-4007-bf77-316c3aa1426c.1
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.07e530d8-7131-4007-bf77-316c3aa1426c.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Onboard new makers
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/onboard-makers'
+    condition:
+      allOf: []
+      anyOf:
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.68b20ef9-997f-493d-a971-2366fdbb0692.0
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.68b20ef9-997f-493d-a971-2366fdbb0692.1
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.68b20ef9-997f-493d-a971-2366fdbb0692.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create an internal wiki and community
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/wiki-community'
+    condition:
+      allOf: []
+      anyOf:
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.fffc4b67-37cf-4e1d-8b6c-5fc3a16bf8d9.0
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.fffc4b67-37cf-4e1d-8b6c-5fc3a16bf8d9.1
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.fffc4b67-37cf-4e1d-8b6c-5fc3a16bf8d9.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Share success stories
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/show-and-tell'
+    condition:
+      allOf: []
+      anyOf:
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.d3078017-610a-46e2-8d32-e23381e69731.0
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.d3078017-610a-46e2-8d32-e23381e69731.1
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.d3078017-610a-46e2-8d32-e23381e69731.2
+      noneOf: []
+      scoreOf:
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd<17
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Organize hackathons
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/hackathons'
+    condition:
+      allOf: []
+      anyOf:
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.68b20ef9-997f-493d-a971-2366fdbb0692.0
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.68b20ef9-997f-493d-a971-2366fdbb0692.1
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.68b20ef9-997f-493d-a971-2366fdbb0692.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Training and upskilling
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/training-strategy'
+    condition:
+      allOf: []
+      anyOf:
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.d73e68bd-95c5-431e-a92f-69e2f3bf2829.0
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.d73e68bd-95c5-431e-a92f-69e2f3bf2829.1
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.d73e68bd-95c5-431e-a92f-69e2f3bf2829.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Provide internal training events
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/in-a-day'
+    condition:
+      allOf: []
+      anyOf:
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.d73e68bd-95c5-431e-a92f-69e2f3bf2829.0
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.d73e68bd-95c5-431e-a92f-69e2f3bf2829.1
+        - 092d7621-d8cb-4355-8dbb-299a10aa4acd.d73e68bd-95c5-431e-a92f-69e2f3bf2829.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: a7e18723-733f-4f50-a364-9353e6d439ad
+name: ''

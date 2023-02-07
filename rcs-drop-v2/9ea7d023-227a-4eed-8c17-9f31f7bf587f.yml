@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Migrate to do capacity planning and assessments.
+    description: 'Azure MIgrate provides a centralized hub to assess and migrate to Azure on-premises servers, infrastructure, applications, and data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: 'Ensure a VM vertical/horizontal scale plan is in place and tested (ensuring time and effort to scale are understood) and includes suitable VM series choices for new memory, CPU, I/O, and tempdb requirements.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: Use Database Experimentation Assistant for A/B testing when a SQL Server version upgrade is required.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: D
+    text: Ensure sufficient network bandwidth is in place between the database server and applications to achieve the performance and latency requirements.
+    description: Ensure resources are co-located for optimal performance and to minimize network latency and egress charges.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: E
+    text: 'Verify SQL VMs and its associated application, infrastructure, and storage resources are co-located in the same region to maintain latency SLAs.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Implement Alerts to be notified of and handle spikes in activity.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 9ea7d023-227a-4eed-8c17-9f31f7bf587f
+name: How are you ensuring you have sufficient capacity?

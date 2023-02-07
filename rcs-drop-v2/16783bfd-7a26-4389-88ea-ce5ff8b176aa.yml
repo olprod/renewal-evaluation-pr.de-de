@@ -1,0 +1,262 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa-q-0
+    name: 'Do you have an understanding of how your resources need to scale out depending on usage, utilization, and demand in a cloud context?'
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa-q-1
+    name: Have you identified the workloads that need to be built with highly available infrastructure?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa-q-2
+    name: Have you identified the workloads that have specific Security and Compliance requirements?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa-q-3
+    name: Have you identified resources where you can rightsize and optimize capacity?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa-q-4
+    name: Have you selected an initial cloud workload?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa-q-5
+    name: Are you familiar with the Azure Hybrid Benefit and how to use it to optimize licensing costs?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa-q-6
+    name: Are you familiar with Azure Reservations and pay-as-you-go pricing models?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa-q-7
+    name: Are you familiar with Azure Spot Virtual Machines and how they can help you save?
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 0
+    video:
+      title: ''
+      url: ''
+      context: ''
+      priority: 0
+      reportingCategory: ''
+      reportingSubCategory: ''
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: true
+    uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa-q-8
+    name: Do you have a strong understanding of the  baseline financial data in your on-premises datacenter today?
+stem: |+
+
+  When you're making the shift to the cloud, there are technical considerations around how it can help you better manage and maintain your cloud and workloads. Discover the technical flexibility, efficiencies, and capabilities that help you build a business case to adopt the cloud.
+
+isRequired: true
+uid: 16783bfd-7a26-4389-88ea-ce5ff8b176aa
+name: 'When you''re making the shift to the cloud, there are technical considerations around how it can help you better manage and maintain your cloud and workloads.'

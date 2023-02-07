@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Application platform components are deployed across Availability Zones or Availability Sets.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Leveraged platform services are Availability Zone aware.
+    description: 'Platform services that can leverage Availability Zones are deployed in either a zonal manner within a particular zone, and/or in a zone-redundant configuration across multiple zones'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Application platform components are deployed across multiple regions.
+    description: The ability to respond to disaster scenarios for overall compute platform availability and application resiliency is dependent on the use of multiple regions or other deployment locations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Load balancing is implemented to distribute traffic across multiple nodes.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: platform-data-sqlvm
+uid: 699058ad-8feb-48c2-9b07-579f6981f0a9
+name: What decisions have been taken to ensure the application platform meets your reliability requirements?

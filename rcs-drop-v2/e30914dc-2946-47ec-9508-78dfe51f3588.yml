@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Monitor for Azure Analysis Services.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: B
+    text: Azure Resource Health events are used to alert on resource health events.
+    description: 'Tools to validate the Azure Analysis Services instance health, such as diagnostic settings, log, and metrics.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: C
+    text: 'Azure Service Health events are used to alert on applicable Service-level events (service issues, planned maintenance, health advisories and security advisories).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.reliability
+stem: ''
+isRequired: false
+uid: e30914dc-2946-47ec-9508-78dfe51f3588
+name: How do you monitor and measure application health?

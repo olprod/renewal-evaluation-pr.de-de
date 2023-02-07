@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Utilize SQL Insights to monitor SQL Servers.
+    description: 'SQL insights provide one unified platform for SQL Server, SQL DB and SQL MI monitoring   '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Setup Azure Monitor Alerts or similar to notify DBAs of any failures.
+    description: Alerts are essential to make sure any abnormality is reported and handled.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Integrate alerts into service management solution to guarantee prompt handling.
+    description: ITSM connector of Azure Monitor alerts makes it easy to integrate with your IT Service Management solutions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: exceptions-data-sqlvm
+uid: e4495fcc-e7b8-4428-a688-b2011786e4d8
+name: How does your application logic handle exceptions and errors?

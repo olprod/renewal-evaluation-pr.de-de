@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Consider Azure Analysis Services resource and object limits.
+    description: Information on what happens when those resource limits are hit or exceeded and describes the resource governance mechanisms used to enforce these limits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: B
+    text: Verify that the Azure Analysis Services product is available in your target region.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: C
+    text: 'Regulatory or governance requirements for the data stored in your data lake (HIPAA, PCI, etc.) have been identified as they may mandate that your data remains within a certain geo-political region or that you should log every access to the data.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.reliability
+stem: ''
+isRequired: false
+uid: f790ebbb-7349-4b29-9aa8-d922101db33e
+name: How have you ensured required capacity and services are available in targeted regions?

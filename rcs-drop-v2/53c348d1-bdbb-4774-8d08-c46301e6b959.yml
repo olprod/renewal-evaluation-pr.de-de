@@ -1,0 +1,147 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Develop operating model with clarity on roles and responsibilities.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/data-management/organize'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.5a494614-c8aa-4fda-b015-449f56114374.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.5a494614-c8aa-4fda-b015-449f56114374.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: 'Define set of rules to control the integrity, quality, access security, privacy, and retention of data across your organization.'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-components'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.873d51a4-06ed-4ac2-9859-43fe8b66803b.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.873d51a4-06ed-4ac2-9859-43fe8b66803b.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: Develop an organization structure that recognizes and mitigates human and technology risks related to data sharing and/or regulatory compliance needs.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/data-management/organize'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.4c73909f-918e-4f42-b203-6129c67dec61.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.4c73909f-918e-4f42-b203-6129c67dec61.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: Implement a centralized common data discovery process and toolset to track and govern data activity.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/overview-cloud-scale-analytics'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.5aeff321-908e-4959-80e7-0d522908b39d.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.5aeff321-908e-4959-80e7-0d522908b39d.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: Consider setting up policies to secure data and manage privacy.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-lifecycle'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.7a8092d4-6ea2-43cd-a353-ba8e726b0d4a.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.7a8092d4-6ea2-43cd-a353-ba8e726b0d4a.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: Consider setting up processes to enable application of policies to ensure action is taken for meeting compliance.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-requirements'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.78a3b30c-78e9-4252-b986-de43cc8ea1a6.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.78a3b30c-78e9-4252-b986-de43cc8ea1a6.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: Consider setting up a framework to support automation of data confidentiality and data lifecycle retention classification process in line with business needs.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-requirements'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.b3b2915f-7f32-438f-ad59-0a39b9b8f3f4.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.b3b2915f-7f32-438f-ad59-0a39b9b8f3f4.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: Enable your organizations to simply and securely share data with multiple customers and partners.
+    url: 'https://docs.microsoft.com/en-us/azure/data-share/overview'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.47f50eb3-ba95-4192-b7ba-1bf597c6b797.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.47f50eb3-ba95-4192-b7ba-1bf597c6b797.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: Consider adopting the use of data modelling tools before ingestion. Capture and store entity relationship models in a central location within your data management landing zone to data consumers a single place to find conceptual diagrams.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/data-management-landing-zone#data-modeling-repository'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.872c6ac3-0180-45fe-8a54-397fc99da844.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.872c6ac3-0180-45fe-8a54-397fc99da844.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: Consider using tokenization to remove secure information and replace with non-sensitive  data for analytics purpose and it works with structured data vs unstructured data.
+    url: 'https://techcommunity.microsoft.com/t5/azure-architecture-blog/data-analytics-solution-tokenization-with-external-tokenization/ba-p/2821038'
+    condition:
+      allOf: []
+      anyOf:
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.77f12857-cce0-4292-89fe-13f0799b2f6f.0
+        - 8b4e7b04-5f39-4383-9ba7-08438ac18e0b.77f12857-cce0-4292-89fe-13f0799b2f6f.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+  - title: 'Consider using  major areas of encryption, including encryption at rest, encryption in flight, and key management with Azure Key Vault.'
+    url: 'https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Data Management
+uid: 53c348d1-bdbb-4774-8d08-c46301e6b959
+name: ''

@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'For data loading, I have considered using bulk import to help optimize for periodic large data ingestion.'
+    description: 'Utilizing certain SDK feature, tools, and patterns allows you to control and optimize provisioned throughput, when importing data into Cosmos DB.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '1'
+    text: 'For analytical queries, I have considered utilizing Azure Synapse Link for Cosmos DB at a lower cost.'
+    description: Azure Synapse Link for Cosmos DB is low cost fully automated feature that enables near real-time analytics over the Cosmos DB Analytical store with no provisioned throughput required.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: 'I have defined and enforced data retention and archival requirements of transactional store data and analytical store data, through TTL or other means.'
+    description: 'Through the applicable data lifecycle management approach, such as archiving to blob storage, cost savings can be realized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '3'
+    text: I have considered de-normalizing or aggregating data for read-heavy patterns.
+    description: 'For read-heavy workloads, storing a pre-aggregated or de-normalized version can make reads significantly cheaper.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '4'
+    text: 'For read scenarios that do not match my primary PK choice, I have considered storing data with an alternative partition key.'
+    description: 'When you have a different access pattern of an existing dataset (e.g. you are NOT using the existing partition key), create a new collection that stores a subset of the master data, thereby allowing for the new PK to be utilized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+  - id: '5'
+    text: I have identified client apps with their tolerance for query latency based on rate limiting method.
+    description: When your application has NO rate limiting exceptions you are improperly scaled. (i.e. over-spending) Occasional latency/rate-limiting shows proper RU scaling.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '6'
+    text: I have implemented exception handling in our client code.
+    description: 'By reducing your provisioned throughput to a point at which you get occasional rate limiting, will result in efficient utilization of provisioned resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '7'
+    text: I have assessed opportunities to select a better partition key to reduce query fan-out.
+    description: 'Reducing query-fan out, helps to consume less RU, resulting in optimization of the provisioned resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 22
+  - id: '8'
+    text: I have searched for opportunities to reduce the number of physical partitions created due to previous and unnecessarily high scale-up or provisioning.
+    description: 'Fragmentation of throughput will occur when scaling down from high provisioning, you can effectively utilize the provisioned resources when reducing the number of physical partitions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 18
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.C
+    - waf-config-golive.pillars.cost
+stem: 'Choosing the right partition key is critical towards minimizing RU consumption. During this assessment, you assess the workload operations & patterns, to optimize your storage and throughput distribution. This is fundamental to getting the scalability and availability that Cosmos provide, so let''s measure twice and cut once. '
+isRequired: false
+uid: 16465016-8aa6-4261-8d96-4e9f46b30547
+name: Choosing the right partition key is critical towards minimizing RU consumption.

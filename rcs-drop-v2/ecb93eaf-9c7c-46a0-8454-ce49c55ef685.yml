@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have no mechanism in place to evaluate Azure resource configurations and ensure compliance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Azure resource configuration evaluation for compliance is a manual process.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Some Azure resource configurations are automatically audited against documented standards.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: All Azure resource configurations are automatically audited against documented standards. Remediation activities are done manually.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: 'All Azure resource configurations are automatically audited against documented standards. Remediation activities are automated, and/or non-compliant resource deployments are blocked.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: ecb93eaf-9c7c-46a0-8454-ce49c55ef685
+name: How do you ensure Azure resource configurations are compliant with organizational and regulatory standards?

@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Governance and risk compliance (SC-100 OD 2)
+hideEmptyGuidance: false
+questions:
+  - 53f3fac3-cd40-4d05-b853-f0ef71c2cf6c
+  - 3de27439-e116-4775-83ad-1aa9ae404380
+recommendations:
+  - 165591d9-ed7c-43d9-926d-3539a53b8b23
+assignedGroupIds: []
+uid: b4397d26-c8e9-4cba-b911-79bdfdefc651
+name: Governance and risk compliance (SC-100 OD 2)

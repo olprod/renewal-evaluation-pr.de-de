@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are implementing Microsoft Dynamics 365 Field Service.
+
+  Your supervisor asks you to configure a tab on the schedule board. The tab must only show unscheduled work orders that have a sub-status of Pending Parts.
+
+  What should you do to accomplish this goal?
+questionnaireUid: 45539ed0-f87a-4369-8ad2-d7342352194c
+questions:
+  - uid: fc2ea5ad-e21b-4db1-ad47-f892d2d44cd3-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are implementing Microsoft Dynamics 365 Field Service.
+        isCorrect: false
+      - id: 1
+        text: Your supervisor asks you to configure a tab on the schedule board.
+        isCorrect: false
+      - id: 2
+        text: The tab must only show unscheduled work orders that have a sub-status of Pending Parts.
+        isCorrect: false
+      - id: 3
+        text: What should you do to accomplish this goal?
+        isCorrect: true
+uid: fc2ea5ad-e21b-4db1-ad47-f892d2d44cd3
+title: ''

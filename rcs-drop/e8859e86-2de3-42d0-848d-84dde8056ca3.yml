@@ -1,0 +1,34 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Microsoft 365 deployment that has the following domains configured.
+
+  - Contoso.onmicrosoft.com
+
+  - Contoso.com
+
+  The current Teams deployment has an existing sip trunk from Fabrikam.
+
+  You need to add Direct Routing to the Teams deployment. 
+
+  Which PowerShell command should you run?
+questionnaireUid: 9dd70653-b65e-46fe-8da6-042a46fd7ee9
+questions:
+  - uid: e8859e86-2de3-42d0-848d-84dde8056ca3-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: '`New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5061`'
+        isCorrect: true
+      - id: 1
+        text: '`New-CsOnlinePSTNGateway -FQDN sbc.onmicrosoft.com -SIPSignalingPort 5061`'
+        isCorrect: false
+      - id: 2
+        text: '`New-CsOnlinePSTNGateway -FQDN sbc.contoso.fabrikam.com -SIPSignalingPort 5060 `'
+        isCorrect: false
+      - id: 3
+        text: '`New-CsOnlinePSTNGateway -FQDN contososbc.fabrikam.com -SIPSignalingPort 5067 contososbc.fabrikam.com`'
+        isCorrect: false
+uid: e8859e86-2de3-42d0-848d-84dde8056ca3
+title: ''

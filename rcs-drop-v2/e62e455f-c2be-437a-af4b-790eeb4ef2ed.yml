@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We are not too concerned with serving data to a BI reporting tool. '
+    description: "Only Power BI Desktop has performant integration with Databricks.\_"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: 'We are looking for the best choice in tight integration with Power BI. '
+    description: Azure Synapse Studio is tightly integrated with Power BI and provides strong self-service BI reporting capability.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Will the workload involve serving data to a BI reporting tool (i.e. Power BI)?
+isRequired: true
+uid: e62e455f-c2be-437a-af4b-790eeb4ef2ed
+name: Will the workload involve serving data to a BI reporting tool (i.e. Power BI)?

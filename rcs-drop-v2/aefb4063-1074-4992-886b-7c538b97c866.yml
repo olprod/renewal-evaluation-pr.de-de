@@ -1,0 +1,101 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Dynamics 365 Roadmap Resources:'
+    url: 'https://dynamics.microsoft.com/en-us/roadmap/overview/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Dynamics 365 Roadmap Resources:'
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-home-page'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 06c516c3-3fc3-46b4-8013-c14fe9ea0374.bcaa0e11-e8f6-4cac-9e02-d266593d6dba.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Removed or deprecated features home page
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.yml'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 06c516c3-3fc3-46b4-8013-c14fe9ea0374.baf360cb-c1db-4105-a02a-5dacbee6d55f.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Removed or deprecated platform features
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/get-started/removed-deprecated-features-platform-updates'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 06c516c3-3fc3-46b4-8013-c14fe9ea0374.baf360cb-c1db-4105-a02a-5dacbee6d55f.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: One Version service updates FAQ
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/one-version'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 06c516c3-3fc3-46b4-8013-c14fe9ea0374.4d6b64c3-fe3c-4317-8df6-0b08f4777f87.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Proactive quality updates
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 06c516c3-3fc3-46b4-8013-c14fe9ea0374.c665701b-ea18-42d7-bebe-78795a29fa8a.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create and automate user acceptance tests
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests?context=%2Fdynamics365%2Fcontext%2Fcommerce'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 06c516c3-3fc3-46b4-8013-c14fe9ea0374.003b8d26-a9fe-4d81-b46f-363f5f03bfe6.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Regression suite automation tool (RSAT) Overview
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/perf-test/rsat/rsat-overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 06c516c3-3fc3-46b4-8013-c14fe9ea0374.326a7ef2-dfdd-46a8-95ed-c92008a5698c.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: aefb4063-1074-4992-886b-7c538b97c866
+name: Establish Application Updates Best Practices for your Solutions &amp; Operations

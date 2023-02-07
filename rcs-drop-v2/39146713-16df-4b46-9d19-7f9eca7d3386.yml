@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You have centralized configuration and compliance management.
+    description: Your solution has a centralized configuration and compliance management.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You can apply policies to services to meet industry-specific compliance.
+    description: Your solution can apply policies to services to meet industry-specific compliance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: Services and data in the cloud are compliant with the industry compliance regime.
+    description: Services and data in the cloud are compliant with the industry compliance regime.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: 'Solution developers and operators need to have a straightforward approach to get their services into a healthy security posture, and to apply policies that enable them to meet their industry-specific compliance needs (such as Payment Card Industry used in financial transactions).'
+isRequired: false
+uid: 39146713-16df-4b46-9d19-7f9eca7d3386
+name: 'Solution developers and operators need to have a straightforward approach to get their services into a healthy security posture, and to apply policies that enable them to meet their industry-specific compliance needs (such as Payment Card Industry used in financial transactions). Q12.'

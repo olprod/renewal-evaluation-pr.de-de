@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Watch my cloud costs - Do you or your team review your invoice?
+    description: Please make sure you regularly review invoices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Create and respond to cost alerts.
+    description: 'You have established your cost budget amounts, time periods and email alerts. Like any systems monitoring, this may need refining over time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Perform cost reviews on a regular cadence.
+    description: Effective ongoing cost management includes informed cost reviews with key stakeholders.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: 02d7445b-450a-40c0-89ec-79033c4ef1ba
+name: How are you monitoring your costs?

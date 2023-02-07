@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Stored Procedures for dedicated SQL pools in Azure Synapse Analytics.
+    description: 'Stored procedures are a great way for encapsulating your SQL code, which is stored close to your dedicated SQL pool data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Use User-defined schemas for dedicated SQL pools in Azure Synapse Analytics.
+    description: 'Consolidate workloads, security, domain, and functional boundaries by using user-defined schema.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: 'Create, develop, and maintain Synapse Studio notebooks in Azure Synapse Analytics.'
+    description: 'A Synapse Studio notebook is a web interface for you to create files that contain live code, visualizations, and narrative text.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Create an Apache Spark applications with VSCode using a Azure Synapse Analytics workspace.
+    description: 'Learn how to use Apache Spark & Hive Tools for Visual Studio Code. Use the tools to create and submit Apache Hive batch jobs, interactive Hive queries, and PySpark scripts for Apache Spark'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Create an Apache Spark application with IntelliJ using a Synapse workspace.
+    description: 'Use the Azure Toolkit for IntelliJ plug-in to develop Apache Spark applications, which are written in Scala, and then submit them to a serverless Apache Spark pool directly from the IntelliJ integrated development environment (IDE).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Use .NET for Apache Spark with Azure Synapse Analytics.
+    description: '.NET for Apache Spark provides free, open-source, and cross-platform .NET support for Spark.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: development-data-synapse
+uid: 5c157c77-7b54-4936-9128-5c1a80d05a4d
+name: How is development done on this workload?

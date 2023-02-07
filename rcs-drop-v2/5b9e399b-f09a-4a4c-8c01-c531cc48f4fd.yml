@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The application is tested against critical Non-Functional requirements for performance.
+    description: Is the application tested for performance?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Load Testing is conducted with expected peak volumes to test scalability and performance under load.
+    description: Is Load testing performed using expected peak volumes? i.e. do you test application scalability and performance under load?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Chaos Testing is performed by injecting faults.
+    description: Is the system tested under critical failure scenarios to validate availability and recovery targets are fully satisfied?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Tests are automated and carried out periodically or on-demand.
+    description: Are tests automated and carried out periodically or on-demand?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Critical test environments have 1:1 parity with the production environment.'
+    description: 'Do key test environments have 1:1 parity with the production environment?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: F
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Reliability allowances for operations
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWEIvt'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Application workloads should be tested to validate reliability against defined reliability targets.
+isRequired: false
+legacyId: '11'
+uid: 5b9e399b-f09a-4a4c-8c01-c531cc48f4fd
+name: Application workloads should be tested to validate reliability against defined reliability targets.

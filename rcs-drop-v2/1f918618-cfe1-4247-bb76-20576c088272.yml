@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have not yet established any formal project governance controls
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We have a plan to establish formal project controls such as steering groups, risk management, design, architecture and change boards, technical project standards and key stage gates. We have not determined how to assess their effectiveness. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We have a formal project charter that has documented formal project controls such as steering groups, risk management, design, architecture and change boards, technical project standards and key stage gates. We have not determined how to assess their effectiveness. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'We have a formal project charter that has documented formal project controls such as steering groups, risk management, design, architecture and change boards, technical project standards and key stage gates. We have a defined process to regularly assess the effectiveness of these project controls. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Which of the following statements best describes your project controls?
+isRequired: true
+uid: 1f918618-cfe1-4247-bb76-20576c088272
+name: Which of the following statements best describes your project controls?

@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a call queue that has a phone number assigned. The call queue forwards calls to the voicemail after business hours.
+
+  You need to identify the license required for the call queue. The solution must minimize costs.
+
+  What license should you identify?
+questionnaireUid: f1dfeb23-f3f6-460a-86e3-0c327b07f07a
+questions:
+  - uid: ee0a3a8c-6556-447d-9078-fd74b1eb62dc-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a call queue that has a phone number assigned.
+        isCorrect: true
+      - id: 1
+        text: The call queue forwards calls to the voicemail after business hours.
+        isCorrect: false
+      - id: 2
+        text: You need to identify the license required for the call queue.
+        isCorrect: false
+      - id: 3
+        text: The solution must minimize costs.
+        isCorrect: false
+uid: ee0a3a8c-6556-447d-9078-fd74b1eb62dc
+title: ''

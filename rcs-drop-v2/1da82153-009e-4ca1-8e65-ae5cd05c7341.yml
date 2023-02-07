@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 8bf180cd-64ef-45d7-a309-3f5db97b62ba
+  - 0a60fb6c-3f09-4b54-b9de-4f9fb9ce6c9a
+  - 411b6a22-20fb-4868-b613-58635db993ce
+  - 4e5ceb10-418b-427c-b106-15ea2ce2888c
+  - bb7eb7c2-f03c-4fe3-99c4-bfc4fed43e9a
+  - ae3a5fda-76db-4b44-b0b0-fcb15614ebf4
+recommendations:
+  - 2cdaa7c3-cda4-428c-8ad6-aba380435b1d
+assignedGroupIds: []
+uid: 1da82153-009e-4ca1-8e65-ae5cd05c7341
+name: 'Mission Critical: Deployment and Testing'

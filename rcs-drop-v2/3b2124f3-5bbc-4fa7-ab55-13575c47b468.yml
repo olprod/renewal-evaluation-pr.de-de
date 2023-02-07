@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 3e73f6d4-a689-4591-bae7-5a1ae42c0b3d
+  - 3597b374-416a-4e75-adfb-245e3cdcdecc
+  - b00a105f-e511-4975-a329-cb35d028d1ad
+  - 29b738e6-24aa-4931-8ebd-f4c666686659
+  - f9c5a5af-d10b-42f6-9da6-e9843db01b44
+recommendations:
+  - 14d6bdd8-8e73-4528-a1de-d65b7ddd8049
+assignedGroupIds: []
+uid: 3b2124f3-5bbc-4fa7-ab55-13575c47b468
+name: Analysis Services - Security

@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Evaluate security posture by using benchmarks (including Azure security benchmarks, ISO 2701, etc.) • Evaluate security posture by using Microsoft Defender for Cloud • Evaluate security posture by using Secure Scores • Evaluate security posture of cloud workloads • Design security for an Azure Landing Zone • Interpret technical threat intelligence and recommend risk mitigations • Recommend security capabilities or controls to mitigate identified risks'
+isRequired: true
+uid: 3de27439-e116-4775-83ad-1aa9ae404380
+name: 'For example: Evaluate security posture by using benchmarks (including Azure security benchmarks, ISO 2701, etc.) • Evaluate security posture by using Microsoft Defender for Cloud • Evaluate security posture by using Secure Scores • Evaluate security posture of cloud workloads • Design security for an Azure Landing Zone • Interpret technical threat intelligence and recommend risk mitigations • Recommend security capabilities or controls to mitigate identified risks '

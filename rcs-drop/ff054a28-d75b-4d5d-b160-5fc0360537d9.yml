@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are creating an Azure Data Factory pipeline.
+
+  You need to start an on-demand Azure HDInsight cluster to process data through a Hive query.
+
+  Which Data Factory component should you create first?
+questionnaireUid: 806ae50b-244c-4c82-83ae-542bc0514530
+questions:
+  - uid: ff054a28-d75b-4d5d-b160-5fc0360537d9-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are creating an Azure Data Factory pipeline.
+        isCorrect: false
+      - id: 1
+        text: You need to start an on-demand Azure HDInsight cluster to process data through a Hive query.
+        isCorrect: false
+      - id: 2
+        text: Which Data Factory component should you create first?
+        isCorrect: true
+      - id: 3
+        text: a dataset
+        isCorrect: false
+uid: ff054a28-d75b-4d5d-b160-5fc0360537d9
+title: ''

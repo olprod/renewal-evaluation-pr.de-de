@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You have an asset modeling and device state service that lets you optimize costs based on your requirements.
+    description: Most IoT solutions require an asset and device state store. Evaluate how first party cloud services provide the best cost optimized solution for your requirements.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You understand the design considerations when ntegrating IoT data and your business systems within Azure Digital Twins to achieve optimum cost and performance.
+    description: There are many factors to consider when you implement integrations with Azure Digital Twins because it needs a lot of code and queries. It also handles a lot of ingress and egress data from telemetry inputs to downstream services. Technical documentation provides guidance on how to optimize code and queries for cost reduction.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: You investigate how to optimize Azure Digital Twins by using caching and edge processing.
+    description: Identify tuning points while testing a system at different scales. Incorporate the tuning points identified in the system design. Designing optimized systems helps a cost reduction through improved system efficiency.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'Azure Digital Twins provides the capability to model your own digital assets and integrate with enterprise systems. Effective modeling and integration affects data consumption and event processing costs. '
+isRequired: false
+uid: 03db9124-2d59-4235-ae53-70bb6faf819e
+name: Azure Digital Twins provides the capability to model your own digital assets and integrate with enterprise systems. Effective modeling and integration affects data consumption and event processing costs.

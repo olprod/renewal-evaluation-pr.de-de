@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - d242e3ba-a298-44a7-87d4-c9aaeaf5bd86
+recommendations:
+  - 3edc2447-b696-4411-9b09-7f2dc674b812
+assignedGroupIds: []
+uid: a54b9609-f33a-468b-ae3d-bf617648cd2f
+name: 'Go-Live - Functions: Performance Efficiency'

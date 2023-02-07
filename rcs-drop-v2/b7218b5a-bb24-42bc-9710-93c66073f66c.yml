@@ -1,0 +1,138 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Are specific methodologies, like DevOps, used to structure the development and operations process?'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: B
+    text: Do you have a branching strategy?
+    description: 'Consider adopting a strategy that leverages features and release branches, each new feature should reside in its own branch, which can be pushed to the central repository for backup/collaboration.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: C
+    text: Track and publish the roadmap of your workload.
+    description: Publishing a single source of truth for all stakeholders to avoid mismatched expectations and to give an accurate picture of the current status.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: D
+    text: Is all scripting in place for automatic deployment of the database service?
+    description: The database can be deployed automatically from scratch without any manual operations using templates.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: E
+    text: Is every manual operation completely documented and tested?
+    description: There should be a documented process for any portions of the deployment that require manual intervention.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: F
+    text: Can N-1 or N+1 versions be deployed via automated pipelines where N is current deployment version in production?
+    description: 'Have a rollback plan for each deployment because if a deployment fails, your database could become unusable.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: G
+    text: Is there a defined database hotfix process which bypasses normal deployment procedures?
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: H
+    text: What type of releases does your database support?
+    description: The database should support a deployment process that leverages blue-green deployments and/or canary releases.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: I
+    text: Are you avoiding releasing untested changes to production?
+    description: 'Releases to production should be gated by having it successfully deployed and tested, both functional and performance, in other environments.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: J
+    text: Are feature flags used to test features before rolling them out to everyone?
+    description: Feature flags are used to test features before rolling them out to everyone. Disable feature flags if they cause any unexpected problems.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: K
+    text: 'How do database engineering, development, and operations teams collaborate to resolve production issues?'
+    description: 'Collaboration between database engineering, development, and operations teams to resolve production issues are clearly defined and well understood.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: L
+    text: How are operational shortcomings and failures analyzed?
+    description: 'Operational shortcomings and failures are analyzed through post-mortems, which improve and refine operational procedures.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: M
+    text: Are tools or processes in place to grant access on a just-in-time basis?
+    description: 'There are tools or processes in place, such as Azure AD Privileged Identity Management, to grant access to critical databases on a just-in-time basis.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: 'N'
+    text: 'Are tools and processes in place to govern available services, enforce mandatory operational functionality, and ensure compliance?'
+    description: 'There are tools and processes, like Azure Policy for database resources, in place to govern available services, enforce mandatory operational functionality, and ensure compliance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: O
+    text: Do you have a release process for database code changes?
+    description: 'One of the challenges with automating database deployments is the cut-over itself, taking software from the final stage of testing to live production.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: P
+    text: Track the release of database code changes as they progress through different environments.
+    description: Structured use of staging and pre-production environments allow you to push database updates to the production environment in a highly controlled way and minimize disruption from unanticipated deployment issues.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: b7218b5a-bb24-42bc-9710-93c66073f66c
+name: What processes and procedures have you adopted to optimize your workload for DevOps?

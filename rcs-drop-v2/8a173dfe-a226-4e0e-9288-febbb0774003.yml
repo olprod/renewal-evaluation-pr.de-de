@@ -1,0 +1,96 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Automatic alerting has been configured using the Hardware OEM Life Cycle Management tool, (such as OpenManage, OneView, xClarity or UCS Manager).'
+    description: 'Has Automatic alerting has been configured using the Hardware OEM Life Cycle Management tool, (such as OpenManage, OneView, xClarity or UCS Manager), to enable notifications for any hardware alerts.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: External monitoring has been enabled to automatically detect and respond to any alerts raised by the Azure Stack Hub Health API/Admin ARM Endpoint.
+    description: 'Has external monitoring been configured to poll the Azure Stack Hub Health API/Admin ARM Endpoint on a frequent basis, to automatically detect and respond to any alerts raised by the platform.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: SNMP Traps have been configured on the physical nodes BMC cards to forward hardware alerts to the ERCS VMs to provide integrated hardware alerting. (if supported by Hardware OEM).
+    description: 'Depending on the hardware OEM partner, it can be possible to configure SNMP Traps to be forwarded to the ERCS to enable integrated monitoring and alerting for hardware components, so that hardware issues are raised as an alert via the Health API.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: 'Syslog forwarding has been configured to send audit, alerts and security log events to a security information event management (SIEM) system for correlation and threat management.'
+    description: 'Has Syslog security event forwarding been configured to send audit, alerts and security log events to a security information event management (SIEM) system for correlation and threat management.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: 'Information technology service management (ITSM) software has been integrated into the monitoring solution, to automate the creation of internal IT support incidents (tickets) when an alert is detected on Azure Stack Hub.'
+    description: 'Has Information technology service management (ITSM) software (such as Service Now or Service Manager) been integrated into the monitoring solution, to automate the creation of internal IT support incidents (tickets) when an alert is detected on Azure Stack Hub.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: 'Monitoring is configured for the ARM and Admin ARM, and the User and Admin portal (4 x endpoints) to monitor availability. For example, using synthetic web transactions to monitor ''HTTPS response code: 200'' (success events).'
+    description: 'Has monitoring been configured for the ARM and Admin ARM, and the User and Admin portal (4 x endpoints) to monitor availability. For example, using synthetic web transactions to monitor ''HTTPS response code: 200'' (success events).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: G
+    text: 'Automatic diagnostic log collection is enabled from the Administrator Portal, to proactively send logs to Microsoft support (connected) or to a Local File Share (disconnected).'
+    description: 'Has the diagnostic log collection settings been enabled from the Administrator Portal, to proactively send logs to Microsoft support (connected) or to a Local File Share (disconnected).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: 'Test-AzureStack is run on a weekly or monthly basis to verify the state of the platform, the HTML Validation Report and/or JSON output is collected and retained for reporting purposes.'
+    description: 'Has automation been configured, to run Test-AzureStack on a weekly or monthly basis to verify the state of the platform? The HTML Validation Report and/or JSON can be collected and used to report on specific attributes, such as a snapshot of the physical nodes performance metrics.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: I
+    text: 'Automation scripts have been enabled to proactively monitor physical disk health / status, and the amount of used/available disk space of each volume/object store.'
+    description: 'Additional health reporting and monitoring can be enabled for physical disks, by querying information from the Admin ARM endpoint using PowerShell. Volumes (object store) capacity can be reported to track usage and predict data growth basis on historical trends.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: J
+    text: 'Periodically check the ''Storage Volume Performance Dashboards'' in the Admin Portal to view the Capacity, Through-put, Number of Operations and Latency values for each Object Store.'
+    description: 'Have the optional ''Storage Volume Performance Dashboards'' been enabled in the Admin Portal to view the Capacity, Through-put, Number of Operations, and Latency values for each Object Store? These are enabled using a PowerShell script to create a JSON file that is uploaded to the Admin portal per user.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 8a173dfe-a226-4e0e-9288-febbb0774003
+name: What processes and procedures have been implemented for effective monitoring and alerting?

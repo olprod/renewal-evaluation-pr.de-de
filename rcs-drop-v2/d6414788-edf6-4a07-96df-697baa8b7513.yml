@@ -1,0 +1,26 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Key Vault secrets in pipeline activities for data sources that don't support Azure AD or Managed Identity
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: tradeoffs-data-synapse
+uid: d6414788-edf6-4a07-96df-697baa8b7513
+name: What tradeoffs do you need to make to meet your security goals?

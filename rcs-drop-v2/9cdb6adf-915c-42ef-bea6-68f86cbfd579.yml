@@ -1,0 +1,109 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The Cosmos DB and resources using it are deployed in a region that is close to the majority of the user base.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: B
+    text: We have reviewed the best practices around consistency levels and have configured our Cosmos DB accordingly.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: C
+    text: We usually change the consistency level depending on the data operation/usage.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: D
+    text: Our team is aware of connectivity modes and connection protocols in Azure Cosmos DB.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: E
+    text: Preferred Locations are configured for our Cosmos DB resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: F
+    text: Index precisions are specified.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: G
+    text: We have reviewed the best practices around picking a partition key and have applied them.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: H
+    text: Instances are optimized for read performance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: I
+    text: Instances are optimized for data modification.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: The Cosmos DB performs well during day-to-day operations.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: K
+    text: The database has defined SLA targets and meets them.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: L
+    text: Retries are handled when resource limits are exceeded.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-data.cosmos
+stem: ''
+isRequired: false
+uid: 9cdb6adf-915c-42ef-bea6-68f86cbfd579
+name: Have you evaluated your Cosmos DB for reliability?

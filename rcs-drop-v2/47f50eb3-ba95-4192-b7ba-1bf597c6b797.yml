@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no formal way to capture and store entity relationship models in a central location.
+    description: Your organization has no formal way to capture and store entity relationship models in a central location.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has defined a way to capture and store entity relationship models.
+    description: Your organization has defined a way to capture and store entity relationship models.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has an official and endorsed way to capture and store entity relationship models in a central location.
+    description: Your organization has an official and endorsed way to capture and store entity relationship models in a central location.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization is planning to utilize data modelling tools for central storage. '
+    description: |
+      Your organization is planning to utilize data modelling tools for central storage. 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization is fully leveraging data modelling tools for capturing and storing entity relationship models in a central location within your data management landing zone to data consumers a single place to find conceptual diagrams.
+    description: Your organization is fully leveraging data modelling tools for capturing and storing entity relationship models in a central location within your data management landing zone to data consumers a single place to find conceptual diagrams.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you capture and store entity relationship models in a central location?
+isRequired: true
+uid: 47f50eb3-ba95-4192-b7ba-1bf597c6b797
+name: Do you capture and store entity relationship models in a central location?

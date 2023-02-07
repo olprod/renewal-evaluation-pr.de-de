@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization meets governance through siloed and limited co-ordination in achieving wide strategic outcomes.
+    description: |
+      Your organization meets governance through siloed and limited co-ordination in achieving wide strategic outcomes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization displays evidence of informal Data Governance functions and roles that perform Data Governance activities.
+    description: |
+      Your organization displays evidence of informal Data Governance functions and roles that perform Data Governance activities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. You organization has defined roles, structure, processes and a set of defined Data Governance artefacts.'
+    description: 'You organization has defined roles, structure, processes and a set of defined Data Governance artefacts.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has mature Data Governance function with Establish Domain specific Data Governance function, roles and responsibilities with executive sponsorship.'
+    description: 'Your organization has mature Data Governance function with Establish Domain specific Data Governance function, roles and responsibilities with executive sponsorship.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has transitioned to business-led, technology supported Data Governance function that drives planning and measures actual performance.'
+    description: 'Your organization has transitioned to business-led, technology supported Data Governance function that drives planning and measures actual performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have a defined process with clear governance delivers consistent outcomes across aligned functional analytics teams?
+isRequired: true
+uid: fadd248e-fa7d-44e7-a488-b5a238e87d25
+name: Do you have a defined process with clear governance delivers consistent outcomes across aligned functional analytics teams?

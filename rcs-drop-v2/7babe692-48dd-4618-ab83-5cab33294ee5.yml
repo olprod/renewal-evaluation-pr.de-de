@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Managed identities are audited and reviewed regularly
+    description: |
+      Managed application identities should be audited
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '2'
+    text: Access reviews are performed on all privileged groups
+    description: |
+      Regularly review permissions
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '3'
+    text: Access reviews are performed on all guest accounts
+    description: |
+      Regularly review permissions
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 7babe692-48dd-4618-ab83-5cab33294ee5
+name: How are you monitoring and reviewing access to your cloud?

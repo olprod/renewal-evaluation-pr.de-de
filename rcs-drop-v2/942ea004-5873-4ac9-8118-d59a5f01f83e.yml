@@ -1,0 +1,132 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Services which should not be accessible from public IP addresses, are protected with network restrictions / IP firewall rules. '
+    description: 'Network security has been the traditional lynchpin of enterprise security efforts. However, cloud computing has increased the requirement for network perimeters to be more porous and many attackers have mastered the art of attacks on identity system elements (which nearly always bypass network controls).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '1'
+    text: 'Service Endpoints or Private Links are used for accessing Azure PaaS services. '
+    description: 'Azure PaaS services are typically accessed over public endpoints. However, the Azure platform provides capabilities to secure such endpoints or even make them entirely private'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '2'
+    text: 'Azure Firewall or any 3rd party next generation firewall is used to control outgoing traffic of Azure PaaS services (data exfiltration protection) where Private Link is not available. '
+    description: 'Private Link addresses data exfiltration concerns associated with VNet service endpoints. As an alternative, you can use outbound filtering via network virtual appliances (NVAs) to provide steps to mitigate data exfiltration.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '3'
+    text: 'Network security groups (NSG) are used to isolate and protect traffic within VNets. '
+    description: Use a network security group to protect against unsolicited traffic
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '4'
+    text: Network Security Group flow logs are configured to get insights about incoming and outgoing traffic
+    description: 'NSG flow logs can be analyzed using several tools, including third-party Elastic Stack, Grafana, and Graylog. The recommended Azure first-party solution is Azure Traffic Analytics.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '5'
+    text: 'Access to backend infrastructure (APIs, databases, etc.) is restricted to only a minimal set of public IP addresses - only those who really need it. '
+    description: 'Public access to any workload should be judiciously approved and planned, as public entry points represent a key possible vector of compromise.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '6'
+    text: 'Identified groups of resources are isolated from other parts of the organization to aid in detecting and containing adversary movement within the enterprise. '
+    description: Identify groups of resources that can be isolated from other parts of the enterprise to contain (and detect) adversary movement within your enterprise.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '7'
+    text: 'All public endpoints are protected/secured with appropriate solution (i.e. Azure Front Door, Azure Firewall...). '
+    description: A public endpoint receives traffic over the internet. The endpoints make the service easily accessible to attackers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '8'
+    text: 'Publishing methods (e.g FTP, Web Deploy) are protected. '
+    description: 'Application resources allowing multiple methods to publish app content, such as FTP, Web Deploy should have the unused endpoints disabled.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '9'
+    text: 'Code is published using CI/CD process instead of manually. '
+    description: Securing the pipeline and CI/CD workflow
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '10'
+    text: 'Virtual Machines running on premises or in the cloud don''t have direct internet connectivity for users that may perform interactive logins, or by applications running on virtual machines. '
+    description: You can configure endpoint connections on virtual networks for virtual machines (VMs) and services that require internet communication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '11'
+    text: 'There''s a capability and plans in place to mitigate DDoS attacks for critical workloads. '
+    description: Enable Distributed Denial of Service (DDoS) mitigations for all business-critical web application and services.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '12'
+    text: "Legacy network security controls for data loss prevention were deprecated.\_"
+    description: Discontinue the use of signature-based Network Intrusion Detection/Network Intrusion Prevention (NIDS/NIPS) Systems and Network Data Leakage/Loss Prevention (DLP).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '13'
+    text: "There is a security containment strategy that blends existing on-premises security controls and practices with native security controls available in Azure, and uses a zero-trust approach.\_"
+    description: 'An evolving emerging best practice recommendation is to adopt a Zero Trust strategy based on user, device, and application identities. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '14'
+    text: 'Traffic between subnets, Azure components and application landing  zones are managed and protected. '
+    description: 'Protect data anywhere it goes including cloud services, mobile devices, workstations, or collaboration platforms.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '15'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 942ea004-5873-4ac9-8118-d59a5f01f83e
+name: How is connectivity secured across your cloud platform?

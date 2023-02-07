@@ -1,0 +1,33 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This focusses on organization's readiness to adopt Databricks.
+hideEmptyGuidance: false
+questions:
+  - 981fcbd5-08d0-4e33-bdab-56e860ec1add
+  - c61cc743-c4a8-4e3a-8c0b-89c845bb1575
+  - ba88f766-22e7-4868-9882-7c64f4ce1aea
+  - 8c4dead5-3f4d-43b0-91d1-b0f5ab38e9b2
+  - 33fd19c1-81df-4fc3-9d93-98bf401eb881
+  - 8d524a46-e598-408e-8ade-4f0b1849e8fa
+  - 1a3746a9-d907-4933-a5dc-3afb74a7e546
+  - 8adffe0d-5227-49bc-811c-376d3d01941c
+  - 86bb13ed-e695-4e38-a73a-d636c81b3873
+  - d714a81a-6c84-44b7-98ed-f7ccd2a9e0df
+  - e5053ea4-6a0e-48d8-b505-044f1b632f25
+  - 7153580c-cd1d-43ed-882e-be6f5c14e1b6
+  - d905d5a7-ab4a-4fa7-a489-ebe0b80529c8
+  - 48534c2c-57cc-48c5-81e3-d5ec94521ca5
+  - 40fb8e05-28a6-4a4b-95f7-ef4416740ee5
+  - 3336b2fa-2005-45be-a4fd-a834cf5e7006
+  - 3d097d2b-3e31-4571-b936-a0524c296885
+  - 7196765b-685b-46b8-82c7-926a3c933a51
+  - d6155079-9549-4a48-a8ef-860c97e225ff
+  - 659974ae-8bb0-4e0b-8ec4-09e702315ec2
+  - 58ccfc87-b875-4188-b406-ac615563de50
+  - e62e455f-c2be-437a-af4b-790eeb4ef2ed
+recommendations:
+  - e776a002-49c3-493c-acfe-be1d8993ebdd
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: 167122f1-71f7-4e0a-b699-171c9de287ed
+name: 'Maturity Framework - Databricks '

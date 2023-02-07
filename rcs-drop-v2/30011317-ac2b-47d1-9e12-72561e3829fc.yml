@@ -1,0 +1,103 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Application processes are stateless.
+    description: Are all processes stateless with application state externalized?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: B
+    text: Session state is non-sticky and externalized to a data store.
+    description: Is session state (if any) non-sticky and externalized to a data store?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: Application configuration is treated as code and deployed with the application.
+    description: Is application configuration treated as code and deployed with the application? i.e. is configuration information captured for operational transparency.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: Application platform services are running in a highly available configuration / multiple instances of each service.
+    description: 'Are all application platform services running in a HA configuration? For example, have any ''single points of failure'' been removed, such as a single instance of a service?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Application platform components are deployed using Availability Sets within each stamp/region.
+    description: Are application platform services deployed using compute resources that leverage Availability Set Fault Domains? This greatly reduces the risk of multiple instances of a single service running on the same physical node within an Azure Stack Hub stamp/region.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Application platform components are deployed across multiple active stamps/regions.
+    description: Is the application platform deployed across multiple Azure Stack Hub stamps/regions? The ability to respond to disaster scenarios for overall compute platform availability and application resiliency is dependent on the use of multiple stamps / regions or other deployment locations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: External Network Load balancing is implemented to distribute traffic across multiple stamps / regions.
+    description: 'For application components hosted across multiple Azure Stack Hub stamps / regions, is network traffic load balanced to ensure network connectivity is available for the application in the event of a disaster or failover scenario.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: Load Balancer Health probes are implemented to check the health of application components and compound application health.
+    description: 'Are health probes used for load balancers, to validate the health of the application end points / services and compound application health for key workloads?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: Queuing and reliable messaging patterns are used to integrate application tiers.
+    description: Are queuing and messaging patterns used to asynchronously integrate application components?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: J
+    text: Client traffic can be routed to the application in the case of single stamp/rack/network outage
+    description: 'How is the client traffic routed to the application in the case of stamp / region outage? i.e. is traffic routed using an Azure Traffic Manager instance, to allow failover between multiple stamps in the event of a failure.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: K
+    text: Procedures to scale out application platform components are automated.
+    description: 'Are operational procedures to scale out application platform components automated, based on key utilization metrics? For example, using Kubernetes Event Driven Autoscaling, or virtual machine (VM) Guest OS CPU or Memory performance metrics linked to automation processes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 30011317-ac2b-47d1-9e12-72561e3829fc
+name: Decisions taken to ensure the application platform meets your reliability requirements?

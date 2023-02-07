@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Depending on the motivations and business outcomes that are associated with a cloud-adoption effort, leaders may need to establish new organizational structures or virtual teams to facilitate various functions. Organizational and environmental (technical) readiness can require new skills for technical and nontechnical contributors. '
+hideEmptyGuidance: false
+questions:
+  - e0d9cd8a-3ecd-4a34-a52a-9d3c12c2fd3f
+recommendations:
+  - 244c7c45-1df0-49f5-8bda-083ad68e7a71
+assignedGroupIds: []
+uid: 85fccb4c-167c-41e9-9549-766567282a30
+name: Organizational alignment and Skills Readiness Plans

@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: C
+    text: Apply Azure Databricks Data governance Best practices for Access Control.
+    description: Azure Databricks Access control offers a rich suite of access control down to the storage layer including state-of-the-art Azure security services using the Azure Active Directory credential passthrough on the spark clusters to control access to your data lake.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Apply Azure Databricks Data governance Best practices for Cluster policies.
+    description: Azure Databricks Cluster policies enable administrators to control access to compute resources.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Apply Azure Databricks Data governance Best practices for API first.
+    description: Azure Databricks API first automates provisioning and permission management with the Databricks REST API.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Apply Azure Databricks Data governance Best practices for Audit logging.
+    description: Azure Databricks Audit logging enables logging mechanisms for actions and operations taken across the workspace and alerting to avoid potential wrongdoing.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Organizations of all sizes are constrained by their available resources; financial, people, and time. To achieve an effective return on investment (ROI) organizations must prioritize where they will invest. Implementation of security across the organization is also constrained by this, so to achieve an appropriate ROI on security the organization needs to first understand and define its security priorities.'
+isRequired: false
+legacyId: '1'
+uid: c6414ee6-80b3-46dd-8f02-1d1a113a453b
+name: 'Organizations of all sizes are constrained by their available resources; financial, people, and time.'

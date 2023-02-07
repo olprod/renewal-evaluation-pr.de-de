@@ -1,0 +1,19 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Complete "Data Engineering on Microsoft Azure" learning path on Microsoft Learn | 3 hr 40 min
+    url: 'https://docs.microsoft.com/learn/paths/store-data-in-azure/'
+    condition:
+      allOf: []
+      anyOf:
+        - d1317e0f-b661-4411-8075-61615a4f5ebf.0e944fc2-aa66-4245-9876-e8293da890cd.0
+        - d1317e0f-b661-4411-8075-61615a4f5ebf.0e944fc2-aa66-4245-9876-e8293da890cd.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: cd3306dd-33ee-488c-8128-fa97570fb79f
+name: ''

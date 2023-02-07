@@ -1,0 +1,176 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Address Microsoft Licensing updates to get additional security and analytics capabilities
+    url: 'https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing'
+    condition:
+      allOf: []
+      anyOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.807bd693-3daf-4ca0-bcc7-317203ce8eca.1
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.752c6b8f-6bee-49ad-85fa-b188df44ce9e.0
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.752c6b8f-6bee-49ad-85fa-b188df44ce9e.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Azure AD Connect
+    url: /azure/active-directory/hybrid/whatis-azure-ad-connect
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.6dd16c0f-75c3-4b31-bf44-8ea999fe43e6.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Azure AD device join for Windows devices
+    url: /azure/active-directory/devices/concept-azure-ad-join
+    condition:
+      allOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.99fb5660-5ad4-4110-b1be-f4f8874ec8ea.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Azure AD authentication with Password Hash Sync (PHS)
+    url: /azure/active-directory/hybrid/how-to-connect-password-hash-synchronization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.7ae6be11-5cb9-41c8-bf26-2626c8277301.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage Windows Devices with Intune
+    url: /mem/endpoint-manager-getting-started
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.6cd5f8b3-b69c-4d71-904e-342aab27f05e.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage iOS/iPAD with Intune
+    url: /mem/endpoint-manager-getting-started
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.6cd5f8b3-b69c-4d71-904e-342aab27f05e.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage Android Devices with Intune
+    url: /mem/endpoint-manager-getting-started
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.6cd5f8b3-b69c-4d71-904e-342aab27f05e.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage BYOD devices with Intune
+    url: /mem/intune/fundamentals/deployment-guide-enrollment
+    condition:
+      allOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.ec623474-b9c5-4f2b-97b3-0be179f9ec25.2
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Manage iOS/iPadOS/macOS devices using Apple Business Manager/Apple School Manager account with Automated Device Enrollment  (ADE, or formerly known as DEP) and Volume Purchase Program (VPP)'
+    url: /mem/intune/enrollment/device-enrollment-program-enroll-ios
+    condition:
+      allOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.c3c2d511-a0ff-4c20-9ebb-a02dbf2070b1.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: ' Manage Android-based Teams device (e.g. Polycom, Yealink etc) using Intune'
+    url: /microsoftteams/devices/phones-displays-deploy
+    condition:
+      allOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.5d547515-79c7-4f95-bdc0-bb3aef3cfe69.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Autopilot to manage company-owned Windows 10/11 devices
+    url: /mem/autopilot/windows-autopilot-scenarios
+    condition:
+      allOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.7bf4a1b9-8e0c-4977-98e5-175c2b235a43.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage Windows 10/11 devices with Microsoft Endpoint Configuration Manager
+    url: /mem/configmgr/comanage/quickstarts
+    condition:
+      allOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.d384eaab-db41-4290-91c0-dac5e6b30a82.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Upgrade Windows 10 devices to 21H2 or Windows 11
+    url: 'https://www.microsoft.com/windows/windows-11'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.a55cb8aa-db5f-47ad-ab3f-42d9a23da25b.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Select and implement Password-less technologies
+    url: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2KEup'
+    condition:
+      allOf:
+        - 324b1a0f-641c-4b15-b555-4f738d0affb9.fd18f1a0-2b88-4d21-af55-7d3fe960f498.2
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: b25fbd22-3b61-47ec-9c24-f7609b6e2e84
+name: ''

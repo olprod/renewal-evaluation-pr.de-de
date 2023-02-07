@@ -1,0 +1,52 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Beginner '
+    description: |
+      Beginner 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Intermediate
+    description: |
+      Intermediate
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Advanced '
+    description: |
+      Advanced 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: '[Or] I have completed "Manage Collaboration Experiences for Chat and Channels" module on Microsoft learn | 48 min'
+    description: 'If this is your first time taking the learner self-assessment or have yet to complete this learning, please don''t choose this answer.  this will allow the self-assessment results to provide you with the best learning recommendations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  This includes manage the creation of private channels, control the email integration of teams, organize the file sharing functions from the Teams client, create and modify messaging policies, and understand how to set up channel moderation in teams.
+isRequired: true
+uid: 751e2cdb-e7bc-4cfe-9775-3f88db96987f
+name: 'This includes manage the creation of private channels, control the email integration of teams, organize the file sharing functions from the Teams client, create and modify messaging policies, and understand how to set up channel moderation in teams.'

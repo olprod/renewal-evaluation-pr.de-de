@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: ' No formal analysis/approval has been conducted to confirm level of support/alignment for the project goals.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: This is primarily an IT-led project and the other business leaders are not involved in setting goals
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: One business division/department is sponsoring and leading the project on behalf of the organization
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: ' Declared project goals are aligned but there are some underlying differences expected to be resolved during the project'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '4'
+    text: 'The project goals are directly aligned with the priorities of all stakeholder business divisions and IT leaders. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do the project goals reflect business priorities for all the relevant business and IT leaders?
+isRequired: true
+uid: 601e17b7-7dc9-4c3d-be85-1dd246166b82
+name: Do the project goals reflect business priorities for all the relevant business and IT leaders?

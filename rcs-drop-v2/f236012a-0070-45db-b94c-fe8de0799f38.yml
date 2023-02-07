@@ -1,0 +1,72 @@
+### YamlMime:SelfAssessment
+description: Examine your workload through the lens of sustainability.
+duration: 30 minutes.
+questionnaireReferences:
+  - questionnaireUid: 4eb11871-8e1f-48d1-abee-2668b98f1988
+    isRequired: true
+  - questionnaireUid: 34a73736-c7cb-44f8-b0dd-b494f2a12e43
+    isRequired: true
+  - questionnaireUid: f9214695-5082-47c4-a662-5e7863cde4c9
+    isRequired: true
+  - questionnaireUid: b14c9f96-6e89-4c0d-9361-40b0a83843de
+    isRequired: true
+  - questionnaireUid: 35dac470-61fe-46a5-95d2-a171fa89dde4
+    isRequired: true
+  - questionnaireUid: ae49b22d-35e1-4f72-8253-d2cf69595fe0
+    isRequired: true
+  - questionnaireUid: 2fe227d6-25ac-4b23-8f6a-1e642862a61a
+    isRequired: true
+  - questionnaireUid: 24dd3dee-691f-474c-a0e8-ddf596c9097a
+    isRequired: true
+  - questionnaireUid: df722dda-9c35-4a32-a72f-a7ecb9d6577c
+    isRequired: true
+  - questionnaireUid: ca1108b0-836e-49b2-9e8f-6c7b4d5f605b
+    isRequired: true
+  - questionnaireUid: e06c9276-6136-41f9-8679-40837a7b2291
+    isRequired: true
+  - questionnaireUid: 7c775491-76a7-43a8-9522-43d94915bd46
+    isRequired: true
+  - questionnaireUid: 97bcd9fe-2ec7-4ea0-926c-edf292df7b8c
+    isRequired: true
+  - questionnaireUid: 7f9d81d1-d28c-4f5d-be40-7653a2275a31
+    isRequired: true
+guidance:
+  title: 30 minutes.
+  description: Recommendations for your workload.
+  providers: []
+  scoring:
+    title: ''
+    description: ''
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Chan
+  lastName: Park
+  email: v-chanpark@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+metadataTags:
+  - azure
+uid: f236012a-0070-45db-b94c-fe8de0799f38
+name: Actionable items to consider implementing to improve sustainability.

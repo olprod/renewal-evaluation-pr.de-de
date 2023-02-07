@@ -1,0 +1,39 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Tools that can help mature the policies and processes around Deployment Acceleration.
+    url: /azure/cloud-adoption-framework/govern/deployment-acceleration/toolchain
+    context: Tools that can help mature the policies and processes around Deployment Acceleration.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Identify potential risks addressed through Deployment Acceleration.
+    url: /azure/cloud-adoption-framework/govern/deployment-acceleration/business-risks
+    condition:
+      scoreOf:
+        - 21e49bb4-01cd-4da2-81a7-b33adf5e195c<2
+    context: Identify potential risks addressed through Deployment Acceleration.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Quantify business risk tolerance relating to Deployment Acceleration.
+    url: /azure/cloud-adoption-framework/govern/deployment-acceleration/metrics-tolerance
+    condition:
+      scoreOf:
+        - 21e49bb4-01cd-4da2-81a7-b33adf5e195c<3
+    context: Quantify business risk tolerance relating to Deployment Acceleration.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Improve the discipline of Deployment Acceleration.
+    url: /azure/cloud-adoption-framework/govern/deployment-acceleration/discipline-improvement
+    condition:
+      scoreOf:
+        - 21e49bb4-01cd-4da2-81a7-b33adf5e195c>2
+    context: Improve the discipline of Deployment Acceleration.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 60c95182-9ca0-4cd8-9786-c9359678deec
+name: ''

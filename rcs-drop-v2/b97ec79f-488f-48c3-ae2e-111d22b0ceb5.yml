@@ -1,0 +1,96 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Certificates required for Azure Stack Hub are issued by a Trusted Public Certificate Authority (CA).
+    description: Have you used a Trusted Public Certificate Authority (CA) to issue the required certificates for Azure Stack Hub.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: B
+    text: Certificates required for Azure Stack Hub are issued by a Private (customer-managed) Certificate Authority (CA).
+    description: Have you used a Private (customer-managed) Certificate Authority (CA) to issue the required certificates for Azure Stack Hub.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: C
+    text: 'Outbound network access is allowed from Azure Stack Hub infrastructure network to the Certificate Authority''s Certificate Revocation List (CRL) http endpoint, that is published in the certificates CDP extension.'
+    description: 'The Certificate Revocation List (CRL) endpoint must be accessible from the Azure Stack Hub infrastructure, to ensure secure channel communication (TLS) validation can be performed successfully.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: 'The validity periods (expiry dates) for both External Certificates and Internal Secrets are known and documented, allowing sufficient time for these to be rotated proactively as/when needed.'
+    description: 'Are the validity periods (expiry dates) for both External Certificates and Internal Secrets known and documented? This would enable you to proactively track and know when to expect their rotation to be required, in addition to reactive alerts.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: The 'AzureStack.ReadinessChecker' PowerShell module is used to create Certificate Signing Requests (CSRs) and Validate Certificates as part of the external certificate rotation process.
+    description: The 'AzureStack.Readiness.Checker' PowerShell module helps simplify the process of generating the Certificate Signing Requests (CSRs) and validating the certificates are validate prior to deployment or performing external secret rotation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: 'A Firewall has been implemented in front of Azure Stack Hub, to help secure and manage network access.'
+    description: 'Implementing a firewall device helps secure Azure Stack Hub, defending against things like distributed denial-of-service (DDOS) attacks, intrusion detection, and content inspection.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: 'Periodically review the required "Outbound Ports & URLs" documentation, to ensure the outbound firewall rules are correctly configured.'
+    description: Azure Stack Hub requires specific outbound URLs and ports to be open depending on the deployment scenario (connected to disconnected). Reviewing this list of requirements periodically is recommended.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: 'External DNS Forwarder(s) IP addresses have monitoring and alerting configured, to ensure they are available for Azure Stack Hub to resolve external DNS names.'
+    description: 'The configured external DNS forwarders are used for all name resolution leaving the stamp, it is recommended to configure two DNS servers for fault tolerance. Additionally, configured monitoring for the DNS servers to have proactive alerting and health status notifications for their availability.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: 'The Conditional Forwarders or Zone delegation configured for Azure Stack Hubs name resolution is periodically validated with DNS Administrators, to ensure users can resolve DNS names successfully.'
+    description: 'The DNS configuration required to enable Azure Stack Hub DNS names to be resolved from outside Azure Stack Hub, such as Conditional Forwarders or Zone Delegation, should be periodically validated to ensure they are working correctly.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: J
+    text: Periodically validate connectivity and operational status of the external Network Time Protocol (NTP) server that is used for time synchronization.
+    description: 'When you deploy Azure Stack Hub, you provide the address of an NTP server. Time is a critical datacenter infrastructure service. If the clock isn''t synchronized, Azure Stack Hub may experience issues with the network and authentication. Log files, documents, and other files may be created with incorrect timestamps.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: b97ec79f-488f-48c3-ae2e-111d22b0ceb5
+name: What operational tasks have been implemented for datacenter and network integration requirements?

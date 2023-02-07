@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This section helps determine the shape of your assessment
+hideEmptyGuidance: true
+questions:
+  - 3384865b-a473-45c1-a259-be456dfa7a31
+  - 422e38d1-679d-4fe3-9d62-f8ffd869329c
+  - cd6c666f-f330-4458-a8f7-35513b3b0a28
+  - a7828d22-02f8-4acc-a38b-5855d45a75c3
+  - 6bbdac56-4b4f-4f16-acc1-4860894aff92
+recommendations:
+  - ccb3397d-9caa-4f90-a65d-8023641896d3
+assignedGroupIds: []
+uid: waf-config-golive
+name: WAF Configuration

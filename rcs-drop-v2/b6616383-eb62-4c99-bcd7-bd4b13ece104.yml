@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Secure data and applications (SC-100 OD 4)
+hideEmptyGuidance: false
+questions:
+  - b4109585-bdcd-4af3-b660-aac5229f3694
+  - 9137365b-bd54-4f42-a767-65b993048d72
+recommendations:
+  - 8c4a3d55-15f3-4e4a-9757-4a106e50a55f
+assignedGroupIds: []
+uid: b6616383-eb62-4c99-bcd7-bd4b13ece104
+name: Secure data and applications (SC-100 OD 4)

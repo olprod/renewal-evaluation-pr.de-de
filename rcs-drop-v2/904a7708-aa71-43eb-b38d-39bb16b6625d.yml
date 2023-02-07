@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not follow DevOps practices or manage CI/CD process. Development operations are in different siloed teams with manual processes.
+    description: Your organization does not follow DevOps practices or manage CI/CD process. Development operations are in different siloed teams with manual processes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization is piloting DevOps practices by merging the Dev and Ops to start working together. '
+    description: 'Your organization is piloting DevOps practices by merging the Dev and Ops to start working together. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has commenced agile practice to bring the DevOps practice together with most infrastructure provisioned in automated, and repeatable fashion.'
+    description: 'Your organization has commenced agile practice to bring the DevOps practice together with most infrastructure provisioned in automated, and repeatable fashion.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has  implemented CI/CD successfully that bring tangible business benefits from DevOps culture via automated, tested and monitored pipelines. '
+    description: 'Your organization has  implemented CI/CD successfully that bring tangible business benefits from DevOps culture via automated, tested and monitored pipelines. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organizations practice is matured and lean, driving and delivering business results through self-service environments automation and agile practices backed by technology.'
+    description: 'Your organizations practice is matured and lean, driving and delivering business results through self-service environments automation and agile practices backed by technology.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you follow DevOps practices and how do you manage your CI/CD process?
+isRequired: true
+uid: 904a7708-aa71-43eb-b38d-39bb16b6625d
+name: Do you follow DevOps practices and how do you manage your CI/CD process?

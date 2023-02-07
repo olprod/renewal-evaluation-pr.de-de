@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: G
+    text: Use appropriate compute SKUs and sizes for different machine learning workloads.
+    description: 'Virtual machine options include F-Series for compute optimized, E-Series for memory optimized, N-Series for GPU optimized, and D-Series for general-purpose workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: L
+    text: Use the appropriate compute target types based on your workload requirements and environments.
+    description: Use Azure Container Instances for testing or development. Use Azure Kubernetes Service for real-time production inferencing.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: M
+    text: 'Using datastores and datasets mounts allows for reusability throughout workload. '
+    description: 'Mounting a dataset on a remote compute prevents the data from being moved, copied, or duplicated. Dataset mounts allow for registration of the data connection to reduce hard coding connection strings and to enable reusability throughout workload. Because the data remains in its existing location, the performance of the solution improves. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: 'N'
+    text: 'For unstructured files, optimize performance by mounting data files to the compute target.'
+    description: 'If you have unstructured data, you can create a FileDataset and mount it to a remote compute to avoid copying the dataset. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: O
+    text: Use advanced automated ML options to increase performance/ROI on experiment run time.
+    description: 'Automated ML options, such as excluding specific models, improve experiment performance. When using the Azure Machine Learning Python SDK, use the option blocked_models in your AutoMLConfig object and list the model(s) you don''t want to use. Using the automated ML interface, go to blocked algorithm and select algorithms you want to exclude from the training job.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: R
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+    - waf-config-golive.waf-scenario.ai
+stem: Performance is an indication of the responsiveness of a system to execute any action within a given time interval.
+isRequired: false
+legacyId: '1'
+uid: 01437fde-705e-43fa-8b45-a1fda64036db
+name: Performance is an indication of the responsiveness of a system to execute any action within a given time interval.

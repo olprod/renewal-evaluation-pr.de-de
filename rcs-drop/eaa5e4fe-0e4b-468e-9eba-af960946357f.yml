@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |+
+  You work with a web design team to integrate a custom trigger on the website when a “Contact me” request is submitted by a logged in user. You created the custom trigger for Customer Insights Profiles and now the web design team is integrating the code snippet. 
+
+  You need to tell the web design team what information needs to be passed to the trigger. 
+
+  By default, which two additional attributes are present in a custom trigger that is tied to a Customer Insights profile? Each correct answer presents part of the solution. 
+
+questionnaireUid: 5582248e-bdd0-46ab-96a1-4c1702e318c3
+questions:
+  - uid: eaa5e4fe-0e4b-468e-9eba-af960946357f-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You work with a web design team to integrate a custom trigger on the website when a “Contact me” request is submitted by a logged in user.
+        isCorrect: true
+      - id: 1
+        text: You created the custom trigger for Customer Insights Profiles and now the web design team is integrating the code snippet.
+        isCorrect: false
+      - id: 2
+        text: You need to tell the web design team what information needs to be passed to the trigger.
+        isCorrect: true
+      - id: 3
+        text: 'By default, which two additional attributes are present in a custom trigger that is tied to a Customer Insights profile?'
+        isCorrect: false
+    manualId: mb-220.10.1
+uid: eaa5e4fe-0e4b-468e-9eba-af960946357f
+title: ''
+manualId: ''

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not have a defined structure.
+    description: Your organization does not have a defined structure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has identified and vetted the structure needed to support governance processes.
+    description: Your organization has identified and vetted the structure needed to support governance processes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has a clear understanding of the structure required to support governance and each responsibility associated with supporting successful outcomes. '
+    description: 'Your organization has a clear understanding of the structure required to support governance and each responsibility associated with supporting successful outcomes. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has developed an organization structure that recognizes and mitigates human and technology risks related to data sharing and/or regulatory compliance needs.
+    description: Your organization has developed an organization structure that recognizes and mitigates human and technology risks related to data sharing and/or regulatory compliance needs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has successfully implemented structure that recognizes and mitigates human and technology risks related to data sharing and/or regulatory compliance needs.
+    description: Your organization has successfully implemented structure that recognizes and mitigates human and technology risks related to data sharing and/or regulatory compliance needs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: "Do you have appropriate organizational structure\_supporting and serving as the\_foundation for\_data governance?"
+isRequired: true
+uid: 873d51a4-06ed-4ac2-9859-43fe8b66803b
+name: "Do you have appropriate organizational structure\_supporting and serving as the\_foundation for\_data governance?"

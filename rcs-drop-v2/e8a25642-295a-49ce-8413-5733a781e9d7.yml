@@ -1,0 +1,27 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Monitor with Azure Synapse Analytics workspace.
+    description: You can use monitoring data to gain deep insights about your applications. This knowledge helps you improve application performance and maintainability.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: exceptions-data-synapse
+uid: e8a25642-295a-49ce-8413-5733a781e9d7
+name: How does your application logic handle exceptions and errors?

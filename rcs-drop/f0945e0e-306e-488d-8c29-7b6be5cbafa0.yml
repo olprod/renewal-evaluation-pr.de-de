@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |+
+  A company uses Dynamics 365 Sales. The Dynamics 365 App for Outlook is deployed to individual users. No administrators are available.  
+
+  A salesperson needs to use the app.  
+
+  What should the salesperson do? 
+
+questionnaireUid: bfb4dd35-5fa0-4786-af9e-4bd8fcae4a8a
+questions:
+  - uid: f0945e0e-306e-488d-8c29-7b6be5cbafa0-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: A company uses Dynamics 365 Sales.
+        isCorrect: true
+      - id: 1
+        text: The Dynamics 365 App for Outlook is deployed to individual users.
+        isCorrect: false
+      - id: 2
+        text: No administrators are available.
+        isCorrect: false
+      - id: 3
+        text: A salesperson needs to use the app.
+        isCorrect: false
+    manualId: mb-210.3.11
+uid: f0945e0e-306e-488d-8c29-7b6be5cbafa0
+title: ''
+manualId: ''

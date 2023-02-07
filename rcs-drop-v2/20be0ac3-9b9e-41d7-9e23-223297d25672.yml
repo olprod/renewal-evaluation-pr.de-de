@@ -1,0 +1,60 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have workload operations that involve transient data or that insert large datasets in bulk and are therefore using unlogged tables to optimize bulk inserts.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: 'We use and tune autovacuum to frequently vaccum and better adapt to the workload depending on the total resources available (suck as SKU and storage size), resource usage and individual object characteristics.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: "We have unique queries with long query text or we don't actively monitor\_pg_stat_statements and therefore we disable it for best performance."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: 'AKS clusters connect to our PostgreSQL database with accelerated networking-enabled nodes for lower latency, reduced jitter, and decreased CPU utilization on the nodes.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: We optimize query times with the oversized-attribute storage technique (TOAST) table storage strategy.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-data.postgres
+stem: ''
+isRequired: false
+uid: 20be0ac3-9b9e-41d7-9e23-223297d25672
+name: Have you configured Azure Database for PostgreSQL with performance in mind?

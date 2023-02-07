@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have not thought about the differences that cloud solutions may have and are not planning to involve our security team in the beginning of this project.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'Security and compliance are a high priority for our organization, and we assumed that Microsoft would be responsible for it since this is a cloud platfrom.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Security and compliance is very important to our organization and we plan to involve our security team after the project starts to determine what recommendations they have.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'Security and compliance is of utmost important to our organization, we understand that there will be shared responsibilities between Microsoft and our company, our security team has been notified of this project and have assigned personnel to begin the readiness activities and publish the guidelines and policies for this project.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Your existing security policies may not all be suitable to meet security requirements in the cloud. It will be important to understand that the responsibility to secure access to environments and data belongs to you as a customer.
+
+  Which of these statements best describes your approach and planning for security and compliance?
+isRequired: true
+uid: 39cd3847-7d70-4ad4-9dac-4bedf4bfab0a
+name: Your existing security policies may not all be suitable to meet security requirements in the cloud.

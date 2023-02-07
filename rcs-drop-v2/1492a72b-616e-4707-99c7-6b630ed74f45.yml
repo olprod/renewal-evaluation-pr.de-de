@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: Beginner
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: Intermediate
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: Advanced
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Create and manage a managed identity for Azure resources, Manage Azure AD groups, Manage Azure AD users, Manage external identities by using Azure AD, Manage administrative units'
+isRequired: true
+uid: 1492a72b-616e-4707-99c7-6b630ed74f45
+name: 'For example: Create and manage a managed identity for Azure resources, Manage Azure AD groups, Manage Azure AD users, Manage external identities by using Azure AD, Manage administrative units '

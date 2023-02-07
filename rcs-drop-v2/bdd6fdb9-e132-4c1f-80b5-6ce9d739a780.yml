@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We conduct security reviews on code changes infrequently
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Some code is security reviewed and we capture the review history using a pull request workflow or the equivalent
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: We make sure all code changes are security peer-reviewed before being committed to the master or trunk by means of a pull request workflow/branch policies or the equivalent
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Security is a critically important aspect for all applications - therefore it is paramount that security assessment activities are frequent features of your development lifecycle.
+isRequired: true
+uid: bdd6fdb9-e132-4c1f-80b5-6ce9d739a780
+name: Security is a critically important aspect for all applications - therefore it is paramount that security assessment activities are frequent features of your development lifecycle.

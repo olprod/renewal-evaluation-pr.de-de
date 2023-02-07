@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We keep to ourselves to avoid being blamed for failure.  Risk-taking is discouraged
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'There is some communication. When mistakes are made, there is justice for the responsible person'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Communication and collaboration is good among teams. Innovation is encouraged.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: There is high cooperation among teams. Risks are shared. Failure leads to learning and inquiry to help the team improve. Innovation is encouraged and implemented
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'In Agile, there are a number of effective ways to share project information with your team. Not having a prescribed way to share information with the team can lead to poor collaboration, risks in the project, and reduced innovation. Encourages collaboration and practice it, this tends to lead to better ideas, more buy-in, and better outcomes.'
+isRequired: true
+uid: fb511188-487c-41d3-a6d1-b3b6b09b009e
+name: 'In Agile, there are a number of effective ways to share project information with your team.'

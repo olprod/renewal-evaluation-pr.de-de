@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Have proper database design for the expect workload type (transactional vs reporting).
+    description: The overall performance and scale of an application is often heavily weighted on the choice and proper implementation of the database. Use normalized data models for transactional processing and consider de-normalizing for reporting workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Use read-only replicas to offload read-only query workloads.
+    description: 'Read-only replicas do have some delay in replicating the data, so this does not work if up-to-the-second, real-time reporting is needed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: Compress data when appropriate.
+    description: Using data compression in SQL Database can lower memory usage and IO requirements.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: Refrain from using higher isolation levels by default unnecessarily.
+    description: 'Also consider versioning versus locking. Choosing a proper isolation level is crucial. Too high of an isolation level can impact performance and too low can cause data inconsistencies. Read Committed Snapshot Isolation is the default for Azure SQL Database, only change this if there are good reasons.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: Scale when load increases.
+    description: Ensure that you have the appropriate amount of resources to ensure the workload continues uninterrupted when load increases.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: Offload reporting workload to replicas to prevent resource contention or use proper isolation level and SKU to prevent concurrency issues and sustain the required load.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: Use connection pooling.
+    description: Establishing connections to databases is typically an expensive operation that involves establishing an authenticated network connection to the remote database server. Connection pooling makes this process faster.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: 'Use an asynchronous processing mechanism, if necessary, such as with Service Bus or Event Hubs.'
+    description: Make sure this mechanism is in place for background processing of data events and messages while allowing the application user to continue with additional application tasks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: c40bf6c6-c25d-40b8-95cd-98db3f8032aa
+name: How are your designing your workload to scale?

@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Security has been integrated into all phases of the development and release lifecycle
+    description: It is significantly more effective and cheaper to integrate security into the existing development and release phases than attempt to "bolt security on" later in the project.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: Security is a shared responsibility of all teams involved in the development and delivery of software
+    description: 'Make all roles responsible for the security of their work, rather than relying on a dedicated security team.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '2'
+    text: Security Development Lifecycle (SDL) practices are applied in all projects
+    description: Follow well-defined SDL practices to support security assurance and compliance requirements. Design activities like threat modeling should be integrated into design phase.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: Development follows a rapid iteration and continuous deployment and validation model
+    description: 'Use Agile development methodologies and continuous validation as opposed to sequential, monolithic approaches'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '4'
+    text: 'Regular (e.g. daily) builds are deployed automatically to non-prod environment as part of CI/CD pipeline, and automated security testing performed'
+    description: Use CI/CD methodologies for rapid integration and validation of changes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '5'
+    text: 'Infrastructure-as-code (IaC) and configuration-as-code (CaC) are used for continuous, repeatable deployment to landing zones'
+    description: Declare your application components in code to ensure highly repeatable and testable deployments
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '6'
+    text: 'All IaC/CaC artifacts are reviewed, scanned and maintained in source control '
+    description: Maintain IaC/CaC files in source control for change management and scanning for vulnerabilities
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '7'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 49433291-5b4f-4c2b-b32a-241cc08a4047
+name: Have you adopted a formal secure DevOps approach to building and maintaining software? (DevSecOps)

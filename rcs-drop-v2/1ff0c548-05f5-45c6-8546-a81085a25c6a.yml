@@ -1,0 +1,90 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: "Azure Policy is used to monitor for deviations from security and organizational standards.\_"
+    description: 'Throughout your cloud journey, your environments will continue to scale and the number of applications and services grow. It''s important to put capabilities in place to monitor for deviations from your expected configurations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '1'
+    text: "Azure Policy is used to enforce and control security and organizational standards.\_"
+    description: 'Azure Policy helps to enforce organizational standards and to assess compliance at-scale. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: '2'
+    text: Management group hierarchy is established to clearly distinquish criticality of each application landing zone
+    description: 'Management groups help you manage access, policy, and compliance for multiple subscriptions. All subscriptions in a management group automatically inherit the conditions applied to the management group.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '3'
+    text: 'Azure Policy is applied to each management group to consistently monitor, enforce, and control based on criticality'
+    description: You can use management groups to aggregate policy and initiative assignments via Azure Policy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '4'
+    text: "External or internal audits of all critical workloads are performed periodically.\_"
+    description: 'To make sure that the security posture doesn''t degrade over time, have regular auditing that checks compliance with organizational standards. Enable, acquire, and store audit logs for Azure services'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '5'
+    text: "Security plan was developed and is maintained.\_"
+    description: 'Planning puts the security strategy into action by defining outcomes, milestones, timelines, and task owners. This plan also outlines the roles and responsibilities of the teams.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '6'
+    text: "Best practices and guidelines, based on industry recommendations, are reviewed and applied proactively.\_"
+    description: 'Governance and Strategy provides guidance for ensuring a coherent security strategy and documented governance approach to guide and sustain security assurance, including establishing roles and responsibilities for the different cloud security functions, unified technical strategy, and supporting policies and standards.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '7'
+    text: "Attacker vs. defender costs are considered when implementing defenses. Easy and cheap attack methods are always prevented.\_"
+    description: 'Much like physical safety, success in information security is defined more as an ongoing task of applying good security practices and principles and hygiene rather than a static absolute state.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '8'
+    text: "Attacker access containment is considered when making investments into security solutions.\_"
+    description: 'Build a risk containment strategy based on a combination of network controls and application, identity, and other control types.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '9'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 1ff0c548-05f5-45c6-8546-a81085a25c6a
+name: Which of the following landing zone enhancements have you made to enhance security governance?

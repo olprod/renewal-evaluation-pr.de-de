@@ -1,0 +1,1222 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Track the dependencies of your database and solution components
+    url: /sql/relational-databases/tables/view-the-dependencies-of-a-table?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.e7a990b9-20a5-46d8-92fc-fda1d22ee614.A
+        - Operational-data.613cd313-812a-41c4-8223-c3bcad46b5b1.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement an orchestration system to deploy your database
+    url: 'https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/'
+    condition:
+      noneOf:
+        - Operational-data.e7a990b9-20a5-46d8-92fc-fda1d22ee614.C
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.I
+        - Operational-data.613cd313-812a-41c4-8223-c3bcad46b5b1.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define targets for management operations time
+    url: /azure/azure-sql/database/scale-resources
+    condition:
+      noneOf:
+        - Operational-data.22c59944-eb1d-4c5c-9731-9ae7552b6fc0.A
+        - Operational-data.243bacfd-f8a2-4c95-b3b0-08a15b6a48ae.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Treat your SQL DB infrastructure as if it was a code.
+    url: /azure/azure-sql/database/single-database-create-arm-template-quickstart
+    condition:
+      noneOf:
+        - Operational-data.c36397c9-37bc-444f-a73c-23271192c643.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Resource Tags
+    url: /azure/azure-resource-manager/management/tag-resources?tabs=json
+    condition:
+      noneOf:
+        - Operational-data.c36397c9-37bc-444f-a73c-23271192c643.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Investigate your resource limits
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      noneOf:
+        - Operational-data.c36397c9-37bc-444f-a73c-23271192c643.C
+        - Operational-data.538e4c59-d352-4092-815a-9a17ba45d3d5.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform all database operations as infrastructure as code activities
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql/infrastructure-as-code-and-azure-a-match-made-in-the-cloud-part/ba-p/1722367'
+    condition:
+      noneOf:
+        - Operational-data.c36397c9-37bc-444f-a73c-23271192c643.E
+        - Operational-data.c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Track configuration drift
+    url: 'https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/#terraform-ansible-etc'
+    condition:
+      noneOf:
+        - Operational-data.c36397c9-37bc-444f-a73c-23271192c643.F
+        - Operational-data.c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use environments for dev and test stages that simulate the production database environment
+    url: /azure/architecture/solution-ideas/articles/dev-test-paas
+    condition:
+      noneOf:
+        - Operational-data.cab8365a-73e2-4b30-9156-6c4df8085289.A
+        - Operational-data.1362e194-2cb2-4f87-9135-8466f3da2613.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Have pipelines for continuous deployment/continuous integration.
+    url: 'https://azure.microsoft.com/blog/7-best-practices-for-continuous-monitoring-with-azure-monitor/'
+    condition:
+      noneOf:
+        - Operational-data.cab8365a-73e2-4b30-9156-6c4df8085289.C
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.E
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.B
+        - Operational-data.1362e194-2cb2-4f87-9135-8466f3da2613.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use a tool that facilitates database code changes and codebase management
+    url: 'https://azure.microsoft.com/resources/videos/connect-2017-database-devops-with-sql-server-data-tools-and-team-services/'
+    condition:
+      noneOf:
+        - Operational-data.cab8365a-73e2-4b30-9156-6c4df8085289.E
+        - Operational-data.1362e194-2cb2-4f87-9135-8466f3da2613.E
+        - Operational-data.a42f885e-d125-40f9-a904-854cd8e30a7f.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use intelligent insights to identify opportunities to optimize your database
+    url: /azure/azure-sql/database/intelligent-insights-overview
+    condition:
+      noneOf:
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.A
+        - Cost-data.8ddc9535-f8cc-492a-96d4-f765bb76b4d7.H
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use SQL monitoring tools are being used to track performance optimization potential.
+    url: /azure/azure-sql/database/intelligent-insights-use-diagnostics-log
+    condition:
+      noneOf:
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.A
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure streaming export of Azure SQL Database
+    url: /azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal
+    condition:
+      noneOf:
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.D
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.A
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Know how to use Query Store, Dynamic Management Views and/or Extended Events'
+    url: /sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.E
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Verify tranasaction log / tempdb size, fragmentation and usage stats'
+    url: /azure/azure-sql/database/monitoring-with-dmvs
+    condition:
+      noneOf:
+        - Cost-data.fba4c532-4793-4df0-a5a0-d7fe5503acf0.G
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.E
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Collect and visualize key performance metrics
+    url: /azure/azure-monitor/insights/azure-sql
+    condition:
+      noneOf:
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.F
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.B
+        - Cost-data.97434d28-e57a-4bbd-a2e1-6626f087349d.G
+        - Cost-data.032df19c-a470-4d2b-93c1-1044d67efd8c.D
+        - Cost-data.8ddc9535-f8cc-492a-96d4-f765bb76b4d7.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Leverage central Azure monitoring tools
+    url: 'https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-sql-db-and-log-analytics-better-together-part-3-query/ba-p/1034222'
+    condition:
+      noneOf:
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.G
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.F
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.M
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.L
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Set up alerting on pre defined metrics and Resource Health events
+    url: /azure/azure-sql/database/alerts-insights-configure-portal
+    condition:
+      noneOf:
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Azure SQL Database and Azure SQL Managed Instance resource monitoring
+    url: /azure/azure-sql/database/monitor-tune-overview#azure-sql-database-and-azure-sql-managed-instance-resource-monitoring
+    condition:
+      noneOf:
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.I
+        - Operational-data.acc38251-ddbb-479a-a0ab-ede4c72b2846.D
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.O
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.J
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use a DevOps methodology to structure the development and operations process
+    url: 'https://azure.microsoft.com/overview/what-is-devops/'
+    condition:
+      noneOf:
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement a branching strategy
+    url: /azure/devops/repos/git/git-branching-guidance?view=azure-devops
+    condition:
+      noneOf:
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use scripting and templates for automatic database service deployment
+    url: /azure/templates/microsoft.sql/servers?tabs=json
+    condition:
+      noneOf:
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use an automated pipeline for deployements
+    url: /azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=yaml
+    condition:
+      noneOf:
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Support a deployment process that leverages blue-green deployments and/or canary releases.
+    url: /azure/architecture/framework/devops/release-engineering-cd
+    condition:
+      noneOf:
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Identify performance issues by using query analysis
+    url: /azure/azure-sql/identify-query-performance-issues
+    condition:
+      noneOf:
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.K
+        - Operational-data.22c59944-eb1d-4c5c-9731-9ae7552b6fc0.B
+        - Operational-data.243bacfd-f8a2-4c95-b3b0-08a15b6a48ae.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform failure mode analysis on your workload
+    url: /azure/architecture/resiliency/failure-mode-analysis
+    condition:
+      noneOf:
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.L
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement tools or processes to grant access on a just in-time basis
+    url: /azure/active-directory/privileged-identity-management/pim-configure
+    condition:
+      noneOf:
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.M
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Implement policies to govern available services, enforce mandatory operational functionality and ensure compliance'
+    url: /azure/azure-sql/database/policy-reference
+    condition:
+      noneOf:
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.N
+        - Operational-data.c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand how to implement Devops for Azure SQL
+    url: 'https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.D
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.C
+        - Operational-data.e7a990b9-20a5-46d8-92fc-fda1d22ee614.B
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.P
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.O
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.G
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.E
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.C
+        - Operational-data.22c59944-eb1d-4c5c-9731-9ae7552b6fc0.D
+        - Operational-data.243bacfd-f8a2-4c95-b3b0-08a15b6a48ae.F
+        - Operational-data.613cd313-812a-41c4-8223-c3bcad46b5b1.B
+        - Operational-data.a42f885e-d125-40f9-a904-854cd8e30a7f.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement database unit testing in your pipeline
+    url: 'https://www.youtube.com/watch?v=t3Lc9LRDZQ4'
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Test for performance, scalability, and resiliency should be performed as part of each production release'
+    url: /azure/azure-sql/database/high-availability-sla#testing-application-fault-resiliency
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.G
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use feature flags
+    url: /azure/devops/migrate/phase-features-with-feature-flags?view=azure-devops
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.H
+        - Operational-data.36de13dd-b350-40c3-ba64-d68d4b3da77a.J
+        - Operational-data.cab8365a-73e2-4b30-9156-6c4df8085289.D
+        - Operational-data.1362e194-2cb2-4f87-9135-8466f3da2613.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Fault injection tests
+    url: /azure/architecture/framework/resiliency/testing#fault-injection-testing
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Integrate smoke tests into your continous delivery pipeline
+    url: 'https://devblogs.microsoft.com/devops/integrating-smoke-tests-into-your-continuous-delivery-pipeline/'
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use integration tests
+    url: /azure/developer/terraform/best-practices-integration-testing
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate tests
+    url: /azure/architecture/framework/devops/release-engineering-testing
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.L
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Failing tests should at least temporarily block deployments
+    url: /azure/architecture/framework/devops/release-engineering-rollback
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.M
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Security and penetration testing is performed regularly.
+    url: /security/benchmark/azure/baselines/sql-database-security-baseline#penetration-tests-and-red-team-exercises
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.N
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Critical test environments should have 1:1 parity with the production environment'
+    url: 'https://techcommunity.microsoft.com/t5/azure-database-support-blog/copy-production-database-to-stage-or-test-environment-using/ba-p/368960'
+    condition:
+      noneOf:
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.O
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Make a clear analysis of your HA/DR requirements and setup your solution accordingly
+    url: /azure/azure-sql/database/high-availability-sla
+    condition:
+      noneOf:
+        - Operational-data.029065c6-c20a-49fb-aef7-2e45583c0446.A
+        - Cost-data.b7516148-16aa-42c4-8890-1762a1a4f6f9.E
+        - Operational-data.c36397c9-37bc-444f-a73c-23271192c643.D
+        - Operational-data.c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Test and validate your disaster recovery, geo-failover, and failback procedure'
+    url: /azure/azure-sql/database/disaster-recovery-guidance
+    condition:
+      noneOf:
+        - Operational-data.029065c6-c20a-49fb-aef7-2e45583c0446.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Make a clear analysis of your HA/DR requirements and setup your solution accordingly
+    url: /azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview
+    condition:
+      noneOf:
+        - Operational-data.029065c6-c20a-49fb-aef7-2e45583c0446.C
+        - Cost-data.d542b4a6-a8ab-4961-a821-b89a4bab7639.E
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.B
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define runbooks to react to reliability and performance issues
+    url: /azure/azure-sql/database/automation-manage
+    condition:
+      noneOf:
+        - Operational-data.029065c6-c20a-49fb-aef7-2e45583c0446.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use an auto failover group
+    url: /azure/azure-sql/database/auto-failover-group-overview?tabs=azure-powershell
+    condition:
+      noneOf:
+        - Operational-data.029065c6-c20a-49fb-aef7-2e45583c0446.G
+        - Cost-data.552b15af-b81e-49d9-83e9-e8b8ae409a22.G
+        - Cost-data.b64df7b8-fc27-440b-a7f0-cc2e410e1432.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform disaster recovery drills
+    url: /azure/azure-sql/database/disaster-recovery-drills
+    condition:
+      noneOf:
+        - Operational-data.029065c6-c20a-49fb-aef7-2e45583c0446.H
+        - Operational-data.029065c6-c20a-49fb-aef7-2e45583c0446.F
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.B
+        - Operational-data.1319b2cb-ff31-4bc6-9c79-ac9953bbfe57.A
+        - Operational-data.029065c6-c20a-49fb-aef7-2e45583c0446.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Protect databases with a failover group
+    url: /azure/azure-sql/database/disaster-recovery-drills#failover-groups
+    condition:
+      noneOf:
+        - Operational-data.029065c6-c20a-49fb-aef7-2e45583c0446.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Script the process to provision and deprovision capacity
+    url: 'https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-auto-scale-azure-sql-databases/ba-p/2235441'
+    condition:
+      noneOf:
+        - Operational-data.905ef9ba-8b77-4822-9b1b-185daab08e16.C
+        - Operational-data.905ef9ba-8b77-4822-9b1b-185daab08e16.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Validate that the required capacity (initial and future growth) is within Azure SQL DB service scale limits and quotas
+    url: /azure/azure-sql/database/resource-limits-vcore-single-databases
+    condition:
+      noneOf:
+        - Operational-data.905ef9ba-8b77-4822-9b1b-185daab08e16.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Validate that required hardware is available in targeted regions
+    url: /azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal#hardware-availability
+    condition:
+      noneOf:
+        - Operational-data.905ef9ba-8b77-4822-9b1b-185daab08e16.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Forecast future growth based on current resource utilization
+    url: /azure/azure-sql/database/monitor-tune-overview
+    condition:
+      noneOf:
+        - Operational-data.905ef9ba-8b77-4822-9b1b-185daab08e16.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement a system so configuration settings can be changed or modified without rebuilding or redeploying the application
+    url: /azure/azure-sql/database/develop-overview#resiliency
+    condition:
+      noneOf:
+        - Operational-data.fc3b2ab9-e557-4ed9-9740-f066cf5e03f4.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage passwords using a tool like Azure Key Vault or HashiCorp Vault
+    url: 'https://azure.microsoft.com/blog/how-to-configure-azure-sql-database-geo-dr-with-azure-key-vault/'
+    condition:
+      noneOf:
+        - Operational-data.fc3b2ab9-e557-4ed9-9740-f066cf5e03f4.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement a procedure to rotate keys and secrets
+    url: /azure/key-vault/secrets/tutorial-rotation
+    condition:
+      noneOf:
+        - Operational-data.fc3b2ab9-e557-4ed9-9740-f066cf5e03f4.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Set the database scoped configuration settings such as MAXDOP and compatibility level optimally for your workload. '
+    url: /sql/t-sql/statements/alter-database-scoped-configuration-transact-sql?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.fc3b2ab9-e557-4ed9-9740-f066cf5e03f4.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Treat your infrastructure as if it were code
+    url: /devops/deliver/what-is-infrastructure-as-code
+    condition:
+      noneOf:
+        - Operational-data.538e4c59-d352-4092-815a-9a17ba45d3d5.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Track the dependencies of your database objects
+    url: /sql/ssms/object/object-dependencies?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.538e4c59-d352-4092-815a-9a17ba45d3d5.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Develop a naming and tagging strategy
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging
+    condition:
+      noneOf:
+        - Operational-data.538e4c59-d352-4092-815a-9a17ba45d3d5.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Isolate your SQL VM workloads
+    url: /azure/security/fundamentals/isolation-choices
+    condition:
+      noneOf:
+        - Operational-data.538e4c59-d352-4092-815a-9a17ba45d3d5.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Build your application using SQL Server DevOps tools
+    url: /sql-server/developer-get-started/sql-devops/?rtc=1
+    condition:
+      noneOf:
+        - Operational-data.538e4c59-d352-4092-815a-9a17ba45d3d5.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate configuration and administration tasks
+    url: /azure/automation/update-management/manage-updates-for-vm
+    condition:
+      noneOf:
+        - Operational-data.83819455-7247-4b6a-9b5e-5118d6ff6ae7.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor and update machine configurations using such tools as Azure Desired State Configuration
+    url: /azure/automation/automation-dsc-overview
+    condition:
+      noneOf:
+        - Operational-data.83819455-7247-4b6a-9b5e-5118d6ff6ae7.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate patch management
+    url: /azure/azure-sql/virtual-machines/windows/automated-patching
+    condition:
+      noneOf:
+        - Operational-data.83819455-7247-4b6a-9b5e-5118d6ff6ae7.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Install the SQL IaaS Agent extension
+    url: /azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management?tabs=azure-powershell
+    condition:
+      noneOf:
+        - Cost-data.d19ace64-4b16-43e1-81e3-20fd113bf54b.H
+        - Operational-data.a3e001b6-f273-4f71-a451-a81d39fe1bc3.E
+        - Operational-data.83819455-7247-4b6a-9b5e-5118d6ff6ae7.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Document the release process
+    url: /sql/relational-databases/system-stored-procedures/sp-addextendedproperty-transact-sql?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.5306234c-0ac9-49f9-b746-21ac7f0154a5.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement a release process for database code changes
+    url: '/sql-server/developer-get-started/sql-devops/?rtc=1 '
+    condition:
+      noneOf:
+        - Operational-data.5306234c-0ac9-49f9-b746-21ac7f0154a5.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Track the release of database code changes as they progresses through different environments
+    url: /troubleshoot/sql/general/determine-version-edition-update-level
+    condition:
+      noneOf:
+        - Operational-data.5306234c-0ac9-49f9-b746-21ac7f0154a5.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Audit and track changes in the database code
+    url: /sql/relational-databases/security/auditing/sql-server-audit-database-engine?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.5306234c-0ac9-49f9-b746-21ac7f0154a5.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy AD Controllers in the same Azure Region where your SQL Server VM is running
+    url: /azure/active-directory-domain-services/scenarios
+    condition:
+      noneOf:
+        - Operational-data.5306234c-0ac9-49f9-b746-21ac7f0154a5.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Availibility sets and Availability Zones
+    url: /azure/virtual-machines/availability-set-overview
+    condition:
+      noneOf:
+        - Operational-data.5306234c-0ac9-49f9-b746-21ac7f0154a5.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Track when and what changes are made to your databases and SQL Server/VM configurations
+    url: /sql/relational-databases/database-lifecycle-management?view=sql-server-ver15%20;%20Track%20Data%20Changes%20-%20SQL%20Server%20|%20Microsoft%20Docs
+    condition:
+      noneOf:
+        - Operational-data.a42f885e-d125-40f9-a904-854cd8e30a7f.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement alerting and monitoring for SQL Server infrastructure and workloads
+    url: /azure/cloud-adoption-framework/manage/monitor/
+    condition:
+      noneOf:
+        - Operational-data.3c397b24-2c58-4262-840e-3c78a4224b63.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Correlate events between the different application tiers
+    url: /azure/architecture/best-practices/monitoring#information-for-correlating-data
+    condition:
+      noneOf:
+        - Operational-data.3c397b24-2c58-4262-840e-3c78a4224b63.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Actively monitor SQL Server and OS logs for errors
+    url: /sql/tools/configuration-manager/monitoring-the-error-logs?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.3c397b24-2c58-4262-840e-3c78a4224b63.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Track deployment metrics
+    url: /sql/relational-databases/data-collection/management-data-warehouse?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.3c397b24-2c58-4262-840e-3c78a4224b63.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Report and set notifications for events
+    url: /sql/relational-databases/service-broker/event-notifications?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.3c397b24-2c58-4262-840e-3c78a4224b63.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor underlying SQL Server services
+    url: /sql/relational-databases/performance/monitor-sql-server-components?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.3c397b24-2c58-4262-840e-3c78a4224b63.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create SQL Server workload baselines
+    url: /sql/relational-databases/performance/establish-a-performance-baseline?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.3c397b24-2c58-4262-840e-3c78a4224b63.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate testing on database and SQL Server configuration deployments
+    url: /sql/ssdt/walkthrough-creating-and-running-a-sql-server-unit-test?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.dc789140-6f02-43a4-a6b5-84e804e9da7e.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure any manual processes are still adequately tested
+    url: /azure/devops/test/overview?view=azure-devops
+    condition:
+      noneOf:
+        - Operational-data.dc789140-6f02-43a4-a6b5-84e804e9da7e.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Visual Studio to enable database unit testing
+    url: /azure/devops/test/?view=azure-devops
+    condition:
+      noneOf:
+        - Operational-data.dc789140-6f02-43a4-a6b5-84e804e9da7e.D
+        - Operational-data.dc789140-6f02-43a4-a6b5-84e804e9da7e.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Provision your application in the same region as your database
+    url: /azure/azure-sql/virtual-machines/windows/application-patterns-development-strategies
+    condition:
+      noneOf:
+        - Operational-data.8c37441a-33a3-4dc3-9936-8b0d42bb6017.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement SQL Server and Applications VMs in cross regional replication topologies
+    url: /azure/architecture/reference-architectures/n-tier/multi-region-sql-server
+    condition:
+      noneOf:
+        - Operational-data.8c37441a-33a3-4dc3-9936-8b0d42bb6017.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Backup your SQL Server databases regularly
+    url: /azure/azure-sql/virtual-machines/windows/backup-restore
+    condition:
+      noneOf:
+        - Operational-data.a3e001b6-f273-4f71-a451-a81d39fe1bc3.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Regularly run database maintenance tasks such as re-indexing
+    url: '/sql/relational-databases/maintenance-plans/maintenance-plans?view=sql-server-ver15 '
+    condition:
+      noneOf:
+        - Operational-data.a3e001b6-f273-4f71-a451-a81d39fe1bc3.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Be aware of maintenance  windows that includes hot-fixes, services, packs, cumulative updates'
+    url: /azure/azure-sql/database/planned-maintenance#what-is-a-planned-maintenance-event
+    condition:
+      noneOf:
+        - Operational-data.243bacfd-f8a2-4c95-b3b0-08a15b6a48ae.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Develop a process to manage your databases
+    url: /sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15
+    condition:
+      noneOf:
+        - Operational-data.243bacfd-f8a2-4c95-b3b0-08a15b6a48ae.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Treat your SQL MI infrastructure as if it was code
+    url: /azure/azure-sql/managed-instance/create-template-quickstart?tabs=azure-powershell
+    condition:
+      noneOf:
+        - Operational-data.c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Resource Tags used to enrich database resources with operational metadata
+    url: /azure/azure-sql/managed-instance/instance-create-quickstart#tags
+    condition:
+      noneOf:
+        - Operational-data.c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Isolate your SQL MI instances deployment
+    url: /azure/azure-sql/managed-instance/connectivity-architecture-overview#virtual-cluster-connectivity-architecture
+    condition:
+      noneOf:
+        - Operational-data.c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan VNet related elements before SQL MI deployment to avoid future problems in networking area
+    url: /azure/azure-sql/managed-instance/vnet-subnet-determine-size
+    condition:
+      noneOf:
+        - Operational-data.c8ecfbf4-dfae-4fe1-9bc0-25c98a30fa6b.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement alerting and monitoring for the DevOps infrastructure of the workload
+    url: /azure/azure-monitor/app/continuous-monitoring
+    condition:
+      noneOf:
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Log all deployments
+    url: /azure/azure-monitor/app/continuous-monitoring#view-release-logs
+    condition:
+      noneOf:
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Track deployment metrics
+    url: /azure/azure-monitor/app/continuous-monitoring#modify-alert-rules
+    condition:
+      noneOf:
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Capture historical data for SQL MI
+    url: 'https://techcommunity.microsoft.com/t5/datacat/azure-sql-db-managed-instance-sp-readmierrorlog/ba-p/305506'
+    condition:
+      noneOf:
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Audit your SQL Managed Instance
+    url: /azure/azure-sql/managed-instance/auditing-configure
+    condition:
+      noneOf:
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Setup alerts and notifications for SQL MI
+    url: /azure/azure-sql/managed-instance/alerts-create
+    condition:
+      noneOf:
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.N
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Setup monitoring for your SQL MI
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql/monitoring-options-available-for-azure-sql-managed-instance/ba-p/1065416'
+    condition:
+      noneOf:
+        - Operational-data.1b654d8f-389c-4e88-8dc4-9bdc71432ea5.A
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.O
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.J
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.G
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.F
+        - Operational-data.1362e194-2cb2-4f87-9135-8466f3da2613.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Utilize SQL insights as a comprehensive solution for monitoring any product in the Azure SQL family
+    url: /azure/azure-monitor/insights/sql-insights-overview
+    condition:
+      noneOf:
+        - Operational-data.1b654d8f-389c-4e88-8dc4-9bdc71432ea5.B
+        - Operational-data.ddc09e99-b9cd-411f-ba27-ab44fbe01fe1.O
+        - Operational-data.3c397b24-2c58-4262-840e-3c78a4224b63.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create SQL MI workload baseline to evaluate update or code changes impact
+    url: /azure/azure-sql/migration-guides/managed-instance/sql-server-to-managed-instance-performance-baseline#create-a-baseline
+    condition:
+      noneOf:
+        - Operational-data.1b654d8f-389c-4e88-8dc4-9bdc71432ea5.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Source Control Integration for dedicated SQL pool in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-source-control-integration
+    condition:
+      noneOf:
+        - Operational-data.5b0b7544-cc30-4f5d-8203-853e8beb9a4b.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Continuous integration and deployment for dedicated SQL pool in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-continuous-integration-and-deployment
+    condition:
+      noneOf:
+        - Operational-data.5b0b7544-cc30-4f5d-8203-853e8beb9a4b.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Continuous integration and delivery for Azure Synapse Analytics workspace.
+    url: /azure/synapse-analytics/cicd/continuous-integration-deployment
+    condition:
+      noneOf:
+        - Operational-data.5b0b7544-cc30-4f5d-8203-853e8beb9a4b.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Source control in Azure Analytics Synapse Studio.
+    url: /azure/synapse-analytics/cicd/source-control
+    condition:
+      noneOf:
+        - Operational-data.5b0b7544-cc30-4f5d-8203-853e8beb9a4b.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate the creation of Azure Synapse Analytics Workspace with Azure CLI.
+    url: /azure/synapse-analytics/quickstart-create-workspace-cli
+    condition:
+      noneOf:
+        - Operational-data.630546a5-5ba4-4106-a09c-45d692406eab.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate the creation of Azure Synapse Analytics Workspace with PowerShell.
+    url: /azure/synapse-analytics/quickstart-create-workspace-powershell
+    condition:
+      noneOf:
+        - Operational-data.630546a5-5ba4-4106-a09c-45d692406eab.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate the creation of Azure Synapse Analytics Workspace with an ARM template.
+    url: /azure/synapse-analytics/quickstart-deployment-template-workspaces
+    condition:
+      noneOf:
+        - Operational-data.630546a5-5ba4-4106-a09c-45d692406eab.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Functions to automate compute resource management for your Azure Synapse Analytics dedicated SQL pool.
+    url: /azure/synapse-analytics/sql-data-warehouse/manage-compute-with-azure-functions
+    condition:
+      noneOf:
+        - Operational-data.630546a5-5ba4-4106-a09c-45d692406eab.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage Python libraries for Apache Spark in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/spark/apache-spark-manage-python-packages
+    condition:
+      noneOf:
+        - Operational-data.630546a5-5ba4-4106-a09c-45d692406eab.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage Scala and Java packages for Apache Spark in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/spark/apache-spark-manage-scala-packages
+    condition:
+      noneOf:
+        - Operational-data.630546a5-5ba4-4106-a09c-45d692406eab.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Synapse Analytics resource limits.
+    url: /azure/azure-sql/database/resource-limits-logical-server#maximum-resource-limits
+    condition:
+      noneOf:
+        - Operational-data.c3b2e2e6-570c-4de4-a429-95b3b433b377.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Synapse Analytics capacity limits.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits
+    condition:
+      noneOf:
+        - Operational-data.c3b2e2e6-570c-4de4-a429-95b3b433b377.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Stored Procedures for dedicated SQL pools in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-stored-procedures
+    condition:
+      noneOf:
+        - Operational-data.5c157c77-7b54-4936-9128-5c1a80d05a4d.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use User-defined schemas for dedicated SQL pools in Azure Synapse Analytics.
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-user-defined-schemas
+    condition:
+      noneOf:
+        - Operational-data.5c157c77-7b54-4936-9128-5c1a80d05a4d.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Create, develop, and maintain Synapse Studio notebooks in Azure Synapse Analytics.'
+    url: /azure/synapse-analytics/spark/apache-spark-development-using-notebooks?tabs=classical#create-a-notebook
+    condition:
+      noneOf:
+        - Operational-data.5c157c77-7b54-4936-9128-5c1a80d05a4d.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create an Apache Spark applications with VSCode using a Azure Synapse Analytics workspace.
+    url: /azure/synapse-analytics/spark/vscode-tool-synapse
+    condition:
+      noneOf:
+        - Operational-data.5c157c77-7b54-4936-9128-5c1a80d05a4d.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create an Apache Spark application with IntelliJ using a Synapse workspace.
+    url: /azure/synapse-analytics/spark/intellij-tool-synapse
+    condition:
+      noneOf:
+        - Operational-data.5c157c77-7b54-4936-9128-5c1a80d05a4d.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use .NET for Apache Spark with Azure Synapse Analytics.
+    url: /azure/synapse-analytics/spark/spark-dotnet
+    condition:
+      noneOf:
+        - Operational-data.5c157c77-7b54-4936-9128-5c1a80d05a4d.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Monitor with your Azure Synapse Analytics workspace.
+    url: /azure/synapse-analytics/monitoring/how-to-monitor-using-azure-monitor
+    condition:
+      noneOf:
+        - Operational-data.5fa19997-5ff4-4131-b325-f5ff0d3eff74.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Studio to monitor your Apache Spark applications.
+    url: /azure/synapse-analytics/monitoring/apache-spark-applications
+    condition:
+      noneOf:
+        - Operational-data.5fa19997-5ff4-4131-b325-f5ff0d3eff74.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Integrate pipelines and activities using Azure Synapse Studio.
+    url: /azure/synapse-analytics/get-started-pipelines
+    condition:
+      noneOf:
+        - Operational-data.589122e5-bc4d-43ce-9251-23431f574fdb.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Visualize data with Power BI.
+    url: /azure/synapse-analytics/get-started-visualize-power-bi
+    condition:
+      noneOf:
+        - Operational-data.589122e5-bc4d-43ce-9251-23431f574fdb.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Connect to Azure Data Explorer using Apache Spark for Azure Synapse Analytics.
+    url: /azure/synapse-analytics/quickstart-connect-azure-data-explorer
+    condition:
+      noneOf:
+        - Operational-data.589122e5-bc4d-43ce-9251-23431f574fdb.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use the Azure Synapse Analytics connector for Azure Databricks to directly upload a dataframe as a table in a Synapse Spark pool.
+    url: /azure/databricks/scenarios/databricks-extract-load-sql-data-warehouse?bc=%2fazure%2fsynapse-analytics%2fbreadcrumb%2ftoc.json&toc=%2fazure%2fsynapse-analytics%2ftoc.json
+    condition:
+      noneOf:
+        - Operational-data.589122e5-bc4d-43ce-9251-23431f574fdb.D
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Synapse Analytics Link for Azure Cosmos DB.
+    url: /azure/cosmos-db/synapse-link?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json
+    condition:
+      noneOf:
+        - Operational-data.589122e5-bc4d-43ce-9251-23431f574fdb.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Link an Azure Synapse Analytics workspace to an Azure Machine Learning workspace.
+    url: /azure/synapse-analytics/machine-learning/quickstart-integrate-azure-machine-learning
+    condition:
+      noneOf:
+        - Operational-data.589122e5-bc4d-43ce-9251-23431f574fdb.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Connect an Azure Purview Account to a Azure Synapse Analytics workspace.
+    url: /azure/synapse-analytics/catalog-and-governance/quickstart-connect-azure-purview
+    condition:
+      noneOf:
+        - Operational-data.589122e5-bc4d-43ce-9251-23431f574fdb.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 6b7979da-abf9-4d31-ab97-4fcc2390f8a4
+name: ''

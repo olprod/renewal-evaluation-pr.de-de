@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You manage Microsoft 365 Defender incidents.
+
+  You need to reduce the number of false positive incidents.
+
+  What should you do?
+questionnaireUid: b326c9de-8b91-489b-9fd0-96d4b1156361
+questions:
+  - uid: fcabd2ef-2141-4269-9035-229fc127f160-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You manage Microsoft 365 Defender incidents.
+        isCorrect: false
+      - id: 1
+        text: You need to reduce the number of false positive incidents.
+        isCorrect: false
+      - id: 2
+        text: What should you do?
+        isCorrect: false
+      - id: 3
+        text: Set the classification for false positive incidents to **false**.
+        isCorrect: true
+uid: fcabd2ef-2141-4269-9035-229fc127f160
+title: ''

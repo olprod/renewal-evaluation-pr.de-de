@@ -1,0 +1,97 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Using a federated Azure Key Vault model to avoid transaction scale limits.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: Provisioned Azure Key Vault with the soft delete and purge policies enabled to allow retention protection for deleted objects.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: 'Following a least-privilege model by limiting the authorization to permanently delete keys, secrets, and certificates to specialized custom Azure Active Directory (Azure AD) roles.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '3'
+    text: Automated the certificate management and renewal process with public certificate authorities to ease administration.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: Established an automated process for key and certificate rotation.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '5'
+    text: Enabled firewall and virtual network service endpoints on the vault to control access to the key vault.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '6'
+    text: 'Using the platform-central Azure Monitor Log Analytics workspace to audit key, certificate, and secret usage within each instance of Key Vault.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '7'
+    text: Delegated Key Vault instantiation and privileged access and use Azure Policy to enforce a consistent compliant configuration.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '8'
+    text: Default to Microsoft-managed keys for principal encryption functionality and use customer-managed keys when required.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '9'
+    text: Using decentralized instances of Key Vault for application keys or secrets.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '10'
+    text: Avoiding secret sharing across environments by having separate Key Vault instances between applications.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 0c43783b-4be0-4b1f-bb0c-43b46a5a6c04
+name: How are you managing encryption and key management in Azure?

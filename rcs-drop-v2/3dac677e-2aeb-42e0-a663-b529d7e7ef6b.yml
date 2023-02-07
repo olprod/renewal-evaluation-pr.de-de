@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization is happy with using the data lake that already manages most of the enterprise data.
+    description: Your organization is happy with using the data lake that already manages most of the enterprise data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is planning to bring quality and governance to data lake and move towards Data Lakehouse platform.
+    description: Your organization is planning to bring quality and governance to data lake and move towards Data Lakehouse platform.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization is building a Data Lakehouse to bridge the gap by combining best of both the worlds and optimize data for fast query performance.
+    description: Your organization is building a Data Lakehouse to bridge the gap by combining best of both the worlds and optimize data for fast query performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. YYour organization has developed a medallion architecture that combines the best of both worlds in a single platform and provides native support for machine learning.
+    description: Your organization has developed a medallion architecture that combines the best of both worlds in a single platform and provides native support for machine learning.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization leverages Data Lakehouse to harness advantages of the data platform architecture and  using open data formats and APIs.
+    description: Your organization leverages Data Lakehouse to harness advantages of the data platform architecture and  using open data formats and APIs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you use or have considered Data Lakehouse Architecture?
+isRequired: true
+uid: 3dac677e-2aeb-42e0-a663-b529d7e7ef6b
+name: Do you use or have considered Data Lakehouse Architecture?

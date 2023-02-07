@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Power app that use a Power Automate flow to run a Microsoft Azure Logic App.
+
+  What should you do?
+questionnaireUid: 3fd3f77b-4723-4e0f-8d41-6f53fda2ab9e
+questions:
+  - uid: ed1a4618-0a62-435f-ad08-47942816daf2-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a Power app that use a Power Automate flow to run a Microsoft Azure Logic App.
+        isCorrect: true
+      - id: 1
+        text: What should you do?
+        isCorrect: false
+      - id: 2
+        text: Export the Azure Logic App as a custom connector.
+        isCorrect: false
+      - id: 3
+        text: Create an Azure Data Lake.
+        isCorrect: false
+uid: ed1a4618-0a62-435f-ad08-47942816daf2
+title: ''

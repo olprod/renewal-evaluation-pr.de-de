@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our configurations are audited
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: Our configurations are version controlled and reviewed by a board.  When a change is implemented we create a tag or label in our version control
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We use software components, such as File Integrity Monitoring (FIM), to establish a baseline then audit and track changes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: 'We establish a baseline in VMs, then deploy from that VM(s) as a template to our infrastructure.  At regular intervals, we update the template.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: 'We use Infrastructure as Code, version all our scripts and deploy with an immutable environment.  We track our changes with our source control and use labels or tags to indicate new baseline changes.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Configuration identification is necessary to understand what has changed over time.  Having a baseline helps you understand that change as it related to previous deployments or configuration changes.
+isRequired: true
+uid: 2c798141-f07f-4611-adcb-87133138f140
+name: Configuration identification is necessary to understand what has changed over time.

@@ -1,0 +1,97 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Learn more about the Conditional Access policies architecture and personas
+    url: /azure/architecture/guide/security/conditional-access-architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.fd50b32c-b216-4431-bfa5-518eab50a7ba.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Adopt a framework and follow the best practices for your Conditional Access Policies
+    url: /azure/architecture/guide/security/conditional-access-framework
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.fd50b32c-b216-4431-bfa5-518eab50a7ba.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Create, manage and document emergency access accounts in Azure AD'
+    url: /azure/active-directory/roles/security-emergency-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.fd50b32c-b216-4431-bfa5-518eab50a7ba.6
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.ce81efa2-5773-4f50-a029-1be178dcccac.0
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.ce81efa2-5773-4f50-a029-1be178dcccac.1
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.ce81efa2-5773-4f50-a029-1be178dcccac.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure monitoring of emergency (Break the Glass) accounts
+    url: /azure/active-directory/roles/security-emergency-access#monitor-sign-in-and-audit-logs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.ce81efa2-5773-4f50-a029-1be178dcccac.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Periodically review Insights information on Conditional Access
+    url: /azure/active-directory/conditional-access/howto-conditional-access-insights-reporting
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.fd50b32c-b216-4431-bfa5-518eab50a7ba.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure conditional access policies use all of the appropriate controls to align with Zero Trust
+    url: /azure/active-directory/conditional-access/concept-conditional-access-policies#conditions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.6c7ff38f-8c18-46e4-a77e-c69d798f879f.0
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.6c7ff38f-8c18-46e4-a77e-c69d798f879f.5
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.6c7ff38f-8c18-46e4-a77e-c69d798f879f.2
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.6c7ff38f-8c18-46e4-a77e-c69d798f879f.3
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.6c7ff38f-8c18-46e4-a77e-c69d798f879f.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Common Conditional Access policy templates
+    url: /azure/active-directory/conditional-access/concept-conditional-access-policy-common#conditional-access-templates-preview
+    condition:
+      allOf: []
+      anyOf:
+        - 89cd5e8b-33d3-42b6-8b6f-badf653b21df.6c7ff38f-8c18-46e4-a77e-c69d798f879f.7
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 27ad497a-151c-4546-9209-877e722bef1d
+name: ''

@@ -1,0 +1,113 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Application processes are stateless.
+    description: Are all processes stateless with application state externalized?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: B
+    text: Session state is non-sticky and externalized to a data store.
+    description: Is session state (if any) non-sticky and externalized to a data store?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: C
+    text: Application configuration is treated as code and deployed with the application.
+    description: Is application configuration treated as code and deployed with the application? i.e. is configuration information captured for operational transparency.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: D
+    text: Application platform services are running in a highly available configuration/SKU.
+    description: Are all application platform services running in a HA configuration/SKU? e.g. Service Bus Premium.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: E
+    text: Application platform components are deployed across Availability Zones or Availability Sets.
+    description: Is the application deployed across AZs or ASs?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: F
+    text: Leveraged platform services are Availability Zone aware.
+    description: 'Is the underlying application platform service Availability Zone aware? Platform services that can leverage Availability Zones are deployed in either a zonal manner within a particular zone, and/or in a zone-redundant configuration across multiple zones'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: G
+    text: Application platform components are deployed across multiple active regions.
+    description: Is the application platform deployed across multiple regions? The ability to respond to disaster scenarios for overall compute platform availability and application resiliency is dependant on the use of multiple regions or other deployment locations
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: H
+    text: Load balancing is implemented to distribute traffic across multiple nodes.
+    description: Are application components hosted across multiple nodes based on expected traffic patterns?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: I
+    text: Health probes are implemented to check the health of application components and compound application health.
+    description: Are health probes used for load balancers to check next hop component health and compound application health for key workloads?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: Queuing and reliable messaging patterns are used to integrate application tiers.
+    description: Are queuing and messaging patterns used to asynchronously integrate application components?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: K
+    text: Client traffic can be routed to the application in the case of region/zone/network outages.
+    description: 'How is the client traffic routed to the application in the case of region outage? i.e. is traffic routed through a global load balancer such as Azure Front Door, Azure Traffic Manager or a third-party CDN.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: L
+    text: Procedures to scale out application platform components are automated.
+    description: Are operational procedures to scale out application platform components automated based on key utilization metrics?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: M
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Application reliability
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWEifN'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Designing application platform resiliency and availability is critical to ensuring overall application reliability.
+isRequired: false
+legacyId: '4'
+uid: 303a65f3-81fa-4afc-a83d-7bef964fc9d2
+name: Designing application platform resiliency and availability is critical to ensuring overall application reliability.

@@ -1,0 +1,57 @@
+### YamlMime:SelfAssessment
+description: 'This assessment covers topics pertaining to skills, SOP development covering people, process, and product to manage Dynamics 365 Finance and Operation (D365 F&O) implementations. The assessment provides pointers and guidance to establish a Center of Excellence in managing D365 F&O Implementations for Partner providing managed service support to their customers or IT team of enterprise interested in managing the D365 F&O workloads'
+duration: 30 Minutes to 60 Minutes
+questionnaireReferences:
+  - questionnaireUid: c365dd8e-eb14-4aad-b67e-88cd64d80825
+    isRequired: false
+  - questionnaireUid: 08a7bba3-bcfd-465b-8311-5ab087df6da6
+    isRequired: false
+  - questionnaireUid: b305e1ab-7c65-4902-82cc-f8b2ba604d07
+    isRequired: false
+  - questionnaireUid: 06c516c3-3fc3-46b4-8013-c14fe9ea0374
+    isRequired: false
+guidance:
+  title: 30 Minutes to 60 Minutes
+  description: 'Center of Excellence Recommendations Based on your input, we recommend the following topics you and your team need to be aware of and streamline as practice in your day-to-day operations in optimal upkeep of your D365 F&O implementations.'
+  providers: []
+  scoring:
+    title: ''
+    description: ''
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Muhammad
+  lastName: Aurangzeb
+  email: maurangzeb@microsoft.com
+isHiddenAssessment: true
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+metadataTags:
+  - dynamics-365
+relatedTags:
+  - bcb90547-d75e-47cd-b133-4c5340e68fc2
+  - b8f27ff4-1ce1-4a80-a808-5d377fc15020
+  - e25722a7-e0ab-4e52-b928-5ce9461df1ed
+  - 388159e6-55f1-4287-86fa-09032f5ad812
+uid: 22e1e9a8-0289-4dca-98ea-4515ad392a3a
+name: 'Establishing COE is continuous innovation and optimization of People, Process and Product aspects of the implemented workloads to get best of the platform for your users.'

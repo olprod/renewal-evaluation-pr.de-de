@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have not yet determined our project organization.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We have a legacy project organization and haven't yet succeeded in aligning it to this project's business stakeholders and to the implementation partner roles and responsibilities
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'We are in the process of establishing our project organization to align with the business processes in scope, technologies involved and partner roles and responsibilities, but we are struggling to get the right level of full-time business participation in the project.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'We have setup our project organization to align with the business processes in scope, technologies involved and partner roles and responsibilities. We have an active business sponsor taking ownership of the project, and a firm commitment for the right level of full-time business participation in the project.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How aligned is your project organization to the stakeholders of your business and to the partner organization roles?
+isRequired: true
+uid: a54d78c9-cc0f-4623-83f0-bbbcd9bcf6ad
+name: How aligned is your project organization to the stakeholders of your business and to the partner organization roles?

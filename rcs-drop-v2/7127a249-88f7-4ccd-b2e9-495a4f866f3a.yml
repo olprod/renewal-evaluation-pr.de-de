@@ -1,0 +1,72 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Application and resource level logs are aggregated in a single data sink or able to be cross-queried.
+    description: To build a robust application health model it is vital that application and resource level data be correlated and evaluated together to optimize the detection of issues and troubleshooting of detected issues.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: A health model is used to qualify what 'healthy' and 'unhealthy' states represent for the application.
+    description: 'A holistic application health model should be used to quantify what ''healthy'' and ''unhealthy'' states represent across all application components. It is highly recommended that a ''traffic light'' model be used to indicate a green/healthy state when key non-functional requirements and targets are fully satisfied and resources are optimally utilized, e.g. 95% of requests are processed in <= 500ms with Azure Kubernetes Service (AKS) node utilization at x%.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Critical system flows are used to inform the health model.
+    description: 'The health model should be able to surface the respective health of critical system flows or key subsystems to ensure appropriate operational prioritization is applied. For example, the health model should be able to represent the current state of the user login transaction flow.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: The health model can distinguish between transient and non-transient faults.
+    description: The health model should clearly distinguish between expected-transient but recoverable failures and a true disaster state.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: The health model can determine if the workload is performing at the expected targets.
+    description: The health model should have the ability to evaluate application performance as a part of the application's overall health state.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Retention times for logs and metrics been defined and housekeeping mechanisms are configured.
+    description: Clear retention times should be defined to allow for suitable historic analysis but also control storage costs. Suitable housekeeping tasks should also be used to archive data to cheaper storage or aggregate data for long-term trend analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: Long-term trends are analyzed to predict performance issues before they occur.
+    description: 'Analytics can and should be performed across long-term operational data to help inform on the history of application performance and detect if there have been any regressions. For instance, if the average response times have been slowly increasing over time and getting closer to maximum target consider scaling up your infrastructure.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: ''
+isRequired: false
+legacyId: health-modeling
+uid: 7127a249-88f7-4ccd-b2e9-495a4f866f3a
+name: How have you modeled the health of your workload?

@@ -1,0 +1,138 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider disabling ARR Affinity for your App Service
+    url: 'https://azure.github.io/AppService/2020/05/15/Robust-Apps-for-the-cloud.html#update-your-default-settings'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.A
+      scoreOf: []
+    context: Consider disabling ARR Affinity for your App Service. ARR Affinity (Application Request Routing) will set an affinity cookie which will be used to redirect users to the same node as that handled their previous requests.
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Use a different store for session state
+    url: '/azure/architecture/best-practices/caching '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.B
+      scoreOf: []
+    context: Use another store for session state. Storing session state in memory could result in losing session state when there is a problem with the application or App Service. It will also limit the possibility to spread the load over other instances.
+    priority: 25
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Enable Always On to ensure that the WebJobs run reliably
+    url: /azure/app-service/configure-common#configure-general-settings
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.C
+      scoreOf: []
+    context: 'A web app can time out after 20 minutes of inactivity. Only requests to the actual web app reset the timer. If your app runs continuous or scheduled (Timer trigger) WebJobs, enable Always On to ensure that the WebJobs run reliably. This feature is available only in the Basic, Standard, and Premium pricing tiers.'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: Use Azure App Service Deployment Slots
+    url: /azure/app-service/deploy-staging-slots
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.D
+      scoreOf: []
+    context: 'We recommend, whenever possible, to use deployment slots when deploying a new production build. When using a Standard App Service Plan tier or higher, you can deploy your app to a staging environment, validate your changes, and do smoke tests. When you are ready, you can swap your staging and production slots. The swap operation warms up the necessary worker instances to match your production scale, thus eliminating downtime.'
+    priority: 50
+    reportingCategory: 'Upgrade, Migration and Deployment'
+    reportingSubCategory: Configuring for Deployment
+  - title: Access the on-premises database through a private connection
+    url: '/azure/app-service/web-sites-integrate-with-vnet https://azure.github.io/AppService/2020/02/27/General-Availability-of-VNet-Integration-with-Windows-Web-Apps.html'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.E
+      scoreOf: []
+    context: Access the on-premises database through a private connection. You should access your on premises database over a private connection so that the connection is secured and predictable.
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Conduct an App Service Plan Density Check
+    url: /azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.F
+      scoreOf: []
+    context: For production applications it is recommended that an App Service Plan does not host more than a certain number of sites.
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Enable auto-heal to ensure resiliency
+    url: 'https://azure.github.io/AppService/2018/09/10/Announcing-the-New-Auto-Healing-Experience-in-App-Service-Diagnostics.html'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.G
+      scoreOf: []
+    context: Auto-Heal is highly recommended for production applications that need to ensure high availability and resilience.
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Enable the health check feature
+    url: 'https://aka.ms/appservicehealthcheck'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.H
+      scoreOf: []
+    context: 'Health Check feature automatically removes a faulty instance from rotation, thus improving availability. This feature will ping the specified health check path on all instances of your webapp every 2 minutes. If an instance does not respond within 10 minutes (5 pings), the instance is determined to be unhealthy and our service will stop routing requests to it.'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: Check if the application did not exceed its pre-allocated SNAT ports
+    url: '/azure/load-balancer/load-balancer-outbound-connections#snatexhaust '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.I
+      scoreOf: []
+    context: SNAT enables IP masquerading of the backend instance. This masquerading prevents outside sources from having a direct address to the backend instances.
+    priority: 25
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: Set up Backup and Restore config in Azure App Service
+    url: /azure/app-service/manage-backup
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.J
+      scoreOf: []
+    context: The Backup and Restore feature in Azure App Service lets you easily create app backups manually or on a schedule. You can configure the backups to be retained up to an indefinite amount of time.
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Backup and Restore
+  - title: Evaluate the impact of IP Address deprecation
+    url: /azure/app-service/overview-inbound-outbound-ips
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 53d96e56-3f02-4bf7-900a-adb25154c61c.71b962c0-4626-4ea9-ae86-ebaa114140d3.K
+      scoreOf: []
+    context: Floating Addresses have no guarantee they will stay on the resource. Its essential to check over time for deprecated IP Addresses.. Checks if you are impacted by the recent IP release activity and suggests actions to take if not already done.
+    priority: 25
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+uid: 1af4ae8e-b7a4-4e65-a73d-0cf9304327d7
+name: ''

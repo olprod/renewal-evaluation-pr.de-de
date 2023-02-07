@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 2ed5e3ab-0633-4871-9fef-399c9a9feb15
+  - 3ab35ecd-f814-4b36-8d9c-28ec7265c800
+  - f5cb8dab-7301-41d7-ac89-4a1b3a5ee4e9
+recommendations:
+  - 9e04fe84-1848-474f-8d31-a13c49a1d392
+assignedGroupIds: []
+uid: 27e3734c-0729-4a6c-963b-d2b8f995a8c7
+name: 'Identity Zero Trust Objective VI. - Integrate threat signals from other security solutions to improve detection, protection, and response'

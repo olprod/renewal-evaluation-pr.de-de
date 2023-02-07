@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'When possible, avoid using SQL authentication and manage identities centrally using AAD.'
+    description: Implementing Multi-factor authentication for AAD will provide additional security and hence recommended
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Consider monitoring Azure AD group membership changes using Azure AD audit activity reports.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: 'Security principals must not be provided direct permissions. '
+    description: Provide minimum permissions to the custom database roles and assign principals to those roles what they would need to carry out their day-to-day activity.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: Use built-in roles only when the minimum permission needed by the user matches the permissions assigned to the roles.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Consider securing passwords and secrets in Azure Key Vault and rotate them periodically if Password-based authentications cannot be avoided.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: "Multi-factor authentication has been considered for interactive database authentication.\_"
+    description: Azure AD Multi-Factor Authentication helps provides additional security by requiring more than one form of authentication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: 'User access has been restricted by implementing access control policies using RLS, roles with least privileges etc.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: identity-data
+uid: bb1ab91c-1b66-46fd-beec-a56c573dd435
+name: How are you managing identity and authorization for Azure SQL workloads?

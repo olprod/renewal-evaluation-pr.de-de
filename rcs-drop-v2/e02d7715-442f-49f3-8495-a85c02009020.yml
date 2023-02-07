@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Perform thorough analysis before choosing the purchase model
+    url: /azure/azure-sql/database/purchasing-models
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 053b9f0c-98a1-4a86-8dd0-72085638c8d1.dfe16db3-8be7-468a-9efb-01b03537f830.A
+      scoreOf: []
+    context: 'Azure SQL Database enables you to easily purchase fully managed PaaS database engine that fits your performance and cost needs. Depending on the deployment model of Azure SQL Database, you can select the purchasing model that fits your needs. Two available purchase models are DTU model and vCore model.'
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Business Continuity Processes
+  - title: Proactively monitor the DTU utilization.
+    url: /azure/azure-sql/database/monitor-tune-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 053b9f0c-98a1-4a86-8dd0-72085638c8d1.dfe16db3-8be7-468a-9efb-01b03537f830.B
+      scoreOf: []
+    context: 'The unit of scale of a Azure SQL database is expressed as a percentage of DTU. This metric should be actively monitored to ensure that the database is not over provisioned, nor suffering from throttling / resource exhaustion.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+uid: e02d7715-442f-49f3-8495-a85c02009020
+name: ''

@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You can update the full set of software on your devices.
+    description: 'Your solution has the capability to update the full set of software on devices, including firmware, drivers, base OS, host applications, and cloud-deployed workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: Your update mechanism has remote deployment capabilities and update rollout verification.
+    description: Device update mechanisms can include remote deployment and update rollout verification.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: Your update mechanism integrates with pervasive security monitoring to enable automatic updates for security.
+    description: Device update mechanism is integrated with pervasive security monitoring to enable automatic updates for security.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Keeping devices up to date is part of keeping devices protected. You should be able to update the full set of software on devices, including firmware, drivers, base OS and host applications, and cloud-deployed workloads.'
+isRequired: false
+uid: a96559f9-8078-4f07-9660-3fae0ed08b8b
+name: 'Keeping devices up to date is part of keeping devices protected. You should be able to update the full set of software on devices, including firmware, drivers, base OS and host applications, and cloud-deployed workloads.'

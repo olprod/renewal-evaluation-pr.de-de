@@ -1,0 +1,711 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Create a disaster recovery plan that is documented, automated and fully tested'
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.39261027-1c11-4ed5-9f6b-a7e7112ebc07.B
+    context: 'Create a disaster recovery plan that is documented, automated and fully tested'
+    priority: 80
+    reportingCategory: Application Design
+    reportingSubCategory: Disaster Planning
+  - title: Have provisions in place for Azure-wide service disruption and do you perform region failover drills
+    url: 'https://docs.microsoft.com/azure/architecture/reliability/disaster-recovery'
+    condition:
+      noneOf:
+        - reliability-golive.39261027-1c11-4ed5-9f6b-a7e7112ebc07.C
+    context: Have provisions in place for Azure-wide service disruption and do you perform region failover drills
+    priority: 80
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Plan to recover your services to the same Azure region as your primary service
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.39261027-1c11-4ed5-9f6b-a7e7112ebc07.D
+    context: Plan to recover your services to the same Azure region as your primary service
+    priority: 80
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Deploy your application to a paired region
+    url: 'https://docs.microsoft.com/azure/best-practices-availability-paired-regions'
+    condition:
+      noneOf:
+        - reliability-golive.9cc8e201-639a-4f79-987c-36c763a5df05.A
+    context: Deploy your application to a paired region
+    priority: 90
+    reportingCategory: Application Platform Availability
+    reportingSubCategory: Compute Availability
+  - title: Design your solution to handle transient errors
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.9cc8e201-639a-4f79-987c-36c763a5df05.B
+    context: Design your solution to handle transient errors
+    priority: 80
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Consider disabling ARR Affinity for your App Service
+    url: 'https://azure.github.io/AppService/2020/05/15/Robust-Apps-for-the-cloud.html#update-your-default-settings'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.A
+    context: Consider disabling ARR Affinity for your App Service
+    priority: 60
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Network Throughput and Latency
+  - title: Use a different store for session state
+    url: 'https://docs.microsoft.com/azure/architecture/best-practices/caching'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.B
+    context: Use a different store for session state
+    priority: 60
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Network Throughput and Latency
+  - title: Enable Always On to ensure that the WebJobs run reliably
+    url: 'https://docs.microsoft.com/azure/app-service/configure-common#configure-general-settings'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.D
+    context: Enable Always On to ensure that the WebJobs run reliably
+    priority: 70
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Use Azure App Service Deployment Slots
+    url: 'https://docs.microsoft.com/azure/app-service/deploy-staging-slots'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.E
+    context: Use Azure App Service Deployment Slots
+    priority: 60
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Build Environments
+  - title: Access the on premises database through a private connection
+    url: 'https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.F
+    context: Access the on premises database through a private connection
+    priority: 70
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Network Security
+  - title: Conduct an App Service Plan Density Check
+    url: 'https://docs.microsoft.com/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.G
+    context: Conduct an App Service Plan Density Check
+    priority: 60
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Elasticity
+  - title: Enable auto-heal to ensure resiliency
+    url: 'https://azure.github.io/AppService/2018/09/10/Announcing-the-New-Auto-Healing-Experience-in-App-Service-Diagnostics.html'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.H
+    context: Enable auto-heal to ensure resiliency
+    priority: 80
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service Availability
+  - title: Enable the health check feature
+    url: 'https://aka.ms/appservicehealthcheck'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.I
+    context: Enable the health check feature
+    priority: 90
+    reportingCategory: Health Modelling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Check if the application did not exceed its pre-allocated SNAT ports
+    url: 'https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections#snatexhaust'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.J
+    context: Check if the application did not exceed its pre-allocated SNAT ports
+    priority: 60
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Setup Backup and Restore config in Azure App Service
+    url: 'https://docs.microsoft.com/azure/app-service/manage-backup'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.K
+    context: Setup Backup and Restore config in Azure App Service
+    priority: 100
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Replication and Redundancy
+  - title: Evaluate the impact of IP Address deprecation
+    url: 'https://docs.microsoft.com/azure/app-service/overview-inbound-outbound-ips'
+    condition:
+      noneOf:
+        - reliability-golive.5207a255-02fb-40e5-b93a-62ca5b5db937.L
+    context: Evaluate the impact of IP Address deprecation
+    priority: 40
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service Availability
+  - title: Evaluate scenarios where you perform A/B testing or use slots with your Azure Functions that are tied to events
+    url: 'https://docs.microsoft.com/azure/azure-functions/functions-deployment-slots#limitations'
+    condition:
+      noneOf:
+        - reliability-golive.69bba8fe-9075-4a2b-b5a9-4ccec994203b.A
+    context: Evaluate scenarios where you perform A/B testing or use slots with your Azure Functions that are tied to events
+    priority: 90
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Make your functions leverage batching messages for better performance
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.69bba8fe-9075-4a2b-b5a9-4ccec994203b.B
+    context: Make your functions leverage batching messages for better performance
+    priority: 70
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Efficiency
+  - title: Design your complex functions to handle transient and persistent failure
+    url: 'https://docs.microsoft.com/azure/azure-functions/functions-best-practices#write-defensive-functions'
+    condition:
+      noneOf:
+        - reliability-golive.69bba8fe-9075-4a2b-b5a9-4ccec994203b.C
+    context: Design your complex functions to handle transient and persistent failure
+    priority: 70
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service Availability
+  - title: Orchestrator of durable functions utilizes a replay pattern and must be deterministic
+    url: 'https://docs.microsoft.com/azure/azure-functions/durable/durable-functions-code-constraints#orchestrator-code-constraints'
+    condition:
+      noneOf:
+        - reliability-golive.69bba8fe-9075-4a2b-b5a9-4ccec994203b.D
+    context: Orchestrator of durable functions utilizes a replay pattern and must be deterministic
+    priority: 80
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service Availability
+  - title: 'Make your deployment processes repeatable and consistent, including provisioning Azure resources, application code and applying configuration settings'
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.f5f4ac99-6851-43cc-9cec-85da6cc8437e.A
+    context: 'Make your deployment processes repeatable and consistent, including provisioning Azure resources, application code and applying configuration settings'
+    priority: 80
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: General
+  - title: Include tests as part of your build/release pipeline
+    url: 'https://docs.microsoft.com/azure/architecture/framework/devops/release-engineering-ci'
+    condition:
+      noneOf:
+        - reliability-golive.f5f4ac99-6851-43cc-9cec-85da6cc8437e.B
+    context: Include tests as part of your build/release pipeline
+    priority: 80
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Perform load tests based on expected traffic
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.f5f4ac99-6851-43cc-9cec-85da6cc8437e.C
+    context: Perform load tests based on expected traffic
+    priority: 80
+    reportingCategory: Application Performance Management
+    reportingSubCategory: Data Size/Growth
+  - title: Perform Chaos/Fault testing
+    url: 'https://azure.microsoft.com/blog/inside-azure-search-chaos-engineering/'
+    condition:
+      noneOf:
+        - reliability-golive.f5f4ac99-6851-43cc-9cec-85da6cc8437e.D
+    context: Perform Chaos/Fault testing
+    priority: 80
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Ensure isolation between production and non-production environments
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.f5f4ac99-6851-43cc-9cec-85da6cc8437e.E
+    context: Ensure isolation between production and non-production environments
+    priority: 80
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Build Environments
+  - title: Have well-tested mechanisms in place to allow rollback of failed deployments to staging or production
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.f5f4ac99-6851-43cc-9cec-85da6cc8437e.F
+    context: Have well-tested mechanisms in place to allow rollback of failed deployments to staging or production
+    priority: 60
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Implement a custom page to use as a health check for your Traffic Manager
+    url: 'https://docs.microsoft.com/azure/traffic-manager/traffic-manager-troubleshooting-degraded#understanding-traffic-manager-probes'
+    condition:
+      noneOf:
+        - reliability-golive.0762322b-43d0-42d0-a3da-ea8fd06fdb83.A
+    context: Implement a custom page to use as a health check for your Traffic Manager
+    priority: 70
+    reportingCategory: Health Modelling & Monitoring
+    reportingSubCategory: Dependencies
+  - title: Evaluate the three different traffic routing methods available
+    url: 'https://docs.microsoft.com/azure/traffic-manager/traffic-manager-routing-methods'
+    condition:
+      noneOf:
+        - reliability-golive.0762322b-43d0-42d0-a3da-ea8fd06fdb83.B
+    context: Evaluate the three different traffic routing methods available
+    priority: 80
+    reportingCategory: Application Design
+    reportingSubCategory: Key Scenarios
+  - title: Consider nested traffic manager profiles
+    url: 'https://docs.microsoft.com/azure/traffic-manager/traffic-manager-nested-profiles'
+    condition:
+      noneOf:
+        - reliability-golive.0762322b-43d0-42d0-a3da-ea8fd06fdb83.C
+    context: Consider nested traffic manager profiles
+    priority: 70
+    reportingCategory: Application Design
+    reportingSubCategory: Key Scenarios
+  - title: Configure your Application Gateway to be zone redundant
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.564b4ff1-baac-47db-a5ff-22f2c042a86d.A
+    context: Configure your Application Gateway to be zone redundant
+    priority: 80
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service SKU
+  - title: Evaluate the four traffic routing configurations
+    url: 'https://docs.microsoft.com/azure/frontdoor/front-door-routing-methods'
+    condition:
+      noneOf:
+        - reliability-golive.2a4b2cf2-bd5a-4010-a2ff-8c35c30a0fdf.A
+    context: Evaluate the four traffic routing configurations
+    priority: 80
+    reportingCategory: Application Design
+    reportingSubCategory: Key Scenarios
+  - title: Provide dedicated nodes using taints and tolerations
+    url: 'https://docs.microsoft.com/azure/aks/operator-best-practices-advanced-scheduler#provide-dedicated-nodes-using-taints-and-tolerations'
+    condition:
+      noneOf:
+        - reliability-golive.67dd3bc8-7e4e-4851-b585-e56149537914.B
+    context: Provide dedicated nodes using taints and tolerations
+    priority: 80
+    reportingCategory: Application Design
+    reportingSubCategory: Key Scenarios
+  - title: Control pod scheduling using node selectors and affinity
+    url: 'https://docs.microsoft.com/azure/aks/operator-best-practices-advanced-scheduler#control-pod-scheduling-using-node-selectors-and-affinity'
+    condition:
+      noneOf:
+        - reliability-golive.67dd3bc8-7e4e-4851-b585-e56149537914.C
+    context: Control pod scheduling using node selectors and affinity
+    priority: 60
+    reportingCategory: Application Design
+    reportingSubCategory: Key Scenarios
+  - title: Handle transient database failures within your application
+    url: 'https://docs.microsoft.com/en-gb/azure/architecture/best-practices/retry-service-specific'
+    condition:
+      noneOf:
+        - reliability-golive.9b2f291c-ff35-4e10-bebf-96cc6bf3c972.A
+    context: Handle transient database failures within your application
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Azure SQL Database
+  - title: Use active geo-replication
+    url: 'https://docs.microsoft.com/azure/azure-sql/database/active-geo-replication-overview'
+    condition:
+      noneOf:
+        - reliability-golive.9b2f291c-ff35-4e10-bebf-96cc6bf3c972.B
+    context: Use active geo-replication
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Azure SQL Database
+  - title: Synchronize data between databases hosting VM nodes
+    url: 'https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices'
+    condition:
+      noneOf:
+        - reliability-golive.3dc9f706-9c83-4310-8493-b75defdbe321.A
+    context: Synchronize data between databases hosting VM nodes
+    priority: 80
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Tools & Planning
+  - title: Have appropriate database backup location in place
+    url: 'https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices#feature-specific-guidance'
+    condition:
+      noneOf:
+        - reliability-golive.3dc9f706-9c83-4310-8493-b75defdbe321.B
+    context: Have appropriate database backup location in place
+    priority: 80
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Deploy your Cosmos DB and application in the region correspond to your end users
+    url: 'https://docs.microsoft.com/azure/cosmos-db/tutorial-global-distribution-sql-api?tabs=api-async#addregion'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.A
+    context: Deploy your Cosmos DB and application in the region correspond to your end users
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Select the right consistency level to balance performance and throughput of the data
+    url: 'https://docs.microsoft.com/azure/cosmos-db/consistency-levels'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.B
+    context: Select the right consistency level to balance performance and throughput of the data
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Change the consistency level depending on the data operation / usage
+    url: 'https://docs.microsoft.com/azure/cosmos-db/how-to-manage-consistency?tabs=portal%2Cdotnetv2%2Cjavaasync'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.C
+    context: Change the consistency level depending on the data operation / usage
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Evaluate the connectivity modes and connection protocols in Azure Cosmos DB
+    url: 'https://docs.microsoft.com/azure/cosmos-db/tutorial-develop-table-dotnet#azure-cosmos-db-capabilities'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.D
+    context: Evaluate the connectivity modes and connection protocols in Azure Cosmos DB
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Configure Preferred Locations
+    url: 'https://docs.microsoft.com/azure/cosmos-db/tutorial-global-distribution-sql-api?tabs=api-async#connecting-to-a-preferred-region-using-the-documentdb-api'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.E
+    context: Configure Preferred Locations
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Specify index precisions
+    url: 'https://docs.microsoft.com/azure/cosmos-db/index-policy'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.F
+    context: Specify index precisions
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Follow the best practices while choosing a partition key
+    url: 'https://docs.microsoft.com/azure/cosmos-db/partition-data'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.G
+    context: Follow the best practices while choosing a partition key
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Optimize the read performance on the database
+    url: 'https://docs.microsoft.com/azure/cosmos-db/table-storage-design-guide#design-for-querying'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.H
+    context: Optimize the read performance on the database
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Optimize the performance of reads on the database
+    url: 'https://docs.microsoft.com/azure/cosmos-db/table-storage-design-guide#design-for-data-modification'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.I
+    context: Optimize the performance of reads on the database
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Evaluate ways to improve your database performance
+    url: 'https://docs.microsoft.com/azure/cosmos-db/performance-tips'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.J
+    context: Evaluate ways to improve your database performance
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Configure data replication to ensure Cosmos DB meets the SLA
+    url: 'https://docs.microsoft.com/azure/cosmos-db/high-availability'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.K
+    context: Configure data replication to ensure Cosmos DB meets the SLA
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Handle retries when resource limits are exceeded
+    url: 'https://docs.microsoft.com/azure/cosmos-db/request-units'
+    condition:
+      noneOf:
+        - reliability-golive.c5024487-5a07-4f2b-b7d2-628d8c575bbb.L
+    context: Handle retries when resource limits are exceeded
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Cosmos DB
+  - title: Consider a partitioning strategy within Redis cache
+    url: 'https://docs.microsoft.com/azure/architecture/best-practices/data-partitioning-strategies#partitioning-azure-cache-for-redis'
+    condition:
+      noneOf:
+        - reliability-golive.70fd3a64-843e-4052-8268-aafd166e3080.A
+    context: Consider a partitioning strategy within Redis cache
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Azure Cache for Redis
+  - title: Use Azure Redis cache for persistent (i.e. non-transient) data
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.70fd3a64-843e-4052-8268-aafd166e3080.B
+    context: Use Azure Redis cache for persistent (i.e. non-transient) data
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Azure Cache for Redis
+  - title: Implement retry policies in the context of your Azure Redis Cache
+    url: 'https://docs.microsoft.com/en-gb/azure/architecture/best-practices/retry-service-specific#cosmos-db'
+    condition:
+      noneOf:
+        - reliability-golive.70fd3a64-843e-4052-8268-aafd166e3080.C
+    context: Implement retry policies in the context of your Azure Redis Cache
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Azure Cache for Redis
+  - title: Configure high availability
+    url: 'https://docs.microsoft.com/azure/postgresql/howto-hyperscale-high-availability'
+    condition:
+      noneOf:
+        - reliability-golive.2eddb193-c83b-466f-ba2e-15870bfc31da.A
+    context: Configure high availability
+    priority: 80
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Replication and Redundancy
+  - title: Configure retry logic or pgbouncer for your connection pool
+    url: 'https://azure.microsoft.com/blog/performance-best-practices-for-using-azure-database-for-postgresql-connection-pooling/'
+    condition:
+      noneOf:
+        - reliability-golive.2eddb193-c83b-466f-ba2e-15870bfc31da.B
+    context: Configure retry logic or pgbouncer for your connection pool
+    priority: 90
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Consistency
+  - title: It is recommended that deprecated and unneeded images are actively removed from the registry to reduce storage consumption
+    url: 'https://docs.microsoft.com/azure/container-registry/container-registry-best-practices#manage-registry-size'
+    condition:
+      noneOf:
+        - reliability-golive.72e46a7d-5e49-40bb-8244-e6669cce4b51.A
+    context: It is recommended that deprecated and unneeded images are actively removed from the registry to reduce storage consumption
+    priority: 60
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service SKU
+  - title: Deploy your Azure Container Registry instance in the same region as the container deployments
+    url: 'https://docs.microsoft.com/azure/container-registry/container-registry-best-practices#network-close-deployment'
+    condition:
+      noneOf:
+        - reliability-golive.72e46a7d-5e49-40bb-8244-e6669cce4b51.B
+    context: Deploy your Azure Container Registry instance in the same region as the container deployments
+    priority: 70
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service Availability
+  - title: Enable geo-replication for your Azure Container Registry
+    url: 'https://docs.microsoft.com/azure/container-registry/container-registry-best-practices#geo-replicate-multi-region-deployments'
+    condition:
+      noneOf:
+        - reliability-golive.72e46a7d-5e49-40bb-8244-e6669cce4b51.C
+    context: Enable geo-replication for your Azure Container Registry
+    priority: 70
+    reportingCategory: Application Design
+    reportingSubCategory: Failure Mode Analysis
+  - title: 'Have a strategy to enable images to be pulled, and workload deployments to continue in the event of an Azure outage in the region in which your Azure Container Registry is deployed'
+    url: 'https://docs.microsoft.com/azure/container-registry/container-registry-skus#changing-tiers'
+    condition:
+      noneOf:
+        - reliability-golive.72e46a7d-5e49-40bb-8244-e6669cce4b51.D
+    context: 'Have a strategy to enable images to be pulled, and workload deployments to continue in the event of an Azure outage in the region in which your Azure Container Registry is deployed'
+    priority: 70
+    reportingCategory: Application Design
+    reportingSubCategory: Failure Mode Analysis
+  - title: Each subscription has a limit of 100 Container Groups deployed at any given time
+    url: 'https://docs.microsoft.com/azure/container-instances/container-instances-quotas'
+    condition:
+      noneOf:
+        - reliability-golive.0a896ee0-3626-4cbf-9a74-28e0927ae687.A
+    context: Each subscription has a limit of 100 Container Groups deployed at any given time
+    priority: 70
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Consider identifying opportunities to reduce the number of containers per group or evaluating Azure Kubernetes Service
+    url: 'https://docs.microsoft.com/azure/container-instances/container-instances-quotas'
+    condition:
+      noneOf:
+        - reliability-golive.0a896ee0-3626-4cbf-9a74-28e0927ae687.B
+    context: Consider identifying opportunities to reduce the number of containers per group or evaluating Azure Kubernetes Service
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Have a plan or configuration in place to insulate against regional outages affecting Azure Container Instances
+    url: 'https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview'
+    condition:
+      noneOf:
+        - reliability-golive.0a896ee0-3626-4cbf-9a74-28e0927ae687.D
+    context: Have a plan or configuration in place to insulate against regional outages affecting Azure Container Instances
+    priority: 70
+    reportingCategory: Application Design
+    reportingSubCategory: Dependencies
+  - title: 'Store any state within the container, either in-memory or on disk, such as session, configuration or logs'
+    url: 'https://docs.microsoft.com/azure/aks/operator-best-practices-multi-region#remove-service-state-from-inside-containers'
+    condition:
+      noneOf:
+        - reliability-golive.0a896ee0-3626-4cbf-9a74-28e0927ae687.E
+    context: 'Store any state within the container, either in-memory or on disk, such as session, configuration or logs'
+    priority: 70
+    reportingCategory: Application Design
+    reportingSubCategory: Dependencies
+  - title: Consider migrating to the Premium tier of Service Bus
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.9db794a8-7542-4f1c-8489-546b8eaec8fa.A
+    context: Consider migrating to the Premium tier of Service Bus
+    priority: 70
+    reportingCategory: Messaging
+    reportingSubCategory: Service Bus
+  - title: Implement geo-replication on the sender and receiver side to protect against outages and disasters
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.9db794a8-7542-4f1c-8489-546b8eaec8fa.B
+    context: Implement geo-replication on the sender and receiver side to protect against outages and disasters
+    priority: 80
+    reportingCategory: Messaging
+    reportingSubCategory: Service Bus
+  - title: Configure Zone Redundancy in your Service Bus namespace
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.9db794a8-7542-4f1c-8489-546b8eaec8fa.C
+    context: Configure Zone Redundancy in your Service Bus namespace
+    priority: 90
+    reportingCategory: Messaging
+    reportingSubCategory: Service Bus
+  - title: Implement high availability for your Service Bus namespace
+    url: ''
+    condition:
+      noneOf:
+        - reliability-golive.9db794a8-7542-4f1c-8489-546b8eaec8fa.D
+    context: Implement high availability for your Service Bus namespace
+    priority: 90
+    reportingCategory: Messaging
+    reportingSubCategory: Service Bus
+  - title: Consider using partitioned Queues or Topics in your solution
+    url: 'https://docs.microsoft.com/azure/service-bus-messaging/service-bus-partitioning'
+    condition:
+      noneOf:
+        - reliability-golive.9db794a8-7542-4f1c-8489-546b8eaec8fa.E
+    context: Consider using partitioned Queues or Topics in your solution
+    priority: 80
+    reportingCategory: Messaging
+    reportingSubCategory: Service Bus
+  - title: Ensure that related messages are delivered in guaranteed order
+    url: 'https://docs.microsoft.com/azure/service-bus-messaging/service-bus-partitioning#use-of-partition-keys'
+    condition:
+      noneOf:
+        - reliability-golive.9db794a8-7542-4f1c-8489-546b8eaec8fa.F
+    context: Ensure that related messages are delivered in guaranteed order
+    priority: 60
+    reportingCategory: Messaging
+    reportingSubCategory: Service Bus
+  - title: Evaluate the different JMS features through the JMS API
+    url: 'https://docs.microsoft.com/azure/service-bus-messaging/how-to-use-java-message-service-20'
+    condition:
+      noneOf:
+        - reliability-golive.9db794a8-7542-4f1c-8489-546b8eaec8fa.G
+    context: Evaluate the different JMS features through the JMS API
+    priority: 70
+    reportingCategory: Messaging
+    reportingSubCategory: Service Bus
+  - title: It is recommended that AMQP be the preferred protocol for your connections to your messaging entities
+    url: 'https://docs.microsoft.com/azure/service-bus-messaging/service-bus-amqp-protocol-guide'
+    condition:
+      noneOf:
+        - reliability-golive.9db794a8-7542-4f1c-8489-546b8eaec8fa.H
+    context: It is recommended that AMQP be the preferred protocol for your connections to your messaging entities
+    priority: 60
+    reportingCategory: Messaging
+    reportingSubCategory: Service Bus
+  - title: Implement resilience for transient fault handling when sending or receiving messages
+    url: 'https://docs.microsoft.com/en-gb/azure/architecture/best-practices/retry-service-specific#service-bus'
+    condition:
+      noneOf:
+        - reliability-golive.9db794a8-7542-4f1c-8489-546b8eaec8fa.J
+    context: Implement resilience for transient fault handling when sending or receiving messages
+    priority: 80
+    reportingCategory: Messaging
+    reportingSubCategory: Service Bus
+  - title: Implement policies to apply rate limits and quotas to protect your APIs from being vulnerable to an excessive number of requests
+    url: 'https://docs.microsoft.com/azure/api-management/api-management-access-restriction-policies#LimitCallRate'
+    condition:
+      noneOf:
+        - reliability-golive.315533a6-97b8-4145-b149-2a1e883aa67d.A
+    context: Implement policies to apply rate limits and quotas to protect your APIs from being vulnerable to an excessive number of requests
+    priority: 90
+    reportingCategory: Performance Testing
+    reportingSubCategory: Load Capacity
+  - title: Evaluate the need for response caching
+    url: 'https://docs.microsoft.com/azure/architecture/best-practices/caching'
+    condition:
+      noneOf:
+        - reliability-golive.315533a6-97b8-4145-b149-2a1e883aa67d.B
+    context: Evaluate the need for response caching
+    priority: 60
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: 'Plan a backup and restore process for your API Management Instance '
+    url: 'https://docs.microsoft.com/azure/api-management/api-management-howto-disaster-recovery-backup-restore'
+    condition:
+      noneOf:
+        - reliability-golive.315533a6-97b8-4145-b149-2a1e883aa67d.C
+    context: 'Plan a backup and restore process for your API Management Instance '
+    priority: 80
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Configure multiple Azure regions in your API Management Service
+    url: 'https://docs.microsoft.com/azure/api-management/api-management-howto-deploy-multi-region'
+    condition:
+      noneOf:
+        - reliability-golive.315533a6-97b8-4145-b149-2a1e883aa67d.D
+    context: Configure multiple Azure regions in your API Management Service
+    priority: 70
+    reportingCategory: Application Design
+    reportingSubCategory: Disaster Planning
+  - title: Implement a strategy to ensure availability in the event of an outage or disaster affecting an Azure Region
+    url: 'https://devblogs.microsoft.com/premier-developer/completing-the-redundancy-story-of-api-manager/'
+    condition:
+      noneOf:
+        - reliability-golive.315533a6-97b8-4145-b149-2a1e883aa67d.E
+    context: Implement a strategy to ensure availability in the event of an outage or disaster affecting an Azure Region
+    priority: 70
+    reportingCategory: Application Design
+    reportingSubCategory: Disaster Planning
+  - title: Plan for high availability and redundancy of Azure Key Vault
+    url: 'https://docs.microsoft.com/azure/key-vault/general/disaster-recovery-guidance'
+    condition:
+      noneOf:
+        - reliability-golive.1dd790e4-80f5-4c88-a2fd-4b4cfa73a1fe.A
+    context: Plan for high availability and redundancy of Azure Key Vault
+    priority: 80
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Service Availability
+  - title: ''
+    url: ''
+    condition:
+      allOf:
+        - waf-config-golive.422e38d1-679d-4fe3-9d62-f8ffd869329c.A
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 350218e0-90d0-413d-a983-eda340a0220f
+name: Reliability

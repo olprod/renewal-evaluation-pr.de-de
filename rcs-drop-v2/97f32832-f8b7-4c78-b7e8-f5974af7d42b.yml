@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You provision devices manually.
+    description: Devices are provisioned manually.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: Device Provisioning Service automatically provisions your devices.
+    description: 'Use Device Provisioning Service (DPS) to automatically provision devices and get the connection to an IoT Hub, account for DPS provisioning limits. If you use IoT Central, DPS is used automatically.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: 'Provisioning devices is an important step to connect your devices to your IoT solution. While some devices or gateways/IoT Edge devices are provisioned and configured manually, for example OPC UA servers in a plant, provisioning of large numbers of devices must be automated to ensure correct and secure attestation, geographical distribution, and resilient connectivity (for example connected products).'
+isRequired: false
+uid: 97f32832-f8b7-4c78-b7e8-f5974af7d42b
+name: "Provisioning devices is an important step to connect your devices to your IoT solution. While some devices or gateways/IoT Edge devices are provisioned and configured manually, for example OPC UA servers in a plant, provisioning of large numbers of devices must be automated to ensure correct and secure attestation, geographical distribution, and resilient connectivity (for example connected products).\_"

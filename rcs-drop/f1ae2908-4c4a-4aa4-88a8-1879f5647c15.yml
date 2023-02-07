@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Microsoft 365 Apps installations can be customized by using XML files.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 5f399f96-1347-4f1a-8fa6-c42ef656d1e5
+questions:
+  - uid: f1ae2908-4c4a-4aa4-88a8-1879f5647c15-q-0
+    title: Microsoft 365 Apps installations can be customized by using XML files.
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Select Yes if the statement is true.
+        isCorrect: true
+      - id: 1
+        text: 'Otherwise, select No.'
+        isCorrect: false
+uid: f1ae2908-4c4a-4aa4-88a8-1879f5647c15
+title: Microsoft 365 Apps installations can be customized by using XML files.

@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Microsoft Teams Phone deployment.
+
+  Your company opens a new office location.
+
+  You need to ensure the appropriate emergency calling policy is applied to the new location.
+
+  What should you configure?
+questionnaireUid: ebc3f7c5-5f52-499f-a547-523125e34c7b
+questions:
+  - uid: fe9b5602-6b10-4356-aac7-e588d2cbc4a3-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a Microsoft Teams Phone deployment.
+        isCorrect: true
+      - id: 1
+        text: Your company opens a new office location.
+        isCorrect: false
+      - id: 2
+        text: You need to ensure the appropriate emergency calling policy is applied to the new location.
+        isCorrect: false
+      - id: 3
+        text: What should you configure?
+        isCorrect: false
+uid: fe9b5602-6b10-4356-aac7-e588d2cbc4a3
+title: ''

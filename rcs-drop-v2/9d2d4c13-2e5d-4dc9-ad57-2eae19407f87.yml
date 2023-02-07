@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization manages master data in a poorly controlled, ad-hoc and reactive manner.'
+    description: 'Your organization manages master data in a poorly controlled, ad-hoc and reactive manner.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization''s processes for managing and governing master data are characterized by projects and are frequently reactive. '
+    description: Your organization's processes for managing and governing master data are characterized by projects and are frequently reactive.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has established master data management processes which are well-characterized and well-understood across your organization whereby becoming more proactive than reactive.
+    description: Your organization has established master data management processes which are well-characterized and well-understood across your organization whereby becoming more proactive than reactive.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has established processes are measured and controlled and uses quantitative data to implement master data management practices.
+    description: Your organization has established processes are measured and controlled and uses quantitative data to implement master data management practices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has clear objectives, priorities and processes are stable and flexible. The focus is on continued improvement and responding to changes.'
+    description: 'Your organization has clear objectives, priorities and processes are stable and flexible. The focus is on continued improvement and responding to changes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you effectively govern your master data?
+isRequired: true
+uid: 9d2d4c13-2e5d-4dc9-ad57-2eae19407f87
+name: Do you effectively govern your master data?

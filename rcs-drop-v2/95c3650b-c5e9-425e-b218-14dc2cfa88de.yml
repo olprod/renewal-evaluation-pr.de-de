@@ -1,0 +1,18 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Learning Resources for Dynamics 365 Finance & Operations Administration
+    url: 'https://learn.microsoft.com/en-us/training/browse/?expanded=dynamics-365&products=dynamics-finance-operations&roles=administrator%2Cdeveloper'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 08a7bba3-bcfd-465b-8311-5ab087df6da6.59a56a6a-decd-48ad-a631-d5f504ee29ad.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 95c3650b-c5e9-425e-b218-14dc2cfa88de
+name: Establish Resource Enablement Best Practices for your Operations

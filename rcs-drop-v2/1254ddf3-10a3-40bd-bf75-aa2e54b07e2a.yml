@@ -1,0 +1,18 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 8fdeffc6-9aca-44b5-ae2b-5f4f59d5960d
+  - 0e5dbfa7-d000-448e-acba-c127ec33a0b9
+  - 2305bb3d-15de-45d1-a24f-fd904c5d0af7
+  - c34eb473-3b1d-4d02-9ee0-c1af07ade40e
+  - 2e1ea576-d4e3-41aa-99ea-088a8730bc63
+  - b7218b5a-bb24-42bc-9710-93c66073f66c
+  - 19a86b8a-98cf-44f6-8fd9-c08b9bac0721
+  - 9ebaab3e-8d9d-4f88-8cc4-b3a510284e08
+recommendations:
+  - 10311087-a304-4ae4-929d-b0b78e285bbf
+assignedGroupIds: []
+uid: 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a
+name: SQL MI - Operational Excellence

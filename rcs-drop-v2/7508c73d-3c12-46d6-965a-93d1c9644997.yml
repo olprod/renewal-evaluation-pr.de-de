@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Different data workloads (transactional, analytical) are separated.'
+    description: Data can be used in different contexts and each context can use a different technical stack.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '1'
+    text: Read and write throughput can scale according to expected load patterns.
+    description: 'Load levels will naturally fluctuate for many application scenarios, with natural peaks requiring a sufficient degree of elasticity to handle variable demand while maintaining throughput and latency.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '2'
+    text: Load-leveling patterns are implemented for high-throughput scenarios.
+    description: Load-leveling patterns such as CQRS or Event Sourcing are commonly used to maintain steady performance under load.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '3'
+    text: Data platform is ready for agile scaling.
+    description: 'If load levels are highly volatile, the data platform must be able to adjust capacity to maintain performance regardless of demand.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '4'
+    text: Azure-native data services with automated scale-operations are prioritized.
+    description: Agile scalability is key to effectively support variable throughput and load levels without overprovisioning capacity levels.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '5'
+    text: Read and write throughput is monitored against application capacity model.
+    description: Both read and write throughput must scale according to application requirements and load. Both vertical and horizontal scale operations can be applied to respond to changing load levels.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '6'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The speed with which data is emitted from various application components, and the throughput requirements for how fast data needs to be committed and retrieved, are critical for determining an optimal data technology for key workload scenarios.'
+isRequired: false
+uid: 7508c73d-3c12-46d6-965a-93d1c9644997
+name: 'The speed with which data is emitted from various application components, and the throughput requirements for how fast data needs to be committed and retrieved, are critical for determining an optimal data technology for key workload scenarios.'

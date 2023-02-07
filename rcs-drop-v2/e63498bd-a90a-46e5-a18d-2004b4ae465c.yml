@@ -1,0 +1,131 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider storing application configuration in a dedicated management system like Azure App Configuration or Azure Key Vault
+    url: /azure/architecture/framework/security/design-app-dependencies#key-points
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.d9faa94b-76fb-4fd3-88d6-3b14fa023d58.4
+      scoreOf: []
+    context: Consider storing application configuration in a dedicated management system like Azure App Configuration or Azure Key Vault
+    priority: 95
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Make sure that configuration settings can be changed or modified without rebuilding or redeploying the application
+    url: /azure/architecture/framework/security/design-app-dependencies#config-change
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.d9faa94b-76fb-4fd3-88d6-3b14fa023d58.3
+      scoreOf: []
+    context: Make sure that configuration settings can be changed or modified without rebuilding or redeploying the application
+    priority: 92
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Store keys and secrets outside of application code in Azure Key Vault
+    url: /azure/architecture/framework/security/design-app-dependencies#secrets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.d9faa94b-76fb-4fd3-88d6-3b14fa023d58.5
+      scoreOf: []
+    context: Store keys and secrets outside of application code in Azure Key Vault
+    priority: 90
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Implement procedures for key/secret rotation
+    url: /azure/key-vault/secrets/tutorial-rotation-dual
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.d9faa94b-76fb-4fd3-88d6-3b14fa023d58.5
+      scoreOf: []
+    context: Implement procedures for key/secret rotation
+    priority: 90
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Use Platform as a Service offerings where appropriate
+    url: /azure/architecture/guide/design-principles/managed-services
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.d9faa94b-76fb-4fd3-88d6-3b14fa023d58.7
+      scoreOf: []
+    context: Use Platform as a Service offerings where appropriate
+    priority: 90
+    reportingCategory: Application Platform Availability
+    reportingSubCategory: Use Managed Services
+  - title: Track and address configuration drift
+    url: /azure/architecture/framework/devops/automation-configuration#configuration-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.bae114cf-b347-44f7-a799-36f24b3f2dbb.2
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.bae114cf-b347-44f7-a799-36f24b3f2dbb.1
+      scoreOf: []
+    context: Track and address configuration drift
+    priority: 95
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: 'Define standards, policies and best practices as code'
+    url: /azure/governance/policy/concepts/definition-structure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.ab1ec621-3ca2-44de-a20b-a0d95ed47d65.0
+      scoreOf: []
+    context: 'Define standards, policies and best practices as code'
+    priority: 90
+    reportingCategory: 'Regulatory, Governance & Compliance'
+    reportingSubCategory: ''
+  - title: Tools that can help mature the policies and processes around Deployment Acceleration
+    url: /azure/cloud-adoption-framework/govern/deployment-acceleration/business-risks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.ab1ec621-3ca2-44de-a20b-a0d95ed47d65.3
+      scoreOf: []
+    context: Tools that can help mature the policies and processes around Deployment Acceleration
+    priority: 88
+    reportingCategory: 'Regulatory, Governance & Compliance'
+    reportingSubCategory: ''
+  - title: Effectively Communicating Change
+    url: /azure/cloud-adoption-framework/govern/deployment-acceleration/template
+    condition:
+      allOf: []
+      anyOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.b8f929f9-9d77-44a1-bb45-eeaf250697e8.5
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.f68024d9-d115-43c8-87b9-4ac97533b2b1.4
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.f68024d9-d115-43c8-87b9-4ac97533b2b1.5
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.b8f929f9-9d77-44a1-bb45-eeaf250697e8.6
+      noneOf: []
+      scoreOf: []
+    context: Effectively Communicating Change
+    priority: 88
+    reportingCategory: 'Regulatory, Governance & Compliance'
+    reportingSubCategory: ''
+  - title: Create a Baseline and use Policy to Enforce
+    url: /azure/cloud-adoption-framework/govern/deployment-acceleration/compliance-processes#violation-triggers-and-enforcement-actions
+    condition:
+      allOf: []
+      anyOf:
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.2c798141-f07f-4611-adcb-87133138f140.5
+        - cc557273-fcd4-43f8-b65d-d9d2b6578942.2c798141-f07f-4611-adcb-87133138f140.0
+      noneOf: []
+      scoreOf: []
+    context: Create a Baseline and use Policy to Enforce
+    priority: 90
+    reportingCategory: 'Regulatory, Governance & Compliance'
+    reportingSubCategory: ''
+uid: e63498bd-a90a-46e5-a18d-2004b4ae465c
+name: ''

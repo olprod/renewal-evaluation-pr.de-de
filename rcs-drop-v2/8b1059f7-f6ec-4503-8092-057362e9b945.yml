@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes, you use Azure VM failover capabilities'
+    description: 'Site recovery helps ensure business continuity by keeping business apps and workloads running during outages. Site recovery replicates workloads running on physical and virtual machines (VMs) from a primary site to a secondary location. When an outage occurs at your primary site, you fail over to the secondary location and access apps from there. After the primary location is running again, you can fail back to it.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You use IoT Edge inside Kubernetes as a VM and depend on Kubernetes to provide resiliency for your IoT Edge runtime
+    description: "IoT Edge can be installed on Kubernetes by using\_KubeVirt\_technology. KubeVirt is an open source, Cloud Native Computing Foundation project that offers a Kubernetes virtualization API and runtime to define and manage virtual machines."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: 'Yes, you use Azure Stack HCI Cluster'
+    description: "To enhance the built-in resiliency of Azure Stack HCI, you can implement a stretched Azure Stack HCI cluster that consists of two groups of nodes, with one group per site. Each group must contain a minimum of two nodes. The total number of nodes in a cluster cannot exceed the maximum number of nodes supported by an Azure Stack HCI cluster. The nodes must satisfy the standard\_HCI hardware requirements."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'An Azure IoT Edge device can act as a gateway for many child devices.  In this scenario, it can be a single point of failure if the underlying hardware fails. Consider solutions such as running the IoT Edge runtime inside a VM on a Kubernetes or Azure Stack HCI cluster.'
+isRequired: false
+uid: 8b1059f7-f6ec-4503-8092-057362e9b945
+name: 'An Azure IoT Edge device can act as a gateway for many child devices. In this scenario, it can be a single point of failure if the underlying hardware fails.'

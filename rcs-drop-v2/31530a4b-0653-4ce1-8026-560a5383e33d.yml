@@ -1,0 +1,78 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: All single points of failure have been eliminated from application communication flows.
+    description: Have all single points of failure been eliminated from the data path (on-premises and Azure)? i.e. no single VM NVA or no single ExpressRoute connection
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Health probes are configured for Azure Load Balancer(s) to assess application traffic flows and compound health.
+    description: Are Azure Load Balancer health probes configured to assess traffic flows and compound application health?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Azure Load Balancer Standard or Zone redundant application gateways are used to load balance traffic across Availability Zones.
+    description: Azure Load Balancer Standard is zone-aware to distribute traffic across Availability Zones and can also be configured in a zone-redundant configuration to improve reliability and ensure availability during failure scenarios impacting a datacenter within a region.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: Redundant connections from different locations are used for cross-premises connectivity (ExpressRoute or VPN).
+    description: Are there redundant connections from different locations for cross-premises connectivity (ExpressRoute or VPN)? i.e. at least two connections from two different locations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: A failure path has been simulated for cross-premises connectivity.
+    description: Has a failure path been simulated to ensure connectivity is available over alternative paths? i.e. using S2S as a backup for Express Route.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Zone redundant gateways are used for cross-premises connectivity (ExpressRoute or VPN).
+    description: Are ExpressRoute/VPN zone redundant gateways being used?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: 'Network traffic is monitored, and a response plan is in place to address network outages.'
+    description: Is network traffic and connectivity monitored? and are operational procedures in place to respond to network outages?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Reliability considerations for networking and connectivity
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWEieq'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Identifying and mitigating potential network bottle-necks or points-of-failure supports a reliable and scalable foundation over which resilient application components can communicate.
+isRequired: false
+legacyId: '7'
+uid: 31530a4b-0653-4ce1-8026-560a5383e33d
+name: Identifying and mitigating potential network bottle-necks or points-of-failure supports a reliable and scalable foundation over which resilient application components can communicate.

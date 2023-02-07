@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Coach managers on empowering and creating pscyhological safety from afar
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '1'
+    text: Embrace low-context and asynchronous communcation methods more actively
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '2'
+    text: Focus on high-quality interactions with always-on video
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '3'
+    text: 'Deploy remote collaboration tools for developers (e.g., tools to collaboratively edit and debug, whiteboarding)'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '4'
+    text: 'Create a widely accessible “single source of truth”, with a document everything culture'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '5'
+    text: Maintain core working hours – with some time zone overlap across teams that need to work together
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '6'
+    text: 'Optimize the toolchain for developers to be productive remotely (e.g., set up dev environments, build / test / deploy)'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '7'
+    text: Not applicable
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: select all that apply
+isRequired: true
+uid: 051974ae-12ec-4638-ab73-f444029fc5cb
+name: select all that apply

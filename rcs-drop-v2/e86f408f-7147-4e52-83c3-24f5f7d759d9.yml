@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our team shares risks with different business teams.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: Our team shares some risks with different business teams.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: Our team does not share risks with different business teams.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'Along with experimentation, DevOps is about creating a transparent culture of sharing and collaboration. Risks are inherently part of experimentation. Sharing the risks means everyone has skin in the game. Also, sharing risks can mean both the business and IT understand what is being attempted and this also helps merge the business and IT together.'
+isRequired: true
+uid: e86f408f-7147-4e52-83c3-24f5f7d759d9
+name: 'Along with experimentation, DevOps is about creating a transparent culture of sharing and collaboration.'

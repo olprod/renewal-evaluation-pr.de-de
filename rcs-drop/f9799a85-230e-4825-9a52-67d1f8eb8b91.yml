@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing an Azure App Service web app. The web app calls an API to retrieve the current weather conditions in JSON format. The web app and API are secured by using Azure Active Directory (Azure AD).
+
+  You need to implement an authenticated request from the web app to the API.
+
+  What should you use?
+questionnaireUid: b2ebf651-692f-495c-bfcf-8095068899cb
+questions:
+  - uid: f9799a85-230e-4825-9a52-67d1f8eb8b91-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing an Azure App Service web app.
+        isCorrect: false
+      - id: 1
+        text: The web app calls an API to retrieve the current weather conditions in JSON format.
+        isCorrect: false
+      - id: 2
+        text: The web app and API are secured by using Azure Active Directory (Azure AD).
+        isCorrect: true
+      - id: 3
+        text: You need to implement an authenticated request from the web app to the API.
+        isCorrect: false
+      - id: 4
+        text: What should you use?
+        isCorrect: false
+uid: f9799a85-230e-4825-9a52-67d1f8eb8b91
+title: ''

@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are migrating users to a Microsoft Teams Phone deployment that uses Direct Routing.
+
+  You need to assign a policy to the users to ensure that their calls are directed to the on-premises Session Border Controller (SBC).
+
+  Which cmdlet should you use?
+questionnaireUid: 218ba326-07c9-4575-a294-0339f43bd6ef
+questions:
+  - uid: f9d3fb19-2e1b-4990-93ce-370e083f7da9-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: '`Grant-CsOnlineVoiceRoutingPolicy`'
+        isCorrect: true
+      - id: 1
+        text: '`Set-CsOnlineVoiceUser`'
+        isCorrect: false
+      - id: 2
+        text: '`Grant-CsTenantDialPlan`'
+        isCorrect: false
+      - id: 3
+        text: '`Grant-CsTeamsUpgradePolicy`'
+        isCorrect: false
+uid: f9d3fb19-2e1b-4990-93ce-370e083f7da9
+title: ''

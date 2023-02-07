@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: |-
+  Azure data engineers help stakeholders understand the data through exploration, and they build and maintain secure and compliant data processing pipelines by using different tools and techniques. These professionals use various Azure data services and languages to store and produce cleansed and enhanced datasets for analysis.
+
+  Azure data engineers help ensure that data pipelines and data stores are high-performing, efficient, organized, and reliable, given a set of business requirements and constraints. They deal with unanticipated issues swiftly, and they minimize data loss. They also design, implement, monitor, and optimize data platforms to meet the data pipelines needs.
+hideEmptyGuidance: false
+questions:
+  - 0e944fc2-aa66-4245-9876-e8293da890cd
+recommendations:
+  - cd3306dd-33ee-488c-8128-fa97570fb79f
+assignedGroupIds: []
+uid: d1317e0f-b661-4411-8075-61615a4f5ebf
+name: Data Engineering on Microsoft Azure

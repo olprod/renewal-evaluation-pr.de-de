@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Developers and testers to test new features and functionality
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'Use for creative purposes, such as A/B testing'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Using as progressive experimentation
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Beta Feedback and Feature Targeting
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: Hypothesis-Driven Development
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: '“Feature flags” (or “feature toggles”) comprise another technique used for experimentation and “dark launches.” Feature flags turn on features on or off for different end-users based on their identity and group membership. Feature flags help developers with code branch management, testing in production, and selective activation.'
+isRequired: true
+uid: 3d8c388e-e8a7-4395-a099-d7ba5f2d32ed
+name: '“Feature flags” (or “feature toggles”) comprise another technique used for experimentation and “dark launches.” '

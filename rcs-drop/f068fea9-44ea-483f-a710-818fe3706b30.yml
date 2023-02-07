@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |
+  A manufacturing company uses standard costs for raw materials. 
+
+  The company opens a new manufacturing location that will have different standard costs for the raw materials. The differences in costs must be reflected on the finished goods. 
+
+  You need to configure the site setup for the different costs.
+
+  Which two configurations can be set up?
+questionnaireUid: 8219afed-cd71-40ab-bfcc-2368b7aa0422
+questions:
+  - uid: f068fea9-44ea-483f-a710-818fe3706b30-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: 'A manufacturing company uses standard costs for raw materials. '
+        isCorrect: true
+      - id: 1
+        text: The company opens a new manufacturing location that will have different standard costs for the raw materials.
+        isCorrect: false
+      - id: 2
+        text: The differences in costs must be reflected on the finished goods.
+        isCorrect: false
+      - id: 3
+        text: You need to configure the site setup for the different costs.
+        isCorrect: true
+      - id: 4
+        text: Which two configurations can be set up?
+        isCorrect: false
+uid: f068fea9-44ea-483f-a710-818fe3706b30
+title: ''

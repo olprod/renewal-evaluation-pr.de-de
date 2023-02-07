@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You create a queue named Leads and associate the mailbox leads@support.com with the queue.
+     
+  All emails sent to the queue are converted to activities.
+
+  You need to ensure that only response emails from the Dynamics 365 Customer Service app are converted to activities.
+
+  What should you do?
+questionnaireUid: 39e576b4-564d-4dd8-b33f-144f830b9579
+questions:
+  - uid: ec429b19-4178-4d3b-851e-d7a193855a13-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You create a queue named Leads and associate the mailbox leads@support.com with the queue.
+        isCorrect: true
+      - id: 1
+        text: All emails sent to the queue are converted to activities.
+        isCorrect: false
+      - id: 2
+        text: You need to ensure that only response emails from the Dynamics 365 Customer Service app are converted to activities.
+        isCorrect: false
+      - id: 3
+        text: What should you do?
+        isCorrect: false
+uid: ec429b19-4178-4d3b-851e-d7a193855a13
+title: ''

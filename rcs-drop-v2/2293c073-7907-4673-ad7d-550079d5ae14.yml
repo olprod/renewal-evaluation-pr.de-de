@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our organization embraces the DevOps Culture.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: We embraced some DevOps culture changes but we have a long way to go.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: Our organization has not embraced DevOps culture changes and our culture needs to change.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: Continuously and candidly observing your DevOps process allows teams to identify possible improvement points.
+isRequired: true
+uid: 2293c073-7907-4673-ad7d-550079d5ae14
+name: Continuously and candidly observing your DevOps process allows teams to identify possible improvement points.

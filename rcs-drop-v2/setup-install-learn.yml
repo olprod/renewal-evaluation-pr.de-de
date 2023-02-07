@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Contributing to Learn requires setup and installation of GitHub account setup and authoring tools. Assess whether you are equipped to use required tools for authoring Learn content.
+hideEmptyGuidance: false
+questions:
+  - 41d74431-5f9f-4a2b-bcef-92577d8ea449
+  - 9d051281-1159-425b-82dd-ef37ded180a7
+  - cfe00505-ee44-4fd7-b233-d420256e0643
+recommendations: []
+assignedGroupIds: []
+uid: setup-install-learn
+name: GitHub setup and tools installation

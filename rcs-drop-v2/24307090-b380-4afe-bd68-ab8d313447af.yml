@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Yes. Our organization is well equipped with the technical capabilities to support data mesh undertaking.
+    description: |+
+
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: No. Our organization has gaps in the technical capabilities required to support data mesh undertaking.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you have technical capabilities to support this undertaking?
+isRequired: true
+uid: 24307090-b380-4afe-bd68-ab8d313447af
+name: Do you have technical capabilities to support this undertaking?

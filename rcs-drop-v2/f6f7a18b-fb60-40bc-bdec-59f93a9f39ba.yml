@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Additional ''Cloud Admin'' accounts have been created on the Privileged Endpoint (PEP) and a process is defined to store the account passwords securely. (Note: by default, only 1 x cloud admin account exists).'
+    description: 'Have additional ''Cloud Admin'' accounts been created on the Privileged Endpoint (PEP) and a process is defined to store the account passwords securely. Note: by default, only 1 x cloud admin account exists.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: B
+    text: 'A process has been implemented that enables Users to request or obtain Service Principal (App ID) credentials from Cloud Admins use of the PEP, enabling use of both Secret and/or Certificate based authentication methods.'
+    description: Can users leverage Service Principals to authentication against ARM to enable DevOps and automation scenarios for their infrastructure as code (IaC) deployments?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: 'Active Directory Domain Services (AD DS) Universal Groups are used to delegate the required IAM/RBAC permissions to User Subscriptions and/or Resources Groups, enabling centralized auditing and monitoring of resource permissions.'
+    description: 'Using Active Directory (AD) Universals Groups to delegate Owner, Contributor or Reader permissions to resources simplifies identity and access management operations and enables capabilities such as centralized auditing and monitoring.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: 'Monitoring is configured for the ''Service Admin Owner'' and ''Graph Service'' user accounts using AD events. (e.g. account lockout, password expired, incorrect password events).'
+    description: 'The ''Service Admin Owner'' is the AD user account that was delegated Owner permissions to the ''Default Provider Subscription'' using the ''Set-ServiceAdminOwner'' cmdlet on the PEP. This account is privileged with Owner permissions to the stamp, it''s usage should be monitored.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: E
+    text: 'Windows Defender antimalware definitions and engine updates are downloaded from a connected system and uploaded to the ''updateadminaccount'' blob storage container on the stamp, in adherence with your organizations cyber security requirements.'
+    description: 'For disconnected or air-gapped stamps, it is possible to update the Windows Defender antimalware signatures and engine binaries using a process to side-load the media using a blob container in a storage account on the stamp. As part of the defense in depth security approach, this provides a mechanism to keep Defender up to date.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: 'The ADFS Federation Metadata Endpoint URI has been configured on the PEP, or the ''federation metadata xml file'' has been uploaded, enabling Azure Stack Hub to communicate with the ADFS WS-Metadata Exchange (MEX) endpoint for claims based authentication.'
+    description: 'It is possible to specify the ''AD FS Metadata URI'' parameter when executing the ''Register-CustomAdfs'' cmdlet on the PEP, this prevent the requirement to manually copy the Metadata XML file from the ADFS Server to Azure Stack Hub.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: G
+    text: 'ADFS token-signing (TS) and token-decrypting (TD) certificates are configured to automatically renew, or the certificates expiry dates are documented and rotated prior to expiry, to ensure ADFS Claims based authentication is successful and secure.'
+    description: 'For disconnected or air-gapped stamps, the certificates used on the ADFS servers for claims based authentication (token-signing and token-decrypting) need to be valid, it is recommended to use automatic renewal, to reduce administrative tasks to manually update the certificates before they expire.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: Transport Layer Security (TLS) protocol version 1.2 has been configured as enforced on the stamp (TLS v1.2 Only).
+    description: Transport Layer Security (TLS) protocol versions 1.0 and 1.1 are being deprecated. TLS v1.2 can be enforced on the stamp as the only support TLS protocol to increase security of network communication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: f6f7a18b-fb60-40bc-bdec-59f93a9f39ba
+name: 'Disconnected stamps: What considerations have been made for identity, access and security management?'

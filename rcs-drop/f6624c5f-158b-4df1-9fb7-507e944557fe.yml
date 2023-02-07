@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You manage a SQL Server instance that contains a single user database.
+
+  You need to create a user in the user database that maps to a SQL Server login.
+
+  Which database should you use to create the login?
+questionnaireUid: 689b3ebe-5d71-44d2-b388-6223ef8c1df4
+questions:
+  - uid: f6624c5f-158b-4df1-9fb7-507e944557fe-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You manage a SQL Server instance that contains a single user database. '
+        isCorrect: false
+      - id: 1
+        text: 'You need to create a user in the user database that maps to a SQL Server login. '
+        isCorrect: false
+      - id: 2
+        text: 'Which database should you use to create the login? '
+        isCorrect: false
+      - id: 3
+        text: 'user '
+        isCorrect: true
+uid: f6624c5f-158b-4df1-9fb7-507e944557fe
+title: ''

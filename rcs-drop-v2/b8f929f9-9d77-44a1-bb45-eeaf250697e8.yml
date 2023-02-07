@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have team meetings when necessary, then update our code files or scripts and deploy the new configuration'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: We have regularly scheduled meetings to review the infrastructure's configuration and decide on necessary changes and implement them
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: We have a change control and review board that meets monthly to review all proposed changes.  We use a risk register and log to evaluate risk for the change and implement through our pipelines with IaC testing with automated processes
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: We have a review board that convenes when their are changes
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: 'We review a configuration audit, decide the change, then send an email about the change only to interested parties and those who need to know'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '5'
+    text: 'We do not have a process, outside of the responsible person(s) who tracks and implements the change, where changes are communicated'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'One of the elements of software configuration management is Teamwork.  Communication is central to ensuring that all teams are aware of baseline changes, infrastructure changes, or critical security changes in a system.'
+isRequired: true
+uid: b8f929f9-9d77-44a1-bb45-eeaf250697e8
+name: One of the elements of software configuration management is Teamwork.

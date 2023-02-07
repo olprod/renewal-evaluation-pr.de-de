@@ -1,0 +1,58 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Our deployment processes are repeatable and consistent, including provisioning Azure resources, application code and applying configuration settings.'
+    description: 'Deployments typically include provisioning of Azure resources (Infrastructure as Code, e.g. ARM templates), application and database code and any configuration settings (Desired State Configuration, Chef and Puppet). It is crucial to have a robust, repeatable and predictable deployment process to avoid undesirable downtime.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: We include tests as part of our build/release pipeline.
+    description: Testing is one of the fundamental components for DevOps and agile development in general. Tests can be automatically run as changes are integrated with the rest of the team's code base. Test automation is required to assure that the quality of the software being developed remains intact. Ttesting should occur on both application code as well as infrastructure code and they should be subject to the same quality controls.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: We perform load tests based on expected traffic.
+    description: Load testing is a significant part of the development process to ensures that the application performs to render high user satisfaction. Successful load testing (i.e. testing with realistic/expected loads) lends the assurance of a high-quality app that can serve a large number of users of the organization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: We perform chaos/fault testing.
+    description: Large distributed systems like cloud infrastructures are inherently unreliable. Inducing chaos/ fault can help quickly detect issues that traditional testing cannot easily capture. It enables you to test the stability of your services and build robust fault-tolerant systems.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Our development and test environments are fully segregated from production environments.
+    description: 'Have you ensured isolation between production and non-production environments?  Ideally, all the changes to production must be restricted to be done by the release management system. It can help avoid situations like accidentally deployed to production.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: We have controls in place to prevent anyone (dev/ops) from accidentally deploying to production.
+    description: 'Strategy to address a failed deployment, rollback (to last successful release) or in some cases roll forward (if simple fix) should be well documented and tested. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for DevOps processes. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-DevOps processes
+uid: f5f4ac99-6851-43cc-9cec-85da6cc8437e
+name: Please choose the applicable Well-Architected reliability considerations for DevOps processes.

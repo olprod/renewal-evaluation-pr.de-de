@@ -1,0 +1,22 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: An effective architecture achieves business goals and ROI requirements while keeping costs within the allocated budget.
+hideEmptyGuidance: false
+questions:
+  - 49edaf20-2c12-4056-ba79-366d472fb755
+  - 994327a2-62a0-4324-b366-f5b32c4297f9
+  - ccd3c378-a101-4d92-860a-4b4645f2c63a
+  - 6dc9931c-e893-4ba4-ae2d-072ef90ce715
+  - c7d4f986-eeba-4365-a6af-8d306b1bbeb5
+  - 821835f7-130a-4e78-a23b-6c189f898722
+  - 7b4666c9-52c5-4a7f-8262-67e4320bff1e
+  - 8a578f32-9d18-4568-bd01-d3a9e21d5a07
+  - 27a9f86c-f398-4638-8d0c-73fee7bac8ef
+  - dd86ac7c-e28c-4764-9571-cbcb73d42921
+  - 7b9610bb-309d-4d75-b01c-20ff2f66437c
+recommendations:
+  - 8d4f7223-d81e-494b-b3ce-34317bf80439
+assignedGroupIds:
+  - b6a324fd-d21d-4f72-ae18-f475f53334f0
+uid: deb7e843-20f1-4950-b3de-f2e12529d349
+name: IoT - Cost Optimization

@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: RBAC assignments are given to individual users.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: RBAC assignments are only given to groups (cloud only or synchronized). Users are added to the groups.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: RBAC assignments are only given to groups (cloud only). Users are added to the groups.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'RBAC assignments are only given to groups (cloud only or synchronized). Users added to groups, and all assignments (except "read only" permissions) are enforced using Azure AD PIM.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: db7462a2-8bc4-427e-bd96-8170870e33e9
+name: Which of the following practices do you use when you grant access to resources in your Azure environments via Azure RBAC (IAM)?

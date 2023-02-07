@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 71b962c0-4626-4ea9-ae86-ebaa114140d3
+recommendations:
+  - 1af4ae8e-b7a4-4e65-a73d-0cf9304327d7
+assignedGroupIds: []
+uid: 53d96e56-3f02-4bf7-900a-adb25154c61c
+name: 'Go-Live - App Service: Reliability'

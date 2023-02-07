@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Explore Cloud Migration Patterns
+    url: 'https://aka.ms/developervelocity-cta-infrastructure-low'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 7fd2c2e9-43cb-432b-92ba-d426ca7eb057<34
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore an Azure Architecture Review
+    url: 'https://aka.ms/developervelocity-cta-infrastructure-med'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 7fd2c2e9-43cb-432b-92ba-d426ca7eb057<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider the Azure Well-Architected Framework for your workload
+    url: 'https://docs.microsoft.com/azure/architecture/framework/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 7fd2c2e9-43cb-432b-92ba-d426ca7eb057>33
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 41a03d69-758a-491c-a47b-4cca689399f4
+name: Infrastructure and Platform

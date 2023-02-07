@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization has ad-hoc Data Quality practices, and objectives, rules and criteria documented but not implemented.'
+    description: 'Your organization has ad-hoc Data Quality practices, and objectives, rules and criteria documented but not implemented.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has a clearly defined Data Quality policies and processes and are looking to implement the Data Quality practice in a repeatable fashion.
+    description: Your organization has a clearly defined Data Quality policies and processes and are looking to implement the Data Quality practice in a repeatable fashion.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization follows Data Quality policies, processes and guidelines and implements efforts across entire organization that are monitored and maintained. '
+    description: 'Your organization follows Data Quality policies, processes and guidelines and implements efforts across entire organization that are monitored and maintained. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization has set up Data Quality metrics that help measure performance of policies. The process to improve data quality, facilitate trust, and gain insights to make data-driven business decisions has been implemented across entire organization.'
+    description: 'Your organization has set up Data Quality metrics that help measure performance of policies. The process to improve data quality, facilitate trust, and gain insights to make data-driven business decisions has been implemented across entire organization.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has successfully set up Data Quality process that is regularly reviewed by executives for continuous improvements and shares best practices and successful approaches to improving data quality with industry peers.
+    description: Your organization has successfully set up Data Quality process that is regularly reviewed by executives for continuous improvements and shares best practices and successful approaches to improving data quality with industry peers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Defines an integrated, organization-wide strategy to achieve and maintain the level of data quality required to support the business goals and objectives. Do you have an established data quality process to manage issues in your data?'
+isRequired: true
+uid: da0edef6-d4ef-4c99-a049-768a3c727308
+name: 'Defines an integrated, organization-wide strategy to achieve and maintain the level of data quality required to support the business goals and objectives.'

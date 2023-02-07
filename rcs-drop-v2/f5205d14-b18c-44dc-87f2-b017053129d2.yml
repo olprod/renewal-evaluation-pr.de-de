@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've identified a list of approved manufacturers for IoT and IoT Edge that's reviewed periodically to ensure they meet minimum operational and technical specification requirements
+    description: 'It''s important for your organization to assess and validate the approved list vendors/manufacturers that internal teams can use to procure sensors, devices, and IoT gateways for their IoT solutions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'You have a clear process and use appropriate debugging tools (IoT Edge Simulator, VS Code extension) to test IoT Edge modules to ensure they''re compatible with IoT Edge runtime'
+    description: 'Azure provides multiple debugging tools that you can use to locally and remotely debug, test, and deploy IoT Edge modules.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'You''ve defined procedures to work with your selected device manufacturer to automatically encode device identity, attestation mechanism, pre-signed X.509 certificates, TPM keys, and any other custom initial configuration as required by your IoT solution'
+    description: Developing a partnership with the manufacturer of your devices to ensure that initial configuration and device identity is encoded within your IoT devices helps to automate the provisioning process and simplifies the management of the devices for solution operators.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'You''ve identified test cases and defined a manual or, preferably, an automated testing strategy to throughly test IoT and IoT Edge devices against a testing environment (such as a Dev IoT Hub or Dev IoT Central application) for any hardware/software issues before you deploy them to the field'
+    description: Automate your testing plan to ensure the software and hardware running on IoT devices and IoT Edge devices is reliable and ready for production deployment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'You''ve established a process to properly repurpose, reprovision, and deprovision/disenroll IoT devices that were previously deployed in the field'
+    description: 'The IoT device lifecycle includes defining the procedures to reprovision existing devices to other locations or purposes, and securely deprovisioning them when they''re no longer needed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: 'Any IoT device (or IoT Edge device) should go through the necessary hardware, firmware, and software testing before it''s deployed in the field and connected to an IoT solution running in a production environment.'
+isRequired: false
+uid: f5205d14-b18c-44dc-87f2-b017053129d2
+name: 'Any IoT device (or IoT Edge device) should go through the necessary hardware, firmware, and software testing before it''s deployed in the field and connected to an IoT solution running in a production environment. Q1.'

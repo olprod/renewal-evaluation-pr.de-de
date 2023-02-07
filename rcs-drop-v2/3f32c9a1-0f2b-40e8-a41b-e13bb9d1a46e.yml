@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'No monitoring, logging or alerting.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'All Azure AD audit & sign-in logs are sent to a central Log Analytics workspace, but no alerting is configured.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'All Azure AD audit & sign-in logs + all Azure Subscription Activity logs are sent to a central Log Analytics workspace, but no alerting is configured.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: All Azure AD audit & sign-in logs are sent to a central Log Analytics workspace. Alerting is configured based on these logs for scenarios like the use of emergency access accounts.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: All Azure AD audit & sign-in logs + all Azure Subscription Activity logs are sent to a central Log Analytics workspace. Alerting is configured based on these logs for scenarios like the use of emergency access accounts.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '5'
+    text: 'All Azure AD audit & sign-in logs + all Azure Subscription Activity logs are sent to a central Log Analytics workspace. Alerting is configured based on these logs for scenarios like the use of emergency access accounts, and Microsoft Sentinel provides analysis and alerts.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 3f32c9a1-0f2b-40e8-a41b-e13bb9d1a46e
+name: 'Which option describes your current monitoring, logging, and alerting implementation for authentication, authorization and activity in Azure AD and Azure Subscriptions?'

@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have considered deploying the application and Azure Cosmos DB across multiple Azure regions for failover purposes.
+    description: Multi-region replicas can be enabled on Azure Cosmos DB for high availability and automatic failover.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: 'For increased SLAs, we have evaluated distributing our Azure Cosmos DB account across availability zones.'
+    description: 'In many Azure regions, it''s possible to distribute your Azure Cosmos DB cluster across availability zones, which results in increased SLAs since availability zones are physically separate and provide distinct power source, network, and cooling. When an Azure Cosmos DB account is deployed using availability zones, it provides RTO = 0 and RPO = 0 even in a zone outage.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 960c1882-d7a4-4c9d-9334-976a88c8e4c0
+name: How have you ensured that your application architecture is resilient to failures?

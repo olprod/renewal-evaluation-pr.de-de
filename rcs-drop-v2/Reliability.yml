@@ -1,0 +1,23 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'In a cloud environment you scale out rather than buying higher-end hardware to scale up. While it’s always desirable to prevent all failure, focus your efforts in minimizing the effects of a single failing component.'
+hideEmptyGuidance: false
+questions:
+  - 096bf416-365e-466e-b01c-a9eb76b2a569
+  - bf25e8dc-4182-4498-b6e6-a001eb516bd0
+  - 5cd55a17-f4e9-499d-8042-46d489fffe07
+  - 70a02a6c-5d60-4c5a-8382-c6ce408d63d2
+  - 303a65f3-81fa-4afc-a83d-7bef964fc9d2
+  - 2c1206aa-ec65-4691-90a5-da54159e2b1b
+  - 53894b58-6c46-4219-bdad-c121e6518e6f
+  - 31530a4b-0653-4ce1-8026-560a5383e33d
+  - b0e34b3e-d032-4022-b588-d63c824d49c3
+  - 73288ba1-7338-4ffe-b33c-bbde9367edea
+  - 8f4e7227-fe6b-4aff-8abf-807a64b84aed
+  - 5b9e399b-f09a-4a4c-8c01-c531cc48f4fd
+  - c8f2624d-8f9b-470e-808b-576839620529
+recommendations:
+  - 379cc86f-7fad-47a4-a644-541541b78a0e
+assignedGroupIds: []
+uid: Reliability
+name: Reliability

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use the Azure Cost Management APIs for multidimensional cost analysis.
+    description: The Azure Cost Management API lets you to implement advanced filters and expressions for Azure consumption through customization. It is available for Azure Enterprise customers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: You configure cost alerts for your Azure IoT services.
+    description: |
+      Azure Advisor provides a capability to configure recommendation alerts through defining rules. You can also configure the action for the alert.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: You monitor usage and estimated costs in Azure Monitor.
+    description: 'Azure monitor has two phases for understanding costs: estimating costs when you''re considering Azure Monitor as your monitoring solution, and then tracking actual costs after deployment.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: You use IoT Central predefined service tiers for cost predictability and monitoring.
+    description: 'By using IoT Central, you can kickstart building your solution while estimating and monitoring a pricing tier depending on your current scale and requirements.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'Monitoring is the process identifying potential risks and actual costs. It includes a way to figure out factors that affect costs. '
+isRequired: false
+uid: b7ba5c49-41ca-4416-bd4a-487e235edf36
+name: Monitoring is the process identifying potential risks and actual costs. It includes a way to figure out factors that affect costs.

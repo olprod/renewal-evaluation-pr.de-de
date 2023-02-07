@@ -1,0 +1,42 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Your organization understands the concepts of Lakehouse on Databricks.
+    description: "Use Databricks to build your Lakehouse - Bronze, Silver, Gold layers.\_\n"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: 'Your organization understands the concepts of Lakehouse on Synapse. '
+    description: |
+      Use Synapse to serve data from the Lakehouse for reporting and data visualization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you currently have Enterprise Data Warehouse and/or Data Lake and looking for legacy / appliance DW migration to Lakehouse architecture?
+isRequired: true
+uid: 981fcbd5-08d0-4e33-bdab-56e860ec1add
+name: Do you currently have Enterprise Data Warehouse and/or Data Lake and looking for legacy / appliance DW migration to Lakehouse architecture?

@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company plans to use Omnichannel for Customer Service.
+
+  Which two steps are included in the unified routing and work distribution system?
+questionnaireUid: 51dcbb42-96b7-470e-8366-7a7ebc94e396
+questions:
+  - uid: f06a23bd-7a22-4d2b-927e-e53362001e71-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: 'A company plans to use Omnichannel for Customer Service. '
+        isCorrect: true
+      - id: 1
+        text: Which two steps are included in the unified routing and work distribution system?
+        isCorrect: true
+      - id: 2
+        text: Routing rules dispatch conversations to the most appropriate Omnichannel queue.
+        isCorrect: false
+      - id: 3
+        text: Work distribution assigns the conversation to an agent in real time based on capacity availability and current presence.
+        isCorrect: false
+      - id: 4
+        text: Routing rules dispatch the workload to work streams based on responses from the initial chat.
+        isCorrect: false
+uid: f06a23bd-7a22-4d2b-927e-e53362001e71
+title: ''

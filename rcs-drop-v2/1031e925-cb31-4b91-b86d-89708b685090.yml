@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: B
+    text: 'Where Azure Cosmos DB auto-scaling is provisioned, it is enabled for application components and integrated with Azure Monitor.'
+    description: 'Performance and scale testing are key steps in application development. For many applications, the database tier has a significant impact on overall performance and scalability.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: C
+    text: We have conducted performance scale testing of our application and Azure Cosmos DB.
+    description: 'Scale-out is a concept that focuses on the ability of a system to respond to demand through horizontal growth. Azure Cosmos DB can scale out instantly, designing your application for this will help design for scale-out.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: D
+    text: 'We have evaluated defining, testing, and validating latency and throughput targets against scenarios and service components. Latency, throughput, and other criteria should be defined to validate each scenario and component.'
+    description: 'For an application to be appropriately reliable, it must reflect the business requirements surrounding it. Defining the SLA performance against each scenario will set the right expectation and architect the right application.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: 1031e925-cb31-4b91-b86d-89708b685090
+name: What reliability allowances for scalability and performance have you made?

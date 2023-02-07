@@ -1,0 +1,90 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Shut down VM instances which aren't in use
+    url: 'https://docs.microsoft.com/azure/automation/automation-solution-vm-management'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 73cde5fa-4369-448e-bc28-66a3e8fc516b.3bf6bf97-1f8b-444c-9db8-289e7d05d777.A
+      scoreOf: []
+    context: Configuring start and stop times will shut down instances that aren't in use. The feature is suitable as a low-cost automation option.
+    priority: 90
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Use auto-stop property for Azure VMs
+    url: 'https://docs.microsoft.com/azure/automation/automation-solution-vm-management'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 73cde5fa-4369-448e-bc28-66a3e8fc516b.3bf6bf97-1f8b-444c-9db8-289e7d05d777.B
+      scoreOf: []
+    context: Configuring start and stop times will shut down instances that aren't in use. The feature is suitable as a low-cost automation option.
+    priority: 60
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Use Spot VMs when appropriate
+    url: 'https://azure.microsoft.com/services/virtual-machines/spot/#overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 73cde5fa-4369-448e-bc28-66a3e8fc516b.3bf6bf97-1f8b-444c-9db8-289e7d05d777.C
+      scoreOf: []
+    context: 'Spot VMs are ideal for workloads that can be interrupted, such as highly parallel batch processing jobs. These VMs take advantage of the surplus capacity in Azure at a lower cost.'
+    priority: 45
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Choose the right VM size for your workload
+    url: 'https://azure.microsoft.com/pricing/details/virtual-machines/windows/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 73cde5fa-4369-448e-bc28-66a3e8fc516b.3bf6bf97-1f8b-444c-9db8-289e7d05d777.D
+      scoreOf: []
+    context: Identify the best VM for your workloads with the virtual machines selector.
+    priority: 55
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: 'Prepay for reserved instances for one year, three years, or more'
+    url: 'https://docs.microsoft.com/azure/cost-management-billing/reservations/save-compute-costs-reservations'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 73cde5fa-4369-448e-bc28-66a3e8fc516b.3bf6bf97-1f8b-444c-9db8-289e7d05d777.E
+      scoreOf: []
+    context: Purchasing reserved instances is a way to reduce Azure costs for workloads with stable usage.
+    priority: 85
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Use hybrid benefit licensing
+    url: 'https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 73cde5fa-4369-448e-bc28-66a3e8fc516b.3bf6bf97-1f8b-444c-9db8-289e7d05d777.F
+      scoreOf: []
+    context: 'For customers with Software Assurance, Azure Hybrid Benefit for Windows Server allows you to use your on-premises Windows Server licenses and run Windows virtual machines on Azure at a reduced cost.'
+    priority: 60
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Use Azure Policies to limit SKU and oversized VMs
+    url: 'https://docs.microsoft.com/azure/cloud-adoption-framework/govern/cost-management/best-practices'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 73cde5fa-4369-448e-bc28-66a3e8fc516b.3bf6bf97-1f8b-444c-9db8-289e7d05d777.G
+      scoreOf: []
+    context: Azure Policies for VMs regarding SKU or sizing will help to reduce costs.
+    priority: 30
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+uid: 56ff8528-982e-426f-976f-8799a3dfb76b
+name: ''

@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not see a use-case for spark nor use notebooks for data transformation.
+    description: Your organization does not see a use-case for spark nor use notebooks for data transformation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization understands the concepts behind notebooks and is planning to use the web-based interface in the near future.
+    description: Your organization understands the concepts behind notebooks and is planning to use the web-based interface in the near future.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has pockets of excellence that leverage Apache Spark Notebooks for data transformation.
+    description: 'Your organization has pockets of excellence that leverage Apache Spark Notebooks for data transformation but more not in a formal, standardized way.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization regularly utilizes notebooks is actively used for data preparation, data visualization, machine learning, and other Big Data scenarios.'
+    description: 'Your organization regularly utilizes notebooks is actively used for data preparation, data visualization, machine learning, and other Big Data scenarios.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization has adopted enterprise-wide approach for utilizing notebooks as a tool of choice for data preparation, data visualization, machine learning, and other Big Data scenarios.'
+    description: |+
+      Your organization has adopted enterprise-wide approach for utilizing notebooks as a tool of choice for data preparation, data visualization, machine learning, and other Big Data scenarios.
+
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you perform data transformation using Apache Spark Notebooks?
+isRequired: true
+uid: d9834627-7417-4818-ad77-b3f567fed219
+name: Do you perform data transformation using Apache Spark Notebooks?

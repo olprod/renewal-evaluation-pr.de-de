@@ -1,0 +1,35 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Yes. Our organization has considered the cultural shift required to federate data ownership among data domains and owners who are accountable for providing their data as products
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: No. Our organization has not thought through the consideration for the cultural shift required to federate data ownership among data domains and owners who are accountable for providing their data as products
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Have you considered the cultural shift for your organization which requires your organization to federate data ownership among data domains and owners who are accountable for providing their data as products?
+isRequired: true
+uid: 1bf6c61e-7b63-441f-8fc2-3b315ef1c06a
+name: Have you considered the cultural shift for your organization which requires your organization to federate data ownership among data domains and owners who are accountable for providing their data as products?

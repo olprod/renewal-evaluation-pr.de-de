@@ -1,0 +1,211 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: 20bed01b-6b64-43e4-a17c-794f31890750
+    name: Are you moving apps to the cloud without making any modifications and without the risk and cost associated with code changes.
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: d3667c3f-b6fe-4cf3-8e3a-d2e943df0802
+    name: 'Are you making minimal changes to apps, so that they can connect to Azure PaaS, and use cloud offerings.'
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '3'
+    uid: de64484f-e4ce-4ca3-89c2-53bc96e2ae4d
+    name: 'Are you making major revisions to incorporate new capabilities, meet scalability requirements, apply innovative DevOps practices, or minimize use of virtual machines to work effectively on a cloud platform.'
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '4'
+    uid: 0cf52c70-c563-466d-b750-ceea281bf643
+    name: 'Are you rebuilding an app from scratch using Azure cloud technologies to expedite  business innovation, build new applications using cloud-native technologies, and take advantage of advancements in AI, Block-chain, and IoT.'
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '5'
+    uid: 5011477e-0657-4159-a3e0-40710e68cf88
+    name: Are you moving scale-up servers to run high-volume online transactions and batch processing to the cloud?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '6'
+    uid: 43c3a55c-bf61-4a96-8873-9e61a72612fa
+    name: Have you created a secure environment and created a landing zone for your migration/innovation workload?
+  - responseAlternatives:
+      - id: A
+        text: Yes.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 10
+      - id: B
+        text: No.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+      - id: C
+        text: Don't know.
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+        score:
+          value: 1
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '7'
+    uid: e5b61306-f305-48df-9edd-d57097ef0315
+    name: 'If you decide to migrate and/or innovate after the first landing zone, have you identified the MVP for migration and/or innovation and corresponding tools?'
+stem: 'Create and implement a skills readiness plan to define support needs, address current gaps, and ensure that your business and IT employees are prepared for the changes and new technologies.'
+isRequired: true
+legacyId: '1'
+uid: e0641d8c-bf60-43b9-99ac-46746f548233
+name: 'Create and implement a skills readiness plan to define support needs, address current gaps, and ensure that your business and IT employees are prepared for the changes and new technologies. '

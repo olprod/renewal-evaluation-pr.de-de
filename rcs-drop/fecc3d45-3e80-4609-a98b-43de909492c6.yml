@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are developing a web application that stores data in Azure Cosmos DB. The web application must use the Core API and allow millions of reads and writes. The web application will store a person’s information including first name, last name, city, and state.
+   
+  Which two values will determine the physical partitions for the database?
+questionnaireUid: 3a81d339-ed33-43b3-8fad-fe026f9a8edb
+questions:
+  - uid: fecc3d45-3e80-4609-a98b-43de909492c6-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are developing a web application that stores data in Azure Cosmos DB.
+        isCorrect: true
+      - id: 1
+        text: The web application must use the Core API and allow millions of reads and writes.
+        isCorrect: true
+      - id: 2
+        text: 'The web application will store a person’s information including first name, last name, city, and state.'
+        isCorrect: false
+      - id: 3
+        text: Which two values will determine the physical partitions for the database?
+        isCorrect: false
+      - id: 4
+        text: Amount of provisioned throughput
+        isCorrect: false
+uid: fecc3d45-3e80-4609-a98b-43de909492c6
+title: ''

@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Our new applications will focus on users entering and updating transactions in the database to enable management and reporting, in much the same way as our existing applications.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Our plan is to ensure functional parity with our existing applications as the starting point and then we will focus on evolving them afterwards.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: We would like to evolve our applications to provide more value for the business but aren't clear on how to go about it yet.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'We have a clear vision on how modern SaaS applications can automate routine tasks, allowing users to concentrate on higher-value activities and we plan to empower our business users with capabilities to build value as needed in the low code platform. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  More business value can be obtained by automating routine tasks and freeing users to concentrate on high-value activities than can evolve more rapidly by putting capabilities within your users' reach in a low-code platform.
+
+  Which of these statements best describes your objectives on this topic?
+isRequired: true
+uid: 9ee34863-33d9-4477-83e1-e760c2b893ae
+name: More business value can be obtained by automating routine tasks and freeing users to concentrate on high-value activities than can evolve more rapidly by putting capabilities within your users' reach in a low-code platform.

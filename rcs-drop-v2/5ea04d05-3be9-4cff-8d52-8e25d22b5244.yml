@@ -1,0 +1,366 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Consider limiting access, protecting data, and monitoring activities offered by Azure Synapse Analytics'
+    url: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-manage-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6a67e07b-05e6-441e-be71-c8fde047d765.A
+      scoreOf: []
+    context: 'Monitor activities using dedicated SQL pool by limiting access, protecting data, connection security, authentication, authorization, and encryption.'
+    priority: 90
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Roles & Responsabilities
+  - title: Use Azure Synapse Analytics Dynamic Data Masking feature
+    url: /azure/azure-sql/database/dynamic-data-masking-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6a67e07b-05e6-441e-be71-c8fde047d765.B
+      scoreOf: []
+    context: 'Dynamic data masking helps prevent unauthorized access to sensitive data by enabling customers to designate how much of the sensitive data to reveal with minimal impact on the application layer. It’s a policy-based security feature that hides the sensitive data in the result set of a query over designated database fields, while the data in the database is not changed.'
+    priority: 70
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Use Azure Synapse Analytics Column-Level Security data
+    url: /azure/synapse-analytics/sql-data-warehouse/column-level-security?toc=%2Fazure%2Fsynapse-analytics%2Ftoc.json&amp;bc=%2Fazure%2Fsynapse-analytics%2Fbreadcrumb%2Ftoc.json&amp;view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6a67e07b-05e6-441e-be71-c8fde047d765.C
+      scoreOf: []
+    context: 'Column-level security simplifies the design and coding of security in your application, allowing you to restrict column access to protect sensitive data. For example, ensuring that specific users can access only certain columns of a table pertinent to their department.'
+    priority: 70
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Confidentiality & Privacy
+  - title: Use Azure Synapse Analytics Row-Level Security data
+    url: /sql/relational-databases/security/row-level-security?toc=%2Fazure%2Fsynapse-analytics%2Ftoc.json&amp;bc=%2Fazure%2Fsynapse-analytics%2Fbreadcrumb%2Ftoc.json&amp;view=sql-server-ver15&view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6a67e07b-05e6-441e-be71-c8fde047d765.D
+      scoreOf: []
+    context: 'Row-Level Security (RLS) simplifies the design and coding of security in your application. RLS helps you implement restrictions on data row access. For example, you can ensure that workers access only those data rows that are pertinent to their department.'
+    priority: 70
+    reportingCategory: Architecture
+    reportingSubCategory: Database Design
+  - title: Consider reviewing data compliance requirements
+    url: /azure/compliance/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6a67e07b-05e6-441e-be71-c8fde047d765.E
+      scoreOf: []
+    context: Learn about compliance in Azure if your organization needs to comply with legal or regulatory standards.
+    priority: 80
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Data Classification
+  - title: Use Azure Synapse Analytics Data Discovery and Classification
+    url: /azure/azure-sql/database/data-discovery-and-classification-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.479a3726-8b3e-4e0c-8a79-286121c629d5.A
+      scoreOf: []
+    context: 'Data Discovery & Classification provides basic capabilities for discovering, classifying, labeling, and reporting the sensitive data in your databases. It can serve as infrastructure for: helping to meet standards for data privacy and requirements for regulatory compliance, various security scenarios, such as monitoring (auditing) access to sensitive data, and controlling access to and hardening the security of databases that contain highly sensitive data.'
+    priority: 60
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Data Classification
+  - title: Use Azure Synapse Analytics vulnerability assessment
+    url: /azure/azure-sql/database/sql-vulnerability-assessment?bc=%2Fazure%2Fsynapse-analytics%2Fsql-data-warehouse%2Fbreadcrumb%2Ftoc.json&amp%3Btoc=%2Fazure%2Fsynapse-analytics%2Fsql-data-warehouse%2Ftoc.json&tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.479a3726-8b3e-4e0c-8a79-286121c629d5.B
+      scoreOf: []
+    context: SQL vulnerability assessment is a service that provides visibility into your security state and includes actionable steps to resolve security issues and enhance your database security. It can help you to monitor a dynamic database environment where changes are difficult to track and improve your SQL security posture.
+    priority: 100
+    reportingCategory: Governance
+    reportingSubCategory: Optimization
+  - title: Use Azure Synapse Analytics Advanced Threat Protection
+    url: /azure/azure-sql/database/threat-detection-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.479a3726-8b3e-4e0c-8a79-286121c629d5.C
+      scoreOf: []
+    context: 'Advanced Threat Protection provides a new layer of security, which enables customers to detect and respond to potential threats as they occur by providing security alerts on anomalous activities. Users receive an alert upon suspicious database activities, potential vulnerabilities, and SQL injection attacks, as well as anomalous database access and queries patterns.'
+    priority: 90
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Use Azure Synapse Analytics Role-Based Access Control (RBAC)
+    url: /azure/synapse-analytics/security/synapse-workspace-synapse-rbac
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.479a3726-8b3e-4e0c-8a79-286121c629d5.D
+      scoreOf: []
+    context: 'Azure RBAC is used to manage who can create, update, or delete the Synapse workspace and its SQL pools, Apache Spark pools, and Integration runtimes.'
+    priority: 90
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Control-place RBAC
+  - title: Use Auditing for Azure Synapse Analytics
+    url: /azure/azure-sql/database/auditing-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.479a3726-8b3e-4e0c-8a79-286121c629d5.E
+      scoreOf: []
+    context: 'Auditing tracks database events and writes them to an audit log in your Azure storage account, Log Analytics workspace, or Event Hubs. It also helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.'
+    priority: 60
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Auditing
+  - title: 'Discover, connect, and explore data in Azure Synapse Analytics using Azure Purview'
+    url: /azure/synapse-analytics/catalog-and-governance/how-to-discover-connect-analyze-azure-purview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.479a3726-8b3e-4e0c-8a79-286121c629d5.F
+      scoreOf: []
+    context: 'The use Microsoft Purview in Synapse allows you to get an overview of the metadata, view and edit schema of the metadata with classifications, glossary terms, data types, and descriptions. Use lineage to understand dependencies and do impact analysis. View and edit Contacts to know who is an owner or expert over a dataset.'
+    priority: 80
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Efficiency
+  - title: Set up access control for your Synapse Analytics workspace
+    url: /azure/synapse-analytics/security/how-to-set-up-access-control
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.479a3726-8b3e-4e0c-8a79-286121c629d5.G
+      scoreOf: []
+    context: 'Azure Synapse provides a comprehensive and fine-grained access control system, that integrates: 1. Azure roles for resource management and access to data in storage, 2.Synapse roles for managing live access to code and execution, 3. SQL roles for data plane access to data in SQL pools, 4. Git permissions for source code control, including continuous integration and deployment support. Azure Synapse roles provide sets of permissions that can be applied at different scopes. This granularity makes it easy to grant appropriate access to administrators, developers, security personnel, and operators to compute resources and data. Access control can be simplified by using security groups that are aligned with people''s job roles. You only need to add and remove users from appropriate security groups to manage access.'
+    priority: 70
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Control-place RBAC
+  - title: Control storage account access for serverless SQL pool in Azure Synapse Analytics
+    url: /azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=managed-identity#supported-storage-authorization-types
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.479a3726-8b3e-4e0c-8a79-286121c629d5.H
+      scoreOf: []
+    context: 'A serverless SQL pool in Synapse Analytics workspace can read the content of files stored in Azure Data Lake storage. You need to configure permissions on storage to enable a user who executes a SQL query to read the files. There are three methods for enabling the access to the files: Role based access control (RBAC), Access Control Lists (ACL), and Shared access signature (SAS).'
+    priority: 100
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Control-place RBAC
+  - title: Use Azure Synapse Analytics column-level encryption
+    url: /sql/relational-databases/security/encryption/encrypt-a-column-of-data?view=azure-sqldw-latest
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.7a7447d6-91fe-4c7b-9b28-e34d003c7260.A
+      scoreOf: []
+    context: 'Encrypt a column of data by using symmetric encryption in Synapse SQL Pool, to protect the data from unauthorized access.'
+    priority: 85
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Use Azure Synapse Analytics Transparent Data Encryption feature
+    url: /azure/azure-sql/database/transparent-data-encryption-tde-overview?bc=%2Fazure%2Fsynapse-analytics%2Fsql-data-warehouse%2Fbreadcrumb%2Ftoc.json&toc=%2Fazure%2Fsynapse-analytics%2Fsql-data-warehouse%2Ftoc.json&tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.7a7447d6-91fe-4c7b-9b28-e34d003c7260.B
+      scoreOf: []
+    context: 'Transparent data encryption (TDE) helps protect Azure Synapse Analytics against the threat of malicious offline activity by encrypting data at rest. It performs real-time encryption and decryption of the database, associated backups, and transaction log files at rest without requiring changes to the application. TDE must be manually enabled for Azure Synapse Analytics.'
+    priority: 70
+    reportingCategory: Data
+    reportingSubCategory: Encryption
+  - title: Use Azure Synapse Analytics Transparent Data Encryption with customer-managed key
+    url: /azure/azure-sql/database/transparent-data-encryption-byok-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.7a7447d6-91fe-4c7b-9b28-e34d003c7260.B
+      scoreOf: []
+    context: "Azure SQL\_transparent data encryption (TDE)\_with customer-managed key enables Bring Your Own Key (BYOK) scenario for data protection at rest, and allows organizations to implement separation of duties in the management of keys and data. With customer-managed TDE, customer is responsible for and in a full control of a key lifecycle management (key creation, upload, rotation, deletion), key usage permissions, and auditing of Operational Procedures on keys."
+    priority: 70
+    reportingCategory: Data
+    reportingSubCategory: Encryption
+  - title: Enable TLS for encryption of data in-transit
+    url: /azure/azure-sql/database/security-overview#information-protection-and-encryption
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.7a7447d6-91fe-4c7b-9b28-e34d003c7260.D
+      scoreOf: []
+    context: Azure Synapse Analytics secures customer data by encrypting data in motion with Transport Layer Security (TLS) and enforces encryption (SSL/TLS) at all times for all connections. This ensures all data is encrypted 'in transit' between the client and server irrespective of the setting of Encrypt or TrustServerCertificate in the connection string.
+    priority: 100
+    reportingCategory: Data
+    reportingSubCategory: Encryption
+  - title: Use Azure Synapse Analytics Active Directory authentication
+    url: /azure/azure-sql/database/authentication-aad-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.4d6c9e24-1a0b-4f7a-92cc-deb1929551ac.A
+      scoreOf: []
+    context: 'Azure Active Directory (Azure AD) authentication is a mechanism for connecting to Synapse SQL in Azure Synapse Analytics by using identities in Azure AD. With Azure AD authentication, you can centrally manage the identities of database users and other Microsoft services in one central location. Central ID management provides a single place to manage database users and simplifies permission management.'
+    priority: 90
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Roles & Responsabilities
+  - title: Use Azure Synapse Analytics multi-factor Active Directory authentication
+    url: /azure/azure-sql/database/authentication-mfa-ssms-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.4d6c9e24-1a0b-4f7a-92cc-deb1929551ac.B
+      scoreOf: []
+    context: 'Azure AD MFA helps safeguard access to data and applications while meeting user demand for a simple sign-in process. It delivers strong authentication with a range of easy verification options (phone call, text message, smart cards with pin, or mobile app notification), allowing users to choose the method they prefer.'
+    priority: 100
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Roles & Responsabilities
+  - title: Use Azure Synapse Analytics Workspace Managed Identity
+    url: /azure/data-factory/data-factory-service-identity?tabs=data-factory
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.4d6c9e24-1a0b-4f7a-92cc-deb1929551ac.C
+      scoreOf: []
+    context: "Managed identities eliminate the need to manage credentials. Managed identities provide an identity for the service instance when connecting to resources that support Azure Active Directory (Azure AD) authentication. For example, the service can use a managed identity to access resources like\_Azure Key Vault, where data admins can securely store credentials or access storage accounts. The service uses the managed identity to obtain Azure AD tokens."
+    priority: 100
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Use Azure Key Vault secrets in pipeline activities for data sources that don't support Azure AD or Managed Identity
+    url: /azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.4d6c9e24-1a0b-4f7a-92cc-deb1929551ac.D
+      scoreOf: []
+    context: You can store credentials or secret values in an Azure Key Vault and use them during pipeline execution to pass to your activities.
+    priority: 100
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Secrets Management
+  - title: Secure credentials with linked services using the TokenLibrary for Synapse Analytics Spark Pools
+    url: /azure/synapse-analytics/spark/apache-spark-secure-credentials-with-tokenlibrary?pivots=programming-language-csharp
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.4d6c9e24-1a0b-4f7a-92cc-deb1929551ac.E
+      scoreOf: []
+    context: 'Synapse uses Azure Active Directory (AAD) passthrough by default for authentication between resources. If you need to connect to a resource using other credentials, use the TokenLibrary directly. The TokenLibrary simplifies the process of retrieving SAS tokens, AAD tokens, connection strings, and secrets stored in a linked service or from an Azure Key Vault.'
+    priority: 100
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Secrets Management
+  - title: Use Azure Synapse Analytics IP Firewall rules
+    url: /azure/azure-sql/database/firewall-configure?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6f45e807-2189-453e-8ebe-95e56091a341.A
+      scoreOf: []
+    context: 'The Synapse firewall operates at the Workspace level, protecting the Workspace from unauthorized access, such as blocking all access to the public endpoint.'
+    priority: 85
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Use Azure Synapse Analytics Private Link
+    url: /azure/synapse-analytics/security/synapse-private-link-hubs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6f45e807-2189-453e-8ebe-95e56091a341.B
+      scoreOf: []
+    context: You can securely connect to Azure Synapse Studio from your Azure virtual network using private links. Azure Synapse Analytics private link hubs are Azure resources which act as connectors between your secured network and the Synapse Studio web experience.
+    priority: 80
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Use Azure Synapse Analytics Virtual Network Service Endpoints
+    url: /azure/azure-sql/database/vnet-service-endpoint-rule-overview?bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&amp;toc=/azure/synapse-analytics/sql-data-warehouse/toc.json
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6f45e807-2189-453e-8ebe-95e56091a341.C
+      scoreOf: []
+    context: Virtual network rules are a firewall security feature that controls whether the Dedicated SQL pool databases in Azure Synapse Analytics accepts communications that are sent from particular subnets in virtual networks.
+    priority: 75
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Connect to a secure Azure storage account from your Azure Synapse Analytics workspace
+    url: /azure/synapse-analytics/security/connect-to-a-secure-storage-account
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6f45e807-2189-453e-8ebe-95e56091a341.D
+      scoreOf: []
+    context: 'You link an Azure storage account to your Synapse workspace when you create your workspace, you can link more storage accounts after you create your workspace. Azure storage provides a layered security model that enables you to secure and control access to your storage accounts.'
+    priority: 80
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Create Azure Synapse Analytics Workspace with Data Exfiltration protection enabled.
+    url: /azure/synapse-analytics/security/workspace-data-exfiltration-protection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6f45e807-2189-453e-8ebe-95e56091a341.E
+      scoreOf: []
+    context: 'Azure Synapse Analytics workspaces support enabling data exfiltration protection for workspaces. With exfiltration protection, you can guard against malicious insiders accessing your Azure resources and exfiltrating sensitive data to locations outside of your organization’s scope.'
+    priority: 100
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Use Managed private endpoints in Azure Synapse Analytics
+    url: /azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.6f45e807-2189-453e-8ebe-95e56091a341.F
+      scoreOf: []
+    context: 'Managed private endpoints are private endpoints created in a Managed Virtual Network associated with your Azure Synapse workspace. Managed private endpoints establish a private link to Azure resources. Azure Synapse manages these private endpoints on your behalf. You can create Managed private endpoints from your Azure Synapse workspace to access Azure services (such as Azure Storage or Azure Cosmos DB) and Azure hosted customer/partner services. When you use Managed private endpoints, traffic between your Azure Synapse workspace and other Azure resources traverse entirely over the Microsoft backbone network. Managed private endpoints protect against data exfiltration. A Managed private endpoint uses private IP address from your Managed Virtual Network to effectively bring the Azure service that your Azure Synapse workspace is communicating into your Virtual Network. Managed private endpoints are mapped to a specific resource in Azure and not the entire service. Customers can limit connectivity to a specific resource approved by their organization.'
+    priority: 100
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: Use Azure Key Vault secrets in pipeline activities for data sources that don't support Azure AD or Managed Identity
+    url: /azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.14ff460c-1d3b-49e9-a3db-064775fd2db6.A
+      scoreOf: []
+    context: You can store credentials or secret values in an Azure Key Vault and use them during pipeline execution to pass to your activities.
+    priority: 100
+    reportingCategory: Authentication & Authorization
+    reportingSubCategory: Secrets Management
+  - title: 'Maintain an inventory of administrative accounts, change default passwords, and use dedicated administrative accounts'
+    url: /security/benchmark/azure/baselines/synapse-analytics-security-baseline#identity-and-access-control
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 69ae7d8b-dd19-43a5-8979-29a2eb5e256f.5f046cf6-f4a6-437d-bafe-b522a5e189fa.A
+      scoreOf: []
+    context: 'Limit the number of highly privileged accounts or roles. Protect these accounts at an elevated level. Directly or indirectly, users with this privilege can read and modify every resource in your Azure environment. Enable just-in-time (JIT) privileged access to Azure resources and Azure AD using Azure AD PIM. JIT grants temporary permissions to do privileged tasks only when users need it. PIM can also generate security alerts when there''s suspicious or unsafe activity in your Azure AD organization. Create standard operating procedures around the use of dedicated administrative accounts.'
+    priority: 85
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+uid: 5ea04d05-3be9-4cff-8d52-8e25d22b5244
+name: ''

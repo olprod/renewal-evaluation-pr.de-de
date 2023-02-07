@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This critical design area establishes a foundation for the management of identity and access.
+hideEmptyGuidance: false
+questions:
+  - 716116e0-38df-411b-a56f-7f11f3bd289c
+  - b84d8352-0c3c-4e56-ac11-adca29ac43ec
+  - ddbee802-10c8-4f38-add8-5d48ff56ad5d
+  - 3f32c9a1-0f2b-40e8-a41b-e13bb9d1a46e
+  - 9b15ae94-2cde-4a61-b5f5-b1751c9651d7
+  - db7462a2-8bc4-427e-bd96-8170870e33e9
+  - 3f0a4385-f6a4-4103-9375-8f77c0aa16fd
+recommendations:
+  - e120cb15-d42b-44a3-adc2-2584799a9efe
+assignedGroupIds: []
+uid: e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b
+name: Identity and access management

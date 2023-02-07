@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no way to visualize application health model and encompassed logs and metrics for your data platform.
+    description: Your organization has no way to visualize application health model and encompassed logs and metrics for your data platform.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving.  Your organization has the means to do ad-hoc way to visualize application health model and encompassed logs and metrics for your data platform, but its tedious and time consuming.'
+    description: 'Your organization has the means to do ad-hoc way to visualize application health model and encompassed logs and metrics for your data platform, but its tedious and time consuming.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has the means to repeatedly capture and visualize application health model and encompassed logs and metrics for your data platform.
+    description: Your organization has the means to repeatedly capture and visualize application health model and encompassed logs and metrics for your data platform.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has a systematic way to regularly capture and visualize application health model and encompassed logs and metrics for your data platform and flexibility to add additional health performance metrics.
+    description: Your organization has a systematic way to regularly capture and visualize application health model and encompassed logs and metrics for your data platform and flexibility to add additional health performance metrics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization fully utilizes a systematic way to regularly capture and visualize application health model and encompassed logs and metrics for your data platform and flexibility to add additional health performance metrics.
+    description: Your organization fully utilizes a systematic way to regularly capture and visualize application health model and encompassed logs and metrics for your data platform and flexibility to add additional health performance metrics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How do you visualize application health model and encompassed logs and metrics for your data platform?
+isRequired: true
+uid: e175fbe4-9953-4a2b-a726-03cf4bfbcf7e
+name: How do you visualize application health model and encompassed logs and metrics for your data platform?

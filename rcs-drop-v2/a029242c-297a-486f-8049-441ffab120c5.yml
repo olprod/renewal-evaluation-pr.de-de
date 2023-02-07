@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Consider ADLS Gen2 resource limits.
+    description: Information on what happens when those resource limits are hit or exceeded and describes the resource governance mechanisms used to enforce these limits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Familiarize yourself with the Known issues page of the ADLS Gen2 documentation.
+    description: It highlights current product limitations that should be taken into consideration during the data lake design.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: No routine operational changes are performed outside of infrastructure as code.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Configuration drift is tracked and addressed by using tools like Azure Resource Graph Explorer or Azure Change Analysis.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: a029242c-297a-486f-8049-441ffab120c5
+name: What considerations are you making around the deployment of your workload?

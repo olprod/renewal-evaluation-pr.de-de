@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'An IaC tool such as Azure ARM templates, Bicep, or Terraform is being used to define the infrastructure.'
+    description: |-
+      Typically, a mission-critical IaC repository has two resource definitions:
+      1. Global resources that are deployed once within the solution, such as Azure Front Door and Azure Cosmos DB.
+      2. Regional (stamp) resources that are deployed multiple times and into different regions, such as AKS, Event Hubs, and Storage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: 'Infrastructure is defined as declarative templates, not in imperative scripts.'
+    description: 'ARM templates, Bicep, or Terraform are declarative templates. Scripts using tools like Azure CLI or Ansible are considered imperative.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: There are no manual steps required outside of IaC.
+    description: Do the IaC templates contain ALL resource definitions as required for the workloads or are there some resources which are not defined in IaC?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'IaC treats infrastructure definitions as source code that is version controlled alongside other application artifacts. Using IaC ensures code consistency across environments and eliminates the risk of human error during automated deployments, and providing traceability and rollback.'
+isRequired: false
+uid: 411b6a22-20fb-4868-b613-58635db993ce
+name: IaC treats infrastructure definitions as source code that is version controlled alongside other application artifacts.

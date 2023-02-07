@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization is consuming cloud in an unstructured way and not across cloud-scale analytics consisting of two main architectures: the data management landing zone and data landing zone.'
+    description: 'Your organization is consuming cloud in an unstructured way and not across cloud-scale analytics consisting of two main architectures: the data management landing zone and data landing zone.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization is aware of cloud-scale analytics consisting of two main architectures: the data management landing zone and data landing zone and is planning to implement this reference architecture.'
+    description: 'Your organization is aware of cloud-scale analytics consisting of two main architectures: the data management landing zone and data landing zone and is planning to implement this reference architecture.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has a defined strategy and plan to prepare analytics estate and investigating deployment templates for creating a cloud-scale analytics data landing zone to set the foundation. '
+    description: Your organization has a defined strategy and plan to prepare analytics estate and investigating deployment templates for creating a cloud-scale analytics data landing zone to set the foundation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization is utilizing physical architecture and scaling cloud-scale analytics deployments by using multiple data landing zones and deployment templates for cloud-scale analytics.
+    description: Your organization is utilizing physical architecture and scaling cloud-scale analytics deployments by using multiple data landing zones and deployment templates for cloud-scale analytics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization is well advanced and has addressed key design area considerations like enterprise enrollment, networking, identity and access management, policies, business continuity and disaster recovery for building out your data architectures of your cloud-scale analytics framework.'
+    description: 'Your organization is well advanced and has addressed key design area considerations like enterprise enrollment, networking, identity and access management, policies, business continuity and disaster recovery for building out your data architectures of your cloud-scale analytics framework.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have a physical implementation of cloud-scale analytics consisting of solid foundations and reusable collateral that’s ready for consumption and deployment across teams?
+isRequired: true
+uid: c89b43c1-c411-42b8-a209-b2209e8e87bb
+name: Do you have a physical implementation of cloud-scale analytics consisting of solid foundations and reusable collateral that’s ready for consumption and deployment across teams?

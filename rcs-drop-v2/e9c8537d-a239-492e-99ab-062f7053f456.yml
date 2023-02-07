@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Industry standard cryptographic algorithms are used instead of creating own
+    description: |
+      Always use industry standard cryptographic algorithms for authentication and encryption
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '1'
+    text: All client/server and inter-component communication is authenticated and encrypted (TLS)
+    description: |
+      Ensure all communications between endpoints are strongly authenticated and encrypted
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '2'
+    text: Only TLS 1.2 or later is used to protect communication channels
+    description: |
+      Only use TLS 1.2 or 1.3 to protect communication channels as earlier versions are vulnerable
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '3'
+    text: Only secure modern hashing algorithms (SHA-2) are used
+    description: |
+      Legacy hashing algorithms like SHA-1 and MD5 should not be used
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '4'
+    text: Data at rest is protected with encryption
+    description: |
+      Ensure encryption of data at rest is enabled on all data stores (Azure Storage, SQL and noSQL databases), as well as virtual hard disk files
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '5'
+    text: Data in transit is encrypted
+    description: |
+      Ensure data is protected against evesdropping as it traverses the network
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: e9c8537d-a239-492e-99ab-062f7053f456
+name: How are you managing encryption of data at rest and in-transit?

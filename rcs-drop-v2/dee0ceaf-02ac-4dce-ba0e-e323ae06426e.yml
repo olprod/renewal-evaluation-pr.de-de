@@ -1,0 +1,18 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - bcbbf315-6afa-4a85-89c3-1976ae782e0e
+  - ae4e2db0-7c95-4e6d-bb4f-305f573115c4
+  - 115057d4-8b47-4b5a-ad00-8353899ddb43
+  - a03695f7-42d4-4c41-98dc-05d43d6647b3
+  - 48b492d5-ab4b-463d-87cf-2784320b75b5
+  - 4bda0374-5cb3-499f-b4b1-cf387e305210
+  - d86847e2-6a88-46bf-bb21-36c4733f4904
+recommendations:
+  - 2972cd19-431e-4d87-94d4-a045abdb3f47
+assignedGroupIds:
+  - 3529bb1b-b511-4aea-9985-cde430e17278
+uid: dee0ceaf-02ac-4dce-ba0e-e323ae06426e
+name: Multitenant Architecture | Solution design

@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: SAP ICM communication supports only https.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '1'
+    text: Database native encryption implemented for SAP database on Azure.
+    description: Hub&Spoke architecture is one of the recommended network architecture.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: Log Analytics workspace used for SAP workload.
+    description: Log Analytics workspace is recommended to capture key metrics from Infrastructure supporting SAP workload
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '3'
+    text: Hub&Spoke architecture implemented to isolate Hub & Spoke resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: 'Vulnerability Solution Deployed, and or Qualys enabled if using Defender for Cloud'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: d16a545a-dec0-493c-9a66-48b6162862d9
+name: What considerations for security did you make for the SAP Application workload?

@@ -1,0 +1,178 @@
+### YamlMime:SelfAssessment
+description: 'The Go-Live Assessment helps you holistically evaluate an Azure workload in a go-forward motion across the five tenets of the Well-Architected Framework. '
+duration: 30-60 minutes
+questionnaireReferences:
+  - questionnaireUid: e407dec8-194c-428f-a670-3288a25e3e93
+    isRequired: true
+  - questionnaireUid: 3be21440-b3e5-47bc-aa24-0144c1bdcb7d
+    isRequired: true
+  - questionnaireUid: f385aaff-2a45-479a-9b6c-fed3261993ed
+    isRequired: true
+  - questionnaireUid: 86b03fef-e126-4481-9fea-2e387de7db8a
+    isRequired: true
+  - questionnaireUid: 2ad43d21-032f-455f-9f60-c3f6d8d39ad7
+    isRequired: true
+  - questionnaireUid: 129b00f7-f195-4c97-9482-fcf7cddc64a9
+    isRequired: true
+  - questionnaireUid: 1b6e10cb-4acb-408c-82dd-b14dc617582c
+    isRequired: true
+  - questionnaireUid: 3a825ee6-c556-499b-b675-8f96f56a37dc
+    isRequired: true
+  - questionnaireUid: 56159f61-7772-4398-bf85-f0099dd523a8
+    isRequired: true
+  - questionnaireUid: 53d96e56-3f02-4bf7-900a-adb25154c61c
+    isRequired: true
+  - questionnaireUid: 41e0a182-958f-45e9-bc42-06b7301d1a2f
+    isRequired: true
+  - questionnaireUid: f316904d-e93a-4182-b099-d3175441f1ef
+    isRequired: true
+  - questionnaireUid: 919f0a95-4b26-4bb4-afde-b4c460e7e090
+    isRequired: true
+  - questionnaireUid: 7f144ae3-4c3a-4195-b41f-6fcdc7e86629
+    isRequired: true
+  - questionnaireUid: 7b74e83b-97f3-4626-be63-6a9836f2eade
+    isRequired: true
+  - questionnaireUid: 7b638cfc-4fa0-4095-a3cd-bb2fdb70562b
+    isRequired: true
+  - questionnaireUid: e28edc9f-274c-4009-bd4c-b90cd0bc0130
+    isRequired: true
+  - questionnaireUid: 50418479-b8a6-4ec5-abaf-ffd8a7672169
+    isRequired: true
+  - questionnaireUid: c16c254e-6241-45c7-9db5-2e84a80cf8ca
+    isRequired: true
+  - questionnaireUid: 92d123a7-0049-4bf2-94eb-495d68262505
+    isRequired: true
+  - questionnaireUid: 89671c39-a756-42c9-9196-f1987e6aa4d3
+    isRequired: true
+  - questionnaireUid: 0c0f541f-bc39-4380-8548-7e8272a0eaf5
+    isRequired: true
+  - questionnaireUid: 7f35dc9f-096d-44c9-8b6b-34bf41031453
+    isRequired: true
+  - questionnaireUid: 32c273d6-c08e-4652-93dc-e118a34b3f43
+    isRequired: true
+  - questionnaireUid: b7f8f6d0-74b4-4dc9-b58b-e687ade1e735
+    isRequired: true
+  - questionnaireUid: 0407e879-3a1a-4182-b155-bc2d659ff70e
+    isRequired: true
+  - questionnaireUid: d1dc8312-9492-49ac-8105-a4593094e7b9
+    isRequired: true
+  - questionnaireUid: 64b4f545-8f84-47f5-ae63-ef2bd94eee20
+    isRequired: true
+  - questionnaireUid: bf837943-7a6a-44ed-b0e4-e511231fa1ed
+    isRequired: true
+  - questionnaireUid: 743af4be-98a8-44aa-8005-1e37dc2e51c2
+    isRequired: true
+  - questionnaireUid: 3688dc0b-120f-48e9-9082-84ad2d85d3c9
+    isRequired: true
+  - questionnaireUid: 643d0198-5fec-48d4-8867-430dedcc130f
+    isRequired: true
+  - questionnaireUid: 053b9f0c-98a1-4a86-8dd0-72085638c8d1
+    isRequired: true
+  - questionnaireUid: 72040c6f-e9be-49f4-88a1-2e2e0f10b59a
+    isRequired: true
+  - questionnaireUid: b7e5129a-103b-450e-a8c2-b94924e0d0ee
+    isRequired: true
+  - questionnaireUid: ae959c10-ff3a-411b-af81-8a7944101d9b
+    isRequired: true
+  - questionnaireUid: a3925863-1f50-4f53-90b5-83321ff25cc1
+    isRequired: true
+  - questionnaireUid: c1e42fc1-b717-4b45-9316-11582b07a2a0
+    isRequired: true
+  - questionnaireUid: 92affdee-d0e5-4e07-8b71-67c229916f4c
+    isRequired: true
+  - questionnaireUid: 9c062376-407e-43d1-8d1c-f7371647bc88
+    isRequired: true
+  - questionnaireUid: 765d5004-b7c0-48b5-a837-3673d2196341
+    isRequired: true
+  - questionnaireUid: 5bb4c81f-7099-4377-9887-f9f45407bb21
+    isRequired: true
+  - questionnaireUid: d7eb4dcb-94b1-4fa6-a766-45b45a88d159
+    isRequired: true
+  - questionnaireUid: a54b9609-f33a-468b-ae3d-bf617648cd2f
+    isRequired: true
+  - questionnaireUid: 00d0e2dd-cfb8-4b86-8df6-2ee9d37cea9c
+    isRequired: true
+  - questionnaireUid: 5c4dcb38-60e3-4d3f-baad-e36462b9e6db
+    isRequired: true
+  - questionnaireUid: 65222d89-5c7a-44db-8f7f-dd5434fcb19d
+    isRequired: true
+  - questionnaireUid: 7cf58dd2-3a90-48bf-892d-e4cf6b5d5234
+    isRequired: true
+  - questionnaireUid: d0cd6cfb-2a39-4f14-9e64-a1a29b8c5e23
+    isRequired: true
+  - questionnaireUid: 6cc0ca02-1971-4326-9725-baee82fafb3c
+    isRequired: true
+  - questionnaireUid: ca525e39-8d65-42b9-a95b-74a69363f57a
+    isRequired: true
+  - questionnaireUid: dc55ee58-cd9a-48bf-b5e6-064501eb37c1
+    isRequired: true
+  - questionnaireUid: f595a317-c92a-4f36-a098-2e6e499f36d5
+    isRequired: true
+  - questionnaireUid: 0307b959-bb75-4cf7-ace6-ef0c123cceb9
+    isRequired: true
+  - questionnaireUid: cc674387-2946-464b-aab1-9c687972e015
+    isRequired: true
+  - questionnaireUid: b6a9bbe5-17bd-4377-ae77-d5a31d19654e
+    isRequired: true
+  - questionnaireUid: d39ccb08-2e4b-4f07-92de-20db59ef6023
+    isRequired: true
+  - questionnaireUid: f1013c17-4702-4586-8a9c-9718d135025d
+    isRequired: true
+  - questionnaireUid: 6ca692f6-b44d-43f6-8fa0-8185cafa22b0
+    isRequired: true
+  - questionnaireUid: d777cdeb-6521-4ab4-bfa1-20c129cc8f3f
+    isRequired: true
+  - questionnaireUid: d284f656-a205-4940-83db-8096e1bea0cc
+    isRequired: true
+  - questionnaireUid: 4afac821-1cd7-4057-ac72-cd92f7756178
+    isRequired: true
+  - questionnaireUid: d11722c1-dfcd-424b-9dd5-371369b0b687
+    isRequired: true
+  - questionnaireUid: 0fc0a3f3-e4c1-4c51-82c3-7b6905802e1f
+    isRequired: true
+  - questionnaireUid: 73cde5fa-4369-448e-bc28-66a3e8fc516b
+    isRequired: true
+  - questionnaireUid: 1cce4a5f-6381-478f-8ed4-606a4513a11d
+    isRequired: true
+  - questionnaireUid: ff7546a2-6691-4130-b164-766d231da44f
+    isRequired: true
+guidance:
+  title: ''
+  description: ''
+  providers: []
+  scoring:
+    title: 30-60 minutes
+    description: Recommendations for your workload
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Janet
+  lastName: Thomas
+  email: janet@microsoft.com
+isHiddenAssessment: false
+assignedGroupIds:
+  - b6a324fd-d21d-4f72-ae18-f475f53334f0
+metadataTags:
+  - azure
+uid: b0f9a229-5f82-4f19-ae61-b7be31131f4e
+name: Actionable items to consider implementing to improve your workload across the five pillars of the Microsoft Azure Well-Architected Framework

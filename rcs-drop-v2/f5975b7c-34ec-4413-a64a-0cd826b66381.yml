@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 31a2aad1-0e33-47e5-8db2-ca91dfd87b1d
+  - 36bb2d06-cd83-4071-a396-1f0e389c5de9
+  - e4bf52fa-0ccc-4a8d-b035-5e81cfe9845b
+  - 9d679486-4f52-4eb7-a829-d786030db0ff
+  - eb5c3ce3-c83b-40bb-80d7-a3355587283e
+  - eb2aa3ea-5890-4a12-915e-eb98150edee5
+recommendations:
+  - e2b33978-76d6-413c-99c3-a0c5440f271c
+assignedGroupIds: []
+uid: f5975b7c-34ec-4413-a64a-0cd826b66381
+name: Synapse - Operational Excellence

@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Enable Threat Intelligence on your Azure Firewall
+    url: /azure/firewall/threat-intel
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9c062376-407e-43d1-8d1c-f7371647bc88.105e3c26-babc-41ef-a227-0c48c7568fc9.A
+      scoreOf: []
+    context: Threat intelligence-based filtering can be enabled for your firewall to alert and deny traffic from/to known malicious IP addresses and domains. The IP addresses and domains are sourced from the Microsoft Threat Intelligence feed. Intelligent Security Graph powers Microsoft threat intelligence and is used by multiple services including Azure Security Center.
+    priority: 75
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+  - title: Review the Azure Firewall security baseline
+    url: /security/benchmark/azure/baselines/firewall-security-baseline
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 9c062376-407e-43d1-8d1c-f7371647bc88.105e3c26-babc-41ef-a227-0c48c7568fc9.B
+      scoreOf: []
+    context: "The security baseline applies guidance from the\_Azure Security Benchmark version 1.0\_to Azure Firewall. The Azure Security Benchmark provides recommendations on how you can secure your cloud solutions on Azure.\_"
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+uid: 9585533f-0c2b-4bea-bd75-4ea18ad2f1e9
+name: ''

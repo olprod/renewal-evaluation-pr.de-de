@@ -1,0 +1,30 @@
+### YamlMime:RenewalAssessment
+certificationUid: certification.m365-enterprise-administrator
+referencedQuestionnaires:
+  - questionnaireUid: 3cfe1497-73b9-4a3c-b3fc-70b5e4ce6ce9
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: ddea3aca-b768-42da-b0ca-e960f26b7ce2
+    questionsToTake: 4
+    questionsToPass: 2
+  - questionnaireUid: 83861d81-5c8a-4a03-8ca7-e3848bdc7243
+    questionsToTake: 2
+    questionsToPass: 1
+  - questionnaireUid: 3c04b059-6fb1-44d5-8201-69a5df5f746f
+    questionsToTake: 2
+    questionsToPass: 1
+  - questionnaireUid: 1c1573db-abdf-4971-949c-9b62be925780
+    questionsToTake: 4
+    questionsToPass: 2
+  - questionnaireUid: 833526ec-ec34-4275-a7fc-2ce5fa355557
+    questionsToTake: 4
+    questionsToPass: 3
+  - questionnaireUid: 7a9f4e86-5ef0-4ee8-aa3f-a8ab9a969f7e
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: eecb5a7c-8d3c-42a4-b3cc-a8f15dc457c6
+    questionsToTake: 3
+    questionsToPass: 2
+uid: f28a7832-30d9-4fe7-afea-e88ec7ab4e5a
+title: 'Renewal assessment for Microsoft 365 Certified: Enterprise Administrator Expert'
+manualId: MS-100

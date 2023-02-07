@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has limited analytics capabilities to support analytical processes and small pockets of success and experimentation exist.
+    description: Your organization has limited analytics capabilities to support analytical processes and small pockets of success and experimentation exist.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is on the path to growth and  planning for a consistent analytics capabilities strategy across enterprise.
+    description: Your organization is on the path to growth and  planning for a consistent analytics capabilities strategy across enterprise.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has well defined enterprise analytics capabilities and progress is made on the standardization of repeatable practices and measuring success.
+    description: Your organization has well defined enterprise analytics capabilities and progress is made on the standardization of repeatable practices and measuring success.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization is capable to drive significant value from enterprise analytics and uses this approach to delivering critical capabilities.
+    description: Your organization is capable to drive significant value from enterprise analytics and uses this approach to delivering critical capabilities.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has efficient processes to support enterprise analytics with approach accepted throughout the whole organization and performance is regularly measured and monitored to make improvements a continual process.
+    description: Your organization has efficient processes to support enterprise analytics with approach accepted throughout the whole organization and performance is regularly measured and monitored to make improvements a continual process.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have a scalable foundation to perform Enterprise Analytics?
+isRequired: true
+uid: 9bd69cf2-02e6-4aea-917d-62a0a56fd654
+name: Do you have a scalable foundation to perform Enterprise Analytics?

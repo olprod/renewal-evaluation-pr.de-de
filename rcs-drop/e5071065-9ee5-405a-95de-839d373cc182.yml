@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You build an application that uses Language Understanding.
+
+  You need to ensure that the application support speech inputs by using the Speech service.
+
+  What should you configure for Language Understanding?
+questionnaireUid: 0162d990-feb8-48cf-b7ab-69c354042f7b
+questions:
+  - uid: e5071065-9ee5-405a-95de-839d373cc182-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You build an application that uses Language Understanding.
+        isCorrect: true
+      - id: 1
+        text: You need to ensure that the application support speech inputs by using the Speech service.
+        isCorrect: false
+      - id: 2
+        text: What should you configure for Language Understanding?
+        isCorrect: false
+      - id: 3
+        text: Enable the Speech priming setting during model publishing.
+        isCorrect: false
+uid: e5071065-9ee5-405a-95de-839d373cc182
+title: ''

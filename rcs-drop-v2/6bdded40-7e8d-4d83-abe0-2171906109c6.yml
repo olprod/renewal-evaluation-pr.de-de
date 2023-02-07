@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 4d37de25-824e-45ae-b858-d7067141564b
+  - 147b4b46-8a70-47a2-b0c2-d764497a2d8d
+  - 2b74d2ee-31bd-4c3e-9ecb-922337fb1ef8
+  - a86cec1e-b076-45f5-a343-7d84a1840d7f
+  - 71d848c0-a0cd-4955-b635-03e5e2c10f1c
+  - b62a48cb-d0df-4243-970e-d1b6b75938f6
+  - 0b2ef101-fea6-48a9-8b3c-41dbcf3d38dc
+recommendations:
+  - a8d6e6de-ebf7-4396-bc92-3f86ae2a861a
+assignedGroupIds: []
+uid: 6bdded40-7e8d-4d83-abe0-2171906109c6
+name: Identity Zero Trust Objective I. - Cloud identity federates with on-premises identity systems.

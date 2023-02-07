@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing a Microsoft Teams app. You are using Microsoft Graph to show all user’s teams.
+
+  To read teams, the Team.ReadBasic.All permission must be assigned to you Azure AD application.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 33667b9e-7551-4c49-8024-d23a877e2d37
+questions:
+  - uid: f039f38b-366b-4764-82d3-1b892daa6f39-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a Microsoft Teams app.
+        isCorrect: true
+      - id: 1
+        text: You are using Microsoft Graph to show all user’s teams.
+        isCorrect: false
+uid: f039f38b-366b-4764-82d3-1b892daa6f39
+title: 'To read teams, the Team.ReadBasic.All permission must be assigned to you Azure AD application.'

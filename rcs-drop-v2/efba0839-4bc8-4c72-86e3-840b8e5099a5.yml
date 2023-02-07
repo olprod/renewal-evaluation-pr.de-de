@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You collect and analyze logs from across the entire environment.
+    description: 'You collect logs from the entire environment across all users, devices, applications, and infrastructure, both on-premises and in multiple clouds. You analyze them in centralized Security Information and Event Management and Extended Detection and Response platforms. Security operations center analysts can hunt for and uncover previously unknown threats.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You have a defined response mechanism using a SOAR.
+    description: 'Security Orchestration and Automated Response platforms are essential for responding to incidents rapidly and mitigating attacks before they have material impact on your organization. This is accomplished by defining playbooks that are automatically executed when specific incidents are detected. For example, you can automatically block or quarantine compromised devices so they''re unable to infect other systems.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: 'You create alerts when security events, misconfiguration, and behavior anomalies are detected.'
+    description: Create rules for critical events and anomalies to trigger alerts for actions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Rapidly detecting and responding to attacks is key to maintaining a security posture and limiting the impact of any attack. You need to collect signals from the entire environment across all users, devices, applications, and infrastructure, both on-premises and in multiple clouds, and to analyze them centrally. Fast and proper responses are then necessary to mitigate these attacks.'
+isRequired: false
+uid: efba0839-4bc8-4c72-86e3-840b8e5099a5
+name: 'Rapidly detecting and responding to attacks is key to maintaining a security posture and limiting the impact of any attack. You need to collect signals from the entire environment across all users, devices, applications, and infrastructure, both on-premises and in multiple clouds, and to analyze them centrally.'

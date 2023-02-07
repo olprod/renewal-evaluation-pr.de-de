@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  An Azure self-hosted integrated runtime of an Azure data factory supports Bring Your Own Cluster HDInsight activities.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 68fdc26c-0f27-4c6e-838e-0a27924904a7
+questions:
+  - uid: efeda826-e087-429d-ae33-0b370b0c8686-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: An Azure self-hosted integrated runtime of an Azure data factory supports Bring Your Own Cluster HDInsight activities.
+        isCorrect: true
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: false
+uid: efeda826-e087-429d-ae33-0b370b0c8686
+title: 'Otherwise, select No.'

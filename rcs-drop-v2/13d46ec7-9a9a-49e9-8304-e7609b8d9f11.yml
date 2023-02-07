@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Testing that validates conformance to requirements and fixes of identified bugs
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Testing that is fast enough and thorough enough to provide feedback in the continuous integration and continuous delivery flow
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: 'Testing that promotes continuous improvement in user satisfaction, quality of service, and performance on business objectives'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: 'Testing that covers most used functionality, data, code paths and configurations, with coverage measured against them'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'If your team is attempting to use DevOps to deliver software often into production, continuous testing is vital. Continual testing, when done correctly, provides quick and continuous insight into the health of the most recent build of your application.'
+isRequired: true
+uid: 13d46ec7-9a9a-49e9-8304-e7609b8d9f11
+name: 'If your team is attempting to use DevOps to deliver software often into production, continuous testing is vital.'

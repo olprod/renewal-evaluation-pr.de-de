@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Yes. Our organization does have a high-level abstraction of diverse infrastructure that removes complexity and friction of provisioning and managing the lifecycle of data products.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: No. Our organization does not have a high-level abstraction of diverse infrastructure that removes complexity and friction of provisioning and managing the lifecycle of data products.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Does your organization have a high-level abstraction of diverse infrastructure that removes complexity and friction of provisioning and managing the lifecycle of data products (i.e. storage, compute, data pipeline, access control)?'
+isRequired: true
+uid: 1630ec8d-f5bb-4b89-9889-d4608eb78c41
+name: 'Does your organization have a high-level abstraction of diverse infrastructure that removes complexity and friction of provisioning and managing the lifecycle of data products (i.e. storage, compute, data pipeline, access control)?'

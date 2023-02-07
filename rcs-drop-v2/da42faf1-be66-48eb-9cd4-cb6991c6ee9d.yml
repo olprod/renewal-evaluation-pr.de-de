@@ -1,0 +1,84 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We separated our application functionality into different microservices using the Dapr framework or other CNCF projects to allow independent scaling of logical components.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: We use Keda to build event-driven applications that scale down to zero when there's no demand.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'We considered stateless design to reduce unnecessary network load, data processing, and compute resources.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: The application logic handles exceptions and errors by leveraging circuit breaker patterns and Azure Monitor.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: 'The code is optimized for efficient resource usage, such as reduced CPU cycles and number of resources needed by the application.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '5'
+    text: 'Requests that don''t require immediate processing are queued and buffered, then processed in batch to achieve a stable utilization and flatten consumption to avoid spiky requests.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: 'We''ve evaluated server-side rendering vs. client-side rendering when building the application, and we chose the most sustainable solution.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '7'
+    text: 'We''ve considered the UX design impact on sustainability and made decisions to improve energy efficiency, reduce unnecessary network load, data processing, and compute resources.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '8'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 4eb11871-8e1f-48d1-abee-2668b98f1988.ca6d89aa-b7bb-46fc-9104-ae5b645439db.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: da42faf1-be66-48eb-9cd4-cb6991c6ee9d
+name: What is your approach to improving your code efficiency?

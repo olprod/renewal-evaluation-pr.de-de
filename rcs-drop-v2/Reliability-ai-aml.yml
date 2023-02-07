@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'In a cloud environment, you scale out rather than buying higher-end hardware to scale up. While it`s always desirable to prevent all failure, focus your efforts in minimizing the effects of a single failing component.'
+hideEmptyGuidance: false
+questions:
+  - 088d32bf-44aa-4cf7-96a0-99ac55c463e1
+  - b2a74102-61ab-413a-ad8a-83b536323012
+  - 9c94ff3a-a383-43bf-b502-68af5ca3ed29
+  - 8c3882a2-8f4a-4ef7-bcd8-fc4129b8a132
+recommendations:
+  - 0b82dd20-b8cb-4147-a9c1-e23d10750b19
+assignedGroupIds: []
+uid: Reliability-ai-aml
+name: Reliability - Azure Machine Learning

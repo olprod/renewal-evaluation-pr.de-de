@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'I have configured the indexing policy based on query patterns, specifying ONLY those properties that are used as filters in queries. '
+    description: 'By reducing the number of properties you index, you reduce the work required to maintain indexes, which in turn reduces the RU charge associated with writing documents.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: 'For complex queries with multiple filters, group by or order by properties I have assessed the use of composite indexes.'
+    description: Ensuring the appropriate properties are indexed for your frequent queries will reduce the RU charge for these queries.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: I have assessed and implemented opportunities to leverage Azure Cognitive Search for full-text queries at a lower cost.
+    description: Azure Cognitive Search index extracts existing text from Azure Cosmos DB and can reduce RU charge for a full-text searchable query.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.C
+    - waf-config-golive.pillars.cost
+stem: Designing and configuring your Indexing policy based on the access pattern of your workloads can help to reduce costs and improve performance. Take a few minutes to step through the critical areas of Indexing.
+isRequired: false
+uid: 8c05937a-fedf-4112-a93a-884199de9e97
+name: Designing and configuring your Indexing policy based on the access pattern of your workloads can help to reduce costs and improve performance.

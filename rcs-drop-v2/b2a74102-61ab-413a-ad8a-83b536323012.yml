@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Version and track Azure Machine Learning datasets.
+    description: Use versioning for Azure Machine Learning datastores/datasets and model registry to enable linage between assets and limit exposure to local data loss.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: E
+    text: Enable logging in ML training runs to support handling exceptions and errors.
+    description: The Azure Machine Learning Python SDK lets you log real-time information using both the default Python logging package and SDK-specific functionality.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.ai
+stem: Resilient application architectures should be designed to recover gracefully from failures in alignment with defined reliability targets.
+isRequired: false
+legacyId: '1'
+uid: b2a74102-61ab-413a-ad8a-83b536323012
+name: Resilient application architectures should be designed to recover gracefully from failures in alignment with defined reliability targets.

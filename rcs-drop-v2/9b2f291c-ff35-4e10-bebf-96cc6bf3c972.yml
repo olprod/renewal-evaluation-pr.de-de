@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We handle transient database failures within the application.
+    description: 'Most Azure services and client SDKs include a retry mechanism. However, these differ because each service has different characteristics and requirements, and so each retry mechanism is tuned to a specific service. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: We use active geo-replication.
+    description: 'Active Geo-Replication enables you to configure up to 4 readable secondary databases in the same, or different, regions. Secondary databases are available in the case of a service disruption or the inability to connect to the primary database.   Without active geo-replication, if your primary database ever goes offline (planned maintenance, service disruption, hardware failure, etc.) your application database will be offline until you can bring your primary database back online in a healthy state.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for Azure SQL (PaaS). If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Azure SQL (PaaS)
+uid: 9b2f291c-ff35-4e10-bebf-96cc6bf3c972
+name: Please choose the applicable Well-Architected reliability considerations for Azure SQL (PaaS).

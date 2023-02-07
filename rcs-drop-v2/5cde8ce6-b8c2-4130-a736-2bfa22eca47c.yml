@@ -1,0 +1,99 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We do not have a Hub and Spoke topology based on Azure VWAN. We use traditional Virtual Networks instead. (If you select this alternative, skip the following options and move on to the next question).'
+    description: '[Read more about Hub and Spoke with VWAN](https://docs.microsoft.com/en-us/azure/architecture/networking/hub-spoke-vwan-architecture)'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '1'
+    text: 'At least one of the following statements is true about our requirements/environment: - Our organization has resources deployed across several Azure regions and. We have global connectivity between VNets in these Azure regions and between multiple on-premises locations through the Azure Global Network. - Our organization intends to integrate a large-scale branch network that requires more than 100 branch sites for native IPsec termination directly into Azure using a software-defined WAN (SD-WAN) deployment. - Our organization requires transitive routing between VPN and ExpressRoute. Remote branches linked via site-to-site VPN and/or remote users linked via point-to-site VPN connect to on-premises datacenters via Azure using the ExpressRoute private infrastructure. - Our organization needs an aggregated throughput higher than 10 Gbps between Azure and on-premises locations.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We connect multiple landing zones together across Azure regions using a Virtual WAN hub for each Azure region and a common global Azure Virtual WAN.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'We deploy all Virtual WAN resources into a single resource group in our connectivity subscription, even when we deploy across multiple regions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '5'
+    text: "We use\_virtual hub routing\_features to further segment traffic between VNets and branches."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '7'
+    text: We use ExpressRoute to connect Virtual WAN hubs to on-premises datacenters.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '8'
+    text: 'We deploy required shared services, like DNS servers, in a dedicated spoke virtual network.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '9'
+    text: 'We connect branches and remote locations to the nearest Virtual WAN hub using Site-to-Site VPN, or we enable branch connectivity to Virtual WAN via an SD-WAN partner solution.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '10'
+    text: 'When required, we connect users to our Virtual WAN hub via a Point-to-Site VPN.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '11'
+    text: 'We follow the principle of "traffic in Azure stays in Azure" so that communication across resources in Azure occurs via the Microsoft backbone network, even when the resources are in different regions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '13'
+    text: We house the Azure Virtual WAN and Azure Firewall resources within our connectivity subscription.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '15'
+    text: We have a single Azure DDoS standard protection plan deployed in our connectivity subscription.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: The hub is a virtual network in Azure that acts as a central point of connectivity to your on-premises network. The spokes are virtual networks that peer with the hub and can be used to isolate workloads. Traffic flows between the on-premises data center(s) and the hub through an ExpressRoute or VPN gateway connection. The main differentiator of this approach is the use of Azure Virtual WAN (VWAN) to replace hubs as a managed service.
+isRequired: false
+uid: 5cde8ce6-b8c2-4130-a736-2bfa22eca47c
+name: The hub is a virtual network in Azure that acts as a central point of connectivity to your on-premises network.

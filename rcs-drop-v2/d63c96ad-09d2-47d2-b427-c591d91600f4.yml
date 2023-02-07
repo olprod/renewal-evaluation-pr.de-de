@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We review platform and service updates regularly and apply them as they become available through a well-defined, documented, and tested process.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 70
+  - id: '1'
+    text: 'We use a single and comprehensive managed solution, such as Update Management in Azure Automation or Automatic VM guest patching, to ensure operating system updates are deployed to Azure virtual machines.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: d63c96ad-09d2-47d2-b427-c591d91600f4
+name: How do you ensure your platform and services are up to date and benefit from the latest performance improvements and energy optimizations?

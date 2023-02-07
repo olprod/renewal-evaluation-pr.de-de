@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: "Configure a\_CannotDelete\_lock on your storage accounts to prevent accidental deletion."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Enable container soft delete to protect against the accidental deletion of a container.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Enable file and folder soft delete to protect against accidental deletion of files and folders.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Make the raw layer container immutable and automate all your pipelines.
+    description: 'In case data gets deleted, you can always relaunch the different transformation pipelines and recreate data lost in the enriched or curated layer.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Create a backup of your data.
+    description: 'Create a recurring process that copies the data you want to protect to another container, storage account, or region using Azure Data Factory or AzCopy. Checksums can be used to validate that the data has been copied correctly.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: dfa358ff-9e74-4ecb-bf30-585f781de76f
+name: How do you mitigate accidental deletion of your data?

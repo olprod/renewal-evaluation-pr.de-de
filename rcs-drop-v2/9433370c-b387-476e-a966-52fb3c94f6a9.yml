@@ -1,0 +1,19 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This focusses on organization''s maturity against Data Modelling, Analytics and Discovery dimension to create a holistic view of current state and provides a structured framework for developing maturity in each capability. This dimension looks at defining data, tools, and modelling techniques to enable uplift in capabilities and becoming a data driven organization. '
+hideEmptyGuidance: false
+questions:
+  - 3dac677e-2aeb-42e0-a663-b529d7e7ef6b
+  - 38d028d7-6739-413b-9462-c42bdd4173b1
+  - 39ce86db-59b3-4dee-9bbf-288c7345dc58
+  - edef9c2b-f6bb-4cef-82fa-6db373049e51
+  - dca7e3ca-e01a-4327-9bd6-825fdac39854
+  - abc74c92-e68a-4474-9b69-ffefdda40f65
+  - ba2d5c59-9696-42cc-8ad4-a6c3a4e492af
+  - 25692f82-8534-4af1-b300-71fe1074c302
+recommendations:
+  - ea31bc75-b4ac-47c1-b5cc-ba2ca595e718
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: 9433370c-b387-476e-a966-52fb3c94f6a9
+name: ' Maturity Framework - Data Modelling, Analytics and Discovery Pillar'

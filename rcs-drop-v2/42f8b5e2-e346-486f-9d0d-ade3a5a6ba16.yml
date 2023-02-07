@@ -1,0 +1,99 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Performance requirements are well-defined.
+    description: 'Non-functional performance requirements, such as those relating to end-user experiences (e.g. average and maximum response times) are vital to assessing the overall health of an application.  From the cost perspective, it''s recommended to set a budget for extreme circumstances and indicate upper limit for cost (when it''s not worth serving more traffic due to overall costs).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: Targets for the time it takes to perform scale operations are defined and monitored.
+    description: 'Scale operations (horizontal - changing the number of identical instances, vertical - switching to more/less powerful instances) can be fast, but usually take time to complete. It''s important to understand how this delay affects the application under load and if degraded performance is acceptable.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: C
+    text: The workload is designed to scale independently.
+    description: 'If the workload contains multiple components and one component requires scale, this triggers scale-out/up of the entire infrastructure. It needs to be evaluated if the application scale is monolithic or each component is scaled independently and for example how the database scales with the rest of the workload.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: The application has been designed to scale both in and out.
+    description: 'Azure provides elastic scalability, however, applications must leverage a scale-unit approach to navigate service and subscription limits to ensure that individual components and the application as a whole can scale horizontally. Don''t forget about scale in as well, as this is important to drive cost down. For example, scale in and out for App Service is done via rules. Often customers write scale out rule and never write scale in rule, this leaves the App Service more expensive.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: Application components and data are split into groups as part of your disaster recovery strategy.
+    description: 'A disaster recovery strategy should capture how the application responds to a disaster situation such as a regional outage or the loss of a critical platform service, using either a re-deployment, warm-spare active-passive, or hot-spare active-active approach. To drive cost down consider splitting application components and data into groups. For example: 1) must protect, 2) nice to protect, 3) ephemeral/can be rebuilt/lost, instead of protecting all data with the same policy.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: F
+    text: Tools (such as Azure Advisor) are being used to optimise SKUs discovered in this workload.
+    description: 'Azure Advisor helps to optimize and improve efficiency of the workload by identifying idle and underutilized resources. It analyzes your configurations and usage telemetry and consolidates it into personalized, actionable recommendations to help you optimise your resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: Resources are reviewed weekly or bi-weekly for optimization.
+    description: 'Your under-utilized resources need to be reviewed often in order to be identified and dealt with accordingly, in addition to ensuring that your actionable recommendations are up-to-date and fully optimized. For example, Azure Advisor monitors your virtual machine (VM) usage for 7 days and then identifies low-utilization VMs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: H
+    text: Cost-effective regions are considered as part of the deployment selection.
+    description: 'Is there a technical/legal reason for deploying in a particular region? If not, it might be worth looking at another region to decrease cost. Also depending on the workload and data processing model, choosing a cheaper region might make more financial sense.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: I
+    text: Dev/Test offerings are used correctly.
+    description: 'Special SKUs and subscription offers for development and testing purposes can save costs, but have to be used properly. Dev SKUs are not meant for production deployments.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: J
+    text: Shared hosting platforms are used correctly.
+    description: 'Do application components leverage shared data platforms, such as a central Data Lake, or application hosting platforms, such as a centrally managed AKS or ASE cluster? Shared platforms drive down cost, but the workload still needs to maintain the expected performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: K
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Ensuring resources are appropriately provisioned
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4ItEF'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Deployment of cloud resources of a workload is known as provisioning.
+isRequired: false
+legacyId: provision
+uid: 42f8b5e2-e346-486f-9d0d-ade3a5a6ba16
+name: Deployment of cloud resources of a workload is known as provisioning.

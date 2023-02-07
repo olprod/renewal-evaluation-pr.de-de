@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |+
+  You create a notification template.  
+
+  You need to display the case ID field based on the specific customer case. 
+
+  What should you set the value to? 
+
+questionnaireUid: 70009fe3-e233-4675-938b-bb1a65abccf7
+questions:
+  - uid: eacc50bd-60f1-43e2-bdb0-7afd97e80a0d-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You create a notification template.
+        isCorrect: true
+      - id: 1
+        text: You need to display the case ID field based on the specific customer case.
+        isCorrect: false
+      - id: 2
+        text: What should you set the value to?
+        isCorrect: false
+      - id: 3
+        text: Slug for case ID
+        isCorrect: false
+    manualId: 'Question 87-MB-230.7.13 '
+uid: eacc50bd-60f1-43e2-bdb0-7afd97e80a0d
+title: ''
+manualId: ''

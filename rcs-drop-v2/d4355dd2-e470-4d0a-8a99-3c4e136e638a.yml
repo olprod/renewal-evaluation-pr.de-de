@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Defined a backup strategy in alignment with recovery targets.
+    description: Is the Azure SQL Database configured with the needed PITR (Point in time restore) and LTR (long term retention) settings?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Defined a disaster recovery strategy to capture recovery steps for geo-failover and failback.
+    description: Is there a BCDR strategy for the database and/or its key workload and are operational runbooks defined for key failure scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Successfully tested and validated the geo-failover or geo-restore and failback approach at least once.
+    description: Are disaster recovery strategies and operational runbooks for key failure scenarios tested on a regular basis?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: disaster-data-sqldb
+uid: d4355dd2-e470-4d0a-8a99-3c4e136e638a
+name: How are you handling disaster recovery for this workload?

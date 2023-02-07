@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Configuration settings can be changed or modified without rebuilding or redeploying the application.
+    description: Can configuration settings be changed or modified without rebuilding or redeploying the application?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Passwords and other secrets are managed in a secure store like Azure Key Vault or HashiCorp Vault.
+    description: How are passwords and other secrets managed?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Procedures are in place for key/secret rotation.
+    description: Do you have procedures in place for key/secret rotation?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Have the database scoped configuration settings such as MAXDOP and compatibility level been set optimally for your workload.
+    description: 'By default Azure SQL DB Maxdop is set to 8, this can be changed depending on the workload.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: database-config-data-sqldb
+uid: fc3b2ab9-e557-4ed9-9740-f066cf5e03f4
+name: How are you managing the configuration of your database?

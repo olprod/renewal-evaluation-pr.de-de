@@ -1,0 +1,29 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a line chart that shows the salary costs of a company over time.
+
+  You need to see the employee count when you hover over a data point.
+
+  What should you do?
+questionnaireUid: dbfe3f57-e131-41aa-88e5-08a8ce568105
+questions:
+  - uid: edd9de1b-5415-4342-b211-f50b01b78864-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a line chart that shows the salary costs of a company over time.
+        isCorrect: true
+      - id: 1
+        text: You need to see the employee count when you hover over a data point.
+        isCorrect: false
+      - id: 2
+        text: What should you do?
+        isCorrect: false
+      - id: 3
+        text: Add employee count to the tooltips field well.
+        isCorrect: false
+    manualId: PL-300.3.2.1 -PL-300.7.1
+uid: edd9de1b-5415-4342-b211-f50b01b78864
+title: ''

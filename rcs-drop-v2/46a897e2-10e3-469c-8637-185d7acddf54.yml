@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on this
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: We are aware of it and its content and collateral is reviewed by our sales engagement team regularly
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Accelerate business outcomes with Microsoft funded partner investments that incentivize high-value activities with customers. These activities are proven to accelerate the sales journey, drive active usage and increase services opportunity. The program provides direct funding to eligible partners to deliver standardized pre-sales and post-sales activities to qualified customers.
+
+  Pre-Sales activities enable Microsoft and its partners to drive engagement aligned to D365 and Power Platform products.
+
+  Post-Sales activities focus on driving usage within Dynamics and Power Platform licenses.
+
+  Dynamics 365 Migration Program (DMP) activities funds partner-led migration assessment activities for on-premises Dynamics AX and Dynamics CRM customers considering the cloud.
+isRequired: true
+uid: 46a897e2-10e3-469c-8637-185d7acddf54
+name: Accelerate business outcomes with Microsoft funded partner investments that incentivize high-value activities with customers.

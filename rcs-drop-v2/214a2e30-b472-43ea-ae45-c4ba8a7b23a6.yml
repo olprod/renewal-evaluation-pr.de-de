@@ -1,0 +1,73 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/architecture/reference-architectures/sap/sap-overview#cost
+description: 'When you move your workloads to the cloud, you have multiple aspects which can help to reduce costs of the overall solution. Many of them are covered in the Azure Well-Architected Framework under the pillar of cost optimization. When you move SAP solutions to Azure, you have the additional opportunity to perform cost optimization.'
+links:
+  - title: Optimize your SAP on Azure cost
+    url: /azure/architecture/reference-architectures/sap/sap-overview#cost
+    condition:
+      allOf:
+        - c0111878-f41a-4628-bbb0-ea7d6a51ad63.f88da085-2d44-4d00-b93f-a140f8ecbaa1.0
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      anyOf:
+        - c0111878-f41a-4628-bbb0-ea7d6a51ad63.e7d6ab7e-ce3f-4f26-86b8-b6b8ea9365e4.0
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize your cloud investment with Cost Management
+    url: 'https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-best-practices'
+    condition:
+      allOf:
+        - c0111878-f41a-4628-bbb0-ea7d6a51ad63.e7d6ab7e-ce3f-4f26-86b8-b6b8ea9365e4.0
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      anyOf:
+        - c0111878-f41a-4628-bbb0-ea7d6a51ad63.d000b0ff-8ca3-4d80-b53d-3309494c5771.2
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Optimise SAP application cost '
+    url: 'https://learn.microsoft.com/en-us/azure/architecture/framework/sap/design-areas/application-design#sap-application-cost-optimization'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c0111878-f41a-4628-bbb0-ea7d6a51ad63.d000b0ff-8ca3-4d80-b53d-3309494c5771.4
+      scoreOf: []
+    context: 'Optimise SAP application cost '
+    priority: 100
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Cost Optimisation
+  - title: Azure Reservations
+    url: 'https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/save-compute-costs-reservations'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c0111878-f41a-4628-bbb0-ea7d6a51ad63.e7d6ab7e-ce3f-4f26-86b8-b6b8ea9365e4.2
+        - c0111878-f41a-4628-bbb0-ea7d6a51ad63.e7d6ab7e-ce3f-4f26-86b8-b6b8ea9365e4.3
+      scoreOf: []
+    context: Azure Reservations
+    priority: 99
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Cost Optimisation
+  - title: Save with Azure Savings plan
+    url: 'https://learn.microsoft.com/en-us/azure/cost-management-billing/savings-plan/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - c0111878-f41a-4628-bbb0-ea7d6a51ad63.e7d6ab7e-ce3f-4f26-86b8-b6b8ea9365e4.NOA
+      scoreOf: []
+    context: Save with Azure Savings plan
+    priority: 98
+    reportingCategory: AzSAP Workload Design
+    reportingSubCategory: Cost Optimisation
+uid: 214a2e30-b472-43ea-ae45-c4ba8a7b23a6
+name: Optimize your SAP on Azure cost

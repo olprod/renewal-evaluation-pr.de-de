@@ -1,0 +1,23 @@
+### YamlMime:QuestionSet
+scenario: Which Azure Synapse Analytics feature should you use to define the timeout values for a query?
+questionnaireUid: b83b585d-3829-485f-b611-217b35a33896
+questions:
+  - uid: f82eef9a-3cef-4291-ab0b-a5b4482e1d5b-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Which Azure Synapse Analytics feature should you use to define the timeout values for a query?
+        isCorrect: true
+      - id: 1
+        text: workload groups
+        isCorrect: false
+      - id: 2
+        text: workload importance
+        isCorrect: false
+      - id: 3
+        text: materialized views
+        isCorrect: false
+uid: f82eef9a-3cef-4291-ab0b-a5b4482e1d5b
+title: ''

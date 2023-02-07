@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 84ad6eb5-1336-4163-8a90-afeae5a5808e
+  - dbf17e66-c4b9-42dd-b19d-b217f287855f
+recommendations:
+  - acfbc107-5ab9-495d-82c0-51addacb9823
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: 162de987-12e6-4057-b1d1-be7cfeac62da
+name: Localization

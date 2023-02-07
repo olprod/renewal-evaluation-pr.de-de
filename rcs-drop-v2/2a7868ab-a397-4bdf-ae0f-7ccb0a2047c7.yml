@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: they go fast!
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: they go high!
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: they're made of aluminum!
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 267bdbda-da2d-492a-ab90-1a6beae9fc57.ca272a37-3d79-421a-bdf8-9521db1ae042.3
+    - 267bdbda-da2d-492a-ab90-1a6beae9fc57.15818e53-8f6e-4b6e-9260-bb0d4b3c6c81.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 2a7868ab-a397-4bdf-ae0f-7ccb0a2047c7
+name: Why do you like jets?

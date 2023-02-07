@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We use Azure Firewall Premium or a partner NVA if advanced firewall capabilities are required (TLS inspection, network intrusion detection and prevention system (IDPS), URL filtering, web categories), for all inbound connections and for East/west traffic filtering (when required).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'When we use Azure Firewall we use Azure Firewall Manager to deploy and manage Azure firewalls across Virtual WAN hubs or in hub virtual networks. When we use partner NVAs, we leverage similar capabilities provided by the vendor of the partner NVA, to deploy, configure and manage them at scale.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We have a Global Azure Firewall Policy to govern security posture across the global network environment, and we also use some more granular Azure Firewall policies to meet the requirements of specific regions by delegating incremental firewall policies to local security teams via Azure role-based access control. When using partner NVAs we use similar capabilities provided by the vendor of the partner NVA, to deploy, configure and manage firewall policies at scale.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'When we use partner NVAs for East/West and/or North/South traffic protection and filtering, for Virtual WAN network topologies we deploy the partner NVAs to a separate virtual network (for example, NVA Vnet), and then we connect it to the regional Virtual WAN hub and to the landing zones that require access to NVAs; and for non-Virtual WAN network topologies (Traditional Virtual Networks), we deploy the partner NVAs in the Hub virtual network.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: Use Network Watcher packets to capture despite the limited capture window.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '5'
+    text: Use partner solutions for scenarios that require deep packet inspection.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 4033e233-cbac-4352-9dfc-f48cc87542d5
+name: The following statements are true about our requirements and strategy for Traffic Inspection

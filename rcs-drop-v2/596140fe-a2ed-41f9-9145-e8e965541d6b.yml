@@ -1,0 +1,86 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Regulatory and governance requirements of the SAP workload are known and well understood in line with Business requirements.
+    description: 'Regulatory requirements may mandate that operational data, such as application logs and metrics, remain within a certain geo-political region. This has obvious implications for how the application should be operationalized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Azure Landing Zones for SAP concept is implemented for this workload in line with eight Critical Design Areas
+    description: Azure Landing Zones (formerly Enterprise-scale) for SAP on Azure provide an architectural approach and reference implementation that enables effective construction and operationalization of platform workload landing zones within the Cloud Adoption Framework.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Azure Policy used to provide overview of Compliance and Governance of environment
+    description: Azure Policy should be used to enforce and report a compliant configuration of Azure services. Azure policies can be use on multiple levels. It is recommended to apply organizational wide security controls on Azure platform level. These policies build the guardrails of a landing zone.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Azure Enhanced Monitoring Extension applied on all VM's hosting SAP Workload.
+    description: The Azure Enhanced Monitoring Extension for SAP provides configuration information and performance data of the underlying Azure infrastructure and makes it available to the SAP application. It contains built-in self-diagnostics which enables identification of the health and completeness of the infrastructure data required by SAP services and support.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: Microsoft Defender for Cloud enabled for SAP on Azure subscriptions
+    description: |-
+      When you enable Defender for Cloud, make sure to exclude the SAP database servers from any policy that installs endpoint protection.
+
+      Make sure you harden the operating system to eradicate vulnerabilities that could lead to attacks on the SAP database.
+      A few additional checks ensure safe base installation: Check system file integrity regularly.
+      Restrict access to the operating system.
+      Restrict physical access to the server.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '6'
+    text: Continuous Vulnerability Management Solution enabled
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '11'
+    text: ACSS Tools & Framework implemented for SAP workloads to add to overall governance
+    description: |
+      AzSAPCoE "Health Check In a Box" is a value-add offerring from Microsoft Azure for SAP workload running on Azure platform. It gives customer ability to perform
+      1. SAP On Azure Deployment
+      2. SAP Inventory Checks
+      3. SAP On Azure Quality Checks &
+      4. SupportConfig Analyzer
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: 'Organizations of all sizes are constrained by their available resources: financial, people, and time. To achieve an effective return on investment (ROI) organizations must prioritize where they will invest. Implementation of security across the organization is also constrained by this, so to achieve an appropriate ROI on security the organization needs to first understand and define its security priorities.'
+isRequired: false
+uid: 596140fe-a2ed-41f9-9145-e8e965541d6b
+name: 'Organizations of all sizes are constrained by their available resources: financial, people, and time.'

@@ -1,0 +1,20 @@
+### YamlMime:QuestionSet
+scenario: |-
+  In Azure Synapse Analytics, the round robin sharding pattern accelerates data loading when using staging tables.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: ef37212c-9862-47f4-953d-2666d007224d
+questions:
+  - uid: fbeccb21-3aa3-4352-8ef8-2416bcb63684-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'In Azure Synapse Analytics, the round robin sharding pattern accelerates data loading when using staging tables.'
+        isCorrect: true
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: false
+uid: fbeccb21-3aa3-4352-8ef8-2416bcb63684
+title: 'Otherwise, select No.'

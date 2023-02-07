@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You use spreadsheets, lists, or other non-automated tools to manually manage your inventory of IoT devices deployed in the field'
+    description: 'IoT solutions are typically have thousands of devices and it''s important to maintain an inventory of IoT devices that have been deployed to enable activities such as management of those devices at scale, reprovisioning, and configuration.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: 'You use the device management features of IoT Hub and Device Provisioning Service to automatically register, manage inventory, and control the lifecycle of IoT devices'
+    description: IoT Hub and DPS have built-in features that allow IoT device operators to manage IoT devices at scale.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'In IoT Central, you use device groups to create an inventory and to manage IoT devices and IoT Edge devices that match specified criteria'
+    description: 'IoT Central device groups enable device operators to manage, visualize, and analyze devices at scale by organizing devices into smaller, logical groups.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: 'In IoT Hub, you use Device Twins and Tags to group devices (for example, test or production), query device inventory, and to classify based on device model and capabilities'
+    description: 'Device twins and tags in IoT Hub can help a device operator to query, filter, and group devices based on their configuration.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: A crucial part of creating a successful enterprise IoT solution is to have a device management strategy and to provide operators with simple and reliable tools and applications that enable them to filter and identify devices deployed in the field.
+isRequired: false
+uid: afbc4866-1a5d-43fa-9d44-0cdd1900931e
+name: A crucial part of creating a successful enterprise IoT solution is to have a device management strategy and to provide operators with simple and reliable tools and applications that enable them to filter and identify devices deployed in the field. Q3.

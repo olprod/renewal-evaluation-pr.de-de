@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Automate creation of Azure Synapse Analytics Workspace with Azure CLI.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Automate creation of Azure Synapse Analytics Workspace with Azure PowerShell.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Automate creation of Azure Synapse Analytics Workspace with Azure ARM template.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Use Azure Functions to automate compute resource management for your Azure Synapse Analytics dedicated SQL pool.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Manage Python libraries for Apache Spark in Azure Synapse Analytics.
+    description: Libraries provide reusable code that you may want to include in your programs or projects.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Manage Scala and Java packages for Apache Spark in Azure Synapse Analytics.
+    description: Libraries provide reusable code that you may want to include in your programs or projects.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 36bb2d06-cd83-4071-a396-1f0e389c5de9
+name: How are you managing the configuration of your workload?

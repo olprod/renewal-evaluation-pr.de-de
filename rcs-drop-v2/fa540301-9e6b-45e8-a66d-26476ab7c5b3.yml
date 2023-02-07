@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Choose the right data redundancy option for your storage account.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 70
+  - id: B
+    text: Perform Failure Mode Analysis (FMA) to identify fault-points and fault-modes.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.H
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: fa540301-9e6b-45e8-a66d-26476ab7c5b3
+name: How have you ensured that your application architecture is resilient to failures?

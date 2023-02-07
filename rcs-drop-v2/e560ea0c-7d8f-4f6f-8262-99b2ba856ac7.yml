@@ -1,0 +1,22 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - a7010886-7e15-4cd3-afd8-fe6d52ab5147
+  - d65cce5e-2605-49c0-a99c-535b11c07bca
+  - 508cc55e-2708-42c9-9de1-b33ba5c068a9
+  - f093911d-98b4-40e7-828c-a06b986848d9
+  - c249f42c-eda4-4c53-bdb7-b2a3e5e7589b
+  - 162ed1fe-777b-4910-87a6-76fc5e236484
+  - 0a1c2917-dd92-43f5-af72-28d0c8ff75b3
+  - 69385023-6241-4594-8fa3-bed341f13fd7
+  - b1e9a223-1d66-4383-9eb5-3efcb5577d58
+  - a6bda1fd-09b1-4ed6-86fa-fdf66022d09b
+  - de3ea9fd-db1e-4c55-acf6-5c02de2ac63b
+  - 4ffaae3a-36b5-4787-9e5f-52feb132c56d
+recommendations:
+  - b041ce01-dfcf-4690-87ff-da2a90a473df
+assignedGroupIds: []
+uid: e560ea0c-7d8f-4f6f-8262-99b2ba856ac7
+name: Synapse - Reliability

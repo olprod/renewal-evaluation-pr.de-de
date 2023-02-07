@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: A database backup strategy has been defined and implemented that meets the RPO requirements.
+    description: Most transactional databases require Point In Time Recovery capabilities based on Transaction Log backups.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Database DR and failover capabilities are automated and regularly tested.
+    description: In the event of disaster you should be confident that your recovery and failover solutions will work as required.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: In the event of a Regional failover database traffic rerouting has been considered.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: The database is deployed across multiple regions in an active-passive topology to meet RTO targets.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'In the case of backing up the databases on the local VM, there are automated processes to copy the backup to blob location in the same region and/or different region to achieve the RPO.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: disaster-data-sqlvm
+uid: 223960de-be52-4413-89c1-2e175955d3b1
+name: How are you handling disaster recovery for this workload?

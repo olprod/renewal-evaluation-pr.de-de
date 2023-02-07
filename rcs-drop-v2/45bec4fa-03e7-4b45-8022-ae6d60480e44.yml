@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We don't allow use of public cloud
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: There is minimum guidance on where to put workload and teams are not encouraged to use public cloud
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: We allow use of the public cloud (IaaS and PaaS) with basic guidance for data security
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: We encourage use of the public cloud and have comprehensive guidance on where to put the workloads
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '4'
+    text: 'We build cloud-native applications leveraging public cloud and strive for the best security, end-user experience and quality of service'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'if no statement applies, select the one that matches your situation most closely'
+isRequired: true
+uid: 45bec4fa-03e7-4b45-8022-ae6d60480e44
+name: 'if no statement applies, select the one that matches your situation most closely'

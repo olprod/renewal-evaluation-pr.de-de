@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 1dd6e66a-fe40-4b6d-beff-7c88bcfd9d6a
+  - 65cbc2ae-4499-432c-82ec-c45aa9d96dc1
+  - c8056a62-9479-4943-8096-9016e9f969a1
+  - 139e0fc7-2ea3-46ba-b774-8b7799fed139
+  - 02d7445b-450a-40c0-89ec-79033c4ef1ba
+  - 061c5c00-efe2-41fb-b1a4-78c2eb1ce2ce
+recommendations:
+  - 7831962e-b963-49a3-945d-d6efba00a673
+assignedGroupIds: []
+uid: a97f7d78-c883-4cf4-84ef-1185cd482aae
+name: SQL DB - Cost Optimization

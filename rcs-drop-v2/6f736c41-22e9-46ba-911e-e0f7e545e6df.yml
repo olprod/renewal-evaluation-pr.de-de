@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Your operations team is trained on auto provisioning using Azure DPS. The team knows how to clearly define enrolment groups, allocation policies, and authentication methods (SAS Tokens or X.509)'
+    description: 'The IoT Hub Device Provisioning Service enables zero-touch, just-in-time device provisioning to any IoT hub. The Device Provisioning Service enables you to provision millions of IoT devices in a secure and scalable manner, without requiring human intervention.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: 'The operations team is trained on device life cycle management including how to reprovision, disenroll, and deprovision devices'
+    description: 'During the lifecycle of an IoT solution, it''s common to move devices between IoT hubs. The allocation policy determines how the devices associated with the enrollment will be allocated, or assigned, to an IoT hub once reprovisioned.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: The operations team is trained on DPS based custom device allocation policies in case such a solution is required
+    description: A custom allocation policy gives you more control over how devices are assigned to an IoT hub. This is accomplished by using custom code.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: 'If you''re using Azure IoT central, your operations team has been trained to use device provisioning and management features such as device templates, jobs, data export, and user/organization management'
+    description: 'A device template in Azure IoT Central is a blueprint that defines the characteristics and behaviors of a type of device that connects to your application. For example, the device template defines the telemetry that a device sends so that IoT Central can create visualizations that use the correct units and data types.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: 'The operations team that manages, administers, and supports your IoT solution must be properly trained to ensure devices and backend services are operational and to minimize any downtimes in the solution.'
+isRequired: false
+uid: 6f736c41-22e9-46ba-911e-e0f7e545e6df
+name: 'The operations team that manages, administers, and supports your IoT solution must be properly trained to ensure devices and backend services are operational and to minimize any downtimes in the solution. Q16. '

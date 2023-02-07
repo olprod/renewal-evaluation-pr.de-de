@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Use Managed Identities to authenticate and authorize access to messaging entities in your Service Bus Namespace
+    url: /azure/service-bus-messaging/service-bus-managed-service-identity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7b74e83b-97f3-4626-be63-6a9836f2eade.d0f0e7fd-c133-4b89-b52c-13b7bbd5e54e.A
+      scoreOf: []
+    context: Managed Identities for Azure Resources is an Azure feature that enables you to create an identity associated with the deployment under which your application code runs. The Managed Identity can then be assigned Role Based Access Control roles that grant the permissions your application needs to interact with another resource.
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Identity Management
+  - title: Use Service Endpoints or Private Endpoints with Service Bus whenever possible
+    url: /azure/service-bus-messaging/private-link-service
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7b74e83b-97f3-4626-be63-6a9836f2eade.d0f0e7fd-c133-4b89-b52c-13b7bbd5e54e.B
+      scoreOf: []
+    context: "This recommendation keeps traffic on the Azure Backbone.\_Note: The default connection protocol for\_Microsoft.Azure.ServiceBus\_and\_Windows.Azure.ServiceBus\_namespaces is\_AMQP."
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Network
+uid: b4976dd2-6dc3-43e4-9289-dec2d8ed230b
+name: ''

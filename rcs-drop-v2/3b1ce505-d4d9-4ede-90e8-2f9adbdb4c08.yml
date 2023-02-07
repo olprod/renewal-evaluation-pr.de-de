@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: A threat model exists for the application.
+    description: 'Threat modeling provides a risk-based approach to security design, using identified potential threats to develop appropriate security mitigations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: The threat model is regularly reviewed and updated.
+    description: 'As the application evolves, the threat model should accurately reflect changes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Engineering budget is allocated within each sprint to evaluate new threats.
+    description: Code changes and added features can potentially introduce vulnerabilities. Threat modeling should accurately reflect new potential threats.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: Threat mitigations are captured as common engineering criteria.
+    description: 'Security shouldn''t be considered something extra, but rather be included in the normal development procedures and become part of the standard engineering criteria.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Threat modeling provides a risk-based approach to security design, using identified potential threats to develop appropriate security mitigations.'
+isRequired: false
+uid: 3b1ce505-d4d9-4ede-90e8-2f9adbdb4c08
+name: 'Threat modeling provides a risk-based approach to security design, using identified potential threats to develop appropriate security mitigations.'

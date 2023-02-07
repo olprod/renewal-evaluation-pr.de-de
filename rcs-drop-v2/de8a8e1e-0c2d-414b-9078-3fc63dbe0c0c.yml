@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Vulnerability scans are performed across all cloud resources on a regular basis
+    description: |
+      Perform regular holistic vulnerability scans
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: Penetration testing is performed to detect attack scenarios across enterprise resources
+    description: |
+      Perform regular penetration testing against your service offerings
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '2'
+    text: "Simulated attacks focused on users, such as phishing campaigns, are carried out regularly.\_"
+    description: |
+      Simulate user focused attacks
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '3'
+    text: Operational processes for incident response are defined and tested
+    description: |
+      Define operation responses to known attack types
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '4'
+    text: Zero Trust model is employed to control access to all cloud resources and workloads
+    description: |
+      Apply Zero Trust strategies when applying policies and guardrails
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '5'
+    text: "A security training program is developed and maintained to ensure security staff are well-informed and equipped with the appropriate skills.\_"
+    description: |
+      Regularly train users with up to date policies and procedures
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: de8a8e1e-0c2d-414b-9078-3fc63dbe0c0c
+name: How is security validated and how do you handle incident response when breach happens?

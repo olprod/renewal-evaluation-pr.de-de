@@ -1,0 +1,36 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've adjusted the number of partitions as required.
+    description: 'The number of partitions is specified at creation and must be between 1 and 32. '
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: You haven't reviewed the partitions and are using the default partition setting.
+    description: The partitioning of the event stream is used to reduce contentions that occur when concurrently reading and writing to event streams.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Azure IoT Hub service leverages the Event Hubs service in the background. An IoT hub instance populates its event streams with incoming telemetry from various connected IoT devices. The number of device-to-cloud partitions reflect the degree of downstream parallelism you can achieve. You choose the partition limit when an IoT hub is created, and this limit can''t be changed. The maximum partition limit for basic and standard tier IoT hubs is 32.'
+isRequired: false
+uid: 43a27484-31eb-4292-b012-b86cec0f2e66
+name: Azure IoT Hub service leverages the Event Hubs service in the background. An IoT hub instance populates its event streams with incoming telemetry from various connected IoT devices.

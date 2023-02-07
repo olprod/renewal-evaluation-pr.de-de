@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Are there any targets defined for management operations time?
+    description: 'For example there are targets defined for the time to perform scale operations, and the impact of scaling operations is understood.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Are there well defined performance requirements for the workload?
+    description: Performance requirements baseline for the workload running on the Azure SQL MI should be defined to make sure target can be met.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Have you automated as many manual processes as you possibly can?
+    description: 'Without detailed release process documentation, an operator might deploy a bad update or configuration setting.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: 'Are you aware of maintenance  windows that includes hot-fixes, services, packs, cumulative updates, etc.'
+    description: Although SQL MI is managed service there are still management task done by cloud provider and you should be aware how they influence your database environment?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: 'Do you have a way to manage your databases in Azure, on- premises, or in other cloud providers?'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: Do you have a way to both define dependencies between resources and ensure they are deployed in the correct order?
+    description: 'Consider deploying, managing, and monitoring workload as a group rather than handling its components individually.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: Is your release process documented?
+    description: 'Without detailed release process documentation, an operator might deploy a bad update or might improperly configure settings for your SQL instances'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: configure-data-sqlmi
+uid: 243bacfd-f8a2-4c95-b3b0-08a15b6a48ae
+name: How are you managing the configuration of your workload?

@@ -1,0 +1,19 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 7c82847a-eb9e-409d-ba16-525a4543fea6
+  - f6f7a18b-fb60-40bc-bdec-59f93a9f39ba
+  - b97ec79f-488f-48c3-ae2e-111d22b0ceb5
+  - 8a173dfe-a226-4e0e-9288-febbb0774003
+  - a15c64c8-32d5-4cb2-bd70-e4342dc38d50
+  - 3332e4c0-eef4-484f-9833-23b7927f3931
+  - 1830cc76-db8c-4237-b9de-2f234abd83ba
+  - 538c3bc9-378e-4796-826e-76981ff82da5
+  - f1132038-8674-4821-bc3c-32fb1ba5cdc4
+recommendations:
+  - f7ac9534-9392-4f88-84f8-a56687f671b0
+assignedGroupIds: []
+uid: b309ebca-3047-4a4a-93f0-ff528fcef3de
+name: Stack Hub (Preview) - OpEx for Cloud Operators

@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Your devices can store data in the event of intermittent connectivity errors for a known duration of time.
+    description: Ensure appropriate controls so that your device's entire storage isn't filled. Limit to an acceptable capacity so the device can still continue to operate.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: Your device is an Azure IoT Edge device and uses Azure IoT Edge store and forward capabilities.
+    description: 'If your devices connect to an IoT hub through an Azure IoT Edge gateway or if the device runs Azure IoT Edge runtime, you automatically benefit from the offline operation capabilities of the Azure IoT Edge runtime.'
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'In case of connectivity issues, your devices should be able to store messages until they''re able to reconnect and transmit data to Azure IoT Hub.'
+isRequired: false
+uid: a3df806d-397c-4cef-91f0-5dff56b9daeb
+name: 'In case of connectivity issues, your devices should be able to store messages until they''re able to reconnect and transmit data to Azure IoT Hub. Q12.'

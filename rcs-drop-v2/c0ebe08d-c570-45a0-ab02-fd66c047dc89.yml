@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Application components are deployed using automated pipelines.
+    description: Are all application components built and deployed using CI/CD pipelines?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: Infrastructure components are defined using IaC and deployed using automated pipelines.
+    description: Is the entire infrastructure defined as code (IaC) and only deployed using CI/CD pipelines?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: All deployments and changes are applied with DevOps pipelines. There are no manual changes applied outside automated pipelines.
+    description: Are subsequent changes and updates only done through pipelines or are there still some manual steps and processes?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: All deployments should be automated with CI/CD pipelines using infrastructure as code (IaC). Manual operations to deploy or change the infrastructure and workload configuration should be avoided.
+isRequired: false
+uid: c0ebe08d-c570-45a0-ab02-fd66c047dc89
+name: All deployments should be automated with CI/CD pipelines using infrastructure as code (IaC).

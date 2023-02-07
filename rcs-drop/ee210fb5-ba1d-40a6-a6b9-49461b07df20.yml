@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Microsoft Teams Phone deployment that uses Direct Routing for users in the Perth office. The Perth office has a Session Border Controller (SBC) named wasbc1.contoso.com.
+
+  You need to shorten the media path between the Perth users and the SBC.
+
+  Which SBC feature should you enable?
+questionnaireUid: 9dd70653-b65e-46fe-8da6-042a46fd7ee9
+questions:
+  - uid: ee210fb5-ba1d-40a6-a6b9-49461b07df20-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a Microsoft Teams Phone deployment that uses Direct Routing for users in the Perth office.
+        isCorrect: true
+      - id: 1
+        text: 'The Perth office has a Session Border Controller (SBC) named wasbc1.contoso.com. '
+        isCorrect: false
+      - id: 2
+        text: 'You need to shorten the media path between the Perth users and the SBC. '
+        isCorrect: false
+      - id: 3
+        text: 'Which SBC feature should you enable? '
+        isCorrect: false
+uid: ee210fb5-ba1d-40a6-a6b9-49461b07df20
+title: ''

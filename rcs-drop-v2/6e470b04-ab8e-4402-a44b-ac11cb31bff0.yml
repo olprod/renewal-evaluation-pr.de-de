@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization supports informal collaboration but limited processes for encouraging employees to be decision-makers.
+    description: Your organization supports informal collaboration but limited processes for encouraging employees to be decision-makers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is aware that supporting processes for encouraging employees to be decision-makers is an important organizational element to be decision driven.
+    description: Your organization is aware that supporting processes for encouraging employees to be decision-makers is an important organizational element to be decision driven.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization recognized those who demonstrated capacity to handle responsibility and encourages them to be decision makers.
+    description: Your organization recognized those who demonstrated capacity to handle responsibility and encourages them to be decision makers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization believes everyone has capacity to handle responsibility and encourages them to be decision makers.
+    description: Your organization believes everyone has capacity to handle responsibility and encourages them to be decision makers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has a fully developed framework to encourage and support the decision-making environment and to give employees the tools and knowledge they need to make and act upon their own decisions
+    description: Your organization is fully developed encourage and support the decision-making environment and to give employees the tools and knowledge they need to make and act upon their own decisions
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does your organization encourage and support the decision-making environment and to give employees the tools and knowledge they need to make and act upon their own decisions?
+isRequired: true
+uid: 6e470b04-ab8e-4402-a44b-ac11cb31bff0
+name: Does your organization encourage and support the decision-making environment and to give employees the tools and knowledge they need to make and act upon their own decisions?

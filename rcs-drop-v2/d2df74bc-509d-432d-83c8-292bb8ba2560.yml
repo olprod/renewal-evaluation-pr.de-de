@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Azure Kubernetes Service (AKS) is used to orchestrate all containerized workloads.
+    description: 'Azure Kubernetes Service (AKS) is Microsoft Azure''s native managed Kubernetes service based on the open-source Kubernetes project. It allows for rapid Kubernetes cluster provisioning without complex cluster administration, and enhances standard Kubernetes with a rich feature set that includes advanced networking and identity capabilities. It''s also the strategic application hosting platform within internal Microsoft engineering organizations. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: A container orchestrator other than AKS is used to host and orchestrate containerized workloads.
+    description: Some scenarios might require specialized container orchestration engines or self-hosted Kubernetes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: The use of multiple availability zones is factored into either a single cluster or multiple clusters based on the application design and architecture.
+    description: 'Depending on interzone communication and latency requirements, it might make sense to either spread a cluster across multiple zones or pin them to a single zone.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Containers are distributed across multiple Azure availability zones.
+    description: The use of multiple availability zones requires the distribution of containers across these regions. This happens automatically when >1 replicas are used and the cluster is deployed across more than one availability zone.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'There are several Azure application platforms capable of effectively hosting containers, and each has their own advantages and disadvantages that should be analyzed in the context of business requirements to inform an optimal technical choice. Each platform serves as an optimal choice for certain scenarios.'
+isRequired: false
+uid: d2df74bc-509d-432d-83c8-292bb8ba2560
+name: 'There are several Azure application platforms capable of effectively hosting containers, and each has their own advantages and disadvantages that should be analyzed in the context of business requirements to inform an optimal technical choice.'

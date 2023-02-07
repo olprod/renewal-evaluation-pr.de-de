@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 3a5e7854-5b0d-40e5-b1cb-4fc4b3ced83b
+  - 1e6e494b-e6d4-4cb1-bef3-e4a9d61e1095
+  - 55996314-6577-4bab-b83b-13689f384ef4
+  - 0ffd22e7-e8ca-48ee-a5bb-40b36229a25d
+  - f8fc70d1-a857-46b2-91ca-f423c9fbe98f
+  - b2a105a1-1ad9-4ad4-88f1-92b209257798
+recommendations:
+  - b23f7381-0147-4638-b351-230eb1eca0df
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: 4c102cb9-cd2a-438e-90d5-17ed605ae081
+name: Installation strategy

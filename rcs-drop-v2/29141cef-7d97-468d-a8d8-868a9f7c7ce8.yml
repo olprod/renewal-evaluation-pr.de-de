@@ -1,0 +1,86 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: E
+    text: There is a defined testing strategy.
+    description: 'It is critical that your team understands the importance of performance testing. Additionally, the team should be committed to providing the necessary time and resources for adequately executing performance testing proven practices.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Performance tests are performed regularly.
+    description: 'Regular testing should be performed as part of each major change and if possible on a regular basis to validate existing thresholds, targets and assumptions, as well as ensuring the validity of the health model, capacity model and operational procedures.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: A
+    text: You have identified the human and environmental resources needed to create performance tests.
+    description: 'Successfully implementing meaningful performance tests requires a number of resources. If is not just a single developer or QA Analyst running some tests on their local machine. Instead, performance tests need a test environment (also known as a test bed) that tests can be executed against without interfering with production environments and data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: You are using appropriate tools to conduct performance tests on your workload.
+    description: ' Some tools like JMeter only perform testing against endpoints and tests HTTP statuses. Other tools like K6 and Selenium can perform tests that also check data quality and variations. Application Insights, while not necessarily designed to test server load, can test the performance of an application within the user''s browser.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: You are testing all appropriate components for performance.
+    description: 'Most people think of load testing as the only form of performance testing. However, there are different types of performance testing--load testing, stress testing, API testing, client-side/browser testing, etc.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: D
+    text: You have identified all services being utilized in Azure (and on-premise) that need to be measured.
+    description: Identifying and then monitoring all of the services and resources that make up a given workload helps ensure that you can respond quickly to any issues.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: Some tests are performed in production.
+    description: 'While the majority of testing should be performed within the testing and staging environments, it is often beneficial to also run a subset of tests against the production system.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: The testing plan includes occasionally injecting faults.
+    description: 'Chaos engineering is a common practice to verify the effectiveness of operational procedures using artificial faults. For example, taking dependencies offline (stopping API apps, shutting down VMs, etc.), restricting access (enabling firewall rules, changing connection strings, etc.) or forcing failover (database level, Front Door, etc.) is a good way to validate that the application is able to handle faults gracefully.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: I
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Load testing for performance efficiency
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4If4I'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'Ensure that you have a strategy to optimize resource use, maximize throughput, minimize response time, and avoid overloading any single resource.'
+isRequired: false
+legacyId: testing
+uid: 29141cef-7d97-468d-a8d8-868a9f7c7ce8
+name: 'Ensure that you have a strategy to optimize resource use, maximize throughput, minimize response time, and avoid overloading any single resource.'

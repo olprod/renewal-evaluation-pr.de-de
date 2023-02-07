@@ -1,0 +1,78 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'End User Tip: Accessibility features'
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/accessibility-features'
+    condition:
+      allOf: []
+      anyOf:
+        - 56702a39-55da-4c5e-b907-aa8875e3c068.b3a2fd6d-027e-439b-8060-daee6d18fe89.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Advanced filtering and query syntax
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/advanced-filtering-query-options'
+    condition:
+      allOf: []
+      anyOf:
+        - 56702a39-55da-4c5e-b907-aa8875e3c068.6d081f24-2fb5-4d00-8740-ea8d57161c75.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Personalize the user experience
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/personalize-user-experience'
+    condition:
+      allOf: []
+      anyOf:
+        - 56702a39-55da-4c5e-b907-aa8875e3c068.fe7c6f01-4137-4ac7-9dc3-a79dcb0a73be.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Saved views
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/saved-views'
+    condition:
+      allOf: []
+      anyOf:
+        - 56702a39-55da-4c5e-b907-aa8875e3c068.7a5b6d7a-e5b5-4042-a59b-49fe805aa8cc.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Grid capabilities
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/grid-capabilities'
+    condition:
+      allOf: []
+      anyOf:
+        - 56702a39-55da-4c5e-b907-aa8875e3c068.0c0e2752-faf1-4f8a-9af7-985deb7b79a5.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure and filter workspaces
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/configure-filter-workspaces'
+    condition:
+      allOf: []
+      anyOf:
+        - 56702a39-55da-4c5e-b907-aa8875e3c068.058f817f-9bc1-4760-adb5-e1bbb079b39f.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: da6c8595-4b86-4a5a-aff7-d83bcf7cb3ed
+name: Learn &amp; Train End User Productivity tips for day to day operations

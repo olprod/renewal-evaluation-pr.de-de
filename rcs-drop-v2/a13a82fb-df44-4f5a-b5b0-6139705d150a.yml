@@ -1,0 +1,23 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: |
+  This focusses on organization's maturity against Data Ingestion, Storage and Engineering dimension to create a holistic view of current state and provides a structured framework for developing maturity in each capability. This dimension looks at defining the data model required to support reporting requirements and considers value creation opportunities for your organization.
+hideEmptyGuidance: false
+questions:
+  - 5e1277f6-7fde-4272-8768-61d53cfda992
+  - 3999c727-6208-4ab7-afa8-ac2fe7e970db
+  - e2e330b3-231f-4b41-893e-8656bc0ce12b
+  - aeb96592-f477-48ae-93ca-a362dcc5e446
+  - 66b7e1b9-3d4b-4d1d-8cc4-89152f202462
+  - df004b37-7c49-4442-88a5-1b1ce16d1bfd
+  - e93d6881-904d-4045-a6ca-83eee871a6fc
+  - 7b564fbf-1fdc-400f-a326-0ae2f839cfb7
+  - e0aa460a-65fa-416b-9668-1290c9ca715d
+  - 904a7708-aa71-43eb-b38d-39bb16b6625d
+  - 961c4f2e-fd2b-406c-90a2-9a7ae0c468e3
+recommendations:
+  - ab454180-551f-4c69-b20d-128feb4c32f8
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: a13a82fb-df44-4f5a-b5b0-6139705d150a
+name: 'Maturity Framework - Data Ingestion, Storage and Engineering Pillar '

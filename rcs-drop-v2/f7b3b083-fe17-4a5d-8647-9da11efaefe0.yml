@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization has limited understanding of data products and what is behind the principles. '
+    description: 'Your organization has limited understanding of data products and what is behind the principles. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization sees the need for data products but has limited understanding of what is required.
+    description: Your organization sees the need for data products but has limited understanding of what is required.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Acceptable. Your organization has fair understanding of a data product and its anatomy of data, code assets, meta data, and related policies.'
+    description: 'Your organization has fair understanding of a data product and its anatomy of data, code assets, meta data, and related policies.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: Advanced. Your organization has full understanding of data products and has a clear roadmap to build data products within your data landing zone by adhering to design principles.
+    description: Your organization has full understanding of data products and has a clear roadmap to build data products within your data landing zone by adhering to design principles.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: 'Optimized. Your organization builds data products within your data landing zone by adhering to design principles that allow you to scale with data governance. '
+    description: 'Your organization builds data products within your data landing zone by adhering to design principles that allow you to scale with data governance. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  How do you currently create and serve data products which can be required by certain use cases?
+isRequired: true
+uid: f7b3b083-fe17-4a5d-8647-9da11efaefe0
+name: How do you currently create and serve data products which can be required by certain use cases?

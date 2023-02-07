@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'SAP Application servers & (A)SCS Virtual Machines are replicating to the DR region using Azure Site Recovery [ASR].'
+    description: 'Azure Site Recovery is used for application server replication to the DR [Target] region.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Recovery Plan of ASR used to automate failover and failback steps and processes.
+    description: Are operational procedures to failover and failback automated using recovery plan of ASR?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '2'
+    text: Validated and tested BCDR processes and/or Automated Recovery Plans are in place
+    description: Are disaster recovery strategies and operational runbooks for key failure scenarios tested on a regular basis?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '3'
+    text: Database replicated Asynchronously across Regions for BCDR using Native replication technology.
+    description: Are the databases node configured for HA using Database native replication and with Async replication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '5'
+    text: Non-critical SAP DB's are not configured with higher RPO/RTO.
+    description: Customer defined Tier2/Tier3 SAP system databases are not protected in the same way as customer-defined Tier1 SAP system databases.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '6'
+    text: Backup Strategy for Databases defined and in alignment with Recovery Targets.
+    description: |+
+
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '8'
+    text: Redundant Network Paths to BCDR Region configured for all dependent services.
+    description: For cross-premises connectivity (ExpressRoute or VPN) are there redundant connections from different locations? i.e. at least two connections from two different locations
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Disaster recovery for your application
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWDpRF'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'Disaster recovery is the process of restoring application functionality in the wake of a catastrophic failure. It might be acceptable for some applications to be unavailable or partially available with reduced functionality for a period of time, while other applications may not be able to tolerate reduced functionality.'
+isRequired: false
+uid: 40deb6bd-c7d1-4def-a6bb-98fbbe2756d3
+name: Disaster recovery is the process of restoring application functionality in the wake of a catastrophic failure.

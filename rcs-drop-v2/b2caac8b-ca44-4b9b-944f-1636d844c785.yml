@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Plan for high availability and redundancy of Azure Key Vault
+    url: /azure/key-vault/general/disaster-recovery-guidance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 32c273d6-c08e-4652-93dc-e118a34b3f43.0a892129-6417-4f3a-b4c6-f3c8fb9e14b1.A
+      scoreOf: []
+    context: The High Availability and Disaster Recovery of Key Vault is well-documented. The contents of your key vault are replicated within the region and to a secondary region at least 150 miles away but within the same geography. This maintains high durability of your keys and secrets.
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Review Azure Key Vault regional pairs
+    url: /azure/key-vault/general/disaster-recovery-guidance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 32c273d6-c08e-4652-93dc-e118a34b3f43.0a892129-6417-4f3a-b4c6-f3c8fb9e14b1.B
+      scoreOf: []
+    context: The High Availability and Disaster Recovery of Key Vault is well-documented. The contents of your key vault are replicated within the region and to a secondary region at least 150 miles away but within the same geography. This maintains high durability of your keys and secrets.
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+  - title: Review how action requests work on Key Vault in the event of a failure
+    url: /azure/key-vault/general/disaster-recovery-guidance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 32c273d6-c08e-4652-93dc-e118a34b3f43.0a892129-6417-4f3a-b4c6-f3c8fb9e14b1.C
+      scoreOf: []
+    context: The High Availability and Disaster Recovery of Key Vault is well-documented. The contents of your key vault are replicated within the region and to a secondary region at least 150 miles away but within the same geography. This maintains high durability of your keys and secrets.
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Resiliency
+uid: b2caac8b-ca44-4b9b-944f-1636d844c785
+name: ''

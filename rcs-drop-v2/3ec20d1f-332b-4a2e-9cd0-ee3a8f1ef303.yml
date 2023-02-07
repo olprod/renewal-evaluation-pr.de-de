@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has pockets of success and experimentation with dashboards to display aggregate information in a highly graphical and intuitive format.
+    description: Your organization has pockets of success and experimentation with dashboards to display aggregate information in a highly graphical and intuitive format.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has some success in using dashboards to display aggregate information in a highly graphical and intuitive format.
+    description: Your organization has some success in using dashboards to display aggregate information in a highly graphical and intuitive format.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has a set of standards that are consistently measured and achieved through the use of dashboards.
+    description: Your organization has a set of standards that are consistently measured and achieved through the use of dashboards.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization is delivering and monitoring significant value through the use of dashboards.
+    description: Your organization is delivering and monitoring significant value through the use of dashboards.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization is placing emphasis on automation and continuous improvement and leverages the value of dashboards is prevalent in the organization, and widely accepted throughout the organization.'
+    description: 'Your organization is placing emphasis on automation and continuous improvement and leverages the value of dashboards is prevalent in the organization, and widely accepted throughout the organization.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you currently use dashboards or similar to help with storytelling?
+isRequired: true
+uid: 3ec20d1f-332b-4a2e-9cd0-ee3a8f1ef303
+name: Do you currently use dashboards or similar to help with storytelling?

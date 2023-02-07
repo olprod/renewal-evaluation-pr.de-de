@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Explore GitHub Services
+    url: 'https://aka.ms/developervelocity-cta-opensource-high'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 0452b76f-cbac-4e5e-b2ca-952630f1221f>66
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Put Inner Source theory into practice
+    url: 'https://aka.ms/developervelocity-cta-opensource-med'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 85d45fc0-fa74-43f4-9d4b-a0f21ca99d24<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about the concept of Inner Sourcing
+    url: 'https://aka.ms/developervelocity-cta-opensource-low'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 85d45fc0-fa74-43f4-9d4b-a0f21ca99d24<34
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 58848a8c-fca6-4798-a096-097cad335279
+name: Open Source and Inner Source

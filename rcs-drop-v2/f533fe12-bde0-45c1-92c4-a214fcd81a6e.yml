@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Do you backup your SQL Server databases regularly?
+    description: Backing up databases is a foundational tool to provide any level of database recoverability in the event of a disaster.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: 'Ensure that all dependency components such as operating system, registry settings, third-party drivers, and so on are also protected.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Do you run regular database maintenance tasks such as re-indexing, statistics updates, and DBCC checks?'
+    description: Running on a SQL VM means many of the core database maintenance routines are still your responsibility.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Defined an accelerated deployment process for urgent Security Updates.
+    description: Do you have an accelerated testing and deployment process for emergency patches and updates?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: What approach do you take to patch management of your VM and SQL environment?
+    description: 'As an IaaS environment, you are responsible for patching your operating systems and SQL Server installations unless you''ve implemented and configured the SQL IaaS Agent, accordingly.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: f533fe12-bde0-45c1-92c4-a214fcd81a6e
+name: 'Are your Azure SQL VMs maintained, well operated, and protected?'

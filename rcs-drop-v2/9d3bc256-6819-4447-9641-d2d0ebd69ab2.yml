@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Defining an Environment and DLP strategy compliant with an established Enterprise Architecture model.
+hideEmptyGuidance: false
+questions:
+  - 9175c04a-aec8-470f-bd87-6799355f6b97
+  - ff13df2b-57ca-444d-9d3f-fe0c7eb4367c
+  - 20b9af88-fcb5-4e03-ac10-3d10bc2196ec
+  - ff3d07cd-a744-4191-91a2-498f8f4f6f6c
+  - 9393d36e-164d-4267-b162-d6c200f2d959
+recommendations:
+  - ff984c1e-0c14-423f-ba8f-a3e52001cc30
+assignedGroupIds: []
+uid: 9d3bc256-6819-4447-9641-d2d0ebd69ab2
+name: Admin and Governance

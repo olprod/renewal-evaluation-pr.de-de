@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /assessments/media/learn-training/github-daily-workflow-for-content-authoring.svg
+description: ''
+links:
+  - title: Maintain your Learn content
+    url: 'https://review.docs.microsoft.com/learn/modules/maintain-learn-content/?branch=master'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 9bbe8e6a-0a7e-49bd-b4fd-1ab592ff7f0b
+name: Other recommended training modules.

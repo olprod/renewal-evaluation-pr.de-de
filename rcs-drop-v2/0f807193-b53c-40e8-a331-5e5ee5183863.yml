@@ -1,0 +1,125 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'Following guidelines and pointers help you get maximum out of resources Microsoft provide to enrich your solution which meet standards for Production ready and manageable solutions for prospective customers. '
+links:
+  - title: ISV Solution Development Best Practices - Develop & Customize Design
+    url: 'https://community.dynamics.com/365/b/ocp/posts/d365-finance-operations-isv-solution-development-maintenance-best-practices'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: ISV Solution Development Best Practices - Environment Planning & Code Repository
+    url: 'https://community.dynamics.com/365/b/ocp/posts/d365-finance-operations-isv-solution-environment-planning-code-repository-best-practices'
+    condition:
+      allOf: []
+      anyOf:
+        - b2e067a0-d96f-4704-9634-a2969c5347ee.f9c16f4e-d960-42f7-a5cd-9975dd214e6d.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Delivering ISV solutions using One Version
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 1
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Independent software vendor (ISV) licensing guidelines
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-tools/isv-licensing'
+    condition:
+      allOf: []
+      anyOf:
+        - b2e067a0-d96f-4704-9634-a2969c5347ee.7c75b17e-1214-4c6c-b3b0-d33ab8d9e69e.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Customization Analysis Report (CAR) generation
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-tools/customization-analysis-report'
+    condition:
+      allOf: []
+      anyOf:
+        - b2e067a0-d96f-4704-9634-a2969c5347ee.e7d4ba07-e21e-40ea-9c82-33d77b1b8113.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage finance and operations updates and your custom code lifecycle
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/update-guide?context=%2Fdynamics365%2Fcontext%2Fcommerce'
+    condition:
+      allOf: []
+      anyOf:
+        - ..
+      noneOf:
+        - b2e067a0-d96f-4704-9634-a2969c5347ee.432014b8-0553-4ff2-abc6-d806208395a6.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: ISV Solution Development Best Practices - Testing Strategy & Release Updates
+    url: 'https://community.dynamics.com/365/b/ocp/posts/d365-finance-operations-isv-solution-testing-strategy-release-best-practices'
+    condition:
+      allOf: []
+      anyOf:
+        - b2e067a0-d96f-4704-9634-a2969c5347ee.53f0c184-a7af-4de1-b82d-389c27cb27f2.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Microsoft compliance offerings
+    url: 'https://learn.microsoft.com/en-us/compliance/regulatory/offering-home'
+    condition:
+      allOf: []
+      anyOf:
+        - b2e067a0-d96f-4704-9634-a2969c5347ee.40a0a47d-dd27-4d1a-99a1-8818fdb91cb6.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Dynamics 365 globalization services
+    url: 'https://learn.microsoft.com/en-us/dynamics365/finance/localizations/globalization-services-overview?context=%2Fdynamics365%2Fcontext%2Ffinance'
+    condition:
+      allOf: []
+      anyOf:
+        - b2e067a0-d96f-4704-9634-a2969c5347ee.40a0a47d-dd27-4d1a-99a1-8818fdb91cb6.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Globalization Studio overview
+    url: 'https://learn.microsoft.com/en-us/dynamics365/finance/localizations/globalization-studio-overview?context=%2Fdynamics365%2Fcontext%2Ffinance'
+    condition:
+      allOf: []
+      anyOf:
+        - b2e067a0-d96f-4704-9634-a2969c5347ee.f6c721b1-c66a-4f0e-baba-8c645b31ef5b.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 0f807193-b53c-40e8-a331-5e5ee5183863
+name: Establish Solution Validation Best Practices

@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Do you place SQL Server and application VMs in the same region?
+    description: Provisioning your application in the same region as your database significantly reduces network latency and aids overall performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Implement SQL Server and Applications VMs in cross-regional replication topologies so the whole application stack fails over together.
+    description: Ensuring that different application tiers failover as a single unit prevents geographically splitting the application stack if a single layer fails.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: a0198829-1b3c-4ced-87a5-ee89772ca686
+name: Do you consider the geographical placement of SQL Server services?

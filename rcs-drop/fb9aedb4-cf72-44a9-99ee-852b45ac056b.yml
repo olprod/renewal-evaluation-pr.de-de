@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You plan to develop an SPFx WebPart that will be used as a Microsoft Teams Tab.
+
+  You need to retrieve the Teams context in the code.
+
+  What should you do?
+questionnaireUid: c8b3a454-c1cb-453a-87a6-b8d1b7cd2c33
+questions:
+  - uid: fb9aedb4-cf72-44a9-99ee-852b45ac056b-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You plan to develop an SPFx WebPart that will be used as a Microsoft Teams Tab.
+        isCorrect: false
+      - id: 1
+        text: You need to retrieve the Teams context in the code.
+        isCorrect: true
+      - id: 2
+        text: What should you do?
+        isCorrect: false
+      - id: 3
+        text: Call the SharePoint REST API.
+        isCorrect: false
+    manualId: MS-600.5.6
+uid: fb9aedb4-cf72-44a9-99ee-852b45ac056b
+title: ''
+manualId: ''

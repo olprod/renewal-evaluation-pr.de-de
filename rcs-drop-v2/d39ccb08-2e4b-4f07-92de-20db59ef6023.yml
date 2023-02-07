@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 04656c43-7e02-47c8-badb-d6b9cc425619
+recommendations:
+  - 4c2ea0b5-721b-48f5-8d5e-0b13778592de
+assignedGroupIds: []
+uid: d39ccb08-2e4b-4f07-92de-20db59ef6023
+name: 'Go-Live - Cosmos DB: Cost Optimization'

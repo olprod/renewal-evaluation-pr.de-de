@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Deployed the application across multiple stamps/regions.
+    description: Does the application support multi-stamp/region deployments for failover and availability purposes?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Removed all single points of failure by running multiple instances of the application components.
+    description: Have all single points of failure been eliminated? A single point of failure describes a specific fault-point which if it where to fail would bring down the entire application. Single points of failure introduce significant risk since any failure of this component will cause an application outage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Deployed the application using Availability Sets (Fault Domains) within each stamp/region.
+    description: An availability set is a logical grouping of VMs that allows Azure to understand how your application is built to provide for redundancy and availability.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Performed Failure Mode Analysis (FMA) to identify fault-points and fault-modes.
+    description: 'Failure mode analysis (FMA) is a process for building resiliency into a system, by identifying possible failure points in the system. The FMA should be part of the architecture and design phases, so that you can build failure recovery into the system from the beginning.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: E
+    text: Planned for component level faults to minimize application downtime.
+    description: Have you validated the application can operate with reduced functionality or degraded performance in the presence of a component failure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Planned for dependency failures to minimize application downtime.
+    description: Have you validated the application can operate effectively in the absence of its dependencies?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 060af961-c952-4dae-9642-574342fa4a06
+name: How have you ensured that your application architecture is resilient to failures?

@@ -1,0 +1,532 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Track the dependencies of your database and solution components
+    url: /sql/relational-databases/tables/view-the-dependencies-of-a-table?view=sql-server-ver15
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.8fdeffc6-9aca-44b5-ae2b-5f4f59d5960d.A
+    context: 'SQL Managed Instance is a platform as a service (PaaS) offering. Azure uses automated agents (management, deployment, and maintenance) to manage this service based on telemetry data streams. Because Azure is responsible for management, customers can''t access the SQL Managed Instance virtual cluster machines through Remote Desktop Protocol (RDP). Some operations started by end users or applications might require SQL Managed Instance to interact with the platform. One case is the creation of a SQL Managed Instance database. This resource is exposed through the Azure portal, PowerShell, Azure CLI, and the REST API. SQL Managed Instance depends on Azure services such as Azure Storage for backups, Azure Event Hubs for telemetry, Azure Active Directory (Azure AD) for authentication, Azure Key Vault for Transparent Data Encryption (TDE), and a couple of Azure platform services that provide security and supportability features. SQL Managed Instance makes connections to these services. All communications are encrypted and signed using certificates. To check the trustworthiness of communicating parties, SQL Managed Instance constantly verifies these certificates through certificate revocation lists. If the certificates are revoked, SQL Managed Instance closes the connections to protect the data.'
+    priority: 38
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: Are you building your database using DevOps tools
+    url: 'https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.8fdeffc6-9aca-44b5-ae2b-5f4f59d5960d.B
+    context: 'DevOps is a broad term which encompasses various disciplines like CI / CD, testing, monitoring and more. Donavan Brown’s classic post states: “DevOps is the union of people, process, and products to enable continuous delivery of value to our end users… You cannot buy DevOps and install it.  DevOps is not just automation or infrastructure as code.  DevOps is people following a process enabled by products to deliver value to our end users”. In this post, we take a non-opinionated look at what DevOps for Azure SQL looks like, by reviewing common concepts and providing some options for implementing DevOps for Azure SQL.'
+    priority: 31
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Implement an orchestration system to deploy your database
+    url: 'https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.I
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.8fdeffc6-9aca-44b5-ae2b-5f4f59d5960d.C
+    context: 'Understand at the various methods available to deploy an Azure SQL database including PowerShell, Azure CLI and Terraform. Creating resources has never been easier or more standard than what we have now.'
+    priority: 25
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Define targets for management operations time
+    url: /azure/azure-sql/database/scale-resources
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.0e5dbfa7-d000-448e-acba-c127ec33a0b9.A
+    context: 'When demand for your app grows from a handful of devices and customers to millions, Azure SQL Database and SQL Managed Instance scale on the fly with minimal downtime. Scalability is one of the most important characteristics of platform as a service (PaaS) that enables you to dynamically add more resources to your service when needed. Azure SQL Database enables you to easily change resources (CPU power, memory, IO throughput, and storage) allocated to your databases. You can mitigate performance issues due to increased usage of your application that cannot be fixed using indexing or query rewrite methods. Adding more resources enables you to quickly react when your database hits the current resource limits and needs more power to handle the incoming workload. Azure SQL Database also enables you to scale-down the resources when they are not needed to lower the cost. You don''t need to worry about purchasing hardware and changing underlying infrastructure. Scaling a database can be easily done via the Azure portal using a slider.'
+    priority: 29
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Perform all database operations as infrastructure as code activities
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql/infrastructure-as-code-and-azure-a-match-made-in-the-cloud-part/ba-p/1722367'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2305bb3d-15de-45d1-a24f-fd904c5d0af7.G
+    context: 'Understand at the various methods available to deploy an Azure SQL database including PowerShell, Azure CLI and Terraform. Creating resources has never been easier or more standard than what we have now.'
+    priority: 31
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Patch & Update Process (PNU)
+  - title: Track configuration drift
+    url: 'https://devblogs.microsoft.com/azure-sql/continuous-delivery-for-azure-sql-db-using-azure-devops-multi-stage-pipelines/#terraform-ansible-etc'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2305bb3d-15de-45d1-a24f-fd904c5d0af7.H
+    context: 'Azure Pipelines are comprised of a series of Stages, each Stage in turn containing one or more Jobs, each job in turn comprising of a set of Steps, which in turn contain Tasks. Specifically, Multi-Stage Pipelines allow a great degree of control and flexibility  Each job can execute on a distinct agent pool, opening up a lot of possibilities even in a hybrid or tightly locked down setup. The key point here is that by organizing our pipeline into distinct set of stages and jobs, and by associating approval requirements with specific “environments”, we can accomplish all of the above stated requirements (and potentially much more).'
+    priority: 30
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: Use environments for dev and test stages that simulate the production database environment
+    url: /azure/architecture/solution-ideas/articles/dev-test-paas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.0e5dbfa7-d000-448e-acba-c127ec33a0b9.G
+      scoreOf: []
+    context: 'In platform as a service (PaaS) cloud computing, a service provider delivers a platform for clients to develop, run, and manage applications without having to build and maintain infrastructure. Solution development based on Azure Platform resources and services removes the overhead of managing virtual machines, virtual networks, disks, and related configurations. Development testing (DevTest) is a software development approach that integrates testing early in the development phase. DevOps is a set of practices that combine software development and IT operations, to shorten the development cycle and provide continuous delivery with high quality. This solution architecture combines reduced overhead and a DevOps toolchain to support rapid DevTest iteration cycles and a fast development environment with PaaS resources.'
+    priority: 20
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Have pipelines for continuous deployment/continuous integration.
+    url: 'https://azure.microsoft.com/blog/7-best-practices-for-continuous-monitoring-with-azure-monitor/'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.E
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.B
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.c34eb473-3b1d-4d02-9ee0-c1af07ade40e.C
+    context: 'Whether you are a developer, site reliability engineer, IT Ops specialist, program manager, or a DevOps practitioner monitoring is something you definitely care about! With modern applications evolving from an on-premises world to becoming more hybrid or microservices based, there is also a need to evolve skill sets and adopt some best practices for a successful monitoring strategy on a hybrid/public cloud. Azure Monitor is Microsoft’s unified monitoring solution that provides full-stack observability across applications and infrastructure. Depending on the hat you are wearing at the moment, you can start with end-to-end visibility across the health of your resources, drill down to the most probable root cause of a problem, even to actual lines of code, fix the issue in your app or infrastructure, and re-deploy in a matter of minutes. If you have a robust monitoring pipeline setup, you should be able to find and fix issues way before it starts impacting your applications.Continuous Monitoring.'
+    priority: 25
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Use a tool that facilitates database code changes and codebase management
+    url: 'https://azure.microsoft.com/resources/videos/connect-2017-database-devops-with-sql-server-data-tools-and-team-services/'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.c34eb473-3b1d-4d02-9ee0-c1af07ade40e.E
+    context: 'DevOps is a broad term which encompasses various disciplines like CI / CD, testing, monitoring and more. Donavan Brown’s classic post states: “DevOps is the union of people, process, and products to enable continuous delivery of value to our end users… You cannot buy DevOps and install it.  DevOps is not just automation or infrastructure as code.  DevOps is people following a process enabled by products to deliver value to our end users”. In this post, we take a non-opinionated look at what DevOps for Azure SQL looks like, by reviewing common concepts and providing some options for implementing DevOps for Azure SQL.'
+    priority: 30
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Use intelligent insights to identify opportunities to optimize your database
+    url: /azure/azure-sql/database/intelligent-insights-overview
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.F
+    context: 'Intelligent Insights in Azure SQL Database and Azure SQL Managed Instance lets you know what is happening with your database performance. Intelligent Insights uses built-in intelligence to continuously monitor database usage through artificial intelligence and detect disruptive events that cause poor performance. Once detected, a detailed analysis is performed that generates an Intelligent Insights resource log called SQLInsights (unrelated to Azure Monitor SQL Insights (preview)) with an intelligent assessment of the issues. This assessment consists of a root cause analysis of the database performance issue and, where possible, recommendations for performance improvements.'
+    priority: 38
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Use SQL monitoring tools are being used to track performance optimization potential
+    url: /azure/azure-sql/database/intelligent-insights-use-diagnostics-log
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.F
+    context: 'Understand how to use the performance diagnostics log generated by Intelligent Insights of Azure SQL Database and Azure SQL Managed Instance performance issues, its format, and the data it contains for your custom development needs. You can send this diagnostics log to Azure Monitor logs, Azure Event Hubs, Azure Storage, or a third-party solution for custom DevOps alerting and reporting capabilities.'
+    priority: 60
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Configure streaming export of Azure SQL Database
+    url: /azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.F
+    context: 'Most important among the diagnostic telemetry that you can export is the Intelligent Insights (SQLInsights) log (unrelated to Azure Monitor SQL Insights (preview)). Intelligent Insights uses built-in intelligence to continuously monitor database usage through artificial intelligence and detect disruptive events that cause poor performance. Once detected, a detailed analysis is performed that generates a Intelligent Insights log with an intelligent assessment of the issue. This assessment consists of a root cause analysis of the database performance issue and, where possible, recommendations for performance improvements. You need to configure the streaming export of this log to view its contents. In addition to streaming the export of the Intelligent Insights log, you can also export a variety of performance metrics and additional database logs. The following table describes the performance metrics and resources logs that you can configure for streaming export to one of several destinations. This diagnostic telemetry can be configured for single databases, elastic pools and pooled databases, and managed instances and instance databases.'
+    priority: 20
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: 'Know how to use Query Store, Dynamic Management Views and/or Extended Events'
+    url: /sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.K
+    context: 'The SQL Server Query Store feature provides you with insight on query plan choice and performance. It simplifies performance troubleshooting by helping you quickly find performance differences caused by query plan changes. Query Store automatically captures a history of queries, plans, and runtime statistics, and retains these for your review. It separates data by time windows so you can see database usage patterns and understand when query plan changes happened on the server. You can configure query store using the ALTER DATABASE SET option.'
+    priority: 62
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: 'Verify transaction log / tempdb size, fragmentation and usage stats'
+    url: /azure/azure-sql/database/monitoring-with-dmvs
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.K
+    context: 'Microsoft Azure SQL Database and Azure SQL Managed Instance enable a subset of dynamic management views to diagnose performance problems, which might be caused by blocked or long-running queries, resource bottlenecks, poor query plans, and so on. This article provides information on how to detect common performance problems by using dynamic management views.'
+    priority: 63
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Leverage central Azure monitoring tools
+    url: 'https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-sql-db-and-log-analytics-better-together-part-3-query/ba-p/1034222'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.M
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.L
+    context: 'You can quickly monitor a variety of resource metrics in the Azure portal in the Metrics view. These metrics enable you to see if a database is reaching 100% of processor, memory, or IO resources. High DTU or processor percentage, as well as high IO percentage, indicates that your workload might need more CPU or IO resources. It might also indicate queries that need to be optimized.'
+    priority: 25
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Configure Azure SQL Database and Azure SQL Managed Instance resource monitoring
+    url: /azure/azure-sql/database/monitor-tune-overview#azure-sql-database-and-azure-sql-managed-instance-resource-monitoring
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.O
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.J
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.B
+    context: 'You can quickly monitor a variety of resource metrics in the Azure portal in the Metrics view. These metrics enable you to see if a database is reaching 100% of processor, memory, or IO resources. High DTU or processor percentage, as well as high IO percentage, indicates that your workload might need more CPU or IO resources. It might also indicate queries that need to be optimized.'
+    priority: 60
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Use a DevOps methodology to structure the development and operations process
+    url: 'https://azure.microsoft.com/overview/what-is-devops/'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.A
+    context: 'DevOps is a broad term which encompasses various disciplines like CI / CD, testing, monitoring and more. Donavan Brown’s classic post states: “DevOps is the union of people, process, and products to enable continuous delivery of value to our end users… You cannot buy DevOps and install it.  DevOps is not just automation or infrastructure as code.  DevOps is people following a process enabled by products to deliver value to our end users”. In this post, we take a non-opinionated look at what DevOps for Azure SQL looks like, by reviewing common concepts and providing some options for implementing DevOps for Azure SQL.'
+    priority: 35
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Implement a branching strategy
+    url: /azure/devops/repos/git/git-branching-guidance?view=azure-devops
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.B
+    context: 'Distributed version control systems like Git give you flexibility in how you use version control to share and manage code. Your team should find a balance between this flexibility and the need to collaborate and share code in a consistent manner. Team members publish, share, review, and iterate on code changes through Git branches shared with others. Adopt a branching strategy for your team. You can collaborate better and spend less time managing version control and more time developing code.'
+    priority: 30
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Use scripting and templates for automatic database service deployment
+    url: /azure/templates/microsoft.sql/servers?tabs=json
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.D
+    context: 'Understand the process of deploying an Azure Resource Manager template (ARM template) to create an Azure SQL Managed Instance and vNet. Azure SQL Managed Instance is an intelligent, fully managed, scalable cloud database, with almost 100% feature parity with the SQL Server database engine. An ARM template is a JavaScript Object Notation (JSON) file that defines the infrastructure and configuration for your project. The template uses declarative syntax. In declarative syntax, you describe your intended deployment without writing the sequence of programming commands to create the deployment.'
+    priority: 35
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Use an automated pipeline for deployments
+    url: /azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=yaml
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.F
+    context: 'DevOps is a broad term which encompasses various disciplines like CI / CD, testing, monitoring and more. Donavan Brown’s classic post states: “DevOps is the union of people, process, and products to enable continuous delivery of value to our end users… You cannot buy DevOps and install it.  DevOps is not just automation or infrastructure as code.  DevOps is people following a process enabled by products to deliver value to our end users”. In this post, we take a non-opinionated look at what DevOps for Azure SQL looks like, by reviewing common concepts and providing some options for implementing DevOps for Azure SQL.'
+    priority: 25
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Support a deployment process that leverages blue-green deployments and/or canary releases.
+    url: /azure/architecture/framework/devops/release-engineering-cd
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.H
+    context: 'As you provision and update Azure resources, application code, and configuration settings, a repeatable and predictable process will help you avoid errors and downtime. We recommend automated processes for deployment that you can run on demand and rerun if something fails. After your deployment processes are running smoothly, process documentation can keep them that way.'
+    priority: 20
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Identify performance issues by using query analysis
+    url: /azure/azure-sql/identify-query-performance-issues
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.K
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.0e5dbfa7-d000-448e-acba-c127ec33a0b9.B
+    context: 'When trying to resolve a performance bottleneck, start by determining whether the bottleneck is occurring while the query is in a running state or a waiting state. Different resolutions apply depending upon this determination. Use the following diagram to help understand the factors that can cause either a running-related problem or a waiting-related problem.'
+    priority: 65
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Perform failure mode analysis on your workload
+    url: /azure/architecture/resiliency/failure-mode-analysis
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.L
+    context: 'Failure mode analysis (FMA) is a process for building resiliency into a system, by identifying possible failure points in the system. The FMA should be part of the architecture and design phases, so that you can build failure recovery into the system from the beginning.'
+    priority: 57
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Implement tools or processes to grant access on a just in-time basis
+    url: /azure/active-directory/privileged-identity-management/pim-configure
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.M
+    context: 'Consumers of your managed application may be reluctant to grant you permanent access to the managed resource group. As a publisher of a managed application, you might prefer that consumers know exactly when you need to access the managed resources. To give consumers greater control over granting access to managed resources, Azure Managed Applications provides a feature called just-in-time (JIT) access. This feature is currently in preview. JIT access enables you to request elevated access to a managed application''s resources for troubleshooting or maintenance. You always have read-only access to the resources, but for a specific time period you can have greater access.'
+    priority: 30
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Privacy
+  - title: 'Implement policies to govern available services, enforce mandatory operational functionality, and ensure compliance'
+    url: /azure/azure-sql/database/policy-reference
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.N
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2305bb3d-15de-45d1-a24f-fd904c5d0af7.E
+    context: 'Understand  Azure Policy built-in policy definitions for Azure SQL Database and SQL Managed Instance. For additional Azure Policy built-ins for other services, see Azure Policy built-in definitions. The name of each built-in policy definition links to the policy definition in the Azure portal. Use the link in the Version column to view the source on the Azure Policy GitHub repo.'
+    priority: 60
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Privacy
+  - title: Understand how to implement Devops for Azure SQL
+    url: 'https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.D
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.C
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.P
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.O
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.G
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.E
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.C
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.0e5dbfa7-d000-448e-acba-c127ec33a0b9.F
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.8fdeffc6-9aca-44b5-ae2b-5f4f59d5960d.B
+    context: 'DevOps is a broad term which encompasses various disciplines like CI / CD, testing, monitoring and more. Donavan Brown’s classic post states: “DevOps is the union of people, process, and products to enable continuous delivery of value to our end users… You cannot buy DevOps and install it.  DevOps is not just automation or infrastructure as code.  DevOps is people following a process enabled by products to deliver value to our end users”. In this post, we take a non-opinionated look at what DevOps for Azure SQL looks like, by reviewing common concepts and providing some options for implementing DevOps for Azure SQL.'
+    priority: 58
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Implement database unit testing in your pipeline
+    url: 'https://www.youtube.com/watch?v=t3Lc9LRDZQ4'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.E
+    context: 'Understand Unit Testing for database projects and how it integrates with the DevOps pipeline. It presents how the open source test framework Slacker works with SSDT, SQL Server 2016 (or SQL Database on Azure) and Visual Studio 2017 to enable database unit testing.  Enable the high code coverage for SQL Server database programming with unit testing then enable gated database Continuous Integration (CI) build with Visual Studio Team Services (VSTS) as part of your DevOps pipeline.'
+    priority: 62
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: 'Test for performance, scalability, and resiliency should be performed as part of each production release'
+    url: /azure/azure-sql/database/high-availability-sla#testing-application-fault-resiliency
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.G
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.F
+    context: 'High availability is a fundamental part of the SQL Database and SQL Managed Instance platform that works transparently for your database application. However, we recognize that you may want to test how the automatic failover operations initiated during planned or unplanned events would impact an application before you deploy it to production. You can manually trigger a failover by calling a special API to restart a database, an elastic pool, or a managed instance. In the case of a zone-redundant serverless or provisioned General Purpose database or elastic pool, the API call would result in redirecting client connections to the new primary in an Availability Zone different from the Availability Zone of the old primary. So in addition to testing how failover impacts existing database sessions, you can also verify if it changes the end-to-end performance due to changes in network latency. Because the restart operation is intrusive and a large number of them could stress the platform, only one failover call is allowed every 15 minutes for each database, elastic pool, or managed instance.'
+    priority: 61
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Use feature flags
+    url: /azure/devops/migrate/phase-features-with-feature-flags?view=azure-devops
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.H
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.b7218b5a-bb24-42bc-9710-93c66073f66c.J
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.c34eb473-3b1d-4d02-9ee0-c1af07ade40e.D
+    context: 'As DevOps teams shift to an agile methodology that focused on the continuous delivery of features, the need to control disclosure of new features becomes increasingly important. Whether the goal is to restrict access to those new features for marketing purposes or in order to limit the audience for testing in production, feature flags are a great solution.'
+    priority: 25
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Use Fault injection tests
+    url: /azure/architecture/framework/resiliency/testing#fault-injection-testing
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.I
+    context: 'For fault injection testing, check the resiliency of the system during failures, either by triggering actual failures or by simulating them'
+    priority: 56
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Integrate smoke tests into your continous delivery pipeline
+    url: 'https://devblogs.microsoft.com/devops/integrating-smoke-tests-into-your-continuous-delivery-pipeline/'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.J
+    context: 'Having a Continuous Integration (CI) and Continuous Delivery (CD) pipeline in Visual Studio Team Services enables us to build and release our software quickly and easily.  Because of the high volume of builds and releases that can occur, there is a chance that some of the releases will fail.  Finding these failures early is vital.  Using integrated smoke tests in your CD pipeline is a great way to surface these deployment failures automatically after each deployment.'
+    priority: 60
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Use integration tests
+    url: /azure/developer/terraform/best-practices-integration-testing
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.K
+    context: 'Integration tests validate that a newly introduced code change doesn''t break existing code. In DevOps, continuous integration (CI) refers to a process that builds the entire system whenever the code base is changed - such as someone wanting to merge a PR into a Git repo.'
+    priority: 50
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Automate tests
+    url: /azure/architecture/framework/devops/release-engineering-testing
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.L
+    context: 'Testing is one of the fundamental components and DevOps and agile development in general. If automation gives DevOps the required speed and agility to deploy software quickly, only through extensive testing those deployments will achieve the required reliability that customers demand. A main tenet of a DevOps practice to achieve system reliability is the ''Shift Left'' principle. If developing and deploying an application is a process depicted as a series of steps going from left to right, testing should not be limited to being performed at the very end of the process (at the right). It should be shifted as much to the beginning (to the left) as possible. Errors are cheaper to repair when caught early. They can be expensive or impossible to fix later in the application life cycle. Another aspect to consider is that testing should occur on both application code as well as infrastructure code and they should be subject to the same quality controls. As described in Infrastructure as Code, the environment where applications are running should be version-controlled and deployed through the same mechanisms as application code, and hence can be tested and validated using DevOps testing paradigms too. You can use your favorite testing tool to run your tests, including Azure Load Testing Preview for generating high-scale load, Azure Pipelines for automated testing and Azure Testing Plans for manual testing. There are multiple stages at which tests can be performed in the life cycle of code, and each of them has some particularities that is important to understand. In this guide, you can find a summary of the different tests that you should consider while developing and deploying applications.'
+    priority: 63
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Failing tests should at least temporarily block deployments
+    url: /azure/architecture/framework/devops/release-engineering-rollback
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.M
+    context: 'In some cases, a new software deployment can harm or degrade the functionality of a software system. When building your solutions, it is essential to anticipate deployment issues and to architect solutions that provide mechanisms for fixing problematic deployments. Rolling back a deployment involves reverting the deployment to a known good state. Rollback can be accomplished in many different ways. Several Azure services support native mechanisms for rolling back to a previous state.'
+    priority: 55
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Security and penetration testing is performed regularly.
+    url: /security/benchmark/azure/baselines/sql-database-security-baseline#penetration-tests-and-red-team-exercises
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.N
+    context: 'The security baseline applies guidance from the Azure Security Benchmark version 2.0 to Azure SQL Database. The Azure Security Benchmark provides recommendations on how you can secure your cloud solutions on Azure. The content is grouped by the security controls defined by the Azure Security Benchmark and the related guidance applicable to Azure SQL Database. Controls not applicable to Azure SQL Database, and those for which the global guidance is recommended verbatim, have been excluded.'
+    priority: 61
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Testing & Validation
+  - title: 'Critical test environments should have 1:1 parity with the production environment'
+    url: 'https://techcommunity.microsoft.com/t5/azure-database-support-blog/copy-production-database-to-stage-or-test-environment-using/ba-p/368960'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.O
+    context: 'The goal of the high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running minimum of 99.99% of time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer to SLA for Azure SQL Database and SLA for Azure SQL Managed Instance. Azure automatically handles critical servicing tasks, such as patching, backups, Windows and Azure SQL upgrades, and unplanned events such as underlying hardware, software, or network failures. When the underlying database in Azure SQL Database is patched or fails over, the downtime is not noticeable if you employ retry logic in your app. SQL Database and SQL Managed Instance can quickly recover even in the most critical circumstances ensuring that your data is always available. The high availability solution is designed to ensure that committed data is never lost due to failures, that maintenance operations do not affect your workload, and that the database will not be a single point of failure in your software architecture. There are no maintenance windows or downtimes that should require you to stop the workload while the database is upgraded or maintained.'
+    priority: 60
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Make a clear analysis of your HA/DR requirements and set up your solution accordingly
+    url: /azure/azure-sql/database/high-availability-sla
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2305bb3d-15de-45d1-a24f-fd904c5d0af7.F
+    context: 'The goal of the high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running minimum of 99.99% of time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer to SLA for Azure SQL Database and SLA for Azure SQL Managed Instance. Azure automatically handles critical servicing tasks, such as patching, backups, Windows and Azure SQL upgrades, and unplanned events such as underlying hardware, software, or network failures. When the underlying database in Azure SQL Database is patched or fails over, the downtime is not noticeable if you employ retry logic in your app. SQL Database and SQL Managed Instance can quickly recover even in the most critical circumstances ensuring that your data is always available. The high availability solution is designed to ensure that committed data is never lost due to failures, that maintenance operations do not affect your workload, and that the database will not be a single point of failure in your software architecture. There are no maintenance windows or downtimes that should require you to stop the workload while the database is upgraded or maintained.'
+    priority: 99
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Make a clear analysis of your HA/DR requirements and set up your solution accordingly
+    url: /azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.B
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.A
+    context: 'The goal of the high availability architecture in Azure SQL Database and SQL Managed Instance is to guarantee that your database is up and running minimum of 99.99% of time without worrying about the impact of maintenance operations and outages. For more information regarding specific SLA for different tiers, refer to SLA for Azure SQL Database and SLA for Azure SQL Managed Instance. Azure automatically handles critical servicing tasks, such as patching, backups, Windows and Azure SQL upgrades, and unplanned events such as underlying hardware, software, or network failures. When the underlying database in Azure SQL Database is patched or fails over, the downtime is not noticeable if you employ retry logic in your app. SQL Database and SQL Managed Instance can quickly recover even in the most critical circumstances ensuring that your data is always available. The high availability solution is designed to ensure that committed data is never lost due to failures, that maintenance operations do not affect your workload, and that the database will not be a single point of failure in your software architecture. There are no maintenance windows or downtimes that should require you to stop the workload while the database is upgraded or maintained.'
+    priority: 99
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Perform disaster recovery drills
+    url: /azure/azure-sql/database/disaster-recovery-drills
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.B
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.19a86b8a-98cf-44f6-8fd9-c08b9bac0721.A
+    context: It is recommended that validation of application readiness for recovery workflow is performed periodically. Verifying the application behavior and implications of data loss and/or the disruption that failover involves is a good engineering practice. It is also a requirement by most industry standards as part of business continuity certification.
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: 'Be aware of maintenance  windows that includes hot-fixes, services, packs, cumulative updates'
+    url: /azure/azure-sql/database/planned-maintenance#what-is-a-planned-maintenance-event
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.0e5dbfa7-d000-448e-acba-c127ec33a0b9.D
+    context: 'To keep Azure SQL Database and Azure SQL Managed Instance services secure, compliant, stable, and performant, updates are being performed through the service components almost continuously. Thanks to the modern and robust service architecture and innovative technologies like hot patching, majority of updates are fully transparent and non-impactful in terms of service availability. Still, few types of updates cause short service interrupts and require special treatment. During planned maintenance, members of the database quorum will go offline one at a time, with the intent that there is one responding primary replica. For Business Critical and Premium databases, at least one secondary replica will also be online to ensure no client downtime. When the primary replica needs to be brought offline, a reconfiguration process will occur. For Business Critical and Premium databases one of the secondary replicas will become the new primary replica. For General Purpose, Standard, and Basic databases the primary replica will move to another stateless compute node with sufficient free capacity.'
+    priority: 65
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Develop a process to manage your databases
+    url: /sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.0e5dbfa7-d000-448e-acba-c127ec33a0b9.E
+    context: 'Azure SQL Managed Instance provides management operations that you can use to automatically deploy new managed instances, update instance properties, and delete instances when no longer needed. To support deployments within Azure virtual networks and provide isolation and security for customers, SQL Managed Instance relies on virtual clusters. The virtual cluster represents a dedicated set of isolated virtual machines deployed inside the customer''s virtual network subnet. Essentially, every managed instance deployed to an empty subnet results in a new virtual cluster buildout. Subsequent management operations on managed instances may impact the underlying virtual cluster. Changes that impact the underlying virtual cluster may affect the duration of management operations, as deploying additional virtual machines comes with an overhead that you need to consider when you plan new deployments or updates to existing managed instances.'
+    priority: 65
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Do you have a way to both define dependencies between resources and ensure they are deployed in the correct order
+    url: 'https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql/'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.0e5dbfa7-d000-448e-acba-c127ec33a0b9.F
+    context: 'SQL Managed Instance is a platform as a service (PaaS) offering. Azure uses automated agents (management, deployment, and maintenance) to manage this service based on telemetry data streams. Because Azure is responsible for management, customers can''t access the SQL Managed Instance virtual cluster machines through Remote Desktop Protocol (RDP). Some operations started by end users or applications might require SQL Managed  Instance to interact with the platform. One case is the creation of a SQL Managed Instance database. This resource is exposed through the Azure portal, PowerShell, Azure CLI, and the REST API. SQL Managed Instance depends on Azure services such as Azure Storage for backups, Azure Event Hubs for telemetry, Azure Active Directory (Azure AD) for authentication, Azure Key Vault for Transparent Data Encryption (TDE), and a couple of Azure platform services that provide security and supportability features. SQL Managed Instance makes connections to these services. All communications are encrypted and signed using certificates. To check the trustworthiness of communicating parties, SQL Managed Instance constantly verifies these certificates through certificate revocation lists. If the certificates are revoked, SQL Managed Instance closes the connections to protect the data.'
+    priority: 35
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: Treat your SQL MI infrastructure as if it was code
+    url: /azure/azure-sql/managed-instance/create-template-quickstart?tabs=azure-powershell
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2305bb3d-15de-45d1-a24f-fd904c5d0af7.A
+    context: 'Understand the process of deploying an Azure Resource Manager template (ARM template) to create an Azure SQL Managed Instance and vNet. Azure SQL Managed Instance is an intelligent, fully managed, scalable cloud database, with almost 100% feature parity with the SQL Server database engine. An ARM template is a JavaScript Object Notation (JSON) file that defines the infrastructure and configuration for your project. The template uses declarative syntax. In declarative syntax, you describe your intended deployment without writing the sequence of programming commands to create the deployment.'
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Testing & Validation
+  - title: Use Azure Resource Tags used to enrich database resources with operational metadata
+    url: /azure/azure-sql/managed-instance/instance-create-quickstart#tags
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2305bb3d-15de-45d1-a24f-fd904c5d0af7.B
+    context: 'Tags are an effective way to understand costs that span across multiple teams and Azure scopes. For example, you might have a resource like an email server that many teams use. You can put a shared resource, like the email server, in a subscription that''s dedicated to shared resources or put it in an existing subscription. If you put it in an existing subscription, the subscription owner might not want its cost accruing to their team every month.'
+    priority: 25
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Efficiency
+  - title: Isolate your SQL MI instances deployment
+    url: /azure/azure-sql/managed-instance/connectivity-architecture-overview#virtual-cluster-connectivity-architecture
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2305bb3d-15de-45d1-a24f-fd904c5d0af7.C
+    context: 'At a high level, SQL Managed Instance is a set of service components. These components are hosted on a dedicated set of isolated virtual machines that run inside the customer''s virtual network subnet. These machines form a virtual cluster. A virtual cluster can host multiple managed instances. If needed, the cluster automatically expands or contracts when the customer changes the number of provisioned instances in the subnet. Customer applications can connect to SQL Managed Instance and can query and update databases inside the virtual network, peered virtual network, or network connected by VPN or Azure ExpressRoute. This network must use an endpoint and a private IP address.'
+    priority: 30
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Plan VNet-related elements before SQL MI deployment to avoid future problems in networking areas
+    url: /azure/azure-sql/managed-instance/vnet-subnet-determine-size
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2305bb3d-15de-45d1-a24f-fd904c5d0af7.D
+    context: 'Azure SQL Managed Instance must be deployed within an Azure virtual network. The number of managed instances that can be deployed in the subnet of a virtual network depends on the size of the subnet (subnet range). When you create a managed instance, Azure allocates a number of virtual machines that depend on the tier you selected during provisioning. Because these virtual machines are associated with your subnet, they require IP addresses. To ensure high availability during regular operations and service maintenance, Azure might allocate more virtual machines. The number of required IP addresses in a subnet then becomes larger than the number of managed instances in that subnet. By design, a managed instance needs a minimum of 32 IP addresses in a subnet. As a result, you can use a minimum subnet mask of /27 when defining your subnet IP ranges. We recommend careful planning of subnet size for your managed instance deployments.'
+    priority: 35
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Network Security
+  - title: Implement alerting and monitoring for the DevOps infrastructure of the workload
+    url: /azure/azure-monitor/app/continuous-monitoring
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.A
+    context: 'Azure Pipelines integrates with Azure Application Insights to allow continuous monitoring of your DevOps release pipeline throughout the software development lifecycle. With continuous monitoring, release pipelines can incorporate monitoring data from Application Insights and other Azure resources. When the release pipeline detects an Application Insights alert, the pipeline can gate or roll back the deployment until the alert is resolved. If all checks pass, deployments can proceed automatically from test all the way to production, without the need for manual intervention.'
+    priority: 64
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Log all deployments
+    url: /azure/azure-monitor/app/continuous-monitoring#view-release-logs
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.C
+    context: 'Azure Pipelines integrates with Azure Application Insights to allow continuous monitoring of your DevOps release pipeline throughout the software development lifecycle. With continuous monitoring, release pipelines can incorporate monitoring data from Application Insights and other Azure resources. When the release pipeline detects an Application Insights alert, the pipeline can gate or roll back the deployment until the alert is resolved. If all checks pass, deployments can proceed automatically from test all the way to production, without the need for manual intervention.'
+    priority: 40
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Track deployment metrics
+    url: /azure/azure-monitor/app/continuous-monitoring#modify-alert-rules
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.D
+    context: 'Azure Pipelines integrates with Azure Application Insights to allow continuous monitoring of your DevOps release pipeline throughout the software development lifecycle. With continuous monitoring, release pipelines can incorporate monitoring data from Application Insights and other Azure resources. When the release pipeline detects an Application Insights alert, the pipeline can gate or roll back the deployment until the alert is resolved. If all checks pass, deployments can proceed automatically from test all the way to production, without the need for manual intervention.'
+    priority: 35
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Capture historical data for SQL MI
+    url: 'https://techcommunity.microsoft.com/t5/datacat/azure-sql-db-managed-instance-sp-readmierrorlog/ba-p/305506'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.G
+    context: 'For DBAs, the error log is one of the first things to check when troubleshooting application issues, and that is still the case when using a managed service such as MI. The availability of the instance error log highlights the MI focus on compatibility with SQL Server; by comparison, in Azure SQL Database, diagnostics and error information are exposed in different ways, i.e. using the sys.event_log DMV and diagnostics logging .'
+    priority: 30
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Event Log Analysis
+  - title: Audit your SQL Managed Instance
+    url: /azure/azure-sql/managed-instance/auditing-configure
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.H
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.I
+    context: 'Azure SQL Managed Instance auditing tracks database events and writes them to an audit log in your Azure storage account. Auditing also helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations. It also enables and facilitates adherence to compliance standards, although it doesn''t guarantee compliance.'
+    priority: 25
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Threat Analysis
+  - title: Set up alerts and notifications for SQL MI
+    url: /azure/azure-sql/managed-instance/alerts-create
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.N
+    context: 'Understand how to set up alerts for databases in Azure SQL Managed Instance Database using the Azure portal. Alerts can send you an email, call a web hook, execute Azure Function, runbook, call an external ITSM compatible ticketing system, call you on the phone or send a text message when some metric, such is for example instance storage size, or CPU usage, reaches a predefined threshold. This article also provides best practices for setting alert periods.'
+    priority: 30
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Set up monitoring for your SQL MI
+    url: 'https://techcommunity.microsoft.com/t5/azure-sql/monitoring-options-available-for-azure-sql-managed-instance/ba-p/1065416'
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.9ebaab3e-8d9d-4f88-8cc4-b3a510284e08.A
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.O
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.J
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.G
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.F
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.c34eb473-3b1d-4d02-9ee0-c1af07ade40e.B
+    context: 'For production workloads running on your Azure SQL Managed Instance it is very important to continuously understand the resource consumption and any potential performance issues such that you can react in time and have your business running smoothly. There exist a number of options for monitoring and alerting of managed instances that can be considered, be it Microsoft cloud native, on-premises products, custom solutions, or third party solutions.'
+    priority: 40
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Utilize SQL insights as a comprehensive solution for monitoring any product in the Azure SQL family
+    url: /azure/azure-monitor/insights/sql-insights-overview
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.9ebaab3e-8d9d-4f88-8cc4-b3a510284e08.B
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.2e1ea576-d4e3-41aa-99ea-088a8730bc63.O
+    context: 'SQL Insights (preview) is a comprehensive solution for monitoring any product in the Azure SQL family. SQL Insights uses dynamic management views to expose the data that you need to monitor health, diagnose problems, and tune performance. SQL Insights performs all monitoring remotely. Monitoring agents on dedicated virtual machines connect to your SQL resources and remotely gather data. The gathered data is stored in Azure Monitor Logs to enable easy aggregation, filtering, and trend analysis. You can view the collected data from the SQL Insights workbook template, or you can delve directly into the data by using log queries. The following diagram details the steps taken by information from the database engine and Azure resource logs, and how they can be surfaced. For a more detailed diagram of Azure SQL logging, see Monitoring and diagnostic telemetry.'
+    priority: 20
+    reportingCategory: DevOps
+    reportingSubCategory: Efficiency
+  - title: Create SQL MI workload baseline to evaluate update or code changes impact
+    url: /azure/azure-sql/migration-guides/managed-instance/sql-server-to-managed-instance-performance-baseline#create-a-baseline
+    condition:
+      noneOf:
+        - 1254ddf3-10a3-40bd-bf75-aa2e54b07e2a.9ebaab3e-8d9d-4f88-8cc4-b3a510284e08.C
+    context: 'Ideally, performance is similar or better after migration, so it is important to measure and record baseline performance values on the source and then compare them to the target environment. A performance baseline is a set of parameters that define your average workload on your source. Select a set of queries that are important to, and representative of your business workload. Measure and document the min/average/max duration and CPU usage for these queries, as well as performance metrics on the source server, such as average/max CPU usage, average/max disk IO latency, throughput, IOPS, average / max page life expectancy, and average max size of tempdb.'
+    priority: 40
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+uid: 10311087-a304-4ae4-929d-b0b78e285bbf
+name: ''

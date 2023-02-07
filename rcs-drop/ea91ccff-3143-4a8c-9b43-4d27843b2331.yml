@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are using email tracking in Dynamics 365 Sales Insights.
+
+  Sales team members need to send emails at times that are best for customers. Sales team members report that they often do not know the best time for the customers. 
+
+  Which two actions should you perform?
+questionnaireUid: 7150f84e-f7ee-4784-b41e-74785c09aecd
+questions:
+  - uid: ea91ccff-3143-4a8c-9b43-4d27843b2331-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are using email tracking in Dynamics 365 Sales Insights.
+        isCorrect: false
+      - id: 1
+        text: Sales team members need to send emails at times that are best for customers.
+        isCorrect: true
+      - id: 2
+        text: Sales team members report that they often do not know the best time for the customers.
+        isCorrect: true
+      - id: 3
+        text: Which two actions should you perform?
+        isCorrect: false
+      - id: 4
+        text: Enable auto capture.
+        isCorrect: false
+uid: ea91ccff-3143-4a8c-9b43-4d27843b2331
+title: ''

@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Prioritize scalability as you design and implement phases. Scalability leads to lower maintenance costs, better user experience, and higher agility.'
+hideEmptyGuidance: false
+questions:
+  - a7d74c8a-13c7-40d4-a1f4-6acb02fda411
+  - 2f031b10-4f79-475b-b221-f3bd33db0e37
+  - 08701322-7337-44d1-b619-b4665e59c8b8
+  - cc7facde-1451-4041-8d83-3123dea0a14a
+  - 387c1a15-e8ed-44f8-8b8b-9e1649957389
+  - f56a2a81-0137-4400-99b2-da8d368eaa97
+recommendations:
+  - dd3298ed-dc5b-4d5b-9aa8-a083a3a7b71b
+assignedGroupIds: []
+uid: Performance-ai-adb
+name: Performance Efficiency - ADB

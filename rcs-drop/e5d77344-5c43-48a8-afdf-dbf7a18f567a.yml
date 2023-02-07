@@ -1,0 +1,40 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are using AI Builder in Power Automate to create a model.  
+
+  The model must extract information from a delivery order slip. The model must extract the following information: 
+
+  - delivery order number 
+
+  - priority shipping status checkbox 
+
+  - shipping address 
+
+  - type of goods 
+
+  - shipping company 
+
+  Which AI model should you use? 
+questionnaireUid: 9b7c3c62-c55c-41ec-9c22-335b0195a267
+questions:
+  - uid: e5d77344-5c43-48a8-afdf-dbf7a18f567a-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You are using AI Builder in Power Automate to create a model. '
+        isCorrect: false
+      - id: 1
+        text: The model must extract information from a delivery order slip.
+        isCorrect: false
+      - id: 2
+        text: 'The model must extract the following information:'
+        isCorrect: false
+      - id: 3
+        text: delivery order number
+        isCorrect: true
+    manualId: 'Question 22-PL-500.5.1 '
+uid: e5d77344-5c43-48a8-afdf-dbf7a18f567a
+title: ''
+manualId: ''

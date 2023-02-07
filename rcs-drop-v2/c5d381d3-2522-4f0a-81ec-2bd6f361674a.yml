@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We write them down, then follow up every couple of sprints to see what''s there and decide what we will pursue'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: We try to accommodate some time in the next sprint to look into some of the ideas that have come up
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: We can discuss with the team and in case of good ideas can follow up immediately. This is why we have slack time in our schedule
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'In an agile team, sharing ideas is part of the iterative journey. Making ideas known to the team allows ideas to foster and breeds experimentation.'
+isRequired: true
+uid: c5d381d3-2522-4f0a-81ec-2bd6f361674a
+name: 'In an agile team, sharing ideas is part of the iterative journey.'

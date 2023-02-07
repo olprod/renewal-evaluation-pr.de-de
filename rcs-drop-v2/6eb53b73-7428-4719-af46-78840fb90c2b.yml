@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Providing executive visibility of business value and impact of Power Platform solutions.
+hideEmptyGuidance: false
+questions:
+  - 49945b5c-9896-4b92-bc26-cb7bd1906879
+  - 86b7754f-9141-4527-a206-8cc71edc72a4
+  - 2f68c6f5-336c-4638-a8a4-1e9b126e7131
+  - ddf9aced-0c8a-4430-8428-6275ceb8050c
+  - 995e883a-b0e9-46d4-8474-62986c3b74ca
+recommendations:
+  - 93fcd9db-44c7-44b3-866c-d1819a957805
+assignedGroupIds: []
+uid: 6eb53b73-7428-4719-af46-78840fb90c2b
+name: Business Value

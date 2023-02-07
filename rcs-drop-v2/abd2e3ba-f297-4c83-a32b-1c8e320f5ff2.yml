@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We don't actively review resource utilization for cost optimization opportunities.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Some teams review Azure Advisor for recommendations when workload costs exceed expectations.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Some teams proactively review Azure Advisor (or a similar tool) recommendations for cost optimization opportunities.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: Teams proactively review Azure Advisor (or similar tool) recommendations for cost optimization opportunities.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: Teams proactively review Azure Advisor (or similar tool) recommendations for cost optimization opportunities and also leverage Reserved Instances.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: abd2e3ba-f297-4c83-a32b-1c8e320f5ff2
+name: How do you ensure you're optimizing your spending on Azure services?

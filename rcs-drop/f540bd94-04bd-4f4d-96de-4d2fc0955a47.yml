@@ -1,0 +1,35 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Dynamics 365 Finance.
+
+  A vendor offers you a two percent discount if payment is made within 10 days, with payment due no later than 30 days. All payments are made on the last day of the payment terms.
+
+  An invoice is due for $500. Due to quality issues with the products, the accounts payable clerk is instructed to only pay half, but still take advantage of the discount.
+
+  You need to configure the system.
+
+  What should you configure?
+questionnaireUid: 2b04cfc6-9efa-4bd3-adf9-89a6dba25739
+questions:
+  - uid: f540bd94-04bd-4f4d-96de-4d2fc0955a47-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'A company uses Dynamics 365 Finance. '
+        isCorrect: true
+      - id: 1
+        text: 'A vendor offers you a two percent discount if payment is made within 10 days, with payment due no later than 30 days. '
+        isCorrect: false
+      - id: 2
+        text: 'All payments are made on the last day of the payment terms. '
+        isCorrect: false
+      - id: 3
+        text: 'An invoice is due for $500. '
+        isCorrect: false
+      - id: 4
+        text: 'Due to quality issues with the products, the accounts payable clerk is instructed to only pay half, but still take advantage of the discount. '
+        isCorrect: false
+uid: f540bd94-04bd-4f4d-96de-4d2fc0955a47
+title: ''

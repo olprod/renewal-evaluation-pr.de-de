@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: K
+    text: 'Use ADB multi language support using R, Python, Scala, SQL for your Data Science workloads.'
+    description: Azure Databricks provides a guides to developing notebooks and jobs using the multi languages for a unified approach in Big Data and Data Science.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: L
+    text: Use the Azure Databricks Notebook.
+    description: 'Azure Databricks UI allows to use a notebook environment running ABD clusters to embrace a unified coding experience. Azure Databricks notebooks enables an interactive development environment managed either using the UI, the CLI, and by invoking the Workspace API allowing notebook management, version control, data visualizations, widget installations, and notebook specific workflows.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: M
+    text: Use Databricks Runtime ML.
+    description: Azure Databricks ML version of the runtime allows to install additional libraries or use init scripts to install libraries on clusters upon creation as well as GPU-enabled clusters to accelerate deep learning tasks. Databricks Runtime ML includes GPU hardware drivers and NVIDIA libraries such as CUDA.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: P
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'To develop and deploy workloads examine patterns and practices, configure DevOps pipelines, and implement site reliability engineering best practices.'
+isRequired: false
+legacyId: '3'
+uid: 5154fc2d-f14d-43a6-b94a-4a738675ac39
+name: 'To develop and deploy workloads examine patterns and practices, configure DevOps pipelines, and implement site reliability engineering best practices.'

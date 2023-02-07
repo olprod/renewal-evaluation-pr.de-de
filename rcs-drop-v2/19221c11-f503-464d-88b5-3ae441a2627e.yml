@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - fd3f6e82-fdb0-4368-a350-25197ec78134
+  - bd0f6b17-e138-4a3a-89e1-1fc7e631b34b
+  - f2763758-8af5-4b64-babc-47a659aa8251
+  - 1e1d472d-54e3-4f6e-875b-a6b3b458d3c0
+  - 20894b76-bbdc-4bd9-952c-fb9e111fa5e2
+recommendations:
+  - 2c6b7e5c-e5f9-4b46-b31d-01476ab82ba9
+assignedGroupIds:
+  - 3529bb1b-b511-4aea-9985-cde430e17278
+uid: 19221c11-f503-464d-88b5-3ae441a2627e
+name: Multitenant Architecture | Core multitenancy

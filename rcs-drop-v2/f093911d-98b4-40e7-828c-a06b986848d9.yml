@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics Automatic Restore Points.
+    description: Snapshots of your data warehouse are taken throughout the day creating restore points.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: B
+    text: Use  Azure Synapse Analytics User-Defined Restore Points.
+    description: To create restore points of your data warehouse before and after large modification.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: C
+    text: Use Azure Synapse Analytics geo-backups to restore to a paired region for disaster recovery.
+    description: You can recover or copy your data warehouse to a previous state.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: D
+    text: Have you completed DR testing and dry run of DR exercise to ensure your DR plan works as planned?
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: f093911d-98b4-40e7-828c-a06b986848d9
+name: How are you handling disaster recovery for this workload?

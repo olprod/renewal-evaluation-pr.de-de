@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Have a strategy in place to manage events that may cause a spike in load.
+    description: 'Knowing if there will be sudden spikes in traffic (Superbowl, Black Friday, or Marketing pushes) can allow you to prepare your infrastructure ahead of time.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Optimize SQL Database SKU choice to match the needs of my application.
+    description: Identify the needs of your workload and choose the SKU that best fits those needs.Revise these decisions when application patterns and load change.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Use Dynamic Management Views (DMV) for in-depth monitoring of performance and resource utilization.
+    description: 'You can query DMVs using your preferred client tools like Azure Data Studio, Azure Portal (Query Editor), SQL Server Management Studio, etc. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Automatically schedule scaling to add resources based on usage trends.
+    description: Preemptively scaling based on historical data can ensure your application is performant before your metrics indicate additional resources are required.Refrain from scaling too frequently by taking suffiently long intervals.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Use Azure Monitor and Alerts to make sure you are not being bottlenecked on the capacity level.Use these insights to scale your resources as needed.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: capacity-data-sqldb
+uid: e5cb5c7a-2649-47ce-a3af-4afd4f9606df
+name: How are you ensuring you have sufficient capacity?

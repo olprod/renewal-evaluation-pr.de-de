@@ -1,0 +1,85 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use IoT Plug and Play to develop devices that connect to Azure IoT Hub.
+    description: IoT Plug and Play accelerates and simplifies the IoT solution. End-users can quickly and easily create trusted and connected solutions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: 'When you need predictable development and operational costs, you estimate solution costs based on running at scale in production, not proof-of-concept (PoC) architecture.'
+    description: 'Architecture and costs evolve rapidly after the PoC. According to the IoT Signals EDITION 3 report, the top reason for PoC failure is the high cost of scaling.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: You use an open-source IDE such as Visual Studio Code with Azure IoT extensions to accelerate solution development.
+    description: Visual Studio Code is a free development tool with many Azure service and IoT extensions. Developers can develop and debug code. You can use Visual Studio Code to deploy Azure IoT Edge modules to edge devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: You use infrastructure as code for your cloud deployments.
+    description: 'Azure Resource Manager Template and Bicep let developers define infrastructure as code, which can improve time to market and consistency in deployment to various environments.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: 'To reduce costs, you use connectors for Azure services such as Power Apps, Power Automate and Logic Apps.'
+    description: 'Azure IoT Hub, together with Azure Event Grid provides connectors to implement your requirements within Logic Apps and Power Automate.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: You use the Azure IoT Hub and Azure IoT Central free tiers for development and evaluation.
+    description: Azure IoT Hub and Azure IoT Central both have free tiers with limited functionality suitable for testing the service.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: You use an open-source toolkit to build a dashboard for time series data.
+    description: 'Depending on your requirements, it may be efficient to use an open-source toolkit such as Grafana to implement a time series dashboard. Re-using well-defined and developed charts and dashboards helps achieve a cost optimization.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '7'
+    text: 'You investigate using public domain code repositories, GitHub and the IoT SDKs to reduce development effort and time.'
+    description: 'Azure IoT provides a lot of sample code in GitHub, which reduces time and costs when building IoT solutions instead of building from scratch.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '8'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'IoT solutions development covers a broad set of technologies and areas, including device apps, business applications and integrations. In terms of cost optimization, you should consider the synergy of various service combinations.'
+isRequired: false
+uid: 6dc9931c-e893-4ba4-ae2d-072ef90ce715
+name: 'IoT solutions development covers a broad set of technologies and areas, including device apps, business applications and integrations. In terms of cost optimization, you should consider the synergy of various service combinations.'

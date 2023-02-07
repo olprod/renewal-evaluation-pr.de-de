@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'The cloud is at the core of a digital transformation strategy. They key to success depends on how leaders, architects, and organizations approach the digital transformation journey--it''s about the organizational mindset.'
+hideEmptyGuidance: false
+questions:
+  - 8f04dc01-d07b-49d6-b5ca-71bcea11a2b1
+  - 9ee34863-33d9-4477-83e1-e760c2b893ae
+  - 96e79fbd-7111-43c9-bd74-5ef1fc52ee06
+  - 39cd3847-7d70-4ad4-9dac-4bedf4bfab0a
+  - 7603f704-b871-4d19-81d5-06e21bbbbb18
+  - 77a670e3-73a4-4dcb-a652-f7ad6c04e6e5
+  - 675adf3e-9024-46a4-a34c-3f4844177f9b
+recommendations:
+  - 3a25a999-cfcc-43a9-86d6-0545ed67b343
+assignedGroupIds: []
+uid: 9b4b4a7b-4719-4690-b096-4a7585530474
+name: Having a Cloud Mindset

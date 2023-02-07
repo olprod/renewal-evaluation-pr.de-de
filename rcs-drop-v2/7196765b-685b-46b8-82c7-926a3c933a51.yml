@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Our business users will be happy with performing ad hoc queries against cached data.
+    description: "Using Databricks, data can be cached in memory and queried by many users.\_ This does require Spark clusters to be running, which can prove to be expensive.\_ In addition, Unity Catalog is required for enterprise security management."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: 'Our business users will prefer a graphical UI to perform ad hoc queries in a structured, fast and efficient way.'
+    description: "Use Dedicated Pools to structure data and serve it to many users.\_ Azure Synapse also supports a robust security model that integrates natively with AAD."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Will many business users across the enterprise need to perform ad hoc queries in a structured, fast and efficient way?'
+isRequired: true
+uid: 7196765b-685b-46b8-82c7-926a3c933a51
+name: 'Will many business users across the enterprise need to perform ad hoc queries in a structured, fast and efficient way?'

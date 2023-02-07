@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |
+  You have a globally distributed Azure web app named WebApp1 that is configured for Azure Application Insights. WebApp1 pages include JavaScript components.
+
+  You need to evaluate the time it takes to receive a response when using a browser to access a specific page of WebApp1.
+
+  What should you do?
+questionnaireUid: 85882546-e547-4527-8ca7-c5a91572b3bf
+questions:
+  - uid: f056c786-1d74-4074-9666-493be6af1d27-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a globally distributed Azure web app named WebApp1 that is configured for Azure Application Insights.
+        isCorrect: true
+      - id: 1
+        text: WebApp1 pages include JavaScript components.
+        isCorrect: false
+      - id: 2
+        text: You need to evaluate the time it takes to receive a response when using a browser to access a specific page of WebApp1.
+        isCorrect: false
+      - id: 3
+        text: What should you do?
+        isCorrect: false
+uid: f056c786-1d74-4074-9666-493be6af1d27
+title: ''

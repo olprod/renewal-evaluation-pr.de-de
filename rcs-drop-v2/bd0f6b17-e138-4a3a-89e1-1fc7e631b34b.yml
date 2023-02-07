@@ -1,0 +1,35 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We considered trial and onboarding workflows for new tenants.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'We are aware of operational tasks on tenants, including updating, merging, and splitting tenants.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'When you''re considering a multitenant architecture, it''s important to consider all of the different stages in a tenant''s lifecycle.  Here we check decisions about the stages of the lifecycle and the important considerations for each stage.'
+isRequired: true
+uid: bd0f6b17-e138-4a3a-89e1-1fc7e631b34b
+name: 'When you''re considering a multitenant architecture, it''s important to consider all of the different stages in a tenant''s lifecycle.'

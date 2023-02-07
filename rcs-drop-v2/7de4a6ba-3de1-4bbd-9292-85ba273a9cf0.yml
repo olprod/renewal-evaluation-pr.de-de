@@ -1,0 +1,102 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Azure Kubernetes Service uses Azure Active Directory (AAD) for user authentication.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: 'Kubernetes RBAC is used to assign users, or groups of users, permission to do things like create or modify resources, or view logs from running application workloads.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: C
+    text: 'External resources are used for authentication, such as Azure Services and other applications registered in Azure AD.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: D
+    text: Kubernetes role-based access control (RBAC) is integrated with Azure Active Directory to control access to the API server.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: E
+    text: Access to actions that containers can perform are limited proactively.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: F
+    text: Regular update cadence for Kubernetes updates and patches is maintained.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: G
+    text: IP ranges are large enough to allow your cluster to scale in your network.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: H
+    text: Ingress resources and controllers are used to distribute ingress network traffic to the applications.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: I
+    text: Incoming traffic is secured with a Web Application Firewall (WAF).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: Kubernetes Network Policy is used to control the network traffic flow between pods.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: K
+    text: 'When connecting to AKS nodes, to perform maintenance or troubleshoot issues, connections are routed through an Azure Bastion host, or jump box.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.aks
+stem: ''
+isRequired: false
+uid: 7de4a6ba-3de1-4bbd-9292-85ba273a9cf0
+name: 'How does Kubernetes Services evaluate for security? '

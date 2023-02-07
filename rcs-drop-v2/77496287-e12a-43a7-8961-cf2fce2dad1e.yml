@@ -1,0 +1,23 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: F
+    text: Use correct Azure Databricks cluster size by iterative performance testing
+    description: 'Predicting the correct cluster size use numerous techniques to improve cluster utilization such as developing on a medium sized cluster of 2-8 nodes with VMs matched to workload classes, meeting functional requirements to run end to end test on larger representative data while measuring CPU, memory and I/O used by the cluster at an aggregate level, and optimizing the cluster to remove bottlenecks found prior regarding CPU, Network and Disk I/O bounds.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Testing is one of the fundamental components and DevOps and agile development in general. If automation gives DevOps the required speed and agility to deploy software quickly, only through extensive testing those deployments will achieve the required reliability that customers demand.'
+isRequired: false
+legacyId: '6'
+uid: 77496287-e12a-43a7-8961-cf2fce2dad1e
+name: Testing is one of the fundamental components and DevOps and agile development in general.

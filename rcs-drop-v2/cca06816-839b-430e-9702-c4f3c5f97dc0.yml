@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Azure Monitor to monitor and create alerts for IoT Edge devices
+    description: Azure IoT services integrate natively with Azure Monitor and enable simple monitoring of key services in your IoT solutions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Azure blob storage is accessible from the IoT Edge instance for uploading log files
+    description: The implementation uses IoT Edge Agent built-in functionality to retrieve logs. IoT Edge Agent uploads the logs directly to blob storage using the specified URI.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: You add the Metrics collector module to a deployment only if you need to collect metrics
+    description: 'The IoT Edge metrics collector module sends telemetry directly to IoT Hub, so access to a blob URI for log upload isn''t needed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: You've created Azure Service Health alerts to respond to service-level events that might affect critical Azure IoT Edge instances
+    description: Azure Resource Health keeps you informed about the current and historical health status of your Azure resources. Azure Resource Health alerts can notify you in near real-time when these resources have a change in their health status.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'You collect Azure Activity logs within the log aggregation tool to provide visibility into the management plane operations performed on Azure IoT services such as IoT Edge, IoT Hub, DPS, and IoT Central'
+    description: "Azure Activity Log is a\_platform log\_in Azure that provides insight into subscription-level events. The log includes information such as when a resource is modified or when a virtual machine starts.\_"
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: 'Monitoring IoT Edge device health is vital to providing a stable edge based IoT solution. '
+isRequired: false
+uid: cca06816-839b-430e-9702-c4f3c5f97dc0
+name: Monitoring IoT Edge device health is vital to providing a stable edge based IoT solution. Q5.

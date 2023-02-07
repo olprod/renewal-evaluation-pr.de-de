@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 7a76b41c-6f7e-423d-a0ad-709eee052bcc
+  - 4fc8ba09-25a2-4b3e-9225-3a84a0afc863
+  - 702e3c29-ab92-4b08-9945-fd247131dd47
+  - 3f7e518b-119a-481a-ab7d-b58197e67a0e
+recommendations:
+  - 6a73d3f5-98f6-492d-a857-270cc527940d
+assignedGroupIds: []
+uid: 437b295b-90d3-4190-812e-34f7ebb05df2
+name: 'Mission Critical: Application Design'

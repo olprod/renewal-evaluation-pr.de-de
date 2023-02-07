@@ -1,0 +1,102 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: ARR Affinity is disabled.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: The application session state in Azure Redis Cache or similar caching solution.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: C
+    text: The solution runs continuous or scheduled (Timer trigger) Web Jobs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: D
+    text: We use App Service Deployment Slots.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: E
+    text: Access to on premises datasources is done through Azure VPN or Express Route?
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: F
+    text: The App Service Plan hosts under 15 sites.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: G
+    text: Auto-Heal has been enabled and configured.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: H
+    text: The Health Check feature is configured.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: I
+    text: We plan to use pre-allocated SNAT ports.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: J
+    text: Backup is enabled on the App Service.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: K
+    text: We've confirmed that our App Service resource is not impacted by IP Address Deprecation.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.app
+stem: ''
+isRequired: false
+uid: 71b962c0-4626-4ea9-ae86-ebaa114140d3
+name: Does your Azure App Service follow the best practices for reliability?

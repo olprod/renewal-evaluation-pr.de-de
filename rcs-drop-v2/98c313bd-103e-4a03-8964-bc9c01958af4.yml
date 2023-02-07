@@ -1,0 +1,126 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: "Evaluate the\_microservice architecture\_guidance."
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#evaluate-moving-monoliths-to-a-microservice-architecture
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Improve your API efficiency by encoding messages, implementing advanced request throttling, and caching in API management.'
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#improve-api-efficiency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure backward software compatibility to guarantee support for legacy hardware.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#ensure-backward-software-compatibility-to-ensure-it-works-on-legacy-hardware
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.2
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Leverage cloud-native design patterns when writing or updating applications to reduce carbon emissions.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#leverage-cloud-native-design-patterns
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.3
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider using circuit breaker patterns and Azure Monitor to monitor failures and set up alerts.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#consider-using-circuit-breaker-patterns
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.4
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize your code for efficient resource usage.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#optimize-code-for-efficient-resource-usage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.5
+      scoreOf: []
+    context: ''
+    priority: 10
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Optimize for asynchronous access patterns by queuing and buffering requests that don''t require immediate processing, then process in batch.'
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#optimize-for-async-access-patterns
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.6
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Determine whether to render on the server-side or client-side when building applications with a UI.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#evaluate-server-side-vs-client-side-rendering
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.7
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Determine your options for improving energy efficiency and reducing unnecessary network load, data processing, and compute resources.'
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#be-aware-of-ux-design-for-sustainability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.8
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider modernizing or deprecating legacy code if it's not running on modern cloud infrastructure or with the latest updates.
+    url: /azure/architecture/framework/sustainability/sustainability-application-design#update-legacy-code
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 34a73736-c7cb-44f8-b0dd-b494f2a12e43.739a1e6e-79be-4a0e-99db-d9dcf2cf5954.9
+      scoreOf: []
+    context: ''
+    priority: 20
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 98c313bd-103e-4a03-8964-bc9c01958af4
+name: ''

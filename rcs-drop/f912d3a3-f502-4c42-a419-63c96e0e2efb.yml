@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Microsoft Dynamics 365 Finance to manage an online data storage company.
+
+  You bill customers every month for an unlimited storage plan.
+
+  You need to send monthly invoices to customers.
+
+  Which three actions should you perform? Each correct action presents part of the solution.
+questionnaireUid: 933e1e45-5ba9-43ba-8395-14802cb57ff0
+questions:
+  - uid: f912d3a3-f502-4c42-a419-63c96e0e2efb-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: 'A company uses Microsoft Dynamics 365 Finance to manage an online data storage company. '
+        isCorrect: false
+      - id: 1
+        text: 'You bill customers every month for an unlimited storage plan. '
+        isCorrect: true
+      - id: 2
+        text: 'You need to send monthly invoices to customers. '
+        isCorrect: true
+      - id: 3
+        text: 'Which three actions should you perform? '
+        isCorrect: false
+      - id: 4
+        text: 'Each correct action presents part of the solution. '
+        isCorrect: true
+uid: f912d3a3-f502-4c42-a419-63c96e0e2efb
+title: ''

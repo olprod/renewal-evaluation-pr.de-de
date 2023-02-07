@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We require private connectivity to Azure, and we currently use VPN.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'We require private connectivity to Azure, and we currently use ExpressRoute circuits. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We require encryption and private connectivity for Azure, and we currently use ExpressRoute Direct with MacSec enabled between our routes and Microsoft Edge routers. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'We use ExpressRoute circuit with private peering configured, and we enabled FastPath when we created the ExpressRoute connection.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: 'We have an on-premises datacenter that''s connected to two ExpressRoute peering locations to increase overall reliability. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '5'
+    text: 'When an Azure region supports availability zones, we deploy only ExpressRoute gateways that support zonal deployment, like VpnGw[x]AZ sku. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '6'
+    text: 'Our on-premises datacenter connects to one or more Hub Virtual Networks/Virtual WAN hubs in a particular Azure region. The total combined bandwidth requires no more than 10Gbps throughput, and we use ExpressRoute through a service provider. When more than 10Gbps is needed, we use ExpressRoute Direct circuits.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '7'
+    text: 'We use ExpressRoute network insights to monitor our ExpressRoute components (peerings, connections, and gateways).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: cbd258f8-917f-44b4-9907-5f95169d980e
+name: The following statements about our connectivity to Azure are true

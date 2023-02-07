@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Have a method to handle faults that might take a variable amount of time to recover from.
+    description: 'There can also be situations where faults are due to unanticipated events, and that might take much longer to fix. These faults can range in severity from a partial loss of connectivity to the complete failure of a service.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Request timeouts are configured to manage inter-component calls.
+    description: Have you configured timeouts for inter-component calls?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: 'Retry logic is implemented to handle transient failures, with appropriate back-off strategies to avoid cascading failures.'
+    description: Have you implemented retry logic to handle transient application failures as well as transient failures with internal or external dependencies?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: The application is instrumented with semantic logs and metrics.
+    description: 'Is the application instrumented with semantic logs to capture, alert and respond to errors?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: E
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Reliability - handling exceptions and errors
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWEQ20'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Resilient applications should be able to automatically recover from errors by leveraging modern cloud application code patterns.
+isRequired: false
+legacyId: '6'
+uid: 53894b58-6c46-4219-bdad-c121e6518e6f
+name: Resilient applications should be able to automatically recover from errors by leveraging modern cloud application code patterns.

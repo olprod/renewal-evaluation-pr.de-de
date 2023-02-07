@@ -1,0 +1,27 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Security is a critical aspect of any architecture. It provides confidentiality, integrity, and availability assurances against deliberate attacks and abuse of your valuable data and systems. Losing these assurances can negatively impact your business operations and revenue, as well as your organization''s reputation.'
+hideEmptyGuidance: false
+questions:
+  - e346e6ab-f12c-4e05-8e5a-cd084eb63991
+  - 0a3c212e-8530-45b7-8d7c-1d8d0e77ac2e
+  - e24023b6-ea9a-4a32-ad2f-dbdca6ef7375
+  - 667af2d6-0ca9-4642-af23-5c687a144467
+  - 2bb7a7e1-c017-4222-b7bb-99d895dbf581
+  - a7133ad2-050c-461a-9309-8529813baa7f
+  - 0d56ed3f-ee85-409d-9276-065f681de0ff
+  - ee2002a6-dce4-426e-ae6c-55f641063417
+  - 1eb139a9-f0a7-4e8a-9b73-d1834ef6b1a3
+  - 73d81e9a-17ca-4f02-acf5-10209d3c8737
+  - d315bad1-5985-48dd-8789-bdd95386f382
+  - a2c034ca-d9a7-4ab5-9595-ee8f44645559
+  - 93a4172d-208d-4eec-9e2f-771016e13401
+  - a96559f9-8078-4f07-9660-3fae0ed08b8b
+  - c4e4718c-0f75-4de7-8371-f56f0657575a
+  - efba0839-4bc8-4c72-86e3-840b8e5099a5
+recommendations:
+  - b5aac439-c08c-4c56-a9c0-7b5d7e2fbc48
+assignedGroupIds:
+  - b6a324fd-d21d-4f72-ae18-f475f53334f0
+uid: 347e13a3-aa0a-4d87-96bb-4d347de40094
+name: IoT - Security

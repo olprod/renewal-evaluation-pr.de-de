@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need more information on this
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: This is not applicable to our offering
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '2'
+    text: 'We have SOP and tooling in place for this, team is trained and using this in operations'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  To run their businesses globally, customers must meet multiple country/region-specific requirements for tax compliance and local business practices. This concept is referred to as localization. The requirements are complex and are frequently changed by local governments. They often have very tight law enforcement dates.
+
+  The Globalization Studio addresses these challenges by providing the following features:
+
+  No-code/low-code globalization tools and services – These flexible, easy-to-use tools and services make localization easier for Microsoft. They also make it easier for partners and customers to create, extend, automate, and maintain the product.
+
+  Out-of-the-box multi-country localization content – This Microsoft-provided content is continuously monitored and updated by Microsoft, and can be extended by partners.
+isRequired: true
+uid: f6c721b1-c66a-4f0e-baba-8c645b31ef5b
+name: 'To run their businesses globally, customers must meet multiple country/region-specific requirements for tax compliance and local business practices.'

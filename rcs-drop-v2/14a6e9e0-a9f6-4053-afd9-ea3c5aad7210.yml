@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You''ve set the environmental variables, for example ''OptimizedForPerformance,'' ''UsePersistentStorage,'' and ''MessageCleanupIntervalSecs.'''
+    description: You use a connected registry for local caching and deployment of container images.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 45
+  - id: '1'
+    text: You have edgeHub folder in a dedicated disk (controller) and verified the latest Azure IoT Edge release.
+    description: 'There are defined guidelines and standards for container images, for example, allowed base images and software.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '2'
+    text: 'You''re using connected registry for local caching and deployment of container images, and you have guidelines and standards for images defined.'
+    description: You don't use Azure IoT Edge modules and container images.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Gateway devices running Azure IoT Edge use modules (Docker containers) to maintain and deploy modular workloads. Software updates require updates to the container images that need to be deployed to the gateways, which affects bandwidth usage and performance. Don''t select any option if you don''t have Azure IoT Edge devices.'
+isRequired: false
+uid: 14a6e9e0-a9f6-4053-afd9-ea3c5aad7210
+name: 'Gateway devices running Azure IoT Edge use modules (Docker containers) to maintain and deploy modular workloads. Software updates require updates to the container images that need to be deployed to the gateways, which affects bandwidth usage and performance.'

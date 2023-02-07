@@ -1,0 +1,60 @@
+### YamlMime:SelfAssessment
+description: |
+  Examine and understand data capabilities across entire analytics estate [30-60 minutes].
+duration: 30 minutes
+questionnaireReferences:
+  - questionnaireUid: 6de8db25-460d-4482-a166-c7b7146515f5
+    isRequired: false
+  - questionnaireUid: 5a28c413-6f20-4d41-8210-174535467739
+    isRequired: false
+  - questionnaireUid: cd469bc7-05ee-47a0-84ca-6b407c81025e
+    isRequired: false
+  - questionnaireUid: a13a82fb-df44-4f5a-b5b0-6139705d150a
+    isRequired: false
+  - questionnaireUid: a3b544c8-ef90-4285-8ef3-e8026459fafc
+    isRequired: false
+  - questionnaireUid: 9433370c-b387-476e-a966-52fb3c94f6a9
+    isRequired: false
+  - questionnaireUid: fd2fd717-aa13-4a49-b19f-1f89331b04b4
+    isRequired: false
+  - questionnaireUid: 752bf448-59ac-4dbf-ad67-5715719c3c3c
+    isRequired: false
+guidance:
+  title: 30 minutes
+  description: Your results
+  providers: []
+  scoring:
+    title: View how your maturity aligns to benchmark to leading practices and recommendations to help you improve.
+    description: |
+      Recommendations for your Analytics Assessment 
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Leo
+  lastName: Kozhushnik
+  email: lkozhushnik@microsoft.com
+isHiddenAssessment: true
+metadataTags:
+  - azure
+uid: f6fc6e49-e6e7-48f1-82c4-2b9b7914beec
+name: Actionable initiatives to consider implementing to improve your Maturity across key Foundational dimensions of the Capabilities and Maturity Framework to create a holistic view of current state and provides a structured framework for developing maturity in each dimension.

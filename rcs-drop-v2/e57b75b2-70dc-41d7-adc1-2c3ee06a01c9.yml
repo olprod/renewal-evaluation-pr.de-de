@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Configure Key vault per SQL Server(s) to store TDE certificates and make sure both primary and secondary servers have access to it. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: 'If using certificates for SSL encryption, make sure to use the same certificate on all servers to avoid any failures when failing over.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: 'If depending on domain controllers for authentication, make sure to have secondary domain controllers in the secondary region/zone.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Make sure you break-glass accounts are created in secondary servers for emergency use.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Actively monitor for security incidents.
+    description: Setup an automated process to synchronize SQL logins and any other server-level objects to all replicas in an availability group setup.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Setup an automated process to synchronize SQL logins and any other server-level objects to all replicas in an availability group setup.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: security-tradeoffs-data-sqlvm
+uid: e57b75b2-70dc-41d7-adc1-2c3ee06a01c9
+name: What reliability allowances for security have you made?

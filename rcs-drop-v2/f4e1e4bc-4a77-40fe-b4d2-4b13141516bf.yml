@@ -1,0 +1,43 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Complete "Create and Manage Teams" module on Microsoft learn | 52 min
+    url: 'https://docs.microsoft.com/learn/modules/create-manage-teams/'
+    condition:
+      allOf: []
+      anyOf:
+        - 3efea952-1e93-4261-87ff-7efe167589e6.8f568476-5cf4-4034-94da-41c848cfc9cf.0
+        - 3efea952-1e93-4261-87ff-7efe167589e6.8f568476-5cf4-4034-94da-41c848cfc9cf.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Complete "Manage Collaboration Experiences for Chat and Channels" module on Microsoft learn | 48 min
+    url: 'https://docs.microsoft.com/learn/modules/manage-collaboration-experiences-for-chat-channels/'
+    condition:
+      allOf: []
+      anyOf:
+        - 3efea952-1e93-4261-87ff-7efe167589e6.751e2cdb-e7bc-4cfe-9775-3f88db96987f.0
+        - 3efea952-1e93-4261-87ff-7efe167589e6.751e2cdb-e7bc-4cfe-9775-3f88db96987f.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Complete "Manage apps for Microsoft Teams" module on Microsoft learn | 59 min
+    url: 'https://docs.microsoft.com/learn/modules/manage-apps-for-microsoft-teams/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: f4e1e4bc-4a77-40fe-b4d2-4b13141516bf
+name: ''

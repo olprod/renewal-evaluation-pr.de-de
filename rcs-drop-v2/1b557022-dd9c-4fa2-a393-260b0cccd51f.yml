@@ -1,0 +1,28 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Engaging with stakeholders and securing sponsorship
+    url: 'https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/dynamics-365-fast-track-for-dynamics---engagement-model-project-governance-may-12-2021'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implementation guide
+    url: 'https://aka.ms/d365implementationguide'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 1b557022-dd9c-4fa2-a393-260b0cccd51f
+name: Migration strategy guidance

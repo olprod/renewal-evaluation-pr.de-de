@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 0a892129-6417-4f3a-b4c6-f3c8fb9e14b1
+recommendations:
+  - b2caac8b-ca44-4b9b-944f-1636d844c785
+assignedGroupIds: []
+uid: 32c273d6-c08e-4652-93dc-e118a34b3f43
+name: 'Go-Live - Key Vault: Reliability'

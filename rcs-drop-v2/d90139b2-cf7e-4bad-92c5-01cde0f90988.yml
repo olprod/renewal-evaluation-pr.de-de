@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Maintain a runbook (Azure Automation/SQL Agent) script or notebook to handle SQL, OS, VM performance troubleshooting scenarios and ensure it refers to an established performance baseline. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Implement an automated monitoring solution and generate alert notifications when a problem occurs or a threshold is crossed.
+    description: There should be a mechanism for responding to alerts such as an on-call person or network operations center (NOC).
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Use Azure Monitor SQL Insights (Log Analytics workspace) and SQL Health Check for central monitoring and dashboarding.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Collect and monitor recommended DMV and performance metrics.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: monitor-data-sqlvm
+uid: d90139b2-cf7e-4bad-92c5-01cde0f90988
+name: How are you monitoring to ensure the workload is scaling appropriately?

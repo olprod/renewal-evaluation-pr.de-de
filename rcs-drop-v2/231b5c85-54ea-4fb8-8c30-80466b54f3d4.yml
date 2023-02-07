@@ -1,0 +1,77 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Process automation framework
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation'
+    condition:
+      allOf: []
+      anyOf:
+        - 7bfa1cc3-06ce-43d6-9846-f892fcb01a2d.5553ef8f-87fa-4b51-9ac4-2f3e8c8da0bf.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Process automation framework development
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/process-automation/process-automation-framework'
+    condition:
+      allOf: []
+      anyOf:
+        - 7bfa1cc3-06ce-43d6-9846-f892fcb01a2d.5553ef8f-87fa-4b51-9ac4-2f3e8c8da0bf.2
+        - 7bfa1cc3-06ce-43d6-9846-f892fcb01a2d.5553ef8f-87fa-4b51-9ac4-2f3e8c8da0bf.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage finance and operations updates and your custom code lifecycle
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/update-guide?context=%2Fdynamics365%2Fcontext%2Fcommerce'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7bfa1cc3-06ce-43d6-9846-f892fcb01a2d.396589df-a5a0-42db-b2ad-883a73a16be5.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: ISV Solution Development Best Practices - Develop & Customize Design
+    url: 'https://community.dynamics.com/365/b/ocp/posts/d365-finance-operations-isv-solution-development-maintenance-best-practices'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: ISV Solution Development Best Practices - Environment Planning & Code Repository
+    url: 'https://community.dynamics.com/365/b/ocp/posts/d365-finance-operations-isv-solution-environment-planning-code-repository-best-practices'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Globalization Studio overview
+    url: 'https://learn.microsoft.com/en-us/dynamics365/finance/localizations/globalization-studio-overview?context=%2Fdynamics365%2Fcontext%2Ffinance'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 7bfa1cc3-06ce-43d6-9846-f892fcb01a2d.3c98eacb-9879-421e-85ba-11e4d3468103.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 231b5c85-54ea-4fb8-8c30-80466b54f3d4
+name: Establish Extensibility Best Practices

@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Threat modeling processes are adopted, identified threats are ranked based on organizational impact, mapped to mitigations and communicated to stakeholders.'
+    description: 'Threat modeling is an engineering technique that can be used to help identify threats, attacks, vulnerabilities, and countermeasures that could affect an application. Threat modeling consists of: defining security requirements, identifying threats, mitigating threats, validating threat mitigation. Microsoft uses STRIDE for threat modeling.  Tools like Microsoft Threat Modeling Tool can help.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'There''s a process to track, triage and address security threats in the application development cycle.'
+    description: 'The threat modeling tool will produce a report of all the threats identified. This report is typically uploaded into a tracking tool or work items that can be validated and addressed by the developers. Cyber security teams can also use the report to determine attack vectors during a penetration test. As new features are added to the solution, the threat model should be updated and integrated into the code management process. If a security issue is found, there should be a process to triage the issue into the next release cycle or a faster release, depending on the severity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Timelines and processess are established to deploy mitigations (security fixes) for identified threats.
+    description: Fixing identified vulnerabilities in a timely manner helps stay secure and prevents additional attack vectors.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Security requirements are defined for all applications.
+    description: Applications should be blocked that do not meet the proper security requirements defined during service enablement.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: Threat protection was addressed for all applications.
+    description: 'Enterprise applications are subjected to many threats that can jeopardize confidentiality, availability, or integrity and should be protected with advanced security solutions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '5'
+    text: 'Business critical workloads, which may adversely affect operations if they are compromised or become unavailable, were identified and classified.'
+    description: 'Enterprise organizations typically have a large application portfolio. Have key business applications been identified and classified? This should include applications that have a high business impact if affected. Examples would be business-critical data, regulated data, or business-critical availability. These applications also might include applications that have a high exposure to attach such as public-facing websites which are key to organizational success.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Threat modeling is an engineering technique that can be used to help identify threats, attacks, vulnerabilities, and countermeasures that could affect an application. Threat analysis consists of: defining security requirements, identifying threats, mitigating threats, validating threat mitigation. All of those are needed to ensure the proper security of a workload on both the prevention and reaction fronts.'
+isRequired: true
+uid: 497199fc-dc9d-427e-9eb1-5da771b70685
+name: 'Threat modeling is an engineering technique that can be used to help identify threats, attacks, vulnerabilities, and countermeasures that could affect an application.'

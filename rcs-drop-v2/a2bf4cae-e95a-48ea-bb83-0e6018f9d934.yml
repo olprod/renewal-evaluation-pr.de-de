@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We have restricted management-plane access using role-based access control (RBAC).
+    description: 'Azure Cosmos DB provides built-in RBAC for common management scenarios. An individual who has a profile in Azure Active Directory can assign these Azure roles to users, groups, service principals, or managed identities to grant or deny access to resources and operations on Azure Cosmos DB resources. Role assignments are scoped to control-plane access only, which includes access to Azure Cosmos DB accounts, databases, containers, and offers (throughput). There are five built-in roles to help manage access to configuration and data. Give users the lowest level of access required to complete their work.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: B
+    text: We are aware of disabling changes to Azure Cosmos DB using account keys.
+    description: 'The Azure Cosmos DB resource provider can be locked down to prevent any changes to resources from a client connecting using the account keys (that is applications connecting via the Azure Cosmos SDK). This feature may be desirable for users who want higher degrees of control and governance for production environments. The clients connecting from Azure Cosmos DB SDK will be prevented from changing any property for the Azure Cosmos accounts, databases, containers, and throughput. The operations involving reading and writing data to Cosmos containers themselves are not impacted.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: C
+    text: 'To prevent accidental changes/deletion for our Azure Cosmos DB instance, we have evaluated Resource Lock.'
+    description: 'As an administrator, you can lock a subscription, resource group, or resource to prevent other users in your organization from accidentally deleting or modifying critical resources. The lock overrides any permissions the user might have.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Microsoft Defender for Azure Cosmos DB been considered to provide an extra layer of security intelligence.
+    description: 'Microsoft Defender for Azure Cosmos DB provides an extra layer of security intelligence that detects unusual and potentially harmful attempts to access or exploit Azure Cosmos DB accounts. This layer of protection allows you to address threats, even without being a security expert, and integrate them with central security monitoring systems.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: We have considered enabling Diagnostic setting to collect telemetry about Azure Cosmos DB operations and usage.
+    description: 'Azure resource Logs are emitted by a resource and provide rich, frequent data about the operation of that resource. These logs are captured per request and they are also referred to as "data plane logs''" Some examples of the data plane operations include delete, insert, and readFeed. Logs can not only help you understand what operation was performed, but also the originating IP Address, authentication mechanism, or user agent header.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: F
+    text: 'If full query text logging has been enabled, we have restricted access to the underlying Log Analytics workspace or storage account.'
+    description: 'By enabling full-text query, you will be able to view the deobfuscated query for all requests within your Azure Cosmos DB account. As these requests might contain sensitive information, it is important to tightly restrict access to the logging solution. Log Analytics supports doing so via RBAC on workspace or table level.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: a2bf4cae-e95a-48ea-bb83-0e6018f9d934
+name: How have you secured management operations and other aspects of your Azure Cosmos DB?

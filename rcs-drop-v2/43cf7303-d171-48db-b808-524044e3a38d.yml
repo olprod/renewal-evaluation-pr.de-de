@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Load Testing is conducted with expected peak volumes to test scalability and performance under load.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: 'Chaos Testing is performed by injecting faults in whole machine, network, disks and any dependency that SQL Server depends on. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Tests are automated and carried out periodically or on-demand.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: 'Critical test environments have 1:1 parity with the production environment.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: fault-tolerant-data-sqlvm
+uid: 43cf7303-d171-48db-b808-524044e3a38d
+name: How do you test the SQL Server(s) to ensure they are fault tolerant?

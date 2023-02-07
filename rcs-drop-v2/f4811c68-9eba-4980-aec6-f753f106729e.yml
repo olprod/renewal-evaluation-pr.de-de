@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We create a backlog work item to capture the request in our work flow and test the configuration change with the rest of the infrastructure
+    description: 'Using your existing work flow practice, you capture effort and memorialize the action.  This brings the change into visibility with the rest of the infrastructure as code scripts, and tests the change.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: 'We make the change, then create a work item in the current sprint and push it into the new environment immediately'
+    description: 'Another external business entity requests and update immediately, as a result of policy or due to some other unforeseen emergency infrastructure change, and we push the change into the infrastructure.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 80
+  - id: '2'
+    text: We make the change by creating new change scripts that are checked into our source control and document the business reason for the change
+    description: 'Changes are captured, but in a set of different scripts that are part of the deployment in our Continuous Deployment / Delivery pipelines.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 80
+  - id: '3'
+    text: 'We make the change manually, then using our Application Performance Monitor, verify the change had a positive impact'
+    description: 'Changes are not capture, but the infrastructure is modified to meet the current demand.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '4'
+    text: We make the change manually
+    description: Changes are not captured and we make the changes manually.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'Changes made to the infrastructure that are not vetted through a process can easily lead to configuration drift.  In the event their are configuration changes external to your IaC processes, what is your policy on incorporating these changes?'
+isRequired: true
+uid: f4811c68-9eba-4980-aec6-f753f106729e
+name: 'Changes made to the infrastructure that are not vetted through a process can easily lead to configuration drift. '

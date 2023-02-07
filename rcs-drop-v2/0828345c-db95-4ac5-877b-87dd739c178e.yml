@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'There are a few old, "as is" process flows, but not an up-to-date, reviewed and agreed set of "to be" business processes flows'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We intend to produce some flows, but these have not yet been planned or are planned to be done during the implementation phase'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: '"To Be" process flows are in progress and there is a clear plan to complete, review and agree them with the business prior to finalizing the project scope, budget, timeline and solution design'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: '"To Be" process flows are documented to the level necessary to drive a clear understanding with the business of the project scope and will reliably drive requirements and solution design'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have the scope of your project defined in terms of business process flows?
+isRequired: true
+uid: 0828345c-db95-4ac5-877b-87dd739c178e
+name: Do you have the scope of your project defined in terms of business process flows?

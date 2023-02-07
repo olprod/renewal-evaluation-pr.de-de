@@ -1,0 +1,1075 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Identify recovery targets for your workload
+    url: /azure-stack/user/azure-stack-manage-vm-protect#application-recovery-objectives
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.6aa6e5fb-dde4-443b-96af-9c31ba217c87.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Have clearly defined availability targets
+    url: /azure/architecture/framework/Resiliency/business-metrics#workload-availability-targets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.6aa6e5fb-dde4-443b-96af-9c31ba217c87.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Measure and monitor key availability targets
+    url: /azure/architecture/framework/Resiliency/business-metrics#availability-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.6aa6e5fb-dde4-443b-96af-9c31ba217c87.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Identify SLAs for the application dependencies
+    url: /azure/architecture/framework/resiliency/design-resiliency#understand-the-impact-of-dependencies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.6aa6e5fb-dde4-443b-96af-9c31ba217c87.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Decouple your application services
+    url: /azure/architecture/guide/design-principles/minimize-coordination
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.6aa6e5fb-dde4-443b-96af-9c31ba217c87.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy your workloads on multiple stamps/regions
+    url: '/azure/architecture/framework/services/hybrid/azure-stack-hub/reliability#:~:text=high%20availability%20to%20cope%20with%20outages%20of%20a%20single%20location%20should%20be%20implemented%20by%20using%20two%20azure%20stack%20hub%20instances%20deployed%20in%20different%20physical%20locations'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.060af961-c952-4dae-9642-574342fa4a06.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy multiple applications instances using VM Scale Sets or Availability Sets
+    url: /azure-stack/user/azure-stack-vm-considerations?#high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.060af961-c952-4dae-9642-574342fa4a06.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy multiple/redundant workload instances using availability sets
+    url: /azure-stack/user/azure-stack-vm-considerations#high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.060af961-c952-4dae-9642-574342fa4a06.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform a failure mode analysis
+    url: /azure/architecture/resiliency/failure-mode-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.060af961-c952-4dae-9642-574342fa4a06.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Detect and remediate faults through chaos engineering
+    url: /azure/architecture/framework/resiliency/chaos-engineering
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.060af961-c952-4dae-9642-574342fa4a06.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for dependent service outages
+    url: /azure/architecture/framework/Resiliency/backup-and-recovery#dependent-service-outage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.060af961-c952-4dae-9642-574342fa4a06.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Build a capacity model for your workload
+    url: /azure/architecture/framework/scalability/design-capacity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.0ce35024-47b2-4d64-986e-831b5b181968.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for expected usage patterns
+    url: /azure/architecture/framework/scalability/design-capacity#preemptively-scaling-based-on-trends
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.0ce35024-47b2-4d64-986e-831b5b181968.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand Azure Stack Hub compute capacity
+    url: /azure-stack/operator/azure-stack-capacity-planning-compute
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.0ce35024-47b2-4d64-986e-831b5b181968.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage API version profiles in Azure Stack Hub
+    url: /azure-stack/user/azure-stack-version-profiles
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.0ce35024-47b2-4d64-986e-831b5b181968.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor the Azure Stack Hub Roadmap Updates - RSS Feed
+    url: 'https://azure.microsoft.com/updates/?query=%22Azure%20Stack%20Hub%22'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.0ce35024-47b2-4d64-986e-831b5b181968.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Operate your workload in multiple stamps/regions
+    url: /azure-stack/user/azure-stack-manage-vm-protect#high-availabilityautomatic-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Operate your workload in multiple stamps/regions
+    url: /azure-stack/user/azure-stack-manage-vm-protect#replicationmanual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Document an Azure Stack Hub stamp/region failure plan
+    url: /azure/architecture/framework/services/hybrid/azure-stack-hub/reliability#design-considerations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create a backup strategy to protect applications
+    url: /azure-stack/user/azure-stack-manage-vm-protect
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create a disaster recovery plan
+    url: /azure/architecture/framework/Resiliency/backup-and-recovery#disaster-recovery-plan
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Example: Disaster recovery for Azure Stack Hub virtual machines'
+    url: /azure/architecture/hybrid/azure-stack-vm-disaster-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Codify steps to failover and fallback
+    url: /azure/architecture/framework/resiliency/test-best-practices#codify-steps-to-failover-and-fallback
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Test your failover and failback process at least once
+    url: /azure/architecture/framework/Resiliency/backup-and-recovery#failover-and-failback-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Identify distinct workloads
+    url: /azure/architecture/framework/Resiliency/app-design#considerations-for-improving-reliability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Connect to on-premises networks using Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-network#connecting-to-on-premises-networks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.f5cc5a1e-f88d-448f-bd72-c75c7d440feb.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Avoid session state
+    url: /aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/web-development-best-practices#sessionstate
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Store session state in an external data store
+    url: /aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/web-development-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Store application configuration information in external storage
+    url: /azure/architecture/patterns/external-configuration-store
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy multiple instances of each application service to provide redundancy
+    url: /azure-stack/user/azure-stack-manage-vm-protect#replicationmanual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy multiple/redundant workload instances using Availability Sets
+    url: /azure-stack/user/azure-stack-vm-considerations?&tabs=az1%2Caz2#high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy your workloads on multiple stamps/regions
+    url: /azure/architecture/framework/services/hybrid/azure-stack-hub/reliability#design-considerations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Example: Deploy F5 across two Azure Stack Hub instances'
+    url: /azure-stack/user/network-howto-f5
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create application specific health probes for Load Balancers
+    url: /azure/architecture/framework/Resiliency/app-design-error-handling#application-health-probes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement resiliency strategies in your workload
+    url: /azure/architecture/framework/resiliency/design-resiliency#build-resiliency-with-failure-mode-analysis
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Develop a plan for region/stamp/network outages
+    url: /azure/architecture/framework/Resiliency/backup-and-recovery#network-outage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.J
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate operational tasks
+    url: /azure/architecture/framework/devops/automation-tasks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.30011317-ac2b-47d1-9e12-72561e3829fc.K
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Data types should be categorized by data consistency requirements
+    url: /azure/architecture/framework/resiliency/design-requirements#data-consistency
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable data replication to provide redundancy
+    url: /azure-stack/user/azure-stack-manage-vm-protect#replicationmanual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Example: Deploy a SQL Server 2016 Availability Group on Azure Stack Hub'
+    url: /azure/architecture/hybrid/deployments/solution-deployment-guide-sql-ha
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy multiple/redundant workload instances using availability sets
+    url: /azure-stack/user/azure-stack-vm-considerations?&tabs=az1%2Caz2#high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Protect workloads deployed on Azure Stack Hub
+    url: /azure-stack/user/azure-stack-manage-vm-protect
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable data replication to provide redundancy
+    url: /azure-stack/user/azure-stack-manage-vm-protect#replicationmanual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Example: Cross-cloud scaling for on-premises data using Traffic Manager'
+    url: /azure/architecture/example-scenario/hybrid/hybrid-cross-cloud-scale-on-premises-data
+    condition:
+      allOf: []
+      anyOf:
+        - ..
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Segregate read operations from update operations
+    url: /azure/architecture/patterns/cqrs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create health probes that validate data consistency
+    url: /azure/architecture/framework/resiliency/monitor-model#create-good-health-probes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Back up files and apps on Azure Stack Hub
+    url: /azure-stack/user/azure-stack-manage-vm-protect
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.J
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Validate workload backup and restore processes
+    url: /azure-stack/user/azure-stack-manage-vm-protect#protection-options
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.02e0ec9a-7883-403c-b895-ac90af44e1a3.K
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Handle transient failures using a Retry pattern
+    url: /azure/architecture/patterns/retry
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.4e45898a-f9cb-4dde-8c04-4b3ab4ca9042.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement request timeouts
+    url: /azure/architecture/framework/Resiliency/app-design-error-handling#request-timeouts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.4e45898a-f9cb-4dde-8c04-4b3ab4ca9042.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement retry logic to handle transient failures
+    url: /azure/architecture/framework/Resiliency/app-design-error-handling#handling-transient-failures
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.4e45898a-f9cb-4dde-8c04-4b3ab4ca9042.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Example: Use semantic logs and metrics'
+    url: /azure/azure-monitor/app/app-insights-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.4e45898a-f9cb-4dde-8c04-4b3ab4ca9042.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable application endpoint(s) availability monitoring
+    url: /azure/architecture/patterns/health-endpoint-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.4e45898a-f9cb-4dde-8c04-4b3ab4ca9042.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Make all things redundant
+    url: /azure/architecture/guide/design-principles/redundancy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ab651552-e3a8-49f4-868a-276dc8c262fa.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use load balancers to optimize uptime and performance
+    url: /azure/security/fundamentals/network-best-practices#optimize-uptime-and-performance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ab651552-e3a8-49f4-868a-276dc8c262fa.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement network edge border device redundancy
+    url: /azure-stack/operator/azure-stack-border-connectivity#bgp-routing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ab651552-e3a8-49f4-868a-276dc8c262fa.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement network edge border device redundancy using dynamic routing
+    url: /azure-stack/operator/azure-stack-border-connectivity#bgp-routing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ab651552-e3a8-49f4-868a-276dc8c262fa.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Example: Monitor networks using Operations Manager'
+    url: /system-center/scom/manage-monitor-networkdevice-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ab651552-e3a8-49f4-868a-276dc8c262fa.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy high availability Kubernetes clusters with pod auto-scaling using AKS-Engine
+    url: /azure/architecture/hybrid/deployments/solution-deployment-guide-highly-available-kubernetes#autoscale-the-application
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.9066da13-0233-451c-865b-a98c1ab9441c.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement pre-emptive scaling based on trends
+    url: /azure/architecture/framework/Scalability/capacity#preemptively-scaling-based-on-trends
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.9066da13-0233-451c-865b-a98c1ab9441c.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform Load testing to measure system performance
+    url: /azure/architecture/framework/scalability/performance-test#load-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.9066da13-0233-451c-865b-a98c1ab9441c.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for growth
+    url: /azure/architecture/framework/scalability/design-scale#plan-for-growth
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.9066da13-0233-451c-865b-a98c1ab9441c.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand quotas and defaults limits in Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-quota-types
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.9066da13-0233-451c-865b-a98c1ab9441c.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Manage load balancer connections to avoid port exhaustion
+    url: /azure/load-balancer/load-balancer-outbound-connections#port-exhaustion
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.9066da13-0233-451c-865b-a98c1ab9441c.J
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement application throttling
+    url: /azure/architecture/patterns/throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.9066da13-0233-451c-865b-a98c1ab9441c.K
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Parallel and combined identity infrastructure options
+    url: /azure/active-directory/fundamentals/azure-active-directory-parallel-identity-options
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.d2f9ab1d-d59b-46f2-87bd-b0062c6fd8fc.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure best practices for network security
+    url: /azure/security/fundamentals/network-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.d2f9ab1d-d59b-46f2-87bd-b0062c6fd8fc.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement a secure hybrid network
+    url: /azure/architecture/reference-architectures/dmz/secure-vnet-dmz
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.d2f9ab1d-d59b-46f2-87bd-b0062c6fd8fc.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Recover from catastrophic data loss in Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-backup-recover-data#data-in-backups
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.d2f9ab1d-d59b-46f2-87bd-b0062c6fd8fc.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate key rotation (example for Azure SAS keys)
+    url: /azure/key-vault/secrets/tutorial-rotation-dual
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.d2f9ab1d-d59b-46f2-87bd-b0062c6fd8fc.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure emergency access accounts in Azure AD
+    url: /azure/active-directory/roles/security-emergency-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.d2f9ab1d-d59b-46f2-87bd-b0062c6fd8fc.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure Stack Hub – Automate deployments
+    url: 'https://azure.microsoft.com/blog/azure-stack-iaas-part-seven-2/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.0cbae1dd-dce4-45e2-b67b-980e87996658.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Reduce the need for manual operations
+    url: /azure/architecture/framework/devops/release-engineering-cd
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.0cbae1dd-dce4-45e2-b67b-980e87996658.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Decouple the lifecycle of the application from its dependencies
+    url: /azure/architecture/framework/resiliency/design-resiliency#understand-the-impact-of-dependencies
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.0cbae1dd-dce4-45e2-b67b-980e87996658.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Release Engineering: Testing your app and Azure environment'
+    url: /azure/architecture/framework/devops/release-engineering-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.0cbae1dd-dce4-45e2-b67b-980e87996658.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Conduct performance testing
+    url: /azure/architecture/framework/scalability/performance-test
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.37bd2222-ce58-41d5-9094-e38246dd055b.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Performance testing and antipatterns for cloud applications
+    url: /azure/architecture/antipatterns/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.37bd2222-ce58-41d5-9094-e38246dd055b.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Test under expected peak load
+    url: /azure/architecture/framework/Resiliency/testing#test-under-peak-loads
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.37bd2222-ce58-41d5-9094-e38246dd055b.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Perform chaos testing by injecting faults
+    url: /azure/architecture/framework/Resiliency/testing#fault-injection-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.37bd2222-ce58-41d5-9094-e38246dd055b.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Automate your tests
+    url: /azure/architecture/framework/devops/release-engineering-testing#automated-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.37bd2222-ce58-41d5-9094-e38246dd055b.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Conduct performance, load, and stress tests'
+    url: /azure/architecture/framework/scalability/performance-test
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.37bd2222-ce58-41d5-9094-e38246dd055b.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Instrumenting an application
+    url: /azure/architecture/best-practices/monitoring#instrumenting-an-application
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ef7adcb4-baa4-404f-9c14-7167d8fcb96a.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Correlate logs across workload tiers
+    url: /azure/architecture/best-practices/monitoring#analyzing-data-and-diagnosing-issues
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ef7adcb4-baa4-404f-9c14-7167d8fcb96a.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensuring compatibility with telemetry systems
+    url: /azure/architecture/best-practices/monitoring#ensuring-compatibility-with-telemetry-systems
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ef7adcb4-baa4-404f-9c14-7167d8fcb96a.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Collect and store logs and key metrics of critical components
+    url: /azure/architecture/framework/Resiliency/monitoring#instrumentation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ef7adcb4-baa4-404f-9c14-7167d8fcb96a.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Example: Use Operations Manager to monitor workload'
+    url: /system-center/scom/plan-planning-agent-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ef7adcb4-baa4-404f-9c14-7167d8fcb96a.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Health modeling for reliability
+    url: /azure/architecture/framework/resiliency/monitor-model
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ef7adcb4-baa4-404f-9c14-7167d8fcb96a.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Integrate external monitoring solution with Azure Stack Hub
+    url: /azure-stack/operator/azure-stack-integrate-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ef7adcb4-baa4-404f-9c14-7167d8fcb96a.G
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor long-running workflows for failures
+    url: /azure/architecture/framework/Resiliency/monitoring#long-running-workflow-failures
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e747543e-2cf2-459b-9eef-b745e5da1b1d.ef7adcb4-baa4-404f-9c14-7167d8fcb96a.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: a740d1dd-8e0b-4fb7-bec4-e26b3e3a011e
+name: ''

@@ -1,0 +1,378 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: '[Q1] Use the Azure IoT Hub Device Provisioning Service to provision your devices and assign them to an IoT hub.'
+    url: /azure/iot-dps/about-iot-dps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.7338ac23-246b-46a9-a8bf-c6562107dba9.0
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q2] Use the Azure IoT Hub device SDKs to connect your devices to Azure IoT Hub.'
+    url: /azure/iot-hub/iot-hub-reliability-features-in-sdks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.ee0f936f-2502-414f-9b1d-2036abd0db20.0
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q3] For Azure IoT Edge-based solutions, use DevOps for build and release. For non-IoT Edge devices, use DevOps for build.'
+    url: /azure/iot-edge/how-to-devops-starter
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.a9ed522d-c63f-4ac3-8fe4-de4be8fe1159.0
+      scoreOf: []
+    context: ''
+    priority: 60
+    reportingCategory: Reliability
+    reportingSubCategory: Establish safe practices for updates
+  - title: '[Q4] Adopt automatic device management in Azure IoT Hub to automate the management of devices at scale.'
+    url: /azure/iot-hub/iot-hub-automatic-device-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.0861de98-255c-4ab2-9838-a0789d9a82ef.0
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Establish safe practices for updates
+  - title: '[Q5] Use device twins to store device state information including metadata, configurations, and conditions.'
+    url: /azure/iot-hub/iot-hub-devguide-device-twins
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.bcbf8d26-b094-459e-abc5-a1e22102d53e.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Establish observability across your IoT solution
+  - title: '[Q5] React to Azure IoT Hub events by using Event Grid to trigger actions.'
+    url: /azure/iot-hub/iot-hub-event-grid
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.bcbf8d26-b094-459e-abc5-a1e22102d53e.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Establish observability across your IoT solution
+  - title: '[Q6] Evaluate the trade-offs of different high-availability and disaster-recovery options.'
+    url: /azure/iot-hub/iot-hub-ha-dr
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.8c83b8ec-58eb-40b9-b379-f9a0af0c0a47.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Implement HA/DR in critical components
+  - title: '[Q7] Use chaos engineering to observe, monitor, respond to, and improve your system''s reliability under adverse circumstances.'
+    url: /azure/architecture/framework/resiliency/chaos-engineering
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.b7a256a1-d003-4841-9d77-83eaab97fac1.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Plan for capacity
+  - title: '[Q7] Implement load testing to verify solution reliability under load.'
+    url: /azure/architecture/framework/scalability/performance-test#load-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.b7a256a1-d003-4841-9d77-83eaab97fac1.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Plan for capacity
+  - title: '[Q7] Test and verify your solution against regression problems.'
+    url: /azure/architecture/framework/devops/release-engineering-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.b7a256a1-d003-4841-9d77-83eaab97fac1.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Plan for capacity
+  - title: '[Q8] Plan for high availability for your Azure IoT Hub.'
+    url: /azure/iot-hub/iot-hub-ha-dr#choose-the-right-hadr-option
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.873743a3-9056-4120-b08f-eeb1d79e05da.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q9] Design and document high-availability disaster-recovery procedures for your Azure IoT Hub.'
+    url: /azure/iot-hub/tutorial-manual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.27d177ee-b423-4cb0-9a35-1c242274bed4.0
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Implement HA/DR in critical components
+  - title: '[Q9] Test high-availability disaster-recovery procedures for your Azure IoT Hub.'
+    url: /azure/iot-hub/tutorial-manual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.27d177ee-b423-4cb0-9a35-1c242274bed4.1
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Implement HA/DR in critical components
+  - title: '[Q10] Choose the right Azure IoT Hub tier for your solution.'
+    url: /azure/iot-hub/iot-hub-scaling
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.4ae7463b-2a3c-4ded-80c1-dc4bc8080f54.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 80
+    reportingCategory: Reliability
+    reportingSubCategory: Plan for capacity
+  - title: '[Q11] Use the built-in capabilities in Azure IoT Hub monitoring to establish dashboards and alerts.'
+    url: /azure/iot-hub/monitor-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.6e2d1a5e-b1ed-4bd4-a82e-8e77bee2bd66.0
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Establish observability across your IoT solution
+  - title: '[Q11] Collect and transport metrics.'
+    url: /azure/iot-edge/how-to-collect-and-transport-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.6e2d1a5e-b1ed-4bd4-a82e-8e77bee2bd66.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Establish observability across your IoT solution
+  - title: '[Q12] Manage intermittent connectivity.'
+    url: /azure/iot-hub/iot-hub-reliability-features-in-sdks
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.a3df806d-397c-4cef-91f0-5dff56b9daeb.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q12] Use Azure IoT Edge offline capabilities.'
+    url: /azure/iot-edge/offline-capabilities
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.a3df806d-397c-4cef-91f0-5dff56b9daeb.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q13] Review the default Azure IoT Hub partition configuration.'
+    url: /azure/iot-hub/iot-hub-scaling#partitions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.43a27484-31eb-4292-b012-b86cec0f2e66.0
+      scoreOf: []
+    context: ''
+    priority: 100
+    reportingCategory: Reliability
+    reportingSubCategory: Plan for capacity
+  - title: '[Q14] Configure retention periods in the Azure IoT Hub built-in endpoint.'
+    url: /azure/iot-hub/iot-hub-devguide-messages-read-builtin
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.efe34955-b7d9-4200-b7e0-f8bd497302d9.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Reliability
+    reportingSubCategory: Plan for capacity
+  - title: '[Q15] Review Azure IoT Hub message routing.'
+    url: /azure/iot-hub/iot-hub-devguide-messages-d2c
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.b9fde259-11ce-4997-8c6a-e1c1bec2c5ab.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Reliability
+    reportingSubCategory: Plan for capacity
+  - title: '[Q16] Use Azure Stream Analytics to detect late or out-of-order events.'
+    url: /azure/stream-analytics/stream-analytics-get-started-with-azure-stream-analytics-to-process-data-from-iot-devices
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.25af89d3-3400-415f-8336-a15001129919.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Establish observability across your IoT solution
+  - title: '[Q17] Use the Azure Certified Device Catalog to verify environmental requirements on devices, such as operating temperatures and ingress protection.'
+    url: 'https://devicecatalog.azure.com'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.97a7535d-0b98-42bb-b33e-325bb2adcb3f.0
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q17] Use the Azure Certified Device Catalog to view environmental specs and define environmental profiles.'
+    url: 'https://devicecatalog.azure.com'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.97a7535d-0b98-42bb-b33e-325bb2adcb3f.1
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q17] Use the Azure Certified Device Catalog to view device specs and define your device lifecycle strategy.'
+    url: 'https://devicecatalog.azure.com'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.97a7535d-0b98-42bb-b33e-325bb2adcb3f.2
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q17] Use the Azure Certified Device Catalog to view device specs, including geo-availability and applicable industries, and to verify them against your solution requirements.'
+    url: 'https://devicecatalog.azure.com'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.97a7535d-0b98-42bb-b33e-325bb2adcb3f.3
+      scoreOf: []
+    context: ''
+    priority: 50
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q18] Configure storage for Azure IoT Edge modules.'
+    url: /azure/iot-edge/production-checklist#set-up-host-storage-for-system-modules
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.9cc4b64e-a90f-4397-b735-28e1eec08861.0
+      scoreOf: []
+    context: ''
+    priority: 90
+    reportingCategory: Reliability
+    reportingSubCategory: Implement HA/DR in critical components
+  - title: '[Q19] Configure time to live for Azure IoT Edge messages.'
+    url: /azure/iot-edge/offline-capabilities#time-to-live
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.2d3dc65f-a13f-4cb7-b259-cd5916ed8383.0
+      scoreOf: []
+    context: ''
+    priority: 75
+    reportingCategory: Reliability
+    reportingSubCategory: Design devices for resiliency
+  - title: '[Q20] Use Azure Virtual Machine failover capabilities.'
+    url: /azure/site-recovery/azure-to-azure-tutorial-failover-failback
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.01be5fe8-b195-40cc-963e-6a6533441cf9.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 40
+    reportingCategory: Reliability
+    reportingSubCategory: Implement HA/DR in critical components
+  - title: '[Q20] Consider running Azure IoT Edge on a Kubernetes cluster.'
+    url: /azure/iot-edge/how-to-install-iot-edge-kubernetes
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.01be5fe8-b195-40cc-963e-6a6533441cf9.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 35
+    reportingCategory: Reliability
+    reportingSubCategory: Implement HA/DR in critical components
+  - title: '[Q20] Consider running Azure IoT Edge on an Azure Stack HCI cluster.'
+    url: /azure/architecture/hybrid/azure-stack-hci-dr
+    condition:
+      allOf: []
+      anyOf:
+        - d5cd03f1-74ee-4891-98ed-4d109c483ac0.01be5fe8-b195-40cc-963e-6a6533441cf9.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 25
+    reportingCategory: Reliability
+    reportingSubCategory: Implement HA/DR in critical components
+uid: 5c987575-b257-4057-af0a-826f26ae5cf6
+name: ''

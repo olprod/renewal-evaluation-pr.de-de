@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We manage our workload as infrastructure as code (IaC).
+    description: It is a good practice to deploy all your workloads with IaC. This allows for quick re-deployment of environments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: We make sure to test automatic fail-over to simulate region outages to stay current with any application code changes.
+    description: It is a good practice to test your application code for fail-over scenarios to make sure your application code still works.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: C
+    text: 'When scaling throughput of our database or container, we follow guidance on how to evenly distribute the workload during scaling.'
+    description: You would want an even distribution of your RUs on your partitions for reliable performance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: D
+    text: We understand and monitor our Azure Cosmos DB bill.
+    description: Costs can be controlled by limiting throughput.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: F
+    text: 'We are aware of the change feed lifecycle, and we process the events, such as notifications and error handling, accordingly.'
+    description: Prevent the change feed processor from getting stuck in retrying a batch indefinitely.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: We review the automatic recommendations provided by the service.
+    description: 'From time to time, it''s good to review the recommendation provided by the services, which allows you to stay current with changes, updates, and options to further tune your Cosmos DB account.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: H
+    text: 'When Azure Cosmos DB resource limits are reached (within a region), we know how to request an increase.'
+    description: 'There is a limit for most of the Azure Services, and it''s a limit that can be raised by a support ticket. Make sure you know how to increase your limits that have been defined for the subscription and the tenant.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: I
+    text: We have defined a throughput limit on our Azure Cosmos DB accounts to control costs.
+    description: This is a good way to control costs to avoid any unexpected spend.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 7534e1fe-23f1-4e1b-9edb-37cba091dbb7
+name: How are you deploying and maintaining your Azure Cosmos DB setup?

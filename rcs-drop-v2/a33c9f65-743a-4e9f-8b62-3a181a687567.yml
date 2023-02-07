@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'For data loading and ingestion, we have considered using bulk import to optimize for usage of available throughput.'
+    description: 'Utilizing certain SDK features, tools, and patterns allows you to control and optimize provisioned throughput when importing data into Azure Cosmos DB.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '1'
+    text: 'For analytical queries, we have considered utilizing Azure Synapse Link for Cosmos DB at a lower cost.'
+    description: 'Azure Synapse Link for Cosmos DB is a low-cost, fully automated feature that enables near real-time analytics over the Azure Cosmos DB analytical store with no provisioned throughput required.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '2'
+    text: 'We have defined and enforced data retention and archival requirements for transactional store data and analytical store data, through TTL or other means.'
+    description: 'Through the applicable data lifecycle management approach, such as archiving to blob storage, cost savings can be realized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '3'
+    text: We have considered denormalizing or aggregating data for read-heavy patterns.
+    description: 'For read-heavy workloads, storing a pre-aggregated or de-normalized version can make reads significantly cheaper.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '4'
+    text: 'For read scenarios that don''t match our primary partition key choice, we have considered storing data with an alternative partition key.'
+    description: 'When you have a different access pattern of an existing dataset (e.g., you are NOT using the existing partition key), create a new collection that stores a subset of the master data, thereby allowing for the new partition key to be utilized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '7'
+    text: We have assessed opportunities to select a better partition key to reduce query fan-out.
+    description: 'Reducing query fan-out helps to consume less RU, resulting in optimization of the provisioned resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '8'
+    text: 'We have searched for opportunities to reduce the number of physical partitions created due to previous and unnecessarily high scale-up or provisioning. '
+    description: 'Fragmentation of throughput will occur when scaling down from high provisioning, you can effectively utilize the provisioned resources when reducing the number of physical partitions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: '9'
+    text: We have determined the partition key based on even distribution of storage and throughput across the logical partitions and having high cardinality.
+    description: Using the proper partition key can avoid hot partitions and protect you against high costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 31
+  - id: NOA
+    text: 'We have looked at high-storage, low-throughput programs because we have related workloads with this pattern.'
+    description: Cost savings can be realized through this configuration model for those workloads that are more storage intensive than throughput. Take the survey in the link to sign up for the new program.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '10'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: 'Choosing the right partition key is critical to minimizing RU consumption. During this assessment, you assess workload operations and patterns to optimize your storage and throughput distribution. This is fundamental to getting the scalability and availability that Cosmos DB provides, so let''s measure twice and cut once. '
+isRequired: false
+uid: a33c9f65-743a-4e9f-8b62-3a181a687567
+name: Choosing the right partition key is critical to minimizing RU consumption.

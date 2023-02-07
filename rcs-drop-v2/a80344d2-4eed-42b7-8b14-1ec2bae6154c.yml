@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Use Pull Requests to pull code changes back into branch
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '1'
+    text: Directly merge changes into the branch
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Directly change source code from the repository
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'In Git, Each developer saves changes to their own local code repository. As a result, there can be many different changes based on the same commit. Git provides tools for isolating changes and later merging them back together. '
+isRequired: true
+uid: a80344d2-4eed-42b7-8b14-1ec2bae6154c
+name: 'In Git, Each developer saves changes to their own local code repository.'

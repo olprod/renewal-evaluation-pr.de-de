@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - b8311e46-c57f-4aa1-8f14-9cfde107683c
+  - d8ca22dc-e6f5-41a1-93da-f7d461290e4d
+recommendations:
+  - 0c955c03-6de2-4496-8521-086fa7ba8725
+assignedGroupIds:
+  - 3529bb1b-b511-4aea-9985-cde430e17278
+uid: 2c2eb978-1d43-47c5-a652-2e6aa15ed2ea
+name: Multitenant Architecture | Deployment

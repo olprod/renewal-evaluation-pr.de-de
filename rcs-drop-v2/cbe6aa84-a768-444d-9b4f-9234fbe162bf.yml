@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Traffic between subnets, Azure Services and tiers of the SAP workload are managed and protected.'
+    description: 'Data filtering between subnets and other Azure resources should be protected.  PrivateLink, and Private Endpoints can be used for traffic filtering, along with Network Security Groups and Application Security Groups'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: A dedicated security group within the organization manages the centralized network management security of SAP workload.
+    description: 'Centralizing network management and security can reduce the potential for inconsistent strategies that create potential attacker exploitable security risks. Because all divisions of the IT and development organizations do not have the same level of network management and security knowledge and sophistication, organizations benefit from leveraging a centralized network team’s expertise and tooling.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '2'
+    text: Enhanced network visibility is enabled by integrating network logs into a Security information and event management (SIEM) solution or similar technology.
+    description: 'Integrating logs from the network devices, and even raw network traffic itself, will provide greater visibility into potential security threats flowing over the wire.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Azure Sentinel SAP threat monitoring solution implemented.
+    description: 'The Azure Sentinel SAP threat monitoring solution can be deployed in one simple package that includes all components. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '4'
+    text: NSGs and ASGs implemented to ensure least priviledged access
+    description: 'Monitor and filter traffic using Azure Monitor, Azure network security groups (NSGs), or application security groups.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '5'
+    text: Virtual Networks are isolated for production & non-production SAP workloads following Hub-Spoke architecture
+    description: 'Isolate the SAP application and database servers from the internet or from the on-premises network by passing all traffic through the hub virtual network, which is connected to the spoke network by virtual network peering. The peered virtual networks guarantee that the SAP on Azure solution is isolated from the public internet.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '6'
+    text: SSO Implemented for connectivity with SAP & non-SAP applications
+    description: 'Single sign-on (SSO) is the foundation for integrating SAP and Microsoft products. Kerberos tokens from Active Directory, combined with third-party security products, have enabled this capability for both SAP GUI and web-browser-based applications for years.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '7'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: 'Network security has been the traditional linchpin of enterprise security efforts. However, cloud computing has increased the requirement for network perimeters to be more porous and many attackers have mastered the art of attacks on identity system elements.'
+isRequired: false
+uid: cbe6aa84-a768-444d-9b4f-9234fbe162bf
+name: Network security has been the traditional linchpin of enterprise security efforts.

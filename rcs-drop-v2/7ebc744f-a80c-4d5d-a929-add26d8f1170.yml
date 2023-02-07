@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Build resilient, highly scalable, and distributed applications to deliver value faster.'
+    url: 'https://azure.microsoft.com/en-us/solutions/microservice-applications/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 7ebc744f-a80c-4d5d-a929-add26d8f1170
+name: ''

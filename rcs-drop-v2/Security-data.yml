@@ -1,0 +1,32 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Security is one of the most important aspects of any architecture. It provides confidentiality, integrity, and availability assurances against deliberate attacks and abuse of your valuable data and systems. Losing these assurances can negatively impact your business operations and revenue, as well as your organization’s reputation in the marketplace. In the following series of articles, we’ll discuss key architectural considerations and principles for security and how they apply to Azure.'
+hideEmptyGuidance: false
+questions:
+  - fef61731-c120-4a43-b1d5-a9900ef36bad
+  - ead3f1bf-293f-4e15-a817-a538cdf6f290
+  - 4c2baef8-72e2-4fff-b356-cce0a103e914
+  - 5e7e9048-62f5-4206-a350-2dbcb30ad7b8
+  - bb1ab91c-1b66-46fd-beec-a56c573dd435
+  - 16f71582-aeeb-4428-8e50-349181c9574b
+  - 2b75a807-4f3f-4196-a717-94a7b731b50e
+  - 8be9cb3b-060a-4934-8b03-299159999151
+  - 8c53ec2c-d902-4ecc-9b98-5050b91ab371
+  - f040f981-ff0e-4266-a9e2-52f49c6d23f1
+  - 717545ee-2116-4bf0-8631-591c519c52f5
+  - 47f502e0-af1a-4083-88c2-fe2e75381a7f
+  - 6bad0358-5bef-478f-add4-4147282df798
+  - 8af25c74-0d4d-47a2-9f34-5121ff665de6
+  - 7ffee952-3451-40aa-b916-cdf47b5a3069
+  - ac779805-0c51-4622-a053-6a3530e3b0da
+  - 234beb16-8593-440e-8fe3-f9920cadb733
+  - 0377244a-a495-468c-8d1d-8ce36f47fe58
+  - 6231b09e-9d27-46ac-b19b-e043065dd7d7
+  - e76d4039-0bf4-4706-8183-28381fefa270
+  - d6414788-edf6-4a07-96df-697baa8b7513
+  - 80ced676-1b13-46ae-8d52-202a7d3ef7c6
+recommendations:
+  - 63cfef11-4c87-417a-93ca-d098d0d1205d
+assignedGroupIds: []
+uid: Security-data
+name: Security - Data Management

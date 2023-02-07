@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Estimate and track my costs.
+    description: In many cases first calculation of cloud resources is quite inaccurate and relays more on more familiar and common on-premise approach.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Educate the employees about the SQL MI pricing models to understand SQL MI billing to manage and analyze cost.
+    description: 'The Cloud brings a new set of technical capabilities and tools for your organization''s technical staff, as well as your business users.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Have appropriate governance about expenditure.
+    description: 'Have you considered how to implement cloud cost governance controls (Azure Policy, Resource Tags, Budgets).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: 'Collect and visualize key performance metrics to determine right resource level usage (vCore, memory, IOPS, etc).'
+    description: 'Verify if your database requires spcific number of cores, memory, IOPS and use it to determine right service tier (General Purpose or Business Critical).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.F
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: modeling-data-sqlmi
+uid: 032df19c-a470-4d2b-93c1-1044d67efd8c
+name: How is your organization modeling cloud costs?

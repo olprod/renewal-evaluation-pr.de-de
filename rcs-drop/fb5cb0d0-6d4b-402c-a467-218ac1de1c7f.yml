@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |
+  Your company has a Microsoft 365 E5 subscription.
+
+  You create the following sensitivity labels:
+
+  - General
+  - Confidential
+
+  You need to ensure that users can apply the sensitivity labels to email and documents.
+
+  Which policy type should you create?
+questionnaireUid: 9fbb14e6-a51e-4c9a-ad8d-6ec79ac27a4d
+questions:
+  - uid: fb5cb0d0-6d4b-402c-a467-218ac1de1c7f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Your company has a Microsoft 365 E5 subscription.
+        isCorrect: false
+      - id: 1
+        text: 'You create the following sensitivity labels:'
+        isCorrect: true
+      - id: 2
+        text: General
+        isCorrect: false
+      - id: 3
+        text: Confidential
+        isCorrect: false
+uid: fb5cb0d0-6d4b-402c-a467-218ac1de1c7f
+title: ''

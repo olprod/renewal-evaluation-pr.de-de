@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Create a deployment plan as redeploying the app service resource can reset the scaled units
+    url: /azure/advisor/advisor-performance-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f316904d-e93a-4182-b099-d3175441f1ef.6fc480f5-11c8-4406-a175-f33cadb09420.A
+      scoreOf: []
+    context: 'Automatic scaling rules apply during operation of the environment, but redeploying the app service may cause the plan to reset to the default number of units. Customers should be aware of this and plan for it during deployments. Deploy only during off-peak times; or deploy maximum units and allow automatic scaling to scale in/ down to prevent web site performance implications.'
+    priority: 50
+    reportingCategory: 'Upgrade, Migration and Deployment'
+    reportingSubCategory: Configuring for Deployment
+  - title: Review the Azure App Service Advisor recommendations
+    url: /azure/advisor/advisor-performance-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f316904d-e93a-4182-b099-d3175441f1ef.6fc480f5-11c8-4406-a175-f33cadb09420.B
+      scoreOf: []
+    context: 'App Service Advisor will give you real-time recommendations in the portal on resource exhaustion and conditions related to CPU, memory, and connections.'
+    priority: 25
+    reportingCategory: Operations and Monitoring
+    reportingSubCategory: Information Gathering
+  - title: Use a supported version of .NET
+    url: 'https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - f316904d-e93a-4182-b099-d3175441f1ef.6fc480f5-11c8-4406-a175-f33cadb09420.C
+      scoreOf: []
+    context: Upgrade your application to a supported version of .NET Core. .NET Core has a different support lifecycle compared to .NET Framework. With .NET Core there are Long Term Support and Current versions available. Long Term Support releases are supported for three years after their initial release. The Current releases are supported for three months after a subsequent Current or LTS release.
+    priority: 75
+    reportingCategory: 'Upgrade, Migration and Deployment'
+    reportingSubCategory: Configuring for Deployment
+uid: 8e855deb-7785-4ddf-b516-3c4d9cf3829e
+name: ''

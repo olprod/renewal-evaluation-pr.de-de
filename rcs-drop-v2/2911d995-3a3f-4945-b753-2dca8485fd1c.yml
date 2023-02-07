@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have daily stand-up meetings and/or also collaborate via work items, ChatOps, and other mechanisms.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: We communicate via email as and when necessary
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '2'
+    text: We prefer weekly calls to keep ourselves updated about our project
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Our teams work in silos and we only communicate when there are issues
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'Poor communication can lead to undesirable outcomes in your DevOps journey. You should communicate and collaborate with your team frequently. Consider having daily stand-up meetings and also collaborating via work items, ChatOps, and other mechanisms. '
+isRequired: true
+uid: 2911d995-3a3f-4945-b753-2dca8485fd1c
+name: Poor communication can lead to undesirable outcomes in your DevOps journey.

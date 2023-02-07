@@ -1,0 +1,19 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/virtual-machines/workloads/sap/planning-guide
+description: 'SAP applications are a critical technology backbone for many global enterprises, and Azure provides guidance to ensure that solutions are certified, supported, and successfully implemented. Organizations can optimize Azure''s agility to deploy SAP, automate deployment activities, configure systems, and perform other complex tasks for to ensure operational efficiency and controlled, code-malleable infrastructure deployments.'
+links:
+  - title: SAP on Azure Architecture - Designing for performance and scalability
+    url: /azure/virtual-machines/workloads/sap/planning-guide
+    condition:
+      allOf:
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      anyOf:
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 8f50c38d-d213-4167-b332-e17080ac89f1
+name: SAP on Azure Architecture - Designing for performance and scalability

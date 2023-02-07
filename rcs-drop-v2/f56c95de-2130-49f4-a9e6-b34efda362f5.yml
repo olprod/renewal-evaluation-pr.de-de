@@ -1,0 +1,21 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This focusses on organization's readiness to adopt Data Mesh.
+hideEmptyGuidance: false
+questions:
+  - 50455da4-c4ec-4faa-92ca-604e424439ff
+  - dfbaca0d-1117-4e65-89db-05114e4f1986
+  - 1e0492ee-c236-4c0d-ba2a-511d838468a2
+  - d2dd75b8-e091-46ee-8ff5-526787e4713e
+  - bd72b620-66a4-44d5-8e82-2e4416f4a5a1
+  - d41c30c1-e323-40b3-8985-0632cace43a3
+  - 1630ec8d-f5bb-4b89-9889-d4608eb78c41
+  - 284a2041-df52-4bd5-b651-44d4c895dd73
+  - 1bf6c61e-7b63-441f-8fc2-3b315ef1c06a
+  - 09db5554-3c16-4994-a2d9-1021239563e2
+  - 24307090-b380-4afe-bd68-ab8d313447af
+recommendations:
+  - 1d9dcdfb-5956-47f4-8d52-93195076011a
+assignedGroupIds: []
+uid: f56c95de-2130-49f4-a9e6-b34efda362f5
+name: Maturity Framework - Data Mesh

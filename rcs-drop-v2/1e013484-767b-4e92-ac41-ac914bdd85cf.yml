@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider moving to the Premium SKU for better performance
+    url: /azure/container-registry/container-registry-skus#changing-tiers
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6cc0ca02-1971-4326-9725-baee82fafb3c.0ccfb8c9-003b-49de-ab57-e56025c6ff7c.A
+      scoreOf: []
+    context: 'The Standard SKU is suitable for production workloads, supporting increased bandwidth, storage and read/write operations per minute compared to the Basic SKU. Be aware that there are additional features supported by ACR such as private networking, Geo-replication and content trust that are recommended for security and high-availability. To take advantage of these features, consider moving to the Premium SKU.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Consider co-locating the container registry with its deployment target
+    url: /azure/container-registry/container-registry-best-practices#network-close-deployment
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6cc0ca02-1971-4326-9725-baee82fafb3c.0ccfb8c9-003b-49de-ab57-e56025c6ff7c.B
+      scoreOf: []
+    context: It is best practice to create your container registry in the same Azure region in which you deploy containers. Network-close deployment is one of the primary reasons for using a private container registry. Docker images have an efficient layering construct that allows for incremental deployments.
+    priority: 50
+    reportingCategory: Cost Optimization
+    reportingSubCategory: 'Resiliency '
+uid: 1e013484-767b-4e92-ac41-ac914bdd85cf
+name: ''

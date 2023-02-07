@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Familiarize yourself with Microsoft development tools
+    url: 'https://docs.microsoft.com/visualstudio'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - ebe489bc-99f0-45b6-9e50-bae8c0cd1fa5<34
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review Azure Well-Architected guidance on testing
+    url: 'https://docs.microsoft.com/azure/architecture/framework/devops/release-engineering-testing'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - ebe489bc-99f0-45b6-9e50-bae8c0cd1fa5<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Explore Azure Test Plans if you want to structure manual testing and prepare to automate
+    url: 'https://aka.ms/developervelocity-cta-testing-low'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - ebe489bc-99f0-45b6-9e50-bae8c0cd1fa5<34
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn how to publish web apps on Azure
+    url: 'https://aka.ms/developervelocity-cta-tools-med'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - ebe489bc-99f0-45b6-9e50-bae8c0cd1fa5<67
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review content in the DevOps resource center to further improve your process
+    url: 'https://docs.microsoft.com/devops/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - ebe489bc-99f0-45b6-9e50-bae8c0cd1fa5>66
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 77084de2-a4e6-4f33-9d27-85786c4f8be5
+name: 'Integration, Delivery and Tooling'

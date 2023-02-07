@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes, you set retention policies in the built-in Event Hubs (maximum of 7 days).'
+    description: Data retention time in Azure IoT Hub depends on your IoT hub tier and unit type.
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: You don't retain data in Azure IoT Hub and use downstream storage to store data until processed.
+    description: 'Message routing enables you to send messages from your devices to cloud services in an automated, scalable, and reliable manner. There are two storage services Azure IoT Hub can route messages to: Azure Blob Storage and Azure Data Lake Storage Gen2 (ADLS Gen2) accounts.'
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Azure IoT Hub can store messages for up to seven days so that backend services can read old messages, even if they couldn''t read them when they arrived.'
+isRequired: false
+uid: efe34955-b7d9-4200-b7e0-f8bd497302d9
+name: 'Azure IoT Hub can store messages for up to seven days so that backend services can read old messages, even if they couldn''t read them when they arrived. Q14.'

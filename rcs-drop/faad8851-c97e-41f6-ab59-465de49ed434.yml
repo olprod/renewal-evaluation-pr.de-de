@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to assign a permission that grants the right to view data within an object. The solution must use the principle of least privilege.
+
+  Which permission should you assign?
+questionnaireUid: 689b3ebe-5d71-44d2-b388-6223ef8c1df4
+questions:
+  - uid: faad8851-c97e-41f6-ab59-465de49ed434-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You need to assign a permission that grants the right to view data within an object.
+        isCorrect: false
+      - id: 1
+        text: The solution must use the principle of least privilege.
+        isCorrect: false
+      - id: 2
+        text: Which permission should you assign?
+        isCorrect: true
+      - id: 3
+        text: CONTROL
+        isCorrect: false
+uid: faad8851-c97e-41f6-ab59-465de49ed434
+title: ''

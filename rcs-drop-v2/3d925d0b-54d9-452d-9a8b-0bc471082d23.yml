@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Platform protection (SC-100 Prerequisites)
+hideEmptyGuidance: false
+questions:
+  - 509630e2-1f59-42c5-b10e-feb98cb25c6a
+  - db6a63b3-012e-4791-ae9a-95945e50da6a
+recommendations:
+  - c8dd5fb6-1cb4-4836-9c90-853074a3cef9
+assignedGroupIds: []
+uid: 3d925d0b-54d9-452d-9a8b-0bc471082d23
+name: Platform protection (SC-100 Prerequisites)

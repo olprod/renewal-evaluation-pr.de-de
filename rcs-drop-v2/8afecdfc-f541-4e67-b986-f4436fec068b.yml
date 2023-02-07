@@ -1,0 +1,80 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Data Encryption enabled for data on persistent storage.
+    description: |-
+      Azure offers a variety of data storage solutions including files, disks, blobs, and tables. Some Azure Storage data encryption at rest occurs by default with optional customer configuration.
+      Server-side encryption (SSE) for SAP on Azure VMs protects your data and helps you meet organizational security and compliance commitments. SSE automatically encrypts data at rest on Azure-managed OS and data disks when persisting data to the cloud. 
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Encryption enabled for data In-Transit.
+    description: |-
+      Data is in transit or in flight when it moves from one location to another, whether internally on-premises or within Azure, or externally, like across the internet to the end user. Azure offers several mechanisms to keep data private in transit. All the mechanisms can use protection methods like encryption. These mechanisms include:
+
+      Communication through virtual private networks (VPNs), using IPsec/IKE encryption Transport Layer Security (TLS) 1.2 or later via Azure components like Azure Application Gateway or Azure Front Door Protocols available on the Azure VMs, like Windows IPsec or SMB
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Database specific encryption implemented.
+    description: Database native options can be implemented to encrypt the data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: https only communication allowed via Application Gateway /SAP Web-Dispatcher.
+    description: http can be blocked by forcing communication only on https
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: SAP specific parameters activated to enable secure connectivity.
+    description: ' message server internal port, admin port for web dispatcher.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '5'
+    text: SAP Secure Network Communication (SNC) Encryption configured
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '6'
+    text: Database backups are encrypted.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 8afecdfc-f541-4e67-b986-f4436fec068b
+name: How are you managing encryption for this workload

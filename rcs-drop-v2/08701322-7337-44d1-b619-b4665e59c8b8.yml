@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: C
+    text: Use Azure Databricks Shared High Concurrency Clusters on AI workloads.
+    description: 'Interactive AI workloads entails minimizing cost variability and optimizing for latency over throughput, while providing a secure environment. These goals are satisfied by shared High Concurrency clusters with Table access controls or Azure Active Directory Passthrough turned on (in case of ADLS).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Use Petastorm within Azure Databricks AI loads.
+    description: 'Petastorm is an open source data access library that enables single-node or distributed training and evaluation of deep learning models directly from datasets in Apache Parquet format and datasets that are already loaded as Apache Spark DataFrames supporting Python-based machine learning (ML) frameworks such as Tensorflow, PyTorch, and PySpark.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Use TFRecord format as the data source for distributed deep learning in Azure Databricks.
+    description: TFRecord format is a simple record-oriented binary format that many TensorFlow applications use for training data helping handing the AI user load.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: TBD
+isRequired: false
+legacyId: '2'
+uid: 08701322-7337-44d1-b619-b4665e59c8b8
+name: TBD

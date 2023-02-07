@@ -1,0 +1,24 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have an Azure Digital Twins instance.
+
+  You are creating a solution to route telemetry data to an Endpoint.
+
+  Routed telemetry data can be filtered before the data is sent to an endpoint.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: f09699db-4203-4a18-ba12-f57d9ff4b7dc
+questions:
+  - uid: e58d9036-07a3-4804-95b5-ee7281acc054-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have an Azure Digital Twins instance.
+        isCorrect: true
+      - id: 1
+        text: You are creating a solution to route telemetry data to an Endpoint.
+        isCorrect: false
+uid: e58d9036-07a3-4804-95b5-ee7281acc054
+title: Routed telemetry data can be filtered before the data is sent to an endpoint.

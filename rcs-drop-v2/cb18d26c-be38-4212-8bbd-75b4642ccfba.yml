@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: H
+    text: 'Segregate of environments into development, test, and production workspaces.'
+    description: 'Each environment is secured through service endpoints, private endpoints, VNets, and Azure role-based access controls (RBAC).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: I
+    text: Know the Azure subscription limits that may impact this workload.
+    description: 'Azure has default and common limits, which are also sometimes called quotas. Some can be changed directly or others by working with your Microsoft contact.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: J
+    text: Use the Azure security baseline for Azure Machine Learning.
+    description: The Azure security baseline provides recommendations on how you can secure your cloud AI solution on Azure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: K
+    text: Set up separate workspaces for each publish environment.
+    description: 'Development, testing, and production environments support machine learning operations processes.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: L
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.ai
+stem: 'As you provision and update Azure resources, application code, and configuration settings, a repeatable and predictable process will help you avoid errors and downtime.'
+isRequired: false
+legacyId: '2'
+uid: cb18d26c-be38-4212-8bbd-75b4642ccfba
+name: 'As you provision and update Azure resources, application code, and configuration settings, a repeatable and predictable process will help you avoid errors and downtime.'

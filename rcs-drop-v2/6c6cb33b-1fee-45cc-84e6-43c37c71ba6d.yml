@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Risky users / Risky Sign-in reports are ingested by the SIEM solution.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: Risk detections from Azure AD Identity protection are treated as incidents.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: A designated team is responsible for work with the risk detections and address false positives / false negatives.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.0
+  anyOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.1
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.3
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 6c6cb33b-1fee-45cc-84e6-43c37c71ba6d
+name: How do you use Azure AD Identity Protection?

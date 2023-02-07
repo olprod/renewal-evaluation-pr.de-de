@@ -1,0 +1,51 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We have not yet thought about, or planned, how we might transition our business processes as part of this project.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'Our objective is to add business value by transforming some of our existing business processes to take advantage of new technologies and capabilities, but we have not included those envisioning activities in our plans yet.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: We have specific business transformation objectives for this project and we will use a business process oriented approach to ensure we meet those objectives when designing our new applications.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'We have documented business transformation objectives, we have plans to document the changes to our existing business processes to enable them, we will monitor our user stories and backlog requirements to ensure we are sticking to our change objectives.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  It may be advantageous to try and reimagine existing business processes while planning your implementation project in order to drive greater business value.
+
+  Which of these statements best describes your organization's plans to evaluate opportunities for process improvements?
+isRequired: true
+uid: 7603f704-b871-4d19-81d5-06e21bbbbb18
+name: It may be advantageous to try and reimagine existing business processes while planning your implementation project in order to drive greater business value.

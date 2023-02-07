@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |+
+  You are working on a customer journey that is triggered when someone is registered for an event through a custom trigger. The registration form allows the respondent to indicate whether they want to be contacted before the event. This information is an attribute on the custom trigger. 
+
+  You need to make sure that when customers want to be contacted, an activity record is created through the customer journey. 
+
+  Which two steps should you perform? Each correct answer presents part of the solution. 
+
+questionnaireUid: 5582248e-bdd0-46ab-96a1-4c1702e318c3
+questions:
+  - uid: f2f04df7-0524-4389-b875-8ada7ff7717b-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are working on a customer journey that is triggered when someone is registered for an event through a custom trigger. The registration form allows the respondent to indicate whether they want to be contacted before the event.
+        isCorrect: true
+      - id: 1
+        text: 'This information is an attribute on the custom trigger. You need to make sure that when customers want to be contacted, an activity record is created through the customer journey.'
+        isCorrect: false
+      - id: 2
+        text: 'Which two steps should you perform? '
+        isCorrect: true
+      - id: 3
+        text: Each correct answer presents part of the solution.
+        isCorrect: false
+    manualId: mb-220.10.4
+uid: f2f04df7-0524-4389-b875-8ada7ff7717b
+title: ''
+manualId: ''

@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes. Our organization architect global decisions and standards for interoperability while respecting autonomy of local domains, and implement global policies effectively.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'No. Our organization does not architect global decisions and standards for interoperability while respecting autonomy of local domains, and implement global policies effectively.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Does your organization architect global decisions and standards for interoperability, while respecting autonomy of local domains, and implement global policies effectively (i.e. data quality, data security, regulations, data modeling)?'
+isRequired: true
+uid: 284a2041-df52-4bd5-b651-44d4c895dd73
+name: 'Does your organization architect global decisions and standards for interoperability, while respecting autonomy of local domains, and implement global policies effectively (i.e. data quality, data security, regulations, data modeling)?'

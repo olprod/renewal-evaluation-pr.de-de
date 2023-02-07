@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Configure Microsoft Defender for Servers (not including Microsoft Defender for Endpoint) • Evaluate vulnerability scans from Microsoft Defender for Cloud • Configure Microsoft Defender for SQL • Use the Microsoft Threat Modeling Tool'
+isRequired: true
+uid: 872cdbc4-ad34-4605-a569-9d3a38bb44fd
+name: 'For example: Configure Microsoft Defender for Servers (not including Microsoft Defender for Endpoint) • Evaluate vulnerability scans from Microsoft Defender for Cloud • Configure Microsoft Defender for SQL • Use the Microsoft Threat Modeling Tool '

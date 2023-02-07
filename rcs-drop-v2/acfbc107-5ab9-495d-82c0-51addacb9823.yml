@@ -1,0 +1,162 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: Description for localization recommendations
+links:
+  - title: Globalization Studio overview
+    url: 'https://learn.microsoft.com/en-us/dynamics365/finance/localizations/globalization-studio-overview?context=%2Fdynamics365%2Fcontext%2Fcommerce'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 10
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Fiscal registration service integration for Austria
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/emea-aut-fi-sample'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.0
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce localization for Brazil
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/latam-bra-commerce-localization'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce localization for Eastern Europe
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/emea-eeu-advance-invoices-for-retail'
+    condition:
+      allOf: []
+      anyOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.2
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce localization for France
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/emea-fra-cash-registers'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.4
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Localization for Germany
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/emea-deu-fi-sample'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.5
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce localization for India
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/apac-ind-cash-registers'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.6
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce Localization for Italy
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/emea-ita-fpi-sample'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.7
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce localization for Mexico
+    url: 'https://learn.microsoft.com/en-us/dynamics365/finance/localizations/latam-mex-global-cfdi-3-3?context=%2Fdynamics365%2Fcontext%2Fcommerce'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.8
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce localization for Norway
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/emea-nor-cash-registers'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.9
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce localization for Russia
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/rus-commerce-localization'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.10
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce localization for Saudi Arabia
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/emea-sau-qr-code?tabs=commerce-10-0-25'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.11
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Commerce localization for Sweden
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/localizations/emea-swe-cash-registers?tabs=retail-10-0-6'
+    condition:
+      allOf:
+        - 162de987-12e6-4057-b1d1-be7cfeac62da.dbf17e66-c4b9-42dd-b19d-b217f287855f.12
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 2
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: acfbc107-5ab9-495d-82c0-51addacb9823
+name: Localization

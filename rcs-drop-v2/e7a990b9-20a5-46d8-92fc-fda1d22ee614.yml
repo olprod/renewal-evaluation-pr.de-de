@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Do you track the dependencies of your database and solution components? '
+    description: Specific solution components can have a dependency chain on other dependent components which must be successfully deployed before workloads begin.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Are you building your database using DevOps tools.
+    description: SQL DevOps provides guidance on how to use existing tools such as Data Tools for integrating your database development into your CICD process.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Do you have an orchestration system in place to deploy your database?
+    description: The task of automating and managing a large number of databases and how they interact is known as orchestration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: NOA
+    text: None of the Above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: design-data-sqldb
+uid: e7a990b9-20a5-46d8-92fc-fda1d22ee614
+name: How are you designing your applications to take into account DevOps

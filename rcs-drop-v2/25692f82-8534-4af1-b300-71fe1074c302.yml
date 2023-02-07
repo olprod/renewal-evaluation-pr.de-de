@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization has no MLOps in place with data being gathered, scored and deployed manually.'
+    description: 'Your organization has no MLOps in place with data being gathered, scored and deployed manually.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization practices DevOps but no MLOps with data pipelines gathering data automatically but scoring and deployment is still manual.
+    description: Your organization practices DevOps but no MLOps with data pipelines gathering data automatically but scoring and deployment is still manual.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has implemented Automated Training with data pipelines gathering data automatically, scoring scrip running with version control, and deployment tests exists for testing the model.'
+    description: 'Your organization has implemented Automated Training with data pipelines gathering data automatically, scoring scrip running with version control, and deployment tests exists for testing the model before it can be deployed.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization leverages Automated Model Deployment with data and compute being managed automatically as needed, scoring, release and unit testing, and deployment performed automatically.'
+    description: 'Your organization leverages Automated Model Deployment with data and compute being managed automatically as needed, scoring, release and unit testing, and deployment performed automatically.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your organization is utilising full MLOps Automated Retraining capabilities with fully automated model creation, model release and application integration.'
+    description: 'Your organization is utilising full MLOps Automated Retraining capabilities with fully automated model creation, model release and application integration.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you use currently use Machine Learning Operations (MLOps) principles and practices to manage full machine learning model lifecycle in an automated and monitored approach? 
+isRequired: true
+uid: 25692f82-8534-4af1-b300-71fe1074c302
+name: Do you use currently use Machine Learning Operations (MLOps) principles and practices to manage full machine learning model lifecycle in an automated and monitored approach?

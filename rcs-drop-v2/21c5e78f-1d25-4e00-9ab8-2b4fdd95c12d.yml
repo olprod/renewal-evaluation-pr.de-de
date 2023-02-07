@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Hub and spoke design pricing is understood.
+    description: 'Virtual WAN has costs that are different in hub and spoke design. The cost of the peering network or other service routing has to be included. If Private Link is deployed, peering is not billed - only private link.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: '1'
+    text: Microsoft backbone network is preferred while connecting SAP workload to Azure Services.
+    description: 'If users are closer to the cloud than on-premises, Microsoft backbone and ExpressRoute or VPN Gateway should be used for network traffic (i.e. egress).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: Azure Native Services (e.g. Azure App Gateway or Web Application Firewall) is used for SAP workload with internet facing access.
+    description: 'There are cost implications to using Front Door with Web Application Firewall enabled, but it can save costs compared to using a 3rd party solution. Front Door has a good latency, because it uses unicast. If only 1 or 2 regions are required, Application Gateway can be used. There are cost implications of having a Web Application Firewall – you should check pricing of hours and GB/s.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '3'
+    text: The SAP VNets connected within/across regions (using network peering or gateways).
+    description: Data exchange between regions has cost implications. Peering within the same region is cheaper than peering between regions. Inbound and outbound traffic is charged at both ends of the peered networks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Azure resources are connecting to the internet via on-premises.
+    description: 'Tunnelling internet traffic through on-premises can add extra cost as data has to go back to local network before it reaches the internet, this cost should be acknowledged.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '5'
+    text: Orphaned resources are identified and cleaned-up regularly.
+    description: Orphaned resourced must be identified regularly using tools like Azure Workbook or customer preferred tools.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: 21c5e78f-1d25-4e00-9ab8-2b4fdd95c12d
+name: How do you manage the networking costs for SAP workload?

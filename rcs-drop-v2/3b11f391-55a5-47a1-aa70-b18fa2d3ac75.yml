@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Automate deployment based on the application lifespan.
+    description: Does your service run seasonally or follow long-term patterns?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Use DevOps and deployment automation.
+    description: 'In an on-premises environment, we do not typically have the luxury of being able to access APIs to turn on/off, or scale up/down or even drop and re-deploy workloads, in the same way as we do in the cloud.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Configure scaling policies for workloads (both in and out).
+    description: 'For certain solutions, capacity requirements may swing over time, scaling policies allow for less error-prone operations and cost savings through robust automation. This includes also deleting environments and re-creating them instead of scale-up / scale-down.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: Deploy the database/instances in the same region as your application to prevent data transfer costs.
+    description: Deploying SQL MI in one region and other services like App Service in another region can generate additional cross regions data transfer costs
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Choose appropriate services tiers that match business requirements.
+    description: Any architecture planning starts with a careful enumeration of requirements. Verify if you need General Purpose or Business Critical tier.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: "Make sure to adjust\_storage size to real needs."
+    description: Storage can be easly added to a running instance. Deploying storage which is not used can generate additional cost.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: Verify if instances needs to be deployed in a multi-region scenario (Instance Failover Groups).
+    description: 'If workload does not require multi-region availability, use single region deployment based on correct tier General Purpose or Business Critical and included HA/DR options'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: 3b11f391-55a5-47a1-aa70-b18fa2d3ac75
+name: How do you ensure that cloud resources are appropriately provisioned?

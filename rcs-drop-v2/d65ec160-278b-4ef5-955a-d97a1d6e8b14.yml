@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: The data volumes and metrics of the solution are well defined.
+    description: 'The data volumes and metrics of the solution are well defined. This includes the number of devices, the number of messages per device, the frequency and amount of data for each message, and the ingestion patterns (real-time, batch).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: You've chosen the Azure IoT Hub basic or standard tier based on the solution feature requirements.
+    description: 'Choose Azure IoT Hub basic or standard tier based on solution feature requirements. Basic tier supports device registration and identity, and device-to-cloud communication. Standard tier supports all functionality including bi-directional communication, Azure IoT Edge, and device/module twins.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: 'You''ve chosen the Azure IoT Hub tier and number of instances based on data throughput, quotas, and operation throttles.'
+    description: 'The Azure IoT Hub tier (B1, B2, B3, S1, S2, or S3) and number of units are chosen based on data throughput, quotas, and operation throttles. Most quotas and limits are per Azure IoT Hub unit.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: You calculate your daily quota for Azure IoT Hub based on a 4KB message size.
+    description: Azure IoT Hub has 4KB message size that it uses to calculate daily quotas.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: You've enabled auto-scaling for all PaaS and IaaS services that support it.
+    description: 'Enable autoscaling for all PaaS and IaaS services that support it. Although Azure IoT Hub doesn''t have built-in autoscaling, you can enable it by following the guidance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Based on the data volumes, number of devices and messages, the right cloud gateway tier can be selected for your Azure IoT Hub service.'
+isRequired: false
+uid: d65ec160-278b-4ef5-955a-d97a1d6e8b14
+name: 'Based on the data volumes, number of devices and messages, the right cloud gateway tier can be selected for your Azure IoT Hub service. Q14.'

@@ -1,0 +1,35 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are configuring Dynamics 365 for a company that franchises hair salons and tanning salons. Omnichannel for Customer Service is deployed.
+
+  The hair salons and tanning salons have many locations.
+
+  You deploy a self-service portal so that customers can look up issues surrounding tanning, tanning beds, and tanning bed options.
+
+  For issues where no information is available on the self-service portal, customers must contact the call center. When they call in, their interactions on the self-service portal must be made available to the customer service agents who take their call.
+
+  Which two actions should you perform? Each correct answer presents part of the solution.
+questionnaireUid: 3acd0dc3-4fb4-4e08-ae39-221a3e5d8ec0
+questions:
+  - uid: f24cd8fc-0a5c-42cf-a836-937e850d5f7f-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are configuring Dynamics 365 for a company that franchises hair salons and tanning salons.
+        isCorrect: false
+      - id: 1
+        text: Omnichannel for Customer Service is deployed.
+        isCorrect: false
+      - id: 2
+        text: The hair salons and tanning salons have many locations.
+        isCorrect: true
+      - id: 3
+        text: 'You deploy a self-service portal so that customers can look up issues surrounding tanning, tanning beds, and tanning bed options.'
+        isCorrect: true
+      - id: 4
+        text: 'For issues where no information is available on the self-service portal, customers must contact the call center.'
+        isCorrect: false
+uid: f24cd8fc-0a5c-42cf-a836-937e850d5f7f
+title: ''

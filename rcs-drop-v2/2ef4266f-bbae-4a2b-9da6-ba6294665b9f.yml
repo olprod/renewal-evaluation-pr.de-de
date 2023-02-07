@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Security operations (SC-100 Prerequisites)
+hideEmptyGuidance: false
+questions:
+  - 872cdbc4-ad34-4605-a569-9d3a38bb44fd
+  - b5ae3ba3-a08c-44a3-8644-53eabce80afd
+recommendations:
+  - 54ca0456-8517-4c4e-a9c7-e4669124fc0e
+assignedGroupIds: []
+uid: 2ef4266f-bbae-4a2b-9da6-ba6294665b9f
+name: Security operations (SC-100 Prerequisites)

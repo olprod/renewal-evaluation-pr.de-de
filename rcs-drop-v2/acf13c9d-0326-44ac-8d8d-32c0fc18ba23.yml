@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We use a secure key management service to manage all our secrets
+    description: A key management service can be integrated with many IaC tools and configurations to ensure that the person conducting the deployment doesn't need access to production secrets. Using a secret store with your infrastructure deployments ensures that you are adhering to the security principle of least privilege.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: Our secrets are encrypted and we have processes that use the encrypted secrets during our deployments
+    description: 'Though secrets are encrypted, a key management service would centralize your keys and allow you to implement the principle of least privilege.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 80
+  - id: '2'
+    text: 'Secrets are maintained in our IaC scripts, but access to the scripts is closely guarded and controlled'
+    description: 'With an access control mechanism in-front of your process, you still have keys in the clear in your scripts.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '3'
+    text: Secrets are in our IaC scripts
+    description: 'Without a clear protection policy with secrets in your IaC scripts, you run the risk of the person deploying your infrastructure having access to secrets they should not have access to.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Most solutions require secrets to be maintained and managed. These include connection strings, API keys, client secrets, and certificates. Following an IaC approach means that you need to adopt best practices for managing secrets.'
+isRequired: true
+uid: acf13c9d-0326-44ac-8d8d-32c0fc18ba23
+name: Most solutions require secrets to be maintained and managed.

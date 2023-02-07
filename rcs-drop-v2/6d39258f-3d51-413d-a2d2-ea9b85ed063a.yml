@@ -1,0 +1,150 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Evaluate the available App Service plans in addition to the Basic plan
+    url: 'https://azure.microsoft.com/en-gb/pricing/details/app-service/plans/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.A
+      scoreOf: []
+    context: 'Basic App Service plans are great for introductory services. They are provided with an 99.95% SLA. However, they lack features such as Deployment Slots, VNET Integration and auto-scaling. The maximum number of instances is also limited to 3.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Ensure the web application's resources are co-located in the same region as the App Service
+    url: /azure/app-service/app-service-best-practices#colocation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.B
+      scoreOf: []
+    context: 'To decrease latency between resources, and reduce monetary charges for outbound data transfer cross-region, it is recommended to co-locate resources in the same region. When creating resources, make sure they are in the same Azure region unless you have specific business or design reason for them not to be. You can move an App Service app to the same region as your database by using the App Service cloning feature currently available for Premium App Service Plan apps.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Enable autoscale on app service
+    url: /azure/azure-monitor/platform/autoscale-get-started
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.C
+      scoreOf: []
+    context: 'Autoscale enables you to dynamically scale apps to meet changing demand and therefore maximize app responsiveness, anticipate load with different schedules and ultimately save money.'
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Configure autoscale rules to scale in/out to reduce cost
+    url: /azure/azure-monitor/platform/autoscale-get-started
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.D
+      scoreOf: []
+    context: 'Autoscale can be configured to scale up/ out automatically, but corresponding rules should also be set to scale in/out to reduce cost during off-peak.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Avoid using deployment slots for performance testing
+    url: /azure/azure-monitor/platform/autoscale-get-started
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.E
+      scoreOf: []
+    context: 'Deployment Slots run on the same underlying resources. Therefore, running a performance test against a slot could impact your production slot.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Enable Always On for your applications
+    url: /azure/app-service/faq-availability-performance-application-issues#how-do-i-decrease-the-response-time-for-the-first-request-after-idle-time
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.F
+      scoreOf: []
+    context: Enable Always On for your applications. The default configuration of an App Service is to shutdown after 20 minutes of inactivity. When a requests comes in after this time the application has to start again. This could result in a slower response as the application needs to startup again. With Always On enabled this behavior does not occur.
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Leverage HTTP/2 for your application
+    url: 'https://azure.microsoft.com/en-us/blog/announcing-http-2-support-in-azure-app-service/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.G
+      scoreOf: []
+    context: Leverage HTTP/2 for your application. HTTP/2 is the successor of HTTP/1.1 which was designed back in 1996. It offers a better performance and can result in clients loading your application faster.
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Reduce initial request duration by implementing Application Initialization
+    url: /iis/configuration/system.webserver/applicationinitialization/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.H
+      scoreOf: []
+    context: Reduce initial request duration by implementing Application Initialization. It's very common for web applications to experience a slow start. In that case the first request to an application will trigger it to start and this could take several seconds to minutes. By implementing Application Initialization you can ensure that the App Service does not wait for the first user to warm up.
+    priority: 75
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Scale out your web app across multiple instances
+    url: /azure/monitoring-and-diagnostics/insights-how-to-scale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.I
+      scoreOf: []
+    context: Scale out to three instances. These instances are in different upgrade domains and hence will not be upgraded at the same time. While one worker instance is getting upgraded the other is still active to serve web requests.
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Enable local cache utilization
+    url: /azure/app-service/overview-local-cache
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.J
+      scoreOf: []
+    context: 'The Azure App Service Local Cache feature provides a web role view of your content. This content is a write-but-discard cache of your storage content that is created asynchronously on-site startup. If your local cache is not configured, your site is at risk of being restarted in case of transient storage failures.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Check for slow requests in your application
+    url: 'https://azure.github.io/AppService/2020/05/15/Robust-Apps-for-the-cloud.html'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.K
+      scoreOf: []
+    context: Requests taking longer than 240 seconds are responded back with 500 in order to conserve resources. Check to see if a request is exceeding timeout threshold detected in the last hour.
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Check temp file usage on workers
+    url: 'https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 919f0a95-4b26-4bb4-afde-b4c460e7e090.e90d9587-73a7-47ae-9330-5721738637df.L
+      scoreOf: []
+    context: 'A number of common Windows locations are using temporary storage on the local machine. Temp files are located in ''D:localTemp'' and ''D:localAppData'' folder. Unlike Persisted files, these files are not shared among site instances. Temp file space usage on all the workers hosting the webapp should be below 60% of their assigned quota.'
+    priority: 25
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Capacity Management Processes
+uid: 6d39258f-3d51-413d-a2d2-ea9b85ed063a
+name: ''

@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Implement retry logic for transient errors to avoid connection interruption when scaling or when planned or unplanned failovers occur.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Use Intelligent Performance capabilities to provide performance tuning recommendations and automatic tuning options to improve performance.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'If you are using read-only replicas, then monitor data replication latency.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Use scripting and automation to monitor and scale SQL Database resources if your workload benefits from it.
+    description: Make sure your thresholds are well defined to prevent scaling from happening too frequently.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Have an overall monitoring strategy for scalability.
+    description: 'The overall monitoring strategy should take into consideration not only scalability, but resiliency (infrastructure, application, and dependent services), and application performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 0dcffc23-8b2a-4338-b4f7-18cdb421c309
+name: How are you monitoring to ensure the workload is scaling appropriately?

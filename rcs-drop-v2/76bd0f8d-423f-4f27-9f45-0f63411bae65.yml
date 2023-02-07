@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Identity and Access (SC-100 Prerequisites)
+hideEmptyGuidance: false
+questions:
+  - 1492a72b-616e-4707-99c7-6b630ed74f45
+  - 08915559-2b14-476b-9705-c96a70d77517
+  - fdb4a21a-e5d1-4ea0-8ed2-304a13769c0e
+  - 17b83782-e866-4695-9c1f-85dcf5f46d3d
+recommendations:
+  - f521607b-90b7-4b1c-9847-70a7b6c26a1d
+assignedGroupIds: []
+uid: 76bd0f8d-423f-4f27-9f45-0f63411bae65
+name: Identity and Access (SC-100 Prerequisites)

@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organizations task employees to review and research of technical data via tedious manual process to read page after page of dense text. '
+    description: 'Your organizations task employees to review and research of technical data via tedious manual process to read page after page of dense text. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization understands the benefits of knowledge mining and how this capability can quickly identify entities of importance from discovery documents and flag important ideas across documents.
+    description: Your organization understands the benefits of knowledge mining and how this capability can quickly identify entities of importance from discovery documents and flag important ideas across documents.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization leverages knowledge mining through a search index makes it easy for end customers and employees to locate what they are looking for faster.
+    description: Your organization leverages knowledge mining through a search index makes it easy for end customers and employees to locate what they are looking for faster.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization fully leverages orchestrating various AI capabilities such as knowledge mining to deliver an enhanced experience that enables your organization to gain insights faster from content that would otherwise remain untapped.
+    description: Your organization fully leverages orchestrating various AI capabilities such as knowledge mining to deliver an enhanced experience that enables your organization to gain insights faster from content that would otherwise remain untapped.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization fully leverages orchestrating knowledge mining and reviews key performance indicators regularly to measure success of implementation.
+    description: Your organization fully leverages orchestrating knowledge mining and reviews key performance indicators regularly to measure success of implementation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you currently have ability to extract knowledge from myriad of text-based content from files and other structured datastores?
+isRequired: true
+uid: ba306fd1-487c-4ea4-845b-e62571fe11f5
+name: Do you currently have ability to extract knowledge from myriad of text-based content from files and other structured datastores?

@@ -1,0 +1,162 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: DevOps processes should be used for continuous integration and continuous deployment (CI/CD). All manual tasks should be avoided.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#devops-processes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.c0ebe08d-c570-45a0-ab02-fd66c047dc89.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define configuration settings and updates for application components or underlying infrastructure as code and provide E2E automation.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.c0ebe08d-c570-45a0-ab02-fd66c047dc89.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define configuration settings and updates for application components or underlying infrastructure as code and provide E2E automation.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.c0ebe08d-c570-45a0-ab02-fd66c047dc89.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Include infrastructure components into the team''s responsibilities to ensure that DevOps teams manage all application resources. '
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#devops-processes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.628afc52-2f12-4f42-866f-7362fa5dbfa0.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: End-to-end responsibility across all engineering disciples increases application reliability. Flexibility and autonomy are crucial for the operational success of a mission-critical application.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.628afc52-2f12-4f42-866f-7362fa5dbfa0.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Pipelines are an integrated part of the CI/CD process and should be managed by the DevOps team.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.628afc52-2f12-4f42-866f-7362fa5dbfa0.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Apply a zero trust model within critical application environments, using capabilities such as Azure AD Privileged Identity Management (PIM) to ensure consistent operations only occur through CI/CD processes or automated operational procedures.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#application-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.628afc52-2f12-4f42-866f-7362fa5dbfa0.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Updates and configuration changes must be applied holistically. It's crucial that every change that goes into a mission-critical system follows the same quality assurance processes.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#application-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.7675a035-de7a-4408-aff3-a4522b867179.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Don''t take a dependency on centralized resources or processes for management of any type of resources, since this introduces external application dependencies and additional risks.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.7675a035-de7a-4408-aff3-a4522b867179.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Update and change processes should be handled within the same pipelines as any other changes.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#application-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.7675a035-de7a-4408-aff3-a4522b867179.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use an active-active deployment model and prioritize the use of Azure-native auto-scale functionality whenever possible.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#application-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.d4752ae4-aa16-4209-902f-a8c1c75d36ae.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use an active-active deployment model and prioritize the use of Azure-native auto-scale functionality whenever possible.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#application-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.d4752ae4-aa16-4209-902f-a8c1c75d36ae.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use an active-active deployment model and prioritize the use of Azure-native auto-scale functionality whenever possible.
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures#application-operations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ac6f422a-9eac-44a3-ae58-f17d3df92731.d4752ae4-aa16-4209-902f-a8c1c75d36ae.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: e9ec6de4-4d3e-4d65-a37f-83ce88ce45f4
+name: ''

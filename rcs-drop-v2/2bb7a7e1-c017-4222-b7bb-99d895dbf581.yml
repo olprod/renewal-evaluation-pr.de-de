@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Devices are regularly issued with renewable credentials for continuous, secure operations.'
+    description: 'After a device registers with an IoT solution using its onboarding credentials, renewable credentials must be regularly issued for continuous, secure operations. A device''s renewable credentials support its operational identity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'Operational certificates are provisioned from a trusted PKI, and have an appropriate renewal lifetime.'
+    description: 'Operational certificates are provisioned from a trusted PKI, and have a renewal lifetime appropriate for the security posture of their business use.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Operational certificate renewal is automatic.
+    description: Operational certificate renewal must be automatic to minimize any potential access disruption due to manual rotation. Renewal may be dependent on device health.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Access granted to a device is based on its operational identity.
+    description: 'Access to the IoT solution for everyday use should only be granted based on a device''s operational identity, never on its onboarding identity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: Credential revocation is supported.
+    description: 'Credential revocation must be supported to enable immediate removal of device access, for example, to respond to the compromise or theft of a device.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'In the same way that you secure identities in a workload, you must have a registry of your IoT devices to manage their lifecycle and audit access.'
+isRequired: false
+uid: 2bb7a7e1-c017-4222-b7bb-99d895dbf581
+name: 'In the same way that you secure identities in a workload, you must have a registry of your IoT devices to manage their lifecycle and audit access. Q5.'

@@ -1,0 +1,19 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: An effective architecture achieves business goals and ROI requirements while keeping costs within the allocated budget.
+hideEmptyGuidance: false
+questions:
+  - 7d96bb83-c14e-4309-abb6-670262b9ad51
+  - 93ced85e-122e-47eb-804d-0ab50f467af6
+  - 46f69716-7278-454b-a868-1037a89eb3f2
+  - fcf7ca0d-8504-49c3-8ca8-bfce5c67d489
+  - 42f8b5e2-e346-486f-9d0d-ade3a5a6ba16
+  - 0c2a5691-4b43-4503-ad69-ff6090f89ff8
+  - 3dfb8613-93d6-4c70-b664-39fbad43fe26
+  - 8d035b91-36fb-4700-8561-038ef8bd4d72
+  - c607eccb-1b82-4bf3-b41a-f8b80e7b4ac7
+recommendations:
+  - 7035dc7a-a898-466c-b73f-ce37195f2376
+assignedGroupIds: []
+uid: Cost
+name: Cost Optimization

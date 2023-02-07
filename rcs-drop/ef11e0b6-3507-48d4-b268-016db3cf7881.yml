@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing a Microsoft Teams App that uses the Microsoft Graph Toolkit to visualize a list of users.
+
+  You plan to modify the view of the Graph Toolkit in your project.
+
+  What method to modify the view is NOT recommended?
+questionnaireUid: ae31d6d0-1558-4846-a365-5b8596443168
+questions:
+  - uid: ef11e0b6-3507-48d4-b268-016db3cf7881-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a Microsoft Teams App that uses the Microsoft Graph Toolkit to visualize a list of users.
+        isCorrect: false
+      - id: 1
+        text: You plan to modify the view of the Graph Toolkit in your project.
+        isCorrect: false
+      - id: 2
+        text: What method to modify the view is NOT recommended?
+        isCorrect: false
+      - id: 3
+        text: Use jQuery to manipulate the DOM.
+        isCorrect: true
+    manualId: MS-600.2.3
+uid: ef11e0b6-3507-48d4-b268-016db3cf7881
+title: ''
+manualId: ''

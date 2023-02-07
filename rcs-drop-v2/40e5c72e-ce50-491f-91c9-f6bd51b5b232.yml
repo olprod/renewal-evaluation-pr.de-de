@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Modern Point of Sale (MPOS)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '1'
+    text: Cloud Point of Sale (CPOS) + Hardware station
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: Hybrid Modern Point of Sale (Android)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: -2
+  - id: '3'
+    text: Hybrid Modern Point of Sale (iOS) + Hardware station
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: -7
+  - id: '4'
+    text: We are not yet live
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 40e5c72e-ce50-491f-91c9-f6bd51b5b232
+name: Are you currently using Modern Point of Sale (MPOS) or Cloud Point of Sale (CPOS) in production?

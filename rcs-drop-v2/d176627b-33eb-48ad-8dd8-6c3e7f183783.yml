@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Made sure the Disaster recovery SQL Servers are accepting SQL connections whenever the failover happened.
+    description: Did you make sure the Windows firewall and NSGs are allowing traffic whenever the failover happens?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: B
+    text: Configured Standard load balancer for the Availability Group listener to utilize Availability Zones.
+    description: Did you use the network best practices when configuring SQL availability groups?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Avoided routing the traffic to on-prem network to reduce the dependency on the on-prem network.
+    description: 'When the client and the server are in Azure, avoid unnecessary routing to on-prem networks.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.B
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: d176627b-33eb-48ad-8dd8-6c3e7f183783
+name: What decisions have been taken to ensure networking and connectivity meet your reliability requirements?

@@ -1,0 +1,18 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - b00a3eee-44e4-4179-bcfd-d3aba71ed6a0
+  - 7508c73d-3c12-46d6-965a-93d1c9644997
+  - 0989f0a4-0cd4-4c05-8005-1e4dc3e1feb0
+  - f6d969d2-7818-4881-9fe6-af97a378dab7
+  - f79863b7-fcd3-4147-8981-0607d31437c2
+  - 88ff03bb-acce-4054-9a79-3221712030c5
+  - a5fa97a9-e926-4cc5-8819-7850a3b67e34
+  - f01f7f3d-f683-4a4e-b897-394b4bbc7f00
+recommendations:
+  - 8be398cc-1e1b-45c1-a70c-cb2eda2804e6
+assignedGroupIds: []
+uid: 29cd0819-ea59-4039-bc04-f46ee79cc22d
+name: 'Mission Critical: Data Platform'

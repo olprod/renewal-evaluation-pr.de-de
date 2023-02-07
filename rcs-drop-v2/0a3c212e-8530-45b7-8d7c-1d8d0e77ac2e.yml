@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Your IoT devices have cryptographically backed identities.
+    description: IoT devices have and use a cryptographically backed identity that is inseparable from the device hardware. This identity represents the physical device.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: The identity is immutable. It can't be changed for the lifetime of a device.
+    description: 'A device''s identity can''t be changed during its lifetime. The immutable, lifetime device identity is called an onboarding identity.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: The device onboarding identity is only used for onboarding the device.
+    description: 'The immutable, lifetime device identity is called an onboarding identity. The device identity used to onboard device to the platform is only used for onboarding. You provision separate renewable device credentials for operational use after you onboard the device.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Strong device identity is delivered through tightly integrated IoT device and service capabilities, such as a hardware root of trust, strong authentication using techniques such as certificates, multi-factor auth, or password-less authentication, renewable credentials, and organizational IoT device registry.'
+isRequired: false
+uid: 0a3c212e-8530-45b7-8d7c-1d8d0e77ac2e
+name: 'Strong device identity is delivered through tightly integrated IoT device and service capabilities, such as a hardware root of trust, strong authentication using techniques such as certificates, multi-factor auth, or password-less authentication, renewable credentials, and organizational IoT device registry. Q2.'

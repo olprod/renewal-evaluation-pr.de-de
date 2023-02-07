@@ -1,0 +1,15 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - f4176a51-534b-4302-bb54-e4a3ecdff2a4
+  - d4ad1667-042a-4668-b1dc-6dcddb709fc8
+  - 899ad56e-426e-4762-b4af-56c647aaaa3a
+  - ad901a80-04da-4309-91eb-6de8c93108db
+  - cb0d01dd-ce1c-4437-b5af-e4dcdc1f72c0
+recommendations:
+  - 7ba15abf-1f82-4e24-a3de-9265256757b3
+assignedGroupIds: []
+uid: 21488c4a-5bf8-43d0-8b9c-3379f0d7d51f
+name: 'Mission Critical: Health Modeling'

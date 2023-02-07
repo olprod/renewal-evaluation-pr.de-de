@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your employees have limited access to data without barriers or obstacles.
+    description: Your employees have limited access to data without barriers or obstacles.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has an evolving need has been highlighted for your employees have access to data without barriers or obstacles.
+    description: Evolving need has been highlighted for your employees have access to data without barriers or obstacles.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your employees have acceptable level access to data without barriers or some sort of obstacles.
+    description: Your employees have acceptable level access to data without barriers or some sort of obstacles.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your employees have access to data with minimal siloes, barriers or some sort of obstacle. Employees have access to all the data they need, complete and correct.'
+    description: 'Your employees have access to data with minimal siloes, barriers or some sort of obstacle. Employees have access to all the data they need, complete and correct.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: 'Optimized. Your employees have access to all the data they need with minimal siloes, barriers or obstacle, complete and correct.'
+    description: 'Your employees have access to all the data they need with minimal siloes, barriers or obstacle, complete and correct.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do all your employees have access to data without barriers?
+isRequired: true
+uid: e40147f5-7cbc-4b70-8bc6-a7fe826d440f
+name: Do all your employees have access to data without barriers?

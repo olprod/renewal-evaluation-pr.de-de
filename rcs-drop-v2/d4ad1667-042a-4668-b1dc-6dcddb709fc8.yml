@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: A unified data sink is used to provide a single pane across all operational data sets.
+    description: Either a central data sink or a platform that supports querying across different sinks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: Critical operational data that requires long-term retention is exported to storage.
+    description: Some data might require longer retention times for operational data. This data should be stored on cheaper storage and can also be used for longer term analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Appropriate retention periods for operational data types are defined and configured.
+    description: Different data streams and sources might have different requirements in regard to data retention.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'An Application Performance Monitoring solution is used to collect application logs, metrics and traces.'
+    description: 'An APM tool can help to query and visualize logs, metrics, and traces.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: A unified data sink is required to ensure all operational data is swiftly stored and made available for correlated analysis to build a 'single pane' representation of application health. Azure provides several different operational technologies under the umbrella of Azure Monitor. Azure Monitor Log Analytics serves as the core Azure-native data sink to store and analyze operational data.
+isRequired: false
+uid: d4ad1667-042a-4668-b1dc-6dcddb709fc8
+name: A unified data sink is required to ensure all operational data is swiftly stored and made available for correlated analysis to build a 'single pane' representation of application health.

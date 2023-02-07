@@ -1,0 +1,67 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Cloud costs are being modelled for SAP workload per business group.
+    description: |-
+      SAP workload will be used by different business units or it can be grouped into one SAP Application group.
+      Estimate and track costs, educate employees about the cloud and various pricing models and have appropriate governance regarding expenditure. Use cost management tools to plan and track costs, tag resources and track that back to costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Azure Hybrid Use Benefit is used to drive down cost in the cloud for the SAP On Azure Workloads running on Windows/Linux.
+    description: 'Azure Hybrid Benefit is a cost-savings benefit that lets you bring your existing on-premises Windows Server and SQL Server licences with active Software Assurance or subscriptions to Azure. Save up to 85 perccent* compared to standard pay-as-you-go rates and achieve the lowest cost of ownership when you combine Azure Hybrid Benefit, reservations savings and extended security updates. Azure Hybrid Benefit also applies to SQL on Azure and Azure Dedicated Host. Additionally, it provides 180 days of dual-use rights so you can maintain your on-premises operation while migrating to Azure. And now, this benefit applies to RedHat and SUSE Linux subscriptions, too.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Reserved Instance purchased for production workload.
+    description: 'Azure Reserved VM Instances can be assigned at the enrolment or subscription level, so you can manage reserved instance usage at an organisational or individual department level. Assignments are easy to change post-purchase also.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: 'Reserved Instance feasibility reviewed for non-production [Dev/QAS] workload.'
+    description: 'RI can help with cost optimisation, but if Dev/QAS SAP workloads are not used more than 12 Hrs on week days, an automated/controlled stop/start can help with cost optimisation.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: Azure Savings Plans for Compute reviewed for feasibility
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Modeling cloud costs
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RE4IAEi'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf:
+    - c0111878-f41a-4628-bbb0-ea7d6a51ad63.e7d6ab7e-ce3f-4f26-86b8-b6b8ea9365e4.0
+  noneOf: []
+  scoreOf: []
+stem: 'Cost modeling is an exercise where you create logical groups of cloud resources that are mapped to the organization''s hierarchy and then estimate costs for those groups. The goal of cost modeling is to estimate the overall cost of the organization in the cloud, it can be further divided by SAP Business workload.'
+isRequired: false
+uid: e7d6ab7e-ce3f-4f26-86b8-b6b8ea9365e4
+name: Cost modeling is an exercise where you create logical groups of cloud resources that are mapped to the organization's hierarchy and then estimate costs for those groups.

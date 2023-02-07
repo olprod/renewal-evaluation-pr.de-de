@@ -1,0 +1,115 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'Based on your input, we recommend the following topics you and your team need to be aware of and streamline as practice in your day-to-day operations in optimal upkeep of your D365 F&O implementations. Establishing COE is continuous innovation and optimization of People, Process and Product aspects of the implemented workloads to get best of the platform for your customers.'
+links:
+  - title: Setup Continuous Delivery SOP into your Operations
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-tools/continuous-delivery-home-page'
+    condition:
+      allOf: []
+      anyOf:
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.eb3e5f62-2c4e-47a2-a3e8-562ed9fc9450.0
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.eb3e5f62-2c4e-47a2-a3e8-562ed9fc9450.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enhance Continuous Delivery SOP in your Operations
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-tools/continuous-delivery-faq'
+    condition:
+      allOf: []
+      anyOf:
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.eb3e5f62-2c4e-47a2-a3e8-562ed9fc9450.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Develop awareness among team about setting up CI / CD environment
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/perf-test/continuous-build-test-automation'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.6f303f11-07cf-4ffa-8c46-c2a034a414ba.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Train team on DB Movement operations '
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/database/dbmovement-operations'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.8a70e5d5-3a17-43a0-ba47-0ef8448b561c.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy X++ packages with Azure Pipelines to Automate the process
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-tools/pipeline-create-deployable-package'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.a61af5bd-411b-4626-b21d-456aff0247c0.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Set up new environments, Azure DevOps, and branches for projects'
+    url: 'https://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/new-environments-visual-studio-teams-branch-retail-projects'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.20341648-b5b8-4bd5-9deb-4adc66e5b072.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create your product backlog in Azure Boards
+    url: 'https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/create-your-backlog?view=azure-devops&tabs=agile-process'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.eed38cea-5e8f-4c1f-9788-57aa6bed9ec3.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan and track work in Azure Boards in DevOps
+    url: 'https://learn.microsoft.com/en-us/azure/devops/boards/get-started/plan-track-work?view=azure-devops&tabs=agile-process'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.eed38cea-5e8f-4c1f-9788-57aa6bed9ec3.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: ISV Solution Development Best Practices - Environment Planning & Code Repository
+    url: 'https://community.dynamics.com/365/b/ocp/posts/d365-finance-operations-isv-solution-environment-planning-code-repository-best-practices'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 2e4c202f-0ddc-409f-bcc0-03a4460f72e2.9cde87a7-3e4e-4f31-9e7d-30eff17bde55.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 0f488b5f-d102-4ac4-be82-20f8b7098953
+name: Establish Application Lifecycle Management Best Practices

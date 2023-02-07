@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |
+  You create an Azure Machine Learning pipeline. The pipeline has multiple steps including a step to train a model. You run the following Azure Machine Learning Python SDK (v1) code:
+
+
+  ```
+  pipeline_run = experiment.submit(train_pipeline, regenerate_outputs=True)
+  ```
+
+  Which two actions occur?
+questionnaireUid: 2ea32e2c-e285-4d97-9bc8-bb111903c0dc
+questions:
+  - uid: f380163f-4587-4f11-ab27-b11e91d9a607-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You create an Azure Machine Learning pipeline.
+        isCorrect: true
+      - id: 1
+        text: The pipeline has multiple steps including a step to train a model.
+        isCorrect: true
+      - id: 2
+        text: 'You run the following Azure Machine Learning Python SDK (v1) code:'
+        isCorrect: false
+      - id: 3
+        text: Which two actions occur?
+        isCorrect: false
+    manualId: 23_dp100–dp-100.4.6
+uid: f380163f-4587-4f11-ab27-b11e91d9a607
+title: ''

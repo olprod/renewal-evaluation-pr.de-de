@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Azure Device Update for IoT Hubs
+    description: Device Update for IoT Hub is a service that enables you to deploy over-the-air updates (OTA) for your IoT devices.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: You use custom firmware/application update services
+    description: Automatic device management in Azure IoT Hub automates many of the repetitive and complex tasks of managing large device fleets.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'Keep devices updated with the latest fixes to ensure the security and reliability of your devices. You should be able to update the full set of software on your devices: firmware, drivers, base OS, and host applications, and any cloud-deployed workloads. You should be able to monitor the success of these updates.'
+isRequired: false
+uid: 1e7b058f-0e4c-4792-91b6-3fa8cdf22584
+name: 'Keep devices updated with the latest fixes to ensure the security and reliability of your devices. You should be able to update the full set of software on your devices: firmware, drivers, base OS, and host applications, and any cloud-deployed workloads.'

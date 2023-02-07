@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Very poor
+    description: job openings are not aligned with company’s digital priorities; no effective candidate recruiting / evaluation system
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Below average
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Average
+    description: job openings in general are aligned with digital priorities; we are clear on the ideal profiles and have an effective evaluation process
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: Above average
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '4'
+    text: Truly distinctive
+    description: digital talent recruiting is a top priority of our executives and HR; we have a holistic recruitment roadmap aligned to strategy; we hire not only based on expertise/skills but also based on culture fit
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: review the tooltips for examples of what a rating might mean
+isRequired: true
+uid: 30af0161-0050-43ae-bc6f-49fc05a83afa
+name: review the tooltips for examples of what a rating might mean

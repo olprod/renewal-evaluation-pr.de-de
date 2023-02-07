@@ -1,0 +1,63 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've developed processing pipes that can handle out of order messages
+    description: Processing IoT data streams in the right order is important.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You've developed processing pipes that can handle duplicate messages
+    description: Handle duplicated messages using an Azure Stream Analytics window.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'You''ve developed resilient software to run on your devices. The software manages connection, re-connection, and the retry logic for sending and receiving messages'
+    description: 'Devices are usually responsible for managing the mechanisms for connection, re-connection, and the retry logic for sending and receiving messages.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'You''re using message routing to send telemetry data from your IoT Hub to other services such as Blob Storage, Service Bus Queues, Service Bus Topics and Event Hubs'
+    description: 'With the IoT Hub, message routing feature you can send telemetry data from your IoT devices to built-in Event Hub-compatible endpoints or to custom endpoints such as blob storage, Service Bus queues, Service Bus topics, and Event Hubs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'You''ve calculated the average and maximum daily quota of messages that you''ll receive in IoT Hub based on the number of devices, reporting frequency, and average size of payload'
+    description: The tier and number of units determine the maximum daily quota of messages that you can send. You can easily scale your IoT Hub service.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: |-
+  Perform testing as part of each major change and, if possible, on a regular basis to validate existing thresholds, targets, and assumptions, as well as ensuring the validity of the health model, capacity model, and operational procedures. 
+  In IoT solutions there are two components, first the devices that run software to obtain and send telemetry and second the way the data is received and processed in the cloud.
+isRequired: false
+uid: a0ba6ddd-70fb-47bc-a959-dbb0561942a8
+name: 'Perform testing as part of each major change and, if possible, on a regular basis to validate existing thresholds, targets, and assumptions, as well as ensuring the validity of the health model, capacity model, and operational procedures. In IoT solutions there are two components, first the devices that run software to obtain and send telemetry and second the way the data is received and processed in the cloud.'

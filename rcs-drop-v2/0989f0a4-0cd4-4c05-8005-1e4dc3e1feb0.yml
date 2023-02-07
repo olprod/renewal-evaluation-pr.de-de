@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Individual microservices use distinct data stores optimized for their scenario.
+    description: 'The nature of datasets considered by the application can vary, from unstructured content such as images and videos, or more structured files such as CSV and Parquet. Composite application workloads will typically have distinct datasets and associated requirements.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: It was validated that required capabilities are available for selected data technologies.
+    description: 'Besides platform capabilities, programming languages and SDKs should also support the required capabilities.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The data model, data types, data relationships, and intended query model will strongly affect data platform decisions.'
+isRequired: false
+uid: 0989f0a4-0cd4-4c05-8005-1e4dc3e1feb0
+name: 'The data model, data types, data relationships, and intended query model will strongly affect data platform decisions.'

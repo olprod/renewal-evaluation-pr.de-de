@@ -1,0 +1,81 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'We do not store any state within the container, either in-memory or on disk, such as session, configuration or logs.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: B
+    text: Only private container registry are used for the containers in Azure Container Instances.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: C
+    text: 'There is a process to keep container images up to date when base images are updated, or runtime dependencies are updated, or reach end of support.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: D
+    text: 'Azure Key Vault is used for all credentials, keys, or connection strings.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 13
+  - id: E
+    text: Web Application Firewall protection is configured for the web application or API running in Azure Container Instances.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: F
+    text: Our container group deployments are integrated with an Azure Virtual Network.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: G
+    text: We have Azure Firewall or Network Security Groups configured on the virtual network or virtual network subnets that the container group deployment is integrated with.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: We are aware of the Security Baseline recommendations and the Security Consideration recommendations for Azure Container Instances.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.acs
+stem: ''
+isRequired: false
+uid: 08d83008-0ff5-4552-b1d8-ee9ce177cb20
+name: Have you designed Azure Container Services with security in mind?

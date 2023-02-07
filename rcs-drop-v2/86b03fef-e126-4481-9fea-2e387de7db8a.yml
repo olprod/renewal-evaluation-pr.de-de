@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 764803c8-0476-4bf1-bb35-a4b93d141c26
+recommendations:
+  - 8a7bd934-ce14-43c8-91d2-8c1c39f00523
+assignedGroupIds: []
+uid: 86b03fef-e126-4481-9fea-2e387de7db8a
+name: 'Go-Live - Kubernetes Service: Operational Excellence'

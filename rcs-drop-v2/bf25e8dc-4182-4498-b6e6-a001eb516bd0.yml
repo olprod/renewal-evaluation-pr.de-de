@@ -1,0 +1,71 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Deployed the application across multiple regions.
+    description: Does the application support multi-region deployments for failover purposes?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Removed all single points of failure by running multiple instances of application components.
+    description: Have all single points of failure been eliminated? A single point of failure describes a specific fault-point which if it where to fail would bring down the entire application. Single points of failure introduce significant risk since any failure of this component will cause an application outage
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Deployed the application across Availability Zones within a region.
+    description: Is the application designed to use Availability Zones within a region?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Performed Failure Mode Analysis (FMA) to identify fault-points and fault-modes.
+    description: Have you performed FMA?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: Planned for component level faults to minimize application downtime.
+    description: Have you validated the application can operate with reduced functionality or degraded performance in the presence of a component failure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Planned for dependency failures to minimize application downtime.
+    description: Have you validated the application can operate effectively in the absence of its dependencies?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: How have you ensured that your application architecture is resilient to failures?
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWz31l'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Resilient application architectures should be designed to recover gracefully from failures in alignment with defined reliability targets.
+isRequired: false
+legacyId: '1'
+uid: bf25e8dc-4182-4498-b6e6-a001eb516bd0
+name: Resilient application architectures should be designed to recover gracefully from failures in alignment with defined reliability targets.

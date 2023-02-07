@@ -1,0 +1,74 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'For secure access to our VMs with RDP/SSH over TLS from the Portal, we use Azure Bastion.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: Antimalware protection is installed on our VMs to identify and remove viruses.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: 'We use automation solutions (e.g. Automatic Guest Patching, Azure Automation) to ensure that operating system updates are installed regularly and according to our operational processes.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: Microsoft Defender for Cloud monitors our Azure Windows/Linux VMs for security issues.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: We use Azure Disk Encryption to protect data on Azure VMs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: We use Azure Policy from the perspective of security applied to VMs to assign the required guard rails to the resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: VM security extensions are applied automatically for every Azure VM resource.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-paas.vm
+stem: ''
+isRequired: false
+uid: a6eb70d5-1829-4527-90fc-252d31633e57
+name: Are your Virtual Machines managed securely?

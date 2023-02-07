@@ -1,0 +1,35 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/scenarios/sap/eslz-security-governance-and-compliance#security-design-recommendations
+description: 'Security is a shared responsibility between Microsoft and customers. You can upload your own virtual machine (VM) and database images to Azure, or use images from the Azure Marketplace. However, these images need security controls that meet application and organizational requirements. You must apply your customer-specific security controls to the operating system, data, and SAP application layer.'
+links:
+  - title: Governance disciplines for SAP on Azure
+    url: /azure/cloud-adoption-framework/scenarios/sap/eslz-security-governance-and-compliance
+    condition:
+      allOf:
+        - 2b34303d-9357-4a00-a8b8-cefcfe3d2b5b.8afecdfc-f541-4e67-b986-f4436fec068b.4
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      anyOf:
+        - 2b34303d-9357-4a00-a8b8-cefcfe3d2b5b.596140fe-a2ed-41f9-9145-e8e965541d6b.0
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Protecting SAP applications with the new Azure Sentinel SAP threat monitoring solution
+    url: 'https://www.microsoft.com/security/blog/2021/05/19/protecting-sap-applications-with-the-new-azure-sentinel-sap-threat-monitoring-solution/'
+    condition:
+      allOf:
+        - 2b34303d-9357-4a00-a8b8-cefcfe3d2b5b.754553fb-5e52-47d3-b4d5-ea1e0b6e7ddd.2
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      anyOf:
+        - waf-config-golive.3384865b-a473-45c1-a259-be456dfa7a31.sap
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: ed40569e-4d1f-45a8-a843-e03988a91c74
+name: Security design recommendations for SAP On Azure

@@ -1,0 +1,54 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: I don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: f1d2a4e5-aec1-4eaa-a7be-1e1b5dc18676
+    name: Git client and Visual Studio Code
+  - responseAlternatives:
+      - id: A
+        text: 'Yes'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: 'No'
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: I don't know
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: 27e973bc-5e81-4e8d-8694-e6a79ce292ff
+    name: 'VS Code extensions, such as Docs Authoring Pack and Acrolinx'
+stem: ''
+isRequired: true
+legacyId: '2'
+uid: 558ac0ae-d36e-4fa5-ae13-d91b193f5e08
+name: Do you have the content authoring tools installed on your system?

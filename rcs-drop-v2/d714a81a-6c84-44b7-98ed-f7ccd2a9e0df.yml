@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Our workloads will be performing complex transformations. '
+    description: "The Delta Engine accelerates complex computation, time-travel queries, and aggregations at scale.\_ Ideal for non-repetitive queries and data exploration on raw datasets."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: Our workloads will more more small scale with less complex transfromations.
+    description: Serverless Pools allow analysts to use T-SQL to explore unprepared datasets but only at a limited scale.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Is the workload performing complex transformations on raw datasets or performing many non-repetitive queries?
+isRequired: true
+uid: d714a81a-6c84-44b7-98ed-f7ccd2a9e0df
+name: Is the workload performing complex transformations on raw datasets or performing many non-repetitive queries?

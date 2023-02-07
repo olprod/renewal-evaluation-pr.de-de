@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Platform automation and DevOps evaluate opportunities to modernize your approach to environmental deployment with infrastructure as code options.
+hideEmptyGuidance: false
+questions:
+  - 9c2f76b2-b283-40e5-a400-7988a5a1952b
+  - 6195a834-4f1f-422e-9d28-dab1c3b0266c
+  - c9e565e1-3b57-40d8-a9d3-f17160904069
+  - ff409272-0ead-4849-86ac-66e590a6b197
+recommendations:
+  - b26e0a55-daaf-4a4c-900e-950a7815bc85
+assignedGroupIds: []
+uid: 28dc41ee-00c1-4c5b-8cc4-00c07ce95cb9
+name: Platform automation and DevOps

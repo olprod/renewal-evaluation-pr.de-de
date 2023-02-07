@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Have a strategy in place to manage capacity limits of each tier.
+    description: Knowing technical characteristics and resource limits for Azure SQL Managed Instance helps ajust configuration to business needs
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Have a caching strategy in place to manage events that may cause a spike in load.
+    description: 'Knowing if there will be sudden spikes in traffic (Superbowl, Black Friday, or Marketing pushes) can allow you to prepare your infrastructure ahead of time, verify caching options usage in SQL or external caching solutions like redis cache.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Schedule scaling to add resources based on periods with different usage.
+    description: Preemptively scaling based on historical data can ensure your application is performant before your metrics indicate additional resources are required.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Use Dynamic Management Views (DMV) for in-depth monitoring of performance and resource utilization.
+    description: 'You can query DMVs using your preferred client tools like Azure Data Studio, Azure Portal (Query Editor), SQL Server Management Studio, etc. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Use Azure Monitor and Alerts to make sure you are not being bottlenecked on the capacity level.
+    description: Use these insights to scale your resources as needed.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: capacity-data-sqlmi
+uid: 20cb7f69-1a48-4d27-82e0-803bcb9d059d
+name: How are you ensuring you have sufficient capacity?

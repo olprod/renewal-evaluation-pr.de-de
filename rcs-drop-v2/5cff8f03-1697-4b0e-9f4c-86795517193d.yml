@@ -1,0 +1,202 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: 'Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as the DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every time it is applied. IaC is a key DevOps practice and is used in conjunction with continuous delivery.'
+links:
+  - title: Define all infrastructure components as code
+    url: /azure/architecture/framework/devops/automation-infrastructure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.dd003799-92d2-49e8-8117-29030c549bae.0
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.dd003799-92d2-49e8-8117-29030c549bae.1
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.dd003799-92d2-49e8-8117-29030c549bae.2
+      scoreOf: []
+    context: Define all infrastructure components as code
+    priority: 95
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Implement automated deployment processes with rollback/roll-forward capabilities
+    url: /azure/architecture/framework/devops/release-engineering-rollback
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.d35487f2-c77b-49b9-9d40-92a3c22004d6.0
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.d35487f2-c77b-49b9-9d40-92a3c22004d6.1
+      scoreOf: []
+    context: Implement automated deployment processes with rollback/roll-forward capabilities
+    priority: 90
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Use deployment strategies to deploy your workloads
+    url: /azure/architecture/framework/devops/deployment#stage-your-workloads
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.dd003799-92d2-49e8-8117-29030c549bae.0
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.dd003799-92d2-49e8-8117-29030c549bae.1
+      scoreOf: []
+    context: Use deployment strategies to deploy your workloads
+    priority: 88
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Automate infrastructure deployment process
+    url: /azure/architecture/framework/devops/automation-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.dd003799-92d2-49e8-8117-29030c549bae.1
+      scoreOf: []
+    context: Automate infrastructure deployment process
+    priority: 0
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Define a development process that is inclusive to infrastructure
+    url: 'https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code'
+    condition:
+      allOf: []
+      anyOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.dd003799-92d2-49e8-8117-29030c549bae.4
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.d35487f2-c77b-49b9-9d40-92a3c22004d6.4
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.f4811c68-9eba-4980-aec6-f753f106729e.4
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.03e7dec7-3096-4415-a737-227cbd4754bd.4
+      noneOf: []
+      scoreOf: []
+    context: Define a development process that is inclusive to infrastructure
+    priority: 90
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Track configuration drift
+    url: /azure/automation/automation-dsc-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.d35487f2-c77b-49b9-9d40-92a3c22004d6.3
+      scoreOf: []
+    context: Track configuration drift
+    priority: 90
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Use environments for dev and test stages that simulate the production environment
+    url: /azure/architecture/solution-ideas/articles/dev-test-paas
+    condition:
+      allOf: []
+      anyOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.f4811c68-9eba-4980-aec6-f753f106729e.2
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.f4811c68-9eba-4980-aec6-f753f106729e.3
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.f4811c68-9eba-4980-aec6-f753f106729e.4
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.03e7dec7-3096-4415-a737-227cbd4754bd.4
+      noneOf: []
+      scoreOf: []
+    context: Use environments for dev and test stages that simulate the production environment
+    priority: 90
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Have pipelines for continuous deployment/continuous integration
+    url: /azure/architecture/framework/devops/automation-infrastructure
+    condition:
+      allOf: []
+      anyOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.d35487f2-c77b-49b9-9d40-92a3c22004d6.4
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.03e7dec7-3096-4415-a737-227cbd4754bd.4
+      noneOf:
+        - '--.undefined.'
+      scoreOf: []
+    context: Have pipelines for continuous deployment/continuous integration
+    priority: 88
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Analyze your Cloud Spending
+    url: /partner-center/set-an-azure-spending-budget-for-your-customers?tabs=workspaces-view#azure-spending-data
+    condition:
+      allOf: []
+      anyOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.e7e83cab-f146-472a-977c-77856294351b.1
+      noneOf: []
+      scoreOf: []
+    context: Analyze your Cloud Spending
+    priority: 50
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: Release Engineering
+  - title: Analyze your Cloud Usage
+    url: /partner-center/data-analysis-lp?tabs=workspaces-view#access-to-the-subscription-analytics
+    condition:
+      allOf: []
+      anyOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.e7e83cab-f146-472a-977c-77856294351b.1
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.e7e83cab-f146-472a-977c-77856294351b.6
+      noneOf: []
+      scoreOf: []
+    context: Analyze your Cloud Usage
+    priority: 60
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Implement source control for Infrastructure as Code (IaC) scripts
+    url: /devops/develop/git/what-is-version-control
+    condition:
+      allOf: []
+      anyOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.3dfc95d0-b307-440e-b929-a45ffebefdc6.3
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.3dfc95d0-b307-440e-b929-a45ffebefdc6.4
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.3dfc95d0-b307-440e-b929-a45ffebefdc6.5
+      noneOf: []
+      scoreOf: []
+    context: Implement source control for Infrastructure as Code (IaC) scripts
+    priority: 90
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+  - title: Implement a Key Vault Solution to Secure Secrets
+    url: /azure/key-vault/
+    condition:
+      allOf: []
+      anyOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.acf13c9d-0326-44ac-8d8d-32c0fc18ba23.2
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.acf13c9d-0326-44ac-8d8d-32c0fc18ba23.3
+      noneOf: []
+      scoreOf: []
+    context: Implement a Key Vault Solution to Secure Secrets
+    priority: 93
+    reportingCategory: Secrets Management
+    reportingSubCategory: ''
+  - title: Treat Product code as Test Code
+    url: /devops/develop/shift-left-make-testing-fast-reliable#test-code-is-product-code-and-only-reliable-tests-survive
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.03e7dec7-3096-4415-a737-227cbd4754bd.3
+      scoreOf: []
+    context: Treat Product code as Test Code
+    priority: 80
+    reportingCategory: Continuous Deployment & Testing
+    reportingSubCategory: ''
+  - title: Testing Infrastructure is a Shared Service
+    url: /devops/develop/shift-left-make-testing-fast-reliable#testing-infrastructure-is-a-shared-service
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.03e7dec7-3096-4415-a737-227cbd4754bd.3
+      scoreOf: []
+    context: Testing Infrastructure is a Shared Service
+    priority: 50
+    reportingCategory: Continuous Deployment & Testing
+    reportingSubCategory: ''
+  - title: Prefer declarative definitions
+    url: /devops/deliver/what-is-infrastructure-as-code#prefer-declarative-definitions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 648970e8-fa10-4b2d-af07-2d166cff3cec.dd003799-92d2-49e8-8117-29030c549bae.0
+      scoreOf: []
+    context: Prefer declarative definitions
+    priority: 80
+    reportingCategory: Repeatable Infrastructure
+    reportingSubCategory: ''
+uid: 5cff8f03-1697-4b0e-9f4c-86795517193d
+name: Build a Infrastructure as Code Platform

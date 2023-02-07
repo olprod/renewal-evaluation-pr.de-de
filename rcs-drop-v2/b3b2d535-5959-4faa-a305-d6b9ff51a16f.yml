@@ -1,0 +1,76 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You select a cost effective storage solution.
+    description: 'Azure provides a variety of storage and database option to fulfill application needs including data lake and data warehouse requirement. Commonly used Azure services for IoT solution includes Azure Data Lake Gen2, and Azure Cosmos DB.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '1'
+    text: 'You define data life-cycles based on hot, warm, and cold path usage.'
+    description: |
+      The life-cycle of data includes access frequency and retention needs. Azure Storage has built-in life-cycle management, where developers can define a policy on a blob, and move to respective storage tier accordingly to optimize cost.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '2'
+    text: You use the built-in messaging routing feature in Azure IoT Hub.
+    description: 'Azure IoT Hub has a Routing feature, which can help you lower the cost of initial telemetry processing as it can filter, enrich, and forward messages to several messaging services and Azure Storage without an additional processing layer.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '3'
+    text: You use the data export feature in IoT Central.
+    description: 'Azure IoT Central supports continuous data export directly to Azure Data Explorer, and other messaging services, which can eliminate the need for intermediate processing services.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '4'
+    text: You use the data transformation features in IoT Central.
+    description: Azure IoT Central offers rich data transformations before pushing the data to external systems. This can impact cost by removing the need for intermediate processors.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '5'
+    text: You use the built-in rules feature in IoT Central to implement business logic.
+    description: Azure IoT Central has a built-in rules functionality that can help eliminate the need for external processors and rule engine hosting.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: '6'
+    text: You use appropriate IoT data paths for analytics processing.
+    description: The Azure IoT reference architecture defines three IoT data analytics paths with requirements for latency and data access.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: Storage in IoT solutions stores a large amount data. Storage costs are a large part of the overall solution costs and you should choose an appropriate processing and storage plan based on your business scenario.
+isRequired: false
+uid: b3b2d535-5959-4faa-a305-d6b9ff51a16f
+name: Storage in IoT solutions stores a large amount data. Storage costs are a large part of the overall solution costs and you should choose an appropriate processing and storage plan based on your business scenario.

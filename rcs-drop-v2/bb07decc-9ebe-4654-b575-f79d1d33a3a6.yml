@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You''ve identified, along with their responsibilities, the teams and users that manage, develop, operate, troubleshoot and maintain your IoT devices and IoT Edge devices'
+    description: 'It''s important to identify the users that will manage and maintain IoT devices, determine their responsibilities, and ensure they have the right permissions to execute the necessary work on those devices.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: 'You''ve created an "IoT Device Operator" role in your identity solution that allows operators to deploy new applications, patches, IoT Edge modules, and perform other administration/management activities inside IoT devices and IoT Edge devices to ensure their optimal operation'
+    description: 'Create a role specifically for IoT device operators and assign the proper permissions to ensure they''re able to connect, manage, and troubleshoot IoT devices and IoT Edge devices to ensure they''re operational.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: You use an identity platform (such as Azure Active Directory) to centralize all identities and create/manage roles for applications that connect and manage your IoT devices and IoT Edge
+    description: Centralize the identities for your IoT solution using an identity platform such as Azure Active Directory to treat identity as the primary security perimeter of the workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: CI/CI and backend processes use System/Non-User identities to deploy updates or new modules to IoT devices or IoT Edge devices
+    description: A common challenge for developers is the management of the secrets and credentials used to secure communication between different components of an IoT solution and the communication between backend services and IoT Devices and IoT Edge devices. System identities eliminate the need for developers to manage credentials.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: 'It is important to have a good understanding of the users and roles that will maintain and operate IoT devices and IoT Edge devices, determine their responsibilities and to ensure the proper security boundaries have been placed around those roles.'
+isRequired: false
+uid: bb07decc-9ebe-4654-b575-f79d1d33a3a6
+name: 'It is important to have a good understanding of the users and roles that will maintain and operate IoT devices and IoT Edge devices, determine their responsibilities and to ensure the proper security boundaries have been placed around those roles. Q2.'

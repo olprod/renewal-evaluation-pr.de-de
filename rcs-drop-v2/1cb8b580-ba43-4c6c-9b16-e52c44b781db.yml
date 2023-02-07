@@ -1,0 +1,141 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Plan and deploy on-premises Azure Active Directory Password Protection
+    url: /azure/active-directory/authentication/howto-password-ban-bad-on-premises-deploy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.ff3cb84d-3587-414f-9dad-0000bfd010c5.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Eliminate bad passwords using Azure Active Directory Password Protection
+    url: /azure/active-directory/authentication/concept-password-ban-bad
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.ff3cb84d-3587-414f-9dad-0000bfd010c5.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Upgrade to Azure AD P2 Licensing and Enable Azure AD Identity Protection
+    url: /azure/active-directory/identity-protection/overview-identity-protection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.1
+        - 46b55d3b-73eb-4070-a446-7743069cff7c.1380307d-4863-481f-9c02-539e6dbeb442.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure and enable user risk and sign-in risk policies
+    url: /azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies
+    condition:
+      allOf: []
+      anyOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.6c6cb33b-1fee-45cc-84e6-43c37c71ba6d.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Investigate risky users, risky sign-ins, and risk detections'
+    url: /azure/active-directory/identity-protection/howto-identity-protection-investigate-risk
+    condition:
+      allOf: []
+      anyOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.6c6cb33b-1fee-45cc-84e6-43c37c71ba6d.3
+      noneOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.6c6cb33b-1fee-45cc-84e6-43c37c71ba6d.1
+        - 83110c6d-583f-49d8-b823-2831702de0b1.6c6cb33b-1fee-45cc-84e6-43c37c71ba6d.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Import Sign-in/User Risk logs into your SIEM solution
+    url: 'https://azure.microsoft.com/en-us/blog/use-azure-monitor-to-integrate-with-siem-tools/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.6c6cb33b-1fee-45cc-84e6-43c37c71ba6d.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Export risk detection data to other tools
+    url: /azure/active-directory/identity-protection/overview-identity-protection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.6c6cb33b-1fee-45cc-84e6-43c37c71ba6d.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable Microsoft Defender for Cloud Apps integration with Identity Protection
+    url: /defender-cloud-apps/azip-integration
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.97a383e0-4dde-4ea8-8ea5-521ec9c7ef92.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Extend Conditional Access App control to on-premises apps using Defender for Cloud Apps and Azure AD Application Proxy
+    url: /azure/active-directory/app-proxy/application-proxy-integrate-with-microsoft-cloud-application-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.97a383e0-4dde-4ea8-8ea5-521ec9c7ef92.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Protect apps with Microsoft Defender for Cloud Apps Conditional Access App Control
+    url: /defender-cloud-apps/proxy-intro-aad
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.97a383e0-4dde-4ea8-8ea5-521ec9c7ef92.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy Conditional Access App Control for custom apps with non-Microsoft IdP
+    url: /defender-cloud-apps/proxy-deployment-any-app-idp
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 83110c6d-583f-49d8-b823-2831702de0b1.5b6fee25-c024-431c-b00c-6521570cba83.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 1cb8b580-ba43-4c6c-9b16-e52c44b781db
+name: ''

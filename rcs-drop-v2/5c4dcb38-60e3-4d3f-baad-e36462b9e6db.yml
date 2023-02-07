@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - b4983de4-5b32-4218-94a0-6f3a7966074d
+recommendations:
+  - 6eb9952e-075b-4d5e-951a-5ea1fa3c2681
+assignedGroupIds: []
+uid: 5c4dcb38-60e3-4d3f-baad-e36462b9e6db
+name: 'Go-Live - Front Door: Security'

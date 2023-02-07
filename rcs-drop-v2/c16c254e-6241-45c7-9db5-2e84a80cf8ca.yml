@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 3b1a072c-a77d-4dd6-aa1d-91b06c419723
+recommendations:
+  - 837dbf9f-ebf5-4833-ad50-c41be3e02334
+assignedGroupIds: []
+uid: c16c254e-6241-45c7-9db5-2e84a80cf8ca
+name: 'Go-Live - Cache for Redis: Operational Excellence'

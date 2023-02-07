@@ -1,0 +1,210 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Azure Analysis Services RPO (Recovery Point Objective) and RTO (Recovery Time Objective) targets have been defined for the application and/or key scenarios and validate that AAS can achieve them
+    url: /azure/architecture/framework/resiliency/business-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.24c4af45-f6d1-49d8-a7dd-d78344f300f6.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Availability SLAs (Service Level Agreements) have been defined for the solution and considered while architecting the solution
+    url: /azure/architecture/framework/resiliency/business-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.24c4af45-f6d1-49d8-a7dd-d78344f300f6.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Composite SLA (including Azure Analysis Services) have been defined for the service and considered while architecting the solution
+    url: /azure/architecture/framework/resiliency/business-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.24c4af45-f6d1-49d8-a7dd-d78344f300f6.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Backup databases from your primary server and restore on redundant servers
+    url: /azure/analysis-services/analysis-services-backup
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.61649f1d-cc3d-4876-b2f0-1591271089ec.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'To avoid having to change connection strings on reporting clients, create an Alias server name for your primary server'
+    url: /azure/analysis-services/analysis-services-server-alias
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.61649f1d-cc3d-4876-b2f0-1591271089ec.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Restore your database using SSMS or PowerShell, the backup being located in the storage account you’ve configured for the server'
+    url: /azure/analysis-services/analysis-services-backup#restore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.61649f1d-cc3d-4876-b2f0-1591271089ec.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Asynchronous refresh with the REST API: the REST API for Azure Analysis Services enables data-refresh operations to be carried out asynchronously'
+    url: /azure/analysis-services/analysis-services-refresh-azure-automation
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.61649f1d-cc3d-4876-b2f0-1591271089ec.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider Azure Analysis Services resource and object limits
+    url: /azure/analysis-services/analysis-services-capacity-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.f790ebbb-7349-4b29-9aa8-d922101db33e.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Verify that the Azure Analysis Services product is available in your target region
+    url: 'https://azure.microsoft.com/en-us/global-infrastructure/services/?products=analysis-services'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.f790ebbb-7349-4b29-9aa8-d922101db33e.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Regulatory or governance requirements for the data stored in your data lake (HIPAA, PCI, etc.) have been identified as they may mandate that your data remains within a certain geo-political region or that you should log every access to the data'
+    url: /azure/compliance/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.f790ebbb-7349-4b29-9aa8-d922101db33e.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Consider the incidents you want the instances to be protected from to choose the right redundancy options and build your Backup and Disaster Recovery plan: local outage, regional disaster, capacity limitations, and so on'
+    url: /azure/architecture/framework/resiliency/backup-and-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.425ee68c-5713-4ef9-a3b9-97a70ac8a440.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy models to redundant servers in other regions
+    url: /azure/analysis-services/move-between-regions?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.425ee68c-5713-4ef9-a3b9-97a70ac8a440.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Complete periodic disaster recovery exercises to ensure the plan works as planned
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#operational-readiness-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.425ee68c-5713-4ef9-a3b9-97a70ac8a440.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Verified end-to-end system performance after failover occurs
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#failover-and-failback-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.425ee68c-5713-4ef9-a3b9-97a70ac8a440.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Monitor for Azure Analysis Services
+    url: /azure/analysis-services/analysis-services-monitor
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.e30914dc-2946-47ec-9508-78dfe51f3588.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure Resource Health events are used to alert on resource health events
+    url: /azure/service-health/resource-health-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.e30914dc-2946-47ec-9508-78dfe51f3588.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Azure Service Health events are used to alert on applicable Service-level events (service issues, planned maintenance, health advisories and security advisories)'
+    url: /azure/service-health/alerts-activity-log-service-notifications-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 33ece8e7-f914-400b-b924-84a5118e15eb.e30914dc-2946-47ec-9508-78dfe51f3588.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 17548df3-18f1-4c8b-b849-f3a4d6cee8fa
+name: ''

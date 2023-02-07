@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: LoadRunner or another benchmark tool implemented.
+    description: Benchmarking is a process of measuring the performance of an application. Baseline performance helps to understand the system behaviour post major change.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '1'
+    text: Stress test executed on performance test SAP Landscape to capture baseline performance.
+    description: 'A stress test on a performance test will help avoid performance issues on production post-Go-Live, as most of the issues can be detected during an application stress test.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Monitoring of CPU/Memory of Azure resources used by SAP workload.
+    description: 'As part of baseline performance CPU, Memory, Avg Response time can be recorded to capture the system response during general load.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '3'
+    text: Monthly report generated to capture SAP performance trend using ST03N data or 3rd party tool.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: 16e3376e-f8df-4805-9ccc-214827aca064
+name: How are you benchmarking your SAP On Azure workload?

@@ -1,0 +1,126 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Familiarize yourself with ADLS Gen2 pricing, specifically elements driving the price calculation'
+    url: 'https://azure.microsoft.com/en-us/pricing/details/storage/data-lake/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.401b0b42-b9fd-4a05-a6d5-e52477aac00f.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Pricing Calculator to estimate the pricing which helps with your budgeting and cost optimization requirements
+    url: 'https://azure.microsoft.com/en-us/pricing/calculator/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.401b0b42-b9fd-4a05-a6d5-e52477aac00f.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Reserve capacity for Azure Data Lake Storage Gen 2 data in a standard storage account when you commit to a 1- or 3-year reservation (available in units of 100Tb and 1 PB)
+    url: /azure/storage/blobs/storage-blob-reserved-capacity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.401b0b42-b9fd-4a05-a6d5-e52477aac00f.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Place blob data into the most cost-effective access tier
+    url: /azure/storage/blobs/access-tiers-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.401b0b42-b9fd-4a05-a6d5-e52477aac00f.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Premium tier storage for workloads with high transaction volumes or ones where latency is critical
+    url: /azure/storage/blobs/premium-tier-for-data-lake-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.401b0b42-b9fd-4a05-a6d5-e52477aac00f.E
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define rules for your data lifecycle
+    url: /azure/storage/blobs/lifecycle-management-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.401b0b42-b9fd-4a05-a6d5-e52477aac00f.F
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Leverage compressed file formats (Parquet, Avro, ORC) as much as possible to reduce your storage costs'
+    url: /azure/storage/blobs/data-lake-storage-best-practices#file-formats
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.401b0b42-b9fd-4a05-a6d5-e52477aac00f.H
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Avoid cross-regions or cross-premises queries to your storage accounts as much as possible to reduce your outbound bandwidth costs
+    url: /azure/architecture/framework/cost/design-regions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.401b0b42-b9fd-4a05-a6d5-e52477aac00f.I
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize the number of snapshots of a file that must be stored
+    url: /azure/storage/blobs/snapshots-overview#pricing-and-billing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.401b0b42-b9fd-4a05-a6d5-e52477aac00f.J
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Cost Management for Azure Data Lake Gen2
+    url: /azure/cost-management-billing/costs/cost-analysis-common-uses
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - a970f398-30e6-46d4-8a79-710ad758e31e.9b88bfbd-b55f-4ff0-86b7-fcc67c591137.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: a6bb67ec-a30a-4616-86ff-a6f470886658
+name: ''

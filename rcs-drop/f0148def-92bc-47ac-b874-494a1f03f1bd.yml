@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |
+  You have an Azure SQL database named sqldb1 configured with the General Purpose service tier.
+
+  You need to perform a restore of sqldb1 from the automated database backup.
+
+  What should you create first?
+questionnaireUid: 6f41d9a0-49a1-44d1-84e9-4be4028d5fa5
+questions:
+  - uid: f0148def-92bc-47ac-b874-494a1f03f1bd-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have an Azure SQL database named sqldb1 configured with the General Purpose service tier.
+        isCorrect: true
+      - id: 1
+        text: You need to perform a restore of sqldb1 from the automated database backup.
+        isCorrect: false
+      - id: 2
+        text: What should you create first?
+        isCorrect: false
+      - id: 3
+        text: a new Azure SQL database
+        isCorrect: false
+uid: f0148def-92bc-47ac-b874-494a1f03f1bd
+title: ''

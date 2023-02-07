@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Your total cost of ownership (TCO) accounts for both direct and indirect costs based on running at scale in production.
+    description: 'Your cost model should include the following areas based on running at scale in production: devices, infrastructure, operations, and monitoring'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You understand how the IoT services quotas and limits apply to your solution.
+    description: Every service has its own set of quotas and throttling limits. Understanding these limits is a key part of cost optimization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: You use the Azure IoT reference architecture to understand cost drivers and alternatives.
+    description: The reference architecture is a key resource to review when building Azure IoT-based solutions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: You use the Azure pricing calculator for cost estimation.
+    description: Azure provides a pricing calculator that helps you select products and save estimates for comparison. You can view monthly costs per scenario.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'A cost model is a framework for extracting overall costs for building IoT solutions. It includes direct and indirect costs from sources such as workloads, resources, devices and time.'
+isRequired: false
+uid: 49edaf20-2c12-4056-ba79-366d472fb755
+name: 'A cost model is a framework for extracting overall costs for building IoT solutions. It includes direct and indirect costs from sources such as workloads, resources, devices and time.'

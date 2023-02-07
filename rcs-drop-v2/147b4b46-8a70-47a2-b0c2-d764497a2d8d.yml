@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Password Hash Sync
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Pass-through Authentication
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: Federated
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '3'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf:
+    - 6bdded40-7e8d-4d83-abe0-2171906109c6.4d37de25-824e-45ae-b858-d7067141564b.0
+    - 6bdded40-7e8d-4d83-abe0-2171906109c6.4d37de25-824e-45ae-b858-d7067141564b.2
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: 147b4b46-8a70-47a2-b0c2-d764497a2d8d
+name: Which method of Managed Authentication is implemented?

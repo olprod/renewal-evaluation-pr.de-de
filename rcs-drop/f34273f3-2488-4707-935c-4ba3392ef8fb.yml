@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are managing relationship health in Dynamics 365 Sales Insights.
+
+  The overall relationship with a specific customer is scored as Fair.
+
+  Which two actions should you perform to increase relationship health with the customer?
+questionnaireUid: 7150f84e-f7ee-4784-b41e-74785c09aecd
+questions:
+  - uid: f34273f3-2488-4707-935c-4ba3392ef8fb-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are managing relationship health in Dynamics 365 Sales Insights.
+        isCorrect: true
+      - id: 1
+        text: The overall relationship with a specific customer is scored as Fair.
+        isCorrect: true
+      - id: 2
+        text: Which two actions should you perform to increase relationship health with the customer?
+        isCorrect: false
+      - id: 3
+        text: Contact the customer more often.
+        isCorrect: false
+      - id: 4
+        text: Reduce the time to respond.
+        isCorrect: false
+uid: f34273f3-2488-4707-935c-4ba3392ef8fb
+title: ''

@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organizations' Data-Driven Culture and decision making is limited.
+    description: Data-Driven Culture and decision making is limited.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organizations' Data-Driven Culture and decision making is evolving to support business value.
+    description: Data-Driven Culture and decision making is evolving to support business value.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization is at an acceptable level of Data-Driven Culture and decision making to support business.
+    description: Acceptable level of Data-Driven Culture and decision making to support business.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organizations' Data-Driven Culture and decision making is advanced in maturity and supports business value.
+    description: Data-Driven Culture and decision making is advanced in maturity and supports business value.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organizations' Data-Driven Culture and decision making is fully optimized.
+    description: Data-Driven Culture and decision making is fully optimized.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Does your organization support Data-Driven Culture and decision-making?
+isRequired: true
+uid: 267f7302-4884-4f34-a23d-635331952b8c
+name: Does your organization support Data-Driven Culture and decision-making?

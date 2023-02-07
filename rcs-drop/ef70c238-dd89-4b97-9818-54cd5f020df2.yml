@@ -1,0 +1,26 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to automate the response to a Microsoft Defender for Cloud security alert.
+
+  Which Azure resource should you use?
+questionnaireUid: 3b6c5970-c172-4930-82d4-f23b6695a8cb
+questions:
+  - uid: ef70c238-dd89-4b97-9818-54cd5f020df2-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You need to automate the response to a Microsoft Defender for Cloud security alert.
+        isCorrect: true
+      - id: 1
+        text: 'Which Azure resource should you use? '
+        isCorrect: false
+      - id: 2
+        text: Logic app
+        isCorrect: false
+      - id: 3
+        text: Automation runbook
+        isCorrect: false
+uid: ef70c238-dd89-4b97-9818-54cd5f020df2
+title: ''

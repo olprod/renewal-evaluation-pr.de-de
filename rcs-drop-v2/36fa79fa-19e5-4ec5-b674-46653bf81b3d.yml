@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Device Twins to maintain device state information
+    description: 'Device twins are JSON documents that store device state information including metadata, configurations, and conditions.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You use Event Grid to monitor device specific events
+    description: IoT Hub events contain all the information you need to respond to changes in your device lifecycle.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: 'You use a custom data store to manage data such as metadata, configuration, and state'
+    description: Device Twins and IoT Hub events enable you to maintain device specific metadata and react to IoT hub events.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'Understanding the state of your devices enables you to observe the condition (such as online, offline, healthy, or corrupt) of your IoT devices and take appropriate actions to bring them back to the required state.'
+isRequired: false
+uid: 36fa79fa-19e5-4ec5-b674-46653bf81b3d
+name: 'Understanding the state of your devices enables you to observe the condition (such as online, offline, healthy, or corrupt) of your IoT devices and take appropriate actions to bring them back to the required state. Q5.'

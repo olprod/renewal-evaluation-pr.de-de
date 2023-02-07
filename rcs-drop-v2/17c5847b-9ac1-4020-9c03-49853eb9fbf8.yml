@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Network access is limited to the absolute minimum required for the application to fulfill its purpose.
+    description: An advanced zero-trust network implementation employs micro-segmentation and distributed ingress/egress micro-perimeters. Access is granted based on least privilege.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '1'
+    text: 'RDP or SSH is disabled on private build agents, if used.'
+    description: Private build agents are deployed to the virtual network of the application to perform deployment operations on private resources.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '2'
+    text: Azure DDoS Standard protection plan is used on all public IP addresses.
+    description: Azure DDoS Protection Basic is integrated with Azure Front Door. Azure DDoS Protection Standard can be manually enabled on public IP addresses.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '3'
+    text: Azure Front Door and web application firewall are used to protect web applications.
+    description: Azure Front Door offers web application firewall policies to prevent intrusion before adversaries even reach the application.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '4'
+    text: Network security groups and application security groups are used to micro-segment application traffic.
+    description: 'These are additional network-level controls, which can be applied to further support Zero Trust.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '5'
+    text: Network security group flow logs are enabled and analyzed.
+    description: Analyzing the traffic on network security groups can reveal attacks.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '6'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Preventing unauthorized access to a mission-critical application and encompassed data is vital to maintain availability and safeguard data integrity.
+isRequired: false
+uid: 17c5847b-9ac1-4020-9c03-49853eb9fbf8
+name: Preventing unauthorized access to a mission-critical application and encompassed data is vital to maintain availability and safeguard data integrity.

@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'Microsoft Cloud for Healthcare solution and capabilities '
+hideEmptyGuidance: false
+questions:
+  - 4d694c95-9093-4942-b09a-c18a1a69014d
+recommendations:
+  - e8fab6c2-e62d-4a12-9516-955bf2fd0707
+assignedGroupIds: []
+uid: d275c2e2-cf61-4e3b-9407-e253966aa5e1
+name: Get Started with Microsoft Cloud for Healthcare

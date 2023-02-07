@@ -1,0 +1,222 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: Recommendation description
+links:
+  - title: Traditional Azure networking topology
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/traditional-azure-networking-topology'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.173bf92e-2ce8-4e36-9b16-5e14a72761c8.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.173bf92e-2ce8-4e36-9b16-5e14a72761c8.2
+        - e22f69ec-9647-4822-8904-3ea2583f634f.173bf92e-2ce8-4e36-9b16-5e14a72761c8.3
+        - e22f69ec-9647-4822-8904-3ea2583f634f.173bf92e-2ce8-4e36-9b16-5e14a72761c8.4
+        - e22f69ec-9647-4822-8904-3ea2583f634f.173bf92e-2ce8-4e36-9b16-5e14a72761c8.5
+        - e22f69ec-9647-4822-8904-3ea2583f634f.173bf92e-2ce8-4e36-9b16-5e14a72761c8.6
+        - e22f69ec-9647-4822-8904-3ea2583f634f.173bf92e-2ce8-4e36-9b16-5e14a72761c8.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Virtual WAN network topology
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/virtual-wan-network-topology'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.5cde8ce6-b8c2-4130-a736-2bfa22eca47c.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.5cde8ce6-b8c2-4130-a736-2bfa22eca47c.2
+        - e22f69ec-9647-4822-8904-3ea2583f634f.5cde8ce6-b8c2-4130-a736-2bfa22eca47c.3
+        - e22f69ec-9647-4822-8904-3ea2583f634f.5cde8ce6-b8c2-4130-a736-2bfa22eca47c.4
+        - e22f69ec-9647-4822-8904-3ea2583f634f.5cde8ce6-b8c2-4130-a736-2bfa22eca47c.5
+        - e22f69ec-9647-4822-8904-3ea2583f634f.5cde8ce6-b8c2-4130-a736-2bfa22eca47c.6
+        - e22f69ec-9647-4822-8904-3ea2583f634f.5cde8ce6-b8c2-4130-a736-2bfa22eca47c.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define an Azure network topology
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/define-an-azure-network-topology'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.cbd258f8-917f-44b4-9907-5f95169d980e.0
+        - e22f69ec-9647-4822-8904-3ea2583f634f.cbd258f8-917f-44b4-9907-5f95169d980e.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.cbd258f8-917f-44b4-9907-5f95169d980e.2
+        - e22f69ec-9647-4822-8904-3ea2583f634f.cbd258f8-917f-44b4-9907-5f95169d980e.3
+        - e22f69ec-9647-4822-8904-3ea2583f634f.cbd258f8-917f-44b4-9907-5f95169d980e.4
+        - e22f69ec-9647-4822-8904-3ea2583f634f.cbd258f8-917f-44b4-9907-5f95169d980e.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for IP addressing
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-ip-addressing'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.8f30f115-8f48-49fa-a13c-17de212f0f58.0
+        - e22f69ec-9647-4822-8904-3ea2583f634f.8f30f115-8f48-49fa-a13c-17de212f0f58.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.8f30f115-8f48-49fa-a13c-17de212f0f58.2
+        - e22f69ec-9647-4822-8904-3ea2583f634f.8f30f115-8f48-49fa-a13c-17de212f0f58.3
+        - e22f69ec-9647-4822-8904-3ea2583f634f.8f30f115-8f48-49fa-a13c-17de212f0f58.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Connectivity to Azure
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/connectivity-to-azure'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.e7924503-c6ea-4a33-a55d-8a08b8d42c14.0
+        - e22f69ec-9647-4822-8904-3ea2583f634f.e7924503-c6ea-4a33-a55d-8a08b8d42c14.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.e7924503-c6ea-4a33-a55d-8a08b8d42c14.3
+        - e22f69ec-9647-4822-8904-3ea2583f634f.e7924503-c6ea-4a33-a55d-8a08b8d42c14.4
+        - e22f69ec-9647-4822-8904-3ea2583f634f.e7924503-c6ea-4a33-a55d-8a08b8d42c14.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: About zone-redundant virtual network gateways in Azure Availability Zones
+    url: 'https://docs.microsoft.com/en-us/azure/vpn-gateway/about-zone-redundant-vnet-gateways'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.e7924503-c6ea-4a33-a55d-8a08b8d42c14.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Connectivity to Azure PaaS services
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/connectivity-to-azure-paas-services'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.924d3b2f-ac8d-473a-985a-121cd9402b49.0
+        - e22f69ec-9647-4822-8904-3ea2583f634f.924d3b2f-ac8d-473a-985a-121cd9402b49.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.924d3b2f-ac8d-473a-985a-121cd9402b49.2
+        - e22f69ec-9647-4822-8904-3ea2583f634f.924d3b2f-ac8d-473a-985a-121cd9402b49.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Limit cross-tenant private endpoint connections in Azure
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/limit-cross-tenant-private-endpoint-connections'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.924d3b2f-ac8d-473a-985a-121cd9402b49.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for Application Delivery
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-app-delivery'
+    condition:
+      allOf: []
+      anyOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.32e0b039-2840-4924-86c9-e82baaf54073.0
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.32e0b039-2840-4924-86c9-e82baaf54073.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.32e0b039-2840-4924-86c9-e82baaf54073.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for inbound and outbound internet connectivity
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-inbound-and-outbound-internet-connectivity'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.b8335938-ffd8-4096-ad47-b730e049e958.11
+        - e22f69ec-9647-4822-8904-3ea2583f634f.b8335938-ffd8-4096-ad47-b730e049e958.12
+        - e22f69ec-9647-4822-8904-3ea2583f634f.f7863b17-7afc-4f3a-9106-6a1ee0361c9a.0
+        - e22f69ec-9647-4822-8904-3ea2583f634f.f7863b17-7afc-4f3a-9106-6a1ee0361c9a.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.f7863b17-7afc-4f3a-9106-6a1ee0361c9a.2
+        - e22f69ec-9647-4822-8904-3ea2583f634f.f7863b17-7afc-4f3a-9106-6a1ee0361c9a.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for landing zone network segmentation
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-landing-zone-network-segmentation'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.c86c3b7f-4101-4847-b9cb-b6248fcf4421.0
+        - e22f69ec-9647-4822-8904-3ea2583f634f.c86c3b7f-4101-4847-b9cb-b6248fcf4421.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.c86c3b7f-4101-4847-b9cb-b6248fcf4421.2
+        - e22f69ec-9647-4822-8904-3ea2583f634f.c86c3b7f-4101-4847-b9cb-b6248fcf4421.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Plan for traffic inspection
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-traffic-inspection'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.4033e233-cbac-4352-9dfc-f48cc87542d5.0
+        - e22f69ec-9647-4822-8904-3ea2583f634f.4033e233-cbac-4352-9dfc-f48cc87542d5.1
+        - e22f69ec-9647-4822-8904-3ea2583f634f.4033e233-cbac-4352-9dfc-f48cc87542d5.2
+        - e22f69ec-9647-4822-8904-3ea2583f634f.4033e233-cbac-4352-9dfc-f48cc87542d5.3
+        - e22f69ec-9647-4822-8904-3ea2583f634f.4033e233-cbac-4352-9dfc-f48cc87542d5.4
+        - e22f69ec-9647-4822-8904-3ea2583f634f.4033e233-cbac-4352-9dfc-f48cc87542d5.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: DNS for on-premises and Azure resources
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/dns-for-on-premises-and-azure-resources'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.ec4a10f1-ca69-4a47-93c8-48513211efdb.0
+        - e22f69ec-9647-4822-8904-3ea2583f634f.ec4a10f1-ca69-4a47-93c8-48513211efdb.2
+        - e22f69ec-9647-4822-8904-3ea2583f634f.ec4a10f1-ca69-4a47-93c8-48513211efdb.3
+        - e22f69ec-9647-4822-8904-3ea2583f634f.ec4a10f1-ca69-4a47-93c8-48513211efdb.4
+        - e22f69ec-9647-4822-8904-3ea2583f634f.ec4a10f1-ca69-4a47-93c8-48513211efdb.5
+        - e22f69ec-9647-4822-8904-3ea2583f634f.ec4a10f1-ca69-4a47-93c8-48513211efdb.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Private Link and DNS integration at scale
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/private-link-and-dns-integration-at-scale'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - e22f69ec-9647-4822-8904-3ea2583f634f.ec4a10f1-ca69-4a47-93c8-48513211efdb.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 0a6d2bba-ea3b-425f-ae15-03736385f941
+name: Network topology and connectivity Recommendation

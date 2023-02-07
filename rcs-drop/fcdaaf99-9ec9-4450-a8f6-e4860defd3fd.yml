@@ -1,0 +1,30 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A Microsoft Teams user is receiving the following error when they sign into Microsoft Teams:
+
+  `Something went wrong. We weren’t able to register your device and add your account to Windows.`
+
+  You need to resolve the issue.
+
+  Which two actions should you perform? Each correct answer presents part of the solution.
+questionnaireUid: 4de9ec1d-a330-44d6-8437-e9a991579c20
+questions:
+  - uid: fcdaaf99-9ec9-4450-a8f6-e4860defd3fd-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: 'A Microsoft Teams user is receiving the following error when they sign into Microsoft Teams:'
+        isCorrect: false
+      - id: 1
+        text: You need to resolve the issue.
+        isCorrect: true
+      - id: 2
+        text: Which two actions should you perform?
+        isCorrect: true
+      - id: 3
+        text: Each correct answer presents part of the solution.
+        isCorrect: false
+uid: fcdaaf99-9ec9-4450-a8f6-e4860defd3fd
+title: ''

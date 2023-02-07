@@ -1,0 +1,147 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Create an ingestion pattern for sourcing relational data from a wide variety of databases, both on-premises and in the cloud.'
+    url: 'https://azure.microsoft.com/en-au/blog/implementation-patterns-for-big-data-and-data-warehouse-on-azure/'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.3999c727-6208-4ab7-afa8-ac2fe7e970db.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.3999c727-6208-4ab7-afa8-ac2fe7e970db.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: 'Create an ingestion pattern for sourcing data from a wide variety of semi-structured data sources, both on-premises and in the cloud.'
+    url: 'https://azure.microsoft.com/en-au/blog/implementation-patterns-for-big-data-and-data-warehouse-on-azure/'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.e2e330b3-231f-4b41-893e-8656bc0ce12b.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.e2e330b3-231f-4b41-893e-8656bc0ce12b.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: Create an ingestion patter for unstructured data to enable fast ingestion layer which can execute data analytics on the inbound data in parallel alongside existing batch workloads.
+    url: 'https://azure.microsoft.com/en-au/blog/implementation-patterns-for-big-data-and-data-warehouse-on-azure/'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.aeb96592-f477-48ae-93ca-a362dcc5e446.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.aeb96592-f477-48ae-93ca-a362dcc5e446.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: 'Set up Integration runtime types suitable for your workloads (Azure, Shelf-hosted, Azure-SSIS).'
+    url: 'https://docs.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.66b7e1b9-3d4b-4d1d-8cc4-89152f202462.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.66b7e1b9-3d4b-4d1d-8cc4-89152f202462.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: Set up copy activity to copy data among data stores located on-premises and in the cloud.
+    url: 'https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.df004b37-7c49-4442-88a5-1b1ce16d1bfd.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.df004b37-7c49-4442-88a5-1b1ce16d1bfd.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: Consider using change data capture scheduler in Azure SQL or SQL Server Agent in SQL Server to capture the change of data in the source system.
+    url: 'https://docs.microsoft.com/en-us/sql/relational-databases/track-changes/about-change-data-capture-sql-server?view=sql-server-ver16'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.e93d6881-904d-4045-a6ca-83eee871a6fc.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.e93d6881-904d-4045-a6ca-83eee871a6fc.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: Consider using Batch Processing technologies to ingest data at at an interval/acceptable data latency with the ability to scale out compute .
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.7b564fbf-1fdc-400f-a326-0ae2f839cfb7.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.7b564fbf-1fdc-400f-a326-0ae2f839cfb7.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: 'Consider using Real-time stream processing to consume messages from either queue or file-based storage, processes the messages, and forwards the result to another message queue, file store, or database.'
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/stream-processing'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.e0aa460a-65fa-416b-9668-1290c9ca715d.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.e0aa460a-65fa-416b-9668-1290c9ca715d.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: 'Consider using multiple data lakes in each data landing zone. While the data lake sits across three data lake accounts, multiple containers, and folders, it represents one logical data lake for your data landing zone.'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/best-practices/data-lake-zones'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.904a7708-aa71-43eb-b38d-39bb16b6625d.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.904a7708-aa71-43eb-b38d-39bb16b6625d.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: 'Consider starting with the DevOps checklist as a starting point to assess your DevOps culture and process for integration of development, quality assurance, and IT operations into a unified culture and set of processes for delivering software.'
+    url: 'https://docs.microsoft.com/en-us/azure/architecture/checklist/dev-ops'
+    condition:
+      allOf: []
+      anyOf:
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.961c4f2e-fd2b-406c-90a2-9a7ae0c468e3.0
+        - a13a82fb-df44-4f5a-b5b0-6139705d150a.961c4f2e-fd2b-406c-90a2-9a7ae0c468e3.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+  - title: 'Consider using Data Modelling Software to develop, manage and share data models across your organisations. Alternatively,  consider Azure Synapse database templates to help accelerate development  and standardization using industry based templates.'
+    url: 'https://docs.microsoft.com/en-us/azure/synapse-analytics/database-designer/overview-database-templates'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Architecture
+    reportingSubCategory: Data Landing
+uid: ab454180-551f-4c69-b20d-128feb4c32f8
+name: ''

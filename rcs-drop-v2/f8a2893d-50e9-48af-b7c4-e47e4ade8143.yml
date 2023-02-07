@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no Common Data Model definable objects.
+    description: Your organization has no Common Data Model definable objects.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has identified the need and is planning to implement a Common Data Model.
+    description: Your organization has identified the need and is planning to implement a Common Data Model.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has started leveraging the use of Common Data Model that includes a set of standardized, extensible data schemas that Microsoft and its partners have published.'
+    description: 'Your organization has started leveraging the use of Common Data Model that includes a set of standardized, extensible data schemas that Microsoft and its partners have published.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization is actively using Common Data Model that simplifies data sharing process by providing a shared data language for business and analytical applications to use.
+    description: Your organization is actively using Common Data Model that simplifies data sharing process by providing a shared data language for business and analytical applications to use.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization is actively leveraging Common Data Model along with identified use cases for creating data in the model and transforming your existing data into the model by bringing data from multiple systems and applications together.
+    description: Your organization is actively leveraging Common Data Model along with identified use cases for creating data in the model and transforming your existing data into the model by bringing data from multiple systems and applications together.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Common Data Model is built upon a rich and extensible metadata definition system that enables you to describe and share your own semantically enhanced data types and structured tags, capturing valuable business insight which can be integrated and enriched with heterogeneous data to deliver actionable intelligence. Do you have common data model and way to structure data and apply naming principles?'
+isRequired: true
+uid: f8a2893d-50e9-48af-b7c4-e47e4ade8143
+name: 'Common Data Model is built upon a rich and extensible metadata definition system that enables you to describe and share your own semantically enhanced data types and structured tags, capturing valuable business insight which can be integrated and enriched with heterogeneous data to deliver actionable intelligence.'

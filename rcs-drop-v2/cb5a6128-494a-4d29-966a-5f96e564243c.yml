@@ -1,0 +1,90 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Analyse ROI regularly.
+    description: Both TCO and ROI are key financial metrics that organizations may wish to quantify for their Azure investment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: B
+    text: Use different Azure datacenter locations to optimize cost.
+    description: Azure has datacenters all over the world and each datacenter is placed within a zone within a region or just a region.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: 'Use Azure Marketplace. '
+    description: 'The Azure Marketplace offers both the Azure team''s first-party products and services, as well as, services from third-party vendors.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Track the resource tier and optimize appropriately.
+    description: 'Costs are resource-specific, so the usage that a meter tracks and the number of meters associated with a resource depend on the resource type.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Take advantage of appropriate subscription offer types.
+    description: 'Azure usage rates and billing periods can differ between Enterprise, Web Direct, and Cloud Solution Provider (CSP) customers based on specific subscription types as described on the Azure offer-details page.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Purposefully undersize VMs for non-prod/low-importance workloads.
+    description: 'Reducing the number of vCores, amount of RAM or disk performance tier are always of reducing costs for low importance workloads.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Running SQL VMs in alternative Azure Regions even if that introduces concerns over latency.
+    description: 'The same services are often priced differently in different Azure Regions and although this may introduce other performance concerns and data egress charges, it can be an option in helping to manage costs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: 'When using Premium SSD Storage, understanding that Bursting applies to disk sizes below  P30 and Reservation applies to sizes avove P30.'
+    description: 'Purchasing Premium SSD disk of P30, even if the capacity is not required, allows Reservation to be applied which may result in lower costs that correctly sized disks but at thesacrifice of Bursting capabilities.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: Utilised Constrained Cores to take of advantage of the higher performance characteristics of larger VMs whilst reduce compute and license costs.
+    description: Constrinaed Cores allow you to select a larger VM size than your CPU requirements to take advatage of higher RAM to CPU ratios whilst actually reducing the number of vCores allocated thus reducing costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: J
+    text: Leverage the Total Cost of Ownership calculator along with the Azure pricing calculator.
+    description: The TCO calculator is designed to estimate the cost savings that could be realized by your cloud investments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.B
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: tradeoffs-data-sqlvm
+uid: cb5a6128-494a-4d29-966a-5f96e564243c
+name: What trade-offs have you made to optimize for cost?

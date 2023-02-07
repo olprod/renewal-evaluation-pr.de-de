@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - a312d683-69b3-42ad-ab50-ea540cb471a3
+  - 3b1ce505-d4d9-4ede-90e8-2f9adbdb4c08
+  - 17c5847b-9ac1-4020-9c03-49853eb9fbf8
+  - 3cde6964-938f-4134-b2cc-1cf181fac774
+  - f0fe9e5c-fc3f-4f31-9f81-535aa0ad76a4
+  - 93839efb-0e9f-427f-84ef-983a55e8e84c
+recommendations:
+  - 5925d07b-9966-4556-aaf4-230b6366cd82
+assignedGroupIds: []
+uid: ac698843-efb1-4d10-955f-81619ba4701e
+name: 'Mission Critical: Security'

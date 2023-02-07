@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 5862ace0-6f72-46a8-b2b5-4444d18cfaac
+recommendations:
+  - 3b3691be-dd11-4d58-8e8f-dc2858d5581c
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: d1b875b6-9d84-4b27-855f-41af67530a40
+name: Identity Baseline

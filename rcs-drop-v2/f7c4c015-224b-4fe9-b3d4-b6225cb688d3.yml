@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We optimized the available resource choices to match the needs of our application access patterns.
+    description: Using the proper partition key can avoid hot partitions and protect you against high costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: We have assessed and identified the performance of our workload and set our provisioning mode to take advantage of Cosmos DB's performance deterministic.
+    description: 'When you have a different access pattern for an existing dataset (for example, you are NOT using the existing partition key), create a new collection that stores a subset of the master data, thereby allowing for the new PK to be utilized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: We identified the rate at which we would like to provision throughput at the database or container level.
+    description: 'Through the applicable data lifecycle management approach, such as archiving to blob storage, cost savings can be realized.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '6'
+    text: We have considered utilizing change feed estimator to identify the backlog of events that need to be processed.
+    description: 'Change feed processor deployment can process changes at a particular rate based on available resources like CPU, memory, and network. If this rate is slower than the rate at which your changes happen in your Azure Cosmos DB container, your processor will start to lag behind. Identifying this scenario helps understand if we need to scale our change feed processor deployment.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.C
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: ''
+isRequired: false
+uid: f7c4c015-224b-4fe9-b3d4-b6225cb688d3
+name: Have you provisioned sufficient capacity for your workload?

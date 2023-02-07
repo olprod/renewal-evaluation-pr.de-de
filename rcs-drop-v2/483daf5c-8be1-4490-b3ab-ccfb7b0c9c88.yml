@@ -1,0 +1,22 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 63cdd5c1-4134-4dfe-a47f-ff5afabe37a5
+  - e20429e1-e897-4444-bd5f-eb57e1c1a4be
+  - 80e36894-c687-4e49-975f-5a62da59996e
+  - 0d54f367-b537-4e8a-87c1-1ec088664772
+  - f7a892f9-a42a-411d-9577-20023fbb06f1
+  - fa49f0ba-5815-4887-b162-6f07c155ea99
+  - d176627b-33eb-48ad-8dd8-6c3e7f183783
+  - 0479f969-6f85-41e2-8134-835d3205d002
+  - 164f7e37-a965-4f96-b938-b8e312bbbb8f
+  - 233c2007-9a57-4f14-a521-4a943554311f
+  - e577cb8c-b246-4edf-b18d-fdaa135ca255
+  - 7f114bb6-31dc-40fd-8430-6169f13306a3
+recommendations:
+  - 2252b32e-3fa0-4d1a-9cb8-826c47eb11cd
+assignedGroupIds: []
+uid: 483daf5c-8be1-4490-b3ab-ccfb7b0c9c88
+name: SQL VM - Reliability

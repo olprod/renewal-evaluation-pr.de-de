@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - ff3cb84d-3587-414f-9dad-0000bfd010c5
+  - 6c6cb33b-1fee-45cc-84e6-43c37c71ba6d
+  - 97a383e0-4dde-4ea8-8ea5-521ec9c7ef92
+  - 5b6fee25-c024-431c-b00c-6521570cba83
+recommendations:
+  - 1cb8b580-ba43-4c6c-9b16-e52c44b781db
+assignedGroupIds: []
+uid: 83110c6d-583f-49d8-b823-2831702de0b1
+name: Identity Zero Trust Objective V. - Entity behavior is analyzed in real time to determine risk and deliver ongoing protection

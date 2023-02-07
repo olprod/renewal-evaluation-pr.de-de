@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The application is deployed in a paired region.
+    description: An application running in a single region could be impacted by an outage or service degradation of a single region.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: The solution is designed to handle transient errors.
+    description: 'Cloud resources can have transient failures, and it is essential to a design solution that is aware of such intermittent failures and can deal with them gracefully.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: C
+    text: The application is stateless.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: D
+    text: The application is stateful.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Please choose the applicable Well-Architected reliability considerations for Application architecture. If a presented choice is not applicable to your workload, you may check it to avoid getting a recommendation in that context.'
+isRequired: false
+legacyId: reliability-Application architecture
+uid: 9cc8e201-639a-4f79-987c-36c763a5df05
+name: Please choose the applicable Well-Architected reliability considerations for Application architecture.

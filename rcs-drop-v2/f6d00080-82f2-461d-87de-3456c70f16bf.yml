@@ -1,0 +1,13 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'In the constantly evolving world of Dynamics 365, software as a service (SaaS) cloud applications, and changing business needs, it''s important that your business applications evolve and are consistently delivering value.'
+hideEmptyGuidance: false
+questions:
+  - 0cd8230c-6dc6-4a8f-a533-5f26ca0b65c7
+  - 7e69fdbf-b748-4d42-afeb-5014269cfa4a
+  - 63aa75de-dd9e-4065-9d2c-2a0475a685a4
+recommendations:
+  - bad4f19d-d091-4d5e-950b-23669f69d244
+assignedGroupIds: []
+uid: f6d00080-82f2-461d-87de-3456c70f16bf
+name: Driving App Value

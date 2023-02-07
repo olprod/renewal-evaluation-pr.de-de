@@ -1,0 +1,28 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'To ensure that your application is running effectively over time, consider multiple perspectives, from both application and infrastructure angles. Your strategy must include the processes that you implement so that your users are getting the right experience.'
+hideEmptyGuidance: false
+questions:
+  - f5205d14-b18c-44dc-87f2-b017053129d2
+  - bb07decc-9ebe-4654-b575-f79d1d33a3a6
+  - afbc4866-1a5d-43fa-9d44-0cdd1900931e
+  - 1d8d5465-7ffb-405d-80f9-80fffffcd09a
+  - cca06816-839b-430e-9702-c4f3c5f97dc0
+  - 8dd349bb-2a5f-44a4-a396-8b5403a4bfd4
+  - c5853349-5a1d-4c66-8c0b-4455aefd2c7b
+  - 738c861e-eb2a-44c7-9c53-3ad874b0490f
+  - fbff1ad9-eb9e-4ea6-8d51-9b31ba01bf93
+  - 07fca5d0-4b8b-4b4d-af9c-122aacff3e57
+  - 972e89e7-b619-40be-aa80-b6ddc64aed71
+  - 86dce5f6-b3d4-4481-8868-45d62c6468e1
+  - 1aeac7af-aee3-482a-a20a-f4a62bcc91e9
+  - a0ba6ddd-70fb-47bc-a959-dbb0561942a8
+  - 6fe2127b-4af7-4f05-b3ce-883ec4696f80
+  - 6f736c41-22e9-46ba-911e-e0f7e545e6df
+  - ca628bbe-3aa8-4660-9f6c-c860b84fd002
+  - 5951da67-e924-4215-96a8-c2c0f03ab6fb
+recommendations:
+  - 284c6605-8f24-4a48-878a-3c20742ff347
+assignedGroupIds: []
+uid: 6ed93920-1917-4a32-adaf-78e8059b4dd6
+name: IoT - Operational excellence

@@ -1,0 +1,401 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Purchase reserved capacity in Azure Cosmos DB to optimize cost.
+    url: /azure/cosmos-db/cosmos-db-reserved-capacity
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.0
+      scoreOf: []
+    context: Consider purchasing reserved capacity to reduce the cost of RUs by up to 65%.
+    priority: 90
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: How to choose between standard (manual) and autoscale provisioned throughput.
+    url: /azure/cosmos-db/how-to-choose-offer
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.1
+      scoreOf: []
+    context: Realize cost savings with manual provisioning based on a predictable throughput for a workload.
+    priority: 95
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: 'Develop, test your applications, or even run small production workloads for free.'
+    url: /azure/cosmos-db/free-tier
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.3
+      scoreOf: []
+    context: 'Immediate cost savings, especially for test and dev environments.'
+    priority: 86
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: Scale your throughput (RU/s) of your database or container automatically and instantly with auto-scale provisioned throughput.
+    url: '/azure/cosmos-db/provision-throughput-autoscale '
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.2
+      scoreOf: []
+    context: Auto-scaling policies allow for less error-prone operations and cost savings through robust automation.
+    priority: 95
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: Pay only for the Request Units consumed by your database operations and the storage consumed by your data.
+    url: /azure/cosmos-db/serverless
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.5
+      scoreOf: []
+    context: 'Serverless provides a pay-as-you-go model where resources are only billed when throughput is consumed, with no cost when idle.'
+    priority: 95
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: How to choose between standard (manual) and auto-scale provisioned throughput.
+    url: /azure/cosmos-db/how-to-choose-offer
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.4
+      scoreOf: []
+    context: 'Through proper analysis of your workload pattern, at the container level, you can realize cost savings by selecting the appropriate resource model.'
+    priority: 100
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: Set throughput at database level.
+    url: /azure/cosmos-db/set-throughput#set-throughput-on-a-database
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.6
+      scoreOf: []
+    context: Allows shared resources/RU across multiple collections.
+    priority: 86
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: Manage your Azure Cosmos DB resources.
+    url: /cli/azure/cosmosdb/database?view=azure-cli-latest
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.9
+      scoreOf: []
+    context: Reduce costs and management of unused resources.
+    priority: 90
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: ' Use Azure Cosmos DB attachments to reference associated metadata with an external blob or media file.'
+    url: /azure/cosmos-db/attachments
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.8
+      scoreOf: []
+    context: Consider moving this data to blob storage to reduce your physical footprint.
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: Expire data in Azure Cosmos DB with Time to Live (TTL).
+    url: /azure/cosmos-db/sql/time-to-live
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.7
+      scoreOf: []
+    context: Consider implementing Time to Live to delete all unneeded data automatically.
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: Use the Azure Cosmos DB Emulator for local development and testing.
+    url: /azure/cosmos-db/local-emulator?tabs=ssl-netstd21
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.4fe8e910-2e39-4083-85f3-1a4507190177.10
+      scoreOf: []
+    context: 'You can’t always be connected, but you can always test your application with the emulator.'
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Workload Estimation & Provisioning
+  - title: Distinguish between different entity types and when to bring them into a single container.
+    url: /azure/cosmos-db/modeling-data#distinguishing-between-different-document-types
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.e384f1f2-e618-4e72-a0c6-ffe648e2257a.0
+      scoreOf: []
+    context: 'Query entities in a similar group but with different types (e.g. customer and invoice entity types in same container) and same partition key. When collocating them in a single container, you can improve query efficiency and reduce the number of containers.'
+    priority: 95
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Modeling data effectively in Azure Cosmos DB.
+    url: /azure/cosmos-db/modeling-data
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.e384f1f2-e618-4e72-a0c6-ffe648e2257a.1
+      scoreOf: []
+    context: 'By understanding the access pattern, the data model can be optimized for cost savings based on several key factors (the RU cost, and frequency of read/writes/queries).'
+    priority: 88
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Create a synthetic partition key in Azure Cosmos DB.
+    url: /azure/cosmos-db/sql/synthetic-partition-keys
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.e384f1f2-e618-4e72-a0c6-ffe648e2257a.3
+      scoreOf: []
+    context: Using a synthetic key helps with distributing the data and workload evenly with many distinct values for a partition key. This provides a more optimal usage of RU charges.
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Optimize the cost of your requests in Azure Cosmos DB.
+    url: /azure/cosmos-db/optimize-cost-reads-writes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.e384f1f2-e618-4e72-a0c6-ffe648e2257a.5
+      scoreOf: []
+    context: 'For scenarios that read in a single item, point reads consume less RU charge and can provide significant overall cost savings.'
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Configure the correct consistency level to improve scalability of your application.
+    url: /azure/cosmos-db/consistency-levels
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.e384f1f2-e618-4e72-a0c6-ffe648e2257a.4
+      scoreOf: []
+    context: Choosing the appropriate default consistency level improves the scalability of your application. Weakening the consistency level can improve the RU cost for reads and reduce the latency for writes in the case of multi-region deployments at the cost of lower RPO and RTO values.
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Choose the right partition key.
+    url: /azure/cosmos-db/partitioning-overview#choose-partitionkey
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.a33c9f65-743a-4e9f-8b62-3a181a687567.9
+      scoreOf: []
+    context: Using the proper partition key can avoid hot partitions and protect you against high costs.
+    priority: 100
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Query containers in Azure Cosmos DB.
+    url: /azure/cosmos-db/sql/how-to-query-container#avoiding-cross-partition-queries
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.a33c9f65-743a-4e9f-8b62-3a181a687567.7
+      scoreOf: []
+    context: Using the proper partition key can avoid hot partitions and protect you against high costs.
+    priority: 95
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Partition keys for read-heavy containers.
+    url: /azure/cosmos-db/partitioning-overview#partition-keys-for-read-heavy-containers
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.a33c9f65-743a-4e9f-8b62-3a181a687567.4
+      scoreOf: []
+    context: 'When you have a different access pattern for an existing dataset (e.g. you are NOT using the existing partition key), create a new collection that stores a subset of the master data, thereby allowing for the new PK to be utilized.'
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Best practices for scaling provisioned throughput (RU/s).
+    url: /azure/cosmos-db/scaling-provisioned-throughput-best-practices#how-to-scale-up-rus-without-changing-partition-layout
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.a33c9f65-743a-4e9f-8b62-3a181a687567.8
+      scoreOf: []
+    context: 'Fragmentation of throughput will occur when scaling down from high provisioning, you can effectively utilize the provisioned resources when reducing the number of physical partitions.'
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Expire data in Azure Cosmos DB with Time to Live.
+    url: /azure/cosmos-db/sql/time-to-live
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.a33c9f65-743a-4e9f-8b62-3a181a687567.2
+      scoreOf: []
+    context: 'Cost savings can be realized through the applicable data lifecycle management approach, such as archiving to blob storage.'
+    priority: 85
+    reportingCategory: Data
+    reportingSubCategory: Lifecycle Management
+  - title: Change feed design patterns in Azure Cosmos DB.
+    url: /azure/cosmos-db/sql/change-feed-design-patterns
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.a33c9f65-743a-4e9f-8b62-3a181a687567.3
+      scoreOf: []
+    context: 'For read-heavy workloads, storing a pre-aggregated or denormalized version can make reads significantly cheaper. '
+    priority: 85
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Bulk import data to Azure Cosmos DB SQL API account by using the SDK.
+    url: /azure/cosmos-db/sql/tutorial-sql-api-dotnet-bulk-import
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.a33c9f65-743a-4e9f-8b62-3a181a687567.0
+      scoreOf: []
+    context: 'Utilizing certain SDK features, tools, and patterns allows you to control and optimize provisioned throughput, when importing data into Cosmos DB.'
+    priority: 85
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Overview of Azure Synapse Link for Cosmos DB.
+    url: /azure/cosmos-db/synapse-link
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.a33c9f65-743a-4e9f-8b62-3a181a687567.1
+      scoreOf: []
+    context: 'Azure Synapse Link for Cosmos DB is a low-cost, fully automated feature that enables near real-time analytics over the Cosmos DB analytical store with no provisioned throughput required.'
+    priority: 87
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Provision throughput on Cosmos DB containers and databases.
+    url: /cosmos-db/set-throughput#high-storage-low-throughput-program
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Cost savings can be realized through this configuration model for workloads that are more storage intensive than throughput. Take the survey in the link to sign up for the new program.
+    priority: 70
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Limit the total throughput provisioned on your Cosmos DB account.
+    url: /azure/cosmos-db/limit-total-account-throughput
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.8dd750f7-2ceb-431d-b01f-52e8ffdd462d.7
+      scoreOf: []
+    context: 'When creating a new Azure Cosmos DB account from the portal, you have the option to limit the account''s total throughput.'
+    priority: 87
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Efficiency
+  - title: Distribute your data globally with Cosmos DB.
+    url: /azure/cosmos-db/distribute-data-globally
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.8dd750f7-2ceb-431d-b01f-52e8ffdd462d.1
+      scoreOf: []
+    context: 'Optimizing geo-distribution configuration can help maximize resources, eliminating any wasted costs.'
+    priority: 84
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Monitor Azure Cosmos DB.
+    url: /azure/cosmos-db/monitor-cosmos-db
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.8dd750f7-2ceb-431d-b01f-52e8ffdd462d.5
+      scoreOf: []
+    context: 'When you monitor consumption, you better understand end users and their needs. In turn, you can build a better application, support your end users proactively, and reduce costs.'
+    priority: 80
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Monitoring
+  - title: Zone redundancy in Azure Cosmos DB.
+    url: /azure/cosmos-db/high-availability#availability-zone-support
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.8dd750f7-2ceb-431d-b01f-52e8ffdd462d.4
+      scoreOf: []
+    context: 'When you keep a workload to a single region, you gain many things: reduced costs, simplified support, simplified deployments, and you still have three backups to your primary.'
+    priority: 83
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Distribute data globally with Azure Cosmos DB.
+    url: /azure/cosmos-db/distribute-data-globally
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.8dd750f7-2ceb-431d-b01f-52e8ffdd462d.3
+      scoreOf: []
+    context: 'When you have a write-heavy workload, the ability to utilize your RUs will be consumed by your incoming data. Use a secondary, read-only region to better service your read requests and off-load IO from your primary region.'
+    priority: 80
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Indexing policies in Azure Cosmos DB.
+    url: /azure/cosmos-db/index-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.ef6d1833-ef80-4dd7-aacb-6b4d612718de.0
+      scoreOf: []
+    context: 'By reducing the number of properties you index, you reduce the work required to maintain indexes, which in turn reduces the RU charge associated with writing documents.'
+    priority: 85
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Modify the indexing policy.
+    url: /azure/cosmos-db/index-policy#modifying-the-indexing-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.ef6d1833-ef80-4dd7-aacb-6b4d612718de.1
+      scoreOf: []
+    context: Ensuring the appropriate properties are indexed for your frequent queries will reduce the RU charge for these queries.
+    priority: 85
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Index data from Azure Cosmos DB - Azure Cognitive Search.
+    url: /azure/search/search-howto-index-cosmosdb
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 96ab4e43-cda2-4f9f-b28e-ec3692f12388.ef6d1833-ef80-4dd7-aacb-6b4d612718de.2
+      scoreOf: []
+    context: Azure Cognitive Search index extracts existing text from Azure Cosmos DB and can reduce RU charge for full-text searchable querying.
+    priority: 80
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+uid: 3a9c1b7e-806e-4291-a320-ea5ad8c57411
+name: ''

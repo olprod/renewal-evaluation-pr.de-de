@@ -1,0 +1,49 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '1'
+    text: 'No'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Yes, in more than a year'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '3'
+    text: 'Yes, in 6 months to 1 year'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: '4'
+    text: 'Yes, in less than 6 months'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf:
+    - cae00f72-6df1-4cb5-baed-3bea802485fe.aae84b12-4452-4304-aa31-1ba1ee9ee0da.0
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: f3a8328c-7f99-4835-a4e5-c1664642d9ba
+name: Are you planning to migrate to .NET 5 or higher?

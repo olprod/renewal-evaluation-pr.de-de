@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You create a rule to convert email information to a case.
+
+  The email address appears on malware sites. Dynamics 365 Customer Service begins receiving millions of spam emails creating millions of cases.
+
+  You need to ensure that the system only creates valid cases.
+
+  What should you do?
+questionnaireUid: f2558d82-a512-4258-bc04-b02e8ac0ac0f
+questions:
+  - uid: f188ded4-7d52-4b0f-a7cf-dc0eac280334-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You create a rule to convert email information to a case.
+        isCorrect: false
+      - id: 1
+        text: The email address appears on malware sites.
+        isCorrect: true
+      - id: 2
+        text: Dynamics 365 Customer Service begins receiving millions of spam emails creating millions of cases.
+        isCorrect: false
+      - id: 3
+        text: You need to ensure that the system only creates valid cases.
+        isCorrect: false
+      - id: 4
+        text: What should you do?
+        isCorrect: false
+uid: f188ded4-7d52-4b0f-a7cf-dc0eac280334
+title: ''

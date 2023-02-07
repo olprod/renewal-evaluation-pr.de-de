@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: All Azure resources and application components are fully instrumented.
+    description: Data from all relevant sources provides a complete operational dataset for AIOps model training.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Log Analytics operational data is ingested into Azure Synapse for analysis.
+    description: Azure Synapse provides advanced capabilities for data analysis.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Azure Monitor Alerts API is used to retrieve historic alerts and store it within cold storage for operational data.
+    description: Cold storage is a cheap option for historic data to be subsequently used within ML models.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: Azure Cognitive Services are used for specific predictive scenarios.
+    description: 'Cognitive Services capabilities can be used for common scenarios, instead of developing full machine learning models.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Machine learning models can be applied to gain critical insights about the behavior of the system, users, and DevOps processes. AIOps can be used to correlate and prioritize operational data, helping to gather critical insights related to filtering excessive alert ''noise'' and predicting issues before they cause impact, as well as accelerating incident response when they do.'
+isRequired: false
+uid: cb0d01dd-ce1c-4437-b5af-e4dcdc1f72c0
+name: 'Machine learning models can be applied to gain critical insights about the behavior of the system, users, and DevOps processes.'

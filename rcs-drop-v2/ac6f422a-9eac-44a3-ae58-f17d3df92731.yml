@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - c0ebe08d-c570-45a0-ab02-fd66c047dc89
+  - 628afc52-2f12-4f42-866f-7362fa5dbfa0
+  - 7675a035-de7a-4408-aff3-a4522b867179
+  - d4752ae4-aa16-4209-902f-a8c1c75d36ae
+recommendations:
+  - e9ec6de4-4d3e-4d65-a37f-83ce88ce45f4
+assignedGroupIds: []
+uid: ac6f422a-9eac-44a3-ae58-f17d3df92731
+name: 'Mission Critical: Operational Procedures'

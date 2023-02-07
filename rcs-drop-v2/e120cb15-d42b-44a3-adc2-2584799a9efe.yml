@@ -1,0 +1,106 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Manage emergency access accounts in Azure AD
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/roles/security-emergency-access'
+    condition:
+      allOf: []
+      anyOf:
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.ddbee802-10c8-4f38-add8-5d48ff56ad5d.0
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.ddbee802-10c8-4f38-add8-5d48ff56ad5d.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand scope for Azure RBAC
+    url: 'https://docs.microsoft.com/en-us/azure/role-based-access-control/scope-overview'
+    condition:
+      allOf:
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.716116e0-38df-411b-a56f-7f11f3bd289c.1
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Building a Conditional Access policy
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview'
+    condition:
+      allOf:
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.716116e0-38df-411b-a56f-7f11f3bd289c.2
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'How it works: Azure AD Multi-Factor Authentication'
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks'
+    condition:
+      allOf:
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.716116e0-38df-411b-a56f-7f11f3bd289c.3
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define central and federated responsibilities recommendations
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/platform-automation-devops#define-central-and-federated-responsibilities-recommendations'
+    condition:
+      allOf:
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.716116e0-38df-411b-a56f-7f11f3bd289c.4
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Privileged Identity Management provides time-based and approval-based role activation to mitigate risks
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure#reasons-to-use'
+    condition:
+      allOf:
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.716116e0-38df-411b-a56f-7f11f3bd289c.4
+      anyOf:
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.716116e0-38df-411b-a56f-7f11f3bd289c.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure AD activity logs in Azure Monitor
+    url: 'https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor'
+    condition:
+      allOf: []
+      anyOf:
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.3f32c9a1-0f2b-40e8-a41b-e13bb9d1a46e.0
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.3f32c9a1-0f2b-40e8-a41b-e13bb9d1a46e.1
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.3f32c9a1-0f2b-40e8-a41b-e13bb9d1a46e.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Azure landing zone Security design considerations
+    url: 'https://docs.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/design-area/security#security-operations-design-recommendations'
+    condition:
+      allOf: []
+      anyOf:
+        - e3e3b27e-37d4-4985-ab1a-f43bf20dcf0b.3f32c9a1-0f2b-40e8-a41b-e13bb9d1a46e.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: e120cb15-d42b-44a3-adc2-2584799a9efe
+name: ''

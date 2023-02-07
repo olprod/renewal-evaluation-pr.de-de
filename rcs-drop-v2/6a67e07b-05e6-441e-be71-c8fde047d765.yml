@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Consider limiting access, protecting data, and monitoring activities offered by Azure Synapse Analytics.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Use Azure Synapse Analytics Dynamic Data Masking feature.
+    description: Dynamic data masking limits sensitive data exposure by masking it to non-privileged users.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Use Azure Synapse Analytics Column-Level Security.
+    description: Column-Level security allows customers to control access to table columns based on the user's execution context or group membership.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Use Azure Synapse Analytics Row-Level Security.
+    description: Row-Level Security enables you to use group membership or execution context to control access to rows in a database table.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Consider reviewing data compliance requirements.
+    description: Choose appropriate regulatory compliance controls for your data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: ''
+isRequired: false
+uid: 6a67e07b-05e6-441e-be71-c8fde047d765
+name: What design considerations did you make in your workload in regards to security?

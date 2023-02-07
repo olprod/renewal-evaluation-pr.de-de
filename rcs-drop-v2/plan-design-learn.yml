@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Proper planning and creating design document is an important first steps towards creating effective Learn content. Ensure that you have identified relevant stakeholders and sketched out a high-level structure of your Learn module.
+hideEmptyGuidance: false
+questions:
+  - 5ee4ebd1-8443-4f17-bd2d-b60c31c4f0b7
+recommendations:
+  - 9bbe8e6a-0a7e-49bd-b4fd-1ab592ff7f0b
+assignedGroupIds: []
+uid: plan-design-learn
+name: Module planning and designing

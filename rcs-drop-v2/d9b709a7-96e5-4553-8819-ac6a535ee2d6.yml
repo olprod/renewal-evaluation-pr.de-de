@@ -1,0 +1,224 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Embrace multiple technologies where appropriate, and optimize the selection of programming languages and frameworks at the microservice level.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#programming-language-selection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.139ae0f7-a607-46de-bcf8-c036d37ad4f9.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Prioritize using the .NET SDK to access additional built-in reliability and performance  features, and new capabilities first.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#programming-language-selection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.139ae0f7-a607-46de-bcf8-c036d37ad4f9.0
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.139ae0f7-a607-46de-bcf8-c036d37ad4f9.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Avoid excessive technology sprawl to prevent unnecessary operational complexity.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#programming-language-selection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.139ae0f7-a607-46de-bcf8-c036d37ad4f9.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Evaluate all relevant Azure SDKs to confirm requisite capabilities are available for selected programming languages, ensuring alignment with non-functional requirements.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#programming-language-selection
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.139ae0f7-a607-46de-bcf8-c036d37ad4f9.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Containerize all application components, using container images as the primary model for application deployment packages.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#containerization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.d3674e7f-9583-4174-981f-e350af768b89.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prioritize Linux-based container runtimes where possible.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#containerization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.d3674e7f-9583-4174-981f-e350af768b89.0
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.d3674e7f-9583-4174-981f-e350af768b89.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Avoid persisting state within a container since containers should be immutable with short lifecycles.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#containerization
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.d3674e7f-9583-4174-981f-e350af768b89.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Ensure that all relevant logs and metrics are gathered from the container, container host, and underlying cluster.'
+    url: /azure/aks/monitor-aks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.d3674e7f-9583-4174-981f-e350af768b89.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Kubernetes Service (AKS) as the primary application hosting platform where requirements allow.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.d2df74bc-509d-432d-83c8-292bb8ba2560.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use managed Kubernetes, if possible.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.d2df74bc-509d-432d-83c8-292bb8ba2560.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use multiple zones either within a single cluster or use zone-pinned clusters.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#container-orchestration-and-kubernetes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.d2df74bc-509d-432d-83c8-292bb8ba2560.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'When multiple zones are used, make sure that each service has >1 replica to distribute the workload across zones.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#container-orchestration-and-kubernetes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.d2df74bc-509d-432d-83c8-292bb8ba2560.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider using Azure Functions for simple business process scenarios to provide a reliable application platform with a near-zero friction development and operational experience.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#serverless-compute
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.b815bab5-5366-435f-872d-d859b7670a52.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use service endpoints or private endpoints to restrict access to private virtual networks.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#serverless-compute
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.b815bab5-5366-435f-872d-d859b7670a52.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Treat functions code like any other code and subject it to code scanning and other automated processes.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#serverless-compute
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.b815bab5-5366-435f-872d-d859b7670a52.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use event hubs for scenarios that require high throughput.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#asynchronous-messaging
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.b3dd6b56-94eb-4947-8c93-220c8a28f4a0.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Key functionality should be deployed and managed as independent loosely coupled microservices with event-driven interaction through well-defined interfaces (synchronous and asynchronous).
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#asynchronous-messaging
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.b3dd6b56-94eb-4947-8c93-220c8a28f4a0.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Service Bus for scenarios requiring a high QoS and message guarantee.
+    url: /azure/architecture/framework/mission-critical/mission-critical-application-platform#asynchronous-messaging
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 3b978c5b-050a-4758-91ce-15c48a3800e1.b3dd6b56-94eb-4947-8c93-220c8a28f4a0.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: d9b709a7-96e5-4553-8819-ac6a535ee2d6
+name: ''

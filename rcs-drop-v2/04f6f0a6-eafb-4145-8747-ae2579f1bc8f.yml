@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Evaluate container orchestration for long running stable workloads
+    url: /azure/container-instances/container-instances-orchestrator-relationship
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0307b959-bb75-4cf7-ace6-ef0c123cceb9.f9af4cab-a877-4897-a0b0-ba666c913fc8.A
+      scoreOf: []
+    context: 'Long-running, stable workloads may be better suited to a container orchestration approach, such as Azure Kubernetes Service or using a cluster of dedicated Virtual Machines. It is likely that this will represent a lower cost than ACI, and will provide more orchestration and management features than is supported by Azure Container Instances.'
+    priority: 25
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Consider implementing restart policies on your Container Instances
+    url: /azure/container-instances/container-instances-restart-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0307b959-bb75-4cf7-ace6-ef0c123cceb9.f9af4cab-a877-4897-a0b0-ba666c913fc8.B
+      scoreOf: []
+    context: 'Because container instances are billed by the second, you''re charged only for the compute resources used while the container executing your task is running. Azure Container Instances starts the container, and then stops it when its application (or script, in this case) exits. When Azure Container Instances stops a container whose restart policy is Never or OnFailure, the container''s status is set to Terminated.'
+    priority: 50
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+uid: 04f6f0a6-eafb-4145-8747-ae2579f1bc8f
+name: ''

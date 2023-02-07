@@ -1,0 +1,318 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Define recovery point objectives based on business requirements for the application and key scenarios.
+    url: /azure/cosmos-db/high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.18cc037c-e9ad-4c44-996c-ef043634db2c.A
+      scoreOf: []
+    context: 'Recovery point objective (RPO): the maximum duration of data loss that is acceptable during a disaster. '
+    priority: 80
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Define recovery time objectives based on business requirements for the application and key scenarios.
+    url: /azure/cosmos-db/high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.18cc037c-e9ad-4c44-996c-ef043634db2c.B
+      scoreOf: []
+    context: 'Recovery time objective (RTO): the maximum acceptable time an application is unavailable after an incident.'
+    priority: 80
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Define availability targets such as Service Level Agreements (SLAs) and Service Level Objectives (SLOs) based on business requirements.
+    url: /azure/cosmos-db/high-availability#slas
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.18cc037c-e9ad-4c44-996c-ef043634db2c.C
+      scoreOf: []
+    context: Availability targets such as Service Level Agreements (SLAs) and Service Level Objectives (SLOs). Have availability targets been defined for the application and key scenarios? Are targets considered while the system is running in recovery mode?
+    priority: 82
+    reportingCategory: Business Continuity
+    reportingSubCategory: Design
+  - title: Evaluate continuous backup on your Azure Cosmos DB for more granular point-in-time restore and self-serve capabilities.
+    url: /azure/cosmos-db/high-availability#durability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.18cc037c-e9ad-4c44-996c-ef043634db2c.D
+      scoreOf: []
+    context: Continuous backups ensure the backup is taken in each region every 100 seconds and provide the ability to restore your data to any desired point in time with second granularity.
+    priority: 95
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Configure your Azure Cosmos DB workload based on the availability requirements and understand the SLA impact.
+    url: /azure/cosmos-db/high-availability#availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.18cc037c-e9ad-4c44-996c-ef043634db2c.E
+      scoreOf: []
+    context: 'If a solution requires continuous availability during region outages, Cosmos DB can be configured to replicate your data across multiple regions and to transparently fail over to available regions when required. Single-region accounts may lose availability following a regional outage. To ensure high availability at all times it''s recommended to set up your Azure Cosmos DB account with a single write region and at least a second (read) region and enable Service-Managed failover.'
+    priority: 95
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: 'For our durability requirements, understand and configure the appropriate consistency level for your Azure Cosmos DB account.'
+    url: /azure/cosmos-db/high-availability#availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.18cc037c-e9ad-4c44-996c-ef043634db2c.F
+      scoreOf: []
+    context: 'When an Azure Cosmos DB account is deployed in multiple regions, data durability depends on the consistency level configured on the account. '
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Consider deploying the application and Azure Cosmos DB across multiple regions for failover purposes.
+    url: /azure/cosmos-db/distribute-data-globally#key-benefits-of-global-distribution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.960c1882-d7a4-4c9d-9334-976a88c8e4c0.A
+      scoreOf: []
+    context: Multi-region replicas can be enabled on Cosmos DB for high availability and automatic failover.
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Design
+  - title: 'For increased SLAs, evaluate distributing our Azure Cosmos DB cluster across availability zones.'
+    url: /azure/cosmos-db/high-availability#replica-outages
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.960c1882-d7a4-4c9d-9334-976a88c8e4c0.B
+      scoreOf: []
+    context: 'In many Azure regions, it''s possible to distribute your Cosmos DB cluster across availability zones, which results in increased SLAs, since availability zones are physically separate and provide distinct power source, network, and cooling. When a Cosmos DB account is deployed using availability zones, Cosmos DB provides RTO = 0 and RPO = 0 even in a zone outage.'
+    priority: 92
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Confirm Azure Cosmos DB replicas are deployed in the required regions that meet high availability and disaster recovery needs.
+    url: /azure/cosmos-db/high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.205df3e2-9964-4f14-89a1-91f1e408de90.A
+      scoreOf: []
+    context: 'You can configure your databases to be globally distributed and available in any of the Azure regions. To lower the latency, place the data close to where your users are. Choosing the required regions depends on the global reach of your application and where your users are located.'
+    priority: 85
+    reportingCategory: Business Continuity
+    reportingSubCategory: Design
+  - title: 'Validate that required capacity is within Azure service scale limits and quotas, considering both initial/current state and future growth.'
+    url: /azure/cosmos-db/concepts-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.205df3e2-9964-4f14-89a1-91f1e408de90.B
+      scoreOf: []
+    context: 'Plan resource capacity considering future increases in consumption around access patterns, application adoption, and potential business growth.'
+    priority: 59
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Consider using the newest versions of APIs/SDKs and validate target runtimes and languages for required functionality.
+    url: /azure/cosmos-db/choose-api
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.205df3e2-9964-4f14-89a1-91f1e408de90.C
+      scoreOf: []
+    context: Using the latest production-ready SDK versions provides the best performance and experience.
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Application Infrastructure Provisioning
+  - title: 'For applications that are also globally distributed, consider making Azure Cosmos DB available across multiple write regions.'
+    url: /azure/cosmos-db/distribute-data-globally#key-benefits-of-global-distribution
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.7a64f25e-941c-45db-9776-e6575b45ad6d.A
+      scoreOf: []
+    context: 'Azure Cosmos DB continues to be highly available through building highly available and responsible applications, maintaining business continuity, and global scale and read.'
+    priority: 80
+    reportingCategory: Architecture Design
+    reportingSubCategory: Application Infrastructure Provisioning
+  - title: Confirm that backup strategy/configuration is aligned with recovery targets.
+    url: /azure/cosmos-db/online-backup-and-restore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.7a64f25e-941c-45db-9776-e6575b45ad6d.B
+      scoreOf: []
+    context: Azure Cosmos DB automatically takes backups of your data at regular intervals. The automatic backups are taken without affecting the performance or availability of the database operations.
+    priority: 80
+    reportingCategory: Business Continuity
+    reportingSubCategory: Backup & Restore
+  - title: Have a well-defined business-continuity disaster-recovery strategy for the application and/or its key workloads.
+    url: /azure/cosmos-db/high-availability#what-to-expect-during-a-cosmos-db-region-outage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.7a64f25e-941c-45db-9776-e6575b45ad6d.C
+      scoreOf: []
+    context: 'Azure Cosmos DB provides what to expect and what to do in case of region outages, depending on your write region configuration.'
+    priority: 85
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Be aware that a backup of Azure Cosmos DB analytical store is not currently supported.
+    url: /azure/cosmos-db/synapse-link#limitations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.7a64f25e-941c-45db-9776-e6575b45ad6d.D
+      scoreOf: []
+    context: 'If you use transactional TTL equal or bigger than your analytical TTL on your container, you can fully recreate your analytical store data by enabling analytical store on the restored container.'
+    priority: 75
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: Evaluate automating operational procedures to failover and failback for both Azure Cosmos DB and applications.
+    url: /azure/cosmos-db/high-availability#building-highly-available-applications
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.7a64f25e-941c-45db-9776-e6575b45ad6d.E
+      scoreOf: []
+    context: 'Define your operational procuedures, taking into account that Cosmos DB SLA provides an efficient business continuity plan.'
+    priority: 75
+    reportingCategory: Business Continuity
+    reportingSubCategory: Design
+  - title: Be aware that different request timeouts can be configured to manage inter-component calls.
+    url: /azure/architecture/patterns/circuit-breaker
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.8d706c64-c048-4e82-a66d-34cdd0aa276a.A
+      scoreOf: []
+    context: 'The stability and resiliency of an application can improve significantly through handling faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. '
+    priority: 70
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'Consider leveraging retry logic from SDK or implementing retry logic to handle transient failures, with appropriate back-off strategies to avoid cascading failures.'
+    url: /azure/architecture/patterns/retry
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.8d706c64-c048-4e82-a66d-34cdd0aa276a.B
+      scoreOf: []
+    context: 'Enable an application to handle transient failures when it tries to connect to a service or network resource, by transparently retrying a failed operation. This can improve the stability of the application.'
+    priority: 85
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'Where Azure Cosmos DB auto-scaling is provisioned, enable for application components and integrate with Azure Monitor.'
+    url: /azure/cosmos-db/sql/performance-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.1031e925-cb31-4b91-b86d-89708b685090.B
+      scoreOf: []
+    context: 'Performance and scale testing is a key step in application development. For many applications, the database tier has a significant impact on overall performance and scalability.'
+    priority: 65
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Conduct performance-scale testing of our application and Azure Cosmos DB.
+    url: /azure/load-testing/overview-what-is-azure-load-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.1031e925-cb31-4b91-b86d-89708b685090.C
+      scoreOf: []
+    context: 'Scale-out is a concept that focuses on the ability of a system to respond to demand through horizontal growth. Cosmos DB can scale out instantly, designing your application for this will help design for scale-out.'
+    priority: 60
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: 'Evaluate defining, testing, and validating latency and throughput targets against scenarios and service components.'
+    url: /azure/load-testing/overview-what-is-azure-load-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.1031e925-cb31-4b91-b86d-89708b685090.D
+      scoreOf: []
+    context: 'For an application to be appropriately reliable, it must reflect the business requirements surrounding it. Defining the SLA performance against each scenario will set the right expectaion and help architect the right application.'
+    priority: 65
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Test your application and Azure Cosmos DB for automatic failover.
+    url: /azure/cosmos-db/how-to-manage-database-account#automatic-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.b306518e-8c43-42e4-bf68-42548d185a32.A
+      scoreOf: []
+    context: Testing for failover is a critical aspect of reliability.
+    priority: 90
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Evaluate integrating Azure Service Health events to alert on applicable service-level events.
+    url: /azure/azure-monitor/alerts/alerts-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.8397e788-2004-41bb-aba6-db13af1412cd.F
+      scoreOf: []
+    context: Alerts proactively notify you when Azure Monitor data indicates that there may be a problem with your infrastructure or application.
+    priority: 60
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Consider monitoring long-running application workflows and operationalizing failure scenarios.
+    url: /azure/azure-monitor/alerts/alerts-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.8397e788-2004-41bb-aba6-db13af1412cd.H
+      scoreOf: []
+    context: Alerts proactively notify you when Azure Monitor data indicates that there may be a problem with your infrastructure or application.
+    priority: 80
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Monitor application-level telemetry and correlate it across all component logs.
+    url: /azure/azure-monitor/overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.8397e788-2004-41bb-aba6-db13af1412cd.C
+      scoreOf: []
+    context: 'Collect, analyze, and act on telemetry from your cloud and on-premises environments to help maximize the availability and performance of your applications and services.'
+    priority: 75
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: 'We have defined a health model to qualify what "healthy" and "unhealthy" states represent across all application components based on performance, availability, and recovery targets. This model should be materialized in a measurable and observable format that is fully represented through monitoring dashboards and alerts.'
+    url: /azure/service-health/resource-health-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 57d1514e-5a0b-4c02-873f-5c6a28117c23.8397e788-2004-41bb-aba6-db13af1412cd.E
+      scoreOf: []
+    context: Azure Resource Health helps you diagnose and get support for service problems that affect your Azure resources. It reports on the current and past health of your resources.
+    priority: 75
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+uid: 797aa467-ba18-492c-b850-94ef9e3822c8
+name: ''

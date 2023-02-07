@@ -1,0 +1,90 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Azure Databricks uses full scale cloud security such as access controls, credential passthrough, secret management, customer-managed keys for notebooks, secure cluster connectivity and more. '
+    url: /azure/databricks/security/
+    condition:
+      noneOf:
+        - Security-ai-adb.2bbb3f0f-5e44-4679-8a04-00c9d6e7ab76.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use appropriate recommendations from the Azure Databricks security baseline to improve security posture.
+    url: /azure/databricks/scenarios/security-baseline
+    condition:
+      noneOf:
+        - Security-ai-adb.2bbb3f0f-5e44-4679-8a04-00c9d6e7ab76.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Apply Azure Databricks Data governance best practices.
+    url: /azure/databricks/security/data-governance
+    condition:
+      noneOf:
+        - Security-ai-adb.c6414ee6-80b3-46dd-8f02-1d1a113a453b.C
+        - Security-ai-adb.c6414ee6-80b3-46dd-8f02-1d1a113a453b.D
+        - Security-ai-adb.c6414ee6-80b3-46dd-8f02-1d1a113a453b.E
+        - Security-ai-adb.c6414ee6-80b3-46dd-8f02-1d1a113a453b.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks encryption of traffic between cluster worker nodes.
+    url: /azure/databricks/security/encryption/encrypt-otw
+    condition:
+      noneOf:
+        - Security-ai-adb.798f827c-d482-4e0e-ad81-6779cb3a4433.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Active Directory for Azure Databricks. '
+    url: 'https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md#azure-databricks-101'
+    condition:
+      noneOf:
+        - Security-ai-adb.bc01b579-3707-4210-ab98-0f784c17df57.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use IP access lists in Azure Databricks. '
+    url: /azure/databricks/security/network/ip-access-list
+    condition:
+      noneOf:
+        - Security-ai-adb.ff242fc2-2658-4e1b-bd48-c5d555094fb4.H
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Domain Name Firewall rules in Azure Databricks.
+    url: /azure/databricks/security/network/firewall-rules
+    condition:
+      noneOf:
+        - Security-ai-adb.ff242fc2-2658-4e1b-bd48-c5d555094fb4.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use cluster connectivity security in Azure Databricks network.
+    url: /azure/databricks/security/secure-cluster-connectivity
+    condition:
+      noneOf:
+        - Security-ai-adb.ff242fc2-2658-4e1b-bd48-c5d555094fb4.J
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Databricks best practives for network security in Azure.
+    url: /azure/security/fundamentals/network-overview
+    condition:
+      noneOf:
+        - Security-ai-adb.ff242fc2-2658-4e1b-bd48-c5d555094fb4.K
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 20751886-3e9b-459c-8530-49f0c967faed
+name: ''

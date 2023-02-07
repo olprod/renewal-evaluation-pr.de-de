@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Beginner
+    description: Beginner
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Intermediate
+    description: Intermediate
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Advanced
+    description: Advanced
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'For example: Configure Azure AD Privileged Identity Management (PIM), Implement Conditional Access policies, including multifactor authentication, Implement Azure AD Identity Protection, Implement passwordless authentication, and Configure access reviews'
+isRequired: true
+uid: 08915559-2b14-476b-9705-c96a70d77517
+name: 'For example: Configure Azure AD Privileged Identity Management (PIM), Implement Conditional Access policies, including multifactor authentication, Implement Azure AD Identity Protection, Implement passwordless authentication, and Configure access reviews '

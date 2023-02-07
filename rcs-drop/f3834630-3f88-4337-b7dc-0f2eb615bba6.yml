@@ -1,0 +1,23 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You plan to query an Azure Cosmos DB from an Azure Synapse Analytics serverless SQL pool by using T-SQL. The query uses the WITH clause to specify the path to property values that use the full fidelity schema.
+
+  What should you include in the WITH clause?
+questionnaireUid: dcad3aae-4253-4813-b68d-e4abd1b1ecb1
+questions:
+  - uid: f3834630-3f88-4337-b7dc-0f2eb615bba6-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You plan to query an Azure Cosmos DB from an Azure Synapse Analytics serverless SQL pool by using T-SQL.
+        isCorrect: true
+      - id: 1
+        text: The query uses the WITH clause to specify the path to property values that use the full fidelity schema.
+        isCorrect: false
+      - id: 2
+        text: What should you include in the WITH clause?
+        isCorrect: false
+uid: f3834630-3f88-4337-b7dc-0f2eb615bba6
+title: ''

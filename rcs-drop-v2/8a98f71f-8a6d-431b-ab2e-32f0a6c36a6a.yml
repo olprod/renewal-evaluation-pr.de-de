@@ -1,0 +1,114 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Model the performance requirements of your key scenarios and workloads and organize your storage accounts and containers accordingly
+    url: /azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/best-practices/data-lake-overview#storage-accounts-in-a-logical-data-lake
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8008987d-2e97-475b-8640-4ca6bbb63237.e6b40015-4d81-4301-a069-fcebb7d044d6.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Organize your data lake in zones mapping the stage your data is in: raw, enriched, curated, development'
+    url: /azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/best-practices/data-lake-zones
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8008987d-2e97-475b-8640-4ca6bbb63237.e6b40015-4d81-4301-a069-fcebb7d044d6.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider monitoring the Azure Services status
+    url: 'https://status.azure.com/en-us/status'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8008987d-2e97-475b-8640-4ca6bbb63237.e6b40015-4d81-4301-a069-fcebb7d044d6.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For workloads that require low consistent latency and have a high number of transactions, investigate the premium tier'
+    url: /azure/storage/blobs/premium-tier-for-data-lake-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8008987d-2e97-475b-8640-4ca6bbb63237.1dba136b-01ec-4f4a-8708-1cb594ed834d.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Leverage caching or in-memory engine like Spark as much as possible, to avoid hitting the data lake file system for each query being made over your data'
+    url: /azure/storage/blobs/data-lake-storage-use-databricks-spark
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8008987d-2e97-475b-8640-4ca6bbb63237.1dba136b-01ec-4f4a-8708-1cb594ed834d.C
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement retry logic for transient errors to avoid connection interruption when scaling or planned/unplanned failovers occur
+    url: /azure/architecture/best-practices/retry-service-specific#azure-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8008987d-2e97-475b-8640-4ca6bbb63237.1dba136b-01ec-4f4a-8708-1cb594ed834d.D
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Choose appropriate file size
+    url: /azure/storage/blobs/data-lake-storage-best-practices#file-size
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8008987d-2e97-475b-8640-4ca6bbb63237.fa0d88f6-a462-465b-979a-1c6ac9c4e514.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review ADLS Gen2 product limits
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8008987d-2e97-475b-8640-4ca6bbb63237.89221a71-f46a-4cac-b1dd-846f72dd0773.A
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Monitor ADLS Gen2 resource utilization, query activity, and other metrics that have limitations'
+    url: /azure/storage/blobs/monitor-blob-storage?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 8008987d-2e97-475b-8640-4ca6bbb63237.89221a71-f46a-4cac-b1dd-846f72dd0773.B
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 8a98f71f-8a6d-431b-ab2e-32f0a6c36a6a
+name: ''

@@ -1,0 +1,27 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: E
+    text: 'Use unit, regression, and integration testing with CI/CD for MLOps.'
+    description: 'Use unit, integration, load, and acceptance testing with various SKUs and cluster sizes to test the end-to-end performance and resilience of the infrastructure.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.ai
+stem: 'Testing is one of the fundamental components of MLOps and agile development. If automation gives MLOps the required speed and agility to deploy software quickly, only through extensive testing do those deployments achieve the required reliability that customers demand.'
+isRequired: false
+legacyId: '6'
+uid: be1baede-b5b8-4f01-85a9-f772bf233511
+name: Testing is one of the fundamental components of MLOps and agile development.

@@ -1,0 +1,89 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Familiarize with "One Dynamics One Platform" vision
+    url: 'https://learning.eventbuilder.com/OneDynamicsOnePlatformSeries'
+    condition:
+      allOf: []
+      anyOf:
+        - b189deac-9e3e-438a-8074-0b3965280002.31bc40d6-f4fa-4fca-8fa0-b9710b668481.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Features of One Dynamics One Platform
+    url: 'https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform'
+    condition:
+      allOf: []
+      anyOf:
+        - b189deac-9e3e-438a-8074-0b3965280002.31bc40d6-f4fa-4fca-8fa0-b9710b668481.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Lifecycle Services (LCS) user guide
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Service protection API limits
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/service-protection-api-limits'
+    condition:
+      allOf: []
+      anyOf:
+        - b189deac-9e3e-438a-8074-0b3965280002.75dbfc74-c3c3-4cbd-b820-6be06980734b.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Feature management overview
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview'
+    condition:
+      allOf: []
+      anyOf:
+        - b189deac-9e3e-438a-8074-0b3965280002.a0c7364c-ea5a-4883-9fdc-1e92a79967ac.-Infinity
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create and work with custom fields
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - b189deac-9e3e-438a-8074-0b3965280002.7966424b-82dc-4b3d-ac34-c7ef89b6fcb1.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Add links to your organization's legal terms and privacy statement
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/legal-terms-privacy-statement'
+    condition:
+      allOf: []
+      anyOf:
+        - b189deac-9e3e-438a-8074-0b3965280002.cc7a5e67-c74c-4973-a38b-7e1c36c2ef25.0
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 8fb4bde8-4f08-4ced-816e-9a6a7ae0b1bd
+name: 'Establish &amp; Learn Power User Productivity Practices '

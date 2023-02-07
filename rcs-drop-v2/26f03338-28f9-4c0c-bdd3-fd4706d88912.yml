@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 81bc75b5-6a32-4ee3-8e4c-7b3d1093188f
+  - f26c40c9-9dcc-4d87-b90b-44f856b5e346
+  - dcb33c48-3a10-4ceb-9187-4528aad4c1ab
+  - e66898c3-e38c-44d4-83e3-64f44901b342
+  - 3a1e6041-7a98-4bcd-966d-65908333af94
+  - e4a76ec0-153c-4841-a2b1-9b8fef40d8ce
+recommendations:
+  - 7e748840-5767-4cda-ab7a-4187d1b2c0a8
+assignedGroupIds: []
+uid: 26f03338-28f9-4c0c-bdd3-fd4706d88912
+name: SQL VM - Cost Optimization

@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Limited. Your organization has no means to show the lineage between datasets created by data processes. '
+    description: 'Your organization has no means to show the lineage between datasets created by data processes. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization has manual processes to show lineage between datasets created by data processes. '
+    description: 'Your organization has manual processes to show lineage between datasets created by data processes. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization has implemented a process to understand, record and showcase how the data flows between datasets. '
+    description: 'Your organization has implemented a process to understand, record and showcase how the data flows between datasets. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization has a strategy to support processes and tools for data lineage to add visibility how datasets converge across your organization.
+    description: Your organization has a strategy to support processes and tools for data lineage to add visibility how datasets converge across your organization.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization has established processes and tools for data lineage to add visibility of enterprise data systems and how they are stitched across to show an end-to-end data lineage.
+    description: Your organization has established processes and tools for data lineage to add visibility of enterprise data systems and how they are stitched across to show an end-to-end data lineage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Do you have the means to show dependencies between raw data and finished products, describing the transformations and manipulations that turn that raw data into the final data products?
+isRequired: true
+uid: 9d5fe44e-d7d1-4a96-a3bf-888aae507532
+name: 'Do you have the means to show dependencies between raw data and finished products, describing the transformations and manipulations that turn that raw data into the final data products?'

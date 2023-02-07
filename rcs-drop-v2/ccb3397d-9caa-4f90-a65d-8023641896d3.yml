@@ -1,0 +1,18 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: ''
+    url: ''
+    condition:
+      allOf:
+        - strategy.d48d8d47-f0f0-44af-b99f-31e09e8b942a.A
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: ccb3397d-9caa-4f90-a65d-8023641896d3
+name: ''

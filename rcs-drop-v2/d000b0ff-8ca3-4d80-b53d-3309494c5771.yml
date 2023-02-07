@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Budgets are assigned to all services in SAP On Azure workload.
+    description: 'For cost management it is recommended to have a budget even for the smallest services operated, because that allows to track and understand the flow of the spend and also understand the impact of a smaller service in a bigger picture.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '1'
+    text: 'There is a cost owner for every service [Compute/Network/Storage] used by SAP On Azure workload.'
+    description: Every service should have a cost owner that is tracking and is responsible for cost. This drives responsibility and awareness on who owns the cost tracking.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '2'
+    text: Cost forecasting is done to ensure it aligns with the budget.
+    description: In order to predict costs and trends it’s recommended to use forecasting to be proactive for any spending that might be going up due to higher demand than anticipated.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '3'
+    text: There is a monthly or yearly meeting where the budget is reviewed.
+    description: 'As Azure changes and new services are introduced, it is recommended that key services are revisited to see if any new services offered in Azure can help drive down cost or if new SKUs can help drive down cost. It’s recommended that this is done 1-4 times a year. Revisit key Azure services to see if there were any updates which could reduce spending.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: There is a plan to modernize the SAP On Azure workload based on innovation from Microsoft Azure.
+    description: Microsoft Azure platform innovations are released to simplify the SAP On Azure Architecture. A plan must be in place to consider modernization of the architecture.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '5'
+    text: The SAP resources has a well-defined naming standard for Azure resources.
+    description: A well-defined naming convention is important for overall operations to be able to easily determine the usage of certain resources and help understand owners and cost centers responsible for the workload. Naming conventions allow the matching of resource costs to particular workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: d000b0ff-8ca3-4d80-b53d-3309494c5771
+name: How do you govern budgets for SAP application workload?

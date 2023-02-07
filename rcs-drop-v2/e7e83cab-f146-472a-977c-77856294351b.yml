@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Our organization has business objectives for the cloud, and we are moving in that direction but have not acquired any cloud resources'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: 'We acquire cloud services as needed, and our organization can be flexible in how we budget for cloud services'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '2'
+    text: Our organization uses the cloud at economy of scale to provide organizational services with cost savings and efficiencies that would otherwise be economically or operationally unfeasible
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '4'
+    text: Our organization has business objectives for an hybridized cloud implementation supporting our lift-and-shift operations
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 70
+  - id: '5'
+    text: Our organization is currently developing governance to implement the cloud safely and to use for greater efficiency and lower costs
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 80
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: 'Public and hybrid clouds have made the impossible easy. The cloud has removed traditional bottlenecks and helped commoditize infrastructure. Whether you use Infrastructure-as-a-Service (IaaS) to lift-and-shift your existing applications, or Platform-as-a-Service (PaaS) to gain unprecedented productivity, the cloud gives you a datacenter without limits.'
+isRequired: true
+uid: e7e83cab-f146-472a-977c-77856294351b
+name: Public and hybrid clouds have made the impossible easy.

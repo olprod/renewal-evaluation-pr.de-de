@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Azure Monitor to monitor and create alerts for key Azure IoT platform services such as IoT Hub and Device Provisioning Service
+    description: Azure IoT services integrate natively with Azure Monitor and enable simple monitoring of key services in your IoT solutions.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You've configured all critical Azure ingestion services in your IoT solution to send log/debug data to Azure Log Analytics or another log aggregation solution
+    description: Aggregating log data from multiple services into a single place is a best practice and helps with troubleshooting issues in the IoT solution.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: 'You use Azure Monitor and Azure Log Analytics to monitor other critical backend services (such as Azure Stream analytics, Azure Data Explorer or Azure Event Hubs)'
+    description: An IoT solution has many services and layers beyond the IoT ingestion layer. Successful operation of an IoT solution requires that any other backend systems/services are constantly monitored to ensure they're operational.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: You've created Azure Service Health alerts to respond to service-level events that may affect critical Azure IoT services
+    description: 'Azure Service Health provides alerts for events that may affect your IoT solution, such as service issues and planned maintenance activities.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: 'You collect Azure Activity logs within the log aggregation tool to provide visibility into the management plane operations performed on Azure IoT services such as IoT Hub, DPS, and IoT Central'
+    description: 'Azure Activity Log allows you to determine what, who, and when for any operations performed to IoT ingestion and backend services in your solution.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: 'To successfully maintain your IoT solution, it''s important to ''turn the lights on'' and have clear visibility of important metrics both in real-time and historically for key ingestion services (such as IoT Hub or IoT Central) as well as any other critical backend resources that support the overall IoT Solution.'
+isRequired: false
+uid: 1d8d5465-7ffb-405d-80f9-80fffffcd09a
+name: 'To successfully maintain your IoT solution, it''s important to ''turn the lights on'' and have clear visibility of important metrics both in real-time and historically for key ingestion services (such as IoT Hub or IoT Central) as well as any other critical backend resources that support the overall IoT Solution. Q4.'

@@ -1,0 +1,54 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: 6a7e5ce7-de5a-41b7-8648-0ad8e6bbe218
+    name: Forking and cloning repositories
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: 4cb148a0-28d6-4ca5-b87f-b96c29632f81
+    name: Working with GitHub local and remote branches
+stem: ''
+isRequired: true
+legacyId: '3'
+uid: 6e0c2b06-e741-4eb9-9b7f-391fc4e68f05
+name: How confident are you with GitHub skills for content authoring?

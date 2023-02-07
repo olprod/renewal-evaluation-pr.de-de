@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |+
+  You manage 100 Azure Storage accounts. 
+
+  You need to proactively identify any potential issues by reviewing Azure Storage metrics in the Azure portal.
+
+  Which tool should you use?
+
+questionnaireUid: 167389b6-8039-43a1-85e6-401beb2ed72d
+questions:
+  - uid: f2e52e1b-ab56-4a85-a9b8-69c5789f7c39-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You manage 100 Azure Storage accounts.
+        isCorrect: false
+      - id: 1
+        text: You need to proactively identify any potential issues by reviewing Azure Storage metrics in the Azure portal.
+        isCorrect: true
+      - id: 2
+        text: Which tool should you use?
+        isCorrect: false
+      - id: 3
+        text: Azure Activity Log
+        isCorrect: false
+    manualId: AZ720.4.1
+uid: f2e52e1b-ab56-4a85-a9b8-69c5789f7c39
+title: ''
+manualId: ''

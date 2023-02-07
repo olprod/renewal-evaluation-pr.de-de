@@ -1,0 +1,103 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The application has dedicated cross-premises and/or internet bandwidth.
+    description: Does the application have dedicated cross-premises bandwidth? Or is bandwidth shared with other applications?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: B
+    text: Components with sensitive latency requirements are collocated.
+    description: Are there any components or scenarios that are very sensitive to latency and require resources to be collocated in close proximity?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: C
+    text: Network gateways (firewalls and switches) have been sized according to expected cross-premises network throughput.
+    description: Have network gateway devices been sized according to the expected cross-premises network throughput?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: D
+    text: Expected throughput passing through security/network appliances has been tested and they have been sized/configured based on throughput requirements.
+    description: 'Have security/network appliances been tested with expected network through-put, and any sizing or configuration optimization changes have been implemented based on through-put requirements.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: Pre-emptive scaling based on trends has been implemented and the time taken to scale in/out has been tested and measured.
+    description: Are you able to review historical usage data to allow preemptive scaling of the application to meet expected performance requirements.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: F
+    text: 'The application can scale automatically based on usage, for example using technology such as the Horizontal Pod Autoscaling (HPA) feature for Kubernetes clusters deployed using AKS-Engine.'
+    description: 'For applications that used Kubernetes for orchestration, they can make use of the Horizontal Pod Autoscaler (HPA) featuer. This can be used to automatically scale the number of pods replicas based on worker node performance metrics, such as the average CPU load across all pods.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: Tested and validated defined latency and defined throughput targets per scenario and component.
+    description: 'Throughput targets, which are commonly defined in terms of IOPs, MB/s and Block Size, should be defined and measured for key application scenarios, as well as each individual components, to validate overall application performance and health. Available throughput for storage varies based on the VM Size/SKU, so defined targets should be used to inform the use of appropriate VM SKUs and number of data disks per VM to aggregate total IOPs if required.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: H
+    text: Calculated target data sizes and associated growth rates per scenario and component.
+    description: Scale limits and recovery options should be assessed in the context of target data sizes and growth rates to ensure suitable capacity exists.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: Operational procedures are defined in case data sizes exceed limits.
+    description: Mitigation plans such as purging or archiving data can help the application to remain available in scenarios where data size exceeds expected limits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: J
+    text: Validated that long-running TCP connections are not required for the workload.
+    description: Does the workload require a large amount of long running TCP connections which may cause SNAT port exhaustion?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: K
+    text: Throttling is implemented to govern inbound application calls and inter-component calls.
+    description: Have you implemented throttling for all inbound and inter-component calls?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 9066da13-0233-451c-865b-a98c1ab9441c
+name: What reliability allowances for scalability and performance have you made?

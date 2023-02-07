@@ -1,0 +1,39 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: We schedule the days and times that Redis Server updates will be applied to the cache outside of other Azure or VM update cycles.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: 'Alerts are in place for exceptions, high CPU, high memory usage, server load, and evicted keys for insights about when to scale the cache.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e407dec8-194c-428f-a670-3288a25e3e93.golive-data.redit
+stem: ''
+isRequired: false
+uid: 3b1a072c-a77d-4dd6-aa1d-91b06c419723
+name: Have you configured Azure Cache for Redis for operational excellence?

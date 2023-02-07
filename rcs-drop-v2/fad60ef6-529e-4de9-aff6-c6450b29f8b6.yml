@@ -1,0 +1,48 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Maturing the policies and processes around Identity Baseline using native tools.
+    url: /azure/cloud-adoption-framework/govern/identity-baseline/toolchain
+    context: Maturing the policies and processes around Identity Baseline using native tools.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Identify potential business risks associated with Identity.
+    url: /azure/cloud-adoption-framework/govern/identity-baseline/business-risks#business-risk
+    condition:
+      scoreOf:
+        - c542a746-fc17-4728-ab1b-1573c4df0a9f<2
+    context: Identify potential business risks associated with Identity.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Quantify business risk tolerance related to Identity Baseline.
+    url: /azure/cloud-adoption-framework/govern/identity-baseline/metrics-tolerance
+    condition:
+      scoreOf:
+        - c542a746-fc17-4728-ab1b-1573c4df0a9f<3
+    context: Quantify business risk tolerance related to Identity Baseline.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Review sample policies.
+    url: /azure/cloud-adoption-framework/govern/identity-baseline/policy-statements
+    condition:
+      scoreOf:
+        - c542a746-fc17-4728-ab1b-1573c4df0a9f<3
+    context: Review sample policies.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Improve the discipline of Identity Management.
+    url: /azure/cloud-adoption-framework/govern/identity-baseline/discipline-improvement
+    condition:
+      scoreOf:
+        - c542a746-fc17-4728-ab1b-1573c4df0a9f>2
+    context: Improve the discipline of Identity Management.
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: fad60ef6-529e-4de9-aff6-c6450b29f8b6
+name: ''

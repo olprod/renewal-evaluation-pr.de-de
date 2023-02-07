@@ -1,0 +1,7 @@
+### YamlMime:Questionnaire
+studyMaterials:
+  - uid: learn.wwl.load-balancing-non-https-traffic-azure
+    type: Module
+uid: f05bfbe4-7b32-4e3d-9dd1-cf1bf564321c
+title: Load balance non-HTTP(S) traffic in Azure
+manualId: AZ-700.4

@@ -1,0 +1,54 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Azure Monitor to collect IoT Hub metrics.
+    description: You can collect IoT Hub metrics using Azure Monitor with alerts for critical metrics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: You use Azure Service Health to monitor the status of IoT Hub.
+    description: Azure Service Health service alerts set up to trigger notifications when status of IoT Hub changes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: You set up Azure Monitor alerts based on current scale limits.
+    description: Azure Monitor alerts are setup based on current scale limits such as device-to-cloud messages sent per second.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: You set up Azure Monitor alert for metrics and logs.
+    description: 'Azure Monitor alerts are setup for metrics and logs, such as the number of failed requests and throttling errors.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: 'To be able to manage and improve the performance efficiency of your IoT solution, benchmarking and monitoring the devices (including leaf devices and gateway devices), the connectivity to the cloud gateway, and the resources contained in the IoT solution itself is important.'
+isRequired: false
+uid: 76e12ef1-9632-4b69-a4bf-06473d5eb00d
+name: 'To be able to manage and improve the performance efficiency of your IoT solution, benchmarking and monitoring the devices (including leaf devices and gateway devices), the connectivity to the cloud gateway, and the resources contained in the IoT solution itself is important. Q18.'

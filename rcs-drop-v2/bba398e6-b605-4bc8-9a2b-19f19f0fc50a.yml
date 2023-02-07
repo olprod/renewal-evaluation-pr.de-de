@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Visual Studio IDE
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Automated testing for CI/CD workflow
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Microsoft 365 Developer subscription
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf:
+    - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.0
+    - 9b234605-e562-4157-b8cb-6b1142364fe5.0ebd48cd-9d0c-4a82-ba19-86c763dc156c.1
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: bba398e6-b605-4bc8-9a2b-19f19f0fc50a
+name: Which Dev/Test Azure Subscriptions features are most appropriate for your organization? (Choose all that apply)

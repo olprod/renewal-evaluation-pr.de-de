@@ -1,0 +1,37 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Follow Azure Databricks architecture patterns ensuring fault tolerance.
+    description: 'All metadata, such as scheduled jobs, is stored in an Azure Database with geo-replication for fault tolerance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: B
+    text: Use Azure Databricks fault tolerance measures for queries in AI workloads/jobs.
+    description: 'Making your queries fault tolerant, you must enable query checkpointing and configure Databricks jobs to restart your queries automatically after a failure.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: C
+    text: Be aware that not all Azure Databricks services provide fault tolerance.
+    description: 'For example, the HorovodEstimator makes no fault-tolerance guarantees. If an error occurs during training, HorovodEstimator does not attempt to recover, although you can rerun fit() to resume training from the latest checkpoint.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 34
+  - id: D
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Application workloads should be tested to validate reliability against defined reliability targets.
+isRequired: false
+legacyId: '11'
+uid: 3cd8f67b-8200-42e9-ba65-f60422a58112
+name: Application workloads should be tested to validate reliability against defined reliability targets.

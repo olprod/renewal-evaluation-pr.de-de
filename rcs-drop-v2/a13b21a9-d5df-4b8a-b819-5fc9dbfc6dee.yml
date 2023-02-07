@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Your databases are set up as geo-redundant if the impact on transaction latency permits it.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Operational procedures are defined in case data sizes approach limits.
+    description: Examples of mitigation plans would be purging or archiving unused data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: performance-tradeoffs-data-sqlmi
+uid: a13b21a9-d5df-4b8a-b819-5fc9dbfc6dee
+name: What reliability allowances for scalability and performance have you made?

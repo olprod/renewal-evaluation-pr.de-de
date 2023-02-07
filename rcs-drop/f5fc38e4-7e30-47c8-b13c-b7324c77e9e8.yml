@@ -1,0 +1,25 @@
+### YamlMime:QuestionSet
+scenario: Which experiences are supported in Teams meeting extensions?
+questionnaireUid: 1038e726-3d05-48cc-a2aa-3e6c0bc369f2
+questions:
+  - uid: f5fc38e4-7e30-47c8-b13c-b7324c77e9e8-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Which experiences are supported in Teams meeting extensions?
+        isCorrect: true
+      - id: 1
+        text: 'Pre-meeting, In-meeting, and post-meeting experience only'
+        isCorrect: false
+      - id: 2
+        text: Pre-meeting and In-meeting experience only
+        isCorrect: false
+      - id: 3
+        text: In-meeting and post-meeting experience only
+        isCorrect: false
+    manualId: MS-600.8.5
+uid: f5fc38e4-7e30-47c8-b13c-b7324c77e9e8
+title: ''
+manualId: ''

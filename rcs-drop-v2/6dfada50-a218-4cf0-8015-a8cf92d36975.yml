@@ -1,0 +1,31 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'In a cloud environment, you scale out rather than buying higher-end hardware to scale up. While it''s always desirable to prevent all failure, focus your efforts in minimizing the effects of a single failing component.'
+hideEmptyGuidance: false
+questions:
+  - bee0490f-5a67-4ad7-bfc0-cc2b78fe62ee
+  - 9d74fca4-17ea-4581-8480-d1ca0e075eab
+  - 0cd0a25d-b00f-4542-b3be-d406332622a5
+  - 1e7b058f-0e4c-4792-91b6-3fa8cdf22584
+  - 36fa79fa-19e5-4ec5-b674-46653bf81b3d
+  - 9d779287-cf4d-402a-ad91-71a0771bd517
+  - e85a8428-773d-49c1-89b4-0371e3dbbd96
+  - dffe91ab-abb5-4c5c-ba56-87d28a6574cf
+  - 2e5fd068-5724-4dc9-a1d9-ca3cb62b4ede
+  - 0788a7e6-fa1a-4fab-844f-c11cd2779511
+  - 260207dc-a95a-4348-bb58-21a8ba828889
+  - 117edba5-0bf6-40ef-8ff9-01089cb06bdc
+  - 545de1f8-bfe9-4552-a371-d33646327e71
+  - 507ffed2-e90b-4c66-b2ac-6aca3c118354
+  - 51d47442-42f7-4843-a34b-6756e1437b4c
+  - 229948ae-28f4-42ad-b4d9-dff402dfbdf4
+  - 63569c55-a57d-4ecb-b99f-136e2d99a8a4
+  - 624fd34a-276b-4d1e-a68a-22ea656cab1e
+  - c32e83fe-8995-45a9-a7c9-56da16980f41
+  - 989aa5de-14d6-41b9-b9d9-192bf365c06e
+  - 8b1059f7-f6ec-4503-8092-057362e9b945
+recommendations:
+  - e47cbce4-add1-4c1c-b282-ec3d464e00ab
+assignedGroupIds: []
+uid: 6dfada50-a218-4cf0-8015-a8cf92d36975
+name: IoT - Reliability

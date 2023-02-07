@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Azure Monitor to collect Azure IoT Hub metrics.
+    description: You can collect Azure IoT Hub metrics using Azure Monitor with alerts for critical metrics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: You use Azure Service Health to monitor the status of Azure IoT Hub.
+    description: Azure Service Health service alerts set up to trigger notifications when the status of Azure IoT Hub changes.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: You set up Azure Monitor alerts based on current scale limits.
+    description: Azure Monitor alerts are set up based on current scale limits such as device-to-cloud messages sent per second.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '3'
+    text: You set up Azure Monitor alert for metrics and logs.
+    description: 'Azure Monitor alerts are set up for metrics and logs, such as the number of failed requests and throttling errors'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'To manage and improve the performance efficiency of your IoT solution, it''s important to benchmark and monitor the devices (including downstream devices and gateway devices), the connectivity to the cloud gateway, and the resources contained in the IoT solution itself.'
+isRequired: false
+uid: 23721809-96bd-4e05-8292-66ba181dd2a2
+name: 'To manage and improve the performance efficiency of your IoT solution, it''s important to benchmark and monitor the devices (including downstream devices and gateway devices), the connectivity to the cloud gateway, and the resources contained in the IoT solution itself. Q18.'

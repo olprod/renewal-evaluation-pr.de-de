@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Devices only send data when they're connected.
+    description: Data is discarded when the device isn't connected and only sent when the device is connected.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: You've defined a data catch-up strategy.
+    description: 'Define a data catch-up strategy when a device reconnects to the cloud. For example, data can be cached locally, including all or only aggregated data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: You've defined a data cache eviction strategy.
+    description: 'Define a cache eviction strategy when local storage capacities are reached. For example, use priorities per data type, use FIFO or LIFO, create aggregates, use TTL policy, or storage capacity checks.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: You use Azure IoT Edge devices and message buffering.
+    description: 'Use Azure IoT Edge devices that can buffer messages locally and resend them when the connection is restored. The caching is configurable, both in size, in TTL, by priority, and where to store, even on external or shared storage. Use a separate disk partition to store offline messages, configure automatic cleanup.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Devices that are not always connected to the cloud can be disconnected for short periods of seconds/minutes or up to long periods of hours/days.
+isRequired: false
+uid: ecf01f33-54e7-4c12-9835-b99f9a8707e9
+name: Devices that are not always connected to the cloud can be disconnected for short periods of seconds/minutes or up to long periods of hours/days. Q3.

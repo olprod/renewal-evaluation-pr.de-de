@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Active geo-replication or Failover groups are configured for Azure SQL MI if the disaster recovery requirements demand it.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Temporal tables enable you to restore row versions from any point in time on a per table basis.
+    description: 'For example, these can be used to recover from accidental deletion of rows in tables'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Use source control such as GIT when collaborating on projects.
+    description: For example with the use of Azure DevOps.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Use just in time access (JIT) to restrict the use of elevated rights.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Use DEV/TEST environments with robust testing to validate changes before implementing them into your production environment.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: operations-tradeoffs-data-sqlmi
+uid: 5961ae4e-1b72-4f65-bd9c-2403a6e686ee
+name: What reliability allowances for operations have you made?

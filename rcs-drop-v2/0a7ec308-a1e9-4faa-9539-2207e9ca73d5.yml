@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Developed a security allowlist plan to assess services like security configuration, monitoring, and alerts. Then created a plan to integrate them with existing systems.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Determined the incident response plan for Azure services before moving it into production.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Aligned security requirements with Azure platform roadmaps to stay current with newly released security controls.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: "Implemented a\_zero-trust approach for access\_to the Azure platform where appropriate."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 0a7ec308-a1e9-4faa-9539-2207e9ca73d5
+name: 'Are you leveraging Landing Zone guidance on how you are managing access control in terms of network security controls and zero trust access controls? '

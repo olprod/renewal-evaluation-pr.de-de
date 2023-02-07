@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use environments for dev and test stages that simulate the production database environment.
+    description: 'Maintaining production-like environments for your pre-prod stages means if issues in production occur, you are far more capable of developing, testing, and releasing hot fixes and updates quickly.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Manage and actively resolve any technical debt in your databases environments.
+    description: Technical debt includes anything that the team must do to deploy production quality code and keep it running in production.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Have pipelines for continuous deployment and continuous integration.
+    description: 'Each time code is checked in, it is then verified by an automated build, allowing teams to detect problems early.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Use feature flags to add new features.
+    description: 'Using feature flags is a technique that will help you integrate code into a shared repository at least once a day and ship it, even if you haven''t finished the feature yet.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Using Visual Studio Database Projects or other third-party tools to manage database code and source control integration.
+    description: Use a tool that facilitates database code changes and codebase management.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 47806556-dd3d-443b-9c4f-01d485430ffb
+name: How is development done on this workload?

@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Specific methodologies, like DevOps, are used to structure the development and operations process.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: B
+    text: Leverage central Azure monitoring tools like Azure Monitor.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Collaboration between data analysts, data engineers, development teams, and the operations team to resolve production issues are clearly defined and well understood.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: 'Operational shortcomings and failures are analyzed, post-mortems are performed and used to improve and refine operational procedures.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: 'There are tools or processes in place, such as Azure AD Privileged Identity Management, to grant access to critical instances on a just in-time basis.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: F
+    text: Azure Resource Tags are used to enrich your AAS instance with operational metadata.
+    description: 'Azure Tags provide the ability to associate critical metadata as a name-value pair, such as billing information (e.g., cost centre code), environment information (e.g., environment type), with Azure Analysis resources.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: G
+    text: 'There are tools and processes, like Azure Policy, in place to govern available services, enforce mandatory operational functionality and ensure compliance.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.operational
+stem: ''
+isRequired: false
+uid: 8564b609-04c8-4314-af82-3bca4dffc7c8
+name: What processes and procedures have you adopted to optimize workload operability?

@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'A strategy has been defined and implemented for Quotas, Plans and Offers. User Subscriptions can be provisioned, enabling Users to deploy and consume services successfully.'
+    description: 'Has a strategy has been defined and implemented for Quotas, Plans and Offers. User Subscriptions can be provisioned, enabling Users to deploy and consume services successfully.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: 'Processes and procedures have been defined to ensure effective management of Azure Marketplace items on Azure Stack Hub, such as downloading and publishing new and/or updated OS Images, VM Extensions, RPs, and ISV solutions.'
+    description: 'Has a process been defined to ensure effective management of Azure Marketplace items on Azure Stack Hub, such as downloading and publishing new and/or updated OS Images, VM Extensions, RPs and ISV solutions?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: C
+    text: The App Services Resource Provider (RP) has been evaluated to gain an understanding of how it could help Users leverage PaaS services for web-sites and Azure Functions.
+    description: The App Services Resource Provider (RP) can be used to enabled Users leverage PaaS services for web-sites and Azure Functions. There are requirements for Cloud Operators to manage the Worker Pool VMs from the Admin portal.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: The Azure Event Hubs Resource Provider (RP) has been evaluated to gain an understanding of how it could help Users leverage PaaS services for event driven application architectures.
+    description: Has the Azure Event Hubs Resource Provider (RP) been evaluated to gain an understanding of how it could help Users leverage PaaS services for event driven application architectures?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: E
+    text: 'Azure Stack Hub Users are aware of the AKS Engine toolset, to enable them to automate the deployment, upgrade and scaling of Kubernetes clusters on Azure Stack Hub.'
+    description: 'Are Azure Stack Hub Users aware of the AKS Engine toolset, that can be used to automate the process of deploying, upgrading and scaling Kubernetes clusters on Azure Stack Hub.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: G
+    text: 'The Azure Container Registry (ACR) Resource Provider (RP) has been evaluated to gain an understanding of how it could help Users leverage PaaS services to store and manage container images. (Note: ACR RP should not be used in production, while in Preview).'
+    description: 'The Azure Container Registry (ACR) Resource Provider (RP) entered Public Preview status with the 2108 update. Users can leverage ACR instances for container image distribution and management . Note: ACR RP should not be used in production, while in Preview.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: H
+    text: 'Custom VM images can be added or removed from the Azure Stack Hub marketplace, to help Users achieve security and/or business requirements for VM operating systems.'
+    description: 'Is there a process to enable custom VM images to be added or removed from the Azure Stack Hub marketplace, to help Users achieve security and/or business requirements for VM operating systems.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: I
+    text: 'Usage and Billing data can be reported effectively to meet User requirements, such as charge back or showback scenarios. For disconnected scenarios, if required, usage data is extracted locally using the Billing API.'
+    description: 'Can Usage and Billing data be reported effectively to meet User requirements, such as charge back or showback scenarios. For disconnected scenarios, if required, usage data is extracted locally using the Billing API.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: a15c64c8-32d5-4cb2-bd70-e4342dc38d50
+name: "What processes and procedures\_have been implemented to offer services using Azure Stack Hub?"

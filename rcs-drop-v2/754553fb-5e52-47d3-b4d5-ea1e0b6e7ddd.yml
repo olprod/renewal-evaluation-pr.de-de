@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Tools like Microsoft Defender for Cloud are used to discover and remediate common risks within Azure tenants.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: Logs from OS scanned for analyzed.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: Effective SAP threat monitoring implemented using Azure Sentinel or 3rd Party Software.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '3'
+    text: 'The security team has read-only access into all cloud environment resources for this workload. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: 'The security team has access to and monitor all subscriptions and tenants that are connected to the existing cloud environment, relative to SAP workload. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+stem: Identifying and remediating common security risks significantly reduces overall risk to the organization by increasing cost to attackers. Knowing when and where an attack is taking place is necessary in order to take proper action.
+isRequired: false
+uid: 754553fb-5e52-47d3-b4d5-ea1e0b6e7ddd
+name: Identifying and remediating common security risks significantly reduces overall risk to the organization by increasing cost to attackers.

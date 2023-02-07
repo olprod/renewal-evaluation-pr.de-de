@@ -1,0 +1,729 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Deploy your workload in an active-passive configuration
+    url: /azure/networking/disaster-recovery-dns-traffic-manager#manual-failover-using-azure-dns
+    condition:
+      noneOf:
+        - Operational.0aa1ba33-0dee-40ab-b7e4-ce9b40ac0f30.C
+    context: Deploy your workload in an active-passive configuration
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Implement strategies for resiliency and self-healing
+    url: /azure/architecture/framework/resiliency/app-design
+    condition:
+      noneOf:
+        - Operational.0aa1ba33-0dee-40ab-b7e4-ce9b40ac0f30.E
+        - Performance.bc3e062c-c894-4c8d-91ea-578e2682d64d.F
+    context: Implement strategies for resiliency and self-healing
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Understand the impact of dependencies
+    url: /azure/architecture/framework/resiliency/design-resiliency#understand-the-impact-of-dependencies
+    condition:
+      noneOf:
+        - Operational.0aa1ba33-0dee-40ab-b7e4-ce9b40ac0f30.F
+    context: Understand the impact of dependencies
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Dependencies
+  - title: 'Define, monitor, and measure availability targets'
+    url: /azure/architecture/best-practices/monitoring#requirements-for-sla-monitoring
+    condition:
+      noneOf:
+        - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.A
+    context: 'Define, monitor, and measure availability targets'
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Targets & Non-Functional Requirements
+  - title: Identify if there are components with more relaxed performance requirements
+    url: /azure/architecture/framework/resiliency/business-metrics#identify-less-critical-components
+    condition:
+      noneOf:
+        - Operational.7db8985e-f868-4b0c-8457-44cc158c8005.H
+    context: Identify if there are components with more relaxed performance requirements
+    priority: 20
+    reportingCategory: Application Design
+    reportingSubCategory: Key Scenarios
+  - title: Collect application level logs
+    url: /azure/architecture/framework/devops/checklist
+    condition:
+      noneOf:
+        - Operational.9f2921b6-df60-4c55-bde2-f5d47d1ba9dd.A
+    context: Collect application level logs
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Instrument your workload
+    url: /azure/architecture/best-practices/monitoring#instrumenting-an-application
+    condition:
+      noneOf:
+        - Operational.9f2921b6-df60-4c55-bde2-f5d47d1ba9dd.B
+        - Reliability.5b9e399b-f09a-4a4c-8c01-c531cc48f4fd.E
+    context: Instrument your workload
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring and Measurement
+  - title: Gather logs in a structured format
+    url: /azure/architecture/best-practices/monitoring#information-to-include-in-the-instrumentation-data
+    condition:
+      noneOf:
+        - Operational.9f2921b6-df60-4c55-bde2-f5d47d1ba9dd.C
+    context: Gather logs in a structured format
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Analyze health data for your workload
+    url: /azure/architecture/best-practices/monitoring#analyzing-health-data
+    condition:
+      noneOf:
+        - Operational.9f2921b6-df60-4c55-bde2-f5d47d1ba9dd.E
+    context: Analyze health data for your workload
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Correlate application log events
+    url: /azure/architecture/framework/devops/checklist
+    condition:
+      noneOf:
+        - Operational.9f2921b6-df60-4c55-bde2-f5d47d1ba9dd.F
+    context: Correlate application log events
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Setup black-box monitoring to monitor the platform and customer experience
+    url: /azure/architecture/framework/resiliency/monitor-model#white-box-and-black-box-monitoring
+    condition:
+      noneOf:
+        - Operational.9f2921b6-df60-4c55-bde2-f5d47d1ba9dd.H
+    context: Setup black-box monitoring to monitor the platform and customer experience
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring and Measurement
+  - title: Use a log aggregation technology
+    url: /azure/architecture/best-practices/monitoring#collecting-and-storing-data
+    condition:
+      noneOf:
+        - Operational.ca65abac-0bec-4bf4-96aa-480e1091db55.A
+        - Operational.039a8427-5147-4a19-b52b-7b724e6ef746.A
+        - Cost.3dfb8613-93d6-4c70-b664-39fbad43fe26.A
+    context: Use a log aggregation technology
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Resource and Infrastructure Level Monitoring
+  - title: Collect Azure activity logs in your aggregation tool
+    url: /azure/azure-monitor/platform/activity-log
+    condition:
+      noneOf:
+        - Operational.ca65abac-0bec-4bf4-96aa-480e1091db55.B
+    context: Collect Azure activity logs in your aggregation tool
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Resource and Infrastructure Level Monitoring
+  - title: Enforce resource level monitoring
+    url: /azure/azure-monitor/deploy-scale
+    condition:
+      noneOf:
+        - Operational.ca65abac-0bec-4bf4-96aa-480e1091db55.C
+    context: Enforce resource level monitoring
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Resource and Infrastructure Level Monitoring
+  - title: Correlate logs and metrics for critical internal dependencies
+    url: /azure/architecture/framework/devops/checklist
+    condition:
+      noneOf:
+        - Operational.ca65abac-0bec-4bf4-96aa-480e1091db55.D
+    context: Correlate logs and metrics for critical internal dependencies
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Monitor critical external dependencies
+    url: /azure/architecture/framework/devops/monitor-pipeline
+    condition:
+      noneOf:
+        - Operational.ca65abac-0bec-4bf4-96aa-480e1091db55.E
+        - Performance.7d5c92e8-b895-46f7-8f6b-7ffbc507fd3f.F
+    context: Monitor critical external dependencies
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Dependencies
+  - title: Instrument the workload to monitor customer experience
+    url: /azure/azure-monitor/app/web-monitor-performance
+    condition:
+      noneOf:
+        - Operational.ca65abac-0bec-4bf4-96aa-480e1091db55.G
+    context: Instrument the workload to monitor customer experience
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring and Measurement
+  - title: Configure appropriate log levels for environments
+    url: /aspnet/core/fundamentals/logging/?view=aspnetcore-5.0
+    condition:
+      noneOf:
+        - Operational.ca65abac-0bec-4bf4-96aa-480e1091db55.H
+    context: Configure appropriate log levels for environments
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Application Level Monitoring
+  - title: Correlate resource-level logs
+    url: /azure/architecture/framework/devops/monitor-pipeline
+    condition:
+      noneOf:
+        - Operational.039a8427-5147-4a19-b52b-7b724e6ef746.B
+    context: Correlate resource-level logs
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: Implement a health model
+    url: /azure/architecture/best-practices/monitoring#health-monitoring
+    condition:
+      noneOf:
+        - Operational.039a8427-5147-4a19-b52b-7b724e6ef746.C
+        - Operational.039a8427-5147-4a19-b52b-7b724e6ef746.D
+        - Operational.039a8427-5147-4a19-b52b-7b724e6ef746.E
+        - Performance.7127a249-88f7-4ccd-b2e9-495a4f866f3a.B
+    context: Implement a health model
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: Analyze long-term trends to predict operational issues before they occur
+    url: /azure/architecture/framework/scalability/monitor#data-interpretation--health-modeling
+    condition:
+      noneOf:
+        - Operational.039a8427-5147-4a19-b52b-7b724e6ef746.F
+        - Operational.039a8427-5147-4a19-b52b-7b724e6ef746.G
+    context: Analyze long-term trends to predict operational issues before they occur
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Data Interpretation & Health Modeling
+  - title: Implement tools to visualize application health
+    url: /azure/architecture/best-practices/monitoring#visualization-by-using-dashboards
+    condition:
+      noneOf:
+        - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.A
+    context: Implement tools to visualize application health
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Dashboarding
+  - title: Tailor dashboards to your needs
+    url: /azure/architecture/framework/devops/alerts#alert-dashboarding
+    condition:
+      noneOf:
+        - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.B
+        - Reliability.c8f2624d-8f9b-470e-808b-576839620529.E
+    context: Tailor dashboards to your needs
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Dashboarding
+  - title: Use automated alerting solution
+    url: /azure/architecture/framework/devops/alerts
+    condition:
+      noneOf:
+        - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.C
+    context: Use automated alerting solution
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Alerting
+  - title: Define a process for alert reaction
+    url: /azure/architecture/framework/devops/alerts#alert-owners
+    condition:
+      noneOf:
+        - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.D
+        - Cost.46f69716-7278-454b-a868-1037a89eb3f2.B
+        - Operational.2404b75c-7896-4362-8793-35aa08d4084f.H
+    context: Define a process for alert reaction
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Alerting
+  - title: Prioritize operational events
+    url: /azure/architecture/framework/devops/alerts#alert-prioritization
+    condition:
+      noneOf:
+        - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.E
+    context: Prioritize operational events
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Alerting
+  - title: Send reliable alert notifications
+    url: /azure/architecture/framework/devops/alerts#alert-response
+    condition:
+      noneOf:
+        - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.F
+    context: Send reliable alert notifications
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Alerting
+  - title: Integrate Alerting into an existing systems
+    url: /azure/architecture/framework/devops/alerts#alert-integrations
+    condition:
+      noneOf:
+        - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.G
+    context: Integrate Alerting into an existing systems
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Alerting
+  - title: Enable Service Health alerts on your workload
+    url: /azure/service-health/overview
+    condition:
+      noneOf:
+        - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.J
+        - Reliability.c8f2624d-8f9b-470e-808b-576839620529.F
+    context: Enable Service Health alerts on your workload
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Alerting
+  - title: Create Azure Resource Health alerts
+    url: /azure/service-health/resource-health-alert-monitor-guide
+    condition:
+      noneOf:
+        - Operational.b0da922f-962b-4ba5-a595-aea3855560a9.I
+    context: Create Azure Resource Health alerts
+    priority: 50
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Alerting
+  - title: Test your failover and failback process
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#operational-readiness-testing
+    condition:
+      noneOf:
+        - Operational.0a7ab161-b3dd-407e-81e2-6ab64a8b27cd.B
+    context: Test your failover and failback process
+    priority: 70
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Use the health model to classify failover situations
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#failover-classification
+    condition:
+      noneOf:
+        - Operational.0a7ab161-b3dd-407e-81e2-6ab64a8b27cd.C
+    context: Use the health model to classify failover situations
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Automate recovery procedures
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#recovery-automation
+    condition:
+      noneOf:
+        - Operational.0a7ab161-b3dd-407e-81e2-6ab64a8b27cd.D
+    context: Automate recovery procedures
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Document critical manual processes
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#manual-responses
+    condition:
+      noneOf:
+        - Operational.0a7ab161-b3dd-407e-81e2-6ab64a8b27cd.F
+    context: Document critical manual processes
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Test and validate manual operation runbooks
+    url: /azure/architecture/framework/resiliency/backup-and-recovery#automated-recovery-testing
+    condition:
+      noneOf:
+        - Operational.0a7ab161-b3dd-407e-81e2-6ab64a8b27cd.G
+    context: Test and validate manual operation runbooks
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Recovery & Failover
+  - title: Codify the process to provision and de-provision capacity
+    url: /azure/architecture/framework/scalability/capacity#automated-scale-operations
+    condition:
+      noneOf:
+        - Operational.5f9db10b-393f-4e8e-b1d1-4821c06b11da.C
+    context: Codify the process to provision and de-provision capacity
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Understand the impact of changes in application health and capacity
+    url: /azure/architecture/framework/scalability/capacity#application-health-and-capacity
+    condition:
+      noneOf:
+        - Operational.5f9db10b-393f-4e8e-b1d1-4821c06b11da.D
+    context: Understand the impact of changes in application health and capacity
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Compare regional capacity requirements to availability
+    url: 'https://azure.microsoft.com/en-us/global-infrastructure/services/'
+    condition:
+      noneOf:
+        - Operational.5f9db10b-393f-4e8e-b1d1-4821c06b11da.F
+    context: Compare regional capacity requirements to availability
+    priority: 50
+    reportingCategory: Capacity & Service Availability Planning
+    reportingSubCategory: Scalability & Capacity Model
+  - title: Consider storing application configuration in a dedicated management system like Azure App Configuration or Azure Key Vault
+    url: /azure/architecture/framework/security/design-app-dependencies#key-points
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.A
+        - Security.6e1ae65a-eef6-4a1c-9de9-ac5f5a6a9c8c.E
+    context: Consider storing application configuration in a dedicated management system like Azure App Configuration or Azure Key Vault
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Make sure that configuration settings can be changed or modified without rebuilding or redeploying the application
+    url: /azure/architecture/framework/security/design-app-dependencies#config-change
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.B
+    context: Make sure that configuration settings can be changed or modified without rebuilding or redeploying the application
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Store keys and secrets outside of application code in Azure Key Vault
+    url: /azure/architecture/framework/security/design-app-dependencies#secrets
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.C
+    context: Store keys and secrets outside of application code in Azure Key Vault
+    priority: 70
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Implement procedures for key/secret rotation
+    url: /azure/key-vault/secrets/tutorial-rotation-dual
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.D
+    context: Implement procedures for key/secret rotation
+    priority: 70
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Use Managed Identities for authentication to other Azure platform services
+    url: /azure/active-directory/managed-identities-azure-resources/overview
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.E
+    context: Use Managed Identities for authentication to other Azure platform services
+    priority: 70
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Monitor the expiry of SSL certificates
+    url: /azure/architecture/framework/security/design-app-dependencies#SSL
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.F
+    context: Monitor the expiry of SSL certificates
+    priority: 70
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Monitor for new features and updates that can improve your workload
+    url: 'https://azure.microsoft.com/updates/'
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.L
+    context: Monitor for new features and updates that can improve your workload
+    priority: 20
+    reportingCategory: Application Design
+    reportingSubCategory: Application Composition
+  - title: Use shared application and data services where appropriate
+    url: /azure/cloud-adoption-framework/manage/considerations/platform#establish-a-service-catalog
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.H
+    context: Use shared application and data services where appropriate
+    priority: 50
+    reportingCategory: Application Design
+    reportingSubCategory: Application Composition
+  - title: Take advantage of multiple subscriptions where appropriate
+    url: /azure/cloud-adoption-framework/ready/azure-best-practices/organize-subscriptions#azure-management-groups
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.I
+    context: Take advantage of multiple subscriptions where appropriate
+    priority: 30
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Use Platform as a Service offerings where appropriate
+    url: /azure/architecture/guide/design-principles/managed-services
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.J
+    context: Use Platform as a Service offerings where appropriate
+    priority: 30
+    reportingCategory: Application Design
+    reportingSubCategory: Design
+  - title: Enable Key Vault Soft-Delete
+    url: /azure/key-vault/general/soft-delete-overview
+    condition:
+      noneOf:
+        - Operational.f1ddcf01-817f-4c4b-8b9b-9bae8f2fbe59.K
+    context: Enable Key Vault Soft-Delete
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration & Secrets Management
+  - title: Reduce the need for manual operations
+    url: /azure/architecture/framework/devops/automation-overview
+    condition:
+      noneOf:
+        - Operational.9e1a1e94-d3ea-4f32-b031-c353b5e6a12a.A
+        - Reliability.8f4e7227-fe6b-4aff-8abf-807a64b84aed.A
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.N
+    context: Reduce the need for manual operations
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Code Deployments
+  - title: Document all portions of the deployment that require manual intervention
+    url: /azure/architecture/framework/devops/automation-infrastructure#manual-deployment
+    condition:
+      noneOf:
+        - Operational.9e1a1e94-d3ea-4f32-b031-c353b5e6a12a.B
+    context: Document all portions of the deployment that require manual intervention
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Code Deployments
+  - title: Implement automated deployment process with rollback/roll-forward capabilities
+    url: /azure/architecture/framework/devops/release-engineering-rollback
+    condition:
+      noneOf:
+        - Operational.9e1a1e94-d3ea-4f32-b031-c353b5e6a12a.C
+    context: Implement automated deployment process with rollback/roll-forward capabilities
+    priority: 60
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Code Deployments
+  - title: Define a hotfix process in case normal deployment procedures needs to be bypassed
+    url: /azure/architecture/framework/devops/automation-infrastructure#hotfix-process
+    condition:
+      noneOf:
+        - Operational.9e1a1e94-d3ea-4f32-b031-c353b5e6a12a.D
+    context: Define a hotfix process in case normal deployment procedures needs to be bypassed
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Code Deployments
+  - title: Use deployment strategies to deploy your workloads
+    url: /azure/architecture/framework/devops/release-engineering-cd
+    condition:
+      noneOf:
+        - Operational.9e1a1e94-d3ea-4f32-b031-c353b5e6a12a.E
+    context: Use deployment strategies to deploy your workloads
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Code Deployments
+  - title: Implement release gates
+    url: /azure/architecture/framework/devops/release-engineering-cd#stage-your-workloads
+    condition:
+      noneOf:
+        - Operational.9e1a1e94-d3ea-4f32-b031-c353b5e6a12a.F
+    context: Implement release gates
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Build Environments
+  - title: Use feature flags
+    url: /azure/devops/migrate/phase-features-with-feature-flags
+    condition:
+      noneOf:
+        - Operational.9e1a1e94-d3ea-4f32-b031-c353b5e6a12a.G
+    context: Use feature flags
+    priority: 30
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Build Environments
+  - title: Use a systematic approach in your development and release process
+    url: 'https://azure.microsoft.com/en-us/overview/what-is-devops/'
+    condition:
+      noneOf:
+        - Operational.9e1a1e94-d3ea-4f32-b031-c353b5e6a12a.I
+    context: Use a systematic approach in your development and release process
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Code Deployments
+  - title: 'Define all infrastructure components as code '
+    url: /azure/architecture/framework/devops/automation-infrastructure
+    condition:
+      noneOf:
+        - Operational.5fc03a8b-73fe-43ff-970c-11e6e727e98f.A
+        - Operational.5fc03a8b-73fe-43ff-970c-11e6e727e98f.B
+    context: 'Define all infrastructure components as code '
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Infrastructure Provisioning
+  - title: Track and address configuration drift
+    url: /azure/architecture/framework/devops/automation-configuration#configuration-management
+    condition:
+      noneOf:
+        - Operational.5fc03a8b-73fe-43ff-970c-11e6e727e98f.C
+    context: Track and address configuration drift
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Infrastructure Provisioning
+  - title: Automate infrastructure deployment process
+    url: /azure/architecture/framework/devops/automation-configuration
+    condition:
+      noneOf:
+        - Operational.5fc03a8b-73fe-43ff-970c-11e6e727e98f.D
+    context: Automate infrastructure deployment process
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Infrastructure Provisioning
+  - title: 'Make sure that critical test environments have 1:1 parity with productions'
+    url: /azure/architecture/framework/devops/release-engineering-cd#test-environments
+    condition:
+      noneOf:
+        - Operational.5fc03a8b-73fe-43ff-970c-11e6e727e98f.E
+    context: 'Make sure that critical test environments have 1:1 parity with productions'
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Build Environments
+  - title: Deploy all infrastructure through an infrastructure-as-code process
+    url: /azure/architecture/framework/devops/automation-infrastructure#why-deploy-infrastructure-with-code
+    condition:
+      noneOf:
+        - Operational.5fc03a8b-73fe-43ff-970c-11e6e727e98f.G
+    context: Deploy all infrastructure through an infrastructure-as-code process
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Application Infrastructure Provisioning
+  - title: 'Test for performance, scalability, and resiliency'
+    url: /azure/architecture/framework/devops/release-engineering-ci#continuous-integration
+    condition:
+      noneOf:
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.B
+    context: 'Test for performance, scalability, and resiliency'
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Perform some tests in production
+    url: /azure/devops/learn/devops-at-microsoft/shift-right-test-production
+    condition:
+      noneOf:
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.C
+    context: Perform some tests in production
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Perform smoke tests
+    url: /azure/architecture/framework/devops/release-engineering-testing#smoke-testing
+    condition:
+      noneOf:
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.E
+    context: Perform smoke tests
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Perform integration testing
+    url: /azure/architecture/framework/devops/release-engineering-testing#integration-testing
+    condition:
+      noneOf:
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.F
+    context: Perform integration testing
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Make sure that all tests are automated and carried out periodically
+    url: /azure/architecture/framework/devops/release-engineering-testing#automated-testing
+    condition:
+      noneOf:
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.G
+    context: Make sure that all tests are automated and carried out periodically
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Make sure that failed tests at least temporarily block deployments
+    url: /azure/architecture/framework/devops/release-engineering-ci#failed-tests
+    condition:
+      noneOf:
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.H
+    context: Make sure that failed tests at least temporarily block deployments
+    priority: 70
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Perform business continuity drills
+    url: /azure/architecture/framework/devops/release-engineering-testing#business-continuity-drills
+    condition:
+      noneOf:
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.I
+    context: Perform business continuity drills
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Perform security and penetration testing regularly
+    url: /azure/architecture/framework/security/monitor-test#penetration-testing-pentesting
+    condition:
+      noneOf:
+        - Operational.de79dcb1-70f8-47b2-bab6-83251c37c078.J
+    context: Perform security and penetration testing regularly
+    priority: 50
+    reportingCategory: Deployment & Testing
+    reportingSubCategory: Testing & Validation
+  - title: Make sure that specific methodologies are used to structure the deployment and operations process
+    url: /azure/architecture/framework/devops/principles#methodologies
+    condition:
+      noneOf:
+        - Operational.c293b529-4296-485d-8613-ebb4062e475d.A
+    context: Make sure that specific methodologies are used to structure the deployment and operations process
+    priority: 50
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: General
+  - title: Implement a process between dev and ops to resolve production issues
+    url: /azure/architecture/framework/devops/principles#roles
+    condition:
+      noneOf:
+        - Operational.c293b529-4296-485d-8613-ebb4062e475d.B
+    context: Implement a process between dev and ops to resolve production issues
+    priority: 50
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Roles & Responsibilities
+  - title: Make sure that operational shortcomings and failures are analyzed and used to improve and refine operational procedures
+    url: /azure/architecture/framework/devops/principles#lifecycles
+    condition:
+      noneOf:
+        - Operational.c293b529-4296-485d-8613-ebb4062e475d.C
+    context: Make sure that operational shortcomings and failures are analyzed and used to improve and refine operational procedures
+    priority: 50
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Operational Lifecycles
+  - title: Implement just-in-time privileged access management
+    url: /azure/architecture/framework/security/deploy-governance
+    condition:
+      noneOf:
+        - Operational.c293b529-4296-485d-8613-ebb4062e475d.D
+        - Operational.c293b529-4296-485d-8613-ebb4062e475d.E
+    context: Implement just-in-time privileged access management
+    priority: 70
+    reportingCategory: Operational Model & DevOps
+    reportingSubCategory: Roles & Responsibilities
+  - title: Use Azure Resource Tags to enrich resources with operational meta-data
+    url: /azure/architecture/framework/devops/principles#metadata
+    condition:
+      noneOf:
+        - Operational.c293b529-4296-485d-8613-ebb4062e475d.F
+    context: Use Azure Resource Tags to enrich resources with operational meta-data
+    priority: 30
+    reportingCategory: Governance
+    reportingSubCategory: Standards
+  - title: Use tools to govern services and configurations
+    url: /azure/azure-monitor/deploy-scale
+    condition:
+      noneOf:
+        - Operational.c293b529-4296-485d-8613-ebb4062e475d.G
+    context: Use tools to govern services and configurations
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Standards
+  - title: 'Define standards, policies and best practices as code'
+    url: /azure/governance/policy/concepts/definition-structure
+    condition:
+      noneOf:
+        - Operational.c293b529-4296-485d-8613-ebb4062e475d.H
+    context: 'Define standards, policies and best practices as code'
+    priority: 50
+    reportingCategory: Governance
+    reportingSubCategory: Standards
+  - title: Define a process around regularly validating and adjusting capacity and quota limits
+    url: /azure/networking/check-usage-against-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - Operational.aed34592-dda9-430c-b9bd-cadb1776e932.G
+      scoreOf: []
+    context: '50'
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Standards
+uid: 6a52fd19-7d10-4b9c-8389-53fa520da1f0
+name: ''

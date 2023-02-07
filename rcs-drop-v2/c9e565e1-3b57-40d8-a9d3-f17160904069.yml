@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Deny, Disabled'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'Append, Modify, DeployIfNotExists '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Audit, AuditIfNotExists, and/or setting "Enforcement Mode" on Policy Assignments to "Disabled" (which achieves same result as the Audit effect for Modify & DeployIfNotExists).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: c9e565e1-3b57-40d8-a9d3-f17160904069
+name: Which Azure Policy effect(s) do you use in your Azure Landing Zones environment to control and audit subscriptions and their resources?

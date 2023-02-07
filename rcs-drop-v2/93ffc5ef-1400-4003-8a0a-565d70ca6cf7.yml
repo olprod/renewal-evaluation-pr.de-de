@@ -1,0 +1,75 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Consider using automation runbooks to perform scaling of the Azure SQL DB based on workload demand.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: Azure SQL Database Serverless compute tier is used for applications with less strict performance requirements and highly intermittent workloads.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: The process to provision and deprovision capacity is scripted.
+    description: Are there known peaks so you can schedule capacity increase and decrease?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: The impact of changes in application health on capacity is fully understood.
+    description: 'Scaling causes minimal downtime, can your application handle this?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: It has been validated that the required capacity (initial and future growth) is within Azure SQL DB service scale limits and quotas.
+    description: Is the required capacity (initial and future growth) within Azure SQL DB service scale limits and quotas?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: 'It has been validated that the required capability, such as hardware generations is available within targeted regions.'
+    description: 'Is the required capability, such as hardware generations available within targeted regions?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: Resource utilization is monitored and used to forecast future growth.
+    description: Is resource utilization monitored and used to forecast future growth?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 93ffc5ef-1400-4003-8a0a-565d70ca6cf7
+name: How are scale operations performed?

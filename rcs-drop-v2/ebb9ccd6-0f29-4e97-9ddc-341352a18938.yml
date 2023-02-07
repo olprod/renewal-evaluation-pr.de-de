@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization does not have a data model repository with models being developed in an ad-hoc fashion using a set of disparate tools.
+    description: Your organization does not have a data model repository with models being developed in an ad-hoc fashion using a set of disparate tools.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'Evolving. Your organization has identified a need for a common data repository and plans to develop and store models in a central, easy to manage location.'
+    description: 'Your organization has identified a need for a common data repository and plans to develop and store models in a central, easy to manage location.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: 'Acceptable. Your organization is leveraging the concepts of common data repository and actively develops and stores models in a central, easy to manage location.'
+    description: 'Your organization is leveraging the concepts of common data repository and actively develops and stores models in a central, easy to manage location.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organization is implementing tools and processes by leveraging database templates to help accelerate development and standardization using industry-based templates from one central location.
+    description: Your organization is implementing tools and processes by leveraging database templates to help accelerate development and standardization using industry-based templates from one central location.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization is fully utilizing and leveraging database templates relevant your industry from one central location that easy to manage.
+    description: Your organization is fully utilizing and leveraging database templates relevant your industry from one central location that easy to manage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'A data modeling repository is a storage area, where metadata of a data model is stored. Do you have any common data modelling platform or approach to keep and maintain your data models?'
+isRequired: true
+uid: ebb9ccd6-0f29-4e97-9ddc-341352a18938
+name: 'A data modeling repository is a storage area, where metadata of a data model is stored.'

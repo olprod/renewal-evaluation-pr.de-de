@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We''re able to know if the workload makes the best use of the underlying platform and deployed resources, and we assess where parallelization is possible by profiling and testing it properly.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: We assess the workload with load testing and chaos engineering to improve its reliability to recover gracefully from failures and with fewer wasted resources.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '2'
+    text: 'Key metrics, thresholds, and indicators are defined and captured to find abnormally high resource consumption areas in the application code to help avoid deploying non-sustainable workloads.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: a047ab20-f20d-404a-b93e-b5bd63f27456
+name: 'How do you measure, profile, and test your workload to ensure it makes the best use of the allocated resources?'

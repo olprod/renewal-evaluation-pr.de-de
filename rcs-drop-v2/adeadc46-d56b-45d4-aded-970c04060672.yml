@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Yes'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: '1'
+    text: No. Android Enterprise enrolment has not been set up
+    description: 'Using Android Device Admin is not recommended by Microsoft as Google is decreasing device admin support in new Android releases. https://learn.microsoft.com/en-us/mem/intune/enrollment/android-enroll-device-administrator https://developers.google.com/android/work/device-admin-deprecation'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '2'
+    text: 'Mostly Android Enterprise but some Android Devices are enrolled as Android Device Admin '
+    description: 'Using Android Device Admin is not recommended by Microsoft as Google is decreasing device admin support in new Android releases. https://learn.microsoft.com/en-us/mem/intune/enrollment/android-enroll-device-administrator https://developers.google.com/android/work/device-admin-deprecation'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - 324b1a0f-641c-4b15-b555-4f738d0affb9.0d863e4e-c4b9-4f12-9353-96fcd92b5254.3
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: adeadc46-d56b-45d4-aded-970c04060672
+name: Are you using Android Enterprise work profiles in Intune?

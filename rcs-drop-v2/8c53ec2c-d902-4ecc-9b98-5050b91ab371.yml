@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Enforced security policies using native tools such as SQL Vulnerability Assessment, SQL Server Policy-Based Management, Azure Policy, Azure Security Center, and Azure Monitor.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: Identify compliance requirements and review Azure Blueprint samples to assist you in meeting your compliance needs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: Create approved application lists for your SQL Server virtual machines.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: Installed SQL Server IaaS Agent extension to configure automatic patching
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: 'Understand common risks such as SQL injection attacks, privilege abuse, data exfiltration, unclassified PII data, public endpoints, and unencrypted sensitive data.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: Labeled deployed assets by criticality and data classification using tools such as SQL Data Discovery and Classification or Azure Purview.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: Audited your compliance baseline and performed penetration testing to simulate real-world attacks.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: Rotating keys as per the compliance requirement of your organization.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: Understand antimalware deployment options and ensure proper exclusions are place.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: governance-data-sqlvm
+uid: 8c53ec2c-d902-4ecc-9b98-5050b91ab371
+name: What SQL VM considerations for compliance and governance do you need to take?

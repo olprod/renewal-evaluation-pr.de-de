@@ -1,0 +1,27 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Consider Azure Synapse Analytics resource limits.
+    description: Information on what happens when those resource limits are hit or exceeded and describes the resource governance mechanisms used to enforce these limits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: platform-data-synapse
+uid: 9254c6f1-1071-4230-948c-b3b9037a1353
+name: What decisions have been taken to ensure the application platform meets your reliability requirements?

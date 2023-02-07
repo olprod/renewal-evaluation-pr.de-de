@@ -1,0 +1,74 @@
+### YamlMime:SelfAssessment
+description: Identify the skills required to start your Learn contribution journey and get recommendation on mandatory trainings.
+duration: '15'
+questionnaireReferences:
+  - questionnaireUid: plan-design-learn
+    isRequired: true
+  - questionnaireUid: setup-install-learn
+    isRequired: true
+  - questionnaireUid: write-learn
+    isRequired: true
+guidance:
+  title: '15'
+  description: 'Next steps To be successful with your Learn contribution journey, you need to have an understanding of what it takes to write a successful Learn module.'
+  providers: []
+  scoring:
+    title: ''
+    description: ''
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: This report will help you identify your training needs to be a successful Learn contributor.
+    steps:
+      - iconUrl: ''
+        description: Complete all the required trainings listed below. This 48-minutes training teaches you how to plan and design your Learn module.
+        links:
+          - title: Complete this before starting the Create and publish Learn module training.
+            url: 'https://review.docs.microsoft.com/learn/paths/plan-design/?branch=master'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Plan and design your module
+      - iconUrl: ''
+        description: 'Required training: Plan and design your Learn module This training guides you through steps to setup your GitHub and authoring tools.'
+        links:
+          - title: It takes around 1.5 hours to complete.
+            url: 'https://review.docs.microsoft.com/learn/paths/setup-install/?branch=master'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Set up your system to prepare for contribution to Microsoft Learn
+      - iconUrl: ''
+        description: 'Required training: Prepare your system for contribution to Microsoft Learn This learning path guides you through the different steps involved in creating and publishing your Learn module.'
+        links:
+          - title: It takes around 1.5 hours to complete.
+            url: 'https://review.docs.microsoft.com/learn/paths/create-content/?branch=master'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Create and publish your Learn module
+      - iconUrl: ''
+        description: 'Required training: Create and publish your Learn module Based on your self-assessment, you don''t require any mandatory onboarding training.'
+        links:
+          - title: Refer to the Learn contributor guide for detailed guidance that'll help you along your contribution journey.
+            url: 'https://review.docs.microsoft.com/help/learn/?branch=master'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Learn contributor guide
+  recommendationsTitle: ''
+owner:
+  firstName: Heidi
+  lastName: McDonald
+  email: heidib@microsoft.com
+isHiddenAssessment: true
+uid: dd02d9a6-614f-43ea-83f1-9bda80d6ce15
+name: 'Guidance: Learn contributor guide'

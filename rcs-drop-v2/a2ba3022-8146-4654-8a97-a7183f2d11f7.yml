@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Azure SQL databases are deployed across Availability Zones.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: B
+    text: Implementation and configuration of Azure SQL database and the application pointing to it is scripted as a code and merged with the code baseline.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: C
+    text: Azure SQL database and application platform services are running in a highly available configuration/SKUs.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: D
+    text: Azure SQL DB and Application platform components are deployed across Availability Zones or Availability Sets.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: E
+    text: Azure SQL DB and application platform components are deployed and configured across regions for disaster recovery scenarios.
+    description: 'All other dependencies such as auditing, alerts are configured as well. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: F
+    text: 'Load balancing is implemented to distribute traffic across multiple nodes (distributed architecture), and configured to redirect clients and client applications to the DR database server.'
+    description: Consider Azure SQL DB Failover groups to satisfy this requirement.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 14
+  - id: G
+    text: Processes to scale up Azure SQL DB components are automated.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.A
+stem: ''
+isRequired: false
+legacyId: platform-data-sqldb
+uid: a2ba3022-8146-4654-8a97-a7183f2d11f7
+name: What decisions have been taken to ensure the application platform meets your reliability requirements?

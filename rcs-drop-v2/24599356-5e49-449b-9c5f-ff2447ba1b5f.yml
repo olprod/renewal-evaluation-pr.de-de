@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Create reginal Azure Databricks disaster recovery plan.
+    description: 'Follow regional disaster recovery topology to create steps: provision multiple Azure Databricks workspaces in separate Azure regions, use geo-redundant storage, once the secondary region is created, you must migrate the users, user folders, notebooks, cluster configuration, jobs configuration, libraries, storage, init scripts, and reconfigure access control.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Increase availability and recover targets for AML for associated resources.
+    description: 'Azure ML and ADB have dependency on multiple Azure services, many are supported by high availablity configurations. Ensure services like container registry, application insights, data are setup to meet the needs of your workload.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: C
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Disaster recovery is the process of restoring application functionality in the wake of a catastrophic failure. It might be acceptable for some applications to be unavailable or partially available with reduced functionality for a period of time, while other applications may not be able to tolerate reduced functionality.'
+isRequired: false
+legacyId: '3'
+uid: 24599356-5e49-449b-9c5f-ff2447ba1b5f
+name: Disaster recovery is the process of restoring application functionality in the wake of a catastrophic failure.

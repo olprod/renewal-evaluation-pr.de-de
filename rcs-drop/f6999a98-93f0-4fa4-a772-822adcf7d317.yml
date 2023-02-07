@@ -1,0 +1,33 @@
+### YamlMime:QuestionSet
+scenario: |
+  You are running Planning Optimization. A and B items need to be planned. C and D items do not need to be included in Planning Optimization. 
+
+  Users sometimes mistakenly include the C and D items in the plans. 
+
+  You need to prevent C and D items from inclusion when users manually start a plan. The solution must not require users to manually create a filter.
+
+  What should you configure?
+questionnaireUid: 83ebd0a9-1419-4b50-bb54-90a01a501860
+questions:
+  - uid: f6999a98-93f0-4fa4-a772-822adcf7d317-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are running Planning Optimization.
+        isCorrect: false
+      - id: 1
+        text: A and B items need to be planned.
+        isCorrect: false
+      - id: 2
+        text: C and D items do not need to be included in Planning Optimization.
+        isCorrect: true
+      - id: 3
+        text: Users sometimes mistakenly include the C and D items in the plans.
+        isCorrect: false
+      - id: 4
+        text: You need to prevent C and D items from inclusion when users manually start a plan.
+        isCorrect: false
+uid: f6999a98-93f0-4fa4-a772-822adcf7d317
+title: ''

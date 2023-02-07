@@ -1,0 +1,61 @@
+### YamlMime:SelfAssessment
+description: Microsoft Cybersecurity Architect Learner Journey
+duration: 15 min
+questionnaireReferences:
+  - questionnaireUid: 76bd0f8d-423f-4f27-9f45-0f63411bae65
+    isRequired: true
+  - questionnaireUid: 3d925d0b-54d9-452d-9a8b-0bc471082d23
+    isRequired: true
+  - questionnaireUid: 2ef4266f-bbae-4a2b-9da6-ba6294665b9f
+    isRequired: true
+  - questionnaireUid: d4145037-0d20-4161-ad78-9132cf16c3d3
+    isRequired: true
+  - questionnaireUid: 071277c1-8df6-41c3-b004-dff7e0b37e4c
+    isRequired: true
+  - questionnaireUid: b4397d26-c8e9-4cba-b911-79bdfdefc651
+    isRequired: true
+  - questionnaireUid: b55438d3-ffcc-4d44-bc76-d012ea7eaf2a
+    isRequired: true
+  - questionnaireUid: b6616383-eb62-4c99-bcd7-bd4b13ece104
+    isRequired: true
+guidance:
+  title: 15 min
+  description: Microsoft Cybersecurity Architect learner journey recommendation
+  providers: []
+  scoring:
+    title: ''
+    description: ''
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: ''
+        links:
+          - title: ''
+            url: ''
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: ''
+  recommendationsTitle: ''
+owner:
+  firstName: Hassan
+  lastName: Rasheed
+  email: hrasheed@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - mdatp
+  - azure-sentinel
+  - defender-for-cloud-apps
+  - defender-office365
+uid: 91e16bc4-490a-4eaa-8af9-3e7510a6b146
+name: 'Based on your responses to the assessment, we recommend the following training modules to prepare for the SC-100 Microsoft Cybersecurity Architect certification'

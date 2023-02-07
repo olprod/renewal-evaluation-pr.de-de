@@ -1,0 +1,30 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: F
+    text: Use Azure 'Cost Management + Billing' for Azure Databricks to monitor ongoing AI cost and set up alerts on actual spend based on budget.
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: G
+    text: 'Monitor usage using cluster,pool and workspace tags.'
+    description: 'To monitor cost and accurately attribute Azure Databricks usage to your organization`s business units and teams (for chargebacks, for example), you can tag workspaces (resource groups), clusters, and pools.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: H
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'Consider the metrics for each resource in the workload. For each metric, build alerts on baseline thresholds.'
+isRequired: false
+legacyId: '4'
+uid: 6ffeaa53-ce6d-4237-af47-2d0a386f675e
+name: Consider the metrics for each resource in the workload.

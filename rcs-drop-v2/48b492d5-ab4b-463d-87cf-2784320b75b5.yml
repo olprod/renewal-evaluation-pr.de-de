@@ -1,0 +1,42 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We reviewed key considerations and requirements for tenant integration and data access in multitenant solutions such as the direction of data flow, data volume, and formats as well as access and authentication.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: 'We are familiar with common approaches and patterns to consider for tenant integration and data access in multitenant solutions such as expose APIs, valet key pattern, webhooks, composable integration components, and others.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We avoid tenant integration antipatterns, including exposing primary data stores directly to tenants, exposing APIs without an API gateway, and unnecessary tight coupling between components.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - e021a1be-f447-4fd3-8f95-220e3a987c84.c039e8b5-c4ba-47fa-af3b-dade3aa6519e.0
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'It''s common for systems to integrate together, even across organizational boundaries. When you build a multitenant solution, you might have requirements to send data back to your tenants'' systems, or to receive data from those systems.'
+isRequired: true
+uid: 48b492d5-ab4b-463d-87cf-2784320b75b5
+name: 'It''s common for systems to integrate together, even across organizational boundaries.'

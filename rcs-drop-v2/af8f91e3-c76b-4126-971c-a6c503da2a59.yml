@@ -1,0 +1,121 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Consider following prescriptive guidance and best practices on cloud operating models, reference architecture, and platform templates.'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/data-management/'
+    condition:
+      allOf: []
+      anyOf:
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.db75c284-f0a6-4afc-a993-1e3ab6bb4a78.0
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.db75c284-f0a6-4afc-a993-1e3ab6bb4a78.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Deployment & Governance
+  - title: Consider performing WAF Assessement and follow guidance on WAF to leverage how applying these principles to the management of your data workloads will help better manage your analytics estate.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/well-architected-framework'
+    condition:
+      allOf: []
+      anyOf:
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.c89b43c1-c411-42b8-a209-b2209e8e87bb.0
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.c89b43c1-c411-42b8-a209-b2209e8e87bb.1
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Deployment & Governance
+  - title: 'Follow key design area considerations like enterprise enrollment, networking, identity and access management, policies, business continuity and disaster recovery for building out your data architectures of your cloud-scale analytics framework'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/overview-architectures'
+    condition:
+      allOf: []
+      anyOf:
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.ee419a7e-538e-4d29-b7ed-d4d181d2a1d6.0
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.ee419a7e-538e-4d29-b7ed-d4d181d2a1d6.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Deployment & Governance
+  - title: 'Consider using Data mesh to design and develop an architectural pattern for implementing enterprise data platforms in large, complex organizations.'
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/what-is-data-mesh'
+    condition:
+      allOf: []
+      anyOf:
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.d00c8fdf-70a8-462d-8519-c33809f0dc2c.0
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.d00c8fdf-70a8-462d-8519-c33809f0dc2c.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Deployment & Governance
+  - title: Consider using data domains as a way to define boundaries around your enterprise data.
+    url: 'https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/data-domains'
+    condition:
+      allOf: []
+      anyOf:
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.f7b3b083-fe17-4a5d-8647-9da11efaefe0.0
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.f7b3b083-fe17-4a5d-8647-9da11efaefe0.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Deployment & Governance
+  - title: 'Build data products within your data landing zone by adhering to design principles that allow you to scale with data governance. '
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/data-landing-zone-data-products'
+    condition:
+      allOf: []
+      anyOf:
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.09c8c9b8-a26a-4dd9-bf2f-090806c68174.0
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.09c8c9b8-a26a-4dd9-bf2f-090806c68174.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Deployment & Governance
+  - title: Consider setting up data contracts that guarantees interface compatibility and includes terms of service and a service level agreement (SLA)
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/data-contracts'
+    condition:
+      allOf: []
+      anyOf:
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.e8a4effb-db57-4e49-a03b-67df0c5dde37.0
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.e8a4effb-db57-4e49-a03b-67df0c5dde37.1
+      noneOf: []
+      scoreOf: []
+    context: Large
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Deployment & Governance
+  - title: Validate your organization have the underpinning architectural components. Design landing zone to host multiple analytics and AI solutions and data domains. Build and operationalize landing zones to host and run analytics workloads.
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/data-landing-zone'
+    condition:
+      allOf: []
+      anyOf:
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.41a7dee2-3099-44c5-b460-dde0aabf95c9.0
+        - cd469bc7-05ee-47a0-84ca-6b407c81025e.41a7dee2-3099-44c5-b460-dde0aabf95c9.1
+      noneOf: []
+      scoreOf: []
+    context: Medium
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Deployment & Governance
+  - title: 'Implement data management landing zone to provide the foundation for your platform''s centralized data governance and management across your organization. '
+    url: 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/data-management-landing-zone'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: Small
+    priority: 0
+    reportingCategory: Governance
+    reportingSubCategory: Deployment & Governance
+uid: af8f91e3-c76b-4126-971c-a6c503da2a59
+name: ''

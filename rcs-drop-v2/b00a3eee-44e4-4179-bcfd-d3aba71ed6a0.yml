@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Data volumes are not expected to exceed data platform capabilities.
+    description: Large business-critical and mission-critical applications typically generate and store high volumes (GB and TB) on a daily basis. There can be significant cost and reliability implications associated with data expansion.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '1'
+    text: 'Data is classified based on usage and criticality (''warm'', ''cold'').'
+    description: Not all data needs to be accessible with the lowest latency all the time. Classification into 'warm' or 'cold' tiers helps decide which data store should be used. Cold data is typically offloaded from the main transactional system into cheaper storage.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '2'
+    text: Proper data volume monitoring is in place.
+    description: 'Data volume may fluctuate due to changing business circumstances or housekeeping procedures, and it can have a profound impact on data platform query performance.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '3'
+    text: Data volume is validated against a capacity model.
+    description: There can be a profound impact associated with reaching data platform volume limits.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: '4'
+    text: 'Housekeeping procedures are in place. For example, Time to Live or cold storage.'
+    description: 'Features such as Time to Live (TTL) can be used to manage data growth by automatically deleting records after an elapsed time, using either record creation or modification. For example, Azure Cosmos DB provides an in-built TTL capability.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '5'
+    text: Multiple data platforms are used based on requirements.
+    description: 'Different data technologies can be used in parallel, with optimized solutions for specific workload scenarios and volume requirements.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: '6'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Data volume may fluctuate due to changing business circumstances or housekeeping procedures. Existing and expected future data volumes based on forecasted data growth rates need to be aligned with business objectives and plans.
+isRequired: false
+uid: b00a3eee-44e4-4179-bcfd-d3aba71ed6a0
+name: Data volume may fluctuate due to changing business circumstances or housekeeping procedures.

@@ -1,0 +1,39 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have an Azure Synapse Analytics account. 
+
+  You use Matplotlib to investigate the distribution of data in a notebook. 
+
+  You apply a plot function that has the following parameters: 
+  - kind=’hist’ 
+
+
+  - bins=25 
+
+
+  - facecolor=’lightblue’ 
+
+  What type of chart is produced? 
+questionnaireUid: 5192df22-2646-4a92-ae6f-4f53e49a09b2
+questions:
+  - uid: fd98ea1e-4e33-4839-8b27-eb5d4c7fdf67-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'You have an Azure Synapse Analytics account. '
+        isCorrect: false
+      - id: 1
+        text: 'You use Matplotlib to investigate the distribution of data in a notebook. '
+        isCorrect: true
+      - id: 2
+        text: 'You apply a plot function that has the following parameters: '
+        isCorrect: false
+      - id: 3
+        text: 'kind=’hist’ '
+        isCorrect: false
+    manualId: 'DP-500.11.1.1 '
+uid: fd98ea1e-4e33-4839-8b27-eb5d4c7fdf67
+title: ''
+manualId: ''

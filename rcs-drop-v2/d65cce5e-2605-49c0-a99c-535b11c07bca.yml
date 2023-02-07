@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Ensure applications are designed and making use of Azure Synapse Analytics High Availability options.
+    description: High Availability options. Azure Synapse Analytics uses database snapshots to provide high availability of the warehouse.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: B
+    text: Ensure applications are designed and making use of Azure Synapse Analytics Disaster recovery options.
+    description: Azure Synapse Analytics performs a standard geo-backup once per day to a paired datacenter.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 35
+  - id: C
+    text: Use extended Azure Synapse Analytics Apache Spark history server to debug and diagnose Apache Spark applications.
+    description: The extended Apache Spark history server can help debug and diagnose completed and running Spark applications.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: d65cce5e-2605-49c0-a99c-535b11c07bca
+name: How have you ensured that your application architecture is resilient to failures?

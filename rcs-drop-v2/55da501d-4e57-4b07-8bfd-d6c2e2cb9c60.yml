@@ -1,0 +1,354 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Manage your workload as infrastructure as code (IaC).
+    url: /azure/cosmos-db/sql/templates-samples-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.7534e1fe-23f1-4e1b-9edb-37cba091dbb7.A
+      scoreOf: []
+    context: It is a good practice to deploy all your workloads with IaC. This allows for quick re-deployment of environments.
+    priority: 65
+    reportingCategory: DevOps
+    reportingSubCategory: Automation
+  - title: Make sure to test automatic fail-over to simulate region outages so it is current with any application code changes.
+    url: /azure/cosmos-db/high-availability#building-highly-available-applications
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.7534e1fe-23f1-4e1b-9edb-37cba091dbb7.B
+      scoreOf: []
+    context: It is a good practice to test your application code for fail-over scenarios to make sure your application code still works.
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: 'When scaling your provisioned throughput, follow best practices to minimize changing the partition layout.'
+    url: /azure/cosmos-db/scaling-provisioned-throughput-best-practices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.7534e1fe-23f1-4e1b-9edb-37cba091dbb7.C
+      scoreOf: []
+    context: 'When scaling our provisioned throughput, follow best practices to minimize changing the partition layout.'
+    priority: 100
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Understand and monitor your Cosmos DB bill.
+    url: /azure/cosmos-db/understand-your-bill
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.7534e1fe-23f1-4e1b-9edb-37cba091dbb7.D
+      scoreOf: []
+    context: costs can be controlled by limiting throughput.
+    priority: 50
+    reportingCategory: Billing & Cost Optimization
+    reportingSubCategory: License Management
+  - title: Implement a change feed dead letter pattern to manage transient error(s) and monitor the queue length and trigger an action accordingly.
+    url: /azure/cosmos-db/sql/change-feed-processor#processing-life-cycle
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.7534e1fe-23f1-4e1b-9edb-37cba091dbb7.F
+      scoreOf: []
+    context: Prevent the change feed processor from getting stuck retrying a batch indefinitely.
+    priority: 75
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: Review the automatic recommendations provided by the service.
+    url: /azure/cosmos-db/automated-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.7534e1fe-23f1-4e1b-9edb-37cba091dbb7.G
+      scoreOf: []
+    context: 'From time to time, it is good to review the recommendations provided by the services to stay current with updates and options to further tune your Cosmos DB account.'
+    priority: 65
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Monitoring
+  - title: 'When Cosmos DB resources are limited or have been reached (within a region), be aware of how to request an increase.'
+    url: /azure/cosmos-db/sql/create-support-request-quota-increase
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.7534e1fe-23f1-4e1b-9edb-37cba091dbb7.H
+      scoreOf: []
+    context: 'There are limits for most of Azure Services, and the limit can be raised by a support ticket. Make sure you know how to increase your limits that have been defined for the subscription and the tenant.'
+    priority: 25
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: Define a throughput limit on your Cosmos DB accounts to control costs.
+    url: /azure/cosmos-db/limit-total-account-throughput
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.7534e1fe-23f1-4e1b-9edb-37cba091dbb7.I
+      scoreOf: []
+    context: This is a good way to control costs for your Cosmos DB acounts to avoid any unexpected costs.
+    priority: 85
+    reportingCategory: Billing & Cost Optimization
+    reportingSubCategory: License Management
+  - title: 'To monitor data plane insights and query statistics, enable diagnostic settings.'
+    url: /azure/cosmos-db/cosmosdb-monitor-resource-logs#create-setting-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.ca15b6ab-1501-49df-af0d-bbb1dc4f603c.A
+      scoreOf: []
+    context: This is one of the steps to find and analyze problems related to your workload.
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Evaluate enabling full text query when you need to get insights about issues and problems of workloads.
+    url: /azure/cosmos-db/cosmosdb-monitor-resource-logs#full-text-query
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.ca15b6ab-1501-49df-af0d-bbb1dc4f603c.B
+      scoreOf: []
+    context: This allows for more detailed information about your workload query patterns.
+    priority: 75
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Monitor the tracked metrics for hot partitions to guarantee stable performance on containers.
+    url: /azure/cosmos-db/use-metrics#determine-the-throughput-consumption-by-a-partition-key-range
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.ca15b6ab-1501-49df-af0d-bbb1dc4f603c.C
+      scoreOf: []
+    context: 'It''s a good practice to follow your partition load to make sure you don''t have any hot partitions. If you have hot partitions, it might be time to review the data model. You will leverage the compute power of Cosmos DB when having hot partitions.'
+    priority: 100
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Monitor the tracked metrics and configured alerts for logical partition usage.
+    url: /azure/cosmos-db/how-to-alert-on-logical-partition-key-storage-size
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.ca15b6ab-1501-49df-af0d-bbb1dc4f603c.D
+      scoreOf: []
+    context: You can define alerts based on metrics for better insights around your logical partition usage and when limits are reached. Set an alert to be notified ahead of time before the logical partition reaches it limit.
+    priority: 100
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Evaluate and monitor your Cosmos DB accounts with auto-scale throughput frequently to better determine the maximum RU for your workload.
+    url: /azure/cosmos-db/how-to-choose-offer#measure-and-monitor-your-usage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.ca15b6ab-1501-49df-af0d-bbb1dc4f603c.E
+      scoreOf: []
+    context: Analyze your workload pattern and optimize your throughput for better performance and cost.
+    priority: 95
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: Evaluate and monitor your Cosmos DB accounts with manual throughput frequently to assess the proper RU provisioning for the current workload.
+    url: /azure/cosmos-db/monitor-request-unit-usage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.ca15b6ab-1501-49df-af0d-bbb1dc4f603c.F
+      scoreOf: []
+    context: Analyze your workload pattern and optimize your throughput for better performance and cost.
+    priority: 95
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Configure alerts for your workload.
+    url: /azure/cosmos-db/create-alerts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.ca15b6ab-1501-49df-af0d-bbb1dc4f603c.H
+      scoreOf: []
+    context: It is a good practice to have alerts in place for your workload to stay proactive to any unforseen issue.
+    priority: 60
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Monitor the change feed progress using the change feed estimator and leverage the output to scale out your feed processor layer.
+    url: /azure/cosmos-db/sql/how-to-use-change-feed-estimator
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.ca15b6ab-1501-49df-af0d-bbb1dc4f603c.I
+      scoreOf: []
+    context: 'Monitor your change feed to make sure you''re not lagging, and if so make changes to adjust the behavior.'
+    priority: 60
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Leverage monitoring insights in your daily operations.
+    url: /azure/azure-monitor/insights/cosmosdb-insights-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.ca15b6ab-1501-49df-af0d-bbb1dc4f603c.J
+      scoreOf: []
+    context: 'Monitoring is a good practice for initial insights about your Cosmos DB accounts, and it allows for drill down in the metrics.'
+    priority: 95
+    reportingCategory: Business Continuity
+    reportingSubCategory: Monitoring
+  - title: Make use of query metrics to optimize your queries against Cosmos DB.
+    url: /azure/cosmos-db/sql/profile-sql-api-query
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.f5f161a7-c8ce-4e3c-804f-4cf8afb68690.A
+      scoreOf: []
+    context: 'It is a good practice to analyze your query metrics, so you don''t spend high RUs on un-optimized queries.'
+    priority: 90
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Make use of index metrics to analyze and optimize your indexes for the Cosmos DB.
+    url: /azure/cosmos-db/sql/index-metrics
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.f5f161a7-c8ce-4e3c-804f-4cf8afb68690.B
+      scoreOf: []
+    context: It is a good practice to analyze your index metrics to make sure you're utlizing your indexes and can update them if you're not.
+    priority: 90
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Implement best practices when using your chosen SDK.
+    url: /azure/cosmos-db/sql/performance-tips-dotnet-sdk-v3-sql?tabs=trace-net-core
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.f5f161a7-c8ce-4e3c-804f-4cf8afb68690.C
+      scoreOf: []
+    context: 'Depending on your application implementation, always consider the best practices when writing your code.'
+    priority: 95
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Leverage Cosmos DB integrated cache from the client side to boost your frequent queries.
+    url: /azure/cosmos-db/how-to-configure-integrated-cache
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.f5f161a7-c8ce-4e3c-804f-4cf8afb68690.D
+      scoreOf: []
+    context: 'Depending on your Cosmos DB setup, you can leverage the integrated cache to speed up frequent queries.'
+    priority: 72
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Monitor change feed progress using the change feed estimator and leverage the output to scale out your feed processor layer.
+    url: /azure/cosmos-db/sql/how-to-use-change-feed-estimator
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.f5f161a7-c8ce-4e3c-804f-4cf8afb68690.E
+      scoreOf: []
+    context: 'Monitor your change feed to make sure you''re not lagging, and if so make changes to adjust the behavior.'
+    priority: 71
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: 'When using the Cosmos DB SDK with multi-region read/writes, follow best practices.'
+    url: /azure/cosmos-db/sql/how-to-multi-master?tabs=api-async
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.f5f161a7-c8ce-4e3c-804f-4cf8afb68690.F
+      scoreOf: []
+    context: Make sure to follow best practices for the SDK when using multi-region read/writes to ensure stability in your application.
+    priority: 89
+    reportingCategory: Maintenance & Optimization
+    reportingSubCategory: Performance
+  - title: Be aware of how to configure the audit diagnostic settings option to monitor control plane operations.
+    url: /azure/cosmos-db/audit-control-plane-logs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.9126279d-a9a8-4237-bbe1-af1432344395.A
+      scoreOf: []
+    context: Make sure to turn on log collection for control plane operations for audit situations.
+    priority: 55
+    reportingCategory: Governance & Compliancy
+    reportingSubCategory: Auditing
+  - title: Have alerts in place for key updates and key regeneration.
+    url: /azure/cosmos-db/monitor-account-key-updates
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.9126279d-a9a8-4237-bbe1-af1432344395.B
+      scoreOf: []
+    context: Make sure to create alerts to monitor key updates to stay notified about key changes.
+    priority: 100
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Security Monitoring
+  - title: 'When required to further analyze user activity, be aware of leveraging log analytics to monitor activities performed by a specific user.'
+    url: /azure/cosmos-db/how-to-setup-rbac
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.9126279d-a9a8-4237-bbe1-af1432344395.D
+      scoreOf: []
+    context: Make sure to review your Cosmos DB resource activities for specific users.
+    priority: 82
+    reportingCategory: Security Monitoring
+    reportingSubCategory: Security Monitoring
+  - title: 'In case of a datacenter outage, evaluate and leverage availability zones with your Cosmos DB account(s).'
+    url: /azure/cosmos-db/high-availability
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.9dbe574e-c0d6-4ce7-b539-88c06f2acce7.A
+      scoreOf: []
+    context: 'For high-availability workloads, it is a good practice to enable availability zones for your workload. This will allow a higher uptime but at the cost of performance.'
+    priority: 95
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+  - title: Evaluate the built-in backup features of Cosmos DB to recover from an outage of your single write/read region workloads.
+    url: /azure/cosmos-db/online-backup-and-restore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.9dbe574e-c0d6-4ce7-b539-88c06f2acce7.B
+      scoreOf: []
+    context: Make sure you have a process in place to perform disaster recovery from serious outages.
+    priority: 90
+    reportingCategory: Business Continuity
+    reportingSubCategory: Disaster Recovery
+  - title: 'For write outage scenarios of critical workloads, leverage Cosmos DB in multiple regions (write-write, write-read).'
+    url: /azure/cosmos-db/how-to-manage-database-account#automatic-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 611b1aaf-9f1b-4eff-a5a2-172cc3d9aa0b.9dbe574e-c0d6-4ce7-b539-88c06f2acce7.C
+      scoreOf: []
+    context: 'For high-availability workloads, consider multi-region writes as part of your design.'
+    priority: 80
+    reportingCategory: Business Continuity
+    reportingSubCategory: High Availability
+uid: 55da501d-4e57-4b07-8bfd-d6c2e2cb9c60
+name: ''

@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Device Provisioning Service with multiple regional IoT hubs linked to DPS and have enabled appropriate allocation policy.
+    description: 'Device Provisioning Service is a helper service for Azure IoT Hub that enables zero-touch, just-in-time provisioning to the right IoT hub without requiring human intervention. DPS enables the provisioning of millions of devices in a secure and scalable manner.'
+    imageUrl: ''
+    isCorrect: true
+    score:
+      value: 100
+  - id: '1'
+    text: You don't use Device Provisioning Service. You've implemented a custom provisioning service.
+    description: 'You can develop custom applications for your provisioning needs, however using DPS is the recommended method.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '2'
+    text: Devices are statically configured to connect to the same Azure IoT Hub.
+    description: 'For a large fleet of devices, distribute devices across multiple IoT hubs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Device Provisioning Service is a helper service for Azure IoT Hub that enables zero-touch, just-in-time provisioning to the right IoT hub without requiring human intervention, allowing customers to provision millions of devices in a secure and scalable manner.'
+isRequired: false
+uid: 7338ac23-246b-46a9-a8bf-c6562107dba9
+name: 'Device Provisioning Service is a helper service for Azure IoT Hub that enables zero-touch, just-in-time provisioning to the right IoT hub without requiring human intervention, allowing customers to provision millions of devices in a secure and scalable manner. Q1.'

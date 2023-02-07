@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You configure a cloud flow to trigger a desktop flow in unattended mode.
+
+  You need to ensure that the desktop flow can pass data to the cloud flow when the desktop flow completes.
+
+  What should you do?
+questionnaireUid: b91f2c44-8389-4727-8ab5-ab4a9ce72b41
+questions:
+  - uid: fffcc92a-de5f-41f5-9b62-c9b4377fb07a-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You configure a cloud flow to trigger a desktop flow in unattended mode.
+        isCorrect: true
+      - id: 1
+        text: You need to ensure that the desktop flow can pass data to the cloud flow when the desktop flow completes.
+        isCorrect: false
+      - id: 2
+        text: What should you do?
+        isCorrect: false
+      - id: 3
+        text: Create an Output variable in the desktop flow.
+        isCorrect: false
+uid: fffcc92a-de5f-41f5-9b62-c9b4377fb07a
+title: ''

@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Azure Schedule Events are configured on Virtual Machine hosting SAP workload and integrated with the service desk tool.
+    description: 'Many applications can benefit from time to prepare for VM maintenance. The time can be used to perform application-specific tasks that improve availability, reliability, and serviceability, including: 1. Checkpoint and restore. 2. Connection draining. 3. Primary replica failover. 4. Removal from a load balancer pool. 5. Event logging. 6. Graceful shutdown.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: '1'
+    text: A tool such as Azure Monitor or Grafana is used to visualize the application health model and encompassed logs and metrics
+    description: What technology in used to visualize the application health model and encompassed logs and metrics?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Dashboards are tailored to a specific audience such as developers, security or networking teams'
+    description: Are dashboards tailored to a specific audience?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: A tool such as Azure Monitor or Splunk is used for alerting
+    description: Alerts from tools such as Splunk or Azure Monitor proactively notify or respond to operational states that deviate from norm. Alerts can also enable cost-awareness by watching budgets and limits and helping workload teams to scale appropriately.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: Specific owners and processes are defined for each alert type
+    description: Are specific owners and processes defined for each alert type?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Notifications'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWKhpj'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: Alerts can proactively notify or respond to operational states that deviate from norm. Alerts can also enable cost-awareness by watching budgets and limits and helping workload teams to scale appropriately.
+isRequired: false
+uid: 51c2e61f-d195-4c89-a6f7-2449143de9a7
+name: Alerts can proactively notify or respond to operational states that deviate from norm.

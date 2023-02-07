@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 8a0d3c36-8407-4c80-8ce1-0e6cb036f388
+recommendations:
+  - f03fc501-b83b-4b46-92af-4d12d90aeb02
+assignedGroupIds: []
+uid: c1e42fc1-b717-4b45-9316-11582b07a2a0
+name: 'Go-Live - Application Gateway: Security'

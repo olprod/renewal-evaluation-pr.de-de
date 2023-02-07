@@ -1,0 +1,82 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Implement alerting and monitoring for SQL Server infrastructure and workloads.
+    description: 'Do you have a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: B
+    text: Correlate events between the different application tiers.
+    description: 'Do you have a mechanism/process for correlating logs between the various tiers of your application stack as performance issues that manifest for the end user could originate in the application code, SQL database or infrastructure layers.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: C
+    text: Do you have a method for parsing logs for errors?
+    description: Active monitoring of SQL Server and OS logs for errors is a key mechanism for spotting underlying issues.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: D
+    text: Track deployment metrics.
+    description: 'Do you use tools such as the Management Data Warehouse DB, Query Data Store and the Database Experimentation Assistant to compare and track issues when deployments occur?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: E
+    text: Report and set notifications for events.
+    description: 'Do you have a dashboard and a set of custom alerts for events (such as TV advertising, sales, large sporting events, et cetera).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: F
+    text: We coordinate with business users and other development teams about up-coming major events.
+    description: ' Processes such as Change Advisory Boards can help plan and prepare for upcoming events that may impact the database environment such as large marketing campaigns or major client app upgrades.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: G
+    text: Monitor underlying SQL Server services.
+    description: 'Do you have a process in place to monitor, alert and handle failures in any underlying SQL Server service?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: H
+    text: Utilize SQL Insights as a comprehensive solution for monitoring any product in the Azure SQL family.
+    description: 'Azure Monitoring SQL Insights provides a comprehensive, centralized location for all your SQL Server deployments in Azure.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: I
+    text: Create SQL Server workload baselines to evaluate the impact of database updates and code changes as well predict future hardware resources demands.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.B
+stem: ''
+isRequired: false
+legacyId: monitor-data-sqlvm
+uid: 3c397b24-2c58-4262-840e-3c78a4224b63
+name: How are you monitoring your SQL Server deployments and environments?

@@ -1,0 +1,57 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've selected a cost-effective storage solution.
+    description: 'Azure provides a variety of storage and database options, including data lakes and data warehouses. Commonly used Azure services for IoT include Azure Data Lake Gen2 and Azure Cosmos DB.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '1'
+    text: 'You define data life-cycles based on hot, warm, and cold path usage.'
+    description: 'The life-cycle of data includes access frequency and retention needs. Azure Storage has built-in life-cycle management, where developers can define a policy on a blob, and move to a respective storage tier accordingly to lower costs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: You use the built-in message routing feature in Azure IoT Hub.
+    description: 'Azure IoT Hub has a routing feature, which can help you lower the cost of initial telemetry processing as it can filter, enrich, and forward messages to several messaging services and Azure Storage without an additional processing layer.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '3'
+    text: You use appropriate IoT data paths for analytics processing.
+    description: The Azure IoT reference architecture defines three IoT data analytics paths with requirements for latency and data access.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: IoT solutions can store large amounts of data. Storage costs are a large part of the overall solution cost and you should choose an appropriate processing and storage plan based on your business scenario.
+isRequired: false
+uid: 27a9f86c-f398-4638-8d0c-73fee7bac8ef
+name: IoT solutions can store large amounts of data. Storage costs are a large part of the overall solution cost and you should choose an appropriate processing and storage plan based on your business scenario.

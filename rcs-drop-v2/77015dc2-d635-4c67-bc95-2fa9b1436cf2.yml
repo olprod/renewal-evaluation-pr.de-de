@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Estimate and track my costs over time.
+    description: In many cases first calculation of cloud resources is quite inaccurate and relays more on more familiar and common on-premise approach.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Educate the employees about the cloud and various pricing models.
+    description: 'Azure brings a new set of technical capabilities and tools for your organization''s technical staff, as well as your business users.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Have appropriate governance about expenditure.
+    description: 'Have you considered how to implement cloud cost governance controls (Azure Policy, Resource Tags, Budgets).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: 'Have identified the roles & responsibilities in monitoring, collating and reporting on cloud costs.'
+    description: Ensuring that resposibilities for cost management are clearly defined is key to optimising cloud expenditure.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Put together a holistic plan to ensure you are taking advantage of all of the most valuable cost saving measure for your environment.
+    description: It is often valuable to employ cost saving teams leveraging tools and standards for continuous cost/budget reviews as new features become available and as your environment evolves.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.B
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: modeling-data-sqlvm
+uid: 77015dc2-d635-4c67-bc95-2fa9b1436cf2
+name: How is your organization modeling cloud costs?

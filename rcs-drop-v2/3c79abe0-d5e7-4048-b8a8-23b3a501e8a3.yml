@@ -1,0 +1,112 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: 'There are many reasons and motivations for cloud adoption, and understanding them is key to developing an effective cloud adoption strategy.'
+links:
+  - title: Azure pricing calculator
+    url: 'https://azure.microsoft.com/en-us/pricing/calculator/'
+    condition:
+      anyOf:
+        - strategy.022a8eef-3a2c-4476-bd62-334ff2e259e2.A
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Architecting current environment in the cloud
+    url: /azure/architecture/reference-architectures/
+    condition:
+      anyOf:
+        - strategy.022a8eef-3a2c-4476-bd62-334ff2e259e2.B
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Getting Infrastructure ready to deploy workload to the cloud.
+    url: /azure/cloud-adoption-framework/ready/
+    condition:
+      anyOf:
+        - strategy.022a8eef-3a2c-4476-bd62-334ff2e259e2.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about managing operations.
+    url: /azure/cloud-adoption-framework/manage/
+    condition:
+      anyOf:
+        - strategy.022a8eef-3a2c-4476-bd62-334ff2e259e2.E
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about improving performance.
+    url: /azure/cloud-adoption-framework/manage/operational-fitness-review
+    condition:
+      anyOf:
+        - strategy.022a8eef-3a2c-4476-bd62-334ff2e259e2.F
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Discovering new ways to improve and be efficient.
+    url: /azure/cloud-adoption-framework/manage/azure-server-management/tools-services#monitor
+    condition:
+      anyOf:
+        - strategy.022a8eef-3a2c-4476-bd62-334ff2e259e2.G
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand motivations behind cloud adoption.
+    url: /azure/cloud-adoption-framework/strategy/motivations
+    condition:
+      anyOf:
+        - strategy.61083e1b-f173-4d06-ac4e-d9d001effd9a.H
+        - strategy.61083e1b-f173-4d06-ac4e-d9d001effd9a.I
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand the critical events that can drive motivations for cloud adoption
+    url: /azure/cloud-adoption-framework/strategy/motivations#motivation-driven-strategies
+    condition:
+      anyOf:
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.0178cd68-ca3a-4490-9a64-2efba639bad1.B
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.0178cd68-ca3a-4490-9a64-2efba639bad1.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn more about business outcomes and business outcome template
+    url: /azure/cloud-adoption-framework/strategy/business-outcomes/
+    condition:
+      anyOf:
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.9afca4fe-6705-4613-a5be-353b10e1e219.B
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.9afca4fe-6705-4613-a5be-353b10e1e219.C
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.d2ef3eef-fc5e-4b23-9243-6b159d658b58.B
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.d2ef3eef-fc5e-4b23-9243-6b159d658b58.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create a financial model for cloud transformation
+    url: /azure/cloud-adoption-framework/strategy/financial-models
+    condition:
+      anyOf:
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.161007db-a9b5-4d45-abee-0ea686138da3.B
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.161007db-a9b5-4d45-abee-0ea686138da3.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: First project criteria and expectations
+    url: /azure/cloud-adoption-framework/strategy/first-adoption-project
+    condition:
+      anyOf:
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.f3a6cbb4-d365-4a26-9eba-17fa816c7e6c.B
+        - strategy.ec98419f-e6c2-45bf-a622-257df9b44f77.f3a6cbb4-d365-4a26-9eba-17fa816c7e6c.C
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 3c79abe0-d5e7-4048-b8a8-23b3a501e8a3
+name: Strategy

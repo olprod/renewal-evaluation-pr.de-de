@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Select the correct caching type for Azure Cache for Redis '
+    url: /azure/architecture/best-practices/caching
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 92d123a7-0049-4bf2-94eb-495d68262505.20e571bb-1767-499b-ad64-9bd7c64e163b.A
+      scoreOf: []
+    context: 'Distributed applications typically implement either or both of the following strategies when caching data: Using a private cache, where data is held locally on the computer that''s running an instance of an application or service; Using a shared cache, serving as a common source that can be accessed by multiple processes and machines. In both cases, caching can be performed client-side and server-side. Client-side caching is done by the process that provides the user interface for a system, such as a web browser or desktop application. Server-side caching is done by the process that provides the business services that are running remotely.'
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Choose the right pricing tier for your Redis Cache
+    url: 'https://azure.microsoft.com/en-us/pricing/details/cache/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 92d123a7-0049-4bf2-94eb-495d68262505.20e571bb-1767-499b-ad64-9bd7c64e163b.B
+      scoreOf: []
+    context: 'Familiarize yourself with various pricing tier via Azure portal. Number of connections, size varies for basic co tier is 256 connections and max size of 250 MB - this can become bottleneck for highly concurrent application.'
+    priority: 50
+    reportingCategory: 'Upgrade, Migration and Deployment'
+    reportingSubCategory: Configuring for Deployment
+uid: 8c8152f5-e2cc-40aa-bd1b-54fbfe478c5c
+name: ''

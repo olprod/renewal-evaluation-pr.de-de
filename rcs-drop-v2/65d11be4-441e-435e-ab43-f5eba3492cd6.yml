@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Configure Security for database logging
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/configure-manage-database-log'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d793a2d3-5537-4525-b9d2-b4e0f89d8665.9ce9f695-fbc5-466a-9d0a-6a6b34443b48.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Security for database logging
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/configure-manage-database-log#security-for-database-logging'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d793a2d3-5537-4525-b9d2-b4e0f89d8665.15c29aa2-fabb-4df1-b5a5-f116bd8b6ed5.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Clean up user logs
+    url: 'https://learn.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/clean-up-user-logs'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - d793a2d3-5537-4525-b9d2-b4e0f89d8665.533defec-2cef-4568-80d2-40689db0532f.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 65d11be4-441e-435e-ab43-f5eba3492cd6
+name: Establish Database Audit &amp; Logging Best Practices

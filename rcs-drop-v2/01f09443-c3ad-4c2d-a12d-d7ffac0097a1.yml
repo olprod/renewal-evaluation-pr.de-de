@@ -1,0 +1,89 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The built-in high availability capabilities of SQL Database are well understood.
+    description: The application can recover after automatic database failover.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: B
+    text: 'For disaster recovery, have geo-failover and failback procedures been tested and validated periodically?'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: C
+    text: The health model is being used to clearly define geo-failover situations.
+    description: Do you know when to failover to another region?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: D
+    text: Critical runbooks are defined to react to reliability and performance issues.
+    description: Are critical manual processes defined and documented for failure responses?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: E
+    text: Verifying the application behavior and implications of data loss or the disruption by performing disaster recovery drills.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: F
+    text: Business Continuity 'fire drills' are performed to test regional failover scenarios.
+    description: Do you perform Business Continuity 'fire drills' to test regional failover scenarios?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: G
+    text: Perform the drill using a test environment by creating a copy of the production environment and using it to verify the database failover workflow to prevent data loss.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: H
+    text: 'Complete verifying database readiness after each DR drill (including logins, basic functionality, performance testing, or other validations that are a part of the standard application sign-off procedure).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: I
+    text: 'Databases that are protected using failover groups, the drill exercise involves planned failover to the secondary server.'
+    description: The planned failover can be planned in the production environment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 11
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 01f09443-c3ad-4c2d-a12d-d7ffac0097a1
+name: What is your approach to recover from database outages?

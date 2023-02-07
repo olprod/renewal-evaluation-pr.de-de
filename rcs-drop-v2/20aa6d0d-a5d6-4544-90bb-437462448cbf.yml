@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We haven't defined or documented security requirements for Azure.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Some Azure resources are integrated with our security assessment and SIEM solutions.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Some Azure subscriptions and resources are integrated with our security assessment and SIEM solutions. Secure resource configurations are defined, but not enforced.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: 'All Azure subscriptions and resources are manually integrated with our security assessment and SIEM solutions. Secure resource configurations are defined, but not enforced.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: All Azure subscriptions and resources are automatically integrated at time of deployment with our security assessment and SIEM solutions. Secure resource configurations are defined and enforced.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 20aa6d0d-a5d6-4544-90bb-437462448cbf
+name: How do you meet your security requirements in Azure?

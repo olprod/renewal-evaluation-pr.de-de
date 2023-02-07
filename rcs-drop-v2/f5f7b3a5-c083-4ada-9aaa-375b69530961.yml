@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: There is an automated process to deploy SAP workload to production.
+    description: The time it takes to perform a complete environment deployment should align with recovery targets. Automation and agility also lead to cost savings due to the reduction of manual actions and errors. ESLZ-SAP RI can help with automating the deployment of SAP workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '1'
+    text: There is a difference in configuration of production and non-production SAP environments.
+    description: 'Understand the scope of the solution and distinguish between SKUs used in production and non-production environments. To drive down cost it might be possible to consolidate environments for applications that are not as critical to the business and not needing the same testing. Also, the non-production might not use all services required to support high-availability configuration.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '2'
+    text: There is awareness around how the SAP systems has been built and is being maintained (in house or via SI partner).
+    description: Exploring where technical delivery capabilities reside helps to qualify operational model boundaries and estimate the cost of operating the application as well as defining a budget and cost model.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '3'
+    text: There is awareness regarding the ratio of cost of production and non-production SAP environments.
+    description: 'If you are spending more money on testing than production, it usually means you have too many non-production environments. Consider the ratio of non-production to production environments and if it is substantially higher you should consider merging testing environments or re-visit why the cost is so much higher.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: '4'
+    text: SAP Test-environments  are deployed automatically and deleted after use.
+    description: 'Automating deployment of test SAP workload reduces time, cost and helps inefficient resource utilization. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.sap
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.cost
+stem: ''
+isRequired: false
+uid: f5f7b3a5-c083-4ada-9aaa-375b69530961
+name: How much of the SAP Deployment & management is covered by Automation?

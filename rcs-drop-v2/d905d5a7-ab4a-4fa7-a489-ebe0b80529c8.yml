@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We need support for both batch and streaming datasets to use with existing models.
+    description: Spark supports a wide variety of ML frameworks and can predict in batch updates or in Spark Streaming.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: We need batch only support to use with existing models.
+    description: Dedicated Pools support the PREDICT keyword for batch inferencing with ONNX models.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Will the workload use existing models to make predictions?
+isRequired: true
+uid: d905d5a7-ab4a-4fa7-a489-ebe0b80529c8
+name: Will the workload use existing models to make predictions?

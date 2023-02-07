@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You have a static number of downstream devices and messages per site that use MQTT/AMQP. '
+    description: 'When the number of downstream devices, their messages, and message size is static, and the devices use MQTT or AMQP to connect to the gateway/IoT Edge, a single gateway/IoT Edge device in transparent mode can connect the downstream devices and forward the messages. The gateway/IoT Edge device takes care of bidirectional communication and message buffering.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: You have a static number of downstream devices and messages per site that use different or custom protocols.
+    description: 'When the number of downstream devices, their messages and message size is static, and the protocol or message needs translation, a single gateway/IoT Edge device in translation mode can connect the downstream devices and forward the messages. Account for bidirectional translation and message translation and message buffering overhead.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: 'You have an increasing or dynamic number of downstream devices and messages per site that use MQTT/AMQP. '
+    description: 'With the capability to have multiple gateways/IoT Edge devices per site and downstream devices that can connect to any of those gateways/IoT Edge devices, the solution is horizontally scalable. Gateways/IoT Edge devices in transparent mode can connect MQTT/AMQP devices for bidirectional communication.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: You have an increasing or dynamic number of downstream devices and messages per site that use different or custom protocols.
+    description: |
+      With the capability to have multiple gateways/IoT Edge devices per site and downstream devices that can connect to any of those gateways/IoT Edge devices, the solution is horizontally scalable. Gateways/IoT Edge devices in translation mode can translate protocols or message to and from downstream devices. However, a mapping is needed to find the gateway a downstream device is connected to. Account for additional message translation and buffering overhead at the gateway/IoT Edge device.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: 'For example connecting many downstream devices through gateways, or getting data from multiple data sources with different protocols (for example OPC UA Servers with millions of tags).'
+isRequired: false
+uid: 7cb73b02-4eac-48ea-b2b6-dfd2947978cf
+name: 'For example connecting many downstream devices through gateways, or getting data from multiple data sources with different protocols (for example OPC UA Servers with millions of tags). Q6.'

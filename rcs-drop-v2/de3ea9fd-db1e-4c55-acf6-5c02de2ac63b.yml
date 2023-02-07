@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Consider Azure Synapse Analytics High Availability and Disaster Recovery options.
+    description: Azure Synapse Analytics uses database snapshots to provide high availability of the warehouse and also performs a standard geo-backup once per day to a paired datacenter.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: B
+    text: Use retry logic to overcome any Transient errors.
+    description: Client programs that occasionally encounter a transient error are more robust when they contain retry logic.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.analytics-service.G
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: de3ea9fd-db1e-4c55-acf6-5c02de2ac63b
+name: How do you test the application to ensure it is fault tolerant?

@@ -1,0 +1,44 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We use Application Gateway v2 for secure delivery of HTTP/S applications and ensure that WAF protection and policies are enabled. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: '(Single region) We use Application Gateway v2 (or a partner NVA) and ensure that WAF protection and policies are enabled for secure delivery of external-facing HTTP/S applications, and we deploy them within the landing-zone virtual network and with the applications that they''re securing.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: '(Multi-region) When using Azure Front Door and Application Gateway v2 to protect HTTP/S applications, we use WAF policies in Front Door and lock Application Gateway down to only receive traffic from Front Door.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '4'
+    text: We have no public facing application.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+stem: |+
+
+isRequired: false
+uid: 32e0b039-2840-4924-86c9-e82baaf54073
+name: The following statements are true about how we secure our workloads from inbound HTTP/S connectivity from the internet

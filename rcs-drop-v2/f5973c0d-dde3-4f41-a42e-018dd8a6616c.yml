@@ -1,0 +1,81 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Batch Job Optimizations: Active Periods'
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/activeperiod'
+    condition:
+      allOf: []
+      anyOf:
+        - 123187c7-179c-4164-923d-60255c617863.1f3d5a16-b2bc-4409-834a-8fb631dd0b5b.0
+        - 123187c7-179c-4164-923d-60255c617863.1f3d5a16-b2bc-4409-834a-8fb631dd0b5b.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Batch Job Optimizations: Priority-based batch scheduling'
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/priority-based-batch-scheduling'
+    condition:
+      allOf: []
+      anyOf:
+        - 123187c7-179c-4164-923d-60255c617863.1f3d5a16-b2bc-4409-834a-8fb631dd0b5b.2
+        - 123187c7-179c-4164-923d-60255c617863.1f3d5a16-b2bc-4409-834a-8fb631dd0b5b.3
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Build OData metadata cache when the AOS starts
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/odata-warmup'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 123187c7-179c-4164-923d-60255c617863.5dc67e2b-76da-4524-8142-40f5c9230ec2.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimization advisor overview
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/optimization-advisor-overview'
+    condition:
+      allOf: []
+      anyOf:
+        - 123187c7-179c-4164-923d-60255c617863.b0cf43b1-f3e1-4852-b703-989af62c749e.0
+        - 123187c7-179c-4164-923d-60255c617863.b0cf43b1-f3e1-4852-b703-989af62c749e.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Create rules for Optimization advisor
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/create-rules-optimization-advisor'
+    condition:
+      allOf: []
+      anyOf:
+        - 123187c7-179c-4164-923d-60255c617863.b0cf43b1-f3e1-4852-b703-989af62c749e.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize data migration for finance and operations apps
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/optimize-data-migration'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 123187c7-179c-4164-923d-60255c617863.54ad79bb-dcd6-479e-8be5-610b39e9e812.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: f5973c0d-dde3-4f41-a42e-018dd8a6616c
+name: Establish Performance Optimization Checklist Recomendations

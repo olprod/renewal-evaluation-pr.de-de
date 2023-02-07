@@ -1,0 +1,100 @@
+### YamlMime:QuestionSetV2
+type: QuestionSet
+questions:
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '1'
+    uid: 922b4363-9a2a-4bdb-a332-4999ccb942a7
+    name: Writing content in markdown format
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '2'
+    uid: 1fa436bf-3a0b-48d9-8e27-859e33e1dd3b
+    name: Creating and submitting pull requests in GitHub
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '3'
+    uid: 196ffb08-9fc6-4a67-b22a-4c0d1d11f248
+    name: 'Review process for Docs content, including PR review and editorial'
+  - responseAlternatives:
+      - id: A
+        text: Very confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: B
+        text: Somewhat confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+      - id: C
+        text: Not confident
+        description: ''
+        imageUrl: ''
+        isCorrect: false
+    type: AssessmentQuestion
+    kind: SingleSelect
+    stem: ''
+    isRequired: false
+    legacyId: '4'
+    uid: 60c16a76-4423-478f-a42b-152a8c803f74
+    name: Publishing process for Docs content
+stem: ''
+isRequired: true
+legacyId: '1'
+uid: bfa3d125-7f47-440b-96fc-e358b6391a3c
+name: How confident are you with the Docs content publishing skills?

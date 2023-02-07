@@ -1,0 +1,576 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: '[Q1] Use the Device Provisioning Service to provision your devices and assign them to an IoT hub'
+    url: /azure/iot-dps/about-iot-dps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.bee0490f-5a67-4ad7-bfc0-cc2b78fe62ee.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q1] Use the Device Provisioning Service if possible. If it can''t be used, then ensure you have a reliable way to provision your devices.'
+    url: /azure/iot-dps/about-iot-dps
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.bee0490f-5a67-4ad7-bfc0-cc2b78fe62ee.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q1] For a large fleet of devices, distribute devices across multiple IoT hubs'
+    url: /azure/iot-dps/quick-setup-auto-provision#link-the-iot-hub-and-your-device-provisioning-service
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.bee0490f-5a67-4ad7-bfc0-cc2b78fe62ee.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q2] Use the Azure IoT Hub device SDKs to connect your devices to Azure IoT Hub'
+    url: /azure/iot-hub/iot-hub-reliability-features-in-sdks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.9d74fca4-17ea-4581-8480-d1ca0e075eab.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q2] Apply the principles implemented in Azure IoT device SDKs to your solution'
+    url: 'https://azure.microsoft.com/blog/benefits-of-using-the-azure-iot-sdks-in-your-azure-iot-solution/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.9d74fca4-17ea-4581-8480-d1ca0e075eab.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q2] Understand the pitfalls to avoid if you don''t use the Azure IoT device SDKs'
+    url: /azure/iot-hub/iot-hub-devguide-no-sdk
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.9d74fca4-17ea-4581-8480-d1ca0e075eab.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q3] For IoT Edge based solutions, use Azure DevOps for build and release. For non-IoT Edge devices, use Azure DevOps for build and Azure Device Updates for release'
+    url: /azure/iot-edge/how-to-devops-starter
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.0cd0a25d-b00f-4542-b3be-d406332622a5.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q3] Build in controls for rollback and ring-based deployments'
+    url: /azure/iot-edge/module-deployment-monitoring
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.0cd0a25d-b00f-4542-b3be-d406332622a5.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q4] Adopt safe and secure policies for updating and deploying applications'
+    url: /previous-versions/azure/iot-hub-device-update/understand-device-update
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.1e7b058f-0e4c-4792-91b6-3fa8cdf22584.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q4] Adopt the principles highlighted in the documentation for Automatic Device Management at scale '
+    url: /azure/iot-hub/iot-hub-automatic-device-management
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.1e7b058f-0e4c-4792-91b6-3fa8cdf22584.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q5] Use device twins to store device state information including metadata, configurations, and conditions'
+    url: /azure/iot-hub/iot-hub-devguide-device-twins
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.36fa79fa-19e5-4ec5-b674-46653bf81b3d.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q5] React to IoT Hub events by using Event Grid to trigger actions'
+    url: /azure/iot-hub/iot-hub-event-grid
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.36fa79fa-19e5-4ec5-b674-46653bf81b3d.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q5] Avoid building custom services and use available IoT Hub features'
+    url: /azure/iot-hub/iot-hub-devguide-device-twins
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.36fa79fa-19e5-4ec5-b674-46653bf81b3d.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q6] Evaluate the trade-offs of different HA/DR options'
+    url: /azure/iot-hub/iot-hub-ha-dr
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.9d779287-cf4d-402a-ad91-71a0771bd517.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q6] Define manual failover processes to failover from a primary region to the corresponding Azure geo-paired region'
+    url: /azure/iot-hub/tutorial-manual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.9d779287-cf4d-402a-ad91-71a0771bd517.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q6] Review the guidance provided for cross-region DR'
+    url: /azure/iot-hub/iot-hub-ha-dr#achieve-cross-region-ha
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.9d779287-cf4d-402a-ad91-71a0771bd517.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q7] Implement capabilities to observe, monitor, respond to, and improve your system''s reliability under adverse circumstances'
+    url: /azure/architecture/framework/resiliency/chaos-engineering
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.e85a8428-773d-49c1-89b4-0371e3dbbd96.0
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.e85a8428-773d-49c1-89b4-0371e3dbbd96.1
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.e85a8428-773d-49c1-89b4-0371e3dbbd96.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q8] On failure, configure your devices to send data to a secondary hub'
+    url: /azure/iot-hub/iot-hub-ha-dr#achieve-cross-region-ha
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.dffe91ab-abb5-4c5c-ba56-87d28a6574cf.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q8] Use IoT Hub message routing to route messages to multiple endpoints'
+    url: /azure/iot-hub/iot-hub-devguide-messages-d2c
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.dffe91ab-abb5-4c5c-ba56-87d28a6574cf.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q8, Q9] Review Microsoft-initiated failover capabilities'
+    url: /azure/iot-hub/iot-hub-ha-dr#microsoft-initiated-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.dffe91ab-abb5-4c5c-ba56-87d28a6574cf.2
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.2e5fd068-5724-4dc9-a1d9-ca3cb62b4ede.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q9] Conduct manual failover tests and understand behavior of your solution'
+    url: /azure/iot-hub/tutorial-manual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.2e5fd068-5724-4dc9-a1d9-ca3cb62b4ede.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q9] Exercise the failover procedures and confirm desired behavior'
+    url: /azure/iot-hub/tutorial-manual-failover
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.2e5fd068-5724-4dc9-a1d9-ca3cb62b4ede.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q10] Choose the right IoT Hub tier for your solution.'
+    url: /azure/iot-hub/iot-hub-scaling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.0788a7e6-fa1a-4fab-844f-c11cd2779511.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q10] Make sure your autoscaling scales down as well as up.'
+    url: /samples/azure-samples/iot-hub-dotnet-autoscale/iot-hub-dotnet-autoscale/
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.0788a7e6-fa1a-4fab-844f-c11cd2779511.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q10] Review the throttle limits and implement appropriate traffic shaping mechanism in the event of throttling'
+    url: /azure/iot-hub/iot-hub-devguide-quotas-throttling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.0788a7e6-fa1a-4fab-844f-c11cd2779511.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q11] Use device simulation to simulate devices that look and behave like the real thing'
+    url: 'https://azure.microsoft.com/blog/accelerating-iot-solution-development-and-testing-with-azure-iot-device-simulation/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.260207dc-a95a-4348-bb58-21a8ba828889.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q11] Scale test your software by simulating both normal, peak, and beyond peak load conditions'
+    url: 'https://azure.microsoft.com/blog/accelerating-iot-solution-development-and-testing-with-azure-iot-device-simulation/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.260207dc-a95a-4348-bb58-21a8ba828889.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q12] Monitor the resources that your critical processes rely on for their availability, performance, and operation.'
+    url: /azure/iot-hub/monitor-iot-hub
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.117edba5-0bf6-40ef-8ff9-01089cb06bdc.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q12] Use the built-in capabilities in Azure IoT Hub monitoring to establish dashboards and alerts'
+    url: /azure/iot-hub/monitor-iot-hub-reference
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.117edba5-0bf6-40ef-8ff9-01089cb06bdc.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q12] For IoT Edge based implementations, implement components for log shipping to the cloud'
+    url: 'https://github.com/Azure-Samples/iotedge-logging-and-monitoring-solution'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.117edba5-0bf6-40ef-8ff9-01089cb06bdc.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q13] Manage intermittent connectivity'
+    url: /azure/iot-hub/iot-hub-reliability-features-in-sdks
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.545de1f8-bfe9-4552-a371-d33646327e71.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q13] Use IoT Edge offline capabilities'
+    url: /azure/iot-edge/offline-capabilities
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.545de1f8-bfe9-4552-a371-d33646327e71.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q14] Choose the right number of partitions'
+    url: /azure/event-hubs/event-hubs-faq#how-many-partitions-do-i-need-
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.507ffed2-e90b-4c66-b2ac-6aca3c118354.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q14] Review the default IoT Hub partition configuration'
+    url: /azure/iot-hub/iot-hub-scaling#partitions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.507ffed2-e90b-4c66-b2ac-6aca3c118354.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q15] Configure retention periods on IoT Hub built-in endpoint'
+    url: /azure/iot-hub/iot-hub-devguide-messages-read-builtin
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.51d47442-42f7-4843-a34b-6756e1437b4c.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q15] Route messages to a storage service'
+    url: /azure/iot-hub/iot-hub-devguide-messages-d2c#azure-storage-as-a-routing-endpoint
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.51d47442-42f7-4843-a34b-6756e1437b4c.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q16] Review IoT Hub message routing'
+    url: /azure/iot-hub/iot-hub-devguide-messages-d2c
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.229948ae-28f4-42ad-b4d9-dff402dfbdf4.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q16] Review the capabilities of the built-in IoT Hub endpoint'
+    url: /azure/iot-hub/iot-hub-devguide-messages-read-builtin
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.229948ae-28f4-42ad-b4d9-dff402dfbdf4.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q17] Implement logic to handle missing data'
+    url: /azure/iot-hub/iot-hub-event-grid-routing-comparison#differences
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.63569c55-a57d-4ecb-b99f-136e2d99a8a4.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q17] Use Azure Stream Analytics to detect late or out of order events'
+    url: /azure/stream-analytics/stream-analytics-get-started-with-azure-stream-analytics-to-process-data-from-iot-devices
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.63569c55-a57d-4ecb-b99f-136e2d99a8a4.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q18] Use the Azure Certified Device Catalog to select devices with the correct specification'
+    url: 'https://devicecatalog.azure.com/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.624fd34a-276b-4d1e-a68a-22ea656cab1e.0
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.624fd34a-276b-4d1e-a68a-22ea656cab1e.1
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.624fd34a-276b-4d1e-a68a-22ea656cab1e.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q18] Analyze IoT Edge device failures'
+    url: /azure/iot-edge/how-to-monitor-iot-edge-deployments
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.624fd34a-276b-4d1e-a68a-22ea656cab1e.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q19] Configure storage for IoT Edge modules'
+    url: /azure/iot-edge/production-checklist#set-up-host-storage-for-system-modules
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.c32e83fe-8995-45a9-a7c9-56da16980f41.0
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.c32e83fe-8995-45a9-a7c9-56da16980f41.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q20] Configure IoT Edge message time-to-live'
+    url: /azure/iot-edge/offline-capabilities
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.989aa5de-14d6-41b9-b9d9-192bf365c06e.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q21] Use Azure Virtual Machine failover capabilities'
+    url: /azure/site-recovery/azure-to-azure-tutorial-failover-failback
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.8b1059f7-f6ec-4503-8092-057362e9b945.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q21] Consider running IoT Edge on a Kubernetes cluster'
+    url: /azure/iot-edge/how-to-install-iot-edge-kubernetes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.8b1059f7-f6ec-4503-8092-057362e9b945.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: '[Q21] Consider running IoT Edge on an Azure Stack HCI cluster'
+    url: /azure/architecture/hybrid/azure-stack-hci-dr
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 6dfada50-a218-4cf0-8015-a8cf92d36975.8b1059f7-f6ec-4503-8092-057362e9b945.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: e47cbce4-add1-4c1c-b282-ec3d464e00ab
+name: ''

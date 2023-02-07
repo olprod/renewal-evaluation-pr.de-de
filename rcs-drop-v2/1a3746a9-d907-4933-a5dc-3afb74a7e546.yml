@@ -1,0 +1,42 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Our team does not want a visually oriented, low code solution.'
+    description: Databricks is a code first platform.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: '1'
+    text: 'Our team prefers a visually oriented, low code, drag-and-drop interface.'
+    description: "Synapse has a drag-and-drop interface for building Pipelines.\_ Basic Spark jobs can be built with a drag-and-drop interface in Mapping Data Flows."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '2'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |
+  Does the project team want a visually oriented, low-code solution for developing data pipelines?
+isRequired: true
+uid: 1a3746a9-d907-4933-a5dc-3afb74a7e546
+name: 'Does the project team want a visually oriented, low-code solution for developing data pipelines?'

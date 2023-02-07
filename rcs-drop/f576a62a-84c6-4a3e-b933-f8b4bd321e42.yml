@@ -1,0 +1,24 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have an Azure Digital Twins Solution.
+
+  You use the Azure Digital Twins Explorer tool and query the relationships between the Twins.
+
+  The RELATED keyword is required with the JOIN clause to reference relationships.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 444e191e-24b6-4f91-ac6b-32f32e12aa72
+questions:
+  - uid: f576a62a-84c6-4a3e-b933-f8b4bd321e42-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have an Azure Digital Twins Solution.
+        isCorrect: true
+      - id: 1
+        text: You use the Azure Digital Twins Explorer tool and query the relationships between the Twins.
+        isCorrect: false
+uid: f576a62a-84c6-4a3e-b933-f8b4bd321e42
+title: The RELATED keyword is required with the JOIN clause to reference relationships.

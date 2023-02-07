@@ -1,0 +1,47 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: /azure/cloud-adoption-framework/_images/caf-strategy.png
+description: 'Establishing a Microsoft Power Platform Center of Excellence (CoE) means investing in and nurturing organic growth while maintaining governance and control. '
+links:
+  - title: Strategy and vision best practices
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/strategy-best-practices'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 14ce7a12-b918-4987-abc4-be9ea23ffdbf<14
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define roles and responsibilities
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/roles'
+    condition:
+      allOf: []
+      anyOf:
+        - 14ce7a12-b918-4987-abc4-be9ea23ffdbf.e7d570a3-2890-4827-9572-3871880b4271.0
+        - 14ce7a12-b918-4987-abc4-be9ea23ffdbf.e7d570a3-2890-4827-9572-3871880b4271.1
+        - 14ce7a12-b918-4987-abc4-be9ea23ffdbf.e7d570a3-2890-4827-9572-3871880b4271.2
+        - 14ce7a12-b918-4987-abc4-be9ea23ffdbf.4cae958c-c48c-450c-b05e-decb355b1d6b.0
+        - 14ce7a12-b918-4987-abc4-be9ea23ffdbf.4cae958c-c48c-450c-b05e-decb355b1d6b.1
+        - 14ce7a12-b918-4987-abc4-be9ea23ffdbf.4cae958c-c48c-450c-b05e-decb355b1d6b.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Delivery models
+    url: 'https://docs.microsoft.com/en-us/power-platform/guidance/adoption/delivery-models'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf:
+        - 14ce7a12-b918-4987-abc4-be9ea23ffdbf<14
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: fa753e9f-32ac-4430-a093-2277df444149
+name: Establish a Microsoft Power Platform Center of Excellence

@@ -1,0 +1,71 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Username & password
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Username & Password + MFA (Azure AD MFA or 3rd party MFA)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: Azure AD Conditional Access policies
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: Username & Password + MFA (Azure AD MFA or 3rd party MFA) + Azure AD Conditional Access policies
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '4'
+    text: Azure AD Privileged Identity Management (PIM)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '5'
+    text: Azure AD Security Defaults
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '6'
+    text: Azure AD Identity Protection
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '7'
+    text: Microsoft Defender for Identity
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: Which of the following services/features do you use to help you authenticate and authorize access to your Azure resources?
+isRequired: false
+uid: 716116e0-38df-411b-a56f-7f11f3bd289c
+name: Which of the following services/features do you use to help you authenticate and authorize access to your Azure resources?

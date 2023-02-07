@@ -1,0 +1,64 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You''ve taken advantage of the pre-built metrics in the Azure services, such as Azure IoT Hub.'
+    description: Azure IoT Hub uses Azure Monitor to save monitoring data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: You've created alerts to notify the support team when abnormal operating conditions occur or when a certain limit has been reached
+    description: Azure Monitor is able to proactively notify you when important conditions are found in your monitoring data.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: You use Azure Event Grid to monitor the connection status for IoT devices and to trigger alerts when connection states change.
+    description: 'With Event Grid, you can subscribe to the Azure IoT Hub ''DeviceConnected'' and ''DeviceDisconnected'' events.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: 'You''ve implemented a mechanism to monitor, diagnose, and troubleshoot device disconnects.'
+    description: 'Azure IoT Hub integrates with two Azure services to help you monitor your solution: Event Grid and Azure Monitor.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '4'
+    text: You've taken advantage of collecting and transporting metrics from the edge to the cloud
+    description: You can remotely monitor your Azure IoT Edge fleet using Azure Monitor and built-in metrics integration.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: '5'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'To optimize your workload for operational excellence, you should integrate development, quality assurance, and IT operations into a unified culture and set of processes for delivering software. Use built-in metrics, Log Analytics, and alerts to monitor the Azure IoT Hub service and devices.'
+isRequired: false
+uid: adaae4b2-349c-489b-80ec-8faa627d82da
+name: 'To optimize your workload for operational excellence, you should integrate development, quality assurance, and IT operations into a unified culture and set of processes for delivering software. Use built-in metrics, Log Analytics, and alerts to monitor the Azure IoT Hub service and devices.'

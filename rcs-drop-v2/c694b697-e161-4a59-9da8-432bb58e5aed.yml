@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Builds are created manually as needed or based on developer’s preference and are often non repeatable
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Builds are in general repeatable and follows a schedule
+    description: 'an example would be: a weekly deployment cycle'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: A build is compiled automatically on a daily or nightly basis
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '3'
+    text: 'A build is triggered, automated tests are run, the changes are deployed to pre-prod, and on approval queued to production'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 75
+  - id: '4'
+    text: 'A build is triggered, automated tests are run, and the changes are deployed with progressive exposure control and telemetry to measure differences from the last deployment'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 100
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: c694b697-e161-4a59-9da8-432bb58e5aed
+name: 'Considering the most common practices within your organization, how do code changes get deployed?'

@@ -1,0 +1,36 @@
+### YamlMime:QuestionSet
+scenario: |
+  You have a Microsoft Exchange Online tenant. 
+
+  A user named User1 is a member of the Organization Management role group.
+
+  User1 establishes a remote PowerShell session to Exchange Online and attempts to create a new global address list (GAL) named GAL1.
+
+  User1 receives the following error message:
+
+  *The term 'New-GlobalAddressList' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.*
+
+  You need to ensure that User1 can create a new GAL in Exchange Online.
+
+  What should you do?
+questionnaireUid: 6af98bd7-593c-4d8d-924d-e9b1ba935cdd
+questions:
+  - uid: f83ea412-2eed-4172-9633-28ccd730a009-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a Microsoft Exchange Online tenant.
+        isCorrect: false
+      - id: 1
+        text: A user named User1 is a member of the Organization Management role group.
+        isCorrect: true
+      - id: 2
+        text: User1 establishes a remote PowerShell session to Exchange Online and attempts to create a new global address list (GAL) named GAL1.
+        isCorrect: false
+      - id: 3
+        text: 'User1 receives the following error message:'
+        isCorrect: false
+uid: f83ea412-2eed-4172-9633-28ccd730a009
+title: ''

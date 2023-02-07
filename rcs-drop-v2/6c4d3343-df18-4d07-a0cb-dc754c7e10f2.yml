@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - e9c98711-54d5-479c-b7ef-44db4b65f6ff
+  - 3b11f391-55a5-47a1-aa70-b18fa2d3ac75
+  - cf602020-3395-484c-a53c-0b71dff41065
+  - b4956cd9-6b3c-4972-a4ea-882d73f2e076
+  - 8c65194b-b7a3-456c-aacb-b7ed1fd66061
+  - 7a30c43e-58b5-4293-b38a-6a8d7791d77d
+recommendations:
+  - b92e0a6a-6948-486a-9208-6c2ae21327a2
+assignedGroupIds: []
+uid: 6c4d3343-df18-4d07-a0cb-dc754c7e10f2
+name: SQL MI - Cost

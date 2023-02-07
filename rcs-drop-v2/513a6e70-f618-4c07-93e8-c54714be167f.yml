@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: You are using built in Azure Monitor tools to validate the Azure SQL MI Database health?
+    description: 'Azure SQL MI can be monitored with diagnostic settings, logs and metrics. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Azure Resource Health events are used to alert on resource health events.
+    description: An appropriate threshold for resource unavailability must be set to minimize signal to noise ratios so that transient faults do not generate an alert.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'A health model has been defined based on performance, availability, and recovery targets and is represented through monitoring dashboard and alerts.'
+    description: 'Has a health model been defined to qualify what ''healthy'' and ''unhealthy'' states represent across all database components, in a measurable and observable format and is this health model fully represented through monitoring dashboards and alerts?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: Azure Service Health events are used to alert on applicable Service level events.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Monitor for failures or processes taking longer than expected. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.F
+stem: ''
+isRequired: false
+legacyId: monitor-data-sqlmi
+uid: 513a6e70-f618-4c07-93e8-c54714be167f
+name: How do you monitor and measure database health?

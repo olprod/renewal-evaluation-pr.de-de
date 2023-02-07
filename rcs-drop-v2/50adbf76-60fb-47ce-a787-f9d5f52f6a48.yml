@@ -1,0 +1,94 @@
+### YamlMime:SelfAssessment
+description: Take the first step in modernizing your workloads by taking this application and modernization assessment.
+duration: 30 minutes
+questionnaireReferences:
+  - questionnaireUid: 6dd5ab55-d188-4f80-920e-f8ef24567ef3
+    isRequired: false
+  - questionnaireUid: 85d7d12f-9837-4196-9736-7d6af9e18646
+    isRequired: false
+  - questionnaireUid: 346c93a7-444e-42b4-8ce2-50ea6853fe1b
+    isRequired: false
+  - questionnaireUid: 4dfcf7b1-00e1-4648-92a6-1226db9bb015
+    isRequired: false
+  - questionnaireUid: 4a4d4768-b128-47e0-a137-937a8dd791a3
+    isRequired: false
+  - questionnaireUid: 2ebec64a-99d4-4c09-ad11-0aa5d743488e
+    isRequired: false
+  - questionnaireUid: c778130c-f639-427a-a0fe-3be24d32b415
+    isRequired: false
+  - questionnaireUid: 0aefceb7-142a-4fda-b59d-ed2df1a6628e
+    isRequired: false
+  - questionnaireUid: bce41a9a-19a5-4b72-bd32-c10e1144e44e
+    isRequired: false
+  - questionnaireUid: cae00f72-6df1-4cb5-baed-3bea802485fe
+    isRequired: false
+guidance:
+  title: 30 minutes
+  description: Your application and data modernization readiness score Modernizing your applications and data can position your business to accelerate time to market and deliver innovative customer experiences.
+  providers: []
+  scoring:
+    title: This report will help you understand your current gaps and guide your modernization efforts.
+    description: 'Understanding your application and data modernization readiness score Based on your responses, your application modernization readiness across 10 dimensions is shown below.'
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: ''
+    steps:
+      - iconUrl: ''
+        description: Explore the recommendations to create your action plan to address gaps. Begin your migration and modernization journey with help from Microsoft.
+        links:
+          - title: 'We offer expert help from Azure engineering and specialized migration partners, technical skill building and offers to help you reduce your migration cost.'
+            url: 'https://azure.microsoft.com/migration/migration-modernization-program'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Azure Migration and Modernization Program
+      - iconUrl: ''
+        description: Join the Azure Migration and Modernization Program Modernize your applications and data to accelerate time to market and deliver new experiences.
+        links:
+          - title: Achieve greater agility and scale with built-in security and high availability.
+            url: 'https://azure.microsoft.com/en-us/solutions/application-and-database-modernization/'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Application and data modernization
+      - iconUrl: ''
+        description: 'Accelerate time to market, deliver innovative experiences, and improve security with Azure application and data modernization.'
+        links:
+          - title: Read this white paper from IDC to gain insights into successful app and data modernization strategies
+            url: 'https://azure.microsoft.com/en-us/resources/modernizing-applications-and-data-the-view-from-customers-who-have-taken-the-journey-with-microsoft-azure/'
+            condition:
+              allOf: []
+              anyOf: []
+              noneOf: []
+              scoreOf: []
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: White Paper
+  recommendationsTitle: ''
+owner:
+  firstName: Dom
+  lastName: Allen
+  email: Dominic.Allen@microsoft.com
+isHiddenAssessment: false
+metadataTags:
+  - azure
+uid: 50adbf76-60fb-47ce-a787-f9d5f52f6a48
+name: 'Modernizing Applications and Data: The View from Customers Who Have Taken the Journey with Microsoft Azure.'

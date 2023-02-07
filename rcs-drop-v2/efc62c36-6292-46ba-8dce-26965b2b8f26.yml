@@ -1,0 +1,90 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider using Azure Bastion
+    url: 'https://docs.microsoft.com/en-us/azure/bastion/bastion-overview?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0fc0a3f3-e4c1-4c51-82c3-7b6905802e1f.a6eb70d5-1829-4527-90fc-252d31633e57.A
+      scoreOf: []
+    context: "Azure Bastion\_provides secure and seamless RDP/SSH connectivity to your virtual machines directly from the Azure portal over TLS."
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: ''
+  - title: Use anti-malware solution
+    url: 'https://docs.microsoft.com/en-us/azure/security/fundamentals/iaas?branch=release-virtualmachine-ga#protect-against-malware'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0fc0a3f3-e4c1-4c51-82c3-7b6905802e1f.a6eb70d5-1829-4527-90fc-252d31633e57.B
+      scoreOf: []
+    context: Antimalware protection helps to identify and remove viruses.
+    priority: 90
+    reportingCategory: Security and Compliance
+    reportingSubCategory: ''
+  - title: Manage updates with Azure Automation
+    url: 'https://docs.microsoft.com/en-us/azure/automation/update-management/overview?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0fc0a3f3-e4c1-4c51-82c3-7b6905802e1f.a6eb70d5-1829-4527-90fc-252d31633e57.C
+      scoreOf: []
+    context: Manage your updates with solutions like Azure Automation for operating system updates.
+    priority: 95
+    reportingCategory: Security and Compliance
+    reportingSubCategory: ''
+  - title: Use Microsoft Defender for Cloud
+    url: 'https://docs.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0fc0a3f3-e4c1-4c51-82c3-7b6905802e1f.a6eb70d5-1829-4527-90fc-252d31633e57.D
+      scoreOf: []
+    context: 'To monitor the security posture of your Windows and Linux VMs, use Microsoft Defender for Cloud.'
+    priority: 93
+    reportingCategory: Security and Compliance
+    reportingSubCategory: ''
+  - title: Use Azure Disk Encryption
+    url: 'https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0fc0a3f3-e4c1-4c51-82c3-7b6905802e1f.a6eb70d5-1829-4527-90fc-252d31633e57.E
+      scoreOf: []
+    context: Azure Disk Encryption helps protect and safeguard your data to meet your organizational security and compliance commitments. ADE encrypts the OS and data disks of Azure virtual machines (VMs) inside your VMs using the CPU of your VMs through the use of feature DM-Crypt of Linux or the BitLocker feature of Windows.
+    priority: 68
+    reportingCategory: Security and Compliance
+    reportingSubCategory: ''
+  - title: Apply Azure Security Policies to Azure VMs
+    url: 'https://docs.microsoft.com/en-us/azure/virtual-machines/security-policy#policies'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0fc0a3f3-e4c1-4c51-82c3-7b6905802e1f.a6eb70d5-1829-4527-90fc-252d31633e57.F
+      scoreOf: []
+    context: Azure policies can be used to define the desired behavior for your organization's Windows VMs and Linux VMs.
+    priority: 65
+    reportingCategory: Security and Compliance
+    reportingSubCategory: ''
+  - title: Apply VM extensions preferably with Azure Policies to VMs
+    url: 'https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 0fc0a3f3-e4c1-4c51-82c3-7b6905802e1f.a6eb70d5-1829-4527-90fc-252d31633e57.G
+      scoreOf: []
+    context: Extensions are small applications that provide post-deployment configuration and automation on Azure VMs.
+    priority: 60
+    reportingCategory: Security and Compliance
+    reportingSubCategory: ''
+uid: efc62c36-6292-46ba-8dce-26965b2b8f26
+name: ''

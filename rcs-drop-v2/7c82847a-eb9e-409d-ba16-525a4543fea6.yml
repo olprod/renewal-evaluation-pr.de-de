@@ -1,0 +1,68 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Additional ''Cloud Admin'' accounts have been created on the Privileged Endpoint (PEP) and a process is defined to store the account passwords securely. (Note: by default, only 1 x cloud admin account exists).'
+    description: 'Have additional ''Cloud Admin'' accounts been created on the Privileged Endpoint (PEP) and a process is defined to store the account passwords securely. Note: by default, only 1 x cloud admin account exists.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 30
+  - id: B
+    text: 'A process has been implemented to enable Users to request or obtain Service Principal (App ID) credentials from Azure AD, enabling use of both Secret and/or Certificate based authentication methods.'
+    description: Can users leverage Service Principals to authentication against ARM to enable DevOps and automation scenarios for their infrastructure as code (IaC) deployments?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: 'Azure AD Groups are used to delegate the required IAM/RBAC permissions to User Subscriptions and/or Resources Groups, enabling centralized auditing and monitoring of resource permissions.'
+    description: 'Using Azure AD Groups to delegate Owner, Contributor or Reader permissions to resources simplifies identity and access management operations and enables capabilities such as centralized auditing and monitoring.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Multi-Factor Authentication (MFA) has been enabled for Azure AD user accounts that have been delegated access to the 'Default Provider Subscription' in the Azure Stack Hub Administrator Portal.
+    description: Has Multi-Factor Authentication (MFA) been enabled in Azure AD for user accounts that have been delegated permissions to the Azure Stack Hub Admin Portal or Admin ARM Endpoint?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Recommended security practices for Azure AD have been considered, such as MFA, auditing user account login activity and Conditional Access policies to help protect and secure identities.'
+    description: 'Have you considered and enabled where required, the recommended security controls for Azure AD, such as Multi-Factor Authentication (MFA), auditing of user account login activity and implemented Conditional Access policies inline with your organizations security requirements.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: F
+    text: Transport Layer Security (TLS) protocol version 1.2 has been configured as enforced on the stamp (TLS v1.2 Only).
+    description: Transport Layer Security (TLS) protocol versions 1.0 and 1.1 are being deprecated. TLS v1.2 can be enforced on the stamp as the only support TLS protocol to increase security of network communication.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.stackhub
+stem: ''
+isRequired: false
+uid: 7c82847a-eb9e-409d-ba16-525a4543fea6
+name: 'Connected stamps: What considerations have been made for identity, access, and security management?'

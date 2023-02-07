@@ -1,0 +1,17 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: 'Tutorial: Improve your regulatory compliance'
+    url: 'https://docs.microsoft.com/en-us/azure/defender-for-cloud/regulatory-compliance-dashboard'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 14e95507-0338-4b3a-a568-77b41c7a6f6d
+name: ''

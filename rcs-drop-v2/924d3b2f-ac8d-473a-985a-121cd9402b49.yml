@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We use virtual network injection for supported Azure services to make them available from within your virtual network, and we are locking down the communication within the virtual network by using UDRs and NSGs.'
+    description: 'If you require network customization for your PaaS services, you can deploy the data plane resources of some Azure PaaS services in your own virtual network, (sometimes called VNet injection).'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '1'
+    text: When available we always use Private Link Endpoints for Azure PaaS services that do not require public access.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '2'
+    text: "When virtual network injection or Private Link Endpoints are not available, we use\_ExpressRoute with Microsoft peering, and we have restricted the Networks that can reach out to the services separately, in the Firewall setting of each service."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: "When Virtual Network Injection or Private Link Endpoints are not available, we use\_Service Endpoints. We only enable them on the subnets that really need access to a particular Azure PaaS service, and we only use them when there are no data exfiltration concerns."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: 'Our corporate security policy requires that we limit Cross-Tenant Private Link Endpoint connections in Azure, and in order to achieve that we have implemented Azure Policies to meet that requirement.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: ''
+isRequired: false
+uid: 924d3b2f-ac8d-473a-985a-121cd9402b49
+name: The following statements about our connectivity to Azure PaaS services are true

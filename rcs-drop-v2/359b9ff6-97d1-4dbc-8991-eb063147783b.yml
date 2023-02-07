@@ -1,0 +1,104 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use DevOps and deployment automation.
+    description: 'In an on premises environment, we do not typically have the luxury of being able to access APIs to turn on/off, or scale up/down workloads, in the same way as we do in the cloud.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: B
+    text: "Configure auto-scale policies for my workload (both up\_and down)."
+    description: For certain SQL workloads capacity requirements may vary over time and auto-scaling policies allow for less error-prone operations and cost savings through robust automation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: C
+    text: 'Select the right resource offering size and capability (VM, disk, database).Certain capabilities incur extra costs but may not be necessary such as using GRS stroage for development environments.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: D
+    text: Choose appropriate services that match my business requirements.
+    description: Any architecture planning starts with a careful enumeration of requirements.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: E
+    text: Auto-shutdown of non-prod SQL VMs on a scheduled basis.
+    description: Many non-prod workloads are only needed during normal business hours and  auto shutdown could reduce their running costs by 50% or more.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: F
+    text: Utilise Reserved Capacity for consistently runing workloads.
+    description: Workloads that you know need to run 24/7 can take advantage of Reserved Capacity to reduce costs by up to 57%.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: G
+    text: Use Azure Policies and RBAC to govern the size/type of VM that can be created by teams and individuals.
+    description: Azure Policies and Role Based Access Controls enable the application of guardrails and constraints to ensure teams with low expenditure authority don't incur unnecessary costs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: H
+    text: Having a clearly defined and documented set of RTO/RPO classifications for SQL VM workloads.
+    description: Depending on the RTO/RPO requirements appropriate VM/SQL HA technologies can chosen allowing HW to be architected effectively and efficiently.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: I
+    text: For scalable environments being aware of the max number of disks different VM support as this can limit scale-down capabilities.
+    description: Differnet VM sizes support different max numbers of data disks which can prevent you from down-scaling to them.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: J
+    text: 'Leverage Azure feature such as Azure Spot virtual machines, Azure bursting VMs and disks for development and small scale environments.'
+    description: 'It is important to note for these development and test environments, you are trading consistency and performance for better cost management.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: K
+    text: Consider leveraging Azure Dev/Test pricing for discounted rates on Azure to support your ongoing development and testing.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 8
+  - id: L
+    text: 'Consider leveraging auto scale capabilities for web server, application and database tier compute especially in light usage and dev/test workloads.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.B
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: provision-data-sqlvm
+uid: 359b9ff6-97d1-4dbc-8991-eb063147783b
+name: How do you ensure that cloud resources are appropriately provisioned?

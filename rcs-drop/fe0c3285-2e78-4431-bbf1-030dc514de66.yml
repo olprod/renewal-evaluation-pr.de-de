@@ -1,0 +1,31 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are implementing Dynamics 365 Finance for an educational institution.
+
+  You are developing a solution to manage student information. You need to create an extension class.
+
+  Which two actions should you perform once you create the class? Each correct answer presents part of the solution.
+questionnaireUid: aa0a93bd-4e37-4d96-b069-d6ac0436a3a7
+questions:
+  - uid: fe0c3285-2e78-4431-bbf1-030dc514de66-q-0
+    title: ''
+    prompt: ''
+    type: MultiSelect
+    choices:
+      - id: 0
+        text: You are implementing Dynamics 365 Finance for an educational institution.
+        isCorrect: true
+      - id: 1
+        text: You are developing a solution to manage student information.
+        isCorrect: false
+      - id: 2
+        text: You need to create an extension class.
+        isCorrect: false
+      - id: 3
+        text: Which two actions should you perform once you create the class?
+        isCorrect: false
+      - id: 4
+        text: Each correct answer presents part of the solution.
+        isCorrect: true
+uid: fe0c3285-2e78-4431-bbf1-030dc514de66
+title: ''

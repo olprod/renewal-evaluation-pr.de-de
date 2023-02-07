@@ -1,0 +1,30 @@
+### YamlMime:RenewalAssessment
+certificationUid: certification.windows-server-hybrid-administrator
+referencedQuestionnaires:
+  - questionnaireUid: d6e12881-d960-49a6-bf9e-eedbd2589f7f
+    questionsToTake: 2
+    questionsToPass: 1
+  - questionnaireUid: 502f2f08-a415-4ec1-93ae-1e1cec926fe6
+    questionsToTake: 2
+    questionsToPass: 1
+  - questionnaireUid: f19cc7b6-132a-44ac-91ab-28481f303c6a
+    questionsToTake: 4
+    questionsToPass: 2
+  - questionnaireUid: 919c8083-4462-4944-a4d8-28d93ed06f4a
+    questionsToTake: 5
+    questionsToPass: 3
+  - questionnaireUid: 066e1e63-41b4-4724-9e33-098b37ee8cdc
+    questionsToTake: 5
+    questionsToPass: 3
+  - questionnaireUid: fbd56f31-2107-4291-bc99-8556df6cd33e
+    questionsToTake: 3
+    questionsToPass: 2
+  - questionnaireUid: 3dd99fee-3936-49d7-98ca-7c75b53b3c0a
+    questionsToTake: 5
+    questionsToPass: 3
+  - questionnaireUid: 2822d28d-252e-43bc-8cd7-cbdcf5d5f7a3
+    questionsToTake: 2
+    questionsToPass: 1
+uid: ee6811b5-3b18-49fa-852a-6fce379e358f
+title: 'Renewal assessment for Microsoft Certified: Windows Server Hybrid Administrator Associate'
+manualId: AZ-800

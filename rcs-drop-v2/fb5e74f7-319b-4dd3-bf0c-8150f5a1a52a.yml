@@ -1,0 +1,79 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Run custom X++ scripts with zero downtime
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/run-custom-scripts'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 908dd5f5-1906-48b5-a236-0f6619628fc9.fed5a98a-37fb-4c70-8f6d-61e092529963.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Cleanup routines in Dynamics 365 Finance and Dynamics 365 Supply Chain Management
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/cleanuproutines'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 908dd5f5-1906-48b5-a236-0f6619628fc9.2781879d-18a6-4557-a16d-db1356a1692a.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Data management Cleanup Routines
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/cleanuproutines#data-management'
+    condition:
+      allOf: []
+      anyOf:
+        - 908dd5f5-1906-48b5-a236-0f6619628fc9.a389db33-a8f8-4b07-8e70-7afb03558923.0
+        - 908dd5f5-1906-48b5-a236-0f6619628fc9.a389db33-a8f8-4b07-8e70-7afb03558923.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Optimize data migration for finance and operations apps
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/optimize-data-migration'
+    condition:
+      allOf: []
+      anyOf:
+        - 908dd5f5-1906-48b5-a236-0f6619628fc9.a389db33-a8f8-4b07-8e70-7afb03558923.2
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consistency Check Feature Location and How to Customize In Case Needed
+    url: 'https://community.dynamics.com/365/financeandoperations/b/daxology/posts/implementing-data-consistency-check'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 908dd5f5-1906-48b5-a236-0f6619628fc9.44145206-e478-4ddc-83ea-2ad5b75222d3.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Learn & use Dynamics Data Maintenance Portal
+    url: 'https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/datamaintenanceportal'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 908dd5f5-1906-48b5-a236-0f6619628fc9.cc7aa7ac-c2a5-44e8-99d5-e1a06c155d90.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: fb5e74f7-319b-4dd3-bf0c-8150f5a1a52a
+name: Establish Data &amp; Consistency Best Practices

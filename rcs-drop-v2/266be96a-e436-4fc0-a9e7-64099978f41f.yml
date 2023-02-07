@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Beginner '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: Intermediate
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'Advanced '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '3'
+    text: '[Or] I have completed "Microsoft Teams – Authentication and Single Sign-on" module on Microsoft Learn | 1 hr 15 min'
+    description: 'If this is your first time taking the learner self-assessment or have yet to complete this learning, please don''t choose this answer. This will allow the self-assessment results to provide you with the best learning recommendations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Developers can create Microsoft Teams apps to create new experiences for their users and integrate with existing business solutions. When custom applications need to access the user information protected by Azure AD, and data from other services, apps will need to establish a trusted connection with these providers.
+  Assess your proficiency in implementing single sign-on authentication for a tab.
+isRequired: true
+uid: 266be96a-e436-4fc0-a9e7-64099978f41f
+name: Developers can create Microsoft Teams apps to create new experiences for their users and integrate with existing business solutions.

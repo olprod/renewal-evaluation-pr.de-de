@@ -1,0 +1,45 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: 'https://learn.microsoft.com/en-us/training/achievements/operation-manage-security.svg'
+description: ''
+links:
+  - title: Enable and manage Microsoft Defender for Cloud
+    url: 'https://learn.microsoft.com/training/modules/azure-security-center/'
+    condition:
+      allOf: []
+      anyOf:
+        - 2ef4266f-bbae-4a2b-9da6-ba6294665b9f.872cdbc4-ad34-4605-a569-9d3a38bb44fd.0
+        - 2ef4266f-bbae-4a2b-9da6-ba6294665b9f.872cdbc4-ad34-4605-a569-9d3a38bb44fd.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure and manage Azure Monitor
+    url: 'https://learn.microsoft.com/training/modules/azure-monitor/'
+    condition:
+      allOf: []
+      anyOf:
+        - 2ef4266f-bbae-4a2b-9da6-ba6294665b9f.b5ae3ba3-a08c-44a3-8644-53eabce80afd.0
+        - 2ef4266f-bbae-4a2b-9da6-ba6294665b9f.b5ae3ba3-a08c-44a3-8644-53eabce80afd.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure and monitor Microsoft Sentinel
+    url: 'https://learn.microsoft.com/training/modules/azure-sentinel/'
+    condition:
+      allOf: []
+      anyOf:
+        - 2ef4266f-bbae-4a2b-9da6-ba6294665b9f.b5ae3ba3-a08c-44a3-8644-53eabce80afd.0
+        - 2ef4266f-bbae-4a2b-9da6-ba6294665b9f.b5ae3ba3-a08c-44a3-8644-53eabce80afd.1
+      noneOf: []
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 54ca0456-8517-4c4e-a9c7-e4669124fc0e
+name: Review learning materials on managing security operations

@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Consider Azure Synapse Analytics Managed Virtual Network.
+    description: With a Managed workspace Virtual Network you can offload the burden of managing the Virtual Network to Azure Synapse.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Consider Azure Synapse Analytics Managed private endpoints.
+    description: Managed private endpoints are private endpoints created in a Managed Virtual Network associated with your Azure Synapse workspace. Managed private endpoints establish a private link to Azure resources.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Consider Traffic Auditing for Azure Synapse Analytics.
+    description: 'When connecting to your dedicated SQL pool, and you have enabled network security group (NSG) flow logs, send logs into an Azure Storage Account for traffic auditing.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Monitor network resource configurations and detect changes.
+    description: Use Azure Activity Log to monitor network resource configurations and detect changes for network resources related to your dedicated SQL pool.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.pillars.reliability
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: networking-data-synapse
+uid: a857e646-31f4-475a-b3b0-1f91de97c755
+name: What decisions have been taken to ensure networking and connectivity meets your reliability requirements?

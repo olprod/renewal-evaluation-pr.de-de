@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: This section helps determine the shape of your assessment
+hideEmptyGuidance: true
+questions:
+  - 190d0a99-00e0-454f-881c-13844f054992
+  - 78c9b593-e0da-453c-82be-d4a0d38590a0
+recommendations:
+  - 3c919fa9-1bb5-4a20-8ca6-3b0e36cf94ac
+assignedGroupIds: []
+uid: waf-config-data
+name: WAF Config - Data management

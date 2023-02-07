@@ -1,0 +1,62 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '1'
+    text: We have a delegated zone for name resolution (such as azure.contoso.com)
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We automatically manage the lifecycle of DNS records for virtual machines deployed in a virtual network by enabling auto-registration for Azure Private DNS.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: 'When an environment requires name resolution across on-premises and Azure, we use existing DNS infrastructure (like Active Directory integrated DNS) deployed on at least two VMs. We configure our virtual network DNS settings to use those DNS servers.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: We use Azure Firewall with DNS proxy or a Virtual Machine as a resolver for cross-premises DNS resolution with Azure Private DNS.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '5'
+    text: "We link Azure Private DNS zones to virtual networks, and we use DNS servers as hybrid resolvers with conditional forwarding to on-premises DNS names (for example,\_corporate.contoso.com). We configure on-premises servers with conditional forwarders to resolver VMs in Azure for our Azure Private DNS zone (for example,\_azure.contoso.com)."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '6'
+    text: "We create Azure Private DNS zones within a global connectivity subscription. The zones we create include zones required for accessing Azure PaaS services via a\_private endpoint\_(for example,\_privatelink.database.windows.net,\_or\_privatelink.blob.core.windows.net)."
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: ec4a10f1-ca69-4a47-93c8-48513211efdb
+name: The following statements about our central DNS name resolution implementation are true

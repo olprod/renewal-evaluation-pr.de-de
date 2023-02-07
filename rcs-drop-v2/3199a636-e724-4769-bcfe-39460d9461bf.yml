@@ -1,0 +1,450 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Analyze VM and disk performance targets to avoid capping conditions
+    url: /azure/virtual-machines/disks-scalability-targets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.77437dce-1b30-4dd8-9878-8a2e3c25d5cf.A
+      scoreOf: []
+    context: 'Based on the scalability and performance targets for a VM''s data disks, you can determine the number and type of disks that you need to meet your performance and capacity requirements.'
+    priority: 96
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Schedule maintenance and batch jobs during times with minimal interference with other maintenance tasks and production workloads
+    url: /sql/ssms/agent/set-cpu-idle-time-and-duration-sql-server-management-studio?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.77437dce-1b30-4dd8-9878-8a2e3c25d5cf.B
+      scoreOf: []
+    context: Maintenance planning can be defined as an end-to-end process that identifies and addresses any possible issues ahead of time.
+    priority: 20
+    reportingCategory: Automation & Scalability
+    reportingSubCategory: Performance
+  - title: Offload reporting data to a new database or implement locking mechanisms and eventual consistency to prevent concurrency issues between reporting and application activity
+    url: /sql/database-engine/availability-groups/windows/active-secondaries-readable-secondary-replicas-always-on-availability-groups?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.77437dce-1b30-4dd8-9878-8a2e3c25d5cf.C
+      scoreOf: []
+    context: 'Offloads your secondary read-only workloads from your primary replica, which conserves its resources for your mission critical workloads. If you have a mission critical read-workload or a workload that cannot tolerate latency, you should run it on the primary.'
+    priority: 90
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Virtualize high volume big data and combine with SQL Server relational data for analytics using Big Data Clusters
+    url: /sql/big-data-cluster/big-data-cluster-overview?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.77437dce-1b30-4dd8-9878-8a2e3c25d5cf.D
+      scoreOf: []
+    context: 'SQL Server Big Data Clusters allow you to deploy scalable clusters of SQL Server, Spark, and HDFS containers running on Kubernetes. These components are running side by side to enable you to read, write, and process big data from Transact-SQL or Spark, allowing you to easily combine and analyze your high-value relational data with high-volume big data.'
+    priority: 54
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: 'Consider using an Azure Dedicated Host when flexibility over VM creation or data analysis is desired, workload requires guaranteed VM capacity provisioning, or further control over maintenance events is required'
+    url: /azure/azure-sql/virtual-machines/windows/dedicated-host
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.77437dce-1b30-4dd8-9878-8a2e3c25d5cf.E
+      scoreOf: []
+    context: "Azure Dedicated Host\_is a service that provides physical servers - able to host one or more virtual machines - dedicated to one Azure subscription. Dedicated hosts are the same physical servers used in Microsoft's data centers, provided as a resource. You can provision dedicated hosts within a region, availability zone, and fault domain. Then, you can place VMs directly into your provisioned hosts, in whatever configuration best meets your needs."
+    priority: 91
+    reportingCategory: Architecture Design
+    reportingSubCategory: Application Infrastructure Provisioning
+  - title: Implement application and report server caching to minimize roundtrips to the database
+    url: /azure/architecture/best-practices/caching
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.77437dce-1b30-4dd8-9878-8a2e3c25d5cf.F
+      scoreOf: []
+    context: 'Consider caching data that is read frequently but modified infrequently (for example, data that has a higher proportion of read operations than write operations). However, we don''t recommend that you use the cache as the authoritative store of critical information. Instead, ensure that all changes that your application cannot afford to lose are always saved to a persistent data store. This means that if the cache is unavailable, your application can still continue to operate by using the data store, and you won''t lose important information.'
+    priority: 88
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Batch requests or use Multiple Active Result Sets (MARS) when possible to minimize database roundtrips
+    url: /ef/core/performance/efficient-updating
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.77437dce-1b30-4dd8-9878-8a2e3c25d5cf.G
+      scoreOf: []
+    context: 'By default, MARS functionality is not enabled by the driver. To use MARS when connecting to SQL Server with SQL Server Native Client, you must specifically enable MARS within a connection string. - https://docs.microsoft.com/en-us/sql/relational-databases/native-client/features/using-multiple-active-result-sets-mars?view=sql-server-ver15.'
+    priority: 75
+    reportingCategory: Business Continuity
+    reportingSubCategory: 'Backup & Restore '
+  - title: Use connection pooling
+    url: /dotnet/framework/data/adonet/sql-server-connection-pooling
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.77437dce-1b30-4dd8-9878-8a2e3c25d5cf.H
+      scoreOf: []
+    context: "Connection pooling reduces the number of times that new connections must be opened. The\_pooler\_maintains ownership of the physical connection. It manages connections by keeping alive a set of active connections for each given connection configuration."
+    priority: 84
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: 'Use asynchronous processing, such as with Service Broker, for background processing of data events and messages while allowing the application user to continue with additional application tasks'
+    url: /sql/database-engine/configure-windows/sql-server-service-broker?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.77437dce-1b30-4dd8-9878-8a2e3c25d5cf.I
+      scoreOf: []
+    context: Service Broker is a message delivery framework that enables you to create native in-database service-oriented applications.
+    priority: 57
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: 'For Windows OS, use storage pools using managed disks to attain right IOPs and optimized cost'
+    url: /azure/azure-sql/virtual-machines/windows/storage-configuration?tabs=windows2016#creation-of-the-storage-pool
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.A
+      scoreOf: []
+    context: 'When you deploy a disk pool, there are two areas that will incur billing costs: The price of the disk pool service fee itself, and the price of each individual disk added to the pool. - https://docs.microsoft.com/en-us/azure/virtual-machines/disks-pools.'
+    priority: 65
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: 'For Linux OS, use the MDADM utility to stripe disks together'
+    url: /azure/virtual-machines/workloads/sap/dbms_guide_general
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.B
+      scoreOf: []
+    context: 'Only MDADM and Logical Volume Manager (LVM) are supported to build a software RAID on Linux. For more information, see: 1) Configure software RAID on Linux using MDADM  2) Configure LVM on a Linux VM in Azure using LVM.'
+    priority: 52
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Collect the target workload's performance characteristics to determine the appropriate VM size
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-checklist#vm-size
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.C
+      scoreOf: []
+    context: 'While running SQL Server on Azure Virtual Machines, continue using the same database performance tuning options that are applicable to SQL Server in on-premises server environments. However, the performance of a relational database in a public cloud depends on many factors, such as the size of a virtual machine and the configuration of the data disks.'
+    priority: 90
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Leverage the Azure Virtual Machine marketplace images
+    url: /azure/virtual-machines/windows/cli-ps-findimage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.D
+      scoreOf: []
+    context: 'Azure marketplace VM images have additional license and purchase terms that you must accept before you can deploy them programmatically, these VM images is prepared/optimized image with no on-demand components.'
+    priority: 10
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: 'Use Premium SSD disks (P30 and P40 for data, P30 - P80 for log) for best price/performance'
+    url: /azure/virtual-machines/premium-storage-performance#counters-to-measure-application-performance-requirements
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.E
+      scoreOf: []
+    context: 'The main factors that influence performance of an application running on Premium Storage are Nature of IO requests, VM size, disk size, number of disks, disk caching, multithreading, and queue depth. Azure Premium Storage offers a variety of sizes, so you can choose one that best suits your needs. Each disk size has a different scale limit for IOPS, bandwidth, and storage. Choose the right Premium Storage Disk size depending on the application requirements and the high scale VM size.'
+    priority: 91
+    reportingCategory: Architecture Design
+    reportingSubCategory: Performance
+  - title: Ensure ReadOnly caching is enabled on the Azure Data Disks for the data files
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.F
+      scoreOf: []
+    context: The IOPS and MBps throughput without caching counts against a virtual machine's uncached disk throughput limits. The maximum cached limits provide an additional buffer for reads that helps address growth and unexpected peaks.
+    priority: 93
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Leverage Ultra disks only when sub-millisecond latencies are required
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.G
+      scoreOf: []
+    context: Enable premium caching whenever the option is supported to significantly improve performance for reads against the data drive without additional cost.
+    priority: 98
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Analyze workloads with Database Engine Tuning Advisor to obtain index and partitioning recommendations
+    url: /sql/relational-databases/performance/database-engine-tuning-advisor?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.H
+      scoreOf: []
+    context: 'Microsoft Database Engine Tuning Advisor (DTA) analyzes databases and makes recommendations that you can use to optimize query performance. You can use the Database Engine Tuning Advisor to select and create an optimal set of indexes, indexed views, or table partitions without having an expert understanding of the database structure or the internals of SQL Server.'
+    priority: 91
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Register SQL IaaS extension and patch SQL Server regularly
+    url: /azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-vms-bulk
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.I
+      scoreOf: []
+    context: The SQL Server IaaS Agent extension (SqlIaasExtension) runs on SQL Server on Windows Azure Virtual Machines (VMs) to automate management and administration tasks.
+    priority: 85
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Automation
+  - title: Ensure recommended SQL Server engine and database configuration settings are in place
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-checklist#azure--sql-feature-specific
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.J
+      scoreOf: []
+    context: "Enable\_SQL Assessment for SQL Server on Azure VMs,\_and your SQL Server will be evaluated against known best practices with results on the\_SQL VM management page\_of the Azure portal."
+    priority: 100
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Server info
+  - title: Ensure recommended storage performance configurations settings are in place
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-storage
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.K
+      scoreOf: []
+    context: 'You have a choice in the performance level for your disks. The types of managed disks available as underlying storage (listed by increasing performance capabilities) are standard hard disk drives (HDD), standard SSDs, premium solid-state drives (SSD), and ultra disks.'
+    priority: 91
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Implement a database maintenance plan to ensure indexes and statistics are updated and optimized regularly
+    url: /sql/relational-databases/maintenance-plans/maintenance-plans?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.L
+      scoreOf: []
+    context: 'Maintenance plans create a workflow of the tasks required to make sure that your database is optimized, regularly backed up, and free of inconsistencies.'
+    priority: 86
+    reportingCategory: Data
+    reportingSubCategory: Indexing & Statistics
+  - title: Monitor and track resource usage and establish a performance baseline and understand peak usage windows
+    url: /sql/relational-databases/performance/establish-a-performance-baseline?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.M
+      scoreOf: []
+    context: 'After you establish a server performance baseline, compare the baseline statistics to current server performance. Numbers far above or far below your baseline are candidates for further investigation.'
+    priority: 80
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: 'Implement resource governance and administrative policies to manage workload priorities and resource allocation, and to ensure performance consistency and minimize spikes'
+    url: /sql/relational-databases/resource-governor/resource-governor?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.N
+      scoreOf: []
+    context: Resource Governor enables you to manage SQL Server workloads and resources by specifying limits on resource consumption by incoming requests.
+    priority: 77
+    reportingCategory: Operational Procedures
+    reportingSubCategory: Configuration
+  - title: 'Establish database patterns and practices, such as DevOps and change control, ensuring database state is properly understood and documented and that changes are properly tested for performance and other impact before being rolled out into production'
+    url: 'https://azure.microsoft.com/hu-hu/resources/videos/connect-2017-database-devops-for-net-developers-with-ssdt-and-sql-server-2017/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.3194dd2d-893b-4091-9f3f-a5629a459613.O
+      scoreOf: []
+    context: "A source control system, also called a\_version control\_system, allows developers to collaborate on code and track changes. Source control is an essential tool for multi-developer projects. -https://docs.microsoft.com/en-us/azure/devops/user-guide/source-control?view=azure-devops."
+    priority: 72
+    reportingCategory: DevOps
+    reportingSubCategory: Testing & Validation
+  - title: Use Azure Migrate to do capacity planning and assessments
+    url: /azure/migrate/common-questions-discovery-assessment#i-want-to-compare-costs-for-running-my-sql-instances-on-azure-vm-vs-azure-sql-databaseazure-sql-managed-instance
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.9ea7d023-227a-4eed-8c17-9f31f7bf587f.A
+      scoreOf: []
+    context: 'Azure VM assessments in Azure Migrate are currently lift-and-shift focused and will not consider the specific performance metrics for running SQL instances and databases on the Azure virtual machine. When you run an Azure VM assessment on a server, the recommended size and cost estimates will be for all instances running on the server and can be migrated to an Azure VM using the Server Migration tool.'
+    priority: 79
+    reportingCategory: Capacity Planning
+    reportingSubCategory: Efficiency
+  - title: 'Ensure a VM vertical/horizontal scale plan is in place and tested '
+    url: /azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-vm-size
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.9ea7d023-227a-4eed-8c17-9f31f7bf587f.B
+      scoreOf: []
+    context: 'Database Experimentation Assistant (DEA) is an experimentation solution for SQL Server upgrades. DEA can help you evaluate a targeted version of SQL Server for a specific workload. DEA analysis metrics include: 1)  Queries that have compatibility errors. 2) Degraded-https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/design-scale#:~:text=Vertical%20scaling%20%28scaling%20up%29%20increases%20the%20capacity%20of,has%20significant%20advantages%20over%20vertical%20scaling%2C%20such%20as%3A queries and query plans. 3) Other workload comparison data.'
+    priority: 84
+    reportingCategory: Architecture Design
+    reportingSubCategory: Application Infrastructure Provisioning
+  - title: Use Database Experimentation Assistant for A/B testing when a SQL Server version upgrade is required
+    url: /sql/dea/database-experimentation-assistant-overview?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.9ea7d023-227a-4eed-8c17-9f31f7bf587f.C
+      scoreOf: []
+    context: 'Database Experimentation Assistant (DEA) is an experimentation solution for SQL Server upgrades. DEA can help you evaluate a targeted version of SQL Server for a specific workload. DEA analysis metrics include: 1)  Queries that have compatibility errors. 2) Degraded queries and query plans. 3) Other workload comparison data.'
+    priority: 66
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: SQL Server info
+  - title: Ensure sufficient network bandwidth is in place between the database server and applications to achieve the performance and latency requirements
+    url: /azure/virtual-network/virtual-machine-network-throughput
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.9ea7d023-227a-4eed-8c17-9f31f7bf587f.D
+      scoreOf: []
+    context: 'Azure offers a variety of VM sizes and types, each with a different mix of performance capabilities. One capability is network throughput (or bandwidth), measured in megabits per second (Mbps). Accelerated networking is a feature designed to improve network performance, including latency, throughput, and CPU utilization. While accelerated networking can improve a virtual machine’s throughput, it can do so only up to the virtual machine’s allocated bandwidth.'
+    priority: 88
+    reportingCategory: Networking & Connectivity
+    reportingSubCategory: Endpoints
+  - title: 'Verify SQL VMs and its associated application, infrastructure, and storage resources are co-located in the same region to maintain latency SLAs'
+    url: /azure/advisor/advisor-performance-recommendations#co-locate-the-storage-account-in-the-same-region-to-minimize-latency-when-loading
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.9ea7d023-227a-4eed-8c17-9f31f7bf587f.E
+      scoreOf: []
+    context: Follow Azure Cloud best practices. Keep all Azure resources for related applications on the same region for best performance.
+    priority: 60
+    reportingCategory: Data Platform Availability
+    reportingSubCategory: Performance
+  - title: Implement Alerts to be notified of and handle spikes in activity
+    url: /azure/azure-monitor/insights/sql-insights-alerts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.9ea7d023-227a-4eed-8c17-9f31f7bf587f.F
+      scoreOf: []
+    context: "SQL Insights (preview) includes a set of alert rule templates you can use to create\_alert rules in Azure Monitor\_for common SQL issues. The alert rules in SQL Insights (preview) are log alert rules based on performance data stored in the\_InsightsMetrics\_table in Azure Monitor Logs."
+    priority: 75
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Incident Response
+  - title: 'Partition large data using partitioned tables, partitioned indexes, or partitioned views and use filtered indexes to ensure acceptable performance and contain resource requirements as data continues to grow'
+    url: /sql/relational-databases/partitions/partitioned-tables-and-indexes?view=sql-server-ver15#queries
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.a8a3847b-ab7a-4d67-902b-79344707245e.A
+      scoreOf: []
+    context: 'The data in partitioned tables and indexes is divided into units that may be spread across more than one filegroup in a database or stored in a single filegroup. When multiple files exist in a filegroup, data is spread across files using the proportional fill algorithm. The data is partitioned horizontally, so that groups of rows are mapped into individual partitions. All partitions of a single index or table must reside in the same database. After partitioning a table or index, queries that use partition elimination can have comparable or improved performance with larger number of partitions. Queries that do not use partition elimination could take longer to execute as the number of partitions increases.'
+    priority: 82
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Implement column-store indexes to compress and efficiently query larger analytics tables
+    url: /sql/relational-databases/indexes/columnstore-indexes-design-guidance?view=sql-server-ver15#choose-the-best-columnstore-index-for-your-needs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.a8a3847b-ab7a-4d67-902b-79344707245e.B
+      scoreOf: []
+    context: 'A columnstore index is either clustered or nonclustered. A clustered columnstore index can have one or more nonclustered B-tree indexes. Columnstore indexes are easy to try. If you create a table as a columnstore index, you can easily convert the table back to a rowstore table by dropping the columnstore index.'
+    priority: 92
+    reportingCategory: Data
+    reportingSubCategory: Performance
+  - title: Model tables to optimize for workload read/write access patterns and denormalized data when the number of queries must be reduced (such as with analytical/data warehouse patterns)
+    url: /azure/storage/tables/table-storage-design-patterns#denormalization-pattern
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.a8a3847b-ab7a-4d67-902b-79344707245e.C
+      scoreOf: []
+    context: Combine related data together in a single entity to enable you to retrieve all the data you need with a single point query.
+    priority: 47
+    reportingCategory: Architecture Design
+    reportingSubCategory: Efficiency
+  - title: 'Maintain a runbook (Azure Automation/SQL Agent) script or notebook to handle SQL, OS, VM performance troubleshooting scenarios and ensure it refers to an established performance baseline'
+    url: /azure/azure-monitor/visualize/workbooks-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.e7411c46-e377-4de9-a5fa-a8755abc8dac.A
+      scoreOf: []
+    context: 'Workbooks provide a flexible canvas for data analysis and the creation of rich visual reports within the Azure portal. Workbooks can query data from multiple sources within Azure. Authors of workbooks can transform this data to provide insights into the availability, performance, usage, and overall health of the underlying components.'
+    priority: 76
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Event log analysis
+  - title: Implement an automated monitoring solution and generate alert notifications when a problem occurs or a threshold is crossed
+    url: /azure/azure-monitor/insights/sql-insights-alerts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.e7411c46-e377-4de9-a5fa-a8755abc8dac.B
+      scoreOf: []
+    context: "SQL Insights (preview) includes a set of alert rule templates you can use to create\_alert rules in Azure Monitor\_for common SQL issues. The alert rules in SQL Insights (preview) are log alert rules based on performance data stored in the\_InsightsMetrics\_table in Azure Monitor Logs."
+    priority: 82
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Event log analysis
+  - title: Use Azure Monitor SQL Insights (Log Analytics workspace) and SQL Health Check for central monitoring and dashboarding
+    url: /azure/azure-monitor/insights/sql-insights-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.e7411c46-e377-4de9-a5fa-a8755abc8dac.C
+      scoreOf: []
+    context: 'SQL Insights uses dynamic management views to expose the data that you need to monitor health, diagnose problems, and tune performance. SQL Insights performs all monitoring remotely.'
+    priority: 65
+    reportingCategory: Health Modeling & Monitoring
+    reportingSubCategory: Efficiency
+  - title: Collect and monitor recommended DMV and performance metrics
+    url: /sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 4829fb47-20f5-4c0e-9101-286c33895523.e7411c46-e377-4de9-a5fa-a8755abc8dac.D
+      scoreOf: []
+    context: Microsoft SQL Server provides a comprehensive set of tools for monitoring events in SQL Server and for tuning the physical database design. The choice of tool depends on the type of monitoring or tuning to be done and the particular events to be monitored.
+    priority: 72
+    reportingCategory: Data
+    reportingSubCategory: Performance
+uid: 3199a636-e724-4769-bcfe-39460d9461bf
+name: ''

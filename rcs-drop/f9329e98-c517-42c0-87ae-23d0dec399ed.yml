@@ -1,0 +1,28 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You have a Microsoft Teams Phone deployment that uses Direct Routing and Calling Plans.
+
+  A new user from Australia joins the company. You discover that all calls for the new user are using Calling Plans from the United States.
+
+  What should you do to resolve the issue?
+questionnaireUid: 9dd70653-b65e-46fe-8da6-042a46fd7ee9
+questions:
+  - uid: f9329e98-c517-42c0-87ae-23d0dec399ed-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You have a Microsoft Teams Phone deployment that uses Direct Routing and Calling Plans.
+        isCorrect: true
+      - id: 1
+        text: A new user from Australia joins the company.
+        isCorrect: false
+      - id: 2
+        text: You discover that all calls for the new user are using Calling Plans from the United States.
+        isCorrect: false
+      - id: 3
+        text: What should you do to resolve the issue?
+        isCorrect: false
+uid: f9329e98-c517-42c0-87ae-23d0dec399ed
+title: ''

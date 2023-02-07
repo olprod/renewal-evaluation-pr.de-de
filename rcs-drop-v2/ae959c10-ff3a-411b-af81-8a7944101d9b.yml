@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 8f905fdb-68fd-46f4-9adf-b234b72106cc
+recommendations:
+  - dab097f0-cb8a-444d-9503-ccde446768d6
+assignedGroupIds: []
+uid: ae959c10-ff3a-411b-af81-8a7944101d9b
+name: 'Go-Live - App Service Environment: Performance Efficiency'

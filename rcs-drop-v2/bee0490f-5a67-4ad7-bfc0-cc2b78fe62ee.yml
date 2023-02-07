@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use Device Provisioning Service (DPS) with multiple regional IoT hubs linked to DPS and have enabled appropriate allocation policy
+    description: 'The Device Provisioning Service (DPS) can only provision devices to IoT hubs that have been linked to it. Linking an IoT hub to a DPS instance gives the service read/write permissions to the IoT hub''s device registry. With the link, DPS can register a device ID and set the initial configuration in the device twin. Linked IoT hubs may be in any Azure region. You may link hubs in other subscriptions to your provisioning service.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You don't use the Device Provisioning Service. You've implemented a custom provisioning service
+    description: Use the Device Provisioning Service if possible.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: Devices are statically configured to connect to the same IoT hub
+    description: 'For a large fleet of devices, distribute devices across multiple IoT hubs.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: 'As your IoT solution grows, so does the need to automate the process to connect devices to different IoT hubs that may exist across multiple regions. The connection process should be done in a secure and scalable manner with as few touch points as possible.'
+isRequired: false
+uid: bee0490f-5a67-4ad7-bfc0-cc2b78fe62ee
+name: 'As your IoT solution grows, so does the need to automate the process to connect devices to different IoT hubs that may exist across multiple regions. The connection process should be done in a secure and scalable manner with as few touch points as possible.'

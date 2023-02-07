@@ -1,0 +1,27 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You need to explore the properties of entities that are associated to a Microsoft Sentinel incident. The solution must minimize administrative effort.
+
+  What should you use?
+questionnaireUid: 96f34740-4efd-4bcb-aab5-e70459f38038
+questions:
+  - uid: eeabfae9-d6e8-4a57-a685-68bc4cb52d2f-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You need to explore the properties of entities that are associated to a Microsoft Sentinel incident.
+        isCorrect: true
+      - id: 1
+        text: The solution must minimize administrative effort.
+        isCorrect: false
+      - id: 2
+        text: What should you use?
+        isCorrect: false
+      - id: 3
+        text: an investigation graph
+        isCorrect: false
+    manualId: SC200_3.5.3_M1-7.3
+uid: eeabfae9-d6e8-4a57-a685-68bc4cb52d2f
+title: ''

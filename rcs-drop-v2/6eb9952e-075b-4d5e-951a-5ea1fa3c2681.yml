@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider using geo-filtering
+    url: /azure/frontdoor/front-door-geo-filtering
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c4dcb38-60e3-4d3f-baad-e36462b9e6db.b4983de4-5b32-4218-94a0-6f3a7966074d.A
+      scoreOf: []
+    context: Azure Front Door Service responds to user requests regardless of the location of the user making the request.
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+  - title: Consider applying the WAF feature to Front Door
+    url: /azure/frontdoor/web-application-firewall
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c4dcb38-60e3-4d3f-baad-e36462b9e6db.b4983de4-5b32-4218-94a0-6f3a7966074d.B
+      scoreOf: []
+    context: 'Azure Web Application Firewall (WAF) on Azure Front Door provides centralized protection for your web applications. WAF defends your web services against common exploits and vulnerabilities. '
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+  - title: Consider Private Link for Azure Front Door
+    url: /azure/frontdoor/private-link
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5c4dcb38-60e3-4d3f-baad-e36462b9e6db.b4983de4-5b32-4218-94a0-6f3a7966074d.C
+      scoreOf: []
+    context: 'Azure Private Link enables you to access Azure PaaS services and services hosted in Azure over a private endpoint in your virtual network. Traffic between your virtual network and the service goes over the Microsoft backbone network, eliminating exposure to the public Internet.'
+    priority: 50
+    reportingCategory: Security and Compliance
+    reportingSubCategory: Security and Privacy Processes
+uid: 6eb9952e-075b-4d5e-951a-5ea1fa3c2681
+name: ''

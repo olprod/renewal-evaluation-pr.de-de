@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Source Control Integration for dedicated SQL pool in Azure Synapse Analytics.
+    description: Source control integration is the first step in building your continuous integration and deployment pipeline with the dedicated SQL pool resource in Azure Synapse Analytics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: Use Continuous integration and deployment for dedicated SQL pool in Azure Synapse Analytics.
+    description: Build your continuous integration and deployment pipeline for data warehousing.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: C
+    text: Use Continuous integration and delivery for Azure Synapse Analytics workspace.
+    description: 'Continuous Deployment (CD) is the process to build, test, configure, and deploy from multiple testing or staging environments to a production environment.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: D
+    text: Use Source control in Azure Analytics Synapse Studio.
+    description: 'If you have a need for collaboration using Git for source control, Synapse Studio allows you to associate your workspace with a Git repository, Azure DevOps, or GitHub'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: NOA
+    text: None of the Above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  anyOf:
+    - waf-config-golive.database-services.G
+stem: ''
+isRequired: false
+legacyId: design-data-synapse
+uid: 5b0b7544-cc30-4f5d-8203-853e8beb9a4b
+name: How are you designing your applications to take into account DevOps

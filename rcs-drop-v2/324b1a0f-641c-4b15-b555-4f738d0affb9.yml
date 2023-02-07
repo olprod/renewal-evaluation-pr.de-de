@@ -1,0 +1,33 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 6dd16c0f-75c3-4b31-bf44-8ea999fe43e6
+  - 752c6b8f-6bee-49ad-85fa-b188df44ce9e
+  - 807bd693-3daf-4ca0-bcc7-317203ce8eca
+  - 99fb5660-5ad4-4110-b1be-f4f8874ec8ea
+  - 7ae6be11-5cb9-41c8-bf26-2626c8277301
+  - ff619dc2-ec9d-41b0-b9c2-9cdae686156b
+  - cec97121-c9ee-4290-b5a7-bd6a21815d29
+  - 0d863e4e-c4b9-4f12-9353-96fcd92b5254
+  - e495c02c-77d5-422e-94d8-ff8e71775510
+  - 390239dd-4f6d-4bf6-bb52-5350b478f922
+  - 61ea91d7-912e-4768-8d48-2b28ec9f585c
+  - adeadc46-d56b-45d4-aded-970c04060672
+  - fd18f1a0-2b88-4d21-af55-7d3fe960f498
+  - f5921952-d6bb-460f-8519-883a430ff8c7
+  - 345c0759-ac98-43c1-816a-79392ed12a3d
+  - 26d5ab7e-87a6-4224-b1d6-7a5eea2ffdfa
+  - 6cd5f8b3-b69c-4d71-904e-342aab27f05e
+  - dc459ea8-11fc-4954-85c4-539cb2f82369
+  - ec623474-b9c5-4f2b-97b3-0be179f9ec25
+  - 7bf4a1b9-8e0c-4977-98e5-175c2b235a43
+  - d384eaab-db41-4290-91c0-dac5e6b30a82
+  - 1d986490-4bae-44c1-b844-788de109126a
+  - a55cb8aa-db5f-47ad-ab3f-42d9a23da25b
+recommendations:
+  - b25fbd22-3b61-47ec-9c24-f7609b6e2e84
+assignedGroupIds: []
+uid: 324b1a0f-641c-4b15-b555-4f738d0affb9
+name: 'Endpoint Zero Trust Deployment Objective: I'

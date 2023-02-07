@@ -1,0 +1,30 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Configure high availability on your PostgreSQL database
+    url: /azure/postgresql/single-server/overview-postgres-choose-server-options
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 89671c39-a756-42c9-9196-f1987e6aa4d3.5dc3daca-cb5a-421f-98a9-ec88afe2feef.A
+      scoreOf: []
+    context: 'Azure Database for PostgreSQL provides high availability (HA) to avoid database downtime. Depending on the SKU you have chosen, you should configure high availability to be able to recover from disruptive events that could cause data loss or cause your database and application to become unavailable.'
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: Configure backups for PostgreSQL according to the best practices
+    url: /azure/postgresql/flexible-server/concepts-backup-restore
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 89671c39-a756-42c9-9196-f1987e6aa4d3.5dc3daca-cb5a-421f-98a9-ec88afe2feef.B
+      scoreOf: []
+    context: Azure Database for PostgreSQL - Flexible Server automatically performs regular backups of your server. You can then do a point-in-time recovery (PITR) within a retention period that you specify. The overall time to restore and recovery typically depends on the size of data and the amount of recovery to be performed.
+    priority: 75
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+uid: 927a450c-9635-4ca6-9f9b-a1cbdb679ffb
+name: ''

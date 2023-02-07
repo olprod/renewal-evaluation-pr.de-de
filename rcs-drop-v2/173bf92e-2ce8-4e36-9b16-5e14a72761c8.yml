@@ -1,0 +1,97 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'We do not have a Hub and Spoke topology based on traditional Virtual Networks. We use Azure VWAN instead. (If you select this alternative, skip the following options and move on to the next question).'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: 'Our organization deployed resources across one or multiple Azure regions. While some traffic across Azure regions is expected (such as traffic between two virtual networks across two different Azure regions), we do not require a full mesh network across all Azure regions.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: We require full control and granularity for manual configuration of our Azure network routing policy.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '3'
+    text: We have a low number of remote or branch locations per region (fewer than 100 IPsec Site-to-Site tunnels).
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '4'
+    text: 'We connect our Landing zone Virtual Networks to a Central Hub virtual network through Vnet Peering for cross-premises connectivity via ExpressRoute, VPN for branch connectivity, NVAs and UDRs for spoke-to-spoke connectivity, Azure Firewall or a partner NVA (as required) for internet-outbound protection.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '5'
+    text: 'When one of the following conditions is true, we use a topology of multiple Hub Virtual networks or even Landing Zones Virtual Networks connected with multiple ExpressRoute circuits: - We need a higher level of isolation. - We need dedicated ExpressRoute bandwidth for specific business units. - We have reached the maximum number of connections per ExpressRoute gateway.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '6'
+    text: 'We use multiprotocol label switching, SD-WAN, and our existing network to connect branch locations with corporate headquarters. We use Azure Route Server when transit between ExpressRoute and VPN gateways is required.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '7'
+    text: 'We have hub-and-spoke networks in multiple Azure regions. When a few of our landing zones need to connect across regions, we use global virtual network peering to directly connect landing zone virtual networks that need to route traffic to each other. '
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '8'
+    text: 'When our Landing Zone Virtual Networks from different Azure regions need to communicate, we either: - Deploy a partner NVA or Azure Firewall in the Hub, then initiate Global Vnet peering between the hubs. - Interconnect ExpressRoute Gateways and Circuits across regions. In this scenario, both gateways are connected to both circuits, with different weights in the connection resource.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '9'
+    text: We deploy each region's hub network resources into separate resource groups and sort them into each deployed region.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '10'
+    text: We use Azure Monitor for Networks to monitor our virtual networks' end-to-end state.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'The hub virtual network acts as a central point of connectivity to many spoke virtual networks. The hub can also be used as the connectivity point to your on-premises networks. The spoke virtual networks peer with the hub and can be used to isolate workloads. The benefits of using a hub and spoke configuration include cost savings, overcoming subscription limits, and workload isolation.'
+isRequired: false
+uid: 173bf92e-2ce8-4e36-9b16-5e14a72761c8
+name: The hub virtual network acts as a central point of connectivity to many spoke virtual networks.

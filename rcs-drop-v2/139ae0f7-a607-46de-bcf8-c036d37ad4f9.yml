@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: The application uses multiple programming languages or frameworks to support distinct service requirements.
+    description: 'The availability of developer skillsets, or certain specific functional and non-functional requirements, might require specific programming languages or frameworks to be used to optimally build certain components.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: Extensive technology sprawl is avoided to prevent unnecessary operational complexity.
+    description: 'While autonomy around technology selection is strongly recommended for optimal service design, it''s also advisable to prevent unnecessary sprawl with associated operational complexity by consolidating to a reasonable number of languages, SDKs, and services.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: All relevant Azure SDKs were evaluated to confirm the availability of required capabilities for selected programming languages.
+    description: 'Different Azure SDKs provide different capabilities and functionality, with certain languages providing a richer feature set than others.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: The .NET SDK is prioritized to access additional built-in reliability and performance  features.
+    description: The .NET and Java Azure SDKs typically provide additional capabilities and receive new features first. There can be a delay in feature availability for other supported languages.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Typically, the selection of programming languages and frameworks is driven by the availability of development skills or by the use of standardized technologies within an organization. However, for a mission-critical workload, it''s essential to also evaluate the performance and reliability aspects of different languages and frameworks, as well as the capability differences within required Azure SDKs.'
+isRequired: false
+uid: 139ae0f7-a607-46de-bcf8-c036d37ad4f9
+name: 'Typically, the selection of programming languages and frameworks is driven by the availability of development skills or by the use of standardized technologies within an organization. '

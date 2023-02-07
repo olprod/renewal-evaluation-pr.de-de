@@ -1,0 +1,41 @@
+### YamlMime:SelfAssessment
+description: 'Examine your workload through the lenses of reliability, cost management, operational excellence, security and performance efficiency [20 minutes].'
+duration: ''
+questionnaireReferences:
+  - questionnaireUid: Cost-ai-aml
+    isRequired: false
+  - questionnaireUid: Operational-ai-aml
+    isRequired: false
+  - questionnaireUid: Performance-ai-aml
+    isRequired: false
+  - questionnaireUid: Reliability-ai-aml
+    isRequired: false
+  - questionnaireUid: Security-ai-aml
+    isRequired: false
+guidance:
+  title: Your results
+  description: View how your workload aligns to best practices and recommendations to help you improve.
+  providers: []
+  scoring:
+    title: Recommendations for your workload
+    description: Actionable items to consider implementing to improve your workload across the five pillars of the Microsoft Azure Well-Architected Framework
+    calculationType: Average
+    scoresVerbage: Critical|Moderate|Excellent
+  nextSteps:
+    title: Next Steps
+    steps:
+      - iconUrl: ''
+        description: Please help us make this great!
+        links:
+          - title: Feedback link
+            url: 'https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1yxkaMQh3FAi3tFbGEEp3xUNFRLMlRVVkJEUU5ETlNKMTc1WTJSRk5CNS4u'
+            context: ''
+            priority: 0
+            reportingCategory: ''
+            reportingSubCategory: ''
+        uid: ''
+        name: Leave feedback on the AI/ML Pilot with Sudha.
+  recommendationsTitle: Opportunities for improvement
+isHiddenAssessment: false
+uid: test-azure-architecture-review-aml
+name: 'Opportunities for improvement '

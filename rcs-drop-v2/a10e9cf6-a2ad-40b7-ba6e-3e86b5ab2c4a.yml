@@ -1,0 +1,61 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Load Testing is conducted with expected peak volumes to test scalability and performance under load.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Chaos Testing is performed by injecting faults to test failover (High Availability).
+    description: 'For example, calling the API to restart Azure SQL DB. Is the system tested under critical failure scenarios to validate availability and recovery targets?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: 'Performance, chaos testing is automated and carried out periodically and after significant application changes.'
+    description: Are tests automated and carried out periodically or on-demand?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: D
+    text: 'Critical test environments have 1:1 configuration and resource parity with the production environment.'
+    description: 'Do key test environments have 1:1 parity with the production environment?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: Verified end-to-end system performance after failover occurs.
+    description: End-to-end performance needs validation as it may differ due to changes in network latency.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.A
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: ''
+isRequired: false
+uid: a10e9cf6-a2ad-40b7-ba6e-3e86b5ab2c4a
+name: How do you test the database to ensure it is fault tolerant?

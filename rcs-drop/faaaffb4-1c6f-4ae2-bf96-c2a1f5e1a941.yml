@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |-
+  Your company plans to modify a network security group (NSG).
+
+  You can create an NSG security rule that has a priority of 10.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: fcbe5d62-0a6c-476e-85ae-5ddc6062a02b
+questions:
+  - uid: faaaffb4-1c6f-4ae2-bf96-c2a1f5e1a941-q-0
+    title: Your company plans to modify a network security group (NSG).
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You can create an NSG security rule that has a priority of 10.
+        isCorrect: false
+      - id: 1
+        text: Select Yes if the statement is true.
+        isCorrect: true
+uid: faaaffb4-1c6f-4ae2-bf96-c2a1f5e1a941
+title: 'Otherwise, select No.'

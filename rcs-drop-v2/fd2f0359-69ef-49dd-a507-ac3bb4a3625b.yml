@@ -1,0 +1,66 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: "Monitor\_and measure health"
+    url: 'https://docs.microsoft.com/azure/virtual-machines/monitor-vm?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1cce4a5f-6381-478f-8ed4-606a4513a11d.cdb9dc37-8692-47b4-a669-ac326787ed8d.A
+      scoreOf: []
+    context: 'In a production environment, it''s important to monitor the health and performance of your VMs.'
+    priority: 90
+    reportingCategory: ''
+    reportingSubCategory: Resiliency
+  - title: "Automate\_tasks like provisioning and updating"
+    url: 'https://docs.microsoft.com/azure/architecture/framework/devops/automation-tasks?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1cce4a5f-6381-478f-8ed4-606a4513a11d.cdb9dc37-8692-47b4-a669-ac326787ed8d.B
+      scoreOf: []
+    context: Building automation reduces deviations from your plans and reduces that time it takes to manage your workload.
+    priority: 50
+    reportingCategory: ''
+    reportingSubCategory: Resiliency
+  - title: Build a robust testing environment
+    url: 'https://azure.microsoft.com/solutions/dev-test/#overview'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1cce4a5f-6381-478f-8ed4-606a4513a11d.cdb9dc37-8692-47b4-a669-ac326787ed8d.C
+      scoreOf: []
+    context: Build a robust testing environment.
+    priority: 80
+    reportingCategory: ''
+    reportingSubCategory: Resiliency
+  - title: Right-size your VMs
+    url: 'https://docs.microsoft.com/azure/virtual-machines/sizes?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1cce4a5f-6381-478f-8ed4-606a4513a11d.cdb9dc37-8692-47b4-a669-ac326787ed8d.D
+      scoreOf: []
+    context: Choose the right VM family for your workload for performance and cost.
+    priority: 60
+    reportingCategory: ''
+    reportingSubCategory: Resiliency
+  - title: Manage your quota
+    url: 'https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests?branch=release-virtualmachine-ga'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 1cce4a5f-6381-478f-8ed4-606a4513a11d.cdb9dc37-8692-47b4-a669-ac326787ed8d.E
+      scoreOf: []
+    context: Plan what level of quota will be required and review that level regularly as the workload evolves and grows and request changes early.
+    priority: 85
+    reportingCategory: ''
+    reportingSubCategory: Resiliency
+uid: fd2f0359-69ef-49dd-a507-ac3bb4a3625b
+name: ''

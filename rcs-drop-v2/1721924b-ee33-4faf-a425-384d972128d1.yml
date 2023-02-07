@@ -1,0 +1,54 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Evaluate scenarios where you perform A/B testing or use slots with your Azure Functions that are tied to events
+    url: /azure/azure-functions/functions-deployment-slots#limitations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5bb4c81f-7099-4377-9887-f9f45407bb21.6298d46b-89e9-4578-a2a0-9894b089afc4.A
+      scoreOf: []
+    context: 'If you are doing A/B testing or using slots and your Azure Functions are tied to events, then a new deployment (slot B) might start picking up events as soon as it is deployed. Care needs to be taken for events such that you disable a slot or have your code smart enough not to process certain items when in a certain slot (this can be impossible for certain triggers).'
+    priority: 50
+    reportingCategory: Availability and Business Continuity
+    reportingSubCategory: Reliability and Stability
+  - title: Make your functions leverage batching messages for better performance
+    url: /azure/architecture/serverless/event-hubs-functions/performance-scale
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5bb4c81f-7099-4377-9887-f9f45407bb21.6298d46b-89e9-4578-a2a0-9894b089afc4.B
+      scoreOf: []
+    context: Some triggers like Event Hub enable receiving a batch of messages on a single invocation. Batching messages has much better performance.
+    priority: 25
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Design your complex functions to handle transient and persistent failure
+    url: /azure/azure-functions/functions-best-practices#write-defensive-functions
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5bb4c81f-7099-4377-9887-f9f45407bb21.6298d46b-89e9-4578-a2a0-9894b089afc4.C
+      scoreOf: []
+    context: 'Assume your function could encounter an exception at any time. Design your functions with the ability to continue from a previous fail point during the next execution. Depending on how complex your system is, you may have: involved downstream services behaving badly, networking outages, or quota limits reached, etc. All of these can affect your function at any time. You need to design your functions to be prepared for it.'
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+  - title: Orchestrator of durable functions utilizes a replay pattern and must be deterministic
+    url: /azure/azure-functions/durable/durable-functions-code-constraints#orchestrator-code-constraints
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 5bb4c81f-7099-4377-9887-f9f45407bb21.6298d46b-89e9-4578-a2a0-9894b089afc4.D
+      scoreOf: []
+    context: 'Orchestrator functions use event sourcing to ensure reliable execution and to maintain local variable state. The replay behavior of orchestrator code creates constraints on the type of code that you can write in an orchestrator function. For example, orchestrator functions must be deterministic: an orchestrator function will be replayed multiple times, and it must produce the same result each time.'
+    priority: 75
+    reportingCategory: Business/IT Alignment
+    reportingSubCategory: 'Architecture, Design and Documentation'
+uid: 1721924b-ee33-4faf-a425-384d972128d1
+name: ''

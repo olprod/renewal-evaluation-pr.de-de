@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Only built-in RBAC roles are assigned. These roles grant higher level roles to cover all required permissions, even for actions that may not be required (like assigning Owner or Contributor to everyone)'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Only built-in RBAC roles are assigned. These roles assign numerous built-in roles multiple times to tightly scope and control permissions and ensure that only required permissions are given.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Custom RBAC roles are assigned for all requirements.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '3'
+    text: 'Custom RBAC role assignments are used alongside built-in role assignments to provide what permissions the built-in roles don''t include. Custom RBAC roles are only assigned when absolutely necessary, since custom requirements are not covered by the built-in roles or any combination of built-in roles.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: false
+uid: 3f0a4385-f6a4-4103-9375-8f77c0aa16fd
+name: Which of the following practices do you use when you define Azure RBAC (IAM) roles to assign to identities?

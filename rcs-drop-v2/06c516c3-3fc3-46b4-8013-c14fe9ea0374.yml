@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: 'This section cover practices for staying current and take Application and quality updates for D365 F&O workloads. Development teams working on solution development and implementation need to be aware of new features available in products, roadmap of products, deprecated features, as well align their development & deployment strategies with One Version and platform releases. '
+hideEmptyGuidance: false
+questions:
+  - bcaa0e11-e8f6-4cac-9e02-d266593d6dba
+  - baf360cb-c1db-4105-a02a-5dacbee6d55f
+  - 4d6b64c3-fe3c-4317-8df6-0b08f4777f87
+  - c665701b-ea18-42d7-bebe-78795a29fa8a
+  - 003b8d26-a9fe-4d81-b46f-363f5f03bfe6
+  - 326a7ef2-dfdd-46a8-95ed-c92008a5698c
+recommendations:
+  - aefb4063-1074-4992-886b-7c538b97c866
+assignedGroupIds:
+  - a6f58ab5-41f6-4fd9-bba5-d3f286965267
+uid: 06c516c3-3fc3-46b4-8013-c14fe9ea0374
+name: Application Updates & Roadmap Resources

@@ -1,0 +1,12 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 333b3b6d-0803-4d66-bd4d-c9cc41b4e253
+recommendations:
+  - 60c95182-9ca0-4cd8-9786-c9359678deec
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: 21e49bb4-01cd-4da2-81a7-b33adf5e195c
+name: Deployment Acceleration current state

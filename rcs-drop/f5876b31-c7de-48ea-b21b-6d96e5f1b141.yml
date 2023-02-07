@@ -1,0 +1,23 @@
+### YamlMime:QuestionSet
+scenario: Which interface do you have to use to rotate external secrets of an Azure Stack Hub integrated system?
+questionnaireUid: f59173c6-ad76-4667-9553-1272096e6cc9
+questions:
+  - uid: f5876b31-c7de-48ea-b21b-6d96e5f1b141-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: Which interface do you have to use to rotate external secrets of an Azure Stack Hub integrated system?
+        isCorrect: false
+      - id: 1
+        text: Azure Stack Hub administrator portal
+        isCorrect: true
+      - id: 2
+        text: Azure Stack Hub privileged endpoint
+        isCorrect: false
+      - id: 3
+        text: Azure portal
+        isCorrect: false
+uid: f5876b31-c7de-48ea-b21b-6d96e5f1b141
+title: ''

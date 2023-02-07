@@ -1,0 +1,69 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'Discover / identify all types of passwords, keys and other secrets across your entire IT environment and bring them under centralized management. Continuously discover and onboard new secrets as they are created.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: 'Eliminate hardcoded / embedded secrets in DevOps tool configurations, build scripts, code files, test builds, production builds, applications.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '2'
+    text: 'Enforce password security best practices, including password length, complexity, uniqueness expiration, rotation, and more across all types of passwords.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '3'
+    text: 'Apply privileged session monitoring to log, audit, and monitor all privileged sessions (for accounts, users, scripts, automation tools, etc.) to improve oversight and accountability.'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '4'
+    text: Extend secrets management to third-parties – ensure partners and vendors conform to best practices in using and managing secrets.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: '5'
+    text: Threat analytics – continuously analyze secrets usage to detect anomalies and potential threats.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Scanning for credentials and other sensitive content in source files is necessary during pre-commit as they reduce the risk of propagating the sensitive information into your team’s CI/CD process.
+isRequired: true
+uid: 143afbcc-cfff-48f9-b54a-4878bf3c299e
+name: Scanning for credentials and other sensitive content in source files is necessary during pre-commit as they reduce the risk of propagating the sensitive information into your team’s CI/CD process.

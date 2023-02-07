@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are invoking a task module from a tab in a Microsoft Teams app.
+
+  The Microsoft Teams JavaScript Client SDK must be initialized before you can call a task module in a Teams tab.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 3de43e87-9216-40a9-8141-c796b7dc1e34
+questions:
+  - uid: ff32215b-2841-4333-bfb6-d79c17e3275e-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are invoking a task module from a tab in a Microsoft Teams app.
+        isCorrect: true
+      - id: 1
+        text: The Microsoft Teams JavaScript Client SDK must be initialized before you can call a task module in a Teams tab.
+        isCorrect: false
+uid: ff32215b-2841-4333-bfb6-d79c17e3275e
+title: Select Yes if the statement is true.

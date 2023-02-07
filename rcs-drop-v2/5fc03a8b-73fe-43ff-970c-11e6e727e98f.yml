@@ -1,0 +1,65 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The entire application infrastructure is defined as code
+    description: 'Is application infrastructure defined as code, for example with ARM templates or Terraform?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: B
+    text: No operational changes are performed outside of infrastructure as code
+    description: Are any operational changes performed outside of IaC (Infrastructure as Code)? Examples would be through Azure CLI or the Portal.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: C
+    text: Configuration drift is tracked and addressed
+    description: by using tools like Terraform; How does the application track and address configuration drift?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 15
+  - id: D
+    text: The process to deploy infrastructure is automated
+    description: Is the process to deploy infrastructure automated?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: E
+    text: 'Critical test environments have 1:1 parity with the production environment'
+    description: 'Do critical test environments have 1:1 parity with the production environment?'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: Direct write access to infrastructure is not possible and all resources are provisioned or configured through IaC processes.
+    description: It is recommended that even small operational changes and modifications be implemented as-code to track changes and ensure they are fully reproducible and revertible. No infrastructure changes should be done manually outside of IaC.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: F
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: 'As you provision and update Azure resources, application code, and configuration settings, a repeatable and predictable process will help you avoid errors and downtime.'
+isRequired: false
+legacyId: infrastructure-deployment
+uid: 5fc03a8b-73fe-43ff-970c-11e6e727e98f
+name: 'As you provision and update Azure resources, application code, and configuration settings, a repeatable and predictable process will help you avoid errors and downtime.'

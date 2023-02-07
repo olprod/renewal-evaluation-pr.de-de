@@ -1,0 +1,60 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. No intake process for business needs leads to analytics without relevance; analytics development is linear and slow.
+    description: |
+      No intake process for business needs leads to analytics without relevance; analytics development is linear and slow.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Analytics development lacks alignment across functional areas due to varied stakeholder preferences.
+    description: |
+      Analytics development lacks alignment across functional areas due to varied stakeholder preferences.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Analytics process aligned across multiple functions and insights are usually delivered to the business process / decision.
+    description: |
+      Analytics process aligned across multiple functions and insights are usually delivered to the business process / decision.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Analytics priorities proactively aligned across enterprise with organization’s strategy; agile development for new insights.
+    description: |
+      Analytics priorities proactively aligned across enterprise with organization’s strategy; agile development for new insights.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Functional areas share best practices and embed insights at decision points; fail fast model accelerates innovation.
+    description: |
+      Functional areas share best practices and embed insights at decision points; fail fast model accelerates innovation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: How do you self-service analytics today?
+isRequired: true
+uid: abc74c92-e68a-4474-9b69-ffefdda40f65
+name: How do you self-service analytics today?

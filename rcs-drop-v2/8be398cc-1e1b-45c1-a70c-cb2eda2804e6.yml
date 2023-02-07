@@ -1,0 +1,714 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Forecast data growth rates aligned to business plans and use established rates to inform ongoing capacity requirements.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Compare aggregate and per-data record volumes against data platform limits.
+    url: /azure/azure-resource-manager/management/azure-subscription-service-limits
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'If there''s a risk of limits being reached in exceptional circumstances, ensure operational mitigations are in place to prevent downtime and data loss.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Consider classifying datasets, ''warm'' and ''cold'' (''archive'') tiers.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Monitor data volume and validate it against a capacity model, considering scale limits and expected data growth rates.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Create a capacity model, which considers the data platform''s limits, and regularly validate the amount of data against it.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure Time-To-Live (TTL) expiration for data that is no longer required and has no long-term analytical value.
+    url: /azure/cosmos-db/sql/time-to-live
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Offload non-critical data to secondary cold storage, but maintain it for analytical value and to satisfy audit requirements.'
+    url: /azure/cosmos-db/analytical-store-introduction
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Validate that old data can be safely tiered to secondary storage, or deleted outright, without an adverse impact to the application.'
+    url: /azure/cosmos-db/sql/change-feed-design-patterns
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Consider the use of different data technologies in parallel, with optimized data solutions for specific workload scenarios and volume requirements.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Avoid creating a single monolithic datastore where data volume from expansion can be hard to manage.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.b00a3eee-44e4-4179-bcfd-d3aba71ed6a0.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Separate different data workloads, such as transactional and analytical operations, into distinct performance contexts.'
+    url: /azure/architecture/guide/technology-choices/data-store-decision-tree
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Ensure read and write throughput for each data scenario can scale according to expected load patterns, with sufficient tolerance for unexpected variance.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For high throughput scenarios, implement load leveling patters, such as CQRS or Event Sourcing.'
+    url: /azure/architecture/patterns/cqrs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Understand the impact of load leveling on data availability and write-read latency.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider overprovisioning capacity levels to ensure throughput and performance is maintained during rapid changes in load.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Test and validate the impact to composite application workloads when throughput can't be maintained.
+    url: /azure/architecture/framework/mission-critical/mission-critical-deployment-testing
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prioritize Azure-native data services with automated scale-operations to facilitate a swift response to load-level volatility.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure autoscaling based on service-internal and application-set thresholds.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For scenarios where manual interaction is necessary, establish automated operational ''playbooks'' that can be triggered rather than conducting manual operational actions.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-operational-procedures
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Monitor application data read-and-write throughput against P50/P99 latency requirements and align to an application capacity model.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-considerations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.7508c73d-3c12-46d6-965a-93d1c9644997.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Allow individual services to use distinct data stores and scenario-optimized data technologies. Identify the types of data structure the application will handle for specific workload scenarios.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.0989f0a4-0cd4-4c05-8005-1e4dc3e1feb0.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Avoid creating a dependency on a single monolithic datastore. Consider the SAGA design pattern where dependencies between datastores exist.
+    url: /azure/architecture/reference-architectures/saga/saga
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.0989f0a4-0cd4-4c05-8005-1e4dc3e1feb0.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Validate that required capabilities are available for selected data technologies.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.0989f0a4-0cd4-4c05-8005-1e4dc3e1feb0.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Adopt a multi-region data platform design and distribute replicas across regions for maximum reliability, availability, and performance by moving data closer to application endpoints.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f6d969d2-7818-4881-9fe6-af97a378dab7.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Distribute data replicas across availability zones within a region or use zone-redundant service tiers to maximize intra-region availability.
+    url: /azure/cosmos-db/high-availability#availability-zone-support
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f6d969d2-7818-4881-9fe6-af97a378dab7.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Consider business requirements for availability, data consistency, and conflict resolution. Adopt multi-region write design appropriately.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f6d969d2-7818-4881-9fe6-af97a378dab7.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prioritize the use of local database replica.
+    url: /dotnet/api/microsoft.azure.cosmos.cosmosclientoptions.applicationregion
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f6d969d2-7818-4881-9fe6-af97a378dab7.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'When applying encryption, it''s strongly recommended to use service-managed encryption keys as a way of reducing management complexity.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f6d969d2-7818-4881-9fe6-af97a378dab7.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'If there''s a specific security requirement for customer-managed keys, ensure appropriate key management procedures are applied to ensure availability, backup, and rotation of all considered keys.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f6d969d2-7818-4881-9fe6-af97a378dab7.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Implement the right conflict resolution policy for the application.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-considerations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f6d969d2-7818-4881-9fe6-af97a378dab7.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use native APIs, such as SQL API for Cosmos DB, for the data store since it offers the most comprehensive feature set, particularly where performance tuning is concerned.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use direct connection mode, where possible, to optimize network performance through direct TCP connectivity with a minimal number of network ''hops.'''
+    url: /azure/cosmos-db/sql-sdk-connection-modes
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define a partitioning strategy across both logical and physical partitions to optimize data distribution according to the data model and minimize cross-partition queries.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Iteratively test and validate the partitioning strategy to ensure optimal performance.
+    url: /azure/cosmos-db/how-to-model-partition-example
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Select an optimal partition key.
+    url: /azure/cosmos-db/partitioning-overview#choose-partitionkey
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Only index those fields that are needed for filtering within queries. Design indexes for the most-used predicates.
+    url: /azure/cosmos-db/index-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Leverage the built-in error handling, retry, and broader reliability capabilities of the database SDK. Implement retry logic within the SDK on clients.'
+    url: /azure/architecture/best-practices/retry-service-specific#cosmos-db
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Evaluate application traffic patterns to select an optimal option for provisioned throughput types.
+    url: /azure/cosmos-db/how-to-choose-offer
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'It''s recommended to practice recovery procedures on non-production resources and data, as part of standard business continuity operation preparation.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Define IaC artifacts to re-establish configuration settings and capabilities of a data store backup restore.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-1
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f79863b7-fcd3-4147-8981-0607d31437c2.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Flexible Server offerings, where possible, to benefit from availability zone support.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use the Business-Critical service tier to maximize reliability and availability, including access to critical resiliency capabilities.'
+    url: /azure/azure-sql/database/high-availability-sla
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'For Azure SQL Database, use the vCore-based consumption model to facilitate the independent selection of compute and storage resources, tailored to workload volume and throughput requirements.'
+    url: /azure/azure-sql/database/purchasing-models?view=azuresql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Consider sharding to partition relational databases based on different application and data contexts, helping to navigate platform constraints, maximize scalability and availability, and fault isolation. Sharding isn''t appropriate for all application scenarios, so a contextualized evaluation is required.'
+    url: /azure/sql-database/sql-database-elastic-scale-introduction
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Prioritize the use of Azure SQL Database where relational requirements exist due to its maturity on the Azure platform and wide array of reliability capabilities.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.4
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use active geo-replication to deploy readable replicas within all deployment regions.
+    url: /azure/azure-sql/database/active-geo-replication-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Auto Failover Groups to provide transparent failover to a secondary region, with geo-replication applied to provide replication to additional deployment regions for read optimization and database redundancy. For application scenarios limited to only two deployment regions, the use of Auto Failover Groups should be prioritized.'
+    url: /azure/azure-sql/database/designing-cloud-solutions-for-disaster-recovery
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.5
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Configure the application to query replica instances for read queries to optimize read performance.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.6
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Use Azure Monitor to evaluate usage for all databases to determine if they have been sized appropriately.
+    url: /azure/azure-monitor/insights/azure-sql#analyze-data-and-create-alerts
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure CD pipelines consider load testing under representative load levels to validate appropriate data platform behavior.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-2
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.88ff03bb-acce-4054-9a79-3221712030c5.7
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Consider an optimized caching layer for 'hot' data scenarios to increase read throughput and improve response times.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.a5fa97a9-e926-4cc5-8819-7850a3b67e34.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Apply appropriate policies for cache expiration and housekeeping to avoid runaway data growth. Consider expiring cache items when the backing data changes.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.a5fa97a9-e926-4cc5-8819-7850a3b67e34.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use the Azure Cache for Redis Premium or Enterprise SKU to maximize reliability and performance. For scenarios with extremely large data volumes, the Enterprise Flash tier should be considered. For scenarios where only passive geo-replication is required, the Premium tier can also be considered.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-recommendations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.a5fa97a9-e926-4cc5-8819-7850a3b67e34.2
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Deploy replica instances using geo-replication in an active configuration across all considered deployment regions.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-considerations-3
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.a5fa97a9-e926-4cc5-8819-7850a3b67e34.3
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Ensure analytical workloads don't impact transactional application workloads to maintain transactional performance.
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-considerations-4
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f01f7f3d-f683-4a4e-b897-394b4bbc7f00.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Synapse Link with Cosmos DB Analytical Store to perform analytics on Cosmos DB operational data by creating an optimized data store, which won''t impact transactional performance.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-considerations-4
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f01f7f3d-f683-4a4e-b897-394b4bbc7f00.0
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: 'Use Azure Synapse Link with Cosmos DB Analytical Store to perform analytics on Cosmos DB operational data by creating an optimized data store, which won''t impact transactional performance.'
+    url: /azure/architecture/framework/mission-critical/mission-critical-data-platform#design-considerations-4
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f01f7f3d-f683-4a4e-b897-394b4bbc7f00.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+  - title: Enable Azure Synapse Link on Azure Cosmos DB accounts.
+    url: /azure/cosmos-db/configure-synapse-link#enable-synapse-link
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 29cd0819-ea59-4039-bc04-f46ee79cc22d.f01f7f3d-f683-4a4e-b897-394b4bbc7f00.1
+      scoreOf: []
+    context: ''
+    priority: 0
+    reportingCategory: ''
+    reportingSubCategory: ''
+uid: 8be398cc-1e1b-45c1-a70c-cb2eda2804e6
+name: ''

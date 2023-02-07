@@ -1,0 +1,23 @@
+### YamlMime:QuestionSet
+scenario: "Which setting should you configure to enable\_auto-pause settings for an Apache Spark pool?"
+questionnaireUid: cf873b4c-082a-4a9d-813f-c21b8b495740
+questions:
+  - uid: fd469669-7901-4391-b21d-76690b1c66f8-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: "Which setting should you configure to enable\_auto-pause settings for an Apache Spark pool?"
+        isCorrect: true
+      - id: 1
+        text: Number of minutes idle
+        isCorrect: false
+      - id: 2
+        text: Number of seconds idle
+        isCorrect: false
+      - id: 3
+        text: The number of nodes to pause
+        isCorrect: false
+uid: fd469669-7901-4391-b21d-76690b1c66f8
+title: ''

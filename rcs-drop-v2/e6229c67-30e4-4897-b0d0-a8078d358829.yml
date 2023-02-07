@@ -1,0 +1,16 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: ''
+hideEmptyGuidance: false
+questions:
+  - 70b31cdc-9cb9-4393-9c56-bf2dfce927b3
+  - eafe38e5-71a2-431f-b839-90cdf89dc8cf
+  - dcf141de-468f-4aa0-be2d-0353e681544b
+  - b6690cc0-1a50-4daf-a18a-c4483353126d
+  - 541840b6-29e6-4aee-b1c0-8f2340d0892f
+  - 1f5d5e99-de25-4233-99ec-f2a31fd53783
+recommendations:
+  - aaa57965-a845-47f3-aef4-81376138ae46
+assignedGroupIds: []
+uid: e6229c67-30e4-4897-b0d0-a8078d358829
+name: Synapse - Cost Optimization

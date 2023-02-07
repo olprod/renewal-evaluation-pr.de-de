@@ -1,0 +1,65 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: User/Sign In Risks (requires P2)
+    description: 'E.g. Sign-in risk-based multifactor authentication - https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-risk'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '1'
+    text: Device Platforms
+    description: 'E.g Block access for unknown or unsupported device platform - https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-policy-unknown-unsupported-device'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Locations
+    description: 'E.g. Block access by location - https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-location'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '3'
+    text: Client Apps
+    description: 'E.g. Require approved client apps or app protection policy - https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-policy-approved-app-or-app-protection'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '4'
+    text: Filter For Devices
+    description: 'E.g. Do not require multifactor authentication for specific accounts on specific devices - https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-condition-filters-for-devices#common-scenarios'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '5'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 46b55d3b-73eb-4070-a446-7743069cff7c.53edb557-9420-4f11-8871-74f7abbbc5c7.1
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: |-
+  Policies answer questions about who should access your resources, what resources they should access, and under what conditions. Policies can be designed to grant access, limit access with session controls, or to block access. You build a Conditional Access policy by defining the if-then statements: If an assignment is met, then apply the access controls.
+  https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#ask-the-right-questions
+isRequired: true
+uid: 21a3d044-b790-4ef6-880d-6abfd5084624
+name: 'Policies answer questions about who should access your resources, what resources they should access, and under what conditions.'

@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've established DevOps processes and procedures to be able to achieve repeatable automated deployments
+    description: Automation helps drive consistency and greater control over deployment.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: You do manual deployments
+    description: Automatic deployments and layered deployments help you manage and configure modules on large numbers of IoT Edge devices
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: A repeatable process to deploy and configure your device or edge agent minimizes any inconsistencies in how agents are deployed to devices and helps to deliver a more reliable end-to-end IoT solution.
+isRequired: false
+uid: 0cd0a25d-b00f-4542-b3be-d406332622a5
+name: A repeatable process to deploy and configure your device or edge agent minimizes any inconsistencies in how agents are deployed to devices and helps to deliver a more reliable end-to-end IoT solution. Q3.

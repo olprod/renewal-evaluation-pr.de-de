@@ -1,0 +1,42 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Consider using Azure elastic database pools within your solution
+    url: /azure/azure-sql/database/elastic-pool-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 72040c6f-e9be-49f4-88a1-2e2e0f10b59a.e635b898-4742-4418-a532-c42da1e3856d.A
+      scoreOf: []
+    context: Elastic pools provide a simple cost effective solution to manage the performance goals for multiple databases that have widely varying and unpredictable usage patterns. This may be more appropriate in a micro service environment.
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Designing for Performance
+  - title: Use Query Performance Insight to improve overall workload performance
+    url: /azure/azure-sql/database/query-performance-insight-use
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 72040c6f-e9be-49f4-88a1-2e2e0f10b59a.e635b898-4742-4418-a532-c42da1e3856d.B
+      scoreOf: []
+    context: Query Performance Insight helps identify the top resource consuming and long-running queries in your workload. This helps you find the queries to optimize to improve overall workload performance and efficiently use the resource that you are paying for.
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+  - title: Actively monitor the performance recommendations
+    url: /azure/azure-sql/database/database-advisor-implement-performance-recommendations
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - 72040c6f-e9be-49f4-88a1-2e2e0f10b59a.e635b898-4742-4418-a532-c42da1e3856d.C
+      scoreOf: []
+    context: 'Performance recommendations can alert you to optimizations that can be applied to your SQL database. For example missing indices, removing indices and forcing query plans.'
+    priority: 50
+    reportingCategory: Performance and Scalability
+    reportingSubCategory: Performance Tuning and Configuration
+uid: f13bf51d-765a-4234-97cc-1d11fad2ac40
+name: ''

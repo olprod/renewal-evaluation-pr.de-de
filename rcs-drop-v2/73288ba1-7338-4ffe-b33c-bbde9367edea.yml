@@ -1,0 +1,71 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: The identity provider (AAD/ADFS/AD/Other) is highly available and aligns with application availability and recovery targets.
+    description: Is the identity provider (AAD/ADFS/AD/Other) and network connectivity to the identity provider highly available?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: B
+    text: 'All external application endpoints are secured? i.e. Firewall, WAF, DDoS Protection Standard Plan, etc.'
+    description: 'Are all external application endpoints secured using security services? Such as Azure Firewall, Application Gateway and Azure Front Door WAF, or DDoS Protection Standard Plan. How threat vectors such as DDoS attacks are mitigated ultimately has a bearing on application reliability'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: C
+    text: Communication to Azure PaaS services secured using Virtual Network Service Endpoints or Private Link.
+    description: Is communication to Azure PaaS services secured by using VNet Service Endpoints or Private Link?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: D
+    text: Keys and secrets are backed-up to geo-redundant storage.
+    description: Keys and secrets must still be available in a failover case.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: E
+    text: The process for key rotation is automated and tested
+    description: Is the process for key rotation is automated and tested?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 16
+  - id: F
+    text: Emergency access break glass accounts have been tested and secured for recovering from Identity provider failure scenarios.
+    description: Are break glass AAD accounts setup and secured?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: Reliability allowances for security
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWDJMB'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+  anyOf:
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: Identifying and addressing security-related risks helps to minimize application downtime and data loss caused by unexpected security exposures.
+isRequired: false
+legacyId: '9'
+uid: 73288ba1-7338-4ffe-b33c-bbde9367edea
+name: Identifying and addressing security-related risks helps to minimize application downtime and data loss caused by unexpected security exposures.

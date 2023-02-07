@@ -1,0 +1,56 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization has no formal frameworks for policy creation.
+    description: Your organization has no formal frameworks for policy creation.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization has a defined approach to policy creation to manage data governance.
+    description: Your organization has a defined approach to policy creation to manage data governance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization has formal approach to policy creation to help manage data governance.
+    description: Your organization has formal approach to policy creation to help manage data governance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: 'Advanced. Your organization approved and audit policies to secure data and manage policy creation. '
+    description: 'Your organization approved and audit policies to secure data and manage policy creation. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization is actively enforcing policies to secure data and manage privacy.
+    description: |
+      Your organization is actively enforcing policies to secure data and manage privacy.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you have adequate data policy creation in place to ensure the data is governed appropriately?
+isRequired: true
+uid: 5aeff321-908e-4959-80e7-0d522908b39d
+name: Do you have adequate data policy creation in place to ensure the data is governed appropriately?

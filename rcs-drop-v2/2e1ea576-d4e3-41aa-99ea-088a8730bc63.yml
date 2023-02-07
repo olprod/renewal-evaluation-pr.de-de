@@ -1,0 +1,131 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Do you have a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud environments?'
+    description: Implement alerting and monitoring for the DevOps infrastructure of the workload.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: B
+    text: 'Do you have a way to correlate logs between your application code, the platform where it is running, the data components, and the network connecting the application to its users?'
+    description: Correlate events between the different application tiers.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: C
+    text: Do you log all deployment activity and do you have a method to parse these logs for errors?
+    description: Log for all deployments.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: D
+    text: Do you use a visualization tool or alerts to track issues when deployments occur?
+    description: Track deployment metrics.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: E
+    text: Do you have a process in place to monitor and handle failures in any underlying service?
+    description: Monitor underlying services.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: F
+    text: 'Azure Advisor, SQL Insights, and/or other SQL monitoring tools are being used to track performance optimization potential.'
+    description: Use this input as a guideline to tune your database.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: G
+    text: Database error messages are captured in a structured format and can be indexed and searched for database- related errors.
+    description: 'Azure Log Analytics, but also other database-native solutions, are a good choice to capture historical data.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: H
+    text: Auditing is enabled to keep track of any changes happening in my database code and infrastructure configuration.
+    description: 'Capturing as much version-specific information as possible, including T-SQL commands that have been executed, implements a robust logging strategy, aids environment, and deployment management.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: I
+    text: Audit and track changes in my database code and infrastructure configuration.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: J
+    text: Are you currently monitoring and alerting on database metrics?
+    description: Database logs and metrics are used to evaluate critical database performance targets and non-functional requirements.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: K
+    text: Are you aware what issues are caused by any particular queries?
+    description: 'For on-going monitoring and troubleshooting, know how to use Query Store, Dynamic Management Views, and/or Extended Events.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: L
+    text: Which log aggregation technology is used to collect logs and metrics from Azure resources?
+    description: 'A log aggregation technology, such as Azure Log Analytics or Splunk, is used to collect database- related logs and metrics from the application log.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 7
+  - id: M
+    text: Are you collecting Azure Activity Logs within the log aggregation tool?
+    description: Azure Activity Logs are collected within the log aggregation tool to monitor database operations.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: 'N'
+    text: Is alerting set up on predefined metrics and Resource Health events to be able to get quick insights into database health?
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 6
+  - id: O
+    text: Is monitoring centralized?
+    description: 'Leveraging central Azure monitoring tools like Azure Monitor and Azure Security Center, Azure Advisor recommendations help to optimize workload operability'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-data.database-services.F
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+stem: ''
+isRequired: false
+uid: 2e1ea576-d4e3-41aa-99ea-088a8730bc63
+name: How are you monitoring your deployments?
